@@ -37,7 +37,7 @@ namespace LeetCode.Problem004_MedianOfTwoSortedArrays
                         i - 1 < 0 ? double.NegativeInfinity : a[i - 1],
                         j - 1 < 0 ? double.NegativeInfinity : b[j - 1]);
 
-                    if (m + n % 2 == 1)
+                    if ((m + n) % 2 == 1)
                         return maxLeft;
 
                     var minRight = Math.Min(

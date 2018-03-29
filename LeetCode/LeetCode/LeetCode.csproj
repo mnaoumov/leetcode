@@ -44,6 +44,8 @@
     <Compile Include="Problem001_TwoSum\BruteForce.cs" />
     <Compile Include="Problem001_TwoSum\OnePassDictionary.cs" />
     <Compile Include="Problem001_TwoSum\TwoPassDictionary.cs" />
+    <Compile Include="Problem002_AddTwoNumbers\ISolution.cs" />
+    <Compile Include="Problem002_AddTwoNumbers\Solution.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

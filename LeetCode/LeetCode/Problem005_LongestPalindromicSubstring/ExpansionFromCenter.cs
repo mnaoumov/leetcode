@@ -8,7 +8,7 @@ namespace LeetCode.Problem005_LongestPalindromicSubstring
         {
             var max = "";
             var n = s.Length;
-            for (int l = 1; l <= 2 * n - 3; l++)
+            for (int l = 0; l < 2 * n; l++)
             {
                 for (int i = l / 2, j = l - i; i >= 0 && j < n; i--, j++)
                 {

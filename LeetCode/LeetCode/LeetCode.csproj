@@ -53,6 +53,7 @@
     <Compile Include="Problem003_LongestSubstringWithoutRepeatingCharacters\BruteForce.cs" />
     <Compile Include="Problem004_MedianOfTwoSortedArrays\ISolution.cs" />
     <Compile Include="Problem004_MedianOfTwoSortedArrays\Solution.cs" />
+    <Compile Include="Problem005_LongestPalindromicSubstring\DynamicProgramming.cs" />
     <Compile Include="Problem005_LongestPalindromicSubstring\ISolution.cs" />
     <Compile Include="Problem005_LongestPalindromicSubstring\BruteForce.cs" />
     <Compile Include="Problem005_LongestPalindromicSubstring\ExpansionFromCenter.cs" />

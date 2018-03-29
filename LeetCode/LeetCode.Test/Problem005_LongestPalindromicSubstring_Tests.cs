@@ -5,6 +5,7 @@ namespace LeetCode.Test
 {
     [TestFixture(typeof(BruteForce))]
     [TestFixture(typeof(ExpansionFromCenter))]
+    [TestFixture(typeof(DynamicProgramming))]
     public class Problem005_LongestPalindromicSubstring_Tests<TSolution> where TSolution : ISolution, new()
     {
         [Test]

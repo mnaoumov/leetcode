@@ -51,6 +51,8 @@
     <Compile Include="Problem003_LongestSubstringWithoutRepeatingCharacters\MoveSlowly.cs" />
     <Compile Include="Problem003_LongestSubstringWithoutRepeatingCharacters\ISolution.cs" />
     <Compile Include="Problem003_LongestSubstringWithoutRepeatingCharacters\BruteForce.cs" />
+    <Compile Include="Problem004_MedianOfTwoSortedArrays\ISolution.cs" />
+    <Compile Include="Problem004_MedianOfTwoSortedArrays\Solution.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

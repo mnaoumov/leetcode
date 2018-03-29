@@ -15,7 +15,7 @@ namespace LeetCode.Problem001_TwoSum
             {
                 int complementIndex;
                 var complementValue = target - nums[index];
-                if (numberToIndexDict.TryGetValue(complementValue, out complementIndex))
+                if (numberToIndexDict.TryGetValue(complementValue, out complementIndex) && complementIndex != index)
                 {
                     return new[] {index, complementIndex};
                 }

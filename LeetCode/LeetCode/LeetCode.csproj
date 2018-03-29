@@ -40,7 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Problem001_TwoSum\Solution.cs" />
+    <Compile Include="Problem001_TwoSum\ISolution.cs" />
+    <Compile Include="Problem001_TwoSum\BruteForce.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

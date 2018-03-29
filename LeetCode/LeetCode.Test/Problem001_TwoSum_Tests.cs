@@ -4,6 +4,7 @@ using NUnit.Framework;
 namespace LeetCode.Test
 {
     [TestFixture(typeof(BruteForce))]
+    [TestFixture(typeof(TwoPassDictionary))]
     public class Problem001_TwoSum_Tests<TSolution> where TSolution : ISolution, new()
     {
         [Test]

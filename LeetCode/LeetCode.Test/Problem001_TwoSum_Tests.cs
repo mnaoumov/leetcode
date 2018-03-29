@@ -5,6 +5,7 @@ namespace LeetCode.Test
 {
     [TestFixture(typeof(BruteForce))]
     [TestFixture(typeof(TwoPassDictionary))]
+    [TestFixture(typeof(OnePassDictionary))]
     public class Problem001_TwoSum_Tests<TSolution> where TSolution : ISolution, new()
     {
         [Test]

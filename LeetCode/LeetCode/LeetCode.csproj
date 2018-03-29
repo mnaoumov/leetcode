@@ -46,6 +46,7 @@
     <Compile Include="Problem001_TwoSum\TwoPassDictionary.cs" />
     <Compile Include="Problem002_AddTwoNumbers\ISolution.cs" />
     <Compile Include="Problem002_AddTwoNumbers\Solution.cs" />
+    <Compile Include="Problem003_LongestSubstringWithoutRepeatingCharacters\ArrayBased.cs" />
     <Compile Include="Problem003_LongestSubstringWithoutRepeatingCharacters\MoveQuicker.cs" />
     <Compile Include="Problem003_LongestSubstringWithoutRepeatingCharacters\MoveSlowly.cs" />
     <Compile Include="Problem003_LongestSubstringWithoutRepeatingCharacters\ISolution.cs" />

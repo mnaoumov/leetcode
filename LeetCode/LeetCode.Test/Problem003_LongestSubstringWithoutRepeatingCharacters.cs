@@ -4,6 +4,7 @@ using NUnit.Framework;
 namespace LeetCode.Test
 {
     [TestFixture(typeof(BruteForce))]
+    [TestFixture(typeof(MoveSlowly))]
     public class Problem003_LongestSubstringWithoutRepeatingCharacters_Tests<TSolution> where TSolution : ISolution, new()
     {
         [Test]

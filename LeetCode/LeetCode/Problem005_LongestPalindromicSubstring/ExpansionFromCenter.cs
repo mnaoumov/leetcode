@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace LeetCode.Problem005_LongestPalindromicSubstring
+﻿namespace LeetCode.Problem005_LongestPalindromicSubstring
 {
     public class ExpansionFromCenter : ISolution
     {
@@ -14,9 +12,8 @@ namespace LeetCode.Problem005_LongestPalindromicSubstring
                 {
                     if (s[i] != s[j])
                         break;
-                    var potentialMax = s.Substring(i, j - i + 1);
-                    if (max.Length < potentialMax.Length)
-                        max = potentialMax;
+                    if (max.Length < j - i + 1)
+                        max = s.Substring(i, j - i + 1);
                 }
             }
 

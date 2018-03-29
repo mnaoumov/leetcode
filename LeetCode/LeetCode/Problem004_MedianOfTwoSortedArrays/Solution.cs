@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Diagnostics;
 
 namespace LeetCode.Problem004_MedianOfTwoSortedArrays
 {
@@ -14,7 +13,6 @@ namespace LeetCode.Problem004_MedianOfTwoSortedArrays
             var b = nums2;
             var m = a.Length;
             var n = b.Length;
-            Debug.Assert(m <= n);
 
             // looking for i, j
             // a[i - 1] <= b[j]

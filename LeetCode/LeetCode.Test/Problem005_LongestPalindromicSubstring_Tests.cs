@@ -10,6 +10,7 @@ namespace LeetCode.Test
         [Test]
         [TestCase("babad", ExpectedResult = "bab")]
         [TestCase("cbbd", ExpectedResult = "bb")]
+        [TestCase("a", ExpectedResult = "a")]
         public string Test(string s)
         {
             return new TSolution().LongestPalindrome(s);

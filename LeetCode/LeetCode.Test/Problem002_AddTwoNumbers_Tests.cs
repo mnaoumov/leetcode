@@ -16,6 +16,33 @@ namespace LeetCode.Test
             Assert.That(ExtractValues(result), Is.EquivalentTo(expectedResultValues));
         }
 
+        [Test]
+        public void ExtractValue_works_as_expected()
+        {
+            var node = new ListNode(1)
+            {
+                next = new ListNode(2)
+                {
+                    next = new ListNode(3)
+                }
+            };
+
+            Assert.That(ExtractValues(node), Is.EquivalentTo(new[] {1, 2, 3}));
+        }
+
+        [Test]
+        public void CreateNode_works_as_expected()
+        {
+            var node = CreateNode(new[] {1, 2, 3});
+            Assert.Multiple(() =>
+            {
+                Assert.That(node.val, Is.EqualTo(1));
+                Assert.That(node.next.val, Is.EqualTo(2));
+                Assert.That(node.next.next.val, Is.EqualTo(3));
+                Assert.That(node.next.next.next, Is.Null);
+            });
+        }
+
         private static int[] ExtractValues(ListNode listNode)
         {
             var values = new List<int>();

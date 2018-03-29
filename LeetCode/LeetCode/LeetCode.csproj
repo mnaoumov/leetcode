@@ -55,6 +55,7 @@
     <Compile Include="Problem004_MedianOfTwoSortedArrays\Solution.cs" />
     <Compile Include="Problem005_LongestPalindromicSubstring\ISolution.cs" />
     <Compile Include="Problem005_LongestPalindromicSubstring\BruteForce.cs" />
+    <Compile Include="Problem005_LongestPalindromicSubstring\ExpansionFromCenter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

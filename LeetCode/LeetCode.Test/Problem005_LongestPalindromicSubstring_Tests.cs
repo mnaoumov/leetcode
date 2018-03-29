@@ -4,6 +4,7 @@ using NUnit.Framework;
 namespace LeetCode.Test
 {
     [TestFixture(typeof(BruteForce))]
+    [TestFixture(typeof(ExpansionFromCenter))]
     public class Problem005_LongestPalindromicSubstring_Tests<TSolution> where TSolution : ISolution, new()
     {
         [Test]

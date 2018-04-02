@@ -8,6 +8,8 @@ namespace LeetCode.Test
     {
         [Test]
         [TestCase("PAYPALISHIRING", 3, ExpectedResult = "PAHNAPLSIIGYIR")]
+        [TestCase("A", 1, ExpectedResult = "A")]
+        [Timeout(100)]
         public string Test(string s, int numRows)
         {
             return new TSolution().Convert(s, numRows);

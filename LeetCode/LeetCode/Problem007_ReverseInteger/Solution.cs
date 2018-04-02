@@ -6,27 +6,28 @@ namespace LeetCode.Problem007_ReverseInteger
     {
         public int Reverse(int x)
         {
-            var sign = Math.Sign(x);
-            x = Math.Abs(x);
-            var result = 0;
-            while (x > 0)
+            try
             {
-                var lastDigit = x % 10;
-                try
+                var sign = Math.Sign(x);
+                x = Math.Abs(x);
+                var result = 0;
+                while (x > 0)
                 {
+                    var lastDigit = x % 10;
+
                     result = checked(result * 10 + lastDigit);
-                }
-                catch (OverflowException)
-                {
-                    return 0;
+                    x = x / 10;
                 }
 
-                x = x / 10;
+                result = result * sign;
+
+                return result;
+
             }
-
-            result = result * sign;
-
-            return result;
+            catch (OverflowException)
+            {
+                return 0;
+            }
         }
     }
 }

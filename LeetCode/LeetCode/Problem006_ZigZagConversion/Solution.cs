@@ -6,6 +6,8 @@ namespace LeetCode.Problem006_ZigZagConversion
     {
         public string Convert(string s, int numRows)
         {
+            if (numRows == 1)
+                return s;
             var period = 2 * numRows - 2;
 
             var sb = new StringBuilder();

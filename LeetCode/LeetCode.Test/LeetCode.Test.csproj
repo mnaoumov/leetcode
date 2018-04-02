@@ -52,6 +52,7 @@
     <Compile Include="Problem003_LongestSubstringWithoutRepeatingCharacters.cs" />
     <Compile Include="Problem004_MedianOfTwoSortedArrays_Tests.cs" />
     <Compile Include="Problem005_LongestPalindromicSubstring_Tests.cs" />
+    <Compile Include="Problem006_ZigZagConversion_Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -57,6 +57,8 @@
     <Compile Include="Problem005_LongestPalindromicSubstring\ISolution.cs" />
     <Compile Include="Problem005_LongestPalindromicSubstring\BruteForce.cs" />
     <Compile Include="Problem005_LongestPalindromicSubstring\ExpansionFromCenter.cs" />
+    <Compile Include="Problem007_ReverseInteger\ISolution.cs" />
+    <Compile Include="Problem007_ReverseInteger\Solution.cs" />
     <Compile Include="Problem006_ZigZagConversion\ISolution.cs" />
     <Compile Include="Problem006_ZigZagConversion\Solution.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

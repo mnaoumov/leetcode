@@ -10,6 +10,7 @@ namespace LeetCode.Test
         [TestCase(123, ExpectedResult = 321)]
         [TestCase(-123, ExpectedResult = -321)]
         [TestCase(120, ExpectedResult = 21)]
+        [TestCase(1111111113, ExpectedResult = 0)]
         [Timeout(100)]
         public int Test(int x)
         {

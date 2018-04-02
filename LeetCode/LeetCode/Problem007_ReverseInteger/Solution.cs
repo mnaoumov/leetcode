@@ -12,7 +12,15 @@ namespace LeetCode.Problem007_ReverseInteger
             while (x > 0)
             {
                 var lastDigit = x % 10;
-                result = result * 10 + lastDigit;
+                try
+                {
+                    result = checked(result * 10 + lastDigit);
+                }
+                catch (OverflowException)
+                {
+                    return 0;
+                }
+
                 x = x / 10;
             }
 

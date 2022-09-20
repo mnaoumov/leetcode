@@ -1,7 +1,7 @@
-﻿using LeetCode._001_Two_Sums;
+﻿using LeetCode._001_Two_Sum;
 using NUnit.Framework;
 
-namespace LeetCode.Tests._001_Two_Sums;
+namespace LeetCode.Tests._001_Two_Sum;
 
 public class Tests
 {

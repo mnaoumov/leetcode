@@ -8,11 +8,11 @@ public class HashMapOnePassSolution : ISolution
 
         for (int i = 0; i < nums.Length; i++)
         {
-            var secondSummand = target - nums[i];
+            var secondAddendum = target - nums[i];
 
-            if (hashMap.TryGetValue(secondSummand, out var secondSummandIndex))
+            if (hashMap.TryGetValue(secondAddendum, out var secondAddendumIndex))
             {
-                return new[] { secondSummandIndex, i };
+                return new[] { secondAddendumIndex, i };
             }
 
             hashMap[nums[i]] = i;

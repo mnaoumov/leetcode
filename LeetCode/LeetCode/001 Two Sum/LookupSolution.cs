@@ -8,13 +8,13 @@ public class LookupSolution : ISolution
 
         for (int i = 0; i < nums.Length; i++)
         {
-            var secondSummand = target - nums[i];
-            var secondSummandIndex = Array.BinarySearch(sortedCopy, i + 1, nums.Length - i - 1, secondSummand);
-            if (secondSummandIndex > 0)
+            var secondAddendum = target - nums[i];
+            var secondAddendumIndex = Array.BinarySearch(sortedCopy, i + 1, nums.Length - i - 1, secondAddendum);
+            if (secondAddendumIndex > 0)
             {
                 for (int j = i + 1; j < nums.Length; j++)
                 {
-                    if (nums[j] == secondSummand)
+                    if (nums[j] == secondAddendum)
                     {
                         return new[] {i, j};
                     }

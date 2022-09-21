@@ -13,11 +13,11 @@ public class HashMapSolution : ISolution
 
         for (int i = 0; i < nums.Length; i++)
         {
-            var secondSummand = target - nums[i];
+            var secondAddendum = target - nums[i];
 
-            if (hashMap.TryGetValue(secondSummand, out var secondSummandIndex) && secondSummandIndex > i)
+            if (hashMap.TryGetValue(secondAddendum, out var secondAddendumIndex) && secondAddendumIndex > i)
             {
-                return new[] { i, secondSummandIndex };
+                return new[] { i, secondAddendumIndex };
             }
         }
 

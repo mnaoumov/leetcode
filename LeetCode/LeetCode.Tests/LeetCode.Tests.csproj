@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <Folder Include="002 Add Two Numbers\" />
+    <Folder Include="004 Median of Two Sorted Arrays\" />
   </ItemGroup>
 
 </Project>

@@ -21,6 +21,6 @@ public class HashMapSolution : ISolution
             }
         }
 
-        return null;
+        throw new InvalidOperationException();
     }
 }

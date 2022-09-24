@@ -15,6 +15,6 @@ public class BruteForceSolution : ISolution
             }
         }
 
-        return null;
+        throw new InvalidOperationException();
     }
 }

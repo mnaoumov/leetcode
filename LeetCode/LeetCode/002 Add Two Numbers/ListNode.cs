@@ -3,8 +3,8 @@
 public class ListNode
 {
     public int val;
-    public ListNode next;
-    public ListNode(int val = 0, ListNode next = null)
+    public ListNode? next;
+    public ListNode(int val = 0, ListNode? next = null)
     {
         this.val = val;
         this.next = next;
@@ -17,7 +17,7 @@ public class ListNode
             return false;
         }
 
-        return val == listNode.val && Equals(next, listNode.next);
+        return Equals((val, next), (listNode.val, listNode.next));
     }
 
     public override string ToString()
@@ -32,4 +32,8 @@ public class ListNode
 
         return $"[{string.Join(",", values)}]";
     }
+
+    // ReSharper disable NonReadonlyMemberInGetHashCode
+    public override int GetHashCode() => (val, next).GetHashCode();
+    // ReSharper restore NonReadonlyMemberInGetHashCode
 }

@@ -23,6 +23,6 @@ public class LookupSolution : ISolution
             }
         }
 
-        return null;
+        throw new InvalidOperationException();
     }
 }

@@ -2,7 +2,7 @@
 
 public class Solution
 {
-    public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
+    public ListNode AddTwoNumbers(ListNode? l1, ListNode? l2)
     {
         ListNode? result = null;
         var carry = false;

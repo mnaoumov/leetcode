@@ -18,6 +18,6 @@ public class HashMapOnePassSolution : ISolution
             hashMap[nums[i]] = i;
         }
 
-        return null;
+        throw new InvalidOperationException();
     }
 }

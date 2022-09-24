@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -19,6 +19,7 @@
     <Folder Include="002 Add Two Numbers\" />
     <Folder Include="004 Median of Two Sorted Arrays\" />
     <Folder Include="005 Longest Palindromic Substring\" />
+    <Folder Include="006 Zigzag Conversion\" />
   </ItemGroup>
 
 </Project>

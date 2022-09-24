@@ -18,6 +18,7 @@
   <ItemGroup>
     <Folder Include="002 Add Two Numbers\" />
     <Folder Include="004 Median of Two Sorted Arrays\" />
+    <Folder Include="005 Longest Palindromic Substring\" />
   </ItemGroup>
 
 </Project>

@@ -22,6 +22,7 @@
     <Folder Include="006 Zigzag Conversion\" />
     <Folder Include="007 Reverse Integer\" />
     <Folder Include="008 String to Integer %28atoi%29\" />
+    <Folder Include="622 Design Circular Queue\" />
   </ItemGroup>
 
 </Project>

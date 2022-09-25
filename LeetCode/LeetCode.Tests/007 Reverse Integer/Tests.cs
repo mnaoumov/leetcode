@@ -39,5 +39,4 @@ public class Tests
             yield return new DigitSolution();
         }
     }
-
 }

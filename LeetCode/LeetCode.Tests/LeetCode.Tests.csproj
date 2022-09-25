@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -21,6 +21,7 @@
     <Folder Include="005 Longest Palindromic Substring\" />
     <Folder Include="006 Zigzag Conversion\" />
     <Folder Include="007 Reverse Integer\" />
+    <Folder Include="008 String to Integer %28atoi%29\" />
   </ItemGroup>
 
 </Project>

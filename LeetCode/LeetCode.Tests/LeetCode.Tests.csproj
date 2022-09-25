@@ -20,6 +20,7 @@
     <Folder Include="004 Median of Two Sorted Arrays\" />
     <Folder Include="005 Longest Palindromic Substring\" />
     <Folder Include="006 Zigzag Conversion\" />
+    <Folder Include="007 Reverse Integer\" />
   </ItemGroup>
 
 </Project>

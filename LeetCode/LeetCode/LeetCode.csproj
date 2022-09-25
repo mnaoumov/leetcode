@@ -6,14 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Remove="!Template\ISolution.cs" />
-    <Compile Remove="!Template\Solution.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="!Template\ISolution.cs" />
-    <None Include="!Template\Solution.cs" />
-  </ItemGroup>
-
 </Project>

@@ -1,7 +1,9 @@
-﻿using LeetCode.<<<Namespace>>>;
+﻿// TODO Fix namespace
+
+using LeetCode._Template;
 using NUnit.Framework;
 
-namespace LeetCode.Tests.<<<Namespace>>>;
+namespace LeetCode.Tests._Template;
 
 [TestFixtureSource(nameof(Solutions))]
 public class Tests

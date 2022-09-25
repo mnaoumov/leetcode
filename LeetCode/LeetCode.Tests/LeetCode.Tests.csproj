@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="!Template\Tests.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.3.1" />
     <PackageReference Include="NUnit" Version="3.13.3" />
   </ItemGroup>
@@ -27,10 +23,6 @@
     <Folder Include="007 Reverse Integer\" />
     <Folder Include="008 String to Integer %28atoi%29\" />
     <Folder Include="622 Design Circular Queue\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="!Template\Tests.cs" />
   </ItemGroup>
 
 </Project>

@@ -1,4 +1,4 @@
-﻿namespace LeetCode._Template;
+﻿namespace LeetCode.<<<Namespace>>>;
 
 public class Solution : ISolution
 {

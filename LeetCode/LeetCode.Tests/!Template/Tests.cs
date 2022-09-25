@@ -1,7 +1,7 @@
-﻿using LeetCode._Template;
+﻿using LeetCode.<<<Namespace>>>;
 using NUnit.Framework;
 
-namespace LeetCode.Tests._Template;
+namespace LeetCode.Tests.<<<Namespace>>>;
 
 [TestFixtureSource(nameof(Solutions))]
 public class Tests

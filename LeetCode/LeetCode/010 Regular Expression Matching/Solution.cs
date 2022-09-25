@@ -2,9 +2,9 @@
 
 public class Solution : ISolution
 {
-    private bool?[,] _resultsCache;
-    private string _string;
-    private string _pattern;
+    private bool?[,] _resultsCache = null!;
+    private string _string = null!;
+    private string _pattern = null!;
 
     public bool IsMatch(string s, string p)
     {

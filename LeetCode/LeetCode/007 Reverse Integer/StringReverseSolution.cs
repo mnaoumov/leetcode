@@ -1,6 +1,6 @@
 ﻿namespace LeetCode._007_Reverse_Integer;
 
-public class Solution
+public class StringReverseSolution : ISolution
 {
     public int Reverse(int x)
     {

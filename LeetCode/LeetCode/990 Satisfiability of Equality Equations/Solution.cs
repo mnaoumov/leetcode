@@ -4,8 +4,8 @@ public class Solution : ISolution
 {
     public bool EquationsPossible(string[] equations)
     {
-        var distinctVariables = new HashSet<char>();
-        var equivalenceChainMap = new Dictionary<char, char>();
+        var equalityChainMap = new Dictionary<char, char>();
+        var nonEqualVariablesMap = new Dictionary<char, HashSet<char>>();
 
         foreach (var equation in equations)
         {
@@ -13,24 +13,36 @@ public class Solution : ISolution
             var isEqual = equation[1] == '=';
             var variable2 = equation[3];
 
-            char GetEquivalenceChainRoot(char variable)
+            char GetEqualityChainRoot(char variable)
             {
+                var current = variable;
                 var next = variable;
+
+                var variablesToUpdate = new List<char>();
 
                 do
                 {
-                    variable = next;
-                    if (equivalenceChainMap.TryGetValue(next, out var newNext))
+                    current = next;
+                    variablesToUpdate.Add(current);
+                    if (equalityChainMap.TryGetValue(next, out var newNext))
                     {
                         next = newNext;
                     }
-                } while (next != variable);
+                } while (next != current);
+
+                foreach (var variableToUpdate in variablesToUpdate)
+                {
+                    equalityChainMap[variableToUpdate] = next;
+                }
 
                 return next;
             }
 
-            var root1 = GetEquivalenceChainRoot(variable1);
-            var root2 = GetEquivalenceChainRoot(variable2);
+            var root1 = GetEqualityChainRoot(variable1);
+            var root2 = GetEqualityChainRoot(variable2);
+
+            var nonEqualVariables1 = GetNonEqualVariables(root1);
+            var nonEqualVariables2 = GetNonEqualVariables(root2);
 
             if (isEqual)
             {
@@ -39,12 +51,19 @@ public class Solution : ISolution
                     continue;
                 }
 
-                if (distinctVariables.Contains(root1) && distinctVariables.Contains(root2))
+                foreach (var nonEqualVariable in nonEqualVariables1)
                 {
-                    return false;
+                    var root = GetEqualityChainRoot(nonEqualVariable);
+                    if (root == root2)
+                    {
+                        return false;
+                    }
                 }
 
-                equivalenceChainMap[root2] = root1;
+                equalityChainMap[root2] = root1;
+                nonEqualVariables1.UnionWith(nonEqualVariables2);
+                nonEqualVariablesMap[root2] = new HashSet<char>();
+
             }
             else
             {
@@ -53,11 +72,21 @@ public class Solution : ISolution
                     return false;
                 }
 
-                distinctVariables.Add(root1);
-                distinctVariables.Add(root2);
+                nonEqualVariables1.Add(root2);
+                nonEqualVariables2.Add(root1);
             }
         }
 
         return true;
+
+        HashSet<char> GetNonEqualVariables(char variable)
+        {
+            if (!nonEqualVariablesMap.TryGetValue(variable, out var result))
+            {
+                result = nonEqualVariablesMap[variable] = new HashSet<char>();
+            }
+
+            return result;
+        }
     }
 }

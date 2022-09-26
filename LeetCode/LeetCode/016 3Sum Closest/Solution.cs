@@ -41,7 +41,7 @@ public class Solution : ISolution
                     var minIndex = i + 2;
                     var maxIndex = nums.Length - 1;
 
-                    while (minIndex < maxIndex)
+                    while (maxIndex - minIndex > 1)
                     {
                         var k = (minIndex + maxIndex) / 2;
 

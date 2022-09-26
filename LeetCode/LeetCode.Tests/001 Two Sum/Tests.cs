@@ -42,6 +42,10 @@ public class Tests
             yield return new LookupSolution();
             yield return new HashMapSolution();
             yield return new HashMapOnePassSolution();
+            yield return new OldSolution1();
+            yield return new OldSolution2();
+            yield return new OldSolution3();
+            yield return new OldSolution4();
         }
     }
 }

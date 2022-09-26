@@ -1,5 +1,8 @@
 ﻿namespace LeetCode._001_Two_Sum;
 
+/// <summary>
+/// https://leetcode.com/submissions/detail/804724157/
+/// </summary>
 public class HashMapSolution : ISolution
 {
     public int[] TwoSum(int[] nums, int target)

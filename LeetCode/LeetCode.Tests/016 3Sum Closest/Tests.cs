@@ -4,32 +4,29 @@ using NUnit.Framework;
 namespace LeetCode.Tests._016_3Sum_Closest;
 
 [TestFixtureSource(nameof(Solutions))]
-public class Tests
+public class Tests : TestsBase<ISolution>
 {
-    private readonly ISolution _solution;
-
-    public Tests(ISolution solution)
+    public Tests(ISolution solution) : base(solution)
     {
-        _solution = solution;
     }
 
     [Test]
     public void Example1()
     {
-        Assert.That(_solution.ThreeSumClosest(new [] { -1, 2, 1, -4 }, 1), Is.EqualTo(2));
+        Assert.That(Solution.ThreeSumClosest(new [] { -1, 2, 1, -4 }, 1), Is.EqualTo(2));
     }
 
     [Test]
     public void Example2()
     {
-        Assert.That(_solution.ThreeSumClosest(new [] { 0, 0, 0 }, 1), Is.EqualTo(0));
+        Assert.That(Solution.ThreeSumClosest(new [] { 0, 0, 0 }, 1), Is.EqualTo(0));
     }
 
     [Test]
     public void Test1()
     {
         Assert.That(
-            _solution.ThreeSumClosest(
+            Solution.ThreeSumClosest(
                 new[]
                 {
                     -23, -67, 32, 21, -65, 46, 73, 42, 93, 9, -61, -79, -51, 61, -15, 49, 92, -34, 50, 1, 26, -12, 68,
@@ -41,13 +38,5 @@ public class Tests
                     67, 82, 63, 95, -32, 47, 15, -20, 46, 5, 17, -40, -95, 97, -9, 11, 8, -51, -24, -50, -37, -72, -57,
                     26, 26, 19, 71, -42
                 }, -87), Is.EqualTo(-87));
-    }
-
-    private static IEnumerable<ISolution> Solutions
-    {
-        get
-        {
-            yield return new Solution();
-        }
     }
 }

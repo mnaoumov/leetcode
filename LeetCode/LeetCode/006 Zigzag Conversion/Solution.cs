@@ -2,7 +2,7 @@
 
 namespace LeetCode._006_Zigzag_Conversion;
 
-public class Solution
+public class Solution : ISolution
 {
     public string Convert(string s, int numRows)
     {

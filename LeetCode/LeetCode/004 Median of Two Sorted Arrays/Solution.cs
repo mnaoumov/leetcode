@@ -1,6 +1,6 @@
 ﻿namespace LeetCode._004_Median_of_Two_Sorted_Arrays;
 
-public class Solution
+public class Solution : ISolution
 {
     public double FindMedianSortedArrays(int[] nums1, int[] nums2)
     {

@@ -1,6 +1,6 @@
 ﻿namespace LeetCode._008_String_to_Integer__atoi_;
 
-public class Solution
+public class Solution : ISolution
 {
     public int MyAtoi(string s)
     {

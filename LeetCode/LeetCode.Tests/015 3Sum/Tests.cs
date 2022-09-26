@@ -5,40 +5,29 @@ using NUnit.Framework.Constraints;
 namespace LeetCode.Tests._015_3Sum;
 
 [TestFixtureSource(nameof(Solutions))]
-public class Tests
+public class Tests : TestsBase<ISolution>
 {
-    private readonly ISolution _solution;
-
-    public Tests(ISolution solution)
+    public Tests(ISolution solution) : base(solution)
     {
-        _solution = solution;
     }
 
     [Test]
     public void Example1()
     {
-        Assert.That(_solution.ThreeSum(new[] { -1, 0, 1, 2, -1, -4 }),
+        Assert.That(Solution.ThreeSum(new[] { -1, 0, 1, 2, -1, -4 }),
             IsEquivalentToIgnoringItemOrder(new[] { new[] { -1, -1, 2 }, new[] { -1, 0, 1 } }));
     }
 
     [Test]
     public void Example2()
     {
-        Assert.That(_solution.ThreeSum(new[] { 0, 1, 1 }), IsEquivalentToIgnoringItemOrder(Array.Empty<int[]>()));
+        Assert.That(Solution.ThreeSum(new[] { 0, 1, 1 }), IsEquivalentToIgnoringItemOrder(Array.Empty<int[]>()));
     }
 
     [Test]
     public void Example3()
     {
-        Assert.That(_solution.ThreeSum(new[] { 0, 0, 0 }), IsEquivalentToIgnoringItemOrder(new[] { new[] { 0, 0, 0 } }));
-    }
-
-    private static IEnumerable<ISolution> Solutions
-    {
-        get
-        {
-            yield return new Solution();
-        }
+        Assert.That(Solution.ThreeSum(new[] { 0, 0, 0 }), IsEquivalentToIgnoringItemOrder(new[] { new[] { 0, 0, 0 } }));
     }
 
     private static CollectionItemsEqualConstraint IsEquivalentToIgnoringItemOrder(int[][] expected)

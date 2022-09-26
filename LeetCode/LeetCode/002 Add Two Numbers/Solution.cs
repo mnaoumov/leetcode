@@ -1,6 +1,6 @@
 ﻿namespace LeetCode._002_Add_Two_Numbers;
 
-public class Solution
+public class Solution : ISolution
 {
     public ListNode AddTwoNumbers(ListNode? l1, ListNode? l2)
     {

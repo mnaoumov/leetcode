@@ -1,6 +1,6 @@
 ﻿namespace LeetCode._622_Design_Circular_Queue;
 
-public class MyCircularQueue
+public class MyCircularQueue : IMyCircularQueue
 {
     private readonly int[] _values;
     private int _frontElementIndex;

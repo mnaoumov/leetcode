@@ -3,12 +3,17 @@ using NUnit.Framework;
 
 namespace LeetCode.Tests._622_Design_Circular_Queue;
 
-public class Tests
+[TestFixtureSource(nameof(Solutions))]
+public class Tests : TestsBase<ISolution>
 {
+    public Tests(ISolution solution) : base(solution)
+    {
+    }
+
     [Test]
     public void Example1()
     {
-        var sut = new MyCircularQueue(3);
+        var sut = Solution.Create(3);
         Assert.That(sut.EnQueue(1), Is.True);
         Assert.That(sut.EnQueue(2), Is.True);
         Assert.That(sut.EnQueue(3), Is.True);
@@ -23,7 +28,7 @@ public class Tests
     [Test]
     public void Test1()
     {
-        var sut = new MyCircularQueue(3);
+        var sut = Solution.Create(3);
         Assert.That(sut.EnQueue(2), Is.True);
         Assert.That(sut.Rear(), Is.EqualTo(2));
         Assert.That(sut.Front(), Is.EqualTo(2));
@@ -40,7 +45,7 @@ public class Tests
     [Test]
     public void Test2()
     {
-        var sut = new MyCircularQueue(81);
+        var sut = Solution.Create(81);
         Assert.That(sut.EnQueue(69), Is.True);
         Assert.That(sut.DeQueue(), Is.True);
         Assert.That(sut.EnQueue(92), Is.True);

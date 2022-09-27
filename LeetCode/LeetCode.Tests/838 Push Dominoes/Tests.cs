@@ -19,6 +19,6 @@ public class Tests : TestsBase<ISolution>
     [Test]
     public void Example2()
     {
-2        Assert.That(Solution.PushDominoes(".L.R...LR..L.."), Is.EqualTo("LL.RR.LLRRLL.."));
+        Assert.That(Solution.PushDominoes(".L.R...LR..L.."), Is.EqualTo("LL.RR.LLRRLL.."));
     }
 }

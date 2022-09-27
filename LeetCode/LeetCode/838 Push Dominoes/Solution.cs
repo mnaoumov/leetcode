@@ -1,7 +1,8 @@
-﻿using System.Text;
+﻿namespace LeetCode._838_Push_Dominoes;
 
-namespace LeetCode._838_Push_Dominoes;
-
+/// <summary>
+/// https://leetcode.com/submissions/detail/809510320/
+/// </summary>
 public class Solution : ISolution
 {
     const char FallingLeft = 'L';
@@ -12,10 +13,10 @@ public class Solution : ISolution
     {
         var dominoesArr = dominoes.ToCharArray();
 
-        bool keepsFalling;
-        do
+        while (true)
         {
-            keepsFalling = false;
+            var keepsFalling = false;
+            var newFalls = new char[dominoesArr.Length];
 
             for (var i = 0; i < dominoesArr.Length; i++)
             {
@@ -25,7 +26,7 @@ public class Solution : ISolution
                     case FallingLeft:
                         if (i > 0 && dominoesArr[i - 1] == Standing && (i == 1 || dominoesArr[i - 2] != FallingRight))
                         {
-                            dominoesArr[i - 1] = FallingLeft;
+                            newFalls[i - 1] = FallingLeft;
                             keepsFalling = true;
                         }
 
@@ -34,14 +35,27 @@ public class Solution : ISolution
                         if (i < dominoesArr.Length - 1 && dominoesArr[i + 1] == Standing &&
                             (i == dominoesArr.Length - 2 || dominoesArr[i + 2] != FallingLeft))
                         {
-                            dominoesArr[i + 1] = FallingRight;
+                            newFalls[i + 1] = FallingRight;
                             keepsFalling = true;
                         }
 
                         break;
                 }
             }
-        } while (keepsFalling);
+
+            if (!keepsFalling)
+            {
+                break;
+            }
+
+            for (var i = 0; i < dominoesArr.Length; i++)
+            {
+                if (newFalls[i] != default)
+                {
+                    dominoesArr[i] = newFalls[i];
+                }
+            }
+        }
 
         return new string(dominoesArr);
     }

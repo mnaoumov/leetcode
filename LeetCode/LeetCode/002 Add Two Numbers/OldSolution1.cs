@@ -5,10 +5,10 @@
 /// </summary>
 public class OldSolution1 : ISolution
 {
-    public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
+    public ListNode AddTwoNumbers(ListNode? l1, ListNode? l2)
     {
-        ListNode firstResultDigitNode = null;
-        ListNode lastResultDigitNode = null;
+        ListNode? firstResultDigitNode = null;
+        ListNode? lastResultDigitNode = null;
         var memory = 0;
 
         while (l1 != null || l2 != null || memory != 0)

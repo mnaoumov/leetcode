@@ -1,5 +1,8 @@
 ﻿namespace LeetCode._003_Longest_Substring_Without_Repeating_Characters;
 
+/// <summary>
+/// https://leetcode.com/submissions/detail/806158953/
+/// </summary>
 public class Solution : ISolution
 {
     public int LengthOfLongestSubstring(string s)

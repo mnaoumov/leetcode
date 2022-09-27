@@ -1,5 +1,8 @@
 ﻿namespace LeetCode._007_Reverse_Integer;
 
+/// <summary>
+/// https://leetcode.com/submissions/detail/807901371/
+/// </summary>
 public class DigitSolution : ISolution
 {
     public int Reverse(int x)

@@ -1,5 +1,8 @@
 ﻿namespace LeetCode._010_Regular_Expression_Matching;
 
+/// <summary>
+/// https://leetcode.com/submissions/detail/808310678/
+/// </summary>
 public class Solution : ISolution
 {
     private bool?[,] _resultsCache = null!;

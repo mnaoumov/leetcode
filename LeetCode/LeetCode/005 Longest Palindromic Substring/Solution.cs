@@ -1,5 +1,8 @@
 ﻿namespace LeetCode._005_Longest_Palindromic_Substring;
 
+/// <summary>
+/// https://leetcode.com/submissions/detail/807296429/
+/// </summary>
 public class Solution : ISolution
 {
     public string LongestPalindrome(string s)

@@ -1,5 +1,8 @@
 ﻿namespace LeetCode._015_3Sum;
 
+/// <summary>
+/// https://leetcode.com/problems/3sum/submissions/
+/// </summary>
 public class Solution : ISolution
 {
     public IList<IList<int>> ThreeSum(int[] nums)

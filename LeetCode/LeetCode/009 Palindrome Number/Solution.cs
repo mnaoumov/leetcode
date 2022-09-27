@@ -1,5 +1,8 @@
 ﻿namespace LeetCode._009_Palindrome_Number;
 
+/// <summary>
+/// https://leetcode.com/submissions/detail/807911669/
+/// </summary>
 public class Solution : ISolution
 {
     public bool IsPalindrome(int x)

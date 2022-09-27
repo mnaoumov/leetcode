@@ -1,5 +1,8 @@
 ﻿namespace LeetCode._990_Satisfiability_of_Equality_Equations;
 
+/// <summary>
+/// https://leetcode.com/submissions/detail/809157627/
+/// </summary>
 public class Solution : ISolution
 {
     public bool EquationsPossible(string[] equations)

@@ -1,5 +1,8 @@
 ﻿namespace LeetCode._622_Design_Circular_Queue;
 
+/// <summary>
+/// https://leetcode.com/submissions/detail/807894085/
+/// </summary>
 public class MyCircularQueue : IMyCircularQueue
 {
     private readonly int[] _values;

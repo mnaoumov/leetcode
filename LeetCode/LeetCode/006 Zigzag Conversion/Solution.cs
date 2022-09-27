@@ -2,6 +2,9 @@
 
 namespace LeetCode._006_Zigzag_Conversion;
 
+/// <summary>
+/// https://leetcode.com/submissions/detail/807825055/
+/// </summary>
 public class Solution : ISolution
 {
     public string Convert(string s, int numRows)

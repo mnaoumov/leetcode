@@ -1,4 +1,4 @@
-﻿namespace LeetCode._002_Add_Two_Numbers;
+﻿namespace LeetCode;
 
 public class ListNode
 {
@@ -36,4 +36,15 @@ public class ListNode
     // ReSharper disable NonReadonlyMemberInGetHashCode
     public override int GetHashCode() => (val, next).GetHashCode();
     // ReSharper restore NonReadonlyMemberInGetHashCode
+
+    public static ListNode? Create(params int[] values)
+    {
+        ListNode? listNode = null;
+        for (var i = values.Length - 1; i >= 0; i--)
+        {
+            listNode = new ListNode(values[i], listNode);
+        }
+
+        return listNode;
+    }
 }

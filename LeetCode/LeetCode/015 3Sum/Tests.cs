@@ -28,15 +28,4 @@ public class Tests : TestsBase<ISolution>
     {
         Assert.That(Solution.ThreeSum(new[] { 0, 0, 0 }), IsEquivalentToIgnoringItemOrder(new[] { new[] { 0, 0, 0 } }));
     }
-
-    private static CollectionItemsEqualConstraint IsEquivalentToIgnoringItemOrder(int[][] expected)
-    {
-        return Is.EquivalentTo(expected)
-            .Using<int[]>((a, b) =>
-            {
-                var aSorted = a.OrderBy(x => x);
-                var bSorted = b.OrderBy(x => x);
-                return aSorted.SequenceEqual(bSorted);
-            });
-    }
 }

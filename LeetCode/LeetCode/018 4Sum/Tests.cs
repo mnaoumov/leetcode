@@ -24,4 +24,11 @@ public class Tests : TestsBase<ISolution>
         Assert.That(Solution.FourSum(new[] { 2, 2, 2, 2, 2 }, 8),
             IsEquivalentToIgnoringItemOrder(new[] { new[] { 2, 2, 2, 2 } }));
     }
+
+    [Test]
+    public void Test1()
+    {
+        Assert.That(Solution.FourSum(new[] { 1000000000, 1000000000, 1000000000, 1000000000 }, -294967296),
+            IsEquivalentToIgnoringItemOrder(Array.Empty<int[]>()));
+    }
 }

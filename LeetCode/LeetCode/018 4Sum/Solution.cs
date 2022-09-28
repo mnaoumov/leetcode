@@ -1,5 +1,8 @@
 ﻿namespace LeetCode._018_4Sum;
 
+/// <summary>
+/// https://leetcode.com/submissions/detail/810301577/
+/// </summary>
 public class Solution : ISolution
 {
     public IList<IList<int>> FourSum(int[] nums, int target)
@@ -29,7 +32,15 @@ public class Solution : ISolution
                         continue;
                     }
 
-                    var expectedValue = target - nums[i] - nums[j] - nums[k];
+                    var expectedValueLong = (long) target - nums[i] - nums[j] - nums[k];
+
+                    if (expectedValueLong is < int.MinValue or > int.MaxValue)
+                    {
+                         continue;
+                    }
+
+                    var expectedValue = (int) expectedValueLong;
+
 
                     if (expectedValue < nums[k])
                     {

@@ -22,6 +22,6 @@ public class Tests : TestsBase<ISolution>
     public void Example2()
     {
         Assert.That(Solution.FourSum(new[] { 2, 2, 2, 2, 2 }, 8),
-            IsEquivalentToIgnoringItemOrder(new[] { new[] { -2, 2, 2, 2 } }));
+            IsEquivalentToIgnoringItemOrder(new[] { new[] { 2, 2, 2, 2 } }));
     }
 }

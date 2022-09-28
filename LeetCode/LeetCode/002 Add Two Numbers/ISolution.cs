@@ -2,5 +2,5 @@
 
 public interface ISolution
 {
-    ListNode AddTwoNumbers(ListNode? l1, ListNode? l2);
+    ListNode AddTwoNumbers(ListNode l1, ListNode l2);
 }

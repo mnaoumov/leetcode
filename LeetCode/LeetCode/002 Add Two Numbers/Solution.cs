@@ -5,14 +5,18 @@
 /// </summary>
 public class Solution : ISolution
 {
-    public ListNode AddTwoNumbers(ListNode? l1, ListNode? l2)
+    public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
     {
-        ListNode? result = null;
+        ListNode result = null!;
         var carry = false;
         var listNode = new ListNode();
-        while (l1 != null || l2 != null || carry)
+
+        ListNode? node1 = l1;
+        ListNode? node2 = l2;
+
+        while (node1 != null || node2 != null || carry)
         {
-            var value = (l1?.val ?? 0) + (l2?.val ?? 0);
+            var value = (node1?.val ?? 0) + (node2?.val ?? 0);
             if (carry)
             {
                 value += 1;
@@ -30,8 +34,8 @@ public class Solution : ISolution
 
             result ??= listNode;
 
-            l1 = l1?.next;
-            l2 = l2?.next;
+            node1 = node1?.next;
+            node2 = node2?.next;
         }
 
         return result!;

@@ -37,9 +37,14 @@ public class ListNode
     public override int GetHashCode() => (val, next).GetHashCode();
     // ReSharper restore NonReadonlyMemberInGetHashCode
 
-    public static ListNode? Create(params int[] values)
+    public static ListNode Create(params int[] values)
     {
-        ListNode? listNode = null;
+        if (values.Length == 0)
+        {
+            throw new ArgumentException("No values", nameof(values));
+        }
+
+        ListNode listNode = null!;
         for (var i = values.Length - 1; i >= 0; i--)
         {
             listNode = new ListNode(values[i], listNode);

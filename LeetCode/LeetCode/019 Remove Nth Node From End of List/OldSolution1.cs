@@ -7,7 +7,7 @@ public class OldSolution1 : ISolution
 {
     public ListNode RemoveNthFromEnd(ListNode head, int n)
     {
-        var queue = new Queue<ListNode>(n + 1);
+        var queue = new Queue<ListNode?>(n + 1);
 
         for (int i = 0; i < n + 1; i++)
         {
@@ -25,10 +25,10 @@ public class OldSolution1 : ISolution
         var previous = queue.Dequeue();
         if (previous == null)
         {
-            return head.next;
+            return head.next!;
         }
 
-        previous.next = previous.next.next;
+        previous.next = previous.next!.next;
 
         return head;
     }

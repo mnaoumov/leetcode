@@ -5,25 +5,28 @@
 /// </summary>
 public class OldSolution2 : ISolution
 {
-    public ListNode AddTwoNumbers(ListNode? l1, ListNode? l2)
+    public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
     {
-        ListNode? beforeFirstNode = new ListNode(0);
-        ListNode? lastResultDigitNode = beforeFirstNode;
+        ListNode beforeFirstNode = new ListNode(0);
+        ListNode lastResultDigitNode = beforeFirstNode;
         var memory = 0;
 
-        while (l1 != null || l2 != null || memory != 0)
+        ListNode? node1 = l1;
+        ListNode? node2 = l2;
+
+        while (node1 != null || node2 != null || memory != 0)
         {
             var sum = memory;
-            if (l1 != null)
+            if (node1 != null)
             {
-                sum += l1.val;
-                l1 = l1.next;
+                sum += node1.val;
+                node1 = node1.next;
             }
 
-            if (l2 != null)
+            if (node2 != null)
             {
-                sum += l2.val;
-                l2 = l2.next;
+                sum += node2.val;
+                node2 = node2.next;
             }
 
             if (sum >= 10)

@@ -12,19 +12,19 @@ public class Tests : TestsBase<ISolution>
     [Test]
     public void Example1()
     {
-        Assert.That(Solution.RemoveNthFromEnd(ListNode.Create(1, 2, 3, 4, 5)!, 2),
+        Assert.That(Solution.RemoveNthFromEnd(ListNode.Create(1, 2, 3, 4, 5), 2),
             Is.EqualTo(ListNode.Create(1, 2, 3, 5)));
     }
 
     [Test]
     public void Example2()
     {
-        Assert.That(Solution.RemoveNthFromEnd(ListNode.Create(1)!, 1), Is.Null);
+        Assert.That(Solution.RemoveNthFromEnd(ListNode.Create(1), 1), Is.Null);
     }
 
     [Test]
     public void Example3()
     {
-        Assert.That(Solution.RemoveNthFromEnd(ListNode.Create(1, 2)!, 1), Is.EqualTo(ListNode.Create(1)));
+        Assert.That(Solution.RemoveNthFromEnd(ListNode.Create(1, 2), 1), Is.EqualTo(ListNode.Create(1)));
     }
 }

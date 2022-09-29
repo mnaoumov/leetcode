@@ -10,30 +10,14 @@ public class Tests : TestsBase<ISolution>
     }
 
     [Test]
-    public void Example1()
-    {
-        Test(
-            nums: new[] { 1, 1, 2 },
-            expectedNums: new[] { 1, 2 });
-    }
-
-    [Test]
-    public void Example2()
-    {
-        Test(
-            nums: new[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 },
-            expectedNums: new[] { 0, 1, 2, 3, 4 });
-    }
-
-    void Test(int[] nums, int[] expectedNums)
+    [TestCase(new[] { 1, 1, 2 }, new[] { 1, 2 }, TestName = "Example1")]
+    [TestCase(new[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 }, new[] { 0, 1, 2, 3, 4 }, TestName = "Example2")]
+    public void Test(int[] nums, int[] expectedNums)
     {
         int k = Solution.RemoveDuplicates(nums);
 
         Assert.That(k, Is.EqualTo(expectedNums.Length));
 
-        for (int i = 0; i < k; i++)
-        {
-            Assert.That(nums[i], Is.EqualTo(expectedNums[i]));
-        }
+        Assert.That(nums.Take(k), Is.EqualTo(expectedNums));
     }
 }

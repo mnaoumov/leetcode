@@ -5,7 +5,7 @@
 /// </summary>
 public class OldSolution1 : ISolution
 {
-    public ListNode MergeKLists(ListNode[] lists)
+    public ListNode MergeKLists(ListNode?[] lists)
     {
         ListNode fakeRoot = new ListNode(0);
         ListNode mergedListNode = fakeRoot;
@@ -20,9 +20,9 @@ public class OldSolution1 : ISolution
                 if (lists[i] != null)
                 {
                     allListsEnded = false;
-                    if (lists[i].val <= min)
+                    if (lists[i]!.val <= min)
                     {
-                        min = lists[i].val;
+                        min = lists[i]!.val;
                         minListIndex = i;
                     }
                 }
@@ -32,7 +32,7 @@ public class OldSolution1 : ISolution
             {
                 mergedListNode.next = new ListNode(min);
                 mergedListNode = mergedListNode.next;
-                lists[minListIndex] = lists[minListIndex].next;
+                lists[minListIndex] = lists[minListIndex]!.next;
             }
             else
             {
@@ -40,6 +40,6 @@ public class OldSolution1 : ISolution
             }
         }
 
-        return fakeRoot.next;
+        return fakeRoot.next!;
     }
 }

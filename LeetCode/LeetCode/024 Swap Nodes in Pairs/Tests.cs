@@ -12,45 +12,27 @@ public class Tests : TestsBase<ISolution>
     [Test]
     public void Example1()
     {
-        TestSwapPairs(valuesBeforeSwapping: new[] { 1, 2, 3, 4 }, valuesAfterSwapping: new[] { 2, 1, 4, 3 });
+        ListNodeTestHelper.TestListNodesByReference(
+            listModificationFunc: Solution.SwapPairs,
+            valuesBefore: new[] { 1, 2, 3, 4 },
+            valuesAfter: new[] { 2, 1, 4, 3 });
     }
 
     [Test]
     public void Example2()
     {
-        TestSwapPairs(valuesBeforeSwapping: Array.Empty<int>(), valuesAfterSwapping: Array.Empty<int>());
+        ListNodeTestHelper.TestListNodesByReference(
+            listModificationFunc: Solution.SwapPairs,
+            valuesBefore: Array.Empty<int>(),
+            valuesAfter: Array.Empty<int>());
     }
 
     [Test]
     public void Example3()
     {
-        TestSwapPairs(valuesBeforeSwapping: new[] { 1 }, valuesAfterSwapping: new[] { 1 });
-    }
-
-    private void TestSwapPairs(int[] valuesBeforeSwapping, int[] valuesAfterSwapping)
-    {
-        var listBeforeSwapping = valuesBeforeSwapping.Any() ? ListNode.Create(valuesBeforeSwapping) : null;
-
-        var valueToNodeMap = new Dictionary<int, ListNode>();
-
-        var node = listBeforeSwapping;
-
-        while (node != null)
-        {
-            valueToNodeMap.Add(node.val, node);
-            node = node.next;
-        }
-
-        var listAfterSwapping = Solution.SwapPairs(listBeforeSwapping);
-
-        node = listAfterSwapping;
-
-        foreach (var valueAfterSwapping in valuesAfterSwapping)
-        {
-            Assert.That(node, Is.SameAs(valueToNodeMap[valueAfterSwapping]));
-            node = node!.next;
-        }
-
-        Assert.That(node, Is.Null);
+        ListNodeTestHelper.TestListNodesByReference(
+            listModificationFunc: Solution.SwapPairs,
+            valuesBefore: new[] { 1 },
+            valuesAfter: new[] { 1 });
     }
 }

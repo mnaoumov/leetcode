@@ -1,6 +1,5 @@
 ﻿using NUnit.Framework;
 
-// TODO Fix namespace
 namespace LeetCode._Template;
 
 [TestFixtureSource(nameof(Solutions))]

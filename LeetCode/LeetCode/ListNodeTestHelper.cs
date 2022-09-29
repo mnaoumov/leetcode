@@ -21,6 +21,8 @@ public static class ListNodeTestHelper
 
         var listAfter = listModificationFunc(listBefore);
 
+        Assert.That(listAfter, Is.EqualTo(ListNode.Create(valuesAfter)));
+
         node = listAfter;
 
         foreach (var valueAfter in valuesAfter)

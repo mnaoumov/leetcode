@@ -2,7 +2,6 @@
 
 namespace LeetCode._001_Two_Sum;
 
-[TestFixture]
 public class Tests : TestsBase2<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

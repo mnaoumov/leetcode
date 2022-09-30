@@ -6,14 +6,14 @@ public class Tests : TestsBase2<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.TwoSum(testCase.Nums, testCase.Target), Is.EqualTo(testCase.ExpectedResult));
+        Assert.That(solution.TwoSum(testCase.Nums, testCase.Target), Is.EqualTo(testCase.Return));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public int[] Nums { get; private init; } = null!;
         public int Target { get; private init; }
-        public int[] ExpectedResult { get; private init; } = null!;
+        public int[] Return { get; private init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -23,7 +23,7 @@ public class Tests : TestsBase2<ISolution, Tests.TestCase>
                 {
                     Nums = new[] { 2, 7, 11, 15 },
                     Target = 9,
-                    ExpectedResult = new[] { 0, 1 },
+                    Return = new[] { 0, 1 },
                     TestCaseName = "Example 1"
                 };
 
@@ -31,7 +31,7 @@ public class Tests : TestsBase2<ISolution, Tests.TestCase>
                 {
                     Nums = new[] { 3, 2, 4, 6 },
                     Target = 6,
-                    ExpectedResult = new[] { 1, 2 },
+                    Return = new[] { 1, 2 },
                     TestCaseName = "Example 2"
                 };
 
@@ -39,7 +39,7 @@ public class Tests : TestsBase2<ISolution, Tests.TestCase>
                 {
                     Nums = new[] { 3, 3 },
                     Target = 6,
-                    ExpectedResult = new[] { 0, 1 },
+                    Return = new[] { 0, 1 },
                     TestCaseName = "Example 3"
                 };
             }

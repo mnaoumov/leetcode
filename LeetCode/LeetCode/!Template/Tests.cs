@@ -11,7 +11,7 @@ public class Tests : TestsBase2<ISolution, Tests.TestCase>
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public string ExpectedResult { get; private init; } = null!;
+        public string Return { get; private init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -19,7 +19,7 @@ public class Tests : TestsBase2<ISolution, Tests.TestCase>
             {
                 yield return new TestCase
                 {
-                    ExpectedResult = "foo",
+                    Return = "foo",
                     TestCaseName = "Example 1"
                 };
             }

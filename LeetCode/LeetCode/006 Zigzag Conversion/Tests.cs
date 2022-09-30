@@ -6,14 +6,14 @@ public class Tests : TestsBase2<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.Convert(testCase.String, testCase.NumRows), Is.EqualTo(testCase.ExpectedResult));
+        Assert.That(solution.Convert(testCase.String, testCase.NumRows), Is.EqualTo(testCase.Return));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public string String { get; private init; } = null!;
         public int NumRows { get; private init; }
-        public string ExpectedResult { get; private init; } = null!;
+        public string Return { get; private init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -23,7 +23,7 @@ public class Tests : TestsBase2<ISolution, Tests.TestCase>
                 {
                     String = "PAYPALISHIRING",
                     NumRows = 3,
-                    ExpectedResult = "PAHNAPLSIIGYIR",
+                    Return = "PAHNAPLSIIGYIR",
                     TestCaseName = "Example 1"
                 };
 
@@ -31,7 +31,7 @@ public class Tests : TestsBase2<ISolution, Tests.TestCase>
                 {
                     String = "PAYPALISHIRING",
                     NumRows = 4,
-                    ExpectedResult = "PINALSIGYAHRPI",
+                    Return = "PINALSIGYAHRPI",
                     TestCaseName = "Example 2"
                 };
 
@@ -39,7 +39,7 @@ public class Tests : TestsBase2<ISolution, Tests.TestCase>
                 {
                     String = "A",
                     NumRows = 1,
-                    ExpectedResult = "A"
+                    Return = "A"
                 };
             }
         }

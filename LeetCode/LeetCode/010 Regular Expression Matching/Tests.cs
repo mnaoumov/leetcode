@@ -6,14 +6,14 @@ public class Tests : TestsBase2<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.IsMatch(testCase.S, testCase.P), Is.EqualTo(testCase.ExpectedResult));
+        Assert.That(solution.IsMatch(testCase.S, testCase.P), Is.EqualTo(testCase.Return));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public string S { get; private init; } = null!;
         public string P { get; private init; } = null!;
-        public bool ExpectedResult { get; private init; }
+        public bool Return { get; private init; }
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -23,7 +23,7 @@ public class Tests : TestsBase2<ISolution, Tests.TestCase>
                 {
                     S = "aa",
                     P = "a",
-                    ExpectedResult = false,
+                    Return = false,
                     TestCaseName = "Example 1"
                 };
 
@@ -31,7 +31,7 @@ public class Tests : TestsBase2<ISolution, Tests.TestCase>
                 {
                     S = "aa",
                     P = "a*",
-                    ExpectedResult = true,
+                    Return = true,
                     TestCaseName = "Example 2"
                 };
 
@@ -39,7 +39,7 @@ public class Tests : TestsBase2<ISolution, Tests.TestCase>
                 {
                     S = "ab",
                     P = ".*",
-                    ExpectedResult = true,
+                    Return = true,
                     TestCaseName = "Example 3"
                 };
             }

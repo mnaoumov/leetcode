@@ -6,13 +6,13 @@ public class Tests : TestsBase2<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.MaxArea(testCase.Height), Is.EqualTo(testCase.ExpectedResult));
+        Assert.That(solution.MaxArea(testCase.Height), Is.EqualTo(testCase.Return));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public int[] Height { get; private init; } = null!;
-        public int ExpectedResult { get; private init; }
+        public int Return { get; private init; }
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -21,14 +21,14 @@ public class Tests : TestsBase2<ISolution, Tests.TestCase>
                 yield return new TestCase
                 {
                     Height = new[] { 1, 8, 6, 2, 5, 4, 8, 3, 7 },
-                    ExpectedResult = 49,
+                    Return = 49,
                     TestCaseName = "Example 1"
                 };
                 
                 yield return new TestCase
                 {
                     Height = new[] { 1, 1 },
-                    ExpectedResult = 1,
+                    Return = 1,
                     TestCaseName = "Example 2"
                 };
             }

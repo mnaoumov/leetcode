@@ -6,13 +6,13 @@ public class Tests : TestsBase2<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.LongestPalindrome(testCase.S), Is.EqualTo(testCase.ExpectedResult));
+        Assert.That(solution.LongestPalindrome(testCase.S), Is.EqualTo(testCase.Return));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public string S { get; private init; } = null!;
-        public string ExpectedResult { get; private init; } = null!;
+        public string Return { get; private init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -21,21 +21,21 @@ public class Tests : TestsBase2<ISolution, Tests.TestCase>
                 yield return new TestCase
                 {
                     S = "babad",
-                    ExpectedResult = "bab",
+                    Return = "bab",
                     TestCaseName = "Example 1"
                 };
 
                 yield return new TestCase
                 {
                     S = "cbbd",
-                    ExpectedResult = "bb",
+                    Return = "bb",
                     TestCaseName = "Example 2"
                 };
 
                 yield return new TestCase
                 {
                     S = "a",
-                    ExpectedResult = "a"
+                    Return = "a"
                 };
             }
         }

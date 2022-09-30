@@ -28,7 +28,8 @@ public abstract class TestsBase2<TSolution, TTestCase> where TTestCase : TestCas
             {
                 foreach (var testCase in testCases)
                 {
-                    yield return new TestCaseData(solution, testCase).SetName($@"{solution.GetType().Name} {testCase.TestCaseName}");
+                    var testCaseTestCaseName = testCase.TestCaseName ?? $"Test Case {Array.IndexOf(testCases, testCase) + 1}";
+                    yield return new TestCaseData(solution, testCase).SetName($@"{solution.GetType().Name}: {testCaseTestCaseName}");
                 }
             }
         }

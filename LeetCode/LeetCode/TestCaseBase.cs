@@ -2,6 +2,6 @@
 
 public abstract class TestCaseBase<TTestCase>
 {
-    public string TestCaseName { get; init; }
+    public string? TestCaseName { get; protected init; }
     public abstract IEnumerable<TTestCase> TestCases { get; }
 }

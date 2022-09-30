@@ -52,4 +52,9 @@ public class ListNode
 
         return listNode;
     }
+
+    public static ListNode? CreateOrNull(params int[] values)
+    {
+        return values.Any() ? Create(values) : null;
+    }
 }

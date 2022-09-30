@@ -7,7 +7,7 @@ public static class ListNodeTestHelper
     public static void TestListNodesByReference(Func<ListNode?, ListNode?> listModificationFunc, int[] valuesBefore,
         int[] valuesAfter)
     {
-        var listBefore = valuesBefore.Any() ? ListNode.Create(valuesBefore) : null;
+        var listBefore = ListNode.CreateOrNull(valuesBefore);
 
         var valueToNodeMap = new Dictionary<int, ListNode>();
 
@@ -21,7 +21,7 @@ public static class ListNodeTestHelper
 
         var listAfter = listModificationFunc(listBefore);
 
-        Assert.That(listAfter, Is.EqualTo(ListNode.Create(valuesAfter)));
+        Assert.That(listAfter, Is.EqualTo(ListNode.CreateOrNull(valuesAfter)));
 
         node = listAfter;
 

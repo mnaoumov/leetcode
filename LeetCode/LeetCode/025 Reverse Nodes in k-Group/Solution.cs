@@ -25,11 +25,11 @@ public class Solution : ISolution
                 afterGroupNode = afterGroupNode.next;
             }
 
-            var node = beforeGroupNode.next;
+            var node = beforeGroupNode!.next;
             var newNext = afterGroupNode;
             ListNode? newBeforeGroupNode = null;
 
-            for (int i = 0; i < k; i++)
+            for (var i = 0; i < k; i++)
             {
                 var oldNext = node!.next;
                 node.next = newNext;

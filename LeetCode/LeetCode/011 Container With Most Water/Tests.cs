@@ -2,22 +2,36 @@
 
 namespace LeetCode._011_Container_With_Most_Water;
 
-[TestFixtureSource(nameof(Solutions))]
-public class Tests : TestsBase<ISolution>
+public class Tests : TestsBase2<ISolution, Tests.TestCase>
 {
-    public Tests(ISolution solution) : base(solution)
+    protected override void TestImpl(ISolution solution, TestCase testCase)
     {
+        Assert.That(solution.MaxArea(testCase.Height), Is.EqualTo(testCase.ExpectedResult));
     }
 
-    [Test]
-    public void Example1()
+    public class TestCase : TestCaseBase<TestCase>
     {
-        Assert.That(Solution.MaxArea(new[] { 1, 8, 6, 2, 5, 4, 8, 3, 7 }), Is.EqualTo(49));
-    }
+        public int[] Height { get; private init; } = null!;
+        public int ExpectedResult { get; private init; }
 
-    [Test]
-    public void Example2()
-    {
-        Assert.That(Solution.MaxArea(new[] { 1, 1 }), Is.EqualTo(1));
+        public override IEnumerable<TestCase> TestCases
+        {
+            get
+            {
+                yield return new TestCase
+                {
+                    Height = new[] { 1, 8, 6, 2, 5, 4, 8, 3, 7 },
+                    ExpectedResult = 49,
+                    TestCaseName = "Example 1"
+                };
+                
+                yield return new TestCase
+                {
+                    Height = new[] { 1, 1 },
+                    ExpectedResult = 1,
+                    TestCaseName = "Example 2"
+                };
+            }
+        }
     }
 }

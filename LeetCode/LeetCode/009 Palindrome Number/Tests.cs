@@ -2,28 +2,43 @@
 
 namespace LeetCode._009_Palindrome_Number;
 
-[TestFixtureSource(nameof(Solutions))]
-public class Tests : TestsBase<ISolution>
+public class Tests : TestsBase2<ISolution, Tests.TestCase>
 {
-    public Tests(ISolution solution) : base(solution)
+    protected override void TestImpl(ISolution solution, TestCase testCase)
     {
+        Assert.That(solution.IsPalindrome(testCase.X), Is.EqualTo(testCase.ExpectedResult));
     }
 
-    [Test]
-    public void Example1()
+    public class TestCase : TestCaseBase<TestCase>
     {
-        Assert.That(Solution.IsPalindrome(121), Is.True);
-    }
+        public int X { get; private init; }
+        public bool ExpectedResult { get; private init; }
 
-    [Test]
-    public void Example2()
-    {
-        Assert.That(Solution.IsPalindrome(-121), Is.False);
-    }
+        public override IEnumerable<TestCase> TestCases
+        {
+            get
+            {
+                yield return new TestCase
+                {
+                    X = 121,
+                    ExpectedResult = true,
+                    TestCaseName = "Example 1"
+                };
+                
+                yield return new TestCase
+                {
+                    X = -121,
+                    ExpectedResult = false,
+                    TestCaseName = "Example 2"
+                };
 
-    [Test]
-    public void Example3()
-    {
-        Assert.That(Solution.IsPalindrome(10), Is.False);
+                yield return new TestCase
+                {
+                    X = 10,
+                    ExpectedResult = false,
+                    TestCaseName = "Example 3"
+                };
+            }
+        }
     }
 }

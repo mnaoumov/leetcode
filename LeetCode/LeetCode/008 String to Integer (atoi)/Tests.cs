@@ -2,28 +2,43 @@
 
 namespace LeetCode._008_String_to_Integer__atoi_;
 
-[TestFixtureSource(nameof(Solutions))]
-public class Tests : TestsBase<ISolution>
+public class Tests : TestsBase2<ISolution, Tests.TestCase>
 {
-    public Tests(ISolution solution) : base(solution)
+    protected override void TestImpl(ISolution solution, TestCase testCase)
     {
+        Assert.That(solution.MyAtoi(testCase.S), Is.EqualTo(testCase.ExpectedResult));
     }
 
-    [Test]
-    public void Example1()
+    public class TestCase : TestCaseBase<TestCase>
     {
-        Assert.That(Solution.MyAtoi("42"), Is.EqualTo(42));
-    }
+        public string S { get; private init; } = null!;
+        public int ExpectedResult { get; private init; }
 
-    [Test]
-    public void Example2()
-    {
-        Assert.That(Solution.MyAtoi("   -42"), Is.EqualTo(-42));
-    }
-
-    [Test]
-    public void Example3()
-    {
-        Assert.That(Solution.MyAtoi("4193 with words"), Is.EqualTo(4193));
+        public override IEnumerable<TestCase> TestCases
+        {
+            get
+            {
+                yield return new TestCase
+                {
+                    S = "42",
+                    ExpectedResult = 42,
+                    TestCaseName = "Example 1"
+                };
+                
+                yield return new TestCase
+                {
+                    S = "   -42",
+                    ExpectedResult = -42,
+                    TestCaseName = "Example 2"
+                };
+                
+                yield return new TestCase
+                {
+                    S = "4193 with words",
+                    ExpectedResult = 4193,
+                    TestCaseName = "Example 3"
+                };
+            }
+        }
     }
 }

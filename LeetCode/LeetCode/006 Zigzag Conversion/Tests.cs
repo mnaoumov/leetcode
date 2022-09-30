@@ -2,28 +2,46 @@
 
 namespace LeetCode._006_Zigzag_Conversion;
 
-[TestFixtureSource(nameof(Solutions))]
-public class Tests : TestsBase<ISolution>
+public class Tests : TestsBase2<ISolution, Tests.TestCase>
 {
-    public Tests(ISolution solution) : base(solution)
+    protected override void TestImpl(ISolution solution, TestCase testCase)
     {
+        Assert.That(solution.Convert(testCase.String, testCase.NumRows), Is.EqualTo(testCase.ExpectedResult));
     }
 
-    [Test]
-    public void Example1()
+    public class TestCase : TestCaseBase<TestCase>
     {
-        Assert.That(Solution.Convert("PAYPALISHIRING", 3), Is.EqualTo("PAHNAPLSIIGYIR"));
-    }
+        public string String { get; private init; } = null!;
+        public int NumRows { get; private init; }
+        public string ExpectedResult { get; private init; } = null!;
 
-    [Test]
-    public void Example2()
-    {
-        Assert.That(Solution.Convert("PAYPALISHIRING", 4), Is.EqualTo("PINALSIGYAHRPI"));
-    }
+        public override IEnumerable<TestCase> TestCases
+        {
+            get
+            {
+                yield return new TestCase
+                {
+                    String = "PAYPALISHIRING",
+                    NumRows = 3,
+                    ExpectedResult = "PAHNAPLSIIGYIR",
+                    TestCaseName = "Example 1"
+                };
 
-    [Test]
-    public void Test1()
-    {
-        Assert.That(Solution.Convert("A", 1), Is.EqualTo("A"));
+                yield return new TestCase
+                {
+                    String = "PAYPALISHIRING",
+                    NumRows = 4,
+                    ExpectedResult = "PINALSIGYAHRPI",
+                    TestCaseName = "Example 2"
+                };
+
+                yield return new TestCase
+                {
+                    String = "A",
+                    NumRows = 1,
+                    ExpectedResult = "A"
+                };
+            }
+        }
     }
 }

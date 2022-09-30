@@ -6,13 +6,13 @@ public class Tests : TestsBase2<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.LengthOfLongestSubstring(testCase.String), Is.EqualTo(testCase.ExpectedResult));
+        Assert.That(solution.LengthOfLongestSubstring(testCase.S), Is.EqualTo(testCase.ExpectedResult));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public string String { get; init; }
-        public int ExpectedResult { get; init; }
+        public string S { get; private init; } = null!;
+        public int ExpectedResult { get; private init; }
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -20,21 +20,21 @@ public class Tests : TestsBase2<ISolution, Tests.TestCase>
             {
                 yield return new TestCase
                 {
-                    String = "abcabcbb",
+                    S = "abcabcbb",
                     ExpectedResult = 3,
                     TestCaseName = "Example 1"
                 };
 
                 yield return new TestCase
                 {
-                    String = "bbbbb",
+                    S = "bbbbb",
                     ExpectedResult = 1,
                     TestCaseName = "Example 2"
                 };
 
                 yield return new TestCase
                 {
-                    String = "pwwkew",
+                    S = "pwwkew",
                     ExpectedResult = 3,
                     TestCaseName = "Example 3"
                 };

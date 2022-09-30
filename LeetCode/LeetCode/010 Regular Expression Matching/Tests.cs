@@ -2,28 +2,47 @@
 
 namespace LeetCode._010_Regular_Expression_Matching;
 
-[TestFixtureSource(nameof(Solutions))]
-public class Tests : TestsBase<ISolution>
+public class Tests : TestsBase2<ISolution, Tests.TestCase>
 {
-    public Tests(ISolution solution) : base(solution)
+    protected override void TestImpl(ISolution solution, TestCase testCase)
     {
+        Assert.That(solution.IsMatch(testCase.S, testCase.P), Is.EqualTo(testCase.ExpectedResult));
     }
 
-    [Test]
-    public void Example1()
+    public class TestCase : TestCaseBase<TestCase>
     {
-        Assert.That(Solution.IsMatch("aa", "a"), Is.False);
-    }
+        public string S { get; private init; } = null!;
+        public string P { get; private init; } = null!;
+        public bool ExpectedResult { get; private init; }
 
-    [Test]
-    public void Example2()
-    {
-        Assert.That(Solution.IsMatch("aa", "a*"), Is.True);
-    }
+        public override IEnumerable<TestCase> TestCases
+        {
+            get
+            {
+                yield return new TestCase
+                {
+                    S = "aa",
+                    P = "a",
+                    ExpectedResult = false,
+                    TestCaseName = "Example 1"
+                };
 
-    [Test]
-    public void Example3()
-    {
-        Assert.That(Solution.IsMatch("ab", ".*"), Is.True);
+                yield return new TestCase
+                {
+                    S = "aa",
+                    P = "a*",
+                    ExpectedResult = true,
+                    TestCaseName = "Example 2"
+                };
+
+                yield return new TestCase
+                {
+                    S = "ab",
+                    P = ".*",
+                    ExpectedResult = true,
+                    TestCaseName = "Example 3"
+                };
+            }
+        }
     }
 }

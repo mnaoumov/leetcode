@@ -2,28 +2,43 @@
 
 namespace LeetCode._012_Integer_to_Roman;
 
-[TestFixtureSource(nameof(Solutions))]
-public class Tests : TestsBase<ISolution>
+public class Tests : TestsBase2<ISolution, Tests.TestCase>
 {
-    public Tests(ISolution solution) : base(solution)
+    protected override void TestImpl(ISolution solution, TestCase testCase)
     {
+        Assert.That(solution.IntToRoman(testCase.Num), Is.EqualTo(testCase.ExpectedResult));
     }
 
-    [Test]
-    public void Example1()
+    public class TestCase : TestCaseBase<TestCase>
     {
-        Assert.That(Solution.IntToRoman(3), Is.EqualTo("III"));
-    }
+        public int Num { get; private init; }
+        public string ExpectedResult { get; private init; } = null!;
 
-    [Test]
-    public void Example2()
-    {
-        Assert.That(Solution.IntToRoman(58), Is.EqualTo("LVIII"));
-    }
+        public override IEnumerable<TestCase> TestCases
+        {
+            get
+            {
+                yield return new TestCase
+                {
+                    Num = 3,
+                    ExpectedResult = "III",
+                    TestCaseName = "Example 1"
+                };
 
-    [Test]
-    public void Example3()
-    {
-        Assert.That(Solution.IntToRoman(1994), Is.EqualTo("MCMXCIV"));
+                yield return new TestCase
+                {
+                    Num = 58,
+                    ExpectedResult = "LVIII",
+                    TestCaseName = "Example 2"
+                };
+
+                yield return new TestCase
+                {
+                    Num = 1994,
+                    ExpectedResult = "MCMXCIV",
+                    TestCaseName = "Example 3"
+                };
+            }
+        }
     }
 }

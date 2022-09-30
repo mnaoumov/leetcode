@@ -2,28 +2,42 @@
 
 namespace LeetCode._005_Longest_Palindromic_Substring;
 
-[TestFixtureSource(nameof(Solutions))]
-public class Tests : TestsBase<ISolution>
+public class Tests : TestsBase2<ISolution, Tests.TestCase>
 {
-    public Tests(ISolution solution) : base(solution)
+    protected override void TestImpl(ISolution solution, TestCase testCase)
     {
+        Assert.That(solution.LongestPalindrome(testCase.S), Is.EqualTo(testCase.ExpectedResult));
     }
 
-    [Test]
-    public void Example1()
+    public class TestCase : TestCaseBase<TestCase>
     {
-        Assert.That(Solution.LongestPalindrome("babad"), Is.EqualTo("bab"));
-    }
+        public string S { get; private init; } = null!;
+        public string ExpectedResult { get; private init; } = null!;
 
-    [Test]
-    public void Example2()
-    {
-        Assert.That(Solution.LongestPalindrome("cbbd"), Is.EqualTo("bb"));
-    }
+        public override IEnumerable<TestCase> TestCases
+        {
+            get
+            {
+                yield return new TestCase
+                {
+                    S = "babad",
+                    ExpectedResult = "bab",
+                    TestCaseName = "Example 1"
+                };
 
-    [Test]
-    public void Test1()
-    {
-        Assert.That(Solution.LongestPalindrome("a"), Is.EqualTo("a"));
+                yield return new TestCase
+                {
+                    S = "cbbd",
+                    ExpectedResult = "bb",
+                    TestCaseName = "Example 2"
+                };
+
+                yield return new TestCase
+                {
+                    S = "a",
+                    ExpectedResult = "a"
+                };
+            }
+        }
     }
 }

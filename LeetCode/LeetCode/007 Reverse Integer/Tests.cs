@@ -2,28 +2,43 @@
 
 namespace LeetCode._007_Reverse_Integer;
 
-[TestFixtureSource(nameof(Solutions))]
-public class Tests : TestsBase<ISolution>
+public class Tests : TestsBase2<ISolution, Tests.TestCase>
 {
-    public Tests(ISolution solution) : base(solution)
+    protected override void TestImpl(ISolution solution, TestCase testCase)
     {
+        Assert.That(solution.Reverse(testCase.X), Is.EqualTo(testCase.ExpectedResult));
     }
 
-    [Test]
-    public void Example1()
+    public class TestCase : TestCaseBase<TestCase>
     {
-        Assert.That(Solution.Reverse(123), Is.EqualTo(321));
-    }
+        public int X { get; private init; }
+        public int ExpectedResult { get; private init; }
 
-    [Test]
-    public void Example2()
-    {
-        Assert.That(Solution.Reverse(-123), Is.EqualTo(-321));
-    }
+        public override IEnumerable<TestCase> TestCases
+        {
+            get
+            {
+                yield return new TestCase
+                {
+                    X = 123,
+                    ExpectedResult = 321,
+                    TestCaseName = "Example 1"
+                };
 
-    [Test]
-    public void Example3()
-    {
-        Assert.That(Solution.Reverse(120), Is.EqualTo(21));
+                yield return new TestCase
+                {
+                    X = -123,
+                    ExpectedResult = -321,
+                    TestCaseName = "Example 2"
+                };
+
+                yield return new TestCase
+                {
+                    X = 120,
+                    ExpectedResult = 21,
+                    TestCaseName = "Example 3"
+                };
+            }
+        }
     }
 }

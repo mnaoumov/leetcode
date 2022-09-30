@@ -1,6 +1,6 @@
 ﻿namespace LeetCode._024_Swap_Nodes_in_Pairs;
 
-public class Tests : TestsBase2<ISolution, Tests.TestCase>
+public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {

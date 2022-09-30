@@ -2,7 +2,7 @@
 
 namespace LeetCode._012_Integer_to_Roman;
 
-public class Tests : TestsBase2<ISolution, Tests.TestCase>
+public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {

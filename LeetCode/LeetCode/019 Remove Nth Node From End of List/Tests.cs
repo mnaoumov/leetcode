@@ -2,7 +2,7 @@
 
 namespace LeetCode._019_Remove_Nth_Node_From_End_of_List;
 
-public class Tests : TestsBase2<ISolution, Tests.TestCase>
+public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {

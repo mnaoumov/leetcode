@@ -3,7 +3,7 @@ using NUnit.Framework.Constraints;
 
 namespace LeetCode;
 
-public abstract class TestsBase2<TSolution, TTestCase> where TTestCase : TestCaseBase<TTestCase>, new()
+public abstract class TestsBase<TSolution, TTestCase> where TTestCase : TestCaseBase<TTestCase>, new()
 {
     [Test]
     [TestCaseSource(nameof(JoinedTestCases))]

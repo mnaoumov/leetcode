@@ -2,31 +2,24 @@
 
 namespace LeetCode._001_Two_Sum;
 
-[TestFixtureSource(nameof(Solutions))]
-public class Tests : TestsBase<ISolution>
+[TestFixture]
+public class Tests : TestsBase2<ISolution, (int[] nums, int target, int[] expectedResult), Tests.TestCaseBuilder>
 {
-    public Tests(ISolution solution) : base(solution)
+    protected override void TestImpl(ISolution solution, (int[] nums, int target, int[] expectedResult) testCase)
     {
+        Assert.That(solution.TwoSum(testCase.nums, testCase.target), Is.EqualTo(testCase.expectedResult));
     }
 
-    [Test]
-    public void Example1()
+    public class TestCaseBuilder : TestCaseBuilderBase<(int[] nums, int target, int[] expectedResult)>
     {
-        var result = Solution.TwoSum(new[] { 2, 7, 11, 15 }, 9);
-        Assert.That(result, Is.EqualTo(new[] { 0, 1 }));
-    }
-
-    [Test]
-    public void Example2()
-    {
-        var result = Solution.TwoSum(new[] { 3, 2, 4 }, 6);
-        Assert.That(result, Is.EqualTo(new[] { 1, 2 }));
-    }
-
-    [Test]
-    public void Example3()
-    {
-        var result = Solution.TwoSum(new[] { 3, 3 }, 6);
-        Assert.That(result, Is.EqualTo(new[] { 0, 1 }));
+        public override IEnumerable<((int[] nums, int target, int[] expectedResult) testCase, string testCaseName)> TestCasesWithNames
+        {
+            get
+            {
+                yield return (testCase: (nums: new[] { 2, 7, 11, 15 }, target: 9, expectedResult: new[] { 0, 1 }), testCaseName: "Example 1");
+                yield return (testCase: (nums: new[] { 3, 2, 4, 6 }, target: 6, expectedResult: new[] { 1, 2 }), testCaseName: "Example 2");
+                yield return (testCase: (nums: new[] { 3, 3 }, target: 6, expectedResult: new[] { 0, 1 }), testCaseName: "Example 3");
+            }
+        }
     }
 }

@@ -2,37 +2,32 @@
 
 namespace LeetCode._002_Add_Two_Numbers;
 
-[TestFixtureSource(nameof(Solutions))]
-public class Tests: TestsBase<ISolution>
+public class Tests : TestsBase2<ISolution, (int[] list1Values, int[] list2Values, int[] expectedResultValues), Tests.TestCaseBuilder>
 {
-    public Tests(ISolution solution) : base(solution)
+    protected override void TestImpl(ISolution solution, (int[] list1Values, int[] list2Values, int[] expectedResultValues) testCase)
     {
+        var list1 = ListNode.Create(testCase.list1Values);
+        var list2 = ListNode.Create(testCase.list2Values);
+        var expectedResult = ListNode.Create(testCase.expectedResultValues);
+        Assert.That(solution.AddTwoNumbers(list1, list2), Is.EqualTo(expectedResult));
     }
 
-    [Test]
-    public void Example1()
+    public class TestCaseBuilder : TestCaseBuilderBase<(int[] list1Values, int[] list2Values, int[] expectedResultValues)>
     {
-        var l1 = ListNode.Create(2, 4, 3);
-        var l2 = ListNode.Create(5, 6, 4);
-        var output = ListNode.Create(7, 0, 8);
-        Assert.That(Solution.AddTwoNumbers(l1, l2), Is.EqualTo(output));
-    }
-
-    [Test]
-    public void Example2()
-    {
-        var l1 = ListNode.Create(0);
-        var l2 = ListNode.Create(0);
-        var output = ListNode.Create(0);
-        Assert.That(Solution.AddTwoNumbers(l1, l2), Is.EqualTo(output));
-    }
-
-    [Test]
-    public void Example3()
-    {
-        var l1 = ListNode.Create(9, 9, 9, 9, 9, 9, 9);
-        var l2 = ListNode.Create(9, 9, 9, 9);
-        var output = ListNode.Create(8, 9, 9, 9, 0, 0, 0, 1);
-        Assert.That(Solution.AddTwoNumbers(l1, l2), Is.EqualTo(output));
+        public override IEnumerable<((int[] list1Values, int[] list2Values, int[] expectedResultValues) testCase, string testCaseName)> TestCasesWithNames
+        {
+            get
+            {
+                yield return (
+                    testCase: (list1Values: new[] { 2, 4, 3 }, list2Values: new[] { 5, 6, 4 },
+                        expectedResultValues: new[] { 7, 0, 8 }), testCaseName: "Example 1");
+                yield return (
+                    testCase: (list1Values: new[] { 0 }, list2Values: new[] { 0 },
+                        expectedResultValues: new[] { 0 }), testCaseName: "Example 2");
+                yield return (
+                    testCase: (list1Values: new[] { 9, 9, 9, 9, 9, 9, 9 }, list2Values: new[] { 9, 9, 9, 9 },
+                        expectedResultValues: new[] { 8, 9, 9, 9, 0, 0, 0, 1 }), testCaseName: "Example 3");
+            }
+        }
     }
 }

@@ -2,34 +2,54 @@
 
 namespace LeetCode._004_Median_of_Two_Sorted_Arrays;
 
-[TestFixtureSource(nameof(Solutions))]
-public class Tests : TestsBase<ISolution>
+public class Tests : TestsBase2<ISolution, Tests.TestCase>
 {
-    public Tests(ISolution solution) : base(solution)
+    protected override void TestImpl(ISolution solution, TestCase testCase)
     {
+        Assert.That(solution.FindMedianSortedArrays(testCase.Nums1, testCase.Nums2), Is.EqualTo(testCase.ExpectedResult));
     }
 
-    [Test]
-    public void Example1()
+    public class TestCase : TestCaseBase<TestCase>
     {
-        Assert.That(Solution.FindMedianSortedArrays(new[] { 1, 3 }, new[] { 2 }), Is.EqualTo(2));
-    }
+        public int[] Nums1 { get; init; }
+        public int[] Nums2 { get; init; }
+        public double ExpectedResult { get; init; }
 
-    [Test]
-    public void Example2()
-    {
-        Assert.That(Solution.FindMedianSortedArrays(new[] { 1, 2 }, new[] { 3, 4 }), Is.EqualTo(2.5));
-    }
+        public override IEnumerable<TestCase> TestCases
+        {
+            get
+            {
+                yield return new TestCase
+                {
+                    Nums1 = new[] { 1, 3 },
+                    Nums2 = new[] { 2 },
+                    ExpectedResult = 2,
+                    TestCaseName = "Example 1"
+                };
 
-    [Test]
-    public void Empty()
-    {
-        Assert.That(Solution.FindMedianSortedArrays(new int[] { }, new[] { 1 }), Is.EqualTo(1));
-    }
+                yield return new TestCase
+                {
+                    Nums1 = new[] { 1, 2 },
+                    Nums2 = new[] { 3, 4 },
+                    ExpectedResult = 2.5,
+                    TestCaseName = "Example 2"
+                };
 
-    [Test]
-    public void Test1()
-    {
-        Assert.That(Solution.FindMedianSortedArrays(new[] { 3 }, new[] { -2, -1 }), Is.EqualTo(-1));
+                yield return new TestCase
+                {
+                    Nums1 = Array.Empty<int>(),
+                    Nums2 = new[] { 1 },
+                    ExpectedResult = 1,
+                    TestCaseName = "Empty"
+                };
+
+                yield return new TestCase
+                {
+                    Nums1 = new[] { 3 },
+                    Nums2 = new[] { -2, -1 },
+                    ExpectedResult = -1
+                };
+            }
+        }
     }
 }

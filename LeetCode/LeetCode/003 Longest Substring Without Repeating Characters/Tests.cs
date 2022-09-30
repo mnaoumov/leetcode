@@ -2,28 +2,43 @@
 
 namespace LeetCode._003_Longest_Substring_Without_Repeating_Characters;
 
-[TestFixtureSource(nameof(Solutions))]
-public class Tests : TestsBase<ISolution>
+public class Tests : TestsBase2<ISolution, Tests.TestCase>
 {
-    public Tests(ISolution solution) : base(solution)
+    protected override void TestImpl(ISolution solution, TestCase testCase)
     {
+        Assert.That(solution.LengthOfLongestSubstring(testCase.String), Is.EqualTo(testCase.ExpectedResult));
     }
 
-    [Test]
-    public void Example1()
+    public class TestCase : TestCaseBase<TestCase>
     {
-        Assert.That(Solution.LengthOfLongestSubstring("abcabcbb"), Is.EqualTo(3));
-    }
+        public string String { get; init; }
+        public int ExpectedResult { get; init; }
 
-    [Test]
-    public void Example2()
-    {
-        Assert.That(Solution.LengthOfLongestSubstring("bbbbb"), Is.EqualTo(1));
-    }
+        public override IEnumerable<TestCase> TestCases
+        {
+            get
+            {
+                yield return new TestCase
+                {
+                    String = "abcabcbb",
+                    ExpectedResult = 3,
+                    TestCaseName = "Example 1"
+                };
 
-    [Test]
-    public void Example3()
-    {
-        Assert.That(Solution.LengthOfLongestSubstring("pwwkew"), Is.EqualTo(3));
+                yield return new TestCase
+                {
+                    String = "bbbbb",
+                    ExpectedResult = 1,
+                    TestCaseName = "Example 2"
+                };
+
+                yield return new TestCase
+                {
+                    String = "pwwkew",
+                    ExpectedResult = 3,
+                    TestCaseName = "Example 3"
+                };
+            }
+        }
     }
 }

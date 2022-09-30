@@ -1,24 +1,37 @@
 ﻿using NUnit.Framework;
 namespace LeetCode._022_Generate_Parentheses;
 
-[TestFixtureSource(nameof(Solutions))]
-public class Tests : TestsBase<ISolution>
+public class Tests : TestsBase2<ISolution, Tests.TestCase>
 {
-    public Tests(ISolution solution) : base(solution)
+    protected override void TestImpl(ISolution solution, TestCase testCase)
     {
+        Assert.That(solution.GenerateParenthesis(testCase.N),
+            Is.EquivalentTo(testCase.Return));
     }
 
-    [Test]
-    public void Example1()
+    public class TestCase : TestCaseBase<TestCase>
     {
-        Assert.That(Solution.GenerateParenthesis(3),
-            Is.EquivalentTo(new[] { "((()))", "(()())", "(())()", "()(())", "()()()" }));
-    }
-    
-    [Test]
-    public void Example2()
-    {
-        Assert.That(Solution.GenerateParenthesis(1),
-            Is.EquivalentTo(new[] { "()" }));
+        public int N { get; private init; }
+        public string[] Return { get; private init; } = null!;
+
+        public override IEnumerable<TestCase> TestCases
+        {
+            get
+            {
+                yield return new TestCase
+                {
+                    N = 3,
+                    Return = new[] { "((()))", "(()())", "(())()", "()(())", "()()()" },
+                    TestCaseName = "Example 1"
+                };
+                
+                yield return new TestCase
+                {
+                    N = 1,
+                    Return = new[] { "()" },
+                    TestCaseName = "Example 2"
+                };
+            }
+        }
     }
 }

@@ -2,28 +2,43 @@
 
 namespace LeetCode._017_Letter_Combinations_of_a_Phone_Number;
 
-[TestFixtureSource(nameof(Solutions))]
-public class Tests : TestsBase<ISolution>
+public class Tests : TestsBase2<ISolution, Tests.TestCase>
 {
-    public Tests(ISolution solution) : base(solution)
+    protected override void TestImpl(ISolution solution, TestCase testCase)
     {
+        Assert.That(solution.LetterCombinations(testCase.Digits), Is.EquivalentTo(testCase.Return));
     }
 
-    [Test]
-    public void Example1()
+    public class TestCase : TestCaseBase<TestCase>
     {
-        Assert.That(Solution.LetterCombinations("23"), Is.EquivalentTo(new[] { "ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf" }));
-    }
+        public string Digits { get; private init; } = null!;
+        public string[] Return { get; private init; } = null!;
 
-    [Test]
-    public void Example2()
-    {
-        Assert.That(Solution.LetterCombinations(""), Is.EquivalentTo(Array.Empty<string>()));
-    }
+        public override IEnumerable<TestCase> TestCases
+        {
+            get
+            {
+                yield return new TestCase
+                {
+                    Digits = "23",
+                    Return = new[] { "ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf" },
+                    TestCaseName = "Example 1"
+                };
 
-    [Test]
-    public void Example3()
-    {
-        Assert.That(Solution.LetterCombinations("2"), Is.EquivalentTo(new[] { "a", "b", "c" }));
+                yield return new TestCase
+                {
+                    Digits = "",
+                    Return = Array.Empty<string>(),
+                    TestCaseName = "Example 2"
+                };
+
+                yield return new TestCase
+                {
+                    Digits = "2",
+                    Return = new[] { "a", "b", "c" },
+                    TestCaseName = "Example 3"
+                };
+            }
+        }
     }
 }

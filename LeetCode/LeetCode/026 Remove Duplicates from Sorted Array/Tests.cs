@@ -2,22 +2,40 @@
 
 namespace LeetCode._026_Remove_Duplicates_from_Sorted_Array;
 
-[TestFixtureSource(nameof(Solutions))]
-public class Tests : TestsBase<ISolution>
+public class Tests : TestsBase2<ISolution, Tests.TestCase>
 {
-    public Tests(ISolution solution) : base(solution)
+    protected override void TestImpl(ISolution solution, TestCase testCase)
     {
+        int k = solution.RemoveDuplicates(testCase.Nums);
+
+        Assert.That(k, Is.EqualTo(testCase.ExpectedNums.Length));
+
+        Assert.That(testCase.Nums.Take(k), Is.EqualTo(testCase.ExpectedNums));
     }
 
-    [Test]
-    [TestCase(new[] { 1, 1, 2 }, new[] { 1, 2 }, TestName = "Example1")]
-    [TestCase(new[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 }, new[] { 0, 1, 2, 3, 4 }, TestName = "Example2")]
-    public void Test(int[] nums, int[] expectedNums)
+    public class TestCase : TestCaseBase<TestCase>
     {
-        int k = Solution.RemoveDuplicates(nums);
+        public int[] Nums { get; private init; } = null!;
+        public int[] ExpectedNums { get; private init; } = null!;
 
-        Assert.That(k, Is.EqualTo(expectedNums.Length));
+        public override IEnumerable<TestCase> TestCases
+        {
+            get
+            {
+                yield return new TestCase
+                {
+                    Nums = new[] { 1, 1, 2 },
+                    ExpectedNums = new[] { 1, 2 },
+                    TestCaseName = "Example 1"
+                };
 
-        Assert.That(nums.Take(k), Is.EqualTo(expectedNums));
+                yield return new TestCase
+                {
+                    Nums = new[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 },
+                    ExpectedNums = new[] { 0, 1, 2, 3, 4 },
+                    TestCaseName = "Example 2"
+                };
+            }
+        }
     }
 }

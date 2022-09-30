@@ -2,28 +2,42 @@
 
 namespace LeetCode._990_Satisfiability_of_Equality_Equations;
 
-[TestFixtureSource(nameof(Solutions))]
-public class Tests : TestsBase<ISolution>
+public class Tests : TestsBase2<ISolution, Tests.TestCase>
 {
-    public Tests(ISolution solution) : base(solution)
+    protected override void TestImpl(ISolution solution, TestCase testCase)
     {
+        Assert.That(solution.EquationsPossible(testCase.Equations), Is.EqualTo(testCase.Return));
     }
 
-    [Test]
-    public void Example1()
+    public class TestCase : TestCaseBase<TestCase>
     {
-        Assert.That(Solution.EquationsPossible(new []{ "a==b", "b!=a" }), Is.False);
-    }
+        public string[] Equations { get; private init; } = null!;
+        public bool Return { get; private init; }
 
-    [Test]
-    public void Example2()
-    {
-        Assert.That(Solution.EquationsPossible(new[] { "b==a", "a==b" }), Is.True);
-    }
+        public override IEnumerable<TestCase> TestCases
+        {
+            get
+            {
+                yield return new TestCase
+                {
+                    Equations = new[] { "a==b", "b!=a" },
+                    Return = false,
+                    TestCaseName = "Example 1"
+                };
 
-    [Test]
-    public void Test1()
-    {
-        Assert.That(Solution.EquationsPossible(new[] { "e==d", "e==a", "f!=d", "b!=c", "a==b" }), Is.True);
+                yield return new TestCase
+                {
+                    Equations = new[] { "b==a", "a==b" },
+                    Return = true,
+                    TestCaseName = "Example 2"
+                };
+
+                yield return new TestCase
+                {
+                    Equations = new[] { "e==d", "e==a", "f!=d", "b!=c", "a==b" },
+                    Return = true
+                };
+            }
+        }
     }
 }

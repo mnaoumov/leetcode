@@ -1,34 +1,48 @@
-﻿// TODO Fix namespace
-
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
 namespace LeetCode._018_4Sum;
 
-[TestFixtureSource(nameof(Solutions))]
-public class Tests : TestsBase<ISolution>
+public class Tests : TestsBase2<ISolution, Tests.TestCase>
 {
-    public Tests(ISolution solution) : base(solution)
+    protected override void TestImpl(ISolution solution, TestCase testCase)
     {
+        Assert.That(solution.FourSum(testCase.Nums, testCase.Target),
+            IsEquivalentToIgnoringItemOrder(testCase.Return));
     }
 
-    [Test]
-    public void Example1()
+    public class TestCase : TestCaseBase<TestCase>
     {
-        Assert.That(Solution.FourSum(new[] { 1, 0, -1, 0, -2, 2 }, 0),
-            IsEquivalentToIgnoringItemOrder(new[] { new[] { -2, -1, 1, 2 }, new[] { -2, 0, 0, 2 }, new[] { -1, 0, 0, 1 } }));
-    }
+        public int[] Nums { get; private init; } = null!;
+        public int Target { get; private init; }
+        public int[][] Return { get; private init; } = null!;
 
-    [Test]
-    public void Example2()
-    {
-        Assert.That(Solution.FourSum(new[] { 2, 2, 2, 2, 2 }, 8),
-            IsEquivalentToIgnoringItemOrder(new[] { new[] { 2, 2, 2, 2 } }));
-    }
+        public override IEnumerable<TestCase> TestCases
+        {
+            get
+            {
+                yield return new TestCase
+                {
+                    Nums = new[] { 1, 0, -1, 0, -2, 2 },
+                    Target = 0,
+                    Return = new[] { new[] { -2, -1, 1, 2 }, new[] { -2, 0, 0, 2 }, new[] { -1, 0, 0, 1 } },
+                    TestCaseName = "Example 1"
+                };
 
-    [Test]
-    public void Test1()
-    {
-        Assert.That(Solution.FourSum(new[] { 1000000000, 1000000000, 1000000000, 1000000000 }, -294967296),
-            IsEquivalentToIgnoringItemOrder(Array.Empty<int[]>()));
+                yield return new TestCase
+                {
+                    Nums = new[] { 2, 2, 2, 2, 2 },
+                    Target = 8,
+                    Return = new[] { new[] { 2, 2, 2, 2 } },
+                    TestCaseName = "Example 2"
+                };
+
+                yield return new TestCase
+                {
+                    Nums = new[] { 1000000000, 1000000000, 1000000000, 1000000000 },
+                    Target = -294967296,
+                    Return = Array.Empty<int[]>()
+                };
+            }
+        }
     }
 }

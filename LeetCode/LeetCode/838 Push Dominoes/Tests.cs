@@ -2,22 +2,36 @@
 
 namespace LeetCode._838_Push_Dominoes;
 
-[TestFixtureSource(nameof(Solutions))]
-public class Tests : TestsBase<ISolution>
+public class Tests : TestsBase2<ISolution, Tests.TestCase>
 {
-    public Tests(ISolution solution) : base(solution)
+    protected override void TestImpl(ISolution solution, TestCase testCase)
     {
+        Assert.That(solution.PushDominoes(testCase.Dominoes), Is.EqualTo(testCase.Return));
     }
 
-    [Test]
-    public void Example1()
+    public class TestCase : TestCaseBase<TestCase>
     {
-        Assert.That(Solution.PushDominoes("RR.L"), Is.EqualTo("RR.L"));
-    }
-    
-    [Test]
-    public void Example2()
-    {
-        Assert.That(Solution.PushDominoes(".L.R...LR..L.."), Is.EqualTo("LL.RR.LLRRLL.."));
+        public string Dominoes { get; private init; } = null!;
+        public string Return { get; private init; } = null!;
+
+        public override IEnumerable<TestCase> TestCases
+        {
+            get
+            {
+                yield return new TestCase
+                {
+                    Dominoes = "RR.L",
+                    Return = "RR.L",
+                    TestCaseName = "Example 1"
+                };
+                
+                yield return new TestCase
+                {
+                    Dominoes = ".L.R...LR..L..",
+                    Return = "LL.RR.LLRRLL..",
+                    TestCaseName = "Example 2"
+                };
+            }
+        }
     }
 }

@@ -1,38 +1,45 @@
-﻿using NUnit.Framework;
+﻿namespace LeetCode._024_Swap_Nodes_in_Pairs;
 
-namespace LeetCode._024_Swap_Nodes_in_Pairs;
-
-[TestFixtureSource(nameof(Solutions))]
-public class Tests : TestsBase<ISolution>
+public class Tests : TestsBase2<ISolution, Tests.TestCase>
 {
-    public Tests(ISolution solution) : base(solution)
-    {
-    }
-
-    [Test]
-    public void Example1()
+    protected override void TestImpl(ISolution solution, TestCase testCase)
     {
         ListNodeTestHelper.TestListNodesByReference(
-            listModificationFunc: Solution.SwapPairs,
-            valuesBefore: new[] { 1, 2, 3, 4 },
-            valuesAfter: new[] { 2, 1, 4, 3 });
+            listModificationFunc: solution.SwapPairs,
+            valuesBefore: testCase.ValuesBefore,
+            valuesAfter: testCase.ValuesAfter);
     }
 
-    [Test]
-    public void Example2()
+    public class TestCase : TestCaseBase<TestCase>
     {
-        ListNodeTestHelper.TestListNodesByReference(
-            listModificationFunc: Solution.SwapPairs,
-            valuesBefore: Array.Empty<int>(),
-            valuesAfter: Array.Empty<int>());
-    }
+        public int[] ValuesBefore { get; private init; } = null!;
+        public int[] ValuesAfter { get; private init; } = null!;
 
-    [Test]
-    public void Example3()
-    {
-        ListNodeTestHelper.TestListNodesByReference(
-            listModificationFunc: Solution.SwapPairs,
-            valuesBefore: new[] { 1 },
-            valuesAfter: new[] { 1 });
+        public override IEnumerable<TestCase> TestCases
+        {
+            get
+            {
+                yield return new TestCase
+                {
+                    ValuesBefore = new[] { 1, 2, 3, 4 },
+                    ValuesAfter = new[] { 2, 1, 4, 3 },
+                    TestCaseName = "Example 1"
+                };
+
+                yield return new TestCase
+                {
+                    ValuesBefore = Array.Empty<int>(),
+                    ValuesAfter = Array.Empty<int>(),
+                    TestCaseName = "Example 2"
+                };
+
+                yield return new TestCase
+                {
+                    ValuesBefore = new[] { 1 },
+                    ValuesAfter = new[] { 1 },
+                    TestCaseName = "Example 3"
+                };
+            }
+        }
     }
 }

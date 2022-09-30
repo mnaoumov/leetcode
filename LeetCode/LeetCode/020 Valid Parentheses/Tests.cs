@@ -2,28 +2,43 @@
 
 namespace LeetCode._020_Valid_Parentheses;
 
-[TestFixtureSource(nameof(Solutions))]
-public class Tests : TestsBase<ISolution>
+public class Tests : TestsBase2<ISolution, Tests.TestCase>
 {
-    public Tests(ISolution solution) : base(solution)
+    protected override void TestImpl(ISolution solution, TestCase testCase)
     {
+        Assert.That(solution.IsValid(testCase.S), Is.EqualTo(testCase.Return));
     }
 
-    [Test]
-    public void Example1()
+    public class TestCase : TestCaseBase<TestCase>
     {
-        Assert.That(Solution.IsValid("()"), Is.True);
-    }
+        public string S { get; private init; } = null!;
+        public bool Return { get; private init; }
 
-    [Test]
-    public void Example2()
-    {
-        Assert.That(Solution.IsValid("()[]{}"), Is.True);
-    }
+        public override IEnumerable<TestCase> TestCases
+        {
+            get
+            {
+                yield return new TestCase
+                {
+                    S = "()",
+                    Return = true,
+                    TestCaseName = "Example 1"
+                };
 
-    [Test]
-    public void Example3()
-    {
-        Assert.That(Solution.IsValid("(]"), Is.False);
+                yield return new TestCase
+                {
+                    S = "()[]{}",
+                    Return = true,
+                    TestCaseName = "Example 2"
+                };
+
+                yield return new TestCase
+                {
+                    S = "(]",
+                    Return = false,
+                    TestCaseName = "Example 3"
+                };
+            }
+        }
     }
 }

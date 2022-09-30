@@ -1,35 +1,51 @@
-﻿using System.Net.Http.Headers;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
 namespace LeetCode._023_Merge_k_Sorted_Lists;
 
-[TestFixtureSource(nameof(Solutions))]
-public class Tests : TestsBase<ISolution>
+public class Tests : TestsBase2<ISolution, Tests.TestCase>
 {
-    public Tests(ISolution solution) : base(solution)
+    protected override void TestImpl(ISolution solution, TestCase testCase)
     {
+        var lists = testCase.ListValuesArr.Select(ListNode.CreateOrNull).ToArray();
+
+        Assert.That(solution.MergeKLists(lists), Is.EqualTo(ListNode.CreateOrNull(testCase.ReturnValues)));
     }
 
-    [Test]
-    public void Example1()
+    public class TestCase : TestCaseBase<TestCase>
     {
-        Assert.That(Solution.MergeKLists(new[]
+        public int[][] ListValuesArr { get; private init; } = null!;
+        public int[] ReturnValues { get; private init; } = null!;
+
+        public override IEnumerable<TestCase> TestCases
         {
-            ListNode.Create(1, 4, 5),
-            ListNode.Create(1, 3, 4),
-            ListNode.Create(2, 6)
-        }), Is.EqualTo(ListNode.Create(1, 1, 2, 3, 4, 4, 5, 6)));
-    }
+            get
+            {
+                yield return new TestCase
+                {
+                    ListValuesArr = new[]
+                    {
+                        new[] { 1, 4, 5 },
+                        new[] { 1, 3, 4 },
+                        new[] { 2, 6 },
+                    },
+                    ReturnValues = new[] { 1, 1, 2, 3, 4, 4, 5, 6 },
+                    TestCaseName = "Example 1"
+                };
 
-    [Test]
-    public void Example2()
-    {
-        Assert.That(Solution.MergeKLists(Array.Empty<ListNode>()), Is.Null);
-    }
+                yield return new TestCase
+                {
+                    ListValuesArr = Array.Empty<int[]>(),
+                    ReturnValues = Array.Empty<int>(),
+                    TestCaseName = "Example 2"
+                };
 
-    [Test]
-    public void Example3()
-    {
-        Assert.That(Solution.MergeKLists(new ListNode?[] { null }), Is.Null);
+                yield return new TestCase
+                {
+                    ListValuesArr = new[] { Array.Empty<int>() },
+                    ReturnValues = Array.Empty<int>(),
+                    TestCaseName = "Example 3"
+                };
+            }
+        }
     }
 }

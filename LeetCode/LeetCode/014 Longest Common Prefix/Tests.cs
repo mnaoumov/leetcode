@@ -2,22 +2,36 @@
 
 namespace LeetCode._014_Longest_Common_Prefix;
 
-[TestFixtureSource(nameof(Solutions))]
-public class Tests : TestsBase<ISolution>
+public class Tests : TestsBase2<ISolution, Tests.TestCase>
 {
-    public Tests(ISolution solution) : base(solution)
+    protected override void TestImpl(ISolution solution, TestCase testCase)
     {
+        Assert.That(solution.LongestCommonPrefix(testCase.Strs), Is.EqualTo(testCase.Return));
     }
 
-    [Test]
-    public void Example1()
+    public class TestCase : TestCaseBase<TestCase>
     {
-        Assert.That(Solution.LongestCommonPrefix(new[] {"flower", "flow", "flight"}), Is.EqualTo("fl"));
-    }
+        public string[] Strs { get; private init; } = null!;
+        public string Return { get; private init; } = null!;
 
-    [Test]
-    public void Example2()
-    {
-        Assert.That(Solution.LongestCommonPrefix(new[] {"dog", "racecar", "car"}), Is.EqualTo(""));
+        public override IEnumerable<TestCase> TestCases
+        {
+            get
+            {
+                yield return new TestCase
+                {
+                    Strs = new[] { "flower", "flow", "flight" },
+                    Return = "fl",
+                    TestCaseName = "Example 1"
+                };
+
+                yield return new TestCase
+                {
+                    Strs = new[] { "dog", "racecar", "car" },
+                    Return = "",
+                    TestCaseName = "Example 2"
+                };
+            }
+        }
     }
 }

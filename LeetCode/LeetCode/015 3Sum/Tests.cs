@@ -1,31 +1,46 @@
 ﻿using NUnit.Framework;
-using NUnit.Framework.Constraints;
 
 namespace LeetCode._015_3Sum;
 
-[TestFixtureSource(nameof(Solutions))]
-public class Tests : TestsBase<ISolution>
+public class Tests : TestsBase2<ISolution, Tests.TestCase>
 {
-    public Tests(ISolution solution) : base(solution)
+    protected override void TestImpl(ISolution solution, TestCase testCase)
     {
+        Assert.That(solution.ThreeSum(testCase.Nums),
+            IsEquivalentToIgnoringItemOrder(testCase.Return));
     }
 
-    [Test]
-    public void Example1()
+    public class TestCase : TestCaseBase<TestCase>
     {
-        Assert.That(Solution.ThreeSum(new[] { -1, 0, 1, 2, -1, -4 }),
-            IsEquivalentToIgnoringItemOrder(new[] { new[] { -1, -1, 2 }, new[] { -1, 0, 1 } }));
-    }
+        public int[] Nums { get; private init; } = null!;
+        public int[][] Return { get; private init; } = null!;
 
-    [Test]
-    public void Example2()
-    {
-        Assert.That(Solution.ThreeSum(new[] { 0, 1, 1 }), IsEquivalentToIgnoringItemOrder(Array.Empty<int[]>()));
-    }
 
-    [Test]
-    public void Example3()
-    {
-        Assert.That(Solution.ThreeSum(new[] { 0, 0, 0 }), IsEquivalentToIgnoringItemOrder(new[] { new[] { 0, 0, 0 } }));
+        public override IEnumerable<TestCase> TestCases
+        {
+            get
+            {
+                yield return new TestCase
+                {
+                    Nums = new[] { -1, 0, 1, 2, -1, -4 },
+                    Return = new[] { new[] { -1, -1, 2 }, new[] { -1, 0, 1 } },
+                    TestCaseName = "Example 1"
+                };
+
+                yield return new TestCase
+                {
+                    Nums = new[] { 0, 1, 1 },
+                    Return = Array.Empty<int[]>(),
+                    TestCaseName = "Example 2"
+                };
+
+                yield return new TestCase
+                {
+                    Nums = new[] { 0, 0, 0 },
+                    Return = new[] { new[] { 0, 0, 0 } },
+                    TestCaseName = "Example 3"
+                };
+            }
+        }
     }
 }

@@ -1,5 +1,8 @@
 ﻿namespace LeetCode._034_Find_First_and_Last_Position_of_Element_in_Sorted_Array;
 
+/// <summary>
+/// https://leetcode.com/submissions/detail/812987415/
+/// </summary>
 public class Solution : ISolution
 {
     public int[] SearchRange(int[] nums, int target)
@@ -12,36 +15,27 @@ public class Solution : ISolution
         }
 
         var left = 0;
-        var right = nums.Length;
+        var right = nums.Length - 1;
 
         var minIndex = notFoundIndex;
         var maxIndex = notFoundIndex;
 
-        while (left < right)
+        while (left <= right)
         {
             var mid = (left + right) / 2;
 
-            if (nums[mid] == target)
-            {
-                if (mid == left)
-                {
-                    minIndex = mid;
-                    if (minIndex == nums.Length - 1 || nums[minIndex + 1] > target)
-                    {
-                        maxIndex = mid;
-                    }
-                    break;
-                }
-
-                right = mid + 1;
-            }
-            else if (nums[mid] < target)
+            if (nums[mid] < target)
             {
                 left = mid + 1;
             }
+            else if (nums[mid] > target)
+            {
+                right = mid - 1;
+            }
             else
             {
-                right = mid;
+                minIndex = mid;
+                right = mid - 1;
             }
         }
 
@@ -50,35 +44,26 @@ public class Solution : ISolution
             return new[] { notFoundIndex, notFoundIndex };
         }
 
-        if (maxIndex == notFoundIndex)
+        left = minIndex;
+        right = nums.Length - 1;
+
+        while (left <= right)
         {
-            left = minIndex;
-            right = nums.Length;
+            var mid = (left + right) / 2;
 
-            while (left < right)
+            if (nums[mid] < target)
             {
-                var mid = (left + right) / 2;
-
-                if (nums[mid] == target)
-                {
-                    left = mid;
-
-                    if (mid == right - 1)
-                    {
-                        break;
-                    }
-                }
-                else if (nums[mid] < target)
-                {
-                    left = mid + 1;
-                }
-                else
-                {
-                    right = mid;
-                }
+                left = mid + 1;
             }
-
-            maxIndex = left;
+            else if (nums[mid] > target)
+            {
+                right = mid - 1;
+            }
+            else
+            {
+                maxIndex = mid;
+                left = mid + 1;
+            }
         }
 
         return new[] { minIndex, maxIndex };

@@ -7,6 +7,7 @@ public abstract class TestsBase<TSolution, TTestCase> where TTestCase : TestCase
 {
     [Test]
     [TestCaseSource(nameof(JoinedTestCases))]
+    [Timeout(100)]
     public void Test(TSolution solution, TTestCase testCase)
     {
         TestImpl(solution, testCase);

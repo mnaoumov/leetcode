@@ -1,69 +1,41 @@
 ﻿namespace LeetCode._032_Longest_Valid_Parentheses;
 
+/// <summary>
+/// https://leetcode.com/submissions/detail/812842176/
+/// </summary>
 public class Solution : ISolution
 {
     private const char OpeningBracket = '(';
-    private const char ClosingBracket = ')';
 
     public int LongestValidParentheses(string s)
     {
-        var isValidCache = new bool?[s.Length, s.Length + 1];
-        var longestValidLength = 0;
+        var balances = new int[s.Length];
 
-        for (int leftIndex = 0; leftIndex < s.Length - 1; leftIndex++)
+        for (int i = 0; i < s.Length; i++)
         {
-            for (int rightNonInclusiveIndex = s.Length; rightNonInclusiveIndex > leftIndex; rightNonInclusiveIndex--)
+            var previousBalance = i == 0 ? 0 : balances[i - 1];
+            balances[i] = previousBalance + (s[i] == OpeningBracket ? 1 : -1);
+        }
+
+        var result = 0;
+
+        for (int i = 0; i < s.Length; i++)
+        {
+            var previousBalance = i == 0 ? 0 : balances[i - 1];
+            for (int j = i; j < s.Length; j++)
             {
-                if (IsValidParentheses(leftIndex, rightNonInclusiveIndex))
+                if (balances[j] < previousBalance)
                 {
-                    var length = rightNonInclusiveIndex - leftIndex;
-                    if (length > longestValidLength)
-                    {
-                        longestValidLength = length;
-                    }
+                    break;
+                }
+
+                if (balances[j] == previousBalance)
+                {
+                    result = Math.Max(result, j - i + 1);
                 }
             }
         }
 
-        return longestValidLength;
-
-        bool IsValidParentheses(int leftIndex, int rightNonInclusiveIndex)
-        {
-            if (leftIndex == rightNonInclusiveIndex)
-            {
-                return true;
-            }
-
-            if (leftIndex > rightNonInclusiveIndex)
-            {
-                return false;
-            }
-
-            if (isValidCache[leftIndex, rightNonInclusiveIndex] is not { } isValid)
-            {
-                isValidCache[leftIndex, rightNonInclusiveIndex] = isValid = CalculateIsValidParentheses(leftIndex, rightNonInclusiveIndex);
-            }
-
-            return isValid;
-        }
-
-        bool CalculateIsValidParentheses(int leftIndex, int rightNonInclusiveIndex)
-        {
-            if (s[leftIndex] != OpeningBracket)
-            {
-                return false;
-            }
-
-            for (var closingBracketIndex = leftIndex + 1; closingBracketIndex < rightNonInclusiveIndex; closingBracketIndex++)
-            {
-                if (s[closingBracketIndex] == ClosingBracket && IsValidParentheses(leftIndex + 1, closingBracketIndex) &&
-                    IsValidParentheses(closingBracketIndex + 1, rightNonInclusiveIndex))
-                {
-                    return true;
-                }
-            }
-
-            return false;
-        }
+        return result;
     }
 }

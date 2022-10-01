@@ -32,7 +32,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     Nums = new[] { 4, 5, 6, 7, 0, 1, 2 },
                     Target = 3,
                     Return = -1,
-                    TestCaseName = "Example 1"
+                    TestCaseName = "Example 2"
                 };
                 
                 yield return new TestCase
@@ -40,7 +40,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     Nums = new[] { 1 },
                     Target = 0,
                     Return = -1,
-                    TestCaseName = "Example 1"
+                    TestCaseName = "Example 3"
                 };
             }
         }

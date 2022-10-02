@@ -1,6 +1,4 @@
-﻿using System.Collections;
-
-namespace LeetCode._037_Sudoku_Solver;
+﻿namespace LeetCode._037_Sudoku_Solver;
 
 public class Solution : ISolution
 {
@@ -21,24 +19,24 @@ public class Solution : ISolution
     private class Board
     {
         public const int Size = 9;
-        public Group[] Rows { get; } = new Group[Size];
-        public Group[] Columns { get; } = new Group[Size];
-        public Group[] Squares { get; } = new Group[Size];
-        public Cell[] Cells { get; } = new Cell[Size * Size];
-        public IEnumerable<Cell> UnsolvedCells => Cells.Where(cell => !cell.IsSolved());
+        private Group[] Rows { get; } = new Group[Size];
+        private Group[] Columns { get; } = new Group[Size];
+        private Group[] Squares { get; } = new Group[Size];
+        private Cell[] Cells { get; } = new Cell[Size * Size];
+        private IEnumerable<Cell> UnsolvedCells => Cells.Where(cell => !cell.IsSolved());
 
         public Board(char[][] rawBoard)
         {
-            for (int i = 0; i < Size; i++)
+            for (var i = 0; i < Size; i++)
             {
                 Rows[i] = new Group { Id = i };
                 Columns[i] = new Group { Id = i };
                 Squares[i] = new Group { Id = i };
             }
 
-            for (int rowId = 0; rowId < Size; rowId++)
+            for (var rowId = 0; rowId < Size; rowId++)
             {
-                for (int columnId = 0; columnId < Size; columnId++)
+                for (var columnId = 0; columnId < Size; columnId++)
                 {
                     var cellId = GetCellId(rowId, columnId);
                     var squareId = (rowId / 3) * 3 + (columnId / 3);

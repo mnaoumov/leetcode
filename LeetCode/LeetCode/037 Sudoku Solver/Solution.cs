@@ -1,5 +1,11 @@
-﻿namespace LeetCode._037_Sudoku_Solver;
+﻿using System.Text;
+using Newtonsoft.Json;
 
+namespace LeetCode._037_Sudoku_Solver;
+
+/// <summary>
+/// https://leetcode.com/submissions/detail/813133781/
+/// </summary>
 public class Solution : ISolution
 {
     public void SolveSudoku(char[][] board)
@@ -73,36 +79,53 @@ public class Solution : ISolution
 
         private bool TrySolve()
         {
-            if (UnsolvedCells.Any(cell => cell.Candidates.Count == 0))
+            if (!UnsolvedCells.Any())
+            {
+                return true;
+            }
+
+            if (UnsolvedCells.Any(cell => cell.Candidates.Length == 0))
             {
                 return false;
             }
 
-            foreach (var cell in UnsolvedCells.OrderBy(cell => cell.Candidates.Count))
+            var cell = UnsolvedCells.OrderBy(cell => cell.Candidates.Length).First();
+            foreach (var cellCandidate in cell.Candidates.ToArray())
             {
-                foreach (var cellCandidate in cell.Candidates)
-                {
-                    cell.SetCandidate(cellCandidate);
+                cell.SetCandidate(cellCandidate);
 
-                    cell.Value = cellCandidate;
-                    if (!TrySolve())
-                    {
-                        cell.Reset();
-                    }
-                    else
-                    {
-                        return true;
-                    }
+                if (TrySolve())
+                {
+                    return true;
                 }
+
+                cell.Reset();
             }
 
-            return true;
+            return false;
         }
 
         public Cell GetCell(int rowId, int columnId)
         {
             var cellId = GetCellId(rowId, columnId);
             return Cells[cellId];
+        }
+
+        public override string ToString()
+        {
+            var sb = new StringBuilder();
+            for (int rowId = 0; rowId < Size; rowId++)
+            {
+                for (int columnId = 0; columnId < Size; columnId++)
+                {
+                    var cell = GetCell(rowId, columnId);
+                    sb.Append(cell.Value);
+                }
+
+                sb.AppendLine();
+            }
+
+            return sb.ToString();
         }
     }
 
@@ -112,31 +135,11 @@ public class Solution : ISolution
 
         public char Value { get; set; }
 
-        private IEnumerable<Cell> UnsolvedNeighborCells
-        {
-            get
-            {
-                var set = new HashSet<Cell>();
-                set.UnionWith(Row.Cells);
-                set.UnionWith(Column.Cells);
-                set.UnionWith(Square.Cells);
-                set.Remove(this);
-
-                foreach (var cell in set)
-                {
-                    if (!cell.IsSolved())
-                    {
-                        yield return cell;
-                    }
-                }
-            }
-        }
-
         public Group Row { get; init; } = null!;
         public Group Column { get; init; } = null!;
         public Group Square { get; init; } = null!;
         static readonly char[] AllDigits = { '1', '2', '3', '4', '5', '6', '7', '8', '9' };
-        public IList<char> Candidates { get; private set; } = null!;
+        public char[] Candidates { get; private set; } = null!;
 
         public void CalculateCandidates()
         {
@@ -149,30 +152,44 @@ public class Solution : ISolution
             candidates.ExceptWith(Row.Values);
             candidates.ExceptWith(Column.Values);
             candidates.ExceptWith(Square.Values);
-            Candidates = candidates.ToList();
+            Candidates = candidates.OrderBy(x => x).ToArray();
         }
 
         public bool IsSolved() => Value != UnsolvedValue;
 
         public void Reset()
         {
-            foreach (var cell in UnsolvedNeighborCells)
-            {
-                cell.Candidates.Add(Value);
-            }
-
             Value = UnsolvedValue;
+            RecalculateNeighborsCandidates();
+        }
+
+        private void RecalculateNeighborsCandidates()
+        {
+            var neighbors = new HashSet<Cell>();
+            neighbors.UnionWith(Row.Cells);
+            neighbors.UnionWith(Column.Cells);
+            neighbors.UnionWith(Square.Cells);
+            neighbors.Remove(this);
+
+            foreach (var cell in neighbors)
+            {
+                cell.CalculateCandidates();
+            }
         }
 
         public void SetCandidate(char candidate)
         {
-            foreach (var cell in UnsolvedNeighborCells)
-            {
-                cell.Candidates.Remove(candidate);
-            }
-
             Value = candidate;
+            RecalculateNeighborsCandidates();
         }
+
+        public override string ToString() => JsonConvert.SerializeObject(new
+        {
+            Value,
+            Row = Row.Id,
+            Column = Column.Id,
+            Square = Square.Id
+        });
     }
 
     private class Group

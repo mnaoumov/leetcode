@@ -46,6 +46,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     },
                     TestCaseName = "Example 1"
                 };
+
                 yield return new TestCase
                 {
                     Board = new[]

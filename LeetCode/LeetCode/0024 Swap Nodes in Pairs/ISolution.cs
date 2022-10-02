@@ -1,0 +1,6 @@
+﻿namespace LeetCode._0024_Swap_Nodes_in_Pairs;
+
+public interface ISolution
+{
+    public ListNode? SwapPairs(ListNode? head);
+}

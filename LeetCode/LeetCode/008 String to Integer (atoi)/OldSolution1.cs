@@ -46,6 +46,7 @@ public class OldSolution1 : ISolution
                 onlyWhiteSpace = false;
             }
             else if (char.IsWhiteSpace(symbol) && onlyWhiteSpace)
+                // ReSharper disable once RedundantJumpStatement
                 continue;
             else
                 return result;

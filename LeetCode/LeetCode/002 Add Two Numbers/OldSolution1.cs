@@ -45,7 +45,7 @@ public class OldSolution1 : ISolution
 
         if (firstResultDigitNode == null)
         {
-            return new ListNode(0);
+            return new ListNode();
         }
 
         return firstResultDigitNode;

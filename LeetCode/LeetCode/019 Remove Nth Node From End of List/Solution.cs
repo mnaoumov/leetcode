@@ -9,7 +9,7 @@ public class Solution : ISolution
     {
         var beforeHeadFakeNode = new ListNode(0, head);
 
-        ListNode node = head;
+        ListNode? node = head;
 
         for (int i = 0; i < n; i++)
         {
@@ -20,7 +20,7 @@ public class Solution : ISolution
 
         while (node != null)
         {
-            node = node.next!;
+            node = node.next;
             nodeBeforeNthFromEnd = nodeBeforeNthFromEnd.next!;
         }
 

@@ -8,8 +8,8 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     {
         var list1 = ListNode.Create(testCase.List1Values);
         var list2 = ListNode.Create(testCase.List2Values);
-        var Return = ListNode.Create(testCase.ReturnValues);
-        Assert.That(solution.AddTwoNumbers(list1, list2), Is.EqualTo(Return));
+        var returnList = ListNode.Create(testCase.ReturnValues);
+        Assert.That(solution.AddTwoNumbers(list1, list2), Is.EqualTo(returnList));
     }
 
     public class TestCase : TestCaseBase<TestCase>

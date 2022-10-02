@@ -8,9 +8,9 @@ public class Solution : ISolution
     public int NumDecodings(string s)
     {
         var cache = new int?[s.Length];
-        return NumDecodings(0);
+        return NumDecodingsImpl(0);
 
-        int NumDecodings(int index)
+        int NumDecodingsImpl(int index)
         {
             if (index == s.Length)
             {
@@ -41,13 +41,13 @@ public class Solution : ISolution
                 return 0;
             }
 
-            var result = NumDecodings(index + 1);
+            var result = NumDecodingsImpl(index + 1);
 
             switch (digit)
             {
                 case 1:
                 case 2 when index + 1 < s.Length && GetDigit(index + 1) <= 6:
-                    result += NumDecodings(index + 2);
+                    result += NumDecodingsImpl(index + 2);
                     break;
             }
 

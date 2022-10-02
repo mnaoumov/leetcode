@@ -7,7 +7,7 @@ public class OldSolution2 : ISolution
 {
     public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
     {
-        ListNode beforeFirstNode = new ListNode(0);
+        ListNode beforeFirstNode = new ListNode();
         ListNode lastResultDigitNode = beforeFirstNode;
         var memory = 0;
 
@@ -46,7 +46,7 @@ public class OldSolution2 : ISolution
 
         if (beforeFirstNode.next == null)
         {
-            return new ListNode(0);
+            return new ListNode();
         }
 
         return beforeFirstNode.next;

@@ -18,7 +18,7 @@ public class Solution : ISolution
 
             char GetEqualityChainRoot(char variable)
             {
-                var current = variable;
+                char current;
                 var next = variable;
 
                 var variablesToUpdate = new List<char>();

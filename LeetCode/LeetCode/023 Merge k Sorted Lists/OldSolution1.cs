@@ -7,7 +7,7 @@ public class OldSolution1 : ISolution
 {
     public ListNode MergeKLists(ListNode?[] lists)
     {
-        ListNode fakeRoot = new ListNode(0);
+        ListNode fakeRoot = new ListNode();
         ListNode mergedListNode = fakeRoot;
 
         while (true)

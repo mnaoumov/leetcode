@@ -20,8 +20,6 @@ public class OldSolution3 : ISolution
             numCounts[num]++;
         }
 
-        var keys = new HashSet<string>();
-
         var results = new List<IList<int>>();
 
         var n = nums.Length;

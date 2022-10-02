@@ -43,8 +43,8 @@ public abstract class TestsBase<TSolution, TTestCase> where TTestCase : TestCase
         return Is.EquivalentTo(expected)
             .Using<IEnumerable<T>>((a, b) =>
             {
-                var aSorted = a.OrderBy<T, T>(x => x);
-                var bSorted = b.OrderBy<T, T>(x => x);
+                var aSorted = a.OrderBy(x => x);
+                var bSorted = b.OrderBy(x => x);
                 return aSorted.SequenceEqual(bSorted);
             });
     }

@@ -42,6 +42,32 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     },
                     TestCaseName = "Example 2"
                 };
+
+                yield return new TestCase
+                {
+                    Candidates = new[] { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+                    Target = 27,
+                    Return = Array.Empty<IList<int>>()
+                };
+
+                yield return new TestCase
+                {
+                    Candidates = new[]
+                    {
+                        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+                        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+                        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+                        1, 1, 1, 1
+                    },
+                    Target = 30,
+                    Return = new IList<int>[]
+                    {
+                        new[]
+                        {
+                            1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+                        }
+                    }
+                };
             }
         }
     }

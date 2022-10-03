@@ -4,24 +4,26 @@ public class Solution : ISolution
 {
     public int MinCost(string colors, int[] neededTime)
     {
-        var lastColor = colors[0];
-        var lastColorStartingIndex = 0;
+        var lastColor = default(char);
         var result = 0;
+        var lastColorNeededTimeSum = 0;
+        var lastColorNeededTimeMax = 0;
 
-        for (int i = 1; i < colors.Length + 1; i++)
+        for (int i = 0; i < colors.Length + 1; i++)
         {
-            var color = colors.ElementAtOrDefault(i);
+            var color = i < colors.Length ? colors[i] : default;
             if (color != lastColor)
             {
-                var lastColorCount = i - lastColorStartingIndex;
-                if (lastColorCount > 1)
-                {
-                    var neededTimeForGroup = neededTime.Skip(lastColorStartingIndex).Take(lastColorCount);
-                    result += neededTimeForGroup.Sum() - neededTimeForGroup.Max();
-                }
-
+                result += lastColorNeededTimeSum - lastColorNeededTimeMax;
                 lastColor = color;
-                lastColorStartingIndex = i;
+                lastColorNeededTimeSum = 0;
+                lastColorNeededTimeMax = 0;
+            }
+
+            if (i < colors.Length)
+            {
+                lastColorNeededTimeSum += neededTime[i];
+                lastColorNeededTimeMax = Math.Max(lastColorNeededTimeMax, neededTime[i]);
             }
         }
 

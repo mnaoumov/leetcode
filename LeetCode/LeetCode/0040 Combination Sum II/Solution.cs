@@ -20,6 +20,11 @@ public class Solution : ISolution
             yield break;
         }
 
+        if (candidates.Skip(index).Sum() < target)
+        {
+            yield break;
+        }
+
         var keys = new HashSet<string>();
 
 

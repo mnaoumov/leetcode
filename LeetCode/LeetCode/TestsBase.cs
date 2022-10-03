@@ -53,4 +53,9 @@ public abstract class TestsBase<TSolution, TTestCase> where TTestCase : TestCase
     {
         Assert.That(actual, Is.EqualTo(expected), "Actual:\r\n{0}\r\n\r\nExpected:\r\n{1}\r\n\r\n", JsonConvert.SerializeObject(actual), JsonConvert.SerializeObject(expected));
     }
+
+    protected static void AssertCollectionEquivalentWithDetails<T>(IEnumerable<T> actual, IEnumerable<T> expected)
+    {
+        Assert.That(actual, Is.EquivalentTo(expected), "Actual:\r\n{0}\r\n\r\nExpected:\r\n{1}\r\n\r\n", JsonConvert.SerializeObject(actual), JsonConvert.SerializeObject(expected));
+    }
 }

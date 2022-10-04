@@ -31,6 +31,12 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     Return = 9,
                     TestCaseName = "Example 2"
                 };
+
+                yield return new TestCase
+                {
+                    Height = new[] { 4, 2, 3 },
+                    Return = 1
+                };
             }
         }
     }

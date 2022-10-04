@@ -4,6 +4,11 @@ public class Solution : ISolution
 {
     public int Trap(int[] height)
     {
+        if (height[0] > height[^1])
+        {
+            Array.Reverse(height);
+        }
+
         var result = 0;
 
         var left = 0;

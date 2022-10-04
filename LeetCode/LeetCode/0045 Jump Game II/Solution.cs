@@ -13,12 +13,12 @@ public class Solution : ISolution
 
         int GetCached(int index)
         {
-            if (cache[index] is not { } result)
+            if (cache[index] is not { } cachedResult)
             {
-                cache[index] = result = Calculate();
+                cache[index] = cachedResult = Calculate();
             }
 
-            return result;
+            return cachedResult;
 
             int Calculate()
             {

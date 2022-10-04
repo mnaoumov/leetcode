@@ -1,9 +1,17 @@
 ﻿namespace LeetCode._0043_Multiply_Strings;
 
+/// <summary>
+/// https://leetcode.com/submissions/detail/814694353/
+/// </summary>
 public class Solution : ISolution
 {
     public string Multiply(string num1, string num2)
     {
+        if (num1 == "0" || num2 == "0")
+        {
+            return "0";
+        }
+
         var digits1 = GetDigits(num1);
         var digits2 = GetDigits(num2);
 
@@ -34,7 +42,7 @@ public class Solution : ISolution
             var digit1 = GetDigitFromEnd(digits1, i);
             var digit2 = GetDigitFromEnd(digits2, i);
             var digitsSum = digit1 + digit2 + curry;
-            if (digitsSum == 0)
+            if (digitsSum == 0 && i >= digits1.Count && i >= digits2.Count)
             {
                 break;
             }

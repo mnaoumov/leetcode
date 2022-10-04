@@ -34,6 +34,20 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     Return = "56088",
                     TestCaseName = "Example 2"
                 };
+
+                yield return new TestCase
+                {
+                    Num1 = "0",
+                    Num2 = "0",
+                    Return = "0"
+                };
+
+                yield return new TestCase
+                {
+                    Num1 = "999",
+                    Num2 = "999",
+                    Return = "998001"
+                };
             }
         }
     }

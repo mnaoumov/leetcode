@@ -1,14 +1,12 @@
 ﻿namespace LeetCode._0042_Trapping_Rain_Water;
 
+/// <summary>
+/// https://leetcode.com/submissions/detail/814621902/
+/// </summary>
 public class Solution : ISolution
 {
     public int Trap(int[] height)
     {
-        if (height[0] > height[^1])
-        {
-            Array.Reverse(height);
-        }
-
         var result = 0;
 
         var left = 0;
@@ -28,12 +26,13 @@ public class Solution : ISolution
             if (right < height.Length)
             {
                 result += waterFromTheLeft;
-                left = right;
             }
-            else
+            else if (left < height.Length - 1)
             {
-                left++;
+                result += Trap(height[left..].Reverse().ToArray());
             }
+
+            left = right;
         }
 
         return result;

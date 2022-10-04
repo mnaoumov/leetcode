@@ -7,14 +7,14 @@ public class Solution : ISolution
 {
     public int FirstMissingPositive(int[] nums)
     {
-        const int SeenNumber = 0;
-        const int NumberToIgnore = -1;
+        const int seenNumber = 0;
+        const int numberToIgnore = -1;
 
         for (var i = 0; i < nums.Length; i++)
         {
-            if (nums[i] == SeenNumber)
+            if (nums[i] == seenNumber)
             {
-                nums[i] = NumberToIgnore;
+                nums[i] = numberToIgnore;
             }
         }
 
@@ -23,14 +23,14 @@ public class Solution : ISolution
             var j = nums[i];
             while (1 <= j && j <= nums.Length)
             {
-                (j, nums[j - 1]) = (nums[j - 1], SeenNumber);
+                (j, nums[j - 1]) = (nums[j - 1], seenNumber);
 
             }
         }
 
         for (var i = 0; i < nums.Length; i++)
         {
-            if (nums[i] != SeenNumber)
+            if (nums[i] != seenNumber)
             {
                 return i + 1;
             }

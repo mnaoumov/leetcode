@@ -17,8 +17,46 @@ public class TreeNode
 
     public static TreeNode? Create(int?[] values)
     {
-        var result = Create(values, 0);
+        if (values.Length == 0)
+        {
+            return null;
+        }
+
+        var queue = new Queue<TreeNode>();
+        var result = CreateFromIndex(0)!;
+        queue.Enqueue(result);
+
+        var index = 0;
+        while (queue.Count > 0)
+        {
+            var node = queue.Dequeue();
+            node.left = CreateFromIndex(index + 1);
+            node.right = CreateFromIndex(index + 2);
+
+            if (node.left != null)
+            {
+                queue.Enqueue(node.left);
+            }
+
+            if (node.right != null)
+            {
+                queue.Enqueue(node.right);
+            }
+
+            index += 2;
+        }
+
         return result;
+
+        TreeNode? CreateFromIndex(int index)
+        {
+            if (index >= values.Length || values[index] is not { } value)
+            {
+                return null;
+            }
+
+            return new TreeNode(value);
+        }
     }
 
     private static TreeNode? Create(int?[] values, int index)
@@ -36,5 +74,54 @@ public class TreeNode
         };
 
         return node;
+    }
+
+    public override bool Equals(object? obj)
+    {
+        if (obj is not TreeNode treeNode)
+        {
+            return false;
+        }
+
+        return Equals((val, left, right), (treeNode.val, treeNode.left, treeNode.right));
+    }
+
+    // ReSharper disable NonReadonlyMemberInGetHashCode
+    public override int GetHashCode() => (val, left, right).GetHashCode();
+    // ReSharper restore NonReadonlyMemberInGetHashCode
+
+    public override string ToString()
+    {
+        var values = new List<string>();
+        TraverseByLevel(this, node => values.Add(node == null ? "null" : node.val.ToString()));
+        return string.Join(",", values);
+    }
+
+    private static void TraverseByLevel(TreeNode? node, Action<TreeNode?> treeAction)
+    {
+        var queue = new Queue<TreeNode?>();
+        queue.Enqueue(node);
+
+        while (queue.Count > 0)
+        {
+            node = queue.Dequeue();
+            treeAction(node);
+            if (node != null)
+            {
+                if (node.left != null)
+                {
+                    queue.Enqueue(node.left);
+                }
+                else if (node.right != null)
+                {
+                    queue.Enqueue(null);
+                }
+
+                if (node.right != null)
+                {
+                    queue.Enqueue(node.right);
+                }
+            }
+        }
     }
 }

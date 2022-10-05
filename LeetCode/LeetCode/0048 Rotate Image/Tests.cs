@@ -1,6 +1,4 @@
-﻿using NUnit.Framework;
-
-namespace LeetCode._0048_Rotate_Image;
+﻿namespace LeetCode._0048_Rotate_Image;
 
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {

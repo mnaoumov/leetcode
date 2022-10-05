@@ -48,32 +48,15 @@ public class TreeNode
 
         return result;
 
-        TreeNode? CreateFromIndex(int index)
+        TreeNode? CreateFromIndex(int index2)
         {
-            if (index >= values.Length || values[index] is not { } value)
+            if (index2 >= values.Length || values[index2] is not { } value)
             {
                 return null;
             }
 
             return new TreeNode(value);
         }
-    }
-
-    private static TreeNode? Create(int?[] values, int index)
-    {
-        if (index >= values.Length || values[index] is not { } value)
-        {
-            return null;
-        }
-
-        var node = new TreeNode
-        {
-            val = value,
-            left = Create(values, 2 * index + 1),
-            right = Create(values, 2 * index + 2)
-        };
-
-        return node;
     }
 
     public override bool Equals(object? obj)

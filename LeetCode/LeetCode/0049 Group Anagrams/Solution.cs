@@ -10,6 +10,6 @@ public class Solution : ISolution
         return strs
             .GroupBy(str => new string(str.ToCharArray().OrderBy(x => x).ToArray()))
             .Select(g => g.ToArray())
-            .ToArray();
+            .ToArray<IList<string>>();
     }
 }

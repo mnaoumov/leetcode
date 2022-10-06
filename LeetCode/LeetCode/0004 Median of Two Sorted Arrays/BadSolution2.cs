@@ -61,6 +61,7 @@ public class BadSolution2 : ISolution
                 if (j < n)
                     minRight = Math.Min(minRight, b[j]);
 
+                // ReSharper disable once PossibleLossOfFraction
                 return (maxLeft + minRight) / 2;
             }
         }

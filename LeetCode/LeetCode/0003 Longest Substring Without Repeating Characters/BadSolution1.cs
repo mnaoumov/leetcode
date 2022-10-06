@@ -9,7 +9,7 @@ public class BadSolution1 : ISolution
     public int LengthOfLongestSubstring(string s)
     {
         var i = 0;
-        var j = 0;
+        int j;
         var result = 0;
         var charIndices = new Dictionary<char, int>();
         for (j = 0; j < s.Length; j++)

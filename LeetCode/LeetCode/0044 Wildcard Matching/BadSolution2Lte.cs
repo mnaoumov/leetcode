@@ -1,9 +1,9 @@
 ﻿namespace LeetCode._0044_Wildcard_Matching;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/208757970/
+/// https://leetcode.com/submissions/detail/208759054/
 /// </summary>
-public class OldSolution1LTE : ISolution
+public class BadSolution2Lte : ISolution
 {
     public bool IsMatch(string s, string p)
     {
@@ -23,6 +23,11 @@ public class OldSolution1LTE : ISolution
 
         if (patternSymbol == multipleWildcardSymbol)
         {
+            while (pIndex + 1 < p.Length && p[pIndex + 1] == multipleWildcardSymbol)
+            {
+                pIndex++;
+            }
+
             for (int afterWildcardIndex = sIndex; afterWildcardIndex <= s.Length; afterWildcardIndex++)
             {
                 if (IsMatch(s, p, afterWildcardIndex, pIndex + 1))

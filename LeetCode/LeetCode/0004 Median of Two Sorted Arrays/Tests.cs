@@ -49,6 +49,20 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     Nums2 = new[] { -2, -1 },
                     Return = -1
                 };
+
+                yield return new TestCase
+                {
+                    Nums1 = new[] { 3, 4 },
+                    Nums2 = new[] { 1, 2 },
+                    Return = 2.5
+                };
+
+                yield return new TestCase
+                {
+                    Nums1 = new[] { 1, 2 },
+                    Nums2 = new[] { 3, 4, 5 },
+                    Return = 3
+                };
             }
         }
     }

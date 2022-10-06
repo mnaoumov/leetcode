@@ -8,7 +8,7 @@ public abstract class TestsBase<TSolution, TTestCase> where TTestCase : TestCase
 {
     [Test]
     [TestCaseSource(nameof(JoinedTestCases))]
-    [Timeout(100)]
+    [Timeout(50)]
     public void Test(TSolution solution, TTestCase testCase)
     {
         TestImpl(solution, testCase);
@@ -32,7 +32,15 @@ public abstract class TestsBase<TSolution, TTestCase> where TTestCase : TestCase
                 foreach (var testCase in testCases)
                 {
                     var testCaseTestCaseName = testCase.TestCaseName ?? $"Test Case {Array.IndexOf(testCases, testCase) + 1}";
-                    yield return new TestCaseData(solution, testCase).SetName($@"{solution!.GetType().Name}: {testCaseTestCaseName}");
+                    var testCaseData =
+                        new TestCaseData(solution, testCase).SetName(
+                            $@"{solution!.GetType().Name}: {testCaseTestCaseName}");
+                    if (solution.GetType().Name.StartsWith("Bad"))
+                    {
+                        testCaseData.Explicit();
+                    }
+
+                    yield return testCaseData;
                 }
             }
         }

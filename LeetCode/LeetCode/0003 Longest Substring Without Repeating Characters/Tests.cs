@@ -38,6 +38,24 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     Return = 3,
                     TestCaseName = "Example 3"
                 };
+
+                yield return new TestCase
+                {
+                    S = "opachvf",
+                    Return = 7
+                };
+                
+                yield return new TestCase
+                {
+                    S = "tmmzuxt",
+                    Return = 5
+                };
+
+                yield return new TestCase
+                {
+                    S = "",
+                    Return = 0
+                };
             }
         }
     }

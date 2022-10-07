@@ -3,7 +3,7 @@
 public class MyCalendarThree1 : IMyCalendarThree
 {
     private readonly Dictionary<(int start, int end), int> _eventBookingDict = new();
-    private int _maxBooking = 0;
+    private int _maxBooking;
 
     public int Book(int start, int end)
     {

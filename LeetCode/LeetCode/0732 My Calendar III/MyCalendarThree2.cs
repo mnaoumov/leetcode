@@ -3,7 +3,7 @@
 public class MyCalendarThree2 : IMyCalendarThree
 {
     private readonly Dictionary<(int start, int end), int> _eventBookingDict = new();
-    private int _maxBooking = 0;
+    private int _maxBooking;
 
     public int Book(int start, int end)
     {
@@ -25,7 +25,7 @@ public class MyCalendarThree2 : IMyCalendarThree
         if (!_eventBookingDict.ContainsKey(newEvent))
         {
             _eventBookingDict[newEvent] = 1;
-            _maxBooking = Math.Max(_maxBooking, 1);
+            _maxBooking= Math.Max(_maxBooking,1);
         }
 
         return _maxBooking;

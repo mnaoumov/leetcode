@@ -1,6 +1,4 @@
-﻿using NUnit.Framework;
-
-namespace LeetCode._0732_My_Calendar_III;
+﻿namespace LeetCode._0732_My_Calendar_III;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/816924979/

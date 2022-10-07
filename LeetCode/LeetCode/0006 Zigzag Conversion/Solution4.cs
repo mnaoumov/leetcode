@@ -13,7 +13,7 @@ public class Solution4 : ISolution
         {
             return s;
         }
-        
+
         var period = 2 * numRows - 2;
         var sb = new StringBuilder();
 

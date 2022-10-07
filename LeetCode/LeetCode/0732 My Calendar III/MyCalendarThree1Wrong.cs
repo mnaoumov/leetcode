@@ -1,6 +1,6 @@
 ﻿namespace LeetCode._0732_My_Calendar_III;
 
-public class MyCalendarThree : IMyCalendarThree
+public class MyCalendarThree1Wrong : IMyCalendarThree
 {
     private readonly Dictionary<(int start, int end), int> _eventBookingDict = new();
     private int _maxBooking = 0;

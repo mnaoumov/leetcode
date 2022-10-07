@@ -1,9 +1,9 @@
 ﻿namespace LeetCode._0732_My_Calendar_III;
 
-public class Solution : ISolution
+public class Solution1Wrong : ISolution
 {
     public IMyCalendarThree Create()
     {
-        return new MyCalendarThree();
+        return new MyCalendarThree1Wrong();
     }
 }

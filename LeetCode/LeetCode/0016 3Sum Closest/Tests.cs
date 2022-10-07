@@ -57,7 +57,8 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                         26, 26, 19, 71, -42
                     },
                     Target = -87,
-                    Return = -87
+                    Return = -87,
+                    TestCaseName = nameof(Solution1)
                 };
             }
         }

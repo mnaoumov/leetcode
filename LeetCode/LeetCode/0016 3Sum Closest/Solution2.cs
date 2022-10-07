@@ -1,9 +1,9 @@
 ﻿namespace LeetCode._0016_3Sum_Closest;
 
 /// <summary>
-/// https://leetcode.com/problems/3sum-closest/
+/// https://leetcode.com/submissions/detail/809290786/
 /// </summary>
-public class Solution : ISolution
+public class Solution2 : ISolution
 {
     public int ThreeSumClosest(int[] nums, int target)
     {

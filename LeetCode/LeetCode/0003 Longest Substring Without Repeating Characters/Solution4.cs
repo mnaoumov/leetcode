@@ -1,4 +1,5 @@
-﻿namespace LeetCode._0003_Longest_Substring_Without_Repeating_Characters;
+﻿// ReSharper disable All
+namespace LeetCode._0003_Longest_Substring_Without_Repeating_Characters;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/147413709/
@@ -9,7 +10,7 @@ public class Solution4 : ISolution
     public int LengthOfLongestSubstring(string s)
     {
         var i = 0;
-        int j;
+        var j = 0;
         var result = 0;
         var charIndices = new Dictionary<char, int>();
         for (j = 0; j < s.Length; j++)

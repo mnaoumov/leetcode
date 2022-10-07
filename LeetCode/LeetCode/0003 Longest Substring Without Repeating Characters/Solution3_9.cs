@@ -11,7 +11,7 @@ public class Solution3_9 : ISolution
     public int LengthOfLongestSubstring(string s)
     {
         var i = 0;
-        int j;
+        var j = 0;
         var result = 0;
         var charIndices = new Dictionary<char, int>();
         for (j = 0; j < s.Length; j++)

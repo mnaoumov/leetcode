@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/148143853/
 /// </summary>
-public class OldSolution1 : ISolution
+public class Solution3 : ISolution
 {
     public int Reverse(int x)
     {

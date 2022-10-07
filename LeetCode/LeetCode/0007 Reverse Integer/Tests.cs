@@ -38,6 +38,13 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     Return = 21,
                     TestCaseName = "Example 3"
                 };
+
+                yield return new TestCase
+                {
+                    X = -2147483648,
+                    Return = 0,
+                    TestCaseName = nameof(Solution1)
+                };
             }
         }
     }

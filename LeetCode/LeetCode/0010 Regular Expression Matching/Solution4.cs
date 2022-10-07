@@ -1,13 +1,14 @@
-﻿namespace LeetCode._0010_Regular_Expression_Matching;
+﻿#pragma warning disable CS8618
+namespace LeetCode._0010_Regular_Expression_Matching;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/808310678/
 /// </summary>
-public class Solution : ISolution
+public class Solution4 : ISolution
 {
-    private bool?[,] _resultsCache = null!;
-    private string _string = null!;
-    private string _pattern = null!;
+    private bool?[,] _resultsCache;
+    private string _string;
+    private string _pattern;
 
     public bool IsMatch(string s, string p)
     {

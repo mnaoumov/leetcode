@@ -1,9 +1,10 @@
-﻿namespace LeetCode._0008_String_to_Integer__atoi_;
+﻿// ReSharper disable All
+namespace LeetCode._0008_String_to_Integer__atoi_;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/148645507/
 /// </summary>
-public class OldSolution1 : ISolution
+public class Solution1 : ISolution
 {
     public int MyAtoi(string str)
     {
@@ -46,7 +47,6 @@ public class OldSolution1 : ISolution
                 onlyWhiteSpace = false;
             }
             else if (char.IsWhiteSpace(symbol) && onlyWhiteSpace)
-                // ReSharper disable once RedundantJumpStatement
                 continue;
             else
                 return result;

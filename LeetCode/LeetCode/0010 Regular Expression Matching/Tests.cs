@@ -42,6 +42,22 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     Return = true,
                     TestCaseName = "Example 3"
                 };
+
+                yield return new TestCase
+                {
+                    S = "ab",
+                    P = ".*c",
+                    Return = false,
+                    TestCaseName = nameof(Solution1)
+                };
+
+                yield return new TestCase
+                {
+                    S = "a",
+                    P = "ab*a",
+                    Return = false,
+                    TestCaseName = nameof(Solution2)
+                };
             }
         }
     }

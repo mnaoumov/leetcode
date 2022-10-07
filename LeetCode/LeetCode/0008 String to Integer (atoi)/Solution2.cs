@@ -1,9 +1,10 @@
 ﻿namespace LeetCode._0008_String_to_Integer__atoi_;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/807871103/
+/// https://leetcode.com/submissions/detail/807870677/
 /// </summary>
-public class Solution : ISolution
+[SkipSolution(SkipSolutionReason.WrongAnswer)]
+public class Solution2 : ISolution
 {
     public int MyAtoi(string s)
     {
@@ -61,7 +62,7 @@ public class Solution : ISolution
                         }
                         else
                         {
-                            return sign == 1 ? int.MaxValue : int.MinValue;
+                            return 0;
                         }
                     }
                     else

@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/200404558/
 /// </summary>
-public class OldSolution1 : ISolution
+public class Solution3 : ISolution
 {
     public bool IsMatch(string s, string p)
     {

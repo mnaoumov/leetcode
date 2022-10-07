@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/807911669/
 /// </summary>
-public class Solution : ISolution
+public class Solution1 : ISolution
 {
     public bool IsPalindrome(int x)
     {

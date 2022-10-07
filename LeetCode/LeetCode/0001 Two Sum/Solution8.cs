@@ -1,6 +1,9 @@
 ﻿namespace LeetCode._0001_Two_Sum;
 
-public class BruteForceSolution : ISolution
+/// <summary>
+/// https://leetcode.com/submissions/detail/816978280/
+/// </summary>
+public class Solution8 : ISolution
 {
     public int[] TwoSum(int[] nums, int target)
     {

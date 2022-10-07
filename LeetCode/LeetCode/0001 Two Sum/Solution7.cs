@@ -1,6 +1,10 @@
 ﻿namespace LeetCode._0001_Two_Sum;
 
-public class LookupSolution : ISolution
+/// <summary>
+/// https://leetcode.com/submissions/detail/816975903/
+/// </summary>
+[SkipSolution("Runtime Error")]
+public class Solution7 : ISolution
 {
     public int[] TwoSum(int[] nums, int target)
     {

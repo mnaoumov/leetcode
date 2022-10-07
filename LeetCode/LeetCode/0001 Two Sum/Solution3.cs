@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/147393932/
 /// </summary>
-public class OldSolution3 : ISolution
+public class Solution3 : ISolution
 {
     public int[] TwoSum(int[] nums, int target)
     {

@@ -1,12 +1,10 @@
-﻿using NUnit.Framework;
-
-namespace LeetCode._0001_Two_Sum;
+﻿namespace LeetCode._0001_Two_Sum;
 
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.TwoSum(testCase.Nums, testCase.Target), Is.EqualTo(testCase.Return));
+        AssertCollectionEqualWithDetails(solution.TwoSum(testCase.Nums, testCase.Target), testCase.Return);
     }
 
     public class TestCase : TestCaseBase<TestCase>
@@ -41,6 +39,14 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     Target = 6,
                     Return = new[] { 0, 1 },
                     TestCaseName = "Example 3"
+                };
+
+                yield return new TestCase
+                {
+                    Nums = new[] { -1, -2, -3, -4, -5 },
+                    Target = -8,
+                    Return = new[] { 2, 4 },
+                    TestCaseName = nameof(Solution7)
                 };
             }
         }

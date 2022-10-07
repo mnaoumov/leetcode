@@ -1,9 +1,9 @@
 ﻿namespace LeetCode._0005_Longest_Palindromic_Substring;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/807295054/
+/// https://leetcode.com/submissions/detail/807296429/
 /// </summary>
-public class BadSolution7 : ISolution
+public class Solution9 : ISolution
 {
     public string LongestPalindrome(string s)
     {
@@ -12,7 +12,7 @@ public class BadSolution7 : ISolution
 
         for (var m = 0; m <= 2 * n - 2; m++)
         {
-            var maxPossibleLength = m < n ? m : 2 * n - m - 1;
+            var maxPossibleLength = m < n ? m + 1 : 2 * n - m;
 
             if (maxPossibleLength <= result.Length)
             {

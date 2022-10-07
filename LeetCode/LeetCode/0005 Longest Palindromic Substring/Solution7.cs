@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/147577534/
 /// </summary>
-public class OldSolution1 : ISolution
+public class Solution7 : ISolution
 {
     public string LongestPalindrome(string s)
     {

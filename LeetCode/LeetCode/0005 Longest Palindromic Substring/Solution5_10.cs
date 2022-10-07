@@ -1,10 +1,12 @@
-﻿namespace LeetCode._0005_Longest_Palindromic_Substring;
+﻿// ReSharper disable All
+namespace LeetCode._0005_Longest_Palindromic_Substring;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/147572623/
 /// https://leetcode.com/submissions/detail/815930675/
 /// </summary>
-public class BadSolution5 : ISolution
+[SkipSolution("Wrong Answer")]
+public class Solution5_10 : ISolution
 {
     public string LongestPalindrome(string s)
     {

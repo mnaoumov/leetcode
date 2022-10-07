@@ -3,14 +3,13 @@
 namespace LeetCode._0006_Zigzag_Conversion;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/148141798/
+/// https://leetcode.com/submissions/detail/148141552/
 /// </summary>
-public class OldSolution1 : ISolution
+[SkipSolution("Time Limit Exceeded")]
+public class Solution1 : ISolution
 {
     public string Convert(string s, int numRows)
     {
-        if (numRows == 1)
-            return s;
         var period = 2 * numRows - 2;
 
         var sb = new StringBuilder();

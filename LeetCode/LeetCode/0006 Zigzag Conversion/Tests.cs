@@ -39,7 +39,8 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     String = "A",
                     NumRows = 1,
-                    Return = "A"
+                    Return = "A",
+                    TestCaseName = nameof(Solution1)
                 };
             }
         }

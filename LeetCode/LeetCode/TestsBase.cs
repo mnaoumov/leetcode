@@ -35,9 +35,13 @@ public abstract class TestsBase<TSolution, TTestCase> where TTestCase : TestCase
                     var testCaseData =
                         new TestCaseData(solution, testCase).SetName(
                             $@"{solution!.GetType().Name}: {testCaseTestCaseName}");
-                    if (solution.GetType().Name.StartsWith("Bad"))
+                    var skipSolutionAttribute =
+                        (SkipSolutionAttribute?) Attribute.GetCustomAttribute(solution.GetType(),
+                            typeof(SkipSolutionAttribute));
+
+                    if (skipSolutionAttribute != null)
                     {
-                        testCaseData.Explicit();
+                        testCaseData.Explicit(skipSolutionAttribute.Reason);
                     }
 
                     yield return testCaseData;

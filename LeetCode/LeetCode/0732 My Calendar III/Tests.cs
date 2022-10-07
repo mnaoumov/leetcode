@@ -48,7 +48,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                         Assert.That(sut.Book(46, 50), Is.EqualTo(3));
                         Assert.That(sut.Book(11, 18), Is.EqualTo(3));
                     },
-                    TestCaseName = nameof(Solution1Wrong)
+                    TestCaseName = nameof(Solution1)
                 };
             }
         }

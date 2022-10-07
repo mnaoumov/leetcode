@@ -1,9 +1,10 @@
 ﻿namespace LeetCode._0004_Median_of_Two_Sorted_Arrays;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/147422858/
+/// https://leetcode.com/submissions/detail/147422345/
 /// </summary>
-public class OldSolution1 : ISolution
+[SkipSolution("Wrong Answer")]
+public class Solution03 : ISolution
 {
     public double FindMedianSortedArrays(int[] nums1, int[] nums2)
     {
@@ -49,7 +50,7 @@ public class OldSolution1 : ISolution
                 if (i > 0)
                     maxLeft = Math.Max(maxLeft, a[i - 1]);
                 if (j > 0)
-                    maxLeft = Math.Max(maxLeft, b[j - 1]);
+                    maxLeft = Math.Max(maxLeft, a[j - 1]);
 
                 if ((m + n) % 2 == 1)
                     return maxLeft;
@@ -61,7 +62,8 @@ public class OldSolution1 : ISolution
                 if (j < n)
                     minRight = Math.Min(minRight, b[j]);
 
-                return ((double)maxLeft + minRight) / 2;
+                // ReSharper disable once PossibleLossOfFraction
+                return (maxLeft + minRight) / 2;
             }
         }
 

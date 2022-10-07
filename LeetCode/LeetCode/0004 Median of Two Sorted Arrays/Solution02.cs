@@ -1,9 +1,10 @@
 ﻿namespace LeetCode._0004_Median_of_Two_Sorted_Arrays;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/147422345/
+/// https://leetcode.com/submissions/detail/147422045/
 /// </summary>
-public class BadSolution3 : ISolution
+[SkipSolution("Runtime Error")]
+public class Solution02 : ISolution
 {
     public double FindMedianSortedArrays(int[] nums1, int[] nums2)
     {

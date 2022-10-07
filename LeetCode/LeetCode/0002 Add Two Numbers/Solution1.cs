@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/147401756/
 /// </summary>
-public class OldSolution1 : ISolution
+public class Solution1 : ISolution
 {
     public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
     {

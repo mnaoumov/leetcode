@@ -1,9 +1,10 @@
 ﻿namespace LeetCode._0003_Longest_Substring_Without_Repeating_Characters;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/147414013/
+/// https://leetcode.com/submissions/detail/147413709/
 /// </summary>
-public class OldSolution3 : ISolution
+[SkipSolution("Wrong Answer")]
+public class Solution4 : ISolution
 {
     public int LengthOfLongestSubstring(string s)
     {
@@ -13,11 +14,15 @@ public class OldSolution3 : ISolution
         var charIndices = new Dictionary<char, int>();
         for (j = 0; j < s.Length; j++)
         {
-            if (charIndices.ContainsKey(s[j]))
+            if (!charIndices.ContainsKey(s[j]))
+            {
+                result = Math.Max(result, j - i + 1);
+            }
+            else
             {
                 i = Math.Max(i, charIndices[s[j]] + 1);
             }
-            result = Math.Max(result, j - i + 1);
+
             charIndices[s[j]] = j;
         }
 

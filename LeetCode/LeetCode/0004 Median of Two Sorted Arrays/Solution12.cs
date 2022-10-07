@@ -1,9 +1,9 @@
 ﻿namespace LeetCode._0004_Median_of_Two_Sorted_Arrays;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/807276734/
+/// https://leetcode.com/submissions/detail/807278399/
 /// </summary>
-public class BadSolution9 : ISolution
+public class Solution12 : ISolution
 {
     public double FindMedianSortedArrays(int[] nums1, int[] nums2)
     {
@@ -24,7 +24,8 @@ public class BadSolution9 : ISolution
 
         while (true)
         {
-            var aLeftPartitionIndex = m == 0 ? -1 : (aLeftPartitionIndexRangeStart + aLeftPartitionIndexRangeEnd) / 2;
+            var aLeftPartitionIndex =
+                (int) Math.Floor((aLeftPartitionIndexRangeStart + aLeftPartitionIndexRangeEnd) / 2m);
             var aPartitionCount = aLeftPartitionIndex + 1;
             var bPartitionCount = medianCount - aPartitionCount;
             var bLeftPartitionIndex = bPartitionCount - 1;

@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/147406086/
 /// </summary>
-public class OldSolution1 : ISolution
+public class Solution1 : ISolution
 {
     public int LengthOfLongestSubstring(string s)
     {

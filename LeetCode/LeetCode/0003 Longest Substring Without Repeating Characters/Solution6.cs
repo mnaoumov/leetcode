@@ -1,17 +1,13 @@
 ﻿namespace LeetCode._0003_Longest_Substring_Without_Repeating_Characters;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/198407882/
+/// https://leetcode.com/submissions/detail/198407548/
 /// </summary>
-public class OldSolution4 : ISolution
+[SkipSolution("Wrong Answer")]
+public class Solution6 : ISolution
 {
     public int LengthOfLongestSubstring(string s)
     {
-        if (s == "")
-        {
-            return 0;
-        }
-
         var result = 1;
         var previousMaxSuffixLength = 1;
         for (int i = s.Length - 2; i >= 0; i--)

@@ -40,28 +40,32 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     Nums1 = Array.Empty<int>(),
                     Nums2 = new[] { 1 },
                     Return = 1,
-                    TestCaseName = "Empty"
-                };
-
-                yield return new TestCase
-                {
-                    Nums1 = new[] { 3 },
-                    Nums2 = new[] { -2, -1 },
-                    Return = -1
+                    TestCaseName = nameof(Solution01)
                 };
 
                 yield return new TestCase
                 {
                     Nums1 = new[] { 3, 4 },
                     Nums2 = new[] { 1, 2 },
-                    Return = 2.5
+                    Return = 2.5,
+                    TestCaseName = nameof(Solution05_13)
                 };
+
+                yield return new TestCase
+                {
+                    Nums1 = new[] { 3 },
+                    Nums2 = new[] { -2, -1 },
+                    Return = -1,
+                    TestCaseName = nameof(Solution11)
+                };
+
 
                 yield return new TestCase
                 {
                     Nums1 = new[] { 1, 2 },
                     Nums2 = new[] { 3, 4, 5 },
-                    Return = 3
+                    Return = 3,
+                    TestCaseName = nameof(Solution05_13)
                 };
             }
         }

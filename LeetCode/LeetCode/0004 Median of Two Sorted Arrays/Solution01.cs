@@ -3,7 +3,8 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/147421890/
 /// </summary>
-public class BadSolution1 : ISolution
+[SkipSolution("Runtime Error")]
+public class Solution01 : ISolution
 {
     public double FindMedianSortedArrays(int[] nums1, int[] nums2)
     {

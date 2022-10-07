@@ -1,10 +1,12 @@
-﻿namespace LeetCode._0004_Median_of_Two_Sorted_Arrays;
+﻿// ReSharper disable All
+namespace LeetCode._0004_Median_of_Two_Sorted_Arrays;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/147552265/
 /// https://leetcode.com/submissions/detail/815927580/
 /// </summary>
-public class BadSolution4 : ISolution
+[SkipSolution("Wrong Answer")]
+public class Solution05_13 : ISolution
 {
     public double FindMedianSortedArrays(int[] nums1, int[] nums2)
     {

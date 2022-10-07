@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/200389192/
 /// </summary>
-public class OldSolution2 : ISolution
+public class Solution06 : ISolution
 {
     public double FindMedianSortedArrays(int[] nums1, int[] nums2)
     {

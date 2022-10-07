@@ -5,7 +5,7 @@ namespace LeetCode._0014_Longest_Common_Prefix;
 /// <summary>
 /// https://leetcode.com/submissions/detail/808458986/
 /// </summary>
-public class Solution : ISolution
+public class Solution1 : ISolution
 {
     public string LongestCommonPrefix(string[] strs)
     {

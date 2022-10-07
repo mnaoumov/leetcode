@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/808451014/
 /// </summary>
-public class Solution : ISolution
+public class Solution1 : ISolution
 {
     private readonly Dictionary<string, int> _dict = new()
     {

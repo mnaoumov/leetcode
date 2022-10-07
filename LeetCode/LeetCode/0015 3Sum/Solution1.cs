@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/200039503/
 /// </summary>
-public class OldSolution1 : ISolution
+public class Solution1 : ISolution
 {
     public IList<IList<int>> ThreeSum(int[] nums)
     {

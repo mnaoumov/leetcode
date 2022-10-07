@@ -1,9 +1,10 @@
-﻿namespace LeetCode._0015_3Sum;
+﻿// ReSharper disable All
+namespace LeetCode._0015_3Sum;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/200379044/
 /// </summary>
-public class OldSolution3 : ISolution
+public class Solution3 : ISolution
 {
     public IList<IList<int>> ThreeSum(int[] nums)
     {
@@ -19,6 +20,8 @@ public class OldSolution3 : ISolution
 
             numCounts[num]++;
         }
+
+        var keys = new HashSet<string>();
 
         var results = new List<IList<int>>();
 

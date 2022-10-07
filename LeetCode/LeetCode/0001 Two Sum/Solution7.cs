@@ -1,6 +1,7 @@
 ﻿namespace LeetCode._0001_Two_Sum;
 
 /// <summary>
+/// Lookup
 /// https://leetcode.com/submissions/detail/816975903/
 /// </summary>
 [SkipSolution("Runtime Error")]

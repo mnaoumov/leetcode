@@ -1,6 +1,7 @@
 ﻿namespace LeetCode._0001_Two_Sum;
 
 /// <summary>
+/// Hash map
 /// https://leetcode.com/submissions/detail/804724157/
 /// </summary>
 public class Solution5 : ISolution

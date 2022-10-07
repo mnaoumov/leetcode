@@ -1,6 +1,7 @@
 ﻿namespace LeetCode._0001_Two_Sum;
 
 /// <summary>
+/// Brute force
 /// https://leetcode.com/submissions/detail/816978280/
 /// </summary>
 public class Solution8 : ISolution

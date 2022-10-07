@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/809521193/
 /// </summary>
-public class Solution : ISolution
+public class Solution3 : ISolution
 {
     public IList<string> LetterCombinations(string digits)
     {

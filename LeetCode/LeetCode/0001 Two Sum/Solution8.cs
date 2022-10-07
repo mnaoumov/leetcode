@@ -14,7 +14,7 @@ public class Solution8 : ISolution
             {
                 if (nums[i] + nums[j] == target)
                 {
-                    return new[] {i, j};
+                    return new[] { i, j };
                 }
             }
         }

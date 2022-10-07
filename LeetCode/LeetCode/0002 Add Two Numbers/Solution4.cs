@@ -1,12 +1,11 @@
-﻿#pragma warning disable CS8600
-namespace LeetCode._0002_Add_Two_Numbers;
+﻿namespace LeetCode._0002_Add_Two_Numbers;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/805526963/
+/// https://leetcode.com/submissions/detail/817381289/
 /// </summary>
-public class Solution3 : ISolution
+public class Solution4 : ISolution
 {
-    public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
+    public ListNode AddTwoNumbers(ListNode? l1, ListNode? l2)
     {
         ListNode? result = null;
         var carry = false;

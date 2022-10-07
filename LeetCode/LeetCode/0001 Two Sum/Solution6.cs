@@ -1,4 +1,5 @@
-﻿namespace LeetCode._0001_Two_Sum;
+﻿#pragma warning disable CS8603
+namespace LeetCode._0001_Two_Sum;
 
 /// <summary>
 /// Hashmap one pass
@@ -12,16 +13,16 @@ public class Solution6 : ISolution
 
         for (int i = 0; i < nums.Length; i++)
         {
-            var secondAddendum = target - nums[i];
+            var secondSummand = target - nums[i];
 
-            if (hashMap.TryGetValue(secondAddendum, out var secondAddendumIndex))
+            if (hashMap.TryGetValue(secondSummand, out var secondSummandIndex))
             {
-                return new[] { secondAddendumIndex, i };
+                return new[] { secondSummandIndex, i };
             }
 
             hashMap[nums[i]] = i;
         }
 
-        throw new InvalidOperationException();
+        return null;
     }
 }

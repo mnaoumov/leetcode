@@ -21,7 +21,7 @@ public class Solution7 : ISolution
                 {
                     if (nums[j] == secondAddendum)
                     {
-                        return new[] {i, j};
+                        return new[] { i, j };
                     }
                 }
 

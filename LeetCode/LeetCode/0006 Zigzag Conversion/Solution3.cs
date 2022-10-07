@@ -1,11 +1,12 @@
-﻿using System.Text;
+﻿// ReSharper disable All
+using System.Text;
 
 namespace LeetCode._0006_Zigzag_Conversion;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/807823572/
 /// </summary>
-[SkipSolution("Runtime Error")]
+[SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution3 : ISolution
 {
     public string Convert(string s, int numRows)

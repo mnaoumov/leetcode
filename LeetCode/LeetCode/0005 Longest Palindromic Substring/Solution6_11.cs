@@ -5,7 +5,7 @@ namespace LeetCode._0005_Longest_Palindromic_Substring;
 /// https://leetcode.com/submissions/detail/147572986/
 /// https://leetcode.com/submissions/detail/815933885/
 /// </summary>
-//[SkipSolution("Time Limit Exceeded")]
+//[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution6_11 : ISolution
 {
     public string LongestPalindrome(string s)

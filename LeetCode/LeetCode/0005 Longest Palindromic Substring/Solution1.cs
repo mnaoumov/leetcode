@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/147423774/
 /// </summary>
-[SkipSolution("Wrong Answer")]
+[SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution
 {
     public string LongestPalindrome(string s)

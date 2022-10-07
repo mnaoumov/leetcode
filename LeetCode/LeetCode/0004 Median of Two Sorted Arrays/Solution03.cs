@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/147422345/
 /// </summary>
-[SkipSolution("Wrong Answer")]
+[SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution03 : ISolution
 {
     public double FindMedianSortedArrays(int[] nums1, int[] nums2)

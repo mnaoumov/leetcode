@@ -41,7 +41,7 @@ public abstract class TestsBase<TSolution, TTestCase> where TTestCase : TestCase
 
                     if (skipSolutionAttribute != null)
                     {
-                        testCaseData.Explicit(skipSolutionAttribute.Reason);
+                        testCaseData.Explicit(skipSolutionAttribute.Reason.ToString());
                     }
 
                     yield return testCaseData;

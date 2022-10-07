@@ -5,7 +5,7 @@ namespace LeetCode._0006_Zigzag_Conversion;
 /// <summary>
 /// https://leetcode.com/submissions/detail/148141552/
 /// </summary>
-[SkipSolution("Time Limit Exceeded")]
+[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution
 {
     public string Convert(string s, int numRows)

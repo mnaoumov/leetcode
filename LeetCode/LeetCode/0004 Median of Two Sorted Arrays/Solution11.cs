@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/807276734/
 /// </summary>
-[SkipSolution("Time Limit Exceeded")]
+[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution11 : ISolution
 {
     public double FindMedianSortedArrays(int[] nums1, int[] nums2)

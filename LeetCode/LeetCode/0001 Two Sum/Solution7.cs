@@ -4,7 +4,7 @@
 /// Lookup
 /// https://leetcode.com/submissions/detail/816975903/
 /// </summary>
-[SkipSolution("Runtime Error")]
+[SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution7 : ISolution
 {
     public int[] TwoSum(int[] nums, int target)

@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/147569719/
 /// </summary>
-[SkipSolution("Time Limit Exceeded")]
+[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution3 : ISolution
 {
     public string LongestPalindrome(string s)

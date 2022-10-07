@@ -2,10 +2,10 @@
 
 public class SkipSolutionAttribute : Attribute
 {
-    public SkipSolutionAttribute(string reason)
+    public SkipSolutionAttribute(SkipSolutionReason reason)
     {
         Reason = reason;
     }
 
-    public string Reason { get; }
+    public SkipSolutionReason Reason { get; }
 }

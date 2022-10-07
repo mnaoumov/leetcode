@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/198407548/
 /// </summary>
-[SkipSolution("Wrong Answer")]
+[SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution6 : ISolution
 {
     public int LengthOfLongestSubstring(string s)

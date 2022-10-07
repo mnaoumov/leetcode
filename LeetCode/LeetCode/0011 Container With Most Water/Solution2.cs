@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/808435334/
 /// </summary>
-public class Solution : ISolution
+public class Solution2 : ISolution
 {
     public int MaxArea(int[] height)
     {

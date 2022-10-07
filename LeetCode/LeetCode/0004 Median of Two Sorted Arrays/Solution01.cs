@@ -1,4 +1,5 @@
-﻿namespace LeetCode._0004_Median_of_Two_Sorted_Arrays;
+﻿// ReSharper disable All
+namespace LeetCode._0004_Median_of_Two_Sorted_Arrays;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/147421890/
@@ -62,7 +63,6 @@ public class Solution01 : ISolution
                 if (j < n)
                     minRight = Math.Min(minRight, b[j]);
 
-                // ReSharper disable once PossibleLossOfFraction
                 return (maxLeft + minRight) / 2;
             }
         }

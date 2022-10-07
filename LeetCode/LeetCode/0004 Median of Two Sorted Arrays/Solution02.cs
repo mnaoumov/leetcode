@@ -1,4 +1,5 @@
-﻿namespace LeetCode._0004_Median_of_Two_Sorted_Arrays;
+﻿// ReSharper disable All
+namespace LeetCode._0004_Median_of_Two_Sorted_Arrays;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/147422045/
@@ -52,7 +53,7 @@ public class Solution02 : ISolution
                 if (j > 0)
                     maxLeft = Math.Max(maxLeft, a[j - 1]);
 
-                if ((m + n) % 2 == 1)
+                if ((m + n) % 2 == 0)
                     return maxLeft;
 
                 var minRight = int.MaxValue;
@@ -62,7 +63,6 @@ public class Solution02 : ISolution
                 if (j < n)
                     minRight = Math.Min(minRight, b[j]);
 
-                // ReSharper disable once PossibleLossOfFraction
                 return (maxLeft + minRight) / 2;
             }
         }

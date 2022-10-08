@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/815851460/
 /// </summary>
-public class Solution : ISolution
+public class Solution11 : ISolution
 {
     public double MyPow(double x, int n)
     {

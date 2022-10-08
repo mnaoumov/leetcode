@@ -3,9 +3,37 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/193997169/
 /// </summary>
-public class OldSolution1 : ISolution
+public class Solution1 : ISolution
 {
     public void Rotate(int[][] matrix)
+    {
+        var n = matrix.Length;
+        var converted = new int[n, n];
+
+        for (var i = 0; i < n; i++)
+        {
+            for (var j = 0; j < n; j++)
+            {
+                converted[i, j] = matrix[i][j];
+            }
+        }
+
+        Rotate(converted);
+
+        for (var i = 0; i < n; i++)
+        {
+            for (var j = 0; j < n; j++)
+            {
+                matrix[i][j] = converted[i, j];
+            }
+        }
+    }
+
+    /// <summary>
+    /// Was different signature
+    /// </summary>
+    /// <param name="matrix"></param>
+    public void Rotate(int[,] matrix)
     {
         int n = matrix.GetLength(0);
 
@@ -29,13 +57,13 @@ public class OldSolution1 : ISolution
 
                 for (int k = 0; k < cycleLength; k++)
                 {
-                    cycleValues[k] = matrix[iCycle][jCycle];
+                    cycleValues[k] = matrix[iCycle, jCycle];
                     UpdateCycleVariables();
                 }
 
                 for (int k = 0; k < cycleLength; k++)
                 {
-                    matrix[iCycle][jCycle] = cycleValues[(k + 1) % cycleLength];
+                    matrix[iCycle, jCycle] = cycleValues[(k + 1) % cycleLength];
                     UpdateCycleVariables();
                 }
             }

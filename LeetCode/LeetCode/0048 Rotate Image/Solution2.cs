@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/815519381/
 /// </summary>
-public class Solution : ISolution
+public class Solution2 : ISolution
 {
     public void Rotate(int[][] matrix)
     {

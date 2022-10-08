@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/815499264/
 /// </summary>
-public class Solution : ISolution
+public class Solution1 : ISolution
 {
     public IList<IList<int>> PermuteUnique(int[] nums)
     {

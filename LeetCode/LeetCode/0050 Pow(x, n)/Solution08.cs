@@ -1,9 +1,9 @@
 ﻿namespace LeetCode._0050_Pow_x__n_;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/205253533/
+/// https://leetcode.com/submissions/detail/205253229/
 /// </summary>
-public class OldSolution4 : ISolution
+public class Solution08 : ISolution
 {
     public double MyPow(double x, int n)
     {
@@ -32,20 +32,16 @@ public class OldSolution4 : ISolution
             return MyPow(1 / x, -n);
         }
 
-        var powersOfTwo = new List<decimal> { x };
+        const int maxPowerOfTwo = 31;
+        var powersOfTwo = new decimal[maxPowerOfTwo];
+        powersOfTwo[0] = x;
 
         var power = 1;
         int i = 1;
 
         while (power <= n)
         {
-            var last = powersOfTwo.Last();
-            if (last == 0)
-            {
-                return 0;
-            }
-
-            powersOfTwo.Add(last * last);
+            powersOfTwo[i] = powersOfTwo[i - 1] * powersOfTwo[i - 1];
 
             if (powersOfTwo[i] == 0)
             {

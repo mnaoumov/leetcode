@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/814399148/
 /// </summary>
-public class Solution : ISolution
+public class Solution1 : ISolution
 {
     public int FirstMissingPositive(int[] nums)
     {

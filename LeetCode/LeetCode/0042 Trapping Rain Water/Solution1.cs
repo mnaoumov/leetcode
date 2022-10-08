@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/199912503/
 /// </summary>
-public class OldSolution1 : ISolution
+public class Solution1 : ISolution
 {
     public int Trap(int[] height)
     {

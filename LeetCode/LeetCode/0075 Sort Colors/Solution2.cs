@@ -1,9 +1,9 @@
 ﻿namespace LeetCode._0075_Sort_Colors;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/196742471/
+/// https://leetcode.com/submissions/detail/196742943/
 /// </summary>
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public void SortColors(int[] nums)
     {
@@ -17,7 +17,7 @@ public class Solution1 : ISolution
         var lastColorIndexShift = 0;
         for (int i = 0; i < nums.Length; i++)
         {
-            if (i >= counts[lastColor] + lastColorIndexShift)
+            while (i >= counts[lastColor] + lastColorIndexShift)
             {
                 lastColor++;
                 lastColorIndexShift = i;

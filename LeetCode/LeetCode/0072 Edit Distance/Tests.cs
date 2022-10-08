@@ -6,12 +6,14 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution, Is.Not.Null);
+        Assert.That(solution.MinDistance(testCase.Word1, testCase.Word2), Is.EqualTo(testCase.Return));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public string Return { get; private init; } = null!;
+        public string Word1 { get; private init; } = null!;
+        public string Word2 { get; private init; } = null!;
+        public int Return { get; private init; }
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -19,8 +21,18 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
             {
                 yield return new TestCase
                 {
-                    Return = "foo",
+                    Word1 = "horse",
+                    Word2 = "ros",
+                    Return = 3,
                     TestCaseName = "Example 1"
+                };
+
+                yield return new TestCase
+                {
+                    Word1 = "intention",
+                    Word2 = "execution",
+                    Return = 5,
+                    TestCaseName = "Example 2"
                 };
             }
         }

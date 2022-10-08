@@ -2,4 +2,5 @@
 
 public interface ISolution
 {
+    public string MinWindow(string s, string t);
 }

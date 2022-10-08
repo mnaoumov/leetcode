@@ -1,10 +1,9 @@
 ﻿namespace LeetCode._0076_Minimum_Window_Substring;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/200376399/
+/// https://leetcode.com/submissions/detail/200377014/
 /// </summary>
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public string MinWindow(string s, string t)
     {
@@ -14,9 +13,16 @@ public class Solution1 : ISolution
         }
 
         var symbolCounts = new Dictionary<char, int>();
+        var targetSymbolCounts = new Dictionary<char, int>();
         foreach (var symbol in t)
         {
             symbolCounts[symbol] = 0;
+            if (!targetSymbolCounts.ContainsKey(symbol))
+            {
+                targetSymbolCounts[symbol] = 0;
+            }
+
+            targetSymbolCounts[symbol]++;
         }
 
         var missingSymbolsCount = symbolCounts.Count;
@@ -35,7 +41,7 @@ public class Solution1 : ISolution
 
             symbolCounts[symbol]++;
 
-            if (symbolCounts[symbol] == 1)
+            if (symbolCounts[symbol] == targetSymbolCounts[symbol])
             {
                 missingSymbolsCount--;
             }
@@ -47,7 +53,7 @@ public class Solution1 : ISolution
                     var startSymbol = s[startIndex];
                     if (symbolCounts.ContainsKey(startSymbol))
                     {
-                        if (symbolCounts[startSymbol] == 1)
+                        if (symbolCounts[startSymbol] == targetSymbolCounts[startSymbol])
                         {
                             break;
                         }
@@ -71,7 +77,7 @@ public class Solution1 : ISolution
                 var startSymbol = s[startIndex];
                 if (symbolCounts.ContainsKey(startSymbol))
                 {
-                    if (symbolCounts[startSymbol] == 1)
+                    if (symbolCounts[startSymbol] == targetSymbolCounts[startSymbol])
                     {
                         missingSymbolsCount++;
                     }

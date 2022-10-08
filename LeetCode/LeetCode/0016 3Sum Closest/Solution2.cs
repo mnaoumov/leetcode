@@ -2,6 +2,7 @@
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/809290786/
+/// https://leetcode.com/submissions/detail/817528290/
 /// </summary>
 public class Solution2 : ISolution
 {

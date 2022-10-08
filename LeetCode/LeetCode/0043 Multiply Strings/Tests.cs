@@ -39,21 +39,24 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Num1 = "0",
                     Num2 = "0",
-                    Return = "0"
+                    Return = "0",
+                    TestCaseName = nameof(Solution1)
                 };
 
                 yield return new TestCase
                 {
                     Num1 = "999",
                     Num2 = "999",
-                    Return = "998001"
+                    Return = "998001",
+                    TestCaseName = nameof(Solution2)
                 };
 
                 yield return new TestCase
                 {
                     Num1 = "9133",
                     Num2 = "0",
-                    Return = "0"
+                    Return = "0",
+                    TestCaseName = nameof(Solution3)
                 };
             }
         }

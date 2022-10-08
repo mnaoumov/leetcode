@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/813829281/
 /// </summary>
-public class Solution : ISolution
+public class Solution3 : ISolution
 {
     public IList<IList<int>> CombinationSum(int[] candidates, int target)
     {

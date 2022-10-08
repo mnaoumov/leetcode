@@ -1,10 +1,11 @@
-﻿namespace LeetCode._0039_Combination_Sum;
+﻿// ReSharper disable All
+namespace LeetCode._0039_Combination_Sum;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/193999858/
 /// https://leetcode.com/submissions/detail/195069394/
 /// </summary>
-public class OldSolution1 : ISolution
+public class Solution1_4 : ISolution
 {
     public IList<IList<int>> CombinationSum(int[] candidates, int target)
     {

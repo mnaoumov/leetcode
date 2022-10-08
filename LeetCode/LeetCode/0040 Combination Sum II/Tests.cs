@@ -47,7 +47,8 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Candidates = new[] { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
                     Target = 27,
-                    Return = Array.Empty<IList<int>>()
+                    Return = Array.Empty<IList<int>>(),
+                    TestCaseName = nameof(Solution1)
                 };
 
                 yield return new TestCase
@@ -66,7 +67,9 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                         {
                             1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
                         }
-                    }
+                    },
+
+                    TestCaseName = nameof(Solution2)
                 };
             }
         }

@@ -1,4 +1,5 @@
-﻿namespace LeetCode._1578_Minimum_Time_to_Make_Rope_Colorful;
+﻿// ReSharper disable All
+namespace LeetCode._1578_Minimum_Time_to_Make_Rope_Colorful;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/814106619/

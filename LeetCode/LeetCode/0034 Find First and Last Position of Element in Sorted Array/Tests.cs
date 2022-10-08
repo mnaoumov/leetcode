@@ -66,6 +66,14 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     Return = new[] { 1, 1 },
                     TestCaseName = nameof(Solution4)
                 };
+
+                yield return new TestCase
+                {
+                    Nums = new[] { 5, 7, 7, 8, 8, 10 },
+                    Target = 8,
+                    Return = new[] { 3, 4 },
+                    TestCaseName = nameof(Solution7)
+                };
             }
         }
     }

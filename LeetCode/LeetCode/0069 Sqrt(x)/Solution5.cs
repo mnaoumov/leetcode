@@ -1,20 +1,19 @@
 ﻿namespace LeetCode._0069_Sqrt_x_;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/193351695/
+/// https://leetcode.com/submissions/detail/193809146/
 /// </summary>
-[SkipSolution(SkipSolutionReason.RuntimeError)]
-public class Solution1 : ISolution
+public class Solution5 : ISolution
 {
     public int MySqrt(int x)
     {
-        var result = x / 2;
+        long result = 1;
 
         while (!(result * result <= x && (result + 1) * (result + 1) > x))
         {
             result = (result + (x / result)) / 2;
         }
 
-        return result;
+        return (int)result;
     }
 }

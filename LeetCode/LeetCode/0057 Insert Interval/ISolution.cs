@@ -2,4 +2,5 @@
 
 public interface ISolution
 {
+    public int[][] Insert(int[][] intervals, int[] newInterval);
 }

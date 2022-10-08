@@ -1,10 +1,10 @@
 ﻿namespace LeetCode._0057_Insert_Interval;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/208754404/
+/// https://leetcode.com/submissions/detail/208755008/
 /// </summary>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public int[][] Insert(int[][] intervals, int[] newInterval) => Interval.ToArrays(Insert(Interval.FromArrays(intervals), Interval.FromArray(newInterval)));
 
@@ -44,6 +44,7 @@ public class Solution1 : ISolution
             if (previousInterval.end >= newInterval.start)
             {
                 newInterval.start = previousInterval.start;
+                newInterval.end = Math.Max(newInterval.end, previousInterval.end);
                 result.RemoveAt(newIntervalIndex - 1);
                 newIntervalIndex--;
             }

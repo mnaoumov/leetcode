@@ -1,4 +1,5 @@
-﻿namespace LeetCode._0037_Sudoku_Solver;
+﻿// ReSharper disable All
+namespace LeetCode._0037_Sudoku_Solver;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/813085431/

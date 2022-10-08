@@ -72,7 +72,8 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                         new[] { '9', '7', '5', '8', '6', '3', '1', '2', '4' },
                         new[] { '8', '3', '2', '4', '9', '1', '7', '5', '6' },
                         new[] { '6', '4', '1', '2', '7', '5', '9', '8', '3' }
-                    }
+                    },
+                    TestCaseName = nameof(Solution1)
                 };
             }
         }

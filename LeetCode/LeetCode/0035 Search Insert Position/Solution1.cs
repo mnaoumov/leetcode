@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/813031657/
 /// </summary>
-public class Solution : ISolution
+public class Solution1 : ISolution
 {
     public int SearchInsert(int[] nums, int target)
     {

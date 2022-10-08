@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/813043052/
 /// </summary>
-public class Solution : ISolution
+public class Solution1 : ISolution
 {
     public bool IsValidSudoku(char[][] board)
     {

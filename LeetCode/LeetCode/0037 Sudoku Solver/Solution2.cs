@@ -6,7 +6,7 @@ namespace LeetCode._0037_Sudoku_Solver;
 /// <summary>
 /// https://leetcode.com/submissions/detail/813133781/
 /// </summary>
-public class Solution : ISolution
+public class Solution2 : ISolution
 {
     public void SolveSudoku(char[][] board)
     {

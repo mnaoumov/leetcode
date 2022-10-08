@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/815490262/
 /// </summary>
-public class Solution : ISolution
+public class Solution1 : ISolution
 {
     public TreeNode AddOneRow(TreeNode root, int val, int depth)
     {

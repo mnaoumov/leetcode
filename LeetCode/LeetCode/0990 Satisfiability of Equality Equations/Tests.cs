@@ -35,7 +35,8 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 yield return new TestCase
                 {
                     Equations = new[] { "e==d", "e==a", "f!=d", "b!=c", "a==b" },
-                    Return = true
+                    Return = true,
+                    TestCaseName = nameof(Solution1)
                 };
             }
         }

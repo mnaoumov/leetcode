@@ -1,6 +1,9 @@
 ﻿namespace LeetCode._0981_Time_Based_Key_Value_Store;
 
-public class TimeMap : ITimeMap
+/// <summary>
+/// https://leetcode.com/submissions/detail/816620559/
+/// </summary>
+public class TimeMap1 : ITimeMap
 {
     private readonly Dictionary<string, List<(int timestamp, string value)>> _dict = new();
 

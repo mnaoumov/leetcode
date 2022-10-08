@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/813662085/
 /// </summary>
-public class Solution : ISolution
+public class Solution1 : ISolution
 {
     private readonly int _modulo = (int)Math.Pow(10, 9) + 7;
 

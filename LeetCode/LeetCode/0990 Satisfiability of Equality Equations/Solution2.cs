@@ -1,9 +1,10 @@
-﻿namespace LeetCode._0990_Satisfiability_of_Equality_Equations;
+﻿// ReSharper disable All
+namespace LeetCode._0990_Satisfiability_of_Equality_Equations;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/809157627/
 /// </summary>
-public class Solution : ISolution
+public class Solution2 : ISolution
 {
     public bool EquationsPossible(string[] equations)
     {
@@ -18,7 +19,7 @@ public class Solution : ISolution
 
             char GetEqualityChainRoot(char variable)
             {
-                char current;
+                var current = variable;
                 var next = variable;
 
                 var variablesToUpdate = new List<char>();

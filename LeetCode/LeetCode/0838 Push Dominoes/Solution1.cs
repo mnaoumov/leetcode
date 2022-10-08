@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/809510320/
 /// </summary>
-public class Solution : ISolution
+public class Solution1 : ISolution
 {
     const char FallingLeft = 'L';
     const char FallingRight = 'R';

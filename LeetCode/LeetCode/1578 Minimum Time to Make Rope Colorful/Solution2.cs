@@ -1,6 +1,9 @@
 ﻿namespace LeetCode._1578_Minimum_Time_to_Make_Rope_Colorful;
 
-public class Solution : ISolution
+/// <summary>
+/// https://leetcode.com/submissions/detail/814206015/
+/// </summary>
+public class Solution2 : ISolution
 {
     public int MinCost(string colors, int[] neededTime)
     {

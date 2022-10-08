@@ -1,5 +1,8 @@
 ﻿namespace LeetCode._0732_My_Calendar_III;
 
+/// <summary>
+/// https://leetcode.com/submissions/detail/816937661/
+/// </summary>
 public class MyCalendarThree2 : IMyCalendarThree
 {
     private readonly Dictionary<(int start, int end), int> _eventBookingDict = new();

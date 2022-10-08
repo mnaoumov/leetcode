@@ -3,10 +3,10 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/816620559/
 /// </summary>
-public class Solution : ISolution
+public class Solution1 : ISolution
 {
     public ITimeMap Create()
     {
-        return new TimeMap();
+        return new TimeMap1();
     }
 }

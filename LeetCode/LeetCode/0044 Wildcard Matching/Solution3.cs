@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/814705661/
 /// </summary>
-public class Solution : ISolution
+public class Solution3 : ISolution
 {
     private const char AnyAmountSymbol = '*';
     private const char SingleSymbol = '?';

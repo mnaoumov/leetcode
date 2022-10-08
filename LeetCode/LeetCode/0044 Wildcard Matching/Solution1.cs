@@ -3,7 +3,8 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/208757970/
 /// </summary>
-public class BadSolution1Lte : ISolution
+[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
+public class Solution1 : ISolution
 {
     public bool IsMatch(string s, string p)
     {

@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/812390566/
 /// </summary>
-public class Solution : ISolution
+public class Solution1 : ISolution
 {
     public IList<int> FindSubstring(string s, string[] words)
     {

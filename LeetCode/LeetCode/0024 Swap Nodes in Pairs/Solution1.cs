@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/811116954/
 /// </summary>
-public class Solution : ISolution
+public class Solution1 : ISolution
 {
     public ListNode? SwapPairs(ListNode? head)
     {

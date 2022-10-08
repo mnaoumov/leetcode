@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/811558778/
 /// </summary>
-public class Solution : ISolution
+public class Solution1 : ISolution
 {
     public int RemoveDuplicates(int[] nums)
     {

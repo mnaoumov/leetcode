@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/200410559/
 /// </summary>
-public class OldSolution1 : ISolution
+public class Solution2 : ISolution
 {
     public int LongestValidParentheses(string s)
     {

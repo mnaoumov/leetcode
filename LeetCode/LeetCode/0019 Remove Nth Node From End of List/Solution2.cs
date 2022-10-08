@@ -1,19 +1,21 @@
-﻿namespace LeetCode._0019_Remove_Nth_Node_From_End_of_List;
+﻿#pragma warning disable CS8603
+#pragma warning disable CS8602
+namespace LeetCode._0019_Remove_Nth_Node_From_End_of_List;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/810070816/
 /// </summary>
-public class Solution : ISolution
+public class Solution2 : ISolution
 {
     public ListNode RemoveNthFromEnd(ListNode head, int n)
     {
         var beforeHeadFakeNode = new ListNode(0, head);
 
-        ListNode? node = head;
+        var node = head;
 
         for (int i = 0; i < n; i++)
         {
-            node = node.next!;
+            node = node.next;
         }
 
         var nodeBeforeNthFromEnd = beforeHeadFakeNode;
@@ -21,11 +23,11 @@ public class Solution : ISolution
         while (node != null)
         {
             node = node.next;
-            nodeBeforeNthFromEnd = nodeBeforeNthFromEnd.next!;
+            nodeBeforeNthFromEnd = nodeBeforeNthFromEnd.next;
         }
 
-        nodeBeforeNthFromEnd.next = nodeBeforeNthFromEnd.next!.next;
+        nodeBeforeNthFromEnd.next = nodeBeforeNthFromEnd.next.next;
 
-        return beforeHeadFakeNode.next!;
+        return beforeHeadFakeNode.next;
     }
 }

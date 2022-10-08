@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/810831394/
 /// </summary>
-public class Solution : ISolution
+public class Solution1 : ISolution
 {
     private readonly Dictionary<int, string[]> _cache = new();
 

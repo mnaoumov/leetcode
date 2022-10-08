@@ -40,6 +40,27 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     Return = new[] { 1, 5, 1 },
                     TestCaseName = "Example 3"
                 };
+
+                yield return new TestCase
+                {
+                    Nums = new[] { 1, 2 },
+                    Return = new[] { 2, 1 },
+                    TestCaseName = nameof(Solution1)
+                };
+
+                yield return new TestCase
+                {
+                    Nums = new[] { 1, 3, 2 },
+                    Return = new[] { 2, 1, 3 },
+                    TestCaseName = nameof(Solution2)
+                };
+
+                yield return new TestCase
+                {
+                    Nums = new[] { 5, 1, 1 },
+                    Return = new[] { 1, 1, 5 },
+                    TestCaseName = nameof(Solution3)
+                };
             }
         }
     }

@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/810706460/
 /// </summary>
-public class Solution : ISolution
+public class Solution1 : ISolution
 {
     public ListNode MergeTwoLists(ListNode list1, ListNode list2)
     {

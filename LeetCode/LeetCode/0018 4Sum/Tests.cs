@@ -40,7 +40,8 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Nums = new[] { 1000000000, 1000000000, 1000000000, 1000000000 },
                     Target = -294967296,
-                    Return = Array.Empty<int[]>()
+                    Return = Array.Empty<int[]>(),
+                    TestCaseName = nameof(Solution1)
                 };
             }
         }

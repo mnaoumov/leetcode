@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/811934718/
 /// </summary>
-public class Solution : ISolution
+public class Solution1 : ISolution
 {
     public int RemoveElement(int[] nums, int val)
     {

@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/812272924/
 /// </summary>
-public class Solution : ISolution
+public class Solution1 : ISolution
 {
     public int StrStr(string haystack, string needle)
     {

@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/810850167/
 /// </summary>
-public class Solution : ISolution
+public class Solution2 : ISolution
 {
     public ListNode? MergeKLists(ListNode?[] lists)
     {

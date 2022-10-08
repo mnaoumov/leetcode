@@ -39,21 +39,24 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Dividend = 2147483647,
                     Divisor = 1,
-                    Return = 2147483647
+                    Return = 2147483647,
+                    TestCaseName = nameof(Solution1)
                 };
 
                 yield return new TestCase
                 {
                     Dividend = -1010369383,
                     Divisor = -2147483648,
-                    Return = 0
+                    Return = 0,
+                    TestCaseName = nameof(Solution2)
                 };
 
                 yield return new TestCase
                 {
                     Dividend = 1100540749,
                     Divisor = -1090366779,
-                    Return = -1
+                    Return = -1,
+                    TestCaseName = nameof(Solution3)
                 };
             }
         }

@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/811540652/
 /// </summary>
-public class Solution : ISolution
+public class Solution1 : ISolution
 {
     public ListNode ReverseKGroup(ListNode head, int k)
     {

@@ -1,9 +1,10 @@
 ﻿namespace LeetCode._0029_Divide_Two_Integers;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/812354082/
+/// https://leetcode.com/submissions/detail/812351526/
 /// </summary>
-public class Solution : ISolution
+[SkipSolution(SkipSolutionReason.WrongAnswer)]
+public class Solution1 : ISolution
 {
     public int Divide(int dividend, int divisor)
     {
@@ -20,11 +21,6 @@ public class Solution : ISolution
             }
 
             return 1 + Divide(dividend - divisor, divisor);
-        }
-
-        if (divisor == int.MinValue)
-        {
-            return 0;
         }
 
         if (dividend < 0)
@@ -47,17 +43,11 @@ public class Solution : ISolution
         var summand = divisor;
         var quotient = 1;
 
-        while (summand <= dividend)
+        while (summand <= dividend && summand <= int.MaxValue - summand)
         {
             summandQuotientPairs.Insert(0, (summand, quotient));
-
-            if (summand > int.MaxValue - summand)
-            {
-                break;
-            }
-
             summand += summand;
-            quotient += quotient;
+            quotient++;
         }
 
         var result = 0;

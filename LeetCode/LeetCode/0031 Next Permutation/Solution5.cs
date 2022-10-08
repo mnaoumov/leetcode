@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/812403685/
 /// </summary>
-public class Solution : ISolution
+public class Solution5 : ISolution
 {
     public void NextPermutation(int[] nums)
     {

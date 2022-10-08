@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/812842176/
 /// </summary>
-public class Solution : ISolution
+public class Solution6 : ISolution
 {
     private const char OpeningBracket = '(';
 

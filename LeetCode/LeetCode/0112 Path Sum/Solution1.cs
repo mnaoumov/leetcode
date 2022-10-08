@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/814660488/
 /// </summary>
-public class Solution : ISolution
+public class Solution1 : ISolution
 {
     public bool HasPathSum(TreeNode? root, int targetSum)
     {

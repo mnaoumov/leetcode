@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/812157965/
 /// </summary>
-public class Solution : ISolution
+public class Solution1 : ISolution
 {
     public IList<IList<int>> GetSkyline(int[][] buildings)
     {

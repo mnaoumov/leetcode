@@ -1,16 +1,17 @@
-﻿namespace LeetCode._0091_Decode_Ways;
+﻿// ReSharper disable All
+namespace LeetCode._0091_Decode_Ways;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/812369551/
 /// </summary>
-public class Solution : ISolution
+public class Solution1 : ISolution
 {
     public int NumDecodings(string s)
     {
         var cache = new int?[s.Length];
-        return NumDecodingsImpl(0);
+        return NumDecodings(0);
 
-        int NumDecodingsImpl(int index)
+        int NumDecodings(int index)
         {
             if (index == s.Length)
             {
@@ -28,7 +29,7 @@ public class Solution : ISolution
             }
             else
             {
-                return (int) (cache[index] = CalculateNumDecodings(index));
+                return (int)(cache[index] = CalculateNumDecodings(index));
             }
         }
 
@@ -41,13 +42,13 @@ public class Solution : ISolution
                 return 0;
             }
 
-            var result = NumDecodingsImpl(index + 1);
+            var result = NumDecodings(index + 1);
 
             switch (digit)
             {
                 case 1:
                 case 2 when index + 1 < s.Length && GetDigit(index + 1) <= 6:
-                    result += NumDecodingsImpl(index + 2);
+                    result += NumDecodings(index + 2);
                     break;
             }
 

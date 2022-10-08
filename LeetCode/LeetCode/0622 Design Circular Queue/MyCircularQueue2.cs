@@ -3,14 +3,14 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/807894085/
 /// </summary>
-public class MyCircularQueue : IMyCircularQueue
+public class MyCircularQueue2 : IMyCircularQueue
 {
     private readonly int[] _values;
     private int _frontElementIndex;
     private int _rearElementIndex;
     private int _count;
 
-    public MyCircularQueue(int k)
+    public MyCircularQueue2(int k)
     {
         _values = new int[k];
     }
@@ -50,12 +50,6 @@ public class MyCircularQueue : IMyCircularQueue
 
         IncreaseIndexCircularly(ref _frontElementIndex);
         _count--;
-
-        if (IsEmpty())
-        {
-            _frontElementIndex = _rearElementIndex = 0;
-        }
-
         return true;
     }
 

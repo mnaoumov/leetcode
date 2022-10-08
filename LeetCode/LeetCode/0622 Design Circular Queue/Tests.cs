@@ -53,7 +53,8 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                         Assert.That(sut.EnQueue(2), Is.True);
                         Assert.That(sut.EnQueue(2), Is.True);
                         Assert.That(sut.EnQueue(3), Is.False);
-                    }
+                    },
+                    TestCaseName = nameof(Solution1)
                 };
 
                 yield return new TestCase
@@ -162,7 +163,8 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                         Assert.That(sut.EnQueue(59), Is.True);
                         Assert.That(sut.Rear(), Is.EqualTo(59));
                         Assert.That(sut.EnQueue(71), Is.True);
-                    }
+                    },
+                    TestCaseName = nameof(Solution2)
                 };
             }
         }

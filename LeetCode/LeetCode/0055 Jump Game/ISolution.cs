@@ -2,4 +2,5 @@
 
 public interface ISolution
 {
+    public bool CanJump(int[] nums);
 }

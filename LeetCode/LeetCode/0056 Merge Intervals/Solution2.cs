@@ -1,10 +1,9 @@
 ﻿namespace LeetCode._0056_Merge_Intervals;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/197151975/
+/// https://leetcode.com/submissions/detail/197153570/
 /// </summary>
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public int[][] Merge(int[][] intervals) => Interval.ToArrays(Merge(Interval.FromArrays(intervals)));
 
@@ -23,7 +22,7 @@ public class Solution1 : ISolution
             var current = results[i];
             if (current.start <= previous.end)
             {
-                results[i - 1] = new Interval(previous.start, current.end);
+                results[i - 1] = new Interval(previous.start, Math.Max(previous.end, current.end));
                 results.RemoveAt(i);
                 i--;
             }

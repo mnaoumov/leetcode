@@ -6,12 +6,13 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution, Is.Not.Null);
+        Assert.That(solution.CanJump(testCase.Nums), Is.EqualTo(testCase.Return));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public string Return { get; private init; } = null!;
+        public int[] Nums { get; private init; } = null!;
+        public bool Return { get; private init; }
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -19,8 +20,16 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
             {
                 yield return new TestCase
                 {
-                    Return = "foo",
+                    Nums = new []{ 2, 3, 1, 1, 4 },
+                    Return = true,
                     TestCaseName = "Example 1"
+                };
+
+                yield return new TestCase
+                {
+                    Nums = new []{ 3, 2, 1, 0, 4 },
+                    Return = false,
+                    TestCaseName = "Example 2"
                 };
             }
         }

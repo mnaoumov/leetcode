@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/198238038/
 /// </summary>
-public class OldSolution1 : ISolution
+public class Solution5 : ISolution
 {
     public int[] SearchRange(int[] nums, int target)
     {

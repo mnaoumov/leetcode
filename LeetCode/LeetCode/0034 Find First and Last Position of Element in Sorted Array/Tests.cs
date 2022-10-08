@@ -34,7 +34,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     Return = new[] { -1, -1 },
                     TestCaseName = "Example 2"
                 };
-                
+
                 yield return new TestCase
                 {
                     Nums = Array.Empty<int>(),
@@ -45,9 +45,26 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
                 yield return new TestCase
                 {
+                    Nums = new[] { 1, 1, 2 },
+                    Target = 1,
+                    Return = new[] { 0, 1 },
+                    TestCaseName = nameof(Solution2)
+                };
+
+                yield return new TestCase
+                {
                     Nums = new[] { 2, 2 },
                     Target = 2,
-                    Return = new[] { 0, 1 }
+                    Return = new[] { 0, 1 },
+                    TestCaseName = nameof(Solution3)
+                };
+
+                yield return new TestCase
+                {
+                    Nums = new[] { 1, 4 },
+                    Target = 4,
+                    Return = new[] { 1, 1 },
+                    TestCaseName = nameof(Solution4)
                 };
             }
         }

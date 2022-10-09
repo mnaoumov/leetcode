@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/811499542/
 /// </summary>
-public class Solution1
+public class Solution1 : ISolution
 {
     public IList<int> FindClosestElements(int[] arr, int k, int x)
     {

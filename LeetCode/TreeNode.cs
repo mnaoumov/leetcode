@@ -107,4 +107,24 @@ public class TreeNode
             }
         }
     }
+
+    public TreeNode? FindNode(int value)
+    {
+        if (val == value)
+        {
+            return this;
+        }
+
+        if (left?.FindNode(value) is {} leftResult)
+        {
+            return leftResult;
+        }
+
+        if (right?.FindNode(value) is { } rightResult)
+        {
+            return rightResult;
+        }
+
+        return null;
+    }
 }

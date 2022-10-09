@@ -6,12 +6,14 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution, Is.Not.Null);
+        Assert.That(solution.SearchMatrix(testCase.Matrix, testCase.Target), Is.EqualTo(testCase.Return));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public string Return { get; private init; } = null!;
+        public int[][] Matrix { get; private init; } = null!;
+        public int Target { get; private init; }
+        public bool Return { get; private init; }
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -19,8 +21,32 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
             {
                 yield return new TestCase
                 {
-                    Return = "foo",
+                    Matrix = new[]
+                    {
+                        new[] { 1, 4, 7, 11, 15 },
+                        new[] { 2, 5, 8, 12, 19 },
+                        new[] { 3, 6, 9, 16, 22 },
+                        new[] { 10, 13, 14, 17, 24 },
+                        new[] { 18, 21, 23, 26, 30 }
+                    },
+                    Target = 5,
+                    Return = true,
                     TestCaseName = "Example 1"
+                };
+                
+                yield return new TestCase
+                {
+                    Matrix = new[]
+                    {
+                        new[] { 1, 4, 7, 11, 15 },
+                        new[] { 2, 5, 8, 12, 19 },
+                        new[] { 3, 6, 9, 16, 22 },
+                        new[] { 10, 13, 14, 17, 24 },
+                        new[] { 18, 21, 23, 26, 30 }
+                    },
+                    Target = 20,
+                    Return = false,
+                    TestCaseName = "Example 2"
                 };
             }
         }

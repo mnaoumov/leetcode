@@ -2,4 +2,5 @@
 
 public interface ISolution
 {
+    public TreeNode LowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q);
 }

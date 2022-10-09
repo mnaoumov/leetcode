@@ -2,4 +2,5 @@
 
 public interface ISolution
 {
+    public bool SearchMatrix(int[][] matrix, int target);
 }

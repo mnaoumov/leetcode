@@ -3,7 +3,7 @@
 public class ListNode
 {
     // ReSharper disable once InconsistentNaming
-    public readonly int val;
+    public int val;
     // ReSharper disable once InconsistentNaming
     public ListNode? next;
     public ListNode(int val = 0, ListNode? next = null)
@@ -58,5 +58,20 @@ public class ListNode
     public static ListNode? CreateOrNull(params int[] values)
     {
         return values.Any() ? Create(values) : null;
+    }
+
+    public ListNode? FindNode(int value)
+    {
+        if (val == value)
+        {
+            return this;
+        }
+
+        if (next?.FindNode(value) is { } result)
+        {
+            return result;
+        }
+
+        return null;
     }
 }

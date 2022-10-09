@@ -1,17 +1,18 @@
-﻿using NUnit.Framework;
-
-namespace LeetCode._0289_Game_of_Life;
+﻿namespace LeetCode._0289_Game_of_Life;
 
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution, Is.Not.Null);
+        var board = ArrayHelper.DeepCopy(testCase.BoardBeforeGame);
+        solution.GameOfLife(board);
+        AssertCollectionEqualWithDetails(board, testCase.BoardAfterGame);
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public string Return { get; private init; } = null!;
+        public int[][] BoardBeforeGame { get; private init; } = null!;
+        public int[][] BoardAfterGame { get; private init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -19,8 +20,36 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
             {
                 yield return new TestCase
                 {
-                    Return = "foo",
+                    BoardBeforeGame = new[]
+                    {
+                        new[] { 0, 1, 0 },
+                        new[] { 0, 0, 1 },
+                        new[] { 1, 1, 1 },
+                        new[] { 0, 0, 0 }
+                    },
+                    BoardAfterGame = new[]
+                    {
+                        new[] { 0, 0, 0 },
+                        new[] { 1, 0, 1 },
+                        new[] { 0, 1, 1 },
+                        new[] { 0, 1, 0 }
+                    },
                     TestCaseName = "Example 1"
+                };
+
+                yield return new TestCase
+                {
+                    BoardBeforeGame = new[]
+                    {
+                        new[] { 1, 1 },
+                        new[] { 1, 0 }
+                    },
+                    BoardAfterGame = new[]
+                    {
+                        new[] { 1, 1 },
+                        new[] { 1, 1 }
+                    },
+                    TestCaseName = "Example 2"
                 };
             }
         }

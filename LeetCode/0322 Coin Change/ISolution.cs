@@ -2,4 +2,5 @@
 
 public interface ISolution
 {
+    public int CoinChange(int[] coins, int amount);
 }

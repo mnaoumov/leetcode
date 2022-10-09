@@ -2,4 +2,5 @@
 
 public interface ISolution
 {
+    public string DecodeString(string s);
 }

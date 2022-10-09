@@ -6,12 +6,16 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution, Is.Not.Null);
+        var ser = solution.Create();
+        var deser = solution.Create();
+        var root = TreeNode.Create(testCase.Values)!;
+        var ans = deser.deserialize(ser.serialize(root));
+        Assert.That(ans, Is.EqualTo(root));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public string Return { get; private init; } = null!;
+        public int?[] Values { get; set; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -19,8 +23,14 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
             {
                 yield return new TestCase
                 {
-                    Return = "foo",
+                    Values = new int?[] { 1, 2, 3, null, null, 4, 5 },
                     TestCaseName = "Example 1"
+                };
+
+                yield return new TestCase
+                {
+                    Values = Array.Empty<int?>(),
+                    TestCaseName = "Example 2"
                 };
             }
         }

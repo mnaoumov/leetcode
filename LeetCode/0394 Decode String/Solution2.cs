@@ -1,12 +1,10 @@
 ﻿#pragma warning disable CS8618
-#pragma warning disable CS0169
 namespace LeetCode._0394_Decode_String;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/196678076/
+/// https://leetcode.com/submissions/detail/196678531/
 /// </summary>
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public string DecodeString(string s)
     {
@@ -43,7 +41,6 @@ public class Solution1 : ISolution
 
     private class ParsingContext
     {
-        private ParsingContext _nestedContext;
         public ParsingContext Parent { get; private set; }
 
         public ParsingContext()
@@ -58,7 +55,7 @@ public class Solution1 : ISolution
         }
 
         public int RepeatCount { get; set; }
-        public string Text { get; set; }
+        public string Text { get; set; } = "";
 
         public ParsingContext NestedContext => _lazyNestedContext.Value;
         private Lazy<ParsingContext> _lazyNestedContext;

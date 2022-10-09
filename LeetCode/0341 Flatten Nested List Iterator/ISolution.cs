@@ -2,4 +2,5 @@
 
 public interface ISolution
 {
+    INestedIterator Create(IList<NestedInteger> nestedList);
 }

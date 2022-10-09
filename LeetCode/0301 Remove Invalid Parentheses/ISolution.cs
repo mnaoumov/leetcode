@@ -2,4 +2,5 @@
 
 public interface ISolution
 {
+    public IList<string> RemoveInvalidParentheses(string s);
 }

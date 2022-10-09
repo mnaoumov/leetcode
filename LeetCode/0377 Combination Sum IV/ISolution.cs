@@ -2,4 +2,5 @@
 
 public interface ISolution
 {
+    public int CombinationSum4(int[] nums, int target);
 }

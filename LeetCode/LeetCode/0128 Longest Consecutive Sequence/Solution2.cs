@@ -1,10 +1,10 @@
 ﻿namespace LeetCode._0128_Longest_Consecutive_Sequence;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/199779553/
+/// https://leetcode.com/submissions/detail/199781367/
 /// </summary>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public int LongestConsecutive(int[] nums)
     {
@@ -33,6 +33,17 @@ public class Solution1 : ISolution
             }
 
             ranges[num] = (left, right);
+
+            if (ranges.ContainsKey(num + 1))
+            {
+                ranges[num + 1] = (left, right);
+            }
+
+            if (ranges.ContainsKey(num - 1))
+            {
+                ranges[num - 1] = (left, right);
+            }
+
             result = Math.Max(result, right - left + 1);
         }
 

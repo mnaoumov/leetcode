@@ -1,17 +1,21 @@
 ﻿// ReSharper disable All
 #pragma warning disable CS8767
-#pragma warning disable CS8603
 #pragma warning disable CS8602
+#pragma warning disable CS8603
 namespace LeetCode._0142_Linked_List_Cycle_II;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/195967416/
+/// https://leetcode.com/submissions/detail/195967696/
 /// </summary>
-[SkipSolution(SkipSolutionReason.RuntimeError)]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public ListNode DetectCycle(ListNode head)
     {
+        if (head == null)
+        {
+            return null;
+        }
+
         var slowNodeCrawler = head;
         var fastNodeCrawler = head.next;
 

@@ -3,10 +3,10 @@
 namespace LeetCode._0098_Validate_Binary_Search_Tree;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/200144698/
+/// https://leetcode.com/submissions/detail/200145012/
 /// </summary>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public bool IsValidBST(TreeNode root)
     {
@@ -20,7 +20,7 @@ public class Solution1 : ISolution
             return true;
         }
 
-        return min <= root.val && root.val <= max &&
+        return min < root.val && root.val < max &&
                IsValidBST(root.left, min, root.val) &&
                IsValidBST(root.right, root.val, max);
     }

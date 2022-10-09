@@ -2,4 +2,5 @@
 
 public interface ISolution
 {
+    public int MaximalRectangle(char[][] matrix);
 }

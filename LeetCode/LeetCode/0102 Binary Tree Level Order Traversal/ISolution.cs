@@ -2,4 +2,5 @@
 
 public interface ISolution
 {
+    public IList<IList<int>> LevelOrder(TreeNode root);
 }

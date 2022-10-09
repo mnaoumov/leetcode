@@ -2,4 +2,5 @@
 
 public interface ISolution
 {
+    public int NumTrees(int n);
 }

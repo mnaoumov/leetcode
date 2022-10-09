@@ -2,4 +2,5 @@
 
 public interface ISolution
 {
+    ILRUCache Create(int capacity);
 }

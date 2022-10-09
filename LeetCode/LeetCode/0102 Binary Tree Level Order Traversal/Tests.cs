@@ -1,17 +1,16 @@
-﻿using NUnit.Framework;
-
-namespace LeetCode._0102_Binary_Tree_Level_Order_Traversal;
+﻿namespace LeetCode._0102_Binary_Tree_Level_Order_Traversal;
 
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution, Is.Not.Null);
+        AssertCollectionEqualWithDetails(solution.LevelOrder(TreeNode.Create(testCase.Values)!), testCase.Return);
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public string Return { get; private init; } = null!;
+        public int?[] Values { get; private init; } = null!;
+        public IList<IList<int>> Return { get; private init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -19,8 +18,23 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
             {
                 yield return new TestCase
                 {
-                    Return = "foo",
+                    Values = new int?[] { 3, 9, 20, null, null, 15, 7 },
+                    Return = new IList<int>[] { new[] { 3 }, new[] { 9, 20 }, new[] { 15, 7 } },
                     TestCaseName = "Example 1"
+                };
+
+                yield return new TestCase
+                {
+                    Values = new int?[] { 1 },
+                    Return = new IList<int>[] { new[] { 1 } },
+                    TestCaseName = "Example 2"
+                };
+
+                yield return new TestCase
+                {
+                    Values = Array.Empty<int?>(),
+                    Return = Array.Empty<IList<int>>(),
+                    TestCaseName = "Example 3"
                 };
             }
         }

@@ -3,14 +3,13 @@
 namespace LeetCode._0124_Binary_Tree_Maximum_Path_Sum;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/203458773/
+/// https://leetcode.com/submissions/detail/203460140/
 /// </summary>
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public int MaxPathSum(TreeNode root)
     {
-        var maxPathSumDowns = new Dictionary<TreeNode, int>();
+        Dictionary<TreeNode, int> maxPathSumDowns = new Dictionary<TreeNode, int>();
         return MaxPathSum(root, maxPathSumDowns);
     }
 
@@ -21,12 +20,22 @@ public class Solution1 : ISolution
             return 0;
         }
 
-        return new[]
+        int result =
+            root.val
+            + Math.Max(MaxPathSumDown(root.left, maxPathSumDowns), 0)
+            + Math.Max(MaxPathSumDown(root.right, maxPathSumDowns), 0);
+
+        if (root.left != null)
         {
-            root.val + Math.Max(MaxPathSumDown(root.left, maxPathSumDowns), 0) + Math.Max(MaxPathSumDown(root.right, maxPathSumDowns), 0),
-            MaxPathSum(root.left, maxPathSumDowns),
-            MaxPathSum(root.right, maxPathSumDowns)
-        }.Max();
+            result = Math.Max(result, MaxPathSum(root.left, maxPathSumDowns));
+        }
+
+        if (root.right != null)
+        {
+            result = Math.Max(result, MaxPathSum(root.right, maxPathSumDowns));
+        }
+
+        return result;
     }
 
     private int MaxPathSumDown(TreeNode root, Dictionary<TreeNode, int> maxPathSumDowns)

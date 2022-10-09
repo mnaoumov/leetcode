@@ -6,12 +6,41 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution, Is.Not.Null);
+        var root = ListNode.CreateOrNull(testCase.Values);
+        var tail = root;
+        ListNode? cycleStartNode = null;
+
+        if (tail != null)
+        {
+            while (tail.next != null)
+            {
+                tail = tail.next;
+            }
+
+            if (testCase.Pos == -1)
+            {
+                cycleStartNode = null;
+            }
+            else
+            {
+                cycleStartNode = root;
+
+                for (var i = 1; i < testCase.Pos; i++)
+                {
+                    cycleStartNode = cycleStartNode!.next;
+                }
+            }
+
+            tail.next = cycleStartNode;
+        }
+
+        Assert.That(solution.DetectCycle(root), Is.SameAs(cycleStartNode));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public string Return { get; private init; } = null!;
+        public int[] Values { get; private init; } = null!;
+        public int Pos { get; private init; }
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -19,8 +48,30 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
             {
                 yield return new TestCase
                 {
-                    Return = "foo",
+                    Values = new[] { 3, 2, 0, -4 },
+                    Pos = 1,
                     TestCaseName = "Example 1"
+                };
+
+                yield return new TestCase
+                {
+                    Values = new[] { 1, 2 },
+                    Pos = 0,
+                    TestCaseName = "Example 2"
+                };
+
+                yield return new TestCase
+                {
+                    Values = new[] { 1 },
+                    Pos = -1,
+                    TestCaseName = "Example 3"
+                };
+
+                yield return new TestCase
+                {
+                    Values = Array.Empty<int>(),
+                    Pos = -1,
+                    TestCaseName = nameof(Solution1)
                 };
             }
         }

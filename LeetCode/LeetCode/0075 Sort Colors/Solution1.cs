@@ -3,6 +3,7 @@
 /// <summary>
 /// https://leetcode.com/submissions/detail/196742471/
 /// </summary>
+[SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution
 {
     public void SortColors(int[] nums)

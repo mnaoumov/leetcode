@@ -2,4 +2,5 @@
 
 public interface ISolution
 {
+    public bool CanFinish(int numCourses, int[][] prerequisites);
 }

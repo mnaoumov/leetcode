@@ -6,12 +6,13 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution, Is.Not.Null);
+        var sut = solution.Create();
+        testCase.Test(sut);
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public string Return { get; private init; } = null!;
+        public Action<ITrie> Test { get; private init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -19,8 +20,30 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
             {
                 yield return new TestCase
                 {
-                    Return = "foo",
+                    Test = sut =>
+                    {
+                        sut.Insert("apple");
+                        Assert.That(sut.Search("apple"), Is.True);
+                        Assert.That(sut.Search("app"), Is.False);
+                        Assert.That(sut.StartsWith("app"), Is.True);
+                        sut.Insert("app");
+                        Assert.That(sut.Search("app"), Is.True);
+                    },
                     TestCaseName = "Example 1"
+                };
+                
+                yield return new TestCase
+                {
+                    Test = sut =>
+                    {
+                        Assert.That(sut.Search("ab"), Is.False);
+                        sut.Insert("ab");
+                        Assert.That(sut.Search("ab"), Is.True);
+                        Assert.That(sut.Search("ab"), Is.True);
+                        Assert.That(sut.StartsWith("ab"), Is.True);
+                        Assert.That(sut.StartsWith("ab"), Is.True);
+                    },
+                    TestCaseName = nameof(Solution1)
                 };
             }
         }

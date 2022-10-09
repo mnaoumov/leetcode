@@ -6,12 +6,14 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution, Is.Not.Null);
+        Assert.That(solution.CanFinish(testCase.NumCourses, testCase.Prerequisites), Is.EqualTo(testCase.Return));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public string Return { get; private init; } = null!;
+        public int NumCourses { get; private init; }
+        public int[][] Prerequisites { get; private init; } = null!;
+        public bool Return { get; private init; }
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -19,8 +21,18 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
             {
                 yield return new TestCase
                 {
-                    Return = "foo",
+                    NumCourses = 2,
+                    Prerequisites = new[] { new[] { 1, 0 } },
+                    Return = true,
                     TestCaseName = "Example 1"
+                };
+
+                yield return new TestCase
+                {
+                    NumCourses = 2,
+                    Prerequisites = new[] { new[] { 1, 0 }, new[] { 0, 1 } },
+                    Return = false,
+                    TestCaseName = "Example 2"
                 };
             }
         }

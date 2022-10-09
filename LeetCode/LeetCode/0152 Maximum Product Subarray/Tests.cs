@@ -6,12 +6,13 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution, Is.Not.Null);
+        Assert.That(solution.MaxProduct(testCase.Nums), Is.EqualTo(testCase.Return));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public string Return { get; private init; } = null!;
+        public int[] Nums { get; private init; } = null!;
+        public int Return { get; private init; }
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -19,8 +20,30 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
             {
                 yield return new TestCase
                 {
-                    Return = "foo",
+                    Nums = new[] { 2, 3, -2, 4 },
+                    Return = 6,
                     TestCaseName = "Example 1"
+                };
+
+                yield return new TestCase
+                {
+                    Nums = new[] { -2, 0, -1 },
+                    Return = 0,
+                    TestCaseName = "Example 2"
+                };
+
+                yield return new TestCase
+                {
+                    Nums = new[] { 2, 3 },
+                    Return = 6,
+                    TestCaseName = nameof(Solution1)
+                };
+
+                yield return new TestCase
+                {
+                    Nums = new[] { 0, 2 },
+                    Return = 2,
+                    TestCaseName = nameof(Solution3)
                 };
             }
         }

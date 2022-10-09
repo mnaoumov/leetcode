@@ -1,10 +1,10 @@
 ﻿namespace LeetCode._0200_Number_of_Islands;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/197101056/
+/// https://leetcode.com/submissions/detail/197104243/
 /// </summary>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public int NumIslands(char[][] grid) => NumIslands(ArrayHelper.ArrayOfArraysTo2D(grid));
 
@@ -27,28 +27,23 @@ public class Solution1 : ISolution
                 const char land = '1';
                 if (grid[i, j] == land)
                 {
-                    result++;
+                    var topIslandNumber = i > 0 ? islandNumber[i - 1, j] : 0;
+                    var leftIslandNumber = j > 0 ? islandNumber[i, j - 1] : 0;
 
-                    var isLandOnTop = i > 0 && grid[i - 1, j] == land;
-
-                    if (isLandOnTop)
-                    {
-                        result--;
-                    }
-
-                    var isLandOnLeft = j > 0 && grid[i, j - 1] == land;
-
-                    if (isLandOnLeft)
-                    {
-                        result--;
-                    }
-
-                    if (isLandOnLeft && isLandOnTop && islandNumber[i - 1, j] == islandNumber[i, j - 1])
+                    if (topIslandNumber == 0 && leftIslandNumber == 0)
                     {
                         result++;
+                        islandNumber[i, j] = result;
+                    }
+                    else
+                    {
+                        islandNumber[i, j] = Math.Max(topIslandNumber, leftIslandNumber);
                     }
 
-                    islandNumber[i, j] = result;
+                    if (topIslandNumber != 0 && leftIslandNumber != 0 && topIslandNumber != leftIslandNumber)
+                    {
+                        result--;
+                    }
                 }
             }
         }

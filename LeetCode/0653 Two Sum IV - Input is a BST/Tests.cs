@@ -6,14 +6,14 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.FindTarget(TreeNode.Create(testCase.Values)!, testCase.K), Is.EqualTo(testCase.Return));
+        Assert.That(solution.FindTarget(TreeNode.Create(testCase.Values)!, testCase.K), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public int?[] Values { get; private init; } = null!;
         public int K { get; private init; }
-        public bool Return { get; private init; }
+        public bool Output { get; private init; }
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -23,7 +23,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Values = new int?[] { 5, 3, 6, 2, 4, null, 7 },
                     K = 9,
-                    Return = true,
+                    Output = true,
                     TestCaseName = "Example 1"
                 };
 
@@ -31,7 +31,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Values = new int?[] { 5, 3, 6, 2, 4, null, 7 },
                     K = 28,
-                    Return = false,
+                    Output = false,
                     TestCaseName = "Example 2"
                 };
             }

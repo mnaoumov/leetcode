@@ -6,13 +6,13 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.NumIslands(testCase.Grid), Is.EqualTo(testCase.Return));
+        Assert.That(solution.NumIslands(testCase.Grid), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public char[][] Grid { get; private init; } = null!;
-        public int Return { get; private init; }
+        public int Output { get; private init; }
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -27,7 +27,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                         new[] { '1', '1', '0', '0', '0' },
                         new[] { '0', '0', '0', '0', '0' }
                     },
-                    Return = 1,
+                    Output = 1,
                     TestCaseName = "Example 1"
                 };
 
@@ -40,7 +40,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                         new[] { '0', '0', '1', '0', '0' },
                         new[] { '0', '0', '0', '1', '1' }
                     },
-                    Return = 3,
+                    Output = 3,
                     TestCaseName = "Example 2"
                 };
 
@@ -52,7 +52,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                         new[] { '1', '0', '1', '0', '1' },
                         new[] { '1', '1', '1', '1', '1' }
                     },
-                    Return = 1,
+                    Output = 1,
                     TestCaseName = nameof(Solution1)
                 };
 
@@ -80,7 +80,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                             '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1'
                         }
                     },
-                    Return = 1,
+                    Output = 1,
                     TestCaseName = nameof(Solution2)
                 };
 
@@ -189,7 +189,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                             '0', '0'
                         }
                     },
-                    Return = 58,
+                    Output = 58,
                     TestCaseName = nameof(Solution3)
                 };
             }

@@ -9,7 +9,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         var root = TreeNode.Create(testCase.Values)!;
         var p = root.FindNode(testCase.P)!;
         var q = root.FindNode(testCase.Q)!;
-        var returnNode = root.FindNode(testCase.Return)!;
+        var returnNode = root.FindNode(testCase.Output)!;
         Assert.That(solution.LowestCommonAncestor(root, p, q), Is.SameAs(returnNode));
     }
 
@@ -18,7 +18,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         public int?[] Values { get; private init; } = null!;
         public int P { get; private init; }
         public int Q { get; private init; }
-        public int Return { get; private init; }
+        public int Output { get; private init; }
 
 
         public override IEnumerable<TestCase> TestCases
@@ -30,7 +30,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     Values = new int?[] { 3, 5, 1, 6, 2, 0, 8, null, null, 7, 4 },
                     P = 5,
                     Q = 1,
-                    Return = 3,
+                    Output = 3,
                     TestCaseName = "Example 1"
                 };
 
@@ -39,7 +39,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     Values = new int?[] { 3, 5, 1, 6, 2, 0, 8, null, null, 7, 4 },
                     P = 5,
                     Q = 4,
-                    Return = 5,
+                    Output = 5,
                     TestCaseName = "Example 2"
                 };
 
@@ -48,7 +48,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     Values = new int?[] { 1, 2 },
                     P = 1,
                     Q = 2,
-                    Return = 1,
+                    Output = 1,
                     TestCaseName = "Example 3"
                 };
 
@@ -57,7 +57,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     Values = new int?[] { 1, 2, 3, null, 4 },
                     P = 4,
                     Q = 3,
-                    Return = 1,
+                    Output = 1,
                     TestCaseName = nameof(Solution1)
                 };
             }

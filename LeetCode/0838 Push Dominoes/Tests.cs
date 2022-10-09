@@ -6,13 +6,13 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.PushDominoes(testCase.Dominoes), Is.EqualTo(testCase.Return));
+        Assert.That(solution.PushDominoes(testCase.Dominoes), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public string Dominoes { get; private init; } = null!;
-        public string Return { get; private init; } = null!;
+        public string Output { get; private init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -21,14 +21,14 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 yield return new TestCase
                 {
                     Dominoes = "RR.L",
-                    Return = "RR.L",
+                    Output = "RR.L",
                     TestCaseName = "Example 1"
                 };
                 
                 yield return new TestCase
                 {
                     Dominoes = ".L.R...LR..L..",
-                    Return = "LL.RR.LLRRLL..",
+                    Output = "LL.RR.LLRRLL..",
                     TestCaseName = "Example 2"
                 };
             }

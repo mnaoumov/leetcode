@@ -6,14 +6,14 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.Exist(testCase.Board, testCase.Word), Is.EqualTo(testCase.Return));
+        Assert.That(solution.Exist(testCase.Board, testCase.Word), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public char[][] Board { get; private init; } = null!;
         public string Word { get; private init; } = null!;
-        public bool Return { get; private init; }
+        public bool Output { get; private init; }
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -23,7 +23,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Board = new[] { new[] { 'A', 'B', 'C', 'E' }, new[] { 'S', 'F', 'C', 'S' }, new[] { 'A', 'D', 'E', 'E' } },
                     Word = "ABCCED",
-                    Return = true,
+                    Output = true,
                     TestCaseName = "Example 1"
                 };
 
@@ -31,7 +31,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Board = new[] { new[] { 'A', 'B', 'C', 'E' }, new[] { 'S', 'F', 'C', 'S' }, new[] { 'A', 'D', 'E', 'E' } },
                     Word = "SEE",
-                    Return = true,
+                    Output = true,
                     TestCaseName = "Example 2"
                 };
 
@@ -39,7 +39,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Board = new[] { new[] { 'A', 'B', 'C', 'E' }, new[] { 'S', 'F', 'C', 'S' }, new[] { 'A', 'D', 'E', 'E' } },
                     Word = "ABCB",
-                    Return = false,
+                    Output = false,
                     TestCaseName = "Example 3"
                 };
             }

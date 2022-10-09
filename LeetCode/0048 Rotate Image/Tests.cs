@@ -6,13 +6,13 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     {
         var matrix = ArrayHelper.DeepCopy(testCase.Matrix);
         solution.Rotate(matrix);
-        AssertCollectionEqualWithDetails(matrix, testCase.Return);
+        AssertCollectionEqualWithDetails(matrix, testCase.Output);
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public int[][] Matrix { get; private init; } = null!;
-        public int[][] Return { get; private init; } = null!;
+        public int[][] Output { get; private init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -26,7 +26,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                         new[] { 4, 5, 6 },
                         new[] { 7, 8, 9 }
                     },
-                    Return = new[]
+                    Output = new[]
                     {
                         new[] { 7, 4, 1 },
                         new[] { 8, 5, 2 },
@@ -44,7 +44,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                         new[] { 13, 3, 6, 7 },
                         new[] { 15, 14, 12, 16 }
                     },
-                    Return = new[]
+                    Output = new[]
                     {
                         new[] { 15, 13, 2, 5 },
                         new[] { 14, 3, 4, 1 },

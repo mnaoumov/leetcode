@@ -6,14 +6,14 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.MinWindow(testCase.S, testCase.T), Is.EqualTo(testCase.Return));
+        Assert.That(solution.MinWindow(testCase.S, testCase.T), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public string S { get; private init; } = null!;
         public string T { get; private init; } = null!;
-        public string Return { get; private init; } = null!;
+        public string Output { get; private init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -23,7 +23,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     S = "ADOBECODEBANC",
                     T = "ABC",
-                    Return = "BANC",
+                    Output = "BANC",
                     TestCaseName = "Example 1"
                 };
 
@@ -31,7 +31,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     S = "A",
                     T = "A",
-                    Return = "A",
+                    Output = "A",
                     TestCaseName = "Example 2"
                 };
 
@@ -39,7 +39,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     S = "A",
                     T = "AA",
-                    Return = "",
+                    Output = "",
                     TestCaseName = "Example 3"
                 };
 
@@ -47,7 +47,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     S = "a",
                     T = "aa",
-                    Return = "",
+                    Output = "",
                     TestCaseName = nameof(Solution1)
                 };
             }

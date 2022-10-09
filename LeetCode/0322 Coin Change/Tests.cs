@@ -6,14 +6,14 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.CoinChange(testCase.Coins, testCase.Amount), Is.EqualTo(testCase.Return));
+        Assert.That(solution.CoinChange(testCase.Coins, testCase.Amount), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public int[] Coins { get; private init; } = null!;
         public int Amount { get; private init; }
-        public int Return { get; private init; }
+        public int Output { get; private init; }
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -23,7 +23,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Coins = new[] { 1, 2, 5 },
                     Amount = 11,
-                    Return = 3,
+                    Output = 3,
                     TestCaseName = "Example 1"
                 };
 
@@ -31,7 +31,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Coins = new[] { 2 },
                     Amount = 3,
-                    Return = -1,
+                    Output = -1,
                     TestCaseName = "Example 2"
                 };
 
@@ -39,7 +39,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Coins = new[] { 1 },
                     Amount = 0,
-                    Return = 0,
+                    Output = 0,
                     TestCaseName = "Example 3"
                 };
             }

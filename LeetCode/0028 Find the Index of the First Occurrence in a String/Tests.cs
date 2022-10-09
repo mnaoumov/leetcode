@@ -6,14 +6,14 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.StrStr(testCase.HayStack, testCase.Needle), Is.EqualTo(testCase.Return));
+        Assert.That(solution.StrStr(testCase.HayStack, testCase.Needle), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public string HayStack { get; private init; } = null!;
         public string Needle { get; private init; } = null!;
-        public int Return { get; private init; }
+        public int Output { get; private init; }
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -23,7 +23,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     HayStack = "sadbutsad",
                     Needle = "sad",
-                    Return = 0,
+                    Output = 0,
                     TestCaseName = "Example 1"
                 };
 
@@ -31,7 +31,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     HayStack = "leetcode",
                     Needle = "leeto",
-                    Return = -1,
+                    Output = -1,
                     TestCaseName = "Example 2"
                 };
             }

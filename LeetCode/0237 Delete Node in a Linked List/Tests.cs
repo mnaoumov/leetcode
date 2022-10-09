@@ -9,13 +9,13 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         var root = ListNode.Create(testCase.Values);
         var node = root.FindNode(testCase.NodeValue)!;
         solution.DeleteNode(node);
-        Assert.That(root, Is.EqualTo(ListNode.Create(testCase.ReturnValues)));
+        Assert.That(root, Is.EqualTo(ListNode.Create(testCase.OutputValues)));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public int[] Values { get; private init; } = null!;
-        public int[] ReturnValues { get; private init; } = null!;
+        public int[] OutputValues { get; private init; } = null!;
         public int NodeValue { get; private init; }
 
         public override IEnumerable<TestCase> TestCases
@@ -26,7 +26,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Values = new[] { 4, 5, 1, 9 },
                     NodeValue = 5,
-                    ReturnValues = new[] { 4, 1, 9 },
+                    OutputValues = new[] { 4, 1, 9 },
                     TestCaseName = "Example 1"
                 };
 
@@ -34,7 +34,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Values = new[] { 4, 5, 1, 9 },
                     NodeValue = 1,
-                    ReturnValues = new[] { 4, 5, 9 },
+                    OutputValues = new[] { 4, 5, 9 },
                     TestCaseName = "Example 2"
                 };
             }

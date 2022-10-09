@@ -4,13 +4,13 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        AssertCollectionEqualWithDetails(solution.LevelOrder(TreeNode.Create(testCase.Values)!), testCase.Return);
+        AssertCollectionEqualWithDetails(solution.LevelOrder(TreeNode.Create(testCase.Values)!), testCase.Output);
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public int?[] Values { get; private init; } = null!;
-        public IList<IList<int>> Return { get; private init; } = null!;
+        public IList<IList<int>> Output { get; private init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -19,21 +19,21 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 yield return new TestCase
                 {
                     Values = new int?[] { 3, 9, 20, null, null, 15, 7 },
-                    Return = new IList<int>[] { new[] { 3 }, new[] { 9, 20 }, new[] { 15, 7 } },
+                    Output = new IList<int>[] { new[] { 3 }, new[] { 9, 20 }, new[] { 15, 7 } },
                     TestCaseName = "Example 1"
                 };
 
                 yield return new TestCase
                 {
                     Values = new int?[] { 1 },
-                    Return = new IList<int>[] { new[] { 1 } },
+                    Output = new IList<int>[] { new[] { 1 } },
                     TestCaseName = "Example 2"
                 };
 
                 yield return new TestCase
                 {
                     Values = Array.Empty<int?>(),
-                    Return = Array.Empty<IList<int>>(),
+                    Output = Array.Empty<IList<int>>(),
                     TestCaseName = "Example 3"
                 };
             }

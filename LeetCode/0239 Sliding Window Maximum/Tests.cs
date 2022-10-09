@@ -4,14 +4,14 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        AssertCollectionEqualWithDetails(solution.MaxSlidingWindow(testCase.Nums, testCase.K), testCase.Return);
+        AssertCollectionEqualWithDetails(solution.MaxSlidingWindow(testCase.Nums, testCase.K), testCase.Output);
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public int[] Nums { get; private init; } = null!;
         public int K { get; private init; }
-        public int[] Return { get; private init; } = null!;
+        public int[] Output { get; private init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -21,7 +21,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Nums = new[] { 1, 3, -1, -3, 5, 3, 6, 7 },
                     K = 3,
-                    Return = new[] { 3, 3, 5, 5, 6, 7 },
+                    Output = new[] { 3, 3, 5, 5, 6, 7 },
                     TestCaseName = "Example 1"
                 };
 
@@ -29,7 +29,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Nums = new[] { 1 },
                     K = 1,
-                    Return = new[] { 1 },
+                    Output = new[] { 1 },
                     TestCaseName = "Example 2"
                 };
 
@@ -37,7 +37,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Nums = Array.Empty<int>(),
                     K = 0,
-                    Return = Array.Empty<int>(),
+                    Output = Array.Empty<int>(),
                     TestCaseName = nameof(Solution1)
                 };
             }

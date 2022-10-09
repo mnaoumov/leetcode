@@ -13,13 +13,13 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
             list.Add(i.Next());
         }
 
-        AssertCollectionEqualWithDetails(list, testCase.Return);
+        AssertCollectionEqualWithDetails(list, testCase.Output);
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public NestedInteger[] NestedList { get; private init; } = null!;
-        public int[] Return { get; private init; } = null!;
+        public int[] Output { get; private init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -41,7 +41,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                             new NestedIntegerImpl(1)
                         })
                     },
-                    Return = new[] { 1, 1, 2, 1, 1 },
+                    Output = new[] { 1, 1, 2, 1, 1 },
                     TestCaseName = "Example 1"
                 };
 
@@ -59,7 +59,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                             })
                         })
                     },
-                    Return = new[] { 1, 4, 6 },
+                    Output = new[] { 1, 4, 6 },
                     TestCaseName = "Example 2"
                 };
 
@@ -69,7 +69,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     {
                         new NestedIntegerImpl(Array.Empty<NestedInteger>())
                     },
-                    Return = Array.Empty<int>(),
+                    Output = Array.Empty<int>(),
                     TestCaseName = nameof(Solution1)
                 };
             }

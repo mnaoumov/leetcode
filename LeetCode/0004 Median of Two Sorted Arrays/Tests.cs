@@ -6,14 +6,14 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.FindMedianSortedArrays(testCase.Nums1, testCase.Nums2), Is.EqualTo(testCase.Return));
+        Assert.That(solution.FindMedianSortedArrays(testCase.Nums1, testCase.Nums2), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public int[] Nums1 { get; private init; } = null!;
         public int[] Nums2 { get; private init; } = null!;
-        public double Return { get; private init; }
+        public double Output { get; private init; }
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -23,7 +23,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Nums1 = new[] { 1, 3 },
                     Nums2 = new[] { 2 },
-                    Return = 2,
+                    Output = 2,
                     TestCaseName = "Example 1"
                 };
 
@@ -31,7 +31,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Nums1 = new[] { 1, 2 },
                     Nums2 = new[] { 3, 4 },
-                    Return = 2.5,
+                    Output = 2.5,
                     TestCaseName = "Example 2"
                 };
 
@@ -39,7 +39,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Nums1 = Array.Empty<int>(),
                     Nums2 = new[] { 1 },
-                    Return = 1,
+                    Output = 1,
                     TestCaseName = nameof(Solution01)
                 };
 
@@ -47,7 +47,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Nums1 = new[] { 3, 4 },
                     Nums2 = new[] { 1, 2 },
-                    Return = 2.5,
+                    Output = 2.5,
                     TestCaseName = nameof(Solution05_13)
                 };
 
@@ -55,7 +55,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Nums1 = new[] { 3 },
                     Nums2 = new[] { -2, -1 },
-                    Return = -1,
+                    Output = -1,
                     TestCaseName = nameof(Solution11)
                 };
 
@@ -64,7 +64,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Nums1 = new[] { 1, 2 },
                     Nums2 = new[] { 3, 4, 5 },
-                    Return = 3,
+                    Output = 3,
                     TestCaseName = nameof(Solution05_13)
                 };
             }

@@ -6,14 +6,14 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.CombinationSum4(testCase.Nums, testCase.Target), Is.EqualTo(testCase.Return));
+        Assert.That(solution.CombinationSum4(testCase.Nums, testCase.Target), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public int[] Nums { get; private init; } = null!;
         public int Target { get; private init; }
-        public int Return { get; private init; }
+        public int Output { get; private init; }
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -23,7 +23,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Nums = new[] { 1, 2, 3 },
                     Target = 4,
-                    Return = 7,
+                    Output = 7,
                     TestCaseName = "Example 1"
                 };
 
@@ -31,7 +31,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Nums = new[] { 9 },
                     Target = 3,
-                    Return = 0,
+                    Output = 0,
                     TestCaseName = "Example 2"
                 };
             }

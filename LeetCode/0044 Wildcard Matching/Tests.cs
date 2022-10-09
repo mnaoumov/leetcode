@@ -6,14 +6,14 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.IsMatch(testCase.S, testCase.P), Is.EqualTo(testCase.Return));
+        Assert.That(solution.IsMatch(testCase.S, testCase.P), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public string S { get; private init; } = null!;
         public string P { get; private init; } = null!;
-        public bool Return { get; private init; }
+        public bool Output { get; private init; }
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -23,7 +23,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     S = "aa",
                     P = "a",
-                    Return = false,
+                    Output = false,
                     TestCaseName = "Example 1"
                 };
 
@@ -31,7 +31,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     S = "aa",
                     P = "*",
-                    Return = true,
+                    Output = true,
                     TestCaseName = "Example 2"
                 };
 
@@ -39,7 +39,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     S = "cb",
                     P = "?a",
-                    Return = false,
+                    Output = false,
                     TestCaseName = "Example 3"
                 };
 
@@ -47,7 +47,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     S = "bbbbbbbabbaabbabbbbaaabbabbabaaabbababbbabbbabaaabaab",
                     P = "b*b*ab**ba*b**b***bba",
-                    Return = false,
+                    Output = false,
                     TestCaseName = nameof(Solution1)
                 };
 
@@ -55,7 +55,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     S = "abbabaaabbabbaababbabbbbbabbbabbbabaaaaababababbbabababaabbababaabbbbbbaaaabababbbaabbbbaabbbbababababbaabbaababaabbbababababbbbaaabbbbbabaaaabbababbbbaababaabbababbbbbababbbabaaaaaaaabbbbbaabaaababaaaabb",
                     P = "**aa*****ba*a*bb**aa*ab****a*aaaaaa***a*aaaa**bbabb*b*b**aaaaaaaaa*a********ba*bbb***a*ba*bb*bb**a*b*bb",
-                    Return = false,
+                    Output = false,
                     TestCaseName = nameof(Solution2)
                 };
             }

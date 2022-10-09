@@ -6,14 +6,14 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.Multiply(testCase.Num1, testCase.Num2), Is.EqualTo(testCase.Return));
+        Assert.That(solution.Multiply(testCase.Num1, testCase.Num2), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public string Num1 { get; private init; } = null!;
         public string Num2 { get; private init; } = null!;
-        public string Return { get; private init; } = null!;
+        public string Output { get; private init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -23,7 +23,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Num1 = "2",
                     Num2 = "3",
-                    Return = "6",
+                    Output = "6",
                     TestCaseName = "Example 1"
                 };
 
@@ -31,7 +31,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Num1 = "123",
                     Num2 = "456",
-                    Return = "56088",
+                    Output = "56088",
                     TestCaseName = "Example 2"
                 };
 
@@ -39,7 +39,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Num1 = "0",
                     Num2 = "0",
-                    Return = "0",
+                    Output = "0",
                     TestCaseName = nameof(Solution1)
                 };
 
@@ -47,7 +47,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Num1 = "999",
                     Num2 = "999",
-                    Return = "998001",
+                    Output = "998001",
                     TestCaseName = nameof(Solution2)
                 };
 
@@ -55,7 +55,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Num1 = "9133",
                     Num2 = "0",
-                    Return = "0",
+                    Output = "0",
                     TestCaseName = nameof(Solution3)
                 };
             }

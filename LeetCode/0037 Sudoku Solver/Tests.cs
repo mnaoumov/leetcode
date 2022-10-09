@@ -6,13 +6,13 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     {
         var board = ArrayHelper.DeepCopy(testCase.Board);
         solution.SolveSudoku(board);
-        AssertCollectionEqualWithDetails(board, testCase.Return);
+        AssertCollectionEqualWithDetails(board, testCase.Output);
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public char[][] Board { get; private init; } = null!;
-        public char[][] Return { get; private init; } = null!;
+        public char[][] Output { get; private init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -32,7 +32,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                         new[] { '.', '.', '.', '4', '1', '9', '.', '.', '5' },
                         new[] { '.', '.', '.', '.', '8', '.', '.', '7', '9' }
                     },
-                    Return = new[]
+                    Output = new[]
                     {
                         new[] { '5', '3', '4', '6', '7', '8', '9', '1', '2' },
                         new[] { '6', '7', '2', '1', '9', '5', '3', '4', '8' },
@@ -61,7 +61,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                         new[] { '.', '.', '.', '.', '.', '.', '.', '.', '6' },
                         new[] { '.', '.', '.', '2', '7', '5', '9', '.', '.' }
                     },
-                    Return = new[]
+                    Output = new[]
                     {
                         new[] { '5', '1', '9', '7', '4', '8', '6', '3', '2' },
                         new[] { '7', '8', '3', '6', '5', '2', '4', '1', '9' },

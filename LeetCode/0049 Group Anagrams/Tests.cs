@@ -4,13 +4,13 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        AssertCollectionEquivalentIgnoringItemOrderWithDetails(solution.GroupAnagrams(testCase.Strs), testCase.Return);
+        AssertCollectionEquivalentIgnoringItemOrderWithDetails(solution.GroupAnagrams(testCase.Strs), testCase.Output);
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public string[] Strs { get; private init; } = null!;
-        public IList<IList<string>> Return { get; private init; } = null!;
+        public IList<IList<string>> Output { get; private init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -19,7 +19,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 yield return new TestCase
                 {
                     Strs = new[] { "eat", "tea", "tan", "ate", "nat", "bat" },
-                    Return = new IList<string>[]
+                    Output = new IList<string>[]
                     {
                         new[] { "bat" },
                         new[] { "nat", "tan" },
@@ -31,7 +31,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 yield return new TestCase
                 {
                     Strs = new[] { "" },
-                    Return = new IList<string>[]
+                    Output = new IList<string>[]
                     {
                         new[] { "" }
                     },
@@ -41,7 +41,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 yield return new TestCase
                 {
                     Strs = new[] { "a" },
-                    Return = new IList<string>[]
+                    Output = new IList<string>[]
                     {
                         new[] { "a" }
                     },

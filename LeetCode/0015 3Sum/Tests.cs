@@ -7,13 +7,13 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.ThreeSum(testCase.Nums),
-            IsEquivalentToIgnoringItemOrder(testCase.Return));
+            IsEquivalentToIgnoringItemOrder(testCase.Output));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public int[] Nums { get; private init; } = null!;
-        public int[][] Return { get; private init; } = null!;
+        public int[][] Output { get; private init; } = null!;
 
 
         public override IEnumerable<TestCase> TestCases
@@ -23,21 +23,21 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 yield return new TestCase
                 {
                     Nums = new[] { -1, 0, 1, 2, -1, -4 },
-                    Return = new[] { new[] { -1, -1, 2 }, new[] { -1, 0, 1 } },
+                    Output = new[] { new[] { -1, -1, 2 }, new[] { -1, 0, 1 } },
                     TestCaseName = "Example 1"
                 };
 
                 yield return new TestCase
                 {
                     Nums = new[] { 0, 1, 1 },
-                    Return = Array.Empty<int[]>(),
+                    Output = Array.Empty<int[]>(),
                     TestCaseName = "Example 2"
                 };
 
                 yield return new TestCase
                 {
                     Nums = new[] { 0, 0, 0 },
-                    Return = new[] { new[] { 0, 0, 0 } },
+                    Output = new[] { new[] { 0, 0, 0 } },
                     TestCaseName = "Example 3"
                 };
             }

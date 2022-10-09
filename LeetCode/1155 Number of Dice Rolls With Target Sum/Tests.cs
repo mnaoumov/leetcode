@@ -6,7 +6,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.NumRollsToTarget(testCase.N, testCase.K, testCase.Target), Is.EqualTo(testCase.Return));
+        Assert.That(solution.NumRollsToTarget(testCase.N, testCase.K, testCase.Target), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase<TestCase>
@@ -14,7 +14,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         public int N { get; private init; }
         public int K { get; private init; }
         public int Target { get; private init; }
-        public int Return { get; private init; }
+        public int Output { get; private init; }
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -25,7 +25,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     N = 1,
                     K = 6,
                     Target = 3,
-                    Return = 1,
+                    Output = 1,
                     TestCaseName = "Example 1"
                 };
                 
@@ -34,7 +34,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     N = 2,
                     K = 6,
                     Target = 7,
-                    Return = 6,
+                    Output = 6,
                     TestCaseName = "Example 2"
                 };
 
@@ -43,7 +43,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     N = 30,
                     K = 30,
                     Target = 500,
-                    Return = 222616187,
+                    Output = 222616187,
                     TestCaseName = "Example 3"
                 };
             }

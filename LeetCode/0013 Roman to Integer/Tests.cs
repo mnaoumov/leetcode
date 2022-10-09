@@ -6,13 +6,13 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.RomanToInt(testCase.S), Is.EqualTo(testCase.Return));
+        Assert.That(solution.RomanToInt(testCase.S), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public string S { get; private init; } = null!;
-        public int Return { get; private init; }
+        public int Output { get; private init; }
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -21,21 +21,21 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 yield return new TestCase
                 {
                     S = "III",
-                    Return = 3,
+                    Output = 3,
                     TestCaseName = "Example 1"
                 };
                 
                 yield return new TestCase
                 {
                     S = "LVIII",
-                    Return = 58,
+                    Output = 58,
                     TestCaseName = "Example 2"
                 };
                 
                 yield return new TestCase
                 {
                     S = "MCMXCIV",
-                    Return = 1994,
+                    Output = 1994,
                     TestCaseName = "Example 3"
                 };
             }

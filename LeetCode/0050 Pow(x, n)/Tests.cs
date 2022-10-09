@@ -6,14 +6,14 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.MyPow(testCase.X, testCase.N), Is.EqualTo(testCase.Return).Within(1e-10));
+        Assert.That(solution.MyPow(testCase.X, testCase.N), Is.EqualTo(testCase.Output).Within(1e-10));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public double X { get; private init; }
         public int N { get; private init; }
-        public double Return { get; private init; }
+        public double Output { get; private init; }
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -23,7 +23,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     X = 2d,
                     N = 10,
-                    Return = 1024d,
+                    Output = 1024d,
                     TestCaseName = "Example 1"
                 };
 
@@ -31,7 +31,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     X = 2.1d,
                     N = 3,
-                    Return = 9.261d,
+                    Output = 9.261d,
                     TestCaseName = "Example 2"
                 };
 
@@ -39,7 +39,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     X = 2d,
                     N = -2,
-                    Return = 0.25d,
+                    Output = 0.25d,
                     TestCaseName = "Example 3"
                 };
 
@@ -47,7 +47,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     X = 0.00001,
                     N = 2147483647,
-                    Return = 0,
+                    Output = 0,
                     TestCaseName = nameof(Solution01)
                 };
 
@@ -55,7 +55,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     X = 1,
                     N = 2147483647,
-                    Return = 1,
+                    Output = 1,
                     TestCaseName = nameof(Solution02)
                 };
 
@@ -63,7 +63,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     X = 2,
                     N = -2147483648,
-                    Return = 0,
+                    Output = 0,
                     TestCaseName = nameof(Solution04)
                 };
 
@@ -71,7 +71,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     X = -1,
                     N = 2147483647,
-                    Return = -1,
+                    Output = -1,
                     TestCaseName = nameof(Solution05)
                 };
             }

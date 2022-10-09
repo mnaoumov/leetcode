@@ -6,13 +6,13 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.LetterCombinations(testCase.Digits), Is.EquivalentTo(testCase.Return));
+        Assert.That(solution.LetterCombinations(testCase.Digits), Is.EquivalentTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public string Digits { get; private init; } = null!;
-        public string[] Return { get; private init; } = null!;
+        public string[] Output { get; private init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -21,21 +21,21 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 yield return new TestCase
                 {
                     Digits = "23",
-                    Return = new[] { "ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf" },
+                    Output = new[] { "ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf" },
                     TestCaseName = "Example 1"
                 };
 
                 yield return new TestCase
                 {
                     Digits = "",
-                    Return = Array.Empty<string>(),
+                    Output = Array.Empty<string>(),
                     TestCaseName = "Example 2"
                 };
 
                 yield return new TestCase
                 {
                     Digits = "2",
-                    Return = new[] { "a", "b", "c" },
+                    Output = new[] { "a", "b", "c" },
                     TestCaseName = "Example 3"
                 };
             }

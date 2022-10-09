@@ -6,14 +6,14 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.FindSubstring(testCase.S, testCase.Words), Is.EqualTo(testCase.Return));
+        Assert.That(solution.FindSubstring(testCase.S, testCase.Words), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public string S { get; private init; } = null!;
         public string[] Words { get; private init; } = null!;
-        public int[] Return { get; private init; } = null!;
+        public int[] Output { get; private init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -23,7 +23,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     S = "barfoothefoobarman",
                     Words = new[] { "foo", "bar" },
-                    Return = new[] { 0, 9 },
+                    Output = new[] { 0, 9 },
                     TestCaseName = "Example 1"
                 };
 
@@ -31,7 +31,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     S = "wordgoodgoodgoodbestword",
                     Words = new[] { "word", "good", "best", "word" },
-                    Return = Array.Empty<int>(),
+                    Output = Array.Empty<int>(),
                     TestCaseName = "Example 2"
                 };
 
@@ -39,7 +39,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     S = "barfoofoobarthefoobarman",
                     Words = new[] { "bar", "foo", "the" },
-                    Return = new[] { 6, 9, 12 },
+                    Output = new[] { 6, 9, 12 },
                     TestCaseName = "Example 3"
                 };
             }

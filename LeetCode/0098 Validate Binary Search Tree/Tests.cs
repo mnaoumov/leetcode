@@ -6,13 +6,13 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.IsValidBST(TreeNode.Create(testCase.Values)!), Is.EqualTo(testCase.Return));
+        Assert.That(solution.IsValidBST(TreeNode.Create(testCase.Values)!), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public int?[] Values { get; private init; } = null!;
-        public bool Return { get; private init; }
+        public bool Output { get; private init; }
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -21,21 +21,21 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 yield return new TestCase
                 {
                     Values = new int?[] { 2, 1, 3 },
-                    Return = true,
+                    Output = true,
                     TestCaseName = "Example 1"
                 };
 
                 yield return new TestCase
                 {
                     Values = new int?[] { 5, 1, 4, null, null, 3, 6 },
-                    Return = false,
+                    Output = false,
                     TestCaseName = "Example 2"
                 };
 
                 yield return new TestCase
                 {
                     Values = new int?[] { 1, 1 },
-                    Return = false,
+                    Output = false,
                     TestCaseName = nameof(Solution1)
                 };
 
@@ -177,7 +177,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                         -9828, null, -9833, null, -9833, null, -9849, null, -9879, null, -9885, null, -9912, null,
                         -9914, null, -9927
                     },
-                    Return = false,
+                    Output = false,
                     TestCaseName = nameof(Solution2)
                 };
             }

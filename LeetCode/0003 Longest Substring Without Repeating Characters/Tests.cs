@@ -6,13 +6,13 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.LengthOfLongestSubstring(testCase.S), Is.EqualTo(testCase.Return));
+        Assert.That(solution.LengthOfLongestSubstring(testCase.S), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public string S { get; private init; } = null!;
-        public int Return { get; private init; }
+        public int Output { get; private init; }
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -21,42 +21,42 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 yield return new TestCase
                 {
                     S = "abcabcbb",
-                    Return = 3,
+                    Output = 3,
                     TestCaseName = "Example 1"
                 };
 
                 yield return new TestCase
                 {
                     S = "bbbbb",
-                    Return = 1,
+                    Output = 1,
                     TestCaseName = "Example 2"
                 };
 
                 yield return new TestCase
                 {
                     S = "pwwkew",
-                    Return = 3,
+                    Output = 3,
                     TestCaseName = "Example 3"
                 };
 
                 yield return new TestCase
                 {
                     S = "opachvf",
-                    Return = 7,
+                    Output = 7,
                     TestCaseName = nameof(Solution3_9)
                 };
 
                 yield return new TestCase
                 {
                     S = "",
-                    Return = 0,
+                    Output = 0,
                     TestCaseName = nameof(Solution6)
                 };
 
                 yield return new TestCase
                 {
                     S = "tmmzuxt",
-                    Return = 5,
+                    Output = 5,
                     TestCaseName = nameof(Solution3_9)
                 };
             }

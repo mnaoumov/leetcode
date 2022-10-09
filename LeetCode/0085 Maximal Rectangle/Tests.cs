@@ -6,13 +6,13 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.MaximalRectangle(testCase.Matrix), Is.EqualTo(testCase.Return));
+        Assert.That(solution.MaximalRectangle(testCase.Matrix), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public char[][] Matrix { get; private init; } = null!;
-        public int Return { get; private init; }
+        public int Output { get; private init; }
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -27,7 +27,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                         new[] { '1', '1', '1', '1', '1' },
                         new[] { '1', '0', '0', '1', '0' }
                     },
-                    Return = 6,
+                    Output = 6,
                     TestCaseName = "Example 1"
                 };
 
@@ -37,7 +37,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     {
                         new[] { '0' }
                     },
-                    Return = 0,
+                    Output = 0,
                     TestCaseName = "Example 2"
                 };
 
@@ -47,7 +47,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     {
                         new[] { '1' }
                     },
-                    Return = 1,
+                    Output = 1,
                     TestCaseName = "Example 3"
                 };
             }

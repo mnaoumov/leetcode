@@ -6,14 +6,14 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.ThreeSumClosest(testCase.Nums, testCase.Target), Is.EqualTo(testCase.Return));
+        Assert.That(solution.ThreeSumClosest(testCase.Nums, testCase.Target), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public int[] Nums { get; private init; } = null!;
         public int Target { get; private init; }
-        public int Return { get; private init; }
+        public int Output { get; private init; }
 
 
         public override IEnumerable<TestCase> TestCases
@@ -24,7 +24,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Nums = new[] { -1, 2, 1, -4 },
                     Target = 1,
-                    Return = 2,
+                    Output = 2,
                     TestCaseName = "Example 1"
                 };
 
@@ -32,7 +32,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Nums = new[] { 0, 0, 0 },
                     Target = 1,
-                    Return = 0,
+                    Output = 0,
                     TestCaseName = "Example 2"
                 };
 
@@ -57,7 +57,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                         26, 26, 19, 71, -42
                     },
                     Target = -87,
-                    Return = -87,
+                    Output = -87,
                     TestCaseName = nameof(Solution1)
                 };
             }

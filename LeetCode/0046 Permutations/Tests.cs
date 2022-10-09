@@ -6,13 +6,13 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.Permute(testCase.Nums), Is.EqualTo(testCase.Return));
+        Assert.That(solution.Permute(testCase.Nums), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public int[] Nums { get; private init; } = null!;
-        public IList<IList<int>> Return { get; private init; } = null!;
+        public IList<IList<int>> Output { get; private init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -21,7 +21,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 yield return new TestCase
                 {
                     Nums = new[] { 1, 2, 3 },
-                    Return = new IList<int>[]
+                    Output = new IList<int>[]
                     {
                         new[] { 1, 2, 3 },
                         new[] { 1, 3, 2 },
@@ -36,7 +36,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 yield return new TestCase
                 {
                     Nums = new[] { 1 },
-                    Return = new IList<int>[]
+                    Output = new IList<int>[]
                     {
                         new[] { 1 }
                     },

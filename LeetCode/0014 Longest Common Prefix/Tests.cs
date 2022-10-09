@@ -6,13 +6,13 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.LongestCommonPrefix(testCase.Strs), Is.EqualTo(testCase.Return));
+        Assert.That(solution.LongestCommonPrefix(testCase.Strs), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public string[] Strs { get; private init; } = null!;
-        public string Return { get; private init; } = null!;
+        public string Output { get; private init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -21,14 +21,14 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 yield return new TestCase
                 {
                     Strs = new[] { "flower", "flow", "flight" },
-                    Return = "fl",
+                    Output = "fl",
                     TestCaseName = "Example 1"
                 };
 
                 yield return new TestCase
                 {
                     Strs = new[] { "dog", "racecar", "car" },
-                    Return = "",
+                    Output = "",
                     TestCaseName = "Example 2"
                 };
             }

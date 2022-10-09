@@ -6,13 +6,13 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.IsValidSudoku(testCase.Board), Is.EqualTo(testCase.Return));
+        Assert.That(solution.IsValidSudoku(testCase.Board), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
         public char[][] Board { get; private init; } = null!;
-        public bool Return { get; private init; }
+        public bool Output { get; private init; }
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -32,7 +32,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                         new[] { '.', '.', '.', '4', '1', '9', '.', '.', '5' },
                         new[] { '.', '.', '.', '.', '8', '.', '.', '7', '9' }
                     },
-                    Return = true,
+                    Output = true,
                     TestCaseName = "Example 1"
                 };
                 
@@ -50,7 +50,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                         new[] { '.', '.', '.', '4', '1', '9', '.', '.', '5' },
                         new[] { '.', '.', '.', '.', '8', '.', '.', '7', '9' }
                     },
-                    Return = false,
+                    Output = false,
                     TestCaseName = "Example 2"
                 };
             }

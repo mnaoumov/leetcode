@@ -2,4 +2,5 @@
 
 public interface ISolution
 {
+    public int[] NumsSameConsecDiff(int n, int k);
 }

@@ -2,4 +2,5 @@
 
 public interface ISolution
 {
+    public bool Exist(char[][] board, string word);
 }

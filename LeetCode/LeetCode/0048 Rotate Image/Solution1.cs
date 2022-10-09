@@ -7,26 +7,9 @@ public class Solution1 : ISolution
 {
     public void Rotate(int[][] matrix)
     {
-        var n = matrix.Length;
-        var converted = new int[n, n];
-
-        for (var i = 0; i < n; i++)
-        {
-            for (var j = 0; j < n; j++)
-            {
-                converted[i, j] = matrix[i][j];
-            }
-        }
-
-        Rotate(converted);
-
-        for (var i = 0; i < n; i++)
-        {
-            for (var j = 0; j < n; j++)
-            {
-                matrix[i][j] = converted[i, j];
-            }
-        }
+        var array2D = ArrayHelper.ArrayOfArraysTo2D(matrix);
+        Rotate(array2D);
+        ArrayHelper.Copy2DToArrayOfArrays(array2D, matrix);
     }
 
     /// <summary>

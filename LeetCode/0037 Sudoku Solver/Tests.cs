@@ -4,7 +4,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        var board = testCase.Board.Select(row => row.ToArray()).ToArray();
+        var board = ArrayHelper.DeepCopy(testCase.Board);
         solution.SolveSudoku(board);
         AssertCollectionEqualWithDetails(board, testCase.Return);
     }

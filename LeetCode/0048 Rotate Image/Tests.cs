@@ -4,7 +4,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        var matrix = testCase.Matrix.Select(row => row.ToArray()).ToArray();
+        var matrix = ArrayHelper.DeepCopy(testCase.Matrix);
         solution.Rotate(matrix);
         AssertCollectionEqualWithDetails(matrix, testCase.Return);
     }

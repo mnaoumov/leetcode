@@ -2,4 +2,5 @@
 
 public interface ISolution
 {
+    public int SubarraySum(int[] nums, int k);
 }

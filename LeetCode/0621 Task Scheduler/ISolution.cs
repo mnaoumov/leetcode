@@ -2,4 +2,5 @@
 
 public interface ISolution
 {
+    public int LeastInterval(char[] tasks, int n);
 }

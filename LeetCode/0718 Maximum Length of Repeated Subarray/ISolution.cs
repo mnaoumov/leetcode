@@ -2,4 +2,5 @@
 
 public interface ISolution
 {
+    public int FindLength(int[] nums1, int[] nums2);
 }

@@ -4,5 +4,6 @@ public enum SkipSolutionReason
 {
     RuntimeError,
     WrongAnswer,
-    TimeLimitExceeded
+    TimeLimitExceeded,
+    MemoryLimitExceeded
 }

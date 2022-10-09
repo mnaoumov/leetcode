@@ -1,10 +1,9 @@
 ﻿namespace LeetCode._0560_Subarray_Sum_Equals_K;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/196731152/
+/// https://leetcode.com/submissions/detail/196740143/
 /// </summary>
-[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
-public class Solution1 : ISolution
+public class Solution4 : ISolution
 {
     public int SubarraySum(int[] nums, int k)
     {
@@ -12,13 +11,10 @@ public class Solution1 : ISolution
 
         for (int i = 0; i < nums.Length; i++)
         {
+            var sum = 0;
             for (int j = i; j < nums.Length; j++)
             {
-                var sum = 0;
-                for (int m = i; m <= j; m++)
-                {
-                    sum += nums[m];
-                }
+                sum += nums[j];
 
                 if (sum == k)
                 {

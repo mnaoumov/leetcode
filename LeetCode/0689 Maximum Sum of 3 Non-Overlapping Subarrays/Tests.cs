@@ -6,12 +6,15 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution, Is.Not.Null);
+        Assert.That(solution.MaxSumOfThreeSubarrays(testCase.Nums, testCase.K), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public string Output { get; private init; } = null!;
+        public int[] Nums { get; private init; } = null!;
+        public int K { get; private init; }
+        public int[] Output { get; private init; } = null!;
+
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -19,8 +22,18 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
             {
                 yield return new TestCase
                 {
-                    Output = "foo",
+                    Nums = new[] { 1, 2, 1, 2, 6, 7, 5, 1 },
+                    K = 2,
+                    Output = new[] { 0, 3, 5 },
                     TestCaseName = "Example 1"
+                };
+
+                yield return new TestCase
+                {
+                    Nums = new[] { 1, 2, 1, 2, 1, 2, 1, 2, 1 },
+                    K = 2,
+                    Output = new[] { 0, 2, 4 },
+                    TestCaseName = "Example 2"
                 };
             }
         }

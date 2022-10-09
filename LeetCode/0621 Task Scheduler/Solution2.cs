@@ -1,10 +1,9 @@
 ﻿namespace LeetCode._0621_Task_Scheduler;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/196703341/
+/// https://leetcode.com/submissions/detail/196705695/
 /// </summary>
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public int LeastInterval(char[] tasks, int n)
     {
@@ -47,6 +46,10 @@ public class Solution1 : ISolution
             if (taskWithMaximumCount != idleTask)
             {
                 taskCounts[taskWithMaximumCount]--;
+                if (taskCounts[taskWithMaximumCount] == 0)
+                {
+                    taskCounts.Remove(taskWithMaximumCount);
+                }
                 itemsLeft--;
             }
 

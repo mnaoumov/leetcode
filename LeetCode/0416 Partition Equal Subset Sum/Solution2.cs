@@ -1,10 +1,9 @@
 ﻿namespace LeetCode._0416_Partition_Equal_Subset_Sum;
 
 /// <summary>
-/// 
+/// https://leetcode.com/submissions/detail/196671577/
 /// </summary>
-[SkipSolution(SkipSolutionReason.MemoryLimitExceeded)]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public bool CanPartition(int[] nums)
     {
@@ -16,7 +15,7 @@ public class Solution1 : ISolution
 
         var targetSum = sum / 2;
 
-        var possibleSums = new List<int> { 0 };
+        var possibleSums = new HashSet<int> { 0 };
 
         foreach (var num in nums)
         {

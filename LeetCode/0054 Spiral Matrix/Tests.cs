@@ -1,6 +1,4 @@
-﻿using NUnit.Framework;
-
-namespace LeetCode._0054_Spiral_Matrix;
+﻿namespace LeetCode._0054_Spiral_Matrix;
 
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
@@ -11,7 +9,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public int[][] Matrix { get; set; }
+        public int[][] Matrix { get; private init; } = null!;
         public IList<int> Output { get; private init; } = null!;
 
         public override IEnumerable<TestCase> TestCases

@@ -1,12 +1,10 @@
-﻿using NUnit.Framework;
-
-namespace LeetCode._0057_Insert_Interval;
+﻿namespace LeetCode._0057_Insert_Interval;
 
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.Insert(testCase.Intervals, testCase.NewInterval), Is.EqualTo(testCase.Output));
+        AssertCollectionEqualWithDetails(solution.Insert(testCase.Intervals, testCase.NewInterval), testCase.Output);
     }
 
     public class TestCase : TestCaseBase<TestCase>
@@ -49,6 +47,30 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     NewInterval = new[] { 0, 9 },
                     Output = new[] { new[] { 0, 9 } },
                     TestCaseName = nameof(Solution2)
+                };
+
+                yield return new TestCase
+                {
+                    Intervals = Array.Empty<int[]>(),
+                    NewInterval = new[] { 5, 7 },
+                    Output = new[] { new[] { 5, 7 } },
+                    TestCaseName = nameof(Solution4)
+                };
+
+                yield return new TestCase
+                {
+                    Intervals = new[] { new[] { 1, 5 } },
+                    NewInterval = new[] { 0, 0 },
+                    Output = new[] { new[] { 0, 0 }, new[] { 1, 5 } },
+                    TestCaseName = nameof(Solution5)
+                };
+
+                yield return new TestCase
+                {
+                    Intervals = new[] { new[] { 3, 5 }, new[] { 12, 15 } },
+                    NewInterval = new[] { 6, 6 },
+                    Output = new[] { new[] { 3, 5 }, new[] { 6, 6 }, new[] { 12, 15 } },
+                    TestCaseName = nameof(Solution6)
                 };
             }
         }

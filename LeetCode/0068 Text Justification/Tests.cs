@@ -1,6 +1,4 @@
-﻿using NUnit.Framework;
-
-namespace LeetCode._0068_Text_Justification;
+﻿namespace LeetCode._0068_Text_Justification;
 
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {

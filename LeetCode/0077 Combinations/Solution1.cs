@@ -1,4 +1,5 @@
-﻿namespace LeetCode._0077_Combinations;
+﻿// ReSharper disable All
+namespace LeetCode._0077_Combinations;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/821692492/

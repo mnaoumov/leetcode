@@ -2,5 +2,5 @@
 
 public interface ISolution
 {
-    public ListNode DeleteDuplicates(ListNode? head);
+    public ListNode? DeleteDuplicates(ListNode? head);
 }

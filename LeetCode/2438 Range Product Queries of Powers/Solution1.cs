@@ -1,4 +1,4 @@
-﻿namespace LeetCode._6209_Range_Product_Queries_of_Powers;
+﻿namespace LeetCode._2438_Range_Product_Queries_of_Powers;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-89/submissions/detail/823017036/

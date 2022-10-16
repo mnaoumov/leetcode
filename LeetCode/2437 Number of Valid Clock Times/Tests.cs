@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace LeetCode._6208_Number_of_Valid_Clock_Times;
+namespace LeetCode._2437_Number_of_Valid_Clock_Times;
 
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {

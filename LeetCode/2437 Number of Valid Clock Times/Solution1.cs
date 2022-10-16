@@ -1,4 +1,4 @@
-﻿namespace LeetCode._6208_Number_of_Valid_Clock_Times;
+﻿namespace LeetCode._2437_Number_of_Valid_Clock_Times;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-89/submissions/detail/822997004/

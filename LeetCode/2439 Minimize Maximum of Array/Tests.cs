@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace LeetCode._6210_Minimize_Maximum_of_Array;
+namespace LeetCode._2439_Minimize_Maximum_of_Array;
 
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {

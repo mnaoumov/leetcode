@@ -55,7 +55,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     S = "abcdefghijklmnopqrstuvwxyz",
                     K = 16,
-                    Output = 20,
+                    Output = 10,
                     TestCaseName = nameof(Solution2)
                 };
 

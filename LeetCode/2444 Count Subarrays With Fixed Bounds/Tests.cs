@@ -14,7 +14,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         public int[] Nums { get; private init; } = null!;
         public int MinK { get; private init; }
         public int MaxK { get; private init; }
-        public int Output { get; private init; }
+        public long Output { get; private init; }
 
         public override IEnumerable<TestCase> TestCases
         {
@@ -3249,7 +3249,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     },
                     MinK = 19253,
                     MaxK = 991887,
-                    Output = 81,
+                    Output = 2134221,
                     TestCaseName = nameof(Solution2)
                 };
             }

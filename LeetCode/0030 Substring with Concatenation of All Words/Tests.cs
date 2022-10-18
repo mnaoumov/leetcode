@@ -21,6 +21,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
             {
                 yield return new TestCase
                 {
+                    // ReSharper disable once StringLiteralTypo
                     S = "barfoothefoobarman",
                     Words = new[] { "foo", "bar" },
                     Output = new[] { 0, 9 },
@@ -29,6 +30,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
                 yield return new TestCase
                 {
+                    // ReSharper disable once StringLiteralTypo
                     S = "wordgoodgoodgoodbestword",
                     Words = new[] { "word", "good", "best", "word" },
                     Output = Array.Empty<int>(),
@@ -37,6 +39,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
                 yield return new TestCase
                 {
+                    // ReSharper disable once StringLiteralTypo
                     S = "barfoofoobarthefoobarman",
                     Words = new[] { "bar", "foo", "the" },
                     Output = new[] { 6, 9, 12 },

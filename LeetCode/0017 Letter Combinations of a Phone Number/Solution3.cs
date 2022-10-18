@@ -1,4 +1,5 @@
-﻿namespace LeetCode._0017_Letter_Combinations_of_a_Phone_Number;
+﻿// ReSharper disable StringLiteralTypo
+namespace LeetCode._0017_Letter_Combinations_of_a_Phone_Number;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/809521193/

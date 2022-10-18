@@ -27,6 +27,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 
                 yield return new TestCase
                 {
+                    // ReSharper disable once StringLiteralTypo
                     S = "LVIII",
                     Output = 58,
                     TestCaseName = "Example 2"
@@ -34,6 +35,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 
                 yield return new TestCase
                 {
+                    // ReSharper disable once StringLiteralTypo
                     S = "MCMXCIV",
                     Output = 1994,
                     TestCaseName = "Example 3"

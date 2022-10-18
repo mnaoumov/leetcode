@@ -20,6 +20,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
             {
                 yield return new TestCase
                 {
+                    // ReSharper disable once StringLiteralTypo
                     S = "abcabcbb",
                     Output = 3,
                     TestCaseName = "Example 1"
@@ -27,6 +28,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
                 yield return new TestCase
                 {
+                    // ReSharper disable once StringLiteralTypo
                     S = "bbbbb",
                     Output = 1,
                     TestCaseName = "Example 2"
@@ -34,6 +36,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
                 yield return new TestCase
                 {
+                    // ReSharper disable once StringLiteralTypo
                     S = "pwwkew",
                     Output = 3,
                     TestCaseName = "Example 3"
@@ -41,6 +44,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
                 yield return new TestCase
                 {
+                    // ReSharper disable once StringLiteralTypo
                     S = "opachvf",
                     Output = 7,
                     TestCaseName = nameof(Solution3_9)
@@ -55,6 +59,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
                 yield return new TestCase
                 {
+                    // ReSharper disable once StringLiteralTypo
                     S = "tmmzuxt",
                     Output = 5,
                     TestCaseName = nameof(Solution3_9)

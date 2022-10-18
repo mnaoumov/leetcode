@@ -21,6 +21,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
             {
                 yield return new TestCase
                 {
+                    // ReSharper disable once StringLiteralTypo
                     HayStack = "sadbutsad",
                     Needle = "sad",
                     Output = 0,
@@ -29,7 +30,9 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
                 yield return new TestCase
                 {
+                    // ReSharper disable once StringLiteralTypo
                     HayStack = "leetcode",
+                    // ReSharper disable once StringLiteralTypo
                     Needle = "leeto",
                     Output = -1,
                     TestCaseName = "Example 2"

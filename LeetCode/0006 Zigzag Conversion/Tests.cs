@@ -21,16 +21,20 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
             {
                 yield return new TestCase
                 {
+                    // ReSharper disable once StringLiteralTypo
                     String = "PAYPALISHIRING",
                     NumRows = 3,
+                    // ReSharper disable once StringLiteralTypo
                     Output = "PAHNAPLSIIGYIR",
                     TestCaseName = "Example 1"
                 };
 
                 yield return new TestCase
                 {
+                    // ReSharper disable once StringLiteralTypo
                     String = "PAYPALISHIRING",
                     NumRows = 4,
+                    // ReSharper disable once StringLiteralTypo
                     Output = "PINALSIGYAHRPI",
                     TestCaseName = "Example 2"
                 };

@@ -45,6 +45,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
                 yield return new TestCase
                 {
+                    // ReSharper disable once StringLiteralTypo
                     S = "bbbbbbbabbaabbabbbbaaabbabbabaaabbababbbabbbabaaabaab",
                     P = "b*b*ab**ba*b**b***bba",
                     Output = false,
@@ -54,7 +55,9 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 yield return new TestCase
                 {
                     S = "abbabaaabbabbaababbabbbbbabbbabbbabaaaaababababbbabababaabbababaabbbbbbaaaabababbbaabbbbaabbbbababababbaabbaababaabbbababababbbbaaabbbbbabaaaabbababbbbaababaabbababbbbbababbbabaaaaaaaabbbbbaabaaababaaaabb",
+                    // ReSharper disable StringLiteralTypo
                     P = "**aa*****ba*a*bb**aa*ab****a*aaaaaa***a*aaaa**bbabb*b*b**aaaaaaaaa*a********ba*bbb***a*ba*bb*bb**a*b*bb",
+                    // ReSharper restore StringLiteralTypo
                     Output = false,
                     TestCaseName = nameof(Solution2)
                 };

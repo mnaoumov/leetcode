@@ -28,6 +28,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 yield return new TestCase
                 {
                     Dominoes = ".L.R...LR..L..",
+                    // ReSharper disable once StringLiteralTypo
                     Output = "LL.RR.LLRRLL..",
                     TestCaseName = "Example 2"
                 };

@@ -22,6 +22,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 yield return new TestCase
                 {
                     Board = new[] { new[] { 'A', 'B', 'C', 'E' }, new[] { 'S', 'F', 'C', 'S' }, new[] { 'A', 'D', 'E', 'E' } },
+                    // ReSharper disable once StringLiteralTypo
                     Word = "ABCCED",
                     Output = true,
                     TestCaseName = "Example 1"
@@ -38,6 +39,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 yield return new TestCase
                 {
                     Board = new[] { new[] { 'A', 'B', 'C', 'E' }, new[] { 'S', 'F', 'C', 'S' }, new[] { 'A', 'D', 'E', 'E' } },
+                    // ReSharper disable once StringLiteralTypo
                     Word = "ABCB",
                     Output = false,
                     TestCaseName = "Example 3"

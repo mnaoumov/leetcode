@@ -34,7 +34,9 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
                 yield return new TestCase
                 {
+                    // ReSharper disable StringLiteralTypo
                     S = "luffy is still joyboy",
+                    // ReSharper restore StringLiteralTypo
                     Output = 6,
                     TestCaseName = "Example 3"
                 };

@@ -1,5 +1,8 @@
-﻿namespace LeetCode._0025_Reverse_Nodes_in_k_Group;
+﻿using JetBrains.Annotations;
 
+namespace LeetCode._0025_Reverse_Nodes_in_k_Group;
+
+[PublicAPI]
 public interface ISolution
 {
     public ListNode ReverseKGroup(ListNode head, int k);

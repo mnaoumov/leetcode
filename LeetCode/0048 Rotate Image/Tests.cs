@@ -1,5 +1,8 @@
-﻿namespace LeetCode._0048_Rotate_Image;
+﻿using JetBrains.Annotations;
 
+namespace LeetCode._0048_Rotate_Image;
+
+[UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

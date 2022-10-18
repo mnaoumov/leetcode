@@ -1,11 +1,15 @@
 ﻿// ReSharper disable All
-#pragma warning disable CS8629
+#pragma warning disable
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0718_Maximum_Length_of_Repeated_Subarray;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/195796428/
 /// </summary>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int FindLength(int[] A, int[] B)

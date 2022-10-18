@@ -1,10 +1,14 @@
 ﻿using System.Text;
 
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0014_Longest_Common_Prefix;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/808458986/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public string LongestCommonPrefix(string[] strs)

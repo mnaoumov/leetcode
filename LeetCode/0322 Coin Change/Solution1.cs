@@ -1,9 +1,13 @@
-﻿#pragma warning disable CS8629
+﻿#pragma warning disable
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0322_Coin_Change;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/195949989/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int CoinChange(int[] coins, int amount)

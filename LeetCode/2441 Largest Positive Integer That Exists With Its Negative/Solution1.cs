@@ -1,8 +1,12 @@
-﻿namespace LeetCode._2441_Largest_Positive_Integer_That_Exists_With_Its_Negative;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._2441_Largest_Positive_Integer_That_Exists_With_Its_Negative;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-315/submissions/detail/823374701/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int FindMaxK(int[] nums)

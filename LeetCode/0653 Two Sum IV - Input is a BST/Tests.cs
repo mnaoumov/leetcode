@@ -1,7 +1,10 @@
 ﻿using NUnit.Framework;
 
+using JetBrains.Annotations;
+
 namespace LeetCode._0653_Two_Sum_IV___Input_is_a_BST;
 
+[UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

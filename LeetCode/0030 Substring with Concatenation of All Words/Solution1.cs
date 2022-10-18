@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0030_Substring_with_Concatenation_of_All_Words;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0030_Substring_with_Concatenation_of_All_Words;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/812390566/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public IList<int> FindSubstring(string s, string[] words)

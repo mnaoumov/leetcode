@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0623_Add_One_Row_to_Tree;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0623_Add_One_Row_to_Tree;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/815490262/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public TreeNode AddOneRow(TreeNode root, int val, int depth)

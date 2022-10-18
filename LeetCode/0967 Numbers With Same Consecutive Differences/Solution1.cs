@@ -1,14 +1,16 @@
-﻿namespace LeetCode._0967_Numbers_With_Same_Consecutive_Differences;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0967_Numbers_With_Same_Consecutive_Differences;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/200391901/
 /// </summary>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
-    // ReSharper disable InconsistentNaming
     public int[] NumsSameConsecDiff(int N, int K)
-    // ReSharper restore InconsistentNaming
     {
         var results = Enumerable.Range(1, 9).ToList();
         for (int i = 1; i < N; i++)

@@ -1,10 +1,14 @@
-﻿#pragma warning disable CS8603
+﻿#pragma warning disable
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0001_Two_Sum;
 
 /// <summary>
 /// Hash map
 /// https://leetcode.com/submissions/detail/804724157/
 /// </summary>
+[UsedImplicitly]
 public class Solution5 : ISolution
 {
     public int[] TwoSum(int[] nums, int target)

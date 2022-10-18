@@ -1,8 +1,12 @@
-﻿namespace LeetCode._1832_Check_if_the_Sentence_Is_Pangram;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._1832_Check_if_the_Sentence_Is_Pangram;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/824472751/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public bool CheckIfPangram(string sentence)

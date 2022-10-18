@@ -1,9 +1,13 @@
-﻿namespace LeetCode._0056_Merge_Intervals;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0056_Merge_Intervals;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/197151975/
 /// </summary>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int[][] Merge(int[][] intervals) => Interval.ToArrays(Merge(Interval.FromArrays(intervals)));

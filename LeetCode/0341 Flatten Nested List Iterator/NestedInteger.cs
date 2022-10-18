@@ -1,6 +1,9 @@
-﻿namespace LeetCode._0341_Flatten_Nested_List_Iterator;
+﻿using JetBrains.Annotations;
+
+namespace LeetCode._0341_Flatten_Nested_List_Iterator;
 
 // ReSharper disable once InconsistentNaming
+[PublicAPI]
 public interface NestedInteger
 {
     // @return true if this NestedInteger holds a single integer, rather than a nested list.

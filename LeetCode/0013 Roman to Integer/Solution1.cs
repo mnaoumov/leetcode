@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0013_Roman_to_Integer;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0013_Roman_to_Integer;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/808451014/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     private readonly Dictionary<string, int> _dict = new()

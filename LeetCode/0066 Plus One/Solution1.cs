@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0066_Plus_One;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0066_Plus_One;
 
 /// <summary>
 /// https://leetcode.com/problems/plus-one/submissions/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int[] PlusOne(int[] digits)

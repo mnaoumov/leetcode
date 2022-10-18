@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0024_Swap_Nodes_in_Pairs;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0024_Swap_Nodes_in_Pairs;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/811116954/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public ListNode? SwapPairs(ListNode? head)

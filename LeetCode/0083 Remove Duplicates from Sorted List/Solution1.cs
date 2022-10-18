@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0083_Remove_Duplicates_from_Sorted_List;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0083_Remove_Duplicates_from_Sorted_List;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/822541644/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public ListNode? DeleteDuplicates(ListNode? head)

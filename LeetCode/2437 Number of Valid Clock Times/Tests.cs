@@ -1,7 +1,10 @@
 ﻿using NUnit.Framework;
 
+using JetBrains.Annotations;
+
 namespace LeetCode._2437_Number_of_Valid_Clock_Times;
 
+[UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

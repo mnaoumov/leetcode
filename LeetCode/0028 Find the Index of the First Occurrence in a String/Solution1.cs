@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0028_Find_the_Index_of_the_First_Occurrence_in_a_String;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0028_Find_the_Index_of_the_First_Occurrence_in_a_String;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/812272924/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int StrStr(string haystack, string needle)

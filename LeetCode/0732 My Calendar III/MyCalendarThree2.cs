@@ -1,4 +1,5 @@
-﻿namespace LeetCode._0732_My_Calendar_III;
+﻿// ReSharper disable All
+namespace LeetCode._0732_My_Calendar_III;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/816937661/

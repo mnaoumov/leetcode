@@ -1,8 +1,12 @@
-﻿namespace LeetCode._1335_Minimum_Difficulty_of_a_Job_Schedule;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._1335_Minimum_Difficulty_of_a_Job_Schedule;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/823332607/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int MinDifficulty(int[] jobDifficulty, int d)

@@ -59,15 +59,7 @@ public class TreeNode
         }
     }
 
-    public override bool Equals(object? obj)
-    {
-        if (obj is not TreeNode treeNode)
-        {
-            return false;
-        }
-
-        return Equals((val, left, right), (treeNode.val, treeNode.left, treeNode.right));
-    }
+    public override bool Equals(object? obj) => obj is TreeNode treeNode && Equals((val, left, right), (treeNode.val, treeNode.left, treeNode.right));
 
     // ReSharper disable NonReadonlyMemberInGetHashCode
     public override int GetHashCode() => (val, left, right).GetHashCode();
@@ -89,21 +81,24 @@ public class TreeNode
         {
             node = queue.Dequeue();
             treeAction(node);
-            if (node != null)
+            
+            if (node == null)
             {
-                if (node.left != null)
-                {
-                    queue.Enqueue(node.left);
-                }
-                else if (node.right != null)
-                {
-                    queue.Enqueue(null);
-                }
+                continue;
+            }
 
-                if (node.right != null)
-                {
-                    queue.Enqueue(node.right);
-                }
+            if (node.left != null)
+            {
+                queue.Enqueue(node.left);
+            }
+            else if (node.right != null)
+            {
+                queue.Enqueue(null);
+            }
+
+            if (node.right != null)
+            {
+                queue.Enqueue(node.right);
             }
         }
     }

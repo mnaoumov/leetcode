@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0976_Largest_Perimeter_Triangle;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0976_Largest_Perimeter_Triangle;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/820559586/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int LargestPerimeter(int[] nums)

@@ -1,5 +1,8 @@
-﻿namespace LeetCode._0077_Combinations;
+﻿using JetBrains.Annotations;
 
+namespace LeetCode._0077_Combinations;
+
+[UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

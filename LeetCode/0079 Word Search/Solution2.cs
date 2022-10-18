@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0079_Word_Search;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0079_Word_Search;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/198314734/
 /// </summary>
+[UsedImplicitly]
 public class Solution2 : ISolution
 {
     public bool Exist(char[][] board, string word) => Exist(ArrayHelper.ArrayOfArraysTo2D(board), word);

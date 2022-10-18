@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0084_Largest_Rectangle_in_Histogram;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0084_Largest_Rectangle_in_Histogram;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/200371378/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int LargestRectangleArea(int[] heights)

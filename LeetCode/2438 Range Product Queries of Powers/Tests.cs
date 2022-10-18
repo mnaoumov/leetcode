@@ -1,5 +1,8 @@
-﻿namespace LeetCode._2438_Range_Product_Queries_of_Powers;
+﻿using JetBrains.Annotations;
 
+namespace LeetCode._2438_Range_Product_Queries_of_Powers;
+
+[UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

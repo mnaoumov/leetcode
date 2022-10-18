@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0073_Set_Matrix_Zeroes;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0073_Set_Matrix_Zeroes;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/820583896/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public void SetZeroes(int[][] matrix)

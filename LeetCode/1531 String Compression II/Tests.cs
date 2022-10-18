@@ -1,7 +1,10 @@
 ﻿using NUnit.Framework;
 
+using JetBrains.Annotations;
+
 namespace LeetCode._1531_String_Compression_II;
 
+[UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

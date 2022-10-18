@@ -1,12 +1,15 @@
 ﻿// ReSharper disable All
-#pragma warning disable CS8767
-#pragma warning disable CS8765
+#pragma warning disable
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0621_Task_Scheduler;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/196716359/
 /// https://leetcode.com/submissions/detail/818856201/
 /// </summary>
+[UsedImplicitly]
 public class Solution3_6 : ISolution
 {
     public int LeastInterval(char[] tasks, int n)

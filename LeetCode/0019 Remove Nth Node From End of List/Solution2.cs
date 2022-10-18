@@ -1,10 +1,13 @@
-﻿#pragma warning disable CS8603
-#pragma warning disable CS8602
+﻿#pragma warning disable
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0019_Remove_Nth_Node_From_End_of_List;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/810070816/
 /// </summary>
+[UsedImplicitly]
 public class Solution2 : ISolution
 {
     public ListNode RemoveNthFromEnd(ListNode head, int n)

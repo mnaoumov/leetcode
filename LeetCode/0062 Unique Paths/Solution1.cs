@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0062_Unique_Paths;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0062_Unique_Paths;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/819536916/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int UniquePaths(int m, int n)

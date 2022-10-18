@@ -1,7 +1,10 @@
 ﻿using NUnit.Framework;
 
+using JetBrains.Annotations;
+
 namespace LeetCode._0623_Add_One_Row_to_Tree;
 
+[UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

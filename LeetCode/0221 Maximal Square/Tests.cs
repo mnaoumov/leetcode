@@ -1,7 +1,10 @@
 ﻿using NUnit.Framework;
 
+using JetBrains.Annotations;
+
 namespace LeetCode._0221_Maximal_Square;
 
+[UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
@@ -25,7 +28,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                         new[] { '1', '0', '1', '0', '0' },
                         new[] { '1', '0', '1', '1', '1' },
                         new[] { '1', '1', '1', '1', '1' },
-                        new[] { '1', '0', '0', '1', '0' },
+                        new[] { '1', '0', '0', '1', '0' }
                     },
                     Output = 4,
                     TestCaseName = "Example 1"
@@ -36,7 +39,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     Matrix = new[]
                     {
                         new[] { '0', '1' },
-                        new[] { '1', '0' },
+                        new[] { '1', '0' }
                     },
                     Output = 1,
                     TestCaseName = "Example 2"
@@ -46,7 +49,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Matrix = new[]
                     {
-                        new[] { '0' },
+                        new[] { '0' }
                     },
                     Output = 0,
                     TestCaseName = "Example 3"

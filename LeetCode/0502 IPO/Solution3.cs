@@ -1,14 +1,16 @@
 ﻿// ReSharper disable All
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0502_IPO;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/208735862/
 /// </summary>
+[UsedImplicitly]
 public class Solution3 : ISolution
 {
-    // ReSharper disable InconsistentNaming
     public int FindMaximizedCapital(int k, int W, int[] Profits, int[] Capital)
-    // ReSharper restore InconsistentNaming
     {
         var companyCapital = W;
         var n = Capital.Length;

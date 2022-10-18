@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0031_Next_Permutation;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0031_Next_Permutation;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/812403685/
 /// </summary>
+[UsedImplicitly]
 public class Solution5 : ISolution
 {
     public void NextPermutation(int[] nums)

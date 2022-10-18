@@ -1,9 +1,13 @@
-﻿#pragma warning disable CS8618
+﻿#pragma warning disable
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0394_Decode_String;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/196678531/
 /// </summary>
+[UsedImplicitly]
 public class Solution2 : ISolution
 {
     public string DecodeString(string s)

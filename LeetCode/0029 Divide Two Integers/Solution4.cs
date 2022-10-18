@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0029_Divide_Two_Integers;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0029_Divide_Two_Integers;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/812354082/
 /// </summary>
+[UsedImplicitly]
 public class Solution4 : ISolution
 {
     public int Divide(int dividend, int divisor)

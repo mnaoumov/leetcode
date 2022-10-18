@@ -1,9 +1,13 @@
-﻿namespace LeetCode._0312_Burst_Balloons;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0312_Burst_Balloons;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/199937476/
 /// </summary>
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
+[UsedImplicitly]
 public class Solution2 : ISolution
 {
     public int MaxCoins(int[] nums)

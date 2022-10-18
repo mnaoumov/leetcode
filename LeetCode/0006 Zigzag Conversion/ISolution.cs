@@ -1,5 +1,8 @@
-﻿namespace LeetCode._0006_Zigzag_Conversion;
+﻿using JetBrains.Annotations;
 
+namespace LeetCode._0006_Zigzag_Conversion;
+
+[PublicAPI]
 public interface ISolution
 {
     string Convert(string s, int numRows);

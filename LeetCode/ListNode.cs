@@ -1,5 +1,8 @@
-﻿namespace LeetCode;
+﻿using JetBrains.Annotations;
 
+namespace LeetCode;
+
+[PublicAPI]
 public class ListNode
 {
     // ReSharper disable once InconsistentNaming
@@ -12,15 +15,7 @@ public class ListNode
         this.next = next;
     }
 
-    public override bool Equals(object? obj)
-    {
-        if (obj is not ListNode listNode)
-        {
-            return false;
-        }
-
-        return Equals((val, next), (listNode.val, listNode.next));
-    }
+    public override bool Equals(object? obj) => obj is ListNode listNode && Equals((val, next), (listNode.val, listNode.next));
 
     public override string ToString()
     {

@@ -33,5 +33,5 @@ public static class ArrayHelper
         }
     }
 
-    public static T[][] DeepCopy<T>(T[][] arrayOfArrays) => arrayOfArrays.Select(array => array.ToArray()).ToArray();
+    public static T[][] DeepCopy<T>(IEnumerable<T[]> arrayOfArrays) => arrayOfArrays.Select(array => array.ToArray()).ToArray();
 }

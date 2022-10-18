@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0010_Regular_Expression_Matching;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0010_Regular_Expression_Matching;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/200404558/
 /// </summary>
+[UsedImplicitly]
 public class Solution3 : ISolution
 {
     public bool IsMatch(string s, string p)

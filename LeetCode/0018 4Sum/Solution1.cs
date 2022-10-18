@@ -1,9 +1,13 @@
-﻿namespace LeetCode._0018_4Sum;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0018_4Sum;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/810187230/
 /// </summary>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public IList<IList<int>> FourSum(int[] nums, int target)

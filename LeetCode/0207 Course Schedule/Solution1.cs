@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0207_Course_Schedule;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0207_Course_Schedule;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/197124777/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public bool CanFinish(int numCourses, int[][] prerequisites) => CanFinish(numCourses, ArrayHelper.ArrayOfArraysTo2D(prerequisites));

@@ -1,9 +1,13 @@
 ﻿// ReSharper disable All
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0045_Jump_Game_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/815079985/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int Jump(int[] nums)

@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0032_Longest_Valid_Parentheses;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0032_Longest_Valid_Parentheses;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/812842176/
 /// </summary>
+[UsedImplicitly]
 public class Solution6 : ISolution
 {
     private const char OpeningBracket = '(';

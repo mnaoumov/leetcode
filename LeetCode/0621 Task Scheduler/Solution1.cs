@@ -1,9 +1,13 @@
-﻿namespace LeetCode._0621_Task_Scheduler;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0621_Task_Scheduler;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/196703341/
 /// </summary>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int LeastInterval(char[] tasks, int n)

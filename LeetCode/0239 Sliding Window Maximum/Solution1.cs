@@ -1,9 +1,13 @@
-﻿namespace LeetCode._0239_Sliding_Window_Maximum;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0239_Sliding_Window_Maximum;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/200173035/
 /// </summary>
 [SkipSolution(SkipSolutionReason.RuntimeError)]
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int[] MaxSlidingWindow(int[] nums, int k)

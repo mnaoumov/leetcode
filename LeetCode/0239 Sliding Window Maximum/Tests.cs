@@ -1,5 +1,8 @@
-﻿namespace LeetCode._0239_Sliding_Window_Maximum;
+﻿using JetBrains.Annotations;
 
+namespace LeetCode._0239_Sliding_Window_Maximum;
+
+[UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

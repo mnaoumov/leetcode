@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0416_Partition_Equal_Subset_Sum;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0416_Partition_Equal_Subset_Sum;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/196784819/
 /// </summary>
+[UsedImplicitly]
 public class Solution3 : ISolution
 {
     public bool CanPartition(int[] nums)

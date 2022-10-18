@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0022_Generate_Parentheses;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0022_Generate_Parentheses;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/810831394/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     private readonly Dictionary<int, string[]> _cache = new();

@@ -1,10 +1,14 @@
 ﻿// ReSharper disable All
-#pragma warning disable CS8600
+#pragma warning disable
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0002_Add_Two_Numbers;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/147402105/
 /// </summary>
+[UsedImplicitly]
 public class Solution2 : ISolution
 {
     public ListNode AddTwoNumbers(ListNode l1, ListNode l2)

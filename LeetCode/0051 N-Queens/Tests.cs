@@ -1,5 +1,8 @@
-﻿namespace LeetCode._0051_N_Queens;
+﻿using JetBrains.Annotations;
 
+namespace LeetCode._0051_N_Queens;
+
+[UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
@@ -9,7 +12,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public int N { get; set; }
+        public int N { get; private init; }
         public IList<IList<string>> Output { get; private init; } = null!;
 
         public override IEnumerable<TestCase> TestCases

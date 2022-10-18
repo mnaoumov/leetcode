@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0838_Push_Dominoes;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0838_Push_Dominoes;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/809510320/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     const char FallingLeft = 'L';

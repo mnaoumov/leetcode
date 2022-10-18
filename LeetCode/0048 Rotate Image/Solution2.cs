@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0048_Rotate_Image;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0048_Rotate_Image;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/815519381/
 /// </summary>
+[UsedImplicitly]
 public class Solution2 : ISolution
 {
     public void Rotate(int[][] matrix)

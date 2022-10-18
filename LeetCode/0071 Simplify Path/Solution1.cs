@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0071_Simplify_Path;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0071_Simplify_Path;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/820369781/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public string SimplifyPath(string path)

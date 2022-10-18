@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0061_Rotate_List;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0061_Rotate_List;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/819499147/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public ListNode RotateRight(ListNode head, int k)

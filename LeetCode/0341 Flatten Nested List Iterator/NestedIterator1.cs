@@ -1,6 +1,5 @@
-﻿#pragma warning disable CS8625
-#pragma warning disable CS8618
-#pragma warning disable CS8604
+﻿#pragma warning disable
+#pragma warning disable
 namespace LeetCode._0341_Flatten_Nested_List_Iterator;
 
 /// <summary>

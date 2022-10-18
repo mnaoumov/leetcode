@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0051_N_Queens;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0051_N_Queens;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/818983845/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public IList<IList<string>> SolveNQueens(int n)

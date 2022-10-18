@@ -1,4 +1,5 @@
-﻿namespace LeetCode._0146_LRU_Cache;
+﻿// ReSharper disable All
+namespace LeetCode._0146_LRU_Cache;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/200426630/

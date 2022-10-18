@@ -1,9 +1,13 @@
-﻿namespace LeetCode._1531_String_Compression_II;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._1531_String_Compression_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/824847181/
 /// </summary>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
+[UsedImplicitly]
 public class Solution3 : ISolution
 {
     public int GetLengthOfOptimalCompression(string s, int k)

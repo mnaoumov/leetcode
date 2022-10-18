@@ -1,10 +1,14 @@
 ﻿// ReSharper disable All
-#pragma warning disable CS8604
+#pragma warning disable
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0102_Binary_Tree_Level_Order_Traversal;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/193349968/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public IList<IList<int>> LevelOrder(TreeNode root)

@@ -1,9 +1,13 @@
 ﻿// ReSharper disable All
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0091_Decode_Ways;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/812369551/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int NumDecodings(string s)

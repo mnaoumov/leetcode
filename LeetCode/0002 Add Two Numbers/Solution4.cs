@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0002_Add_Two_Numbers;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0002_Add_Two_Numbers;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/817381289/
 /// </summary>
+[UsedImplicitly]
 public class Solution4 : ISolution
 {
     public ListNode AddTwoNumbers(ListNode? l1, ListNode? l2)

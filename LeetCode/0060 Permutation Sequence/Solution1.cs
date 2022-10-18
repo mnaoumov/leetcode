@@ -1,10 +1,14 @@
 ﻿using System.Diagnostics;
 
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0060_Permutation_Sequence;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/819486577/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public string GetPermutation(int n, int k)

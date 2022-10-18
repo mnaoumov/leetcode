@@ -1,10 +1,14 @@
 ﻿using System.Text;
 
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0012_Integer_to_Roman;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/808441069/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public string IntToRoman(int num)

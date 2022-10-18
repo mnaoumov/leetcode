@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0064_Minimum_Path_Sum;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0064_Minimum_Path_Sum;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/819580557/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int MinPathSum(int[][] grid)

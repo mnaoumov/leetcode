@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0076_Minimum_Window_Substring;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0076_Minimum_Window_Substring;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/200377014/
 /// </summary>
+[UsedImplicitly]
 public class Solution2 : ISolution
 {
     public string MinWindow(string s, string t)

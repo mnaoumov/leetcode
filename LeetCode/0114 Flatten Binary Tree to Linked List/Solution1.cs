@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0114_Flatten_Binary_Tree_to_Linked_List;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0114_Flatten_Binary_Tree_to_Linked_List;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/196749705/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public void Flatten(TreeNode root)

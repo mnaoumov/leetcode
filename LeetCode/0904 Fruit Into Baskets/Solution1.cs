@@ -1,9 +1,13 @@
-﻿namespace LeetCode._0904_Fruit_Into_Baskets;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0904_Fruit_Into_Baskets;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/205285967/
 /// </summary>
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int TotalFruit(int[] tree)

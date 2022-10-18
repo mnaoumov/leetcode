@@ -1,5 +1,8 @@
-﻿namespace LeetCode._0289_Game_of_Life;
+﻿using JetBrains.Annotations;
 
+namespace LeetCode._0289_Game_of_Life;
+
+[UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

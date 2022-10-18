@@ -1,10 +1,14 @@
-﻿#pragma warning disable CS8767
+﻿#pragma warning disable
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0082_Remove_Duplicates_from_Sorted_List_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/822535370/
 /// </summary>
 [SkipSolution(SkipSolutionReason.RuntimeError)]
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public ListNode DeleteDuplicates(ListNode head)

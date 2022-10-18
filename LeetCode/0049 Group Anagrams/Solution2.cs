@@ -1,9 +1,13 @@
 ﻿// ReSharper disable All
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0049_Group_Anagrams;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/815529506/
 /// </summary>
+[UsedImplicitly]
 public class Solution2 : ISolution
 {
     public IList<IList<string>> GroupAnagrams(string[] strs)

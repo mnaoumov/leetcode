@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0072_Edit_Distance;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0072_Edit_Distance;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/820456180/
 /// </summary>
+[UsedImplicitly]
 public class Solution2 : ISolution
 {
     public int MinDistance(string word1, string word2)

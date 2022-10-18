@@ -1,5 +1,8 @@
-﻿namespace LeetCode._0039_Combination_Sum;
+﻿using JetBrains.Annotations;
 
+namespace LeetCode._0039_Combination_Sum;
+
+[UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

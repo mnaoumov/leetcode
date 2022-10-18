@@ -1,9 +1,13 @@
-﻿namespace LeetCode._2443_Sum_of_Number_and_Its_Reverse;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._2443_Sum_of_Number_and_Its_Reverse;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-315/submissions/detail/823395261/
 /// </summary>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public bool SumOfNumberAndReverse(int num)

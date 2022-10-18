@@ -1,9 +1,13 @@
 ﻿// ReSharper disable All
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0494_Target_Sum;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/196694343/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int FindTargetSumWays(int[] nums, int S)

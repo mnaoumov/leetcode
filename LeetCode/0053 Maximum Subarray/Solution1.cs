@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0053_Maximum_Subarray;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0053_Maximum_Subarray;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/819095461/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int MaxSubArray(int[] nums)

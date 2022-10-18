@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0025_Reverse_Nodes_in_k_Group;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0025_Reverse_Nodes_in_k_Group;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/811540652/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public ListNode ReverseKGroup(ListNode head, int k)

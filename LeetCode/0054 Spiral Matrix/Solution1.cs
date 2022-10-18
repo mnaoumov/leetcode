@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0054_Spiral_Matrix;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0054_Spiral_Matrix;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/819411014/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public IList<int> SpiralOrder(int[][] matrix)

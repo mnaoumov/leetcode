@@ -1,9 +1,13 @@
-﻿namespace LeetCode._0334_Increasing_Triplet_Subsequence;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0334_Increasing_Triplet_Subsequence;
 
 /// <summary>
 /// 
 /// </summary>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
+[UsedImplicitly]
 public class Solution2 : ISolution
 {
     public bool IncreasingTriplet(int[] nums)

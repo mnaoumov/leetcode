@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0218_The_Skyline_Problem;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0218_The_Skyline_Problem;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/812157965/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public IList<IList<int>> GetSkyline(int[][] buildings)

@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0036_Valid_Sudoku;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0036_Valid_Sudoku;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/813043052/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public bool IsValidSudoku(char[][] board)

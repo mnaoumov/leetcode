@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0044_Wildcard_Matching;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0044_Wildcard_Matching;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/814705661/
 /// </summary>
+[UsedImplicitly]
 public class Solution3 : ISolution
 {
     private const char AnyAmountSymbol = '*';

@@ -1,10 +1,14 @@
 ﻿// ReSharper disable All
-#pragma warning disable CS8604
+#pragma warning disable
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0124_Binary_Tree_Maximum_Path_Sum;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/203460140/
 /// </summary>
+[UsedImplicitly]
 public class Solution2 : ISolution
 {
     public int MaxPathSum(TreeNode root)

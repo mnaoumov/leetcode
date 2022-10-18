@@ -1,10 +1,14 @@
 ﻿// ReSharper disable All
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0037_Sudoku_Solver;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/813085431/
 /// </summary>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public void SolveSudoku(char[][] board)

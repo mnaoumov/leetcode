@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0059_Spiral_Matrix_II;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0059_Spiral_Matrix_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/819462926/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int[][] GenerateMatrix(int n)

@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0009_Palindrome_Number;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0009_Palindrome_Number;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/807911669/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public bool IsPalindrome(int x)

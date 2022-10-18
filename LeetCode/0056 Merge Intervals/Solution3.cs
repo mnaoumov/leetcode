@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0056_Merge_Intervals;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0056_Merge_Intervals;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/819434184/
 /// </summary>
+[UsedImplicitly]
 public class Solution3 : ISolution
 {
     public int[][] Merge(int[][] intervals)

@@ -1,9 +1,13 @@
-﻿namespace LeetCode._0043_Multiply_Strings;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0043_Multiply_Strings;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/814693471/
 /// </summary>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
+[UsedImplicitly]
 public class Solution3 : ISolution
 {
     public string Multiply(string num1, string num2)

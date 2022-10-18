@@ -1,9 +1,13 @@
-﻿namespace LeetCode._0044_Wildcard_Matching;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0044_Wildcard_Matching;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/208757970/
 /// </summary>
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public bool IsMatch(string s, string p)

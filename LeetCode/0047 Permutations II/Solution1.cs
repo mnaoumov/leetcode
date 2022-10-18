@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0047_Permutations_II;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0047_Permutations_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/815499264/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public IList<IList<int>> PermuteUnique(int[] nums)

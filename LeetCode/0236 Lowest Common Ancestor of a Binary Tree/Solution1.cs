@@ -1,13 +1,16 @@
 ﻿// ReSharper disable All
-#pragma warning disable CS8604
-#pragma warning disable CS8625
-#pragma warning disable CS8603
+#pragma warning disable
+#pragma warning disable
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0236_Lowest_Common_Ancestor_of_a_Binary_Tree;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/197160379/
 /// </summary>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public TreeNode LowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q)

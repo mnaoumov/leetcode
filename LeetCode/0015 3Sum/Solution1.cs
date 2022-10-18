@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0015_3Sum;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0015_3Sum;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/200039503/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public IList<IList<int>> ThreeSum(int[] nums)

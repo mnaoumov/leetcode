@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0289_Game_of_Life;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0289_Game_of_Life;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/205278883/
 /// </summary>
+[UsedImplicitly]
 public class Solution2 : ISolution
 {
     public void GameOfLife(int[][] board)

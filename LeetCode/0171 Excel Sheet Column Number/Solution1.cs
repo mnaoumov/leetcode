@@ -1,9 +1,13 @@
-﻿namespace LeetCode._0171_Excel_Sheet_Column_Number;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0171_Excel_Sheet_Column_Number;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/193813878/
 /// </summary>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int TitleToNumber(string s)

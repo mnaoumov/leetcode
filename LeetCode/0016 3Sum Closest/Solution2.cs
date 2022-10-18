@@ -1,9 +1,13 @@
-﻿namespace LeetCode._0016_3Sum_Closest;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0016_3Sum_Closest;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/809290786/
 /// https://leetcode.com/submissions/detail/817528290/
 /// </summary>
+[UsedImplicitly]
 public class Solution2 : ISolution
 {
     public int ThreeSumClosest(int[] nums, int target)

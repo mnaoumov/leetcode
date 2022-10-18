@@ -1,12 +1,15 @@
 ﻿using NUnit.Framework;
 
+using JetBrains.Annotations;
+
 namespace LeetCode._0026_Remove_Duplicates_from_Sorted_Array;
 
+[UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        int k = solution.RemoveDuplicates(testCase.Nums);
+        var k = solution.RemoveDuplicates(testCase.Nums);
 
         Assert.That(k, Is.EqualTo(testCase.ExpectedNums.Length));
 

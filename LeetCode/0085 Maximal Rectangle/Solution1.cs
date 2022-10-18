@@ -1,9 +1,13 @@
 ﻿// ReSharper disable All
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0085_Maximal_Rectangle;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/200371094/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int MaximalRectangle(char[][] matrix) => MaximalRectangle(ArrayHelper.ArrayOfArraysTo2D(matrix));

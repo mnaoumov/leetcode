@@ -1,9 +1,13 @@
-﻿namespace LeetCode._0200_Number_of_Islands;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0200_Number_of_Islands;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/197108988/
 /// </summary>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
+[UsedImplicitly]
 public class Solution3 : ISolution
 {
     public int NumIslands(char[][] grid) => NumIslands(ArrayHelper.ArrayOfArraysTo2D(grid));

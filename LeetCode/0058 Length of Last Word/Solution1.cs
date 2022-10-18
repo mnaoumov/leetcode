@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0058_Length_of_Last_Word;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0058_Length_of_Last_Word;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/819454842/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int LengthOfLastWord(string s)

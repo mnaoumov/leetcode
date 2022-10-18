@@ -1,9 +1,13 @@
-﻿namespace LeetCode._0075_Sort_Colors;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0075_Sort_Colors;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/196742471/
 /// </summary>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public void SortColors(int[] nums)

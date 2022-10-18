@@ -1,12 +1,15 @@
 ﻿using NUnit.Framework;
 
+using JetBrains.Annotations;
+
 namespace LeetCode._0027_Remove_Element;
 
+[UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        int k = solution.RemoveElement(testCase.Nums, testCase.Val);
+        var k = solution.RemoveElement(testCase.Nums, testCase.Val);
 
         Assert.That(k, Is.EqualTo(testCase.ExpectedNums.Length));
         Assert.That(testCase.Nums.Take(k).OrderBy(x => x), Is.EqualTo(testCase.ExpectedNums));

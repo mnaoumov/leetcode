@@ -1,9 +1,13 @@
-﻿#pragma warning disable CS8618
+﻿#pragma warning disable
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0010_Regular_Expression_Matching;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/808310678/
 /// </summary>
+[UsedImplicitly]
 public class Solution4 : ISolution
 {
     private bool?[,] _resultsCache;

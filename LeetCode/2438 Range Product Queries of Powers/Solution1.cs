@@ -1,8 +1,12 @@
-﻿namespace LeetCode._2438_Range_Product_Queries_of_Powers;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._2438_Range_Product_Queries_of_Powers;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-89/submissions/detail/823017036/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int[] ProductQueries(int n, int[][] queries)

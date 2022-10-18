@@ -1,9 +1,13 @@
-﻿namespace LeetCode._0152_Maximum_Product_Subarray;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0152_Maximum_Product_Subarray;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/198325831/
 /// </summary>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
+[UsedImplicitly]
 public class Solution3 : ISolution
 {
     public int MaxProduct(int[] nums)

@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0035_Search_Insert_Position;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0035_Search_Insert_Position;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/813032548/
 /// </summary>
+[UsedImplicitly]
 public class Solution2 : ISolution
 {
     public int SearchInsert(int[] nums, int target)

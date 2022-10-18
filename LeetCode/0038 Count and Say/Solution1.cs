@@ -1,10 +1,14 @@
 ﻿using System.Text;
 
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0038_Count_and_Say;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/813820267/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public string CountAndSay(int n)

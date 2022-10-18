@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0041_First_Missing_Positive;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0041_First_Missing_Positive;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/814399148/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int FirstMissingPositive(int[] nums)

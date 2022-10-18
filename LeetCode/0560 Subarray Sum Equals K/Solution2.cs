@@ -1,9 +1,13 @@
-﻿namespace LeetCode._0560_Subarray_Sum_Equals_K;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0560_Subarray_Sum_Equals_K;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/196732085/
 /// </summary>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
+[UsedImplicitly]
 public class Solution2 : ISolution
 {
     public int SubarraySum(int[] nums, int k)

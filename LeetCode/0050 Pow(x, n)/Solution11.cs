@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0050_Pow_x__n_;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0050_Pow_x__n_;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/815851460/
 /// </summary>
+[UsedImplicitly]
 public class Solution11 : ISolution
 {
     public double MyPow(double x, int n)

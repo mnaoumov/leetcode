@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0171_Excel_Sheet_Column_Number;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0171_Excel_Sheet_Column_Number;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/193814896/
 /// </summary>
+[UsedImplicitly]
 public class Solution2 : ISolution
 {
     public int TitleToNumber(string s)

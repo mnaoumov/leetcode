@@ -1,8 +1,12 @@
-﻿namespace LeetCode._2444_Count_Subarrays_With_Fixed_Bounds;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._2444_Count_Subarrays_With_Fixed_Bounds;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/823496471/
 /// </summary>
+[UsedImplicitly]
 public class Solution3 : ISolution
 {
     public long CountSubarrays(int[] nums, int minK, int maxK)

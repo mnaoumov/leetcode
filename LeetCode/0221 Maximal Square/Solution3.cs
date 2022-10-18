@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0221_Maximal_Square;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0221_Maximal_Square;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/198267243/
 /// </summary>
+[UsedImplicitly]
 public class Solution3 : ISolution
 {
     public int MaximalSquare(char[][] matrix) => MaximalSquare(ArrayHelper.ArrayOfArraysTo2D(matrix));

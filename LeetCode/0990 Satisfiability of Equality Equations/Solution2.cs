@@ -1,9 +1,13 @@
 ﻿// ReSharper disable All
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0990_Satisfiability_of_Equality_Equations;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/809157627/
 /// </summary>
+[UsedImplicitly]
 public class Solution2 : ISolution
 {
     public bool EquationsPossible(string[] equations)

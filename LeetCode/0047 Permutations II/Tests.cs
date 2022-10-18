@@ -1,5 +1,8 @@
-﻿namespace LeetCode._0047_Permutations_II;
+﻿using JetBrains.Annotations;
 
+namespace LeetCode._0047_Permutations_II;
+
+[UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
@@ -23,7 +26,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     {
                         new[] { 1, 1, 2 },
                         new[] { 1, 2, 1 },
-                        new[] { 2, 1, 1 },
+                        new[] { 2, 1, 1 }
                     },
                     TestCaseName = "Example 1"
                 };
@@ -38,7 +41,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                         new[] { 2, 1, 3 },
                         new[] { 2, 3, 1 },
                         new[] { 3, 1, 2 },
-                        new[] { 3, 2, 1 },
+                        new[] { 3, 2, 1 }
                     },
                     TestCaseName = "Example 2"
                 };

@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0008_String_to_Integer__atoi_;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0008_String_to_Integer__atoi_;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/807871103/
 /// </summary>
+[UsedImplicitly]
 public class Solution3 : ISolution
 {
     public int MyAtoi(string s)

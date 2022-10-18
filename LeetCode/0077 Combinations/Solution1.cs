@@ -1,9 +1,13 @@
 ﻿// ReSharper disable All
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0077_Combinations;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/821692492/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public IList<IList<int>> Combine(int n, int k)

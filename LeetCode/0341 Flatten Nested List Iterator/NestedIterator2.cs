@@ -1,6 +1,5 @@
-﻿#pragma warning disable CS8625
-#pragma warning disable CS8618
-#pragma warning disable CS8604
+﻿// ReSharper disable All
+#pragma warning disable
 namespace LeetCode._0341_Flatten_Nested_List_Iterator;
 
 /// <summary>
@@ -34,7 +33,7 @@ public class NestedIterator2 : INestedIterator
                 return false;
             }
 
-            NestedInteger nestedInteger = _nestedList[_index];
+            var nestedInteger = _nestedList[_index];
             if (nestedInteger.IsInteger())
             {
                 return true;

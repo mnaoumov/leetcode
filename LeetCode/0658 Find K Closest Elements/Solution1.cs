@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0658_Find_K_Closest_Elements;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0658_Find_K_Closest_Elements;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/811499542/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public IList<int> FindClosestElements(int[] arr, int k, int x)

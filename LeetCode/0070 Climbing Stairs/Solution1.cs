@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0070_Climbing_Stairs;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0070_Climbing_Stairs;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/820362789/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int ClimbStairs(int n)

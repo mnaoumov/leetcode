@@ -1,11 +1,14 @@
-﻿namespace LeetCode._0421_Maximum_XOR_of_Two_Numbers_in_an_Array;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0421_Maximum_XOR_of_Two_Numbers_in_an_Array;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/208463076/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
-    // ReSharper disable once MemberCanBeMadeStatic.Global
     public int FindMaximumXOR(int[] nums)
     {
         const int maxPosition = 31;

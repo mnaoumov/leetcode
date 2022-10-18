@@ -1,9 +1,13 @@
-﻿namespace LeetCode._0032_Longest_Valid_Parentheses;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0032_Longest_Valid_Parentheses;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/200409741/
 /// </summary>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int LongestValidParentheses(string s)

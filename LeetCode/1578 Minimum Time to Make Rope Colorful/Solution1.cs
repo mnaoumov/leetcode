@@ -1,10 +1,15 @@
 ﻿// ReSharper disable All
+
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._1578_Minimum_Time_to_Make_Rope_Colorful;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/814106619/
 /// </summary>
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int MinCost(string colors, int[] neededTime)

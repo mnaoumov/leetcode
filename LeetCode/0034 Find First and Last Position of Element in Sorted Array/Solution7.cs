@@ -1,9 +1,13 @@
-﻿namespace LeetCode._0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/812974902/
 /// </summary>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
+[UsedImplicitly]
 public class Solution7 : ISolution
 {
     public int[] SearchRange(int[] nums, int target)

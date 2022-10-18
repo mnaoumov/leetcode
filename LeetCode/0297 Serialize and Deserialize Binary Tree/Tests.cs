@@ -1,7 +1,10 @@
 ﻿using NUnit.Framework;
 
+using JetBrains.Annotations;
+
 namespace LeetCode._0297_Serialize_and_Deserialize_Binary_Tree;
 
+[UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
@@ -15,7 +18,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public int?[] Values { get; set; } = null!;
+        public int?[] Values { get; private init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {

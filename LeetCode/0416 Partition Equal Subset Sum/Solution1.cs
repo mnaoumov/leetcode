@@ -1,9 +1,13 @@
-﻿namespace LeetCode._0416_Partition_Equal_Subset_Sum;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0416_Partition_Equal_Subset_Sum;
 
 /// <summary>
 /// 
 /// </summary>
 [SkipSolution(SkipSolutionReason.MemoryLimitExceeded)]
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public bool CanPartition(int[] nums)

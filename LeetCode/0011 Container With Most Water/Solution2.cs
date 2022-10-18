@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0011_Container_With_Most_Water;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0011_Container_With_Most_Water;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/808435334/
 /// </summary>
+[UsedImplicitly]
 public class Solution2 : ISolution
 {
     public int MaxArea(int[] height)

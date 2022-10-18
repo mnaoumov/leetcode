@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0146_LRU_Cache;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0146_LRU_Cache;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/200573215/
 /// </summary>
+[UsedImplicitly]
 public class Solution08 : ISolution
 {
     public ILRUCache Create(int capacity)

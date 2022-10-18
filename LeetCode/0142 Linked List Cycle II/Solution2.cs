@@ -1,12 +1,15 @@
 ﻿// ReSharper disable All
-#pragma warning disable CS8767
-#pragma warning disable CS8602
-#pragma warning disable CS8603
+#pragma warning disable
+#pragma warning disable
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0142_Linked_List_Cycle_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/195967696/
 /// </summary>
+[UsedImplicitly]
 public class Solution2 : ISolution
 {
     public ListNode DetectCycle(ListNode head)

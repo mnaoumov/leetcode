@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0237_Delete_Node_in_a_Linked_List;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0237_Delete_Node_in_a_Linked_List;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/821254721/
 /// </summary>
+[UsedImplicitly]
 public class Solution2 : ISolution
 {
     public void DeleteNode(ListNode node)

@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0078_Subsets;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0078_Subsets;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/821699063/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public IList<IList<int>> Subsets(int[] nums)

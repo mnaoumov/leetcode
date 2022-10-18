@@ -1,9 +1,13 @@
-﻿namespace LeetCode._0057_Insert_Interval;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0057_Insert_Interval;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/819447391/
 /// </summary>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
+[UsedImplicitly]
 public class Solution6 : ISolution
 {
     public int[][] Insert(int[][] intervals, int[] newInterval)

@@ -1,9 +1,13 @@
 ﻿// ReSharper disable All
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0689_Maximum_Sum_of_3_Non_Overlapping_Subarrays;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/197183659/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int[] MaxSumOfThreeSubarrays(int[] nums, int k)

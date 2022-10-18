@@ -1,5 +1,8 @@
-﻿namespace LeetCode;
+﻿using JetBrains.Annotations;
 
+namespace LeetCode;
+
+[PublicAPI]
 public class Interval
 {
     // ReSharper disable once InconsistentNaming
@@ -13,9 +16,9 @@ public class Interval
         this.end = end;
     }
 
-    public static Interval[] FromArrays(int[][] arrays) => arrays.Select(FromArray).ToArray();
+    public static Interval[] FromArrays(IEnumerable<int[]> arrays) => arrays.Select(FromArray).ToArray();
 
     public static Interval FromArray(int[] array) => new(array[0], array[1]);
 
-    public static int[][] ToArrays(IList<Interval> intervals) => intervals.Select(interval => new[] { interval.start, interval.end }).ToArray();
+    public static int[][] ToArrays(IEnumerable<Interval> intervals) => intervals.Select(interval => new[] { interval.start, interval.end }).ToArray();
 }

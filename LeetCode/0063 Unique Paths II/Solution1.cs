@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0063_Unique_Paths_II;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0063_Unique_Paths_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/819557410/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     private const int Obstacle = 1;

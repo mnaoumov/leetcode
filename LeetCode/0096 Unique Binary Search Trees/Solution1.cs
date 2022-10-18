@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0096_Unique_Binary_Search_Trees;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0096_Unique_Binary_Search_Trees;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/196696740/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int NumTrees(int n)

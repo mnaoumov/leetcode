@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0023_Merge_k_Sorted_Lists;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0023_Merge_k_Sorted_Lists;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/810850167/
 /// </summary>
+[UsedImplicitly]
 public class Solution2 : ISolution
 {
     public ListNode? MergeKLists(ListNode?[] lists)

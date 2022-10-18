@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0279_Perfect_Squares;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0279_Perfect_Squares;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/197023413/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int NumSquares(int n)

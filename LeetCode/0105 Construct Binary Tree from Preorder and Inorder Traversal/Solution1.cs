@@ -1,9 +1,13 @@
-﻿#pragma warning disable CS8603
+﻿#pragma warning disable
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/197119707/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public TreeNode BuildTree(int[] preorder, int[] inorder)

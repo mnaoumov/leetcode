@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0042_Trapping_Rain_Water;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0042_Trapping_Rain_Water;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/814621902/
 /// </summary>
+[UsedImplicitly]
 public class Solution4 : ISolution
 {
     public int Trap(int[] height)

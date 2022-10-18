@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0021_Merge_Two_Sorted_Lists;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0021_Merge_Two_Sorted_Lists;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/810706460/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public ListNode MergeTwoLists(ListNode list1, ListNode list2)

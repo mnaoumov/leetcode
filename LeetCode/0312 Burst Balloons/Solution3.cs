@@ -1,9 +1,13 @@
-﻿#pragma warning disable CS8629
+﻿#pragma warning disable
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0312_Burst_Balloons;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/199940932/
 /// </summary>
+[UsedImplicitly]
 public class Solution3 : ISolution
 {
     public int MaxCoins(int[] nums)

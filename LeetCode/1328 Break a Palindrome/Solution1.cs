@@ -1,8 +1,12 @@
-﻿namespace LeetCode._1328_Break_a_Palindrome;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._1328_Break_a_Palindrome;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/819083914/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     private const char FirstPossibleLetter = 'a';

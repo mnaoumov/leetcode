@@ -1,9 +1,13 @@
-﻿namespace LeetCode._0004_Median_of_Two_Sorted_Arrays;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0004_Median_of_Two_Sorted_Arrays;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/807269846/
 /// </summary>
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
+[UsedImplicitly]
 public class Solution08 : ISolution
 {
     public double FindMedianSortedArrays(int[] nums1, int[] nums2)

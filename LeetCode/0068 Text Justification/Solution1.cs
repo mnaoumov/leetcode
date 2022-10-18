@@ -1,10 +1,14 @@
 ﻿using System.Text;
 
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0068_Text_Justification;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/819855226/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public IList<string> FullJustify(string[] words, int maxWidth)

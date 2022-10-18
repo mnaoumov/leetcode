@@ -1,10 +1,14 @@
-﻿namespace LeetCode._0001_Two_Sum;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0001_Two_Sum;
 
 /// <summary>
 /// Lookup
 /// https://leetcode.com/submissions/detail/816975903/
 /// </summary>
 [SkipSolution(SkipSolutionReason.RuntimeError)]
+[UsedImplicitly]
 public class Solution7 : ISolution
 {
     public int[] TwoSum(int[] nums, int target)

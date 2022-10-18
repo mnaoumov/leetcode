@@ -1,5 +1,8 @@
-﻿namespace LeetCode._0068_Text_Justification;
+﻿using JetBrains.Annotations;
 
+namespace LeetCode._0068_Text_Justification;
+
+[UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

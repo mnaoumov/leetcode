@@ -1,7 +1,10 @@
 ﻿using NUnit.Framework;
 
+using JetBrains.Annotations;
+
 namespace LeetCode._0023_Merge_k_Sorted_Lists;
 
+[UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
@@ -26,7 +29,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     {
                         new[] { 1, 4, 5 },
                         new[] { 1, 3, 4 },
-                        new[] { 2, 6 },
+                        new[] { 2, 6 }
                     },
                     OutputValues = new[] { 1, 1, 2, 3, 4, 4, 5, 6 },
                     TestCaseName = "Example 1"

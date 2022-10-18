@@ -1,9 +1,13 @@
-﻿namespace LeetCode._0003_Longest_Substring_Without_Repeating_Characters;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0003_Longest_Substring_Without_Repeating_Characters;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/198407548/
 /// </summary>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
+[UsedImplicitly]
 public class Solution6 : ISolution
 {
     public int LengthOfLongestSubstring(string s)

@@ -1,5 +1,8 @@
-﻿namespace LeetCode._0838_Push_Dominoes;
+﻿using JetBrains.Annotations;
 
+namespace LeetCode._0838_Push_Dominoes;
+
+[PublicAPI]
 public interface ISolution
 {
     public string PushDominoes(string dominoes);

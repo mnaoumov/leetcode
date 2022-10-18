@@ -1,10 +1,14 @@
 ﻿using System.Text;
 
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0067_Add_Binary;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/819729320/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     private const char BinaryZero = '0';

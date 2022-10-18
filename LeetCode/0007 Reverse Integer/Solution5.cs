@@ -1,9 +1,13 @@
-﻿namespace LeetCode._0007_Reverse_Integer;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0007_Reverse_Integer;
 
 /// <summary>
 /// Digits
 /// https://leetcode.com/submissions/detail/807901371/
 /// </summary>
+[UsedImplicitly]
 public class Solution5 : ISolution
 {
     public int Reverse(int x)

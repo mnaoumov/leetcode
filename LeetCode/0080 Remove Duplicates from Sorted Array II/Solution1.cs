@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0080_Remove_Duplicates_from_Sorted_Array_II;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0080_Remove_Duplicates_from_Sorted_Array_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/821757785/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int RemoveDuplicates(int[] nums)

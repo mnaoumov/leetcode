@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0033_Search_in_Rotated_Sorted_Array;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0033_Search_in_Rotated_Sorted_Array;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/812942985/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int Search(int[] nums, int target)

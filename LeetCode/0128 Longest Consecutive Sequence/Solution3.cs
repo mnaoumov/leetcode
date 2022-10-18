@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0128_Longest_Consecutive_Sequence;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0128_Longest_Consecutive_Sequence;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/199789573/
 /// </summary>
+[UsedImplicitly]
 public class Solution3 : ISolution
 {
     public int LongestConsecutive(int[] nums)

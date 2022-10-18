@@ -1,6 +1,5 @@
 ﻿// ReSharper disable All
-#pragma warning disable CS8603
-#pragma warning disable CS8602
+#pragma warning disable
 namespace LeetCode._0208_Implement_Trie__Prefix_Tree_;
 
 /// <summary>

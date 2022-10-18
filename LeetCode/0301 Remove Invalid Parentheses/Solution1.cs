@@ -1,9 +1,13 @@
-﻿namespace LeetCode._0301_Remove_Invalid_Parentheses;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0301_Remove_Invalid_Parentheses;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/198437890/
 /// </summary>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public IList<string> RemoveInvalidParentheses(string s)

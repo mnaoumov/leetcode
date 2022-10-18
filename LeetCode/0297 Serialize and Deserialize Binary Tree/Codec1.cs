@@ -1,7 +1,5 @@
-﻿// ReSharper disable UseWithExpressionToCopyTuple
-#pragma warning disable CS8629
-#pragma warning disable CS8619
-#pragma warning disable CS8604
+﻿// ReSharper disable All
+#pragma warning disable
 namespace LeetCode._0297_Serialize_and_Deserialize_Binary_Tree;
 
 /// <summary>

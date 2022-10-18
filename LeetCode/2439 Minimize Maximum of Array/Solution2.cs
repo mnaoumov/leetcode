@@ -1,9 +1,13 @@
-﻿namespace LeetCode._2439_Minimize_Maximum_of_Array;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._2439_Minimize_Maximum_of_Array;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-89/submissions/detail/823050566/
 /// </summary>
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
+[UsedImplicitly]
 public class Solution2 : ISolution
 {
     public int MinimizeArrayValue(int[] nums)

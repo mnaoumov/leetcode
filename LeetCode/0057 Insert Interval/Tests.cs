@@ -1,5 +1,8 @@
-﻿namespace LeetCode._0057_Insert_Interval;
+﻿using JetBrains.Annotations;
 
+namespace LeetCode._0057_Insert_Interval;
+
+[UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

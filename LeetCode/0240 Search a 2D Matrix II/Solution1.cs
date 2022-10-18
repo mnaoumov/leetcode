@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0240_Search_a_2D_Matrix_II;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0240_Search_a_2D_Matrix_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/197018411/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public bool SearchMatrix(int[][] matrix, int target) => SearchMatrix(ArrayHelper.ArrayOfArraysTo2D(matrix), target);

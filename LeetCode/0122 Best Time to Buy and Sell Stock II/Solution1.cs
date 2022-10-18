@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0122_Best_Time_to_Buy_and_Sell_Stock_II;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0122_Best_Time_to_Buy_and_Sell_Stock_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/193842830/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int MaxProfit(int[] prices)

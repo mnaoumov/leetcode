@@ -1,9 +1,13 @@
-﻿namespace LeetCode._0069_Sqrt_x_;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0069_Sqrt_x_;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/193354549/
 /// </summary>
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
+[UsedImplicitly]
 public class Solution4 : ISolution
 {
     public int MySqrt(int x)

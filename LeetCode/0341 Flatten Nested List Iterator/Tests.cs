@@ -1,5 +1,8 @@
-﻿namespace LeetCode._0341_Flatten_Nested_List_Iterator;
+﻿using JetBrains.Annotations;
 
+namespace LeetCode._0341_Flatten_Nested_List_Iterator;
+
+[UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
@@ -55,7 +58,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                             new NestedIntegerImpl(4),
                             new NestedIntegerImpl(new NestedInteger[]
                             {
-                                new NestedIntegerImpl(6),
+                                new NestedIntegerImpl(6)
                             })
                         })
                     },

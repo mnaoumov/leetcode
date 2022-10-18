@@ -1,4 +1,5 @@
-﻿#pragma warning disable CS8602
+﻿// ReSharper disable All
+#pragma warning disable
 namespace LeetCode._0146_LRU_Cache;
 
 /// <summary>

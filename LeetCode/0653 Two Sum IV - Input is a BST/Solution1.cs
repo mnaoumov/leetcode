@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0653_Two_Sum_IV___Input_is_a_BST;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0653_Two_Sum_IV___Input_is_a_BST;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/818383631/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public bool FindTarget(TreeNode root, int k)

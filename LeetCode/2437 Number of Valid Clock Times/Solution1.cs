@@ -1,8 +1,12 @@
-﻿namespace LeetCode._2437_Number_of_Valid_Clock_Times;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._2437_Number_of_Valid_Clock_Times;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-89/submissions/detail/822997004/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int CountTime(string time)

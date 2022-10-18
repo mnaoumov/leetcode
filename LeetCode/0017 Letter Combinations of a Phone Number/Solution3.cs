@@ -1,9 +1,13 @@
 ﻿// ReSharper disable StringLiteralTypo
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0017_Letter_Combinations_of_a_Phone_Number;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/809521193/
 /// </summary>
+[UsedImplicitly]
 public class Solution3 : ISolution
 {
     public IList<string> LetterCombinations(string digits)

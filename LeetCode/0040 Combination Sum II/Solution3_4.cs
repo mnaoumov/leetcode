@@ -1,9 +1,13 @@
 ﻿// ReSharper disable All
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0040_Combination_Sum_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/814099332/
 /// </summary>
+[UsedImplicitly]
 public class Solution3_4 : ISolution
 {
     public IList<IList<int>> CombinationSum2(int[] candidates, int target)

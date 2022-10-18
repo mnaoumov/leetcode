@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0377_Combination_Sum_IV;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0377_Combination_Sum_IV;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/196683828/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public int CombinationSum4(int[] nums, int target)

@@ -1,9 +1,13 @@
-﻿namespace LeetCode._0005_Longest_Palindromic_Substring;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0005_Longest_Palindromic_Substring;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/807295054/
 /// </summary>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
+[UsedImplicitly]
 public class Solution8 : ISolution
 {
     public string LongestPalindrome(string s)

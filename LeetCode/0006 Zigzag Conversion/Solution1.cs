@@ -1,11 +1,15 @@
 ﻿using System.Text;
 
+using JetBrains.Annotations;
+// ReSharper disable All
+
 namespace LeetCode._0006_Zigzag_Conversion;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/148141552/
 /// </summary>
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     public string Convert(string s, int numRows)

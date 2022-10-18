@@ -1,5 +1,8 @@
-﻿namespace LeetCode._0102_Binary_Tree_Level_Order_Traversal;
+﻿using JetBrains.Annotations;
 
+namespace LeetCode._0102_Binary_Tree_Level_Order_Traversal;
+
+[UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

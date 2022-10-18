@@ -1,8 +1,12 @@
-﻿namespace LeetCode._0020_Valid_Parentheses;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._0020_Valid_Parentheses;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/810308208/
 /// </summary>
+[UsedImplicitly]
 public class Solution2 : ISolution
 {
     public bool IsValid(string s)

@@ -1,8 +1,12 @@
-﻿namespace LeetCode._1155_Number_of_Dice_Rolls_With_Target_Sum;
+﻿using JetBrains.Annotations;
+// ReSharper disable All
+
+namespace LeetCode._1155_Number_of_Dice_Rolls_With_Target_Sum;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/813662085/
 /// </summary>
+[UsedImplicitly]
 public class Solution1 : ISolution
 {
     private readonly int _modulo = (int)Math.Pow(10, 9) + 7;

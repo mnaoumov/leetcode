@@ -21,6 +21,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
             {
                 yield return new TestCase
                 {
+                    // ReSharper disable once StringLiteralTypo
                     S = "aaabcccd",
                     K = 2,
                     Output = 4,
@@ -29,6 +30,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
                 yield return new TestCase
                 {
+                    // ReSharper disable once StringLiteralTypo
                     S = "aabbaa",
                     K = 2,
                     Output = 2,
@@ -37,14 +39,16 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
                 yield return new TestCase
                 {
+                    // ReSharper disable once StringLiteralTypo
                     S = "aaaaaaaaaaa",
                     K = 0,
                     Output = 3,
                     TestCaseName = "Example 3"
                 };
-                
+
                 yield return new TestCase
                 {
+                    // ReSharper disable once StringLiteralTypo
                     S = "aaaabbab",
                     K = 3,
                     Output = 2,
@@ -53,12 +57,21 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
                 yield return new TestCase
                 {
+                    // ReSharper disable once StringLiteralTypo
                     S = "abcdefghijklmnopqrstuvwxyz",
                     K = 16,
                     Output = 10,
                     TestCaseName = nameof(Solution2)
                 };
 
+                yield return new TestCase
+                {
+                    // ReSharper disable once StringLiteralTypo
+                    S = "bbabbbabbbbcbb",
+                    K = 4,
+                    Output = 3,
+                    TestCaseName = nameof(Solution3)
+                };
             }
         }
     }

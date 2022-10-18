@@ -1,10 +1,9 @@
 ﻿namespace LeetCode._1531_String_Compression_II;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/824847181/
+/// https://leetcode.com/submissions/detail/824850674/
 /// </summary>
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution3 : ISolution
+public class Solution4 : ISolution
 {
     public int GetLengthOfOptimalCompression(string s, int k)
     {
@@ -72,7 +71,7 @@ public class Solution3 : ISolution
                         currentLetterIndex: currentLetterIndex + 1,
                         maxLettersToRemoveCount: maxLettersToRemoveCount - i,
                         lastLetter: newCurrentLetterCount > 0 ? currentLetterCountPair.letter : lastLetter,
-                        lastLetterCount: newCurrentLetterCount > 0 ? newCurrentLetterCount : lastLetterCount);
+                        lastLetterCount: newCurrentLetterCount > 0 && !isRepeatingLetter ? newCurrentLetterCount : lastLetterCount + newCurrentLetterCount);
 
                     var currentLetterCompressedLength = newCurrentLetterCount > 0 && isRepeatingLetter
                         ? GetCompressedLength(lastLetterCount + newCurrentLetterCount) -

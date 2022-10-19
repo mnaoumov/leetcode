@@ -3,11 +3,9 @@
 namespace LeetCode._2440_Create_Components_With_Same_Value;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/825543777/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
-public class Solution1 : ISolution
+public class Solution3 : ISolution
 {
     private const int NotFound = -1;
 
@@ -64,7 +62,10 @@ public class Solution1 : ISolution
 
                 if (nextNode != NotFound)
                 {
-                    TryBuildComponent(new[] { nextNode }, fullComponentSum);
+                    if (!TryBuildComponent(new[] { nextNode }, fullComponentSum))
+                    {
+                        return false;
+                    }
                 }
 
                 return true;
@@ -128,7 +129,6 @@ public class Solution1 : ISolution
                     {
                         if (nextLevelNodeIndex >= nextLevelNodes.Count)
                         {
-                            yield return Array.Empty<int>();
                             yield break;
                         }
 
@@ -136,9 +136,12 @@ public class Solution1 : ISolution
                         var nextLevelNodeValue = nums[nextLevelNode];
                         if (nextLevelNodeValue <= sumAvailable)
                         {
+                            var singleNodeList = new[] { nextLevelNode };
+                            yield return singleNodeList;
+
                             foreach (var list in GetNextLevelNodesLists(nextLevelNodeIndex + 1, sumAvailable - nextLevelNodeValue))
                             {
-                                yield return new[] { nextLevelNode }.Concat(list).ToArray();
+                                yield return singleNodeList.Concat(list).ToArray();
                             }
                         }
 

@@ -1,4 +1,7 @@
 ﻿using JetBrains.Annotations;
+// ReSharper disable All
+#pragma warning disable CS8321
+#pragma warning disable CS8602
 
 namespace LeetCode._2440_Create_Components_With_Same_Value;
 

@@ -3,11 +3,10 @@
 namespace LeetCode._2440_Create_Components_With_Same_Value;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/826255453/
 /// </summary>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
-public class Solution3 : ISolution
+public class Solution4 : ISolution
 {
     private const int NotFound = -1;
 
@@ -101,33 +100,41 @@ public class Solution3 : ISolution
 
             var statuses = new NodeStatus[nums.Length];
 
-            return TryBuildNextComponent();
+            return TryBuildNextComponent(0);
 
-            bool TryBuildNextComponent()
+            bool TryBuildNextComponent(int componentIndex)
             {
+                if (componentIndex == componentsCount)
+                {
+                    return true;
+                }
+
                 var nextNode = NotFound;
+                var leftoverMin = max;
+                var leftoverMax = 1;
+                var availableNodesCount = 0;
 
                 foreach (var levelNode in nodesByLevelsList.SelectMany(levelNodes => levelNodes.Where(levelNode => statuses[levelNode] != NodeStatus.Visited)))
                 {
                     statuses[levelNode] = NodeStatus.Unvisited;
+                    leftoverMax = Math.Max(leftoverMax, nums[levelNode]);
+                    leftoverMin = Math.Min(leftoverMin, nums[levelNode]);
+                    availableNodesCount++;
+
                     if (nextNode == NotFound)
                     {
                         nextNode = levelNode;
                     }
                 }
 
-                if (nextNode != NotFound)
-                {
-                    if (!TryBuildComponent(new[] { nextNode }, fullComponentSum))
-                    {
-                        return false;
-                    }
-                }
+                var nextLeftoverSum = (componentsCount - componentIndex - 1) * fullComponentSum;
+                var nextComponentsMinNodeCount = DivideWithRoundUp(nextLeftoverSum, leftoverMax);
+                var componentMaxNodeCount = Math.Min(DivideWithRoundUp(fullComponentSum, leftoverMin), availableNodesCount - nextComponentsMinNodeCount);
 
-                return true;
+                return TryBuildComponent(new[] { nextNode }, fullComponentSum, componentIndex, componentMaxNodeCount);
             }
 
-            bool TryBuildComponent(int[] nodes, int componentSumAvailable)
+            bool TryBuildComponent(int[] nodes, int componentSumAvailable, int componentIndex, int componentMaxNodeCount)
             {
                 var nextLevelNodes = new List<int>();
                 var currentComponentSumAvailable = componentSumAvailable;
@@ -136,19 +143,26 @@ public class Solution3 : ISolution
                 {
                     statuses[node] = NodeStatus.Visited;
                     currentComponentSumAvailable -= nums[node];
+                    componentMaxNodeCount--;
                     nextLevelNodes.AddRange(nextLevelNeighborLists[node]);
                 }
 
                 if (currentComponentSumAvailable == 0)
                 {
-                    if (TryBuildNextComponent())
+                    if (TryBuildNextComponent(componentIndex + 1))
                     {
                         return true;
                     }
                 }
                 else
                 {
-                    var nextLevelNodesLists = GetNextLevelNodesLists(0, currentComponentSumAvailable).ToArray();
+                    if (componentMaxNodeCount == 0)
+                    {
+                        return false;
+                    }
+
+                    var nextLevelNodesLists =
+                        GetNextLevelNodesLists(0, currentComponentSumAvailable, componentMaxNodeCount).ToArray();
 
                     foreach (var nextLevelNodesList in nextLevelNodesLists)
                     {
@@ -159,7 +173,7 @@ public class Solution3 : ISolution
                             statuses[skippedNode] = NodeStatus.Skipped;
                         }
 
-                        if (TryBuildComponent(nextLevelNodesList, currentComponentSumAvailable))
+                        if (TryBuildComponent(nextLevelNodesList, currentComponentSumAvailable, componentIndex, componentMaxNodeCount))
                         {
                             return true;
                         }
@@ -179,9 +193,9 @@ public class Solution3 : ISolution
 
                 return false;
 
-                IEnumerable<int[]> GetNextLevelNodesLists(int nextLevelNodeIndex, int sumAvailable)
+                IEnumerable<int[]> GetNextLevelNodesLists(int nextLevelNodeIndex, int sumAvailable, int availableNodesCount)
                 {
-                    if (sumAvailable == 0)
+                    if (sumAvailable == 0 || availableNodesCount == 0)
                     {
                         yield break;
                     }
@@ -200,7 +214,7 @@ public class Solution3 : ISolution
                             var singleNodeList = new[] { nextLevelNode };
                             yield return singleNodeList;
 
-                            foreach (var list in GetNextLevelNodesLists(nextLevelNodeIndex + 1, sumAvailable - nextLevelNodeValue))
+                            foreach (var list in GetNextLevelNodesLists(nextLevelNodeIndex + 1, sumAvailable - nextLevelNodeValue, availableNodesCount - 1))
                             {
                                 yield return singleNodeList.Concat(list).ToArray();
                             }
@@ -210,29 +224,12 @@ public class Solution3 : ISolution
                     }
                 }
             }
-
-            IEnumerable<int> GetAvailableNeighbors(int node)
-            {
-                foreach (var edge in edges)
-                {
-                    var neighbor = NotFound;
-
-                    if (edge[0] == node)
-                    {
-                        neighbor = edge[1];
-                    }
-                    else if (edge[1] == node)
-                    {
-                        neighbor = edge[0];
-                    }
-
-                    if (neighbor != NotFound && statuses[neighbor] == NodeStatus.Unvisited)
-                    {
-                        yield return neighbor;
-                    }
-                }
-            }
         }
+    }
+
+    private static int DivideWithRoundUp(int a, int b)
+    {
+        return (int) Math.Ceiling((double) a / b);
     }
 
     private enum NodeStatus

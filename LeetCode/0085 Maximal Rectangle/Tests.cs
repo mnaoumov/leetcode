@@ -53,6 +53,20 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     Output = 1,
                     TestCaseName = "Example 3"
                 };
+
+                yield return new TestCase
+                {
+                    Matrix = new[]
+                    {
+                        new[] { '1', '1', '1', '1', '1', '1', '1', '1' },
+                        new[] { '1', '1', '1', '1', '1', '1', '1', '0' },
+                        new[] { '1', '1', '1', '1', '1', '1', '1', '0' },
+                        new[] { '1', '1', '1', '1', '1', '0', '0', '0' },
+                        new[] { '0', '1', '1', '1', '1', '0', '0', '0' }
+                    },
+                    Output = 21,
+                    TestCaseName = nameof(Solution2)
+                };
             }
         }
     }

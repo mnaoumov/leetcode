@@ -1,6 +1,5 @@
 ﻿// ReSharper disable All
 #pragma warning disable
-#pragma warning disable
 using JetBrains.Annotations;
 // ReSharper disable All
 

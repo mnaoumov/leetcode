@@ -1,4 +1,5 @@
 ﻿using JetBrains.Annotations;
+// ReSharper disable All
 
 namespace LeetCode._0086_Partition_List;
 

@@ -1,7 +1,6 @@
 ﻿// ReSharper disable All
 #pragma warning disable
 using JetBrains.Annotations;
-// ReSharper disable All
 
 namespace LeetCode._0718_Maximum_Length_of_Repeated_Subarray;
 

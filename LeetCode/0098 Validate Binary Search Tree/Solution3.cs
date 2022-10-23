@@ -1,7 +1,6 @@
 ﻿// ReSharper disable All
 #pragma warning disable
 using JetBrains.Annotations;
-// ReSharper disable All
 
 namespace LeetCode._0098_Validate_Binary_Search_Tree;
 

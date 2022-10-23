@@ -1,7 +1,6 @@
 ﻿// ReSharper disable All
 #pragma warning disable
 using JetBrains.Annotations;
-// ReSharper disable All
 
 namespace LeetCode._0124_Binary_Tree_Maximum_Path_Sum;
 

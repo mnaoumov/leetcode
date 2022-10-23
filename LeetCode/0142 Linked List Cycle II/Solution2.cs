@@ -1,7 +1,6 @@
 ﻿// ReSharper disable All
 #pragma warning disable
 using JetBrains.Annotations;
-// ReSharper disable All
 
 namespace LeetCode._0142_Linked_List_Cycle_II;
 

@@ -1,7 +1,6 @@
 ﻿// ReSharper disable All
 #pragma warning disable
 using JetBrains.Annotations;
-// ReSharper disable All
 
 namespace LeetCode._0236_Lowest_Common_Ancestor_of_a_Binary_Tree;
 

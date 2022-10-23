@@ -21,7 +21,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
             {
                 yield return new TestCase
                 {
-                    Nums = new[] { 1, 2, 2, },
+                    Nums = new[] { 1, 2, 2 },
                     Output = new IList<int>[]
                     {
                         Array.Empty<int>(), new[] { 1 }, new[] { 1, 2 }, new[] { 1, 2, 2 }, new[] { 2 }, new[] { 2, 2 }
@@ -31,7 +31,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
                 yield return new TestCase
                 {
-                    Nums = new[] { 0, },
+                    Nums = new[] { 0 },
                     Output = new IList<int>[]
                     {
                         Array.Empty<int>(), new[] { 0 }

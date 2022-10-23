@@ -8,7 +8,6 @@ namespace LeetCode._0005_Longest_Palindromic_Substring;
 /// https://leetcode.com/submissions/detail/147572986/
 /// https://leetcode.com/submissions/detail/815933885/
 /// </summary>
-//[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 [UsedImplicitly]
 public class Solution6_11 : ISolution
 {

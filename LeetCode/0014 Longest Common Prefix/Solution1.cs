@@ -1,7 +1,6 @@
 ﻿using System.Text;
 
 using JetBrains.Annotations;
-// ReSharper disable All
 
 namespace LeetCode._0014_Longest_Common_Prefix;
 

@@ -1,39 +1,38 @@
 ﻿using JetBrains.Annotations;
-// ReSharper disable All
 
 namespace LeetCode._0015_3Sum;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/808494212/
+/// https://leetcode.com/submissions/detail/828943697/
 /// </summary>
 [UsedImplicitly]
-public class Solution5 : ISolution
+public class Solution6 : ISolution
 {
     public IList<IList<int>> ThreeSum(int[] nums)
     {
         var result = new List<IList<int>>();
         var entryKeys = new HashSet<string>();
-        var firstAddendumsProcessed = new HashSet<int>();
+        var firstAddendaProcessed = new HashSet<int>();
 
         for (var i = 0; i < nums.Length; i++)
         {
             var firstAddendum = nums[i];
 
-            if (firstAddendumsProcessed.Contains(firstAddendum))
+            if (firstAddendaProcessed.Contains(firstAddendum))
             {
                 continue;
             }
 
-            firstAddendumsProcessed.Add(firstAddendum);
+            firstAddendaProcessed.Add(firstAddendum);
 
             var secondAddendumCandidates = new HashSet<int>();
-            var secondAndThirdAddendumsProcessed = new HashSet<int>();
+            var secondAndThirdAddendaProcessed = new HashSet<int>();
 
-            for (int j = i + 1; j < nums.Length; j++)
+            for (var j = i + 1; j < nums.Length; j++)
             {
                 var thirdAddendum = nums[j];
 
-                if (secondAndThirdAddendumsProcessed.Contains(thirdAddendum))
+                if (secondAndThirdAddendaProcessed.Contains(thirdAddendum))
                 {
                     continue;
                 }
@@ -50,8 +49,8 @@ public class Solution5 : ISolution
                         entryKeys.Add(entryKey);
                     }
 
-                    secondAndThirdAddendumsProcessed.Add(secondAddendum);
-                    secondAndThirdAddendumsProcessed.Add(thirdAddendum);
+                    secondAndThirdAddendaProcessed.Add(secondAddendum);
+                    secondAndThirdAddendaProcessed.Add(thirdAddendum);
                 }
                 else
                 {

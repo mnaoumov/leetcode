@@ -1,5 +1,4 @@
 ﻿using JetBrains.Annotations;
-// ReSharper disable All
 
 namespace LeetCode._0237_Delete_Node_in_a_Linked_List;
 

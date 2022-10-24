@@ -1,7 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
 using JetBrains.Annotations;
-// ReSharper disable All
 
 namespace LeetCode._0065_Valid_Number;
 

@@ -1,5 +1,4 @@
 ﻿using JetBrains.Annotations;
-// ReSharper disable All
 
 namespace LeetCode._0658_Find_K_Closest_Elements;
 

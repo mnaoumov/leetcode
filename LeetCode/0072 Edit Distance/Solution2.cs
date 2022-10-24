@@ -1,5 +1,4 @@
 ﻿using JetBrains.Annotations;
-// ReSharper disable All
 
 namespace LeetCode._0072_Edit_Distance;
 

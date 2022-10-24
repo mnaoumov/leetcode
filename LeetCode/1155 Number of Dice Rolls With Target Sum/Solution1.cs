@@ -1,5 +1,4 @@
 ﻿using JetBrains.Annotations;
-// ReSharper disable All
 
 namespace LeetCode._1155_Number_of_Dice_Rolls_With_Target_Sum;
 

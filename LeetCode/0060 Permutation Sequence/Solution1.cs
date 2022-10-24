@@ -1,7 +1,6 @@
 ﻿using System.Diagnostics;
 
 using JetBrains.Annotations;
-// ReSharper disable All
 
 namespace LeetCode._0060_Permutation_Sequence;
 

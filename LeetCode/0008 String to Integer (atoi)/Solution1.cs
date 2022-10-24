@@ -1,6 +1,5 @@
 ﻿// ReSharper disable All
 using JetBrains.Annotations;
-// ReSharper disable All
 
 namespace LeetCode._0008_String_to_Integer__atoi_;
 

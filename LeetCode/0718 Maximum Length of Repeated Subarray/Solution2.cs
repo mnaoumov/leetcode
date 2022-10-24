@@ -1,6 +1,5 @@
 ﻿// ReSharper disable All
 using JetBrains.Annotations;
-// ReSharper disable All
 
 namespace LeetCode._0718_Maximum_Length_of_Repeated_Subarray;
 

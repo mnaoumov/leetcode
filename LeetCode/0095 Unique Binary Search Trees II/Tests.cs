@@ -39,7 +39,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     N = 1,
                     OutputValuesArr = new[]
                     {
-                        new int?[] { 1 },
+                        new int?[] { 1 }
                     },
                     TestCaseName = "Example 2"
                 };

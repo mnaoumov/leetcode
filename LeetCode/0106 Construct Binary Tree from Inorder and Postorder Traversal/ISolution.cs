@@ -1,0 +1,9 @@
+﻿using JetBrains.Annotations;
+
+namespace LeetCode._0106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal;
+
+[PublicAPI]
+public interface ISolution
+{
+    public TreeNode BuildTree(int[] inorder, int[] postorder);
+}

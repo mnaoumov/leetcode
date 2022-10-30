@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+// ReSharper disable All
 
 namespace LeetCode._2456_Most_Popular_Video_Creator;
 

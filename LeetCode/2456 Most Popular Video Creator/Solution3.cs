@@ -1,13 +1,12 @@
 using JetBrains.Annotations;
-// ReSharper disable All
 
 namespace LeetCode._2456_Most_Popular_Video_Creator;
 
 /// <summary>
-/// https://leetcode.com/contest/weekly-contest-317/submissions/detail/833069031/
+/// https://leetcode.com/submissions/detail/833639056/
 /// </summary>
 [UsedImplicitly]
-public class Solution2 : ISolution
+public class Solution3 : ISolution
 {
     public IList<IList<string>> MostPopularCreator(string[] creators, string[] ids, int[] views)
     {
@@ -16,7 +15,7 @@ public class Solution2 : ISolution
                 .Zip(ids, (creator, id) => (creator, id))
                 .Zip(views, (x, view) => (x.creator, x.id, view))
                 .GroupBy(x => x.creator)
-                .Select(group => (creator: group.Key, popularity: group.Select(x => (long) x.view).Sum(), group: group))
+                .Select(group => (creator: group.Key, popularity: group.Select(x => (long) x.view).Sum(), group))
                 .ToArray();
 
         var maxPopularity = groupByCreator.Select(x => x.popularity).Max();

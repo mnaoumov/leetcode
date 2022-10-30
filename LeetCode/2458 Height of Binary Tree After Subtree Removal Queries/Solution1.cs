@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._6223_Height_of_Binary_Tree_After_Subtree_Removal_Queries;
+namespace LeetCode._2458_Height_of_Binary_Tree_After_Subtree_Removal_Queries;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-317/submissions/detail/833094795/

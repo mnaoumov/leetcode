@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._6222_Minimum_Addition_to_Make_Integer_Beautiful;
+namespace LeetCode._2457_Minimum_Addition_to_Make_Integer_Beautiful;
 
 [PublicAPI]
 public interface ISolution

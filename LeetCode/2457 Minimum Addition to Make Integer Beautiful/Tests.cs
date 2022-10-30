@@ -1,8 +1,7 @@
+using JetBrains.Annotations;
 using NUnit.Framework;
 
-using JetBrains.Annotations;
-
-namespace LeetCode._6222_Minimum_Addition_to_Make_Integer_Beautiful;
+namespace LeetCode._2457_Minimum_Addition_to_Make_Integer_Beautiful;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

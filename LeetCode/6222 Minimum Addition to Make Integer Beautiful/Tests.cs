@@ -1,0 +1,51 @@
+using NUnit.Framework;
+
+using JetBrains.Annotations;
+
+namespace LeetCode._6222_Minimum_Addition_to_Make_Integer_Beautiful;
+
+[UsedImplicitly]
+public class Tests : TestsBase<ISolution, Tests.TestCase>
+{
+    protected override void TestImpl(ISolution solution, TestCase testCase)
+    {
+        Assert.That(solution.MakeIntegerBeautiful(testCase.N, testCase.Target), Is.EqualTo(testCase.Output));
+    }
+
+    public class TestCase : TestCaseBase<TestCase>
+    {
+        public long N { get; private init; }
+        public int Target { get; private init; }
+        public long Output { get; private init; }
+
+        public override IEnumerable<TestCase> TestCases
+        {
+            get
+            {
+                yield return new TestCase
+                {
+                    N = 16,
+                    Target = 6,
+                    Output = 4,
+                    TestCaseName = "Example 1"
+                };
+
+                yield return new TestCase
+                {
+                    N = 467,
+                    Target = 6,
+                    Output = 33,
+                    TestCaseName = "Example 2"
+                };
+
+                yield return new TestCase
+                {
+                    N = 1,
+                    Target = 1,
+                    Output = 0,
+                    TestCaseName = "Example 3"
+                };
+            }
+        }
+    }
+}

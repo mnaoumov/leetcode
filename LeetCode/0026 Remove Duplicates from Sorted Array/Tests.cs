@@ -9,11 +9,12 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        var k = solution.RemoveDuplicates(testCase.Nums);
+        var nums = testCase.Nums.ToArray();
+        var k = solution.RemoveDuplicates(nums);
 
         Assert.That(k, Is.EqualTo(testCase.ExpectedNums.Length));
 
-        Assert.That(testCase.Nums.Take(k), Is.EqualTo(testCase.ExpectedNums));
+        Assert.That(nums.Take(k), Is.EqualTo(testCase.ExpectedNums));
     }
 
     public class TestCase : TestCaseBase<TestCase>

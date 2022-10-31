@@ -3,6 +3,7 @@ using JetBrains.Annotations;
 namespace LeetCode._2454_Next_Greater_Element_IV;
 
 /// <summary>
+/// https://leetcode.com/submissions/detail/833855969/
 /// </summary>
 [UsedImplicitly]
 public class Solution4 : ISolution
@@ -11,8 +12,8 @@ public class Solution4 : ISolution
     {
         var result = Enumerable.Repeat(-1, nums.Length).ToArray();
 
-        var waitingForFirstGreater = new List<(int num, int negateIndex)>();
-        var waitingForSecondGreater = new List<(int num, int negateIndex)>();
+        var waitingForFirstGreater = new List<(int num, int negateIndex)> { Capacity = nums.Length };
+        var waitingForSecondGreater = new List<(int num, int negateIndex)> { Capacity = nums.Length };
 
         for (var index = 0; index < nums.Length; index++)
         {

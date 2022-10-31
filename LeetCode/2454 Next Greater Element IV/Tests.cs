@@ -35,6 +35,13 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
                 yield return new TestCase
                 {
+                    Nums = new[] { 1, 17, 18, 0, 18, 10, 20, 0 },
+                    Output = new[] { 18, 18, -1, 10, -1, -1, -1, -1 },
+                    TestCaseName = nameof(Solution1)
+                };
+
+                yield return new TestCase
+                {
                     Nums = new[]
                     {
                         4, 4, 4, 4, 4, 4, 4, 4, 4, 4,

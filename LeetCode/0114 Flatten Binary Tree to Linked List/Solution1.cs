@@ -1,5 +1,4 @@
 ﻿using JetBrains.Annotations;
-// ReSharper disable All
 
 namespace LeetCode._0114_Flatten_Binary_Tree_to_Linked_List;
 

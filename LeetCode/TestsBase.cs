@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using NUnit.Framework;
 using NUnit.Framework.Constraints;
+using NUnit.Framework.Internal;
 
 namespace LeetCode;
 
@@ -8,7 +9,6 @@ public abstract class TestsBase<TSolution, TTestCase> where TTestCase : TestCase
 {
     [Test]
     [TestCaseSource(nameof(JoinedTestCases))]
-    [Timeout(200)]
     public void Test(TSolution solution, TTestCase testCase)
     {
         TestImpl(solution, testCase);
@@ -43,6 +43,8 @@ public abstract class TestsBase<TSolution, TTestCase> where TTestCase : TestCase
                     {
                         testCaseData.Explicit(skipSolutionAttribute.Reason.ToString());
                     }
+
+                    testCaseData.Properties.Add(PropertyNames.Timeout, testCase.Timeout.Milliseconds);
 
                     yield return testCaseData;
                 }

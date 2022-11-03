@@ -4,11 +4,13 @@ using NUnit.Framework.Constraints;
 
 namespace LeetCode;
 
+[MyTestBuilder]
 public abstract class TestsBase<TSolution, TTestCase> where TTestCase : TestCaseBase<TTestCase>, new()
 {
-    [Test]
-    [TestCaseSource(nameof(JoinedTestCases))]
-    [Timeout(200)]
+    //[Test]
+    //[MyTestBuilder]
+    //[TestCaseSource(nameof(JoinedTestCases))]
+    //[Timeout(200)]
     public void Test(TSolution solution, TTestCase testCase)
     {
         TestImpl(solution, testCase);

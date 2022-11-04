@@ -1,14 +1,13 @@
 using JetBrains.Annotations;
-// ReSharper disable All
 
 namespace LeetCode._0123_Best_Time_to_Buy_and_Sell_Stock_III;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/836268641/
+/// https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/submissions/836882155/
 /// </summary>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public int MaxProfit(int[] prices)
     {
@@ -34,7 +33,7 @@ public class Solution1 : ISolution
                     : -price + calculateFunc((day + 1, true, amountOfTransactions)));
         });
 
-        return dp.GetOrCalculate(((0, false, 0)));
+        return dp.GetOrCalculate((0, false, 0));
     }
 
     private class DynamicProgramming<TKey, TValue> where TKey : notnull

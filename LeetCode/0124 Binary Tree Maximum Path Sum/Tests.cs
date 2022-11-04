@@ -41,6 +41,13 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     Output = -3,
                     TestCaseName = nameof(Solution1)
                 };
+
+                yield return new TestCase
+                {
+                    Values = new int?[] { 2, -1 },
+                    Output = 2,
+                    TestCaseName = nameof(Solution3)
+                };
             }
         }
     }

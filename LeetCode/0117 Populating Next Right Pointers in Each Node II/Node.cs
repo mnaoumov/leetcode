@@ -4,7 +4,7 @@ public class Node
 {
     // ReSharper disable once MemberCanBePrivate.Global
     // ReSharper disable once InconsistentNaming
-    public int val;
+    public readonly int val;
 
     // ReSharper disable once MemberCanBePrivate.Global
     // ReSharper disable once InconsistentNaming
@@ -18,22 +18,10 @@ public class Node
     // ReSharper disable once InconsistentNaming
     public Node? next;
 
-    public Node() { }
-
     // ReSharper disable once InconsistentNaming
-    public Node(int _val)
+    private Node(int _val)
     {
         val = _val;
-    }
-
-    // ReSharper disable InconsistentNaming
-    public Node(int _val, Node _left, Node _right, Node _next)
-    // ReSharper restore InconsistentNaming
-    {
-        val = _val;
-        left = _left;
-        right = _right;
-        next = _next;
     }
 
     public static Node? Create(int?[] values)

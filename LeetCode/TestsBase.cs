@@ -9,8 +9,9 @@ public abstract class TestsBase<TSolution, TTestCase> where TTestCase : TestCase
 {
     [Test]
     [TestCaseSource(nameof(JoinedTestCases))]
-    public void Test(TSolution solution, TTestCase testCase)
+    public void Test(TSolution solution, int testCaseIndex)
     {
+        var testCase = new TTestCase().TestCases.ElementAt(testCaseIndex);
         TestImpl(solution, testCase);
     }
 
@@ -29,11 +30,12 @@ public abstract class TestsBase<TSolution, TTestCase> where TTestCase : TestCase
 
             foreach (var solution in solutions)
             {
+                var testCaseIndex = 0;
                 foreach (var testCase in testCases)
                 {
                     var testCaseTestCaseName = testCase.TestCaseName ?? $"Test Case {Array.IndexOf(testCases, testCase) + 1}";
                     var testCaseData =
-                        new TestCaseData(solution, testCase).SetName(
+                        new TestCaseData(solution, testCaseIndex).SetName(
                             $@"{solution!.GetType().Name}: {testCaseTestCaseName}");
                     var skipSolutionAttribute =
                         (SkipSolutionAttribute?) Attribute.GetCustomAttribute(solution.GetType(),
@@ -47,6 +49,7 @@ public abstract class TestsBase<TSolution, TTestCase> where TTestCase : TestCase
                     testCaseData.Properties.Add(PropertyNames.Timeout, testCase.Timeout.Milliseconds);
 
                     yield return testCaseData;
+                    testCaseIndex++;
                 }
             }
         }

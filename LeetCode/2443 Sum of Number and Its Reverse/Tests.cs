@@ -46,7 +46,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 {
                     Num = 0,
                     Output = true,
-                    TestCaseName = "Example 3"
+                    TestCaseName = nameof(Solution1)
                 };
             }
         }

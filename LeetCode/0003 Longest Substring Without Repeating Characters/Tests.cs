@@ -50,7 +50,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     // ReSharper disable once StringLiteralTypo
                     S = "opachvf",
                     Output = 7,
-                    TestCaseName = nameof(Solution3_9)
+                    TestCaseName = nameof(Solution3_9) + " (3)"
                 };
 
                 yield return new TestCase
@@ -65,7 +65,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     // ReSharper disable once StringLiteralTypo
                     S = "tmmzuxt",
                     Output = 5,
-                    TestCaseName = nameof(Solution3_9)
+                    TestCaseName = nameof(Solution3_9) + " (9)"
                 };
             }
         }

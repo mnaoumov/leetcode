@@ -51,7 +51,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     Nums1 = new[] { 3, 4 },
                     Nums2 = new[] { 1, 2 },
                     Output = 2.5,
-                    TestCaseName = nameof(Solution05_13)
+                    TestCaseName = nameof(Solution05_13) + " (5)"
                 };
 
                 yield return new TestCase
@@ -68,7 +68,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     Nums1 = new[] { 1, 2 },
                     Nums2 = new[] { 3, 4, 5 },
                     Output = 3,
-                    TestCaseName = nameof(Solution05_13)
+                    TestCaseName = nameof(Solution05_13) + " (13)"
                 };
             }
         }

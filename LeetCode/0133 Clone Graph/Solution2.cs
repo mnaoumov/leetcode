@@ -1,13 +1,12 @@
 using JetBrains.Annotations;
-// ReSharper disable All
 
 namespace LeetCode._0133_Clone_Graph;
 
 /// <summary>
-/// https://leetcode.com/problems/clone-graph/submissions/837101204/
+/// https://leetcode.com/problems/clone-graph/submissions/837665655/
 /// </summary>
 [UsedImplicitly]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public Node? CloneGraph(Node? node)
     {
@@ -26,7 +25,7 @@ public class Solution1 : ISolution
 
             foreach (var neighbor in node2.neighbors)
             {
-                clone.neighbors.Add(CloneRecursive(neighbor)!);
+                clone.neighbors.Add(CloneRecursive(neighbor));
             }
 
             return clone;

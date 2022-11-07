@@ -1,26 +1,20 @@
 using JetBrains.Annotations;
-// ReSharper disable All
-#pragma warning disable IDE0059
-#pragma warning disable CS0219
 
 namespace LeetCode._2461_Maximum_Sum_of_Distinct_Subarrays_With_Length_K;
 
 /// <summary>
-/// https://leetcode.com/contest/weekly-contest-318/submissions/detail/837734210/
+/// https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/submissions/838923936/
 /// </summary>
 [UsedImplicitly]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public long MaximumSubarraySum(int[] nums, int k)
     {
-        var items = new HashSet<int>();
         long result = 0;
         long sum = 0;
 
         var countDict = new Dictionary<int, int>();
         var set = new HashSet<int>();
-
-        var index = 0;
 
         for (var i = 0; i < nums.Length; i++)
         {

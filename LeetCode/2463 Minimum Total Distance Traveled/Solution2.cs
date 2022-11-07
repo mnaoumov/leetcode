@@ -3,11 +3,11 @@ using JetBrains.Annotations;
 namespace LeetCode._2463_Minimum_Total_Distance_Traveled;
 
 /// <summary>
-/// https://leetcode.com/problems/minimum-total-distance-traveled/submissions/838820231/
+/// https://leetcode.com/problems/minimum-total-distance-traveled/submissions/838828140/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.RuntimeError)]
-public class Solution1 : ISolution
+[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
+public class Solution2 : ISolution
 {
     public long MinimumTotalDistance(IList<int> robot, int[][] factory) => MinimumTotalDistanceImpl(robot, factory);
 
@@ -57,33 +57,32 @@ public class Solution1 : ISolution
                 continue;
             }
 
-            foreach (var robot in state.AvailableRobots)
+            var robot = state.AvailableRobots.First();
+
+            MoveToTheNextFactory(robot.RightFactoryIndex, 1);
+
+            if (robot.IsAtFactory && state.IsFactoryAvailable(robot.RightFactoryIndex))
             {
-                MoveToTheNextFactory(robot.RightFactoryIndex, 1);
+                continue;
+            }
 
-                if (robot.IsAtFactory && state.IsFactoryAvailable(robot.RightFactoryIndex))
+            MoveToTheNextFactory(robot.LeftFactoryIndex, -1);
+
+            void MoveToTheNextFactory(int factoryIndexStart, int factoryIndexStep)
+            {
+                for (var i = factoryIndexStart; 0 <= i && i < factories.Length; i += factoryIndexStep)
                 {
-                    continue;
-                }
-
-                MoveToTheNextFactory(robot.LeftFactoryIndex, -1);
-
-                void MoveToTheNextFactory(int factoryIndexStart, int factoryIndexStep)
-                {
-                    for (var i = factoryIndexStart; 0 <= i && i < factories.Length; i += factoryIndexStep)
+                    if (!state.IsFactoryAvailable(i))
                     {
-                        if (!state.IsFactoryAvailable(i))
-                        {
-                            continue;
-                        }
-
-                        var nextState = new State(state);
-                        nextState.TotalDistance += Math.Abs(factories[i].Position - robot.Position);
-                        nextState.FactoryLimits[i]--;
-                        nextState.AvailableRobots.Remove(robot);
-                        queue.Enqueue(nextState);
-                        break;
+                        continue;
                     }
+
+                    var nextState = new State(state);
+                    nextState.TotalDistance += Math.Abs(factories[i].Position - robot.Position);
+                    nextState.FactoryLimits[i]--;
+                    nextState.AvailableRobots.Remove(robot);
+                    queue.Enqueue(nextState);
+                    break;
                 }
             }
         }

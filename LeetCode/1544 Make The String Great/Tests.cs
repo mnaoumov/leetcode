@@ -23,6 +23,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
             {
                 yield return new TestCase
                 {
+                    // ReSharper disable once StringLiteralTypo
                     S = "leEeetcode",
                     Output = "leetcode",
                     TestCaseName = "Example 1"

@@ -4,6 +4,7 @@ namespace LeetCode._0026_Remove_Duplicates_from_Sorted_Array;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/829013575/
+/// https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/841077699/
 /// </summary>
 [UsedImplicitly]
 public class Solution2 : ISolution

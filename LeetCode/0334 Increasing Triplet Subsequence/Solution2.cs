@@ -4,7 +4,7 @@
 namespace LeetCode._0334_Increasing_Triplet_Subsequence;
 
 /// <summary>
-/// 
+/// https://leetcode.com/problems/increasing-triplet-subsequence/submissions/820270164/
 /// </summary>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]

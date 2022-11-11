@@ -4,7 +4,7 @@
 namespace LeetCode._0416_Partition_Equal_Subset_Sum;
 
 /// <summary>
-/// 
+/// https://leetcode.com/problems/partition-equal-subset-sum/submissions/196669406/
 /// </summary>
 [SkipSolution(SkipSolutionReason.MemoryLimitExceeded)]
 [UsedImplicitly]

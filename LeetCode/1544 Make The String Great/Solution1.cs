@@ -4,7 +4,7 @@ using JetBrains.Annotations;
 namespace LeetCode._1544_Make_The_String_Great;
 
 /// <summary>
-/// 
+/// https://leetcode.com/problems/make-the-string-great/submissions/839068203/
 /// </summary>
 [UsedImplicitly]
 public class Solution1 : ISolution

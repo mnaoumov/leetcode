@@ -9,10 +9,9 @@ public abstract class TestsBase<TSolution, TTestCase> where TTestCase : TestCase
 {
     [Test]
     [TestCaseSource(nameof(JoinedTestCases))]
-    public void Test(TSolution solution, int testCaseIndex)
+    public void Test(TSolution solution, TestCaseBuilder<TTestCase> testCaseBuilder)
     {
-        var testCase = new TTestCase().TestCases.ElementAt(testCaseIndex);
-        TestImpl(solution, testCase);
+        TestImpl(solution, testCaseBuilder.TestCaseFunc());
     }
 
     protected abstract void TestImpl(TSolution solution, TTestCase testCase);
@@ -25,28 +24,27 @@ public abstract class TestsBase<TSolution, TTestCase> where TTestCase : TestCase
             var solutionTypes = solutionInterfaceType.Assembly.GetTypes().Where(t => t.IsClass && t.IsAssignableTo(solutionInterfaceType));
             var solutions = solutionTypes.Select(t => (TSolution)Activator.CreateInstance(t)!);
 
-            var testCaseBuilder = new TTestCase();
-            var testCases = testCaseBuilder.TestCases.ToArray();
+            var testCaseBuilders = new TTestCase().TestCaseBuilders.ToArray();
 
             foreach (var solution in solutions)
             {
                 var testCaseIndex = 0;
                 var testCaseNames = new HashSet<string>();
-                foreach (var testCase in testCases)
+                foreach (var testCaseBuilder in testCaseBuilders)
                 {
-                    if (string.IsNullOrEmpty(testCase.TestCaseName))
+                    if (string.IsNullOrEmpty(testCaseBuilder.TestCaseName))
                     {
                         throw new Exception($"Test case #{testCaseIndex} does not have mandatory TestCaseName");
                     }
 
-                    if (!testCaseNames.Add(testCase.TestCaseName))
+                    if (!testCaseNames.Add(testCaseBuilder.TestCaseName))
                     {
-                        throw new Exception($"Test case name '{testCase.TestCaseName}' is duplicated");
+                        throw new Exception($"Test case name '{testCaseBuilder.TestCaseName}' is duplicated");
                     }
 
-                    var testCaseTestCaseName = testCase.TestCaseName;
+                    var testCaseTestCaseName = testCaseBuilder.TestCaseName;
                     var testCaseData =
-                        new TestCaseData(solution, testCaseIndex).SetName(
+                        new TestCaseData(solution, testCaseBuilder).SetName(
                             $@"{solution!.GetType().Name}: {testCaseTestCaseName}");
                     var skipSolutionAttribute =
                         (SkipSolutionAttribute?) Attribute.GetCustomAttribute(solution.GetType(),
@@ -57,7 +55,7 @@ public abstract class TestsBase<TSolution, TTestCase> where TTestCase : TestCase
                         testCaseData.Explicit(skipSolutionAttribute.Reason.ToString());
                     }
 
-                    testCaseData.Properties.Add(PropertyNames.Timeout, testCase.Timeout.Milliseconds);
+                    testCaseData.Properties.Add(PropertyNames.Timeout, testCaseBuilder.Timeout.Milliseconds);
 
                     yield return testCaseData;
                     testCaseIndex++;

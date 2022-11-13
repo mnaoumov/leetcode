@@ -12,4 +12,16 @@
     <PackageReference Include="NUnit" Version="3.13.3" />
   </ItemGroup>
 
+  <Target Name="GatherJsonAnalyzers">
+    <ItemGroup>
+      <_JsonAnalyzers Include="@(Analyzer)" Condition=" '%(Analyzer.Filename)' == 'System.Text.Json.SourceGeneration' " />
+    </ItemGroup>
+  </Target>
+  <Target Name="RemoveJsonAnalyzers"
+          BeforeTargets="CoreCompile"
+          DependsOnTargets="GatherJsonAnalyzers">
+    <ItemGroup>
+      <Analyzer Remove="@(_JsonAnalyzers)" />
+    </ItemGroup>
+  </Target>
 </Project>

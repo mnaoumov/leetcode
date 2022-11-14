@@ -1,3 +1,4 @@
 {
-  "equations": ["a==b","b!=a"]
+  "equations": ["a==b","b!=a"],
+  "output": false
 }

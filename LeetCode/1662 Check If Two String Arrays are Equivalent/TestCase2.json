@@ -1,4 +1,5 @@
 {
   "word1": ["a","cb"],
-  "word2": ["ab","c"]
+  "word2": ["ab","c"],
+  "output": false
 }

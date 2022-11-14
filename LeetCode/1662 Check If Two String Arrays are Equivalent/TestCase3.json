@@ -1,0 +1,5 @@
+{
+  "word1": ["abc","d","defg"],
+  "word2": ["abcddefg"],
+  "output": true
+}

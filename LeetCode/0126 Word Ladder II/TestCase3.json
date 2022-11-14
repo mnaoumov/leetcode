@@ -1,0 +1,6 @@
+{
+  "beginWord": "red",
+  "endWord": "tax",
+  "wordList": ["ted","tex","red","tax","tad","den","rex","pee"],
+  "output": [["red","ted","tad","tax"],["red","ted","tex","tax"],["red","rex","tex","tax"]]
+}

@@ -13,11 +13,11 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public int Low { get; private init; }
-        public int High { get; private init; }
-        public int Zero { get; private init; }
-        public int One { get; private init; }
-        public int Output { get; private init; }
+        public int Low { get; [UsedImplicitly] init; }
+        public int High { get; [UsedImplicitly] init; }
+        public int Zero { get; [UsedImplicitly] init; }
+        public int One { get; [UsedImplicitly] init; }
+        public int Output { get; [UsedImplicitly] init; }
 
         public override IEnumerable<TestCase> TestCases
         {

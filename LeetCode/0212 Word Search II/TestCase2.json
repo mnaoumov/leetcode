@@ -1,0 +1,5 @@
+{
+  "board": [["a","b"],["c","d"]],
+  "words": ["abcb"],
+  "output": []
+}

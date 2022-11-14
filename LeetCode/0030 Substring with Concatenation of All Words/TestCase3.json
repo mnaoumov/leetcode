@@ -1,0 +1,5 @@
+{
+  "s": "barfoofoobarthefoobarman",
+  "words": ["bar","foo","the"],
+  "output": [6,9,12]
+}

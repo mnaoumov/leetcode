@@ -43,7 +43,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public int[][] AdjustmentLists { get; private init; } = null!;
+        public int[][] AdjustmentLists { get; [UsedImplicitly] init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {

@@ -1,0 +1,5 @@
+{
+  "s": "catsanddog",
+  "wordDict": ["cat","cats","and","sand","dog"],
+  "output": ["cats and dog","cat sand dog"]
+}

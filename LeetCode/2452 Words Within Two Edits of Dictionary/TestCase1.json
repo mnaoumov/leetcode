@@ -1,0 +1,5 @@
+{
+  "queries": ["word","note","ants","wood"],
+  "dictionary": ["wood","joke","moat"],
+  "output": ["word","note","wood"]
+}

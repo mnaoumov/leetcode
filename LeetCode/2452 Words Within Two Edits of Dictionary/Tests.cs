@@ -13,9 +13,9 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public string[] Queries { get; private init; } = null!;
-        public string[] Dictionary { get; private init; } = null!;
-        public IList<string> Output { get; private init; } = null!;
+        public string[] Queries { get; [UsedImplicitly] init; } = null!;
+        public string[] Dictionary { get; [UsedImplicitly] init; } = null!;
+        public IList<string> Output { get; [UsedImplicitly] init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {

@@ -14,10 +14,10 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public int[] Arr { get; private init; } = null!;
-        public int K { get; private init; }
-        public int X { get; private init; }
-        public int[] Output { get; private init; } = null!;
+        public int[] Arr { get; [UsedImplicitly] init; } = null!;
+        public int K { get; [UsedImplicitly] init; }
+        public int X { get; [UsedImplicitly] init; }
+        public int[] Output { get; [UsedImplicitly] init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {

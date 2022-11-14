@@ -15,10 +15,10 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public int?[] ValuesBefore { get; private init; } = null!;
-        public int?[] ValuesAfter { get; private init; } = null!;
-        public int Val { get; private init; }
-        public int Depth { get; private init; }
+        public int?[] ValuesBefore { get; [UsedImplicitly] init; } = null!;
+        public int?[] ValuesAfter { get; [UsedImplicitly] init; } = null!;
+        public int Val { get; [UsedImplicitly] init; }
+        public int Depth { get; [UsedImplicitly] init; }
 
         public override IEnumerable<TestCase> TestCases
         {

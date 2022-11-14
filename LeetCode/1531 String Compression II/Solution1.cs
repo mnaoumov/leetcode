@@ -135,7 +135,7 @@ public class Solution1 : ISolution
             return new LetterGroup("") { IsWrong = true };
         }
 
-        public bool IsWrong { get; private init; }
+        public bool IsWrong { get; [UsedImplicitly] init; }
 
         public override string ToString() => string.Concat(_pairs.Select(pair => pair.ToString()));
     }

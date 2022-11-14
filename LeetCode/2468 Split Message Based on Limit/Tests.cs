@@ -12,9 +12,9 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public string Message { get; private init; } = null!;
-        public int Limit { get; private init; }
-        public string[] Output { get; private init; } = null!;
+        public string Message { get; [UsedImplicitly] init; } = null!;
+        public int Limit { get; [UsedImplicitly] init; }
+        public string[] Output { get; [UsedImplicitly] init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {

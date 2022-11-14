@@ -15,11 +15,11 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public int[] Nums1 { get; private init; } = null!;
-        public int M { get; private init; }
-        public int[] Nums2 { get; private init; } = null!;
-        public int N { get; private init; }
-        public int[] Output { get; private init; } = null!;
+        public int[] Nums1 { get; [UsedImplicitly] init; } = null!;
+        public int M { get; [UsedImplicitly] init; }
+        public int[] Nums2 { get; [UsedImplicitly] init; } = null!;
+        public int N { get; [UsedImplicitly] init; }
+        public int[] Output { get; [UsedImplicitly] init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {

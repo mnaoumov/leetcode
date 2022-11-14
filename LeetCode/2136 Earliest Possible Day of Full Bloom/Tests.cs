@@ -14,9 +14,9 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public int[] PlantTime { get; private init; } = null!;
-        public int[] GrowTime { get; private init; } = null!;
-        public int Output { get; private init; }
+        public int[] PlantTime { get; [UsedImplicitly] init; } = null!;
+        public int[] GrowTime { get; [UsedImplicitly] init; } = null!;
+        public int Output { get; [UsedImplicitly] init; }
 
         public override IEnumerable<TestCase> TestCases
         {

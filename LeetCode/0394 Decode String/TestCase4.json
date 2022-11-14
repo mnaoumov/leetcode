@@ -1,0 +1,4 @@
+{
+  "s": "abc3[cd]xyz",
+  "output": "abccdcdcdxyz"
+}

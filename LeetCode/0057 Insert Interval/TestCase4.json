@@ -1,0 +1,5 @@
+{
+  "intervals": [[1,5],[6,8]],
+  "newInterval": [0,9],
+  "output": [[0,9]]
+}

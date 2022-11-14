@@ -1,0 +1,4 @@
+{
+  "equations": ["e==d","e==a","f!=d","b!=c","a==b"],
+  "output": true
+}

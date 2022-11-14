@@ -12,9 +12,9 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public int[] Candidates { get; private init; } = null!;
-        public int Target { get; private init; }
-        public IList<IList<int>> Output { get; private init; } = null!;
+        public int[] Candidates { get; [UsedImplicitly] init; } = null!;
+        public int Target { get; [UsedImplicitly] init; }
+        public IList<IList<int>> Output { get; [UsedImplicitly] init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {

@@ -1,0 +1,6 @@
+{
+  "costs": [1,2,4,1],
+  "k": 3,
+  "candidates": 3,
+  "output": 4
+}

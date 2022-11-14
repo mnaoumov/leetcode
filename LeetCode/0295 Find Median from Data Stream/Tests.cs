@@ -15,7 +15,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public Action<IMedianFinder> Test { get; private init; } = null!;
+        public Action<IMedianFinder> Test { get; [UsedImplicitly] init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {

@@ -1,0 +1,6 @@
+{
+  "creators": ["alice","alice","alice"],
+  "ids": ["a","b","c"],
+  "views": [1,2,2],
+  "output": [["alice","b"]]
+}

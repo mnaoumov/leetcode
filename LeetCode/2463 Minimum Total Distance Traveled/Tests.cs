@@ -13,9 +13,9 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public IList<int> Robot { get; private init; } = null!;
-        public int[][] Factory { get; private init; } = null!;
-        public long Output { get; private init; }
+        public IList<int> Robot { get; [UsedImplicitly] init; } = null!;
+        public int[][] Factory { get; [UsedImplicitly] init; } = null!;
+        public long Output { get; [UsedImplicitly] init; }
 
         public override IEnumerable<TestCase> TestCases
         {

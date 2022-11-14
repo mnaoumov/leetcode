@@ -1,0 +1,6 @@
+{
+  "start": "AAAAACCC",
+  "end": "AACCCCCC",
+  "bank": ["AAAACCCC","AAACCCCC","AACCCCCC"],
+  "output": 3
+}

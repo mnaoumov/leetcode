@@ -15,8 +15,8 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public int K { get; private init; }
-        public Action<IMyCircularQueue> Test { get; private init; } = null!;
+        public int K { get; [UsedImplicitly] init; }
+        public Action<IMyCircularQueue> Test { get; [UsedImplicitly] init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {

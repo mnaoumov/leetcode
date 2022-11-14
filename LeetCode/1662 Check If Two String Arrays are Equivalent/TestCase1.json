@@ -1,0 +1,5 @@
+{
+  "word1": ["ab","c"],
+  "word2": ["a","bc"],
+  "output": true
+}

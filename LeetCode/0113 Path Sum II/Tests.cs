@@ -12,9 +12,9 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public int?[] RootValues { get; private init; } = null!;
-        public int TargetSum { get; private init; }
-        public IList<IList<int>> Output { get; private init; } = null!;
+        public int?[] RootValues { get; [UsedImplicitly] init; } = null!;
+        public int TargetSum { get; [UsedImplicitly] init; }
+        public IList<IList<int>> Output { get; [UsedImplicitly] init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {

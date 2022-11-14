@@ -14,9 +14,9 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public int NumCourses { get; private init; }
-        public int[][] Prerequisites { get; private init; } = null!;
-        public bool Output { get; private init; }
+        public int NumCourses { get; [UsedImplicitly] init; }
+        public int[][] Prerequisites { get; [UsedImplicitly] init; } = null!;
+        public bool Output { get; [UsedImplicitly] init; }
 
         public override IEnumerable<TestCase> TestCases
         {

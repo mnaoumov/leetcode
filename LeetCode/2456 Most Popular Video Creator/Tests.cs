@@ -12,10 +12,10 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public string[] Creators { get; private init; } = null!;
-        public string[] Ids { get; private init; } = null!;
-        public int[] Views { get; private init; } = null!;
-        public IList<IList<string>> Output { get; private init; } = null!;
+        public string[] Creators { get; [UsedImplicitly] init; } = null!;
+        public string[] Ids { get; [UsedImplicitly] init; } = null!;
+        public int[] Views { get; [UsedImplicitly] init; } = null!;
+        public IList<IList<string>> Output { get; [UsedImplicitly] init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {

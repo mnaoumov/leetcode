@@ -15,8 +15,8 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public int Capacity { get; private init; }
-        public Action<ILRUCache> Test { get; private init; } = null!;
+        public int Capacity { get; [UsedImplicitly] init; }
+        public Action<ILRUCache> Test { get; [UsedImplicitly] init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {

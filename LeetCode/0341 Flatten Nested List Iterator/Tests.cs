@@ -21,8 +21,8 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
     public class TestCase : TestCaseBase<TestCase>
     {
-        public NestedInteger[] NestedList { get; private init; } = null!;
-        public int[] Output { get; private init; } = null!;
+        public NestedInteger[] NestedList { get; [UsedImplicitly] init; } = null!;
+        public int[] Output { get; [UsedImplicitly] init; } = null!;
 
         public override IEnumerable<TestCase> TestCases
         {

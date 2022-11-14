@@ -1,0 +1,5 @@
+{
+  "list1Values": [1,2,4],
+  "list2Values": [1,3,4],
+  "outputValues": [1,1,2,3,4,4]
+}

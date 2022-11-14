@@ -11,7 +11,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.MaximumSubarraySum(testCase.Nums, testCase.K), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int[] Nums { get; [UsedImplicitly] init; } = null!;
         public int K { get; [UsedImplicitly] init; }

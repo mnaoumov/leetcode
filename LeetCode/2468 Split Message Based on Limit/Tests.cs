@@ -10,7 +10,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         AssertCollectionEqualWithDetails(solution.SplitMessage(testCase.Message, testCase.Limit), testCase.Output);
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public string Message { get; [UsedImplicitly] init; } = null!;
         public int Limit { get; [UsedImplicitly] init; }

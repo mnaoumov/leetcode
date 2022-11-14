@@ -12,7 +12,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.Multiply(testCase.Num1, testCase.Num2), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public string Num1 { get; [UsedImplicitly] init; } = null!;
         public string Num2 { get; [UsedImplicitly] init; } = null!;

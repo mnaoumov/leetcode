@@ -11,7 +11,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         testCase.Test(sut);
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int Capacity { get; [UsedImplicitly] init; }
         public Action<ILRUCache> Test { get; [UsedImplicitly] init; } = null!;

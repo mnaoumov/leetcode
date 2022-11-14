@@ -10,7 +10,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         AssertCollectionEqualWithDetails(solution.ZigzagLevelOrder(TreeNode.Create(testCase.RootValues)), testCase.Output);
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int?[] RootValues { get; [UsedImplicitly] init; } = null!;
         public IList<IList<int>> Output { get; [UsedImplicitly] init; } = null!;

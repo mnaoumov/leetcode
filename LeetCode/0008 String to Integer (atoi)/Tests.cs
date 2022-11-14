@@ -12,7 +12,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.MyAtoi(testCase.S), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public string S { get; [UsedImplicitly] init; } = null!;
         public int Output { get; [UsedImplicitly] init; }

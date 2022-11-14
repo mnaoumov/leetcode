@@ -12,7 +12,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.AddBinary(testCase.A, testCase.B), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public string A { get; [UsedImplicitly] init; } = null!;
         public string B { get; [UsedImplicitly] init; } = null!;

@@ -48,7 +48,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         return result;
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int N { get; [UsedImplicitly] init; }
     }

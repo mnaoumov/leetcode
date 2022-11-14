@@ -11,7 +11,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.MakeIntegerBeautiful(testCase.N, testCase.Target), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public long N { get; [UsedImplicitly] init; }
         public int Target { get; [UsedImplicitly] init; }

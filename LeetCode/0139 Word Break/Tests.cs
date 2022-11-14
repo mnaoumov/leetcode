@@ -12,7 +12,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.WordBreak(testCase.S, testCase.WordDict), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public string S { get; [UsedImplicitly] init; } = null!;
         public IList<string> WordDict { get; [UsedImplicitly] init; } = null!;

@@ -10,7 +10,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         AssertCollectionEqualWithDetails(solution.ConvertTemperature(testCase.Celsius), testCase.Output);
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public double Celsius { get; [UsedImplicitly] init; }
         public double[] Output { get; [UsedImplicitly] init; } = null!;

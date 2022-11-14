@@ -12,7 +12,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.MinCost(testCase.Colors, testCase.NeededTime), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public string Colors { get; [UsedImplicitly] init; } = null!;
         public int[] NeededTime { get; [UsedImplicitly] init; } = null!;

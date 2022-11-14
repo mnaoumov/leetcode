@@ -12,7 +12,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.LadderLength(testCase.BeginWord, testCase.EndWord, testCase.WordList), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public string BeginWord { get; [UsedImplicitly] init; } = null!;
         public string EndWord { get; [UsedImplicitly] init; } = null!;

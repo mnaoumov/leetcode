@@ -12,7 +12,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.LeastInterval(testCase.Tasks, testCase.N), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public char[] Tasks { get; [UsedImplicitly] init; } = null!;
         public int N { get; [UsedImplicitly] init; }

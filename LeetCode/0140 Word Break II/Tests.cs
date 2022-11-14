@@ -10,7 +10,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         AssertCollectionEquivalentWithDetails(solution.WordBreak(testCase.S, testCase.WordDict), testCase.Output);
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public string S { get; [UsedImplicitly] init; } = null!;
         public IList<string> WordDict { get; [UsedImplicitly] init; } = null!;

@@ -12,7 +12,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         AssertCollectionEqualWithDetails(matrix, testCase.Output);
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int[][] Matrix { get; [UsedImplicitly] init; } = null!;
         public int[][] Output { get; [UsedImplicitly] init; } = null!;

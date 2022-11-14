@@ -16,7 +16,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.LowestCommonAncestor(root, p, q), Is.SameAs(returnNode));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int?[] Values { get; [UsedImplicitly] init; } = null!;
         public int P { get; [UsedImplicitly] init; }

@@ -13,7 +13,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
             valuesAfter: testCase.ValuesAfter);
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int K { get; [UsedImplicitly] init; }
         public int[] ValuesBefore { get; [UsedImplicitly] init; } = null!;

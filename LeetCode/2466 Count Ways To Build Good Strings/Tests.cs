@@ -11,7 +11,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.CountGoodStrings(testCase.Low, testCase.High, testCase.Zero, testCase.One), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int Low { get; [UsedImplicitly] init; }
         public int High { get; [UsedImplicitly] init; }

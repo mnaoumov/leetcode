@@ -10,7 +10,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         AssertCollectionEqualWithDetails(solution.TreeQueries(TreeNode.Create(testCase.RootValues)!, testCase.Queries), testCase.Output);
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int?[] RootValues { get; [UsedImplicitly] init; } = null!;
         public int[] Queries { get; [UsedImplicitly] init; } = null!;

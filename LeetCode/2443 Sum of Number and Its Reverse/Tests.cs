@@ -12,7 +12,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.SumOfNumberAndReverse(testCase.Num), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int Num { get; [UsedImplicitly] init; }
         public bool Output { get; [UsedImplicitly] init; }

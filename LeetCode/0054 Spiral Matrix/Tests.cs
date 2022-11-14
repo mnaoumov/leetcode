@@ -10,7 +10,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         AssertCollectionEqualWithDetails(solution.SpiralOrder(testCase.Matrix), testCase.Output);
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int[][] Matrix { get; [UsedImplicitly] init; } = null!;
         public IList<int> Output { get; [UsedImplicitly] init; } = null!;

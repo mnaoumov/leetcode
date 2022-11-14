@@ -10,7 +10,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         AssertCollectionEqualWithDetails(solution.Insert(testCase.Intervals, testCase.NewInterval), testCase.Output);
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int[][] Intervals { get; [UsedImplicitly] init; } = null!;
         public int[] NewInterval { get; [UsedImplicitly] init; } = null!;

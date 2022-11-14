@@ -10,7 +10,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         AssertCollectionEqualWithDetails(solution.PathSum(TreeNode.Create(testCase.RootValues), testCase.TargetSum), testCase.Output);
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int?[] RootValues { get; [UsedImplicitly] init; } = null!;
         public int TargetSum { get; [UsedImplicitly] init; }

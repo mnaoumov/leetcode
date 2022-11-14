@@ -11,7 +11,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.BuildTree(testCase.Inorder, testCase.Postorder), Is.EqualTo(TreeNode.Create(testCase.OutputValues)));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int[] Inorder { get; [UsedImplicitly] init; } = null!;
         public int[] Postorder { get; [UsedImplicitly] init; } = null!;

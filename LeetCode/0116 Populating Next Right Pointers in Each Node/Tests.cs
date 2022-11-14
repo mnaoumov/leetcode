@@ -40,7 +40,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         }
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int[] RootValues { get; [UsedImplicitly] init; } = null!;
         public int?[] OutputValues { get; [UsedImplicitly] init; } = null!;

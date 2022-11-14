@@ -12,7 +12,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.FindClosestElements(testCase.Arr, testCase.K, testCase.X), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int[] Arr { get; [UsedImplicitly] init; } = null!;
         public int K { get; [UsedImplicitly] init; }

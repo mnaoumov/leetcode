@@ -6,7 +6,7 @@ using Newtonsoft.Json;
 
 namespace LeetCode;
 
-public abstract class TestsBase<TSolution, TTestCase> where TTestCase : TestCaseBase<TTestCase>, new()
+public abstract class TestsBase<TSolution, TTestCase> where TTestCase : TestCaseBase, new()
 {
     [Test]
     [TestCaseSource(nameof(JoinedTestCases))]

@@ -12,7 +12,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.IsMatch(testCase.S, testCase.P), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public string S { get; [UsedImplicitly] init; } = null!;
         public string P { get; [UsedImplicitly] init; } = null!;

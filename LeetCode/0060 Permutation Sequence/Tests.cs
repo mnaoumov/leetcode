@@ -12,7 +12,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.GetPermutation(testCase.N, testCase.K), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int N { get; [UsedImplicitly] init; }
         public int K { get; [UsedImplicitly] init; }

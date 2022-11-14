@@ -11,7 +11,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.MinimumTotalDistance(testCase.Robot, testCase.Factory), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public IList<int> Robot { get; [UsedImplicitly] init; } = null!;
         public int[][] Factory { get; [UsedImplicitly] init; } = null!;

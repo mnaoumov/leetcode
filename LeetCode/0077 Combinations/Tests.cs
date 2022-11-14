@@ -10,7 +10,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         AssertCollectionEquivalentIgnoringItemOrderWithDetails(solution.Combine(testCase.N, testCase.K), testCase.Output);
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int N { get; [UsedImplicitly] init; }
         public int K { get; [UsedImplicitly] init; }

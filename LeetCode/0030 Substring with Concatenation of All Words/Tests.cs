@@ -12,7 +12,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.FindSubstring(testCase.S, testCase.Words), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public string S { get; [UsedImplicitly] init; } = null!;
         public string[] Words { get; [UsedImplicitly] init; } = null!;

@@ -12,7 +12,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.Convert(testCase.String, testCase.NumRows), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public string String { get; [UsedImplicitly] init; } = null!;
         public int NumRows { get; [UsedImplicitly] init; }

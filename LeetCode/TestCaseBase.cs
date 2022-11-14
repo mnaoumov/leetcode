@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 
 namespace LeetCode;
 
-public abstract class TestCaseBase<TTestCase> where TTestCase : TestCaseBase<TTestCase>
+public abstract class TestCaseBase
 {
     [JsonIgnore]
     public string? TestCaseName { get; set; }

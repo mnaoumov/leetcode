@@ -12,7 +12,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.MergeTwoLists(ListNode.Create(testCase.List1Values), ListNode.Create(testCase.List2Values)), Is.EqualTo(ListNode.Create(testCase.OutputValues)));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int[] List1Values { get; [UsedImplicitly] init; } = null!;
         public int[] List2Values { get; [UsedImplicitly] init; } = null!;

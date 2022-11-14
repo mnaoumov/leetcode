@@ -10,7 +10,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         AssertCollectionEqualWithDetails(solution.FullJustify(testCase.Words, testCase.MaxWidth), testCase.Output);
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public string[] Words { get; [UsedImplicitly] init; } = null!;
         public int MaxWidth { get; [UsedImplicitly] init; }

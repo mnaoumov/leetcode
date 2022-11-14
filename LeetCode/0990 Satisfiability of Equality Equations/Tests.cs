@@ -12,7 +12,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.EquationsPossible(testCase.Equations), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public string[] Equations { get; [UsedImplicitly] init; } = null!;
         public bool Output { get; [UsedImplicitly] init; }

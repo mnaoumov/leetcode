@@ -16,7 +16,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(nums.Take(k).OrderBy(x => x), Is.EqualTo(testCase.ExpectedNums));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int[] Nums { get; [UsedImplicitly] init; } = null!;
         public int Val { get; [UsedImplicitly] init; }

@@ -13,7 +13,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
             IsEquivalentToIgnoringItemOrder(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int[] Nums { get; [UsedImplicitly] init; } = null!;
         public int[][] Output { get; [UsedImplicitly] init; } = null!;

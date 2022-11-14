@@ -10,7 +10,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         AssertCollectionEqualWithDetails(solution.CombinationSum(testCase.Candidates, testCase.Target), testCase.Output);
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int[] Candidates { get; [UsedImplicitly] init; } = null!;
         public int Target { get; [UsedImplicitly] init; }

@@ -11,7 +11,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.HaveConflict(testCase.Event1, testCase.Event2), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public string[] Event1 { get; [UsedImplicitly] init; } = null!;
         public string[] Event2 { get; [UsedImplicitly] init; } = null!;

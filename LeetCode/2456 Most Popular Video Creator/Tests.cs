@@ -10,7 +10,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         AssertCollectionEqualWithDetails(solution.MostPopularCreator(testCase.Creators, testCase.Ids, testCase.Views), testCase.Output);
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public string[] Creators { get; [UsedImplicitly] init; } = null!;
         public string[] Ids { get; [UsedImplicitly] init; } = null!;

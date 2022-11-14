@@ -11,7 +11,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.IsSameTree(TreeNode.Create(testCase.PValues)!, TreeNode.Create(testCase.QValues)!), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int?[] PValues { get; [UsedImplicitly] init; } = null!;
         public int?[] QValues { get; [UsedImplicitly] init; } = null!;

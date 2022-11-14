@@ -11,7 +11,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
             testCase.OutputValuesArr.Select(TreeNode.Create));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int N { get; [UsedImplicitly] init; }
         public int?[][] OutputValuesArr { get; [UsedImplicitly] init; } = null!;

@@ -12,7 +12,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.HasPathSum(TreeNode.Create(testCase.TreeNodeValues)!, testCase.TargetSum), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int?[] TreeNodeValues { get; [UsedImplicitly] init; } = null!;
         public int TargetSum { get; [UsedImplicitly] init; }

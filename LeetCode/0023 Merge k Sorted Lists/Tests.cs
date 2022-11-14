@@ -14,7 +14,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.MergeKLists(lists), Is.EqualTo(ListNode.CreateOrNull(testCase.OutputValues)));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int[][] ListValuesArr { get; [UsedImplicitly] init; } = null!;
         public int[] OutputValues { get; [UsedImplicitly] init; } = null!;

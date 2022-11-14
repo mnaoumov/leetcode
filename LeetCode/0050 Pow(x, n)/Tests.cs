@@ -12,7 +12,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.MyPow(testCase.X, testCase.N), Is.EqualTo(testCase.Output).Within(1e-10));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public double X { get; [UsedImplicitly] init; }
         public int N { get; [UsedImplicitly] init; }

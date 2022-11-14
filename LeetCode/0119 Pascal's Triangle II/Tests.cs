@@ -10,7 +10,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         AssertCollectionEqualWithDetails(solution.GetRow(testCase.RowIndex), testCase.Output);
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int RowIndex { get; [UsedImplicitly] init; }
         public IList<int> Output { get; [UsedImplicitly] init; } = null!;

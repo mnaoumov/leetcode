@@ -19,7 +19,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         AssertCollectionEqualWithDetails(list, testCase.Output);
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public NestedInteger[] NestedList { get; [UsedImplicitly] init; } = null!;
         public int[] Output { get; [UsedImplicitly] init; } = null!;

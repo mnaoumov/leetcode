@@ -12,7 +12,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.FindMaximizedCapital(testCase.K, testCase.W, testCase.Profits, testCase.Capital), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int K { get; [UsedImplicitly] init; }
         public int W { get; [UsedImplicitly] init; }

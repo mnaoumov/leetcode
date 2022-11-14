@@ -11,7 +11,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.MostProfitablePath(testCase.Edges, testCase.Bob, testCase.Amount), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int[][] Edges { get; [UsedImplicitly] init; } = null!;
         public int Bob { get; [UsedImplicitly] init; }

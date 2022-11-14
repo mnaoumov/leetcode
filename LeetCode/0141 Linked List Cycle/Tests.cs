@@ -33,7 +33,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.HasCycle(head), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int[] HeadValues { get; [UsedImplicitly] init; } = null!;
         public int Pos { get; [UsedImplicitly] init; }

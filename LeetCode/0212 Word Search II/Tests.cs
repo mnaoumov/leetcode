@@ -10,7 +10,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         AssertCollectionEquivalentWithDetails(solution.FindWords(testCase.Board, testCase.Words), testCase.Output);
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public char[][] Board { get; [UsedImplicitly] init; } = null!;
         public string[] Words { get; [UsedImplicitly] init; } = null!;

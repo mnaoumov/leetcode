@@ -13,7 +13,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
             Is.EquivalentTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int N { get; [UsedImplicitly] init; }
         public string[] Output { get; [UsedImplicitly] init; } = null!;

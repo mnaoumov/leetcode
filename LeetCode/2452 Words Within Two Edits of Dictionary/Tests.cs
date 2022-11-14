@@ -11,7 +11,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.TwoEditWords(testCase.Queries, testCase.Dictionary), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public string[] Queries { get; [UsedImplicitly] init; } = null!;
         public string[] Dictionary { get; [UsedImplicitly] init; } = null!;

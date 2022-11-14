@@ -10,7 +10,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         AssertCollectionEqualWithDetails(solution.LevelOrder(TreeNode.Create(testCase.Values)!), testCase.Output);
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int?[] Values { get; [UsedImplicitly] init; } = null!;
         public IList<IList<int>> Output { get; [UsedImplicitly] init; } = null!;

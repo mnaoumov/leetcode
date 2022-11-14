@@ -16,7 +16,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(ans, Is.EqualTo(root));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int?[] Values { get; [UsedImplicitly] init; } = null!;
     }

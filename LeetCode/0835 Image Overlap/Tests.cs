@@ -12,7 +12,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.LargestOverlap(testCase.Img1, testCase.Img2), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int[][] Img1 { get; [UsedImplicitly] init; } = null!;
         public int[][] Img2 { get; [UsedImplicitly] init; } = null!;

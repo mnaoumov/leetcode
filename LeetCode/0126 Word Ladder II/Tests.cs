@@ -10,7 +10,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         AssertCollectionEquivalentWithDetails(solution.FindLadders(testCase.BeginWord, testCase.EndWord, testCase.WordList), testCase.Output);
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public string BeginWord { get; [UsedImplicitly] init; } = null!;
         public string EndWord { get; [UsedImplicitly] init; } = null!;

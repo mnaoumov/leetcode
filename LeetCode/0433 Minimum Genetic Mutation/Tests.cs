@@ -12,7 +12,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.MinMutation(testCase.Start, testCase.End, testCase.Bank), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public string Start { get; [UsedImplicitly] init; } = null!;
         public string End { get; [UsedImplicitly] init; } = null!;

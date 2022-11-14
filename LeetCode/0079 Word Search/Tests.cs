@@ -12,7 +12,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.Exist(testCase.Board, testCase.Word), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public char[][] Board { get; [UsedImplicitly] init; } = null!;
         public string Word { get; [UsedImplicitly] init; } = null!;

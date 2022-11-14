@@ -11,7 +11,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.TotalCost(testCase.Costs, testCase.K, testCase.Candidates), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int[] Costs { get; [UsedImplicitly] init; } = null!;
         public int K { get; [UsedImplicitly] init; }

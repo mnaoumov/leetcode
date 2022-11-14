@@ -12,7 +12,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.EarliestFullBloom(testCase.PlantTime, testCase.GrowTime), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int[] PlantTime { get; [UsedImplicitly] init; } = null!;
         public int[] GrowTime { get; [UsedImplicitly] init; } = null!;

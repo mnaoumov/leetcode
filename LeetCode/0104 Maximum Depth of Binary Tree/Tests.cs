@@ -11,7 +11,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.MaxDepth(TreeNode.Create(testCase.RootValues)!), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int?[] RootValues { get; [UsedImplicitly] init; } = null!;
         public int Output { get; [UsedImplicitly] init; }

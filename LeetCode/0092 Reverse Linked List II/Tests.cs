@@ -11,7 +11,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.ReverseBetween(ListNode.Create(testCase.Values), testCase.Left, testCase.Right), Is.EqualTo(ListNode.Create(testCase.OutputValues)));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int[] Values { get; [UsedImplicitly] init; } = null!;
         public int Left { get; [UsedImplicitly] init; }

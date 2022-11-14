@@ -13,7 +13,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
             Is.EqualTo(ListNode.CreateOrNull(testCase.OutputValues)));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int[] HeadValues { get; [UsedImplicitly] init; } = null!;
         public int N { get; [UsedImplicitly] init; }

@@ -12,7 +12,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.MinDifficulty(testCase.JobDifficulty, testCase.D), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int[] JobDifficulty { get; [UsedImplicitly] init; } = null!;
         public int D { get; [UsedImplicitly] init; }

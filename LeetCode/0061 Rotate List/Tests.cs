@@ -12,7 +12,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.RotateRight(ListNode.Create(testCase.Values), testCase.K), Is.EqualTo(ListNode.Create(testCase.OutputValues)));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int[] Values { get; [UsedImplicitly] init; } = null!;
         public int K { get; [UsedImplicitly] init; }

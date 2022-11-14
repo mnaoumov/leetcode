@@ -15,7 +15,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.AddTwoNumbers(list1, list2), Is.EqualTo(returnList));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int[] List1Values { get; [UsedImplicitly] init; } = null!;
         public int[] List2Values { get; [UsedImplicitly] init; } = null!;

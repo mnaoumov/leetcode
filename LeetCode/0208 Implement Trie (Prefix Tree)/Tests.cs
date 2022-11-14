@@ -11,7 +11,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         testCase.Test(sut);
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public Action<ITrie> Test { get; [UsedImplicitly] init; } = null!;
     }

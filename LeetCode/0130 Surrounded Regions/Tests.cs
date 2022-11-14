@@ -12,7 +12,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         AssertCollectionEqualWithDetails(board, testCase.OutputBoard);
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public char[][] Board { get; [UsedImplicitly] init; } = null!;
         public char[][] OutputBoard { get; [UsedImplicitly] init; } = null!;

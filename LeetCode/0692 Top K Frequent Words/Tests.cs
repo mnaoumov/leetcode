@@ -10,7 +10,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         AssertCollectionEqualWithDetails(solution.TopKFrequent(testCase.Words, testCase.K), testCase.Output);
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public string[] Words { get; [UsedImplicitly] init; } = null!;
         public int K { get; [UsedImplicitly] init; }

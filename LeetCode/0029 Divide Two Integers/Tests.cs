@@ -12,7 +12,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(solution.Divide(testCase.Dividend, testCase.Divisor), Is.EqualTo(testCase.Output));
     }
 
-    public class TestCase : TestCaseBase<TestCase>
+    public class TestCase : TestCaseBase
     {
         public int Dividend { get; [UsedImplicitly] init; }
         public int Divisor { get; [UsedImplicitly] init; }

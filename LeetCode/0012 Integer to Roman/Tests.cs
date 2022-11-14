@@ -16,34 +16,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     {
         public int Num { get; [UsedImplicitly] init; }
         public string Output { get; [UsedImplicitly] init; } = null!;
-
-        public override IEnumerable<TestCase> TestCases
-        {
-            get
-            {
-                yield return new TestCase
-                {
-                    Num = 3,
-                    Output = "III",
-                    TestCaseName = "Example 1"
-                };
-
-                yield return new TestCase
-                {
-                    Num = 58,
-                    // ReSharper disable once StringLiteralTypo
-                    Output = "LVIII",
-                    TestCaseName = "Example 2"
-                };
-
-                yield return new TestCase
-                {
-                    Num = 1994,
-                    // ReSharper disable once StringLiteralTypo
-                    Output = "MCMXCIV",
-                    TestCaseName = "Example 3"
-                };
-            }
-        }
     }
 }

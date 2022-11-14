@@ -23,59 +23,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     {
         public NestedInteger[] NestedList { get; [UsedImplicitly] init; } = null!;
         public int[] Output { get; [UsedImplicitly] init; } = null!;
-
-        public override IEnumerable<TestCase> TestCases
-        {
-            get
-            {
-                yield return new TestCase
-                {
-                    NestedList = new NestedInteger[]
-                    {
-                        new NestedIntegerImpl(new NestedInteger[]
-                        {
-                            new NestedIntegerImpl(1),
-                            new NestedIntegerImpl(1)
-                        }),
-                        new NestedIntegerImpl(2),
-                        new NestedIntegerImpl(new NestedInteger[]
-                        {
-                            new NestedIntegerImpl(1),
-                            new NestedIntegerImpl(1)
-                        })
-                    },
-                    Output = new[] { 1, 1, 2, 1, 1 },
-                    TestCaseName = "Example 1"
-                };
-
-                yield return new TestCase
-                {
-                    NestedList = new NestedInteger[]
-                    {
-                        new NestedIntegerImpl(1),
-                        new NestedIntegerImpl(new NestedInteger[]
-                        {
-                            new NestedIntegerImpl(4),
-                            new NestedIntegerImpl(new NestedInteger[]
-                            {
-                                new NestedIntegerImpl(6)
-                            })
-                        })
-                    },
-                    Output = new[] { 1, 4, 6 },
-                    TestCaseName = "Example 2"
-                };
-
-                yield return new TestCase
-                {
-                    NestedList = new NestedInteger[]
-                    {
-                        new NestedIntegerImpl(Array.Empty<NestedInteger>())
-                    },
-                    Output = Array.Empty<int>(),
-                    TestCaseName = nameof(Solution1)
-                };
-            }
-        }
     }
 }

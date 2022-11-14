@@ -16,26 +16,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     {
         public string Dominoes { get; [UsedImplicitly] init; } = null!;
         public string Output { get; [UsedImplicitly] init; } = null!;
-
-        public override IEnumerable<TestCase> TestCases
-        {
-            get
-            {
-                yield return new TestCase
-                {
-                    Dominoes = "RR.L",
-                    Output = "RR.L",
-                    TestCaseName = "Example 1"
-                };
-                
-                yield return new TestCase
-                {
-                    Dominoes = ".L.R...LR..L..",
-                    // ReSharper disable once StringLiteralTypo
-                    Output = "LL.RR.LLRRLL..",
-                    TestCaseName = "Example 2"
-                };
-            }
-        }
     }
 }

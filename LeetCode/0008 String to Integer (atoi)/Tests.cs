@@ -16,39 +16,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     {
         public string S { get; [UsedImplicitly] init; } = null!;
         public int Output { get; [UsedImplicitly] init; }
-
-        public override IEnumerable<TestCase> TestCases
-        {
-            get
-            {
-                yield return new TestCase
-                {
-                    S = "42",
-                    Output = 42,
-                    TestCaseName = "Example 1"
-                };
-                
-                yield return new TestCase
-                {
-                    S = "   -42",
-                    Output = -42,
-                    TestCaseName = "Example 2"
-                };
-                
-                yield return new TestCase
-                {
-                    S = "4193 with words",
-                    Output = 4193,
-                    TestCaseName = "Example 3"
-                };
-
-                yield return new TestCase
-                {
-                    S = "-91283472332",
-                    Output = -2147483648,
-                    TestCaseName = nameof(Solution2)
-                };
-            }
-        }
     }
 }

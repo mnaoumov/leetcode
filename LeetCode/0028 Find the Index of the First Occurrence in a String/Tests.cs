@@ -17,30 +17,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         public string HayStack { get; [UsedImplicitly] init; } = null!;
         public string Needle { get; [UsedImplicitly] init; } = null!;
         public int Output { get; [UsedImplicitly] init; }
-
-        public override IEnumerable<TestCase> TestCases
-        {
-            get
-            {
-                yield return new TestCase
-                {
-                    // ReSharper disable once StringLiteralTypo
-                    HayStack = "sadbutsad",
-                    Needle = "sad",
-                    Output = 0,
-                    TestCaseName = "Example 1"
-                };
-
-                yield return new TestCase
-                {
-                    // ReSharper disable once StringLiteralTypo
-                    HayStack = "leetcode",
-                    // ReSharper disable once StringLiteralTypo
-                    Needle = "leeto",
-                    Output = -1,
-                    TestCaseName = "Example 2"
-                };
-            }
-        }
     }
 }

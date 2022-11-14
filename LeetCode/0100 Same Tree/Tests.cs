@@ -16,35 +16,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         public int?[] PValues { get; [UsedImplicitly] init; } = null!;
         public int?[] QValues { get; [UsedImplicitly] init; } = null!;
         public bool Output { get; [UsedImplicitly] init; }
-
-        public override IEnumerable<TestCase> TestCases
-        {
-            get
-            {
-                yield return new TestCase
-                {
-                    PValues = new int?[] { 1, 2, 3 },
-                    QValues = new int?[] { 1, 2, 3 },
-                    Output = true,
-                    TestCaseName = "Example 1"
-                };
-
-                yield return new TestCase
-                {
-                    PValues = new int?[] { 1, 2 },
-                    QValues = new int?[] { 1, null, 2 },
-                    Output = false,
-                    TestCaseName = "Example 2"
-                };
-
-                yield return new TestCase
-                {
-                    PValues = new int?[] { 1, 2, 1 },
-                    QValues = new int?[] { 1, 1, 2 },
-                    Output = false,
-                    TestCaseName = "Example 3"
-                };
-            }
-        }
     }
 }

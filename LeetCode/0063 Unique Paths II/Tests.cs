@@ -16,25 +16,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     {
         public int[][] ObstacleGrid { get; [UsedImplicitly] init; } = null!;
         public int Output { get; [UsedImplicitly] init; }
-
-        public override IEnumerable<TestCase> TestCases
-        {
-            get
-            {
-                yield return new TestCase
-                {
-                    ObstacleGrid = new[] { new[] { 0, 0, 0 }, new[] { 0, 1, 0 }, new[] { 0, 0, 0 } },
-                    Output = 2,
-                    TestCaseName = "Example 1"
-                };
-
-                yield return new TestCase
-                {
-                    ObstacleGrid = new[] { new[] { 0, 1 }, new[] { 0, 0 } },
-                    Output = 1,
-                    TestCaseName = "Example 2"
-                };
-            }
-        }
     }
 }

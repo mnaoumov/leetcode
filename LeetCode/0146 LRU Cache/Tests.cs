@@ -17,44 +17,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     {
         public int Capacity { get; [UsedImplicitly] init; }
         public Action<ILRUCache> Test { get; [UsedImplicitly] init; } = null!;
-
-        public override IEnumerable<TestCase> TestCases
-        {
-            get
-            {
-                yield return new TestCase
-                {
-                    Capacity = 2,
-                    Test = sut =>
-                    {
-                        sut.Put(1, 1);
-                        sut.Put(2, 2);
-                        Assert.That(sut.Get(1), Is.EqualTo(1));
-                        sut.Put(3, 3);
-                        Assert.That(sut.Get(2), Is.EqualTo(-1));
-                        sut.Put(4, 4);
-                        Assert.That(sut.Get(1), Is.EqualTo(-1));
-                        Assert.That(sut.Get(3), Is.EqualTo(3));
-                        Assert.That(sut.Get(4), Is.EqualTo(4));
-                    },
-                    TestCaseName = "Example 1"
-                };
-                
-                yield return new TestCase
-                {
-                    Capacity = 2,
-                    Test = sut =>
-                    {
-                        sut.Put(2, 1);
-                        sut.Put(2, 2);
-                        Assert.That(sut.Get(2), Is.EqualTo(2));
-                        sut.Put(1, 1);
-                        sut.Put(4, 1);
-                        Assert.That(sut.Get(2), Is.EqualTo(-1));
-                    },
-                    TestCaseName = nameof(Solution01)
-                };
-            }
-        }
     }
 }

@@ -16,27 +16,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         public string[] Queries { get; [UsedImplicitly] init; } = null!;
         public string[] Dictionary { get; [UsedImplicitly] init; } = null!;
         public IList<string> Output { get; [UsedImplicitly] init; } = null!;
-
-        public override IEnumerable<TestCase> TestCases
-        {
-            get
-            {
-                yield return new TestCase
-                {
-                    Queries = new[] { "word", "note", "ants", "wood" },
-                    Dictionary = new[] { "wood", "joke", "moat" },
-                    Output = new[] { "word", "note", "wood" },
-                    TestCaseName = "Example 1"
-                };
-
-                yield return new TestCase
-                {
-                    Queries = new[] { "yes" },
-                    Dictionary = new[] { "not" },
-                    Output = Array.Empty<string>(),
-                    TestCaseName = "Example 2"
-                };
-            }
-        }
     }
 }

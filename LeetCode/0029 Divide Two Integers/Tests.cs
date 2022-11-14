@@ -17,51 +17,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         public int Dividend { get; [UsedImplicitly] init; }
         public int Divisor { get; [UsedImplicitly] init; }
         public int Output { get; [UsedImplicitly] init; }
-
-        public override IEnumerable<TestCase> TestCases
-        {
-            get
-            {
-                yield return new TestCase
-                {
-                    Dividend = 10,
-                    Divisor = 3,
-                    Output = 3,
-                    TestCaseName = "Example 1"
-                };
-
-                yield return new TestCase
-                {
-                    Dividend = 7,
-                    Divisor = -3,
-                    Output = -2,
-                    TestCaseName = "Example 2"
-                };
-
-                yield return new TestCase
-                {
-                    Dividend = 2147483647,
-                    Divisor = 1,
-                    Output = 2147483647,
-                    TestCaseName = nameof(Solution1)
-                };
-
-                yield return new TestCase
-                {
-                    Dividend = -1010369383,
-                    Divisor = -2147483648,
-                    Output = 0,
-                    TestCaseName = nameof(Solution2)
-                };
-
-                yield return new TestCase
-                {
-                    Dividend = 1100540749,
-                    Divisor = -1090366779,
-                    Output = -1,
-                    TestCaseName = nameof(Solution3)
-                };
-            }
-        }
     }
 }

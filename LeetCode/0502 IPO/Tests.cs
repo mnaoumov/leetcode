@@ -19,51 +19,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         public int[] Profits { get; [UsedImplicitly] init; } = null!;
         public int[] Capital { get; [UsedImplicitly] init; } = null!;
         public int Output { get; [UsedImplicitly] init; }
-
-        public override IEnumerable<TestCase> TestCases
-        {
-            get
-            {
-                yield return new TestCase
-                {
-                    K = 2,
-                    W = 0,
-                    Profits = new[] { 1, 2, 3 },
-                    Capital = new[] { 0, 1, 1 },
-                    Output = 4,
-                    TestCaseName = "Example 1"
-                };
-
-                yield return new TestCase
-                {
-                    K = 3,
-                    W = 0,
-                    Profits = new[] { 1, 2, 3 },
-                    Capital = new[] { 0, 1, 2 },
-                    Output = 6,
-                    TestCaseName = "Example 2"
-                };
-
-                yield return new TestCase
-                {
-                    K = 50000,
-                    W = 50000,
-                    Profits = Enumerable.Range(0, 50000).ToArray(),
-                    Capital = new[] { 1, 2, 3 },
-                    Output = 50003,
-                    TestCaseName = nameof(Solution1)
-                };
-
-                yield return new TestCase
-                {
-                    K = 10,
-                    W = 0,
-                    Profits = new[] { 1, 2, 3 },
-                    Capital = new[] { 0, 1, 2 },
-                    Output = 6,
-                    TestCaseName = nameof(Solution2)
-                };
-            }
-        }
     }
 }

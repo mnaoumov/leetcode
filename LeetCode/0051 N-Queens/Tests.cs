@@ -14,32 +14,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     {
         public int N { get; [UsedImplicitly] init; }
         public IList<IList<string>> Output { get; [UsedImplicitly] init; } = null!;
-
-        public override IEnumerable<TestCase> TestCases
-        {
-            get
-            {
-                yield return new TestCase
-                {
-                    N = 4,
-                    Output = new IList<string>[]
-                    {
-                        new[] { ".Q..", "...Q", "Q...", "..Q." },
-                        new[] { "..Q.", "Q...", "...Q", ".Q.." }
-                    },
-                    TestCaseName = "Example 1"
-                };
-
-                yield return new TestCase
-                {
-                    N = 1,
-                    Output = new IList<string>[]
-                    {
-                        new[] { "Q" }
-                    },
-                    TestCaseName = "Example 2"
-                };
-            }
-        }
     }
 }

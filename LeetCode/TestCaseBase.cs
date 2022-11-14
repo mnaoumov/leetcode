@@ -14,10 +14,4 @@ public abstract class TestCaseBase<TTestCase> where TTestCase : TestCaseBase<TTe
 
     [DefaultValue(200)]
     public int TimeoutInMilliseconds { get; [UsedImplicitly] init; } = 200;
-
-    [JsonIgnore]
-    public virtual IEnumerable<TTestCase> TestCases
-    {
-        get { throw new NotImplementedException(); }
-    }
 }

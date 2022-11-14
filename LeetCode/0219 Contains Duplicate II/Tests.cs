@@ -16,43 +16,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         public int[] Nums { get; [UsedImplicitly] init; } = null!;
         public int K { get; [UsedImplicitly] init; }
         public bool Output { get; [UsedImplicitly] init; }
-
-        public override IEnumerable<TestCase> TestCases
-        {
-            get
-            {
-                yield return new TestCase
-                {
-                    Nums = new[] { 1, 2, 3, 1 },
-                    K = 3,
-                    Output = true,
-                    TestCaseName = "Example 1"
-                };
-
-                yield return new TestCase
-                {
-                    Nums = new[] { 1, 0, 1, 1 },
-                    K = 1,
-                    Output = true,
-                    TestCaseName = "Example 2"
-                };
-
-                yield return new TestCase
-                {
-                    Nums = new[] { 1, 2, 3, 1, 2, 3 },
-                    K = 2,
-                    Output = false,
-                    TestCaseName = "Example 3"
-                };
-
-                yield return new TestCase
-                {
-                    Nums = new[] { 99, 99 },
-                    K = 2,
-                    Output = true,
-                    TestCaseName = nameof(Solution1)
-                };
-            }
-        }
     }
 }

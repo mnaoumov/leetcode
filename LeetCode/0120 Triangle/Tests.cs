@@ -16,31 +16,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     {
         public IList<IList<int>> Triangle { get; [UsedImplicitly] init; } = null!;
         public int Output { get; [UsedImplicitly] init; }
-
-        public override IEnumerable<TestCase> TestCases
-        {
-            get
-            {
-                yield return new TestCase
-                {
-                    Triangle = new IList<int>[]
-                    {
-                        new[] { 2 }, new[] { 3, 4 }, new[] { 6, 5, 7 }, new[] { 4, 1, 8, 3 }
-                    },
-                    Output = 11,
-                    TestCaseName = "Example 1"
-                };
-
-                yield return new TestCase
-                {
-                    Triangle = new IList<int>[]
-                    {
-                        new[] { -10 }
-                    },
-                    Output = -10,
-                    TestCaseName = "Example 2"
-                };
-            }
-        }
     }
 }

@@ -18,27 +18,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         public int K { get; [UsedImplicitly] init; }
         public int[] ValuesBefore { get; [UsedImplicitly] init; } = null!;
         public int[] ValuesAfter { get; [UsedImplicitly] init; } = null!;
-
-        public override IEnumerable<TestCase> TestCases
-        {
-            get
-            {
-                yield return new TestCase
-                {
-                    K = 2,
-                    ValuesBefore = new[] { 1, 2, 3, 4, 5 },
-                    ValuesAfter = new[] { 2, 1, 4, 3, 5 },
-                    TestCaseName = "Example 1"
-                };
-                
-                yield return new TestCase
-                {
-                    K = 3,
-                    ValuesBefore = new[] { 1, 2, 3, 4, 5 },
-                    ValuesAfter = new[] { 3, 2, 1, 4, 5 },
-                    TestCaseName = "Example 2"
-                };
-            }
-        }
     }
 }

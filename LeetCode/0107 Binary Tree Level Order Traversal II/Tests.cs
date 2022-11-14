@@ -15,32 +15,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     {
         public int?[] RootValues { get; [UsedImplicitly] init; } = null!;
         public IList<IList<int>> Output { get; [UsedImplicitly] init; } = null!;
-
-        public override IEnumerable<TestCase> TestCases
-        {
-            get
-            {
-                yield return new TestCase
-                {
-                    RootValues = new int?[] { 3, 9, 20, null, null, 15, 7 },
-                    Output = new IList<int>[] { new[] { 15, 7 }, new[] { 9, 20 }, new[] { 3 } },
-                    TestCaseName = "Example 1"
-                };
-
-                yield return new TestCase
-                {
-                    RootValues = new int?[] { 1 },
-                    Output = new IList<int>[] { new[] { 1 } },
-                    TestCaseName = "Example 2"
-                };
-
-                yield return new TestCase
-                {
-                    RootValues = Array.Empty<int?>(),
-                    Output = Array.Empty<IList<int>>(),
-                    TestCaseName = "Example 3"
-                };
-            }
-        }
     }
 }

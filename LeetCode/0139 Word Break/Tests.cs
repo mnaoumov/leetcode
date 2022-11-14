@@ -17,37 +17,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         public string S { get; [UsedImplicitly] init; } = null!;
         public IList<string> WordDict { get; [UsedImplicitly] init; } = null!;
         public bool Output { get; [UsedImplicitly] init; }
-
-        public override IEnumerable<TestCase> TestCases
-        {
-            get
-            {
-                yield return new TestCase
-                {
-                    S = "leetcode",
-                    WordDict = new[] { "leet", "code" },
-                    Output = true,
-                    TestCaseName = "Example 1"
-                };
-
-                yield return new TestCase
-                {
-                    // ReSharper disable once StringLiteralTypo
-                    S = "applepenapple",
-                    WordDict = new[] { "apple", "pen" },
-                    Output = true,
-                    TestCaseName = "Example 2"
-                };
-
-                yield return new TestCase
-                {
-                    // ReSharper disable once StringLiteralTypo
-                    S = "catsandog",
-                    WordDict = new[] { "cats", "dog", "sand", "and", "cat" },
-                    Output = false,
-                    TestCaseName = "Example 3"
-                };
-            }
-        }
     }
 }

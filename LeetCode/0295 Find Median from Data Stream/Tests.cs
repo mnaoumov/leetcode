@@ -16,24 +16,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     public class TestCase : TestCaseBase<TestCase>
     {
         public Action<IMedianFinder> Test { get; [UsedImplicitly] init; } = null!;
-
-        public override IEnumerable<TestCase> TestCases
-        {
-            get
-            {
-                yield return new TestCase
-                {
-                    Test = sut =>
-                    {
-                        sut.AddNum(1);
-                        sut.AddNum(2);
-                        Assert.That(sut.FindMedian(), Is.EqualTo(1.5));
-                        sut.AddNum(3);
-                        Assert.That(sut.FindMedian(), Is.EqualTo(2));
-                    },
-                    TestCaseName = "Example 1"
-                };
-            }
-        }
     }
 }

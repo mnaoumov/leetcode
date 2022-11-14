@@ -14,32 +14,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     {
         public int[][] Intervals { get; [UsedImplicitly] init; } = null!;
         public int[][] Output { get; [UsedImplicitly] init; } = null!;
-
-        public override IEnumerable<TestCase> TestCases
-        {
-            get
-            {
-                yield return new TestCase
-                {
-                    Intervals = new[] { new[] { 1, 3 }, new[] { 2, 6 }, new[] { 8, 10 }, new[] { 15, 18 } },
-                    Output = new[] { new[] { 1, 6 }, new[] { 8, 10 }, new[] { 15, 18 } },
-                    TestCaseName = "Example 1"
-                };
-
-                yield return new TestCase
-                {
-                    Intervals = new[] { new[] { 1, 4 }, new[] { 4, 5 } },
-                    Output = new[] { new[] { 1, 5 } },
-                    TestCaseName = "Example 2"
-                };
-
-                yield return new TestCase
-                {
-                    Intervals = new[] { new[] { 1, 4 }, new[] { 0, 5 } },
-                    Output = new[] { new[] { 0, 5 } },
-                    TestCaseName = nameof(Solution1)
-                };
-            }
-        }
     }
 }

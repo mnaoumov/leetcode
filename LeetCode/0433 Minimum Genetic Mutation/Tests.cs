@@ -18,49 +18,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         public string End { get; [UsedImplicitly] init; } = null!;
         public string[] Bank { get; [UsedImplicitly] init; } = null!;
         public int Output { get; [UsedImplicitly] init; }
-
-        public override IEnumerable<TestCase> TestCases
-        {
-            get
-            {
-                yield return new TestCase
-                {
-                    // ReSharper disable once StringLiteralTypo
-                    Start = "AACCGGTT",
-                    // ReSharper disable once StringLiteralTypo
-                    End = "AACCGGTA",
-                    // ReSharper disable once StringLiteralTypo
-                    Bank = new[] { "AACCGGTA" },
-                    Output = 1,
-                    TestCaseName = "Example 1"
-                };
-
-                yield return new TestCase
-                {
-                    // ReSharper disable once StringLiteralTypo
-                    Start = "AACCGGTT",
-                    // ReSharper disable once StringLiteralTypo
-                    End = "AAACGGTA",
-                    // ReSharper disable StringLiteralTypo
-                    Bank = new[] { "AACCGGTA", "AACCGCTA", "AAACGGTA" },
-                    // ReSharper restore StringLiteralTypo
-                    Output = 2,
-                    TestCaseName = "Example 2"
-                };
-
-                yield return new TestCase
-                {
-                    // ReSharper disable once StringLiteralTypo
-                    Start = "AAAAACCC",
-                    // ReSharper disable once StringLiteralTypo
-                    End = "AACCCCCC",
-                    // ReSharper disable StringLiteralTypo
-                    Bank = new[] { "AAAACCCC", "AAACCCCC", "AACCCCCC" },
-                    // ReSharper restore StringLiteralTypo
-                    Output = 3,
-                    TestCaseName = "Example 3"
-                };
-            }
-        }
     }
 }

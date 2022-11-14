@@ -16,38 +16,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         public string S1 { get; [UsedImplicitly] init; } = null!;
         public string S2 { get; [UsedImplicitly] init; } = null!;
         public bool Output { get; [UsedImplicitly] init; }
-
-        public override IEnumerable<TestCase> TestCases
-        {
-            get
-            {
-                yield return new TestCase
-                {
-                    S1 = "great",
-                    // ReSharper disable once StringLiteralTypo
-                    S2 = "rgeat",
-                    Output = true,
-                    TestCaseName = "Example 1"
-                };
-
-                yield return new TestCase
-                {
-                    // ReSharper disable once StringLiteralTypo
-                    S1 = "abcde",
-                    // ReSharper disable once StringLiteralTypo
-                    S2 = "caebd",
-                    Output = false,
-                    TestCaseName = "Example 2"
-                };
-
-                yield return new TestCase
-                {
-                    S1 = "a",
-                    S2 = "a",
-                    Output = true,
-                    TestCaseName = "Example 3"
-                };
-            }
-        }
     }
 }

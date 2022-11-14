@@ -16,32 +16,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     {
         public int X { get; [UsedImplicitly] init; }
         public bool Output { get; [UsedImplicitly] init; }
-
-        public override IEnumerable<TestCase> TestCases
-        {
-            get
-            {
-                yield return new TestCase
-                {
-                    X = 121,
-                    Output = true,
-                    TestCaseName = "Example 1"
-                };
-                
-                yield return new TestCase
-                {
-                    X = -121,
-                    Output = false,
-                    TestCaseName = "Example 2"
-                };
-
-                yield return new TestCase
-                {
-                    X = 10,
-                    Output = false,
-                    TestCaseName = "Example 3"
-                };
-            }
-        }
     }
 }

@@ -16,32 +16,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     {
         public string Path { get; [UsedImplicitly] init; } = null!;
         public string Output { get; [UsedImplicitly] init; } = null!;
-
-        public override IEnumerable<TestCase> TestCases
-        {
-            get
-            {
-                yield return new TestCase
-                {
-                    Path = "/home/",
-                    Output = "/home",
-                    TestCaseName = "Example 1"
-                };
-
-                yield return new TestCase
-                {
-                    Path = "/../",
-                    Output = "/",
-                    TestCaseName = "Example 2"
-                };
-
-                yield return new TestCase
-                {
-                    Path = "/home//foo/",
-                    Output = "/home/foo",
-                    TestCaseName = "Example 3"
-                };
-            }
-        }
     }
 }

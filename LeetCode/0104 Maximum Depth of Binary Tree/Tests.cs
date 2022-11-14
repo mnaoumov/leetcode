@@ -15,25 +15,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     {
         public int?[] RootValues { get; [UsedImplicitly] init; } = null!;
         public int Output { get; [UsedImplicitly] init; }
-
-        public override IEnumerable<TestCase> TestCases
-        {
-            get
-            {
-                yield return new TestCase
-                {
-                    RootValues = new int?[] { 3, 9, 20, null, null, 15, 7 },
-                    Output = 3,
-                    TestCaseName = "Example 1"
-                };
-
-                yield return new TestCase
-                {
-                    RootValues = new int?[] { 1, null, 2 },
-                    Output = 2,
-                    TestCaseName = "Example 2"
-                };
-            }
-        }
     }
 }

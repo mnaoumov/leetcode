@@ -16,32 +16,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     {
         public string Time { get; [UsedImplicitly] init; } = null!;
         public int Output { get; [UsedImplicitly] init; }
-
-        public override IEnumerable<TestCase> TestCases
-        {
-            get
-            {
-                yield return new TestCase
-                {
-                    Time = "?5:00",
-                    Output = 2,
-                    TestCaseName = "Example 1"
-                };
-                
-                yield return new TestCase
-                {
-                    Time = "0?:0?",
-                    Output = 100,
-                    TestCaseName = "Example 2"
-                };
-
-                yield return new TestCase
-                {
-                    Time = "??:??",
-                    Output = 1440,
-                    TestCaseName = "Example 3"
-                };
-            }
-        }
     }
 }

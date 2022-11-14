@@ -53,38 +53,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     public class TestCase : TestCaseBase<TestCase>
     {
         public int?[][] HeadValues { get; [UsedImplicitly] init; } = null!;
-
-        public override IEnumerable<TestCase> TestCases
-        {
-            get
-            {
-                yield return new TestCase
-                {
-                    HeadValues = new[]
-                    {
-                        new int?[] { 7, null }, new int?[] { 13, 0 }, new int?[] { 11, 4 }, new int?[] { 10, 2 }, new int?[] { 1, 0 }
-                    },
-                    TestCaseName = "Example 1"
-                };
-
-                yield return new TestCase
-                {
-                    HeadValues = new[]
-                    {
-                        new int?[] { 1, 1 }, new int?[] { 2, 1 }
-                    },
-                    TestCaseName = "Example 2"
-                };
-
-                yield return new TestCase
-                {
-                    HeadValues = new[]
-                    {
-                        new int?[] { 3, null }, new int?[] { 3, 0 }, new int?[] { 3, null }
-                    },
-                    TestCaseName = "Example 3"
-                };
-            }
-        }
     }
 }

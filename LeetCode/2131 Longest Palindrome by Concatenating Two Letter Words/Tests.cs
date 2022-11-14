@@ -16,32 +16,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     {
         public string[] Words { get; [UsedImplicitly] init; } = null!;
         public int Output { get; [UsedImplicitly] init; }
-
-        public override IEnumerable<TestCase> TestCases
-        {
-            get
-            {
-                yield return new TestCase
-                {
-                    Words = new[] { "lc", "cl", "gg" },
-                    Output = 6,
-                    TestCaseName = "Example 1"
-                };
-
-                yield return new TestCase
-                {
-                    Words = new[] { "ab", "ty", "yt", "lc", "cl", "ab" },
-                    Output = 8,
-                    TestCaseName = "Example 2"
-                };
-
-                yield return new TestCase
-                {
-                    Words = new[] { "cc", "ll", "xx" },
-                    Output = 2,
-                    TestCaseName = "Example 3"
-                };
-            }
-        }
     }
 }

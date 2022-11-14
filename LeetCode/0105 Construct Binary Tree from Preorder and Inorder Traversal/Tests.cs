@@ -17,27 +17,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         public int[] Preorder { get; [UsedImplicitly] init; } = null!;
         public int[] Inorder { get; [UsedImplicitly] init; } = null!;
         public int?[] OutputValues { get; [UsedImplicitly] init; } = null!;
-
-        public override IEnumerable<TestCase> TestCases
-        {
-            get
-            {
-                yield return new TestCase
-                {
-                    Preorder = new[] { 3, 9, 20, 15, 7 },
-                    Inorder = new[] { 9, 3, 15, 20, 7 },
-                    OutputValues = new int?[] { 3, 9, 20, null, null, 15, 7 },
-                    TestCaseName = "Example 1"
-                };
-
-                yield return new TestCase
-                {
-                    Preorder = new[] { -1 },
-                    Inorder = new[] { -1 },
-                    OutputValues = new int?[] { -1 },
-                    TestCaseName = "Example 2"
-                };
-            }
-        }
     }
 }

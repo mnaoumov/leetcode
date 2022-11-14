@@ -17,35 +17,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         public int?[] TreeNodeValues { get; [UsedImplicitly] init; } = null!;
         public int TargetSum { get; [UsedImplicitly] init; }
         public bool Output { get; [UsedImplicitly] init; }
-
-        public override IEnumerable<TestCase> TestCases
-        {
-            get
-            {
-                yield return new TestCase
-                {
-                    TreeNodeValues = new int?[] { 5, 4, 8, 11, null, 13, 4, 7, 2, null, null, null, 1 },
-                    TargetSum = 22,
-                    Output = true,
-                    TestCaseName = "Example 1"
-                };
-
-                yield return new TestCase
-                {
-                    TreeNodeValues = new int?[] { 1, 2, 3 },
-                    TargetSum = 5,
-                    Output = false,
-                    TestCaseName = "Example 2"
-                };
-
-                yield return new TestCase
-                {
-                    TreeNodeValues = Array.Empty<int?>(),
-                    TargetSum = 0,
-                    Output = false,
-                    TestCaseName = "Example 3"
-                };
-            }
-        }
     }
 }

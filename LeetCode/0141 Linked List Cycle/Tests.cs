@@ -38,35 +38,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         public int[] HeadValues { get; [UsedImplicitly] init; } = null!;
         public int Pos { get; [UsedImplicitly] init; }
         public bool Output { get; [UsedImplicitly] init; }
-
-        public override IEnumerable<TestCase> TestCases
-        {
-            get
-            {
-                yield return new TestCase
-                {
-                    HeadValues = new[] { 3, 2, 0, -4 },
-                    Pos = 1,
-                    Output = true,
-                    TestCaseName = "Example 1"
-                };
-
-                yield return new TestCase
-                {
-                    HeadValues = new[] { 1, 2 },
-                    Pos = 0,
-                    Output = true,
-                    TestCaseName = "Example 2"
-                };
-
-                yield return new TestCase
-                {
-                    HeadValues = new[] { 1 },
-                    Pos = -1,
-                    Output = false,
-                    TestCaseName = "Example 3"
-                };
-            }
-        }
     }
 }

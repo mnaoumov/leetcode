@@ -17,19 +17,27 @@ foreach (var testCaseType in testCaseTypes)
 
         var dir = Directory.GetDirectories(@"f:\dev\leetcode\LeetCode", $"{problemNumber} *")[0];
 
-        dynamic testCaseBuilder = Activator.CreateInstance(testCaseType)!;
-        var testCases = ((IEnumerable<object>)testCaseBuilder.TestCases).ToArray();
+        //dynamic testCaseBuilder = Activator.CreateInstance(testCaseType)!;
+        //var testCases = ((IEnumerable<object>)testCaseBuilder.TestCases).ToArray();
+
+        var testCaseFiles = Directory.GetFiles(dir, "TestCase*.json").OrderBy(x => x);
+        var testCases = testCaseFiles.Select(file => FromJson(file, testCaseType)).ToArray();
 
         var index = 1;
 
         foreach (var testCase in testCases)
         {
+            if (testCase == null)
+            {
+                index++;
+                continue;
+            }
+
             var path = $@"{dir}\TestCase{index}.json";
             using var file = File.CreateText(path);
             var serializer = new JsonSerializer
             {
                 Formatting = Formatting.Indented,
-                DefaultValueHandling = DefaultValueHandling.Ignore,
                 ContractResolver = new CamelCasePropertyNamesContractResolver()
             };
 
@@ -52,5 +60,24 @@ foreach (var testCaseType in testCaseTypes)
     catch (Exception ex)
     {
         Console.WriteLine(ex);
+    }
+}
+
+object? FromJson(string testCaseFilePath, Type testCaseType)
+{
+    using var fileStream = File.OpenRead(testCaseFilePath);
+    using var reader = new StreamReader(fileStream);
+    using var jr = new JsonTextReader(reader);
+
+    var serializer = new JsonSerializer();
+
+    try
+    {
+        var testCase = serializer.Deserialize(jr, testCaseType);
+        return testCase;
+    }
+    catch
+    {
+        return null;
     }
 }

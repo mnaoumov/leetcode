@@ -12,6 +12,7 @@ public abstract class TestCaseBase
     [JsonIgnore]
     public Exception? JsonParsingException { get; init; }
 
-    [DefaultValue(200)]
     public int TimeoutInMilliseconds { get; [UsedImplicitly] init; } = 200;
+
+    public bool ShouldSerializeTimeoutInMilliseconds() => TimeoutInMilliseconds != 200;
 }

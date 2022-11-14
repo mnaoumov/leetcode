@@ -7,6 +7,7 @@ namespace LeetCode._2467_Most_Profitable_Path_in_a_Tree;
 /// https://leetcode.com/problems/most-profitable-path-in-a-tree/submissions/842080268/
 /// </summary>
 [UsedImplicitly]
+[SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution3 : ISolution
 {
     public int MostProfitablePath(int[][] edges, int bob, int[] amount)

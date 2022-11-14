@@ -1,7 +1,8 @@
-﻿using Newtonsoft.Json;
+﻿using System.Text.RegularExpressions;
 using NUnit.Framework;
 using NUnit.Framework.Constraints;
 using NUnit.Framework.Internal;
+using Newtonsoft.Json;
 
 namespace LeetCode;
 
@@ -9,9 +10,14 @@ public abstract class TestsBase<TSolution, TTestCase> where TTestCase : TestCase
 {
     [Test]
     [TestCaseSource(nameof(JoinedTestCases))]
-    public void Test(TSolution solution, TestCaseBuilder<TTestCase> testCaseBuilder)
+    public void Test(TSolution solution, TTestCase testCase)
     {
-        TestImpl(solution, testCaseBuilder.TestCaseFunc());
+        if (testCase.JsonParsingException != null)
+        {
+            Assert.Fail(testCase.JsonParsingException.ToString());
+        }
+
+        TestImpl(solution, testCase);
     }
 
     protected abstract void TestImpl(TSolution solution, TTestCase testCase);
@@ -24,28 +30,26 @@ public abstract class TestsBase<TSolution, TTestCase> where TTestCase : TestCase
             var solutionTypes = solutionInterfaceType.Assembly.GetTypes().Where(t => t.IsClass && t.IsAssignableTo(solutionInterfaceType));
             var solutions = solutionTypes.Select(t => (TSolution)Activator.CreateInstance(t)!);
 
-            var testCaseBuilders = new TTestCase().TestCaseBuilders.ToArray();
+            var problemNumber = Regex.Match(solutionInterfaceType.Namespace!, @"LeetCode\._(\d+)").Groups[1].Value;
+
+            var problemTestCaseDirectory = Directory.GetDirectories(".", $"{problemNumber} *").FirstOrDefault();
+
+            if (problemTestCaseDirectory == null)
+            {
+                yield break;
+            }
+
+            var testCaseFiles = Directory.GetFiles(problemTestCaseDirectory, "TestCase*.json");
+            var testCases = testCaseFiles.Select(FromJson).ToArray();
 
             foreach (var solution in solutions)
             {
-                var testCaseIndex = 0;
-                var testCaseNames = new HashSet<string>();
-                foreach (var testCaseBuilder in testCaseBuilders)
+                foreach (var testCase in testCases)
                 {
-                    if (string.IsNullOrEmpty(testCaseBuilder.TestCaseName))
-                    {
-                        throw new Exception($"Test case #{testCaseIndex} does not have mandatory TestCaseName");
-                    }
-
-                    if (!testCaseNames.Add(testCaseBuilder.TestCaseName))
-                    {
-                        throw new Exception($"Test case name '{testCaseBuilder.TestCaseName}' is duplicated");
-                    }
-
-                    var testCaseTestCaseName = testCaseBuilder.TestCaseName;
                     var testCaseData =
-                        new TestCaseData(solution, testCaseBuilder).SetName(
-                            $@"{solution!.GetType().Name}: {testCaseTestCaseName}");
+                        new TestCaseData(solution, testCase).SetName(
+                            $@"{solution!.GetType().Name}: {testCase.TestCaseName}");
+
                     var skipSolutionAttribute =
                         (SkipSolutionAttribute?) Attribute.GetCustomAttribute(solution.GetType(),
                             typeof(SkipSolutionAttribute));
@@ -55,12 +59,41 @@ public abstract class TestsBase<TSolution, TTestCase> where TTestCase : TestCase
                         testCaseData.Explicit(skipSolutionAttribute.Reason.ToString());
                     }
 
-                    testCaseData.Properties.Add(PropertyNames.Timeout, testCaseBuilder.Timeout.Milliseconds);
+                    testCaseData.Properties.Add(PropertyNames.Timeout, testCase.TimeoutInMilliseconds);
 
                     yield return testCaseData;
-                    testCaseIndex++;
                 }
             }
+        }
+    }
+
+    private static TTestCase FromJson(string testCaseFilePath)
+    {
+        var name = Path.GetFileNameWithoutExtension(testCaseFilePath);
+
+        try
+        {
+            using var fileStream = File.OpenRead(testCaseFilePath);
+            using var reader = new StreamReader(fileStream);
+            using var jr = new JsonTextReader(reader);
+
+            var serializer = new JsonSerializer()
+            {
+                MissingMemberHandling = MissingMemberHandling.Error,
+                ContractResolver = new AllPropertiesRequiredContractResolver()
+            };
+
+            var testCase = (TTestCase) serializer.Deserialize(jr, typeof(TTestCase));
+            testCase.TestCaseName = name;
+            return testCase;
+        }
+        catch (Exception ex)
+        {
+            return new TTestCase
+            {
+                TestCaseName = name,
+                JsonParsingException = ex
+            };
         }
     }
 
@@ -77,16 +110,22 @@ public abstract class TestsBase<TSolution, TTestCase> where TTestCase : TestCase
 
     protected static void AssertCollectionEqualWithDetails<T>(IEnumerable<T> actual, IEnumerable<T> expected)
     {
-        Assert.That(actual, Is.EqualTo(expected), "Actual:\r\n{0}\r\n\r\nExpected:\r\n{1}\r\n\r\n", JsonConvert.SerializeObject(actual), JsonConvert.SerializeObject(expected));
+        var actualArray = actual.ToArray();
+        var expectedArray = expected.ToArray();
+        Assert.That(actualArray, Is.EqualTo(expectedArray), "Actual:\r\n{0}\r\n\r\nExpected:\r\n{1}\r\n\r\n", JsonConvert.SerializeObject(actualArray), JsonConvert.SerializeObject(expectedArray));
     }
 
     protected static void AssertCollectionEquivalentWithDetails<T>(IEnumerable<T> actual, IEnumerable<T> expected)
     {
-        Assert.That(actual, Is.EquivalentTo(expected), "Actual:\r\n{0}\r\n\r\nExpected:\r\n{1}\r\n\r\n", JsonConvert.SerializeObject(actual), JsonConvert.SerializeObject(expected));
+        var actualArray = actual.ToArray();
+        var expectedArray = expected.ToArray();
+        Assert.That(actualArray, Is.EquivalentTo(expectedArray), "Actual:\r\n{0}\r\n\r\nExpected:\r\n{1}\r\n\r\n", JsonConvert.SerializeObject(actualArray), JsonConvert.SerializeObject(expectedArray));
     }
 
     protected static void AssertCollectionEquivalentIgnoringItemOrderWithDetails<T>(IEnumerable<IEnumerable<T>> actual, IEnumerable<IEnumerable<T>> expected)
     {
-        Assert.That(actual, IsEquivalentToIgnoringItemOrder(expected), "Actual:\r\n{0}\r\n\r\nExpected:\r\n{1}\r\n\r\n", JsonConvert.SerializeObject(actual), JsonConvert.SerializeObject(expected));
+        var actualArray = actual.ToArray();
+        var expectedArray = expected.ToArray();
+        Assert.That(actualArray, IsEquivalentToIgnoringItemOrder(expectedArray), "Actual:\r\n{0}\r\n\r\nExpected:\r\n{1}\r\n\r\n", JsonConvert.SerializeObject(actualArray), JsonConvert.SerializeObject(expectedArray));
     }
 }

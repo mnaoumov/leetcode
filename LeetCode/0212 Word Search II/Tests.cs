@@ -245,7 +245,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     Output = new[] { "a", "aa", "aaa", "aaaa", "aaaaa", "aaaaaa", "aaaaaaa", "aaaaaaaa", "aaaaaaaaa", "aaaaaaaaaa" },
                     // ReSharper restore StringLiteralTypo
                     TestCaseName = nameof(Solution3),
-                    Timeout = TimeSpan.FromSeconds(1)
+                    TimeoutInMilliseconds = 1000
                 };
             }
         }

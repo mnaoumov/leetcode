@@ -8049,7 +8049,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                     },
                     Output = 159996,
                     TestCaseName = nameof(Solution2),
-                    Timeout = TimeSpan.FromSeconds(1)
+                    TimeoutInMilliseconds = 1000
                 };
             }
         }

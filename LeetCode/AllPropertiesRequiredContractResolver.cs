@@ -1,0 +1,29 @@
+﻿using System.Reflection;
+using Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
+
+namespace LeetCode;
+
+internal class AllPropertiesRequiredContractResolver : DefaultContractResolver
+{
+    private Type TestCaseType { get; set; }
+
+    public override JsonContract ResolveContract(Type type)
+    {
+        TestCaseType = type;
+        return base.ResolveContract(type);
+    }
+
+    protected override JsonProperty CreateProperty(MemberInfo member, MemberSerialization memberSerialization)
+    {
+        var property = base.CreateProperty(member, memberSerialization);
+
+        if (member.DeclaringType == TestCaseType)
+        {
+            property.Required = Required.Always;
+        }
+
+        return property;
+    }
+}

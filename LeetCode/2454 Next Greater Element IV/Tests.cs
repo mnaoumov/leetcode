@@ -20049,7 +20049,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                         -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
                     },
                     TestCaseName = nameof(Solution2),
-                    Timeout = TimeSpan.FromSeconds(1)
+                    TimeoutInMilliseconds = 1000
                 };
             }
         }

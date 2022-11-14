@@ -1,4 +1,5 @@
-﻿using JetBrains.Annotations;
+﻿using System.ComponentModel;
+using JetBrains.Annotations;
 using Newtonsoft.Json;
 
 namespace LeetCode;
@@ -11,8 +12,10 @@ public abstract class TestCaseBase<TTestCase> where TTestCase : TestCaseBase<TTe
     [JsonIgnore]
     public Exception? JsonParsingException { get; init; }
 
+    [DefaultValue(200)]
     public int TimeoutInMilliseconds { get; [UsedImplicitly] init; } = 200;
 
+    [JsonIgnore]
     public virtual IEnumerable<TTestCase> TestCases
     {
         get { throw new NotImplementedException(); }

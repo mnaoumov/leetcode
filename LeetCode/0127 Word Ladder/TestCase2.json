@@ -1,5 +1,6 @@
 {
   "beginWord": "hit",
   "endWord": "cog",
-  "wordList": ["hot","dot","dog","lot","log"]
+  "wordList": ["hot","dot","dog","lot","log"],
+  "output": 0
 }

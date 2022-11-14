@@ -1,3 +1,4 @@
 {
-  "rootValues": [1,2,2,3,3,null,null,4,4]
+  "rootValues": [1,2,2,3,3,null,null,4,4],
+  "output": false
 }

@@ -1,3 +1,5 @@
 {
-  "coins": [1]
+  "coins": [1],
+  "amount": 0,
+  "output": 0
 }

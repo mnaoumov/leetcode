@@ -1,5 +1,6 @@
 {
   "s1": "aabcc",
   "s2": "dbbca",
-  "s3": "aadbbbaccc"
+  "s3": "aadbbbaccc",
+  "output": false
 }

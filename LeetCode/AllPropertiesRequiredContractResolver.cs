@@ -1,5 +1,4 @@
 ﻿using System.Reflection;
-using Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
@@ -7,7 +6,7 @@ namespace LeetCode;
 
 internal class AllPropertiesRequiredContractResolver : DefaultContractResolver
 {
-    private Type TestCaseType { get; set; }
+    private Type TestCaseType { get; set; } = null!;
 
     public override JsonContract ResolveContract(Type type)
     {

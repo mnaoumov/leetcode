@@ -1,5 +1,3 @@
-using NUnit.Framework;
-
 using JetBrains.Annotations;
 
 namespace LeetCode._6233_Convert_the_Temperature;

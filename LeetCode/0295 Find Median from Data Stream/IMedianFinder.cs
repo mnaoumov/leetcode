@@ -1,7 +1,12 @@
+using JetBrains.Annotations;
+
 namespace LeetCode._0295_Find_Median_from_Data_Stream;
 
 public interface IMedianFinder
 {
+    [UsedImplicitly]
     public void AddNum(int num);
+
+    [UsedImplicitly]
     public double FindMedian();
 }

@@ -1,5 +1,3 @@
-using NUnit.Framework;
-
 using JetBrains.Annotations;
 
 namespace LeetCode._0295_Find_Median_from_Data_Stream;

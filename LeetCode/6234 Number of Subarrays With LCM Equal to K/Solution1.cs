@@ -52,7 +52,7 @@ public class Solution1 : ISolution
             (a, b) = (b, a);
         }
 
-        return (a / Gcd(a, b)) * b;
+        return a / Gcd(a, b) * b;
     }
 
     private static int Gcd(int a, int b)

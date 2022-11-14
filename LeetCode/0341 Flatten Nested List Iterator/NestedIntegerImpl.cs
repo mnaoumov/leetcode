@@ -1,5 +1,8 @@
-﻿namespace LeetCode._0341_Flatten_Nested_List_Iterator;
+﻿using JetBrains.Annotations;
 
+namespace LeetCode._0341_Flatten_Nested_List_Iterator;
+
+[UsedImplicitly]
 public class NestedIntegerImpl : NestedInteger
 {
     private readonly NestedInteger[]? _values;

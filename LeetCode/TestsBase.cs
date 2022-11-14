@@ -77,7 +77,7 @@ public abstract class TestsBase<TSolution, TTestCase> where TTestCase : TestCase
             using var reader = new StreamReader(fileStream);
             using var jr = new JsonTextReader(reader);
 
-            var serializer = new JsonSerializer()
+            var serializer = new JsonSerializer
             {
                 MissingMemberHandling = MissingMemberHandling.Error,
                 ContractResolver = new AllPropertiesRequiredContractResolver()

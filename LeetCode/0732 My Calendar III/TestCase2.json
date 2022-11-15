@@ -1,3 +1,5 @@
 {
-  "test": null
+  "commands": ["MyCalendarThree","book","book","book","book","book","book","book","book","book","book"],
+  "parameters": [[],[26,35],[26,32],[25,32],[18,26],[40,45],[19,26],[48,50],[1,6],[46,50],[11,18]],
+  "output": [null,1,2,3,3,3,3,3,3,3,3]
 }

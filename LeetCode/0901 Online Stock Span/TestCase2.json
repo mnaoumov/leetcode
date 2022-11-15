@@ -1,3 +1,5 @@
 {
-  "test": null
+  "commands": ["StockSpanner","next","next","next","next","next"],
+  "parameters": [[],[29],[91],[62],[76],[51]],
+  "output": [null,1,2,1,2,1]
 }

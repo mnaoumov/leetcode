@@ -1,3 +1,5 @@
 {
-  "test": null
+  "commands": ["Trie", "insert", "search", "search", "startsWith", "insert", "search"],
+  "parameters": [[], ["apple"], ["apple"], ["app"], ["app"], ["app"], ["app"]],
+  "output": [null, null, true, false, true, null, true]
 }

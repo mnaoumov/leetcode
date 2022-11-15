@@ -3,10 +3,6 @@
 namespace LeetCode._0146_LRU_Cache;
 
 [UsedImplicitly]
-public class Tests : TestsBase<ISolution, SutTestCase>
+public class Tests : SutTestsBase<ISolution, ILRUCache>
 {
-    protected override void TestImpl(ISolution solution, SutTestCase testCase)
-    {
-        TestSut<ILRUCache>(solution, testCase);
-    }
 }

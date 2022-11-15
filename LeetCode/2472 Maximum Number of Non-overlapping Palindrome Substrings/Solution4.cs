@@ -1,13 +1,12 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._6236_Maximum_Number_of_Non_overlapping_Palindrome_Substrings;
+namespace LeetCode._2472_Maximum_Number_of_Non_overlapping_Palindrome_Substrings;
 
 /// <summary>
-/// 
+/// https://leetcode.com/contest/weekly-contest-319/submissions/detail/842394133/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
-public class Solution3 : ISolution
+public class Solution4 : ISolution
 {
     public int MaxPalindromes(string s, int k)
     {
@@ -15,12 +14,15 @@ public class Solution3 : ISolution
 
         for (var endIndex = k - 1; endIndex < s.Length; endIndex++)
         {
-            for (var startIndex = 0; startIndex <= endIndex + 1 - k; startIndex++)
+            for (var startIndex = endIndex - k + 1; startIndex >= 0; startIndex--)
             {
-                if (IsPalindrome(startIndex, endIndex))
+                if (!IsPalindrome(startIndex, endIndex))
                 {
-                    palindromeIndexPairs.Add((startIndex, endIndex));
+                    continue;
                 }
+
+                palindromeIndexPairs.Add((startIndex, endIndex));
+                break;
             }
         }
 

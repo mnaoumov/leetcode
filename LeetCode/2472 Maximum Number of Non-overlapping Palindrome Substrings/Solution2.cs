@@ -1,12 +1,13 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._6236_Maximum_Number_of_Non_overlapping_Palindrome_Substrings;
+namespace LeetCode._2472_Maximum_Number_of_Non_overlapping_Palindrome_Substrings;
 
 /// <summary>
-/// https://leetcode.com/contest/weekly-contest-319/submissions/detail/842394133/
+/// https://leetcode.com/contest/weekly-contest-319/submissions/detail/842386864/
 /// </summary>
 [UsedImplicitly]
-public class Solution4 : ISolution
+[SkipSolution(SkipSolutionReason.WrongAnswer)]
+public class Solution2 : ISolution
 {
     public int MaxPalindromes(string s, int k)
     {
@@ -14,15 +15,12 @@ public class Solution4 : ISolution
 
         for (var endIndex = k - 1; endIndex < s.Length; endIndex++)
         {
-            for (var startIndex = endIndex - k + 1; startIndex >= 0; startIndex--)
+            for (var startIndex = 0; startIndex <= endIndex + 1 - k; startIndex++)
             {
-                if (!IsPalindrome(startIndex, endIndex))
+                if (IsPalindrome(startIndex, endIndex))
                 {
-                    continue;
+                    palindromeIndexPairs.Add((startIndex, endIndex));
                 }
-
-                palindromeIndexPairs.Add((startIndex, endIndex));
-                break;
             }
         }
 
@@ -32,11 +30,9 @@ public class Solution4 : ISolution
 
         while (true)
         {
-            var missing = (startIndex: -1, endIndex: -1);
-            var lastEndIndex2 = lastEndIndex;
-            var pair = palindromeIndexPairs.FirstOrDefault(p => p.startIndex > lastEndIndex2, missing);
+            var pair = palindromeIndexPairs.FirstOrDefault(p => p.startIndex > lastEndIndex);
 
-            if (pair == missing)
+            if (pair == (0, 0))
             {
                 break;
             }

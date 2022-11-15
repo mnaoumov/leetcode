@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._6233_Convert_the_Temperature;
+namespace LeetCode._2469_Convert_the_Temperature;
 
 [PublicAPI]
 public interface ISolution

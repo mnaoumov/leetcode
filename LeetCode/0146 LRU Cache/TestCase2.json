@@ -1,4 +1,5 @@
 {
-  "capacity": 0,
-  "test": null
+  "commands": ["LRUCache", "put", "put", "get", "put", "put", "get"],
+  "parameters": [[2], [2, 1], [2, 2], [2], [1, 1], [4, 1], [2]],
+  "output": [null, null, null, 2, null, null, -1]
 }

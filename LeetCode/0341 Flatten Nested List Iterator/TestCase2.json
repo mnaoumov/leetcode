@@ -1,4 +1,4 @@
 {
-  "nestedList": [{},{}],
+  "nestedList": [1,[4,[6]]],
   "output": [1,4,6]
 }

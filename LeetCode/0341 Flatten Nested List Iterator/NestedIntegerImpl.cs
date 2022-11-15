@@ -23,4 +23,16 @@ public class NestedIntegerImpl : NestedInteger
     public int GetInteger() => IsInteger() ? _value : default;
 
     public IList<NestedInteger>? GetList() => !IsInteger() ? _values : null;
+
+    public static IList<NestedInteger> Create(IEnumerable<object> intOrArrayValues) => intOrArrayValues.Select(Create).ToArray();
+
+    private static NestedInteger Create(object intOrArray)
+    {
+        if (intOrArray is object[] array)
+        {
+            return new NestedIntegerImpl(Create(array).ToArray());
+        }
+
+        return new NestedIntegerImpl(Convert.ToInt32(intOrArray));
+    }
 }

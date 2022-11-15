@@ -7,7 +7,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        var i = solution.Create(testCase.NestedList);
+        var i = solution.Create(NestedIntegerImpl.Create(testCase.NestedList));
 
         var list = new List<int>();
 
@@ -21,7 +21,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
     public class TestCase : TestCaseBase
     {
-        public NestedInteger[] NestedList { get; [UsedImplicitly] init; } = null!;
+        public object[] NestedList { get; [UsedImplicitly] init; } = null!;
         public int[] Output { get; [UsedImplicitly] init; } = null!;
     }
 }

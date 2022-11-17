@@ -28,7 +28,7 @@ public abstract class TestsBase<TSolution, TTestCase> where TTestCase : TestCase
         {
             var solutionInterfaceType = typeof(TSolution);
             var solutionTypes = solutionInterfaceType.Assembly.GetTypes()
-                .Where(t => t.IsClass && t.IsAssignableTo(solutionInterfaceType));
+                .Where(t => t.IsClass && t.IsAssignableTo(solutionInterfaceType) && !t.IsAbstract);
             var solutions = solutionTypes.Select(t => (TSolution) Activator.CreateInstance(t)!);
 
             var problemNumber = Regex.Match(solutionInterfaceType.Namespace!, @"LeetCode\._(\d+)").Groups[1].Value;

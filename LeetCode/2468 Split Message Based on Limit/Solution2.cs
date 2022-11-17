@@ -3,24 +3,40 @@ using JetBrains.Annotations;
 namespace LeetCode._2468_Split_Message_Based_on_Limit;
 
 /// <summary>
-/// https://leetcode.com/problems/split-message-based-on-limit/submissions/844385872/
+/// https://leetcode.com/problems/split-message-based-on-limit/submissions/844388231/
 /// </summary>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public string[] SplitMessage(string message, int limit)
     {
+        var n = GetPartsCount(message, limit);
+
+        var result = new string[n];
+        var textIndex = 0;
+
+        for (var i = 1; i <= n; i++)
+        {
+            var suffix = $"<{i}/{n}>";
+            var nextTextIndex = Math.Min(textIndex + limit - suffix.Length, message.Length);
+            result[i - 1] = message[textIndex..nextTextIndex] + suffix;
+            textIndex = nextTextIndex;
+        }
+
+        return result;
+    }
+
+    private static int GetPartsCount(string message, int limit)
+    {
         var min = 1;
         var max = message.Length;
-
-        var n = 1;
 
         while (min <= max)
         {
             var mid = (min + max) / 2;
 
-            n = mid;
+            var n = mid;
             var p = Math.Floor(Math.Log10(n)) + 1;
 
             var totalSuffixesLength = (4 + p) * n;
@@ -47,21 +63,10 @@ public class Solution1 : ISolution
             }
             else
             {
-                break;
+                return n;
             }
         }
 
-        var result = new string[n];
-        var textIndex = 0;
-
-        for (var i = 1; i <= n; i++)
-        {
-            var suffix = $"<{i}/{n}>";
-            var nextTextIndex = Math.Min(textIndex + limit - suffix.Length, message.Length);
-            result[i - 1] = message[textIndex..nextTextIndex] + suffix;
-            textIndex = nextTextIndex;
-        }
-
-        return result;
+        return 0;
     }
 }

@@ -5,7 +5,7 @@ public abstract class GuessGame
     private int _pick;
 
     // ReSharper disable once InconsistentNaming
-    public int guess(int num) => _pick.CompareTo(num);
+    protected int guess(int num) => _pick.CompareTo(num);
 
     public void SetPick(int pick) => _pick = pick;
 

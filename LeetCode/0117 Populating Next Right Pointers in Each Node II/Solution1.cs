@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+// ReSharper disable All
 
 namespace LeetCode._0117_Populating_Next_Right_Pointers_in_Each_Node_II;
 

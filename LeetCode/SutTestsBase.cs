@@ -1,6 +1,8 @@
 ﻿using NUnit.Framework;
 using System.Reflection;
 using System.Text;
+using Newtonsoft.Json;
+using System.Runtime.ExceptionServices;
 
 namespace LeetCode;
 
@@ -27,7 +29,8 @@ public abstract class SutTestsBase<TSolution, TSut> : TestsBase<TSolution, SutTe
 
             var actual = CastAndInvoke(methodMap[methodName], sut, parameters);
 
-            Assert.That(actual, Is.EqualTo(expected));
+            Assert.That(actual, Is.EqualTo(expected),
+                $"Command #{i + 1}: {command} {JsonConvert.SerializeObject(parameters)}");
         }
     }
 
@@ -60,7 +63,16 @@ public abstract class SutTestsBase<TSolution, TSut> : TestsBase<TSolution, SutTe
     {
         var parameterTypes = methodInfo.GetParameters().Select(p => p.ParameterType).ToArray();
         var castedParameters = parameters.Zip(parameterTypes, Convert.ChangeType).ToArray();
-        return methodInfo.Invoke(@this, castedParameters);
+
+        try
+        {
+            return methodInfo.Invoke(@this, castedParameters);
+        }
+        catch (TargetInvocationException e)
+        {
+            ExceptionDispatchInfo.Capture(e.InnerException!).Throw();
+            throw;
+        }
     }
 
     private static string ToPascalCase(string command)

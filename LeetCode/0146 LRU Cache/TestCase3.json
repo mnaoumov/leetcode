@@ -1,0 +1,5 @@
+{
+  "commands": ["LRUCache","put","put","get","put","get","get"],
+  "parameters": [[2],[2,1],[1,1],[2],[4,1],[1],[2]],
+  "output": [null,null,null,1,null,-1,1]
+}

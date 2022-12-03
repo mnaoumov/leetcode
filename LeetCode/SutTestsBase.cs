@@ -3,6 +3,7 @@ using System.Reflection;
 using System.Text;
 using Newtonsoft.Json;
 using System.Runtime.ExceptionServices;
+using Newtonsoft.Json.Linq;
 
 namespace LeetCode;
 
@@ -29,8 +30,18 @@ public abstract class SutTestsBase<TSolution, TSut> : TestsBase<TSolution, SutTe
 
             var actual = CastAndInvoke(methodMap[methodName], sut, parameters);
 
-            Assert.That(actual, Is.EqualTo(expected),
-                $"Command #{i + 1}: {command} {JsonConvert.SerializeObject(parameters)}");
+            var assertMessage = $"Command #{i + 1}: {command} {JsonConvert.SerializeObject(parameters)}";
+
+            if (expected is JObject expectedJson)
+            {
+                var isAnyOfJson = expectedJson["isAnyOf"];
+                var values = isAnyOfJson.ToObject<object[]>();
+                Assert.That(actual, Is.AnyOf(values), assertMessage);
+            }
+            else
+            {
+                Assert.That(actual, Is.EqualTo(expected), assertMessage);
+            }
         }
     }
 

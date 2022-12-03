@@ -3,7 +3,8 @@
 namespace LeetCode._0036_Valid_Sudoku;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/829017183/
+/// https://leetcode.com/problems/valid-sudoku/submissions/829017183/
+/// https://leetcode.com/problems/valid-sudoku/submissions/848302282/
 /// </summary>
 [UsedImplicitly]
 public class Solution2 : ISolution

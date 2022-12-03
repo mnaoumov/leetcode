@@ -1,0 +1,6 @@
+{
+  "startTime": [1,1,1],
+  "endTime": [2,3,4],
+  "profit": [5,6,4],
+  "output": 6
+}

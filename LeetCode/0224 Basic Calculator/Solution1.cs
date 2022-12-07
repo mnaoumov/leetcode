@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+// ReSharper disable All
 
 namespace LeetCode._0224_Basic_Calculator;
 

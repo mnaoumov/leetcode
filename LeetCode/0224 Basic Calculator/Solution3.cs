@@ -1,13 +1,12 @@
 using JetBrains.Annotations;
-// ReSharper disable All
 
 namespace LeetCode._0224_Basic_Calculator;
 
 /// <summary>
-/// https://leetcode.com/problems/basic-calculator/submissions/847146664/
+/// https://leetcode.com/submissions/detail/856183891/
 /// </summary>
 [UsedImplicitly]
-public class Solution2 : ISolution
+public class Solution3 : ISolution
 {
     public int Calculate(string s)
     {
@@ -79,7 +78,7 @@ public class Solution2 : ISolution
             throw new NotImplementedException();
         }
 
-        public virtual Node ProcessClosedBracket()
+        public Node ProcessClosedBracket()
         {
             var parent = Parent!;
 
@@ -195,8 +194,8 @@ public class Solution2 : ISolution
 
         private class BinaryMinusNode : Node
         {
-            public Node Minuend { get; }
-            public GroupNode Subtrahend { get; set; }
+            private Node Minuend { get; }
+            public GroupNode Subtrahend { get; }
 
             public BinaryMinusNode(Node parent, Node minuend) : base(parent)
             {

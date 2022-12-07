@@ -1,23 +1,22 @@
 using JetBrains.Annotations;
-// ReSharper disable All
 
 namespace LeetCode._2491_Divide_Players_Into_Teams_of_Equal_Skill;
 
 /// <summary>
-/// https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/submissions/
+/// https://leetcode.com/submissions/detail/856184774/
 /// </summary>
 [UsedImplicitly]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public long DividePlayers(int[] skill) => DividePlayersImpl(skill);
 
-    private static long DividePlayersImpl(int[] skills)
+    private static long DividePlayersImpl(IReadOnlyCollection<int> skills)
     {
-        var totalSum= skills.Sum();
+        var totalSum = skills.Sum();
 
         const int impossible = -1;
 
-        var groupsCount = skills.Length / 2;
+        var groupsCount = skills.Count / 2;
 
         if (totalSum % groupsCount != 0)
         {

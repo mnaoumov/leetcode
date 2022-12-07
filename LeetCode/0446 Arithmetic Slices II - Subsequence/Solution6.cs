@@ -1,13 +1,12 @@
 using JetBrains.Annotations;
-// ReSharper disable All
 
 namespace LeetCode._0446_Arithmetic_Slices_II___Subsequence;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/850747925/
+/// https://leetcode.com/submissions/detail/856184264/
 /// </summary>
 [UsedImplicitly]
-public class Solution5 : ISolution
+public class Solution6 : ISolution
 {
     public int NumberOfArithmeticSlices(int[] nums)
     {
@@ -18,14 +17,11 @@ public class Solution5 : ISolution
         {
             var (num, diff, minIndex) = key;
 
-            if (diff >= 0 && num > int.MaxValue - diff)
+            switch (diff)
             {
-                return 0;
-            }
-
-            if (diff < 0 && num < int.MinValue - diff)
-            {
-                return 0;
+                case >= 0 when num > int.MaxValue - diff:
+                case < 0 when num < int.MinValue - diff:
+                    return 0;
             }
 
             var nextNum = num + diff;

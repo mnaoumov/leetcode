@@ -3,11 +3,10 @@ using JetBrains.Annotations;
 namespace LeetCode._2493_Divide_Nodes_Into_the_Maximum_Number_of_Groups;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/856174654/
+/// https://leetcode.com/submissions/detail/856177235/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.RuntimeError)]
-public class Solution1 : ISolution
+public class Solution3 : ISolution
 {
     public int MagnificentSets(int n, int[][] edges)
     {
@@ -40,6 +39,11 @@ public class Solution1 : ISolution
 
                 component.Add(node);
 
+                if (!neighbors.ContainsKey(node))
+                {
+                    continue;
+                }
+
                 foreach (var neighbor in neighbors[node])
                 {
                     queue.Enqueue(neighbor);
@@ -63,7 +67,7 @@ public class Solution1 : ISolution
                 return impossible;
             }
 
-            result = Math.Max(result, maxGroupsCount);
+            result += maxGroupsCount;
         }
 
         return result;
@@ -106,6 +110,11 @@ public class Solution1 : ISolution
 
                 visited2[node] = level;
                 maxLevel = Math.Max(maxLevel, level);
+
+                if (!neighbors.ContainsKey(node))
+                {
+                    continue;
+                }
 
                 foreach (var neighbor in neighbors[node])
                 {

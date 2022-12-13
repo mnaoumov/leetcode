@@ -4,6 +4,7 @@ namespace LeetCode._0070_Climbing_Stairs;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/820362789/
+/// https://leetcode.com/submissions/detail/858357437/
 /// </summary>
 [UsedImplicitly]
 public class Solution1 : ISolution

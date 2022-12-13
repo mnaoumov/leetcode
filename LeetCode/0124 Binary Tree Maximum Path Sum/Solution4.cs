@@ -4,6 +4,7 @@ namespace LeetCode._0124_Binary_Tree_Maximum_Path_Sum;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/836383933/
+/// https://leetcode.com/submissions/detail/858339754/
 /// </summary>
 [UsedImplicitly]
 public class Solution4 : ISolution
@@ -23,8 +24,8 @@ public class Solution4 : ISolution
 
             return new int?[]
             {
-                node.left == null ? null: GetForAnyPath(node.left),
-                node.right == null ? null: GetForAnyPath(node.right),
+                node.left == null ? null : GetForAnyPath(node.left),
+                node.right == null ? null : GetForAnyPath(node.right),
                 GetForDirectPath(node.left) + node.val + GetForDirectPath(node.right)
             }.OfType<int>().Max();
         }

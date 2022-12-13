@@ -1,0 +1,9 @@
+using JetBrains.Annotations;
+
+namespace LeetCode._1339_Maximum_Product_of_Splitted_Binary_Tree;
+
+[PublicAPI]
+public interface ISolution
+{
+    public int MaxProduct(TreeNode root);
+}

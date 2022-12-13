@@ -1,14 +1,14 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1026_Maximum_Difference_Between_Node_and_Ancestor;
+namespace LeetCode._1339_Maximum_Product_of_Splitted_Binary_Tree;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.MaxAncestorDiff(TreeNode.Create(testCase.Root)!), Is.EqualTo(testCase.Output));
+        Assert.That(solution.MaxProduct(TreeNode.Create(testCase.Root)!), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase

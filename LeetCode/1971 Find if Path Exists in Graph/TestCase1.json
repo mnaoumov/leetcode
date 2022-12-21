@@ -1,0 +1,7 @@
+{
+  "n": 3,
+  "edges": [[0,1],[1,2],[2,0]],
+  "source": 0,
+  "destination": 2,
+  "output": true
+}

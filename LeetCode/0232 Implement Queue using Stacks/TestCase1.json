@@ -1,0 +1,5 @@
+{
+  "commands": ["MyQueue", "push", "push", "peek", "pop", "empty"],
+  "parameters": [[], [1], [2], [], [], []],
+  "output": [null, null, null, 1, 1, false]
+}

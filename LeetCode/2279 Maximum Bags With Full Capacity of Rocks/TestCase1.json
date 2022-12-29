@@ -1,0 +1,6 @@
+{
+  "capacity": [2,3,4,5],
+  "rocks": [1,2,4,4],
+  "additionalRocks": 2,
+  "output": 3
+}

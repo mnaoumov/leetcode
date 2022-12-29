@@ -1,0 +1,8 @@
+{
+  "positive_feedback": ["smart","brilliant","studious"],
+  "negative_feedback": ["not"],
+  "report": ["this student is not studious","the student is smart"],
+  "student_id": [1,2],
+  "k": 2,
+  "output": [2,1]
+}

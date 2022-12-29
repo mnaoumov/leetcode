@@ -1,0 +1,6 @@
+{
+  "words": ["a","b","leetcode"],
+  "target": "leetcode",
+  "startIndex": 0,
+  "output": 1
+}

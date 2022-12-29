@@ -6,6 +6,7 @@ namespace LeetCode._2508_Add_Edges_to_Make_Degrees_of_All_Nodes_Even;
 /// https://leetcode.com/contest/weekly-contest-324/submissions/detail/861426804/
 /// </summary>
 [UsedImplicitly]
+[SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution
 {
     public bool IsPossible(int n, IList<IList<int>> edges)

@@ -1,0 +1,5 @@
+{
+  "pattern": "aaaa",
+  "s": "dog cat cat dog",
+  "output": false
+}

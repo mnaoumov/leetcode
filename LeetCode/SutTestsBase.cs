@@ -35,7 +35,7 @@ public abstract class SutTestsBase<TSolution, TSut> : TestsBase<TSolution, SutTe
             if (expected is JObject expectedJson)
             {
                 var isAnyOfJson = expectedJson["isAnyOf"];
-                var values = isAnyOfJson.ToObject<object[]>();
+                var values = isAnyOfJson!.ToObject<object[]>();
                 Assert.That(actual, Is.AnyOf(values), assertMessage);
             }
             else

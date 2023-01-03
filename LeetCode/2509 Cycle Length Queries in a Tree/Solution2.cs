@@ -10,7 +10,7 @@ public class Solution2 : ISolution
 {
     public int[] CycleLengthQueries(int n, int[][] queries) => queries.Select(Answer).ToArray();
 
-    private readonly Dictionary<int, List<int>> _bitsMap = new Dictionary<int, List<int>>();
+    private readonly Dictionary<int, List<int>> _bitsMap = new();
 
     private int Answer(int[] query)
     {

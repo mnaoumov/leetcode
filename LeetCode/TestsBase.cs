@@ -85,7 +85,7 @@ public abstract class TestsBase<TSolution, TTestCase> where TTestCase : TestCase
                 Converters = { new PlainObjectArrayConverter() }
             };
 
-            var testCase = (TTestCase) serializer.Deserialize(jr, typeof(TTestCase));
+            var testCase = (TTestCase) serializer.Deserialize(jr, typeof(TTestCase))!;
             testCase.TestCaseName = name;
             return testCase;
         }

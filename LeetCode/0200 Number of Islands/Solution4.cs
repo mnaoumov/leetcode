@@ -1,5 +1,6 @@
 ﻿using JetBrains.Annotations;
 // ReSharper disable All
+#pragma warning disable CA1822
 
 namespace LeetCode._0200_Number_of_Islands;
 

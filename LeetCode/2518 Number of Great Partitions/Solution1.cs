@@ -12,6 +12,7 @@ public class Solution1 : ISolution
     {
         var sum = nums.Select(num => (long) num).Sum();
 
+        // ReSharper disable once InlineTemporaryVariable
         var minSum = k;
         var maxSum = sum - k;
 

@@ -1,5 +1,8 @@
-﻿namespace LeetCode;
+﻿using JetBrains.Annotations;
 
+namespace LeetCode;
+
+[UsedImplicitly]
 public class SqlTestCase : TestCaseBase
 {
     public Dictionary<string, string[]> Headers { get; set; } = null!;

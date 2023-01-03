@@ -1,0 +1,24 @@
+{
+  "headers": { "Person": [ "person_id", "name", "profession" ] },
+  "rows": {
+    "Person": [
+      [ 1, "Alex", "Singer" ],
+      [ 3, "Alice", "Actor" ],
+      [ 2, "Bob", "Player" ],
+      [ 4, "Messi", "Doctor" ],
+      [ 6, "Tyson", "Engineer" ],
+      [ 5, "Meir", "Lawyer" ]
+    ]
+  },
+  "output": {
+    "headers": [ "person_id", "name" ],
+    "values": [
+      [ 6, "Tyson(E)" ],
+      [ 5, "Meir(L)" ],
+      [ 4, "Messi(D)" ],
+      [ 3, "Alice(A)" ],
+      [ 2, "Bob(P)" ],
+      [ 1, "Alex(S)" ]
+    ]
+  }
+}

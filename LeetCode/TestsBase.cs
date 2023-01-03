@@ -1,12 +1,12 @@
-﻿using System.Text.RegularExpressions;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using NUnit.Framework.Constraints;
 using NUnit.Framework.Internal;
 using Newtonsoft.Json;
+using System.Text.RegularExpressions;
 
 namespace LeetCode;
 
-public abstract class TestsBase<TSolution, TTestCase> where TTestCase : TestCaseBase, new()
+public abstract class TestsBase<TSolution, TTestCase>: TestsBase where TTestCase : TestCaseBase, new()
 {
     [Test]
     [TestCaseSource(nameof(JoinedTestCases))]
@@ -31,9 +31,7 @@ public abstract class TestsBase<TSolution, TTestCase> where TTestCase : TestCase
                 .Where(t => t.IsClass && t.IsAssignableTo(solutionInterfaceType) && !t.IsAbstract);
             var solutions = solutionTypes.Select(t => (TSolution) Activator.CreateInstance(t)!);
 
-            var problemNumber = Regex.Match(solutionInterfaceType.Namespace!, @"LeetCode\._(\d+)").Groups[1].Value;
-
-            var problemTestCaseDirectory = Directory.GetDirectories(".", $"{problemNumber} *").FirstOrDefault();
+            var problemTestCaseDirectory = GetProblemDirectory(solutionInterfaceType);
 
             if (problemTestCaseDirectory == null)
             {
@@ -41,7 +39,7 @@ public abstract class TestsBase<TSolution, TTestCase> where TTestCase : TestCase
             }
 
             var testCaseFiles = Directory.GetFiles(problemTestCaseDirectory, "TestCase*.json");
-            var testCases = testCaseFiles.Select(FromJson).ToArray();
+            var testCases = testCaseFiles.Select(FromJson<TTestCase>).ToArray();
 
             foreach (var solution in solutions)
             {
@@ -67,38 +65,10 @@ public abstract class TestsBase<TSolution, TTestCase> where TTestCase : TestCase
             }
         }
     }
+}
 
-    private static TTestCase FromJson(string testCaseFilePath)
-    {
-        var name = Path.GetFileNameWithoutExtension(testCaseFilePath);
-
-        try
-        {
-            using var fileStream = File.OpenRead(testCaseFilePath);
-            using var reader = new StreamReader(fileStream);
-            using var jr = new JsonTextReader(reader);
-
-            var serializer = new JsonSerializer
-            {
-                MissingMemberHandling = MissingMemberHandling.Error,
-                ContractResolver = new AllPropertiesRequiredContractResolver(),
-                Converters = { new PlainObjectArrayConverter() }
-            };
-
-            var testCase = (TTestCase) serializer.Deserialize(jr, typeof(TTestCase))!;
-            testCase.TestCaseName = name;
-            return testCase;
-        }
-        catch (Exception ex)
-        {
-            return new TTestCase
-            {
-                TestCaseName = name,
-                JsonParsingException = ex
-            };
-        }
-    }
-
+public abstract class TestsBase
+{
     protected static CollectionItemsEqualConstraint IsEquivalentToIgnoringItemOrder<T>(
         IEnumerable<IEnumerable<T>> expected)
     {
@@ -135,5 +105,43 @@ public abstract class TestsBase<TSolution, TTestCase> where TTestCase : TestCase
         Assert.That(actualArray, IsEquivalentToIgnoringItemOrder(expectedArray),
             "Actual:\r\n{0}\r\n\r\nExpected:\r\n{1}\r\n\r\n", JsonConvert.SerializeObject(actualArray),
             JsonConvert.SerializeObject(expectedArray));
+    }
+
+    public static string? GetProblemDirectory(Type problemRelatedType)
+    {
+        var problemNumber = Regex.Match(problemRelatedType.Namespace!, @"LeetCode\._(\d+)").Groups[1].Value;
+        var problemTestCaseDirectory = Directory.GetDirectories(".", $"{problemNumber} *").FirstOrDefault();
+        return problemTestCaseDirectory;
+    }
+
+    public static TTestCase FromJson<TTestCase>(string testCaseFilePath) where TTestCase : TestCaseBase, new()
+    {
+        var name = Path.GetFileNameWithoutExtension(testCaseFilePath);
+
+        try
+        {
+            using var fileStream = File.OpenRead(testCaseFilePath);
+            using var reader = new StreamReader(fileStream);
+            using var jr = new JsonTextReader(reader);
+
+            var serializer = new JsonSerializer
+            {
+                MissingMemberHandling = MissingMemberHandling.Error,
+                ContractResolver = new AllPropertiesRequiredContractResolver(),
+                Converters = { new PlainObjectArrayConverter() }
+            };
+
+            var testCase = (TTestCase) serializer.Deserialize(jr, typeof(TTestCase))!;
+            testCase.TestCaseName = name;
+            return testCase;
+        }
+        catch (Exception ex)
+        {
+            return new TTestCase
+            {
+                TestCaseName = name,
+                JsonParsingException = ex
+            };
+        }
     }
 }

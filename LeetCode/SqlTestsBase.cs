@@ -75,7 +75,17 @@ public abstract class SqlTestsBase<TSqlTests>: TestsBase where TSqlTests : SqlTe
 
         AssertCollectionEqualWithDetails(dt.Columns.Cast<DataColumn>().Select(c => c.ColumnName),
             testCase.Output.Headers);
-        AssertCollectionEqualWithDetails(dt.Rows.Cast<DataRow>().Select(row => row.ItemArray), testCase.Output.Values);
+
+        var actualData = dt.Rows.Cast<DataRow>().Select(row => row.ItemArray).ToArray();
+        dt.Rows.Clear();
+        foreach (var expectedRow in testCase.Output.Values)
+        {
+            dt.LoadDataRow(expectedRow, true);
+        }
+
+        var expectedData = dt.Rows.Cast<DataRow>().Select(row => row.ItemArray).ToArray();
+
+        AssertCollectionEqualWithDetails(actualData, expectedData);
     }
 
     public static IEnumerable<TestCaseData> JoinedTestCases

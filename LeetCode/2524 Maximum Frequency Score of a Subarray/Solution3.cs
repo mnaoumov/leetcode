@@ -61,7 +61,7 @@ public class Solution3 : ISolution
                 -PowerByModulo(previousNum, frequenciesMap.GetValueOrDefault(previousNum) + 1),
                 PowerByModulo(previousNum, frequenciesMap.GetValueOrDefault(previousNum)),
                 PowerByModulo(num, frequenciesMap.GetValueOrDefault(num)),
-                frequenciesMap[num] == 1 ? 0 : -PowerByModulo(num, frequenciesMap.GetValueOrDefault(num) - 1),
+                frequenciesMap[num] == 1 ? 0 : -PowerByModulo(num, frequenciesMap.GetValueOrDefault(num) - 1)
             });
 
             maxScore = Math.Max(maxScore, score);

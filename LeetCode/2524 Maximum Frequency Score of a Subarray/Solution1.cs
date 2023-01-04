@@ -61,7 +61,7 @@ public class Solution1 : ISolution
 
         for (var i = 0; i < b; i++)
         {
-            result = (result * a) % Modulo;
+            result = result * a % Modulo;
         }
 
         return (int) result;

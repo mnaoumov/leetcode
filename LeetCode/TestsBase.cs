@@ -107,14 +107,14 @@ public abstract class TestsBase
             JsonConvert.SerializeObject(expectedArray));
     }
 
-    public static string? GetProblemDirectory(Type problemRelatedType)
+    protected static string? GetProblemDirectory(Type problemRelatedType)
     {
         var problemNumber = Regex.Match(problemRelatedType.Namespace!, @"LeetCode\._(\d+)").Groups[1].Value;
         var problemTestCaseDirectory = Directory.GetDirectories(".", $"{problemNumber} *").FirstOrDefault();
         return problemTestCaseDirectory;
     }
 
-    public static TTestCase FromJson<TTestCase>(string testCaseFilePath) where TTestCase : TestCaseBase, new()
+    protected static TTestCase FromJson<TTestCase>(string testCaseFilePath) where TTestCase : TestCaseBase, new()
     {
         var name = Path.GetFileNameWithoutExtension(testCaseFilePath);
 

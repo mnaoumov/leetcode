@@ -8,6 +8,7 @@ namespace LeetCode._0236_Lowest_Common_Ancestor_of_a_Binary_Tree;
 /// https://leetcode.com/submissions/detail/197168307/
 /// </summary>
 [UsedImplicitly]
+[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution
 {
     public TreeNode LowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q)

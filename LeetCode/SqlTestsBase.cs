@@ -5,7 +5,7 @@ using NUnit.Framework.Internal;
 
 namespace LeetCode;
 
-public abstract class SqlTestsBase<TSqlTests>: TestsBase where TSqlTests : SqlTestsBase<TSqlTests>
+public abstract class SqlTestsBase<TSqlTests> : TestsBase where TSqlTests : SqlTestsBase<TSqlTests>
 {
     [Test]
     [TestCaseSource(nameof(JoinedTestCases))]
@@ -85,7 +85,14 @@ public abstract class SqlTestsBase<TSqlTests>: TestsBase where TSqlTests : SqlTe
 
         var expectedData = dt.Rows.Cast<DataRow>().Select(row => row.ItemArray).ToArray();
 
-        AssertCollectionEqualWithDetails(actualData, expectedData);
+        if (testCase.IgnoreRowOrder)
+        {
+            AssertCollectionEquivalentWithDetails(actualData, expectedData);
+        }
+        else
+        {
+            AssertCollectionEqualWithDetails(actualData, expectedData);
+        }
     }
 
     public static IEnumerable<TestCaseData> JoinedTestCases

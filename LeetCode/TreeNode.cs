@@ -105,19 +105,25 @@ public class TreeNode
 
     public TreeNode? FindNode(int value)
     {
-        if (val == value)
-        {
-            return this;
-        }
+        var queue = new Queue<TreeNode?>();
+        queue.Enqueue(this);
 
-        if (left?.FindNode(value) is {} leftResult)
+        while (queue.Count > 0)
         {
-            return leftResult;
-        }
+            var node = queue.Dequeue();
 
-        if (right?.FindNode(value) is { } rightResult)
-        {
-            return rightResult;
+            if (node == null)
+            {
+                continue;
+            }
+
+            if (node.val == value)
+            {
+                return node;
+            }
+
+            queue.Enqueue(node.left);
+            queue.Enqueue(node.right);
         }
 
         return null;

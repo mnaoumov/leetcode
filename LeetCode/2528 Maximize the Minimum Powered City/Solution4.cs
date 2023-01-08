@@ -3,11 +3,11 @@ using JetBrains.Annotations;
 namespace LeetCode._2528_Maximize_the_Minimum_Powered_City;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/874343041/
+/// https://leetcode.com/submissions/detail/874344806/
 /// </summary>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution3 : ISolution
+public class Solution4 : ISolution
 {
     public long MaxPower(int[] stations, int r, int k)
     {
@@ -109,6 +109,7 @@ public class Solution3 : ISolution
                 }
 
                 updates.Enqueue((Math.Min(index + r, n - 1), stationsNeededCount));
+                newStationsAvailableCount -= stationsNeededCount;
             }
 
             return true;

@@ -3,11 +3,10 @@ using JetBrains.Annotations;
 namespace LeetCode._2528_Maximize_the_Minimum_Powered_City;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/874343041/
+/// https://leetcode.com/submissions/detail/874354632/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution3 : ISolution
+public class Solution6 : ISolution
 {
     public long MaxPower(int[] stations, int r, int k)
     {
@@ -54,61 +53,34 @@ public class Solution3 : ISolution
 
         bool CanGetMinPower(long desiredMinPower)
         {
-            var smallPowersMap = new SortedList<int, long>();
-
-            for (var i = 0; i < powers.Length; i++)
-            {
-                var power = powers[i];
-
-                if (power < desiredMinPower)
-                {
-                    smallPowersMap[i] = power;
-                }
-            }
-
             long newStationsAvailableCount = k;
+            long extraPower = 0;
+            var extraPowerEffectEndedMap = new Dictionary<int, long>();
 
-            var updates = new Queue<(int updateIndex, long addedStationsCount)>();
-
-            foreach (var (index, power) in smallPowersMap)
+            for (var i = 0; i < n; i++)
             {
-                var stationsNeededCount = desiredMinPower - power;
+                if (extraPowerEffectEndedMap.ContainsKey(i))
+                {
+                    extraPower -= extraPowerEffectEndedMap[i];
+                }
 
-                if (stationsNeededCount <= 0)
+                var power = powers[i] + extraPower;
+
+                if (power >= desiredMinPower)
                 {
                     continue;
                 }
 
-                while (updates.Count > 0)
-                {
-                    var (updateIndex, addedStationsCount) = updates.Peek();
+                var stationsCountNeeded = desiredMinPower - power;
 
-                    if (updateIndex + r < index)
-                    {
-                        updates.Dequeue();
-                    }
-                    else
-                    {
-                        stationsNeededCount -= addedStationsCount;
-
-                        if (stationsNeededCount <= 0)
-                        {
-                            break;
-                        }
-                    }
-                }
-
-                if (stationsNeededCount <= 0)
-                {
-                    continue;
-                }
-
-                if (stationsNeededCount > newStationsAvailableCount)
+                if (stationsCountNeeded > newStationsAvailableCount)
                 {
                     return false;
                 }
 
-                updates.Enqueue((Math.Min(index + r, n - 1), stationsNeededCount));
+                newStationsAvailableCount-=stationsCountNeeded;
+                extraPower += stationsCountNeeded;
+                extraPowerEffectEndedMap[i + 2 * r + 1] = stationsCountNeeded;
             }
 
             return true;

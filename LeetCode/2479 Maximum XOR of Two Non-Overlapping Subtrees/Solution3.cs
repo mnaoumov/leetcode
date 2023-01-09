@@ -3,13 +3,13 @@ using JetBrains.Annotations;
 namespace LeetCode._2479_Maximum_XOR_of_Two_Non_Overlapping_Subtrees;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/874379924/
+/// https://leetcode.com/submissions/detail/874383340/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution1 : ISolution
+[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
+public class Solution3 : ISolution
 {
-    const int MaxBitIndex = 62;
+    private const int MaxBitIndex = 62;
 
     public long MaxXor(int n, int[][] edges, int[] values)
     {
@@ -28,8 +28,6 @@ public class Solution1 : ISolution
         long result = 0;
 
         var trieNodePairs = new List<(TrieNode, TrieNode)> { (trieRoot, trieRoot) };
-
-        var graphNodesToSkip = new HashSet<GraphNode>();
 
         for (var i = MaxBitIndex; i >= 0; i--)
         {
@@ -52,7 +50,7 @@ public class Solution1 : ISolution
 
             if (differentBitPairs.Count > 0)
             {
-                result += 1 << i;
+                result += 1L << i;
                 trieNodePairs = differentBitPairs!;
             }
             else
@@ -69,8 +67,6 @@ public class Solution1 : ISolution
 
                 var graphNodes1 = trieNode1.GraphNodes.ToHashSet();
                 var graphNodes2 = trieNode2.GraphNodes.ToHashSet();
-                graphNodes1.ExceptWith(graphNodesToSkip);
-                graphNodes2.ExceptWith(graphNodesToSkip);
 
                 if (graphNodes1.Count > graphNodes2.Count)
                 {
@@ -86,8 +82,6 @@ public class Solution1 : ISolution
                     {
                         return true;
                     }
-
-                    graphNodesToSkip.Add(graphNode);
                 }
 
                 return false;

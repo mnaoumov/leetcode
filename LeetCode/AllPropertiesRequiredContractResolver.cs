@@ -18,7 +18,7 @@ internal class AllPropertiesRequiredContractResolver : DefaultContractResolver
     {
         var property = base.CreateProperty(member, memberSerialization);
 
-        if (member.DeclaringType == TestCaseType)
+        if (member.DeclaringType == TestCaseType && !member.GetCustomAttributes(typeof(JsonIgnoreAttribute)).Any())
         {
             property.Required = Required.Always;
         }

@@ -27,7 +27,7 @@ public class Solution3 : ISolution
                         var neighborColumn = column + dColumn;
 
                         if (neighborRow < 0 || neighborRow >= m || neighborColumn < 0 || neighborColumn >= n ||
-                            (dRow == 0 && dColumn == 0))
+                            dRow == 0 && dColumn == 0)
                         {
                             continue;
                         }

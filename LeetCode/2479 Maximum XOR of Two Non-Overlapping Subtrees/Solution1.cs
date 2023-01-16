@@ -9,7 +9,7 @@ namespace LeetCode._2479_Maximum_XOR_of_Two_Non_Overlapping_Subtrees;
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution
 {
-    const int MaxBitIndex = 62;
+    private const int MaxBitIndex = 62;
 
     public long MaxXor(int n, int[][] edges, int[] values)
     {

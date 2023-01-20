@@ -1,0 +1,7 @@
+{
+  "minLength": 2,
+  "maxLength": 3,
+  "oneGroup": 1,
+  "zeroGroup": 2,
+  "output": 5
+}

@@ -1,4 +1,6 @@
-﻿namespace LeetCode;
+﻿using JetBrains.Annotations;
+
+namespace LeetCode;
 
 public class TreeNode
 {
@@ -127,5 +129,14 @@ public class TreeNode
         }
 
         return null;
+    }
+
+    [UsedImplicitly]
+    public static TreeNode? FromObject(object obj)
+    {
+        var values = ((object?[]) obj)
+            .Select(valueObj => valueObj == null ? (int?) null : Convert.ToInt32(valueObj))
+            .ToArray();
+        return Create(values);
     }
 }

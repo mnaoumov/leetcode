@@ -40,7 +40,7 @@ public abstract class SutTestsBase<TSolution, TSut> : TestsBase<TSolution, SutTe
             }
             else
             {
-                Assert.That(actual, Is.EqualTo(expected), assertMessage);
+                Assert.That(actual, Is.EqualTo(expected).Within(1e-5), assertMessage);
             }
         }
     }
@@ -48,7 +48,7 @@ public abstract class SutTestsBase<TSolution, TSut> : TestsBase<TSolution, SutTe
     private static object? CastAndInvoke(MethodBase methodInfo, object? @this, IEnumerable<object> parameters)
     {
         var parameterTypes = methodInfo.GetParameters().Select(p => p.ParameterType).ToArray();
-        var castedParameters = parameters.Zip(parameterTypes, Convert.ChangeType).ToArray();
+        var castedParameters = parameters.Zip(parameterTypes, ChangeType).ToArray();
 
         try
         {
@@ -59,6 +59,25 @@ public abstract class SutTestsBase<TSolution, TSut> : TestsBase<TSolution, SutTe
             ExceptionDispatchInfo.Capture(e.InnerException!).Throw();
             throw;
         }
+    }
+
+    private static object? ChangeType(object? value, Type conversionType)
+    {
+        if (value is IConvertible)
+        {
+            return Convert.ChangeType(value, conversionType);
+        }
+
+        var method = conversionType.GetMethod("FromObject", BindingFlags.Public | BindingFlags.Static,
+            new[] { typeof(object) });
+
+        if (method != null)
+        {
+            return method.Invoke(null, new[] { value })!;
+        }
+
+        var valueType = value == null ? "null" : value.GetType().FullName;
+        throw new InvalidCastException($"Cannot convert {valueType} to {conversionType}");
     }
 
     private static string ToPascalCase(string command)

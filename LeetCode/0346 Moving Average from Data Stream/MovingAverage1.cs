@@ -1,7 +1,7 @@
 namespace LeetCode._0346_Moving_Average_from_Data_Stream;
 
 /// <summary>
-/// 
+/// https://leetcode.com/submissions/detail/882824800/
 /// </summary>
 public class MovingAverage1 : IMovingAverage
 {

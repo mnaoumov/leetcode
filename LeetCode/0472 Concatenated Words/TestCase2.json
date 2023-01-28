@@ -1,0 +1,4 @@
+{
+  "words": ["cat","dog","catdog"],
+  "output": ["catdog"]
+}

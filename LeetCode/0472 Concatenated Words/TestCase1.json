@@ -1,0 +1,4 @@
+{
+  "words": ["cat","cats","catsdogcats","dog","dogcatsdog","hippopotamuses","rat","ratcatdogcat"],
+  "output": ["catsdogcats","dogcatsdog","ratcatdogcat"]
+}

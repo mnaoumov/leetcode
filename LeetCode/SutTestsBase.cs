@@ -40,7 +40,11 @@ public abstract class SutTestsBase<TSolution, TSut> : TestsBase<TSolution, SutTe
             }
             else
             {
-                Assert.That(actual, Is.EqualTo(expected).Within(1e-5), assertMessage);
+                Assert.That(actual,
+                    expected is double
+                        ? Is.EqualTo(expected).Within(1e-5)
+                        : Is.EqualTo(expected),
+                    assertMessage);
             }
         }
     }
@@ -61,7 +65,7 @@ public abstract class SutTestsBase<TSolution, TSut> : TestsBase<TSolution, SutTe
         }
     }
 
-    private static object? ChangeType(object? value, Type conversionType)
+    private static object ChangeType(object? value, Type conversionType)
     {
         if (value is IConvertible)
         {

@@ -3,17 +3,16 @@ using JetBrains.Annotations;
 namespace LeetCode._2552_Count_Increasing_Quadruplets;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/887540666/
+/// https://leetcode.com/submissions/detail/887542502/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.RuntimeError)]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public long CountQuadruplets(int[] nums)
     {
         var n = nums.Length;
-        var iCounts = new Dictionary<(int j, int k), int>();
-        var lCounts = new Dictionary<(int j, int k), int>();
+        var iCounts = new int[n, n];
+        var lCounts = new int[n, n];
 
         var result = 0L;
 
@@ -21,7 +20,7 @@ public class Solution1 : ISolution
         {
             for (var j = 0; j < k; j++)
             {
-                lCounts[(j, k)] = lCounts.GetValueOrDefault((j, k + 1)) + (nums[k + 1] > nums[j] ? 1 : 0);
+                lCounts[j, k] = lCounts[j, k + 1] + (nums[k + 1] > nums[j] ? 1 : 0);
             }
         }
 
@@ -29,11 +28,11 @@ public class Solution1 : ISolution
         {
             for (var k = j + 1; k < n - 1; k++)
             {
-                iCounts[(j, k)] = iCounts.GetValueOrDefault((j - 1, k)) + (nums[k] > nums[j - 1] ? 1 : 0);
+                iCounts[j, k] = iCounts[j - 1, k] + (nums[k] > nums[j - 1] ? 1 : 0);
 
                 if (nums[k] < nums[j])
                 {
-                    result += iCounts.GetValueOrDefault((j, k)) * lCounts.GetValueOrDefault((j, k));
+                    result += iCounts[j, k] * lCounts[j, k];
                 }
             }
         }

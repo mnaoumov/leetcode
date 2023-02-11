@@ -1,0 +1,7 @@
+{
+  "price": [10,15,7],
+  "tastiness": [5,8,20],
+  "maxAmount": 10,
+  "maxCoupons": 2,
+  "output": 28
+}

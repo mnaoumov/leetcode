@@ -1,0 +1,6 @@
+{
+  "sentence1": ["great"],
+  "sentence2": ["doubleplus","good"],
+  "similarPairs": [["great","doubleplus"]],
+  "output": false
+}

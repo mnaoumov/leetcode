@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "Employee": [
+      "id",
+      "salary"
+    ]
+  },
+  "argument": 2,
+  "rows": {
+    "Employee": [
+      [
+        1,
+        100
+      ]
+    ]
+  },
+  "output": {
+    "headers": [
+      "getNthHighestSalary(2)"
+    ],
+    "values": [
+      [
+        null
+      ]
+    ]
+  }
+}

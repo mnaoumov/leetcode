@@ -15,6 +15,9 @@ public class SqlTestCase : TestCaseBase
     public Dictionary<string, object[][]> Rows { get; [UsedImplicitly] init; } = null!;
     public SqlTestCaseOutput Output { get; [UsedImplicitly] init; } = null!;
 
-    [JsonIgnore]
+    [JsonProperty(Required = Required.Default)]
     public bool IgnoreRowOrder { get; [UsedImplicitly] init; }
+
+    [JsonProperty(Required = Required.Default)]
+    public object? Argument { get; [UsedImplicitly] init; }
 }

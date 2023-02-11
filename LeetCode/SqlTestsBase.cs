@@ -63,7 +63,23 @@ public abstract class SqlTestsBase<TSqlTests> : TestsBase where TSqlTests : SqlT
 
         try
         {
-            command.CommandText = await File.ReadAllTextAsync(solutionScriptPath);
+            var script = await File.ReadAllTextAsync(solutionScriptPath);
+
+            var functionName = Regex.Match(script, @"CREATE FUNCTION (.+?)\(").Groups[1].Value;
+
+            if (!string.IsNullOrEmpty(functionName))
+            {
+                command.CommandText = $"DROP FUNCTION IF EXISTS dbo.{functionName}";
+                command.ExecuteNonQuery();
+                command.CommandText = script;
+                command.ExecuteNonQuery();
+                command.CommandText = $"SELECT dbo.{functionName}({testCase.Argument}) AS '{functionName}({testCase.Argument})'";
+            }
+            else
+            {
+                command.CommandText = script;
+            }
+            
             await using var reader = await command.ExecuteReaderAsync();
             dt = new DataTable();
             dt.Load(reader);

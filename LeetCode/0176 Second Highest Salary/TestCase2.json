@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "Employee": [
+      "id",
+      "salary"
+    ]
+  },
+  "rows": {
+    "Employee": [
+      [
+        1,
+        100
+      ]
+    ]
+  },
+  "output": {
+    "headers": [
+      "SecondHighestSalary"
+    ],
+    "values": [
+      [
+        null
+      ]
+    ]
+  }
+}

@@ -3,11 +3,10 @@ using JetBrains.Annotations;
 namespace LeetCode._2565_Subsequence_With_the_Minimum_Score;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/897214426/
+/// https://leetcode.com/submissions/detail/897222233/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public int MinimumScore(string s, string t)
     {
@@ -59,6 +58,11 @@ public class Solution1 : ISolution
 
         for (var i = 0; i <= n; i++)
         {
+            if (leftmost[i] == m + 1)
+            {
+                break;
+            }
+
             var j = Array.BinarySearch(rightmost, leftmost[i]);
 
             if (j < 0)
@@ -66,7 +70,7 @@ public class Solution1 : ISolution
                 j = ~j;
             }
 
-            if (j <= n)
+            if (j >= i)
             {
                 result = Math.Min(result, j - i);
             }

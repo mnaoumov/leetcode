@@ -67,9 +67,22 @@ public abstract class SutTestsBase<TSolution, TSut> : TestsBase<TSolution, SutTe
 
     private static object ChangeType(object? value, Type conversionType)
     {
-        if (value is IConvertible)
+        switch (value)
         {
-            return Convert.ChangeType(value, conversionType);
+            case IConvertible:
+                return Convert.ChangeType(value, conversionType);
+            case object[] array:
+            {
+                var elementType = conversionType.GetElementType()!;
+                var resultArray = Array.CreateInstance(elementType, array.Length);
+
+                for (var i = 0; i < array.Length; i++)
+                {
+                    resultArray.SetValue(ChangeType(array[i], elementType), i);
+                }
+
+                return resultArray;
+            }
         }
 
         var method = conversionType.GetMethod("FromObject", BindingFlags.Public | BindingFlags.Static,

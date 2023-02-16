@@ -1,0 +1,6 @@
+{
+  "s": "abcd",
+  "t": "bcdf",
+  "maxCost": 3,
+  "output": 3
+}

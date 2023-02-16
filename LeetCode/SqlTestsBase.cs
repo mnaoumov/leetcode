@@ -46,7 +46,7 @@ public abstract class SqlTestsBase<TSqlTests> : TestsBase where TSqlTests : SqlT
                     command.CommandText = $"INSERT INTO {tableName}({columnNamesStr}) VALUES({parametersStr})";
                     for (var i = 0; i < row.Length; i++)
                     {
-                        command.Parameters.AddWithValue($"@p{i}", row[i]);
+                        command.Parameters.AddWithValue($"@p{i}", row[i] ?? DBNull.Value);
                     }
 
                     await command.ExecuteNonQueryAsync();

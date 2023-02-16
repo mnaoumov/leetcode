@@ -1,0 +1,4 @@
+{
+  "paths": [["London","New York"],["New York","Lima"],["Lima","Sao Paulo"]],
+  "output": "Sao Paulo" 
+}

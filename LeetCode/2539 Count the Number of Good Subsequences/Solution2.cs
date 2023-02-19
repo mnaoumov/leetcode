@@ -19,7 +19,7 @@ public class Solution2 : ISolution
                 return 1;
             }
 
-            return (int) ((1L * k * recursiveFunc(k - 1)) % modulo);
+            return (int) (1L * k * recursiveFunc(k - 1) % modulo);
         });
 
         var inverseDp = new DynamicProgramming<int, int>((k, recursiveFunc) =>
@@ -39,7 +39,7 @@ public class Solution2 : ISolution
                 return 1;
             }
 
-            return (int) ((1L * Inverse(k) * recursiveFunc(k - 1)) % modulo);
+            return (int) (1L * Inverse(k) * recursiveFunc(k - 1) % modulo);
         });
 
         var letterCounts = s.GroupBy(letter => letter).Select(g => g.Count()).ToArray();

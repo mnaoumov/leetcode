@@ -31,12 +31,12 @@ public class Solution1 : ISolution
 
             foreach (var nextSquare in Enumerable.Range(square + 1, Math.Min(6, finishSquare - square)))
             {
-                var row = (n - 1) - (nextSquare - 1) / n;
+                var row = n - 1 - (nextSquare - 1) / n;
                 var column = (nextSquare - 1) % n;
 
                 if ((n - 1 - row) % 2 == 1)
                 {
-                    column = (n - 1) - column;
+                    column = n - 1 - column;
                 }
 
                 var followedNextSquare = board[row][column] == regularSquare ? nextSquare : board[row][column];

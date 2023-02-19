@@ -21,7 +21,7 @@ public class Solution2 : ISolution
 
         for (var i = 1; i < n; i++)
         {
-            inversePrimePowers[i] = (int) ((inversePrimePowers[i - 1] * primeInverse) % modulo);
+            inversePrimePowers[i] = (int) (inversePrimePowers[i - 1] * primeInverse % modulo);
         }
 
         var hashes = new int[n];
@@ -129,7 +129,7 @@ public class Solution2 : ISolution
 
             hash = (hashes[endIndex] - hashes[startIndex - 1]) % modulo;
             hash = (hash + modulo) % modulo;
-            hash = (int) ((hash * (long) inversePrimePowers[startIndex]) % modulo);
+            hash = (int) (hash * (long) inversePrimePowers[startIndex] % modulo);
 
             return hash;
         }

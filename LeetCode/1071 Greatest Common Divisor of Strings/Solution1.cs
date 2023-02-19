@@ -50,7 +50,7 @@ public class Solution1 : ISolution
 
             if (success)
             {
-                return str1[0..i];
+                return str1[..i];
             }
         }
 

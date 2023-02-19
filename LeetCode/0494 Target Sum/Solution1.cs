@@ -11,8 +11,10 @@ public class Solution1 : ISolution
 {
     public int FindTargetSumWays(int[] nums, int S)
     {
-        var partialResults = new Dictionary<int, int>();
-        partialResults[0] = 1;
+        var partialResults = new Dictionary<int, int>
+        {
+            [0] = 1
+        };
 
         foreach (var num in nums)
         {

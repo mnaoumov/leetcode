@@ -72,5 +72,4 @@ public class Solution4 : ISolution
             return value;
         }
     }
-
 }

@@ -1,0 +1,5 @@
+{
+  "root": [1,2,null,2,null,2],
+  "target": 2,
+  "output": [1]
+}

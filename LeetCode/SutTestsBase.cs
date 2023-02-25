@@ -67,6 +67,14 @@ public abstract class SutTestsBase<TSolution, TSut> : TestsBase<TSolution, SutTe
 
     private static object ChangeType(object? value, Type conversionType)
     {
+        var method = conversionType.GetMethod("FromObject", BindingFlags.Public | BindingFlags.Static,
+            new[] { typeof(object) });
+
+        if (method != null)
+        {
+            return method.Invoke(null, new[] { value })!;
+        }
+
         switch (value)
         {
             case IConvertible:
@@ -83,14 +91,6 @@ public abstract class SutTestsBase<TSolution, TSut> : TestsBase<TSolution, SutTe
 
                 return resultArray;
             }
-        }
-
-        var method = conversionType.GetMethod("FromObject", BindingFlags.Public | BindingFlags.Static,
-            new[] { typeof(object) });
-
-        if (method != null)
-        {
-            return method.Invoke(null, new[] { value })!;
         }
 
         var valueType = value == null ? "null" : value.GetType().FullName;

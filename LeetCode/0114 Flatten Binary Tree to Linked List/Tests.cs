@@ -9,9 +9,9 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        var root = TreeNode.Create(testCase.Values)!;
+        var root = TreeNode.Create(testCase.Values);
         solution.Flatten(root);
-        Assert.That(root, Is.EqualTo(TreeNode.Create(testCase.OutputValues)));
+        Assert.That(root, Is.EqualTo(TreeNode.CreateOrNull(testCase.OutputValues)));
     }
 
     public class TestCase : TestCaseBase

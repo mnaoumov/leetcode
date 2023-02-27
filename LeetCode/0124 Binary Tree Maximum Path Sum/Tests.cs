@@ -9,7 +9,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.MaxPathSum(TreeNode.Create(testCase.Values)!), Is.EqualTo(testCase.Output));
+        Assert.That(solution.MaxPathSum(TreeNode.Create(testCase.Values)), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase

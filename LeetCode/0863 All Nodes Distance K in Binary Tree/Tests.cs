@@ -8,7 +8,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        var root = TreeNode.Create(testCase.Root)!;
+        var root = TreeNode.Create(testCase.Root);
         var target = root.FindNode(testCase.Target)!;
 
         AssertCollectionEqualWithDetails(solution.DistanceK(root, target, testCase.K), testCase.Output);

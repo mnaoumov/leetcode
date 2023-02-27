@@ -17,7 +17,7 @@ public class TreeNode
         this.right = right;
     }
 
-    public static TreeNode? Create(int?[] values)
+    public static TreeNode? CreateOrNull(int?[] values)
     {
         if (values.Length == 0)
         {
@@ -60,6 +60,8 @@ public class TreeNode
             return new TreeNode(value);
         }
     }
+
+    public static TreeNode Create(int?[] values) => CreateOrNull(values) ?? throw new ArgumentException("Values represent an empty tree", nameof(values));
 
     public override bool Equals(object? obj) => obj is TreeNode treeNode && Equals((val, left, right), (treeNode.val, treeNode.left, treeNode.right));
 
@@ -137,6 +139,6 @@ public class TreeNode
         var values = ((object?[]) obj)
             .Select(valueObj => valueObj == null ? (int?) null : Convert.ToInt32(valueObj))
             .ToArray();
-        return Create(values);
+        return CreateOrNull(values);
     }
 }

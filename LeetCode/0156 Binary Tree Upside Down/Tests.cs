@@ -8,7 +8,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.UpsideDownBinaryTree(TreeNode.Create(testCase.Root)), Is.EqualTo(TreeNode.Create(testCase.Output)));
+        Assert.That(solution.UpsideDownBinaryTree(TreeNode.CreateOrNull(testCase.Root)), Is.EqualTo(TreeNode.CreateOrNull(testCase.Output)));
     }
 
     public class TestCase : TestCaseBase

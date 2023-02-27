@@ -11,7 +11,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     {
         var ser = solution.Create();
         var deser = solution.Create();
-        var root = TreeNode.Create(testCase.Values);
+        var root = TreeNode.CreateOrNull(testCase.Values);
         var ans = deser.deserialize(ser.serialize(root));
         Assert.That(ans, Is.EqualTo(root));
     }

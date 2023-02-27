@@ -8,7 +8,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.ClosestValue(TreeNode.Create(testCase.Root)!, testCase.Target), Is.EqualTo(testCase.Output));
+        Assert.That(solution.ClosestValue(TreeNode.Create(testCase.Root), testCase.Target), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase

@@ -8,7 +8,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.PathSum(TreeNode.Create(testCase.Root), testCase.TargetSum), Is.EqualTo(testCase.Output));
+        Assert.That(solution.PathSum(TreeNode.CreateOrNull(testCase.Root), testCase.TargetSum), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase

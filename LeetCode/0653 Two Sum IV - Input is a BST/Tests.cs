@@ -9,7 +9,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.FindTarget(TreeNode.Create(testCase.Values)!, testCase.K), Is.EqualTo(testCase.Output));
+        Assert.That(solution.FindTarget(TreeNode.Create(testCase.Values), testCase.K), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase

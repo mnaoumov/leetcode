@@ -7,7 +7,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        AssertCollectionEqualWithDetails(solution.PathSum(TreeNode.Create(testCase.RootValues), testCase.TargetSum), testCase.Output);
+        AssertCollectionEqualWithDetails(solution.PathSum(TreeNode.CreateOrNull(testCase.RootValues), testCase.TargetSum), testCase.Output);
     }
 
     public class TestCase : TestCaseBase

@@ -7,7 +7,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        AssertCollectionEqualWithDetails(solution.TreeQueries(TreeNode.Create(testCase.RootValues)!, testCase.Queries), testCase.Output);
+        AssertCollectionEqualWithDetails(solution.TreeQueries(TreeNode.Create(testCase.RootValues), testCase.Queries), testCase.Output);
     }
 
     public class TestCase : TestCaseBase

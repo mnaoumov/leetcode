@@ -9,7 +9,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
         //public int MinDepth(TreeNode root)
-        Assert.That(solution.MinDepth(TreeNode.Create(testCase.RootValues)), Is.EqualTo(testCase.Output));
+        Assert.That(solution.MinDepth(TreeNode.CreateOrNull(testCase.RootValues)), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase

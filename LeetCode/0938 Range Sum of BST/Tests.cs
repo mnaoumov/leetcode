@@ -8,7 +8,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.RangeSumBST(TreeNode.Create(testCase.Root), testCase.Low, testCase.High), Is.EqualTo(testCase.Output));
+        Assert.That(solution.RangeSumBST(TreeNode.CreateOrNull(testCase.Root), testCase.Low, testCase.High), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase

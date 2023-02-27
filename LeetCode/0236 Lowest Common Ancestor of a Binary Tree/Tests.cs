@@ -9,7 +9,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        var root = TreeNode.Create(testCase.Values)!;
+        var root = TreeNode.Create(testCase.Values);
         var p = root.FindNode(testCase.P)!;
         var q = root.FindNode(testCase.Q)!;
         var returnNode = root.FindNode(testCase.Output)!;

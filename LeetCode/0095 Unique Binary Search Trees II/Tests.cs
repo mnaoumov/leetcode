@@ -8,7 +8,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
         AssertCollectionEquivalentWithDetails(solution.GenerateTrees(testCase.N),
-            testCase.OutputValuesArr.Select(TreeNode.Create));
+            testCase.OutputValuesArr.Select(TreeNode.CreateOrNull));
     }
 
     public class TestCase : TestCaseBase

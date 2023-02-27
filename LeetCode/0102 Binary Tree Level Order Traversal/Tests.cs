@@ -7,7 +7,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        AssertCollectionEqualWithDetails(solution.LevelOrder(TreeNode.Create(testCase.Values)!), testCase.Output);
+        AssertCollectionEqualWithDetails(solution.LevelOrder(TreeNode.Create(testCase.Values)), testCase.Output);
     }
 
     public class TestCase : TestCaseBase

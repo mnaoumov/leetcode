@@ -9,7 +9,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.IsValidBST(TreeNode.CreateNonEmpty(testCase.Values)), Is.EqualTo(testCase.Output));
+        Assert.That(solution.IsValidBST(TreeNode.Create(testCase.Values)), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase

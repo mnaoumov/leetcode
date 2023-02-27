@@ -1,12 +1,12 @@
-﻿using NUnit.Framework;
+﻿using System.Runtime.ExceptionServices;
+using NUnit.Framework;
 using NUnit.Framework.Constraints;
-using NUnit.Framework.Internal;
 using Newtonsoft.Json;
 using System.Text.RegularExpressions;
 
 namespace LeetCode;
 
-public abstract class TestsBase<TSolution, TTestCase>: TestsBase where TTestCase : TestCaseBase, new()
+public abstract class TestsBase<TSolution, TTestCase> : TestsBase where TTestCase : TestCaseBase, new()
 {
     [Test]
     [TestCaseSource(nameof(JoinedTestCases))]
@@ -17,7 +17,29 @@ public abstract class TestsBase<TSolution, TTestCase>: TestsBase where TTestCase
             Assert.Fail(testCase.JsonParsingException.ToString());
         }
 
-        TestImpl(solution, testCase);
+        Exception? exception = null;
+
+        const int maxStackSize = 8 * 1024 * 1024;
+
+        var thread = new Thread(() =>
+        {
+            try
+            {
+                TestImpl(solution, testCase);
+            }
+            catch (Exception ex)
+            {
+                exception = ex;
+            }
+        }, maxStackSize);
+        thread.Start();
+        
+        Assert.That(thread.Join(testCase.TimeoutInMilliseconds), Is.True, $"Test timed out after {testCase.TimeoutInMilliseconds} milliseconds");
+
+        if (exception != null)
+        {
+            ExceptionDispatchInfo.Throw(exception);
+        }
     }
 
     protected abstract void TestImpl(TSolution solution, TTestCase testCase);
@@ -57,8 +79,6 @@ public abstract class TestsBase<TSolution, TTestCase>: TestsBase where TTestCase
                     {
                         testCaseData.Explicit(skipSolutionAttribute.Reason.ToString());
                     }
-
-                    testCaseData.Properties.Add(PropertyNames.Timeout, testCase.TimeoutInMilliseconds);
 
                     yield return testCaseData;
                 }

@@ -8,6 +8,7 @@ namespace LeetCode._2574_Left_and_Right_Sum_Differences;
 [UsedImplicitly]
 public class Solution1 : ISolution
 {
+    // ReSharper disable once IdentifierTypo
     public int[] LeftRigthDifference(int[] nums)
     {
         var n = nums.Length;

@@ -31,14 +31,4 @@ public class Node
         bottomLeft = null;
         bottomRight = null;
     }
-
-    public Node(bool val, bool isLeaf, Node topLeft, Node topRight, Node bottomLeft, Node bottomRight)
-    {
-        this.val = val;
-        this.isLeaf = isLeaf;
-        this.topLeft = topLeft;
-        this.topRight = topRight;
-        this.bottomLeft = bottomLeft;
-        this.bottomRight = bottomRight;
-    }
 }

@@ -63,15 +63,14 @@ public class Solution1 : ISolution
             return root;
 
         }
-        else if (root.val > key)
+
+        if (root.val > key)
         {
             root.left = DeleteNode(root.left, key);
             return root;
         }
-        else
-        {
-            root.right = DeleteNode(root.right, key);
-            return root;
-        }
+
+        root.right = DeleteNode(root.right, key);
+        return root;
     }
 }

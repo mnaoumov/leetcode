@@ -15,7 +15,7 @@ public class Solution1 : ISolution
         var senatorCounts = new Dictionary<Party, int>
         {
             [Party.Radiant] = 0,
-            [Party.Dire] = 0,
+            [Party.Dire] = 0
         };
 
         Party party;
@@ -31,7 +31,7 @@ public class Solution1 : ISolution
         var bansAvailable = new Dictionary<Party, int>
         {
             [Party.Radiant] = 0,
-            [Party.Dire] = 0,
+            [Party.Dire] = 0
         };
         
         while (true)

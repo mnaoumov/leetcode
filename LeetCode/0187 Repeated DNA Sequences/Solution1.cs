@@ -17,7 +17,7 @@ public class Solution1 : ISolution
         }
 
         var sb = new StringBuilder(s[..10]);
-        var tenLetterLongSequences = new HashSet<string>()
+        var tenLetterLongSequences = new HashSet<string>
         {
             sb.ToString()
         };

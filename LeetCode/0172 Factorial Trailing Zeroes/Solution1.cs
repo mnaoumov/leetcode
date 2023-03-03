@@ -3,7 +3,7 @@ using JetBrains.Annotations;
 namespace LeetCode._0172_Factorial_Trailing_Zeroes;
 
 /// <summary>
-/// 
+/// https://leetcode.com/submissions/detail/882113670/
 /// </summary>
 [UsedImplicitly]
 public class Solution1 : ISolution

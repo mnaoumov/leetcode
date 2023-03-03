@@ -3,7 +3,7 @@ using JetBrains.Annotations;
 namespace LeetCode._0352_Data_Stream_as_Disjoint_Intervals;
 
 /// <summary>
-/// 
+/// https://leetcode.com/submissions/detail/887098880/
 /// </summary>
 [UsedImplicitly]
 public class Solution1 : ISolution

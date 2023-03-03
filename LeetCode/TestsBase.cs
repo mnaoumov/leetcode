@@ -1,4 +1,5 @@
-﻿using System.Runtime.ExceptionServices;
+﻿using System.Diagnostics;
+using System.Runtime.ExceptionServices;
 using NUnit.Framework;
 using NUnit.Framework.Constraints;
 using Newtonsoft.Json;
@@ -33,8 +34,16 @@ public abstract class TestsBase<TSolution, TTestCase> : TestsBase where TTestCas
             }
         }, maxStackSize);
         thread.Start();
-        
-        Assert.That(thread.Join(testCase.TimeoutInMilliseconds), Is.True, $"Test timed out after {testCase.TimeoutInMilliseconds} milliseconds");
+
+        if (!Debugger.IsAttached)
+        {
+            Assert.That(thread.Join(testCase.TimeoutInMilliseconds), Is.True,
+                $"Test timed out after {testCase.TimeoutInMilliseconds} milliseconds");
+        }
+        else
+        {
+            thread.Join();
+        }
 
         if (exception != null)
         {

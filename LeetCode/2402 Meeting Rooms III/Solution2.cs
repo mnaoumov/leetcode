@@ -18,14 +18,14 @@ public class Solution2 : ISolution
             availableRoomsHeap.Enqueue(i, i);
         }
 
-        var meetingStartHeep = new PriorityQueue<int, int>();
+        var meetingStartHeep = new PriorityQueue<int, (int startTime, int index)>();
 
         for (var i = 0; i < meetings.Length; i++)
         {
-            meetingStartHeep.Enqueue(i, meetings[i][0]);
+            meetingStartHeep.Enqueue(i, (meetings[i][0], i));
         }
 
-        var meetingEndHeep = new PriorityQueue<(int endingMeetingIndex, int room), int>();
+        var meetingEndHeep = new PriorityQueue<(int endingMeetingIndex, int room), (int endTime, int index)>();
 
         var result = 0;
 
@@ -50,8 +50,6 @@ public class Solution2 : ISolution
                     {
                         meetings[startingMeetingIndex] = new[]
                             { endTime, meetings[startingMeetingIndex][1] + endTime - startTime };
-                        meetingStartHeep.Dequeue();
-                        meetingStartHeep.Enqueue(startingMeetingIndex, meetings[startingMeetingIndex][0]);
                         shouldStartMeeting = true;
                     }
                 }
@@ -64,9 +62,10 @@ public class Solution2 : ISolution
 
             {
                 meetingStartHeep.Dequeue();
+
                 var room = availableRoomsHeap.Dequeue();
                 counts[room]++;
-                meetingEndHeep.Enqueue((startingMeetingIndex, room), meetings[startingMeetingIndex][1]);
+                meetingEndHeep.Enqueue((startingMeetingIndex, room), (meetings[startingMeetingIndex][1], startingMeetingIndex));
 
                 if (counts[room] > counts[result] || counts[room] == counts[result] && room < result)
                 {

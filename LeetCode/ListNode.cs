@@ -69,4 +69,13 @@ public class ListNode
 
         return null;
     }
+
+    [UsedImplicitly]
+    public static ListNode? FromObject(object obj)
+    {
+        var values = ((object[]) obj)
+            .Select(Convert.ToInt32)
+            .ToArray();
+        return CreateOrNull(values);
+    }
 }

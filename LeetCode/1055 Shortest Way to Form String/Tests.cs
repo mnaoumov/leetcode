@@ -1,20 +1,20 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2402_Meeting_Rooms_III;
+namespace LeetCode._1055_Shortest_Way_to_Form_String;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.MostBooked(testCase.N, ArrayHelper.DeepCopy(testCase.Meetings)), Is.EqualTo(testCase.Output));
+        Assert.That(solution.ShortestWay(testCase.Source, testCase.Target), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase
     {
-        public int N { get; [UsedImplicitly] init; }
-        public int[][] Meetings { get; [UsedImplicitly] init; } = null!;
+        public string Source { get; [UsedImplicitly] init; } = null!;
+        public string Target { get; [UsedImplicitly] init; } = null!;
         public int Output { get; [UsedImplicitly] init; }
     }
 }

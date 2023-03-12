@@ -3,12 +3,15 @@ using JetBrains.Annotations;
 namespace LeetCode._2402_Meeting_Rooms_III;
 
 /// <summary>
+/// https://leetcode.com/submissions/detail/911744672/
 /// </summary>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {
     public int MostBooked(int n, int[][] meetings)
     {
+        var longMeetings = meetings.Select(meeting => (startTime: (long) meeting[0], endTime: (long) meeting[1])).ToArray();
+
         var counts = new int[n];
 
         var availableRoomsHeap = new PriorityQueue<int, int>();
@@ -18,57 +21,63 @@ public class Solution3 : ISolution
             availableRoomsHeap.Enqueue(i, i);
         }
 
-        var timeHeap = new PriorityQueue<(int meetingIndex, int roomNumber), (int time, int roomNumber, int meetingIndex)>();
-        const int noRoom = -1;
+        var meetingStartHeap = new PriorityQueue<int, (long startTime, int index)>();
 
-        for (var i = 0; i < meetings.Length; i++)
+        for (var i = 0; i < longMeetings.Length; i++)
         {
-            var meeting = meetings[i];
-            timeHeap.Enqueue((i, noRoom), (meeting[0], noRoom, i));
+            meetingStartHeap.Enqueue(i, (longMeetings[i].startTime, i));
         }
 
+        var meetingEndHeap = new PriorityQueue<(int endingMeetingIndex, int room), (long endTime, int room)>();
+
         var result = 0;
-        var skippedMeetingsHeap = new PriorityQueue<int, int>();
 
-        while (timeHeap.Count > 0)
+        while (meetingStartHeap.Count > 0)
         {
-            var (meetingIndex, room) = timeHeap.Dequeue();
-            var endTime = meetings[meetingIndex][1];
+            var startingMeetingIndex = meetingStartHeap.Peek();
+            var startTime = longMeetings[startingMeetingIndex].startTime;
+            var shouldStartMeeting = true;
 
-            if (room != noRoom)
+            if (meetingEndHeap.Count > 0)
             {
-                if (skippedMeetingsHeap.Count <= 0)
+                var (endingMeetingIndex, room) = meetingEndHeap.Peek();
+                var endTime = longMeetings[endingMeetingIndex].endTime;
+
+                if (endTime <= startTime || availableRoomsHeap.Count == 0)
                 {
                     availableRoomsHeap.Enqueue(room, room);
-                    continue;
-                }
+                    shouldStartMeeting = false;
+                    meetingEndHeap.Dequeue();
 
-                var skippedMeetingIndex = skippedMeetingsHeap.Dequeue();
-                var skippedMeeting = meetings[skippedMeetingIndex];
-                var duration = skippedMeeting[1] - skippedMeeting[0];
-                var newEndTime = endTime + duration;
-                timeHeap.Enqueue((skippedMeetingIndex, room), (newEndTime, room, skippedMeetingIndex));
-                skippedMeeting[0] = endTime;
-                skippedMeeting[1] = newEndTime;
+                    if (startTime < endTime)
+                    {
+                        longMeetings[startingMeetingIndex] = (startTime: endTime,
+                            endTime: longMeetings[startingMeetingIndex].endTime + endTime - startTime);
+                        shouldStartMeeting = true;
+
+                        if (longMeetings[startingMeetingIndex].endTime < 0)
+                        {
+                            throw new Exception(longMeetings[startingMeetingIndex].endTime.ToString());
+                        }
+                    }
+                }
+            }
+
+            if (!shouldStartMeeting)
+            {
+                continue;
+            }
+
+            {
+                meetingStartHeap.Dequeue();
+                var room = availableRoomsHeap.Dequeue();
                 counts[room]++;
+                meetingEndHeap.Enqueue((startingMeetingIndex, room), (longMeetings[startingMeetingIndex].endTime, room));
+
                 if (counts[room] > counts[result] || counts[room] == counts[result] && room < result)
                 {
                     result = room;
                 }
-            }
-            else if (availableRoomsHeap.Count > 0)
-            {
-                room = availableRoomsHeap.Dequeue();
-                timeHeap.Enqueue((meetingIndex, room), (endTime, room, meetingIndex));
-                counts[room]++;
-                if (counts[room] > counts[result] || counts[room] == counts[result] && room < result)
-                {
-                    result = room;
-                }
-            }
-            else
-            {
-                skippedMeetingsHeap.Enqueue(meetingIndex, meetingIndex);
             }
         }
 

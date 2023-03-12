@@ -1,0 +1,5 @@
+{
+  "source": "abc",
+  "target": "abcbc",
+  "output": 2
+}

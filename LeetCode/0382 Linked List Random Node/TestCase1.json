@@ -1,0 +1,5 @@
+{
+  "commands": ["Solution", "getRandom", "getRandom", "getRandom", "getRandom", "getRandom"],
+  "parameters": [[[1, 2, 3]], [], [], [], [], []],
+  "output": [null, {"isAnyOf": [1, 2, 3]}, {"isAnyOf": [1, 2, 3]}, {"isAnyOf": [1, 2, 3]}, {"isAnyOf": [1, 2, 3]}, {"isAnyOf": [1, 2, 3]}]
+}

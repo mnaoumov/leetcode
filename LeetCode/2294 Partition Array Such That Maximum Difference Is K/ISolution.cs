@@ -1,0 +1,9 @@
+using JetBrains.Annotations;
+
+namespace LeetCode._2294_Partition_Array_Such_That_Maximum_Difference_Is_K;
+
+[PublicAPI]
+public interface ISolution
+{
+    public int PartitionArray(int[] nums, int k);
+}

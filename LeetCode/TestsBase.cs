@@ -4,6 +4,7 @@ using NUnit.Framework;
 using NUnit.Framework.Constraints;
 using Newtonsoft.Json;
 using System.Text.RegularExpressions;
+using System.Runtime;
 
 namespace LeetCode;
 
@@ -18,6 +19,13 @@ public abstract class TestsBase<TSolution, TTestCase> : TestsBase where TTestCas
             Assert.Fail(testCase.JsonParsingException.ToString());
         }
 
+        var cts = new CancellationTokenSource();
+
+        if (!Debugger.IsAttached)
+        {
+            cts.CancelAfter(testCase.TimeoutInMilliseconds);
+        }
+
         Exception? exception = null;
 
         const int maxStackSize = 8 * 1024 * 1024;
@@ -26,7 +34,9 @@ public abstract class TestsBase<TSolution, TTestCase> : TestsBase where TTestCas
         {
             try
             {
-                TestImpl(solution, testCase);
+#pragma warning disable SYSLIB0046
+                ControlledExecution.Run(() => TestImpl(solution, testCase), cts.Token);
+#pragma warning restore SYSLIB0046
             }
             catch (Exception ex)
             {
@@ -34,20 +44,18 @@ public abstract class TestsBase<TSolution, TTestCase> : TestsBase where TTestCas
             }
         }, maxStackSize);
         thread.Start();
+        thread.Join();
 
-        if (!Debugger.IsAttached)
+        switch (exception)
         {
-            Assert.That(thread.Join(testCase.TimeoutInMilliseconds), Is.True,
-                $"Test timed out after {testCase.TimeoutInMilliseconds} milliseconds");
-        }
-        else
-        {
-            thread.Join();
-        }
-
-        if (exception != null)
-        {
-            ExceptionDispatchInfo.Throw(exception);
+            case null:
+                return;
+            case OperationCanceledException:
+                Assert.Fail($"Test timed out after {testCase.TimeoutInMilliseconds} milliseconds");
+                break;
+            default:
+                ExceptionDispatchInfo.Throw(exception);
+                break;
         }
     }
 

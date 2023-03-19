@@ -14,49 +14,7 @@ public abstract class TestsBase<TSolution, TTestCase> : TestsBase where TTestCas
     [TestCaseSource(nameof(JoinedTestCases))]
     public void Test(TSolution solution, TTestCase testCase)
     {
-        if (testCase.JsonParsingException != null)
-        {
-            Assert.Fail(testCase.JsonParsingException.ToString());
-        }
-
-        var cts = new CancellationTokenSource();
-
-        if (!Debugger.IsAttached)
-        {
-            cts.CancelAfter(testCase.TimeoutInMilliseconds);
-        }
-
-        Exception? exception = null;
-
-        const int maxStackSize = 8 * 1024 * 1024;
-
-        var thread = new Thread(() =>
-        {
-            try
-            {
-#pragma warning disable SYSLIB0046
-                ControlledExecution.Run(() => TestImpl(solution, testCase), cts.Token);
-#pragma warning restore SYSLIB0046
-            }
-            catch (Exception ex)
-            {
-                exception = ex;
-            }
-        }, maxStackSize);
-        thread.Start();
-        thread.Join();
-
-        switch (exception)
-        {
-            case null:
-                return;
-            case OperationCanceledException:
-                Assert.Fail($"Test timed out after {testCase.TimeoutInMilliseconds} milliseconds");
-                break;
-            default:
-                ExceptionDispatchInfo.Throw(exception);
-                break;
-        }
+        RunTestWithStackAndTimeoutChecks(testCase, () => TestImpl(solution, testCase));
     }
 
     protected abstract void TestImpl(TSolution solution, TTestCase testCase);
@@ -72,12 +30,15 @@ public abstract class TestsBase<TSolution, TTestCase> : TestsBase where TTestCas
 
             var problemTestCaseDirectory = GetProblemDirectory(solutionInterfaceType);
 
-            if (problemTestCaseDirectory == null)
+            var testCaseFiles = problemTestCaseDirectory == null
+                ? Array.Empty<string>()
+                : Directory.GetFiles(problemTestCaseDirectory, "TestCase*.json");
+
+            if (testCaseFiles.Length == 0)
             {
-                yield break;
+                Assert.Fail("No test cases found");
             }
 
-            var testCaseFiles = Directory.GetFiles(problemTestCaseDirectory, "TestCase*.json");
             var testCases = testCaseFiles.Select(FromJson<TTestCase>).ToArray();
 
             foreach (var solution in solutions)
@@ -179,6 +140,53 @@ public abstract class TestsBase
                 TestCaseName = name,
                 JsonParsingException = ex
             };
+        }
+    }
+
+    protected static void RunTestWithStackAndTimeoutChecks(TestCaseBase testCase, Action testAction)
+    {
+        if (testCase.JsonParsingException != null)
+        {
+            Assert.Fail(testCase.JsonParsingException.ToString());
+        }
+
+        var cts = new CancellationTokenSource();
+
+        if (!Debugger.IsAttached)
+        {
+            cts.CancelAfter(testCase.TimeoutInMilliseconds);
+        }
+
+        Exception? exception = null;
+
+        const int maxStackSize = 8 * 1024 * 1024;
+
+        var thread = new Thread(() =>
+        {
+            try
+            {
+#pragma warning disable SYSLIB0046
+                ControlledExecution.Run(testAction, cts.Token);
+#pragma warning restore SYSLIB0046
+            }
+            catch (Exception ex)
+            {
+                exception = ex;
+            }
+        }, maxStackSize);
+        thread.Start();
+        thread.Join();
+
+        switch (exception)
+        {
+            case null:
+                return;
+            case OperationCanceledException:
+                Assert.Fail($"Test timed out after {testCase.TimeoutInMilliseconds} milliseconds");
+                break;
+            default:
+                ExceptionDispatchInfo.Throw(exception);
+                break;
         }
     }
 }

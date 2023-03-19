@@ -1,7 +1,6 @@
 ﻿using System.Data;
 using System.Text.RegularExpressions;
 using NUnit.Framework;
-using NUnit.Framework.Internal;
 
 namespace LeetCode;
 
@@ -9,16 +8,18 @@ public abstract class SqlTestsBase<TSqlTests> : TestsBase where TSqlTests : SqlT
 {
     [Test]
     [TestCaseSource(nameof(JoinedTestCases))]
-    public async Task Test(string solutionScriptPath, SqlTestCase testCase)
+    [Category("SQL")]
+    public void Test(string solutionScriptPath, SqlTestCase testCase)
     {
-        if (testCase.JsonParsingException != null)
-        {
-            Assert.Fail(testCase.JsonParsingException.ToString());
-        }
+        RunTestWithStackAndTimeoutChecks(testCase,
+            () => RunSqlTestAsync(solutionScriptPath, testCase).GetAwaiter().GetResult());
+    }
 
+    private static async Task RunSqlTestAsync(string solutionScriptPath, SqlTestCase testCase)
+    {
         var sqlInstance = new SqlInstance(
-            $"{typeof(TSqlTests).Namespace}_{Path.GetFileNameWithoutExtension(solutionScriptPath)}_{testCase.TestCaseName}",
-            _ => Task.CompletedTask);
+    $"{typeof(TSqlTests).Namespace}_{Path.GetFileNameWithoutExtension(solutionScriptPath)}_{testCase.TestCaseName}",
+    _ => Task.CompletedTask);
 
         var db = await sqlInstance.Build();
         await using var command = db.Connection.CreateCommand();
@@ -79,7 +80,7 @@ public abstract class SqlTestsBase<TSqlTests> : TestsBase where TSqlTests : SqlT
             {
                 command.CommandText = script;
             }
-            
+
             await using var reader = await command.ExecuteReaderAsync();
             dt = new DataTable();
             dt.Load(reader);
@@ -141,8 +142,6 @@ public abstract class SqlTestsBase<TSqlTests> : TestsBase where TSqlTests : SqlT
                     {
                         testCaseData.Explicit(skipSolutionReason);
                     }
-
-                    testCaseData.Properties.Add(PropertyNames.Timeout, testCase.TimeoutInMilliseconds);
 
                     yield return testCaseData;
                 }

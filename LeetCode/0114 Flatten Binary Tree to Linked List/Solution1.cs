@@ -8,7 +8,7 @@ namespace LeetCode._0114_Flatten_Binary_Tree_to_Linked_List;
 [UsedImplicitly]
 public class Solution1 : ISolution
 {
-    public void Flatten(TreeNode root)
+    public void Flatten(TreeNode? root)
     {
         var node = root;
         while (node != null)

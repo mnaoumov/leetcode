@@ -65,8 +65,23 @@ public abstract class SutTestsBase<TSolution, TSut> : TestsBase<TSolution, SutTe
         }
     }
 
-    private static object ChangeType(object? value, Type conversionType)
+    private static object? ChangeType(object? value, Type conversionType)
     {
+        if (value == null)
+        {
+            if (conversionType.IsClass || Nullable.GetUnderlyingType(conversionType) != null)
+            {
+                return null;
+            }
+
+            throw CannotConvert();
+        }
+
+        if (value.GetType().IsAssignableTo(conversionType))
+        {
+            return value;
+        }
+
         var method = conversionType.GetMethod("FromObject", BindingFlags.Public | BindingFlags.Static,
             new[] { typeof(object) });
 
@@ -80,21 +95,54 @@ public abstract class SutTestsBase<TSolution, TSut> : TestsBase<TSolution, SutTe
             case IConvertible:
                 return Convert.ChangeType(value, conversionType);
             case object[] array:
-            {
-                var elementType = conversionType.GetElementType()!;
-                var resultArray = Array.CreateInstance(elementType, array.Length);
-
-                for (var i = 0; i < array.Length; i++)
                 {
-                    resultArray.SetValue(ChangeType(array[i], elementType), i);
-                }
+                    Type elementType;
 
-                return resultArray;
-            }
+                    if (conversionType.IsArray)
+                    {
+                        elementType = conversionType.GetElementType()!;
+                    }
+                    else if (conversionType.IsGenericType)
+                    {
+                        var genericArguments = conversionType.GetGenericArguments();
+
+                        if (genericArguments.Length != 1)
+                        {
+                            throw CannotConvert();
+                        }
+
+                        elementType = genericArguments[0];
+
+                        var arrayType = elementType.MakeArrayType();
+
+                        if (!arrayType.IsAssignableTo(conversionType))
+                        {
+                            throw CannotConvert();
+                        }
+                    }
+                    else
+                    {
+                        throw CannotConvert();
+                    }
+
+                    var resultArray = Array.CreateInstance(elementType, array.Length);
+
+                    for (var i = 0; i < array.Length; i++)
+                    {
+                        resultArray.SetValue(ChangeType(array[i], elementType), i);
+                    }
+
+                    return resultArray;
+                }
+            default:
+                throw CannotConvert();
         }
 
-        var valueType = value == null ? "null" : value.GetType().FullName;
-        throw new InvalidCastException($"Cannot convert {valueType} to {conversionType}");
+        Exception CannotConvert()
+        {
+            var valueType = value == null ? "null" : value.GetType().FullName;
+            return new InvalidCastException($"Cannot convert {valueType} to {conversionType}");
+        }
     }
 
     private static string ToPascalCase(string command)

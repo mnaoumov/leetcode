@@ -3,7 +3,8 @@ using JetBrains.Annotations;
 namespace LeetCode._0746_Min_Cost_Climbing_Stairs;
 
 /// <summary>
-/// 
+/// https://leetcode.com/submissions/detail/919194302/
+/// https://leetcode.com/submissions/detail/919845816/
 /// </summary>
 [UsedImplicitly]
 public class Solution1 : ISolution

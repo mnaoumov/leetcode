@@ -1,0 +1,5 @@
+{
+  "trips": [[2,1,5],[3,3,7]],
+  "capacity": 5,
+  "output": true
+}

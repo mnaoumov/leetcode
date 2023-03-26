@@ -3,7 +3,7 @@ using JetBrains.Annotations;
 namespace LeetCode._2360_Longest_Cycle_in_a_Graph;
 
 /// <summary>
-/// 
+/// https://leetcode.com/submissions/detail/922267616/
 /// </summary>
 [UsedImplicitly]
 public class Solution1 : ISolution
@@ -22,7 +22,8 @@ public class Solution1 : ISolution
             }
 
             var node = i;
-            var cycleLength = 0;
+
+            var nodeIndexMap = new Dictionary<int, int>();
 
             while (true)
             {
@@ -33,15 +34,16 @@ public class Solution1 : ISolution
 
                 if (seen[node])
                 {
+                    if (nodeIndexMap.TryGetValue(node, out var index))
+                    {
+                        result = Math.Max(result, nodeIndexMap.Count - index);
+                    }
+
                     break;
                 }
 
-                if (node == i && cycleLength > 0)
-                {
-                    break;
-                }
-
-                cycleLength++;
+                seen[node] = true;
+                nodeIndexMap[node] = nodeIndexMap.Count;
                 node = edges[node];
             }
         }

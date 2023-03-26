@@ -107,8 +107,15 @@ public abstract class TestsBase
 
     protected static string? GetProblemDirectory(Type problemRelatedType)
     {
-        var problemNumber = Regex.Match(problemRelatedType.Namespace!, @"LeetCode\._(\d+)").Groups[1].Value;
-        var problemTestCaseDirectory = Directory.GetDirectories(".", $"{problemNumber} *").FirstOrDefault();
+        var namespacePart = problemRelatedType.Namespace!.Replace("LeetCode._", "");
+        var problemNumber = namespacePart.Substring(0, 4);
+        var problemTestCaseDirectory = Directory.GetDirectories(".", $"{problemNumber} *").FirstOrDefault(dir =>
+        {
+            var name = dir.Split('\\')[^1];
+            var escapedName = Regex.Replace(name, "[ ()'-]", "_");
+            return escapedName == namespacePart;
+        });
+
         return problemTestCaseDirectory;
     }
 

@@ -1,3 +1,3 @@
 # leetcode
 
-All my LeetCode tasks solved
+All my [LeetCode](https://leetcode.com/) tasks solved

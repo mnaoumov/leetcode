@@ -9,7 +9,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.MergeTwoLists(ListNode.Create(testCase.List1Values), ListNode.Create(testCase.List2Values)), Is.EqualTo(ListNode.Create(testCase.OutputValues)));
+        Assert.That(solution.MergeTwoLists(ListNode.CreateOrNull(testCase.List1Values), ListNode.CreateOrNull(testCase.List2Values)), Is.EqualTo(ListNode.CreateOrNull(testCase.OutputValues)));
     }
 
     public class TestCase : TestCaseBase

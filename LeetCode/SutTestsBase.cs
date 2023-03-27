@@ -34,9 +34,20 @@ public abstract class SutTestsBase<TSolution, TSut> : TestsBase<TSolution, SutTe
 
             if (expected is JObject expectedJson)
             {
-                var isAnyOfJson = expectedJson["isAnyOf"];
-                var values = isAnyOfJson!.ToObject<object[]>();
-                Assert.That(actual, Is.AnyOf(values), assertMessage);
+                if (expectedJson["isAnyOf"] is { } isAnyOfJson)
+                {
+                    var values = isAnyOfJson.ToObject<object[]>();
+                    Assert.That(actual, Is.AnyOf(values), assertMessage);
+                }
+                else if (expectedJson["isEquivalentTo"] is { } isEquivalentToJson)
+                {
+                    var values = isEquivalentToJson.ToObject<object[]>();
+                    Assert.That(actual, Is.EquivalentTo(values), assertMessage);
+                }
+                else
+                {
+                    Assert.Fail($"Unsupported json command type {expectedJson}");
+                }
             }
             else
             {

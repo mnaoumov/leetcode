@@ -24,6 +24,5 @@
       [ "Ca", "N" ],
       [ "Na", "N" ]
     ]
-  },
-  "ignoreRowOrder": true
+  }
 }

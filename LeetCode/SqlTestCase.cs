@@ -16,8 +16,5 @@ public class SqlTestCase : TestCaseBase
     public SqlTestCaseOutput Output { get; [UsedImplicitly] init; } = null!;
 
     [JsonProperty(Required = Required.Default)]
-    public bool IgnoreRowOrder { get; [UsedImplicitly] init; }
-
-    [JsonProperty(Required = Required.Default)]
     public object? Argument { get; [UsedImplicitly] init; }
 }

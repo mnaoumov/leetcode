@@ -88,7 +88,7 @@ public abstract class SqlTestsBase<TSqlTests> : TestsBase where TSqlTests : SqlT
 
         var expectedData = dt.Rows.Cast<DataRow>().Select(row => row.ItemArray).ToArray();
 
-        if (testCase.IgnoreRowOrder)
+        if (IgnoreRowOrder)
         {
             AssertCollectionEquivalentWithDetails(actualData, expectedData);
         }
@@ -97,6 +97,8 @@ public abstract class SqlTestsBase<TSqlTests> : TestsBase where TSqlTests : SqlT
             AssertCollectionEqualWithDetails(actualData, expectedData);
         }
     }
+
+    protected virtual bool IgnoreRowOrder => false;
 
     protected abstract string GetResultQuery(SqlDatabase db, SqlTestCase testCase, string script);
 

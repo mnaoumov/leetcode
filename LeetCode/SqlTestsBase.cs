@@ -15,7 +15,7 @@ public abstract class SqlTestsBase<TSqlTests> : TestsBase where TSqlTests : SqlT
             () => RunSqlTestAsync(solutionScriptPath, testCase).GetAwaiter().GetResult());
     }
 
-    private static async Task RunSqlTestAsync(string solutionScriptPath, SqlTestCase testCase)
+    private async Task RunSqlTestAsync(string solutionScriptPath, SqlTestCase testCase)
     {
         var sqlInstance = new SqlInstance(
     $"{typeof(TSqlTests).Namespace}_{Path.GetFileNameWithoutExtension(solutionScriptPath)}_{testCase.TestCaseName}",
@@ -66,21 +66,7 @@ public abstract class SqlTestsBase<TSqlTests> : TestsBase where TSqlTests : SqlT
         {
             var script = await File.ReadAllTextAsync(solutionScriptPath);
 
-            var functionName = Regex.Match(script, @"CREATE FUNCTION (.+?)\(").Groups[1].Value;
-
-            if (!string.IsNullOrEmpty(functionName))
-            {
-                command.CommandText = $"DROP FUNCTION IF EXISTS dbo.{functionName}";
-                command.ExecuteNonQuery();
-                command.CommandText = script;
-                command.ExecuteNonQuery();
-                command.CommandText = $"SELECT dbo.{functionName}({testCase.Argument}) AS '{functionName}({testCase.Argument})'";
-            }
-            else
-            {
-                command.CommandText = script;
-            }
-
+            command.CommandText = GetResultQuery(db, testCase, script);
             await using var reader = await command.ExecuteReaderAsync();
             dt = new DataTable();
             dt.Load(reader);
@@ -111,6 +97,8 @@ public abstract class SqlTestsBase<TSqlTests> : TestsBase where TSqlTests : SqlT
             AssertCollectionEqualWithDetails(actualData, expectedData);
         }
     }
+
+    protected abstract string GetResultQuery(SqlDatabase db, SqlTestCase testCase, string script);
 
     public static IEnumerable<TestCaseData> JoinedTestCases
     {

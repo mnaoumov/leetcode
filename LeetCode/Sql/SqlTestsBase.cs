@@ -110,6 +110,11 @@ public abstract class SqlTestsBase<TSqlTests> : TestsBase where TSqlTests : SqlT
             var problemTestCaseDirectory = GetProblemDirectory(typeof(TSqlTests))!;
             var solutionScriptFiles = Directory.GetFiles(problemTestCaseDirectory, "Solution*.sql");
 
+            if (solutionScriptFiles.Length == 0)
+            {
+                Assert.Fail("No Solution*.sql found");
+            }
+
             foreach (var solutionScriptFile in solutionScriptFiles)
             {
                 var solutionName = Path.GetFileNameWithoutExtension(solutionScriptFile);

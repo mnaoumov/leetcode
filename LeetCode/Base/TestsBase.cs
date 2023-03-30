@@ -27,7 +27,12 @@ public abstract class TestsBase<TSolution, TTestCase> : TestsBase where TTestCas
             var solutionInterfaceType = typeof(TSolution);
             var solutionTypes = solutionInterfaceType.Assembly.GetTypes()
                 .Where(t => t.IsClass && t.IsAssignableTo(solutionInterfaceType) && !t.IsAbstract);
-            var solutions = solutionTypes.Select(t => (TSolution) Activator.CreateInstance(t)!);
+            var solutions = solutionTypes.Select(t => (TSolution) Activator.CreateInstance(t)!).ToArray();
+
+            if (solutions.Length == 0)
+            {
+                Assert.Fail("No Solution types found");
+            }
 
             foreach (var solution in solutions)
             {

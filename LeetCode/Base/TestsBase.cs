@@ -23,23 +23,11 @@ public abstract class TestsBase<TSolution, TTestCase> : TestsBase where TTestCas
     {
         get
         {
+            var testCases = GetTestCases<TSolution, TTestCase>();
             var solutionInterfaceType = typeof(TSolution);
             var solutionTypes = solutionInterfaceType.Assembly.GetTypes()
                 .Where(t => t.IsClass && t.IsAssignableTo(solutionInterfaceType) && !t.IsAbstract);
             var solutions = solutionTypes.Select(t => (TSolution) Activator.CreateInstance(t)!);
-
-            var problemTestCaseDirectory = GetProblemDirectory(solutionInterfaceType);
-
-            var testCaseFiles = problemTestCaseDirectory == null
-                ? Array.Empty<string>()
-                : Directory.GetFiles(problemTestCaseDirectory, "TestCase*.json");
-
-            if (testCaseFiles.Length == 0)
-            {
-                Assert.Fail("No test cases found");
-            }
-
-            var testCases = testCaseFiles.Select(FromJson<TTestCase>).ToArray();
 
             foreach (var solution in solutions)
             {
@@ -195,5 +183,22 @@ public abstract class TestsBase
                 ExceptionDispatchInfo.Throw(exception);
                 break;
         }
+    }
+
+    protected static TTestCase[] GetTestCases<TProblemRelatedType, TTestCase>() where TTestCase : TestCaseBase, new()
+    {
+        var problemTestCaseDirectory = GetProblemDirectory(typeof(TProblemRelatedType));
+
+        var testCaseFiles = problemTestCaseDirectory == null
+            ? Array.Empty<string>()
+            : Directory.GetFiles(problemTestCaseDirectory, "TestCase*.json");
+
+        if (testCaseFiles.Length == 0)
+        {
+            Assert.Fail("No test cases found");
+        }
+
+        var testCases = testCaseFiles.Select(FromJson<TTestCase>).ToArray();
+        return testCases;
     }
 }

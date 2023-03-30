@@ -106,17 +106,9 @@ public abstract class SqlTestsBase<TSqlTests> : TestsBase where TSqlTests : SqlT
     {
         get
         {
-            var problemTestCaseDirectory = GetProblemDirectory(typeof(TSqlTests));
-
-            if (problemTestCaseDirectory == null)
-            {
-                yield break;
-            }
-
-            var testCaseFiles = Directory.GetFiles(problemTestCaseDirectory, "TestCase*.json");
+            var testCases = GetTestCases<TSqlTests, SqlTestCase>();
+            var problemTestCaseDirectory = GetProblemDirectory(typeof(TSqlTests))!;
             var solutionScriptFiles = Directory.GetFiles(problemTestCaseDirectory, "Solution*.sql");
-
-            var testCases = testCaseFiles.Select(FromJson<SqlTestCase>).ToArray();
 
             foreach (var solutionScriptFile in solutionScriptFiles)
             {

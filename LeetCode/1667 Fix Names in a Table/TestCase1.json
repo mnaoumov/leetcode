@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "Users": [
+      "user_id",
+      "name"
+    ]
+  },
+  "rows": {
+    "Users": [
+      [
+        1,
+        "aLice"
+      ],
+      [
+        2,
+        "bOB"
+      ]
+    ]
+  },
+  "output": {
+    "headers": [
+      "user_id",
+      "name"
+    ],
+    "values": [
+      [
+        1,
+        "Alice"
+      ],
+      [
+        2,
+        "Bob"
+      ]
+    ]
+  }
+}

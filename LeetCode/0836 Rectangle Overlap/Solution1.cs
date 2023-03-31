@@ -3,7 +3,7 @@ using JetBrains.Annotations;
 namespace LeetCode._0836_Rectangle_Overlap;
 
 /// <summary>
-/// 
+/// https://leetcode.com/submissions/detail/925505077/
 /// </summary>
 [UsedImplicitly]
 public class Solution1 : ISolution

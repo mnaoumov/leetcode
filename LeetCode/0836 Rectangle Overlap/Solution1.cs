@@ -10,8 +10,10 @@ public class Solution1 : ISolution
 {
     public bool IsRectangleOverlap(int[] rec1, int[] rec2)
     {
+#pragma warning disable IDE0042
         var tuple1 = ToTuple(rec1);
         var tuple2 = ToTuple(rec2);
+#pragma warning restore IDE0042
         return Intersects((tuple1.x1, tuple1.x2), (tuple2.x1, tuple2.x2)) &&
                Intersects((tuple1.y1, tuple1.y2), (tuple2.y1, tuple2.y2));
 

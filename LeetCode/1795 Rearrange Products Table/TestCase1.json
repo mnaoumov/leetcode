@@ -1,0 +1,60 @@
+{
+  "headers": {
+    "Products": [
+      "product_id",
+      "store1",
+      "store2",
+      "store3"
+    ]
+  },
+  "rows": {
+    "Products": [
+      [
+        0,
+        95,
+        100,
+        105
+      ],
+      [
+        1,
+        70,
+        null,
+        80
+      ]
+    ]
+  },
+  "output": {
+    "headers": [
+      "product_id",
+      "store",
+      "price"
+    ],
+    "values": [
+      [
+        0,
+        "store1",
+        95
+      ],
+      [
+        1,
+        "store1",
+        70
+      ],
+      [
+        0,
+        "store2",
+        100
+      ],
+      [
+        0,
+        "store3",
+        105
+      ],
+      [
+        1,
+        "store3",
+        80
+      ]
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "letters": ["x","x","y","y"],
+  "target": "z",
+  "output": "x"
+}

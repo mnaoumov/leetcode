@@ -107,7 +107,7 @@ public abstract class TestsBase
     protected static string? GetProblemDirectory(Type problemRelatedType)
     {
         var namespacePart = problemRelatedType.Namespace!.Replace("LeetCode._", "");
-        var problemNumber = namespacePart.Substring(0, 4);
+        var problemNumber = namespacePart[..4];
         var problemTestCaseDirectory = Directory.GetDirectories(".", $"{problemNumber} *").FirstOrDefault(dir =>
         {
             var name = dir.Split('\\')[^1];
@@ -118,7 +118,7 @@ public abstract class TestsBase
         return problemTestCaseDirectory;
     }
 
-    protected static TTestCase FromJson<TTestCase>(string testCaseFilePath) where TTestCase : TestCaseBase, new()
+    private static TTestCase FromJson<TTestCase>(string testCaseFilePath) where TTestCase : TestCaseBase, new()
     {
         var name = Path.GetFileNameWithoutExtension(testCaseFilePath);
 

@@ -1,5 +1,7 @@
 ﻿namespace LeetCode.Templates;
 
+// ReSharper disable once UnusedType.Global
+// ReSharper disable once UnusedMember.Global
 public class DynamicProgramming<TKey, TValue> where TKey : notnull
 {
     private readonly Func<TKey, Func<TKey, TValue>, TValue> _func;

@@ -72,12 +72,18 @@ public abstract class TestsBase
             });
     }
 
-    protected static void AssertCollectionEqualWithDetails<T>(IEnumerable<T> actual, IEnumerable<T> expected)
+    protected static void AssertCollectionEqualWithDetails<T>(IEnumerable<T> actual, IEnumerable<T> expected, string? message = null)
     {
         var actualArray = actual.ToArray();
         var expectedArray = expected.ToArray();
-        Assert.That(actualArray, Is.EqualTo(expectedArray), "Actual:\r\n{0}\r\n\r\nExpected:\r\n{1}\r\n\r\n",
-            JsonConvert.SerializeObject(actualArray), JsonConvert.SerializeObject(expectedArray));
+
+        if (message != null)
+        {
+            message += "\r\n";
+        }
+
+        Assert.That(actualArray, Is.EqualTo(expectedArray), "{0}Actual:\r\n{1}\r\n\r\nExpected:\r\n{2}\r\n\r\n",
+            message, JsonConvert.SerializeObject(actualArray), JsonConvert.SerializeObject(expectedArray));
     }
 
     protected static void AssertCollectionEquivalentWithDetails<T>(IEnumerable<T> actual, IEnumerable<T> expected)

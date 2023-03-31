@@ -36,6 +36,10 @@
     </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Templates\" />
+  </ItemGroup>
+
   <Target Name="GatherJsonAnalyzers">
     <ItemGroup>
       <_JsonAnalyzers Include="@(Analyzer)" Condition=" '%(Analyzer.Filename)' == 'System.Text.Json.SourceGeneration' " />

@@ -1,7 +1,7 @@
-using NUnit.Framework;
 using JetBrains.Annotations;
+using NUnit.Framework;
 
-namespace LeetCode._6327_Form_Smallest_Number_From_Two_Digit_Arrays;
+namespace LeetCode._2605_Form_Smallest_Number_From_Two_Digit_Arrays;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

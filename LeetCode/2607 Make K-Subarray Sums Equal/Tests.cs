@@ -1,7 +1,7 @@
-using NUnit.Framework;
 using JetBrains.Annotations;
+using NUnit.Framework;
 
-namespace LeetCode._6329_Make_K_Subarray_Sums_Equal;
+namespace LeetCode._2607_Make_K_Subarray_Sums_Equal;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

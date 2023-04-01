@@ -1,13 +1,12 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._6330_Shortest_Cycle_in_a_Graph;
+namespace LeetCode._2608_Shortest_Cycle_in_a_Graph;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/926131468/
+/// https://leetcode.com/submissions/detail/926162365/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
-public class Solution4 : ISolution
+public class Solution6 : ISolution
 {
     public int FindShortestCycle(int n, int[][] edges)
     {
@@ -23,28 +22,32 @@ public class Solution4 : ISolution
 
         for (var i = 0; i < n; i++)
         {
-            var queue = new Queue<(int node, int parent, HashSet<int> path)>();
-            queue.Enqueue((i, -1, new HashSet<int>()));
+            var path = new HashSet<int>();
 
-            while (queue.Count > 0)
+            Backtrack(i, -1);
+
+            void Backtrack(int node, int parent)
             {
-                var (node, parent, path) = queue.Dequeue();
-
                 if (node == i && path.Count > 0)
                 {
                     result = Math.Min(result, path.Count);
-                    continue;
+                    return;
                 }
 
                 if (!path.Add(node))
                 {
-                    continue;
+                    return;
                 }
 
-                foreach (var adjacentNode in adjacentNodes[node].Where(adjacentNode => adjacentNode != parent))
+                if (path.Count < result)
                 {
-                    queue.Enqueue((adjacentNode, node, path.ToHashSet()));
+                    foreach (var adjacentNode in adjacentNodes[node].Where(adjacentNode => adjacentNode != parent))
+                    {
+                        Backtrack(adjacentNode, node);
+                    }
                 }
+
+                path.Remove(node);
             }
         }
 

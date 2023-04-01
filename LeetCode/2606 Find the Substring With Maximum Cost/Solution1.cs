@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._6328_Find_the_Substring_With_Maximum_Cost;
+namespace LeetCode._2606_Find_the_Substring_With_Maximum_Cost;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-101/submissions/detail/925972750/

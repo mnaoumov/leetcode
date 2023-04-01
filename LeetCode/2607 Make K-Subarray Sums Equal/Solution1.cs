@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._6329_Make_K_Subarray_Sums_Equal;
+namespace LeetCode._2607_Make_K_Subarray_Sums_Equal;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-101/submissions/detail/925996865/

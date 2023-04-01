@@ -1,13 +1,13 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._6330_Shortest_Cycle_in_a_Graph;
+namespace LeetCode._2608_Shortest_Cycle_in_a_Graph;
 
 /// <summary>
-/// https://leetcode.com/contest/biweekly-contest-101/submissions/detail/926018470/
+/// https://leetcode.com/submissions/detail/926044770/
 /// </summary>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public int FindShortestCycle(int n, int[][] edges)
     {
@@ -29,21 +29,24 @@ public class Solution1 : ISolution
                 continue;
             }
 
-            result = Math.Min(result, Dfs(i, 1));
+            result = Math.Min(result, Dfs(i, -1, 1));
         }
 
         return result == int.MaxValue ? -1 : result;
 
-        int Dfs(int i, int length)
+        int Dfs(int node, int parent, int length)
         {
-            seen[i] = true;
+            seen[node] = true;
 
-            foreach (var adjacentNode in adjacentNodes[i].Where(adjacentNode => !seen[adjacentNode]))
+            var minLength = int.MaxValue;
+
+            if (adjacentNodes[node].Any(adjacentNode => adjacentNode != parent && seen[adjacentNode]))
             {
-                return Dfs(adjacentNode, length + 1);
+                minLength = length;
             }
 
-            return adjacentNodes[i].Count == 2 ? length : int.MaxValue;
+            return adjacentNodes[node].Where(adjacentNode => !seen[adjacentNode])
+                .Select(adjacentNode => Dfs(adjacentNode, node, length + 1)).Prepend(minLength).Min();
         }
     }
 }

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._6330_Shortest_Cycle_in_a_Graph;
+namespace LeetCode._2608_Shortest_Cycle_in_a_Graph;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/926068734/

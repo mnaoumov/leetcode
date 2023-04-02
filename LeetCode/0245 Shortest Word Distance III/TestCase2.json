@@ -1,0 +1,6 @@
+{
+  "wordsDict": ["practice", "makes", "perfect", "coding", "makes"],
+  "word1": "makes",
+  "word2": "makes",
+  "output": 3
+}

@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "Followers": [
+      "user_id",
+      "follower_id"
+    ]
+  },
+  "rows": {
+    "Followers": [
+      [
+        "0",
+        "1"
+      ],
+      [
+        "1",
+        "0"
+      ],
+      [
+        "2",
+        "0"
+      ],
+      [
+        "2",
+        "1"
+      ]
+    ]
+  },
+  "output": {
+    "headers": [
+      "user_id",
+      "followers_count"
+    ],
+    "values": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ]
+  }
+}

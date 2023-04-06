@@ -1,0 +1,6 @@
+{
+  "jug1Capacity": 3,
+  "jug2Capacity": 5,
+  "targetCapacity": 4,
+  "output": true
+}

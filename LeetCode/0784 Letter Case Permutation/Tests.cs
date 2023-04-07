@@ -1,0 +1,19 @@
+
+using JetBrains.Annotations;
+
+namespace LeetCode._0784_Letter_Case_Permutation;
+
+[UsedImplicitly]
+public class Tests : TestsBase<ISolution, Tests.TestCase>
+{
+    protected override void TestImpl(ISolution solution, TestCase testCase)
+    {
+        AssertCollectionEquivalentWithDetails(solution.LetterCasePermutation(testCase.S), testCase.Output);
+    }
+
+    public class TestCase : TestCaseBase
+    {
+        public string S { get; [UsedImplicitly] init; } = null!;
+        public IList<string> Output { get; [UsedImplicitly] init; } = null!;
+    }
+}

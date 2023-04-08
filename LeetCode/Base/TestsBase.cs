@@ -111,7 +111,7 @@ public abstract class TestsBase
         var problemTestCaseDirectory = Directory.GetDirectories(".", $"{problemNumber} *").FirstOrDefault(dir =>
         {
             var name = dir.Split('\\')[^1];
-            var escapedName = Regex.Replace(name, "[ ()'-]", "_");
+            var escapedName = Regex.Replace(name, "[ ()'&-]", "_");
             return escapedName == namespacePart;
         });
 

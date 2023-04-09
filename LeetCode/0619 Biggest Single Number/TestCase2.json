@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "MyNumbers": [
+      "num"
+    ]
+  },
+  "rows": {
+    "MyNumbers": [
+      [ 8 ],
+      [ 8 ],
+      [ 7 ],
+      [ 7 ],
+      [ 3 ],
+      [ 3 ],
+      [ 3 ]
+    ]
+  },
+  "output": {
+    "headers": [
+      "num"
+    ],
+    "values": [
+      [
+        null
+      ]
+    ]
+  }
+}

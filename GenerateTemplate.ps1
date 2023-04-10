@@ -49,7 +49,7 @@ using JetBrains.Annotations;
 namespace LeetCode.<%= $escapedTitle %>;
 
 [UsedImplicitly]
-public class Tests : SqlTestsBase<Tests>
+public class Tests : SelectSqlTestsBase<Tests>
 {
 }
 '@);

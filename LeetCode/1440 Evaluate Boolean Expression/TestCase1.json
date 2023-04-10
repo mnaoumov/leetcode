@@ -1,0 +1,103 @@
+{
+  "headers": {
+    "Variables": [
+      "name",
+      "value"
+    ],
+    "Expressions": [
+      "left_operand",
+      "operator",
+      "right_operand"
+    ]
+  },
+  "rows": {
+    "Variables": [
+      [
+        "x",
+        66
+      ],
+      [
+        "y",
+        77
+      ]
+    ],
+    "Expressions": [
+      [
+        "x",
+        ">",
+        "y"
+      ],
+      [
+        "x",
+        "<",
+        "y"
+      ],
+      [
+        "x",
+        "=",
+        "y"
+      ],
+      [
+        "y",
+        ">",
+        "x"
+      ],
+      [
+        "y",
+        "<",
+        "x"
+      ],
+      [
+        "x",
+        "=",
+        "x"
+      ]
+    ]
+  },
+  "output": {
+    "headers": [
+      "left_operand",
+      "operator",
+      "right_operand",
+      "value"
+    ],
+    "values": [
+      [
+        "x",
+        ">",
+        "y",
+        "false"
+      ],
+      [
+        "x",
+        "<",
+        "y",
+        "true"
+      ],
+      [
+        "x",
+        "=",
+        "y",
+        "false"
+      ],
+      [
+        "y",
+        ">",
+        "x",
+        "true"
+      ],
+      [
+        "y",
+        "<",
+        "x",
+        "false"
+      ],
+      [
+        "x",
+        "=",
+        "x",
+        "true"
+      ]
+    ]
+  }
+}

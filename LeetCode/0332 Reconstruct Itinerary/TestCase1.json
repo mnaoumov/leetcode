@@ -1,0 +1,4 @@
+{
+  "tickets": [["MUC","LHR"],["JFK","MUC"],["SFO","SJC"],["LHR","SFO"]],
+  "output": ["JFK","MUC","LHR","SFO","SJC"]
+}

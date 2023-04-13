@@ -1,0 +1,4 @@
+{
+  "input": "{ func = () => checkIfInstanceOf(undefined, null); return func(); }",
+  "output": false
+}

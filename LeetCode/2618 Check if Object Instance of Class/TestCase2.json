@@ -1,0 +1,4 @@
+{
+  "input": "{ func = () => { class Animal {}; class Dog extends Animal {}; return checkIfInstanceOf(new Dog(), Animal); }; return func(); }",
+  "output": true
+}

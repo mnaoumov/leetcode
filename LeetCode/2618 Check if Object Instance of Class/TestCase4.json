@@ -1,0 +1,4 @@
+{
+  "input": "{ func = () => checkIfInstanceOf(5, Number); return func(); }",
+  "output": true
+}

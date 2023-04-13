@@ -1,0 +1,4 @@
+{
+  "input": "{ func = () => checkIfInstanceOf(new Date(), Date); return func(); }",
+  "output": true
+}

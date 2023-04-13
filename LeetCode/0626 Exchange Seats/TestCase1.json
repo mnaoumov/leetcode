@@ -1,0 +1,60 @@
+{
+  "headers": {
+    "Seat": [
+      "id",
+      "student"
+    ]
+  },
+  "rows": {
+    "Seat": [
+      [
+        1,
+        "Abbot"
+      ],
+      [
+        2,
+        "Doris"
+      ],
+      [
+        3,
+        "Emerson"
+      ],
+      [
+        4,
+        "Green"
+      ],
+      [
+        5,
+        "Jeames"
+      ]
+    ]
+  },
+  "output": {
+    "headers": [
+      "id",
+      "student"
+    ],
+    "values": [
+      [
+        1,
+        "Doris"
+      ],
+      [
+        2,
+        "Abbot"
+      ],
+      [
+        3,
+        "Green"
+      ],
+      [
+        4,
+        "Emerson"
+      ],
+      [
+        5,
+        "Jeames"
+      ]
+    ]
+  }
+}

@@ -1,4 +1,4 @@
 {
-  "input": "{ func = () => checkIfInstanceOf(Date, Date); return func(); }",
+  "inputFunction": "() => checkIfInstanceOf(Date, Date)",
   "output": false
 }

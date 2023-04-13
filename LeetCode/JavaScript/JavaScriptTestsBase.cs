@@ -17,7 +17,7 @@ public class JavaScriptTestsBase<TJavaScriptTests> : TestsBase where TJavaScript
         var code = $@"
 let result;
 try {{
-    result = (() => {testCase.Input})();
+    result = ({testCase.InputFunction})();
 }} catch (e) {{
     result = e;
 }}

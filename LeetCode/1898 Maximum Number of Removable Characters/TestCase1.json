@@ -1,0 +1,6 @@
+{
+  "s": "abcacb",
+  "p": "ab",
+  "removable": [3,1,0],
+  "output": 2
+}

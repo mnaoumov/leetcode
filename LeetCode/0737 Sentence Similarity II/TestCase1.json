@@ -1,0 +1,6 @@
+{
+  "sentence1": ["great","acting","skills"],
+  "sentence2": ["fine","drama","talent"],
+  "similarPairs": [["great","good"],["fine","good"],["drama","acting"],["skills","talent"]],
+  "output": true
+}

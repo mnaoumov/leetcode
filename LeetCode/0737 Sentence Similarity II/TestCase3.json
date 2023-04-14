@@ -1,0 +1,6 @@
+{
+  "sentence1": ["I","love","leetcode"],
+  "sentence2": ["I","love","onepiece"],
+  "similarPairs": [["manga","hunterXhunter"],["platform","anime"],["leetcode","platform"],["anime","manga"]],
+  "output": false
+}

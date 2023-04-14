@@ -46,6 +46,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="5001 Two Sum\" />
     <Folder Include="JavaScript\" />
     <Folder Include="Templates\" />
   </ItemGroup>

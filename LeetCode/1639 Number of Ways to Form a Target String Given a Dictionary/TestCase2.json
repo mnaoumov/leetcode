@@ -1,0 +1,5 @@
+{
+  "words": ["abba","baab"],
+  "target": "bab",
+  "output": 4
+}

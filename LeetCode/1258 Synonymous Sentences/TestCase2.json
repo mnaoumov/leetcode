@@ -1,0 +1,5 @@
+{
+  "synonyms": [["happy","joy"],["cheerful","glad"]],
+  "text": "I am happy today but was sad yesterday",
+  "output": ["I am happy today but was sad yesterday","I am joy today but was sad yesterday"]
+}

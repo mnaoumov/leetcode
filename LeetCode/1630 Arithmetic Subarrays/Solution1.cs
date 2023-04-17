@@ -3,7 +3,7 @@ using JetBrains.Annotations;
 namespace LeetCode._1630_Arithmetic_Subarrays;
 
 /// <summary>
-/// 
+/// https://leetcode.com/submissions/detail/935067138/
 /// </summary>
 [UsedImplicitly]
 public class Solution1 : ISolution

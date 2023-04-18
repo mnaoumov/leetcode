@@ -1,24 +1,26 @@
-﻿namespace LeetCode.Templates;
+﻿// ReSharper disable All
+namespace LeetCode.Templates;
 
-// ReSharper disable once UnusedType.Global
-// ReSharper disable once UnusedMember.Global
-public class DynamicProgramming<TKey, TValue> where TKey : notnull
+public static partial class Template
 {
-    private readonly Func<TKey, Func<TKey, TValue>, TValue> _func;
-    private readonly Dictionary<TKey, TValue> _cache = new();
-
-    public DynamicProgramming(Func<TKey, Func<TKey, TValue>, TValue> func)
+    private class DynamicProgramming<TKey, TValue> where TKey : notnull
     {
-        _func = func;
-    }
+        private readonly Func<TKey, Func<TKey, TValue>, TValue> _func;
+        private readonly Dictionary<TKey, TValue> _cache = new();
 
-    public TValue GetOrCalculate(TKey key)
-    {
-        if (!_cache.TryGetValue(key, out var value))
+        public DynamicProgramming(Func<TKey, Func<TKey, TValue>, TValue> func)
         {
-            _cache[key] = value = _func(key, GetOrCalculate);
+            _func = func;
         }
 
-        return value;
+        public TValue GetOrCalculate(TKey key)
+        {
+            if (!_cache.TryGetValue(key, out var value))
+            {
+                _cache[key] = value = _func(key, GetOrCalculate);
+            }
+
+            return value;
+        }
     }
 }

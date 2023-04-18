@@ -1,0 +1,7 @@
+{
+  "n": 6,
+  "roads": [[0,1],[1,2],[2,3],[3,4],[4,5]],
+  "names": ["ATL","PEK","LAX","ATL","DXB","HND"],
+  "targetPath": ["ATL","DXB","HND","DXB","ATL","LAX","PEK"],
+  "output": [3,4,5,4,3,2,1]
+}

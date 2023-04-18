@@ -82,9 +82,9 @@ public class Solution09 : ISolution
 
         int Get(int query)
         {
-            if (cache.ContainsKey(query))
+            if (cache.TryGetValue(query, out var value))
             {
-                return cache[query];
+                return value;
             }
 
             var leavesWithinQuery = valueLeavesMap[query];

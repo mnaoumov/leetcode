@@ -29,9 +29,9 @@ public class Solution2 : ISolution
 
     private List<int> GetBits(int n)
     {
-        if (_bitsMap.ContainsKey(n))
+        if (_bitsMap.TryGetValue(n, out var bits1))
         {
-            return _bitsMap[n];
+            return bits1;
         }
 
         var bits = new List<int>();

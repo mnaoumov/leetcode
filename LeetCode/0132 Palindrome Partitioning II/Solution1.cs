@@ -44,9 +44,9 @@ public class Solution1 : ISolution
                 return true;
             }
 
-            if (isPalindromeDict.ContainsKey(key))
+            if (isPalindromeDict.TryGetValue(key, out var palindrome))
             {
-                return isPalindromeDict[key];
+                return palindrome;
             }
 
             return isPalindromeDict[key] = s[startIndex] == s[endIndex] && IsPalindrome(startIndex + 1, endIndex - 1);

@@ -40,10 +40,7 @@ public class MyCalendarThree3 : IMyCalendarThree
 
     private void InitBooking((int start, int end) @event)
     {
-        if (!_eventBookingDict.ContainsKey(@event))
-        {
-            _eventBookingDict[@event] = 0;
-        }
+        _eventBookingDict.TryAdd(@event, 0);
     }
 
     private static (int start, int end) Intersect((int start, int end) event1, (int start, int end) event2) => (start: Math.Max(event1.start, event2.start), end: Math.Min(event1.end, event2.end));

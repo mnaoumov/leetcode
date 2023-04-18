@@ -97,10 +97,7 @@ public class Solution4 : ISolution
                     result[j] = dict = new Dictionary<char, int>();
                 }
 
-                if (!dict.ContainsKey(letter))
-                {
-                    dict[letter] = 0;
-                }
+                dict.TryAdd(letter, 0);
 
                 dict[letter]++;
             }

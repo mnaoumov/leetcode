@@ -59,9 +59,9 @@ public class Solution6 : ISolution
 
             for (var i = 0; i < n; i++)
             {
-                if (extraPowerEffectEndedMap.ContainsKey(i))
+                if (extraPowerEffectEndedMap.TryGetValue(i, out var value))
                 {
-                    extraPower -= extraPowerEffectEndedMap[i];
+                    extraPower -= value;
                 }
 
                 var power = powers[i] + extraPower;

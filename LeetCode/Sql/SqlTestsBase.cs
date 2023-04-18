@@ -4,8 +4,11 @@ using NUnit.Framework;
 
 namespace LeetCode;
 
-public abstract class SqlTestsBase<TSqlTests> : TestsBase where TSqlTests : SqlTestsBase<TSqlTests>
+public abstract partial class SqlTestsBase<TSqlTests> : TestsBase where TSqlTests : SqlTestsBase<TSqlTests>
 {
+    [GeneratedRegex("-- SkipSolution: (.+)")]
+    private static partial Regex SkipSolutionRegex();
+
     [Test]
     [TestCaseSource(nameof(JoinedTestCases))]
     [Category("SQL")]
@@ -119,7 +122,7 @@ public abstract class SqlTestsBase<TSqlTests> : TestsBase where TSqlTests : SqlT
             {
                 var solutionName = Path.GetFileNameWithoutExtension(solutionScriptFile);
                 var firstLine = File.ReadLines(solutionScriptFile).First();
-                var skipSolutionReason = Regex.Match(firstLine, "-- SkipSolution: (.+)").Groups[1].Value;
+                var skipSolutionReason = SkipSolutionRegex().Match(firstLine).Groups[1].Value;
 
                 foreach (var testCase in testCases)
                 {

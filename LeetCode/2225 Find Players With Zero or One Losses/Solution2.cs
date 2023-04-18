@@ -25,10 +25,7 @@ public class Solution2 : ISolution
 
         void CreateEntryIfMissing(int player)
         {
-            if (!loseCountsMap.ContainsKey(player))
-            {
-                loseCountsMap[player] = 0;
-            }
+            loseCountsMap.TryAdd(player, 0);
         }
 
         IList<int> FilterByCount(int count) => orderedKeys.Where(key => loseCountsMap[key] == count).ToArray();

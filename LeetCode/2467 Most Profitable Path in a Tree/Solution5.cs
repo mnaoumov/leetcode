@@ -112,9 +112,9 @@ public class Solution5 : ISolution
 
             int ApplyCorrection(int node2, int level2)
             {
-                if (correctionsMap.ContainsKey(node2))
+                if (correctionsMap.TryGetValue(node2, out var applyCorrection))
                 {
-                    return correctionsMap[node2];
+                    return applyCorrection;
                 }
 
                 if (level2 < level / 2)

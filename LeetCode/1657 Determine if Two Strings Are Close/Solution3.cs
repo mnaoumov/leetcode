@@ -37,10 +37,7 @@ public class Solution3 : ISolution
 
                 void EnsureKeyExists(T key)
                 {
-                    if (!diffMap.ContainsKey(key))
-                    {
-                        diffMap[key] = 0;
-                    }
+                    diffMap.TryAdd(key, 0);
                 }
 
                 void RemoveKeyIfZero(T key)

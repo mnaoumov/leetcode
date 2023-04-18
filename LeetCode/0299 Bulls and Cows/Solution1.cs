@@ -28,12 +28,14 @@ public class Solution1 : ISolution
 
         for (var i = 0; i < n; i++)
         {
-            if (guess[i] == secret[i])
+            if (guess[i] != secret[i])
             {
-                secretMap[guess[i]]--;
-                guessMap[guess[i]]--;
-                bullsCount++;
+                continue;
             }
+
+            secretMap[guess[i]]--;
+            guessMap[guess[i]]--;
+            bullsCount++;
         }
 
         var cowsCount = 0;

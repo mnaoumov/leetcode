@@ -108,9 +108,9 @@ public class Solution03 : ISolution
 
     private int GetHeight(TreeNode node, int valueToSkip)
     {
-        if (_heightDict.ContainsKey(node.val))
+        if (_heightDict.TryGetValue(node.val, out var height))
         {
-            return _heightDict[node.val];
+            return height;
         }
 
         var childNodes = new[] { node.left, node.right }.OfType<TreeNode>().Where(x => x.val != valueToSkip).ToArray();

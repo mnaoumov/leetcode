@@ -61,10 +61,7 @@ public class Solution1 : ISolution
 
             foreach (var letter in word)
             {
-                if (!trieNode.ChildNodes.ContainsKey(letter))
-                {
-                    trieNode.ChildNodes[letter] = new TrieNode();
-                }
+                trieNode.ChildNodes.TryAdd(letter, new TrieNode());
 
                 trieNode = trieNode.ChildNodes[letter];
             }

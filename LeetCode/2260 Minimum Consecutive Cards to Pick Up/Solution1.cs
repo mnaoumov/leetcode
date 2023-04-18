@@ -19,9 +19,9 @@ public class Solution1 : ISolution
         {
             var card = cards[i];
 
-            if (cardIndices.ContainsKey(card))
+            if (cardIndices.TryGetValue(card, out var index))
             {
-                result = Math.Min(result, card - cardIndices[card] + 1);
+                result = Math.Min(result, card - index + 1);
             }
 
             cardIndices[card] = i;

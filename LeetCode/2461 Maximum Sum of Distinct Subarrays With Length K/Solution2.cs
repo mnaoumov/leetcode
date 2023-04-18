@@ -33,10 +33,7 @@ public class Solution2 : ISolution
 
             var num = nums[i];
 
-            if (!countDict.ContainsKey(num))
-            {
-                countDict[num] = 0;
-            }
+            countDict.TryAdd(num, 0);
 
             countDict[num]++;
             set.Add(num);

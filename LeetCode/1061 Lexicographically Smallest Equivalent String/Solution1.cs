@@ -46,10 +46,7 @@ public class Solution1 : ISolution
 
         public T Find(T item)
         {
-            if (!_parentMap.ContainsKey(item))
-            {
-                _parentMap[item] = item;
-            }
+            _parentMap.TryAdd(item, item);
 
             if (!_parentMap[item].Equals(item))
             {

@@ -45,9 +45,9 @@ public class Solution1 : ISolution
                 return null;
             }
 
-            if (minDescendantValues.ContainsKey(node))
+            if (minDescendantValues.TryGetValue(node, out var value))
             {
-                return minDescendantValues[node];
+                return value;
             }
 
             return minDescendantValues[node] =
@@ -67,9 +67,9 @@ public class Solution1 : ISolution
                 return null;
             }
 
-            if (maxDescendantValues.ContainsKey(node))
+            if (maxDescendantValues.TryGetValue(node, out var value))
             {
-                return maxDescendantValues[node];
+                return value;
             }
 
 

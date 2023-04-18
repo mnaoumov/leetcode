@@ -22,9 +22,9 @@ public class Solution1 : ISolution
 
         int GetStreak(int num)
         {
-            if (streaks.ContainsKey(num))
+            if (streaks.TryGetValue(num, out var streak))
             {
-                return streaks[num];
+                return streak;
             }
 
             if (!counts.ContainsKey(num))

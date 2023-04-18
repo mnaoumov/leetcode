@@ -22,9 +22,9 @@ public class Solution2 : ISolution
                 return -1;
             }
 
-            if (cache.ContainsKey(startIndex))
+            if (cache.TryGetValue(startIndex, out var value))
             {
-                return cache[startIndex];
+                return value;
             }
 
             var subResults = new List<int>();
@@ -51,9 +51,9 @@ public class Solution2 : ISolution
                 return true;
             }
 
-            if (isPalindromeDict.ContainsKey(key))
+            if (isPalindromeDict.TryGetValue(key, out var palindrome))
             {
-                return isPalindromeDict[key];
+                return palindrome;
             }
 
             return isPalindromeDict[key] = s[startIndex] == s[endIndex] && IsPalindrome(startIndex + 1, endIndex - 1);

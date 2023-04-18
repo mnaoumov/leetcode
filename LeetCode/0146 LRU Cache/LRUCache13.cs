@@ -47,10 +47,7 @@ public class LRUCache13 : ILRUCache
 
         _queue.Enqueue(key);
 
-        if (!_queueCounts.ContainsKey(key))
-        {
-            _queueCounts[key] = 0;
-        }
+        _queueCounts.TryAdd(key, 0);
 
         _dict[key] = value;
         _queueCounts[key]++;

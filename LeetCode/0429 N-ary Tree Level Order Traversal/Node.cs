@@ -4,23 +4,15 @@ public class Node
 {
     // ReSharper disable once MemberCanBePrivate.Global
     // ReSharper disable once InconsistentNaming
-    public int val;
+    public readonly int val;
 
     // ReSharper disable once MemberCanBePrivate.Global
     // ReSharper disable once InconsistentNaming
     public IList<Node>? children;
 
-    public Node() { }
-
-    public Node(int val)
+    private Node(int val)
     {
         this.val = val;
-    }
-
-    public Node(int val, IList<Node> children)
-    {
-        this.val = val;
-        this.children = children;
     }
 
     public static Node? CreateOrNull(int?[] values)

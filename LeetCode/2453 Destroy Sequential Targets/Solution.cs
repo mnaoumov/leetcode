@@ -16,10 +16,7 @@ public class Solution1 : ISolution
         {
             var remainder = num % space;
 
-            if (!dict.ContainsKey(remainder))
-            {
-                dict[remainder] = (0, int.MaxValue);
-            }
+            dict.TryAdd(remainder, (0, int.MaxValue));
 
             dict[remainder] = (dict[remainder].count + 1, Math.Min(dict[remainder].minRepresentative, num));
         }

@@ -92,9 +92,9 @@ public class Solution11 : ISolution
                 return -1;
             }
 
-            if (valueHeightMap.ContainsKey(node.val))
+            if (valueHeightMap.TryGetValue(node.val, out var height))
             {
-                return valueHeightMap[node.val];
+                return height;
             }
 
             return null;
@@ -103,9 +103,9 @@ public class Solution11 : ISolution
 
         int Get(int query)
         {
-            if (cache.ContainsKey(query))
+            if (cache.TryGetValue(query, out var value))
             {
-                return cache[query];
+                return value;
             }
 
             var depth = valueDepthMap[query];

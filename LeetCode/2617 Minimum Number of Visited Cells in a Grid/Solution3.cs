@@ -51,7 +51,7 @@ public class Solution3 : ISolution
 
                     if (seen.Add((u, v)))
                     {
-                        queue.Enqueue(((u, v)));
+                        queue.Enqueue((u, v));
                     }
                 }
             }

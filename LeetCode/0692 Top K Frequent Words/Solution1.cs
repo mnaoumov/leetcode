@@ -14,10 +14,7 @@ public class Solution1 : ISolution
 
         foreach (var word in words)
         {
-            if (!dict.ContainsKey(word))
-            {
-                dict[word] = 0;
-            }
+            dict.TryAdd(word, 0);
 
             dict[word]++;
         }

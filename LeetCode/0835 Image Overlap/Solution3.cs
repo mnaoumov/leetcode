@@ -30,10 +30,7 @@ public class Solution3 : ISolution
             {
                 var key = (row2 - row1, column2 - column1);
 
-                if (!deltaCounts.ContainsKey(key))
-                {
-                    deltaCounts[key] = 0;
-                }
+                deltaCounts.TryAdd(key, 0);
 
                 deltaCounts[key]++;
                 result = Math.Max(result, deltaCounts[key]);

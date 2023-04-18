@@ -63,9 +63,9 @@ public class Solution04 : ISolution
 
         int Get(int query)
         {
-            if (cache.ContainsKey(query))
+            if (cache.TryGetValue(query, out var value))
             {
-                return cache[query];
+                return value;
             }
 
             var leaves = valueLeavesMap[root.val].ToHashSet();

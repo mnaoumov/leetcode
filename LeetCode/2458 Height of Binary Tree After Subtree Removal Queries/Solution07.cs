@@ -73,9 +73,9 @@ public class Solution07 : ISolution
 
         int Get(int query)
         {
-            if (cache.ContainsKey(query))
+            if (cache.TryGetValue(query, out var value))
             {
-                return cache[query];
+                return value;
             }
 
             var maxLeaf = leaves.FirstOrDefault(leaf => !valueLeavesMap[query].Contains(leaf));

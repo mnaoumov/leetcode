@@ -34,9 +34,9 @@ public class Solution1 : ISolution
                 var reversedWord = new string(new[] { word[1], word[0] });
                 processedWords.Add(reversedWord);
 
-                if (wordCounts.ContainsKey(reversedWord))
+                if (wordCounts.TryGetValue(reversedWord, out var count))
                 {
-                    result += Math.Min(wordCounts[word], wordCounts[reversedWord]) * 4;
+                    result += Math.Min(wordCounts[word], count) * 4;
                 }
             }
         }

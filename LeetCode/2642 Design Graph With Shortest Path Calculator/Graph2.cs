@@ -7,7 +7,7 @@ namespace LeetCode._2642_Design_Graph_With_Shortest_Path_Calculator;
 public class Graph2 : IGraph
 {
     private readonly SortedSet<(int node, int cost)>[] _adjacentNodes;
-    private Dictionary<(int node1, int node2), int> _minCosts = new();
+    private readonly Dictionary<(int node1, int node2), int> _minCosts = new();
 
     public Graph2(int n, IEnumerable<int[]> edges)
     {

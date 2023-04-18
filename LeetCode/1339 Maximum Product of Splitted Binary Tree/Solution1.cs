@@ -64,9 +64,9 @@ public class Solution1 : ISolution
                 return 0;
             }
 
-            if (sums.ContainsKey(node))
+            if (sums.TryGetValue(node, out var sum))
             {
-                return sums[node];
+                return sum;
             }
 
             return null;

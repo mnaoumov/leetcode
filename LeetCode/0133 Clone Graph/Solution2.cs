@@ -15,9 +15,9 @@ public class Solution2 : ISolution
 
         Node CloneRecursive(Node node2)
         {
-            if (clonesDict.ContainsKey(node2.val))
+            if (clonesDict.TryGetValue(node2.val, out var recursive))
             {
-                return clonesDict[node2.val];
+                return recursive;
             }
 
             var clone = new Node(node2.val);

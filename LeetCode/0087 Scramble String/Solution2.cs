@@ -92,10 +92,7 @@ public class Solution2 : ISolution
             {
                 var dict = result[j];
 
-                if (!dict.ContainsKey(letter))
-                {
-                    dict[letter] = 0;
-                }
+                dict.TryAdd(letter, 0);
 
                 dict[letter]++;
             }

@@ -61,10 +61,14 @@ internal abstract partial class GeneratorBase : IGenerator
     {
         var scriptObject = new ScriptObject();
         scriptObject.Import(this, renamer: member => member.Name);
-        var ctx = new TemplateContext(scriptObject)
+
+        var ctx = new TemplateContext
         {
+            MemberRenamer = member => member.Name,
             StrictVariables = true
         };
+
+        ctx.PushGlobal(scriptObject);
         return Template.Parse(template).Render(ctx);
     }
 }

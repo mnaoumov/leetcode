@@ -66,7 +66,7 @@ internal partial class SqlGenerator : GeneratorBase
         {
             var testCaseObj = JObject.Parse(testCases[i]);
             testCaseObj.Add("output", JObject.Parse(expectedOutputs[i]));
-            HeaderNames = testCaseObj["output"]!["headers"]!.Select(EscapeHeaderName).ToArray()!;
+            HeaderNames = testCaseObj["output"]!["headers"]!.Select(EscapeHeaderName).ToArray();
             TestCaseJson = testCaseObj.ToString(Formatting.Indented);
 
             GenerateFile($"TestCase{i + 1}.json", """

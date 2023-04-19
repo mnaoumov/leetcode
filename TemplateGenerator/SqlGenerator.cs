@@ -10,6 +10,9 @@ internal partial class SqlGenerator : GeneratorBase
     [GeneratedRegex(@"Create table If Not Exists (?<TableName>.+?) \((?<ColumnDefinitions>.+?)\)($|\r\n)")]
     private static partial Regex CreateTableRegex();
 
+    [GeneratedRegex(@"^[\w_@#][\w\d_@#$]*$")]
+    private static partial Regex HeaderNameRegex();
+
     [UsedImplicitly]
     public string SetUpScript { get; private set; } = null!;
 
@@ -63,7 +66,7 @@ internal partial class SqlGenerator : GeneratorBase
         {
             var testCaseObj = JObject.Parse(testCases[i]);
             testCaseObj.Add("output", JObject.Parse(expectedOutputs[i]));
-            HeaderNames = testCaseObj["output"]!["headers"]!.Select(header => header.Value<string>()).ToArray()!;
+            HeaderNames = testCaseObj["output"]!["headers"]!.Select(EscapeHeaderName).ToArray()!;
             TestCaseJson = testCaseObj.ToString(Formatting.Indented);
 
             GenerateFile($"TestCase{i + 1}.json", """
@@ -75,8 +78,16 @@ internal partial class SqlGenerator : GeneratorBase
             -- TODO url
 
             SELECT
-                {{ HeaderNames | array.join ",\n" }};
+            {{~ for headerName in HeaderNames ~}}
+                {{ headerName }} = 1{{ if !for.last; ','; else; ';'; end }}
+            {{~ end ~}}
             """);
+    }
+
+    private static string EscapeHeaderName(JToken headerJson)
+    {
+        var headerName = headerJson.Value<string>()!;
+        return HeaderNameRegex().IsMatch(headerName) ? headerName : $"[{headerName}]";
     }
 
     private string FixSetUpScript(string setUpScript) => CreateTableRegex().Replace(setUpScript, FixCreateTableStatement);
@@ -113,7 +124,11 @@ internal partial class SqlGenerator : GeneratorBase
                 MaxValueLength = Values.Max(value => value.Length);
 
                 columnDefinition = GenerateTemplate("""
-                    {{ ColumnName}} varchar({{ MaxValueLength }}) CHECK({{ ColumnName}} IN ({{ Values | array.each @(do; ret "'" + $0 + "'"; end) | array.join ", " }}))
+                    {{ ColumnName}} varchar({{ MaxValueLength }}) CHECK({{ ColumnName }} IN (
+                        {{- for value in Values -}}
+                            '{{ value }}'{{ if !for.last; ', '; end }}
+                        {{- end -}}
+                    ))
                     """);
 
                 ColumnDefinitions.Add(columnDefinition);
@@ -124,7 +139,9 @@ internal partial class SqlGenerator : GeneratorBase
         return GenerateTemplate("""
             CREATE TABLE {{ TableName }}
             (
-                {{ ColumnDefinitions | array.join ",\n" }}
+            {{~ for columnDefinition in ColumnDefinitions ~}}
+                {{ columnDefinition }}{{ if !for.last; ','; end }}
+            {{~ end ~}}
             );
 
 

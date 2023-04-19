@@ -1,6 +1,7 @@
 ﻿using System.Text.RegularExpressions;
 using Scriban;
 using JetBrains.Annotations;
+using Scriban.Runtime;
 
 namespace TemplateGenerator;
 
@@ -56,5 +57,14 @@ internal abstract partial class GeneratorBase : IGenerator
         File.WriteAllText($@"{TaskDir}\{fileName}", content);
     }
 
-    protected string GenerateTemplate(string template) => Template.Parse(template).Render(this, member => member.Name);
+    protected string GenerateTemplate(string template)
+    {
+        var scriptObject = new ScriptObject();
+        scriptObject.Import(this, renamer: member => member.Name);
+        var ctx = new TemplateContext(scriptObject)
+        {
+            StrictVariables = true
+        };
+        return Template.Parse(template).Render(ctx);
+    }
 }

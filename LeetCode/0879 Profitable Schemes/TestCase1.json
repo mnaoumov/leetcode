@@ -1,0 +1,7 @@
+{
+  "n": 5,
+  "minProfit": 3,
+  "group": [2,2],
+  "profit": [2,3],
+  "output": 2
+}

@@ -1,0 +1,7 @@
+{
+  "n": 64,
+  "minProfit": 0,
+  "group": [80, 40],
+  "profit": [88, 88],
+  "output": 2
+}

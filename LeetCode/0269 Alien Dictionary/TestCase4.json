@@ -1,0 +1,4 @@
+{
+  "words": ["aac","aabb","aaba"],
+  "output": "cba"
+}

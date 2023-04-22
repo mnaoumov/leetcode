@@ -20,11 +20,11 @@ public abstract partial class SqlTestsBase<TSqlTests> : TestsBase where TSqlTest
 
     private async Task RunSqlTestAsync(string solutionScriptPath, SqlTestCase testCase)
     {
-        var sqlInstance = new SqlInstance(
-    $"{typeof(TSqlTests).Namespace}_{Path.GetFileNameWithoutExtension(solutionScriptPath)}_{testCase.TestCaseName}",
-    _ => Task.CompletedTask);
+        var sqlInstance = new SqlInstance("LeetCodeSqlTests", _ => Task.CompletedTask);
+        var dbName = $"{new FileInfo(solutionScriptPath).Directory!.Name} - {Path.GetFileNameWithoutExtension(solutionScriptPath)} - {testCase.TestCaseName}";
+        dbName = string.Join("_", dbName.Split(Path.GetInvalidFileNameChars()));
 
-        var db = await sqlInstance.Build();
+        var db = await sqlInstance.Build(dbName);
         await using var command = db.Connection.CreateCommand();
 
         try
@@ -110,8 +110,10 @@ public abstract partial class SqlTestsBase<TSqlTests> : TestsBase where TSqlTest
         get
         {
             var testCases = GetTestCases<TSqlTests, SqlTestCase>();
-            var problemTestCaseDirectory = GetProblemDirectory(typeof(TSqlTests))!;
-            var solutionScriptFiles = Directory.GetFiles(problemTestCaseDirectory, "Solution*.sql");
+            var problemTestCaseDirectory = GetProblemDirectory(typeof(TSqlTests));
+            var solutionScriptFiles = problemTestCaseDirectory == null
+                ? Array.Empty<string>()
+                : Directory.GetFiles(problemTestCaseDirectory, "Solution*.sql");
 
             if (solutionScriptFiles.Length == 0)
             {

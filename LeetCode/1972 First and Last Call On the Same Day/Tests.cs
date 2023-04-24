@@ -1,0 +1,8 @@
+using JetBrains.Annotations;
+
+namespace LeetCode._1972_First_and_Last_Call_On_the_Same_Day;
+
+[UsedImplicitly]
+public class Tests : SelectSqlTestsBase<Tests>
+{
+}

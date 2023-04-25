@@ -46,6 +46,7 @@ public static partial class Template
 
             if (!_seen.Add(node))
             {
+                _processing.Remove(node);
                 return true;
             }
 
@@ -59,7 +60,7 @@ public static partial class Template
             return true;
         }
 
-        private bool IsAcyclic { get; }
+        public bool IsAcyclic { get; }
         public IEnumerable<T> Order => IsAcyclic ? _order : Enumerable.Empty<T>();
     }
 }

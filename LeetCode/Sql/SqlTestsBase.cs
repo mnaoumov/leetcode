@@ -1,5 +1,6 @@
 ﻿using System.Data;
 using System.Text.RegularExpressions;
+using Microsoft.Data.SqlClient;
 using NUnit.Framework;
 
 namespace LeetCode;
@@ -60,7 +61,7 @@ public abstract partial class SqlTestsBase<TSqlTests> : TestsBase where TSqlTest
         }
         catch (Exception e)
         {
-            Assert.Fail($"Error preparing test case data\r\n{e}");
+            HandleException(e, "Error preparing test case data");
         }
 
         DataTable dt = null!;
@@ -76,7 +77,7 @@ public abstract partial class SqlTestsBase<TSqlTests> : TestsBase where TSqlTest
         }
         catch (Exception e)
         {
-            Assert.Fail($"Error getting solution execution result\r\n{e}");
+            HandleException(e, "Error getting solution execution result");
         }
 
         AssertCollectionEqualWithDetails(dt.Columns.Cast<DataColumn>().Select(c => c.ColumnName),
@@ -84,9 +85,33 @@ public abstract partial class SqlTestsBase<TSqlTests> : TestsBase where TSqlTest
 
         var actualData = dt.Rows.Cast<DataRow>().Select(row => row.ItemArray).ToArray();
         dt.Rows.Clear();
-        foreach (var expectedRow in testCase.Output.Values)
+
+        for (var rowIndex = 0; rowIndex < testCase.Output.Values.Length; rowIndex++)
         {
+            var expectedRow = testCase.Output.Values[rowIndex];
             dt.LoadDataRow(expectedRow, true);
+
+            for (var columnIndex = 0; columnIndex < expectedRow.Length; columnIndex++)
+            {
+                if (expectedRow[columnIndex] == null)
+                {
+                    continue;
+                }
+
+                var columnType = dt.Columns[columnIndex].DataType;
+                var itemType = expectedRow[columnIndex]!.GetType();
+
+                if (columnType == itemType)
+                {
+                    continue;
+                }
+
+                if (columnType == typeof(string) || itemType == typeof(string))
+                {
+                    Assert.Fail(
+                        $"Row {rowIndex}, Column {columnIndex}. Expected data type {itemType}, but was {columnType}");
+                }
+            }
         }
 
         var expectedData = dt.Rows.Cast<DataRow>().Select(row => row.ItemArray).ToArray();
@@ -98,6 +123,18 @@ public abstract partial class SqlTestsBase<TSqlTests> : TestsBase where TSqlTest
         else
         {
             AssertCollectionEqualWithDetails(actualData, expectedData);
+        }
+    }
+
+    private static void HandleException(Exception e, string message)
+    {
+        if (e is SqlException sqlException)
+        {
+            Assert.Fail($"{message}\r\nLine Number: {sqlException.LineNumber}\r\n{e}");
+        }
+        else
+        {
+            Assert.Fail($"{message}\r\n{e}");
         }
     }
 

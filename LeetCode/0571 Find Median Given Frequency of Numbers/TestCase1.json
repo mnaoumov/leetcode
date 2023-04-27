@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "Numbers": [
+      "num",
+      "frequency"
+    ]
+  },
+  "rows": {
+    "Numbers": [
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ]
+    ]
+  },
+  "output": {
+    "headers": [
+      "median"
+    ],
+    "values": [
+      [
+        0.0
+      ]
+    ]
+  }
+}

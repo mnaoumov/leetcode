@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "Candidates": [
+      "employee_id",
+      "experience",
+      "salary"
+    ]
+  },
+  "rows": {
+    "Candidates": [
+      [
+        1,
+        "Junior",
+        25000
+      ],
+      [
+        9,
+        "Junior",
+        10000
+      ],
+      [
+        2,
+        "Senior",
+        85000
+      ],
+      [
+        11,
+        "Senior",
+        80000
+      ],
+      [
+        13,
+        "Senior",
+        90000
+      ],
+      [
+        4,
+        "Junior",
+        30000
+      ]
+    ]
+  },
+  "output": {
+    "headers": [ "employee_id" ],
+    "values": [
+      [ 9 ],
+      [ 1 ],
+      [ 4 ]
+    ]
+  }
+}

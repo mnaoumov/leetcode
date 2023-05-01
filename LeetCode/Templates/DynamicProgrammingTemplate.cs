@@ -6,7 +6,7 @@
 
 namespace LeetCode.Templates;
 
-public static partial class Template
+public static class DynamicProgrammingTemplate
 {
     private class DynamicProgramming<TKey, TValue> where TKey : notnull
     {

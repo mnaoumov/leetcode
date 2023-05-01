@@ -6,7 +6,7 @@
 
 namespace LeetCode.Templates;
 
-public static partial class Template
+public static class UnionFindTemplate
 {
     private class UnionFind<T> where T : IEquatable<T>
     {

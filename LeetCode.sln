@@ -7,7 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode", "LeetCode\LeetCo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestCaseExporter", "TestCaseExporter\TestCaseExporter.csproj", "{2D8106E6-4386-4427-9C90-04EA190B7484}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateGenerator", "TemplateGenerator\TemplateGenerator.csproj", "{2FA9717D-CF6B-4813-AE82-72A1F3D55A58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateGenerator", "TemplateGenerator\TemplateGenerator.csproj", "{2FA9717D-CF6B-4813-AE82-72A1F3D55A58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E6A41FBF-E747-49AA-B605-4BA871AA9E05}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

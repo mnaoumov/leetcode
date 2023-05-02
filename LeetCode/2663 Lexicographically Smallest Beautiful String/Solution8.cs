@@ -71,14 +71,11 @@ public class Solution8 : ISolution
 
                     sb[i] = (char) (sb[i] + 1);
 
-                    if (i >= 1 && sb[i - 1] == sb[i])
+                    switch (i)
                     {
-                        continue;
-                    }
-
-                    if (i >= 2 && sb[i - 2] == sb[i])
-                    {
-                        continue;
+                        case >= 1 when sb[i - 1] == sb[i]:
+                        case >= 2 when sb[i - 2] == sb[i]:
+                            continue;
                     }
 
                     couldSetLetter = true;

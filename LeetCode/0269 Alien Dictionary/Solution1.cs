@@ -94,7 +94,7 @@ public class Solution1 : ISolution
             return true;
         }
 
-        public bool IsAcyclic { get; }
+        private bool IsAcyclic { get; }
         public IEnumerable<T> Order => IsAcyclic ? _order : Enumerable.Empty<T>();
     }
 

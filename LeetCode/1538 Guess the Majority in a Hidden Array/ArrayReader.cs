@@ -17,4 +17,4 @@ public class ArrayReader
         };
 
     public int Length() => _nums.Length;
-};
+}

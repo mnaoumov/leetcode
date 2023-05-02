@@ -146,16 +146,16 @@ public class Solution1 : ISolution
 
         for (var i = 0; i < path.Length - 1; i++)
         {
-            var node = path[i];
-            var nextNode = path[i + 1];
+            var (row, column) = path[i];
+            var (nextRow, nextColumn) = path[i + 1];
 
-            if (node.row == nextNode.row)
+            if (row == nextRow)
             {
-                sb.Append(node.column < nextNode.column ? 'r' : 'l');
+                sb.Append(column < nextColumn ? 'r' : 'l');
             }
             else
             {
-                sb.Append(node.row < nextNode.row ? 'd' : 'u');
+                sb.Append(row < nextRow ? 'd' : 'u');
             }
         }
 
@@ -181,17 +181,15 @@ public class Solution1 : ISolution
                 var v = unmarked.MinBy(node => _distances[node])!;
                 var dv = DistanceTo(v);
 
-                foreach (var adjEdge in graph.AdjacentEdges(v))
+                foreach (var (_, w, weight) in graph.AdjacentEdges(v))
                 {
-                    var w = adjEdge.To;
-
                     if (marked.Contains(w))
                     {
                         continue;
                     }
 
                     var dw = DistanceTo(w);
-                    var dw2 = dv + adjEdge.Weight;
+                    var dw2 = dv + weight;
 
                     if (dw2 > dw + Epsilon)
                     {

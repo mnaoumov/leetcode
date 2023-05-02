@@ -48,13 +48,14 @@ public class Solution1 : ISolution
 
                     if (!hasHigherPrecedence)
                     {
-                        if (previousOperator == '+')
+                        switch (previousOperator)
                         {
-                            numbers.Push(num1 + num2);
-                        }
-                        else if (previousOperator == '-')
-                        {
-                            numbers.Push(num1 - num2);
+                            case '+':
+                                numbers.Push(num1 + num2);
+                                break;
+                            case '-':
+                                numbers.Push(num1 - num2);
+                                break;
                         }
                     }
                     else

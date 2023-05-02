@@ -8,12 +8,12 @@ namespace LeetCode._0879_Profitable_Schemes;
 [UsedImplicitly]
 public class Solution6 : ISolution
 {
-    const int Mod = 1000000007;
+    private const int Mod = 1000000007;
     private readonly int[,,] _memo = new int[101, 101, 101];
 
-    private int Find(int pos, int count, int profit, int n, int minProfit, int[] group, int[] profits)
+    private int Find(int pos, int count, int profit, int n, int minProfit, IReadOnlyList<int> group, IReadOnlyList<int> profits)
     {
-        if (pos == group.Length)
+        if (pos == group.Count)
         {
             // If profit exceeds the minimum required; it's a profitable scheme.
             return profit >= minProfit ? 1 : 0;
@@ -26,7 +26,7 @@ public class Solution6 : ISolution
         }
 
         // Ways to get a profitable scheme without this crime.
-        int totalWays = Find(pos + 1, count, profit, n, minProfit, group, profits);
+        var totalWays = Find(pos + 1, count, profit, n, minProfit, group, profits);
         if (count + group[pos] <= n)
         {
             // Adding ways to get profitable schemes, including this crime.
@@ -39,11 +39,11 @@ public class Solution6 : ISolution
     public int ProfitableSchemes(int n, int minProfit, int[] group, int[] profit)
     {
         // Initializing all states as -1.
-        for (int i = 0; i <= group.Length; i++)
+        for (var i = 0; i <= group.Length; i++)
         {
-            for (int j = 0; j <= n; j++)
+            for (var j = 0; j <= n; j++)
             {
-                for (int k = 0; k < 101; k++)
+                for (var k = 0; k < 101; k++)
                 {
                     _memo[i, j, k] = -1;
                 }

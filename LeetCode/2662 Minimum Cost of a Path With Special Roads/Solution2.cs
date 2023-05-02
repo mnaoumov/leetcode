@@ -77,17 +77,15 @@ public class Solution2 : ISolution
                 var v = unmarked.MinBy(node => _distances[node])!;
                 var dv = DistanceTo(v);
 
-                foreach (var adjEdge in graph.AdjacentEdges(v))
+                foreach (var (_, w, weight) in graph.AdjacentEdges(v))
                 {
-                    var w = adjEdge.To;
-
                     if (marked.Contains(w))
                     {
                         continue;
                     }
 
                     var dw = DistanceTo(w);
-                    var dw2 = dv + adjEdge.Weight;
+                    var dw2 = dv + weight;
 
                     if (dw2 >= dw)
                     {

@@ -1,6 +1,4 @@
-﻿using System.Text;
-
-namespace TemplateGenerator;
+﻿namespace TemplateGenerator;
 
 public static class ConsoleHelper
 {

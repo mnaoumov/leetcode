@@ -1,4 +1,6 @@
-﻿namespace TemplateGenerator;
+﻿using System.Text;
+
+namespace TemplateGenerator;
 
 public static class ConsoleHelper
 {
@@ -10,14 +12,26 @@ public static class ConsoleHelper
 
     public static string ReadMultiline(string prompt)
     {
-        Console.WriteLine($"Enter multiline {prompt} finishing with Ctrl + Z");
-        var lines = new List<string>();
+        var sb = new StringBuilder();
 
-        while (Console.ReadLine() is { } line)
+        while (true)
         {
-            lines.Add(line);
+            Console.Write($"Enter multiline {prompt} finishing with Ctrl + Z: ");
+            var line = Console.ReadLine();
+
+            if (line == null)
+            {
+                break;
+            }
+
+            if (sb.Length > 0)
+            {
+                sb.AppendLine();
+            }
+
+            sb.Append(line);
         }
 
-        return string.Join(Environment.NewLine, lines.ToArray());
+        return sb.ToString();
     }
 }

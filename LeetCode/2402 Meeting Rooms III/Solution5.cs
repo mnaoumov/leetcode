@@ -26,8 +26,8 @@ public class Solution5 : ISolution
 
         for (var i = 0; i < longMeetings.Length; i++)
         {
-            var meeting = longMeetings[i];
-            timeHeap.Enqueue((i, noRoom), (meeting.startTime, noRoom, i));
+            var (startTime, _) = longMeetings[i];
+            timeHeap.Enqueue((i, noRoom), (startTime, noRoom, i));
         }
 
         var result = 0;

@@ -1,5 +1,6 @@
 using JetBrains.Annotations;
 // ReSharper disable All
+#pragma warning disable
 
 namespace LeetCode._0990_Satisfiability_of_Equality_Equations;
 

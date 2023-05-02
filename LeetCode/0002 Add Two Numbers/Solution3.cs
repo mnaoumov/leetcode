@@ -1,6 +1,7 @@
 #pragma warning disable
 using JetBrains.Annotations;
 // ReSharper disable All
+#pragma warning disable
 
 namespace LeetCode._0002_Add_Two_Numbers;
 

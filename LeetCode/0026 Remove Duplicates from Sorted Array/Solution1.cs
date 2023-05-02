@@ -1,5 +1,6 @@
 using JetBrains.Annotations;
 // ReSharper disable All
+#pragma warning disable
 
 namespace LeetCode._0026_Remove_Duplicates_from_Sorted_Array;
 

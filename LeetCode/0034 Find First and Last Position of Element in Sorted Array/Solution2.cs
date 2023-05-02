@@ -1,4 +1,5 @@
 // ReSharper disable All
+#pragma warning disable
 using JetBrains.Annotations;
 
 namespace LeetCode._0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array;

@@ -1,5 +1,6 @@
 using JetBrains.Annotations;
 // ReSharper disable All
+#pragma warning disable
 #pragma warning disable CA1822
 
 namespace LeetCode._0207_Course_Schedule;

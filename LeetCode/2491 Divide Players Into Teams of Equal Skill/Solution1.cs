@@ -1,5 +1,6 @@
 using JetBrains.Annotations;
 // ReSharper disable All
+#pragma warning disable
 
 namespace LeetCode._2491_Divide_Players_Into_Teams_of_Equal_Skill;
 

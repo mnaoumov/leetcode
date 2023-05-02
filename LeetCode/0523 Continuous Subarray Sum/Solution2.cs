@@ -1,5 +1,6 @@
 using JetBrains.Annotations;
 // ReSharper disable All
+#pragma warning disable
 
 namespace LeetCode._0523_Continuous_Subarray_Sum;
 

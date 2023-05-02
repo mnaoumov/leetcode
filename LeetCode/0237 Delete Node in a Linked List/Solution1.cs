@@ -1,6 +1,7 @@
 #pragma warning disable
 using JetBrains.Annotations;
 // ReSharper disable All
+#pragma warning disable
 
 namespace LeetCode._0237_Delete_Node_in_a_Linked_List;
 

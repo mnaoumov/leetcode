@@ -1,4 +1,5 @@
 // ReSharper disable All
+#pragma warning disable
 namespace LeetCode._0732_My_Calendar_III;
 
 /// <summary>

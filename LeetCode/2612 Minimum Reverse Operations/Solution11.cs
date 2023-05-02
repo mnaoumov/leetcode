@@ -2,6 +2,7 @@ using JetBrains.Annotations;
 using LeetCode._2612_Minimum_Reverse_Operations;
 
 // ReSharper disable All
+#pragma warning disable
 
 namespace LeetCode._6365_Minimum_Reverse_Operations;
 

@@ -1,5 +1,6 @@
 // ReSharper disable All
 #pragma warning disable
+#pragma warning disable
 namespace LeetCode._0297_Serialize_and_Deserialize_Binary_Tree;
 
 /// <summary>

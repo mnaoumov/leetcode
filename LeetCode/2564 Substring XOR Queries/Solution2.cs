@@ -34,9 +34,9 @@ public class Solution2 : ISolution
         {
             if (s[left] == '0')
             {
-                if (valueIndicesMap.ContainsKey(0))
+                if (valueIndicesMap.TryGetValue(0, out var indices))
                 {
-                    foreach (var index in valueIndicesMap[0])
+                    foreach (var index in indices)
                     {
                         ans[index] = new[] { left, left };
                     }

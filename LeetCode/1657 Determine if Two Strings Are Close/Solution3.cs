@@ -42,7 +42,7 @@ public class Solution3 : ISolution
 
                 void RemoveKeyIfZero(T key)
                 {
-                    if (diffMap.ContainsKey(key) && diffMap[key] == 0)
+                    if (diffMap.TryGetValue(key, out var value) && value == 0)
                     {
                         diffMap.Remove(key);
                     }

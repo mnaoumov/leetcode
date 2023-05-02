@@ -65,12 +65,11 @@ public class Solution2 : ISolution
 
             if (grid[i][j] == emptyLand)
             {
-                if (!visited.ContainsKey((i, j)))
-                {
-                    visited[(i, j)] = new Dictionary<int, int>();
-                }
+                visited.TryAdd((i, j), new Dictionary<int, int>());
 
+#pragma warning disable CA1854
                 if (visited[(i, j)].ContainsKey(buildingId))
+#pragma warning restore CA1854
                 {
                     continue;
                 }

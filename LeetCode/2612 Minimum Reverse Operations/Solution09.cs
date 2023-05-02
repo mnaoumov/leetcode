@@ -83,17 +83,17 @@ public class Solution09 : ISolution
         void RemoveIndexToProcess(int value)
         {
             var intervalIndex = FindIntervalIndex(value);
-            var previousInterval = intervalsToProcess[intervalIndex];
+            var (from, to) = intervalsToProcess[intervalIndex];
             intervalsToProcess.RemoveAt(intervalIndex);
 
-            if (value + 1 < previousInterval.to)
+            if (value + 1 < to)
             {
-                intervalsToProcess.Insert(intervalIndex, (value + 1, previousInterval.to));
+                intervalsToProcess.Insert(intervalIndex, (value + 1, to));
             }
 
-            if (previousInterval.from < value)
+            if (from < value)
             {
-                intervalsToProcess.Insert(intervalIndex, (previousInterval.from, value));
+                intervalsToProcess.Insert(intervalIndex, (from, value));
             }
         }
 

@@ -23,14 +23,14 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 Assert.That(node, Is.Null);
                 Assert.That(nodeCopy, Is.Null);
             }
-            else if (nodeToNodeCopyMap.ContainsKey(node))
+            else if (nodeToNodeCopyMap.TryGetValue(node, out var mappedNodeCopy))
             {
-                Assert.That(nodeToNodeCopyMap[node], Is.EqualTo(nodeCopy),
+                Assert.That(mappedNodeCopy, Is.EqualTo(nodeCopy),
                     $"Node {node.val} is already mapped to NodeCopy {nodeToNodeCopyMap[node].val} rather than {nodeCopy.val}");
             }
-            else if (nodeCopyToNodeMap.ContainsKey(nodeCopy))
+            else if (nodeCopyToNodeMap.TryGetValue(nodeCopy, out var mappedNode))
             {
-                Assert.That(nodeCopyToNodeMap[nodeCopy], Is.EqualTo(node),
+                Assert.That(mappedNode, Is.EqualTo(node),
                     $"NodeCopy {nodeCopy.val} is already mapped to Node {nodeCopyToNodeMap[nodeCopy].val} rather than {node.val}");
             }
             else

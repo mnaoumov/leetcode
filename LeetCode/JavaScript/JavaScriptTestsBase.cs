@@ -5,8 +5,11 @@ using Newtonsoft.Json;
 
 namespace LeetCode;
 
-public class JavaScriptTestsBase<TJavaScriptTests> : TestsBase where TJavaScriptTests : JavaScriptTestsBase<TJavaScriptTests>
+public partial class JavaScriptTestsBase<TJavaScriptTests> : TestsBase where TJavaScriptTests : JavaScriptTestsBase<TJavaScriptTests>
 {
+    [GeneratedRegex("// SkipSolution: (.+)")]
+    private static partial Regex SkipSolutionRegex();
+
     [Test]
     [TestCaseSource(nameof(JoinedTestCases))]
     [Category("JavaScript")]
@@ -46,7 +49,7 @@ JSON.stringify(result, Object.getOwnPropertyNames(result));
             {
                 var solutionName = Path.GetFileNameWithoutExtension(solutionScriptFile);
                 var firstLine = File.ReadLines(solutionScriptFile).First();
-                var skipSolutionReason = Regex.Match(firstLine, "// SkipSolution: (.+)").Groups[1].Value;
+                var skipSolutionReason = SkipSolutionRegex().Match(firstLine).Groups[1].Value;
 
                 foreach (var testCase in testCases)
                 {
@@ -62,5 +65,4 @@ JSON.stringify(result, Object.getOwnPropertyNames(result));
             }
         }
     }
-
 }

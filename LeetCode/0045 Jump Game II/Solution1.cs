@@ -1,4 +1,5 @@
 // ReSharper disable All
+#pragma warning disable
 using JetBrains.Annotations;
 
 namespace LeetCode._0045_Jump_Game_II;

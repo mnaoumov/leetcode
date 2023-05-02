@@ -1,5 +1,4 @@
 using JetBrains.Annotations;
-#pragma warning disable CS8767
 
 namespace LeetCode._0113_Path_Sum_II;
 
@@ -10,7 +9,9 @@ namespace LeetCode._0113_Path_Sum_II;
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution
 {
+#pragma warning disable CS8767
     public IList<IList<int>> PathSum(TreeNode root, int targetSum)
+#pragma warning restore CS8767
     {
         return Enumerate(root, targetSum).ToArray();
     }

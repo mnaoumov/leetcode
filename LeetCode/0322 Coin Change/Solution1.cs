@@ -1,6 +1,7 @@
 #pragma warning disable
 using JetBrains.Annotations;
 // ReSharper disable All
+#pragma warning disable
 
 namespace LeetCode._0322_Coin_Change;
 

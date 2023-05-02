@@ -1,8 +1,10 @@
 // ReSharper disable All
+#pragma warning disable
 using System.Text;
 
 using JetBrains.Annotations;
 // ReSharper disable All
+#pragma warning disable
 
 namespace LeetCode._0006_Zigzag_Conversion;
 

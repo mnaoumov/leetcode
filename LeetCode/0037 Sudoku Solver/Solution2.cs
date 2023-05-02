@@ -3,6 +3,7 @@ using Newtonsoft.Json;
 
 using JetBrains.Annotations;
 // ReSharper disable All
+#pragma warning disable
 
 namespace LeetCode._0037_Sudoku_Solver;
 

@@ -4,8 +4,11 @@ using System.Text.RegularExpressions;
 
 namespace LeetCode;
 
-public abstract class BashTestsBase<TBashTests> : TestsBase where TBashTests : BashTestsBase<TBashTests>
+public abstract partial class BashTestsBase<TBashTests> : TestsBase where TBashTests : BashTestsBase<TBashTests>
 {
+    [GeneratedRegex("# SkipSolution: (.+)")]
+    private static partial Regex SkipSolutionRegex();
+
     [Test]
     [TestCaseSource(nameof(JoinedTestCases))]
     [Category("Bash")]
@@ -74,7 +77,7 @@ public abstract class BashTestsBase<TBashTests> : TestsBase where TBashTests : B
             {
                 var solutionName = Path.GetFileNameWithoutExtension(solutionScriptFile);
                 var firstLine = File.ReadLines(solutionScriptFile).First();
-                var skipSolutionReason = Regex.Match(firstLine, "# SkipSolution: (.+)").Groups[1].Value;
+                var skipSolutionReason = SkipSolutionRegex().Match(firstLine).Groups[1].Value;
 
                 foreach (var testCase in testCases)
                 {
@@ -90,5 +93,4 @@ public abstract class BashTestsBase<TBashTests> : TestsBase where TBashTests : B
             }
         }
     }
-
 }

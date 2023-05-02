@@ -55,10 +55,11 @@ public class Solution6 : ISolution
                 while (right < s.Length && right - left < minWindowSize - 1)
                 {
                     var letter = s[right];
-                    if (tLettersWithCounts.ContainsKey(letter))
+                    if (tLettersWithCounts.TryGetValue(letter, out var value))
                     {
-                        tLettersWithCounts[letter]--;
-                        if (tLettersWithCounts[letter] == 0)
+                        value--;
+                        tLettersWithCounts[letter] = value;
+                        if (value == 0)
                         {
                             lettersToFindCount--;
 

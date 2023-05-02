@@ -1,5 +1,6 @@
 using JetBrains.Annotations;
 // ReSharper disable All
+#pragma warning disable
 
 namespace LeetCode._1335_Minimum_Difficulty_of_a_Job_Schedule;
 

@@ -26,12 +26,12 @@ public class Solution1 : ISolution
             }
 
             var result = recursiveFunc((index + 1, zerosLeft, onesLeft));
-            var count = counts[index];
+            var (zeros, ones) = counts[index];
 
-            if (count.zeros <= zerosLeft && count.ones <= onesLeft)
+            if (zeros <= zerosLeft && ones <= onesLeft)
             {
                 result = Math.Max(result,
-                    1 + recursiveFunc((index + 1, zerosLeft - count.zeros, onesLeft - count.ones)));
+                    1 + recursiveFunc((index + 1, zerosLeft - zeros, onesLeft - ones)));
             }
 
             return result;

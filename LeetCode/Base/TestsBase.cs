@@ -58,8 +58,11 @@ public abstract class TestsBase<TSolution, TTestCase> : TestsBase where TTestCas
     }
 }
 
-public abstract class TestsBase
+public abstract partial class TestsBase
 {
+    [GeneratedRegex("[ ()'&-]")]
+    private static partial Regex CharactersToEscapeRegex();
+
     protected static CollectionItemsEqualConstraint IsEquivalentToIgnoringItemOrder<T>(
         IEnumerable<IEnumerable<T>> expected)
     {
@@ -111,7 +114,7 @@ public abstract class TestsBase
         var problemTestCaseDirectory = Directory.GetDirectories(".", $"{problemNumber} *").FirstOrDefault(dir =>
         {
             var name = dir.Split('\\')[^1];
-            var escapedName = Regex.Replace(name, "[ ()'&-]", "_");
+            var escapedName = CharactersToEscapeRegex().Replace(name, "_");
             return escapedName == namespacePart;
         });
 

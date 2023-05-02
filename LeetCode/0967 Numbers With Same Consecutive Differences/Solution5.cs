@@ -22,29 +22,31 @@ public class Solution5 : ISolution
 
         void Backtrack(int i)
         {
-            if (i == n)
+            while (true)
             {
-                result.Add(num);
-                return;
+                if (i == n)
+                {
+                    result.Add(num);
+                    return;
+                }
+
+                var lastDigit = num % 10;
+
+                if (lastDigit >= k)
+                {
+                    num = num * 10 + lastDigit - k;
+                    Backtrack(i + 1);
+                    num /= 10;
+                }
+
+                if (k == 0 || lastDigit > 9 - k)
+                {
+                    return;
+                }
+
+                num = num * 10 + lastDigit + k;
+                i++;
             }
-
-            var lastDigit = num % 10;
-
-            if (lastDigit >= k)
-            {
-                num = num * 10 + lastDigit - k;
-                Backtrack(i + 1);
-                num /= 10;
-            }
-
-            if (k == 0 || lastDigit > 9 - k)
-            {
-                return;
-            }
-
-            num = num * 10 + lastDigit + k;
-            Backtrack(i + 1);
-            num /= 10;
         }
     }
 }

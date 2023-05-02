@@ -10,5 +10,7 @@ namespace LeetCode._0065_Valid_Number;
 [UsedImplicitly]
 public class Solution1 : ISolution
 {
+#pragma warning disable SYSLIB1045 // Convert to 'GeneratedRegexAttribute'.
     public bool IsNumber(string s) => Regex.IsMatch(s, @"^[+-]?(\d+(\.\d*)?|\.\d+)([eE][+-]?\d+)?$");
+#pragma warning restore SYSLIB1045 // Convert to 'GeneratedRegexAttribute'.
 }

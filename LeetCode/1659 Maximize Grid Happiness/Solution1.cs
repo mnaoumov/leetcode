@@ -71,7 +71,7 @@ public class Solution1 : ISolution
                                 }
                                 break;
                             default:
-                                throw new ArgumentOutOfRangeException();
+                                throw new InvalidOperationException();
                         }
                     }
 

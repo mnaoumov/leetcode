@@ -1,5 +1,6 @@
 using JetBrains.Annotations;
 // ReSharper disable All
+#pragma warning disable
 
 namespace LeetCode._0028_Find_the_Index_of_the_First_Occurrence_in_a_String;
 

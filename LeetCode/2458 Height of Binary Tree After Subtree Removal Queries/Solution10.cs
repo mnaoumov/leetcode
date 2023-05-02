@@ -1,5 +1,6 @@
 using JetBrains.Annotations;
 // ReSharper disable All
+#pragma warning disable
 
 namespace LeetCode._2458_Height_of_Binary_Tree_After_Subtree_Removal_Queries;
 

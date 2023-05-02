@@ -1,6 +1,7 @@
 // ReSharper disable StringLiteralTypo
 using JetBrains.Annotations;
 // ReSharper disable All
+#pragma warning disable
 
 namespace LeetCode._0017_Letter_Combinations_of_a_Phone_Number;
 

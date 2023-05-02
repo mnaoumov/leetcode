@@ -37,9 +37,9 @@ public class Solution4 : ISolution
 
         for (var index2 = k; index2 <= n - 2 * k; index2++)
         {
-            var result1 = maxSumsFromLeft[index2 - k];
-            var result3 = maxSumsFromRight[index2 + k];
-            var totalSum = result1.sum + sums[index2] + result3.sum;
+            var (sumLeft, minIndexLeft) = maxSumsFromLeft[index2 - k];
+            var (sumRight, minIndexRight) = maxSumsFromRight[index2 + k];
+            var totalSum = sumLeft + sums[index2] + sumRight;
 
             if (totalSum <= maxSum)
             {
@@ -47,7 +47,7 @@ public class Solution4 : ISolution
             }
 
             maxSum = totalSum;
-            result = new[] { result1.minIndex, index2, result3.minIndex };
+            result = new[] { minIndexLeft, index2, minIndexRight };
         }
 
         return result;

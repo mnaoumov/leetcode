@@ -1,5 +1,6 @@
 using JetBrains.Annotations;
 // ReSharper disable All
+#pragma warning disable
 #pragma warning disable CS8714
 
 namespace LeetCode._1657_Determine_if_Two_Strings_Are_Close;

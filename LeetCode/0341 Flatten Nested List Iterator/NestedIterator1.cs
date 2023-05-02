@@ -1,5 +1,6 @@
 // ReSharper disable All
 #pragma warning disable
+#pragma warning disable
 namespace LeetCode._0341_Flatten_Nested_List_Iterator;
 
 /// <summary>

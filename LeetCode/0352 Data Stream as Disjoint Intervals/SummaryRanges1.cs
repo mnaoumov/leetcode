@@ -27,25 +27,25 @@ public class SummaryRanges1 : ISummaryRanges
         var mergedWithPrevious = false;
         var mergedWithNext = false;
 
-        var previous = index > 0 ? _intervals[index - 1] : (start: 0, end: 0);
-        var next = index < _intervals.Count ? _intervals[index] : (start: 0, end: 0);
+        var (start, end) = index > 0 ? _intervals[index - 1] : (start: 0, end: 0);
+        var (nextStart, nextEnd) = index < _intervals.Count ? _intervals[index] : (start: 0, end: 0);
 
-        if (index > 0 && previous.end == value - 1)
+        if (index > 0 && end == value - 1)
         {
-            _intervals[index - 1] = (previous.start, value);
+            _intervals[index - 1] = (start, value);
             mergedWithPrevious = true;
         }
 
-        if (index < _intervals.Count && next.start == value + 1)
+        if (index < _intervals.Count && nextStart == value + 1)
         {
             if (mergedWithPrevious)
             {
-                _intervals[index - 1] = (previous.start, next.end);
+                _intervals[index - 1] = (start, end: nextEnd);
                 _intervals.RemoveAt(index);
             }
             else
             {
-                _intervals[index] = (value, next.end);
+                _intervals[index] = (value, end: nextEnd);
                 mergedWithNext = true;
             }
         }

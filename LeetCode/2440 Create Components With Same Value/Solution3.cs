@@ -1,5 +1,6 @@
 using JetBrains.Annotations;
 // ReSharper disable All
+#pragma warning disable
 #pragma warning disable CS8321
 #pragma warning disable CS8602
 

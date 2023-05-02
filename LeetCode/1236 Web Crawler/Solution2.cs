@@ -43,5 +43,7 @@ public class Solution2 : ISolution
         return result;
     }
 
+#pragma warning disable SYSLIB1045
     private static string Host(string url) => Regex.Match(url, "http://(?<Host>.+?)(/|$)").Groups["Host"].Value;
+#pragma warning restore SYSLIB1045
 }

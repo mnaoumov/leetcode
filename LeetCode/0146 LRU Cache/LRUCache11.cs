@@ -1,5 +1,6 @@
 // ReSharper disable All
 #pragma warning disable
+#pragma warning disable
 namespace LeetCode._0146_LRU_Cache;
 
 /// <summary>

@@ -1,5 +1,6 @@
 // ReSharper disable All
 #pragma warning disable
+#pragma warning disable
 using JetBrains.Annotations;
 
 namespace LeetCode._0102_Binary_Tree_Level_Order_Traversal;

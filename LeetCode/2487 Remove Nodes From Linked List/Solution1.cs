@@ -1,5 +1,4 @@
 using JetBrains.Annotations;
-#pragma warning disable CS8603
 
 namespace LeetCode._2487_Remove_Nodes_From_Linked_List;
 
@@ -35,6 +34,6 @@ public class Solution1 : ISolution
             next = node;
         }
 
-        return next;
+        return next!;
     }
 }

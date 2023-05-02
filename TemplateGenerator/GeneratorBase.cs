@@ -16,7 +16,10 @@ internal abstract partial class GeneratorBase : IGenerator
     private const string LeetCodeFolderPath = @"F:\Dev\LeetCode\LeetCode";
 
     private string Title { get; set; } = null!;
-    protected string Signature { get; private set; } = null!;
+
+    [UsedImplicitly]
+    public string Signature { get; private set; } = null!;
+
     private string TaskDir { get; set; } = null!;
 
     [UsedImplicitly]

@@ -32,7 +32,7 @@ public class Solution4 : ISolution
                 var node = nodesToShift.First!.Value;
                 nodesToShift.RemoveFirst();
 
-                if (node is { Previous: { }, Next: { } } && node.Previous.Value > node.Next.Value)
+                if (node is { Previous: not null, Next: not null } && node.Previous.Value > node.Next.Value)
                 {
                     nodesToShift.AddFirst(node.Previous);
                 }

@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 
 namespace LeetCode._0094_Binary_Tree_Inorder_Traversal;
 

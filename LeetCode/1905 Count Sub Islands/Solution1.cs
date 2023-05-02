@@ -50,7 +50,7 @@ public class Solution1 : ISolution
                 {
                     continue;
                 }
-                
+
                 if (isSubIslands.ContainsKey((i, j)))
                 {
                     continue;

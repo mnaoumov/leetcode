@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 // ReSharper disable All
 
 namespace LeetCode._0967_Numbers_With_Same_Consecutive_Differences;

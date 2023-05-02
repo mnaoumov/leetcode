@@ -1,4 +1,4 @@
-﻿namespace LeetCode._0981_Time_Based_Key_Value_Store;
+namespace LeetCode._0981_Time_Based_Key_Value_Store;
 // ReSharper disable All
 
 /// <summary>

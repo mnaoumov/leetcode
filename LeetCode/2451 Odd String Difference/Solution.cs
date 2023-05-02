@@ -28,32 +28,32 @@ public class Solution1 : ISolution
                         diffList0.Add(diff);
                         break;
                     case 1:
-                    {
-                        diffList1.Add(diff);
-
-                        if (diffList0[j] != diff)
                         {
-                            doesWord0And1Differ = true;
-                        }
+                            diffList1.Add(diff);
 
-                        break;
-                    }
+                            if (diffList0[j] != diff)
+                            {
+                                doesWord0And1Differ = true;
+                            }
+
+                            break;
+                        }
                     default:
-                    {
-                        if (diffList0[j] != diff)
                         {
-                            return doesWord0And1Differ
-                                ? words[0]
-                                : word;
-                        }
+                            if (diffList0[j] != diff)
+                            {
+                                return doesWord0And1Differ
+                                    ? words[0]
+                                    : word;
+                            }
 
-                        if (doesWord0And1Differ && diffList1[j] != diff)
-                        {
-                            return words[1];
-                        }
+                            if (doesWord0And1Differ && diffList1[j] != diff)
+                            {
+                                return words[1];
+                            }
 
-                        break;
-                    }
+                            break;
+                        }
                 }
             }
         }

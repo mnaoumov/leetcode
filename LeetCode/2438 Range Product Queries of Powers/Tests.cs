@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 
 namespace LeetCode._2438_Range_Product_Queries_of_Powers;
 

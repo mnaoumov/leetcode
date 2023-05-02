@@ -78,7 +78,7 @@ public class Solution6 : ISolution
                     return false;
                 }
 
-                newStationsAvailableCount-=stationsCountNeeded;
+                newStationsAvailableCount -= stationsCountNeeded;
                 extraPower += stationsCountNeeded;
                 extraPowerEffectEndedMap[i + 2 * r + 1] = stationsCountNeeded;
             }

@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 
 namespace LeetCode._1328_Break_a_Palindrome;
 
@@ -24,7 +24,7 @@ public class Solution2 : ISolution
 
         return firstCandidate == null || palindrome.Length % 2 == 1 && firstCandidate == palindrome.Length / 2
             ? ReplaceLetter(palindrome.Length - 1, SecondPossibleLetter)
-            : ReplaceLetter((int)firstCandidate, FirstPossibleLetter);
+            : ReplaceLetter((int) firstCandidate, FirstPossibleLetter);
 
         string ReplaceLetter(int index, char letter) => palindrome.Remove(index, 1).Insert(index, new string(new[] { letter }));
     }

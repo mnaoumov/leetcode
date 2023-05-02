@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 // ReSharper disable All
 
 namespace LeetCode._0069_Sqrt_x_;
@@ -18,7 +18,7 @@ public class Solution3 : ISolution
 
         do
         {
-            floor = (int)Math.Floor(temp);
+            floor = (int) Math.Floor(temp);
             ceil = floor + 1;
             temp = (temp + (x / temp)) / 2;
         } while (floor * floor > x || ceil * ceil <= x);

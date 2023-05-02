@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 
 namespace LeetCode._0042_Trapping_Rain_Water;
 

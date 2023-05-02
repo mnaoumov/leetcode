@@ -1,4 +1,4 @@
-﻿using NUnit.Framework;
+using NUnit.Framework;
 using System.Text.RegularExpressions;
 using Microsoft.ClearScript.V8;
 using Newtonsoft.Json;

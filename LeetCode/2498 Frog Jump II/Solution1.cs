@@ -41,7 +41,7 @@ public class Solution1 : ISolution
                     minimumCost2 = cost;
                     lastReturnStone2 = i == index + 1 ? lastReturnStone3 : index + 1;
                 }
-                
+
                 returnCost = Math.Max(returnCost, stones[i] - stones[i - 1]);
             }
 

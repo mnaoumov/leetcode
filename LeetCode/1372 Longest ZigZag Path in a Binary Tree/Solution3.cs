@@ -16,7 +16,7 @@ public class Solution3 : ISolution
         {
             return (-1, -1, -1);
         }
-        
+
         var leftResult = Dfs(node.left);
         var rightResult = Dfs(node.right);
         var leftMax = leftResult.rightMax + 1;

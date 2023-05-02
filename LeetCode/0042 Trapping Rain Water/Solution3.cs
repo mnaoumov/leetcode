@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 // ReSharper disable All
 
 namespace LeetCode._0042_Trapping_Rain_Water;

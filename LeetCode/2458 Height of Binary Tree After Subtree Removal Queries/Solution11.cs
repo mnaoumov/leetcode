@@ -12,7 +12,7 @@ public class Solution11 : ISolution
     {
         var valueDepthMap = new Dictionary<int, int>();
         var valueHeightMap = new Dictionary<int, int>();
-        
+
         var cache = new Dictionary<int, int>();
 
         var queue = new Queue<(TreeNode? node, int depth)>();
@@ -74,7 +74,7 @@ public class Solution11 : ISolution
         var depthValuesWithBiggestHeightMap = valueDepthMap
             .GroupBy(kvp => kvp.Value, kvp => kvp.Key)
             .ToDictionary(g => g.Key, g => g.OrderByDescending(value => valueHeightMap[value]).Take(2).ToArray());
-            
+
         var result = new int[queries.Length];
 
         for (var i = 0; i < queries.Length; i++)

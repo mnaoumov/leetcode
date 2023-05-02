@@ -1,4 +1,4 @@
-﻿namespace LeetCode._0732_My_Calendar_III;
+namespace LeetCode._0732_My_Calendar_III;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/829087451/
@@ -33,7 +33,7 @@ public class MyCalendarThree3 : IMyCalendarThree
         }
 
         _eventBookingDict[newEvent] = 1;
-        _maxBooking= Math.Max(_maxBooking,1);
+        _maxBooking = Math.Max(_maxBooking, 1);
 
         return _maxBooking;
     }

@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 // ReSharper disable All
 
 namespace LeetCode._1531_String_Compression_II;
@@ -44,7 +44,7 @@ public class Solution1 : ISolution
                 var letterCount = lettersGroup.GetCount(letterIndex);
                 var minLength = int.MaxValue;
                 var minGroup = LetterGroup.Wrong();
-                for (var i = 0; i <= Math.Min(lettersToRemoveCount, letterCount) ; i++)
+                for (var i = 0; i <= Math.Min(lettersToRemoveCount, letterCount); i++)
                 {
                     var tailGroup = GetBestLetterGroup(letterIndex + 1, lettersToRemoveCount - i);
                     if (tailGroup.IsWrong)
@@ -107,7 +107,7 @@ public class Solution1 : ISolution
             }
 
 
-            if (copy.Count > 0 &&  copy._pairs[0].Letter == letter)
+            if (copy.Count > 0 && copy._pairs[0].Letter == letter)
             {
                 copy._pairs[0].Count += count;
             }

@@ -10,7 +10,7 @@ public class Solution2 : ISolution
 {
     public int NumWays(int n, int k)
     {
-        var dp = new DynamicProgramming<(int index, int repeatingColorCount),int>((key, recursiveFunc) =>
+        var dp = new DynamicProgramming<(int index, int repeatingColorCount), int>((key, recursiveFunc) =>
         {
             var (index, repeatingColorCount) = key;
 

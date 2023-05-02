@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable CA1822
 

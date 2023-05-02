@@ -13,7 +13,7 @@ public class Solution1 : ISolution
 
     private static long DividePlayersImpl(int[] skills)
     {
-        var totalSum= skills.Sum();
+        var totalSum = skills.Sum();
 
         const int impossible = -1;
 

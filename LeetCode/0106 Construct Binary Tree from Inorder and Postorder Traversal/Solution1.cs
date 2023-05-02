@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 
 namespace LeetCode._0106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal;
 

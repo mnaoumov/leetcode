@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 // ReSharper disable All
 
 namespace LeetCode._0018_4Sum;
@@ -40,7 +40,7 @@ public class Solution2 : ISolution
 
                     if (expectedValueLong is < int.MinValue or > int.MaxValue)
                     {
-                         continue;
+                        continue;
                     }
 
                     var expectedValue = (int) expectedValueLong;

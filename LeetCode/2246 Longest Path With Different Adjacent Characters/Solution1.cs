@@ -25,7 +25,7 @@ public class Solution1 : ISolution
         int Dfs(int node)
         {
             var maxChildrenRootPathLengths = new PriorityQueue<int, int>();
-            
+
             // ReSharper disable once ForeachCanBePartlyConvertedToQueryUsingAnotherGetEnumerator
             foreach (var child in children[node])
             {

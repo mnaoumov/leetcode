@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 
 namespace LeetCode._0091_Decode_Ways;
 
@@ -16,7 +16,7 @@ public class Solution2 : ISolution
 
         int Get(int index)
         {
-            if (dp[index] is not {} result)
+            if (dp[index] is not { } result)
             {
                 dp[index] = result = Calculate();
             }

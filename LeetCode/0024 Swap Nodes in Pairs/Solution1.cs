@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 // ReSharper disable All
 
 namespace LeetCode._0024_Swap_Nodes_in_Pairs;
@@ -18,7 +18,7 @@ public class Solution1 : ISolution
         while (true)
         {
             var firstInPairNode = beforePairNode.next;
-            
+
             if (firstInPairNode == null)
             {
                 break;

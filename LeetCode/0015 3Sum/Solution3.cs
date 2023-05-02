@@ -1,4 +1,4 @@
-﻿// ReSharper disable All
+// ReSharper disable All
 using JetBrains.Annotations;
 
 namespace LeetCode._0015_3Sum;

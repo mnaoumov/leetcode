@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 
 namespace LeetCode._0237_Delete_Node_in_a_Linked_List;
 
@@ -13,7 +13,7 @@ public class Solution2 : ISolution
         while (true)
         {
             node.val = node.next!.val;
-            
+
             if (node.next.next == null)
             {
                 node.next = null;

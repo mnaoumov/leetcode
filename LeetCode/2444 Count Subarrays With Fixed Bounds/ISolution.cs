@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 
 namespace LeetCode._2444_Count_Subarrays_With_Fixed_Bounds;
 

@@ -51,7 +51,7 @@ public class Solution2 : ISolution
 
             foreach (var road in timeGraph.AdjacentEdges(city))
             {
-                Dfs(road.Other(city), time + (int)road.Weight, city);
+                Dfs(road.Other(city), time + (int) road.Weight, city);
             }
         }
 

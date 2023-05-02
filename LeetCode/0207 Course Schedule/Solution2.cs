@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 
 namespace LeetCode._0207_Course_Schedule;
 
@@ -23,7 +23,7 @@ public class Solution2 : ISolution
         return Enumerable.Range(0, numCourses).All(CanFinishCourse);
 
         bool CanFinishCourse(int course)
-        { 
+        {
             if (coursesCanFinish.Contains(course))
             {
                 return true;
@@ -35,7 +35,7 @@ public class Solution2 : ISolution
             }
 
             var result = dependencies[course].All(CanFinishCourse);
-            
+
             courseProcessingChain.Remove(course);
 
             if (!result)

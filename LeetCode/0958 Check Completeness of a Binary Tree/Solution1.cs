@@ -19,7 +19,7 @@ public class Solution1 : ISolution
             var count = queue.Count;
 
             var isLastLevel = count < fullLevelCount;
-            
+
             for (var i = 0; i < count; i++)
             {
                 var node = queue.Dequeue();

@@ -1,4 +1,4 @@
-﻿// ReSharper disable All
+// ReSharper disable All
 namespace LeetCode._0732_My_Calendar_III;
 
 /// <summary>
@@ -29,7 +29,7 @@ public class MyCalendarThree2 : IMyCalendarThree
         if (!_eventBookingDict.ContainsKey(newEvent))
         {
             _eventBookingDict[newEvent] = 1;
-            _maxBooking= Math.Max(_maxBooking,1);
+            _maxBooking = Math.Max(_maxBooking, 1);
         }
 
         return _maxBooking;

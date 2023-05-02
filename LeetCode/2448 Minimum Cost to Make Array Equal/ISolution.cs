@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 
 namespace LeetCode._2448_Minimum_Cost_to_Make_Array_Equal;
 

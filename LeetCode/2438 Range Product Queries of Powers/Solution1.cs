@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 // ReSharper disable All
 
 namespace LeetCode._2438_Range_Product_Queries_of_Powers;
@@ -24,7 +24,7 @@ public class Solution1 : ISolution
             n /= 2;
             power *= 2;
         }
-        
+
         const int modulo = 1000000007;
 
         return queries.Select(Calculate).ToArray();

@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 
 namespace LeetCode._0004_Median_of_Two_Sorted_Arrays;
 
@@ -28,7 +28,7 @@ public class Solution13 : ISolution
         while (true)
         {
             var aLeftPartitionIndex =
-                (int)Math.Floor((aLeftPartitionIndexRangeStart + aLeftPartitionIndexRangeEnd) / 2m);
+                (int) Math.Floor((aLeftPartitionIndexRangeStart + aLeftPartitionIndexRangeEnd) / 2m);
             var aPartitionCount = aLeftPartitionIndex + 1;
             var bPartitionCount = medianCount - aPartitionCount;
             var bLeftPartitionIndex = bPartitionCount - 1;

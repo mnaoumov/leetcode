@@ -1,4 +1,4 @@
-﻿// ReSharper disable StringLiteralTypo
+// ReSharper disable StringLiteralTypo
 using JetBrains.Annotations;
 // ReSharper disable All
 

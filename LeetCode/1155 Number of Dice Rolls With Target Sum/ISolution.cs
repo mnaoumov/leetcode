@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 
 namespace LeetCode._1155_Number_of_Dice_Rolls_With_Target_Sum;
 

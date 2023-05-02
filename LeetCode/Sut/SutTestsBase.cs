@@ -1,4 +1,4 @@
-﻿using NUnit.Framework;
+using NUnit.Framework;
 using System.Reflection;
 using System.Text;
 using Newtonsoft.Json;

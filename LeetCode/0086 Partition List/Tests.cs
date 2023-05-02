@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 using NUnit.Framework;
 
 namespace LeetCode._0086_Partition_List;

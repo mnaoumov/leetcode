@@ -1,4 +1,4 @@
-﻿namespace LeetCode._0622_Design_Circular_Queue;
+namespace LeetCode._0622_Design_Circular_Queue;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/807882544/

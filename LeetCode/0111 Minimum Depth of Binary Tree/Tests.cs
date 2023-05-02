@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 using NUnit.Framework;
 
 namespace LeetCode._0111_Minimum_Depth_of_Binary_Tree;

@@ -12,7 +12,7 @@ public class Solution1 : ISolution
     {
         var valueIndexMap1 = nums1.Select((num, index) => (num, index)).ToDictionary(x => x.num, x => x.index);
         var monotonic2 = new Stack<int>();
-        var result = Enumerable.Repeat(-1,nums1.Length).ToArray();
+        var result = Enumerable.Repeat(-1, nums1.Length).ToArray();
 
         foreach (var num in nums2)
         {

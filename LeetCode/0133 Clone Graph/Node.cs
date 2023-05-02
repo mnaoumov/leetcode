@@ -1,4 +1,4 @@
-﻿namespace LeetCode._0133_Clone_Graph;
+namespace LeetCode._0133_Clone_Graph;
 
 public class Node
 {
@@ -23,7 +23,7 @@ public class Node
         }
 
         var nodes = Enumerable.Range(1, n).Select(i => new Node(i)).ToArray();
-        
+
         for (var i = 1; i <= adjustmentLists.Length; i++)
         {
             var adjustmentList = adjustmentLists[i - 1];

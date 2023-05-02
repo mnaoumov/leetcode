@@ -19,11 +19,11 @@ public class Solution1 : ISolution
                 case 2:
                     return 2;
                 default:
-                {
-                    var result = recursiveFunc(size - 1) + recursiveFunc(size - 2) + 2 * Enumerable.Range(0, size - 2)
-                        .Select(subSize => (long) recursiveFunc(subSize)).Sum();
-                    return (int) (result % 1_000_000_007);
-                }
+                    {
+                        var result = recursiveFunc(size - 1) + recursiveFunc(size - 2) + 2 * Enumerable.Range(0, size - 2)
+                            .Select(subSize => (long) recursiveFunc(subSize)).Sum();
+                        return (int) (result % 1_000_000_007);
+                    }
             }
         });
 

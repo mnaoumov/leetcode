@@ -11,7 +11,7 @@ public class Solution1 : ISolution
 {
     public bool AsteroidsDestroyed(int mass, int[] asteroids)
     {
-        foreach (var asteroid in asteroids.OrderBy(x=>x))
+        foreach (var asteroid in asteroids.OrderBy(x => x))
         {
             if (mass < asteroid)
             {

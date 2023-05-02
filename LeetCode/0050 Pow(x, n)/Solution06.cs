@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 // ReSharper disable All
 
 namespace LeetCode._0050_Pow_x__n_;
@@ -39,9 +39,9 @@ public class Solution06 : ISolution
                 break;
             }
 
-            result *= (decimal)x;
+            result *= (decimal) x;
         }
 
-        return (double)result;
+        return (double) result;
     }
 }

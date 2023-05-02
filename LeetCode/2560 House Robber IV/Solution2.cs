@@ -43,7 +43,7 @@ public class Solution2 : ISolution
                 queue.Enqueue((index + 2, housesToRobCount - 1, Math.Max(capacity, nums[index])));
             }
         }
-        
+
         return result;
     }
 }

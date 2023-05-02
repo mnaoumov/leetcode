@@ -81,7 +81,7 @@ public class Solution3 : ISolution
 
         bool HasProperLetterCounts(string word)
         {
-            foreach (var grouping in word.GroupBy(letter=>letter))
+            foreach (var grouping in word.GroupBy(letter => letter))
             {
                 var letter = grouping.Key;
 

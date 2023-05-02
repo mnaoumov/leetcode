@@ -1,4 +1,4 @@
-﻿// ReSharper disable All
+// ReSharper disable All
 using JetBrains.Annotations;
 
 namespace LeetCode._0091_Decode_Ways;
@@ -32,7 +32,7 @@ public class Solution1 : ISolution
             }
             else
             {
-                return (int)(cache[index] = CalculateNumDecodings(index));
+                return (int) (cache[index] = CalculateNumDecodings(index));
             }
         }
 

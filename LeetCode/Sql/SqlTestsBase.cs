@@ -1,4 +1,4 @@
-﻿using System.Data;
+using System.Data;
 using System.Text.RegularExpressions;
 using Microsoft.Data.SqlClient;
 using NUnit.Framework;

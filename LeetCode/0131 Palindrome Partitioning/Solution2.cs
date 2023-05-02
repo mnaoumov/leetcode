@@ -26,7 +26,7 @@ public class Solution2 : ISolution
             {
                 var isPalindrome = true;
                 var start = i;
-                var end  = j;
+                var end = j;
 
                 while (start < end)
                 {

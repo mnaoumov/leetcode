@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 
 namespace LeetCode._0046_Permutations;
 
@@ -11,7 +11,7 @@ public class Solution3 : ISolution
     {
         var result = new List<IList<int>>();
         var permutation = new List<int>();
-        var set  = new HashSet<int>();
+        var set = new HashSet<int>();
         Backtrack();
         return result;
 

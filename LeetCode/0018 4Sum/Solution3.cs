@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 
 namespace LeetCode._0018_4Sum;
 
@@ -39,7 +39,7 @@ public class Solution3 : ISolution
 
                     if (expectedValueLong is < int.MinValue or > int.MaxValue)
                     {
-                         continue;
+                        continue;
                     }
 
                     var expectedValue = (int) expectedValueLong;

@@ -15,7 +15,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
             Assert.That(arr, Is.Unique);
         }
 
-        Assert.That(list.SelectMany(x=>x), Is.EquivalentTo(testCase.Nums));
+        Assert.That(list.SelectMany(x => x), Is.EquivalentTo(testCase.Nums));
     }
 
     public class TestCase : TestCaseBase

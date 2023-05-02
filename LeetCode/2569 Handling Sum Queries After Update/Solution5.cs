@@ -23,7 +23,7 @@ public class Solution5 : ISolution
                 case 1:
                     var l = query[1];
                     var r = query[2];
-                    root.Invert(l, r); 
+                    root.Invert(l, r);
                     break;
                 case 2:
                     var p = query[1];

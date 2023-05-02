@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 
 namespace LeetCode._2447_Number_of_Subarrays_With_GCD_Equal_to_K;
 

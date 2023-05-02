@@ -92,7 +92,7 @@ public class Solution2 : ISolution
             var queue = new Queue<(int node, int level)>();
 
             queue.Enqueue((root, 1));
-            
+
             var maxLevel = 0;
 
             while (queue.Count > 0)

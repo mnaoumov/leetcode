@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 
 namespace LeetCode._0107_Binary_Tree_Level_Order_Traversal_II;
 
@@ -10,7 +10,7 @@ public class Solution1 : ISolution
 {
     public IList<IList<int>> LevelOrderBottom(TreeNode? root)
     {
-        var result =new List<IList<int>>();
+        var result = new List<IList<int>>();
         var currentLevelNodes = new List<TreeNode?> { root };
 
         while (currentLevelNodes.Any())

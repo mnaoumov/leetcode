@@ -36,7 +36,7 @@ public class Solution3 : ISolution
         }
 
         var n = target.Length;
-        
+
         var dp = new DynamicProgramming<(int targetLetterIndex, int minWordLetterIndex), int>((key, recursiveFunc) =>
         {
             var (targetLetterIndex, minWordLetterIndex) = key;

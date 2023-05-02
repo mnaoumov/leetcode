@@ -15,7 +15,7 @@ public class Solution1 : ISolution
     {
         var reversedVowels = s.Where(IsVowel).Reverse().ToArray();
         var reversedVowelIndex = 0;
-        
+
         var sb = new StringBuilder(s);
 
         for (var i = 0; i < s.Length; i++)

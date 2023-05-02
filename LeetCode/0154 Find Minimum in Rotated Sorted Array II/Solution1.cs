@@ -12,7 +12,7 @@ public class Solution1 : ISolution
     {
         var left = 1;
 
-        var right =nums.Length - 1;
+        var right = nums.Length - 1;
 
         while (right >= 1 && nums[right] == nums[0])
         {

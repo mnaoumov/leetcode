@@ -1,4 +1,4 @@
-﻿namespace LeetCode._0208_Implement_Trie__Prefix_Tree_;
+namespace LeetCode._0208_Implement_Trie__Prefix_Tree_;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/870830324/

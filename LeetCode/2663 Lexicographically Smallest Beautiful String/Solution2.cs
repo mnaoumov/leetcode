@@ -69,7 +69,7 @@ public class Solution2 : ISolution
                         {
                             continue;
                         }
-                     
+
                         IncrementWord(j);
                         canIncrease = true;
                         break;

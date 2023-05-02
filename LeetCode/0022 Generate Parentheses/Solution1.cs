@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 
 namespace LeetCode._0022_Generate_Parentheses;
 
@@ -31,7 +31,7 @@ public class Solution1 : ISolution
         for (var i = 0; i < n; i++)
         {
             var leftParts = GenerateParenthesis(i);
-            var rightParts = GenerateParenthesis(n - 1 -i);
+            var rightParts = GenerateParenthesis(n - 1 - i);
 
             foreach (var leftPart in leftParts)
             {

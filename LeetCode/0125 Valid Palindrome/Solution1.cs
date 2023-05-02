@@ -19,7 +19,7 @@ public class Solution1 : ISolution
             {
                 startIndex++;
             }
-            
+
             while (endIndex >= 0 && !char.IsLetterOrDigit(s[endIndex]))
             {
                 endIndex--;

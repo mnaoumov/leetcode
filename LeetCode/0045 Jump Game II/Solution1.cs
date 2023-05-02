@@ -1,4 +1,4 @@
-﻿// ReSharper disable All
+// ReSharper disable All
 using JetBrains.Annotations;
 
 namespace LeetCode._0045_Jump_Game_II;

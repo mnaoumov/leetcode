@@ -24,6 +24,6 @@ public class Solution1 : ISolution
         {
             var childSum = neighbors[node].Except(new[] { parent }).Sum(child => Dfs(child, node));
             return childSum + (node > 0 && (childSum != 0 || hasApple[node]) ? 1 : 0);
-        } 
+        }
     }
 }

@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 
 namespace LeetCode._0051_N_Queens;
 
@@ -97,7 +97,7 @@ public class Solution2 : ISolution
             {
                 for (var columnId = 0; columnId < Size; columnId++)
                 {
-                    copy.Cells[rowId, columnId] = Cells[rowId,columnId];
+                    copy.Cells[rowId, columnId] = Cells[rowId, columnId];
                 }
             }
 

@@ -1,4 +1,4 @@
-﻿namespace LeetCode._0146_LRU_Cache;
+namespace LeetCode._0146_LRU_Cache;
 
 /// <summary>
 /// https://leetcode.com/problems/lru-cache/submissions/845501362/

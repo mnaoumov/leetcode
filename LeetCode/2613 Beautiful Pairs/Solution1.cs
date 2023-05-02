@@ -25,7 +25,7 @@ public class Solution1 : ISolution
             var y = nums2[j];
 
             var xCandidates = sortedX.GetViewBetween(x - result.distance, x + result.distance);
-  
+
             // ReSharper disable once ForeachCanBePartlyConvertedToQueryUsingAnotherGetEnumerator
             foreach (var xCandidate in xCandidates)
             {

@@ -11,7 +11,7 @@ public class Solution1 : ISolution
 {
     public int NumWays(int n, int k)
     {
-        var dp = new DynamicProgramming<(int index, int color1, int color2),int>((key, recursiveFunc) =>
+        var dp = new DynamicProgramming<(int index, int color1, int color2), int>((key, recursiveFunc) =>
         {
             var (index, color1, color2) = key;
 

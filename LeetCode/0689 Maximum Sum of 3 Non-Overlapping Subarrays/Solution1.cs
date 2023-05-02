@@ -1,4 +1,4 @@
-﻿// ReSharper disable All
+// ReSharper disable All
 using JetBrains.Annotations;
 
 namespace LeetCode._0689_Maximum_Sum_of_3_Non_Overlapping_Subarrays;

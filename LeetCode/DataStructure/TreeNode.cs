@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 
 namespace LeetCode;
 
@@ -85,7 +85,7 @@ public class TreeNode
         {
             node = queue.Dequeue();
             treeAction(node);
-            
+
             if (node == null)
             {
                 continue;

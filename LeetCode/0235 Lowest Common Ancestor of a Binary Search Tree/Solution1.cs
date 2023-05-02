@@ -10,8 +10,8 @@ public class Solution1 : ISolution
 {
     public TreeNode LowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q)
     {
-        var pathToP = GetPath(root,p);
-        var pathToQ = GetPath(root,q);
+        var pathToP = GetPath(root, p);
+        var pathToQ = GetPath(root, q);
         return pathToP.Zip(pathToQ).TakeWhile(x => ReferenceEquals(x.First, x.Second)).Last().First;
     }
 

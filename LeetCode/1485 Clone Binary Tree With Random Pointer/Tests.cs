@@ -59,7 +59,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         }
 
         queue.Enqueue(result);
-        
+
         var index = 0;
 
         while (queue.Count > 0)

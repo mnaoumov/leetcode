@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 // ReSharper disable All
 
 namespace LeetCode._2439_Minimize_Maximum_of_Array;
@@ -13,7 +13,7 @@ public class Solution1 : ISolution
     public int MinimizeArrayValue(int[] nums)
     {
         var minPossibleResult = Math.Max(nums[0], (int) Math.Ceiling(nums.Average()));
-        
+
         if (nums.Max() <= minPossibleResult)
         {
             return minPossibleResult;

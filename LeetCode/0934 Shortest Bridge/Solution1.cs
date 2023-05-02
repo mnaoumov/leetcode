@@ -43,7 +43,7 @@ public class Solution1 : ISolution
 
         var queue = new Queue<(int i, int j)>();
 
-        foreach (var (i,j) in island1)
+        foreach (var (i, j) in island1)
         {
             queue.Enqueue((i, j));
         }

@@ -38,7 +38,7 @@ public class Solution1 : ISolution
 
             return result;
         }
-        
+
         int FindMax(int query)
         {
             var node = root;

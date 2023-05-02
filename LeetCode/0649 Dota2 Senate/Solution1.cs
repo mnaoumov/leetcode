@@ -33,7 +33,7 @@ public class Solution1 : ISolution
             [Party.Radiant] = 0,
             [Party.Dire] = 0
         };
-        
+
         while (true)
         {
             party = queue.Dequeue();

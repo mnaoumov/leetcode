@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 
 namespace LeetCode._0289_Game_of_Life;
 
@@ -44,23 +44,23 @@ public class Solution3 : ISolution
                 switch ((State) board[row][column])
                 {
                     case State.Dead:
-                    {
-                        if (liveNeighborsCount == 3)
                         {
-                            board[row][column] = (int) State.FutureLive;
-                        }
+                            if (liveNeighborsCount == 3)
+                            {
+                                board[row][column] = (int) State.FutureLive;
+                            }
 
-                        break;
-                    }
+                            break;
+                        }
                     case State.Live:
-                    {
-                        if (liveNeighborsCount is < 2 or > 3)
                         {
-                            board[row][column] = (int) State.FutureDead;
-                        }
+                            if (liveNeighborsCount is < 2 or > 3)
+                            {
+                                board[row][column] = (int) State.FutureDead;
+                            }
 
-                        break;
-                    }
+                            break;
+                        }
                     case State.FutureDead:
                     case State.FutureLive:
                     default:

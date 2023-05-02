@@ -31,8 +31,8 @@ public class Solution4 : ISolution
 
             bool CheckIsEnough(int n)
             {
-                var dividend1Count = n/divisor1;
-                var dividend2Count = n/divisor2;
+                var dividend1Count = n / divisor1;
+                var dividend2Count = n / divisor2;
                 var dividendCommonCount = n / gcm;
                 return Math.Max(0, uniqueCnt1 - dividend2Count + dividendCommonCount) +
                        Math.Max(0, uniqueCnt2 - dividend1Count + dividendCommonCount) <=

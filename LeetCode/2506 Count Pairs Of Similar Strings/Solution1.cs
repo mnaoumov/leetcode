@@ -16,7 +16,7 @@ public class Solution1 : ISolution
 
         for (var i = 0; i < words.Length; i++)
         {
-            for (var j = i+1; j < words.Length; j++)
+            for (var j = i + 1; j < words.Length; j++)
             {
                 if (keys[i] == keys[j])
                 {

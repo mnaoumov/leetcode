@@ -1,4 +1,4 @@
-﻿using System.Text;
+using System.Text;
 using JetBrains.Annotations;
 
 namespace LeetCode._0017_Letter_Combinations_of_a_Phone_Number;

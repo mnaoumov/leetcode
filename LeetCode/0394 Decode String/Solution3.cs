@@ -1,4 +1,4 @@
-﻿using System.Text;
+using System.Text;
 using JetBrains.Annotations;
 
 namespace LeetCode._0394_Decode_String;
@@ -21,36 +21,36 @@ public class Solution3 : ISolution
             switch (symbol)
             {
                 case { } when char.IsDigit(symbol):
-                {
-                    if (shouldStartNewCounter)
                     {
-                        counters.Push(0);
-                        shouldStartNewCounter = false;
-                    }
+                        if (shouldStartNewCounter)
+                        {
+                            counters.Push(0);
+                            shouldStartNewCounter = false;
+                        }
 
-                    var counter = counters.Pop();
-                    counter = counter * 10 + (symbol - '0');
-                    counters.Push(counter);
-                    break;
-                }
+                        var counter = counters.Pop();
+                        counter = counter * 10 + (symbol - '0');
+                        counters.Push(counter);
+                        break;
+                    }
                 case '[':
                     stringBuilders.Push(new StringBuilder());
                     shouldStartNewCounter = true;
                     break;
                 case ']':
-                {
-                    var stringBuilder = stringBuilders.Pop();
-                    var counter = counters.Pop();
-                    var combinedStringBuilder = stringBuilders.Peek();
-
-                    for (var i = 0; i < counter; i++)
                     {
-                        combinedStringBuilder.Append(stringBuilder);
-                    }
+                        var stringBuilder = stringBuilders.Pop();
+                        var counter = counters.Pop();
+                        var combinedStringBuilder = stringBuilders.Peek();
 
-                    shouldStartNewCounter = true;
-                    break;
-                }
+                        for (var i = 0; i < counter; i++)
+                        {
+                            combinedStringBuilder.Append(stringBuilder);
+                        }
+
+                        shouldStartNewCounter = true;
+                        break;
+                    }
                 default:
                     stringBuilders.Peek().Append(symbol);
                     break;

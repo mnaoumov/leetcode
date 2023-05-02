@@ -19,7 +19,7 @@ public class Solution3 : ISolution
             var sum = weights[i] + weights[i + 1];
             maxNeighborSums.Enqueue(sum, sum);
             minNeighborSums.Enqueue(sum, -sum);
-            
+
             if (i < k - 1)
             {
                 continue;

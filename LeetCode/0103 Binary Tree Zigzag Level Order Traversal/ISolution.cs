@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 
 namespace LeetCode._0103_Binary_Tree_Zigzag_Level_Order_Traversal;
 

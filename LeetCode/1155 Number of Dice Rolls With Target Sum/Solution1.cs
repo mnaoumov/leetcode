@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 
 namespace LeetCode._1155_Number_of_Dice_Rolls_With_Target_Sum;
 
@@ -8,7 +8,7 @@ namespace LeetCode._1155_Number_of_Dice_Rolls_With_Target_Sum;
 [UsedImplicitly]
 public class Solution1 : ISolution
 {
-    private readonly int _modulo = (int)Math.Pow(10, 9) + 7;
+    private readonly int _modulo = (int) Math.Pow(10, 9) + 7;
 
     private readonly Dictionary<(int n, int target), int> _cache = new();
 

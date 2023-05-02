@@ -1,4 +1,4 @@
-﻿using System.Text.RegularExpressions;
+using System.Text.RegularExpressions;
 using Scriban;
 using JetBrains.Annotations;
 using Scriban.Runtime;

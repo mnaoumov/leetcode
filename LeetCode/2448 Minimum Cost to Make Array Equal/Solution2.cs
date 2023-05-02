@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 
 namespace LeetCode._2448_Minimum_Cost_to_Make_Array_Equal;
 
@@ -12,7 +12,7 @@ public class Solution2 : ISolution
     {
         var sortedNumCost = nums.Zip(cost, (num, costValue) => (num, costValue)).OrderBy(p => p.num).ToArray();
 
-        var totalCostValue = cost.Select(x => (long)x).Sum();
+        var totalCostValue = cost.Select(x => (long) x).Sum();
 
         var runningCostValue = 0L;
 

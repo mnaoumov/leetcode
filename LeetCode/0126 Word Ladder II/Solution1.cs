@@ -54,7 +54,7 @@ public class Solution1 : ISolution
         var queue = new Queue<(string word, int sequenceLength, IEnumerable<string> sequence)>();
         queue.Enqueue((beginWord, 0, Enumerable.Empty<string>()));
         var maxSequenceLength = int.MaxValue;
-        
+
         while (queue.Count > 0)
         {
             var (word, sequenceLength, sequence) = queue.Dequeue();

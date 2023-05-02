@@ -32,7 +32,7 @@ public class Solution1 : ISolution
             {
                 return lengths[i, j];
             }
-            
+
             var maxLength = 1;
 
             foreach (var (di, dj) in directions)

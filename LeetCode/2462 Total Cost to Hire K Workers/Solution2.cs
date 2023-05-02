@@ -23,7 +23,7 @@ public class Solution2 : ISolution
 
         for (var i = 0; i < candidates; i++)
         {
-            firstQueue.Enqueue(i,i);
+            firstQueue.Enqueue(i, i);
             lastQueue.Enqueue(costs.Length - 1 - i, costs.Length - 1 - i);
         }
 

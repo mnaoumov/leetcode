@@ -27,7 +27,7 @@ public class Solution1 : ISolution
                 var flatIndex = i * c + j;
                 result[i][j] = mat[flatIndex / n][flatIndex % n];
             }
-        } 
+        }
 
         return result;
     }

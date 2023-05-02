@@ -60,14 +60,14 @@ public class Solution1 : ISolution
                         grid[i][j] = 2;
                         break;
                     default:
-                    {
-                        if (result > 0)
                         {
-                            continue;
-                        }
+                            if (result > 0)
+                            {
+                                continue;
+                            }
 
-                        break;
-                    }
+                            break;
+                        }
                 }
 
                 queue.Enqueue((i + 1, j));

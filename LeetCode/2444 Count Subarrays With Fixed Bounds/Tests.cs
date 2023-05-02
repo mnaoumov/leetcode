@@ -1,4 +1,4 @@
-﻿using NUnit.Framework;
+using NUnit.Framework;
 
 using JetBrains.Annotations;
 
@@ -18,5 +18,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         public int MinK { get; [UsedImplicitly] init; }
         public int MaxK { get; [UsedImplicitly] init; }
         public long Output { get; [UsedImplicitly] init; }
-   }
+    }
 }

@@ -1,4 +1,4 @@
-﻿// ReSharper disable All
+// ReSharper disable All
 #pragma warning disable
 namespace LeetCode._0208_Implement_Trie__Prefix_Tree_;
 

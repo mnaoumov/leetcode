@@ -1,4 +1,4 @@
-﻿namespace TemplateGenerator;
+namespace TemplateGenerator;
 
 internal interface IGenerator
 {

@@ -38,7 +38,7 @@ public class Solution1 : ISolution
             }
         }
 
-        var sp =new DijkstraShortestPath<(int x, int y)>(graph, startPoint);
+        var sp = new DijkstraShortestPath<(int x, int y)>(graph, startPoint);
         return (int) sp.DistanceTo(targetPoint);
     }
 

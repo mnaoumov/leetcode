@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 // ReSharper disable All
 
 namespace LeetCode._1335_Minimum_Difficulty_of_a_Job_Schedule;
@@ -46,7 +46,7 @@ public class Solution1 : ISolution
                 var currentDayDifficulty = int.MinValue;
                 var minDifficultyStartingFromToday = int.MaxValue;
 
-                for (int i = firstJobIndex; i < jobDifficulty.Length - d + currentDayNumber ; i++)
+                for (int i = firstJobIndex; i < jobDifficulty.Length - d + currentDayNumber; i++)
                 {
                     currentDayDifficulty = Math.Max(currentDayDifficulty, jobDifficulty[i]);
                     var difficultyAfterToday = Cut(i + 1, currentDayNumber + 1);

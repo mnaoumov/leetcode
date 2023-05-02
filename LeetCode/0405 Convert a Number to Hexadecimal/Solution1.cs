@@ -25,24 +25,24 @@ public class Solution1 : ISolution
             case 0:
                 return "0";
             case < 0:
-            {
-                var complement = ~num;
-                const int maxHexLength = 8;
-                var complementHex = ToHex(complement).PadLeft(maxHexLength, '0');
-                return string.Concat(complementHex.Select(complementHexDigit => complementHexDigitMap[complementHexDigit]));
-            }
-            case > 0:
-            {
-                var sb = new StringBuilder();
-
-                while (num > 0)
                 {
-                    sb.Insert(0, hexDigits[num % 16]);
-                    num /= 16;
+                    var complement = ~num;
+                    const int maxHexLength = 8;
+                    var complementHex = ToHex(complement).PadLeft(maxHexLength, '0');
+                    return string.Concat(complementHex.Select(complementHexDigit => complementHexDigitMap[complementHexDigit]));
                 }
+            case > 0:
+                {
+                    var sb = new StringBuilder();
 
-                return sb.ToString();
-            }
+                    while (num > 0)
+                    {
+                        sb.Insert(0, hexDigits[num % 16]);
+                        num /= 16;
+                    }
+
+                    return sb.ToString();
+                }
         }
     }
 }

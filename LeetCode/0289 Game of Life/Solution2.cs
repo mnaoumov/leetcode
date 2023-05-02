@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 // ReSharper disable All
 
 namespace LeetCode._0289_Game_of_Life;
@@ -38,24 +38,24 @@ public class Solution2 : ISolution
                     }
                 }
 
-                board[row][column] = (int)GetNextAliveState(wasAlive, aliveNeighborsCount);
+                board[row][column] = (int) GetNextAliveState(wasAlive, aliveNeighborsCount);
             }
         }
         for (int row = 0; row < rowCount; row++)
         {
             for (int column = 0; column < columnCount; column++)
             {
-                var state = (State)board[row][column];
+                var state = (State) board[row][column];
                 board[row][column] = state == State.WasAliveBecameAlive || state == State.WasDeadBecameAlive
-                    ? (int)State.WasAliveBecameAlive
-                    : (int)State.WasDeadBecameDead;
+                    ? (int) State.WasAliveBecameAlive
+                    : (int) State.WasDeadBecameDead;
             }
         }
     }
 
     private static bool WasAlive(int[][] board, int row, int column)
     {
-        State state = (State)board[row][column];
+        State state = (State) board[row][column];
         return state == State.WasAliveBecameAlive || state == State.WasAliveBecameDead;
     }
 

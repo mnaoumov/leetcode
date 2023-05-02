@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 
 namespace LeetCode._0108_Convert_Sorted_Array_to_Binary_Search_Tree;
 
@@ -10,7 +10,7 @@ public class Solution1 : ISolution
 {
     public TreeNode SortedArrayToBST(int[] nums)
     {
-        return Build(0,  nums.Length - 1)!;
+        return Build(0, nums.Length - 1)!;
 
         TreeNode? Build(int left, int right)
         {

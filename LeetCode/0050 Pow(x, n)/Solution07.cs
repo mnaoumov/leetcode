@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 // ReSharper disable All
 
 namespace LeetCode._0050_Pow_x__n_;
@@ -11,7 +11,7 @@ public class Solution07 : ISolution
 {
     public double MyPow(double x, int n)
     {
-        return (double)MyPow((decimal)x, n);
+        return (double) MyPow((decimal) x, n);
     }
 
     private decimal MyPow(decimal x, int n)

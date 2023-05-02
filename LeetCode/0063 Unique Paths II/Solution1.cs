@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 
 namespace LeetCode._0063_Unique_Paths_II;
 
@@ -14,7 +14,7 @@ public class Solution1 : ISolution
     {
         var m = obstacleGrid.Length;
         var n = obstacleGrid[0].Length;
-        
+
         var cache = new int?[m, n];
 
         return Get(0, 0);

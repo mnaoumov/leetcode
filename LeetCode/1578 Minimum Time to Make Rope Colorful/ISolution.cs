@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 
 namespace LeetCode._1578_Minimum_Time_to_Make_Rope_Colorful;
 

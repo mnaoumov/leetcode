@@ -70,24 +70,24 @@ internal static partial class Program
                 Console.WriteLine(ex);
             }
         }
+    }
 
-        object? FromJson(string testCaseFilePath, Type testCaseType)
+    private static object? FromJson(string testCaseFilePath, Type testCaseType)
+    {
+        using var fileStream = File.OpenRead(testCaseFilePath);
+        using var reader = new StreamReader(fileStream);
+        using var jr = new JsonTextReader(reader);
+
+        var serializer = new JsonSerializer();
+
+        try
         {
-            using var fileStream = File.OpenRead(testCaseFilePath);
-            using var reader = new StreamReader(fileStream);
-            using var jr = new JsonTextReader(reader);
-
-            var serializer = new JsonSerializer();
-
-            try
-            {
-                var testCase = serializer.Deserialize(jr, testCaseType);
-                return testCase;
-            }
-            catch
-            {
-                return null;
-            }
+            var testCase = serializer.Deserialize(jr, testCaseType);
+            return testCase;
+        }
+        catch
+        {
+            return null;
         }
     }
 }

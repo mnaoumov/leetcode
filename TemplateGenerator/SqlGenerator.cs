@@ -10,6 +10,9 @@ internal partial class SqlGenerator : GeneratorBase
     [GeneratedRegex(@"Create table If Not Exists (?<TableName>.+?) \((?<ColumnDefinitions>.+?)\)($|\r\n)")]
     private static partial Regex CreateTableRegex();
 
+    [GeneratedRegex("'(.+?)'")]
+    private static partial Regex ValuesRegex();
+
     [GeneratedRegex(@"^[\w_@#][\w\d_@#$]*$")]
     private static partial Regex HeaderNameRegex();
 
@@ -120,7 +123,7 @@ internal partial class SqlGenerator : GeneratorBase
                 complexParts.Add(part);
                 var columnDefinition = string.Join(", ", complexParts);
                 ColumnName = columnDefinition.Split(' ')[0];
-                Values = Regex.Matches(columnDefinition, "'(.+?)'").Select(m => m.Groups[1].Value).ToArray();
+                Values = ValuesRegex().Matches(columnDefinition).Select(m => m.Groups[1].Value).ToArray();
                 MaxValueLength = Values.Max(value => value.Length);
 
                 columnDefinition = GenerateTemplate("""

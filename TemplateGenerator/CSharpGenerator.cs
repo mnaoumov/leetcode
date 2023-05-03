@@ -84,7 +84,8 @@ internal partial class CSharpGenerator : GeneratorBase
             /// <summary>
             /// TODO url
             /// </summary>
-            public class Solution1
+            [UsedImplicitly]
+            public class Solution1 : ISolution
             {
                 {{ Signature }}
                 {

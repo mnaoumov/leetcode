@@ -32,8 +32,6 @@ internal partial class SutGenerator : GeneratorBase
     [UsedImplicitly]
     public string ConstructorArgumentNamesStr { get; private set; } = null!;
 
-    private SutExample[] Examples { get; set; } = null!;
-
     [UsedImplicitly]
     public SutExample Example { get; private set; } = null!;
 
@@ -44,7 +42,7 @@ internal partial class SutGenerator : GeneratorBase
         var sutClassDefinition = ConsoleHelper.ReadMultiline("SUT class definition");
         var examplesStr = ConsoleHelper.ReadMultiline("Examples");
 
-        Examples = ExamplesRegex().Matches(examplesStr).Select(match => new SutExample
+        var examples = ExamplesRegex().Matches(examplesStr).Select(match => new SutExample
         {
             CommandsStr = match.Groups[1].Value,
             ParametersStr = match.Groups[2].Value,
@@ -139,16 +137,16 @@ internal partial class SutGenerator : GeneratorBase
 
         var testCaseCounter = 0;
 
-        foreach (var example in Examples)
+        foreach (var example in examples)
         {
             testCaseCounter++;
             Example = example;
 
             GenerateFile($"TestCase{testCaseCounter}.json", """
             {
-                commands: {{ Example.CommandsStr }},
-                parameters: {{ Example.ParametersStr }},
-                output: {{ Example.OutputStr }}
+                "commands": {{ Example.CommandsStr }},
+                "parameters": {{ Example.ParametersStr }},
+                "output": {{ Example.OutputStr }}
             }
             """);
         }

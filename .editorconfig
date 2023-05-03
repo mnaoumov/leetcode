@@ -1,6 +1,6 @@
 root = true
 
-[*.{asax,ascx,aspx,axaml,cs,cshtml,htm,html,master,paml,razor,skin,vb,xaml,xamlx,xoml,sql}]
+[*.{asax,ascx,aspx,axaml,cs,cshtml,htm,html,master,paml,razor,skin,vb,xaml,xamlx,xoml,sql,js}]
 indent_style = space
 indent_size = 4
 tab_width = 4
@@ -91,3 +91,4 @@ csharp_style_expression_bodied_local_functions = false:silent
 insert_final_newline = true
 trim_trailing_whitespace = true
 charset = utf-8
+dotnet_style_prefer_conditional_expression_over_return = true:silent

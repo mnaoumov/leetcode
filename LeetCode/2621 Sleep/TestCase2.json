@@ -1,0 +1,5 @@
+{
+    "inputFunction": "async () => { let t = Date.now(); return sleep(200).then(() => Date.now() - t); }",
+    "output": 200,
+    "timeoutInMilliseconds": 300
+}

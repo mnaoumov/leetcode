@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using System.Text.RegularExpressions;
+using Microsoft.ClearScript.JavaScript;
 using Microsoft.ClearScript.V8;
 using Newtonsoft.Json;
 
@@ -15,19 +16,57 @@ public partial class JavaScriptTestsBase<TJavaScriptTests> : TestsBase where TJa
     [Category("JavaScript")]
     public void Test(string solutionScriptPath, JavaScriptTestCase testCase)
     {
-        using var engine = new V8ScriptEngine();
-        engine.Execute(File.ReadAllText(solutionScriptPath));
-        var code = $@"
-let result;
-try {{
-    result = ({testCase.InputFunction})();
-}} catch (e) {{
-    result = e;
-}}
+        RunTestWithStackAndTimeoutChecks(testCase,
+            () => RunJavaScriptTestAsync(solutionScriptPath, testCase).GetAwaiter().GetResult());
+    }
 
-JSON.stringify(result, Object.getOwnPropertyNames(result));
-";
-        var actualJson = (string) engine.Evaluate(code);
+    // ReSharper disable once StaticMemberInGenericType
+    private static readonly Lazy<V8ScriptEngine> Engine = new(BuildEngine);
+
+    private static V8ScriptEngine BuildEngine()
+    {
+        var engine = new V8ScriptEngine();
+        var intervals = new V8Extended.Intervals();
+        intervals.Extend(engine);
+        intervals.StartEventsLoopBackground();
+        engine.Execute("""
+        let now = Date.now();
+        Date.now = () => now;
+
+        const _setTimeout = setTimeout
+
+        setTimeout = (callback, timeout) => _setTimeout(() => {
+            now += timeout;
+            callback();
+        }, timeout);
+        """);
+        return engine;
+    }
+
+    private static async Task RunJavaScriptTestAsync(string solutionScriptPath, JavaScriptTestCase testCase)
+    {
+        var engine = Engine.Value;
+        engine.Execute(await File.ReadAllTextAsync(solutionScriptPath));
+
+        var code = $$"""
+        (async () => {
+            const inputFunction = {{testCase.InputFunction}};
+
+            let result;
+            try {
+                result = await inputFunction();
+            } catch (e) {
+                result = e;
+            }
+
+            return JSON.stringify(result, Object.getOwnPropertyNames(result));
+        })();
+        """;
+
+        var promise = engine.Evaluate(code);
+
+        var actualJson = (string) (await promise.ToTask());
+
         var actual = JsonConvert.DeserializeObject<object>(actualJson, new PlainObjectArrayConverter());
         AssertEqualWithDetails(actual, testCase.Output);
     }

@@ -30,15 +30,18 @@ public partial class JavaScriptTestsBase<TJavaScriptTests> : TestsBase where TJa
         intervals.Extend(engine);
         intervals.StartEventsLoopBackground();
         engine.Execute("""
-        let now = Date.now();
-        Date.now = () => now;
+        let _fakeTime = Date.now();
+        Date.now = () => _fakeTime;
 
         const _setTimeout = setTimeout
 
-        setTimeout = (callback, timeout) => _setTimeout(() => {
-            now += timeout;
-            callback();
-        }, timeout);
+        setTimeout = (callback, timeout) => {
+            const nextTime = _fakeTime + timeout;
+            return _setTimeout(() => {
+                _fakeTime = nextTime;
+                callback();
+            }, timeout);
+        };
         """);
         return engine;
     }

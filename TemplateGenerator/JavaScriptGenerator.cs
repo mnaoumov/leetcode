@@ -5,23 +5,20 @@ namespace TemplateGenerator;
 
 internal partial class JavaScriptGenerator : GeneratorBase
 {
-    [GeneratedRegex(@"\r\nInput: (.+?)\r\nOutput: (.+?)(\r\n|$)")]
+    [GeneratedRegex(@"\r\nInput:(?: |\r\n)((?:.|\r\n)+?)\r\nOutput: (.+?)(\r\n|$)")]
     private static partial Regex ExamplesRegex();
 
     [UsedImplicitly]
-    public string TestCaseJson { get; set; } = null!;
-
-    [UsedImplicitly]
-    public string[] HeaderNames { get; private set; } = null!;
+    public string SolutionTemplate { get; private set; } = null!;
 
     [UsedImplicitly]
     public JavaScriptExample Example { get; private set; } = null!;
-    
+
     public override bool CanGenerate() => Signature == "JS";
 
     public override void Generate()
     {
-        var solutionTemplate = ConsoleHelper.ReadMultiline("Solution template");
+        SolutionTemplate = ConsoleHelper.ReadMultiline("Solution template");
         var examplesStr = ConsoleHelper.ReadMultiline("Examples");
 
         var examples = ExamplesRegex().Matches(examplesStr).Select(match => new JavaScriptExample
@@ -30,7 +27,11 @@ internal partial class JavaScriptGenerator : GeneratorBase
             OutputStr = match.Groups[2].Value
         }).ToArray();
 
-        GenerateFile("Solution1.js", solutionTemplate);
+        GenerateFile("Solution1.js", """
+            // TODO url
+
+            {{ SolutionTemplate }}
+            """);
 
         GenerateFile("Tests.cs", """
             using JetBrains.Annotations;

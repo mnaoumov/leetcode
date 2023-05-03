@@ -1,0 +1,4 @@
+{
+    "inputFunction": "() => { const counter = createCounter(10); return [counter(), counter(), counter()]; }",
+    "output": [10,11,12]
+}

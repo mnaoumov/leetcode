@@ -1,5 +1,10 @@
-﻿// https://leetcode.com/submissions/detail/932781150/
+// https://leetcode.com/submissions/detail/932781150/
 
+/**
+ * @param {any} obj
+ * @param {any} classFunction
+ * @return {boolean}
+ */
 var checkIfInstanceOf = function (obj, classFunction) {
     if (classFunction === null || classFunction === undefined) {
         return false;

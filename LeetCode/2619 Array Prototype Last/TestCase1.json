@@ -1,4 +1,0 @@
-{
-    "inputFunction": "() => [1,2,3].last()",
-    "output": 3
-}

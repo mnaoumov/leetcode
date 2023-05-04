@@ -1,4 +1,0 @@
-{
-    "inputFunction": "() => { const counter = createCounter(-2); return [counter(), counter(), counter(), counter(), counter()]; }",
-    "output": [-2,-1,0,1,2]
-}

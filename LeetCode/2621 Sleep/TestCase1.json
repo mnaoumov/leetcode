@@ -1,4 +1,0 @@
-{
-    "inputFunction": "async () => { let t = Date.now(); return sleep(100).then(() => Date.now() - t); }",
-    "output": 100
-}

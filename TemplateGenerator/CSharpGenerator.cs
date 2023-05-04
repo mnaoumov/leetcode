@@ -110,7 +110,7 @@ internal partial class CSharpGenerator : GeneratorBase
                 {{~ if OutputArgument.IsCollectionType ~}}
                     AssertCollectionEqualWithDetails({{ InvokeSolutionCode }}, {{ OutputArgument.TestCasePropertyCode }});
                 {{~ else ~}}
-                    Assert.That({{ InvokeSolutionCode }}, Is.EqualTo({{ OutputArgument.TestCasePropertyCode }}))
+                    Assert.That({{ InvokeSolutionCode }}, Is.EqualTo({{ OutputArgument.TestCasePropertyCode }}));
                 {{~ end ~}}
                 }
 

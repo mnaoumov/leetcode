@@ -1,9 +1,8 @@
-using JetBrains.Annotations;
-
 namespace LeetCode;
 
 public class JavaScriptTestCase : TestCaseBase
 {
-    public string InputFunction { get; [UsedImplicitly] init; } = null!;
-    public object Output { get; [UsedImplicitly] init; } = null!;
+    public string InputFunctionStr { get; init; } = null!;
+    public string OutputJson { get; init; } = null!;
+    public Exception? Exception { get; init; }
 }

@@ -1,3 +1,8 @@
+const FakeTimers = require("@sinonjs/fake-timers");
+FakeTimers.install({
+    shouldAdvanceTime: true
+});
+
 const jsonFriendlyErrorReplacer = (_, value) => {
     if (value instanceof Error) {
         return {
@@ -25,7 +30,7 @@ module.exports = async (solutionFilePath, testCaseFilePath, testsFilePath) => {
     } catch (e) {
         actualResult = e;
     }
-    
+
     const actualResultJson = toJson(actualResult);
     const expectedResultJson = toJson(testCase.output);
 

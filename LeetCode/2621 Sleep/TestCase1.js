@@ -1,2 +1,4 @@
-const millis = 100;
-const output = 100;
+module.exports = {
+    millis: 100,
+    output: 100
+};

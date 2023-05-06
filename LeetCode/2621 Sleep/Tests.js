@@ -1,5 +1,6 @@
-const testFn = async () => {
+module.exports = async (solution, testCase) => {
+    const sleep = solution;
     const t = Date.now();
-    await sleep(millis);
+    await sleep(testCase.millis);
     return Date.now() - t;
 };

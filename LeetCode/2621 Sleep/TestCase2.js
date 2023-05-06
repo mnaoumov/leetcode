@@ -1,3 +1,4 @@
-const millis = 200;
-const output = 200;
-const timeoutInMilliseconds = 300;
+module.exports = {
+    millis: 200,
+    output: 200
+};

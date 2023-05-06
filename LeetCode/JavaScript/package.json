@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@sinonjs/fake-timers": "^10.0.2"
+  }
+}

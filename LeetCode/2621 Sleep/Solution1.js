@@ -8,3 +8,5 @@ async function sleep(millis) {
         setTimeout(resolve, millis);
     });
 }
+
+module.exports = sleep;

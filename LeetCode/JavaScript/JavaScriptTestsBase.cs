@@ -6,7 +6,7 @@ using Path = System.IO.Path;
 
 namespace LeetCode;
 
-public class JavaScriptTestsBase<TJavaScriptTests> : JavaScriptTestsBase where TJavaScriptTests : JavaScriptTestsBase<TJavaScriptTests>
+public abstract class JavaScriptTestsBase<TJavaScriptTests> : JavaScriptTestsBase where TJavaScriptTests : JavaScriptTestsBase<TJavaScriptTests>
 {
     [Test]
     [TestCaseSource(nameof(JoinedTestCases))]

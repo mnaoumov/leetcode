@@ -74,7 +74,7 @@ public partial class JavaScriptTestsBase<TJavaScriptTests> : TestsBase where TJa
     private static async Task RunJavaScriptTestAsync(string solutionScriptPath, JavaScriptTestCase testCase)
     {
         var problemTestCaseDirectory = GetProblemDirectory(typeof(TJavaScriptTests));
-        var engine = BuildEngine();
+        using var engine = BuildEngine();
         engine.Execute(await File.ReadAllTextAsync(solutionScriptPath));
         engine.Execute(await File.ReadAllTextAsync(testCase.TestCaseScriptPath));
         engine.Execute(await File.ReadAllTextAsync($@"{problemTestCaseDirectory}\Tests.js"));

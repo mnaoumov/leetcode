@@ -23,7 +23,7 @@ internal partial class JavaScriptGenerator : GeneratorBase
 
         var examples = ExamplesRegex().Matches(examplesStr).Select(match => new JavaScriptExample
         {
-            InputFunctionStr = match.Groups[1].Value,
+            InputStr = match.Groups[1].Value,
             OutputStr = match.Groups[2].Value
         }).ToArray();
 
@@ -44,6 +44,11 @@ internal partial class JavaScriptGenerator : GeneratorBase
             }
             """);
 
+        GenerateFile("Tests.js", """
+            const testFn = () => {
+            };
+            """);
+
         var testCaseCounter = 0;
 
         foreach (var example in examples)
@@ -51,11 +56,9 @@ internal partial class JavaScriptGenerator : GeneratorBase
             testCaseCounter++;
             Example = example;
 
-            GenerateFile($"TestCase{testCaseCounter}.json", """
-            {
-                "inputFunction": "{{ Example.InputFunctionStr }}",
-                "output": {{ Example.OutputStr }}
-            }
+            GenerateFile($"TestCase{testCaseCounter}.js", """
+            {{ Example.InputStr }}
+            const output = Example.OutputStr;
             """);
         }
     }
@@ -63,7 +66,7 @@ internal partial class JavaScriptGenerator : GeneratorBase
     internal class JavaScriptExample
     {
         [UsedImplicitly]
-        public string InputFunctionStr { get; init; } = null!;
+        public string InputStr { get; init; } = null!;
 
         [UsedImplicitly]
         public string OutputStr { get; init; } = null!;

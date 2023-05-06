@@ -1,2 +1,4 @@
-const args = [];
-const output = "Hello World";
+module.exports = {
+    args: [],
+    output: "Hello World"
+};

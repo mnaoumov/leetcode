@@ -8,3 +8,5 @@ var createHelloWorld = function () {
         return "Hello World";
     }
 };
+
+module.exports = createHelloWorld;

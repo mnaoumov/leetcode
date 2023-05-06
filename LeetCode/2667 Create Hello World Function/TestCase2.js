@@ -1,2 +1,4 @@
-const args = [{},null,42];
-const output = "Hello World";
+module.exports = {
+    args: [{}, null, 42],
+    output: "Hello World"
+};

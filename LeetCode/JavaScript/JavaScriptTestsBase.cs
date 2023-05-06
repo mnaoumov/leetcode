@@ -2,8 +2,8 @@ using NUnit.Framework;
 using System.Text.RegularExpressions;
 using Microsoft.ClearScript.JavaScript;
 using Microsoft.ClearScript.V8;
-using V8Extended;
 using Path = System.IO.Path;
+using Microsoft.ClearScript;
 
 namespace LeetCode;
 
@@ -27,19 +27,22 @@ public partial class JavaScriptTestsBase<TJavaScriptTests> : TestsBase where TJa
     private static V8ScriptEngine BuildEngine()
     {
         var engine = new V8ScriptEngine();
-        var intervals = new Intervals();
-        intervals.Extend(engine);
-        intervals.StartEventsLoopBackground();
+
+        void SetTimeout(ScriptObject callback, int timeout)
+        {
+            var timer = new Timer(_ => callback.Invoke(asConstructor: false));
+            timer.Change(timeout, Timeout.Infinite);
+        }
+
+        engine.Script._setTimeout = (Action<ScriptObject, int>) SetTimeout;
 
         engine.Execute("""
         let _fakeTime = Date.now();
         Date.now = () => _fakeTime;
 
-        const _setTimeout = setTimeout
-
-        setTimeout = (callback, timeout) => {
+        var setTimeout = (callback, timeout) => {
             const nextTime = _fakeTime + timeout;
-            return _setTimeout(() => {
+            _setTimeout(() => {
                 _fakeTime = nextTime;
                 callback();
             }, timeout);

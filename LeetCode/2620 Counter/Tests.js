@@ -1,4 +1,5 @@
-const testFn = () => {
-    const counter = createCounter(n);
-    return Array.from(Array(m)).map(_ => counter());
+module.exports = async (solution, testCase) => {
+    const createCounter = solution;
+    const counter = createCounter(testCase.n);
+    return Array.from(Array(testCase.m)).map(_ => counter());
 };

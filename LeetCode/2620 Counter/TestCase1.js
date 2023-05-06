@@ -1,3 +1,5 @@
-const n = 10;
-const m = 3;
-const output = [10, 11, 12];
+module.exports = {
+    n: 10,
+    m: 3,
+    output: [10, 11, 12]
+};

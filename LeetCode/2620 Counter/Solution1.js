@@ -13,3 +13,5 @@ var createCounter = function(n) {
         return previousValue;
     };
 };
+
+module.exports = createCounter;

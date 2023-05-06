@@ -1,7 +1,2 @@
-({
-    inputFunction: () => {
-        const nums = [];
-        return nums.last();
-    },
-    output: -1
-})
+const nums = [];
+const output = -1;

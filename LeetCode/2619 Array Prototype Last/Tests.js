@@ -1,0 +1,1 @@
+const testFn = () => nums.last();

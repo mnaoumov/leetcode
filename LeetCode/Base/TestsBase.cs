@@ -159,13 +159,6 @@ public abstract partial class TestsBase
             Assert.Fail(testCase.JsonParsingException.ToString());
         }
 
-        var cts = new CancellationTokenSource();
-
-        if (!Debugger.IsAttached)
-        {
-            cts.CancelAfter(testCase.TimeoutInMilliseconds);
-        }
-
         Exception? exception = null;
 
         const int maxStackSize = 8 * 1024 * 1024;
@@ -174,6 +167,13 @@ public abstract partial class TestsBase
         {
             try
             {
+                using var cts = new CancellationTokenSource();
+
+                if (!Debugger.IsAttached)
+                {
+                    cts.CancelAfter(testCase.TimeoutInMilliseconds);
+                }
+
 #pragma warning disable SYSLIB0046
                 ControlledExecution.Run(testAction, cts.Token);
 #pragma warning restore SYSLIB0046

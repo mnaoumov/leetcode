@@ -1,5 +1,8 @@
 class Animal { }
 class Dog extends Animal { }
-const obj = new Dog();
-const classFunction = Animal;
-const output = true;
+
+module.exports = {
+    obj: new Dog(),
+    classFunction: Animal,
+    output: true
+};

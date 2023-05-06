@@ -1,3 +1,5 @@
-const obj = undefined;
-const classFunction = null;
-const output = false;
+module.exports = {
+    obj: undefined,
+    classFunction: null,
+    output: false
+};

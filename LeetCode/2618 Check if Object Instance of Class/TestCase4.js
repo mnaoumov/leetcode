@@ -1,3 +1,5 @@
-const obj = 5;
-const classFunction = Number;
-const output = true;
+module.exports = {
+    obj: 5,
+    classFunction: Number,
+    output: true
+};

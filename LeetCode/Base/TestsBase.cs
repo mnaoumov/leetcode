@@ -75,7 +75,7 @@ public abstract partial class TestsBase
             });
     }
 
-    protected static void AssertEqualWithDetails(object? actual, object? expected, string? message = null)
+    private static void AssertEqualWithDetails(object? actual, object? expected, string? message = null)
     {
         if (message != null)
         {
@@ -118,7 +118,7 @@ public abstract partial class TestsBase
             return escapedName == namespacePart;
         });
 
-        return problemTestCaseDirectory;
+        return problemTestCaseDirectory == null ? null : Path.GetFullPath(problemTestCaseDirectory);
     }
 
     private static TTestCase FromJson<TTestCase>(string testCaseFilePath) where TTestCase : TestCaseBase, new()

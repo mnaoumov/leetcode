@@ -10,11 +10,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Jering.Javascript.NodeJS" Version="6.3.1" />
     <PackageReference Include="JetBrains.Annotations" Version="2022.3.1" />
     <PackageReference Include="LocalDb" Version="14.5.2" />
-    <PackageReference Include="Microsoft.ClearScript.Core" Version="7.4.1" />
-    <PackageReference Include="Microsoft.ClearScript.V8" Version="7.4.1" />
-    <PackageReference Include="Microsoft.ClearScript.V8.Native.win-x64" Version="7.4.1" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
     <PackageReference Include="Microsoft.NETCore.Platforms" Version="7.0.2" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />

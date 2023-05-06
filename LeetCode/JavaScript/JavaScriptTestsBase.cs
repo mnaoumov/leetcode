@@ -1,136 +1,42 @@
 using NUnit.Framework;
 using System.Text.RegularExpressions;
-using Microsoft.ClearScript.JavaScript;
-using Microsoft.ClearScript.V8;
+using Jering.Javascript.NodeJS;
 using Path = System.IO.Path;
-using Microsoft.ClearScript;
 
 namespace LeetCode;
 
-public partial class JavaScriptTestsBase<TJavaScriptTests> : TestsBase where TJavaScriptTests : JavaScriptTestsBase<TJavaScriptTests>
+public class JavaScriptTestsBase<TJavaScriptTests> : JavaScriptTestsBase where TJavaScriptTests : JavaScriptTestsBase<TJavaScriptTests>
+{
+    [Test]
+    [TestCaseSource(nameof(JoinedTestCases))]
+    [Category("JavaScript")]
+    public void Test(string solutionScriptPath, JavaScriptTestCase testCase, string testsScriptPath)
+    {
+        RunTestWithStackAndTimeoutChecks(testCase,
+            () => RunJavaScriptTestAsync(solutionScriptPath, testCase, testsScriptPath).GetAwaiter().GetResult());
+    }
+
+    public static IEnumerable<TestCaseData> JoinedTestCases => GetJoinedTestCases(typeof(TJavaScriptTests));
+}
+
+public partial class JavaScriptTestsBase : TestsBase
 {
     [GeneratedRegex("// SkipSolution: (.+)")]
     private static partial Regex SkipSolutionRegex();
 
-    [GeneratedRegex("const timeoutInMilliseconds = (\\d+);")]
+    [GeneratedRegex(@"timeoutInMilliseconds: (\d+);")]
     private static partial Regex TimeoutInMillisecondsRegex();
 
-    [Test]
-    [TestCaseSource(nameof(JoinedTestCases))]
-    [Category("JavaScript")]
-    public void Test(string solutionScriptPath, JavaScriptTestCase testCase)
-    {
-        RunTestWithStackAndTimeoutChecks(testCase,
-            () => RunJavaScriptTestAsync(solutionScriptPath, testCase).GetAwaiter().GetResult());
-    }
+    private static readonly string TestRunnerScriptPath;
 
-    private static V8ScriptEngine BuildEngine()
+    static JavaScriptTestsBase()
     {
-        var engine = new V8ScriptEngine();
+        var dir = Directory.GetCurrentDirectory();
+        TestRunnerScriptPath = $@"{dir}\JavaScript\TestRunner.js";
 
-        void SetTimeout(ScriptObject callback, int timeout)
+        if (!File.Exists(TestRunnerScriptPath))
         {
-            var timer = new Timer(_ => callback.Invoke(asConstructor: false));
-            timer.Change(timeout, Timeout.Infinite);
-        }
-
-        engine.Script._setTimeout = (Action<ScriptObject, int>) SetTimeout;
-
-        engine.Execute("""
-        let _fakeTime = Date.now();
-        Date.now = () => _fakeTime;
-
-        var setTimeout = (callback, timeout) => {
-            const nextTime = _fakeTime + timeout;
-            _setTimeout(() => {
-                _fakeTime = nextTime;
-                callback();
-            }, timeout);
-        };
-        """);
-
-        engine.Execute("""
-        var toJson = (obj) => {
-            if (obj === undefined) {
-                return "undefined";
-            }
-
-            const propertyNames = obj === null ? [] : Object.getOwnPropertyNames(obj);
-            return JSON.stringify(obj, propertyNames);
-        }
-
-        var getActualResultJson = async () => {
-            try {
-                return toJson(await testFn());
-            }
-            catch (e) {
-                return toJson(e);
-            }
-        };
-
-        var getOutputJson = () => toJson(output);
-        """);
-
-        return engine;
-    }
-
-    private static async Task RunJavaScriptTestAsync(string solutionScriptPath, JavaScriptTestCase testCase)
-    {
-        var problemTestCaseDirectory = GetProblemDirectory(typeof(TJavaScriptTests));
-        using var engine = BuildEngine();
-        engine.Execute(await File.ReadAllTextAsync(solutionScriptPath));
-        engine.Execute(await File.ReadAllTextAsync(testCase.TestCaseScriptPath));
-        engine.Execute(await File.ReadAllTextAsync($@"{problemTestCaseDirectory}\Tests.js"));
-        object actualResultJsonPromise = engine.Script.getActualResultJson();
-        var actualResultJson = (string) await actualResultJsonPromise.ToTask();
-        var outputJson = (string) engine.Script.getOutputJson();
-        AssertEqualWithDetails(actualResultJson, outputJson);
-    }
-
-    public static IEnumerable<TestCaseData> JoinedTestCases
-    {
-        get
-        {
-            var problemTestCaseDirectory = GetProblemDirectory(typeof(TJavaScriptTests))!;
-            var testsFile = $@"{problemTestCaseDirectory}\Tests.js";
-
-            if (!File.Exists(testsFile))
-            {
-                Assert.Fail("No Tests.js found");
-            }
-
-            var solutionScriptFiles = Directory.GetFiles(problemTestCaseDirectory, "Solution*.js");
-            var testCaseScriptFiles = Directory.GetFiles(problemTestCaseDirectory, "TestCase*.js");
-            var testCases = testCaseScriptFiles.Select(GetTestCase).ToArray();
-
-            if (solutionScriptFiles.Length == 0)
-            {
-                Assert.Fail("No Solution*.js found");
-            }
-
-            if (testCases.Length == 0)
-            {
-                Assert.Fail("No TestCase*.js found");
-            }
-
-            foreach (var solutionScriptFile in solutionScriptFiles)
-            {
-                var solutionName = Path.GetFileNameWithoutExtension(solutionScriptFile);
-                var firstLine = File.ReadLines(solutionScriptFile).First();
-                var skipSolutionReason = SkipSolutionRegex().Match(firstLine).Groups[1].Value;
-
-                foreach (var testCase in testCases)
-                {
-                    var testCaseData = new TestCaseData(solutionScriptFile, testCase).SetName($@"{solutionName}: {testCase.TestCaseName}");
-
-                    if (!string.IsNullOrEmpty(skipSolutionReason))
-                    {
-                        testCaseData.Explicit(skipSolutionReason);
-                    }
-
-                    yield return testCaseData;
-                }
-            }
+            throw new InvalidOperationException("TestRunner.js is missing");
         }
     }
 
@@ -149,5 +55,58 @@ public partial class JavaScriptTestsBase<TJavaScriptTests> : TestsBase where TJa
             TestCaseScriptPath = testCaseScriptPath,
             TimeoutInMilliseconds = timeoutInMilliseconds
         };
+    }
+
+    protected static IEnumerable<TestCaseData> GetJoinedTestCases(Type problemRelatedType)
+    {
+        var problemTestCaseDirectory = GetProblemDirectory(problemRelatedType)!;
+        var testsScriptPath = $@"{problemTestCaseDirectory}\Tests.js";
+
+        if (!File.Exists(testsScriptPath))
+        {
+            Assert.Fail("No Tests.js found");
+        }
+
+        var solutionScriptFiles = Directory.GetFiles(problemTestCaseDirectory, "Solution*.js");
+        var testCaseScriptFiles = Directory.GetFiles(problemTestCaseDirectory, "TestCase*.js");
+        var testCases = testCaseScriptFiles.Select(GetTestCase).ToArray();
+
+        if (solutionScriptFiles.Length == 0)
+        {
+            Assert.Fail("No Solution*.js found");
+        }
+
+        if (testCases.Length == 0)
+        {
+            Assert.Fail("No TestCase*.js found");
+        }
+
+        foreach (var solutionScriptFile in solutionScriptFiles)
+        {
+            var solutionName = Path.GetFileNameWithoutExtension(solutionScriptFile);
+            var firstLine = File.ReadLines(solutionScriptFile).First();
+            var skipSolutionReason = SkipSolutionRegex().Match(firstLine).Groups[1].Value;
+
+            foreach (var testCase in testCases)
+            {
+                var testCaseData =
+                    new TestCaseData(solutionScriptFile, testCase, testsScriptPath).SetName($@"{solutionName}: {testCase.TestCaseName}");
+
+                if (!string.IsNullOrEmpty(skipSolutionReason))
+                {
+                    testCaseData.Explicit(skipSolutionReason);
+                }
+
+                yield return testCaseData;
+            }
+        }
+    }
+
+    protected static async Task RunJavaScriptTestAsync(string solutionScriptPath, JavaScriptTestCase testCase, string testsScriptPath)
+    {
+        await StaticNodeJSService.InvokeFromFileAsync(TestRunnerScriptPath, args: new object?[]
+        {
+            solutionScriptPath, testCase.TestCaseScriptPath, testsScriptPath
+        });
     }
 }

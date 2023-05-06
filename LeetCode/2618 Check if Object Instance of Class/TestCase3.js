@@ -1,3 +1,5 @@
-const obj = Date;
-const classFunction = Date;
-const output = false;
+module.exports = {
+    obj: Date,
+    classFunction: Date,
+    output: false
+};

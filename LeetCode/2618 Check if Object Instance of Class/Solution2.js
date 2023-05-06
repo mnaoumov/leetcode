@@ -16,3 +16,5 @@ var checkIfInstanceOf = function (obj, classFunction) {
 
     return false;
 };
+
+module.exports = checkIfInstanceOf;

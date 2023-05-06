@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using NUnit.Framework;
 using System.Text.RegularExpressions;
 using Jering.Javascript.NodeJS;
@@ -38,6 +39,12 @@ public partial class JavaScriptTestsBase : TestsBase
         {
             throw new InvalidOperationException("TestRunner.js is missing");
         }
+
+        if (Debugger.IsAttached)
+        {
+            StaticNodeJSService.Configure<NodeJSProcessOptions>(options => options.NodeAndV8Options = "--inspect-brk");
+            StaticNodeJSService.Configure<OutOfProcessNodeJSServiceOptions>(options => options.TimeoutMS = -1);
+        }
     }
 
     private static JavaScriptTestCase GetTestCase(string testCaseScriptPath)
@@ -48,7 +55,7 @@ public partial class JavaScriptTestsBase : TestsBase
         var timeoutInMillisecondsStr = TimeoutInMillisecondsRegex().Match(content).Groups[1].Value;
         var timeoutInMilliseconds = int.TryParse(timeoutInMillisecondsStr, out var value)
             ? value
-            : TestCaseBase.DefaultTimeoutInMilliseconds;
+            : JavaScriptTestCase.DefaultTimeoutInMilliseconds;
         return new JavaScriptTestCase
         {
             TestCaseName = testCaseName,

@@ -1,4 +1,4 @@
-﻿const jsonFriendlyErrorReplacer = (_, value) => {
+const jsonFriendlyErrorReplacer = (_, value) => {
     if (value instanceof Error) {
         return {
             ...value,

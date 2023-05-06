@@ -1,1 +1,1 @@
-const testFn = () => nums.last();
+module.exports = async (_, testCase) => testCase.nums.last();

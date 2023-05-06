@@ -1,2 +1,4 @@
-const nums = [];
-const output = -1;
+module.exports = {
+    nums: [],
+    output: -1
+};

@@ -1,2 +1,4 @@
-const nums = [1, 2, 3];
-const output = 3;
+module.exports = {
+    nums: [1, 2, 3],
+    output: 3
+};

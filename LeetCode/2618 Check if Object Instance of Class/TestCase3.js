@@ -1,8 +1,3 @@
-({
-    inputFunction: () => {
-        const obj = Date;
-        const classFunction = Date;
-        return checkIfInstanceOf(obj, classFunction);
-    },
-    output: false
-})
+const obj = Date;
+const classFunction = Date;
+const output = false;

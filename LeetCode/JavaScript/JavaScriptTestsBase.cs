@@ -1,6 +1,5 @@
 using NUnit.Framework;
 using System.Text.RegularExpressions;
-using Microsoft.ClearScript;
 using Microsoft.ClearScript.JavaScript;
 using Microsoft.ClearScript.V8;
 using V8Extended;
@@ -13,6 +12,9 @@ public partial class JavaScriptTestsBase<TJavaScriptTests> : TestsBase where TJa
     [GeneratedRegex("// SkipSolution: (.+)")]
     private static partial Regex SkipSolutionRegex();
 
+    [GeneratedRegex("const timeoutInMilliseconds = (\\d+);")]
+    private static partial Regex TimeoutInMillisecondsRegex();
+
     [Test]
     [TestCaseSource(nameof(JoinedTestCases))]
     [Category("JavaScript")]
@@ -21,10 +23,6 @@ public partial class JavaScriptTestsBase<TJavaScriptTests> : TestsBase where TJa
         RunTestWithStackAndTimeoutChecks(testCase,
             () => RunJavaScriptTestAsync(solutionScriptPath, testCase).GetAwaiter().GetResult());
     }
-
-    // ReSharper disable once StaticMemberInGenericType
-    private static readonly Lazy<V8ScriptEngine> Engine = new(BuildEngine);
-    // ReSharper disable once StaticMemberInGenericType
 
     private static V8ScriptEngine BuildEngine()
     {
@@ -49,18 +47,18 @@ public partial class JavaScriptTestsBase<TJavaScriptTests> : TestsBase where TJa
         """);
 
         engine.Execute("""
-        function toJson(obj) {
-            return JSON.stringify(obj, Object.getOwnPropertyNames(obj));
-        }
+        var toJson = (obj) => JSON.stringify(obj, Object.getOwnPropertyNames(obj));
 
-        async function getActualResultJson() {
+        var getActualResultJson = async () => {
             try {
-                return toJson(await inputFunction());
+                return toJson(await testFn());
             }
             catch (e) {
                 return toJson(e);
             }
-        }
+        };
+
+        var getOutputJson = () => toJson(output);
         """);
 
         return engine;
@@ -68,12 +66,15 @@ public partial class JavaScriptTestsBase<TJavaScriptTests> : TestsBase where TJa
 
     private static async Task RunJavaScriptTestAsync(string solutionScriptPath, JavaScriptTestCase testCase)
     {
-        var engine = Engine.Value;
+        var problemTestCaseDirectory = GetProblemDirectory(typeof(TJavaScriptTests));
+        var engine = BuildEngine();
         engine.Execute(await File.ReadAllTextAsync(solutionScriptPath));
-        engine.Execute($"inputFunction = {testCase.InputFunctionStr};");
+        engine.Execute(await File.ReadAllTextAsync(testCase.TestCaseScriptPath));
+        engine.Execute(await File.ReadAllTextAsync($@"{problemTestCaseDirectory}\Tests.js"));
         object actualResultJsonPromise = engine.Script.getActualResultJson();
         var actualResultJson = (string) await actualResultJsonPromise.ToTask();
-        AssertEqualWithDetails(actualResultJson, testCase.OutputJson);
+        var outputJson = (string) engine.Script.getOutputJson();
+        AssertEqualWithDetails(actualResultJson, outputJson);
     }
 
     public static IEnumerable<TestCaseData> JoinedTestCases
@@ -81,6 +82,13 @@ public partial class JavaScriptTestsBase<TJavaScriptTests> : TestsBase where TJa
         get
         {
             var problemTestCaseDirectory = GetProblemDirectory(typeof(TJavaScriptTests))!;
+            var testsFile = $@"{problemTestCaseDirectory}\Tests.js";
+
+            if (!File.Exists(testsFile))
+            {
+                Assert.Fail("No Tests.js found");
+            }
+
             var solutionScriptFiles = Directory.GetFiles(problemTestCaseDirectory, "Solution*.js");
             var testCaseScriptFiles = Directory.GetFiles(problemTestCaseDirectory, "TestCase*.js");
             var testCases = testCaseScriptFiles.Select(GetTestCase).ToArray();
@@ -110,45 +118,26 @@ public partial class JavaScriptTestsBase<TJavaScriptTests> : TestsBase where TJa
                         testCaseData.Explicit(skipSolutionReason);
                     }
 
-                    if (testCase.Exception != null)
-                    {
-                        testCaseData.Explicit(testCase.Exception.ToString());
-                    }
-
                     yield return testCaseData;
                 }
             }
         }
     }
 
-    private static JavaScriptTestCase GetTestCase(string testCaseScriptFile)
+    private static JavaScriptTestCase GetTestCase(string testCaseScriptPath)
     {
-        var testCaseName = Path.GetFileNameWithoutExtension(testCaseScriptFile);
+        var testCaseName = Path.GetFileNameWithoutExtension(testCaseScriptPath);
 
-        try
+        var content = File.ReadAllText(testCaseScriptPath);
+        var timeoutInMillisecondsStr = TimeoutInMillisecondsRegex().Match(content).Groups[1].Value;
+        var timeoutInMilliseconds = int.TryParse(timeoutInMillisecondsStr, out var value)
+            ? value
+            : TestCaseBase.DefaultTimeoutInMilliseconds;
+        return new JavaScriptTestCase
         {
-            var engine = Engine.Value;
-            dynamic testCaseObj = engine.Evaluate(File.ReadAllText(testCaseScriptFile));
-
-            var timeoutInMilliseconds = testCaseObj.timeoutInMilliseconds;
-            return new JavaScriptTestCase
-            {
-                TestCaseName = testCaseName,
-                InputFunctionStr = testCaseObj.inputFunction.toString(),
-                OutputJson = engine.Script.toJson(testCaseObj.output),
-                TimeoutInMilliseconds = timeoutInMilliseconds is Undefined
-                    ? TestCaseBase.DefaultTimeoutInMilliseconds
-                    : (int) timeoutInMilliseconds
-            };
-
-        }
-        catch (Exception ex)
-        {
-            return new JavaScriptTestCase
-            {
-                TestCaseName = testCaseName,
-                Exception = ex
-            };
-        }
+            TestCaseName = testCaseName,
+            TestCaseScriptPath = testCaseScriptPath,
+            TimeoutInMilliseconds = timeoutInMilliseconds
+        };
     }
 }

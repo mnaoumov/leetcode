@@ -58,7 +58,7 @@ internal partial class JavaScriptGenerator : GeneratorBase
 
             GenerateFile($"TestCase{testCaseCounter}.js", """
             {{ Example.InputStr }}
-            const output = Example.OutputStr;
+            const output = {{ Example.OutputStr }};
             """);
         }
     }

@@ -47,7 +47,14 @@ public partial class JavaScriptTestsBase<TJavaScriptTests> : TestsBase where TJa
         """);
 
         engine.Execute("""
-        var toJson = (obj) => JSON.stringify(obj, Object.getOwnPropertyNames(obj));
+        var toJson = (obj) => {
+            if (obj === undefined) {
+                return "undefined";
+            }
+
+            const propertyNames = obj === null ? [] : Object.getOwnPropertyNames(obj);
+            return JSON.stringify(obj, propertyNames);
+        }
 
         var getActualResultJson = async () => {
             try {

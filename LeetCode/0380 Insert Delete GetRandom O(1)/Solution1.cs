@@ -8,8 +8,42 @@ namespace LeetCode._0380_Insert_Delete_GetRandom_O_1_;
 [UsedImplicitly]
 public class Solution1 : ISolution
 {
-    public IRandomizedSet Create()
+    public IRandomizedSet Create() => new RandomizedSet();
+
+    private class RandomizedSet : IRandomizedSet
     {
-        return new RandomizedSet1();
+        private readonly HashSet<int> _set = new();
+        private readonly List<int> _list = new();
+        private readonly Random _random = new();
+
+        public bool Insert(int val)
+        {
+            var result = _set.Add(val);
+
+            if (result)
+            {
+                _list.Add(val);
+            }
+
+            return result;
+        }
+
+        public bool Remove(int val)
+        {
+            var result = _set.Remove(val);
+
+            if (result)
+            {
+                _list.Remove(val);
+            }
+
+            return result;
+        }
+
+        public int GetRandom()
+        {
+            var randomIndex = _random.Next(_list.Count);
+            return _list[randomIndex];
+        }
     }
 }

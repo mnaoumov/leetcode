@@ -9,8 +9,31 @@ namespace LeetCode._2336_Smallest_Number_in_Infinite_Set;
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution
 {
-    public ISmallestInfiniteSet Create()
+    public ISmallestInfiniteSet Create() => new SmallestInfiniteSet();
+
+    private class SmallestInfiniteSet : ISmallestInfiniteSet
     {
-        return new SmallestInfiniteSet1();
+        private readonly PriorityQueue<int, int> _heap = new();
+        private int _restRangeStart = 1;
+
+        public int PopSmallest()
+        {
+            if (_heap.TryDequeue(out var num, out _))
+            {
+                return num;
+            }
+
+            var result = _restRangeStart;
+            _restRangeStart++;
+            return result;
+        }
+
+        public void AddBack(int num)
+        {
+            if (num < _restRangeStart)
+            {
+                _heap.Enqueue(num, num);
+            }
+        }
     }
 }

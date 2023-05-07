@@ -9,8 +9,34 @@ namespace LeetCode._0901_Online_Stock_Span;
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution
 {
-    public IStockSpanner Create()
+    public IStockSpanner Create() => new StockSpanner();
+
+    private class StockSpanner : IStockSpanner
     {
-        return new StockSpanner1();
+        private readonly List<int> _list = new();
+
+        public int Next(int price)
+        {
+            var left = 0;
+            var right = _list.Count - 1;
+
+            while (left <= right)
+            {
+                var mid = (left + right) / 2;
+
+                if (_list[mid] >= price)
+                {
+                    right = mid - 1;
+                }
+                else
+                {
+                    left = mid + 1;
+                }
+            }
+
+            _list.Insert(left, price);
+
+            return left + 1;
+        }
     }
 }

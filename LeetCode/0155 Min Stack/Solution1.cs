@@ -8,8 +8,34 @@ namespace LeetCode._0155_Min_Stack;
 [UsedImplicitly]
 public class Solution1 : ISolution
 {
-    public IMinStack Create()
+    public IMinStack Create() => new MinStack();
+
+    private class MinStack : IMinStack
     {
-        return new MinStack1();
+        private readonly Stack<int> _stack;
+        private readonly Stack<int> _stackOfMins;
+
+        public MinStack()
+        {
+            _stack = new Stack<int>();
+            _stackOfMins = new Stack<int>();
+        }
+
+        public void Push(int val)
+        {
+            _stack.Push(val);
+            var lastMin = _stackOfMins.TryPeek(out var lastMin2) ? lastMin2 : int.MaxValue;
+            _stackOfMins.Push(Math.Min(lastMin, val));
+        }
+
+        public void Pop()
+        {
+            _stack.Pop();
+            _stackOfMins.Pop();
+        }
+
+        public int Top() => _stack.Peek();
+
+        public int GetMin() => _stackOfMins.Peek();
     }
 }

@@ -3,5 +3,5 @@ namespace LeetCode;
 public class JavaScriptTestCase : TestCaseBase
 {
     public string TestCaseScriptPath { get; init; } = null!;
-    public new const int DefaultTimeoutInMilliseconds = 1000;
+    public const int DefaultTimeoutInMilliseconds = 1000;
 }

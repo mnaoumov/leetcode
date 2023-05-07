@@ -11,7 +11,7 @@ public abstract class TestCaseBase
     [JsonIgnore]
     public Exception? JsonParsingException { get; init; }
 
-    public const int DefaultTimeoutInMilliseconds = 200;
+    private const int DefaultTimeoutInMilliseconds = 200;
 
     public int TimeoutInMilliseconds { get; [UsedImplicitly] init; } = DefaultTimeoutInMilliseconds;
 

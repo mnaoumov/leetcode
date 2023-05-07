@@ -40,11 +40,13 @@ public partial class JavaScriptTestsBase : TestsBase
             throw new InvalidOperationException("TestRunner.js is missing");
         }
 
-        if (Debugger.IsAttached)
+        if (!Debugger.IsAttached)
         {
-            StaticNodeJSService.Configure<NodeJSProcessOptions>(options => options.NodeAndV8Options = "--inspect-brk");
-            StaticNodeJSService.Configure<OutOfProcessNodeJSServiceOptions>(options => options.TimeoutMS = -1);
+            return;
         }
+
+        StaticNodeJSService.Configure<NodeJSProcessOptions>(options => options.NodeAndV8Options = "--inspect-brk");
+        StaticNodeJSService.Configure<OutOfProcessNodeJSServiceOptions>(options => options.TimeoutMS = -1);
     }
 
     private static JavaScriptTestCase GetTestCase(string testCaseScriptPath)

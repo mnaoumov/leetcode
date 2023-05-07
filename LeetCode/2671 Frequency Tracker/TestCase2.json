@@ -1,0 +1,5 @@
+{
+    "commands": ["FrequencyTracker", "add", "deleteOne", "hasFrequency"],
+    "parameters": [[], [1], [1], [1]],
+    "output": [null, null, null, false]
+}

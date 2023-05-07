@@ -34,7 +34,8 @@ module.exports = async (solutionFilePath, testCaseFilePath, testsFilePath) => {
     const actualResultJson = toJson(actualResult);
     const expectedResultJson = toJson(testCase.output);
 
-    if (actualResultJson !== expectedResultJson) {
-        throw `Actual: ${actualResultJson}\nExpected: ${expectedResultJson}`;
-    }
+    return {
+        actualResultJson,
+        expectedResultJson
+    };
 };

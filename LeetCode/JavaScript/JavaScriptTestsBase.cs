@@ -113,9 +113,13 @@ public partial class JavaScriptTestsBase : TestsBase
 
     protected static async Task RunJavaScriptTestAsync(string solutionScriptPath, JavaScriptTestCase testCase, string testsScriptPath)
     {
-        await StaticNodeJSService.InvokeFromFileAsync(TestRunnerScriptPath, args: new object?[]
-        {
-            solutionScriptPath, testCase.TestCaseScriptPath, testsScriptPath
-        });
+        var result = (await StaticNodeJSService.InvokeFromFileAsync<JavaScriptTestResult>(TestRunnerScriptPath,
+            args: new object?[]
+            {
+                solutionScriptPath, testCase.TestCaseScriptPath, testsScriptPath
+            }))!;
+        StaticNodeJSService.DisposeServiceProvider();
+
+        Assert.That(result.ActualResultJson, Is.EqualTo(result.ExpectedResultJson));
     }
 }

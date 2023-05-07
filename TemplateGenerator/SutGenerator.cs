@@ -49,12 +49,11 @@ internal partial class SutGenerator : GeneratorBase
             OutputStr = match.Groups[3].Value
         }).ToArray();
 
-        var sutClassName = ClassNameRegex().Match(sutClassDefinition).Groups[1].Value;
-        InterfaceName = $"I{sutClassName}";
-        ClassName = $"{sutClassName}1";
+        ClassName = ClassNameRegex().Match(sutClassDefinition).Groups[1].Value;
+        InterfaceName = $"I{ClassName}";
         Methods = MethodsRegex().Matches(sutClassDefinition).Select(m => m.Groups[1].Value)
             .ToArray();
-        var constructor = Methods.First(m => m.Contains($"public {sutClassName}"));
+        var constructor = Methods.First(m => m.Contains($"public {ClassName}"));
         Methods = Methods.Except(new[] { constructor }).ToArray();
         ConstructorArgumentsStr = ConstructorArgumentsRegex().Match(constructor).Groups[1].Value;
         ConstructorArgumentNamesStr = string.Join(", ",
@@ -70,30 +69,6 @@ internal partial class SutGenerator : GeneratorBase
             {
             {{~ for method in Methods ~}}
                 {{ method }};
-            {{~ end ~}}
-            }
-            """);
-
-        GenerateFile($"{ClassName}.cs", """
-            using JetBrains.Annotations;
-
-            {{ Namespace }}
-
-            /// <summary>
-            /// TODO url
-            /// </summary>
-            public class {{ ClassName }} : {{ InterfaceName }}
-            {
-                public {{ ClassName }}({{ ConstructorArgumentsStr }})
-                {
-                    throw new NotImplementedException();
-                }
-            {{~ for method in Methods ~}}
-
-                {{ method }}
-                {
-                    throw new NotImplementedException();
-                }
             {{~ end ~}}
             }
             """);
@@ -118,9 +93,25 @@ internal partial class SutGenerator : GeneratorBase
             /// <summary>
             /// TODO url
             /// </summary>
+            [UsedImplicitly]
             public class Solution1
             {
                 public {{ InterfaceName }} Create({{ ConstructorArgumentsStr }}) => new {{ ClassName }}({{ ConstructorArgumentNamesStr }});
+
+                private class {{ ClassName }} : {{ InterfaceName }}
+                {
+                    public {{ ClassName }}({{ ConstructorArgumentsStr }})
+                    {
+                        throw new NotImplementedException();
+                    }
+                {{~ for method in Methods ~}}
+                
+                    {{ method }}
+                    {
+                        throw new NotImplementedException();
+                    }
+                {{~ end ~}}
+                }
             }
             """);
 

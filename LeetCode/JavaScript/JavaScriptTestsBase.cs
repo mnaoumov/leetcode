@@ -113,6 +113,11 @@ public partial class JavaScriptTestsBase : TestsBase
 
     protected static async Task RunJavaScriptTestAsync(string solutionScriptPath, JavaScriptTestCase testCase, string testsScriptPath)
     {
+        if (Debugger.IsAttached)
+        {
+            Process.Start("cmd.exe", new[] { "/c", $@"{Directory.GetCurrentDirectory()}\JavaScript\Debugger.html" });
+        }
+
         var result = (await StaticNodeJSService.InvokeFromFileAsync<JavaScriptTestResult>(TestRunnerScriptPath,
             args: new object?[]
             {

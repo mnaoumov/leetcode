@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Debugger</title>
+    <style>
+        .link {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <p>To debug please manually open <span class="link">chrome://inspect</span> and click <strong>Open dedicated DevTools for Node</strong></p>
+
+<script>
+    document.getElementsByClassName('link')[0].addEventListener('click', async () => {
+        await navigator.clipboard.writeText('chrome://inspect');
+        alert('Redirect to special link is not allowed. The URL is copied to the clipboard. Please paste it to the address bar manually');
+    });
+</script>
+</body>
+</html>

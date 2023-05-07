@@ -44,7 +44,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="JavaScript\" />
+    <None Update="JavaScript\Debugger.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
   <Target Name="GatherJsonAnalyzers">

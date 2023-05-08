@@ -1,9 +1,17 @@
 const fakeTimers = require("@sinonjs/fake-timers");
 const clock = fakeTimers.install();
 
-const jsonFriendlyErrorReplacer = (_, value) => {
+const toJson = (obj) => JSON.stringify(obj, (_, value) => {
+    if (value === undefined) {
+        return "<undefined>";
+    }
+
+    if (value === null) {
+        return null;
+    }
+
     if (value instanceof Error) {
-        return {
+        value = {
             ...value,
             name: value.name,
             message: value.message,
@@ -11,10 +19,18 @@ const jsonFriendlyErrorReplacer = (_, value) => {
         };
     }
 
-    return value;
-}
+    if (typeof value === "object" && !Array.isArray(value)) {
+        const sortedKeys = Object.keys(value).sort();
+        const value2 = {};
+        for (const key of sortedKeys) {
+            value2[key] = value[key];
+        }
 
-const toJson = (obj) => JSON.stringify(obj, jsonFriendlyErrorReplacer);
+        value = value2;
+    }
+
+    return value;
+});
 
 module.exports = async (solutionFilePath, testCaseFilePath, testsFilePath) => {
     let actualResult;

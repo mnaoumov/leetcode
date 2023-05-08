@@ -118,13 +118,19 @@ public partial class JavaScriptTestsBase : TestsBase
             Process.Start("cmd.exe", new[] { "/c", $@"{Directory.GetCurrentDirectory()}\JavaScript\Debugger.html" });
         }
 
-        var result = (await StaticNodeJSService.InvokeFromFileAsync<JavaScriptTestResult>(TestRunnerScriptPath,
-            args: new object?[]
-            {
-                solutionScriptPath, testCase.TestCaseScriptPath, testsScriptPath
-            }))!;
-        StaticNodeJSService.DisposeServiceProvider();
+        try
+        {
+            var result = (await StaticNodeJSService.InvokeFromFileAsync<JavaScriptTestResult>(TestRunnerScriptPath,
+                args: new object?[]
+                {
+                    solutionScriptPath, testCase.TestCaseScriptPath, testsScriptPath
+                }))!;
 
-        Assert.That(result.ActualResultJson, Is.EqualTo(result.ExpectedResultJson));
+            Assert.That(result.ActualResultJson, Is.EqualTo(result.ExpectedResultJson).NoClip);
+        }
+        finally
+        {
+            StaticNodeJSService.DisposeServiceProvider();
+        }
     }
 }

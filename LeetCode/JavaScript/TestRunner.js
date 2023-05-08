@@ -17,23 +17,29 @@ const jsonFriendlyErrorReplacer = (_, value) => {
 const toJson = (obj) => JSON.stringify(obj, jsonFriendlyErrorReplacer);
 
 module.exports = async (solutionFilePath, testCaseFilePath, testsFilePath) => {
-    const solution = require(solutionFilePath);
-    const testCase = require(testCaseFilePath);
-    const test = require(testsFilePath);
-
-    const actualResultPromise = Promise.resolve().then(() => test(solution, testCase));
-    await clock.runAllAsync();
-
     let actualResult;
+    let output = null;
 
     try {
+        const testCase = require(testCaseFilePath);
+        output = testCase.output;
+
+        const solution = require(solutionFilePath);
+        const test = require(testsFilePath);
+
+        let error = null;
+        const actualResultPromise = Promise.resolve().then(() => test(solution, testCase)).catch((e) => error = e);
+        await clock.runAllAsync().catch((e) => error = e);
         actualResult = await actualResultPromise;
+        if (error !== null) {
+            actualResult = error;
+        }
     } catch (e) {
         actualResult = e;
     }
 
     const actualResultJson = toJson(actualResult);
-    const expectedResultJson = toJson(testCase.output);
+    const expectedResultJson = toJson(output);
 
     return {
         actualResultJson,

@@ -1,0 +1,21 @@
+using NUnit.Framework;
+using JetBrains.Annotations;
+
+namespace LeetCode._0286_Walls_and_Gates;
+
+[UsedImplicitly]
+public class Tests : TestsBase<ISolution, Tests.TestCase>
+{
+    protected override void TestImpl(ISolution solution, TestCase testCase)
+    {
+        var rooms = ArrayHelper.DeepCopy(testCase.Rooms);
+        solution.WallsAndGates(rooms);
+        AssertCollectionEqualWithDetails(rooms, testCase.Output);
+    }
+
+    public class TestCase : TestCaseBase
+    {
+        public int[][] Rooms { get; [UsedImplicitly] init; } = null!;
+        public int[][] Output { get; [UsedImplicitly] init; } = null!;
+    }
+}

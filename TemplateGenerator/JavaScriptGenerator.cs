@@ -13,7 +13,7 @@ internal partial class JavaScriptGenerator : GeneratorBase
     public string SolutionTemplate { get; private set; } = null!;
 
     [UsedImplicitly]
-    public JObject Example { get; private set; } = null!;
+    public string ExampleJson { get; private set; } = null!;
 
     public override bool CanGenerate() => Signature == "JS";
 
@@ -22,12 +22,24 @@ internal partial class JavaScriptGenerator : GeneratorBase
         SolutionTemplate = ConsoleHelper.ReadMultiline("Solution template");
         var examplesStr = ConsoleHelper.ReadMultiline("Examples");
 
-        var examples = ExamplesRegex().Matches(examplesStr).Select(match =>
+        var exampleJsons = ExamplesRegex().Matches(examplesStr).Select(match =>
         {
             var input = match.Groups["Input"].Value.Replace(" = ", ": ");
             var output = match.Groups["Output"].Value;
-            var json = $"{{ {input}, output: {output} }}";
-            return JObject.Parse(json);
+            var json = $$"""
+                {
+                    {{input}},
+                    output: {{output}}
+                }
+                """;
+            try
+            {
+                return NoIndentArrayJsonTextWriter.Indent(JObject.Parse(json));
+            }
+            catch
+            {
+                return json;
+            }
         }).ToArray();
 
         GenerateFile("Solution1.js", """
@@ -57,12 +69,12 @@ internal partial class JavaScriptGenerator : GeneratorBase
 
         var testCaseCounter = 0;
 
-        foreach (var example in examples)
+        foreach (var exampleJson in exampleJsons)
         {
             testCaseCounter++;
-            Example = example;
+            ExampleJson = exampleJson;
 
-            GenerateFile($"TestCase{testCaseCounter}.js", $"module.exports = {NoIndentArrayJsonTextWriter.Indent(example)};");
+            GenerateFile($"TestCase{testCaseCounter}.js", $"module.exports = {exampleJson};");
         }
     }
 }

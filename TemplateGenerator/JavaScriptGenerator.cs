@@ -1,18 +1,19 @@
 using System.Text.RegularExpressions;
 using JetBrains.Annotations;
+using Newtonsoft.Json.Linq;
 
 namespace TemplateGenerator;
 
 internal partial class JavaScriptGenerator : GeneratorBase
 {
-    [GeneratedRegex(@"\r\nInput\:?(?: |\r\n)((?:.|\r\n)+?)\r\nOutput\:?(?: |\r\n)(.+?)(?:\r\n|$)")]
+    [GeneratedRegex(@"\r\nInput\:?(?: |\r\n)(?<Input>(?:.|\r\n)+?)\r\nOutput\:?(?: |\r\n)(?<Output>.+?)(?:\r\n|$)")]
     private static partial Regex ExamplesRegex();
 
     [UsedImplicitly]
     public string SolutionTemplate { get; private set; } = null!;
 
     [UsedImplicitly]
-    public JavaScriptExample Example { get; private set; } = null!;
+    public JObject Example { get; private set; } = null!;
 
     public override bool CanGenerate() => Signature == "JS";
 
@@ -21,10 +22,12 @@ internal partial class JavaScriptGenerator : GeneratorBase
         SolutionTemplate = ConsoleHelper.ReadMultiline("Solution template");
         var examplesStr = ConsoleHelper.ReadMultiline("Examples");
 
-        var examples = ExamplesRegex().Matches(examplesStr).Select(match => new JavaScriptExample
+        var examples = ExamplesRegex().Matches(examplesStr).Select(match =>
         {
-            InputStr = match.Groups[1].Value,
-            OutputStr = match.Groups[2].Value
+            var input = match.Groups["Input"].Value.Replace(" = ", ": ");
+            var output = match.Groups["Output"].Value;
+            var json = $"{{ {input}, output: {output} }}";
+            return JObject.Parse(json);
         }).ToArray();
 
         GenerateFile("Solution1.js", """
@@ -59,21 +62,7 @@ internal partial class JavaScriptGenerator : GeneratorBase
             testCaseCounter++;
             Example = example;
 
-            GenerateFile($"TestCase{testCaseCounter}.js", """
-            module.exports = {
-                {{ Example.InputStr }}
-                output: {{ Example.OutputStr }}
-            };
-            """);
+            GenerateFile($"TestCase{testCaseCounter}.js", $"module.exports = {NoIndentArrayJsonTextWriter.Indent(example)};");
         }
-    }
-
-    internal class JavaScriptExample
-    {
-        [UsedImplicitly]
-        public string InputStr { get; init; } = null!;
-
-        [UsedImplicitly]
-        public string OutputStr { get; init; } = null!;
     }
 }

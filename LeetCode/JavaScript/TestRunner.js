@@ -1,7 +1,5 @@
-const FakeTimers = require("@sinonjs/fake-timers");
-FakeTimers.install({
-    shouldAdvanceTime: true
-});
+const fakeTimers = require("@sinonjs/fake-timers");
+const clock = fakeTimers.install();
 
 const jsonFriendlyErrorReplacer = (_, value) => {
     if (value instanceof Error) {
@@ -23,10 +21,13 @@ module.exports = async (solutionFilePath, testCaseFilePath, testsFilePath) => {
     const testCase = require(testCaseFilePath);
     const test = require(testsFilePath);
 
+    const actualResultPromise = Promise.resolve().then(() => test(solution, testCase));
+    await clock.runAllAsync();
+
     let actualResult;
-    
+
     try {
-        actualResult = await test(solution, testCase);
+        actualResult = await actualResultPromise;
     } catch (e) {
         actualResult = e;
     }

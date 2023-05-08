@@ -328,6 +328,7 @@
 	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/RecentSearch/=202302271448064786/SearchPattern/@EntryValue">TreeNode.Create($x$)!</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/StructuralSearch/RecentSearch/=202302271448064786/ShortenReferences/@EntryValue">False</s:Boolean>
 	<s:String x:Key="/Default/Profiling/Configurations/=2/@EntryIndexedValue">&lt;data&gt;&lt;HostParameters type="LocalHostParameters" /&gt;&lt;Argument type="StandaloneArgument"&gt;&lt;Arguments IsNull="False"&gt;&lt;/Arguments&gt;&lt;FileName IsNull="False"&gt;&lt;/FileName&gt;&lt;WorkingDirectory IsNull="False"&gt;&lt;/WorkingDirectory&gt;&lt;Scope&gt;&lt;ProcessFilters /&gt;&lt;/Scope&gt;&lt;/Argument&gt;&lt;Info type="TimelineInfo" /&gt;&lt;CoreOptions type="CoreOptions"&gt;&lt;CoreTempPath IsNull="False"&gt;&lt;/CoreTempPath&gt;&lt;RemoteEndPoint IsNull="False"&gt;&lt;/RemoteEndPoint&gt;&lt;AdditionalEnvironmentVariables&gt;&lt;Item&gt;&lt;Key&gt;RESHARPER_HOST_VERSION&lt;/Key&gt;&lt;Value&gt;231.0.20230421.92748&lt;/Value&gt;&lt;/Item&gt;&lt;Item&gt;&lt;Key&gt;RESHARPER_TESTRUNNER&lt;/Key&gt;&lt;Value&gt;Profile&lt;/Value&gt;&lt;/Item&gt;&lt;Item&gt;&lt;Key&gt;RESHARPER_HOST&lt;/Key&gt;&lt;Value&gt;ReSharperPlatformVs17&lt;/Value&gt;&lt;/Item&gt;&lt;/AdditionalEnvironmentVariables&gt;&lt;/CoreOptions&gt;&lt;HostOptions type="HostOptions"&gt;&lt;HostTempPath IsNull="False"&gt;&lt;/HostTempPath&gt;&lt;ReprofileDisableReason&gt;LaunchedByReSharperUnitTestRunner&lt;/ReprofileDisableReason&gt;&lt;/HostOptions&gt;&lt;/data&gt;</s:String>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=accum/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Arith/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=atoi/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Bipartition/@EntryIndexedValue">True</s:Boolean>
@@ -336,6 +337,7 @@
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Conc/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Consec/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Coprime/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=curr/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=deadends/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Decodings/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=deser/@EntryIndexedValue">True</s:Boolean>

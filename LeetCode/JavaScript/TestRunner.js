@@ -28,8 +28,10 @@ module.exports = async (solutionFilePath, testCaseFilePath, testsFilePath) => {
         const test = require(testsFilePath);
 
         let error = null;
-        const actualResultPromise = Promise.resolve().then(() => test(solution, testCase)).catch((e) => error = e);
-        await clock.runAllAsync().catch((e) => error = e);
+// ReSharper disable once AssignedValueIsNeverUsed
+        const actualResultPromise = Promise.resolve().then(() => test(solution, testCase)).catch((e2) => error = e2);
+// ReSharper disable once AssignedValueIsNeverUsed
+        await clock.runAllAsync().catch((e2) => error = e2);
         actualResult = await actualResultPromise;
         if (error !== null) {
             actualResult = error;

@@ -5,7 +5,7 @@ namespace TemplateGenerator;
 
 internal partial class JavaScriptGenerator : GeneratorBase
 {
-    [GeneratedRegex(@"\r\nInput:(?: |\r\n)((?:.|\r\n)+?)\r\nOutput: (.+?)(\r\n|$)")]
+    [GeneratedRegex(@"\r\nInput\:?(?: |\r\n)((?:.|\r\n)+?)\r\nOutput\:?(?: |\r\n)(.+?)(?:\r\n|$)")]
     private static partial Regex ExamplesRegex();
 
     [UsedImplicitly]
@@ -31,6 +31,8 @@ internal partial class JavaScriptGenerator : GeneratorBase
             // TODO url
 
             {{ SolutionTemplate }}
+
+            module.exports = TODO;
             """);
 
         GenerateFile("Tests.cs", """
@@ -45,7 +47,8 @@ internal partial class JavaScriptGenerator : GeneratorBase
             """);
 
         GenerateFile("Tests.js", """
-            const testFn = () => {
+            module.exports = async (solution, testCase) => {
+                return TODO;
             };
             """);
 
@@ -57,8 +60,10 @@ internal partial class JavaScriptGenerator : GeneratorBase
             Example = example;
 
             GenerateFile($"TestCase{testCaseCounter}.js", """
-            {{ Example.InputStr }}
-            const output = {{ Example.OutputStr }};
+            module.exports = {
+                {{ Example.InputStr }}
+                output: {{ Example.OutputStr }}
+            };
             """);
         }
     }

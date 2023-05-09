@@ -1,0 +1,4 @@
+{
+  "root": [11,99,88,77,null,null,66,55,null,null,44,33,null,null,22],
+  "output": [77,55,33,66,44,22]
+}

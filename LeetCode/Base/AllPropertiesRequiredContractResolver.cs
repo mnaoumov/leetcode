@@ -20,7 +20,7 @@ internal class AllPropertiesRequiredContractResolver : DefaultContractResolver
 
         if (member.DeclaringType == TestCaseType && !member.GetCustomAttributes(typeof(JsonPropertyAttribute)).Any())
         {
-            property.Required = Required.Always;
+            property.Required = Required.AllowNull;
         }
 
         return property;

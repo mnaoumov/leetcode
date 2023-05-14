@@ -1,0 +1,5 @@
+{
+    "commands": ["Solution","pickIndex","pickIndex","pickIndex","pickIndex","pickIndex"],
+    "parameters": [[[1,3]],[],[],[],[],[]],
+    "output": [null,{"isAnyOf": [0, 1]},{"isAnyOf": [0, 1]},{"isAnyOf": [0, 1]},{"isAnyOf": [0, 1]},{"isAnyOf": [0, 1]}]
+}

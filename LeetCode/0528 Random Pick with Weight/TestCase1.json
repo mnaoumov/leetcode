@@ -1,0 +1,5 @@
+{
+    "commands": ["Solution","pickIndex"],
+    "parameters": [[[1]],[]],
+    "output": [null,0]
+}

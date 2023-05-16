@@ -33,27 +33,31 @@ const toJson = (obj) => JSON.stringify(obj, (_, value) => {
 });
 
 module.exports = async (solutionFilePath, testCaseFilePath, testsFilePath) => {
-    let actualResult;
+    let actualResult = null;
     let output = null;
+    const errors = [];
 
     try {
+
+        // ReSharper disable once UseOfImplicitGlobalInFunctionScope
+        process.on("unhandledRejection", e2 => errors.push(e2));
+
         const testCase = require(testCaseFilePath);
+        // ReSharper disable once PossiblyUnassignedProperty
         output = testCase.output;
 
         const solution = require(solutionFilePath);
         const test = require(testsFilePath);
 
-        let error = null;
-// ReSharper disable once AssignedValueIsNeverUsed
-        const actualResultPromise = Promise.resolve().then(() => test(solution, testCase)).catch((e2) => error = e2);
-// ReSharper disable once AssignedValueIsNeverUsed
-        await clock.runAllAsync().catch((e2) => error = e2);
+        const actualResultPromise = (async () => await test(solution, testCase))();
+        await clock.runAllAsync();
         actualResult = await actualResultPromise;
-        if (error !== null) {
-            actualResult = error;
-        }
     } catch (e) {
-        actualResult = e;
+        errors.push(e);
+    }
+
+    if (errors.length > 0) {
+        actualResult = errors;
     }
 
     const actualResultJson = toJson(actualResult);

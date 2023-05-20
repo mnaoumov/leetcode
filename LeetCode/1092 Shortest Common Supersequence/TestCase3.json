@@ -1,0 +1,5 @@
+{
+  "str1": "bbbaaaba",
+  "str2": "bbababbb",
+  "output": "bbabaaababb"
+}

@@ -1,0 +1,5 @@
+{
+  "str1": "abac",
+  "str2": "cab",
+  "output": "cabac"
+}

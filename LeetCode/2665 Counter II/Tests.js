@@ -5,7 +5,7 @@ module.exports = async (solution, testCase) => {
     const ans = [];
 
     for (const call of testCase.calls) {
-        ans.push(counter[call]())
+        ans.push(counter[call]());
     }
 
     return ans;

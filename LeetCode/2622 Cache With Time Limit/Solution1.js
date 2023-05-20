@@ -1,5 +1,6 @@
 // https://leetcode.com/submissions/detail/946288918/
 
+// ReSharper disable once InconsistentNaming
 var TimeLimitedCache = function() {
     this.valuesMap = new Map();
     this.timeoutsMap = new Map();

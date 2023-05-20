@@ -1,5 +1,6 @@
 // https://leetcode.com/submissions/detail/945748120/
 
+// ReSharper disable once InconsistentNaming
 class Counter {
     constructor(init) {
         this.init = init;

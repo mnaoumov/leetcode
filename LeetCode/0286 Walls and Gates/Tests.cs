@@ -1,4 +1,3 @@
-using NUnit.Framework;
 using JetBrains.Annotations;
 
 namespace LeetCode._0286_Walls_and_Gates;

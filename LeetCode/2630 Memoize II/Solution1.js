@@ -12,7 +12,7 @@ function memoize(fn) {
             if (cachedFuncArgs.length !== args.length) {
                 continue;
             }
-
+            // ReSharper disable once PossiblyUnassignedProperty
             if (Array.from(cachedFuncArgs.keys()).every(i => cachedFuncArgs[i] === args[i])) {
                 return cache.get(cachedFuncArgs);
             }

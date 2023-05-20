@@ -5,7 +5,6 @@
  * @return {string}
  */
 var jsonStringify = function(object) {
-    debugger;
     if (object === null) {
         return "null";
     }
@@ -16,6 +15,7 @@ var jsonStringify = function(object) {
 
     const type = typeof object;
 
+        // ReSharper disable once PossiblyUnassignedProperty
     if (["number", "boolean"].includes(type)) {
         return object.toString();
     }
@@ -25,6 +25,7 @@ var jsonStringify = function(object) {
     }
 
     if (Array.isArray(object)) {
+        // ReSharper disable once PossiblyUnassignedProperty
         return `[${object.map(item => jsonStringify(item)).join(",")}]`;
     }
 

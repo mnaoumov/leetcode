@@ -10,14 +10,12 @@ public class Solution1 : ISolution
 {
     public int MinCameraCover(TreeNode root)
     {
-        var impossible = 10000;
+        const int impossible = 10000;
 
         var dp = new DynamicProgramming<TreeNode, (int coverChildrenNoSelf, int coverSelfWithChildrenNoCamera, int coverSelfWithChildrenWithCamera)>((node, recursiveFunc) =>
         {
-#pragma warning disable IDE0042
             var left = ProcessChild(node.left);
             var right = ProcessChild(node.right);
-#pragma warning restore IDE0042
             var leftCovered = Math.Min(left.coverSelfWithChildrenWithCamera, left.coverSelfWithChildrenNoCamera);
             var rightCovered = Math.Min(right.coverSelfWithChildrenWithCamera, right.coverSelfWithChildrenNoCamera);
             var leftAny = Math.Min(left.coverChildrenNoSelf, leftCovered);

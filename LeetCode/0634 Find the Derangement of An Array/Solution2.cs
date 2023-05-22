@@ -18,7 +18,7 @@ public class Solution2 : ISolution
             {
                 0 => 1,
                 1 => 0,
-                _ => (int) ((1L * (m - 1) * (recursiveFunc(m - 2) + recursiveFunc(m - 1))) % modulo)
+                _ => (int) (1L * (m - 1) * (recursiveFunc(m - 2) + recursiveFunc(m - 1)) % modulo)
             };
         });
 

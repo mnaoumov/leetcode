@@ -1,0 +1,6 @@
+{
+  "sentence": ["hello","world"],
+  "rows": 2,
+  "cols": 8,
+  "output": 1
+}

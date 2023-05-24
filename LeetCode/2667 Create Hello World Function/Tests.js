@@ -1,5 +1,4 @@
-module.exports = async (solution, testCase) => {
-    const createHelloWorld = solution;
+module.exports = async (createHelloWorld, testCase) => {
     /**
      * @type {function}
      */

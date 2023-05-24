@@ -1,5 +1,4 @@
-module.exports = async (solution, testCase) => {
-    const debounce = solution;
+module.exports = async (debounce, testCase) => {
     const ans = [];
     const start = Date.now();
     function log(...inputs) {

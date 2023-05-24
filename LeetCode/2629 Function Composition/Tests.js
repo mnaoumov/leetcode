@@ -1,4 +1,1 @@
-module.exports = async (solution, testCase) => {
-    const compose = solution;
-    return compose(testCase.functions)(testCase.x);
-};
+module.exports = async (compose, testCase) => compose(testCase.functions)(testCase.x);

@@ -24,8 +24,7 @@ const funcs = {
     factorial
 };
 
-module.exports = async (solution, testCase) => {
-    const memoize = solution;
+module.exports = async (memoize, testCase) => {
     const func = funcs[testCase.funcName];
 
     let callCount = 0;

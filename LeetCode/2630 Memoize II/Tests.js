@@ -1,5 +1,4 @@
-module.exports = async (solution, testCase) => {
-    const memoize = solution;
+module.exports = async (memoize, testCase) => {
     const inputs = testCase.getInputs();
     let callCount = 0;
     const memoized = memoize((...args) => {

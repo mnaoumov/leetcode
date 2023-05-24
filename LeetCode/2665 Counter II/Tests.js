@@ -1,5 +1,4 @@
-module.exports = async (solution, testCase) => {
-    const createCounter = solution;
+module.exports = async (createCounter, testCase) => {
     const counter = createCounter(testCase.init);
 
     const ans = [];

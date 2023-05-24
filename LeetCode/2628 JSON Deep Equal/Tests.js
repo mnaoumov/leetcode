@@ -1,4 +1,1 @@
-module.exports = async (solution, testCase) => {
-    const areDeeplyEqual = solution;
-    return areDeeplyEqual(testCase.o1, testCase.o2);
-};
+module.exports = async (areDeeplyEqual, testCase) => areDeeplyEqual(testCase.o1, testCase.o2);

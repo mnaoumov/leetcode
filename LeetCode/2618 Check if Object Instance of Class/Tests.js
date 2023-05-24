@@ -1,4 +1,1 @@
-module.exports = async (solution, testCase) => {
-    const checkIfInstanceOf = solution;
-    return checkIfInstanceOf(testCase.obj, testCase.classFunction);
-};
+module.exports = async (checkIfInstanceOf, testCase) => checkIfInstanceOf(testCase.obj, testCase.classFunction);

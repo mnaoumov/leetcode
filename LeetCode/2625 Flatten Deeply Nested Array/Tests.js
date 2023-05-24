@@ -1,4 +1,1 @@
-module.exports = async (solution, testCase) => {
-    const flat = solution;
-    return flat(testCase.arr, testCase.n);
-};
+module.exports = async (flat, testCase) => flat(testCase.arr, testCase.n);

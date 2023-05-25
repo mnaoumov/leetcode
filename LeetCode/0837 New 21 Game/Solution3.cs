@@ -3,11 +3,9 @@ using JetBrains.Annotations;
 namespace LeetCode._0837_New_21_Game;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/956812518/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
-public class Solution1 : ISolution
+public class Solution3 : ISolution
 {
     public double New21Game(int n, int k, int maxPts)
     {
@@ -20,20 +18,14 @@ public class Solution1 : ISolution
 
             if (points >= k)
             {
-                return 1;
+                return n - points + 1;
             }
 
-            var ans = 0.0;
-
-            for (var i = 1; i <= maxPts; i++)
-            {
-                ans += 1.0 / maxPts * recursiveFunc(points + i);
-            }
-
-            return ans;
+            return recursiveFunc(points + 1) +
+                   (recursiveFunc(points + 1) - recursiveFunc(points + maxPts + 1)) / maxPts;
         });
 
-        return dp.GetOrCalculate(0);
+        return dp.GetOrCalculate(0) - dp.GetOrCalculate(1);
     }
 
     private class DynamicProgramming<TKey, TValue> where TKey : notnull

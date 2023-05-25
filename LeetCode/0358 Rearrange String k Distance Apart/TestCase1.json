@@ -1,0 +1,5 @@
+{
+  "s": "aabbcc",
+  "k": 3,
+  "output": "abcabc"
+}

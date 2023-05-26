@@ -6,6 +6,7 @@
  */
 var cancellable = function(generator) {
     let isCancelled = false;
+    // ReSharper disable once AssignedValueIsNeverUsed
     const cancel = () => isCancelled = true;
     const promise = (async () => {
         let done;

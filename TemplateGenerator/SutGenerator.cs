@@ -14,7 +14,7 @@ internal partial class SutGenerator : GeneratorBase
     [GeneratedRegex(@"\((.*)\)")]
     private static partial Regex ConstructorArgumentsRegex();
 
-    [GeneratedRegex(@"\r\nInput\r\n(.+?)\r\n(.+?)\r\nOutput\r\n(.+?)\r\n")]
+    [GeneratedRegex(@"\r\nInput\:?\r\n(?<Input>.+?)\r\n(?<Parameters>.+?)(\r\n)+Output\:?\r\n(?<Output>.+?)\r\n")]
     private static partial Regex ExamplesRegex();
 
     [UsedImplicitly]
@@ -44,9 +44,9 @@ internal partial class SutGenerator : GeneratorBase
 
         var examples = ExamplesRegex().Matches(examplesStr).Select(match => new SutExample
         {
-            CommandsStr = match.Groups[1].Value,
-            ParametersStr = match.Groups[2].Value,
-            OutputStr = match.Groups[3].Value
+            CommandsStr = match.Groups["Input"].Value,
+            ParametersStr = match.Groups["Parameters"].Value,
+            OutputStr = match.Groups["Output"].Value
         }).ToArray();
 
         ClassName = ClassNameRegex().Match(sutClassDefinition).Groups[1].Value;

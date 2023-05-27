@@ -1,0 +1,5 @@
+{
+  "commands": ["UndergroundSystem","checkIn","checkOut","getAverageTime","checkIn","checkOut","getAverageTime","checkIn","checkOut","getAverageTime"],
+  "parameters": [[],[10,"Leyton",3],[10,"Paradise",8],["Leyton","Paradise"],[5,"Leyton",10],[5,"Paradise",16],["Leyton","Paradise"],[2,"Leyton",21],[2,"Paradise",30],["Leyton","Paradise"]],
+  "output": [null,null,null,5.00000,null,null,5.50000,null,null,6.66667]
+}

@@ -94,7 +94,7 @@ internal partial class SutGenerator : GeneratorBase
             /// TODO url
             /// </summary>
             [UsedImplicitly]
-            public class Solution1
+            public class Solution1 : ISolution
             {
                 public {{ InterfaceName }} Create({{ ConstructorArgumentsStr }}) => new {{ ClassName }}({{ ConstructorArgumentNamesStr }});
 

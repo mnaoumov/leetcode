@@ -14,7 +14,7 @@ internal partial class SutGenerator : GeneratorBase
     [GeneratedRegex(@"\((.*)\)")]
     private static partial Regex ConstructorArgumentsRegex();
 
-    [GeneratedRegex(@"\r\nInput\:?\r\n(?<Input>.+?)\r\n(?<Parameters>.+?)(\r\n)+Output\:?\r\n(?<Output>.+?)\r\n")]
+    [GeneratedRegex(@"(?m)^Input\:?\r\n(?<Input>.+?)\r\n(?<Parameters>.+?)(\r\n)+Output\:?\r\n(?<Output>.+?)$")]
     private static partial Regex ExamplesRegex();
 
     [UsedImplicitly]

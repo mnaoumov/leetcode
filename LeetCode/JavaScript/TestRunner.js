@@ -53,7 +53,7 @@ module.exports = async (solutionFilePath, testCaseFilePath, testsFilePath, debug
                 debugger;
             }
 
-            await test(solution, testCase);
+            return await test(solution, testCase);
         })();
         await clock.runAllAsync();
         actualResult = await actualResultPromise;

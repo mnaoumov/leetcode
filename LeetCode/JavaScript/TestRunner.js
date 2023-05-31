@@ -32,13 +32,12 @@ const toJson = (obj) => JSON.stringify(obj, (_, value) => {
     return value;
 });
 
-module.exports = async (solutionFilePath, testCaseFilePath, testsFilePath) => {
+module.exports = async (solutionFilePath, testCaseFilePath, testsFilePath, debug) => {
     let actualResult = null;
     let output = null;
     const errors = [];
 
     try {
-
         // ReSharper disable once UseOfImplicitGlobalInFunctionScope
         process.on("unhandledRejection", e2 => errors.push(e2));
 
@@ -49,7 +48,13 @@ module.exports = async (solutionFilePath, testCaseFilePath, testsFilePath) => {
         const solution = require(solutionFilePath);
         const test = require(testsFilePath);
 
-        const actualResultPromise = (async () => await test(solution, testCase))();
+        const actualResultPromise = (async () => {
+            if (debug) {
+                debugger;
+            }
+
+            await test(solution, testCase);
+        })();
         await clock.runAllAsync();
         actualResult = await actualResultPromise;
     } catch (e) {

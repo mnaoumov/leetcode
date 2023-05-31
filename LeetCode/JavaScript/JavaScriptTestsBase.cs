@@ -123,7 +123,7 @@ public partial class JavaScriptTestsBase : TestsBase
             var result = (await StaticNodeJSService.InvokeFromFileAsync<JavaScriptTestResult>(TestRunnerScriptPath,
                 args: new object?[]
                 {
-                    solutionScriptPath, testCase.TestCaseScriptPath, testsScriptPath
+                    solutionScriptPath, testCase.TestCaseScriptPath, testsScriptPath, Debugger.IsAttached
                 }))!;
 
             Assert.That(result.ActualResultJson, Is.EqualTo(result.ExpectedResultJson).NoClip);

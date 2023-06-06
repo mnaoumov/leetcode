@@ -1,0 +1,5 @@
+{
+    "commands": ["SnapshotArray","set","snap","set","get"],
+    "parameters": [[3],[0,5],[],[0,6],[0,0]],
+    "output": [null,null,0,null,5]
+}

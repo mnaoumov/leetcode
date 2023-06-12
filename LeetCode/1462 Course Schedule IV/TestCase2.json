@@ -1,0 +1,6 @@
+{
+  "numCourses": 2,
+  "prerequisites": [],
+  "queries": [[1,0],[0,1]],
+  "output": [false,false]
+}

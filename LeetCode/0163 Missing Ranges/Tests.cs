@@ -16,6 +16,6 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         public int[] Nums { get; [UsedImplicitly] init; } = null!;
         public int Lower { get; [UsedImplicitly] init; }
         public int Upper { get; [UsedImplicitly] init; }
-        public IList<string> Output { get; [UsedImplicitly] init; } = null!;
+        public IList<IList<int>> Output { get; [UsedImplicitly] init; } = null!;
     }
 }

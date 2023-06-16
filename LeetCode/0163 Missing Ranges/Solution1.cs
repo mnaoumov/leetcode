@@ -4,13 +4,14 @@ namespace LeetCode._0163_Missing_Ranges;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/871317089/
+/// https://leetcode.com/submissions/detail/972352320/
 /// </summary>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {
-    public IList<string> FindMissingRanges(int[] nums, int lower, int upper)
+    public IList<IList<int>> FindMissingRanges(int[] nums, int lower, int upper)
     {
-        var result = new List<string>();
+        var result = new List<IList<int>>();
 
         var rangeStart = lower;
 
@@ -27,13 +28,9 @@ public class Solution1 : ISolution
 
         void ProcessRange(int start, int end)
         {
-            if (start == end)
+            if (end >= start)
             {
-                result.Add($"{start}");
-            }
-            else if (end > start)
-            {
-                result.Add($"{start}->{end}");
+                result.Add(new[] { start, end });
             }
         }
     }

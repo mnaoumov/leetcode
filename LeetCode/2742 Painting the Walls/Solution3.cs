@@ -3,6 +3,7 @@ using JetBrains.Annotations;
 namespace LeetCode._2742_Painting_the_Walls;
 
 /// <summary>
+/// https://leetcode.com/submissions/detail/974160317/
 /// </summary>
 [UsedImplicitly]
 public class Solution3 : ISolution
@@ -10,36 +11,34 @@ public class Solution3 : ISolution
     public int PaintWalls(int[] cost, int[] time)
     {
         var n = cost.Length;
-
-        var dp = new DynamicProgramming<(string unpaintedWallIndicesStr, int freePainterTime), int>((key, recursiveFunc) =>
+        
+        var dp = new DynamicProgramming<(int index, int freePainterTime), int>((key, recursiveFunc) =>
         {
-            var (unpaintedWallIndicesStr, freePainterTime) = key;
-            var unpaintedWallIndices = new SortedSet<int>(unpaintedWallIndicesStr.Split(',', StringSplitOptions.RemoveEmptyEntries)
-                .Select(int.Parse));
+            var (index, paintedCount) = key;
 
-            if (unpaintedWallIndices.Count <= freePainterTime)
+            if (paintedCount >= n)
             {
                 return 0;
             }
 
-            var ans = int.MaxValue;
-
-            var unpaintedWallIndicesCopy = unpaintedWallIndices.ToArray();
-
-            foreach (var paidPainterWallIndex in unpaintedWallIndicesCopy)
+            if (index == n)
             {
-                var paidPainterCost = cost[paidPainterWallIndex];
-                unpaintedWallIndices.Remove(paidPainterWallIndex);
-                ans = Math.Min(ans,
-                    paidPainterCost + recursiveFunc((string.Join(',', unpaintedWallIndices),
-                        freePainterTime + time[paidPainterWallIndex])));
-                unpaintedWallIndices.Add(paidPainterWallIndex);
+                return int.MaxValue;
+            }
+
+            var ans = recursiveFunc((index + 1, paintedCount));
+
+            var next = recursiveFunc((index + 1, paintedCount + time[index] + 1));
+
+            if (next < int.MaxValue)
+            {
+                ans = Math.Min(ans, cost[index] + next);
             }
 
             return ans;
         });
 
-        return dp.GetOrCalculate((string.Join(',', Enumerable.Range(0, n)), 0));
+        return dp.GetOrCalculate((0, 0));
     }
 
     private class DynamicProgramming<TKey, TValue> where TKey : notnull

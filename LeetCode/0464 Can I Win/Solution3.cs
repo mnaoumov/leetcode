@@ -3,17 +3,21 @@ using JetBrains.Annotations;
 namespace LeetCode._0464_Can_I_Win;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/974171577/
+/// https://leetcode.com/submissions/detail/974176745/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution2 : ISolution
+public class Solution3 : ISolution
 {
     public bool CanIWin(int maxChoosableInteger, int desiredTotal)
     {
         if (desiredTotal == 0)
         {
             return true;
+        }
+
+        if (maxChoosableInteger * (maxChoosableInteger + 1) / 2 < desiredTotal)
+        {
+            return false;
         }
 
         var allNumbersMask = (1 << maxChoosableInteger) - 1;

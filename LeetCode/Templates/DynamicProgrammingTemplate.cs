@@ -11,13 +11,15 @@ namespace LeetCode.Templates;
 
 public static class DynamicProgrammingTemplate
 {
-    private static void Sample()
+    private static int Sample()
     {
         var dp = new DynamicProgramming<(int a, int b), int>((key, recursiveFunc) =>
         {
             var (a, b) = key;
             return 0;
         });
+
+        return dp.GetOrCalculate((0, 0));
     }
 
     private class DynamicProgramming<TKey, TValue> where TKey : notnull

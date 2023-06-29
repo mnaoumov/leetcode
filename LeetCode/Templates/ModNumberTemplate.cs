@@ -15,4 +15,3 @@ public static class ModNumberTemplate
             new(modNumber1._value + modNumber2._value);
     }
 }
-

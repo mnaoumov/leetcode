@@ -1,0 +1,6 @@
+{
+  "positions": [3,5,2,6],
+  "healths": [10,10,15,12],
+  "directions": "RLRL",
+  "output": [14]
+}

@@ -1,0 +1,5 @@
+{
+  "nums": [2,3,3,10],
+  "threshold": 18,
+  "output": 2
+}

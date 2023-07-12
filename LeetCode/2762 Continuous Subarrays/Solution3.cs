@@ -3,11 +3,9 @@ using JetBrains.Annotations;
 namespace LeetCode._2762_Continuous_Subarrays;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/985014242/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution2 : ISolution
+public class Solution3 : ISolution
 {
     public long ContinuousSubarrays(int[] nums)
     {

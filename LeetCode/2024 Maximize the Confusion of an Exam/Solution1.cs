@@ -3,7 +3,7 @@ using JetBrains.Annotations;
 namespace LeetCode._2024_Maximize_the_Confusion_of_an_Exam;
 
 /// <summary>
-/// TODO url
+/// leetcode.com/submissions/detail/988723105/
 /// </summary>
 [UsedImplicitly]
 public class Solution1 : ISolution

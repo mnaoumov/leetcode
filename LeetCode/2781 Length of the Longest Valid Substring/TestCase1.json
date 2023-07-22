@@ -1,0 +1,5 @@
+{
+  "word": "cbaaaabc",
+  "forbidden": ["aaa","cb"],
+  "output": 4
+}

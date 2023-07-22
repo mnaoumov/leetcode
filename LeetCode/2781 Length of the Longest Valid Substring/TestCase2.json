@@ -1,0 +1,5 @@
+{
+  "word": "leetcode",
+  "forbidden": ["de","le","e"],
+  "output": 4
+}

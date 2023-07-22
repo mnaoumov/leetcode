@@ -1,0 +1,9 @@
+using JetBrains.Annotations;
+
+namespace LeetCode._2786_Visit_Array_Positions_to_Maximize_Score;
+
+[PublicAPI]
+public interface ISolution
+{
+    public long MaxScore(int[] nums, int x);
+}

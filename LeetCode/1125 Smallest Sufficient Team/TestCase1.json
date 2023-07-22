@@ -1,0 +1,5 @@
+{
+  "req_skills": ["java","nodejs","reactjs"],
+  "people": [["java"],["nodejs"],["nodejs","reactjs"]],
+  "output": [0,2]
+}

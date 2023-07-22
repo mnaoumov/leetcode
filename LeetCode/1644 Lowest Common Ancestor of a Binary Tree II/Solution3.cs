@@ -6,6 +6,7 @@ namespace LeetCode._1644_Lowest_Common_Ancestor_of_a_Binary_Tree_II;
 /// https://leetcode.com/submissions/detail/1001345339/
 /// </summary>
 [UsedImplicitly]
+[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution3 : ISolution
 {
     private readonly Dictionary<(int rootVal, int pVal), bool> _foundCache = new();

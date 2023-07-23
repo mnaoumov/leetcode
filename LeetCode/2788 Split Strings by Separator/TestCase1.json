@@ -1,0 +1,5 @@
+{
+  "words": ["one.two.three","four.five","six"],
+  "separator": ".",
+  "output": ["one","two","three","four","five","six"]
+}

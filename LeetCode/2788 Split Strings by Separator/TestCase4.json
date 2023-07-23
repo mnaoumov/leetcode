@@ -1,0 +1,5 @@
+{
+  "words": ["$easy$","$problem$"],
+  "separator": "$",
+  "output": ["easy","problem"]
+}

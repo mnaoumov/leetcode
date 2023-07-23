@@ -1,0 +1,4 @@
+{
+  "expression": "F?1:T?4:5",
+  "output": "4"
+}

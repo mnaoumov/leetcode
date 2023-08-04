@@ -1,0 +1,6 @@
+{
+  "regular": [11,5,13],
+  "express": [7,10,6],
+  "expressCost": 3,
+  "output": [10,15,24]
+}

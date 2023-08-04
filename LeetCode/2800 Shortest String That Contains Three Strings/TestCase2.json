@@ -1,0 +1,6 @@
+{
+  "a": "ab",
+  "b": "ba",
+  "c": "aba",
+  "output": "aba"
+}

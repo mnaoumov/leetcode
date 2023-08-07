@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._6900_Count_Complete_Subarrays_in_an_Array;
+namespace LeetCode._2799_Count_Complete_Subarrays_in_an_Array;
 
 [PublicAPI]
 public interface ISolution

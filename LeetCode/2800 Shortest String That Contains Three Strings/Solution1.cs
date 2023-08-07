@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._6918_Shortest_String_That_Contains_Three_Strings;
+namespace LeetCode._2800_Shortest_String_That_Contains_Three_Strings;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-356/submissions/detail/1007344133/

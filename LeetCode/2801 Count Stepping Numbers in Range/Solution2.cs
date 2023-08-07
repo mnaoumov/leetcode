@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._6957_Count_Stepping_Numbers_in_Range;
+namespace LeetCode._2801_Count_Stepping_Numbers_in_Range;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-356/submissions/detail/1007388720/

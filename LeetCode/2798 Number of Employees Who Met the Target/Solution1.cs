@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._6917_Number_of_Employees_Who_Met_the_Target;
+namespace LeetCode._2798_Number_of_Employees_Who_Met_the_Target;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-356/submissions/detail/1007319004/

@@ -1,7 +1,7 @@
-using NUnit.Framework;
 using JetBrains.Annotations;
+using NUnit.Framework;
 
-namespace LeetCode._6957_Count_Stepping_Numbers_in_Range;
+namespace LeetCode._2801_Count_Stepping_Numbers_in_Range;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

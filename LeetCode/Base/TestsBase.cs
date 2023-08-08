@@ -12,6 +12,7 @@ public abstract class TestsBase<TSolution, TTestCase> : TestsBase where TTestCas
 {
     [Test]
     [TestCaseSource(nameof(JoinedTestCases))]
+    [Category("C#")]
     public void Test(TSolution solution, TTestCase testCase)
     {
         RunTestWithStackAndTimeoutChecks(testCase, () => TestImpl(solution, testCase));

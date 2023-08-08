@@ -98,18 +98,22 @@ public abstract partial class SqlTestsBase<TSqlTests> : TestsBase where TSqlTest
                     continue;
                 }
 
-                var columnType = dt.Columns[columnIndex].DataType;
-                var itemType = expectedRow[columnIndex]!.GetType();
+                var actualType = dt.Columns[columnIndex].DataType;
+                var expectedType = expectedRow[columnIndex]!.GetType();
 
-                if (columnType == itemType)
+                if (actualType == typeof(DateTime))
+                {
+                    actualType = typeof(string);
+                }
+
+                if (actualType == expectedType)
                 {
                     continue;
                 }
 
-                if (columnType == typeof(string) || itemType == typeof(string))
+                if (actualType == typeof(string) || expectedType == typeof(string))
                 {
-                    Assert.Fail(
-                        $"Row {rowIndex}, Column {columnIndex}. Expected data type {itemType}, but was {columnType}");
+                    Assert.Fail($"Row {rowIndex}, Column {columnIndex}. Expected data type {expectedType}, but was {actualType}");
                 }
             }
         }

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._7022_Minimum_Absolute_Difference_Between_Elements_With_Constraint;
+namespace LeetCode._2817_Minimum_Absolute_Difference_Between_Elements_With_Constraint;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-358/submissions/detail/1019775526/

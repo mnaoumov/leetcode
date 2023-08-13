@@ -1,14 +1,12 @@
 using System.Numerics;
 using JetBrains.Annotations;
 
-namespace LeetCode._7023_Apply_Operations_to_Maximize_Score;
+namespace LeetCode._2818_Apply_Operations_to_Maximize_Score;
 
 /// <summary>
-/// https://leetcode.com/contest/weekly-contest-358/submissions/detail/1019826477/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public int MaximumScore(IList<int> nums, int k)
     {
@@ -38,6 +36,25 @@ public class Solution1 : ISolution
         }
 
         var n = nums.Count;
+
+        var leftCapacity = new int[n];
+
+        var stack = new Stack<int>();
+
+        for (var i = 0; i < n; i++)
+        {
+            var num = nums[i];
+            var primeScore = primeScores[num];
+
+            while (stack.Count > 0 && primeScores[nums[stack.Peek()]] < primeScore)
+            {
+                stack.Pop();
+            }
+
+            
+        }
+
+
 
         ModNumber ans = 1;
 

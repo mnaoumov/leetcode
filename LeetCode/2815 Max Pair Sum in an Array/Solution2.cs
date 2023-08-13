@@ -1,13 +1,12 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._6939_Max_Pair_Sum_in_an_Array;
+namespace LeetCode._2815_Max_Pair_Sum_in_an_Array;
 
 /// <summary>
-/// https://leetcode.com/contest/weekly-contest-358/submissions/detail/1019730293/
+/// https://leetcode.com/contest/weekly-contest-358/submissions/detail/1019734812/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public int MaxSum(int[] nums)
     {
@@ -18,7 +17,7 @@ public class Solution1 : ISolution
             var maxDigit = MaxDigit(num);
             map.TryAdd(maxDigit, new PriorityQueue<int, int>());
             var pq = map[maxDigit];
-            pq.Enqueue(num, -num);
+            pq.Enqueue(num, num);
 
             if (pq.Count > 2)
             {

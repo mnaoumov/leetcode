@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._7023_Apply_Operations_to_Maximize_Score;
+namespace LeetCode._2818_Apply_Operations_to_Maximize_Score;
 
 [PublicAPI]
 public interface ISolution

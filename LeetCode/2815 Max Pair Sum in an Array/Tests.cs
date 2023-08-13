@@ -1,20 +1,19 @@
-using NUnit.Framework;
 using JetBrains.Annotations;
+using NUnit.Framework;
 
-namespace LeetCode._7023_Apply_Operations_to_Maximize_Score;
+namespace LeetCode._2815_Max_Pair_Sum_in_an_Array;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.MaximumScore(testCase.Nums, testCase.K), Is.EqualTo(testCase.Output));
+        Assert.That(solution.MaxSum(testCase.Nums), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase
     {
-        public IList<int> Nums { get; [UsedImplicitly] init; } = null!;
-        public int K { get; [UsedImplicitly] init; }
+        public int[] Nums { get; [UsedImplicitly] init; } = null!;
         public int Output { get; [UsedImplicitly] init; }
     }
 }

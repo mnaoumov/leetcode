@@ -111,7 +111,7 @@ public abstract partial class TestsBase
     protected static string? GetProblemDirectory(Type problemRelatedType)
     {
         var namespacePart = problemRelatedType.Namespace!.Replace("LeetCode._", "");
-        var problemNumber = namespacePart[..4];
+        var problemNumber = namespacePart.Split('_')[0];
         var problemTestCaseDirectory = Directory.GetDirectories(".", $"{problemNumber} *").FirstOrDefault(dir =>
         {
             var name = dir.Split('\\')[^1];

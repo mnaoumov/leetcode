@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._8041_Maximum_Element_Sum_of_a_Complete_Subset_of_Indices;
+namespace LeetCode._2862_Maximum_Element_Sum_of_a_Complete_Subset_of_Indices;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-363/submissions/detail/1051452263/

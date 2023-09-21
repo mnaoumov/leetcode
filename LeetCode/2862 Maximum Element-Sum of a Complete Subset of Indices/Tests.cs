@@ -1,7 +1,7 @@
-using NUnit.Framework;
 using JetBrains.Annotations;
+using NUnit.Framework;
 
-namespace LeetCode._8041_Maximum_Element_Sum_of_a_Complete_Subset_of_Indices;
+namespace LeetCode._2862_Maximum_Element_Sum_of_a_Complete_Subset_of_Indices;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,0 +1,4 @@
+{
+  "root": [1,null,3,2,4,null,null,null,5],
+  "output": 3
+}

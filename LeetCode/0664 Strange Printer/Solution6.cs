@@ -4,29 +4,44 @@ using JetBrains.Annotations;
 namespace LeetCode._0664_Strange_Printer;
 
 /// <summary>
+/// https://leetcode.com/submissions/detail/1072266234/
 /// </summary>
 [UsedImplicitly]
 public class Solution6 : ISolution
 {
     public int StrangePrinter(string s)
     {
-        var dp = new DynamicProgramming<string, int>((str, recursiveFunc) =>
+        var dp = new DynamicProgramming<(int left, int right), int>((key, recursiveFunc) =>
         {
-            if (str == "")
+            var (left, right) = key;
+
+            if (left == right)
+            {
+                return 0;
+            }
+
+            var i = left;
+
+            while (i < right && s[i] == s[right])
+            {
+                i++;
+            }
+
+            if (i == right)
             {
                 return 0;
             }
 
             var ans = int.MaxValue;
 
-            for (var i = 0; i < str.Length; i++)
+            for (var j = i; j < right; j++)
             {
-                var left = str[..i];
-                var right = str[(i + 1)..];
+                if (s[j] == s[right])
+                {
+                    continue;
+                }
 
-                var next = left.Length == 0 || right.Length == 0 || left[^1] != right[0] ? left + right : left + right[1..];
-
-                ans = Math.Min(ans, 1 + recursiveFunc(next));
+                ans = Math.Min(ans, 1 + recursiveFunc((i, j)) + recursiveFunc((j + 1, right)));
             }
 
             return ans;
@@ -39,7 +54,7 @@ public class Solution6 : ISolution
             sb.Append(letter);
         }
 
-        return dp.GetOrCalculate(sb.ToString());
+        return 1 + dp.GetOrCalculate((0, s.Length - 1));
     }
 
     private class DynamicProgramming<TKey, TValue> where TKey : notnull

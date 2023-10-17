@@ -1,0 +1,6 @@
+{
+  "n": 3,
+  "words": ["bab","dab","cab"],
+  "groups": [1,2,2],
+  "output": ["bab","cab"]
+}

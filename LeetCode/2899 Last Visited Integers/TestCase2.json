@@ -1,0 +1,4 @@
+{
+  "words": ["1","prev","2","prev","prev"],
+  "output": [1,2,1]
+}

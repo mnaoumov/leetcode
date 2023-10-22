@@ -1,0 +1,6 @@
+{
+  "root": [1,2,3],
+  "fromNode": 2,
+  "toNode": 3,
+  "output": [1,null,3]
+}

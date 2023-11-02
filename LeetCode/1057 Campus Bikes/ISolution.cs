@@ -1,0 +1,9 @@
+using JetBrains.Annotations;
+
+namespace LeetCode._1057_Campus_Bikes;
+
+[PublicAPI]
+public interface ISolution
+{
+    public int[] AssignBikes(int[][] workers, int[][] bikes);
+}

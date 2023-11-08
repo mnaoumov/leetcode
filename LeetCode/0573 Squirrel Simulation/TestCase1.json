@@ -1,0 +1,8 @@
+{
+  "height": 5,
+  "width": 7,
+  "tree": [2,2],
+  "squirrel": [4,4],
+  "nuts": [[3,0],[2,5]],
+  "output": 12
+}

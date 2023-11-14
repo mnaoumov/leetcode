@@ -6,6 +6,7 @@ namespace LeetCode._2812_Find_the_Safest_Path_in_a_Grid;
 /// https://leetcode.com/submissions/detail/1013499494/
 /// </summary>
 [UsedImplicitly]
+[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution4 : ISolution
 {
     public int MaximumSafenessFactor(IList<IList<int>> grid)

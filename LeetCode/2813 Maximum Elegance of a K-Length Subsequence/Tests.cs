@@ -4,6 +4,7 @@ using NUnit.Framework;
 namespace LeetCode._2813_Maximum_Elegance_of_a_K_Length_Subsequence;
 
 [UsedImplicitly]
+[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

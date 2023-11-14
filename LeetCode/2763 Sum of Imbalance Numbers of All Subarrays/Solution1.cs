@@ -6,6 +6,7 @@ namespace LeetCode._2763_Sum_of_Imbalance_Numbers_of_All_Subarrays;
 /// TODO url
 /// </summary>
 [UsedImplicitly]
+[SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution
 {
     public int SumImbalanceNumbers(int[] nums)

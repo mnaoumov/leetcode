@@ -1,8 +1,10 @@
 using JetBrains.Annotations;
+using NUnit.Framework;
 
 namespace LeetCode._2751_Robot_Collisions;
 
 [UsedImplicitly]
+[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

@@ -4,6 +4,7 @@ using NUnit.Framework;
 namespace LeetCode._2731_Movement_of_Robots;
 
 [UsedImplicitly]
+[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

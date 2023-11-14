@@ -4,6 +4,7 @@ using JetBrains.Annotations;
 namespace LeetCode._1434_Number_of_Ways_to_Wear_Different_Hats_to_Each_Other;
 
 [UsedImplicitly]
+[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

@@ -4,6 +4,7 @@ using NUnit.Framework;
 namespace LeetCode._2916_Subarrays_Distinct_Element_Sum_of_Squares_II;
 
 [UsedImplicitly]
+[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

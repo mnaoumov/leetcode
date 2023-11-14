@@ -1,8 +1,10 @@
 using JetBrains.Annotations;
+using NUnit.Framework;
 
 namespace LeetCode._2732_Find_a_Good_Subset_of_the_Matrix;
 
 [UsedImplicitly]
+[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

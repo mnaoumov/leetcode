@@ -4,6 +4,7 @@ using NUnit.Framework;
 namespace LeetCode._2897_Apply_Operations_on_Array_to_Maximize_Sum_of_Squares;
 
 [UsedImplicitly]
+[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

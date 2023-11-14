@@ -4,6 +4,7 @@ using NUnit.Framework;
 namespace LeetCode._2790_Maximum_Number_of_Groups_With_Increasing_Length;
 
 [UsedImplicitly]
+[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

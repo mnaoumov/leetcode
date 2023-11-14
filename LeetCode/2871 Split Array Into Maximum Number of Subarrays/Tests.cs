@@ -4,6 +4,7 @@ using NUnit.Framework;
 namespace LeetCode._2871_Split_Array_Into_Maximum_Number_of_Subarrays;
 
 [UsedImplicitly]
+[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

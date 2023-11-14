@@ -1,8 +1,10 @@
 using JetBrains.Annotations;
+using NUnit.Framework;
 
 namespace LeetCode._2768_Number_of_Black_Blocks;
 
 [UsedImplicitly]
+[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

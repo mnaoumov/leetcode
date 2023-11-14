@@ -4,6 +4,7 @@ using NUnit.Framework;
 namespace LeetCode._2712_Minimum_Cost_to_Make_All_Characters_Equal;
 
 [UsedImplicitly]
+[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

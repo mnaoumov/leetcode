@@ -4,6 +4,7 @@ using JetBrains.Annotations;
 namespace LeetCode._0808_Soup_Servings;
 
 [UsedImplicitly]
+[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

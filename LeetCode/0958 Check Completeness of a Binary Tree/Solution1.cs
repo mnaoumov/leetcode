@@ -31,6 +31,7 @@ public class Solution1 : ISolution
             }
 
             fullLevelCount *= 2;
+            continue;
 
             bool CheckChildNode(TreeNode? childNode)
             {

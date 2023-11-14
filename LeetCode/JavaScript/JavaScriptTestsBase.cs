@@ -99,7 +99,7 @@ public partial class JavaScriptTestsBase : TestsBase
             foreach (var testCase in testCases)
             {
                 var testCaseData =
-                    new TestCaseData(solutionScriptFile, testCase, testsScriptPath).SetName($@"{solutionName}: {testCase.TestCaseName}");
+                    new TestCaseData(solutionScriptFile, testCase, testsScriptPath).SetName($"{solutionName}: {testCase.TestCaseName}");
 
                 if (!string.IsNullOrEmpty(skipSolutionReason))
                 {

@@ -23,6 +23,7 @@ public class Solution1 : ISolution
         var excludeOneLetterCount = ModNumber.Pow(lettersCount - 1, n);
         var oneLetterSingleCount = n * ModNumber.Pow(lettersCount - 1, n - 1);
 
+        // ReSharper disable InlineTemporaryVariable
         var noLCount = excludeOneLetterCount;
         var noECount = excludeOneLetterCount;
         var singleECount = oneLetterSingleCount;
@@ -39,6 +40,7 @@ public class Solution1 : ISolution
 
         var noLetCount = ModNumber.Pow(lettersCount - 3, n);
         var singleENoLeCount = n * ModNumber.Pow(lettersCount - 3, n - 1);
+        // ReSharper restore InlineTemporaryVariable
 
         return allLettersWordsCount
                - noLCount - noECount - singleECount - noTCount

@@ -31,7 +31,9 @@ public class Solution2 : ISolution
                 return;
             }
 
+#pragma warning disable IDE0042
             var childResult = Process(child);
+#pragma warning restore IDE0042
             ans.longestPathLength = Math.Max(ans.longestPathLength, childResult.longestPathLength);
 
             if (child.val == node.val + 1)

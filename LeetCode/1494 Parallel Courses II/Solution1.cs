@@ -35,6 +35,8 @@ public class Solution1 : ISolution
             var semesterCourses = new List<int>();
             Backtrack(0);
 
+            return ans;
+
             void Backtrack(int index)
             {
                 var semesterCoursesCount = semesterCourses.Count;
@@ -70,11 +72,9 @@ public class Solution1 : ISolution
                 Backtrack(index + 1);
                 semesterCourses.RemoveAt(semesterCoursesCount);
             }
-
-            return ans;
         });
 
-        return dp.GetOrCalculate((string.Join(',', indegrees)));
+        return dp.GetOrCalculate(string.Join(',', indegrees));
     }
 
     private class DynamicProgramming<TKey, TValue> where TKey : notnull

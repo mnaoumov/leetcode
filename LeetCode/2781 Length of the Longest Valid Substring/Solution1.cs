@@ -36,14 +36,11 @@ public class Solution1 : ISolution
 
             suffixes[0] = letter.ToString();
 
-            foreach (var suffix in suffixes)
+            foreach (var suffix in suffixes.Where(suffix => forbiddenSet.Contains(suffix)))
             {
-                if (forbiddenSet.Contains(suffix))
-                {
-                    i = j - suffix.Length + 2;
-                    suffixes.RemoveRange(suffix.Length - 1, suffixes.Count - suffix.Length + 1);
-                    break;
-                }
+                i = j - suffix.Length + 2;
+                suffixes.RemoveRange(suffix.Length - 1, suffixes.Count - suffix.Length + 1);
+                break;
             }
 
             ans = Math.Max(ans, j - i + 1);

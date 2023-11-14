@@ -17,6 +17,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         var heightDict = new Dictionary<TreeNode, int>();
 
         AssertHeightBalanced(output);
+        return;
 
         void AssertHeightBalanced(TreeNode? node)
         {

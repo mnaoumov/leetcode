@@ -37,6 +37,7 @@ public class Solution1 : ISolution
             }
 
             step++;
+            continue;
 
             void AddNextCell(int row, int column)
             {

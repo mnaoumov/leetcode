@@ -11,7 +11,7 @@ public class Solution1 : ISolution
 {
     public bool IsFascinating(int n)
     {
-        var str = n.ToString() + (2 * n).ToString() + (3 * n).ToString();
+        var str = $"{n}{2 * n}{3 * n}";
         var chars = str.ToHashSet();
         return chars.Count == 9 && !chars.Contains('0');
     }

@@ -40,6 +40,8 @@ public class Solution5 : ISolution
                 result = (result + recursiveFunc((nextIndex + 1, prefix + symbol))) % modulo;
             }
 
+            return result;
+
             IEnumerable<int> GetNextIndices()
             {
                 if (prefix.Length < 3)
@@ -59,8 +61,6 @@ public class Solution5 : ISolution
 
                 return indices.Skip(position);
             }
-
-            return result;
         });
 
         return dp.GetOrCalculate((0, ""));

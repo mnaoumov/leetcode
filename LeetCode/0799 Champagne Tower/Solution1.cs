@@ -8,7 +8,9 @@ namespace LeetCode._0799_Champagne_Tower;
 [UsedImplicitly]
 public class Solution1 : ISolution
 {
+    // ReSharper disable InconsistentNaming
     public double ChampagneTower(int poured, int query_row, int query_glass)
+    // ReSharper restore InconsistentNaming
     {
         var nextRow = new double[] { poured };
 
@@ -16,8 +18,8 @@ public class Solution1 : ISolution
         {
             var currentRow = nextRow;
             nextRow = new double[rowIndex + 2];
-                
-            for (var glassIndex = 0; glassIndex <= rowIndex ; glassIndex++)
+
+            for (var glassIndex = 0; glassIndex <= rowIndex; glassIndex++)
             {
                 if (currentRow[glassIndex] <= 1)
                 {

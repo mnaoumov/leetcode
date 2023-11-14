@@ -104,7 +104,7 @@ public class Solution2 : ISolution
             new(1, 0),
             new(-1, 0),
             new(0, 1),
-            new(0, -1),
+            new(0, -1)
         };
 
         public Coordinate Move(Coordinate direction) => new(Row + direction.Row, Column + direction.Column);

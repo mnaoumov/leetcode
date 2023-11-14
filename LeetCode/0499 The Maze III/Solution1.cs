@@ -229,6 +229,8 @@ public class Solution1 : ISolution
 
             Backtrack(target);
 
+            return ans;
+
             void Backtrack(T node)
             {
                 list.Add(node);
@@ -247,8 +249,6 @@ public class Solution1 : ISolution
 
                 list.RemoveAt(list.Count - 1);
             }
-
-            return ans;
         }
     }
 

@@ -24,6 +24,8 @@ public class Solution1 : ISolution
                 result.Add(i);
             }
 
+            continue;
+
             bool Dfs(int node)
             {
                 if (safeNodes[node] is { } isSafeNode)

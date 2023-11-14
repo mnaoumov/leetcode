@@ -29,6 +29,8 @@ public class Solution4 : ISolution
                 min = mid + 1;
             }
 
+            continue;
+
             bool CheckIsEnough(int n)
             {
                 var dividend1Count = n / divisor1;

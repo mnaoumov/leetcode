@@ -20,6 +20,7 @@ public class Solution5 : ISolution
         {
             AddNeighbor(edge[0], edge[1]);
             AddNeighbor(edge[1], edge[0]);
+            continue;
 
             void AddNeighbor(int node1, int node2)
             {
@@ -109,6 +110,8 @@ public class Solution5 : ISolution
             {
                 ApplyCorrection(node2, level2);
             }
+
+            return;
 
             int ApplyCorrection(int node2, int level2)
             {

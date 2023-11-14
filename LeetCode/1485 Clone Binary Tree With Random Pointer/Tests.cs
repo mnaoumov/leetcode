@@ -15,6 +15,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         var nodeCopyToNodeMap = new Dictionary<NodeCopy, Node>();
 
         AssertIsCopy(root, rootCopy);
+        return;
 
         void AssertIsCopy(Node? node, NodeCopy? nodeCopy)
         {

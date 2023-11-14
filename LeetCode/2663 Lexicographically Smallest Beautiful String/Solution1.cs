@@ -48,6 +48,8 @@ public class Solution1 : ISolution
                 return sb.ToString();
             }
 
+            continue;
+
             bool HasPalindromeStartingAt(int index) => index + 1 < n && sb[index] == sb[index + 1] || index + 2 < n && sb[index] == sb[index + 2];
         }
     }

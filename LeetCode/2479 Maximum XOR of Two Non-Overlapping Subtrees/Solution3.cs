@@ -58,6 +58,8 @@ public class Solution3 : ISolution
                 trieNodePairs = sameBitPairs.Where(pair => HasMatchingGraphNodes(pair.Item1, pair.Item2)).ToList()!;
             }
 
+            continue;
+
             bool HasMatchingGraphNodes(TrieNode? trieNode1, TrieNode? trieNode2)
             {
                 if (trieNode1 == null || trieNode2 == null)

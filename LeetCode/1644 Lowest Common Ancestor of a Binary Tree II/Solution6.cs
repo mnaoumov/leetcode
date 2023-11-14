@@ -55,12 +55,13 @@ public class Solution6 : ISolution
 
         var rightPath = FindPath(current.right, target)?.ToList();
 
-        if (rightPath != null)
+        if (rightPath == null)
         {
-            rightPath.Insert(0, current);
-            return rightPath;
+            return null;
         }
 
-        return null;
+        rightPath.Insert(0, current);
+        return rightPath;
+
     }
 }

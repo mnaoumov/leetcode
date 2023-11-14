@@ -34,6 +34,7 @@ public class Solution1 : ISolution
             var edgesCount = 0;
             Dfs(i);
             extraEdgesCount += edgesCount / 2 - nodesCount + 1;
+            continue;
 
             void Dfs(int node)
             {

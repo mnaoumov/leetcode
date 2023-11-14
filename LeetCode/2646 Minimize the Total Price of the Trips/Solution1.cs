@@ -28,6 +28,7 @@ public class Solution1 : ISolution
             var seen = new bool[n];
 
             Dfs(start);
+            continue;
 
             bool Dfs(int node)
             {
@@ -52,16 +53,6 @@ public class Solution1 : ISolution
         var parents = new int[n];
         Dfs2(0, -1);
 
-        void Dfs2(int node, int parent)
-        {
-            parents[node] = parent;
-
-            foreach (var adjNode in adjNodes[node].Except(new[] { parent }))
-            {
-                Dfs2(adjNode, node);
-            }
-        }
-
         var dp = new DynamicProgramming<(int node, bool isHalved), int>((key, recursiveFunc) =>
         {
             var (node, isHalved) = key;
@@ -84,6 +75,16 @@ public class Solution1 : ISolution
         });
 
         return Math.Min(dp.GetOrCalculate((0, false)), dp.GetOrCalculate((0, true)));
+
+        void Dfs2(int node, int parent)
+        {
+            parents[node] = parent;
+
+            foreach (var adjNode in adjNodes[node].Except(new[] { parent }))
+            {
+                Dfs2(adjNode, node);
+            }
+        }
     }
 
     private class DynamicProgramming<TKey, TValue> where TKey : notnull

@@ -14,9 +14,8 @@ public class Solution1 : ISolution
     {
         private const int MaxValue = 1_000_000;
         private const int NoValue = -1;
-        private readonly int[] _arr;
+        private readonly int[] _arr = Enumerable.Repeat(NoValue, MaxValue + 1).ToArray();
 
-        public MyHashMap() => _arr = Enumerable.Repeat(NoValue, MaxValue + 1).ToArray();
         public void Put(int key, int value) => _arr[key] = value;
         public int Get(int key) => _arr[key];
         public void Remove(int key) => _arr[key] = NoValue;

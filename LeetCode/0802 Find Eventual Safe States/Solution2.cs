@@ -23,6 +23,8 @@ public class Solution2 : ISolution
                 result.Add(i);
             }
 
+            continue;
+
             bool Dfs(int node)
             {
                 if (safeNodes[node] is { } isSafeNode)

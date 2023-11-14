@@ -53,20 +53,17 @@ public class Solution1 : ISolution
 
                 foreach (var person in peopleBySkillId[skillId])
                 {
-                    var nextSkillsMask = skillsMask;
-
-                    foreach (var nextSkillId in skillIdsByPerson[person])
-                    {
-                        nextSkillsMask |= 1 << nextSkillId;
-                    }
+                    var nextSkillsMask = skillIdsByPerson[person].Aggregate(skillsMask, (current, nextSkillId) => current | 1 << nextSkillId);
 
                     var nextSet = recursiveFunc(nextSkillsMask);
 
-                    if (set.Count == 0 || set.Count > 1 + nextSet.Count)
+                    if (set.Count != 0 && set.Count <= 1 + nextSet.Count)
                     {
-                        set = nextSet.ToList();
-                        set.Add(person);
+                        continue;
                     }
+
+                    set = nextSet.ToList();
+                    set.Add(person);
                 }
 
                 break;

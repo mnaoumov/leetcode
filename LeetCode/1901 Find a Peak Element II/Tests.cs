@@ -18,6 +18,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         Assert.That(max, Is.GreaterThan(SafeGet(row - 1, column)));
         Assert.That(max, Is.GreaterThan(SafeGet(row, column + 1)));
         Assert.That(max, Is.GreaterThan(SafeGet(row, column - 1)));
+        return;
 
         int SafeGet(int row2, int column2) =>
             row2 < 0 || row2 >= testCase.Mat.Length || column2 < 0 || column2 >= testCase.Mat[0].Length

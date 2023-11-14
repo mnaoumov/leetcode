@@ -51,6 +51,7 @@ public class Solution2 : ISolution
             var currentCycleLetters = new HashSet<char>();
 
             result += GetCycleLength(letter, 0) - 1;
+            continue;
 
             int GetCycleLength(char cycleLetter, int currentCycleLength)
             {

@@ -43,20 +43,20 @@ public class Solution1 : ISolution
         int minCycleCount;
         int maxCycleCount;
 
-        if (sum == 0)
+        switch (sum)
         {
-            minCycleCount = 0;
-            maxCycleCount = 0;
-        }
-        else if (sum > 0)
-        {
-            minCycleCount = Math.Max(0, (int) Math.Ceiling(1d * (target - maxDiff) / sum));
-            maxCycleCount = (int) Math.Floor(1d * (target - minDiff) / sum);
-        }
-        else
-        {
-            minCycleCount = Math.Max(0, (int) Math.Ceiling(1d * (target - minDiff) / sum));
-            maxCycleCount = (int) Math.Floor(1d * (target - maxDiff) / sum);
+            case 0:
+                minCycleCount = 0;
+                maxCycleCount = 0;
+                break;
+            case > 0:
+                minCycleCount = Math.Max(0, (int) Math.Ceiling(1d * (target - maxDiff) / sum));
+                maxCycleCount = (int) Math.Floor(1d * (target - minDiff) / sum);
+                break;
+            default:
+                minCycleCount = Math.Max(0, (int) Math.Ceiling(1d * (target - minDiff) / sum));
+                maxCycleCount = (int) Math.Floor(1d * (target - maxDiff) / sum);
+                break;
         }
 
         for (var cycleCount = minCycleCount; cycleCount <= maxCycleCount; cycleCount++)

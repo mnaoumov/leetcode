@@ -19,31 +19,6 @@ public class Solution3 : ISolution
             var isEqual = equation[1] == '=';
             var variable2 = equation[3];
 
-            char GetEqualityChainRoot(char variable)
-            {
-                char current;
-                var next = variable;
-
-                var variablesToUpdate = new List<char>();
-
-                do
-                {
-                    current = next;
-                    variablesToUpdate.Add(current);
-                    if (equalityChainMap.TryGetValue(next, out var newNext))
-                    {
-                        next = newNext;
-                    }
-                } while (next != current);
-
-                foreach (var variableToUpdate in variablesToUpdate)
-                {
-                    equalityChainMap[variableToUpdate] = next;
-                }
-
-                return next;
-            }
-
             var root1 = GetEqualityChainRoot(variable1);
             var root2 = GetEqualityChainRoot(variable2);
 
@@ -76,6 +51,33 @@ public class Solution3 : ISolution
 
                 nonEqualVariables1.Add(root2);
                 nonEqualVariables2.Add(root1);
+            }
+
+            continue;
+
+            char GetEqualityChainRoot(char variable)
+            {
+                char current;
+                var next = variable;
+
+                var variablesToUpdate = new List<char>();
+
+                do
+                {
+                    current = next;
+                    variablesToUpdate.Add(current);
+                    if (equalityChainMap.TryGetValue(next, out var newNext))
+                    {
+                        next = newNext;
+                    }
+                } while (next != current);
+
+                foreach (var variableToUpdate in variablesToUpdate)
+                {
+                    equalityChainMap[variableToUpdate] = next;
+                }
+
+                return next;
             }
         }
 

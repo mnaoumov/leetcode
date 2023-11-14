@@ -17,6 +17,8 @@ public class Solution2 : ISolution
 
         ProcessDepth(fakeRoot, 0);
 
+        return fakeRoot.left;
+
         void ProcessDepth(TreeNode? node, int currentDepth)
         {
             while (true)
@@ -38,7 +40,5 @@ public class Solution2 : ISolution
                 currentDepth++;
             }
         }
-
-        return fakeRoot.left;
     }
 }

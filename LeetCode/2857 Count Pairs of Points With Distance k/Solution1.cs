@@ -19,7 +19,7 @@ public class Solution1 : ISolution
 
             for (var i = 0; i <= k; i++)
             {
-                var otherPair = (pair.x ^ i, pair.y ^ (k - i));
+                var otherPair = (pair.x ^ i, pair.y ^ k - i);
                 ans += pairCounts.GetValueOrDefault(otherPair);
             }
 

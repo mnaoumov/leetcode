@@ -28,6 +28,8 @@ public class Solution1 : ISolution
             left = right + 1;
         }
 
+        return;
+
         void Reverse(int left2, int right2)
         {
             while (left2 < right2)

@@ -67,6 +67,7 @@ public class Solution2 : ISolution
             }
 
             MoveToTheNextFactory(robot.LeftFactoryIndex, -1);
+            continue;
 
             void MoveToTheNextFactory(int factoryIndexStart, int factoryIndexStep)
             {

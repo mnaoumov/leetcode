@@ -33,6 +33,7 @@ public class Solution2 : ISolution
             var indexOfIndex = ~takenIndices.BinarySearch(index);
             takenIndices.Insert(indexOfIndex, index);
             lastIndex = index;
+            continue;
 
             int CountTakenIndices(int from, int to)
             {

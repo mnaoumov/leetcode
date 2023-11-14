@@ -41,7 +41,7 @@ public abstract class TestsBase<TSolution, TTestCase> : TestsBase where TTestCas
                 {
                     var testCaseData =
                         new TestCaseData(solution, testCase).SetName(
-                            $@"{solution!.GetType().Name}: {testCase.TestCaseName}");
+                            $"{solution!.GetType().Name}: {testCase.TestCaseName}");
 
                     var skipSolutionAttribute =
                         (SkipSolutionAttribute?) Attribute.GetCustomAttribute(solution.GetType(),

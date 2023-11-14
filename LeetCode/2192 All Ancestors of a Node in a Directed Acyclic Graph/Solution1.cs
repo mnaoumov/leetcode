@@ -26,6 +26,8 @@ public class Solution1 : ISolution
             Dfs(root, -1);
         }
 
+        return result.Select(set => set.OrderBy(x => x).ToArray()).ToArray<IList<int>>();
+
         void Dfs(int node, int parent)
         {
             if (parent != -1)
@@ -39,7 +41,5 @@ public class Solution1 : ISolution
                 Dfs(next, node);
             }
         }
-
-        return result.Select(set => set.OrderBy(x => x).ToArray()).ToArray<IList<int>>();
     }
 }

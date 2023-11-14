@@ -38,6 +38,7 @@ public class Solution1 : ISolution
             var bombsCount = 0;
             Dfs(i);
             result = Math.Max(result, bombsCount);
+            continue;
 
             void Dfs(int bombId)
             {

@@ -15,6 +15,7 @@ public class Solution1 : ISolution
         var seen = new HashSet<(int row, int column)>();
 
         Process(0, 0);
+        return;
 
         void Process(int row, int column)
         {

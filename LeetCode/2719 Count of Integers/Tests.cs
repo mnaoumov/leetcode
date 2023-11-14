@@ -15,8 +15,10 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     {
         public string Num1 { get; [UsedImplicitly] init; } = null!;
         public string Num2 { get; [UsedImplicitly] init; } = null!;
+        // ReSharper disable InconsistentNaming
         public int Min_sum { get; [UsedImplicitly] init; }
         public int Max_sum { get; [UsedImplicitly] init; }
+        // ReSharper restore InconsistentNaming
         public int Output { get; [UsedImplicitly] init; }
     }
 }

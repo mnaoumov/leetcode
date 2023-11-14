@@ -20,7 +20,7 @@ public class Solution2 : ISolution
         var orderedQueryIndices = Enumerable.Range(0, m).OrderBy(i => queries[i]).ToArray();
 
         var counts = new Dictionary<int, int>();
-        var queryIndexOfIndex = 0;
+        const int queryIndexOfIndex = 0;
         var lowerBound = queries[orderedQueryIndices[queryIndexOfIndex]] - x;
 
         foreach (var log in logObjs)

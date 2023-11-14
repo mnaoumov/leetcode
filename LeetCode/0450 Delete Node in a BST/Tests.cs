@@ -16,6 +16,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
         AssertCollectionEquivalentWithDetails(numbersAfterRemoval, originalNumbers.Except(new[] { testCase.Key }));
         AssertValidBst(result);
+        return;
 
         void Dfs(TreeNode? node)
         {

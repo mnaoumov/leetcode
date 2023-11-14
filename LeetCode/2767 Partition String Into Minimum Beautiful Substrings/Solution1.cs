@@ -11,7 +11,7 @@ public class Solution1 : ISolution
     public int MinimumBeautifulSubstrings(string s)
     {
         var powersOfFive = new HashSet<int>();
-        var maxValue = (1 << 15) - 1;
+        const int maxValue = (1 << 15) - 1;
         var powerOfFive = 1;
 
         while (powerOfFive <= maxValue)

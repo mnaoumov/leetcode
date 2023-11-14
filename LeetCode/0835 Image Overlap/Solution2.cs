@@ -34,6 +34,8 @@ public class Solution2 : ISolution
                         overlap++;
                     }
 
+                    continue;
+
                     bool CheckRange(int coordinate) => 0 <= coordinate && coordinate < n;
                 }
 

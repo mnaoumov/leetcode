@@ -4,9 +4,11 @@ namespace LeetCode;
 
 public abstract partial class DeleteSqlTestsBase<TSqlTests> : SqlTestsBase<TSqlTests> where TSqlTests : SqlTestsBase<TSqlTests>
 {
-    [GeneratedRegex(@"DELETE
-FROM (.+?)
-")]
+    [GeneratedRegex("""
+                    DELETE
+                    FROM (.+?)
+
+                    """)]
     private static partial Regex DeleteTableRegex();
 
     protected override string GetResultQuery(SqlDatabase db, SqlTestCase testCase, string script)

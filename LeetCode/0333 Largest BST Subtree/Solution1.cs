@@ -17,8 +17,10 @@ public class Solution1 : ISolution
             return (largestBstSize: 0, isBst: true, min: int.MinValue, max: int.MaxValue);
         }
 
+#pragma warning disable IDE0042
         var leftResult = Process(node.left);
         var rightResult = Process(node.right);
+#pragma warning enable IDE0042
 
         if (leftResult.isBst && rightResult.isBst && (leftResult.largestBstSize == 0 || leftResult.max < node.val) && (rightResult.largestBstSize == 0 || node.val < rightResult.min))
         {

@@ -13,6 +13,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         var clone = solution.CloneGraph(node);
         var checkedValues = new HashSet<int>();
         AssertIsClone(node, clone);
+        return;
 
         void AssertIsClone(Node? node1, Node? node2)
         {

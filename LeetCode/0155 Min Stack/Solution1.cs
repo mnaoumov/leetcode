@@ -12,14 +12,8 @@ public class Solution1 : ISolution
 
     private class MinStack : IMinStack
     {
-        private readonly Stack<int> _stack;
-        private readonly Stack<int> _stackOfMins;
-
-        public MinStack()
-        {
-            _stack = new Stack<int>();
-            _stackOfMins = new Stack<int>();
-        }
+        private readonly Stack<int> _stack = new();
+        private readonly Stack<int> _stackOfMins = new();
 
         public void Push(int val)
         {

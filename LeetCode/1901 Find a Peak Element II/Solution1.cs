@@ -44,6 +44,8 @@ public class Solution1 : ISolution
                 low = mid + 1;
             }
 
+            continue;
+
             void CompareMaxWithColumn(int row, int column, bool updateIfEquals)
             {
                 if (row < 0 || row >= m || column < 0 || column >= n)

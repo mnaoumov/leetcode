@@ -4,6 +4,7 @@ using NUnit.Framework;
 namespace LeetCode._2926_Maximum_Balanced_Subsequence_Sum;
 
 [UsedImplicitly]
+[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

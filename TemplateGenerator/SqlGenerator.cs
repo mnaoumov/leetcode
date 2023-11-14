@@ -50,9 +50,7 @@ internal partial class SqlGenerator : GeneratorBase
         var testCases = ConsoleHelper.ReadMultiline("Test cases").Split("\r\n");
         var expectedOutputs = ConsoleHelper.ReadMultiline("Expected output").Split("\r\n");
 
-        GenerateFile("SetUp.sql", """
-            {{ SetUpScript }}
-            """);
+        GenerateFile("SetUp.sql", "{{ SetUpScript }}");
 
         GenerateFile("Tests.cs", """
             using JetBrains.Annotations;
@@ -72,9 +70,7 @@ internal partial class SqlGenerator : GeneratorBase
             HeaderNames = testCaseObj["output"]!["headers"]!.Select(EscapeHeaderName).ToArray();
             TestCaseJson = testCaseObj.ToString(Formatting.Indented);
 
-            GenerateFile($"TestCase{i + 1}.json", """
-                {{ TestCaseJson }}
-                """);
+            GenerateFile($"TestCase{i + 1}.json", "{{ TestCaseJson }}");
         }
 
         GenerateFile("Solution1.sql", """

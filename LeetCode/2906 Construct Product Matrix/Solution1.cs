@@ -57,7 +57,7 @@ public class Solution1 : ISolution
                 productFactor.Power3 += factor.Power3;
                 productFactor.Power5 += factor.Power5;
                 productFactor.Power823 += factor.Power823;
-                productFactor.OtherFactors = (productFactor.OtherFactors * factor.OtherFactors) % Factor.Modulo;
+                productFactor.OtherFactors = productFactor.OtherFactors * factor.OtherFactors % Factor.Modulo;
             }
         }
 

@@ -169,7 +169,7 @@ public abstract partial class SqlTestsBase<TSqlTests> : TestsBase where TSqlTest
 
                 foreach (var testCase in testCases)
                 {
-                    var testCaseData = new TestCaseData(solutionScriptFile, testCase).SetName($@"{solutionName}: {testCase.TestCaseName}");
+                    var testCaseData = new TestCaseData(solutionScriptFile, testCase).SetName($"{solutionName}: {testCase.TestCaseName}");
 
                     if (!string.IsNullOrEmpty(skipSolutionReason))
                     {

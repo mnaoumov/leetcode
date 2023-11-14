@@ -4,8 +4,10 @@ namespace LeetCode;
 
 public abstract partial class UpdateSqlTestsBase<TSqlTests> : SqlTestsBase<TSqlTests> where TSqlTests : SqlTestsBase<TSqlTests>
 {
-    [GeneratedRegex(@"UPDATE (.+?)
-")]
+    [GeneratedRegex("""
+                    UPDATE (.+?)
+
+                    """)]
     private static partial Regex UpdateTableRegex();
 
     protected override string GetResultQuery(SqlDatabase db, SqlTestCase testCase, string script)

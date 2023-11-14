@@ -15,10 +15,10 @@ public class Solution1 : ISolution
         private readonly int[] _times;
         private readonly int[] _winners;
 
-        public TopVotedCandidate(int[] persons, int[] times)
+        public TopVotedCandidate(IReadOnlyList<int> persons, int[] times)
         {
             _times = times;
-            var n = persons.Length;
+            var n = persons.Count;
             _winners = new int[n];
 
             var counts = new Dictionary<int, int>();

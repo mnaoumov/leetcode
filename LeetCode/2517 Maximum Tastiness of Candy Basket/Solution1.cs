@@ -37,6 +37,7 @@ public class Solution1 : ISolution
                 }
 
                 AddCandidate(midIndex);
+                continue;
 
                 void AddCandidate(int candidateMidIndex)
                 {

@@ -25,6 +25,7 @@ public class Solution6 : ISolution
             var path = new HashSet<int>();
 
             Backtrack(i, -1);
+            continue;
 
             void Backtrack(int node, int parent)
             {

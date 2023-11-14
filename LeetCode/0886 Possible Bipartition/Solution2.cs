@@ -16,6 +16,7 @@ public class Solution2 : ISolution
         {
             AddNeighbor(dislike[0], dislike[1]);
             AddNeighbor(dislike[1], dislike[0]);
+            continue;
 
             void AddNeighbor(int a, int b)
             {

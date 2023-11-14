@@ -21,6 +21,7 @@ public class Solution1 : ISolution
         {
             AddSimilar(pair[0], pair[1]);
             AddSimilar(pair[1], pair[0]);
+            continue;
 
             void AddSimilar(string word1, string word2)
             {

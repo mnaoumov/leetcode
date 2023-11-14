@@ -31,6 +31,24 @@ public class Solution3 : ISolution
 
                 var preciseValue = target - nums[i] - nums[j];
 
+                var closestValue = GetClosestValue();
+
+                var distance = preciseValue - closestValue;
+
+                if (distance == 0)
+                {
+                    return target;
+                }
+
+                if (Math.Abs(distance) >= minDistance)
+                {
+                    continue;
+                }
+
+                minDistance = Math.Abs(distance);
+                result = target - distance;
+                continue;
+
                 int GetClosestValue()
                 {
                     if (preciseValue <= nums[i + 2])
@@ -77,23 +95,6 @@ public class Solution3 : ISolution
 
                     return Math.Abs(leftValue - preciseValue) <= Math.Abs(rightValue - preciseValue) ? leftValue : rightValue;
                 }
-
-                var closestValue = GetClosestValue();
-
-                var distance = preciseValue - closestValue;
-
-                if (distance == 0)
-                {
-                    return target;
-                }
-
-                if (Math.Abs(distance) >= minDistance)
-                {
-                    continue;
-                }
-
-                minDistance = Math.Abs(distance);
-                result = target - distance;
             }
         }
 

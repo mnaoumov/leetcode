@@ -22,6 +22,8 @@ public class Solution2 : ISolution
         var result = 0;
         Dfs(0);
 
+        return result;
+
         int Dfs(int node)
         {
             var maxChildrenRootPathLengths = new PriorityQueue<int, int>();
@@ -56,7 +58,5 @@ public class Solution2 : ISolution
             result = Math.Max(result, maxCombinedPathLength);
             return maxRootPathLength + 1;
         }
-
-        return result;
     }
 }

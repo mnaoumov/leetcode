@@ -53,6 +53,8 @@ public class Solution1 : ISolution
                 }
             }
 
+            yield break;
+
             string ConstructIp(int length, string rest)
             {
                 var part1 = s[index..(index + length)];

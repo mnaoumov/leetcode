@@ -1,4 +1,5 @@
 module.exports = {
+    // ReSharper disable once RedundantLocalFunctionName
     fn: function tax(price, taxRate) {
         return `The cost of the ${this.item} is ${price * taxRate}`;
     },

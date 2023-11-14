@@ -30,6 +30,8 @@ public class Solution2 : ISolution
                 result = Math.Min(result, nextResult);
             }
 
+            continue;
+
             int Dfs(int node, int visitedNodesMask)
             {
                 var key = (node, visitedNodesMask);

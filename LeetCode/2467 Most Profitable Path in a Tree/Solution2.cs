@@ -20,6 +20,7 @@ public class Solution2 : ISolution
         {
             AddNeighbor(edge[0], edge[1]);
             AddNeighbor(edge[1], edge[0]);
+            continue;
 
             void AddNeighbor(int node1, int node2)
             {

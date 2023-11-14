@@ -33,6 +33,8 @@ public class Solution2 : ISolution
                 maxTestiness = midTastiness - 1;
             }
 
+            continue;
+
             bool CanGetMidTastiness()
             {
                 var lastPrice = price[0];

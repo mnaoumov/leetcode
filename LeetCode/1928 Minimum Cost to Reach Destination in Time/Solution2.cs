@@ -35,6 +35,10 @@ public class Solution2 : ISolution
 
         Dfs(0, 0, beforeStartCity);
 
+        var sp = new DijkstraDirectedShortestPath<int>(feeGraph, beforeStartCity);
+        var distance = sp.DistanceTo(n - 1);
+        return double.IsPositiveInfinity(distance) ? -1 : (int) distance;
+
         void Dfs(int city, int time, int previousCity)
         {
             if (time > maxTime)
@@ -54,10 +58,6 @@ public class Solution2 : ISolution
                 Dfs(road.Other(city), time + (int) road.Weight, city);
             }
         }
-
-        var sp = new DijkstraDirectedShortestPath<int>(feeGraph, beforeStartCity);
-        var distance = sp.DistanceTo(n - 1);
-        return double.IsPositiveInfinity(distance) ? -1 : (int) distance;
     }
 
     private record DirectedEdge<T>(T From, T To, double Weight);

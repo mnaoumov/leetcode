@@ -81,7 +81,7 @@ public abstract partial class BashTestsBase<TBashTests> : TestsBase where TBashT
 
                 foreach (var testCase in testCases)
                 {
-                    var testCaseData = new TestCaseData(solutionScriptFile, testCase).SetName($@"{solutionName}: {testCase.TestCaseName}");
+                    var testCaseData = new TestCaseData(solutionScriptFile, testCase).SetName($"{solutionName}: {testCase.TestCaseName}");
 
                     if (!string.IsNullOrEmpty(skipSolutionReason))
                     {

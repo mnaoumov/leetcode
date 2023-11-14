@@ -34,6 +34,7 @@ public class Solution3 : ISolution
 
                 RemoveKeyIfZero(value1);
                 RemoveKeyIfZero(value2);
+                continue;
 
                 void EnsureKeyExists(T key)
                 {

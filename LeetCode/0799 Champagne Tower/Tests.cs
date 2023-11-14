@@ -14,8 +14,10 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     public class TestCase : TestCaseBase
     {
         public int Poured { get; [UsedImplicitly] init; }
+        // ReSharper disable InconsistentNaming
         public int Query_row { get; [UsedImplicitly] init; }
         public int Query_glass { get; [UsedImplicitly] init; }
+        // ReSharper restore InconsistentNaming
         public double Output { get; [UsedImplicitly] init; }
     }
 }

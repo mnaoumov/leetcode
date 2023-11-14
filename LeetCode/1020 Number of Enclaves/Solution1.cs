@@ -41,6 +41,8 @@ public class Solution1 : ISolution
                     result += enclaveSize;
                 }
 
+                continue;
+
                 void Dfs(int i2, int j2)
                 {
                     if (i2 < 0 || i2 >= m || j2 < 0 || j2 >= n)

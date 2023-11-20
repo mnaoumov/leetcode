@@ -1,0 +1,5 @@
+{
+  "garbage": ["G","P","GP","GG"],
+  "travel": [2,4,3],
+  "output": 21
+}

@@ -3,6 +3,4 @@ using JetBrains.Annotations;
 namespace LeetCode._1873_Calculate_Special_Bonus;
 
 [UsedImplicitly]
-public class Tests : SelectSqlTestsBase<Tests>
-{
-}
+public class Tests : SelectSqlTestsBase<Tests>;

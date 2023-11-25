@@ -45,6 +45,8 @@ dotnet_style_qualification_for_field = false:suggestion
 dotnet_style_qualification_for_method = false:suggestion
 dotnet_style_qualification_for_property = false:suggestion
 dotnet_style_require_accessibility_modifiers = for_non_interface_members:suggestion
+dotnet_diagnostic.IDE0290.severity = none
+dotnet_diagnostic.IDE0305.severity = none
 
 # ReSharper properties
 resharper_blank_lines_before_block_statements = 1
@@ -92,3 +94,10 @@ insert_final_newline = true
 trim_trailing_whitespace = true
 charset = utf-8
 dotnet_style_prefer_conditional_expression_over_return = true:silent
+dotnet_style_prefer_collection_expression = true:suggestion
+dotnet_style_explicit_tuple_names = true:suggestion
+dotnet_style_prefer_inferred_tuple_names = true:suggestion
+dotnet_style_prefer_inferred_anonymous_type_member_names = true:suggestion
+dotnet_style_prefer_compound_assignment = true:suggestion
+dotnet_style_prefer_simplified_interpolation = true:suggestion
+csharp_style_prefer_primary_constructors = false:suggestion

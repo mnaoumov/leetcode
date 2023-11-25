@@ -16,6 +16,7 @@
 
 <script>
     document.getElementsByClassName('link')[0].addEventListener('click', async () => {
+        // ReSharper disable once PossiblyUnassignedProperty
         await navigator.clipboard.writeText('chrome://inspect');
         alert('Redirect to special link is not allowed. The URL is copied to the clipboard. Please paste it to the address bar manually');
     });

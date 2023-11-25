@@ -4,6 +4,4 @@ using JetBrains.Annotations;
 namespace LeetCode._1407_Top_Travellers;
 
 [UsedImplicitly]
-public class Tests : SelectSqlTestsBase<Tests>
-{
-}
+public class Tests : SelectSqlTestsBase<Tests>;

@@ -6,6 +6,4 @@
 
 namespace LeetCode.Templates;
 
-public static class Template
-{
-}
+public static class Template;

@@ -1,0 +1,5 @@
+{
+  "words": ["abc","bcd","aaaa","cbc"],
+  "x": "a",
+  "output": [0,2]
+}

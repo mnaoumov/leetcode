@@ -3,11 +3,11 @@ using JetBrains.Annotations;
 namespace LeetCode._2945_Find_Maximum_Non_decreasing_Array_Length;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/1106329302/
+/// https://leetcode.com/problems/find-maximum-non-decreasing-array-length/submissions/
 /// </summary>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution2 : ISolution
+public class Solution4 : ISolution
 {
     public int FindMaximumLength(int[] nums)
     {
@@ -28,9 +28,14 @@ public class Solution2 : ISolution
                 return 0;
             }
 
-            var previousSum = (previousIndex >=0 ? prefixSums[previousIndex] : 0);
+            if (previousIndex == -1)
+            {
+                return 1 + recursiveFunc((index + 1, 0));
+            }
+
+            var previousSum = prefixSums[previousIndex];
             var previousNum = prefixSums[index] - previousSum;
-            var minSum = previousSum + 2 * previousNum + 1;
+            var minSum = previousSum + 2 * previousNum;
 
             var sumIndex = Array.BinarySearch(prefixSums, minSum);
 
@@ -51,8 +56,8 @@ public class Solution2 : ISolution
             {
                 var midIndex = minIndex + (maxIndex - minIndex >> 1);
 
-                var previousNumCandidate = prefixSums[minIndex] - previousSum;
-                var minSumCandidate = previousSum + 2 * previousNumCandidate + 1;
+                var previousNumCandidate = prefixSums[midIndex] - previousSum;
+                var minSumCandidate = previousSum + 2 * previousNumCandidate;
 
                 if (prefixSums[sumIndex] >= minSumCandidate)
                 {
@@ -67,7 +72,7 @@ public class Solution2 : ISolution
             return 1 + recursiveFunc((sumIndex, maxIndex));
         });
 
-        return dp.GetOrCalculate((0, -1));
+        return Enumerable.Range(0, n).Max(i => dp.GetOrCalculate((i, -1)));
     }
 
     private class DynamicProgramming<TKey, TValue> where TKey : notnull

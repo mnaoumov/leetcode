@@ -3,11 +3,11 @@ using JetBrains.Annotations;
 namespace LeetCode._2945_Find_Maximum_Non_decreasing_Array_Length;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/1106329302/
+/// https://leetcode.com/submissions/detail/1106425285/
 /// </summary>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution2 : ISolution
+public class Solution3 : ISolution
 {
     public int FindMaximumLength(int[] nums)
     {
@@ -28,7 +28,7 @@ public class Solution2 : ISolution
                 return 0;
             }
 
-            var previousSum = (previousIndex >=0 ? prefixSums[previousIndex] : 0);
+            var previousSum = (previousIndex >= 0 ? prefixSums[previousIndex] : 0);
             var previousNum = prefixSums[index] - previousSum;
             var minSum = previousSum + 2 * previousNum + 1;
 
@@ -51,7 +51,7 @@ public class Solution2 : ISolution
             {
                 var midIndex = minIndex + (maxIndex - minIndex >> 1);
 
-                var previousNumCandidate = prefixSums[minIndex] - previousSum;
+                var previousNumCandidate = prefixSums[midIndex] - previousSum;
                 var minSumCandidate = previousSum + 2 * previousNumCandidate + 1;
 
                 if (prefixSums[sumIndex] >= minSumCandidate)

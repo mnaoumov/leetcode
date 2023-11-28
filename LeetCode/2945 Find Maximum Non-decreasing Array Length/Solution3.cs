@@ -28,7 +28,7 @@ public class Solution3 : ISolution
                 return 0;
             }
 
-            var previousSum = (previousIndex >= 0 ? prefixSums[previousIndex] : 0);
+            var previousSum = previousIndex >= 0 ? prefixSums[previousIndex] : 0;
             var previousNum = prefixSums[index] - previousSum;
             var minSum = previousSum + 2 * previousNum + 1;
 

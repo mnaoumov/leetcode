@@ -3,8 +3,10 @@ using JetBrains.Annotations;
 namespace LeetCode._2945_Find_Maximum_Non_decreasing_Array_Length;
 
 /// <summary>
+/// https://leetcode.com/submissions/detail/1107822947/
 /// </summary>
 [UsedImplicitly]
+[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution5 : ISolution
 {
     public int FindMaximumLength(int[] nums)
@@ -17,60 +19,37 @@ public class Solution5 : ISolution
             prefixSums[i + 1] = prefixSums[i] + nums[i];
         }
 
-        var dp = new DynamicProgramming<(int index, int previousIndex), int>((key, recursiveFunc) =>
+        var dp = new DynamicProgramming<int, (int length, long lastNum)>((length, recursiveFunc) =>
         {
-            var (index, previousIndex) = key;
-
-            if (index == n)
+            if (length == 0)
             {
-                return 0;
+                return (0, 0);
             }
 
-            if (previousIndex == -1)
+            var sum = 0L;
+            var (prevLength, lastNum2) = recursiveFunc(length - 1);
+            var ans = (length: prevLength, lastNum: lastNum2 + nums[length - 1]);
+
+            for (var j = length - 1; j >= 0; j--)
             {
-                return 1 + recursiveFunc((index + 1, 0));
-            }
+                sum += nums[j];
+                var (subLength, lastNum) = recursiveFunc(j);
 
-            var previousSum = prefixSums[previousIndex];
-            var previousNum = prefixSums[index] - previousSum;
-            var minSum = previousSum + 2 * previousNum;
-
-            var sumIndex = Array.BinarySearch(prefixSums, minSum);
-
-            if (sumIndex < 0)
-            {
-                sumIndex = ~sumIndex;
-            }
-
-            if (sumIndex == n + 1)
-            {
-                return 0;
-            }
-
-            var minIndex = index;
-            var maxIndex = sumIndex;
-
-            while (minIndex <= maxIndex)
-            {
-                var midIndex = minIndex + (maxIndex - minIndex >> 1);
-
-                var previousNumCandidate = prefixSums[midIndex] - previousSum;
-                var minSumCandidate = previousSum + 2 * previousNumCandidate;
-
-                if (prefixSums[sumIndex] >= minSumCandidate)
+                if (subLength + 1 < ans.length)
                 {
-                    minIndex = midIndex + 1;
+                    break;
                 }
-                else
+
+                if (sum >= lastNum && sum <= ans.lastNum)
                 {
-                    maxIndex = midIndex - 1;
+                    ans = (subLength + 1, sum);
                 }
             }
 
-            return 1 + recursiveFunc((sumIndex, maxIndex));
+            return ans;
         });
 
-        return Enumerable.Range(0, n).Max(i => dp.GetOrCalculate((i, -1)));
+        return dp.GetOrCalculate(n).length;
     }
 
     private class DynamicProgramming<TKey, TValue> where TKey : notnull

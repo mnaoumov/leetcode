@@ -163,6 +163,8 @@ public abstract partial class TestsBase
         Exception? exception = null;
 
         const int maxStackSize = 8 * 1024 * 1024;
+        AppContext.SetData("GCHeapHardLimit", maxStackSize);
+        GC.RefreshMemoryLimit();
 
         var thread = new Thread(() =>
         {

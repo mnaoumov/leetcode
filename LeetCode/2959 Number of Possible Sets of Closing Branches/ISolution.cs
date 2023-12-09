@@ -1,0 +1,9 @@
+using JetBrains.Annotations;
+
+namespace LeetCode._2959_Number_of_Possible_Sets_of_Closing_Branches;
+
+[PublicAPI]
+public interface ISolution
+{
+    public int NumberOfSets(int n, int maxDistance, int[][] roads);
+}

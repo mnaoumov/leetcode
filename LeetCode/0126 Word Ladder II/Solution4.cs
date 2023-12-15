@@ -71,22 +71,15 @@ public class Solution4 : ISolution
                 continue;
             }
 
-            if (!visited.ContainsKey(word))
+            if (!visited.TryAdd(word, sequenceLength))
             {
-                visited[word] = sequenceLength;
-            }
-            else if (visited[word] < sequenceLength)
-            {
-                continue;
-            }
-            else
-            {
-                if (!prefixesMap.ContainsKey(word))
+                if (visited[word] < sequenceLength)
                 {
-                    prefixesMap[word] = new List<IEnumerable<string>>();
+                    continue;
                 }
 
-                // ReSharper disable once PossibleMultipleEnumeration
+                // ReSharper disable once UseCollectionExpression
+                prefixesMap.TryAdd(word, new List<IEnumerable<string>>());
                 prefixesMap[word].Add(sequence);
                 continue;
             }

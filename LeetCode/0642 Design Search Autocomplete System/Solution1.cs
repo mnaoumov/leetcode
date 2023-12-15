@@ -87,7 +87,7 @@ public class Solution1 : ISolution
 
             public Dictionary<char, Node> LetterNodes { get; } = new();
             public Node GetOrAddLetterNode(char letter) => GetLetterNode(letter) ?? (LetterNodes[letter] = new Node());
-            public Node? GetLetterNode(char letter) => LetterNodes.TryGetValue(letter, out var letterNode) ? letterNode : null;
+            public Node? GetLetterNode(char letter) => LetterNodes.GetValueOrDefault(letter);
         }
     }
 }

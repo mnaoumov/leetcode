@@ -34,12 +34,11 @@ public class Solution2 : ISolution
                 _maxBooking = Math.Max(_maxBooking, booking);
             }
 
-            if (_eventBookingDict.ContainsKey(newEvent))
+            if (!_eventBookingDict.TryAdd(newEvent, 1))
             {
                 return _maxBooking;
             }
 
-            _eventBookingDict[newEvent] = 1;
             _maxBooking = Math.Max(_maxBooking, 1);
 
             return _maxBooking;

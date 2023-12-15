@@ -50,12 +50,11 @@ public class Solution2 : ISolution
                     break;
                 }
 
-                if (paintedWallIndices.Contains(freePainterWallIndex))
+                if (!paintedWallIndices.Add(freePainterWallIndex))
                 {
                     continue;
                 }
 
-                paintedWallIndices.Add(freePainterWallIndex);
                 paidPainterTimeLeft--;
 
                 if (paidPainterTimeLeft == 0)

@@ -59,7 +59,7 @@ public class Solution3 : ISolution
 
             public bool IsEndOfWord { get; private set; }
 
-            public Node? GetLetterNode(char letter) => _letterNodes.TryGetValue(letter, out var letterNode) ? letterNode : null;
+            public Node? GetLetterNode(char letter) => _letterNodes.GetValueOrDefault(letter);
         }
     }
 }

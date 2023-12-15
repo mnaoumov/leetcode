@@ -71,11 +71,7 @@ public class Solution2 : ISolution
                 continue;
             }
 
-            if (!visited.ContainsKey(word))
-            {
-                visited[word] = sequenceLength;
-            }
-            else if (visited[word] < sequenceLength)
+            if (!visited.TryAdd(word, sequenceLength) && visited[word] < sequenceLength)
             {
                 continue;
             }

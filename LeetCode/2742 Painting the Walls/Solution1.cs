@@ -29,12 +29,11 @@ public class Solution1 : ISolution
 
             for (var i = 0; i < n; i++)
             {
-                if (paintedWallIndices.Contains(i))
+                if (!paintedWallIndices.Add(i))
                 {
                     continue;
                 }
 
-                paintedWallIndices.Add(i);
                 var nextPaintedWallIndicesStr = string.Join(',', paintedWallIndices);
                 paintedWallIndices.Remove(i);
 

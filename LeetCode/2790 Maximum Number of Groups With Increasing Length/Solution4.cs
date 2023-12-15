@@ -62,9 +62,8 @@ public class Solution4 : ISolution
 
             foreach (var (limit, amount) in updates)
             {
-                if (!limitCounts.ContainsKey(limit))
+                if (limitCounts.TryAdd(limit, 0))
                 {
-                    limitCounts[limit] = 0;
                     limitsPq.Enqueue(limit, -limit);
                 }
 

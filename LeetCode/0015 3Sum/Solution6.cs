@@ -18,12 +18,10 @@ public class Solution6 : ISolution
         {
             var firstAddendum = nums[i];
 
-            if (firstAddendaProcessed.Contains(firstAddendum))
+            if (!firstAddendaProcessed.Add(firstAddendum))
             {
                 continue;
             }
-
-            firstAddendaProcessed.Add(firstAddendum);
 
             var secondAddendumCandidates = new HashSet<int>();
             var secondAndThirdAddendaProcessed = new HashSet<int>();

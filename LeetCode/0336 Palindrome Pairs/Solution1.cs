@@ -98,7 +98,7 @@ public class Solution1 : ISolution
             private readonly Dictionary<char, Node> _letterNodes = new();
             public Node GetOrAddLetterNode(char letter) => GetLetterNode(letter) ?? (_letterNodes[letter] = new Node());
             public void MarkAsEndOfWord(int index) => WordIndex = index;
-            public Node? GetLetterNode(char letter) => _letterNodes.TryGetValue(letter, out var letterNode) ? letterNode : null;
+            public Node? GetLetterNode(char letter) => _letterNodes.GetValueOrDefault(letter);
         }
     }
 }

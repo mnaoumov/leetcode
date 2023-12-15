@@ -52,6 +52,6 @@ public class Solution1 : ISolution
         public Node GetOrAddLetterNode(char letter) => GetLetterNode(letter) ?? (LetterNodes[letter] = new Node());
         public void MarkAsEndOfWord() => IsEndOfWord = true;
         public bool IsEndOfWord { get; private set; }
-        private Node? GetLetterNode(char letter) => LetterNodes.TryGetValue(letter, out var letterNode) ? letterNode : null;
+        private Node? GetLetterNode(char letter) => LetterNodes.GetValueOrDefault(letter);
     }
 }

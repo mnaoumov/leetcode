@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._10032_Find_Polygon_With_the_Largest_Perimeter;
+namespace LeetCode._2971_Find_Polygon_With_the_Largest_Perimeter;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-120/submissions/detail/1126668342/

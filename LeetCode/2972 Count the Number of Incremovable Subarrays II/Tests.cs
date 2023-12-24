@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._10033_Count_the_Number_of_Incremovable_Subarrays_II;
+namespace LeetCode._2972_Count_the_Number_of_Incremovable_Subarrays_II;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._10034_Find_Number_of_Coins_to_Place_in_Tree_Nodes;
+namespace LeetCode._2973_Find_Number_of_Coins_to_Place_in_Tree_Nodes;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

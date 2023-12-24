@@ -1,0 +1,8 @@
+{
+  "source": "abcdefgh",
+  "target": "addddddd",
+  "original": ["bcd","defgh"],
+  "changed": ["ddd","ddddd"],
+  "cost": [100,1578],
+  "output": -1
+}

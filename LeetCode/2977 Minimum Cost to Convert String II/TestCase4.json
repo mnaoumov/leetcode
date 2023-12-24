@@ -1,0 +1,8 @@
+{
+  "source": "a",
+  "target": "d",
+  "original": ["a"],
+  "changed": ["b"],
+  "cost": [1],
+  "output": -1
+}

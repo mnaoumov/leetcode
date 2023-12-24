@@ -1,0 +1,8 @@
+{
+  "source": "abcd",
+  "target": "abce",
+  "original": ["a"],
+  "changed": ["e"],
+  "cost": [10000],
+  "output": -1
+}

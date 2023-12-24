@@ -1,0 +1,8 @@
+{
+  "source": "aaaa",
+  "target": "bbbb",
+  "original": ["a","c"],
+  "changed": ["c","b"],
+  "cost": [1,2],
+  "output": 12
+}

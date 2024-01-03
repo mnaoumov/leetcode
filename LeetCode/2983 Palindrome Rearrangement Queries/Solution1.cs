@@ -1,11 +1,13 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._100129_Palindrome_Rearrangement_Queries;
+namespace LeetCode._2983_Palindrome_Rearrangement_Queries;
 
 /// <summary>
+/// https://leetcode.com/submissions/detail/1132723896/
 /// </summary>
 [UsedImplicitly]
-public class Solution2 : ISolution
+[SkipSolution(SkipSolutionReason.WrongAnswer)]
+public class Solution1 : ISolution
 {
     public bool[] CanMakePalindromeQueries(string s, int[][] queries)
     {
@@ -73,7 +75,12 @@ public class Solution2 : ISolution
                 return TestWithoutOrder(a1, b1);
             }
 
-            if (a2 > b1 && s1[(b1 + 1)..a2] != s2[(b1 + 1)..a2])
+            if (a2 <= b1)
+            {
+                return TestWithoutOrder(a1, b2);
+            }
+
+            if (s1[(b1 + 1)..a2] != s2[(b1 + 1)..a2])
             {
                 return false;
             }

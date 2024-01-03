@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._100129_Palindrome_Rearrangement_Queries;
+namespace LeetCode._2983_Palindrome_Rearrangement_Queries;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

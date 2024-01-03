@@ -1,13 +1,12 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._100184_Find_Longest_Special_Substring_That_Occurs_Thrice_II;
+namespace LeetCode._2982_Find_Longest_Special_Substring_That_Occurs_Thrice_II;
 
 /// <summary>
-/// https://leetcode.com/contest/weekly-contest-378/submissions/detail/1132663925/
+/// https://leetcode.com/contest/weekly-contest-378/submissions/detail/1132666615/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public int MaximumLength(string s)
     {
@@ -36,7 +35,7 @@ public class Solution1 : ISolution
 
             for (var subLength = length; subLength > Math.Max(ans, 0); subLength--)
             {
-                var key = (letter, length);
+                var key = (letter, subLength);
                 counts.TryAdd(key, 0);
                 counts[key]++;
 

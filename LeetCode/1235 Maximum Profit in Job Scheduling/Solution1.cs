@@ -6,6 +6,7 @@ namespace LeetCode._1235_Maximum_Profit_in_Job_Scheduling;
 /// https://leetcode.com/submissions/detail/850345743/
 /// </summary>
 [UsedImplicitly]
+[SkipSolution(SkipSolutionReason.StackOverflow)]
 public class Solution1 : ISolution
 {
     public int JobScheduling(int[] startTime, int[] endTime, int[] profit)

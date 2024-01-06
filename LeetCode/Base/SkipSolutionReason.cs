@@ -6,5 +6,6 @@ public enum SkipSolutionReason
     WrongAnswer,
     TimeLimitExceeded,
     MemoryLimitExceeded,
-    NotImplemented
+    NotImplemented,
+    StackOverflow
 }

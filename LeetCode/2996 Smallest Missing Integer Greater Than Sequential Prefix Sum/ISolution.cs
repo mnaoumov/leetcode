@@ -1,0 +1,9 @@
+using JetBrains.Annotations;
+
+namespace LeetCode._2996_Smallest_Missing_Integer_Greater_Than_Sequential_Prefix_Sum;
+
+[PublicAPI]
+public interface ISolution
+{
+    public int MissingInteger(int[] nums);
+}

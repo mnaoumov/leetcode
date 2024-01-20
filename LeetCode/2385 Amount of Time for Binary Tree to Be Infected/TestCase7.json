@@ -1,0 +1,5 @@
+{
+  "root": [5,2,3,4,null,null,null,1],
+  "start": 4,
+  "output": 3
+}

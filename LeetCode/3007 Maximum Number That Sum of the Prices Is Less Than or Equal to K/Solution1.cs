@@ -20,7 +20,6 @@ public class Solution1 : ISolution
             var mid = min + (max - min >> 1);
 
             var t = 1L;
-            var sum = 0L;
 
             while (t <= mid)
             {

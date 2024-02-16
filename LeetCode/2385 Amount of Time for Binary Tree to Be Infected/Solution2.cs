@@ -13,7 +13,7 @@ public class Solution2 : ISolution
     {
         TreeNode? otherChild;
         var distanceFromRoot = 0;
-        TreeNode? startNode = null;
+        TreeNode? startNode;
 
         if (root.val == start)
         {

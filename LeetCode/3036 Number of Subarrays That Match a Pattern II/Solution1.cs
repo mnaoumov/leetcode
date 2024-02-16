@@ -56,11 +56,13 @@ public class Solution1 : ISolution
                 break;
             }
 
-            if (matched)
+            if (!matched)
             {
-                ans++;
-                i = i + m - prefixes[m];
+                continue;
             }
+
+            ans++;
+            i = i + m - prefixes[m];
         }
 
         return ans;

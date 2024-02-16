@@ -6,28 +6,11 @@ namespace LeetCode._3007_Maximum_Number_That_Sum_of_the_Prices_Is_Less_Than_or_E
 /// TODO url
 /// </summary>
 [UsedImplicitly]
+[SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution
 {
     public long FindMaximumNumber(long k, int x)
     {
-        var i = 1 << x - 1;
-
-        var min = 1;
-        var max = long.MaxValue;
-
-        while (min <= max)
-        {
-            var mid = min + (max - min >> 1);
-
-            var t = 1L;
-
-            while (t <= mid)
-            {
-
-                t *= 2;
-            }
-        }
-
-        return 0;
+        throw new NotImplementedException();
     }
 }

@@ -83,8 +83,8 @@ public abstract partial class TestsBase
             message += "\r\n";
         }
 
-        Assert.That(actual, Is.EqualTo(expected), "{0}Actual:\r\n{1}\r\n\r\nExpected:\r\n{2}\r\n\r\n",
-            message, JsonConvert.SerializeObject(actual), JsonConvert.SerializeObject(expected));
+        Assert.That(actual, Is.EqualTo(expected),
+            $"{message}Actual:\r\n{JsonConvert.SerializeObject(actual)}\r\n\r\nExpected:\r\n{JsonConvert.SerializeObject(expected)}\r\n\r\n");
     }
 
     protected static void AssertCollectionEqualWithDetails<T>(IEnumerable<T> actual, IEnumerable<T> expected,

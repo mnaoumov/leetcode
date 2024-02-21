@@ -1,0 +1,9 @@
+using JetBrains.Annotations;
+
+namespace LeetCode._3043_Find_the_Length_of_the_Longest_Common_Prefix;
+
+[PublicAPI]
+public interface ISolution
+{
+    public int LongestCommonPrefix(int[] arr1, int[] arr2);
+}

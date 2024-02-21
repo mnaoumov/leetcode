@@ -33,7 +33,7 @@ public class Solution1 : ISolution
     private class TrieNode
     {
         private readonly Dictionary<char, TrieNode> _childNodes = new();
-        private List<int> WordIndices { get; set; } = new();
+        private List<int> WordIndices { get; } = new();
         
         public void Add(string word, int wordIndex, ISet<(int index, int index2)> indexPairs)
         {

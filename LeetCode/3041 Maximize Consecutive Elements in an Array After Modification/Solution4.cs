@@ -13,12 +13,6 @@ public class Solution4 : ISolution
 
         var n = nums.Length;
 
-        for (var i = 0; i < n; i++)
-        {
-            
-        }
-
-
         var sequenceLengthsIfKeep = new int[n];
         var sequenceLengthsIfIncrease = new int[n];
 

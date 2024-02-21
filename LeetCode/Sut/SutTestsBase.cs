@@ -41,7 +41,7 @@ public abstract class SutTestsBase<TSolution, TSut> : TestsBase<TSolution, SutTe
                 }
                 else if (expectedJson["isEquivalentTo"] is { } isEquivalentToJson)
                 {
-                    var values = isEquivalentToJson.ToObject<object[]>();
+                    var values = isEquivalentToJson.ToObject<object[]>()!;
                     Assert.That(actual, Is.EquivalentTo(values), assertMessage);
                 }
                 else

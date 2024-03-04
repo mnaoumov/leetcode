@@ -50,7 +50,7 @@ public class Solution3 : ISolution
         private readonly Dictionary<T, T> _roots = new();
         private readonly Dictionary<T, int> _ranks = new();
 
-        public T Find(T x) => _roots.GetValueOrDefault(x, x).Equals(x) ? x : _roots[x] = Find(_roots[x]);
+        private T Find(T x) => _roots.GetValueOrDefault(x, x).Equals(x) ? x : _roots[x] = Find(_roots[x]);
 
         public void Union(T x, T y)
         {

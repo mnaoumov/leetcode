@@ -79,7 +79,7 @@ public class Solution1 : ISolution
         var numsDict = Enumerable.Range(0, n).ToDictionary(i => i + 1, i => nums[i]);
         return dp.GetOrCalculate((1, "", BuildCountsStr(numsDict)));
 
-        int[] ParseArray(string arrayStr) =>
+        IEnumerable<int> ParseArray(string arrayStr) =>
             arrayStr.Split(',', StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
         string Join(IEnumerable<int> values) => string.Join(",", values);
 

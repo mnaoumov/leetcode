@@ -3,11 +3,11 @@ using JetBrains.Annotations;
 namespace LeetCode._3077_Maximum_Strength_of_K_Disjoint_Subarrays;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/1199696384/
+/// https://leetcode.com/submissions/detail/1199702470/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution4 : ISolution
+[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
+public class Solution5 : ISolution
 {
     public long MaximumStrength(int[] nums, int k)
     {
@@ -35,7 +35,7 @@ public class Solution4 : ISolution
                 ans = recursiveFunc((index + 1, resultIndex, true));
             }
 
-            var sum = nums[index] * (k - resultIndex + 1) * (resultIndex % 2 == 1 ? 1 : -1);
+            var sum = 1L * nums[index] * (k - resultIndex + 1) * (resultIndex % 2 == 1 ? 1 : -1);
             var nextResult = recursiveFunc((index + 1, resultIndex, false));
 
             if (nextResult != impossible)

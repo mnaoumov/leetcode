@@ -1,0 +1,6 @@
+{
+  "nums": [1,1],
+  "k": 1,
+  "maxChanges": 2,
+  "output": 0
+}

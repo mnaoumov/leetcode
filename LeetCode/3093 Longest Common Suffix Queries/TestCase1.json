@@ -1,0 +1,5 @@
+{
+  "wordsContainer": ["abcd","bcd","xbcd"],
+  "wordsQuery": ["cd","bcd","xyz"],
+  "output": [1,1,1]
+}

@@ -1,0 +1,5 @@
+{
+  "wordsContainer": ["abcdefgh","poiuygh","ghghgh"],
+  "wordsQuery": ["gh","acbfgh","acbfegh"],
+  "output": [2,0,2]
+}

@@ -3,11 +3,9 @@ using JetBrains.Annotations;
 namespace LeetCode._3086_Minimum_Moves_to_Pick_K_Ones;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/1206929889/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution7 : ISolution
+public class Solution8 : ISolution
 {
     public long MinimumMoves(int[] nums, int k, int maxChanges)
     {

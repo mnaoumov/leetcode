@@ -1,0 +1,18 @@
+using JetBrains.Annotations;
+
+namespace LeetCode._0442_Find_All_Duplicates_in_an_Array;
+
+[UsedImplicitly]
+public class Tests : TestsBase<ISolution, Tests.TestCase>
+{
+    protected override void TestImpl(ISolution solution, TestCase testCase)
+    {
+        AssertCollectionEquivalentWithDetails(solution.FindDuplicates(testCase.Nums), testCase.Output);
+    }
+
+    public class TestCase : TestCaseBase
+    {
+        public int[] Nums { get; [UsedImplicitly] init; } = null!;
+        public IList<int> Output { get; [UsedImplicitly] init; } = null!;
+    }
+}

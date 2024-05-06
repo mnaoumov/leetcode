@@ -29,12 +29,12 @@ public class Solution08 : ISolution
 
             _time++;
 
-            if (!_dictionary.ContainsKey(key))
+            if (!_dictionary.TryGetValue(key, out var value1))
             {
                 return notFound;
             }
 
-            var (value, _) = _dictionary[key];
+            var (value, _) = value1;
             _dictionary[key] = (value, _time);
             return value;
 

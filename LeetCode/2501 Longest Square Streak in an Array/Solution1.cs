@@ -27,14 +27,14 @@ public class Solution1 : ISolution
                 return streak;
             }
 
-            if (!counts.ContainsKey(num))
+            if (!counts.TryGetValue(num, out var count))
             {
                 return streaks[num] = 0;
             }
 
             if (num is 0 or 1)
             {
-                return streaks[num] = counts[num];
+                return streaks[num] = count;
             }
 
             if (num > limit || num < -limit)

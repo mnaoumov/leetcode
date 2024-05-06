@@ -28,12 +28,11 @@ public class Solution12 : ISolution
 
         public int Get(int key)
         {
-            if (!_dict.ContainsKey(key))
+            if (!_dict.TryGetValue(key, out var value))
             {
                 return -1;
             }
 
-            var value = _dict[key];
             Put(key, value);
             return value;
         }

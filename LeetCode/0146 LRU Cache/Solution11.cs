@@ -27,12 +27,12 @@ public class Solution11 : ISolution
         {
             const int notFound = -1;
 
-            if (!_dictionary.ContainsKey(key))
+            if (!_dictionary.TryGetValue(key, out var value1))
             {
                 return notFound;
             }
 
-            var value = _dictionary[key].value;
+            var value = value1.value;
             Put(key, value);
             return value;
 

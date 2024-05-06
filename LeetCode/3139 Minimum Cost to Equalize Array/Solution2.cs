@@ -33,6 +33,7 @@ public class Solution2 : ISolution
 
         cost2 = Math.Min(cost2, 2 * cost1);
 
+        // ReSharper disable once InvertIf
         if ((n - 1) * cost2 < (n - 2) * cost1)
         {
             while (diffs[^1] > n - 1)

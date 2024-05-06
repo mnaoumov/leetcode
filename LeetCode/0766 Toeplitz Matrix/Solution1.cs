@@ -21,11 +21,11 @@ public class Solution1 : ISolution
             {
                 var diff = i - j;
 
-                if (!diffDict.ContainsKey(diff))
+                if (!diffDict.TryGetValue(diff, out var value))
                 {
                     diffDict[diff] = matrix[i][j];
                 }
-                else if (diffDict[diff] != matrix[i][j])
+                else if (value != matrix[i][j])
                 {
                     return false;
                 }

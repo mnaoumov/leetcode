@@ -25,12 +25,10 @@ public class Solution4 : ISolution
 
             var nextNum = num + diff;
 
-            if (!numIndicesMap.ContainsKey(nextNum))
+            if (!numIndicesMap.TryGetValue(nextNum, out var indices))
             {
                 return 0;
             }
-
-            var indices = numIndicesMap[nextNum];
 
             var position = Array.BinarySearch(indices, minIndex);
 

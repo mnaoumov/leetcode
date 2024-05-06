@@ -74,7 +74,6 @@ public class Solution1 : ISolution
         private readonly HashSet<T> _seen = new();
         private readonly HashSet<T> _processing = new();
         private readonly DirectedGraph<T> _graph;
-        private readonly Stack<T> _order = new();
 
         public TopologicalSort(DirectedGraph<T> graph)
         {
@@ -115,7 +114,6 @@ public class Solution1 : ISolution
                 return false;
             }
 
-            _order.Push(node);
             _processing.Remove(node);
             return true;
         }

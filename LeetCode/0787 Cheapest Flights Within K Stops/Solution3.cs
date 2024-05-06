@@ -54,12 +54,12 @@ public class Solution3 : ISolution
                 continue;
             }
 
-            if (!flightFromMap.ContainsKey(from))
+            if (!flightFromMap.TryGetValue(from, out var value))
             {
                 continue;
             }
 
-            foreach (var (to, price) in flightFromMap[from])
+            foreach (var (to, price) in value)
             {
                 queue.Enqueue((to, totalPrice + price, stopsCount + 1));
             }

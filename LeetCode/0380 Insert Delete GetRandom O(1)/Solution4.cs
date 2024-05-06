@@ -33,12 +33,10 @@ public class Solution4 : ISolution
 
         public bool Remove(int val)
         {
-            if (!_valueIndexMap.ContainsKey(val))
+            if (!_valueIndexMap.TryGetValue(val, out var index))
             {
                 return false;
             }
-
-            var index = _valueIndexMap[val];
 
             if (index < _list.Count - 1)
             {

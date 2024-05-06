@@ -40,12 +40,12 @@ public class Solution2 : ISolution
 
                 component.Add(node);
 
-                if (!neighbors.ContainsKey(node))
+                if (!neighbors.TryGetValue(node, out var neighbor1))
                 {
                     continue;
                 }
 
-                foreach (var neighbor in neighbors[node])
+                foreach (var neighbor in neighbor1)
                 {
                     queue.Enqueue(neighbor);
                 }
@@ -112,12 +112,12 @@ public class Solution2 : ISolution
                 visited2[node] = level;
                 maxLevel = Math.Max(maxLevel, level);
 
-                if (!neighbors.ContainsKey(node))
+                if (!neighbors.TryGetValue(node, out var neighbor1))
                 {
                     continue;
                 }
 
-                foreach (var neighbor in neighbors[node])
+                foreach (var neighbor in neighbor1)
                 {
                     queue.Enqueue((neighbor, level + 1));
                 }

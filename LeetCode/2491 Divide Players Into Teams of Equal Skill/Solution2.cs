@@ -34,12 +34,12 @@ public class Solution2 : ISolution
             var count = countMap[skill];
             var otherSkill = sum - skill;
 
-            if (!countMap.ContainsKey(otherSkill))
+            if (!countMap.TryGetValue(otherSkill, out var value))
             {
                 return impossible;
             }
 
-            if (countMap[otherSkill] != count)
+            if (value != count)
             {
                 return impossible;
             }

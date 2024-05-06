@@ -21,7 +21,7 @@ public class Solution1 : ISolution
 
         foreach (var (letter, word) in pattern.Zip(words))
         {
-            if (!map.ContainsKey(letter))
+            if (!map.TryGetValue(letter, out var value))
             {
                 if (!mappedWords.Add(word))
                 {
@@ -32,7 +32,7 @@ public class Solution1 : ISolution
             }
             else
             {
-                if (map[letter] != word)
+                if (value != word)
                 {
                     return false;
                 }

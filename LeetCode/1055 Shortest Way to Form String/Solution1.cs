@@ -15,12 +15,11 @@ public class Solution1 : ISolution
         var lastIndex = -1;
         foreach (var letter in target)
         {
-            if (!letterIndicesMap.ContainsKey(letter))
+            if (!letterIndicesMap.TryGetValue(letter, out var indices))
             {
                 return -1;
             }
 
-            var indices = letterIndicesMap[letter];
             var indexOfIndex = Array.BinarySearch(indices, lastIndex + 1);
             if (indexOfIndex < 0)
             {

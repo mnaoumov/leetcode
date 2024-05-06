@@ -54,12 +54,12 @@ public class Solution2 : ISolution
                 var digit = s[right] - '0';
                 value = value << 1 | digit;
 
-                if (!valueIndicesMap.ContainsKey(value))
+                if (!valueIndicesMap.TryGetValue(value, out var value1))
                 {
                     continue;
                 }
 
-                foreach (var index in valueIndicesMap[value])
+                foreach (var index in value1)
                 {
                     ans[index] = new[] { left, right };
                 }

@@ -26,9 +26,11 @@ public class Solution2 : ISolution
             }
 
             var blocks1MinCount = value1Count / limit;
+            // ReSharper disable once InlineTemporaryVariable
             var blocks1MaxCount = value1Count;
 
             var blocks2MinCount = value2Count / limit;
+            // ReSharper disable once InlineTemporaryVariable
             var blocks2MaxCount = value2Count;
 
             if (Math.Max(blocks2MinCount, blocks1MinCount) > Math.Min(blocks2MaxCount, blocks1MaxCount) &&

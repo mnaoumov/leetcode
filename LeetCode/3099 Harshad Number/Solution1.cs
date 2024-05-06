@@ -20,6 +20,6 @@ public class Solution1 : ISolution
             temp /= 10;
         }
 
-        return x % digitsSum == 0 ? digitsSum : -1;
+        return digitsSum > 0 && x % digitsSum == 0 ? digitsSum : -1;
     }
 }

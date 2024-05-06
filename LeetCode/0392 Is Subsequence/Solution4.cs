@@ -19,12 +19,11 @@ public class Solution4 : ISolution
 
         foreach (var sLetter in s)
         {
-            if (!tLetterIndicesMap.ContainsKey(sLetter))
+            if (!tLetterIndicesMap.TryGetValue(sLetter, out var letterIndices))
             {
                 return false;
             }
 
-            var letterIndices = tLetterIndicesMap[sLetter];
             var nextIndexOfIndices = Array.BinarySearch(letterIndices, tIndex + 1);
 
             if (nextIndexOfIndices < 0)

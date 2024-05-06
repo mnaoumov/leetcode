@@ -15,19 +15,14 @@ public class Solution5 : ISolution
 
         var oneIndices = Enumerable.Range(0, n).Where(i => nums[i] == 1).ToArray();
 
-        if (k == 1)
+        switch (k)
         {
-            return oneIndices.Length > 0 ? 0 : 2;
-        }
-
-        if (k == 2 && oneIndices.Length >= 2 && oneIndices.Any(index => index < n - 1 && nums[index + 1] == 1))
-        {
-            return 1;
-        }
-
-        if (k == 3 && oneIndices.Length >= 3 && oneIndices.Any(index => index < n - 2 && nums[index + 1] == 1 && nums[index + 2] == 1))
-        {
-            return 2;
+            case 1:
+                return oneIndices.Length > 0 ? 0 : 2;
+            case 2 when oneIndices.Length >= 2 && oneIndices.Any(index => index < n - 1 && nums[index + 1] == 1):
+                return 1;
+            case 3 when oneIndices.Length >= 3 && oneIndices.Any(index => index < n - 2 && nums[index + 1] == 1 && nums[index + 2] == 1):
+                return 2;
         }
 
         var ans = long.MaxValue;

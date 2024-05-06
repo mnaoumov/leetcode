@@ -14,38 +14,19 @@ public class Solution3 : ISolution
 
         var node = rootNode;
 
+        // ReSharper disable once ForeachCanBeConvertedToQueryUsingAnotherGetEnumerator
         foreach (var symbol in s)
         {
-            switch (symbol)
+            node = symbol switch
             {
-                case '0':
-                case '1':
-                case '2':
-                case '3':
-                case '4':
-                case '5':
-                case '6':
-                case '7':
-                case '8':
-                case '9':
-                    node = node.ProcessDigit(symbol - '0');
-                    break;
-                case '+':
-                    node = node.ProcessPlus();
-                    break;
-                case '-':
-                    node = node.ProcessMinus();
-                    break;
-                case '(':
-                    node = node.ProcessOpenBracket();
-                    break;
-                case ')':
-                    node = node.ProcessClosedBracket();
-                    break;
-                case ' ':
-                    node = node.ProcessSpace();
-                    break;
-            }
+                '0' or '1' or '2' or '3' or '4' or '5' or '6' or '7' or '8' or '9' => node.ProcessDigit(symbol - '0'),
+                '+' => node.ProcessPlus(),
+                '-' => node.ProcessMinus(),
+                '(' => node.ProcessOpenBracket(),
+                ')' => node.ProcessClosedBracket(),
+                ' ' => node.ProcessSpace(),
+                _ => node
+            };
         }
 
         return rootNode.Calculate();

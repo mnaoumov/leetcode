@@ -32,12 +32,12 @@ public class Solution02 : ISolution
 
             _time++;
 
-            if (!_dictionary.ContainsKey(key))
+            if (!_dictionary.TryGetValue(key, out var value1))
             {
                 return notFound;
             }
 
-            var (value, time) = _dictionary[key];
+            var (value, time) = value1;
             _dictionary[key] = (value, _time);
             _timeToKeys.Remove(time);
             _timeToKeys.Add(_time, key);

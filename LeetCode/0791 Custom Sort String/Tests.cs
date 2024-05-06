@@ -17,7 +17,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         {
             var letter1 = sorted[i];
 
-            if (!letterIndexMap.ContainsKey(letter1))
+            if (!letterIndexMap.TryGetValue(letter1, out var value))
             {
                 continue;
             }
@@ -26,12 +26,12 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
             {
                 var letter2 = sorted[j];
 
-                if (!letterIndexMap.ContainsKey(letter2))
+                if (!letterIndexMap.TryGetValue(letter2, out var value1))
                 {
                     continue;
                 }
 
-                Assert.That(letterIndexMap[letter1], Is.LessThanOrEqualTo(letterIndexMap[letter2]));
+                Assert.That(value, Is.LessThanOrEqualTo(value1));
             }
         }
     }

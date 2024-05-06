@@ -70,9 +70,16 @@ public class TreeNode
 
     public override string ToString()
     {
-        var values = new List<string>();
-        TraverseByLevel(this, node => values.Add(node == null ? "null" : node.val.ToString()));
-        return string.Join(",", values);
+        var valuesStr = GetValues(this).Select(value => value == null ? "null" : value.ToString());
+        return string.Join(",", valuesStr);
+    }
+
+    // ReSharper disable once ReturnTypeCanBeEnumerable.Local
+    private static int?[] GetValues(TreeNode? treeNode)
+    {
+        var values = new List<int?>();
+        TraverseByLevel(treeNode, node => values.Add(node?.val));
+        return values.ToArray();
     }
 
     private static void TraverseByLevel(TreeNode? node, Action<TreeNode?> treeAction)
@@ -80,29 +87,29 @@ public class TreeNode
         var queue = new Queue<TreeNode?>();
         queue.Enqueue(node);
 
+        var nullsCount = 0;
+
         while (queue.Count > 0)
         {
             node = queue.Dequeue();
-            treeAction(node);
 
             if (node == null)
             {
+                nullsCount++;
                 continue;
             }
 
-            if (node.left != null)
+            for (var i = 0; i < nullsCount; i++)
             {
-                queue.Enqueue(node.left);
-            }
-            else if (node.right != null)
-            {
-                queue.Enqueue(null);
+                treeAction(null);
             }
 
-            if (node.right != null)
-            {
-                queue.Enqueue(node.right);
-            }
+            nullsCount = 0;
+
+            treeAction(node);
+
+            queue.Enqueue(node.left);
+            queue.Enqueue(node.right);
         }
     }
 

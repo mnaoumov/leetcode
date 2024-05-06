@@ -65,9 +65,8 @@ public class TreeNode
 
     public override bool Equals(object? obj) => obj is TreeNode treeNode && Equals((val, left, right), (treeNode.val, treeNode.left, treeNode.right));
 
-    // ReSharper disable NonReadonlyMemberInGetHashCode
-    public override int GetHashCode() => (val, left, right).GetHashCode();
-    // ReSharper restore NonReadonlyMemberInGetHashCode
+    // ReSharper disable once BaseObjectGetHashCodeCallInGetHashCode
+    public override int GetHashCode() => base.GetHashCode();
 
     public override string ToString()
     {

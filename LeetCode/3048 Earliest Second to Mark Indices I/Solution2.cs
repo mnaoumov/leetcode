@@ -5,6 +5,7 @@ namespace LeetCode._3048_Earliest_Second_to_Mark_Indices_I;
 /// <summary>
 /// </summary>
 [UsedImplicitly]
+[SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution2 : ISolution
 {
     public int EarliestSecondToMarkIndices(int[] nums, int[] changeIndices)

@@ -4,6 +4,7 @@ using NUnit.Framework;
 namespace LeetCode._3117_Minimum_Sum_of_Values_by_Dividing_Array;
 
 [UsedImplicitly]
+[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

@@ -4,6 +4,7 @@ using NUnit.Framework;
 namespace LeetCode._3041_Maximize_Consecutive_Elements_in_an_Array_After_Modification;
 
 [UsedImplicitly]
+[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

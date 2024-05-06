@@ -5,6 +5,7 @@ namespace LeetCode._3086_Minimum_Moves_to_Pick_K_Ones;
 /// <summary>
 /// </summary>
 [UsedImplicitly]
+[SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution8 : ISolution
 {
     public long MinimumMoves(int[] nums, int k, int maxChanges)

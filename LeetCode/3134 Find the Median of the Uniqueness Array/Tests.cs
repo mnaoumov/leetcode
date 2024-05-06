@@ -4,6 +4,7 @@ using NUnit.Framework;
 namespace LeetCode._3134_Find_the_Median_of_the_Uniqueness_Array;
 
 [UsedImplicitly]
+[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

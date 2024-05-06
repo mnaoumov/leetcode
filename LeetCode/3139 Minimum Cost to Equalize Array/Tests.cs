@@ -4,6 +4,7 @@ using NUnit.Framework;
 namespace LeetCode._3139_Minimum_Cost_to_Equalize_Array;
 
 [UsedImplicitly]
+[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

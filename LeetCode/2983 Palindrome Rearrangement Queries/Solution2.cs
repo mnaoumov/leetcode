@@ -5,6 +5,7 @@ namespace LeetCode._2983_Palindrome_Rearrangement_Queries;
 /// <summary>
 /// </summary>
 [UsedImplicitly]
+[SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution2 : ISolution
 {
     public bool[] CanMakePalindromeQueries(string s, int[][] queries)

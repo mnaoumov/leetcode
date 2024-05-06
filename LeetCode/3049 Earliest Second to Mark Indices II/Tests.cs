@@ -4,6 +4,7 @@ using NUnit.Framework;
 namespace LeetCode._3049_Earliest_Second_to_Mark_Indices_II;
 
 [UsedImplicitly]
+[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

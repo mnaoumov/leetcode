@@ -5,6 +5,7 @@ namespace LeetCode._3041_Maximize_Consecutive_Elements_in_an_Array_After_Modific
 /// <summary>
 /// </summary>
 [UsedImplicitly]
+[SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution4 : ISolution
 {
     public int MaxSelectedElements(int[] nums)

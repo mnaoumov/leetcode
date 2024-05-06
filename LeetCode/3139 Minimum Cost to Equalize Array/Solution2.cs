@@ -5,6 +5,7 @@ namespace LeetCode._3139_Minimum_Cost_to_Equalize_Array;
 /// <summary>
 /// </summary>
 [UsedImplicitly]
+[SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution2 : ISolution
 {
     public int MinCostToEqualizeArray(int[] nums, int cost1, int cost2)

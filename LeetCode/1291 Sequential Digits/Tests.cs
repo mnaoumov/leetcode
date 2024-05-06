@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using NUnit.Framework;
 
 namespace LeetCode._1291_Sequential_Digits;
 

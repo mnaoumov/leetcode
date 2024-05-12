@@ -21,16 +21,7 @@ public class Solution1 : ISolution
             totalCountByPower[i] = (1L << i) + 2 * totalCountByPower[i];
         }
 
-        var totalPowerOfTwoDp = new DynamicProgramming<long, long>((index, _) =>
-        {
-            if (index == -1)
-            {
-                return 0;
-            }
-
-            return 0;
-        });
-
+        var totalPowerOfTwoDp = new DynamicProgramming<long, long>((_, _) => 0);
 
         return queries.Select(query => Calculate(query[0], query[1], query[2])).ToArray();
 

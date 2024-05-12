@@ -93,6 +93,7 @@ public class Solution1 : ISolution
             obj is HashableImmutableArray<T> other && _items.SequenceEqual(other._items);
 
         IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
+        // ReSharper disable once NotDisposedResourceIsReturned
         public IEnumerator<T> GetEnumerator() => _items.AsEnumerable().GetEnumerator();
         public int Count => _items.Length;
         public T this[int index] => _items[index];

@@ -110,9 +110,9 @@ public abstract partial class TestsBase
 
     protected static string? GetProblemDirectory(Type problemRelatedType)
     {
-        var namespacePart = problemRelatedType.Namespace!.Replace("LeetCode._", "");
+        var namespacePart = problemRelatedType.Namespace!.Replace("LeetCode.Problems._", "");
         var problemNumber = namespacePart.Split('_')[0];
-        var problemTestCaseDirectory = Directory.GetDirectories(".", $"{problemNumber} *").FirstOrDefault(dir =>
+        var problemTestCaseDirectory = Directory.GetDirectories("Problems", $"{problemNumber} *").FirstOrDefault(dir =>
         {
             var name = dir.Split('\\')[^1];
             var escapedName = CharactersToEscapeRegex().Replace(name, "_");

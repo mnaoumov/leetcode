@@ -1,5 +1,5 @@
-using NUnit.Framework;
 using JetBrains.Annotations;
+using NUnit.Framework;
 
 namespace LeetCode._0000_Calculate_Entropy;
 

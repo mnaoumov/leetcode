@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0448_Find_All_Numbers_Disappeared_in_an_Array;
+namespace LeetCode.Problems._0448_Find_All_Numbers_Disappeared_in_an_Array;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

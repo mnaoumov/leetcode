@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2544_Alternating_Digit_Sum;
+namespace LeetCode.Problems._2544_Alternating_Digit_Sum;
 
 [PublicAPI]
 public interface ISolution

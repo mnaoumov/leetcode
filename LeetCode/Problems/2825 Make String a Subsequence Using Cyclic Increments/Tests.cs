@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2825_Make_String_a_Subsequence_Using_Cyclic_Increments;
+namespace LeetCode.Problems._2825_Make_String_a_Subsequence_Using_Cyclic_Increments;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

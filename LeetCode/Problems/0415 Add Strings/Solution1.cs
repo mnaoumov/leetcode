@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._0415_Add_Strings;
+namespace LeetCode.Problems._0415_Add_Strings;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/934908582/

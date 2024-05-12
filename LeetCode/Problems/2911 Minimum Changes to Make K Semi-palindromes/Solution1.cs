@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2911_Minimum_Changes_to_Make_K_Semi_palindromes;
+namespace LeetCode.Problems._2911_Minimum_Changes_to_Make_K_Semi_palindromes;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1081073022/

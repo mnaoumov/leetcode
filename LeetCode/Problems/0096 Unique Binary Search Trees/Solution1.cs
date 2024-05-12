@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0096_Unique_Binary_Search_Trees;
+namespace LeetCode.Problems._0096_Unique_Binary_Search_Trees;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/196696740/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0371_Sum_of_Two_Integers;
+namespace LeetCode.Problems._0371_Sum_of_Two_Integers;
 
 [PublicAPI]
 public interface ISolution

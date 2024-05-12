@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3080_Mark_Elements_on_Array_by_Performing_Queries;
+namespace LeetCode.Problems._3080_Mark_Elements_on_Array_by_Performing_Queries;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0566_Reshape_the_Matrix;
+namespace LeetCode.Problems._0566_Reshape_the_Matrix;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

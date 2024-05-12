@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2486_Append_Characters_to_String_to_Make_Subsequence;
+namespace LeetCode.Problems._2486_Append_Characters_to_String_to_Make_Subsequence;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/850794200/

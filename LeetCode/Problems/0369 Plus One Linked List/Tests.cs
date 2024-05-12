@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._0369_Plus_One_Linked_List;
+namespace LeetCode.Problems._0369_Plus_One_Linked_List;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

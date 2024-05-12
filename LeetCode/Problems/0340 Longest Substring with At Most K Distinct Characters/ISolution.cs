@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0340_Longest_Substring_with_At_Most_K_Distinct_Characters;
+namespace LeetCode.Problems._0340_Longest_Substring_with_At_Most_K_Distinct_Characters;
 
 [PublicAPI]
 public interface ISolution

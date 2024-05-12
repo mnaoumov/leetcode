@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0567_Permutation_in_String;
+namespace LeetCode.Problems._0567_Permutation_in_String;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/891012371/

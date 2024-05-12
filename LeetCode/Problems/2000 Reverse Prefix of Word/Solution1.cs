@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._2000_Reverse_Prefix_of_Word;
+namespace LeetCode.Problems._2000_Reverse_Prefix_of_Word;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/898892979/

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1657_Determine_if_Two_Strings_Are_Close;
+namespace LeetCode.Problems._1657_Determine_if_Two_Strings_Are_Close;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

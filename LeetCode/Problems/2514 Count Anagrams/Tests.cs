@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2514_Count_Anagrams;
+namespace LeetCode.Problems._2514_Count_Anagrams;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

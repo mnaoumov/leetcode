@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2130_Maximum_Twin_Sum_of_a_Linked_List;
+namespace LeetCode.Problems._2130_Maximum_Twin_Sum_of_a_Linked_List;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

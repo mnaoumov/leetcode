@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1970_Last_Day_Where_You_Can_Still_Cross;
+namespace LeetCode.Problems._1970_Last_Day_Where_You_Can_Still_Cross;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

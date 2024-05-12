@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1716_Calculate_Money_in_Leetcode_Bank;
+namespace LeetCode.Problems._1716_Calculate_Money_in_Leetcode_Bank;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1113273439/

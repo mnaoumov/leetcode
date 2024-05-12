@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1283_Find_the_Smallest_Divisor_Given_a_Threshold;
+namespace LeetCode.Problems._1283_Find_the_Smallest_Divisor_Given_a_Threshold;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/915116979/

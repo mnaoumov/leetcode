@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2946_Matrix_Similarity_After_Cyclic_Shifts;
+namespace LeetCode.Problems._2946_Matrix_Similarity_After_Cyclic_Shifts;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-373/submissions/detail/1106458692/

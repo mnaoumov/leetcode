@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3028_Ant_on_the_Boundary;
+namespace LeetCode.Problems._3028_Ant_on_the_Boundary;
 
 [PublicAPI]
 public interface ISolution

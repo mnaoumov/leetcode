@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1004_Max_Consecutive_Ones_III;
+namespace LeetCode.Problems._1004_Max_Consecutive_Ones_III;
 
 [PublicAPI]
 public interface ISolution

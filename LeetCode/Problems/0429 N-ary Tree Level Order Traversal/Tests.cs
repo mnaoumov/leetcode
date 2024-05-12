@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0429_N_ary_Tree_Level_Order_Traversal;
+namespace LeetCode.Problems._0429_N_ary_Tree_Level_Order_Traversal;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

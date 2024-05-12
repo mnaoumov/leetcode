@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0075_Sort_Colors;
+namespace LeetCode.Problems._0075_Sort_Colors;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

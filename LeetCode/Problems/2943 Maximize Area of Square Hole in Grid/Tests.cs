@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2943_Maximize_Area_of_Square_Hole_in_Grid;
+namespace LeetCode.Problems._2943_Maximize_Area_of_Square_Hole_in_Grid;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

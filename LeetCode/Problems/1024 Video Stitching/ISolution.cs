@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1024_Video_Stitching;
+namespace LeetCode.Problems._1024_Video_Stitching;
 
 [PublicAPI]
 public interface ISolution

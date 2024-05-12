@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2900_Longest_Unequal_Adjacent_Groups_Subsequence_I;
+namespace LeetCode.Problems._2900_Longest_Unequal_Adjacent_Groups_Subsequence_I;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

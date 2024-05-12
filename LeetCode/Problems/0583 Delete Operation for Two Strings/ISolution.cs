@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0583_Delete_Operation_for_Two_Strings;
+namespace LeetCode.Problems._0583_Delete_Operation_for_Two_Strings;
 
 [PublicAPI]
 public interface ISolution

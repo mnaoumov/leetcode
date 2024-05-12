@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1489_Find_Critical_and_Pseudo_Critical_Edges_in_Minimum_Spanning_Tree;
+namespace LeetCode.Problems._1489_Find_Critical_and_Pseudo_Critical_Edges_in_Minimum_Spanning_Tree;
 
 [PublicAPI]
 public interface ISolution

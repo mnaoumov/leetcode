@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1061_Lexicographically_Smallest_Equivalent_String;
+namespace LeetCode.Problems._1061_Lexicographically_Smallest_Equivalent_String;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

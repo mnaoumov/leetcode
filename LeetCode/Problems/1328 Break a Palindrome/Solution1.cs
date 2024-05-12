@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._1328_Break_a_Palindrome;
+namespace LeetCode.Problems._1328_Break_a_Palindrome;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/819083914/

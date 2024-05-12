@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2746_Decremental_String_Concatenation;
+namespace LeetCode.Problems._2746_Decremental_String_Concatenation;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-107/submissions/detail/978580167/

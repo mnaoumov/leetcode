@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1601_Maximum_Number_of_Achievable_Transfer_Requests;
+namespace LeetCode.Problems._1601_Maximum_Number_of_Achievable_Transfer_Requests;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

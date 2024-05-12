@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3016_Minimum_Number_of_Pushes_to_Type_Word_II;
+namespace LeetCode.Problems._3016_Minimum_Number_of_Pushes_to_Type_Word_II;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

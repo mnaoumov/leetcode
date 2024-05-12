@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0123_Best_Time_to_Buy_and_Sell_Stock_III;
+namespace LeetCode.Problems._0123_Best_Time_to_Buy_and_Sell_Stock_III;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/836268641/

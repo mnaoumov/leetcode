@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2824_Count_Pairs_Whose_Sum_is_Less_than_Target;
+namespace LeetCode.Problems._2824_Count_Pairs_Whose_Sum_is_Less_than_Target;
 
 [PublicAPI]
 public interface ISolution

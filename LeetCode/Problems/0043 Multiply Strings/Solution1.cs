@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0043_Multiply_Strings;
+namespace LeetCode.Problems._0043_Multiply_Strings;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/814690396/

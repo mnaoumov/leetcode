@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0010_Regular_Expression_Matching;
+namespace LeetCode.Problems._0010_Regular_Expression_Matching;
 
 [PublicAPI]
 public interface ISolution

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0857_Minimum_Cost_to_Hire_K_Workers;
+namespace LeetCode.Problems._0857_Minimum_Cost_to_Hire_K_Workers;
 
 [PublicAPI]
 public interface ISolution

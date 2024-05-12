@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2788_Split_Strings_by_Separator;
+namespace LeetCode.Problems._2788_Split_Strings_by_Separator;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-355/submissions/detail/1001420178/

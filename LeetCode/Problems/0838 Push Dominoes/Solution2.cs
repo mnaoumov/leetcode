@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0838_Push_Dominoes;
+namespace LeetCode.Problems._0838_Push_Dominoes;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/829086444/

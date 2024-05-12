@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0953_Verifying_an_Alien_Dictionary;
+namespace LeetCode.Problems._0953_Verifying_an_Alien_Dictionary;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

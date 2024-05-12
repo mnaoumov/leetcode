@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2574_Left_and_Right_Sum_Differences;
+namespace LeetCode.Problems._2574_Left_and_Right_Sum_Differences;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-334/submissions/detail/904999709/

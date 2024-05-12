@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0689_Maximum_Sum_of_3_Non_Overlapping_Subarrays;
+namespace LeetCode.Problems._0689_Maximum_Sum_of_3_Non_Overlapping_Subarrays;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

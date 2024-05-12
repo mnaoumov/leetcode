@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0261_Graph_Valid_Tree;
+namespace LeetCode.Problems._0261_Graph_Valid_Tree;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/931497000/

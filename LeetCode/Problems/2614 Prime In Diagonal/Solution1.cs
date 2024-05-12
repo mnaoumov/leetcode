@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2614_Prime_In_Diagonal;
+namespace LeetCode.Problems._2614_Prime_In_Diagonal;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-340/submissions/detail/930421326/

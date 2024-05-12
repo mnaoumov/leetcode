@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1239_Maximum_Length_of_a_Concatenated_String_with_Unique_Characters;
+namespace LeetCode.Problems._1239_Maximum_Length_of_a_Concatenated_String_with_Unique_Characters;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/829000423/

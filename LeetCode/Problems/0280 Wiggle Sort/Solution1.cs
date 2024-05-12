@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0280_Wiggle_Sort;
+namespace LeetCode.Problems._0280_Wiggle_Sort;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/893747494/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0041_First_Missing_Positive;
+namespace LeetCode.Problems._0041_First_Missing_Positive;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/814399148/

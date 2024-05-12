@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0542_01_Matrix;
+namespace LeetCode.Problems._0542_01_Matrix;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

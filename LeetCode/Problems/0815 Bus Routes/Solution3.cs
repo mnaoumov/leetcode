@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0815_Bus_Routes;
+namespace LeetCode.Problems._0815_Bus_Routes;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/939115111/

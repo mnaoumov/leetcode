@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0867_Transpose_Matrix;
+namespace LeetCode.Problems._0867_Transpose_Matrix;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1116493981/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0506_Relative_Ranks;
+namespace LeetCode.Problems._0506_Relative_Ranks;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

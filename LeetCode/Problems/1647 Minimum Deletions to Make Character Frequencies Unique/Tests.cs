@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1647_Minimum_Deletions_to_Make_Character_Frequencies_Unique;
+namespace LeetCode.Problems._1647_Minimum_Deletions_to_Make_Character_Frequencies_Unique;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

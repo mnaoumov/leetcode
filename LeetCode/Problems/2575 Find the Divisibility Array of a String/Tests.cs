@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._2575_Find_the_Divisibility_Array_of_a_String;
+namespace LeetCode.Problems._2575_Find_the_Divisibility_Array_of_a_String;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

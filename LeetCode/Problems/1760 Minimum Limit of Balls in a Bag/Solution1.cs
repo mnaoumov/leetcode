@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1760_Minimum_Limit_of_Balls_in_a_Bag;
+namespace LeetCode.Problems._1760_Minimum_Limit_of_Balls_in_a_Bag;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/930988558/

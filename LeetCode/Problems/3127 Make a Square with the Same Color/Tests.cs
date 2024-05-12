@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3127_Make_a_Square_with_the_Same_Color;
+namespace LeetCode.Problems._3127_Make_a_Square_with_the_Same_Color;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

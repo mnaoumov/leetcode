@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1427_Perform_String_Shifts;
+namespace LeetCode.Problems._1427_Perform_String_Shifts;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

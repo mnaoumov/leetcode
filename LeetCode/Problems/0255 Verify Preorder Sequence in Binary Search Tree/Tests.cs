@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0255_Verify_Preorder_Sequence_in_Binary_Search_Tree;
+namespace LeetCode.Problems._0255_Verify_Preorder_Sequence_in_Binary_Search_Tree;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0436_Find_Right_Interval;
+namespace LeetCode.Problems._0436_Find_Right_Interval;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/936119437/

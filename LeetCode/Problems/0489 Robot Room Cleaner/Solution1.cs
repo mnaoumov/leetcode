@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0489_Robot_Room_Cleaner;
+namespace LeetCode.Problems._0489_Robot_Room_Cleaner;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/950514652/

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3085_Minimum_Deletions_to_Make_String_K_Special;
+namespace LeetCode.Problems._3085_Minimum_Deletions_to_Make_String_K_Special;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

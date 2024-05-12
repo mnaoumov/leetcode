@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0031_Next_Permutation;
+namespace LeetCode.Problems._0031_Next_Permutation;
 
 [PublicAPI]
 public interface ISolution

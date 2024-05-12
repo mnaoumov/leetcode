@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._0535_Encode_and_Decode_TinyURL;
+namespace LeetCode.Problems._0535_Encode_and_Decode_TinyURL;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2761_Prime_Pairs_With_Target_Sum;
+namespace LeetCode.Problems._2761_Prime_Pairs_With_Target_Sum;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2506_Count_Pairs_Of_Similar_Strings;
+namespace LeetCode.Problems._2506_Count_Pairs_Of_Similar_Strings;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-324/submissions/detail/861385201/

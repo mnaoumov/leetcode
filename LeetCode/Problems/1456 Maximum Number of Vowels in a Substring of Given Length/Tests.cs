@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1456_Maximum_Number_of_Vowels_in_a_Substring_of_Given_Length;
+namespace LeetCode.Problems._1456_Maximum_Number_of_Vowels_in_a_Substring_of_Given_Length;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

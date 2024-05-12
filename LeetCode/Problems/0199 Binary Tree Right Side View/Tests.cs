@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0199_Binary_Tree_Right_Side_View;
+namespace LeetCode.Problems._0199_Binary_Tree_Right_Side_View;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

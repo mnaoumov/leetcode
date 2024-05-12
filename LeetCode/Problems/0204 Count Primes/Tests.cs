@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0204_Count_Primes;
+namespace LeetCode.Problems._0204_Count_Primes;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

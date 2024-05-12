@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3082_Find_the_Sum_of_the_Power_of_All_Subsequences;
+namespace LeetCode.Problems._3082_Find_the_Sum_of_the_Power_of_All_Subsequences;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

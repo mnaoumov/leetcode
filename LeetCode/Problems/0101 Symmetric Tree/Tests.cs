@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._0101_Symmetric_Tree;
+namespace LeetCode.Problems._0101_Symmetric_Tree;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

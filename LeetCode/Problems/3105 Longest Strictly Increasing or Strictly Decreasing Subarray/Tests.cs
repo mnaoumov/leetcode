@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3105_Longest_Strictly_Increasing_or_Strictly_Decreasing_Subarray;
+namespace LeetCode.Problems._3105_Longest_Strictly_Increasing_or_Strictly_Decreasing_Subarray;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

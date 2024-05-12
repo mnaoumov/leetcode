@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._1557_Minimum_Number_of_Vertices_to_Reach_All_Nodes;
+namespace LeetCode.Problems._1557_Minimum_Number_of_Vertices_to_Reach_All_Nodes;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

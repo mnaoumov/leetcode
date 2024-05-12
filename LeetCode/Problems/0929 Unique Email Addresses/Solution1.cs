@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0929_Unique_Email_Addresses;
+namespace LeetCode.Problems._0929_Unique_Email_Addresses;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/924478042/

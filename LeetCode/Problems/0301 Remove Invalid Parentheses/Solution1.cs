@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0301_Remove_Invalid_Parentheses;
+namespace LeetCode.Problems._0301_Remove_Invalid_Parentheses;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/198437890/

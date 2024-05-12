@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3045_Count_Prefix_and_Suffix_Pairs_II;
+namespace LeetCode.Problems._3045_Count_Prefix_and_Suffix_Pairs_II;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-385/submissions/detail/1178498046/

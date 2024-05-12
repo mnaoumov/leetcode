@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2446_Determine_if_Two_Events_Have_Conflict;
+namespace LeetCode.Problems._2446_Determine_if_Two_Events_Have_Conflict;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

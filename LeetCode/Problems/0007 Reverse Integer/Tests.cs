@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0007_Reverse_Integer;
+namespace LeetCode.Problems._0007_Reverse_Integer;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

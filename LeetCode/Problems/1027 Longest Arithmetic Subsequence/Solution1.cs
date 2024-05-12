@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1027_Longest_Arithmetic_Subsequence;
+namespace LeetCode.Problems._1027_Longest_Arithmetic_Subsequence;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/920507726/

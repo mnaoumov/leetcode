@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2421_Number_of_Good_Paths;
+namespace LeetCode.Problems._2421_Number_of_Good_Paths;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

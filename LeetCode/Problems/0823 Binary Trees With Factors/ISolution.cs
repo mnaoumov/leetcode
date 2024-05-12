@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0823_Binary_Trees_With_Factors;
+namespace LeetCode.Problems._0823_Binary_Trees_With_Factors;
 
 [PublicAPI]
 public interface ISolution

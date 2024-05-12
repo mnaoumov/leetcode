@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0461_Hamming_Distance;
+namespace LeetCode.Problems._0461_Hamming_Distance;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

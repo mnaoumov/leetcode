@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2766_Relocate_Marbles;
+namespace LeetCode.Problems._2766_Relocate_Marbles;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

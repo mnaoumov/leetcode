@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0496_Next_Greater_Element_I;
+namespace LeetCode.Problems._0496_Next_Greater_Element_I;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/882846079/

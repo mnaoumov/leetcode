@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2834_Find_the_Minimum_Possible_Sum_of_a_Beautiful_Array;
+namespace LeetCode.Problems._2834_Find_the_Minimum_Possible_Sum_of_a_Beautiful_Array;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-360/submissions/detail/1032742886/

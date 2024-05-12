@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0037_Sudoku_Solver;
+namespace LeetCode.Problems._0037_Sudoku_Solver;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

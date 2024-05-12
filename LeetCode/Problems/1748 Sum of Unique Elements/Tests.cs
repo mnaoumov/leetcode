@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1748_Sum_of_Unique_Elements;
+namespace LeetCode.Problems._1748_Sum_of_Unique_Elements;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

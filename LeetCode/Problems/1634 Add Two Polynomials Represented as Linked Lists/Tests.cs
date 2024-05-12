@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1634_Add_Two_Polynomials_Represented_as_Linked_Lists;
+namespace LeetCode.Problems._1634_Add_Two_Polynomials_Represented_as_Linked_Lists;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

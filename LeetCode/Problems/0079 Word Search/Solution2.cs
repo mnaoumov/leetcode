@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0079_Word_Search;
+namespace LeetCode.Problems._0079_Word_Search;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/198314734/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1531_String_Compression_II;
+namespace LeetCode.Problems._1531_String_Compression_II;
 
 [PublicAPI]
 public interface ISolution

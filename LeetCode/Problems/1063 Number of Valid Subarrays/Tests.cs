@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1063_Number_of_Valid_Subarrays;
+namespace LeetCode.Problems._1063_Number_of_Valid_Subarrays;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

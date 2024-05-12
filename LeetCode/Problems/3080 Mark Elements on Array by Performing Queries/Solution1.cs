@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3080_Mark_Elements_on_Array_by_Performing_Queries;
+namespace LeetCode.Problems._3080_Mark_Elements_on_Array_by_Performing_Queries;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-126/submissions/detail/1205362304/

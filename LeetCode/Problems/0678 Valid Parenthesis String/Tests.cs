@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0678_Valid_Parenthesis_String;
+namespace LeetCode.Problems._0678_Valid_Parenthesis_String;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2461_Maximum_Sum_of_Distinct_Subarrays_With_Length_K;
+namespace LeetCode.Problems._2461_Maximum_Sum_of_Distinct_Subarrays_With_Length_K;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

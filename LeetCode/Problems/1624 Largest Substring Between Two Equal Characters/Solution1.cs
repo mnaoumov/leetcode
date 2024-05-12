@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1624_Largest_Substring_Between_Two_Equal_Characters;
+namespace LeetCode.Problems._1624_Largest_Substring_Between_Two_Equal_Characters;
 
 /// <summary>
 /// TODO url

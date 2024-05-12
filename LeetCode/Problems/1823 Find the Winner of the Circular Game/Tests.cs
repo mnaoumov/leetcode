@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1823_Find_the_Winner_of_the_Circular_Game;
+namespace LeetCode.Problems._1823_Find_the_Winner_of_the_Circular_Game;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

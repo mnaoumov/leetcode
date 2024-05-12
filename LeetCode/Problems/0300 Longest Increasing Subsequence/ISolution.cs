@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0300_Longest_Increasing_Subsequence;
+namespace LeetCode.Problems._0300_Longest_Increasing_Subsequence;
 
 [PublicAPI]
 public interface ISolution

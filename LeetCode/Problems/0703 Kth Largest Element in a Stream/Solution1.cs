@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0703_Kth_Largest_Element_in_a_Stream;
+namespace LeetCode.Problems._0703_Kth_Largest_Element_in_a_Stream;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/908028755/

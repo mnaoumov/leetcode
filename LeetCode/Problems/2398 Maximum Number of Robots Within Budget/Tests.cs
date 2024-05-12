@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2398_Maximum_Number_of_Robots_Within_Budget;
+namespace LeetCode.Problems._2398_Maximum_Number_of_Robots_Within_Budget;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

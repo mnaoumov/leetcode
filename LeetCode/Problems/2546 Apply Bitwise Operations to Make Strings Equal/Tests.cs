@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2546_Apply_Bitwise_Operations_to_Make_Strings_Equal;
+namespace LeetCode.Problems._2546_Apply_Bitwise_Operations_to_Make_Strings_Equal;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

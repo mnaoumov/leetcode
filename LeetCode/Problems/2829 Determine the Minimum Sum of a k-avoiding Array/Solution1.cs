@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2829_Determine_the_Minimum_Sum_of_a_k_avoiding_Array;
+namespace LeetCode.Problems._2829_Determine_the_Minimum_Sum_of_a_k_avoiding_Array;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-359/submissions/detail/1026275507/

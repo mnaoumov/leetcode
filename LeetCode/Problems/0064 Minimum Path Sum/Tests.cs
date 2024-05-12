@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0064_Minimum_Path_Sum;
+namespace LeetCode.Problems._0064_Minimum_Path_Sum;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

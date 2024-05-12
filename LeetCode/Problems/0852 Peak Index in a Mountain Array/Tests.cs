@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0852_Peak_Index_in_a_Mountain_Array;
+namespace LeetCode.Problems._0852_Peak_Index_in_a_Mountain_Array;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

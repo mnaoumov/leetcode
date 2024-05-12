@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0879_Profitable_Schemes;
+namespace LeetCode.Problems._0879_Profitable_Schemes;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

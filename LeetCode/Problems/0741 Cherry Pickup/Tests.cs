@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0741_Cherry_Pickup;
+namespace LeetCode.Problems._0741_Cherry_Pickup;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

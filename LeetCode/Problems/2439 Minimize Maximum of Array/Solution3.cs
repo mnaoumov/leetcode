@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._2439_Minimize_Maximum_of_Array;
+namespace LeetCode.Problems._2439_Minimize_Maximum_of_Array;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-89/submissions/detail/823058750/

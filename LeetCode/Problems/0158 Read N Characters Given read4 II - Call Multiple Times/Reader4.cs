@@ -1,4 +1,4 @@
-namespace LeetCode._0158_Read_N_Characters_Given_read4_II___Call_Multiple_Times;
+namespace LeetCode.Problems._0158_Read_N_Characters_Given_read4_II___Call_Multiple_Times;
 
 public abstract class Reader4
 {

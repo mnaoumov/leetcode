@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2770_Maximum_Number_of_Jumps_to_Reach_the_Last_Index;
+namespace LeetCode.Problems._2770_Maximum_Number_of_Jumps_to_Reach_the_Last_Index;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

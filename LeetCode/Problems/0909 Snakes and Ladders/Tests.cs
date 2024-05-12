@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0909_Snakes_and_Ladders;
+namespace LeetCode.Problems._0909_Snakes_and_Ladders;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2578_Split_With_Minimum_Sum;
+namespace LeetCode.Problems._2578_Split_With_Minimum_Sum;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-99/submissions/detail/908901803/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0376_Wiggle_Subsequence;
+namespace LeetCode.Problems._0376_Wiggle_Subsequence;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/930015467/

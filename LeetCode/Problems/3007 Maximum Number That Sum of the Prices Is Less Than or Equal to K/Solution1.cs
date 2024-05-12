@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3007_Maximum_Number_That_Sum_of_the_Prices_Is_Less_Than_or_Equal_to_K;
+namespace LeetCode.Problems._3007_Maximum_Number_That_Sum_of_the_Prices_Is_Less_Than_or_Equal_to_K;
 
 /// <summary>
 /// TODO url

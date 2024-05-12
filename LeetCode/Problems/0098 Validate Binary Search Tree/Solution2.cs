@@ -3,7 +3,7 @@
 #pragma warning disable
 using JetBrains.Annotations;
 
-namespace LeetCode._0098_Validate_Binary_Search_Tree;
+namespace LeetCode.Problems._0098_Validate_Binary_Search_Tree;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/200145012/

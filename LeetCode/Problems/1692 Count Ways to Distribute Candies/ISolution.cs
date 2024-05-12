@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1692_Count_Ways_to_Distribute_Candies;
+namespace LeetCode.Problems._1692_Count_Ways_to_Distribute_Candies;
 
 [PublicAPI]
 public interface ISolution

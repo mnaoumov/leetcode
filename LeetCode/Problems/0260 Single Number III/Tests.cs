@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0260_Single_Number_III;
+namespace LeetCode.Problems._0260_Single_Number_III;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

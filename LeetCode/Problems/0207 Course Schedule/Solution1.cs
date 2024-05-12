@@ -3,7 +3,7 @@ using JetBrains.Annotations;
 #pragma warning disable
 #pragma warning disable CA1822
 
-namespace LeetCode._0207_Course_Schedule;
+namespace LeetCode.Problems._0207_Course_Schedule;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/197124777/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0136_Single_Number;
+namespace LeetCode.Problems._0136_Single_Number;
 
 /// <summary>
 /// https://leetcode.com/problems/single-number/submissions/839785368/

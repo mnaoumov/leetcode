@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0704_Binary_Search;
+namespace LeetCode.Problems._0704_Binary_Search;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

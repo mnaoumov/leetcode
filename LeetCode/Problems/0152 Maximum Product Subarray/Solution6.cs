@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0152_Maximum_Product_Subarray;
+namespace LeetCode.Problems._0152_Maximum_Product_Subarray;
 
 /// <summary>
 /// https://leetcode.com/problems/maximum-product-subarray/submissions/848230500/

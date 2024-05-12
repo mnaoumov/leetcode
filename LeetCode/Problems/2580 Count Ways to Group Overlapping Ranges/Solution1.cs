@@ -1,7 +1,7 @@
 using System.Numerics;
 using JetBrains.Annotations;
 
-namespace LeetCode._2580_Count_Ways_to_Group_Overlapping_Ranges;
+namespace LeetCode.Problems._2580_Count_Ways_to_Group_Overlapping_Ranges;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-99/submissions/detail/908926444/

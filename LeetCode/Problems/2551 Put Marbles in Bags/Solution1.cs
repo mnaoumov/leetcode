@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2551_Put_Marbles_in_Bags;
+namespace LeetCode.Problems._2551_Put_Marbles_in_Bags;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-330/submissions/detail/887182997/

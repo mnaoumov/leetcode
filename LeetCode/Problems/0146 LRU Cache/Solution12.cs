@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0146_LRU_Cache;
+namespace LeetCode.Problems._0146_LRU_Cache;
 
 /// <summary>
 /// https://leetcode.com/problems/lru-cache/submissions/845396253/

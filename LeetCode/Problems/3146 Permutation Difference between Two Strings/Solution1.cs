@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3146_Permutation_Difference_between_Two_Strings;
+namespace LeetCode.Problems._3146_Permutation_Difference_between_Two_Strings;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-397/submissions/detail/1255677241/

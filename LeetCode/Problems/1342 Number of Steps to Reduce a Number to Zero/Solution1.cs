@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1342_Number_of_Steps_to_Reduce_a_Number_to_Zero;
+namespace LeetCode.Problems._1342_Number_of_Steps_to_Reduce_a_Number_to_Zero;
 
 /// <summary>
 /// https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/submissions/845591907/

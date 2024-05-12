@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._1323_Maximum_69_Number;
+namespace LeetCode.Problems._1323_Maximum_69_Number;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

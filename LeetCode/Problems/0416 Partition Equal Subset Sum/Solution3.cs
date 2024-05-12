@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0416_Partition_Equal_Subset_Sum;
+namespace LeetCode.Problems._0416_Partition_Equal_Subset_Sum;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/196784819/

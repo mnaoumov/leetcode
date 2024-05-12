@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1293_Shortest_Path_in_a_Grid_with_Obstacles_Elimination;
+namespace LeetCode.Problems._1293_Shortest_Path_in_a_Grid_with_Obstacles_Elimination;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/833637646/

@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._0779_K_th_Symbol_in_Grammar;
+namespace LeetCode.Problems._0779_K_th_Symbol_in_Grammar;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1083483246/

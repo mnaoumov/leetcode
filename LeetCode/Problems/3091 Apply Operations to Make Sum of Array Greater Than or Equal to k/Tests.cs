@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3091_Apply_Operations_to_Make_Sum_of_Array_Greater_Than_or_Equal_to_k;
+namespace LeetCode.Problems._3091_Apply_Operations_to_Make_Sum_of_Array_Greater_Than_or_Equal_to_k;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

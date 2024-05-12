@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1795_Rearrange_Products_Table;
+namespace LeetCode.Problems._1795_Rearrange_Products_Table;
 
 [UsedImplicitly]
 public class Tests : SelectSqlTestsBase<Tests>

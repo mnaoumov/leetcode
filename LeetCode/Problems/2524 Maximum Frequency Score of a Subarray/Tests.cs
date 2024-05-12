@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2524_Maximum_Frequency_Score_of_a_Subarray;
+namespace LeetCode.Problems._2524_Maximum_Frequency_Score_of_a_Subarray;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

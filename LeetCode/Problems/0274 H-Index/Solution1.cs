@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0274_H_Index;
+namespace LeetCode.Problems._0274_H_Index;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/944107179/

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1508_Range_Sum_of_Sorted_Subarray_Sums;
+namespace LeetCode.Problems._1508_Range_Sum_of_Sorted_Subarray_Sums;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

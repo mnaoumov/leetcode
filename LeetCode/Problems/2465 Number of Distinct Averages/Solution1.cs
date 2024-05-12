@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2465_Number_of_Distinct_Averages;
+namespace LeetCode.Problems._2465_Number_of_Distinct_Averages;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-91/submissions/detail/841986738/

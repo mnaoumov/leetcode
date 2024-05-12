@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2531_Make_Number_of_Distinct_Characters_Equal;
+namespace LeetCode.Problems._2531_Make_Number_of_Distinct_Characters_Equal;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

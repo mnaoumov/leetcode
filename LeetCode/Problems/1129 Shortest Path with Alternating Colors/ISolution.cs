@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1129_Shortest_Path_with_Alternating_Colors;
+namespace LeetCode.Problems._1129_Shortest_Path_with_Alternating_Colors;
 
 [PublicAPI]
 public interface ISolution

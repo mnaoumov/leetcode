@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3136_Valid_Word;
+namespace LeetCode.Problems._3136_Valid_Word;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._0785_Is_Graph_Bipartite_;
+namespace LeetCode.Problems._0785_Is_Graph_Bipartite_;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

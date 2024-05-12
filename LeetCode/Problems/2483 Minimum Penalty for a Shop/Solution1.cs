@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._2483_Minimum_Penalty_for_a_Shop;
+namespace LeetCode.Problems._2483_Minimum_Penalty_for_a_Shop;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/850319258/

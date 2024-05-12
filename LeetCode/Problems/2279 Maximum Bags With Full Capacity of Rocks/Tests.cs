@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2279_Maximum_Bags_With_Full_Capacity_of_Rocks;
+namespace LeetCode.Problems._2279_Maximum_Bags_With_Full_Capacity_of_Rocks;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

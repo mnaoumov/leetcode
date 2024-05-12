@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2770_Maximum_Number_of_Jumps_to_Reach_the_Last_Index;
+namespace LeetCode.Problems._2770_Maximum_Number_of_Jumps_to_Reach_the_Last_Index;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-353/submissions/detail/989750117/

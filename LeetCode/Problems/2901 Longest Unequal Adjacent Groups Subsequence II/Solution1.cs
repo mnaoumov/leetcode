@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2901_Longest_Unequal_Adjacent_Groups_Subsequence_II;
+namespace LeetCode.Problems._2901_Longest_Unequal_Adjacent_Groups_Subsequence_II;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-115/submissions/detail/1075056267/

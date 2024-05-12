@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1014_Best_Sightseeing_Pair;
+namespace LeetCode.Problems._1014_Best_Sightseeing_Pair;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

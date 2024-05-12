@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0044_Wildcard_Matching;
+namespace LeetCode.Problems._0044_Wildcard_Matching;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/814705661/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0018_4Sum;
+namespace LeetCode.Problems._0018_4Sum;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/829009435/

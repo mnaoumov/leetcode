@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1248_Count_Number_of_Nice_Subarrays;
+namespace LeetCode.Problems._1248_Count_Number_of_Nice_Subarrays;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/856489076/

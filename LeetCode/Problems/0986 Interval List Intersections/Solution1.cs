@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0986_Interval_List_Intersections;
+namespace LeetCode.Problems._0986_Interval_List_Intersections;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/933427832/

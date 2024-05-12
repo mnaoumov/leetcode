@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0161_One_Edit_Distance;
+namespace LeetCode.Problems._0161_One_Edit_Distance;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

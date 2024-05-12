@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2937_Make_Three_Strings_Equal;
+namespace LeetCode.Problems._2937_Make_Three_Strings_Equal;
 
 [PublicAPI]
 public interface ISolution

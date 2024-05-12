@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0973_K_Closest_Points_to_Origin;
+namespace LeetCode.Problems._0973_K_Closest_Points_to_Origin;
 
 [PublicAPI]
 public interface ISolution

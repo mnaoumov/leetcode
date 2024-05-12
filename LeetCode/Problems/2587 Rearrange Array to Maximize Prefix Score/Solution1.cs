@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2587_Rearrange_Array_to_Maximize_Prefix_Score;
+namespace LeetCode.Problems._2587_Rearrange_Array_to_Maximize_Prefix_Score;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-336/submissions/detail/913518471/

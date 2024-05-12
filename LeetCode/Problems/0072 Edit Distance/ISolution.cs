@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0072_Edit_Distance;
+namespace LeetCode.Problems._0072_Edit_Distance;
 
 [PublicAPI]
 public interface ISolution

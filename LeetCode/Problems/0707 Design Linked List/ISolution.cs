@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0707_Design_Linked_List;
+namespace LeetCode.Problems._0707_Design_Linked_List;
 
 [PublicAPI]
 public interface ISolution

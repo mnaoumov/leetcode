@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1042_Flower_Planting_With_No_Adjacent;
+namespace LeetCode.Problems._1042_Flower_Planting_With_No_Adjacent;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/925768722/

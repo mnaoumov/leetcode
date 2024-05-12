@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1189_Maximum_Number_of_Balloons;
+namespace LeetCode.Problems._1189_Maximum_Number_of_Balloons;
 
 [PublicAPI]
 public interface ISolution

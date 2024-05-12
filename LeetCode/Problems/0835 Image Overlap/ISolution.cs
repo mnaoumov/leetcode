@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0835_Image_Overlap;
+namespace LeetCode.Problems._0835_Image_Overlap;
 
 [PublicAPI]
 public interface ISolution

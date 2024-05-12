@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3101_Count_Alternating_Subarrays;
+namespace LeetCode.Problems._3101_Count_Alternating_Subarrays;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

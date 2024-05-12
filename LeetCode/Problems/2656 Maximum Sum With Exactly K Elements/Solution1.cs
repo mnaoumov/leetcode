@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2656_Maximum_Sum_With_Exactly_K_Elements;
+namespace LeetCode.Problems._2656_Maximum_Sum_With_Exactly_K_Elements;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-103/submissions/detail/941577257/

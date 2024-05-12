@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0041_First_Missing_Positive;
+namespace LeetCode.Problems._0041_First_Missing_Positive;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

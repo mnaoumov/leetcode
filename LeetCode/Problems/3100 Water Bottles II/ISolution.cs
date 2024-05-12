@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3100_Water_Bottles_II;
+namespace LeetCode.Problems._3100_Water_Bottles_II;
 
 [PublicAPI]
 public interface ISolution

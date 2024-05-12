@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0547_Number_of_Provinces;
+namespace LeetCode.Problems._0547_Number_of_Provinces;
 
 [PublicAPI]
 public interface ISolution

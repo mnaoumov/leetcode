@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1133_Largest_Unique_Number;
+namespace LeetCode.Problems._1133_Largest_Unique_Number;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2294_Partition_Array_Such_That_Maximum_Difference_Is_K;
+namespace LeetCode.Problems._2294_Partition_Array_Such_That_Maximum_Difference_Is_K;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/914069640/

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2739_Total_Distance_Traveled;
+namespace LeetCode.Problems._2739_Total_Distance_Traveled;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

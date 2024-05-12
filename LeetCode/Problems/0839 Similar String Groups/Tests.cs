@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0839_Similar_String_Groups;
+namespace LeetCode.Problems._0839_Similar_String_Groups;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

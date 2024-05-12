@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1877_Minimize_Maximum_Pair_Sum_in_Array;
+namespace LeetCode.Problems._1877_Minimize_Maximum_Pair_Sum_in_Array;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

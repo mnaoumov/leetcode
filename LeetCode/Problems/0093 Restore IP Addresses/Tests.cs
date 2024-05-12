@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0093_Restore_IP_Addresses;
+namespace LeetCode.Problems._0093_Restore_IP_Addresses;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

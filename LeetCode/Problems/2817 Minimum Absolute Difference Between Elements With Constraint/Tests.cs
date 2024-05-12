@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2817_Minimum_Absolute_Difference_Between_Elements_With_Constraint;
+namespace LeetCode.Problems._2817_Minimum_Absolute_Difference_Between_Elements_With_Constraint;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

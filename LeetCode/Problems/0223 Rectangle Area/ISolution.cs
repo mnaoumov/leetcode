@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0223_Rectangle_Area;
+namespace LeetCode.Problems._0223_Rectangle_Area;
 
 [PublicAPI]
 public interface ISolution

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0994_Rotting_Oranges;
+namespace LeetCode.Problems._0994_Rotting_Oranges;
 
 [PublicAPI]
 public interface ISolution

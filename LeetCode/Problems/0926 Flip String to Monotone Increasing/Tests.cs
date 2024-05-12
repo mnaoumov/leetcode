@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0926_Flip_String_to_Monotone_Increasing;
+namespace LeetCode.Problems._0926_Flip_String_to_Monotone_Increasing;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

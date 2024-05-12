@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1062_Longest_Repeating_Substring;
+namespace LeetCode.Problems._1062_Longest_Repeating_Substring;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

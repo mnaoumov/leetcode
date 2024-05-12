@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1187_Make_Array_Strictly_Increasing;
+namespace LeetCode.Problems._1187_Make_Array_Strictly_Increasing;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

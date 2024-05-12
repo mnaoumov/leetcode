@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0997_Find_the_Town_Judge;
+namespace LeetCode.Problems._0997_Find_the_Town_Judge;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/883361177/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0001_Two_Sum;
+namespace LeetCode.Problems._0001_Two_Sum;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

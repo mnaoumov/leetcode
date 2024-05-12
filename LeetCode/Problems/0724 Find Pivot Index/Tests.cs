@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0724_Find_Pivot_Index;
+namespace LeetCode.Problems._0724_Find_Pivot_Index;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

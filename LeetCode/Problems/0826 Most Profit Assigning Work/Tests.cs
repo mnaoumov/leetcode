@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0826_Most_Profit_Assigning_Work;
+namespace LeetCode.Problems._0826_Most_Profit_Assigning_Work;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

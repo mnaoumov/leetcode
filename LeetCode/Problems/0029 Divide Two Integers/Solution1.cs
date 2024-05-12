@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0029_Divide_Two_Integers;
+namespace LeetCode.Problems._0029_Divide_Two_Integers;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/812351526/

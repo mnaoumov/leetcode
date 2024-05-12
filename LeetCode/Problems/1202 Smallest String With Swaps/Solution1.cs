@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._1202_Smallest_String_With_Swaps;
+namespace LeetCode.Problems._1202_Smallest_String_With_Swaps;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/931570745/

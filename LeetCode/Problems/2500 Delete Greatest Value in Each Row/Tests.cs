@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2500_Delete_Greatest_Value_in_Each_Row;
+namespace LeetCode.Problems._2500_Delete_Greatest_Value_in_Each_Row;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

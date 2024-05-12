@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0351_Android_Unlock_Patterns;
+namespace LeetCode.Problems._0351_Android_Unlock_Patterns;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/954660687/

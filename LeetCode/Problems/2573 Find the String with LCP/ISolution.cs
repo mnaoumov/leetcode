@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2573_Find_the_String_with_LCP;
+namespace LeetCode.Problems._2573_Find_the_String_with_LCP;
 
 [PublicAPI]
 public interface ISolution

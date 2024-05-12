@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0879_Profitable_Schemes;
+namespace LeetCode.Problems._0879_Profitable_Schemes;
 
 [PublicAPI]
 public interface ISolution

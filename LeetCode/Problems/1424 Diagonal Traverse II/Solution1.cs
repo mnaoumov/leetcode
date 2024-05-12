@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1424_Diagonal_Traverse_II;
+namespace LeetCode.Problems._1424_Diagonal_Traverse_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1103817895/

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2528_Maximize_the_Minimum_Powered_City;
+namespace LeetCode.Problems._2528_Maximize_the_Minimum_Powered_City;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

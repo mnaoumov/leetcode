@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0231_Power_of_Two;
+namespace LeetCode.Problems._0231_Power_of_Two;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

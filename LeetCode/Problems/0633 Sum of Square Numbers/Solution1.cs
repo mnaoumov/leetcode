@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0633_Sum_of_Square_Numbers;
+namespace LeetCode.Problems._0633_Sum_of_Square_Numbers;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/928786665/

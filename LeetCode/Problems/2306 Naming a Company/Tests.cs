@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2306_Naming_a_Company;
+namespace LeetCode.Problems._2306_Naming_a_Company;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

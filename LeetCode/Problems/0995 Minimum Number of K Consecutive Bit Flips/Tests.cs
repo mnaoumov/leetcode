@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0995_Minimum_Number_of_K_Consecutive_Bit_Flips;
+namespace LeetCode.Problems._0995_Minimum_Number_of_K_Consecutive_Bit_Flips;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

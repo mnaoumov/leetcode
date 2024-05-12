@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2933_High_Access_Employees;
+namespace LeetCode.Problems._2933_High_Access_Employees;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-371/submissions/detail/1096958484/

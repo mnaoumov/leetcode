@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0948_Bag_of_Tokens;
+namespace LeetCode.Problems._0948_Bag_of_Tokens;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1193094746/

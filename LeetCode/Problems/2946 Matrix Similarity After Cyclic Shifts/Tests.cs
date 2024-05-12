@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2946_Matrix_Similarity_After_Cyclic_Shifts;
+namespace LeetCode.Problems._2946_Matrix_Similarity_After_Cyclic_Shifts;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

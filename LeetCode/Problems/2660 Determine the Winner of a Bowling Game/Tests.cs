@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2660_Determine_the_Winner_of_a_Bowling_Game;
+namespace LeetCode.Problems._2660_Determine_the_Winner_of_a_Bowling_Game;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

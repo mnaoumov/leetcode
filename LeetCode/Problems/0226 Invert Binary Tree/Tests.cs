@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0226_Invert_Binary_Tree;
+namespace LeetCode.Problems._0226_Invert_Binary_Tree;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

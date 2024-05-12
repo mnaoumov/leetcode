@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0514_Freedom_Trail;
+namespace LeetCode.Problems._0514_Freedom_Trail;
 
 [PublicAPI]
 public interface ISolution

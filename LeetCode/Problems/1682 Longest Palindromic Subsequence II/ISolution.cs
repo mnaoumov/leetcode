@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1682_Longest_Palindromic_Subsequence_II;
+namespace LeetCode.Problems._1682_Longest_Palindromic_Subsequence_II;
 
 [PublicAPI]
 public interface ISolution

@@ -1,7 +1,7 @@
 using System.Numerics;
 using JetBrains.Annotations;
 
-namespace LeetCode._1498_Number_of_Subsequences_That_Satisfy_the_Given_Sum_Condition;
+namespace LeetCode.Problems._1498_Number_of_Subsequences_That_Satisfy_the_Given_Sum_Condition;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/945270115/

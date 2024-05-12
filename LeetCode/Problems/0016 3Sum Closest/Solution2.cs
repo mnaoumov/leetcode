@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0016_3Sum_Closest;
+namespace LeetCode.Problems._0016_3Sum_Closest;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/809290786/

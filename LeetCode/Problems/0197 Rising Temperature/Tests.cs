@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0197_Rising_Temperature;
+namespace LeetCode.Problems._0197_Rising_Temperature;
 
 [UsedImplicitly]
 public class Tests : SelectSqlTestsBase<Tests>

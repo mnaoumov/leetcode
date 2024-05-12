@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2581_Count_Number_of_Possible_Root_Nodes;
+namespace LeetCode.Problems._2581_Count_Number_of_Possible_Root_Nodes;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/909198534/

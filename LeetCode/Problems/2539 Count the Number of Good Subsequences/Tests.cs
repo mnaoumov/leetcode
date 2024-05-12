@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2539_Count_the_Number_of_Good_Subsequences;
+namespace LeetCode.Problems._2539_Count_the_Number_of_Good_Subsequences;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

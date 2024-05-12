@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1207_Unique_Number_of_Occurrences;
+namespace LeetCode.Problems._1207_Unique_Number_of_Occurrences;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

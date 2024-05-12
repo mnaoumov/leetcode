@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2558_Take_Gifts_From_the_Richest_Pile;
+namespace LeetCode.Problems._2558_Take_Gifts_From_the_Richest_Pile;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-331/submissions/detail/891689954/

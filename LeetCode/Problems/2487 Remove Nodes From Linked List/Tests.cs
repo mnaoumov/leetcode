@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2487_Remove_Nodes_From_Linked_List;
+namespace LeetCode.Problems._2487_Remove_Nodes_From_Linked_List;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

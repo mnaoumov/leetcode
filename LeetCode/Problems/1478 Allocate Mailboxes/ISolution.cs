@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1478_Allocate_Mailboxes;
+namespace LeetCode.Problems._1478_Allocate_Mailboxes;
 
 [PublicAPI]
 public interface ISolution

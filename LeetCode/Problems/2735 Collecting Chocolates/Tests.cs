@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2735_Collecting_Chocolates;
+namespace LeetCode.Problems._2735_Collecting_Chocolates;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

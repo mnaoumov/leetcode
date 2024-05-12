@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2130_Maximum_Twin_Sum_of_a_Linked_List;
+namespace LeetCode.Problems._2130_Maximum_Twin_Sum_of_a_Linked_List;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/857317831/w

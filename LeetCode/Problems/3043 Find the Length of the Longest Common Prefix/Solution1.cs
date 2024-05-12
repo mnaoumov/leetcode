@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3043_Find_the_Length_of_the_Longest_Common_Prefix;
+namespace LeetCode.Problems._3043_Find_the_Length_of_the_Longest_Common_Prefix;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-385/submissions/detail/1178430223/

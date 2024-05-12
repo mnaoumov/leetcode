@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0433_Minimum_Genetic_Mutation;
+namespace LeetCode.Problems._0433_Minimum_Genetic_Mutation;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

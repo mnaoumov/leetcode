@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3030_Find_the_Grid_of_Region_Average;
+namespace LeetCode.Problems._3030_Find_the_Grid_of_Region_Average;
 
 [PublicAPI]
 public interface ISolution

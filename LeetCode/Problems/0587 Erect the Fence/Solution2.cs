@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0587_Erect_the_Fence;
+namespace LeetCode.Problems._0587_Erect_the_Fence;
 
 /// <summary>
 /// https://leetcode.com/problems/erect-the-fence/submissions/846465063/

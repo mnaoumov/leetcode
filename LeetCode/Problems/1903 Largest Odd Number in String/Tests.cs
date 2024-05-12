@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1903_Largest_Odd_Number_in_String;
+namespace LeetCode.Problems._1903_Largest_Odd_Number_in_String;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

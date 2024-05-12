@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3003_Maximize_the_Number_of_Partitions_After_Operations;
+namespace LeetCode.Problems._3003_Maximize_the_Number_of_Partitions_After_Operations;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

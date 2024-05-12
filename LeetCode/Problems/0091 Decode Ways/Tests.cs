@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0091_Decode_Ways;
+namespace LeetCode.Problems._0091_Decode_Ways;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

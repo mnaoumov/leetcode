@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0134_Gas_Station;
+namespace LeetCode.Problems._0134_Gas_Station;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

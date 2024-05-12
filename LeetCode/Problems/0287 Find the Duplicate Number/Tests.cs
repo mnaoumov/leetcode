@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0287_Find_the_Duplicate_Number;
+namespace LeetCode.Problems._0287_Find_the_Duplicate_Number;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

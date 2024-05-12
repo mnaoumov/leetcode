@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._1171_Remove_Zero_Sum_Consecutive_Nodes_from_Linked_List;
+namespace LeetCode.Problems._1171_Remove_Zero_Sum_Consecutive_Nodes_from_Linked_List;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

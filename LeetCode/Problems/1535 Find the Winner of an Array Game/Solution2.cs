@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1535_Find_the_Winner_of_an_Array_Game;
+namespace LeetCode.Problems._1535_Find_the_Winner_of_an_Array_Game;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1092336965/

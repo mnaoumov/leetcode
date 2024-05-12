@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1099_Two_Sum_Less_Than_K;
+namespace LeetCode.Problems._1099_Two_Sum_Less_Than_K;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1109865607/

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3120_Count_the_Number_of_Special_Characters_I;
+namespace LeetCode.Problems._3120_Count_the_Number_of_Special_Characters_I;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

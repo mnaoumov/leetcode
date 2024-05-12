@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0617_Merge_Two_Binary_Trees;
+namespace LeetCode.Problems._0617_Merge_Two_Binary_Trees;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/927590935/

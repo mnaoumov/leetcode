@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1464_Maximum_Product_of_Two_Elements_in_an_Array;
+namespace LeetCode.Problems._1464_Maximum_Product_of_Two_Elements_in_an_Array;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

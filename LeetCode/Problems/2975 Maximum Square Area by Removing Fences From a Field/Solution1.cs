@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2975_Maximum_Square_Area_by_Removing_Fences_From_a_Field;
+namespace LeetCode.Problems._2975_Maximum_Square_Area_by_Removing_Fences_From_a_Field;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-377/submissions/detail/1127060309/

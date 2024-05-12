@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1626_Best_Team_With_No_Conflicts;
+namespace LeetCode.Problems._1626_Best_Team_With_No_Conflicts;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

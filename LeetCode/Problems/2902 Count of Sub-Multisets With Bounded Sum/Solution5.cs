@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2902_Count_of_Sub_Multisets_With_Bounded_Sum;
+namespace LeetCode.Problems._2902_Count_of_Sub_Multisets_With_Bounded_Sum;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1075105666/

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0268_Missing_Number;
+namespace LeetCode.Problems._0268_Missing_Number;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

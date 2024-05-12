@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0721_Accounts_Merge;
+namespace LeetCode.Problems._0721_Accounts_Merge;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/934900160/

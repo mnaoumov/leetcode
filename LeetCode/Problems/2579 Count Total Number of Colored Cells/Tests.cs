@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2579_Count_Total_Number_of_Colored_Cells;
+namespace LeetCode.Problems._2579_Count_Total_Number_of_Colored_Cells;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

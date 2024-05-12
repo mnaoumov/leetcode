@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3100_Water_Bottles_II;
+namespace LeetCode.Problems._3100_Water_Bottles_II;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

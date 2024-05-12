@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0413_Arithmetic_Slices;
+namespace LeetCode.Problems._0413_Arithmetic_Slices;
 
 [PublicAPI]
 public interface ISolution

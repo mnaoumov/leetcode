@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2511_Maximum_Enemy_Forts_That_Can_Be_Captured;
+namespace LeetCode.Problems._2511_Maximum_Enemy_Forts_That_Can_Be_Captured;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

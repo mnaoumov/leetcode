@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._2131_Longest_Palindrome_by_Concatenating_Two_Letter_Words;
+namespace LeetCode.Problems._2131_Longest_Palindrome_by_Concatenating_Two_Letter_Words;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

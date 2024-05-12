@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2741_Special_Permutations;
+namespace LeetCode.Problems._2741_Special_Permutations;
 
 [PublicAPI]
 public interface ISolution

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0557_Reverse_Words_in_a_String_III;
+namespace LeetCode.Problems._0557_Reverse_Words_in_a_String_III;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/898884252/

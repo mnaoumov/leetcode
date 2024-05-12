@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0001_Two_Sum;
+namespace LeetCode.Problems._0001_Two_Sum;
 
 /// <summary>
 /// Lookup

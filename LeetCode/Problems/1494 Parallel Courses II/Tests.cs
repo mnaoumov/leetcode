@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1494_Parallel_Courses_II;
+namespace LeetCode.Problems._1494_Parallel_Courses_II;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

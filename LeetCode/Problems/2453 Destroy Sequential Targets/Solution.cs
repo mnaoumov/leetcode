@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2453_Destroy_Sequential_Targets;
+namespace LeetCode.Problems._2453_Destroy_Sequential_Targets;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-90/submissions/detail/832724318/

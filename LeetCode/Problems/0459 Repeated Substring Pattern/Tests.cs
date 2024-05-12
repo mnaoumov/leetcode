@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0459_Repeated_Substring_Pattern;
+namespace LeetCode.Problems._0459_Repeated_Substring_Pattern;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

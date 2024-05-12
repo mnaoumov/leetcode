@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2385_Amount_of_Time_for_Binary_Tree_to_Be_Infected;
+namespace LeetCode.Problems._2385_Amount_of_Time_for_Binary_Tree_to_Be_Infected;
 
 [PublicAPI]
 public interface ISolution

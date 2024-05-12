@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1669_Merge_In_Between_Linked_Lists;
+namespace LeetCode.Problems._1669_Merge_In_Between_Linked_Lists;
 
 [PublicAPI]
 public interface ISolution

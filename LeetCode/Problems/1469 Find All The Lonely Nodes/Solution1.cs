@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1469_Find_All_The_Lonely_Nodes;
+namespace LeetCode.Problems._1469_Find_All_The_Lonely_Nodes;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/946938304/

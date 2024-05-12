@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._0499_The_Maze_III;
+namespace LeetCode.Problems._0499_The_Maze_III;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/942961271/

@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._2545_Sort_the_Students_by_Their_Kth_Score;
+namespace LeetCode.Problems._2545_Sort_the_Students_by_Their_Kth_Score;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

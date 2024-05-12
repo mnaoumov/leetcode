@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0025_Reverse_Nodes_in_k_Group;
+namespace LeetCode.Problems._0025_Reverse_Nodes_in_k_Group;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/811540652/

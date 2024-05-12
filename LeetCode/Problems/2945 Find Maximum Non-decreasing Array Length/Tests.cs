@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2945_Find_Maximum_Non_decreasing_Array_Length;
+namespace LeetCode.Problems._2945_Find_Maximum_Non_decreasing_Array_Length;
 
 [UsedImplicitly]
 [Category("TODO")]

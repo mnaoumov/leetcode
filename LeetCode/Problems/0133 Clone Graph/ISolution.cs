@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0133_Clone_Graph;
+namespace LeetCode.Problems._0133_Clone_Graph;
 
 [PublicAPI]
 public interface ISolution

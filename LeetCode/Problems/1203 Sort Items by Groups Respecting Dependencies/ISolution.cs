@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1203_Sort_Items_by_Groups_Respecting_Dependencies;
+namespace LeetCode.Problems._1203_Sort_Items_by_Groups_Respecting_Dependencies;
 
 [PublicAPI]
 public interface ISolution

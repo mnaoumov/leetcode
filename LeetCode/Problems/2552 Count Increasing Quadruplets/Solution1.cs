@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2552_Count_Increasing_Quadruplets;
+namespace LeetCode.Problems._2552_Count_Increasing_Quadruplets;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/887540666/

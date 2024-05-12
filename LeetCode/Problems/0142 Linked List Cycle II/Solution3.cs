@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0142_Linked_List_Cycle_II;
+namespace LeetCode.Problems._0142_Linked_List_Cycle_II;
 
 /// <summary>
 /// https://leetcode.com/problems/linked-list-cycle-ii/submissions/841671301/

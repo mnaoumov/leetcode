@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1376_Time_Needed_to_Inform_All_Employees;
+namespace LeetCode.Problems._1376_Time_Needed_to_Inform_All_Employees;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

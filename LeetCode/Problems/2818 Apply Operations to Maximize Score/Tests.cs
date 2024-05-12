@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2818_Apply_Operations_to_Maximize_Score;
+namespace LeetCode.Problems._2818_Apply_Operations_to_Maximize_Score;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

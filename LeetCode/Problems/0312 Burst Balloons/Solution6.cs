@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0312_Burst_Balloons;
+namespace LeetCode.Problems._0312_Burst_Balloons;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/881585051/

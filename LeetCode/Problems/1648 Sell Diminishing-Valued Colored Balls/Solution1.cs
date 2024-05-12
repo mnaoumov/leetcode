@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1648_Sell_Diminishing_Valued_Colored_Balls;
+namespace LeetCode.Problems._1648_Sell_Diminishing_Valued_Colored_Balls;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/966438339/

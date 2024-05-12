@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0126_Word_Ladder_II;
+namespace LeetCode.Problems._0126_Word_Ladder_II;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

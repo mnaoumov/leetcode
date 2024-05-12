@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1130_Minimum_Cost_Tree_From_Leaf_Values;
+namespace LeetCode.Problems._1130_Minimum_Cost_Tree_From_Leaf_Values;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

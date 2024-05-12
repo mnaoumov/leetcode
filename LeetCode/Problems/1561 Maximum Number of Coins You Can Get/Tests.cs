@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1561_Maximum_Number_of_Coins_You_Can_Get;
+namespace LeetCode.Problems._1561_Maximum_Number_of_Coins_You_Can_Get;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

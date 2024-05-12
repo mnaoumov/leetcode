@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0583_Delete_Operation_for_Two_Strings;
+namespace LeetCode.Problems._0583_Delete_Operation_for_Two_Strings;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

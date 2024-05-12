@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3148_Maximum_Difference_Score_in_a_Grid;
+namespace LeetCode.Problems._3148_Maximum_Difference_Score_in_a_Grid;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-397/submissions/detail/1255701707/

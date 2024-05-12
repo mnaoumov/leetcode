@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0293_Flip_Game;
+namespace LeetCode.Problems._0293_Flip_Game;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

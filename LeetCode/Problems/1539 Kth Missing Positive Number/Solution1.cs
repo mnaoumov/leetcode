@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1539_Kth_Missing_Positive_Number;
+namespace LeetCode.Problems._1539_Kth_Missing_Positive_Number;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/909838379/

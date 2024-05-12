@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1870_Minimum_Speed_to_Arrive_on_Time;
+namespace LeetCode.Problems._1870_Minimum_Speed_to_Arrive_on_Time;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

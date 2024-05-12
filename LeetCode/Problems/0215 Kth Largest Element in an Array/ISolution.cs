@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0215_Kth_Largest_Element_in_an_Array;
+namespace LeetCode.Problems._0215_Kth_Largest_Element_in_an_Array;
 
 [PublicAPI]
 public interface ISolution

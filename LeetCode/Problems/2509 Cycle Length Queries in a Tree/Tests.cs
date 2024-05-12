@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._2509_Cycle_Length_Queries_in_a_Tree;
+namespace LeetCode.Problems._2509_Cycle_Length_Queries_in_a_Tree;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

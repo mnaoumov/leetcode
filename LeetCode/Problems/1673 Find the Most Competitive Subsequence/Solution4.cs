@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1673_Find_the_Most_Competitive_Subsequence;
+namespace LeetCode.Problems._1673_Find_the_Most_Competitive_Subsequence;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/903265684/

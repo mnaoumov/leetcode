@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2421_Number_of_Good_Paths;
+namespace LeetCode.Problems._2421_Number_of_Good_Paths;
 
 [PublicAPI]
 public interface ISolution

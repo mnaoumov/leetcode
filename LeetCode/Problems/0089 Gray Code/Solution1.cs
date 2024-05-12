@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0089_Gray_Code;
+namespace LeetCode.Problems._0089_Gray_Code;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/828245201/

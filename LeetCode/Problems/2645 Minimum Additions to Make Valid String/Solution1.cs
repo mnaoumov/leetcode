@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2645_Minimum_Additions_to_Make_Valid_String;
+namespace LeetCode.Problems._2645_Minimum_Additions_to_Make_Valid_String;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-341/submissions/detail/934473983/

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1639_Number_of_Ways_to_Form_a_Target_String_Given_a_Dictionary;
+namespace LeetCode.Problems._1639_Number_of_Ways_to_Form_a_Target_String_Given_a_Dictionary;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

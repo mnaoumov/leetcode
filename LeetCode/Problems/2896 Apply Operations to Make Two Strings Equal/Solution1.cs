@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._2896_Apply_Operations_to_Make_Two_Strings_Equal;
+namespace LeetCode.Problems._2896_Apply_Operations_to_Make_Two_Strings_Equal;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-366/submissions/detail/1069788768/

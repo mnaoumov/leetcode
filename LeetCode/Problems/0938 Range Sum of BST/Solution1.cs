@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0938_Range_Sum_of_BST;
+namespace LeetCode.Problems._0938_Range_Sum_of_BST;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/855853129/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3099_Harshad_Number;
+namespace LeetCode.Problems._3099_Harshad_Number;
 
 [PublicAPI]
 public interface ISolution

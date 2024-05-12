@@ -2,7 +2,7 @@ using System.Text;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0014_Longest_Common_Prefix;
+namespace LeetCode.Problems._0014_Longest_Common_Prefix;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/808458986/

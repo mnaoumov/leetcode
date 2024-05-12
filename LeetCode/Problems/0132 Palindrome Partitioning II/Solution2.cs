@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0132_Palindrome_Partitioning_II;
+namespace LeetCode.Problems._0132_Palindrome_Partitioning_II;
 
 /// <summary>
 /// https://leetcode.com/problems/palindrome-partitioning-ii/submissions/836942040/

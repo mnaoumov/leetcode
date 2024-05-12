@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0190_Reverse_Bits;
+namespace LeetCode.Problems._0190_Reverse_Bits;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

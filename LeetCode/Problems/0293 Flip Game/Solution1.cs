@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._0293_Flip_Game;
+namespace LeetCode.Problems._0293_Flip_Game;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1162656352/

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2713_Maximum_Strictly_Increasing_Cells_in_a_Matrix;
+namespace LeetCode.Problems._2713_Maximum_Strictly_Increasing_Cells_in_a_Matrix;
 
 [UsedImplicitly]
 [Category("TODO")]

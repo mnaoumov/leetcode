@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1199_Minimum_Time_to_Build_Blocks;
+namespace LeetCode.Problems._1199_Minimum_Time_to_Build_Blocks;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1584_Min_Cost_to_Connect_All_Points;
+namespace LeetCode.Problems._1584_Min_Cost_to_Connect_All_Points;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

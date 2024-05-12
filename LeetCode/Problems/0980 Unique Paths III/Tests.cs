@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0980_Unique_Paths_III;
+namespace LeetCode.Problems._0980_Unique_Paths_III;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

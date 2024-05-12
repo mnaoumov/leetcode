@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2530_Maximal_Score_After_Applying_K_Operations;
+namespace LeetCode.Problems._2530_Maximal_Score_After_Applying_K_Operations;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-327/submissions/detail/873718507/

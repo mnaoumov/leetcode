@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0245_Shortest_Word_Distance_III;
+namespace LeetCode.Problems._0245_Shortest_Word_Distance_III;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/926858839/

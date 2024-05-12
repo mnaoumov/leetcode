@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0163_Missing_Ranges;
+namespace LeetCode.Problems._0163_Missing_Ranges;
 
 [PublicAPI]
 public interface ISolution

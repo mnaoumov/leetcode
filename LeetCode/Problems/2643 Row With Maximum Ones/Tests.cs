@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._2643_Row_With_Maximum_Ones;
+namespace LeetCode.Problems._2643_Row_With_Maximum_Ones;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

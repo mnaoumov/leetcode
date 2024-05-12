@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2904_Shortest_and_Lexicographically_Smallest_Beautiful_String;
+namespace LeetCode.Problems._2904_Shortest_and_Lexicographically_Smallest_Beautiful_String;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

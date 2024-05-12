@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2733_Neither_Minimum_nor_Maximum;
+namespace LeetCode.Problems._2733_Neither_Minimum_nor_Maximum;
 
 [PublicAPI]
 public interface ISolution

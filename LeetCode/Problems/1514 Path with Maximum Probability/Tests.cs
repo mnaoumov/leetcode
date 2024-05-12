@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1514_Path_with_Maximum_Probability;
+namespace LeetCode.Problems._1514_Path_with_Maximum_Probability;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

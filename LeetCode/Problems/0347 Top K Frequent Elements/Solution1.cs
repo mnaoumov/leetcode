@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0347_Top_K_Frequent_Elements;
+namespace LeetCode.Problems._0347_Top_K_Frequent_Elements;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/908072721/

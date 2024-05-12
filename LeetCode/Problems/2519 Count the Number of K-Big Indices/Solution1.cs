@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2519_Count_the_Number_of_K_Big_Indices;
+namespace LeetCode.Problems._2519_Count_the_Number_of_K_Big_Indices;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/869923175/

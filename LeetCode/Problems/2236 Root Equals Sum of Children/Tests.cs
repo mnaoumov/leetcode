@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2236_Root_Equals_Sum_of_Children;
+namespace LeetCode.Problems._2236_Root_Equals_Sum_of_Children;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

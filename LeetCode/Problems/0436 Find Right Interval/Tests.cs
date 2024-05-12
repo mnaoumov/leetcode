@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0436_Find_Right_Interval;
+namespace LeetCode.Problems._0436_Find_Right_Interval;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1488_Avoid_Flood_in_The_City;
+namespace LeetCode.Problems._1488_Avoid_Flood_in_The_City;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

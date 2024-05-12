@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3117_Minimum_Sum_of_Values_by_Dividing_Array;
+namespace LeetCode.Problems._3117_Minimum_Sum_of_Values_by_Dividing_Array;
 
 [UsedImplicitly]
 [Category("TODO")]

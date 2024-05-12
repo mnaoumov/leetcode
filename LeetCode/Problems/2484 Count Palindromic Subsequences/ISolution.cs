@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2484_Count_Palindromic_Subsequences;
+namespace LeetCode.Problems._2484_Count_Palindromic_Subsequences;
 
 [PublicAPI]
 public interface ISolution

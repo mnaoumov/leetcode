@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2462_Total_Cost_to_Hire_K_Workers;
+namespace LeetCode.Problems._2462_Total_Cost_to_Hire_K_Workers;
 
 /// <summary>
 /// https://leetcode.com/problems/total-cost-to-hire-k-workers/submissions/837752441/

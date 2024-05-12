@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0694_Number_of_Distinct_Islands;
+namespace LeetCode.Problems._0694_Number_of_Distinct_Islands;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

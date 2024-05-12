@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0337_House_Robber_III;
+namespace LeetCode.Problems._0337_House_Robber_III;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/920405195/

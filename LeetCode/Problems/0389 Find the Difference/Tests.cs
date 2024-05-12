@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0389_Find_the_Difference;
+namespace LeetCode.Problems._0389_Find_the_Difference;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

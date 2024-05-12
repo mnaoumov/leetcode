@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0066_Plus_One;
+namespace LeetCode.Problems._0066_Plus_One;
 
 /// <summary>
 /// https://leetcode.com/problems/plus-one/submissions/

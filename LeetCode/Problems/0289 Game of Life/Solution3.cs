@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0289_Game_of_Life;
+namespace LeetCode.Problems._0289_Game_of_Life;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/875896903/

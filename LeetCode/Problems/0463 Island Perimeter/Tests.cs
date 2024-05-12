@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0463_Island_Perimeter;
+namespace LeetCode.Problems._0463_Island_Perimeter;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

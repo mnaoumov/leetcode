@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2426_Number_of_Pairs_Satisfying_Inequality;
+namespace LeetCode.Problems._2426_Number_of_Pairs_Satisfying_Inequality;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/902496822/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1606_Find_Servers_That_Handled_Most_Number_of_Requests;
+namespace LeetCode.Problems._1606_Find_Servers_That_Handled_Most_Number_of_Requests;
 
 [PublicAPI]
 public interface ISolution

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0278_First_Bad_Version;
+namespace LeetCode.Problems._0278_First_Bad_Version;
 
 [UsedImplicitly]
 public class Tests : TestsBase<VersionControl, Tests.TestCase>

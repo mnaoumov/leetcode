@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2391_Minimum_Amount_of_Time_to_Collect_Garbage;
+namespace LeetCode.Problems._2391_Minimum_Amount_of_Time_to_Collect_Garbage;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

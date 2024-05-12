@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0050_Pow_x__n_;
+namespace LeetCode.Problems._0050_Pow_x__n_;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/829025823/

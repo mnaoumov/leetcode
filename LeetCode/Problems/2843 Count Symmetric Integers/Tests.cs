@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2843_Count_Symmetric_Integers;
+namespace LeetCode.Problems._2843_Count_Symmetric_Integers;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0050_Pow_x__n_;
+namespace LeetCode.Problems._0050_Pow_x__n_;
 
 [PublicAPI]
 public interface ISolution

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2736_Maximum_Sum_Queries;
+namespace LeetCode.Problems._2736_Maximum_Sum_Queries;
 
 [UsedImplicitly]
 [Category("TODO")]

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2545_Sort_the_Students_by_Their_Kth_Score;
+namespace LeetCode.Problems._2545_Sort_the_Students_by_Their_Kth_Score;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-329/submissions/detail/882773714/

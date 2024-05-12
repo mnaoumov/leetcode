@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._1249_Minimum_Remove_to_Make_Valid_Parentheses;
+namespace LeetCode.Problems._1249_Minimum_Remove_to_Make_Valid_Parentheses;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/941808995/

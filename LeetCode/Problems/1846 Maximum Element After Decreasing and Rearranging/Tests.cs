@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1846_Maximum_Element_After_Decreasing_and_Rearranging;
+namespace LeetCode.Problems._1846_Maximum_Element_After_Decreasing_and_Rearranging;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

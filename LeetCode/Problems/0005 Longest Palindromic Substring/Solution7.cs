@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0005_Longest_Palindromic_Substring;
+namespace LeetCode.Problems._0005_Longest_Palindromic_Substring;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/147577534/

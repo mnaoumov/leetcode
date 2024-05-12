@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2306_Naming_a_Company;
+namespace LeetCode.Problems._2306_Naming_a_Company;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/894400680/

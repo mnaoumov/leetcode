@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2869_Minimum_Operations_to_Collect_Elements;
+namespace LeetCode.Problems._2869_Minimum_Operations_to_Collect_Elements;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

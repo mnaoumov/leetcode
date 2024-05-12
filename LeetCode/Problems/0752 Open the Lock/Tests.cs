@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0752_Open_the_Lock;
+namespace LeetCode.Problems._0752_Open_the_Lock;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

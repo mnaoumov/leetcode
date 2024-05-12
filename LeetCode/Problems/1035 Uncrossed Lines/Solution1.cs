@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1035_Uncrossed_Lines;
+namespace LeetCode.Problems._1035_Uncrossed_Lines;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/919937688/

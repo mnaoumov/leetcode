@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3148_Maximum_Difference_Score_in_a_Grid;
+namespace LeetCode.Problems._3148_Maximum_Difference_Score_in_a_Grid;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

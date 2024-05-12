@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2542_Maximum_Subsequence_Score;
+namespace LeetCode.Problems._2542_Maximum_Subsequence_Score;
 
 [PublicAPI]
 public interface ISolution

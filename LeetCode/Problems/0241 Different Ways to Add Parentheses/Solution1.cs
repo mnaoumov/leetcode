@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0241_Different_Ways_to_Add_Parentheses;
+namespace LeetCode.Problems._0241_Different_Ways_to_Add_Parentheses;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/950257043/

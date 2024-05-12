@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1510_Stone_Game_IV;
+namespace LeetCode.Problems._1510_Stone_Game_IV;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

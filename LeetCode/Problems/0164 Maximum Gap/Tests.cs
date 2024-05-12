@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0164_Maximum_Gap;
+namespace LeetCode.Problems._0164_Maximum_Gap;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

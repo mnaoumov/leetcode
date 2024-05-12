@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0065_Valid_Number;
+namespace LeetCode.Problems._0065_Valid_Number;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

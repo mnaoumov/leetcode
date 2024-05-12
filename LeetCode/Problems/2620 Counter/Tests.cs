@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2620_Counter;
+namespace LeetCode.Problems._2620_Counter;
 
 [UsedImplicitly]
 public class Tests : JavaScriptTestsBase<Tests>;

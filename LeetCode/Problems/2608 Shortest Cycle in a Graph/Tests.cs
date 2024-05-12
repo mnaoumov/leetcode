@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2608_Shortest_Cycle_in_a_Graph;
+namespace LeetCode.Problems._2608_Shortest_Cycle_in_a_Graph;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

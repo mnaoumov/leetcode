@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0328_Odd_Even_Linked_List;
+namespace LeetCode.Problems._0328_Odd_Even_Linked_List;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

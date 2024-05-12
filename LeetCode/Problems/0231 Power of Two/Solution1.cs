@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0231_Power_of_Two;
+namespace LeetCode.Problems._0231_Power_of_Two;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/929935256/

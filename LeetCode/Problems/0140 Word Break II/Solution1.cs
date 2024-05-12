@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0140_Word_Break_II;
+namespace LeetCode.Problems._0140_Word_Break_II;
 
 /// <summary>
 /// https://leetcode.com/problems/word-break-ii/submissions/841550736/

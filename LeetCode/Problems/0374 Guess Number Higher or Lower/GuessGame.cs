@@ -1,4 +1,4 @@
-namespace LeetCode._0374_Guess_Number_Higher_or_Lower;
+namespace LeetCode.Problems._0374_Guess_Number_Higher_or_Lower;
 
 public abstract class GuessGame
 {

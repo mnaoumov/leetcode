@@ -2,7 +2,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._1901_Find_a_Peak_Element_II;
+namespace LeetCode.Problems._1901_Find_a_Peak_Element_II;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

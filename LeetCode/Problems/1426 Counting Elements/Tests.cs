@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1426_Counting_Elements;
+namespace LeetCode.Problems._1426_Counting_Elements;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

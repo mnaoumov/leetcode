@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0621_Task_Scheduler;
+namespace LeetCode.Problems._0621_Task_Scheduler;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/196705695/

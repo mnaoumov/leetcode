@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0540_Single_Element_in_a_Sorted_Array;
+namespace LeetCode.Problems._0540_Single_Element_in_a_Sorted_Array;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

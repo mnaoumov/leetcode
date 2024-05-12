@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3107_Minimum_Operations_to_Make_Median_of_Array_Equal_to_K;
+namespace LeetCode.Problems._3107_Minimum_Operations_to_Make_Median_of_Array_Equal_to_K;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-392/submissions/detail/1225360032/

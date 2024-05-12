@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2491_Divide_Players_Into_Teams_of_Equal_Skill;
+namespace LeetCode.Problems._2491_Divide_Players_Into_Teams_of_Equal_Skill;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/856184774/

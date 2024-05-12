@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1416_Restore_The_Array;
+namespace LeetCode.Problems._1416_Restore_The_Array;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/938596075/

@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0059_Spiral_Matrix_II;
+namespace LeetCode.Problems._0059_Spiral_Matrix_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/819462926/

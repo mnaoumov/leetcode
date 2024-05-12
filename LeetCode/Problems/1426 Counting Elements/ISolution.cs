@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1426_Counting_Elements;
+namespace LeetCode.Problems._1426_Counting_Elements;
 
 [PublicAPI]
 public interface ISolution

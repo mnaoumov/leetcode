@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0129_Sum_Root_to_Leaf_Numbers;
+namespace LeetCode.Problems._0129_Sum_Root_to_Leaf_Numbers;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

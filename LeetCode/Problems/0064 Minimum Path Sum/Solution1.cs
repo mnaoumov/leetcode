@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0064_Minimum_Path_Sum;
+namespace LeetCode.Problems._0064_Minimum_Path_Sum;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/819580557/

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0172_Factorial_Trailing_Zeroes;
+namespace LeetCode.Problems._0172_Factorial_Trailing_Zeroes;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

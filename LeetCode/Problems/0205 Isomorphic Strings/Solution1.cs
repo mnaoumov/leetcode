@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0205_Isomorphic_Strings;
+namespace LeetCode.Problems._0205_Isomorphic_Strings;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/898980124/

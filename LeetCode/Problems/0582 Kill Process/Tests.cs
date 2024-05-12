@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0582_Kill_Process;
+namespace LeetCode.Problems._0582_Kill_Process;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

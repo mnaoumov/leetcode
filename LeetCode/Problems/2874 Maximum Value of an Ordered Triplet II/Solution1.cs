@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2874_Maximum_Value_of_an_Ordered_Triplet_II;
+namespace LeetCode.Problems._2874_Maximum_Value_of_an_Ordered_Triplet_II;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-365/submissions/detail/1063616469/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0052_N_Queens_II;
+namespace LeetCode.Problems._0052_N_Queens_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/918847769/

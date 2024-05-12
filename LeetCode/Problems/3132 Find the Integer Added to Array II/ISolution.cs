@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3132_Find_the_Integer_Added_to_Array_II;
+namespace LeetCode.Problems._3132_Find_the_Integer_Added_to_Array_II;
 
 [PublicAPI]
 public interface ISolution

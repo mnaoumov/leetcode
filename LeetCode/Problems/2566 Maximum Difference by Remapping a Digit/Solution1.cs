@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2566_Maximum_Difference_by_Remapping_a_Digit;
+namespace LeetCode.Problems._2566_Maximum_Difference_by_Remapping_a_Digit;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-98/submissions/detail/900356939/

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0361_Bomb_Enemy;
+namespace LeetCode.Problems._0361_Bomb_Enemy;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

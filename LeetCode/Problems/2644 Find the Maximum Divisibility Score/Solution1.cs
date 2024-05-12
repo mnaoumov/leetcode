@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2644_Find_the_Maximum_Divisibility_Score;
+namespace LeetCode.Problems._2644_Find_the_Maximum_Divisibility_Score;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-341/submissions/detail/934450982/

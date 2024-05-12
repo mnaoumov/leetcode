@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0114_Flatten_Binary_Tree_to_Linked_List;
+namespace LeetCode.Problems._0114_Flatten_Binary_Tree_to_Linked_List;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/834091869/

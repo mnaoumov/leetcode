@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0029_Divide_Two_Integers;
+namespace LeetCode.Problems._0029_Divide_Two_Integers;
 
 [PublicAPI]
 public interface ISolution

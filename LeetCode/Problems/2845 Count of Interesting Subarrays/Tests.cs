@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2845_Count_of_Interesting_Subarrays;
+namespace LeetCode.Problems._2845_Count_of_Interesting_Subarrays;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

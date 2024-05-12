@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2999_Count_the_Number_of_Powerful_Integers;
+namespace LeetCode.Problems._2999_Count_the_Number_of_Powerful_Integers;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

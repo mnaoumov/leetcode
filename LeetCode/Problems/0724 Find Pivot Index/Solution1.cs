@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0724_Find_Pivot_Index;
+namespace LeetCode.Problems._0724_Find_Pivot_Index;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/898923574/

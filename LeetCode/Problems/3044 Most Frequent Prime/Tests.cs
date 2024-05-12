@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3044_Most_Frequent_Prime;
+namespace LeetCode.Problems._3044_Most_Frequent_Prime;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1466_Reorder_Routes_to_Make_All_Paths_Lead_to_the_City_Zero;
+namespace LeetCode.Problems._1466_Reorder_Routes_to_Make_All_Paths_Lead_to_the_City_Zero;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1376_Time_Needed_to_Inform_All_Employees;
+namespace LeetCode.Problems._1376_Time_Needed_to_Inform_All_Employees;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/906656719/

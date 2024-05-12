@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1235_Maximum_Profit_in_Job_Scheduling;
+namespace LeetCode.Problems._1235_Maximum_Profit_in_Job_Scheduling;
 
 [PublicAPI]
 public interface ISolution

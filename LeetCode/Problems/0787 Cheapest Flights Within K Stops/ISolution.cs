@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0787_Cheapest_Flights_Within_K_Stops;
+namespace LeetCode.Problems._0787_Cheapest_Flights_Within_K_Stops;
 
 [PublicAPI]
 public interface ISolution

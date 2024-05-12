@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2561_Rearranging_Fruits;
+namespace LeetCode.Problems._2561_Rearranging_Fruits;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

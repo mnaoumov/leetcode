@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0402_Remove_K_Digits;
+namespace LeetCode.Problems._0402_Remove_K_Digits;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

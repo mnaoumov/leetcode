@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2391_Minimum_Amount_of_Time_to_Collect_Garbage;
+namespace LeetCode.Problems._2391_Minimum_Amount_of_Time_to_Collect_Garbage;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1102508361/

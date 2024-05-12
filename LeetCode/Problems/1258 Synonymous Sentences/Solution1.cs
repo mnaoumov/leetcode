@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1258_Synonymous_Sentences;
+namespace LeetCode.Problems._1258_Synonymous_Sentences;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/934389388/

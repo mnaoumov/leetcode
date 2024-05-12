@@ -2,7 +2,7 @@ using System.Text.RegularExpressions;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0065_Valid_Number;
+namespace LeetCode.Problems._0065_Valid_Number;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/819587393/

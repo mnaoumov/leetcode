@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0350_Intersection_of_Two_Arrays_II;
+namespace LeetCode.Problems._0350_Intersection_of_Two_Arrays_II;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

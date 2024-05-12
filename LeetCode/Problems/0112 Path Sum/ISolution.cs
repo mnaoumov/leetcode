@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0112_Path_Sum;
+namespace LeetCode.Problems._0112_Path_Sum;
 
 [PublicAPI]
 public interface ISolution

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2591_Distribute_Money_to_Maximum_Children;
+namespace LeetCode.Problems._2591_Distribute_Money_to_Maximum_Children;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-100/submissions/detail/917446511/

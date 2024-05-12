@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2531_Make_Number_of_Distinct_Characters_Equal;
+namespace LeetCode.Problems._2531_Make_Number_of_Distinct_Characters_Equal;
 
 [PublicAPI]
 public interface ISolution

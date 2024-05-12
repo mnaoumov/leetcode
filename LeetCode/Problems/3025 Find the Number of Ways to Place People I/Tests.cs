@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3025_Find_the_Number_of_Ways_to_Place_People_I;
+namespace LeetCode.Problems._3025_Find_the_Number_of_Ways_to_Place_People_I;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

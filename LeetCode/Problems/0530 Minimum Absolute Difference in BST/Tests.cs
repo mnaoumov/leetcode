@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0530_Minimum_Absolute_Difference_in_BST;
+namespace LeetCode.Problems._0530_Minimum_Absolute_Difference_in_BST;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

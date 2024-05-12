@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2523_Closest_Prime_Numbers_in_Range;
+namespace LeetCode.Problems._2523_Closest_Prime_Numbers_in_Range;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/869898336/

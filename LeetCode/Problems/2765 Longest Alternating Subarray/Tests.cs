@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2765_Longest_Alternating_Subarray;
+namespace LeetCode.Problems._2765_Longest_Alternating_Subarray;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0872_Leaf_Similar_Trees;
+namespace LeetCode.Problems._0872_Leaf_Similar_Trees;
 
 [PublicAPI]
 public interface ISolution

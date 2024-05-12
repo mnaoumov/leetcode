@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1165_Single_Row_Keyboard;
+namespace LeetCode.Problems._1165_Single_Row_Keyboard;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2766_Relocate_Marbles;
+namespace LeetCode.Problems._2766_Relocate_Marbles;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-108/submissions/detail/989390565/

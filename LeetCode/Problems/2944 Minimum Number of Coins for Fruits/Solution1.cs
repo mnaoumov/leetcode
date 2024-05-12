@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2944_Minimum_Number_of_Coins_for_Fruits;
+namespace LeetCode.Problems._2944_Minimum_Number_of_Coins_for_Fruits;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-118/submissions/detail/1106117407/

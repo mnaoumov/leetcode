@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._0168_Excel_Sheet_Column_Title;
+namespace LeetCode.Problems._0168_Excel_Sheet_Column_Title;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/879060384/

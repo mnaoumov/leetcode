@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0116_Populating_Next_Right_Pointers_in_Each_Node;
+namespace LeetCode.Problems._0116_Populating_Next_Right_Pointers_in_Each_Node;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

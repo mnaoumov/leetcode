@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0918_Maximum_Sum_Circular_Subarray;
+namespace LeetCode.Problems._0918_Maximum_Sum_Circular_Subarray;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/880850275/

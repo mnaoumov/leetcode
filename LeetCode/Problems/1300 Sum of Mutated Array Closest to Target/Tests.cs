@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1300_Sum_of_Mutated_Array_Closest_to_Target;
+namespace LeetCode.Problems._1300_Sum_of_Mutated_Array_Closest_to_Target;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

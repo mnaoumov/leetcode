@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0913_Cat_and_Mouse;
+namespace LeetCode.Problems._0913_Cat_and_Mouse;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/970759922/

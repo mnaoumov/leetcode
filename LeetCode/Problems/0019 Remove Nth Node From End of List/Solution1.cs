@@ -3,7 +3,7 @@
 #pragma warning disable
 using JetBrains.Annotations;
 
-namespace LeetCode._0019_Remove_Nth_Node_From_End_of_List;
+namespace LeetCode.Problems._0019_Remove_Nth_Node_From_End_of_List;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/198154527/

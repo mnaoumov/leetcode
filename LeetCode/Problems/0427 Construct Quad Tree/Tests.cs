@@ -2,7 +2,7 @@ using NUnit.Framework;
 using JetBrains.Annotations;
 using Newtonsoft.Json;
 
-namespace LeetCode._0427_Construct_Quad_Tree;
+namespace LeetCode.Problems._0427_Construct_Quad_Tree;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

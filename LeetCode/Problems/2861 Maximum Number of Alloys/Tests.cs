@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2861_Maximum_Number_of_Alloys;
+namespace LeetCode.Problems._2861_Maximum_Number_of_Alloys;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0886_Possible_Bipartition;
+namespace LeetCode.Problems._0886_Possible_Bipartition;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

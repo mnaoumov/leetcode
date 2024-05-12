@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._0187_Repeated_DNA_Sequences;
+namespace LeetCode.Problems._0187_Repeated_DNA_Sequences;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/902682127/

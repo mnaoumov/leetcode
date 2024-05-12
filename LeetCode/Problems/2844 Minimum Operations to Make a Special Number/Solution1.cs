@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2844_Minimum_Operations_to_Make_a_Special_Number;
+namespace LeetCode.Problems._2844_Minimum_Operations_to_Make_a_Special_Number;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-361/submissions/detail/1039021869/

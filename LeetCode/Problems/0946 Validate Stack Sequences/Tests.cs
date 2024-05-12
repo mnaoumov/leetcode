@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0946_Validate_Stack_Sequences;
+namespace LeetCode.Problems._0946_Validate_Stack_Sequences;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

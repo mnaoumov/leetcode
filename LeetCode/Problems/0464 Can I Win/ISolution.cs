@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0464_Can_I_Win;
+namespace LeetCode.Problems._0464_Can_I_Win;
 
 [PublicAPI]
 public interface ISolution

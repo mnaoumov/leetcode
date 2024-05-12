@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2926_Maximum_Balanced_Subsequence_Sum;
+namespace LeetCode.Problems._2926_Maximum_Balanced_Subsequence_Sum;
 
 [UsedImplicitly]
 [Category("TODO")]

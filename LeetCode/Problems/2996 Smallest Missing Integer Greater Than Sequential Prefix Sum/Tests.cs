@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2996_Smallest_Missing_Integer_Greater_Than_Sequential_Prefix_Sum;
+namespace LeetCode.Problems._2996_Smallest_Missing_Integer_Greater_Than_Sequential_Prefix_Sum;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2747_Count_Zero_Request_Servers;
+namespace LeetCode.Problems._2747_Count_Zero_Request_Servers;
 
 [PublicAPI]
 public interface ISolution

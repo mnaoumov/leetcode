@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2547_Minimum_Cost_to_Split_an_Array;
+namespace LeetCode.Problems._2547_Minimum_Cost_to_Split_an_Array;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

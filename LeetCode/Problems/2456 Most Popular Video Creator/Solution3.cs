@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2456_Most_Popular_Video_Creator;
+namespace LeetCode.Problems._2456_Most_Popular_Video_Creator;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/833639056/

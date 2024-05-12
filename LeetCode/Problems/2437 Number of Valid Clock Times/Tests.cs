@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._2437_Number_of_Valid_Clock_Times;
+namespace LeetCode.Problems._2437_Number_of_Valid_Clock_Times;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

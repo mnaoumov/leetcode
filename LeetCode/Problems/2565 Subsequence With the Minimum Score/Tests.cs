@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2565_Subsequence_With_the_Minimum_Score;
+namespace LeetCode.Problems._2565_Subsequence_With_the_Minimum_Score;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

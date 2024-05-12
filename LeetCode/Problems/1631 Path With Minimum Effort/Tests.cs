@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1631_Path_With_Minimum_Effort;
+namespace LeetCode.Problems._1631_Path_With_Minimum_Effort;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

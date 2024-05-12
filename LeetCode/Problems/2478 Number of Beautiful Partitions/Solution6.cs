@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2478_Number_of_Beautiful_Partitions;
+namespace LeetCode.Problems._2478_Number_of_Beautiful_Partitions;
 
 /// <summary>
 /// https://leetcode.com/problems/number-of-beautiful-partitions/submissions/846690628/

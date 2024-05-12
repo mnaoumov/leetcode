@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0202_Happy_Number;
+namespace LeetCode.Problems._0202_Happy_Number;
 
 [PublicAPI]
 public interface ISolution

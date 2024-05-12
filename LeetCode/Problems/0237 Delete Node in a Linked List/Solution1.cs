@@ -3,7 +3,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0237_Delete_Node_in_a_Linked_List;
+namespace LeetCode.Problems._0237_Delete_Node_in_a_Linked_List;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/193811710/

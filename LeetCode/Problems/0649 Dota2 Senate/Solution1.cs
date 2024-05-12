@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0649_Dota2_Senate;
+namespace LeetCode.Problems._0649_Dota2_Senate;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/903209412/

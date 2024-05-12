@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1615_Maximal_Network_Rank;
+namespace LeetCode.Problems._1615_Maximal_Network_Rank;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

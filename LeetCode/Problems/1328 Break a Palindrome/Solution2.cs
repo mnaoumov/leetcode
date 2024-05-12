@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1328_Break_a_Palindrome;
+namespace LeetCode.Problems._1328_Break_a_Palindrome;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/829082423/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1042_Flower_Planting_With_No_Adjacent;
+namespace LeetCode.Problems._1042_Flower_Planting_With_No_Adjacent;
 
 [PublicAPI]
 public interface ISolution

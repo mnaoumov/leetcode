@@ -1,7 +1,7 @@
 using System.Collections;
 using JetBrains.Annotations;
 
-namespace LeetCode._2931_Maximum_Spending_After_Buying_Items;
+namespace LeetCode.Problems._2931_Maximum_Spending_After_Buying_Items;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-117/submissions/detail/1096653457/

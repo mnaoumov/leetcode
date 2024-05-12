@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2768_Number_of_Black_Blocks;
+namespace LeetCode.Problems._2768_Number_of_Black_Blocks;
 
 [UsedImplicitly]
 [Category("TODO")]

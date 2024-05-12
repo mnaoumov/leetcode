@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0145_Binary_Tree_Postorder_Traversal;
+namespace LeetCode.Problems._0145_Binary_Tree_Postorder_Traversal;
 
 /// <summary>
 /// https://leetcode.com/problems/binary-tree-postorder-traversal/submissions/845330020/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1547_Minimum_Cost_to_Cut_a_Stick;
+namespace LeetCode.Problems._1547_Minimum_Cost_to_Cut_a_Stick;
 
 /// <summary>
 /// TODO url

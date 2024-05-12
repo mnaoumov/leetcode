@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0911_Online_Election;
+namespace LeetCode.Problems._0911_Online_Election;
 
 [UsedImplicitly]
 public class Tests : SutTestsBase<ISolution, ITopVotedCandidate>;

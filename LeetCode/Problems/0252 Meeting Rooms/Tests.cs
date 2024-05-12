@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0252_Meeting_Rooms;
+namespace LeetCode.Problems._0252_Meeting_Rooms;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

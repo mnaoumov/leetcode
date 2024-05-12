@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1249_Minimum_Remove_to_Make_Valid_Parentheses;
+namespace LeetCode.Problems._1249_Minimum_Remove_to_Make_Valid_Parentheses;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

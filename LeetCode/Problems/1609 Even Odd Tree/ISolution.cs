@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1609_Even_Odd_Tree;
+namespace LeetCode.Problems._1609_Even_Odd_Tree;
 
 [PublicAPI]
 public interface ISolution

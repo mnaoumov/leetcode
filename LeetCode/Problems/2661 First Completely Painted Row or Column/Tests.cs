@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2661_First_Completely_Painted_Row_or_Column;
+namespace LeetCode.Problems._2661_First_Completely_Painted_Row_or_Column;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

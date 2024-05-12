@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2095_Delete_the_Middle_Node_of_a_Linked_List;
+namespace LeetCode.Problems._2095_Delete_the_Middle_Node_of_a_Linked_List;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/822147080/

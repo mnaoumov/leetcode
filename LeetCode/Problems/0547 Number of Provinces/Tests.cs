@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0547_Number_of_Provinces;
+namespace LeetCode.Problems._0547_Number_of_Provinces;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

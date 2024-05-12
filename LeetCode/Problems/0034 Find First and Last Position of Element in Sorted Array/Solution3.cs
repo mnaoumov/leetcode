@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array;
+namespace LeetCode.Problems._0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/198235968/

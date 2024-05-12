@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0600_Non_negative_Integers_without_Consecutive_Ones;
+namespace LeetCode.Problems._0600_Non_negative_Integers_without_Consecutive_Ones;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1073021674/

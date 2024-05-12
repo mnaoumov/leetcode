@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0050_Pow_x__n_;
+namespace LeetCode.Problems._0050_Pow_x__n_;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1158_Market_Analysis_I;
+namespace LeetCode.Problems._1158_Market_Analysis_I;
 
 [UsedImplicitly]
 public class Tests : SelectSqlTestsBase<Tests>

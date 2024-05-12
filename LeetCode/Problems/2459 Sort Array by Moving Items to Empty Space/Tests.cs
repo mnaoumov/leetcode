@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2459_Sort_Array_by_Moving_Items_to_Empty_Space;
+namespace LeetCode.Problems._2459_Sort_Array_by_Moving_Items_to_Empty_Space;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

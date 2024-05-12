@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3086_Minimum_Moves_to_Pick_K_Ones;
+namespace LeetCode.Problems._3086_Minimum_Moves_to_Pick_K_Ones;
 
 [UsedImplicitly]
 [Category("TODO")]

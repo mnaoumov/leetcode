@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0692_Top_K_Frequent_Words;
+namespace LeetCode.Problems._0692_Top_K_Frequent_Words;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

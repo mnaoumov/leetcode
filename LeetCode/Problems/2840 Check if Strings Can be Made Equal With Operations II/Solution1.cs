@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2840_Check_if_Strings_Can_be_Made_Equal_With_Operations_II;
+namespace LeetCode.Problems._2840_Check_if_Strings_Can_be_Made_Equal_With_Operations_II;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-112/submissions/detail/1038512794/

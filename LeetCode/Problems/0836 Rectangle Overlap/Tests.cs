@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0836_Rectangle_Overlap;
+namespace LeetCode.Problems._0836_Rectangle_Overlap;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

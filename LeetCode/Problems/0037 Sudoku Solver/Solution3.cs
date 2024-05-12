@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0037_Sudoku_Solver;
+namespace LeetCode.Problems._0037_Sudoku_Solver;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/829018302/

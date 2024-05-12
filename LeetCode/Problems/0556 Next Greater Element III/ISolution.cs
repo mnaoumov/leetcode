@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0556_Next_Greater_Element_III;
+namespace LeetCode.Problems._0556_Next_Greater_Element_III;
 
 [PublicAPI]
 public interface ISolution

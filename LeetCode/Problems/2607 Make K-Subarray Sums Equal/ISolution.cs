@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2607_Make_K_Subarray_Sums_Equal;
+namespace LeetCode.Problems._2607_Make_K_Subarray_Sums_Equal;
 
 [PublicAPI]
 public interface ISolution

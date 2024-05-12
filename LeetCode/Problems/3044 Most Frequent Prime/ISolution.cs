@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3044_Most_Frequent_Prime;
+namespace LeetCode.Problems._3044_Most_Frequent_Prime;
 
 [PublicAPI]
 public interface ISolution

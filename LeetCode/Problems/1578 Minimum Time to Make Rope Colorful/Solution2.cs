@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._1578_Minimum_Time_to_Make_Rope_Colorful;
+namespace LeetCode.Problems._1578_Minimum_Time_to_Make_Rope_Colorful;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/814206015/

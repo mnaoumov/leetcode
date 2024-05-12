@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0024_Swap_Nodes_in_Pairs;
+namespace LeetCode.Problems._0024_Swap_Nodes_in_Pairs;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/829012598/

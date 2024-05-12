@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0948_Bag_of_Tokens;
+namespace LeetCode.Problems._0948_Bag_of_Tokens;
 
 [PublicAPI]
 public interface ISolution

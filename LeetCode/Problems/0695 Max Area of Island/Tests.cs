@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0695_Max_Area_of_Island;
+namespace LeetCode.Problems._0695_Max_Area_of_Island;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

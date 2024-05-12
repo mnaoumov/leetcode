@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2492_Minimum_Score_of_a_Path_Between_Two_Cities;
+namespace LeetCode.Problems._2492_Minimum_Score_of_a_Path_Between_Two_Cities;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/854561795/

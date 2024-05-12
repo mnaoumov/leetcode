@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1201_Ugly_Number_III;
+namespace LeetCode.Problems._1201_Ugly_Number_III;
 
 [PublicAPI]
 public interface ISolution

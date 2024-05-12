@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0164_Maximum_Gap;
+namespace LeetCode.Problems._0164_Maximum_Gap;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/874440613/

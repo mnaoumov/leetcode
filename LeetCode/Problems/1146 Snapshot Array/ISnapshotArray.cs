@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1146_Snapshot_Array;
+namespace LeetCode.Problems._1146_Snapshot_Array;
 
 [PublicAPI]
 public interface ISnapshotArray

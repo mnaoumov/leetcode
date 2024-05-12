@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0079_Word_Search;
+namespace LeetCode.Problems._0079_Word_Search;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

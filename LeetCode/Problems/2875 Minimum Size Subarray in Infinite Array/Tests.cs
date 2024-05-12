@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2875_Minimum_Size_Subarray_in_Infinite_Array;
+namespace LeetCode.Problems._2875_Minimum_Size_Subarray_in_Infinite_Array;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

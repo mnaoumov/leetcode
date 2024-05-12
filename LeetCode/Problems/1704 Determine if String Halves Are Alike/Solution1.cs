@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._1704_Determine_if_String_Halves_Are_Alike;
+namespace LeetCode.Problems._1704_Determine_if_String_Halves_Are_Alike;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/852572559/

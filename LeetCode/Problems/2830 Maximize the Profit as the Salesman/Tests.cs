@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2830_Maximize_the_Profit_as_the_Salesman;
+namespace LeetCode.Problems._2830_Maximize_the_Profit_as_the_Salesman;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

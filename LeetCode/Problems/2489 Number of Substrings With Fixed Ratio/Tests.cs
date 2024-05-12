@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2489_Number_of_Substrings_With_Fixed_Ratio;
+namespace LeetCode.Problems._2489_Number_of_Substrings_With_Fixed_Ratio;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

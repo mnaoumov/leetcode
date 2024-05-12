@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2490_Circular_Sentence;
+namespace LeetCode.Problems._2490_Circular_Sentence;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/854253715/

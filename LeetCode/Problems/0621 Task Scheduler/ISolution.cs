@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0621_Task_Scheduler;
+namespace LeetCode.Problems._0621_Task_Scheduler;
 
 [PublicAPI]
 public interface ISolution

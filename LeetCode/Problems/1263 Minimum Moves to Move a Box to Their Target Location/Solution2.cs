@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1263_Minimum_Moves_to_Move_a_Box_to_Their_Target_Location;
+namespace LeetCode.Problems._1263_Minimum_Moves_to_Move_a_Box_to_Their_Target_Location;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/969874972/

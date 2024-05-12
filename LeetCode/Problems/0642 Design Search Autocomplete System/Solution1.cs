@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._0642_Design_Search_Autocomplete_System;
+namespace LeetCode.Problems._0642_Design_Search_Autocomplete_System;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/964770089/

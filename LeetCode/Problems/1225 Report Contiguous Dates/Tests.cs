@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1225_Report_Contiguous_Dates;
+namespace LeetCode.Problems._1225_Report_Contiguous_Dates;
 
 [UsedImplicitly]
 public class Tests : SelectSqlTestsBase<Tests>;

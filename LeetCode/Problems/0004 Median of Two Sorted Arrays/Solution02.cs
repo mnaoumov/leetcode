@@ -2,7 +2,7 @@
 #pragma warning disable
 using JetBrains.Annotations;
 
-namespace LeetCode._0004_Median_of_Two_Sorted_Arrays;
+namespace LeetCode.Problems._0004_Median_of_Two_Sorted_Arrays;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/147422045/

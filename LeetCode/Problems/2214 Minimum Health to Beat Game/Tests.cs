@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2214_Minimum_Health_to_Beat_Game;
+namespace LeetCode.Problems._2214_Minimum_Health_to_Beat_Game;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1272_Remove_Interval;
+namespace LeetCode.Problems._1272_Remove_Interval;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

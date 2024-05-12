@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._2503_Maximum_Number_of_Points_From_Grid_Queries;
+namespace LeetCode.Problems._2503_Maximum_Number_of_Points_From_Grid_Queries;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

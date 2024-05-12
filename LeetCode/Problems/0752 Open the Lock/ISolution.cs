@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0752_Open_the_Lock;
+namespace LeetCode.Problems._0752_Open_the_Lock;
 
 [PublicAPI]
 public interface ISolution

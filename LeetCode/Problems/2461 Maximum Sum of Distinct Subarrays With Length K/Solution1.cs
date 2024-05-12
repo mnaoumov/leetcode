@@ -4,7 +4,7 @@ using JetBrains.Annotations;
 #pragma warning disable IDE0059
 #pragma warning disable CS0219
 
-namespace LeetCode._2461_Maximum_Sum_of_Distinct_Subarrays_With_Length_K;
+namespace LeetCode.Problems._2461_Maximum_Sum_of_Distinct_Subarrays_With_Length_K;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-318/submissions/detail/837734210/

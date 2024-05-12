@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0732_My_Calendar_III;
+namespace LeetCode.Problems._0732_My_Calendar_III;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/816937661/

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1254_Number_of_Closed_Islands;
+namespace LeetCode.Problems._1254_Number_of_Closed_Islands;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3112_Minimum_Time_to_Visit_Disappearing_Nodes;
+namespace LeetCode.Problems._3112_Minimum_Time_to_Visit_Disappearing_Nodes;
 
 [PublicAPI]
 public interface ISolution

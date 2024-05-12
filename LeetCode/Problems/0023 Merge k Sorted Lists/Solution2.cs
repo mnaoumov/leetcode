@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0023_Merge_k_Sorted_Lists;
+namespace LeetCode.Problems._0023_Merge_k_Sorted_Lists;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/810850167/

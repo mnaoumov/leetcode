@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0300_Longest_Increasing_Subsequence;
+namespace LeetCode.Problems._0300_Longest_Increasing_Subsequence;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/919779060/

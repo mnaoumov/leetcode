@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1192_Critical_Connections_in_a_Network;
+namespace LeetCode.Problems._1192_Critical_Connections_in_a_Network;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

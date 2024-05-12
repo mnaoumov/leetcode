@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1441_Build_an_Array_With_Stack_Operations;
+namespace LeetCode.Problems._1441_Build_an_Array_With_Stack_Operations;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1090669303/

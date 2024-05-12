@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0342_Power_of_Four;
+namespace LeetCode.Problems._0342_Power_of_Four;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

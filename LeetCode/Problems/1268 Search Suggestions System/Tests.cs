@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._1268_Search_Suggestions_System;
+namespace LeetCode.Problems._1268_Search_Suggestions_System;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

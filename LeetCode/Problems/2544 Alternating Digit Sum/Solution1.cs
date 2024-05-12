@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2544_Alternating_Digit_Sum;
+namespace LeetCode.Problems._2544_Alternating_Digit_Sum;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-329/submissions/detail/882770186/

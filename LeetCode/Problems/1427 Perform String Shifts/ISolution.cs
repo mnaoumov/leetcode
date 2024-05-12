@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1427_Perform_String_Shifts;
+namespace LeetCode.Problems._1427_Perform_String_Shifts;
 
 [PublicAPI]
 public interface ISolution

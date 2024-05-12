@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0701_Insert_into_a_Binary_Search_Tree;
+namespace LeetCode.Problems._0701_Insert_into_a_Binary_Search_Tree;
 
 [PublicAPI]
 public interface ISolution

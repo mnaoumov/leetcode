@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3093_Longest_Common_Suffix_Queries;
+namespace LeetCode.Problems._3093_Longest_Common_Suffix_Queries;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2305_Fair_Distribution_of_Cookies;
+namespace LeetCode.Problems._2305_Fair_Distribution_of_Cookies;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/918903423/

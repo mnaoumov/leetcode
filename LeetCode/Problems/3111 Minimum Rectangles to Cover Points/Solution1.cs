@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3111_Minimum_Rectangles_to_Cover_Points;
+namespace LeetCode.Problems._3111_Minimum_Rectangles_to_Cover_Points;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-128/submissions/detail/1231226947/

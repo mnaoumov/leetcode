@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0904_Fruit_Into_Baskets;
+namespace LeetCode.Problems._0904_Fruit_Into_Baskets;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1319_Number_of_Operations_to_Make_Network_Connected;
+namespace LeetCode.Problems._1319_Number_of_Operations_to_Make_Network_Connected;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/920491120/

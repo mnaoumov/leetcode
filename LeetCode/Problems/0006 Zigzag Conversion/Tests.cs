@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0006_Zigzag_Conversion;
+namespace LeetCode.Problems._0006_Zigzag_Conversion;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

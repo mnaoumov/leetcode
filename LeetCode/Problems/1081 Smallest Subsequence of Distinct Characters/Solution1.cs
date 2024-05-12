@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1081_Smallest_Subsequence_of_Distinct_Characters;
+namespace LeetCode.Problems._1081_Smallest_Subsequence_of_Distinct_Characters;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1061019350/

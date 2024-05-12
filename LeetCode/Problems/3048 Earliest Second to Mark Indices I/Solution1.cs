@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3048_Earliest_Second_to_Mark_Indices_I;
+namespace LeetCode.Problems._3048_Earliest_Second_to_Mark_Indices_I;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1185419262/

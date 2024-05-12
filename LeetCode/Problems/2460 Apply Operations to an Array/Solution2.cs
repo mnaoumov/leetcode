@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2460_Apply_Operations_to_an_Array;
+namespace LeetCode.Problems._2460_Apply_Operations_to_an_Array;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-318/submissions/detail/837722048/

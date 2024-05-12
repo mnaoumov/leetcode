@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0127_Word_Ladder;
+namespace LeetCode.Problems._0127_Word_Ladder;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

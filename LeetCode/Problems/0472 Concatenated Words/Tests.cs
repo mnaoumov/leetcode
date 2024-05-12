@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0472_Concatenated_Words;
+namespace LeetCode.Problems._0472_Concatenated_Words;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

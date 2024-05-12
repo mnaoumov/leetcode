@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1748_Sum_of_Unique_Elements;
+namespace LeetCode.Problems._1748_Sum_of_Unique_Elements;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/898949507/

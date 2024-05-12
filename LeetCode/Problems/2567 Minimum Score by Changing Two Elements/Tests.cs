@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2567_Minimum_Score_by_Changing_Two_Elements;
+namespace LeetCode.Problems._2567_Minimum_Score_by_Changing_Two_Elements;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

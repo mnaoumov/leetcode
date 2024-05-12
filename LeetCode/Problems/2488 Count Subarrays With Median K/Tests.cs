@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2488_Count_Subarrays_With_Median_K;
+namespace LeetCode.Problems._2488_Count_Subarrays_With_Median_K;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

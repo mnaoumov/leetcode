@@ -1,4 +1,4 @@
-namespace LeetCode._0133_Clone_Graph;
+namespace LeetCode.Problems._0133_Clone_Graph;
 
 public class Node
 {

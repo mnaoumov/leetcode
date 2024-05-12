@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1746_Maximum_Subarray_Sum_After_One_Operation;
+namespace LeetCode.Problems._1746_Maximum_Subarray_Sum_After_One_Operation;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

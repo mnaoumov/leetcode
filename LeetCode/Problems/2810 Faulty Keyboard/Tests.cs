@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2810_Faulty_Keyboard;
+namespace LeetCode.Problems._2810_Faulty_Keyboard;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

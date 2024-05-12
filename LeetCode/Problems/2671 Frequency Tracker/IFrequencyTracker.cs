@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2671_Frequency_Tracker;
+namespace LeetCode.Problems._2671_Frequency_Tracker;
 
 [PublicAPI]
 public interface IFrequencyTracker

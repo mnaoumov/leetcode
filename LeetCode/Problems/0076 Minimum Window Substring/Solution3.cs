@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0076_Minimum_Window_Substring;
+namespace LeetCode.Problems._0076_Minimum_Window_Substring;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/821333906/

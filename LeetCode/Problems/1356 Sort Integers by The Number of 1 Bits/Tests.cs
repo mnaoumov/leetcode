@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._1356_Sort_Integers_by_The_Number_of_1_Bits;
+namespace LeetCode.Problems._1356_Sort_Integers_by_The_Number_of_1_Bits;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1508_Range_Sum_of_Sorted_Subarray_Sums;
+namespace LeetCode.Problems._1508_Range_Sum_of_Sorted_Subarray_Sums;
 
 [PublicAPI]
 public interface ISolution

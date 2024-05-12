@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2596_Check_Knight_Tour_Configuration;
+namespace LeetCode.Problems._2596_Check_Knight_Tour_Configuration;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-337/submissions/detail/917866835/

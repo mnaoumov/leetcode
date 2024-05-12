@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._1544_Make_The_String_Great;
+namespace LeetCode.Problems._1544_Make_The_String_Great;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

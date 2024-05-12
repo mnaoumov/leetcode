@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1834_Single_Threaded_CPU;
+namespace LeetCode.Problems._1834_Single_Threaded_CPU;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/867231078/

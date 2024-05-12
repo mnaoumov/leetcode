@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2859_Sum_of_Values_at_Indices_With_K_Set_Bits;
+namespace LeetCode.Problems._2859_Sum_of_Values_at_Indices_With_K_Set_Bits;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

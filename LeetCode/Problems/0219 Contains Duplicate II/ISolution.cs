@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0219_Contains_Duplicate_II;
+namespace LeetCode.Problems._0219_Contains_Duplicate_II;
 
 [PublicAPI]
 public interface ISolution

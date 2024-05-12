@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1061_Lexicographically_Smallest_Equivalent_String;
+namespace LeetCode.Problems._1061_Lexicographically_Smallest_Equivalent_String;
 
 [PublicAPI]
 public interface ISolution

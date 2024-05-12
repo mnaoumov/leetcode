@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2786_Visit_Array_Positions_to_Maximize_Score;
+namespace LeetCode.Problems._2786_Visit_Array_Positions_to_Maximize_Score;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

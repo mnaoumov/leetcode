@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0623_Add_One_Row_to_Tree;
+namespace LeetCode.Problems._0623_Add_One_Row_to_Tree;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/815490262/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2924_Find_Champion_II;
+namespace LeetCode.Problems._2924_Find_Champion_II;
 
 [PublicAPI]
 public interface ISolution

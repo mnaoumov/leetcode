@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2857_Count_Pairs_of_Points_With_Distance_k;
+namespace LeetCode.Problems._2857_Count_Pairs_of_Points_With_Distance_k;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-113/submissions/detail/1051021949/

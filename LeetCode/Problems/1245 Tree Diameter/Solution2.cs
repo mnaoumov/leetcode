@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1245_Tree_Diameter;
+namespace LeetCode.Problems._1245_Tree_Diameter;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1182510470/

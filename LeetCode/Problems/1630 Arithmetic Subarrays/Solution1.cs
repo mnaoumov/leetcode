@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1630_Arithmetic_Subarrays;
+namespace LeetCode.Problems._1630_Arithmetic_Subarrays;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/935067138/

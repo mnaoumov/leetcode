@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3146_Permutation_Difference_between_Two_Strings;
+namespace LeetCode.Problems._3146_Permutation_Difference_between_Two_Strings;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

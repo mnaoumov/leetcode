@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0119_Pascal_s_Triangle_II;
+namespace LeetCode.Problems._0119_Pascal_s_Triangle_II;
 
 [PublicAPI]
 public interface ISolution

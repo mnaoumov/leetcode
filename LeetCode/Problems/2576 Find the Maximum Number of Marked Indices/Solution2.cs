@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2576_Find_the_Maximum_Number_of_Marked_Indices;
+namespace LeetCode.Problems._2576_Find_the_Maximum_Number_of_Marked_Indices;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-334/submissions/detail/905051011/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0204_Count_Primes;
+namespace LeetCode.Problems._0204_Count_Primes;
 
 [PublicAPI]
 public interface ISolution

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1436_Destination_City;
+namespace LeetCode.Problems._1436_Destination_City;
 
 [PublicAPI]
 public interface ISolution

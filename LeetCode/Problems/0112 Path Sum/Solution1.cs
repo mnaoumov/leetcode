@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0112_Path_Sum;
+namespace LeetCode.Problems._0112_Path_Sum;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/814660488/

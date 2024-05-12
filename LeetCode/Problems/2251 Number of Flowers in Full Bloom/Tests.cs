@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._2251_Number_of_Flowers_in_Full_Bloom;
+namespace LeetCode.Problems._2251_Number_of_Flowers_in_Full_Bloom;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0525_Contiguous_Array;
+namespace LeetCode.Problems._0525_Contiguous_Array;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1204835816/

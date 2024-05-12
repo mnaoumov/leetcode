@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2434_Using_a_Robot_to_Print_the_Lexicographically_Smallest_String;
+namespace LeetCode.Problems._2434_Using_a_Robot_to_Print_the_Lexicographically_Smallest_String;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

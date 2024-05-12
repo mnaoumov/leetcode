@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3040_Maximum_Number_of_Operations_With_the_Same_Score_II;
+namespace LeetCode.Problems._3040_Maximum_Number_of_Operations_With_the_Same_Score_II;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-124/submissions/detail/1177905277/

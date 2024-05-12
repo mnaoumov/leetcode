@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2493_Divide_Nodes_Into_the_Maximum_Number_of_Groups;
+namespace LeetCode.Problems._2493_Divide_Nodes_Into_the_Maximum_Number_of_Groups;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/856174654/

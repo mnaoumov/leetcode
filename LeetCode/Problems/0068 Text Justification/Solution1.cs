@@ -2,7 +2,7 @@ using System.Text;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0068_Text_Justification;
+namespace LeetCode.Problems._0068_Text_Justification;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/819855226/

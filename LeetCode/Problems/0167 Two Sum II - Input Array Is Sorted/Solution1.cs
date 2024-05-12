@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0167_Two_Sum_II___Input_Array_Is_Sorted;
+namespace LeetCode.Problems._0167_Two_Sum_II___Input_Array_Is_Sorted;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/875910433/

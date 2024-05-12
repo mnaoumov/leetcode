@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1926_Nearest_Exit_from_Entrance_in_Maze;
+namespace LeetCode.Problems._1926_Nearest_Exit_from_Entrance_in_Maze;
 
 [PublicAPI]
 public interface ISolution

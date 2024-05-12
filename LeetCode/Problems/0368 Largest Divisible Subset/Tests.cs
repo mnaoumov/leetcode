@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0368_Largest_Divisible_Subset;
+namespace LeetCode.Problems._0368_Largest_Divisible_Subset;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

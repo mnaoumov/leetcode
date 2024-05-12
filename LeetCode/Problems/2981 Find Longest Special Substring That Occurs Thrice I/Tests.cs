@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2981_Find_Longest_Special_Substring_That_Occurs_Thrice_I;
+namespace LeetCode.Problems._2981_Find_Longest_Special_Substring_That_Occurs_Thrice_I;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

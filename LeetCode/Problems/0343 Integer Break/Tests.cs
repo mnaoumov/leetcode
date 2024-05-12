@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0343_Integer_Break;
+namespace LeetCode.Problems._0343_Integer_Break;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

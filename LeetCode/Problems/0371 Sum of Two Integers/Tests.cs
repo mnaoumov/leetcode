@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0371_Sum_of_Two_Integers;
+namespace LeetCode.Problems._0371_Sum_of_Two_Integers;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

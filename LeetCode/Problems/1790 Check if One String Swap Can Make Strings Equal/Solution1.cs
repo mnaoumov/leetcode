@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1790_Check_if_One_String_Swap_Can_Make_Strings_Equal;
+namespace LeetCode.Problems._1790_Check_if_One_String_Swap_Can_Make_Strings_Equal;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/925207698/

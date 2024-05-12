@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1885_Count_Pairs_in_Two_Arrays;
+namespace LeetCode.Problems._1885_Count_Pairs_in_Two_Arrays;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

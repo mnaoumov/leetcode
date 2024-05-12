@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2676_Throttle;
+namespace LeetCode.Problems._2676_Throttle;
 
 [UsedImplicitly]
 public class Tests : JavaScriptTestsBase<Tests>;

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2707_Extra_Characters_in_a_String;
+namespace LeetCode.Problems._2707_Extra_Characters_in_a_String;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-105/submissions/detail/958325649/

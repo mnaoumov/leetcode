@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0976_Largest_Perimeter_Triangle;
+namespace LeetCode.Problems._0976_Largest_Perimeter_Triangle;
 
 [PublicAPI]
 public interface ISolution

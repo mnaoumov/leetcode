@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3074_Apple_Redistribution_into_Boxes;
+namespace LeetCode.Problems._3074_Apple_Redistribution_into_Boxes;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2558_Take_Gifts_From_the_Richest_Pile;
+namespace LeetCode.Problems._2558_Take_Gifts_From_the_Richest_Pile;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

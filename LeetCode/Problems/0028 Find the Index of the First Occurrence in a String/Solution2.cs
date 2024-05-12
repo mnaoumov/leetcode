@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0028_Find_the_Index_of_the_First_Occurrence_in_a_String;
+namespace LeetCode.Problems._0028_Find_the_Index_of_the_First_Occurrence_in_a_String;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/829014347/

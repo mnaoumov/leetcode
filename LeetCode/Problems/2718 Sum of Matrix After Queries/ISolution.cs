@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2718_Sum_of_Matrix_After_Queries;
+namespace LeetCode.Problems._2718_Sum_of_Matrix_After_Queries;
 
 [PublicAPI]
 public interface ISolution

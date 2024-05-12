@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0008_String_to_Integer__atoi_;
+namespace LeetCode.Problems._0008_String_to_Integer__atoi_;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/807871103/

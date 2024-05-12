@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2850_Minimum_Moves_to_Spread_Stones_Over_Grid;
+namespace LeetCode.Problems._2850_Minimum_Moves_to_Spread_Stones_Over_Grid;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

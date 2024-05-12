@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2937_Make_Three_Strings_Equal;
+namespace LeetCode.Problems._2937_Make_Three_Strings_Equal;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-372/submissions/detail/1101773071/

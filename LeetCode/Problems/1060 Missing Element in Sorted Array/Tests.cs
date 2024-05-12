@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1060_Missing_Element_in_Sorted_Array;
+namespace LeetCode.Problems._1060_Missing_Element_in_Sorted_Array;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

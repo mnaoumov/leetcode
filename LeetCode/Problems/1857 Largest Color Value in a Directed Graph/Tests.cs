@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1857_Largest_Color_Value_in_a_Directed_Graph;
+namespace LeetCode.Problems._1857_Largest_Color_Value_in_a_Directed_Graph;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

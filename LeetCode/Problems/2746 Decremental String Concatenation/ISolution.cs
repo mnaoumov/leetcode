@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2746_Decremental_String_Concatenation;
+namespace LeetCode.Problems._2746_Decremental_String_Concatenation;
 
 [PublicAPI]
 public interface ISolution

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2562_Find_the_Array_Concatenation_Value;
+namespace LeetCode.Problems._2562_Find_the_Array_Concatenation_Value;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-332/submissions/detail/896248929/

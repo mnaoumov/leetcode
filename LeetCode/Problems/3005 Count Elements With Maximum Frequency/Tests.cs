@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3005_Count_Elements_With_Maximum_Frequency;
+namespace LeetCode.Problems._3005_Count_Elements_With_Maximum_Frequency;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1695_Maximum_Erasure_Value;
+namespace LeetCode.Problems._1695_Maximum_Erasure_Value;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/898975375/

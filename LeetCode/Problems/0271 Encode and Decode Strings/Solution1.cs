@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0271_Encode_and_Decode_Strings;
+namespace LeetCode.Problems._0271_Encode_and_Decode_Strings;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1015202483/

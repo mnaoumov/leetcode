@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0645_Set_Mismatch;
+namespace LeetCode.Problems._0645_Set_Mismatch;
 
 [PublicAPI]
 public interface ISolution

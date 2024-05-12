@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2353_Design_a_Food_Rating_System;
+namespace LeetCode.Problems._2353_Design_a_Food_Rating_System;
 
 [PublicAPI]
 public interface ISolution

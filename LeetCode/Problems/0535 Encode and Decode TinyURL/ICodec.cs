@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0535_Encode_and_Decode_TinyURL;
+namespace LeetCode.Problems._0535_Encode_and_Decode_TinyURL;
 
 [PublicAPI]
 public interface ICodec

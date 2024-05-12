@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0935_Knight_Dialer;
+namespace LeetCode.Problems._0935_Knight_Dialer;
 
 [PublicAPI]
 public interface ISolution

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2910_Minimum_Number_of_Groups_to_Create_a_Valid_Assignment;
+namespace LeetCode.Problems._2910_Minimum_Number_of_Groups_to_Create_a_Valid_Assignment;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-368/submissions/detail/1081039667/

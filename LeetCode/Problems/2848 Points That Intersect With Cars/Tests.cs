@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2848_Points_That_Intersect_With_Cars;
+namespace LeetCode.Problems._2848_Points_That_Intersect_With_Cars;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

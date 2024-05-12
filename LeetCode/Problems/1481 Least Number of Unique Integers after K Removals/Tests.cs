@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1481_Least_Number_of_Unique_Integers_after_K_Removals;
+namespace LeetCode.Problems._1481_Least_Number_of_Unique_Integers_after_K_Removals;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._2095_Delete_the_Middle_Node_of_a_Linked_List;
+namespace LeetCode.Problems._2095_Delete_the_Middle_Node_of_a_Linked_List;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

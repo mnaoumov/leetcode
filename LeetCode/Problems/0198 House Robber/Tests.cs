@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0198_House_Robber;
+namespace LeetCode.Problems._0198_House_Robber;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

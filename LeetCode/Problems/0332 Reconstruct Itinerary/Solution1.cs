@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0332_Reconstruct_Itinerary;
+namespace LeetCode.Problems._0332_Reconstruct_Itinerary;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/932161395/

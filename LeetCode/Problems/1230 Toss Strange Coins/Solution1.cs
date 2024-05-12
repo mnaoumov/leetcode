@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1230_Toss_Strange_Coins;
+namespace LeetCode.Problems._1230_Toss_Strange_Coins;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/938738980/

@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0027_Remove_Element;
+namespace LeetCode.Problems._0027_Remove_Element;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

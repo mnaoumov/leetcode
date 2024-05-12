@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._2440_Create_Components_With_Same_Value;
+namespace LeetCode.Problems._2440_Create_Components_With_Same_Value;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

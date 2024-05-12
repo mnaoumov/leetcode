@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._1021_Remove_Outermost_Parentheses;
+namespace LeetCode.Problems._1021_Remove_Outermost_Parentheses;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/926843404/

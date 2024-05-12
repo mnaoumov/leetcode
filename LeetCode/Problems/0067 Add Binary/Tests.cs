@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0067_Add_Binary;
+namespace LeetCode.Problems._0067_Add_Binary;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1462_Course_Schedule_IV;
+namespace LeetCode.Problems._1462_Course_Schedule_IV;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

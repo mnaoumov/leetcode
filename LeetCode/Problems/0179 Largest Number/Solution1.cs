@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0179_Largest_Number;
+namespace LeetCode.Problems._0179_Largest_Number;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/896853487/

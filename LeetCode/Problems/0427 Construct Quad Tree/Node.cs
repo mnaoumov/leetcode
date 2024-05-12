@@ -1,4 +1,4 @@
-namespace LeetCode._0427_Construct_Quad_Tree;
+namespace LeetCode.Problems._0427_Construct_Quad_Tree;
 
 public class Node
 {

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2451_Odd_String_Difference;
+namespace LeetCode.Problems._2451_Odd_String_Difference;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

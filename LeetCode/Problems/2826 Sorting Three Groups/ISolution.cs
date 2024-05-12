@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2826_Sorting_Three_Groups;
+namespace LeetCode.Problems._2826_Sorting_Three_Groups;
 
 [PublicAPI]
 public interface ISolution

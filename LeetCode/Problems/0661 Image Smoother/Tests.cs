@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0661_Image_Smoother;
+namespace LeetCode.Problems._0661_Image_Smoother;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

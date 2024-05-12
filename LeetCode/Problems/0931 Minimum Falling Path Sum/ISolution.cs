@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0931_Minimum_Falling_Path_Sum;
+namespace LeetCode.Problems._0931_Minimum_Falling_Path_Sum;
 
 [PublicAPI]
 public interface ISolution

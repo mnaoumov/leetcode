@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2944_Minimum_Number_of_Coins_for_Fruits;
+namespace LeetCode.Problems._2944_Minimum_Number_of_Coins_for_Fruits;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

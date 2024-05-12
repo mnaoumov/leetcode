@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2734_Lexicographically_Smallest_String_After_Substring_Operation;
+namespace LeetCode.Problems._2734_Lexicographically_Smallest_String_After_Substring_Operation;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

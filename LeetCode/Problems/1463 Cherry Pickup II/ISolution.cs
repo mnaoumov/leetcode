@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1463_Cherry_Pickup_II;
+namespace LeetCode.Problems._1463_Cherry_Pickup_II;
 
 [PublicAPI]
 public interface ISolution

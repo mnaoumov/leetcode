@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1416_Restore_The_Array;
+namespace LeetCode.Problems._1416_Restore_The_Array;
 
 [PublicAPI]
 public interface ISolution

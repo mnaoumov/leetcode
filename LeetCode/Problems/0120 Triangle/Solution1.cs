@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0120_Triangle;
+namespace LeetCode.Problems._0120_Triangle;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/835721152/

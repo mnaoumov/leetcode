@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1074_Number_of_Submatrices_That_Sum_to_Target;
+namespace LeetCode.Problems._1074_Number_of_Submatrices_That_Sum_to_Target;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

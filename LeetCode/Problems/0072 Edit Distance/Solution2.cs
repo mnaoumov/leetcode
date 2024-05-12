@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0072_Edit_Distance;
+namespace LeetCode.Problems._0072_Edit_Distance;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/820456180/

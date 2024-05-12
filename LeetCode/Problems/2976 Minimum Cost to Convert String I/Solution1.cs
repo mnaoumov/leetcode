@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2976_Minimum_Cost_to_Convert_String_I;
+namespace LeetCode.Problems._2976_Minimum_Cost_to_Convert_String_I;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-377/submissions/detail/1127084648/

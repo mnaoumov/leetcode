@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1732_Find_the_Highest_Altitude;
+namespace LeetCode.Problems._1732_Find_the_Highest_Altitude;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._2300_Successful_Pairs_of_Spells_and_Potions;
+namespace LeetCode.Problems._2300_Successful_Pairs_of_Spells_and_Potions;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

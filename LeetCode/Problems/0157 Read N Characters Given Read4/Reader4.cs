@@ -1,4 +1,4 @@
-namespace LeetCode._0157_Read_N_Characters_Given_Read4;
+namespace LeetCode.Problems._0157_Read_N_Characters_Given_Read4;
 
 public abstract class Reader4
 {

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2616_Minimize_the_Maximum_Difference_of_Pairs;
+namespace LeetCode.Problems._2616_Minimize_the_Maximum_Difference_of_Pairs;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0441_Arranging_Coins;
+namespace LeetCode.Problems._0441_Arranging_Coins;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

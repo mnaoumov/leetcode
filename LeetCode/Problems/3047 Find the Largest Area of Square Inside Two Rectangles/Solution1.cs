@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3047_Find_the_Largest_Area_of_Square_Inside_Two_Rectangles;
+namespace LeetCode.Problems._3047_Find_the_Largest_Area_of_Square_Inside_Two_Rectangles;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-386/submissions/detail/1185332779/

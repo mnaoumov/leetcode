@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2351_First_Letter_to_Appear_Twice;
+namespace LeetCode.Problems._2351_First_Letter_to_Appear_Twice;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0027_Remove_Element;
+namespace LeetCode.Problems._0027_Remove_Element;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/811934718/

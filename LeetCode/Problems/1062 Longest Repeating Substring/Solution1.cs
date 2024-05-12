@@ -1,7 +1,7 @@
 using System.Numerics;
 using JetBrains.Annotations;
 
-namespace LeetCode._1062_Longest_Repeating_Substring;
+namespace LeetCode.Problems._1062_Longest_Repeating_Substring;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/951608712/

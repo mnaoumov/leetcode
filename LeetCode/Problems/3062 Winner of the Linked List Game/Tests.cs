@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._3062_Winner_of_the_Linked_List_Game;
+namespace LeetCode.Problems._3062_Winner_of_the_Linked_List_Game;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

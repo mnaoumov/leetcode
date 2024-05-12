@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2998_Minimum_Number_of_Operations_to_Make_X_and_Y_Equal;
+namespace LeetCode.Problems._2998_Minimum_Number_of_Operations_to_Make_X_and_Y_Equal;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-121/submissions/detail/1138558793/

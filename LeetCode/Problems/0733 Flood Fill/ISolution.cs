@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0733_Flood_Fill;
+namespace LeetCode.Problems._0733_Flood_Fill;
 
 [PublicAPI]
 public interface ISolution

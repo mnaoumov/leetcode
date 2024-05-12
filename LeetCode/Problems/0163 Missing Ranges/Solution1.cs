@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0163_Missing_Ranges;
+namespace LeetCode.Problems._0163_Missing_Ranges;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/871317089/

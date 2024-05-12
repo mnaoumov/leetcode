@@ -3,7 +3,7 @@ using JetBrains.Annotations;
 #pragma warning disable
 #pragma warning disable CA1822
 
-namespace LeetCode._0200_Number_of_Islands;
+namespace LeetCode.Problems._0200_Number_of_Islands;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/197115268/

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2533_Number_of_Good_Binary_Strings;
+namespace LeetCode.Problems._2533_Number_of_Good_Binary_Strings;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

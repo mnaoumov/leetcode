@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1695_Maximum_Erasure_Value;
+namespace LeetCode.Problems._1695_Maximum_Erasure_Value;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

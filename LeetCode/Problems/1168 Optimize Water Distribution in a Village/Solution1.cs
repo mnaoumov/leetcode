@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1168_Optimize_Water_Distribution_in_a_Village;
+namespace LeetCode.Problems._1168_Optimize_Water_Distribution_in_a_Village;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/931659752/

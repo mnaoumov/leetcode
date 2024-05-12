@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0383_Ransom_Note;
+namespace LeetCode.Problems._0383_Ransom_Note;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

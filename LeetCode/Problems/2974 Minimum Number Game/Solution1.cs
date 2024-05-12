@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2974_Minimum_Number_Game;
+namespace LeetCode.Problems._2974_Minimum_Number_Game;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-377/submissions/detail/1127035861/

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2826_Sorting_Three_Groups;
+namespace LeetCode.Problems._2826_Sorting_Three_Groups;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

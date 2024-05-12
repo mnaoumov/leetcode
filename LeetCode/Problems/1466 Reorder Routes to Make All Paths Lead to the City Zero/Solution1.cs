@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1466_Reorder_Routes_to_Make_All_Paths_Lead_to_the_City_Zero;
+namespace LeetCode.Problems._1466_Reorder_Routes_to_Make_All_Paths_Lead_to_the_City_Zero;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/904442641/

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2897_Apply_Operations_on_Array_to_Maximize_Sum_of_Squares;
+namespace LeetCode.Problems._2897_Apply_Operations_on_Array_to_Maximize_Sum_of_Squares;
 
 [UsedImplicitly]
 [Category("TODO")]

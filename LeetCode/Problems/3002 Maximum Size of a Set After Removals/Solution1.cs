@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3002_Maximum_Size_of_a_Set_After_Removals;
+namespace LeetCode.Problems._3002_Maximum_Size_of_a_Set_After_Removals;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-379/submissions/detail/1139146908/

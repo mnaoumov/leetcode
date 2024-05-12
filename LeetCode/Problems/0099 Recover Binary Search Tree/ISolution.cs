@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0099_Recover_Binary_Search_Tree;
+namespace LeetCode.Problems._0099_Recover_Binary_Search_Tree;
 
 [PublicAPI]
 public interface ISolution

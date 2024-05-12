@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2745_Construct_the_Longest_New_String;
+namespace LeetCode.Problems._2745_Construct_the_Longest_New_String;
 
 [PublicAPI]
 public interface ISolution

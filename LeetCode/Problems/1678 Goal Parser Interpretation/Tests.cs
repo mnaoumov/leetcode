@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1678_Goal_Parser_Interpretation;
+namespace LeetCode.Problems._1678_Goal_Parser_Interpretation;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

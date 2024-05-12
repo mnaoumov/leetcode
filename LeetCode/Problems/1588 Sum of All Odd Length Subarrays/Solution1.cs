@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1588_Sum_of_All_Odd_Length_Subarrays;
+namespace LeetCode.Problems._1588_Sum_of_All_Odd_Length_Subarrays;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/926807890/

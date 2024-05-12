@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1578_Minimum_Time_to_Make_Rope_Colorful;
+namespace LeetCode.Problems._1578_Minimum_Time_to_Make_Rope_Colorful;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/829080151/

@@ -6,7 +6,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0006_Zigzag_Conversion;
+namespace LeetCode.Problems._0006_Zigzag_Conversion;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/807823572/

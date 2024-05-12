@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0556_Next_Greater_Element_III;
+namespace LeetCode.Problems._0556_Next_Greater_Element_III;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

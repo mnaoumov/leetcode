@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0463_Island_Perimeter;
+namespace LeetCode.Problems._0463_Island_Perimeter;
 
 [PublicAPI]
 public interface ISolution

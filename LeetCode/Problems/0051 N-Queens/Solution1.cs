@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0051_N_Queens;
+namespace LeetCode.Problems._0051_N_Queens;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/818983845/

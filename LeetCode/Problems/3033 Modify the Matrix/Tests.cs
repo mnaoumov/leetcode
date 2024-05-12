@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3033_Modify_the_Matrix;
+namespace LeetCode.Problems._3033_Modify_the_Matrix;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

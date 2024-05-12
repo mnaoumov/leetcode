@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1716_Calculate_Money_in_Leetcode_Bank;
+namespace LeetCode.Problems._1716_Calculate_Money_in_Leetcode_Bank;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

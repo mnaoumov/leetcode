@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0709_To_Lower_Case;
+namespace LeetCode.Problems._0709_To_Lower_Case;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

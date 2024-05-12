@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0740_Delete_and_Earn;
+namespace LeetCode.Problems._0740_Delete_and_Earn;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

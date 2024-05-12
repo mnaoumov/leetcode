@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0528_Random_Pick_with_Weight;
+namespace LeetCode.Problems._0528_Random_Pick_with_Weight;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/950465958/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0515_Find_Largest_Value_in_Each_Tree_Row;
+namespace LeetCode.Problems._0515_Find_Largest_Value_in_Each_Tree_Row;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/904385261/

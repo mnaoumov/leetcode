@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1611_Minimum_One_Bit_Operations_to_Make_Integers_Zero;
+namespace LeetCode.Problems._1611_Minimum_One_Bit_Operations_to_Make_Integers_Zero;
 
 [PublicAPI]
 public interface ISolution

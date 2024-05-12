@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1700_Number_of_Students_Unable_to_Eat_Lunch;
+namespace LeetCode.Problems._1700_Number_of_Students_Unable_to_Eat_Lunch;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1227125735/

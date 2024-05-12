@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0430_Flatten_a_Multilevel_Doubly_Linked_List;
+namespace LeetCode.Problems._0430_Flatten_a_Multilevel_Doubly_Linked_List;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

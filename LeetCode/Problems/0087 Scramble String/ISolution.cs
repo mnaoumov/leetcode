@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0087_Scramble_String;
+namespace LeetCode.Problems._0087_Scramble_String;
 
 [PublicAPI]
 public interface ISolution

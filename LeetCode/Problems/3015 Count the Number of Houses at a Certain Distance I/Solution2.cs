@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3015_Count_the_Number_of_Houses_at_a_Certain_Distance_I;
+namespace LeetCode.Problems._3015_Count_the_Number_of_Houses_at_a_Certain_Distance_I;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-381/submissions/detail/1152165229/

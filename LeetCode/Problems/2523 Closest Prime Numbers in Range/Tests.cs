@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._2523_Closest_Prime_Numbers_in_Range;
+namespace LeetCode.Problems._2523_Closest_Prime_Numbers_in_Range;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

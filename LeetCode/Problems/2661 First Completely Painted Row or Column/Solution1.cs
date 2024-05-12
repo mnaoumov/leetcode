@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2661_First_Completely_Painted_Row_or_Column;
+namespace LeetCode.Problems._2661_First_Completely_Painted_Row_or_Column;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-343/submissions/detail/941859535/

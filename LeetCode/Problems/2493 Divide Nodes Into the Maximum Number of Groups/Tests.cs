@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2493_Divide_Nodes_Into_the_Maximum_Number_of_Groups;
+namespace LeetCode.Problems._2493_Divide_Nodes_Into_the_Maximum_Number_of_Groups;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

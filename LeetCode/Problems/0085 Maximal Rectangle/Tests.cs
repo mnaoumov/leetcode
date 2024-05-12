@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0085_Maximal_Rectangle;
+namespace LeetCode.Problems._0085_Maximal_Rectangle;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

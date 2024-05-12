@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2272_Substring_With_Largest_Variance;
+namespace LeetCode.Problems._2272_Substring_With_Largest_Variance;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

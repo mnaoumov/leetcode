@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2851_String_Transformation;
+namespace LeetCode.Problems._2851_String_Transformation;
 
 /// <summary>
 /// TODO url

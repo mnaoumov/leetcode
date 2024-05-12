@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2730_Find_the_Longest_Semi_Repetitive_Substring;
+namespace LeetCode.Problems._2730_Find_the_Longest_Semi_Repetitive_Substring;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

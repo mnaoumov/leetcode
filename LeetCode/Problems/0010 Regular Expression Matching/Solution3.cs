@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0010_Regular_Expression_Matching;
+namespace LeetCode.Problems._0010_Regular_Expression_Matching;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/200404558/

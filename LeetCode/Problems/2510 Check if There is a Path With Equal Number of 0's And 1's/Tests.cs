@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2510_Check_if_There_is_a_Path_With_Equal_Number_of_0_s_And_1_s;
+namespace LeetCode.Problems._2510_Check_if_There_is_a_Path_With_Equal_Number_of_0_s_And_1_s;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

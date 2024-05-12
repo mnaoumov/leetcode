@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1743_Restore_the_Array_From_Adjacent_Pairs;
+namespace LeetCode.Problems._1743_Restore_the_Array_From_Adjacent_Pairs;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1095659869/

@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0069_Sqrt_x_;
+namespace LeetCode.Problems._0069_Sqrt_x_;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

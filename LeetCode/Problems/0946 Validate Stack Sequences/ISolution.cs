@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0946_Validate_Stack_Sequences;
+namespace LeetCode.Problems._0946_Validate_Stack_Sequences;
 
 [PublicAPI]
 public interface ISolution

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0226_Invert_Binary_Tree;
+namespace LeetCode.Problems._0226_Invert_Binary_Tree;
 
 /// <summary>
 /// https://leetcode.com/problems/invert-binary-tree/submissions/845554524/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1710_Maximum_Units_on_a_Truck;
+namespace LeetCode.Problems._1710_Maximum_Units_on_a_Truck;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/914077612/

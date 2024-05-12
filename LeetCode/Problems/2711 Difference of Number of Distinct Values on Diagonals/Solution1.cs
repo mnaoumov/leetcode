@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2711_Difference_of_Number_of_Distinct_Values_on_Diagonals;
+namespace LeetCode.Problems._2711_Difference_of_Number_of_Distinct_Values_on_Diagonals;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-347/submissions/detail/958697658/

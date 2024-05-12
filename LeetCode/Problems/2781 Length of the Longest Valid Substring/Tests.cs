@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2781_Length_of_the_Longest_Valid_Substring;
+namespace LeetCode.Problems._2781_Length_of_the_Longest_Valid_Substring;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3076_Shortest_Uncommon_Substring_in_an_Array;
+namespace LeetCode.Problems._3076_Shortest_Uncommon_Substring_in_an_Array;
 
 [PublicAPI]
 public interface ISolution

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2342_Max_Sum_of_a_Pair_With_Equal_Sum_of_Digits;
+namespace LeetCode.Problems._2342_Max_Sum_of_a_Pair_With_Equal_Sum_of_Digits;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/856791449/

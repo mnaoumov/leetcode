@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0543_Diameter_of_Binary_Tree;
+namespace LeetCode.Problems._0543_Diameter_of_Binary_Tree;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/882872935/

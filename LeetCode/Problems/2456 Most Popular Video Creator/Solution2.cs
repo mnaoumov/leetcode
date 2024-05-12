@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._2456_Most_Popular_Video_Creator;
+namespace LeetCode.Problems._2456_Most_Popular_Video_Creator;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-317/submissions/detail/833069031/

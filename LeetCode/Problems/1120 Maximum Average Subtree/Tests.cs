@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1120_Maximum_Average_Subtree;
+namespace LeetCode.Problems._1120_Maximum_Average_Subtree;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

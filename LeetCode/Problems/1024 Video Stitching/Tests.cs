@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1024_Video_Stitching;
+namespace LeetCode.Problems._1024_Video_Stitching;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

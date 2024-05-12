@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2729_Check_if_The_Number_is_Fascinating;
+namespace LeetCode.Problems._2729_Check_if_The_Number_is_Fascinating;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

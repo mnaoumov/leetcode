@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2827_Number_of_Beautiful_Integers_in_the_Range;
+namespace LeetCode.Problems._2827_Number_of_Beautiful_Integers_in_the_Range;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

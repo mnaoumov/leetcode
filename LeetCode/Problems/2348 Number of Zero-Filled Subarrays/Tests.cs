@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2348_Number_of_Zero_Filled_Subarrays;
+namespace LeetCode.Problems._2348_Number_of_Zero_Filled_Subarrays;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1478_Allocate_Mailboxes;
+namespace LeetCode.Problems._1478_Allocate_Mailboxes;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/949966080/

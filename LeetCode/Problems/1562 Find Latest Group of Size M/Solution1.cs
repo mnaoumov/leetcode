@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1562_Find_Latest_Group_of_Size_M;
+namespace LeetCode.Problems._1562_Find_Latest_Group_of_Size_M;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/966403446/

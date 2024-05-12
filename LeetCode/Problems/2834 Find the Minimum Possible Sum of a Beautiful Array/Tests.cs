@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2834_Find_the_Minimum_Possible_Sum_of_a_Beautiful_Array;
+namespace LeetCode.Problems._2834_Find_the_Minimum_Possible_Sum_of_a_Beautiful_Array;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

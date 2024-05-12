@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0310_Minimum_Height_Trees;
+namespace LeetCode.Problems._0310_Minimum_Height_Trees;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

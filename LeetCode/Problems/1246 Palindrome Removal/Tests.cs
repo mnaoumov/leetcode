@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1246_Palindrome_Removal;
+namespace LeetCode.Problems._1246_Palindrome_Removal;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

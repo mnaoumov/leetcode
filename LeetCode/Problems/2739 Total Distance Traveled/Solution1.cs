@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2739_Total_Distance_Traveled;
+namespace LeetCode.Problems._2739_Total_Distance_Traveled;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-350/submissions/detail/973681846/

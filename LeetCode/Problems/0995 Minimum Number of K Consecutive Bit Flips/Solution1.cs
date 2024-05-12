@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0995_Minimum_Number_of_K_Consecutive_Bit_Flips;
+namespace LeetCode.Problems._0995_Minimum_Number_of_K_Consecutive_Bit_Flips;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/957969916/

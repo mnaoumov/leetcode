@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0332_Reconstruct_Itinerary;
+namespace LeetCode.Problems._0332_Reconstruct_Itinerary;
 
 [PublicAPI]
 public interface ISolution

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2600_K_Items_With_the_Maximum_Sum;
+namespace LeetCode.Problems._2600_K_Items_With_the_Maximum_Sum;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

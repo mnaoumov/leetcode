@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0190_Reverse_Bits;
+namespace LeetCode.Problems._0190_Reverse_Bits;
 
 [PublicAPI]
 public interface ISolution

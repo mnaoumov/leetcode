@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3049_Earliest_Second_to_Mark_Indices_II;
+namespace LeetCode.Problems._3049_Earliest_Second_to_Mark_Indices_II;
 
 [UsedImplicitly]
 [Category("TODO")]

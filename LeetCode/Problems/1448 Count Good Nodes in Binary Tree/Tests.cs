@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1448_Count_Good_Nodes_in_Binary_Tree;
+namespace LeetCode.Problems._1448_Count_Good_Nodes_in_Binary_Tree;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

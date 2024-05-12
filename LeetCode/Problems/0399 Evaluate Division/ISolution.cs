@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0399_Evaluate_Division;
+namespace LeetCode.Problems._0399_Evaluate_Division;
 
 [PublicAPI]
 public interface ISolution

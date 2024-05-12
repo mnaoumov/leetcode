@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0766_Toeplitz_Matrix;
+namespace LeetCode.Problems._0766_Toeplitz_Matrix;
 
 /// <summary>
 /// https://leetcode.com/problems/toeplitz-matrix/

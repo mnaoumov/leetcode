@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1750_Minimum_Length_of_String_After_Deleting_Similar_Ends;
+namespace LeetCode.Problems._1750_Minimum_Length_of_String_After_Deleting_Similar_Ends;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1194132987/

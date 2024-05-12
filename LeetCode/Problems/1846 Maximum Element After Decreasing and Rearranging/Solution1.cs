@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1846_Maximum_Element_After_Decreasing_and_Rearranging;
+namespace LeetCode.Problems._1846_Maximum_Element_After_Decreasing_and_Rearranging;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1099021696/

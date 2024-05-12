@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2902_Count_of_Sub_Multisets_With_Bounded_Sum;
+namespace LeetCode.Problems._2902_Count_of_Sub_Multisets_With_Bounded_Sum;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

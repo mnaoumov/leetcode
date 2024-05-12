@@ -1,4 +1,4 @@
-namespace LeetCode._0138_Copy_List_with_Random_Pointer;
+namespace LeetCode.Problems._0138_Copy_List_with_Random_Pointer;
 
 public class Node
 {

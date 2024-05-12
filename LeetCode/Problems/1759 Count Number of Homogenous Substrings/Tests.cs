@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1759_Count_Number_of_Homogenous_Substrings;
+namespace LeetCode.Problems._1759_Count_Number_of_Homogenous_Substrings;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

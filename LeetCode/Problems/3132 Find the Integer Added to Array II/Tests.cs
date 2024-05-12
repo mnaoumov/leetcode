@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3132_Find_the_Integer_Added_to_Array_II;
+namespace LeetCode.Problems._3132_Find_the_Integer_Added_to_Array_II;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

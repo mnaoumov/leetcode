@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3071_Minimum_Operations_to_Write_the_Letter_Y_on_a_Grid;
+namespace LeetCode.Problems._3071_Minimum_Operations_to_Write_the_Letter_Y_on_a_Grid;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0409_Longest_Palindrome;
+namespace LeetCode.Problems._0409_Longest_Palindrome;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

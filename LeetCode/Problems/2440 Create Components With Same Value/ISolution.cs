@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2440_Create_Components_With_Same_Value;
+namespace LeetCode.Problems._2440_Create_Components_With_Same_Value;
 
 [PublicAPI]
 public interface ISolution

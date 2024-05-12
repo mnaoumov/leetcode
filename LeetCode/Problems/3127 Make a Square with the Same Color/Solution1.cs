@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3127_Make_a_Square_with_the_Same_Color;
+namespace LeetCode.Problems._3127_Make_a_Square_with_the_Same_Color;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-129/submissions/detail/1243292492/

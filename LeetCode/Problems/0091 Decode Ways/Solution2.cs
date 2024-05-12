@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0091_Decode_Ways;
+namespace LeetCode.Problems._0091_Decode_Ways;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/828854904/

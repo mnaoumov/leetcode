@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0200_Number_of_Islands;
+namespace LeetCode.Problems._0200_Number_of_Islands;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

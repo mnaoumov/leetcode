@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2825_Make_String_a_Subsequence_Using_Cyclic_Increments;
+namespace LeetCode.Problems._2825_Make_String_a_Subsequence_Using_Cyclic_Increments;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-111/submissions/detail/1025785735/

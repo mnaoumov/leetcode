@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0296_Best_Meeting_Point;
+namespace LeetCode.Problems._0296_Best_Meeting_Point;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1119985980/

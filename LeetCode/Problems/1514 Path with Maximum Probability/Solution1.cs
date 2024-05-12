@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1514_Path_with_Maximum_Probability;
+namespace LeetCode.Problems._1514_Path_with_Maximum_Probability;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/940878322/

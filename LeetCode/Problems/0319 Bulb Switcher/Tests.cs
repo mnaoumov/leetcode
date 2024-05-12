@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0319_Bulb_Switcher;
+namespace LeetCode.Problems._0319_Bulb_Switcher;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

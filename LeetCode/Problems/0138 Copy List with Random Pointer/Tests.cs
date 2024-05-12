@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0138_Copy_List_with_Random_Pointer;
+namespace LeetCode.Problems._0138_Copy_List_with_Random_Pointer;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

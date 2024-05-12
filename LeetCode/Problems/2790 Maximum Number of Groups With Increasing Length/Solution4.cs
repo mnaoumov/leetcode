@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2790_Maximum_Number_of_Groups_With_Increasing_Length;
+namespace LeetCode.Problems._2790_Maximum_Number_of_Groups_With_Increasing_Length;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-355/submissions/detail/1001477960/

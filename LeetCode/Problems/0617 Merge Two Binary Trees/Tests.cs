@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0617_Merge_Two_Binary_Trees;
+namespace LeetCode.Problems._0617_Merge_Two_Binary_Trees;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1688_Count_of_Matches_in_Tournament;
+namespace LeetCode.Problems._1688_Count_of_Matches_in_Tournament;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

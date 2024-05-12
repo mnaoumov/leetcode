@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0378_Kth_Smallest_Element_in_a_Sorted_Matrix;
+namespace LeetCode.Problems._0378_Kth_Smallest_Element_in_a_Sorted_Matrix;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/956288694/

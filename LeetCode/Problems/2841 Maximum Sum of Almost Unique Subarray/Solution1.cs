@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2841_Maximum_Sum_of_Almost_Unique_Subarray;
+namespace LeetCode.Problems._2841_Maximum_Sum_of_Almost_Unique_Subarray;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-112/submissions/detail/1038538797/

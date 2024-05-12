@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0103_Binary_Tree_Zigzag_Level_Order_Traversal;
+namespace LeetCode.Problems._0103_Binary_Tree_Zigzag_Level_Order_Traversal;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/830083326/

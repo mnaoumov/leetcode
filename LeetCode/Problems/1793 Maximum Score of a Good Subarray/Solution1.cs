@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1793_Maximum_Score_of_a_Good_Subarray;
+namespace LeetCode.Problems._1793_Maximum_Score_of_a_Good_Subarray;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1080949719/

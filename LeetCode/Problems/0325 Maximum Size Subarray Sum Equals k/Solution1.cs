@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0325_Maximum_Size_Subarray_Sum_Equals_k;
+namespace LeetCode.Problems._0325_Maximum_Size_Subarray_Sum_Equals_k;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/943287760/

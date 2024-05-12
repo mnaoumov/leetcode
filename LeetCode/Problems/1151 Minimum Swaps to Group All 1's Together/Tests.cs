@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1151_Minimum_Swaps_to_Group_All_1_s_Together;
+namespace LeetCode.Problems._1151_Minimum_Swaps_to_Group_All_1_s_Together;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

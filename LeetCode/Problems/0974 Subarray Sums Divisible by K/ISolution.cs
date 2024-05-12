@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0974_Subarray_Sums_Divisible_by_K;
+namespace LeetCode.Problems._0974_Subarray_Sums_Divisible_by_K;
 
 [PublicAPI]
 public interface ISolution

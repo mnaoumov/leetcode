@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0834_Sum_of_Distances_in_Tree;
+namespace LeetCode.Problems._0834_Sum_of_Distances_in_Tree;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

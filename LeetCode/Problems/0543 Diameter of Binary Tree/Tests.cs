@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0543_Diameter_of_Binary_Tree;
+namespace LeetCode.Problems._0543_Diameter_of_Binary_Tree;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

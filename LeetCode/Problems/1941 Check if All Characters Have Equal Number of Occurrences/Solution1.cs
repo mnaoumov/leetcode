@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1941_Check_if_All_Characters_Have_Equal_Number_of_Occurrences;
+namespace LeetCode.Problems._1941_Check_if_All_Characters_Have_Equal_Number_of_Occurrences;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/856350355/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2973_Find_Number_of_Coins_to_Place_in_Tree_Nodes;
+namespace LeetCode.Problems._2973_Find_Number_of_Coins_to_Place_in_Tree_Nodes;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-120/submissions/detail/1126735093/

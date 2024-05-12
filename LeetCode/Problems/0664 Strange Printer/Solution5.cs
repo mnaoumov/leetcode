@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0664_Strange_Printer;
+namespace LeetCode.Problems._0664_Strange_Printer;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1063090210/

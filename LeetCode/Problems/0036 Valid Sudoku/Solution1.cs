@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0036_Valid_Sudoku;
+namespace LeetCode.Problems._0036_Valid_Sudoku;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/813043052/

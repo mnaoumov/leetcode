@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1502_Can_Make_Arithmetic_Progression_From_Sequence;
+namespace LeetCode.Problems._1502_Can_Make_Arithmetic_Progression_From_Sequence;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/925204567/

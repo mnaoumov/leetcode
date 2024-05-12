@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0146_LRU_Cache;
+namespace LeetCode.Problems._0146_LRU_Cache;
 
 [PublicAPI]
 public interface ILRUCache

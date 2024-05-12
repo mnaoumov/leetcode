@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0374_Guess_Number_Higher_or_Lower;
+namespace LeetCode.Problems._0374_Guess_Number_Higher_or_Lower;
 
 [UsedImplicitly]
 public class Tests : TestsBase<GuessGame, Tests.TestCase>

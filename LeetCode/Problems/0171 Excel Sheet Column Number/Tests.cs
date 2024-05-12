@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0171_Excel_Sheet_Column_Number;
+namespace LeetCode.Problems._0171_Excel_Sheet_Column_Number;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2998_Minimum_Number_of_Operations_to_Make_X_and_Y_Equal;
+namespace LeetCode.Problems._2998_Minimum_Number_of_Operations_to_Make_X_and_Y_Equal;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

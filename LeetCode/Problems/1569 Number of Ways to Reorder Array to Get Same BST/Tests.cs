@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1569_Number_of_Ways_to_Reorder_Array_to_Get_Same_BST;
+namespace LeetCode.Problems._1569_Number_of_Ways_to_Reorder_Array_to_Get_Same_BST;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

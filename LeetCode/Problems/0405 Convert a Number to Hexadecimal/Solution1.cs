@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._0405_Convert_a_Number_to_Hexadecimal;
+namespace LeetCode.Problems._0405_Convert_a_Number_to_Hexadecimal;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/926239207/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2708_Maximum_Strength_of_a_Group;
+namespace LeetCode.Problems._2708_Maximum_Strength_of_a_Group;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-105/submissions/detail/958362941/

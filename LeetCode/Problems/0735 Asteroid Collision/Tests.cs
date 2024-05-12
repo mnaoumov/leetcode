@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0735_Asteroid_Collision;
+namespace LeetCode.Problems._0735_Asteroid_Collision;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

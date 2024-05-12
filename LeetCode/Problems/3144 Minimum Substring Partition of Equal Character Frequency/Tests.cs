@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3144_Minimum_Substring_Partition_of_Equal_Character_Frequency;
+namespace LeetCode.Problems._3144_Minimum_Substring_Partition_of_Equal_Character_Frequency;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

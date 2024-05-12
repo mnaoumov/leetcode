@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1845_Seat_Reservation_Manager;
+namespace LeetCode.Problems._1845_Seat_Reservation_Manager;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/908090691/

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3000_Maximum_Area_of_Longest_Diagonal_Rectangle;
+namespace LeetCode.Problems._3000_Maximum_Area_of_Longest_Diagonal_Rectangle;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

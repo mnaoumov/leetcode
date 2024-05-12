@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2556_Disconnect_Path_in_a_Binary_Matrix_by_at_Most_One_Flip;
+namespace LeetCode.Problems._2556_Disconnect_Path_in_a_Binary_Matrix_by_at_Most_One_Flip;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/891663643/

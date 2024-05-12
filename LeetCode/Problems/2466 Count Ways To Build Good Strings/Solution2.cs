@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2466_Count_Ways_To_Build_Good_Strings;
+namespace LeetCode.Problems._2466_Count_Ways_To_Build_Good_Strings;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-91/submissions/detail/842003813/

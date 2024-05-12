@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2225_Find_Players_With_Zero_or_One_Losses;
+namespace LeetCode.Problems._2225_Find_Players_With_Zero_or_One_Losses;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/851228110/

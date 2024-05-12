@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0392_Is_Subsequence;
+namespace LeetCode.Problems._0392_Is_Subsequence;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/853984635/

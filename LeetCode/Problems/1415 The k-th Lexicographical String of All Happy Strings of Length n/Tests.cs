@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1415_The_k_th_Lexicographical_String_of_All_Happy_Strings_of_Length_n;
+namespace LeetCode.Problems._1415_The_k_th_Lexicographical_String_of_All_Happy_Strings_of_Length_n;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0569_Median_Employee_Salary;
+namespace LeetCode.Problems._0569_Median_Employee_Salary;
 
 [UsedImplicitly]
 public class Tests : SelectSqlTestsBase<Tests>;

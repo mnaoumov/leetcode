@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1046_Last_Stone_Weight;
+namespace LeetCode.Problems._1046_Last_Stone_Weight;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/907457116/

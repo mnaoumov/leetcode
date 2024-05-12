@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0739_Daily_Temperatures;
+namespace LeetCode.Problems._0739_Daily_Temperatures;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

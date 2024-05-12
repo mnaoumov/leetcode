@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3128_Right_Triangles;
+namespace LeetCode.Problems._3128_Right_Triangles;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

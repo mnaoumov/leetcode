@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2869_Minimum_Operations_to_Collect_Elements;
+namespace LeetCode.Problems._2869_Minimum_Operations_to_Collect_Elements;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-114/submissions/detail/1063102504/

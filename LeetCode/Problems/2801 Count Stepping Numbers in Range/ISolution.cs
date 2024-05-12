@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2801_Count_Stepping_Numbers_in_Range;
+namespace LeetCode.Problems._2801_Count_Stepping_Numbers_in_Range;
 
 [PublicAPI]
 public interface ISolution

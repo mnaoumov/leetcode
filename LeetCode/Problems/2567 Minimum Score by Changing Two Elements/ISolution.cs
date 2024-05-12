@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2567_Minimum_Score_by_Changing_Two_Elements;
+namespace LeetCode.Problems._2567_Minimum_Score_by_Changing_Two_Elements;
 
 [PublicAPI]
 public interface ISolution

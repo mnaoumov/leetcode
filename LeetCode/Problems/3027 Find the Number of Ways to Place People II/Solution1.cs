@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3027_Find_the_Number_of_Ways_to_Place_People_II;
+namespace LeetCode.Problems._3027_Find_the_Number_of_Ways_to_Place_People_II;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-123/submissions/detail/1164944879/

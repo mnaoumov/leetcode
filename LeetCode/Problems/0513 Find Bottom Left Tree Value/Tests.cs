@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0513_Find_Bottom_Left_Tree_Value;
+namespace LeetCode.Problems._0513_Find_Bottom_Left_Tree_Value;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1208_Get_Equal_Substrings_Within_Budget;
+namespace LeetCode.Problems._1208_Get_Equal_Substrings_Within_Budget;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

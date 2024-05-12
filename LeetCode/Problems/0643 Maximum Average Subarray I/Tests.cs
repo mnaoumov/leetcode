@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0643_Maximum_Average_Subarray_I;
+namespace LeetCode.Problems._0643_Maximum_Average_Subarray_I;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

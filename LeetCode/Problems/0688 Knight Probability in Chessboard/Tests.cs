@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0688_Knight_Probability_in_Chessboard;
+namespace LeetCode.Problems._0688_Knight_Probability_in_Chessboard;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

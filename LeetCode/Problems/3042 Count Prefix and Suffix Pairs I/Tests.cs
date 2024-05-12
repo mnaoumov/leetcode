@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3042_Count_Prefix_and_Suffix_Pairs_I;
+namespace LeetCode.Problems._3042_Count_Prefix_and_Suffix_Pairs_I;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

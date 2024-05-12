@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2860_Happy_Students;
+namespace LeetCode.Problems._2860_Happy_Students;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

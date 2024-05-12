@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2431_Maximize_Total_Tastiness_of_Purchased_Fruits;
+namespace LeetCode.Problems._2431_Maximize_Total_Tastiness_of_Purchased_Fruits;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

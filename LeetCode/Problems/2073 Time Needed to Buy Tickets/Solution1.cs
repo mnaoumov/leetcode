@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2073_Time_Needed_to_Buy_Tickets;
+namespace LeetCode.Problems._2073_Time_Needed_to_Buy_Tickets;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1227301885/

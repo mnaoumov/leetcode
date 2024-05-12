@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0169_Majority_Element;
+namespace LeetCode.Problems._0169_Majority_Element;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

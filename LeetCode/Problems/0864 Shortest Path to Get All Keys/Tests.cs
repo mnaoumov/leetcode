@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0864_Shortest_Path_to_Get_All_Keys;
+namespace LeetCode.Problems._0864_Shortest_Path_to_Get_All_Keys;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0836_Rectangle_Overlap;
+namespace LeetCode.Problems._0836_Rectangle_Overlap;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/925505077/

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0887_Super_Egg_Drop;
+namespace LeetCode.Problems._0887_Super_Egg_Drop;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

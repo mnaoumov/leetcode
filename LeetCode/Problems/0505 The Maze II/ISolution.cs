@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0505_The_Maze_II;
+namespace LeetCode.Problems._0505_The_Maze_II;
 
 [PublicAPI]
 public interface ISolution

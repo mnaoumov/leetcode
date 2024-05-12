@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1259_Handshakes_That_Don_t_Cross;
+namespace LeetCode.Problems._1259_Handshakes_That_Don_t_Cross;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

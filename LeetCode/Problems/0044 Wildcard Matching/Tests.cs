@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0044_Wildcard_Matching;
+namespace LeetCode.Problems._0044_Wildcard_Matching;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

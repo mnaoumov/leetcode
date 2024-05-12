@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0974_Subarray_Sums_Divisible_by_K;
+namespace LeetCode.Problems._0974_Subarray_Sums_Divisible_by_K;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

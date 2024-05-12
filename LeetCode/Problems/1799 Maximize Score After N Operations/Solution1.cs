@@ -1,7 +1,7 @@
 using System.Numerics;
 using JetBrains.Annotations;
 
-namespace LeetCode._1799_Maximize_Score_After_N_Operations;
+namespace LeetCode.Problems._1799_Maximize_Score_After_N_Operations;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/949883745/

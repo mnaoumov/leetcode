@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0509_Fibonacci_Number;
+namespace LeetCode.Problems._0509_Fibonacci_Number;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/923843687/

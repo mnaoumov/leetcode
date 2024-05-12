@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0153_Find_Minimum_in_Rotated_Sorted_Array;
+namespace LeetCode.Problems._0153_Find_Minimum_in_Rotated_Sorted_Array;
 
 [PublicAPI]
 public interface ISolution

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0808_Soup_Servings;
+namespace LeetCode.Problems._0808_Soup_Servings;
 
 [UsedImplicitly]
 [Category("TODO")]

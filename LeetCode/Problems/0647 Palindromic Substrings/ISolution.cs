@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0647_Palindromic_Substrings;
+namespace LeetCode.Problems._0647_Palindromic_Substrings;
 
 [PublicAPI]
 public interface ISolution

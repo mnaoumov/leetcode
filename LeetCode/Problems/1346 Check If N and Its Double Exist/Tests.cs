@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1346_Check_If_N_and_Its_Double_Exist;
+namespace LeetCode.Problems._1346_Check_If_N_and_Its_Double_Exist;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

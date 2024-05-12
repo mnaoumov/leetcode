@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1642_Furthest_Building_You_Can_Reach;
+namespace LeetCode.Problems._1642_Furthest_Building_You_Can_Reach;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

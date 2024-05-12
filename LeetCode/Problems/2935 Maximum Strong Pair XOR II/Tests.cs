@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2935_Maximum_Strong_Pair_XOR_II;
+namespace LeetCode.Problems._2935_Maximum_Strong_Pair_XOR_II;
 
 [UsedImplicitly]
 [Category("TODO")]

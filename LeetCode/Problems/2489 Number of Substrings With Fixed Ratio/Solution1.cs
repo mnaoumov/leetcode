@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2489_Number_of_Substrings_With_Fixed_Ratio;
+namespace LeetCode.Problems._2489_Number_of_Substrings_With_Fixed_Ratio;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/870855799/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1396_Design_Underground_System;
+namespace LeetCode.Problems._1396_Design_Underground_System;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/957979152/

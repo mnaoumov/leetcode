@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1654_Minimum_Jumps_to_Reach_Home;
+namespace LeetCode.Problems._1654_Minimum_Jumps_to_Reach_Home;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/928756255/

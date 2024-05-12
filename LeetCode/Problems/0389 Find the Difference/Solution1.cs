@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0389_Find_the_Difference;
+namespace LeetCode.Problems._0389_Find_the_Difference;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/927557820/

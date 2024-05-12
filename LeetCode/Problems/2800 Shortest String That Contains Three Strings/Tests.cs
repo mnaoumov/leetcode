@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2800_Shortest_String_That_Contains_Three_Strings;
+namespace LeetCode.Problems._2800_Shortest_String_That_Contains_Three_Strings;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

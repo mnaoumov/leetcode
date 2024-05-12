@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0623_Add_One_Row_to_Tree;
+namespace LeetCode.Problems._0623_Add_One_Row_to_Tree;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/829092687/

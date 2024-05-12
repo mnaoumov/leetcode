@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2561_Rearranging_Fruits;
+namespace LeetCode.Problems._2561_Rearranging_Fruits;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/895468989/

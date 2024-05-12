@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1539_Kth_Missing_Positive_Number;
+namespace LeetCode.Problems._1539_Kth_Missing_Positive_Number;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

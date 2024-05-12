@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3001_Minimum_Moves_to_Capture_The_Queen;
+namespace LeetCode.Problems._3001_Minimum_Moves_to_Capture_The_Queen;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-379/submissions/detail/1139101812/

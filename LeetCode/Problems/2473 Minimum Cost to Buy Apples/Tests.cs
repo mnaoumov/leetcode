@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._2473_Minimum_Cost_to_Buy_Apples;
+namespace LeetCode.Problems._2473_Minimum_Cost_to_Buy_Apples;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0237_Delete_Node_in_a_Linked_List;
+namespace LeetCode.Problems._0237_Delete_Node_in_a_Linked_List;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/821254721/

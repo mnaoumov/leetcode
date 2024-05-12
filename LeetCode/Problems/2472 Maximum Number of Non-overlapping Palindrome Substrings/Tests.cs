@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2472_Maximum_Number_of_Non_overlapping_Palindrome_Substrings;
+namespace LeetCode.Problems._2472_Maximum_Number_of_Non_overlapping_Palindrome_Substrings;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

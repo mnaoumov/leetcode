@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0326_Power_of_Three;
+namespace LeetCode.Problems._0326_Power_of_Three;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/923280427/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3101_Count_Alternating_Subarrays;
+namespace LeetCode.Problems._3101_Count_Alternating_Subarrays;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-391/submissions/detail/1218762852/

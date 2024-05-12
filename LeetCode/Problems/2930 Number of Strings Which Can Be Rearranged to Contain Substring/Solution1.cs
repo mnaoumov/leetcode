@@ -1,7 +1,7 @@
 using System.Numerics;
 using JetBrains.Annotations;
 
-namespace LeetCode._2930_Number_of_Strings_Which_Can_Be_Rearranged_to_Contain_Substring;
+namespace LeetCode.Problems._2930_Number_of_Strings_Which_Can_Be_Rearranged_to_Contain_Substring;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-117/submissions/detail/1096637372/

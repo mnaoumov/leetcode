@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1786_Number_of_Restricted_Paths_From_First_to_Last_Node;
+namespace LeetCode.Problems._1786_Number_of_Restricted_Paths_From_First_to_Last_Node;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

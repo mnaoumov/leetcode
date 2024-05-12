@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2919_Minimum_Increment_Operations_to_Make_Array_Beautiful;
+namespace LeetCode.Problems._2919_Minimum_Increment_Operations_to_Make_Array_Beautiful;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

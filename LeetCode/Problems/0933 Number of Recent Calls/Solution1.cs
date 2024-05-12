@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0933_Number_of_Recent_Calls;
+namespace LeetCode.Problems._0933_Number_of_Recent_Calls;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/899443720/

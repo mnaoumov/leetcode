@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0542_01_Matrix;
+namespace LeetCode.Problems._0542_01_Matrix;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/904852966/

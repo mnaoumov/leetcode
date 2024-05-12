@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3115_Maximum_Prime_Difference;
+namespace LeetCode.Problems._3115_Maximum_Prime_Difference;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

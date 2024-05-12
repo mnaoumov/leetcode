@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0328_Odd_Even_Linked_List;
+namespace LeetCode.Problems._0328_Odd_Even_Linked_List;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/855300631/

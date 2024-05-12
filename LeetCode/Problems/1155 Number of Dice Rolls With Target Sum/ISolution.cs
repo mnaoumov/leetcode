@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1155_Number_of_Dice_Rolls_With_Target_Sum;
+namespace LeetCode.Problems._1155_Number_of_Dice_Rolls_With_Target_Sum;
 
 [PublicAPI]
 public interface ISolution

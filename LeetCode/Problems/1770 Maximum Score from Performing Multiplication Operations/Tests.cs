@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1770_Maximum_Score_from_Performing_Multiplication_Operations;
+namespace LeetCode.Problems._1770_Maximum_Score_from_Performing_Multiplication_Operations;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

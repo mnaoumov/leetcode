@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._1236_Web_Crawler;
+namespace LeetCode.Problems._1236_Web_Crawler;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

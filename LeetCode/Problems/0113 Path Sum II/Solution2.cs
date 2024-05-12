@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0113_Path_Sum_II;
+namespace LeetCode.Problems._0113_Path_Sum_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/834085512/

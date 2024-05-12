@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1014_Best_Sightseeing_Pair;
+namespace LeetCode.Problems._1014_Best_Sightseeing_Pair;
 
 [PublicAPI]
 public interface ISolution

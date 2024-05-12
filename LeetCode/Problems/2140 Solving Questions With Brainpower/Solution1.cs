@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2140_Solving_Questions_With_Brainpower;
+namespace LeetCode.Problems._2140_Solving_Questions_With_Brainpower;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/919788298/

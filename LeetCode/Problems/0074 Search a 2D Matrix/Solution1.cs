@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0074_Search_a_2D_Matrix;
+namespace LeetCode.Problems._0074_Search_a_2D_Matrix;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/820837695/

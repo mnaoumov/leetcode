@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0172_Factorial_Trailing_Zeroes;
+namespace LeetCode.Problems._0172_Factorial_Trailing_Zeroes;
 
 [PublicAPI]
 public interface ISolution

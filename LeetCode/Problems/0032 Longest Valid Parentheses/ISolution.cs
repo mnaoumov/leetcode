@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0032_Longest_Valid_Parentheses;
+namespace LeetCode.Problems._0032_Longest_Valid_Parentheses;
 
 [PublicAPI]
 public interface ISolution

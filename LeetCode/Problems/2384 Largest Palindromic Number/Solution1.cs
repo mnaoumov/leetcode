@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._2384_Largest_Palindromic_Number;
+namespace LeetCode.Problems._2384_Largest_Palindromic_Number;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/914100462/

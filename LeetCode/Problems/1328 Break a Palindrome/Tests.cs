@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._1328_Break_a_Palindrome;
+namespace LeetCode.Problems._1328_Break_a_Palindrome;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

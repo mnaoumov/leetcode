@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0973_K_Closest_Points_to_Origin;
+namespace LeetCode.Problems._0973_K_Closest_Points_to_Origin;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

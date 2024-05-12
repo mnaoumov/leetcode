@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3043_Find_the_Length_of_the_Longest_Common_Prefix;
+namespace LeetCode.Problems._3043_Find_the_Length_of_the_Longest_Common_Prefix;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

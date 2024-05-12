@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1027_Longest_Arithmetic_Subsequence;
+namespace LeetCode.Problems._1027_Longest_Arithmetic_Subsequence;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

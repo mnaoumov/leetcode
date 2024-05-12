@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0461_Hamming_Distance;
+namespace LeetCode.Problems._0461_Hamming_Distance;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/921922113/

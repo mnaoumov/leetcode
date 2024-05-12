@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2540_Minimum_Common_Value;
+namespace LeetCode.Problems._2540_Minimum_Common_Value;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

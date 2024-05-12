@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2588_Count_the_Number_of_Beautiful_Subarrays;
+namespace LeetCode.Problems._2588_Count_the_Number_of_Beautiful_Subarrays;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-336/submissions/detail/913529921/

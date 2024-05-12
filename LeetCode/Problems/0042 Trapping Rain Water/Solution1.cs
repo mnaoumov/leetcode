@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0042_Trapping_Rain_Water;
+namespace LeetCode.Problems._0042_Trapping_Rain_Water;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/199912503/

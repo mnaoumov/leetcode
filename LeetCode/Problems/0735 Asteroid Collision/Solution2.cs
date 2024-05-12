@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0735_Asteroid_Collision;
+namespace LeetCode.Problems._0735_Asteroid_Collision;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/902692709/

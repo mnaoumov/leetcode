@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0100_Same_Tree;
+namespace LeetCode.Problems._0100_Same_Tree;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/829672106/

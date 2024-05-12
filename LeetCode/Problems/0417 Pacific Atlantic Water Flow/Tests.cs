@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0417_Pacific_Atlantic_Water_Flow;
+namespace LeetCode.Problems._0417_Pacific_Atlantic_Water_Flow;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

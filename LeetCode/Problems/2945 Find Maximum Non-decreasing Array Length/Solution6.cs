@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2945_Find_Maximum_Non_decreasing_Array_Length;
+namespace LeetCode.Problems._2945_Find_Maximum_Non_decreasing_Array_Length;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1107841708/

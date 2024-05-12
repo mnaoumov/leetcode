@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2684_Maximum_Number_of_Moves_in_a_Grid;
+namespace LeetCode.Problems._2684_Maximum_Number_of_Moves_in_a_Grid;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

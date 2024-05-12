@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0542_01_Matrix;
+namespace LeetCode.Problems._0542_01_Matrix;
 
 [PublicAPI]
 public interface ISolution

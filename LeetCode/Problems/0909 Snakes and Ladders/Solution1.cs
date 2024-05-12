@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0909_Snakes_and_Ladders;
+namespace LeetCode.Problems._0909_Snakes_and_Ladders;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/884076326/

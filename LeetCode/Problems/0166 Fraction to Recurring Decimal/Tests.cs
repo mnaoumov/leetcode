@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0166_Fraction_to_Recurring_Decimal;
+namespace LeetCode.Problems._0166_Fraction_to_Recurring_Decimal;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

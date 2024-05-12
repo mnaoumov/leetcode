@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0907_Sum_of_Subarray_Minimums;
+namespace LeetCode.Problems._0907_Sum_of_Subarray_Minimums;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/849838197/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0688_Knight_Probability_in_Chessboard;
+namespace LeetCode.Problems._0688_Knight_Probability_in_Chessboard;
 
 [PublicAPI]
 public interface ISolution

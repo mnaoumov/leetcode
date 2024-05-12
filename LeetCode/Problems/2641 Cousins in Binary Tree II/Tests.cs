@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2641_Cousins_in_Binary_Tree_II;
+namespace LeetCode.Problems._2641_Cousins_in_Binary_Tree_II;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

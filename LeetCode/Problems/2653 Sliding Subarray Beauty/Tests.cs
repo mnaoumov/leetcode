@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._2653_Sliding_Subarray_Beauty;
+namespace LeetCode.Problems._2653_Sliding_Subarray_Beauty;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

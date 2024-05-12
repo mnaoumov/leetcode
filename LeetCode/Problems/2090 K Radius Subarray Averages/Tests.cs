@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2090_K_Radius_Subarray_Averages;
+namespace LeetCode.Problems._2090_K_Radius_Subarray_Averages;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

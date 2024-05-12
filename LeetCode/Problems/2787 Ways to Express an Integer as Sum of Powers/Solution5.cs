@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2787_Ways_to_Express_an_Integer_as_Sum_of_Powers;
+namespace LeetCode.Problems._2787_Ways_to_Express_an_Integer_as_Sum_of_Powers;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-109/submissions/detail/1001099236/

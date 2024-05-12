@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1727_Largest_Submatrix_With_Rearrangements;
+namespace LeetCode.Problems._1727_Largest_Submatrix_With_Rearrangements;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1106421449/

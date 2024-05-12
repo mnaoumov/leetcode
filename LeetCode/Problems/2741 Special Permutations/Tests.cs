@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2741_Special_Permutations;
+namespace LeetCode.Problems._2741_Special_Permutations;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

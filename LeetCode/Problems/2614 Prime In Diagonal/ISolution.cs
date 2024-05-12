@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2614_Prime_In_Diagonal;
+namespace LeetCode.Problems._2614_Prime_In_Diagonal;
 
 [PublicAPI]
 public interface ISolution

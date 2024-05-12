@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2644_Find_the_Maximum_Divisibility_Score;
+namespace LeetCode.Problems._2644_Find_the_Maximum_Divisibility_Score;
 
 [PublicAPI]
 public interface ISolution

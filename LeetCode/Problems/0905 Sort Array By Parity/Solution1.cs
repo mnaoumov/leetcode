@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0905_Sort_Array_By_Parity;
+namespace LeetCode.Problems._0905_Sort_Array_By_Parity;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1061011004/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0269_Alien_Dictionary;
+namespace LeetCode.Problems._0269_Alien_Dictionary;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/937678501/

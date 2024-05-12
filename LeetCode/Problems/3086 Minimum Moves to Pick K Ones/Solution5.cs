@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3086_Minimum_Moves_to_Pick_K_Ones;
+namespace LeetCode.Problems._3086_Minimum_Moves_to_Pick_K_Ones;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1205967018/

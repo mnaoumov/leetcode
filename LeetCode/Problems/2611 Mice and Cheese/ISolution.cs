@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2611_Mice_and_Cheese;
+namespace LeetCode.Problems._2611_Mice_and_Cheese;
 
 [PublicAPI]
 public interface ISolution

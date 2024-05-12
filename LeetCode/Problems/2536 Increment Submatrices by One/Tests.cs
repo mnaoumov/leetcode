@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2536_Increment_Submatrices_by_One;
+namespace LeetCode.Problems._2536_Increment_Submatrices_by_One;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

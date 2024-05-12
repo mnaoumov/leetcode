@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2573_Find_the_String_with_LCP;
+namespace LeetCode.Problems._2573_Find_the_String_with_LCP;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

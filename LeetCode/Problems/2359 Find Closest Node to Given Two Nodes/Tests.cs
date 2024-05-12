@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2359_Find_Closest_Node_to_Given_Two_Nodes;
+namespace LeetCode.Problems._2359_Find_Closest_Node_to_Given_Two_Nodes;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

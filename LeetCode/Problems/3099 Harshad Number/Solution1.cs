@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3099_Harshad_Number;
+namespace LeetCode.Problems._3099_Harshad_Number;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-391/submissions/detail/1218741759/

@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._1335_Minimum_Difficulty_of_a_Job_Schedule;
+namespace LeetCode.Problems._1335_Minimum_Difficulty_of_a_Job_Schedule;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/823332607/

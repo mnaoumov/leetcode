@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0281_Zigzag_Iterator;
+namespace LeetCode.Problems._0281_Zigzag_Iterator;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

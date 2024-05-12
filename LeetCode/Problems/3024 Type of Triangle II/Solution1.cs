@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3024_Type_of_Triangle_II;
+namespace LeetCode.Problems._3024_Type_of_Triangle_II;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-123/submissions/detail/1164825995/

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2932_Maximum_Strong_Pair_XOR_I;
+namespace LeetCode.Problems._2932_Maximum_Strong_Pair_XOR_I;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

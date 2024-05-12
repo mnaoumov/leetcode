@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0899_Orderly_Queue;
+namespace LeetCode.Problems._0899_Orderly_Queue;
 
 /// <summary>
 /// https://leetcode.com/problems/orderly-queue/submissions/838280119/

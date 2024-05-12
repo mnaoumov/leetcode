@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0759_Employee_Free_Time;
+namespace LeetCode.Problems._0759_Employee_Free_Time;
 
 [PublicAPI]
 public interface ISolution

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0438_Find_All_Anagrams_in_a_String;
+namespace LeetCode.Problems._0438_Find_All_Anagrams_in_a_String;
 
 [PublicAPI]
 public interface ISolution

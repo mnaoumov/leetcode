@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0523_Continuous_Subarray_Sum;
+namespace LeetCode.Problems._0523_Continuous_Subarray_Sum;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/830360545/

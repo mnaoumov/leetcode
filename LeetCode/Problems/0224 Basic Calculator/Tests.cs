@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0224_Basic_Calculator;
+namespace LeetCode.Problems._0224_Basic_Calculator;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

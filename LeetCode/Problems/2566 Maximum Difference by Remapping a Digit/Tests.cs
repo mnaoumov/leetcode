@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2566_Maximum_Difference_by_Remapping_a_Digit;
+namespace LeetCode.Problems._2566_Maximum_Difference_by_Remapping_a_Digit;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

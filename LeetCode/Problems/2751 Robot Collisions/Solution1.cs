@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2751_Robot_Collisions;
+namespace LeetCode.Problems._2751_Robot_Collisions;
 
 /// <summary>
 /// TODO url

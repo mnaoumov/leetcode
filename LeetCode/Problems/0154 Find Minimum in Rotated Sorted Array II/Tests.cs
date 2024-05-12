@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0154_Find_Minimum_in_Rotated_Sorted_Array_II;
+namespace LeetCode.Problems._0154_Find_Minimum_in_Rotated_Sorted_Array_II;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

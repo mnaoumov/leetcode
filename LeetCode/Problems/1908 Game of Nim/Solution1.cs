@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1908_Game_of_Nim;
+namespace LeetCode.Problems._1908_Game_of_Nim;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/887146115/

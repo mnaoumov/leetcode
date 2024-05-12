@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0155_Min_Stack;
+namespace LeetCode.Problems._0155_Min_Stack;
 
 /// <summary>
 /// https://leetcode.com/problems/min-stack/submissions/848293212/

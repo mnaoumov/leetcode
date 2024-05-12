@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0083_Remove_Duplicates_from_Sorted_List;
+namespace LeetCode.Problems._0083_Remove_Duplicates_from_Sorted_List;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/822541644/

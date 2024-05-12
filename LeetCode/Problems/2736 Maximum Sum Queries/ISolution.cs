@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2736_Maximum_Sum_Queries;
+namespace LeetCode.Problems._2736_Maximum_Sum_Queries;
 
 [PublicAPI]
 public interface ISolution

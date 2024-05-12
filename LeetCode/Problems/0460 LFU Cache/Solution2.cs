@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0460_LFU_Cache;
+namespace LeetCode.Problems._0460_LFU_Cache;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/887130111/

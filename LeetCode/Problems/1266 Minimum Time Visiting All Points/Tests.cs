@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1266_Minimum_Time_Visiting_All_Points;
+namespace LeetCode.Problems._1266_Minimum_Time_Visiting_All_Points;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

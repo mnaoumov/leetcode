@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1663_Smallest_String_With_A_Given_Numeric_Value;
+namespace LeetCode.Problems._1663_Smallest_String_With_A_Given_Numeric_Value;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

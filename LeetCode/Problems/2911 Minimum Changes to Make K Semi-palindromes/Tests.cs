@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2911_Minimum_Changes_to_Make_K_Semi_palindromes;
+namespace LeetCode.Problems._2911_Minimum_Changes_to_Make_K_Semi_palindromes;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

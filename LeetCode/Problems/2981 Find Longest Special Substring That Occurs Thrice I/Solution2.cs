@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2981_Find_Longest_Special_Substring_That_Occurs_Thrice_I;
+namespace LeetCode.Problems._2981_Find_Longest_Special_Substring_That_Occurs_Thrice_I;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-378/submissions/detail/1132650002/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0094_Binary_Tree_Inorder_Traversal;
+namespace LeetCode.Problems._0094_Binary_Tree_Inorder_Traversal;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/829144304/

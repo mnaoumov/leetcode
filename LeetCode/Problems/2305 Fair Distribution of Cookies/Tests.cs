@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2305_Fair_Distribution_of_Cookies;
+namespace LeetCode.Problems._2305_Fair_Distribution_of_Cookies;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

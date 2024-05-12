@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0684_Redundant_Connection;
+namespace LeetCode.Problems._0684_Redundant_Connection;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

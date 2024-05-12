@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2147_Number_of_Ways_to_Divide_a_Long_Corridor;
+namespace LeetCode.Problems._2147_Number_of_Ways_to_Divide_a_Long_Corridor;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1107785007/

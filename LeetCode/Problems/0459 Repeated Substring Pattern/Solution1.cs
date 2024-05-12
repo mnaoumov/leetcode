@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0459_Repeated_Substring_Pattern;
+namespace LeetCode.Problems._0459_Repeated_Substring_Pattern;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/930966269/

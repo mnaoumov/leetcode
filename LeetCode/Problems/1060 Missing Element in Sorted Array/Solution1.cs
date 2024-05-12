@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1060_Missing_Element_in_Sorted_Array;
+namespace LeetCode.Problems._1060_Missing_Element_in_Sorted_Array;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/942983899/

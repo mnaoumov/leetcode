@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0187_Repeated_DNA_Sequences;
+namespace LeetCode.Problems._0187_Repeated_DNA_Sequences;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

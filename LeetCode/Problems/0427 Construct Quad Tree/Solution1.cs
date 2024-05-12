@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0427_Construct_Quad_Tree;
+namespace LeetCode.Problems._0427_Construct_Quad_Tree;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/905633717/

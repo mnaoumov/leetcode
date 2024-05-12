@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2373_Largest_Local_Values_in_a_Matrix;
+namespace LeetCode.Problems._2373_Largest_Local_Values_in_a_Matrix;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

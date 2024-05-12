@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0124_Binary_Tree_Maximum_Path_Sum;
+namespace LeetCode.Problems._0124_Binary_Tree_Maximum_Path_Sum;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/836382102/

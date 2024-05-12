@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2815_Max_Pair_Sum_in_an_Array;
+namespace LeetCode.Problems._2815_Max_Pair_Sum_in_an_Array;
 
 [PublicAPI]
 public interface ISolution

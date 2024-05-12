@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2612_Minimum_Reverse_Operations;
+namespace LeetCode.Problems._2612_Minimum_Reverse_Operations;
 
 [PublicAPI]
 public interface ISolution

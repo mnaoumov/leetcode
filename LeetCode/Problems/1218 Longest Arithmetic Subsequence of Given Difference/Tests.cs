@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1218_Longest_Arithmetic_Subsequence_of_Given_Difference;
+namespace LeetCode.Problems._1218_Longest_Arithmetic_Subsequence_of_Given_Difference;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

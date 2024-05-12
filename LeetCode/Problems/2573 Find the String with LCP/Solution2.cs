@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._2573_Find_the_String_with_LCP;
+namespace LeetCode.Problems._2573_Find_the_String_with_LCP;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/901691527/

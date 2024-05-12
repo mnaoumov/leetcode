@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0071_Simplify_Path;
+namespace LeetCode.Problems._0071_Simplify_Path;
 
 [PublicAPI]
 public interface ISolution

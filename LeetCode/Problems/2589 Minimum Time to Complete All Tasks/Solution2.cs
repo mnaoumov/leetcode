@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2589_Minimum_Time_to_Complete_All_Tasks;
+namespace LeetCode.Problems._2589_Minimum_Time_to_Complete_All_Tasks;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/914059620/

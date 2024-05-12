@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1547_Minimum_Cost_to_Cut_a_Stick;
+namespace LeetCode.Problems._1547_Minimum_Cost_to_Cut_a_Stick;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

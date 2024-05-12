@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0403_Frog_Jump;
+namespace LeetCode.Problems._0403_Frog_Jump;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1032682123/

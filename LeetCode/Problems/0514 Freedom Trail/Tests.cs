@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0514_Freedom_Trail;
+namespace LeetCode.Problems._0514_Freedom_Trail;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

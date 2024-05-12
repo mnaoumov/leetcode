@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0568_Maximum_Vacation_Days;
+namespace LeetCode.Problems._0568_Maximum_Vacation_Days;
 
 [PublicAPI]
 public interface ISolution

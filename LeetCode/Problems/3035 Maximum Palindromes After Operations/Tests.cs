@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3035_Maximum_Palindromes_After_Operations;
+namespace LeetCode.Problems._3035_Maximum_Palindromes_After_Operations;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

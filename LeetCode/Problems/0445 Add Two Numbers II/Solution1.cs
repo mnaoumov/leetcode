@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0445_Add_Two_Numbers_II;
+namespace LeetCode.Problems._0445_Add_Two_Numbers_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/951007276/

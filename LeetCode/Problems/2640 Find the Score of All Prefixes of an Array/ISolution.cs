@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2640_Find_the_Score_of_All_Prefixes_of_an_Array;
+namespace LeetCode.Problems._2640_Find_the_Score_of_All_Prefixes_of_an_Array;
 
 [PublicAPI]
 public interface ISolution

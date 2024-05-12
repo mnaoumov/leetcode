@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2716_Minimize_String_Length;
+namespace LeetCode.Problems._2716_Minimize_String_Length;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

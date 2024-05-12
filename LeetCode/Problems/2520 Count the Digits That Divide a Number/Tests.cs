@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2520_Count_the_Digits_That_Divide_a_Number;
+namespace LeetCode.Problems._2520_Count_the_Digits_That_Divide_a_Number;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

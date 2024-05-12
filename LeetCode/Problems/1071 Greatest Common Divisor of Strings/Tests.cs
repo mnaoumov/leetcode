@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1071_Greatest_Common_Divisor_of_Strings;
+namespace LeetCode.Problems._1071_Greatest_Common_Divisor_of_Strings;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

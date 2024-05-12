@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2905_Find_Indices_With_Index_and_Value_Difference_II;
+namespace LeetCode.Problems._2905_Find_Indices_With_Index_and_Value_Difference_II;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

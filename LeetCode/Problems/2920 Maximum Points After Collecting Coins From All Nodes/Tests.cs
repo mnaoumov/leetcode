@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2920_Maximum_Points_After_Collecting_Coins_From_All_Nodes;
+namespace LeetCode.Problems._2920_Maximum_Points_After_Collecting_Coins_From_All_Nodes;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

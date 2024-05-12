@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._2182_Construct_String_With_Repeat_Limit;
+namespace LeetCode.Problems._2182_Construct_String_With_Repeat_Limit;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/908432666/

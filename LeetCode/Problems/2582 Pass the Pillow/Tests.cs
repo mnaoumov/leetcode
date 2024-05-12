@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2582_Pass_the_Pillow;
+namespace LeetCode.Problems._2582_Pass_the_Pillow;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

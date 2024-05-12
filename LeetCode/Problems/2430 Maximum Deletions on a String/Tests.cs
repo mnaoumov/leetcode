@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2430_Maximum_Deletions_on_a_String;
+namespace LeetCode.Problems._2430_Maximum_Deletions_on_a_String;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

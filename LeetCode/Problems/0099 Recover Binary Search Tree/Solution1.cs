@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0099_Recover_Binary_Search_Tree;
+namespace LeetCode.Problems._0099_Recover_Binary_Search_Tree;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/829663570/

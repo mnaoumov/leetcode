@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0040_Combination_Sum_II;
+namespace LeetCode.Problems._0040_Combination_Sum_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/813866824/

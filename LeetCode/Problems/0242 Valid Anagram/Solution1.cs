@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0242_Valid_Anagram;
+namespace LeetCode.Problems._0242_Valid_Anagram;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/923049178/

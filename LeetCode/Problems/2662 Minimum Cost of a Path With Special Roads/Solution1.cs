@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2662_Minimum_Cost_of_a_Path_With_Special_Roads;
+namespace LeetCode.Problems._2662_Minimum_Cost_of_a_Path_With_Special_Roads;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-343/submissions/detail/941872247/

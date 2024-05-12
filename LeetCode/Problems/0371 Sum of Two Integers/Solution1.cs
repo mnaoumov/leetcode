@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0371_Sum_of_Two_Integers;
+namespace LeetCode.Problems._0371_Sum_of_Two_Integers;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/926864595/

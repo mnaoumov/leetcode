@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1046_Last_Stone_Weight;
+namespace LeetCode.Problems._1046_Last_Stone_Weight;
 
 [PublicAPI]
 public interface ISolution

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0570_Managers_with_at_Least_5_Direct_Reports;
+namespace LeetCode.Problems._0570_Managers_with_at_Least_5_Direct_Reports;
 
 [UsedImplicitly]
 public class Tests : SelectSqlTestsBase<Tests>

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2074_Reverse_Nodes_in_Even_Length_Groups;
+namespace LeetCode.Problems._2074_Reverse_Nodes_in_Even_Length_Groups;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

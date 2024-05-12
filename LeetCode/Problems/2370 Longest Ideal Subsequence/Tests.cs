@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2370_Longest_Ideal_Subsequence;
+namespace LeetCode.Problems._2370_Longest_Ideal_Subsequence;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

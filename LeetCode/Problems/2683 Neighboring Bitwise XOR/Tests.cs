@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2683_Neighboring_Bitwise_XOR;
+namespace LeetCode.Problems._2683_Neighboring_Bitwise_XOR;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

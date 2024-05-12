@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0458_Poor_Pigs;
+namespace LeetCode.Problems._0458_Poor_Pigs;
 
 [PublicAPI]
 public interface ISolution

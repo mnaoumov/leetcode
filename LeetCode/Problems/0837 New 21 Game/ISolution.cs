@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0837_New_21_Game;
+namespace LeetCode.Problems._0837_New_21_Game;
 
 [PublicAPI]
 public interface ISolution

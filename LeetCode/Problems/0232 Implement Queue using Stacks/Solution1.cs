@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0232_Implement_Queue_using_Stacks;
+namespace LeetCode.Problems._0232_Implement_Queue_using_Stacks;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/860437570/

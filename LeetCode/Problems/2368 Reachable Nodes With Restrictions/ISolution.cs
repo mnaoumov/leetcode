@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2368_Reachable_Nodes_With_Restrictions;
+namespace LeetCode.Problems._2368_Reachable_Nodes_With_Restrictions;
 
 [PublicAPI]
 public interface ISolution

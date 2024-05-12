@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1325_Delete_Leaves_With_a_Given_Value;
+namespace LeetCode.Problems._1325_Delete_Leaves_With_a_Given_Value;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1136_Parallel_Courses;
+namespace LeetCode.Problems._1136_Parallel_Courses;
 
 [PublicAPI]
 public interface ISolution

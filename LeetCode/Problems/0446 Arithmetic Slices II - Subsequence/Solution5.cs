@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0446_Arithmetic_Slices_II___Subsequence;
+namespace LeetCode.Problems._0446_Arithmetic_Slices_II___Subsequence;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/850747925/

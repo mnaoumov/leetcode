@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2463_Minimum_Total_Distance_Traveled;
+namespace LeetCode.Problems._2463_Minimum_Total_Distance_Traveled;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

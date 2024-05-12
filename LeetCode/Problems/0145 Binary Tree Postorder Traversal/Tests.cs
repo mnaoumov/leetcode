@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0145_Binary_Tree_Postorder_Traversal;
+namespace LeetCode.Problems._0145_Binary_Tree_Postorder_Traversal;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

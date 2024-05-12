@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2966_Divide_Array_Into_Arrays_With_Max_Difference;
+namespace LeetCode.Problems._2966_Divide_Array_Into_Arrays_With_Max_Difference;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1121514268/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0073_Set_Matrix_Zeroes;
+namespace LeetCode.Problems._0073_Set_Matrix_Zeroes;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/829031449/

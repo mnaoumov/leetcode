@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0130_Surrounded_Regions;
+namespace LeetCode.Problems._0130_Surrounded_Regions;
 
 /// <summary>
 /// https://leetcode.com/problems/surrounded-regions/submissions/836849443/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2602_Minimum_Operations_to_Make_All_Array_Elements_Equal;
+namespace LeetCode.Problems._2602_Minimum_Operations_to_Make_All_Array_Elements_Equal;
 
 [PublicAPI]
 public interface ISolution

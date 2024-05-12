@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0456_132_Pattern;
+namespace LeetCode.Problems._0456_132_Pattern;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

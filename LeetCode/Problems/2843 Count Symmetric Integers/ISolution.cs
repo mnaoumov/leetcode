@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2843_Count_Symmetric_Integers;
+namespace LeetCode.Problems._2843_Count_Symmetric_Integers;
 
 [PublicAPI]
 public interface ISolution

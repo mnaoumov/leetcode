@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0907_Sum_of_Subarray_Minimums;
+namespace LeetCode.Problems._0907_Sum_of_Subarray_Minimums;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

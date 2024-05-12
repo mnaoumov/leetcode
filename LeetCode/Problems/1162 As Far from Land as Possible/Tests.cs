@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1162_As_Far_from_Land_as_Possible;
+namespace LeetCode.Problems._1162_As_Far_from_Land_as_Possible;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

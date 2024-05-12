@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2370_Longest_Ideal_Subsequence;
+namespace LeetCode.Problems._2370_Longest_Ideal_Subsequence;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1242043084/

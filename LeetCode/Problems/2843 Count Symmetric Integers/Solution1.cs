@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2843_Count_Symmetric_Integers;
+namespace LeetCode.Problems._2843_Count_Symmetric_Integers;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-361/submissions/detail/1038992343/

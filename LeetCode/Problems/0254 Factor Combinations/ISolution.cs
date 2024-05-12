@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0254_Factor_Combinations;
+namespace LeetCode.Problems._0254_Factor_Combinations;
 
 [PublicAPI]
 public interface ISolution

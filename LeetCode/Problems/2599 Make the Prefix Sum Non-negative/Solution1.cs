@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2599_Make_the_Prefix_Sum_Non_negative;
+namespace LeetCode.Problems._2599_Make_the_Prefix_Sum_Non_negative;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/920495939/

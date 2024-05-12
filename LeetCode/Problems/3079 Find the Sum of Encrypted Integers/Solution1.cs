@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3079_Find_the_Sum_of_Encrypted_Integers;
+namespace LeetCode.Problems._3079_Find_the_Sum_of_Encrypted_Integers;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-126/submissions/detail/1205315993/

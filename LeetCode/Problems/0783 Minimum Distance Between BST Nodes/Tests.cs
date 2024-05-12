@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0783_Minimum_Distance_Between_BST_Nodes;
+namespace LeetCode.Problems._0783_Minimum_Distance_Between_BST_Nodes;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

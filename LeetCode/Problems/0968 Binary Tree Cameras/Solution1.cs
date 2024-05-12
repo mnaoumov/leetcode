@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0968_Binary_Tree_Cameras;
+namespace LeetCode.Problems._0968_Binary_Tree_Cameras;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/954993959/

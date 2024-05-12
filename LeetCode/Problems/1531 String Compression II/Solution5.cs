@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1531_String_Compression_II;
+namespace LeetCode.Problems._1531_String_Compression_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/829080923/

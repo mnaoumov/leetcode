@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2136_Earliest_Possible_Day_of_Full_Bloom;
+namespace LeetCode.Problems._2136_Earliest_Possible_Day_of_Full_Bloom;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/832973774/

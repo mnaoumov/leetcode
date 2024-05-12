@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2587_Rearrange_Array_to_Maximize_Prefix_Score;
+namespace LeetCode.Problems._2587_Rearrange_Array_to_Maximize_Prefix_Score;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

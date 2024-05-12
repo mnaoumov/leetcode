@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0808_Soup_Servings;
+namespace LeetCode.Problems._0808_Soup_Servings;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1074025029/

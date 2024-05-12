@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0760_Find_Anagram_Mappings;
+namespace LeetCode.Problems._0760_Find_Anagram_Mappings;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/925744434/

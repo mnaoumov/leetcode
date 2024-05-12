@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0053_Maximum_Subarray;
+namespace LeetCode.Problems._0053_Maximum_Subarray;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/819095461/

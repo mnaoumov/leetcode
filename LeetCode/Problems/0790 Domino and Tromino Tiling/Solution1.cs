@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0790_Domino_and_Tromino_Tiling;
+namespace LeetCode.Problems._0790_Domino_and_Tromino_Tiling;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/864533369/

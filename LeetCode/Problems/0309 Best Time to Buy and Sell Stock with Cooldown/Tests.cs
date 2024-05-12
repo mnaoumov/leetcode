@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0309_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown;
+namespace LeetCode.Problems._0309_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

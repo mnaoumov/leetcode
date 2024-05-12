@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2541_Minimum_Operations_to_Make_Array_Equal_II;
+namespace LeetCode.Problems._2541_Minimum_Operations_to_Make_Array_Equal_II;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-96/submissions/detail/882427768/

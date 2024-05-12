@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0279_Perfect_Squares;
+namespace LeetCode.Problems._0279_Perfect_Squares;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/197023413/

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0714_Best_Time_to_Buy_and_Sell_Stock_with_Transaction_Fee;
+namespace LeetCode.Problems._0714_Best_Time_to_Buy_and_Sell_Stock_with_Transaction_Fee;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

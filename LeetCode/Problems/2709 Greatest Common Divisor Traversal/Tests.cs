@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2709_Greatest_Common_Divisor_Traversal;
+namespace LeetCode.Problems._2709_Greatest_Common_Divisor_Traversal;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

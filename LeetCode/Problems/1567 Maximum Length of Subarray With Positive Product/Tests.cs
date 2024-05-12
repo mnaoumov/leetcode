@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1567_Maximum_Length_of_Subarray_With_Positive_Product;
+namespace LeetCode.Problems._1567_Maximum_Length_of_Subarray_With_Positive_Product;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

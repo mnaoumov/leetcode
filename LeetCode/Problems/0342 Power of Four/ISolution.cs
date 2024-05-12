@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0342_Power_of_Four;
+namespace LeetCode.Problems._0342_Power_of_Four;
 
 [PublicAPI]
 public interface ISolution

@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0038_Count_and_Say;
+namespace LeetCode.Problems._0038_Count_and_Say;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

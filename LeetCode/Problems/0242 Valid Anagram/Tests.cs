@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0242_Valid_Anagram;
+namespace LeetCode.Problems._0242_Valid_Anagram;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

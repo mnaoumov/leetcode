@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3102_Minimize_Manhattan_Distances;
+namespace LeetCode.Problems._3102_Minimize_Manhattan_Distances;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

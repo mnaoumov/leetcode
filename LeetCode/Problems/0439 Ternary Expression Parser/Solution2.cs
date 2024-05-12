@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0439_Ternary_Expression_Parser;
+namespace LeetCode.Problems._0439_Ternary_Expression_Parser;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1001414011/

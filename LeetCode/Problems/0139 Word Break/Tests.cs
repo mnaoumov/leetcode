@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0139_Word_Break;
+namespace LeetCode.Problems._0139_Word_Break;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

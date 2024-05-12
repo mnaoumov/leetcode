@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1482_Minimum_Number_of_Days_to_Make_m_Bouquets;
+namespace LeetCode.Problems._1482_Minimum_Number_of_Days_to_Make_m_Bouquets;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/915440388/

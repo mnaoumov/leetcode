@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2516_Take_K_of_Each_Character_From_Left_and_Right;
+namespace LeetCode.Problems._2516_Take_K_of_Each_Character_From_Left_and_Right;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

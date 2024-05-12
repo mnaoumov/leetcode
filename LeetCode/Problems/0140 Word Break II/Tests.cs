@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0140_Word_Break_II;
+namespace LeetCode.Problems._0140_Word_Break_II;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

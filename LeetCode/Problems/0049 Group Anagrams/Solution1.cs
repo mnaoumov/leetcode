@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0049_Group_Anagrams;
+namespace LeetCode.Problems._0049_Group_Anagrams;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/196716802/

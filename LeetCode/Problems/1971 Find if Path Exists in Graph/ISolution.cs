@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1971_Find_if_Path_Exists_in_Graph;
+namespace LeetCode.Problems._1971_Find_if_Path_Exists_in_Graph;
 
 [PublicAPI]
 public interface ISolution

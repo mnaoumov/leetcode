@@ -1,7 +1,7 @@
 using System.Numerics;
 using JetBrains.Annotations;
 
-namespace LeetCode._2939_Maximum_Xor_Product;
+namespace LeetCode.Problems._2939_Maximum_Xor_Product;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-372/submissions/detail/1101809190/

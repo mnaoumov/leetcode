@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3130_Find_All_Possible_Stable_Binary_Arrays_II;
+namespace LeetCode.Problems._3130_Find_All_Possible_Stable_Binary_Arrays_II;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

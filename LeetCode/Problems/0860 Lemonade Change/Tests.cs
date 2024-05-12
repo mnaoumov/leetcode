@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0860_Lemonade_Change;
+namespace LeetCode.Problems._0860_Lemonade_Change;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

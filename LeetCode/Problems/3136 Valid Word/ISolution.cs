@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3136_Valid_Word;
+namespace LeetCode.Problems._3136_Valid_Word;
 
 [PublicAPI]
 public interface ISolution

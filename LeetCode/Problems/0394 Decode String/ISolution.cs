@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0394_Decode_String;
+namespace LeetCode.Problems._0394_Decode_String;
 
 [PublicAPI]
 public interface ISolution

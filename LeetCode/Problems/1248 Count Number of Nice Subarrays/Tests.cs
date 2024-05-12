@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1248_Count_Number_of_Nice_Subarrays;
+namespace LeetCode.Problems._1248_Count_Number_of_Nice_Subarrays;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

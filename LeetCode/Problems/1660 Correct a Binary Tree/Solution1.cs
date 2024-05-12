@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1660_Correct_a_Binary_Tree;
+namespace LeetCode.Problems._1660_Correct_a_Binary_Tree;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1080961237/

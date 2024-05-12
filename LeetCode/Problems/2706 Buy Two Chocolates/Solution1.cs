@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2706_Buy_Two_Chocolates;
+namespace LeetCode.Problems._2706_Buy_Two_Chocolates;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-105/submissions/detail/958301723/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2187_Minimum_Time_to_Complete_Trips;
+namespace LeetCode.Problems._2187_Minimum_Time_to_Complete_Trips;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/910575508/

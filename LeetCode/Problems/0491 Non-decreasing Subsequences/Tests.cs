@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0491_Non_decreasing_Subsequences;
+namespace LeetCode.Problems._0491_Non_decreasing_Subsequences;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

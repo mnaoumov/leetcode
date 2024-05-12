@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1682_Longest_Palindromic_Subsequence_II;
+namespace LeetCode.Problems._1682_Longest_Palindromic_Subsequence_II;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

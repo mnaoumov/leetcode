@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3142_Check_if_Grid_Satisfies_Conditions;
+namespace LeetCode.Problems._3142_Check_if_Grid_Satisfies_Conditions;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-130/submissions/detail/1255215210/

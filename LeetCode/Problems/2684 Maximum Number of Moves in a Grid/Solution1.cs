@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2684_Maximum_Number_of_Moves_in_a_Grid;
+namespace LeetCode.Problems._2684_Maximum_Number_of_Moves_in_a_Grid;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-345/submissions/detail/949936222/

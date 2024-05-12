@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0715_Range_Module;
+namespace LeetCode.Problems._0715_Range_Module;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/959257990/

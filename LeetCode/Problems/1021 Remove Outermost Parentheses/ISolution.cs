@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1021_Remove_Outermost_Parentheses;
+namespace LeetCode.Problems._1021_Remove_Outermost_Parentheses;
 
 [PublicAPI]
 public interface ISolution

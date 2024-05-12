@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0186_Reverse_Words_in_a_String_II;
+namespace LeetCode.Problems._0186_Reverse_Words_in_a_String_II;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2589_Minimum_Time_to_Complete_All_Tasks;
+namespace LeetCode.Problems._2589_Minimum_Time_to_Complete_All_Tasks;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

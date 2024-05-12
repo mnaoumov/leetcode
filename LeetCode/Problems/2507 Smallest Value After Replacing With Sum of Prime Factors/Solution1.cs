@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2507_Smallest_Value_After_Replacing_With_Sum_of_Prime_Factors;
+namespace LeetCode.Problems._2507_Smallest_Value_After_Replacing_With_Sum_of_Prime_Factors;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-324/submissions/detail/861390389/

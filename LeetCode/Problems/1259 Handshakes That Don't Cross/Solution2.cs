@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1259_Handshakes_That_Don_t_Cross;
+namespace LeetCode.Problems._1259_Handshakes_That_Don_t_Cross;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/902649422/

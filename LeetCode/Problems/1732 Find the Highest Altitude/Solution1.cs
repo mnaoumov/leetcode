@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1732_Find_the_Highest_Altitude;
+namespace LeetCode.Problems._1732_Find_the_Highest_Altitude;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/898920682/

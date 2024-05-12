@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2447_Number_of_Subarrays_With_GCD_Equal_to_K;
+namespace LeetCode.Problems._2447_Number_of_Subarrays_With_GCD_Equal_to_K;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-316/submissions/detail/828292675/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2967_Minimum_Cost_to_Make_Array_Equalindromic;
+namespace LeetCode.Problems._2967_Minimum_Cost_to_Make_Array_Equalindromic;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1121568248/

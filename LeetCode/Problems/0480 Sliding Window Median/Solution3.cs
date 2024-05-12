@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0480_Sliding_Window_Median;
+namespace LeetCode.Problems._0480_Sliding_Window_Median;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/907999304/

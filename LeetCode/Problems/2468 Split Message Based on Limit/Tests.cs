@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2468_Split_Message_Based_on_Limit;
+namespace LeetCode.Problems._2468_Split_Message_Based_on_Limit;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

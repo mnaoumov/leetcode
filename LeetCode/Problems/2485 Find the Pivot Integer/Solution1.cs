@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2485_Find_the_Pivot_Integer;
+namespace LeetCode.Problems._2485_Find_the_Pivot_Integer;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/850790845/

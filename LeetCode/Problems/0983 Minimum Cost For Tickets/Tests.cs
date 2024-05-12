@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0983_Minimum_Cost_For_Tickets;
+namespace LeetCode.Problems._0983_Minimum_Cost_For_Tickets;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

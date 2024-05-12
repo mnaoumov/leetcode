@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0992_Subarrays_with_K_Different_Integers;
+namespace LeetCode.Problems._0992_Subarrays_with_K_Different_Integers;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

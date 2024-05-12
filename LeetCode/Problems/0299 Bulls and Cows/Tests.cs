@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0299_Bulls_and_Cows;
+namespace LeetCode.Problems._0299_Bulls_and_Cows;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

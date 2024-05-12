@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0150_Evaluate_Reverse_Polish_Notation;
+namespace LeetCode.Problems._0150_Evaluate_Reverse_Polish_Notation;
 
 /// <summary>
 /// https://leetcode.com/problems/evaluate-reverse-polish-notation/submissions/848088325/

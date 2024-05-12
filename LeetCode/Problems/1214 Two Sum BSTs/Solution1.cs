@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1214_Two_Sum_BSTs;
+namespace LeetCode.Problems._1214_Two_Sum_BSTs;
 
 /// <summary>
 /// TODO url

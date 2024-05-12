@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0867_Transpose_Matrix;
+namespace LeetCode.Problems._0867_Transpose_Matrix;
 
 [PublicAPI]
 public interface ISolution

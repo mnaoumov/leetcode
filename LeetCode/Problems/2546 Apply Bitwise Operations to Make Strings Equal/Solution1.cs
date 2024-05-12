@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2546_Apply_Bitwise_Operations_to_Make_Strings_Equal;
+namespace LeetCode.Problems._2546_Apply_Bitwise_Operations_to_Make_Strings_Equal;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-329/submissions/detail/882783895/

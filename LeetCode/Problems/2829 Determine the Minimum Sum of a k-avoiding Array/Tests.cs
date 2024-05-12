@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2829_Determine_the_Minimum_Sum_of_a_k_avoiding_Array;
+namespace LeetCode.Problems._2829_Determine_the_Minimum_Sum_of_a_k_avoiding_Array;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0506_Relative_Ranks;
+namespace LeetCode.Problems._0506_Relative_Ranks;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1252750120/

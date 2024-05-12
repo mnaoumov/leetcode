@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0046_Permutations;
+namespace LeetCode.Problems._0046_Permutations;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/815418450/

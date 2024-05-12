@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2459_Sort_Array_by_Moving_Items_to_Empty_Space;
+namespace LeetCode.Problems._2459_Sort_Array_by_Moving_Items_to_Empty_Space;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/879052694/

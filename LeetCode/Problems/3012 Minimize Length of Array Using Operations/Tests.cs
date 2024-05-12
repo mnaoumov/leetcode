@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3012_Minimize_Length_of_Array_Using_Operations;
+namespace LeetCode.Problems._3012_Minimize_Length_of_Array_Using_Operations;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

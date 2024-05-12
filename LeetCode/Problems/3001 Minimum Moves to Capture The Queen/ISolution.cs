@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3001_Minimum_Moves_to_Capture_The_Queen;
+namespace LeetCode.Problems._3001_Minimum_Moves_to_Capture_The_Queen;
 
 [PublicAPI]
 public interface ISolution

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0634_Find_the_Derangement_of_An_Array;
+namespace LeetCode.Problems._0634_Find_the_Derangement_of_An_Array;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

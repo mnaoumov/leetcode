@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1071_Greatest_Common_Divisor_of_Strings;
+namespace LeetCode.Problems._1071_Greatest_Common_Divisor_of_Strings;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/889458801/

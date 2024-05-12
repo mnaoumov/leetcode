@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0351_Android_Unlock_Patterns;
+namespace LeetCode.Problems._0351_Android_Unlock_Patterns;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

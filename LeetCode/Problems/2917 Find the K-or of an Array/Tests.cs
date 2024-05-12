@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2917_Find_the_K_or_of_an_Array;
+namespace LeetCode.Problems._2917_Find_the_K_or_of_an_Array;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

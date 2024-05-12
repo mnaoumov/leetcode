@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2762_Continuous_Subarrays;
+namespace LeetCode.Problems._2762_Continuous_Subarrays;
 
 [PublicAPI]
 public interface ISolution

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1548_The_Most_Similar_Path_in_a_Graph;
+namespace LeetCode.Problems._1548_The_Most_Similar_Path_in_a_Graph;
 
 [PublicAPI]
 public interface ISolution

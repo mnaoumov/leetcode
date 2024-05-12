@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2647_Color_the_Triangle_Red;
+namespace LeetCode.Problems._2647_Color_the_Triangle_Red;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

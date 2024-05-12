@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2780_Minimum_Index_of_a_Valid_Split;
+namespace LeetCode.Problems._2780_Minimum_Index_of_a_Valid_Split;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-354/submissions/detail/995530902/

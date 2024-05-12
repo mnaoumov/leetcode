@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3147_Taking_Maximum_Energy_From_the_Mystic_Dungeon;
+namespace LeetCode.Problems._3147_Taking_Maximum_Energy_From_the_Mystic_Dungeon;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-397/submissions/detail/1255688703/

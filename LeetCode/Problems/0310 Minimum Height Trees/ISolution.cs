@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0310_Minimum_Height_Trees;
+namespace LeetCode.Problems._0310_Minimum_Height_Trees;
 
 [PublicAPI]
 public interface ISolution

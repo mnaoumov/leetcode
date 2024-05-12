@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1143_Longest_Common_Subsequence;
+namespace LeetCode.Problems._1143_Longest_Common_Subsequence;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/859977937/

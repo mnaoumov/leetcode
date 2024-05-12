@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2857_Count_Pairs_of_Points_With_Distance_k;
+namespace LeetCode.Problems._2857_Count_Pairs_of_Points_With_Distance_k;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

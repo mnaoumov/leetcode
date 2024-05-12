@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2767_Partition_String_Into_Minimum_Beautiful_Substrings;
+namespace LeetCode.Problems._2767_Partition_String_Into_Minimum_Beautiful_Substrings;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

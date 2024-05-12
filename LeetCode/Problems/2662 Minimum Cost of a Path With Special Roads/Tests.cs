@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2662_Minimum_Cost_of_a_Path_With_Special_Roads;
+namespace LeetCode.Problems._2662_Minimum_Cost_of_a_Path_With_Special_Roads;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

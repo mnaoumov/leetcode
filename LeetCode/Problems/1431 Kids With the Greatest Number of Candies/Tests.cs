@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._1431_Kids_With_the_Greatest_Number_of_Candies;
+namespace LeetCode.Problems._1431_Kids_With_the_Greatest_Number_of_Candies;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

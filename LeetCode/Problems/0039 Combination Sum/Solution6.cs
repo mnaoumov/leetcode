@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0039_Combination_Sum;
+namespace LeetCode.Problems._0039_Combination_Sum;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/918839797/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1949_Strong_Friendship;
+namespace LeetCode.Problems._1949_Strong_Friendship;
 
 [UsedImplicitly]
 public class Tests : SelectSqlTestsBase<Tests>

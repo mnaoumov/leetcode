@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0016_3Sum_Closest;
+namespace LeetCode.Problems._0016_3Sum_Closest;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

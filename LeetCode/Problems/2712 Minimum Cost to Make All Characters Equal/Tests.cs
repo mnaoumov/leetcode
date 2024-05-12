@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2712_Minimum_Cost_to_Make_All_Characters_Equal;
+namespace LeetCode.Problems._2712_Minimum_Cost_to_Make_All_Characters_Equal;
 
 [UsedImplicitly]
 [Category("TODO")]

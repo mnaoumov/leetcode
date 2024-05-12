@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0256_Paint_House;
+namespace LeetCode.Problems._0256_Paint_House;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/927266735/

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2139_Minimum_Moves_to_Reach_Target_Score;
+namespace LeetCode.Problems._2139_Minimum_Moves_to_Reach_Target_Score;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

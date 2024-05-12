@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._0151_Reverse_Words_in_a_String;
+namespace LeetCode.Problems._0151_Reverse_Words_in_a_String;
 
 /// <summary>
 /// https://leetcode.com/problems/reverse-words-in-a-string/submissions/848093287/

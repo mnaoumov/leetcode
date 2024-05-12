@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2718_Sum_of_Matrix_After_Queries;
+namespace LeetCode.Problems._2718_Sum_of_Matrix_After_Queries;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

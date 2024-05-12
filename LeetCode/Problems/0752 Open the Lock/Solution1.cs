@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0752_Open_the_Lock;
+namespace LeetCode.Problems._0752_Open_the_Lock;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/904863665/

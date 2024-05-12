@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2505_Bitwise_OR_of_All_Subsequence_Sums;
+namespace LeetCode.Problems._2505_Bitwise_OR_of_All_Subsequence_Sums;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

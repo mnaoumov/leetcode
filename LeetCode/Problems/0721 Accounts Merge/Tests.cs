@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0721_Accounts_Merge;
+namespace LeetCode.Problems._0721_Accounts_Merge;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

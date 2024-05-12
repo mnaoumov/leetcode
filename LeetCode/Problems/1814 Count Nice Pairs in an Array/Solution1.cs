@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1814_Count_Nice_Pairs_in_an_Array;
+namespace LeetCode.Problems._1814_Count_Nice_Pairs_in_an_Array;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1103133657/

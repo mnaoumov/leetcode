@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0377_Combination_Sum_IV;
+namespace LeetCode.Problems._0377_Combination_Sum_IV;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0778_Swim_in_Rising_Water;
+namespace LeetCode.Problems._0778_Swim_in_Rising_Water;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

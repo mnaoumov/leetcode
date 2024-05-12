@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0834_Sum_of_Distances_in_Tree;
+namespace LeetCode.Problems._0834_Sum_of_Distances_in_Tree;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/863906431/

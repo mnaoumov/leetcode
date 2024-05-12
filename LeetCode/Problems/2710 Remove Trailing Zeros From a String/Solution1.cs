@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2710_Remove_Trailing_Zeros_From_a_String;
+namespace LeetCode.Problems._2710_Remove_Trailing_Zeros_From_a_String;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-347/submissions/detail/958680214/

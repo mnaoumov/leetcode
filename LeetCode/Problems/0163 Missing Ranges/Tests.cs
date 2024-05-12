@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0163_Missing_Ranges;
+namespace LeetCode.Problems._0163_Missing_Ranges;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

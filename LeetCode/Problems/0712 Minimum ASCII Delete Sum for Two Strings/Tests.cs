@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0712_Minimum_ASCII_Delete_Sum_for_Two_Strings;
+namespace LeetCode.Problems._0712_Minimum_ASCII_Delete_Sum_for_Two_Strings;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

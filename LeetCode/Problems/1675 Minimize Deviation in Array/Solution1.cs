@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1675_Minimize_Deviation_in_Array;
+namespace LeetCode.Problems._1675_Minimize_Deviation_in_Array;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/903871143/

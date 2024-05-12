@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0011_Container_With_Most_Water;
+namespace LeetCode.Problems._0011_Container_With_Most_Water;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/196729552/

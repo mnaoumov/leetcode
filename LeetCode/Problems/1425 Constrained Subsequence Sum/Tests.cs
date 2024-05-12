@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1425_Constrained_Subsequence_Sum;
+namespace LeetCode.Problems._1425_Constrained_Subsequence_Sum;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

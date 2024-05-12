@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0081_Search_in_Rotated_Sorted_Array_II;
+namespace LeetCode.Problems._0081_Search_in_Rotated_Sorted_Array_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/822487962/

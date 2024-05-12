@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0712_Minimum_ASCII_Delete_Sum_for_Two_Strings;
+namespace LeetCode.Problems._0712_Minimum_ASCII_Delete_Sum_for_Two_Strings;
 
 [PublicAPI]
 public interface ISolution

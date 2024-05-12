@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2739_Total_Distance_Traveled;
+namespace LeetCode.Problems._2739_Total_Distance_Traveled;
 
 [PublicAPI]
 public interface ISolution

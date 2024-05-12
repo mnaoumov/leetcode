@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0934_Shortest_Bridge;
+namespace LeetCode.Problems._0934_Shortest_Bridge;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

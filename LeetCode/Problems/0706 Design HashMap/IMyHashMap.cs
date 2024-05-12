@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0706_Design_HashMap;
+namespace LeetCode.Problems._0706_Design_HashMap;
 
 [PublicAPI]
 public interface IMyHashMap

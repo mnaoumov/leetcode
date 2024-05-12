@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2462_Total_Cost_to_Hire_K_Workers;
+namespace LeetCode.Problems._2462_Total_Cost_to_Hire_K_Workers;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

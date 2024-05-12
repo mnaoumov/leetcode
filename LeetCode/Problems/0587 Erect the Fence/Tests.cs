@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0587_Erect_the_Fence;
+namespace LeetCode.Problems._0587_Erect_the_Fence;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

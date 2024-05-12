@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0841_Keys_and_Rooms;
+namespace LeetCode.Problems._0841_Keys_and_Rooms;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

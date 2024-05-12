@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0779_K_th_Symbol_in_Grammar;
+namespace LeetCode.Problems._0779_K_th_Symbol_in_Grammar;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

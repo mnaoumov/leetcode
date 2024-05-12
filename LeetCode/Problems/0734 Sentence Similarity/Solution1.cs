@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0734_Sentence_Similarity;
+namespace LeetCode.Problems._0734_Sentence_Similarity;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/890322908/

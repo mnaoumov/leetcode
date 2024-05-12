@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0238_Product_of_Array_Except_Self;
+namespace LeetCode.Problems._0238_Product_of_Array_Except_Self;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

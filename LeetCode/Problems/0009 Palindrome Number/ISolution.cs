@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0009_Palindrome_Number;
+namespace LeetCode.Problems._0009_Palindrome_Number;
 
 [PublicAPI]
 public interface ISolution

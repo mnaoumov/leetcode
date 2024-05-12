@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2833_Furthest_Point_From_Origin;
+namespace LeetCode.Problems._2833_Furthest_Point_From_Origin;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

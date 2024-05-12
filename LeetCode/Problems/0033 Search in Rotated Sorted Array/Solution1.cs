@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0033_Search_in_Rotated_Sorted_Array;
+namespace LeetCode.Problems._0033_Search_in_Rotated_Sorted_Array;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/812942985/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2643_Row_With_Maximum_Ones;
+namespace LeetCode.Problems._2643_Row_With_Maximum_Ones;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-341/submissions/detail/934447784/

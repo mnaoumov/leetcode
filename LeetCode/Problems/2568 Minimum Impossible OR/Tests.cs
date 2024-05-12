@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2568_Minimum_Impossible_OR;
+namespace LeetCode.Problems._2568_Minimum_Impossible_OR;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

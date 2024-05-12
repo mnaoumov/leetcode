@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0465_Optimal_Account_Balancing;
+namespace LeetCode.Problems._0465_Optimal_Account_Balancing;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

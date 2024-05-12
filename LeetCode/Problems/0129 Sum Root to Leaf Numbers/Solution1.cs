@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0129_Sum_Root_to_Leaf_Numbers;
+namespace LeetCode.Problems._0129_Sum_Root_to_Leaf_Numbers;
 
 /// <summary>
 /// https://leetcode.com/problems/sum-root-to-leaf-numbers/submissions/836547257/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2384_Largest_Palindromic_Number;
+namespace LeetCode.Problems._2384_Largest_Palindromic_Number;
 
 [PublicAPI]
 public interface ISolution

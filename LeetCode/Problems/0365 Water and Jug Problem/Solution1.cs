@@ -1,7 +1,7 @@
 using System.Numerics;
 using JetBrains.Annotations;
 
-namespace LeetCode._0365_Water_and_Jug_Problem;
+namespace LeetCode.Problems._0365_Water_and_Jug_Problem;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/928790877/

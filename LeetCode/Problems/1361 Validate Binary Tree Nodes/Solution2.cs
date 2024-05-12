@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1361_Validate_Binary_Tree_Nodes;
+namespace LeetCode.Problems._1361_Validate_Binary_Tree_Nodes;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1077125147/

@@ -2,7 +2,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._1203_Sort_Items_by_Groups_Respecting_Dependencies;
+namespace LeetCode.Problems._1203_Sort_Items_by_Groups_Respecting_Dependencies;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

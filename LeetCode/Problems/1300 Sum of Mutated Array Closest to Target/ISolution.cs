@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1300_Sum_of_Mutated_Array_Closest_to_Target;
+namespace LeetCode.Problems._1300_Sum_of_Mutated_Array_Closest_to_Target;
 
 [PublicAPI]
 public interface ISolution

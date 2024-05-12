@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2306_Naming_a_Company;
+namespace LeetCode.Problems._2306_Naming_a_Company;
 
 [PublicAPI]
 public interface ISolution

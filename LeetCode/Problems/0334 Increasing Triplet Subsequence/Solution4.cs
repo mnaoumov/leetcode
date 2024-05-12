@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0334_Increasing_Triplet_Subsequence;
+namespace LeetCode.Problems._0334_Increasing_Triplet_Subsequence;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/829093640/

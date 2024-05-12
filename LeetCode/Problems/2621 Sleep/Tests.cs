@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2621_Sleep;
+namespace LeetCode.Problems._2621_Sleep;
 
 [UsedImplicitly]
 public class Tests : JavaScriptTestsBase<Tests>;

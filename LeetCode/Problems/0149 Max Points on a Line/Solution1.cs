@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0149_Max_Points_on_a_Line;
+namespace LeetCode.Problems._0149_Max_Points_on_a_Line;
 
 /// <summary>
 /// https://leetcode.com/problems/max-points-on-a-line/submissions/847810866/

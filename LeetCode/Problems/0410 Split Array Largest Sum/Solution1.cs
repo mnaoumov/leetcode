@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0410_Split_Array_Largest_Sum;
+namespace LeetCode.Problems._0410_Split_Array_Largest_Sum;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/915146340/

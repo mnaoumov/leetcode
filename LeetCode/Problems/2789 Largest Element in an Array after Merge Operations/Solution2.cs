@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2789_Largest_Element_in_an_Array_after_Merge_Operations;
+namespace LeetCode.Problems._2789_Largest_Element_in_an_Array_after_Merge_Operations;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-355/submissions/detail/1001432549/

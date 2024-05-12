@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2473_Minimum_Cost_to_Buy_Apples;
+namespace LeetCode.Problems._2473_Minimum_Cost_to_Buy_Apples;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/875048152/

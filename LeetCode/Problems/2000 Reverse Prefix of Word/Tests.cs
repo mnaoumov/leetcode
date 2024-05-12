@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2000_Reverse_Prefix_of_Word;
+namespace LeetCode.Problems._2000_Reverse_Prefix_of_Word;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

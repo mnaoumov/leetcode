@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2963_Count_the_Number_of_Good_Partitions;
+namespace LeetCode.Problems._2963_Count_the_Number_of_Good_Partitions;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

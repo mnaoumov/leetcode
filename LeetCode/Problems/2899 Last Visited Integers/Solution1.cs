@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2899_Last_Visited_Integers;
+namespace LeetCode.Problems._2899_Last_Visited_Integers;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-115/submissions/detail/1075005481/

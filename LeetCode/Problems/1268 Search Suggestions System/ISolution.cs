@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1268_Search_Suggestions_System;
+namespace LeetCode.Problems._1268_Search_Suggestions_System;
 
 [PublicAPI]
 public interface ISolution

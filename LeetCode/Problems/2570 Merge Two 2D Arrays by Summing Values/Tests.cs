@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._2570_Merge_Two_2D_Arrays_by_Summing_Values;
+namespace LeetCode.Problems._2570_Merge_Two_2D_Arrays_by_Summing_Values;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

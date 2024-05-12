@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1167_Minimum_Cost_to_Connect_Sticks;
+namespace LeetCode.Problems._1167_Minimum_Cost_to_Connect_Sticks;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

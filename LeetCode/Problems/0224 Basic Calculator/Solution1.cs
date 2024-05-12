@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0224_Basic_Calculator;
+namespace LeetCode.Problems._0224_Basic_Calculator;
 
 /// <summary>
 /// https://leetcode.com/problems/basic-calculator/submissions/847146122/

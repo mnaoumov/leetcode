@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2780_Minimum_Index_of_a_Valid_Split;
+namespace LeetCode.Problems._2780_Minimum_Index_of_a_Valid_Split;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

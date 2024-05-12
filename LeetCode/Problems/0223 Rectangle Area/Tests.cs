@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0223_Rectangle_Area;
+namespace LeetCode.Problems._0223_Rectangle_Area;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

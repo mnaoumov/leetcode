@@ -1,7 +1,7 @@
 using System.Text.RegularExpressions;
 using JetBrains.Annotations;
 
-namespace LeetCode._1236_Web_Crawler;
+namespace LeetCode.Problems._1236_Web_Crawler;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/919833680/

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1523_Count_Odd_Numbers_in_an_Interval_Range;
+namespace LeetCode.Problems._1523_Count_Odd_Numbers_in_an_Interval_Range;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

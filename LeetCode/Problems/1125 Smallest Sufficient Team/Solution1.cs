@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1125_Smallest_Sufficient_Team;
+namespace LeetCode.Problems._1125_Smallest_Sufficient_Team;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/996247112/

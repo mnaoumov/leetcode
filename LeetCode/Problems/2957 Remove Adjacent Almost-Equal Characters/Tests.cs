@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2957_Remove_Adjacent_Almost_Equal_Characters;
+namespace LeetCode.Problems._2957_Remove_Adjacent_Almost_Equal_Characters;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

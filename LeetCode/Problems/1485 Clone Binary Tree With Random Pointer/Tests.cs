@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1485_Clone_Binary_Tree_With_Random_Pointer;
+namespace LeetCode.Problems._1485_Clone_Binary_Tree_With_Random_Pointer;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

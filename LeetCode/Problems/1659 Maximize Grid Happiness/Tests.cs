@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1659_Maximize_Grid_Happiness;
+namespace LeetCode.Problems._1659_Maximize_Grid_Happiness;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

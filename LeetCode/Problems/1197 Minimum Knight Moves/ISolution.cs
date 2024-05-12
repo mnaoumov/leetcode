@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1197_Minimum_Knight_Moves;
+namespace LeetCode.Problems._1197_Minimum_Knight_Moves;
 
 [PublicAPI]
 public interface ISolution

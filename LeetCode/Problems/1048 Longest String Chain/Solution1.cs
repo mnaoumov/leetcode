@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._1048_Longest_String_Chain;
+namespace LeetCode.Problems._1048_Longest_String_Chain;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/940379544/

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2606_Find_the_Substring_With_Maximum_Cost;
+namespace LeetCode.Problems._2606_Find_the_Substring_With_Maximum_Cost;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

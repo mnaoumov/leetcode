@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2548_Maximum_Price_to_Fill_a_Bag;
+namespace LeetCode.Problems._2548_Maximum_Price_to_Fill_a_Bag;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

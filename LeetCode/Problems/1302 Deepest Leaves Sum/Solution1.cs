@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1302_Deepest_Leaves_Sum;
+namespace LeetCode.Problems._1302_Deepest_Leaves_Sum;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/897377077/

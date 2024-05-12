@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0123_Best_Time_to_Buy_and_Sell_Stock_III;
+namespace LeetCode.Problems._0123_Best_Time_to_Buy_and_Sell_Stock_III;
 
 /// <summary>
 /// https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/submissions/836920843/

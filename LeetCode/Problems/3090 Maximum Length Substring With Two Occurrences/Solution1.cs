@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3090_Maximum_Length_Substring_With_Two_Occurrences;
+namespace LeetCode.Problems._3090_Maximum_Length_Substring_With_Two_Occurrences;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-390/submissions/detail/1212125287/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0418_Sentence_Screen_Fitting;
+namespace LeetCode.Problems._0418_Sentence_Screen_Fitting;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/956102529/

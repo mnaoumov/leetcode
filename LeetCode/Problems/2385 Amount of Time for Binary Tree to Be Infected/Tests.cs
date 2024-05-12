@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2385_Amount_of_Time_for_Binary_Tree_to_Be_Infected;
+namespace LeetCode.Problems._2385_Amount_of_Time_for_Binary_Tree_to_Be_Infected;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

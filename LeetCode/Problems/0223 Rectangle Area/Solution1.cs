@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0223_Rectangle_Area;
+namespace LeetCode.Problems._0223_Rectangle_Area;
 
 /// <summary>
 /// https://leetcode.com/problems/rectangle-area/submissions/844939990/

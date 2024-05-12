@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2533_Number_of_Good_Binary_Strings;
+namespace LeetCode.Problems._2533_Number_of_Good_Binary_Strings;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/879641751/

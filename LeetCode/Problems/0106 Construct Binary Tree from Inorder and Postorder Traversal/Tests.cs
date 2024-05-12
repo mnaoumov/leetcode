@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._0106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal;
+namespace LeetCode.Problems._0106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

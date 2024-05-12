@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2538_Difference_Between_Maximum_and_Minimum_Price_Sum;
+namespace LeetCode.Problems._2538_Difference_Between_Maximum_and_Minimum_Price_Sum;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/878410422/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2784_Check_if_Array_is_Good;
+namespace LeetCode.Problems._2784_Check_if_Array_is_Good;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-109/submissions/detail/1000975196/

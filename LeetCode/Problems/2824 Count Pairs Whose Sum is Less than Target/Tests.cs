@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2824_Count_Pairs_Whose_Sum_is_Less_than_Target;
+namespace LeetCode.Problems._2824_Count_Pairs_Whose_Sum_is_Less_than_Target;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

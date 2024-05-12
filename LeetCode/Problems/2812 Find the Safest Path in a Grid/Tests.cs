@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2812_Find_the_Safest_Path_in_a_Grid;
+namespace LeetCode.Problems._2812_Find_the_Safest_Path_in_a_Grid;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

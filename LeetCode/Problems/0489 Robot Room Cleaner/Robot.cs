@@ -1,4 +1,4 @@
-namespace LeetCode._0489_Robot_Room_Cleaner
+namespace LeetCode.Problems._0489_Robot_Room_Cleaner
 {
     public class Robot
     {

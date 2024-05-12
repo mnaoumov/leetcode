@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._2512_Reward_Top_K_Students;
+namespace LeetCode.Problems._2512_Reward_Top_K_Students;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

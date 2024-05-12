@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0572_Subtree_of_Another_Tree;
+namespace LeetCode.Problems._0572_Subtree_of_Another_Tree;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/935017583/

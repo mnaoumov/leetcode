@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1021_Remove_Outermost_Parentheses;
+namespace LeetCode.Problems._1021_Remove_Outermost_Parentheses;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

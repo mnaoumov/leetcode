@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._1207_Unique_Number_of_Occurrences;
+namespace LeetCode.Problems._1207_Unique_Number_of_Occurrences;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/852015898/

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2527_Find_Xor_Beauty_of_Array;
+namespace LeetCode.Problems._2527_Find_Xor_Beauty_of_Array;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

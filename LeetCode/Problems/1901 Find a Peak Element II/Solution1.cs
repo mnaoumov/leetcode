@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1901_Find_a_Peak_Element_II;
+namespace LeetCode.Problems._1901_Find_a_Peak_Element_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/943264301/

@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0899_Orderly_Queue;
+namespace LeetCode.Problems._0899_Orderly_Queue;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

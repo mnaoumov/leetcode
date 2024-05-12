@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2740_Find_the_Value_of_the_Partition;
+namespace LeetCode.Problems._2740_Find_the_Value_of_the_Partition;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-350/submissions/detail/973687078/

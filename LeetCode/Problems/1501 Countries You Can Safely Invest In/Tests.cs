@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1501_Countries_You_Can_Safely_Invest_In;
+namespace LeetCode.Problems._1501_Countries_You_Can_Safely_Invest_In;
 
 [UsedImplicitly]
 public class Tests : SelectSqlTestsBase<Tests>

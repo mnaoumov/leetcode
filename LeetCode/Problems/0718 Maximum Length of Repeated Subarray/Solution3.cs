@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0718_Maximum_Length_of_Repeated_Subarray;
+namespace LeetCode.Problems._0718_Maximum_Length_of_Repeated_Subarray;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/898740397/

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1496_Path_Crossing;
+namespace LeetCode.Problems._1496_Path_Crossing;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

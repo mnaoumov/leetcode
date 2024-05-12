@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2208_Minimum_Operations_to_Halve_Array_Sum;
+namespace LeetCode.Problems._2208_Minimum_Operations_to_Halve_Array_Sum;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/907463895/

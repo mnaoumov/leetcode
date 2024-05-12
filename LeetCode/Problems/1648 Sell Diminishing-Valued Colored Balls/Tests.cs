@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1648_Sell_Diminishing_Valued_Colored_Balls;
+namespace LeetCode.Problems._1648_Sell_Diminishing_Valued_Colored_Balls;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

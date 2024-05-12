@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2844_Minimum_Operations_to_Make_a_Special_Number;
+namespace LeetCode.Problems._2844_Minimum_Operations_to_Make_a_Special_Number;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

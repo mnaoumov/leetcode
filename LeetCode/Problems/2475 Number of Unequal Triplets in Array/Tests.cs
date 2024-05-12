@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2475_Number_of_Unequal_Triplets_in_Array;
+namespace LeetCode.Problems._2475_Number_of_Unequal_Triplets_in_Array;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

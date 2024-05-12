@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2593_Find_Score_of_an_Array_After_Marking_All_Elements;
+namespace LeetCode.Problems._2593_Find_Score_of_an_Array_After_Marking_All_Elements;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

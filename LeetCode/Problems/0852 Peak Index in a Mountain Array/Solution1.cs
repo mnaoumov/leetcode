@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0852_Peak_Index_in_a_Mountain_Array;
+namespace LeetCode.Problems._0852_Peak_Index_in_a_Mountain_Array;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/924034108/

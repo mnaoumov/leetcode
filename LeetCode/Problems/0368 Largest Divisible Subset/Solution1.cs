@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0368_Largest_Divisible_Subset;
+namespace LeetCode.Problems._0368_Largest_Divisible_Subset;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/921084324/

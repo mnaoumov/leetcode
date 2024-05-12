@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3142_Check_if_Grid_Satisfies_Conditions;
+namespace LeetCode.Problems._3142_Check_if_Grid_Satisfies_Conditions;
 
 [PublicAPI]
 public interface ISolution

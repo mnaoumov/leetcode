@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1130_Minimum_Cost_Tree_From_Leaf_Values;
+namespace LeetCode.Problems._1130_Minimum_Cost_Tree_From_Leaf_Values;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/945299676/

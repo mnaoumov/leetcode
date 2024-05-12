@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0518_Coin_Change_II;
+namespace LeetCode.Problems._0518_Coin_Change_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/920400059/

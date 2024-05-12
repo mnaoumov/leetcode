@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2730_Find_the_Longest_Semi_Repetitive_Substring;
+namespace LeetCode.Problems._2730_Find_the_Longest_Semi_Repetitive_Substring;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-106/submissions/detail/968103468/

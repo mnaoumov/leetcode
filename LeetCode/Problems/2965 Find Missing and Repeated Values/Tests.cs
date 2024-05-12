@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2965_Find_Missing_and_Repeated_Values;
+namespace LeetCode.Problems._2965_Find_Missing_and_Repeated_Values;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0911_Online_Election;
+namespace LeetCode.Problems._0911_Online_Election;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/966465467/

@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0830_Positions_of_Large_Groups;
+namespace LeetCode.Problems._0830_Positions_of_Large_Groups;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

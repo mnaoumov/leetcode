@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0086_Partition_List;
+namespace LeetCode.Problems._0086_Partition_List;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/827454880/

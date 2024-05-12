@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1768_Merge_Strings_Alternately;
+namespace LeetCode.Problems._1768_Merge_Strings_Alternately;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

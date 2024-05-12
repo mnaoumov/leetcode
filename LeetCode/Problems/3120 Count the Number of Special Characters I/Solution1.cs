@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3120_Count_the_Number_of_Special_Characters_I;
+namespace LeetCode.Problems._3120_Count_the_Number_of_Special_Characters_I;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-394/submissions/detail/1237785001/

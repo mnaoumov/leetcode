@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0190_Reverse_Bits;
+namespace LeetCode.Problems._0190_Reverse_Bits;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/923300142/

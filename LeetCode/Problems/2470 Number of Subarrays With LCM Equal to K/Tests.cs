@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2470_Number_of_Subarrays_With_LCM_Equal_to_K;
+namespace LeetCode.Problems._2470_Number_of_Subarrays_With_LCM_Equal_to_K;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

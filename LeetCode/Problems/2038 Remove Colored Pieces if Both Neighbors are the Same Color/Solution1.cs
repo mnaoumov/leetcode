@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2038_Remove_Colored_Pieces_if_Both_Neighbors_are_the_Same_Color;
+namespace LeetCode.Problems._2038_Remove_Colored_Pieces_if_Both_Neighbors_are_the_Same_Color;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1065161140/

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1035_Uncrossed_Lines;
+namespace LeetCode.Problems._1035_Uncrossed_Lines;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

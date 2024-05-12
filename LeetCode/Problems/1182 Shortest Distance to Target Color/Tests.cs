@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._1182_Shortest_Distance_to_Target_Color;
+namespace LeetCode.Problems._1182_Shortest_Distance_to_Target_Color;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

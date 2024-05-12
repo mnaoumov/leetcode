@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0988_Smallest_String_Starting_From_Leaf;
+namespace LeetCode.Problems._0988_Smallest_String_Starting_From_Leaf;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

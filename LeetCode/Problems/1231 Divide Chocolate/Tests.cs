@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1231_Divide_Chocolate;
+namespace LeetCode.Problems._1231_Divide_Chocolate;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

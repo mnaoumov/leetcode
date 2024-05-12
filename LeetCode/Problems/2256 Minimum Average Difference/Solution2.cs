@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._2256_Minimum_Average_Difference;
+namespace LeetCode.Problems._2256_Minimum_Average_Difference;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/854142481/

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0150_Evaluate_Reverse_Polish_Notation;
+namespace LeetCode.Problems._0150_Evaluate_Reverse_Polish_Notation;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

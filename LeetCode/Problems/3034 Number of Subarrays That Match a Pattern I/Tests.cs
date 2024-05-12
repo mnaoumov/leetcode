@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3034_Number_of_Subarrays_That_Match_a_Pattern_I;
+namespace LeetCode.Problems._3034_Number_of_Subarrays_That_Match_a_Pattern_I;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2604_Minimum_Time_to_Eat_All_Grains;
+namespace LeetCode.Problems._2604_Minimum_Time_to_Eat_All_Grains;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

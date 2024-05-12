@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1685_Sum_of_Absolute_Differences_in_a_Sorted_Array;
+namespace LeetCode.Problems._1685_Sum_of_Absolute_Differences_in_a_Sorted_Array;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1105753416/

@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0416_Partition_Equal_Subset_Sum;
+namespace LeetCode.Problems._0416_Partition_Equal_Subset_Sum;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

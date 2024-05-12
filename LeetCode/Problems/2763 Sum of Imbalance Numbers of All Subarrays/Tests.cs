@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2763_Sum_of_Imbalance_Numbers_of_All_Subarrays;
+namespace LeetCode.Problems._2763_Sum_of_Imbalance_Numbers_of_All_Subarrays;
 
 [UsedImplicitly]
 [Category("TODO")]

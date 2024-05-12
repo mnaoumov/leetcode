@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0997_Find_the_Town_Judge;
+namespace LeetCode.Problems._0997_Find_the_Town_Judge;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

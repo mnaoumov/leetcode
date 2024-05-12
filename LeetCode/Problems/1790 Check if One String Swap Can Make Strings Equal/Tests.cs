@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1790_Check_if_One_String_Swap_Can_Make_Strings_Equal;
+namespace LeetCode.Problems._1790_Check_if_One_String_Swap_Can_Make_Strings_Equal;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

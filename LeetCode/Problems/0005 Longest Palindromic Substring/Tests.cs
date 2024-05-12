@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0005_Longest_Palindromic_Substring;
+namespace LeetCode.Problems._0005_Longest_Palindromic_Substring;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

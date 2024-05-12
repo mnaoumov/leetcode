@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3028_Ant_on_the_Boundary;
+namespace LeetCode.Problems._3028_Ant_on_the_Boundary;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

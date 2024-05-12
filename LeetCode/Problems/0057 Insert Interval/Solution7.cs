@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0057_Insert_Interval;
+namespace LeetCode.Problems._0057_Insert_Interval;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/819449641/

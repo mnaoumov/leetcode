@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1930_Unique_Length_3_Palindromic_Subsequences;
+namespace LeetCode.Problems._1930_Unique_Length_3_Palindromic_Subsequences;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1098376958/

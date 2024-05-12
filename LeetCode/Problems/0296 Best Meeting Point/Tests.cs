@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0296_Best_Meeting_Point;
+namespace LeetCode.Problems._0296_Best_Meeting_Point;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

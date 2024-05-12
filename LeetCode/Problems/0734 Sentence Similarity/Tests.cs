@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0734_Sentence_Similarity;
+namespace LeetCode.Problems._0734_Sentence_Similarity;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

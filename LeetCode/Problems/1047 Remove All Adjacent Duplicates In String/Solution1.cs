@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._1047_Remove_All_Adjacent_Duplicates_In_String;
+namespace LeetCode.Problems._1047_Remove_All_Adjacent_Duplicates_In_String;
 
 /// <summary>
 /// https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/submissions/840423443/

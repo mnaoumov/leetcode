@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0080_Remove_Duplicates_from_Sorted_Array_II;
+namespace LeetCode.Problems._0080_Remove_Duplicates_from_Sorted_Array_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/821757785/

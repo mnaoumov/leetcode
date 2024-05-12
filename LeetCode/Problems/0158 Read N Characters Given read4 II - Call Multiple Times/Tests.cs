@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0158_Read_N_Characters_Given_read4_II___Call_Multiple_Times;
+namespace LeetCode.Problems._0158_Read_N_Characters_Given_read4_II___Call_Multiple_Times;
 
 [UsedImplicitly]
 public class Tests : TestsBase<Reader4, Tests.TestCase>

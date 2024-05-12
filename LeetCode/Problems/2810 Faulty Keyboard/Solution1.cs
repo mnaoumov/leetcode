@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._2810_Faulty_Keyboard;
+namespace LeetCode.Problems._2810_Faulty_Keyboard;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-357/submissions/detail/1013403513/

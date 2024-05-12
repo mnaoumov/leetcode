@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3143_Maximum_Points_Inside_the_Square;
+namespace LeetCode.Problems._3143_Maximum_Points_Inside_the_Square;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

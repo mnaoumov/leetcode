@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0983_Minimum_Cost_For_Tickets;
+namespace LeetCode.Problems._0983_Minimum_Cost_For_Tickets;
 
 [PublicAPI]
 public interface ISolution

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1165_Single_Row_Keyboard;
+namespace LeetCode.Problems._1165_Single_Row_Keyboard;
 
 /// <summary>
 /// TODO url

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2584_Split_the_Array_to_Make_Coprime_Products;
+namespace LeetCode.Problems._2584_Split_the_Array_to_Make_Coprime_Products;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

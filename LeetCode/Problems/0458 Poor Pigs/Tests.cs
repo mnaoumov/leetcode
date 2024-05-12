@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0458_Poor_Pigs;
+namespace LeetCode.Problems._0458_Poor_Pigs;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

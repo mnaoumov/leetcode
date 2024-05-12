@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1318_Minimum_Flips_to_Make_a_OR_b_Equal_to_c;
+namespace LeetCode.Problems._1318_Minimum_Flips_to_Make_a_OR_b_Equal_to_c;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/965518213/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0433_Minimum_Genetic_Mutation;
+namespace LeetCode.Problems._0433_Minimum_Genetic_Mutation;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/835054128/

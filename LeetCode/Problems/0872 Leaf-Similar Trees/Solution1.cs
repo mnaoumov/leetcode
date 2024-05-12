@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0872_Leaf_Similar_Trees;
+namespace LeetCode.Problems._0872_Leaf_Similar_Trees;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/856365153/

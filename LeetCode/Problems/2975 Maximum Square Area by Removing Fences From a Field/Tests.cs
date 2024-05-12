@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2975_Maximum_Square_Area_by_Removing_Fences_From_a_Field;
+namespace LeetCode.Problems._2975_Maximum_Square_Area_by_Removing_Fences_From_a_Field;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

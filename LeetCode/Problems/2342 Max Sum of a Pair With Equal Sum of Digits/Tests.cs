@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2342_Max_Sum_of_a_Pair_With_Equal_Sum_of_Digits;
+namespace LeetCode.Problems._2342_Max_Sum_of_a_Pair_With_Equal_Sum_of_Digits;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0289_Game_of_Life;
+namespace LeetCode.Problems._0289_Game_of_Life;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/205278883/

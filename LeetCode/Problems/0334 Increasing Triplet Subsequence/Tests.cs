@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0334_Increasing_Triplet_Subsequence;
+namespace LeetCode.Problems._0334_Increasing_Triplet_Subsequence;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._3106_Lexicographically_Smallest_String_After_Operations_With_Constraint;
+namespace LeetCode.Problems._3106_Lexicographically_Smallest_String_After_Operations_With_Constraint;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-392/submissions/detail/1225332073/

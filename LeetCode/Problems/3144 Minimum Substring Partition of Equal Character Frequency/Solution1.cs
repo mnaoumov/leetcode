@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3144_Minimum_Substring_Partition_of_Equal_Character_Frequency;
+namespace LeetCode.Problems._3144_Minimum_Substring_Partition_of_Equal_Character_Frequency;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-130/submissions/detail/1255261857/

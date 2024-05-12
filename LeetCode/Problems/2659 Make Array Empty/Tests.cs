@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2659_Make_Array_Empty;
+namespace LeetCode.Problems._2659_Make_Array_Empty;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2913_Subarrays_Distinct_Element_Sum_of_Squares_I;
+namespace LeetCode.Problems._2913_Subarrays_Distinct_Element_Sum_of_Squares_I;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

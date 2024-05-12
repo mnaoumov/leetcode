@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0887_Super_Egg_Drop;
+namespace LeetCode.Problems._0887_Super_Egg_Drop;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/947562146/

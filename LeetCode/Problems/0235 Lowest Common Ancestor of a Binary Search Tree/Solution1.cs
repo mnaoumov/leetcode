@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree;
+namespace LeetCode.Problems._0235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/906173583/

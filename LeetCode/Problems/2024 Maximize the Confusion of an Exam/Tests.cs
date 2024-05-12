@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2024_Maximize_the_Confusion_of_an_Exam;
+namespace LeetCode.Problems._2024_Maximize_the_Confusion_of_an_Exam;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

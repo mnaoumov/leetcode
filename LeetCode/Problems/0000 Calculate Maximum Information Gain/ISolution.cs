@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0000_Calculate_Maximum_Information_Gain;
+namespace LeetCode.Problems._0000_Calculate_Maximum_Information_Gain;
 
 /// <summary>
 /// https://leetcode.com/explore/learn/card/decision-tree/285/implementation/2651/

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1704_Determine_if_String_Halves_Are_Alike;
+namespace LeetCode.Problems._1704_Determine_if_String_Halves_Are_Alike;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

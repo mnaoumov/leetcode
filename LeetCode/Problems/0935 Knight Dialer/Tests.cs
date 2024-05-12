@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0935_Knight_Dialer;
+namespace LeetCode.Problems._0935_Knight_Dialer;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

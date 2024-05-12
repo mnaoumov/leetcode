@@ -1,4 +1,4 @@
-namespace LeetCode._0278_First_Bad_Version;
+namespace LeetCode.Problems._0278_First_Bad_Version;
 
 public abstract class VersionControl
 {

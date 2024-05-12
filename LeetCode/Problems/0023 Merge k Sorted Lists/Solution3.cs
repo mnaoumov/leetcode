@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0023_Merge_k_Sorted_Lists;
+namespace LeetCode.Problems._0023_Merge_k_Sorted_Lists;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/829010419/

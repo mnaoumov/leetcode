@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2571_Minimum_Operations_to_Reduce_an_Integer_to_0;
+namespace LeetCode.Problems._2571_Minimum_Operations_to_Reduce_an_Integer_to_0;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

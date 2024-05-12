@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2959_Number_of_Possible_Sets_of_Closing_Branches;
+namespace LeetCode.Problems._2959_Number_of_Possible_Sets_of_Closing_Branches;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

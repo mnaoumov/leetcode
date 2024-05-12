@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1056_Confusing_Number;
+namespace LeetCode.Problems._1056_Confusing_Number;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/875156796/

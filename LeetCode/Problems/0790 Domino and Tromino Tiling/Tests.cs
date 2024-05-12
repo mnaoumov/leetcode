@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0790_Domino_and_Tromino_Tiling;
+namespace LeetCode.Problems._0790_Domino_and_Tromino_Tiling;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

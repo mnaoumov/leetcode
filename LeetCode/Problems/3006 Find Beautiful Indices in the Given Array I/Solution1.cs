@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3006_Find_Beautiful_Indices_in_the_Given_Array_I;
+namespace LeetCode.Problems._3006_Find_Beautiful_Indices_in_the_Given_Array_I;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-380/submissions/detail/1145542723/

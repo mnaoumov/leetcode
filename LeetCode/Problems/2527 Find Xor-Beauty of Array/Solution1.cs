@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2527_Find_Xor_Beauty_of_Array;
+namespace LeetCode.Problems._2527_Find_Xor_Beauty_of_Array;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-95/submissions/detail/873353815/

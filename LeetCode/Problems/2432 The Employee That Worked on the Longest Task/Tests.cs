@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2432_The_Employee_That_Worked_on_the_Longest_Task;
+namespace LeetCode.Problems._2432_The_Employee_That_Worked_on_the_Longest_Task;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

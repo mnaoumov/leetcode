@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2983_Palindrome_Rearrangement_Queries;
+namespace LeetCode.Problems._2983_Palindrome_Rearrangement_Queries;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1132723896/

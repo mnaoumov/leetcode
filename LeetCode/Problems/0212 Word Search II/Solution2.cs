@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0212_Word_Search_II;
+namespace LeetCode.Problems._0212_Word_Search_II;
 
 /// <summary>
 /// https://leetcode.com/problems/word-search-ii/submissions/837069605/

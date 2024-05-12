@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0652_Find_Duplicate_Subtrees;
+namespace LeetCode.Problems._0652_Find_Duplicate_Subtrees;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/906197667/

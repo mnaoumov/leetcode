@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0784_Letter_Case_Permutation;
+namespace LeetCode.Problems._0784_Letter_Case_Permutation;
 
 [PublicAPI]
 public interface ISolution

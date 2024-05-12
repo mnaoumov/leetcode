@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1493_Longest_Subarray_of_1_s_After_Deleting_One_Element;
+namespace LeetCode.Problems._1493_Longest_Subarray_of_1_s_After_Deleting_One_Element;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

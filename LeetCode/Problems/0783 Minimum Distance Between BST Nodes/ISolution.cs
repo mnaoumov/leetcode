@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0783_Minimum_Distance_Between_BST_Nodes;
+namespace LeetCode.Problems._0783_Minimum_Distance_Between_BST_Nodes;
 
 [PublicAPI]
 public interface ISolution

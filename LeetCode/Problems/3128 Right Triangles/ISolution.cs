@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3128_Right_Triangles;
+namespace LeetCode.Problems._3128_Right_Triangles;
 
 [PublicAPI]
 public interface ISolution

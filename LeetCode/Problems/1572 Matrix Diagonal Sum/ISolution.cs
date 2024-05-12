@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1572_Matrix_Diagonal_Sum;
+namespace LeetCode.Problems._1572_Matrix_Diagonal_Sum;
 
 [PublicAPI]
 public interface ISolution

@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0760_Find_Anagram_Mappings;
+namespace LeetCode.Problems._0760_Find_Anagram_Mappings;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

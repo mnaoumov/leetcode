@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2601_Prime_Subtraction_Operation;
+namespace LeetCode.Problems._2601_Prime_Subtraction_Operation;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2769_Find_the_Maximum_Achievable_Number;
+namespace LeetCode.Problems._2769_Find_the_Maximum_Achievable_Number;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

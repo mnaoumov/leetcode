@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2444_Count_Subarrays_With_Fixed_Bounds;
+namespace LeetCode.Problems._2444_Count_Subarrays_With_Fixed_Bounds;
 
 [PublicAPI]
 public interface ISolution

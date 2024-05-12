@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2789_Largest_Element_in_an_Array_after_Merge_Operations;
+namespace LeetCode.Problems._2789_Largest_Element_in_an_Array_after_Merge_Operations;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2126_Destroying_Asteroids;
+namespace LeetCode.Problems._2126_Destroying_Asteroids;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

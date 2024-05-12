@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0030_Substring_with_Concatenation_of_All_Words;
+namespace LeetCode.Problems._0030_Substring_with_Concatenation_of_All_Words;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/812390566/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0333_Largest_BST_Subtree;
+namespace LeetCode.Problems._0333_Largest_BST_Subtree;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1072292232/

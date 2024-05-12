@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2931_Maximum_Spending_After_Buying_Items;
+namespace LeetCode.Problems._2931_Maximum_Spending_After_Buying_Items;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

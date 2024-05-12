@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0451_Sort_Characters_By_Frequency;
+namespace LeetCode.Problems._0451_Sort_Characters_By_Frequency;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/853648038/

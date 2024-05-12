@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0948_Bag_of_Tokens;
+namespace LeetCode.Problems._0948_Bag_of_Tokens;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

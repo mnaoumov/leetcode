@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2556_Disconnect_Path_in_a_Binary_Matrix_by_at_Most_One_Flip;
+namespace LeetCode.Problems._2556_Disconnect_Path_in_a_Binary_Matrix_by_at_Most_One_Flip;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

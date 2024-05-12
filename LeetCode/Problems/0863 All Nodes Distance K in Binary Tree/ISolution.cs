@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0863_All_Nodes_Distance_K_in_Binary_Tree;
+namespace LeetCode.Problems._0863_All_Nodes_Distance_K_in_Binary_Tree;
 
 [PublicAPI]
 public interface ISolution

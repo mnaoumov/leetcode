@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1266_Minimum_Time_Visiting_All_Points;
+namespace LeetCode.Problems._1266_Minimum_Time_Visiting_All_Points;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1111139530/

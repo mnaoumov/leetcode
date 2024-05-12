@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1168_Optimize_Water_Distribution_in_a_Village;
+namespace LeetCode.Problems._1168_Optimize_Water_Distribution_in_a_Village;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0664_Strange_Printer;
+namespace LeetCode.Problems._0664_Strange_Printer;
 
 [PublicAPI]
 public interface ISolution

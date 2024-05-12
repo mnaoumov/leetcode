@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1231_Divide_Chocolate;
+namespace LeetCode.Problems._1231_Divide_Chocolate;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/915125252/

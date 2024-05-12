@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2791_Count_Paths_That_Can_Form_a_Palindrome_in_a_Tree;
+namespace LeetCode.Problems._2791_Count_Paths_That_Can_Form_a_Palindrome_in_a_Tree;
 
 [UsedImplicitly]
 [Category("TODO")]

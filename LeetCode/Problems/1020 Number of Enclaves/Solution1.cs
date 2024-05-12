@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1020_Number_of_Enclaves;
+namespace LeetCode.Problems._1020_Number_of_Enclaves;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/906299825/

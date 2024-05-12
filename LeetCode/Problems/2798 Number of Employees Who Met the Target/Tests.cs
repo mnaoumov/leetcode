@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2798_Number_of_Employees_Who_Met_the_Target;
+namespace LeetCode.Problems._2798_Number_of_Employees_Who_Met_the_Target;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

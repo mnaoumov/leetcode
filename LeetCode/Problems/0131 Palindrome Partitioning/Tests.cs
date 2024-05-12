@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0131_Palindrome_Partitioning;
+namespace LeetCode.Problems._0131_Palindrome_Partitioning;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

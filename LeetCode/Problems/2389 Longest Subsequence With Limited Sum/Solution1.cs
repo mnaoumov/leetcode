@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2389_Longest_Subsequence_With_Limited_Sum;
+namespace LeetCode.Problems._2389_Longest_Subsequence_With_Limited_Sum;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/865183202/

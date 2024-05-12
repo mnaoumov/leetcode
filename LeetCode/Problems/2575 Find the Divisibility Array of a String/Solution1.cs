@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2575_Find_the_Divisibility_Array_of_a_String;
+namespace LeetCode.Problems._2575_Find_the_Divisibility_Array_of_a_String;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-334/submissions/detail/905008143/

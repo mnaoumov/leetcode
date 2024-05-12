@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0435_Non_overlapping_Intervals;
+namespace LeetCode.Problems._0435_Non_overlapping_Intervals;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/933430441/

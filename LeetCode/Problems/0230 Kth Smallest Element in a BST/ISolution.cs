@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0230_Kth_Smallest_Element_in_a_BST;
+namespace LeetCode.Problems._0230_Kth_Smallest_Element_in_a_BST;
 
 [PublicAPI]
 public interface ISolution

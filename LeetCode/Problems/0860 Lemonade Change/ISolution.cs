@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0860_Lemonade_Change;
+namespace LeetCode.Problems._0860_Lemonade_Change;
 
 [PublicAPI]
 public interface ISolution

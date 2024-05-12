@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2894_Divisible_and_Non_divisible_Sums_Difference;
+namespace LeetCode.Problems._2894_Divisible_and_Non_divisible_Sums_Difference;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

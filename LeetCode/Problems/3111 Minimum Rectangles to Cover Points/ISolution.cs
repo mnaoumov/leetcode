@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3111_Minimum_Rectangles_to_Cover_Points;
+namespace LeetCode.Problems._3111_Minimum_Rectangles_to_Cover_Points;
 
 [PublicAPI]
 public interface ISolution

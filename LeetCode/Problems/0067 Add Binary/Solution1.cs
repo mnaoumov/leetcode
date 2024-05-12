@@ -2,7 +2,7 @@ using System.Text;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0067_Add_Binary;
+namespace LeetCode.Problems._0067_Add_Binary;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/819729320/

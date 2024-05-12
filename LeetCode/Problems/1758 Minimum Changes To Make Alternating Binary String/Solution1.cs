@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1758_Minimum_Changes_To_Make_Alternating_Binary_String;
+namespace LeetCode.Problems._1758_Minimum_Changes_To_Make_Alternating_Binary_String;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1126992195/

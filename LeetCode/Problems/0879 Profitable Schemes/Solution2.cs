@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0879_Profitable_Schemes;
+namespace LeetCode.Problems._0879_Profitable_Schemes;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/937633764/

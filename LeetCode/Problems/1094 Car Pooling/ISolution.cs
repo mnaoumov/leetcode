@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1094_Car_Pooling;
+namespace LeetCode.Problems._1094_Car_Pooling;
 
 [PublicAPI]
 public interface ISolution

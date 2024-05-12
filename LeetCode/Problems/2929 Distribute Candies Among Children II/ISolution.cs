@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2929_Distribute_Candies_Among_Children_II;
+namespace LeetCode.Problems._2929_Distribute_Candies_Among_Children_II;
 
 [PublicAPI]
 public interface ISolution

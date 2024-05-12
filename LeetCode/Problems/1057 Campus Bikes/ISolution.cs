@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1057_Campus_Bikes;
+namespace LeetCode.Problems._1057_Campus_Bikes;
 
 [PublicAPI]
 public interface ISolution

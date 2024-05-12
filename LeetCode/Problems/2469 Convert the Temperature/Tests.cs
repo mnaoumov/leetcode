@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2469_Convert_the_Temperature;
+namespace LeetCode.Problems._2469_Convert_the_Temperature;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

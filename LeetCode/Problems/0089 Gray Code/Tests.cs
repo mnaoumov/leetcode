@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._0089_Gray_Code;
+namespace LeetCode.Problems._0089_Gray_Code;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

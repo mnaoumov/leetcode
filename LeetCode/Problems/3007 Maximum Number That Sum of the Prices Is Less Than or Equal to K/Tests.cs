@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3007_Maximum_Number_That_Sum_of_the_Prices_Is_Less_Than_or_Equal_to_K;
+namespace LeetCode.Problems._3007_Maximum_Number_That_Sum_of_the_Prices_Is_Less_Than_or_Equal_to_K;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

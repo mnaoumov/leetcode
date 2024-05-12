@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0305_Number_of_Islands_II;
+namespace LeetCode.Problems._0305_Number_of_Islands_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/898633068/

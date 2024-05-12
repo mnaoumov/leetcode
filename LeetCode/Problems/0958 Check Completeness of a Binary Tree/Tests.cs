@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0958_Check_Completeness_of_a_Binary_Tree;
+namespace LeetCode.Problems._0958_Check_Completeness_of_a_Binary_Tree;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

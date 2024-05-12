@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1062_Longest_Repeating_Substring;
+namespace LeetCode.Problems._1062_Longest_Repeating_Substring;
 
 [PublicAPI]
 public interface ISolution

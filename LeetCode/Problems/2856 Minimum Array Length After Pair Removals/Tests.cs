@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2856_Minimum_Array_Length_After_Pair_Removals;
+namespace LeetCode.Problems._2856_Minimum_Array_Length_After_Pair_Removals;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

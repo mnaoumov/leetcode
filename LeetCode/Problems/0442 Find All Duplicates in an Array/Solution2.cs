@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0442_Find_All_Duplicates_in_an_Array;
+namespace LeetCode.Problems._0442_Find_All_Duplicates_in_an_Array;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1213917140/

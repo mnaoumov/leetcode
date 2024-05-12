@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0904_Fruit_Into_Baskets;
+namespace LeetCode.Problems._0904_Fruit_Into_Baskets;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/893445288/

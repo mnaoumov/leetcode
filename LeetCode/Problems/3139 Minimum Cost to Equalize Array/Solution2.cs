@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3139_Minimum_Cost_to_Equalize_Array;
+namespace LeetCode.Problems._3139_Minimum_Cost_to_Equalize_Array;
 
 /// <summary>
 /// </summary>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1838_Frequency_of_the_Most_Frequent_Element;
+namespace LeetCode.Problems._1838_Frequency_of_the_Most_Frequent_Element;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/935495032/

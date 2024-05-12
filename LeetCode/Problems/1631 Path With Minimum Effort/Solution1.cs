@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1631_Path_With_Minimum_Effort;
+namespace LeetCode.Problems._1631_Path_With_Minimum_Effort;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/914716309/

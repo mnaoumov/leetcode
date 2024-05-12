@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1283_Find_the_Smallest_Divisor_Given_a_Threshold;
+namespace LeetCode.Problems._1283_Find_the_Smallest_Divisor_Given_a_Threshold;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

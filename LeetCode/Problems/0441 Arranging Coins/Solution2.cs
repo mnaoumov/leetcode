@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0441_Arranging_Coins;
+namespace LeetCode.Problems._0441_Arranging_Coins;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/926840255/

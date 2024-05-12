@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1094_Car_Pooling;
+namespace LeetCode.Problems._1094_Car_Pooling;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/921149265/

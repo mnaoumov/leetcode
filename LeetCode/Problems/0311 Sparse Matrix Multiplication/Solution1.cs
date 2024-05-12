@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0311_Sparse_Matrix_Multiplication;
+namespace LeetCode.Problems._0311_Sparse_Matrix_Multiplication;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/925596231/

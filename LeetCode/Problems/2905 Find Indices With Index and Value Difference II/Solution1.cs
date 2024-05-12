@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2905_Find_Indices_With_Index_and_Value_Difference_II;
+namespace LeetCode.Problems._2905_Find_Indices_With_Index_and_Value_Difference_II;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-367/submissions/detail/1075471687/

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2708_Maximum_Strength_of_a_Group;
+namespace LeetCode.Problems._2708_Maximum_Strength_of_a_Group;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -3,7 +3,7 @@ using JetBrains.Annotations;
 using Newtonsoft.Json;
 using NUnit.Framework.Constraints;
 
-namespace LeetCode._0280_Wiggle_Sort;
+namespace LeetCode.Problems._0280_Wiggle_Sort;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

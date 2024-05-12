@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2359_Find_Closest_Node_to_Given_Two_Nodes;
+namespace LeetCode.Problems._2359_Find_Closest_Node_to_Given_Two_Nodes;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/884770760/

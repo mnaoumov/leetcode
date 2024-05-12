@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3116_Kth_Smallest_Amount_With_Single_Denomination_Combination;
+namespace LeetCode.Problems._3116_Kth_Smallest_Amount_With_Single_Denomination_Combination;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

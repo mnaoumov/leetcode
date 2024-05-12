@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2448_Minimum_Cost_to_Make_Array_Equal;
+namespace LeetCode.Problems._2448_Minimum_Cost_to_Make_Array_Equal;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

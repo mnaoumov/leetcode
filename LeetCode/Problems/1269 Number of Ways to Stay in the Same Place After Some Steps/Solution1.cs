@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1269_Number_of_Ways_to_Stay_in_the_Same_Place_After_Some_Steps;
+namespace LeetCode.Problems._1269_Number_of_Ways_to_Stay_in_the_Same_Place_After_Some_Steps;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1075384814/

@@ -3,7 +3,7 @@
 #pragma warning disable
 using JetBrains.Annotations;
 
-namespace LeetCode._0002_Add_Two_Numbers;
+namespace LeetCode.Problems._0002_Add_Two_Numbers;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/147402105/

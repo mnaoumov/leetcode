@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0802_Find_Eventual_Safe_States;
+namespace LeetCode.Problems._0802_Find_Eventual_Safe_States;
 
 [PublicAPI]
 public interface ISolution

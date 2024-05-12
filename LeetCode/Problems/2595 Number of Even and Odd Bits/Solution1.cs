@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2595_Number_of_Even_and_Odd_Bits;
+namespace LeetCode.Problems._2595_Number_of_Even_and_Odd_Bits;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-337/submissions/detail/917860339/

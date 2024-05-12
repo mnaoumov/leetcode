@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2750_Ways_to_Split_Array_Into_Good_Subarrays;
+namespace LeetCode.Problems._2750_Ways_to_Split_Array_Into_Good_Subarrays;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

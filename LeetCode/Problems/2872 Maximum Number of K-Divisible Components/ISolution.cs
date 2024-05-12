@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2872_Maximum_Number_of_K_Divisible_Components;
+namespace LeetCode.Problems._2872_Maximum_Number_of_K_Divisible_Components;
 
 [PublicAPI]
 public interface ISolution

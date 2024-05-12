@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0007_Reverse_Integer;
+namespace LeetCode.Problems._0007_Reverse_Integer;
 
 /// <summary>
 /// String reverse

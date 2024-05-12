@@ -2,7 +2,7 @@
 #pragma warning disable
 using JetBrains.Annotations;
 
-namespace LeetCode._0075_Sort_Colors;
+namespace LeetCode.Problems._0075_Sort_Colors;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/821249541/

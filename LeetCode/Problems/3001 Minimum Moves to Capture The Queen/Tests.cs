@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3001_Minimum_Moves_to_Capture_The_Queen;
+namespace LeetCode.Problems._3001_Minimum_Moves_to_Capture_The_Queen;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

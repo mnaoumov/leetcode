@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0316_Remove_Duplicate_Letters;
+namespace LeetCode.Problems._0316_Remove_Duplicate_Letters;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

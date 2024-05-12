@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0743_Network_Delay_Time;
+namespace LeetCode.Problems._0743_Network_Delay_Time;
 
 [PublicAPI]
 public interface ISolution

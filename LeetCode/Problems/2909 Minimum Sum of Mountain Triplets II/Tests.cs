@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2909_Minimum_Sum_of_Mountain_Triplets_II;
+namespace LeetCode.Problems._2909_Minimum_Sum_of_Mountain_Triplets_II;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1436_Destination_City;
+namespace LeetCode.Problems._1436_Destination_City;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

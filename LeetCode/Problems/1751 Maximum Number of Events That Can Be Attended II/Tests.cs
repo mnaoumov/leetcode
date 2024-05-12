@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1751_Maximum_Number_of_Events_That_Can_Be_Attended_II;
+namespace LeetCode.Problems._1751_Maximum_Number_of_Events_That_Can_Be_Attended_II;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

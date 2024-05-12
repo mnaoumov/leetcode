@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2585_Number_of_Ways_to_Earn_Points;
+namespace LeetCode.Problems._2585_Number_of_Ways_to_Earn_Points;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

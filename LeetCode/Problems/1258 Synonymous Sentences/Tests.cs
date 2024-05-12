@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._1258_Synonymous_Sentences;
+namespace LeetCode.Problems._1258_Synonymous_Sentences;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

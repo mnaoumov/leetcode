@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2596_Check_Knight_Tour_Configuration;
+namespace LeetCode.Problems._2596_Check_Knight_Tour_Configuration;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

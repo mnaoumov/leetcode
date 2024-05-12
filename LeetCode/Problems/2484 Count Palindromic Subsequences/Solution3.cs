@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._2484_Count_Palindromic_Subsequences;
+namespace LeetCode.Problems._2484_Count_Palindromic_Subsequences;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/850360874/

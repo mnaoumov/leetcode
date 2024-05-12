@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0056_Merge_Intervals;
+namespace LeetCode.Problems._0056_Merge_Intervals;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/829028337/

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2960_Count_Tested_Devices_After_Test_Operations;
+namespace LeetCode.Problems._2960_Count_Tested_Devices_After_Test_Operations;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

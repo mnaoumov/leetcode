@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2562_Find_the_Array_Concatenation_Value;
+namespace LeetCode.Problems._2562_Find_the_Array_Concatenation_Value;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3111_Minimum_Rectangles_to_Cover_Points;
+namespace LeetCode.Problems._3111_Minimum_Rectangles_to_Cover_Points;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

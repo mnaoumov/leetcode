@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0433_Minimum_Genetic_Mutation;
+namespace LeetCode.Problems._0433_Minimum_Genetic_Mutation;
 
 [PublicAPI]
 public interface ISolution

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0771_Jewels_and_Stones;
+namespace LeetCode.Problems._0771_Jewels_and_Stones;
 
 [PublicAPI]
 public interface ISolution

@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._1672_Richest_Customer_Wealth;
+namespace LeetCode.Problems._1672_Richest_Customer_Wealth;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

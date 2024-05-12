@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0859_Buddy_Strings;
+namespace LeetCode.Problems._0859_Buddy_Strings;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/984908703/

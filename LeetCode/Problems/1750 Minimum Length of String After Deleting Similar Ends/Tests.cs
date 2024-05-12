@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1750_Minimum_Length_of_String_After_Deleting_Similar_Ends;
+namespace LeetCode.Problems._1750_Minimum_Length_of_String_After_Deleting_Similar_Ends;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

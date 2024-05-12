@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1582_Special_Positions_in_a_Binary_Matrix;
+namespace LeetCode.Problems._1582_Special_Positions_in_a_Binary_Matrix;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1119173258/

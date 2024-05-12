@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0968_Binary_Tree_Cameras;
+namespace LeetCode.Problems._0968_Binary_Tree_Cameras;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2246_Longest_Path_With_Different_Adjacent_Characters;
+namespace LeetCode.Problems._2246_Longest_Path_With_Different_Adjacent_Characters;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0120_Triangle;
+namespace LeetCode.Problems._0120_Triangle;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2812_Find_the_Safest_Path_in_a_Grid;
+namespace LeetCode.Problems._2812_Find_the_Safest_Path_in_a_Grid;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-357/submissions/detail/1013487543/

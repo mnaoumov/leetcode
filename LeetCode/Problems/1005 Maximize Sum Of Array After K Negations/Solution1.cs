@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1005_Maximize_Sum_Of_Array_After_K_Negations;
+namespace LeetCode.Problems._1005_Maximize_Sum_Of_Array_After_K_Negations;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/914086559/

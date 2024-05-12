@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2540_Minimum_Common_Value;
+namespace LeetCode.Problems._2540_Minimum_Common_Value;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-96/submissions/detail/882417317/

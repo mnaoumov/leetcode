@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2586_Count_the_Number_of_Vowel_Strings_in_Range;
+namespace LeetCode.Problems._2586_Count_the_Number_of_Vowel_Strings_in_Range;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2532_Time_to_Cross_a_Bridge;
+namespace LeetCode.Problems._2532_Time_to_Cross_a_Bridge;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

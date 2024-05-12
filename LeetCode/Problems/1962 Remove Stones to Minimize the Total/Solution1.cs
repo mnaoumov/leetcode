@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1962_Remove_Stones_to_Minimize_the_Total;
+namespace LeetCode.Problems._1962_Remove_Stones_to_Minimize_the_Total;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/867119351/

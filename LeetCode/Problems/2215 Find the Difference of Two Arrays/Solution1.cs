@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2215_Find_the_Difference_of_Two_Arrays;
+namespace LeetCode.Problems._2215_Find_the_Difference_of_Two_Arrays;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/943578304/

@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0221_Maximal_Square;
+namespace LeetCode.Problems._0221_Maximal_Square;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/198251366/

@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0072_Edit_Distance;
+namespace LeetCode.Problems._0072_Edit_Distance;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/197096186/

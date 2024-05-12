@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._1669_Merge_In_Between_Linked_Lists;
+namespace LeetCode.Problems._1669_Merge_In_Between_Linked_Lists;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

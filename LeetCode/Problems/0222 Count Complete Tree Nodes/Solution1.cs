@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0222_Count_Complete_Tree_Nodes;
+namespace LeetCode.Problems._0222_Count_Complete_Tree_Nodes;
 
 /// <summary>
 /// https://leetcode.com/problems/count-complete-tree-nodes/submissions/843585833/

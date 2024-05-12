@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3011_Find_if_Array_Can_Be_Sorted;
+namespace LeetCode.Problems._3011_Find_if_Array_Can_Be_Sorted;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-122/submissions/detail/1151645880/

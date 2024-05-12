@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0290_Word_Pattern;
+namespace LeetCode.Problems._0290_Word_Pattern;
 
 [PublicAPI]
 public interface ISolution

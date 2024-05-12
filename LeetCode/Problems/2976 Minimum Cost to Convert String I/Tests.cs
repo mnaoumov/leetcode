@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2976_Minimum_Cost_to_Convert_String_I;
+namespace LeetCode.Problems._2976_Minimum_Cost_to_Convert_String_I;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

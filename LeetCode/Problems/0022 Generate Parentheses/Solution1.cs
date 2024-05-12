@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0022_Generate_Parentheses;
+namespace LeetCode.Problems._0022_Generate_Parentheses;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/810831394/

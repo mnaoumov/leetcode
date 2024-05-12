@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0400_Nth_Digit;
+namespace LeetCode.Problems._0400_Nth_Digit;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

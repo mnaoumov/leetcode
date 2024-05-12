@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2270_Number_of_Ways_to_Split_Array;
+namespace LeetCode.Problems._2270_Number_of_Ways_to_Split_Array;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

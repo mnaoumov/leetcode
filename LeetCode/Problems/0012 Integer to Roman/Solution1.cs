@@ -4,7 +4,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0012_Integer_to_Roman;
+namespace LeetCode.Problems._0012_Integer_to_Roman;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/808441069/

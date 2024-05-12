@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2498_Frog_Jump_II;
+namespace LeetCode.Problems._2498_Frog_Jump_II;
 
 [PublicAPI]
 public interface ISolution

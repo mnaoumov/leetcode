@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0274_H_Index;
+namespace LeetCode.Problems._0274_H_Index;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

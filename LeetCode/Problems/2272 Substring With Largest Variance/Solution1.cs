@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2272_Substring_With_Largest_Variance;
+namespace LeetCode.Problems._2272_Substring_With_Largest_Variance;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/990501363/

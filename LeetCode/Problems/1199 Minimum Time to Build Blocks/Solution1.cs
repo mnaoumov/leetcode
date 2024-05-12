@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1199_Minimum_Time_to_Build_Blocks;
+namespace LeetCode.Problems._1199_Minimum_Time_to_Build_Blocks;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1037239486/

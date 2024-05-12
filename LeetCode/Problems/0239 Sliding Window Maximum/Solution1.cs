@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0239_Sliding_Window_Maximum;
+namespace LeetCode.Problems._0239_Sliding_Window_Maximum;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/200173035/

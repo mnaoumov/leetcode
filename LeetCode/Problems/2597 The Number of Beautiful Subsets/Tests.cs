@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2597_The_Number_of_Beautiful_Subsets;
+namespace LeetCode.Problems._2597_The_Number_of_Beautiful_Subsets;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

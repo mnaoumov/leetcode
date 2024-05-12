@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0134_Gas_Station;
+namespace LeetCode.Problems._0134_Gas_Station;
 
 [PublicAPI]
 public interface ISolution

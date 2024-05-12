@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3138_Minimum_Length_of_Anagram_Concatenation;
+namespace LeetCode.Problems._3138_Minimum_Length_of_Anagram_Concatenation;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0027_Remove_Element;
+namespace LeetCode.Problems._0027_Remove_Element;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/829013909/

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0664_Strange_Printer;
+namespace LeetCode.Problems._0664_Strange_Printer;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

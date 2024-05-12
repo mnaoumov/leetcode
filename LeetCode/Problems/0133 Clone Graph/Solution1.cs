@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0133_Clone_Graph;
+namespace LeetCode.Problems._0133_Clone_Graph;
 
 /// <summary>
 /// https://leetcode.com/problems/clone-graph/submissions/837101204/

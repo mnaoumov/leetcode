@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0206_Reverse_Linked_List;
+namespace LeetCode.Problems._0206_Reverse_Linked_List;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/923166578/

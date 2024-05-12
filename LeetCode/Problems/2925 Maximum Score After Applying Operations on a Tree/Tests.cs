@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2925_Maximum_Score_After_Applying_Operations_on_a_Tree;
+namespace LeetCode.Problems._2925_Maximum_Score_After_Applying_Operations_on_a_Tree;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

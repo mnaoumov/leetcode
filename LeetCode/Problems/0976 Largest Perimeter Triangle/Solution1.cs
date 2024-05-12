@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0976_Largest_Perimeter_Triangle;
+namespace LeetCode.Problems._0976_Largest_Perimeter_Triangle;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/820559586/

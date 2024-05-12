@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1887_Reduction_Operations_to_Make_the_Array_Elements_Equal;
+namespace LeetCode.Problems._1887_Reduction_Operations_to_Make_the_Array_Elements_Equal;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1102314641/

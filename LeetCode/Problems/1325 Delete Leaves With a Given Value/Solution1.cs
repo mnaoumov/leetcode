@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1325_Delete_Leaves_With_a_Given_Value;
+namespace LeetCode.Problems._1325_Delete_Leaves_With_a_Given_Value;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/904942183/

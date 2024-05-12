@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2831_Find_the_Longest_Equal_Subarray;
+namespace LeetCode.Problems._2831_Find_the_Longest_Equal_Subarray;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-359/submissions/detail/1026368354/

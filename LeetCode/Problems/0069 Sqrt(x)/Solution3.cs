@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0069_Sqrt_x_;
+namespace LeetCode.Problems._0069_Sqrt_x_;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/193354463/

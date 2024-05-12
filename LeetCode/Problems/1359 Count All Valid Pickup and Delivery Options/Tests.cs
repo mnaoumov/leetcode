@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1359_Count_All_Valid_Pickup_and_Delivery_Options;
+namespace LeetCode.Problems._1359_Count_All_Valid_Pickup_and_Delivery_Options;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

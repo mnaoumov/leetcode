@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0549_Binary_Tree_Longest_Consecutive_Sequence_II;
+namespace LeetCode.Problems._0549_Binary_Tree_Longest_Consecutive_Sequence_II;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

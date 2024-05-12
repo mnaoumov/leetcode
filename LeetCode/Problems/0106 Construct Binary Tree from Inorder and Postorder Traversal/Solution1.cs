@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal;
+namespace LeetCode.Problems._0106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/830105735/

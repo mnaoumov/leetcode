@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0424_Longest_Repeating_Character_Replacement;
+namespace LeetCode.Problems._0424_Longest_Repeating_Character_Replacement;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/929891805/

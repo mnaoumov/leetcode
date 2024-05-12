@@ -1,7 +1,7 @@
 using System.Collections;
 using JetBrains.Annotations;
 
-namespace LeetCode._3133_Minimum_Array_End;
+namespace LeetCode.Problems._3133_Minimum_Array_End;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-395/submissions/detail/1243801339/

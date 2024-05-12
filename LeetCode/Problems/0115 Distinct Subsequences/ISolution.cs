@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0115_Distinct_Subsequences;
+namespace LeetCode.Problems._0115_Distinct_Subsequences;
 
 [PublicAPI]
 public interface ISolution

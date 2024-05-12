@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1858_Longest_Word_With_All_Prefixes;
+namespace LeetCode.Problems._1858_Longest_Word_With_All_Prefixes;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

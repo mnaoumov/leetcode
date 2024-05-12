@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0514_Freedom_Trail;
+namespace LeetCode.Problems._0514_Freedom_Trail;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1242874256/

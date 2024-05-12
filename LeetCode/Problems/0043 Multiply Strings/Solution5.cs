@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0043_Multiply_Strings;
+namespace LeetCode.Problems._0043_Multiply_Strings;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/829021661/

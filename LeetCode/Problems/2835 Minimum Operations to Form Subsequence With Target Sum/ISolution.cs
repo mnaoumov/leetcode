@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2835_Minimum_Operations_to_Form_Subsequence_With_Target_Sum;
+namespace LeetCode.Problems._2835_Minimum_Operations_to_Form_Subsequence_With_Target_Sum;
 
 [PublicAPI]
 public interface ISolution

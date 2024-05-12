@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0929_Unique_Email_Addresses;
+namespace LeetCode.Problems._0929_Unique_Email_Addresses;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0024_Swap_Nodes_in_Pairs;
+namespace LeetCode.Problems._0024_Swap_Nodes_in_Pairs;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/811116954/

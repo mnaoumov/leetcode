@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2140_Solving_Questions_With_Brainpower;
+namespace LeetCode.Problems._2140_Solving_Questions_With_Brainpower;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

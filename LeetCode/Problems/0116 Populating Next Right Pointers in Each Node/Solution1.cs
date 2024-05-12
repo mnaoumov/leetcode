@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0116_Populating_Next_Right_Pointers_in_Each_Node;
+namespace LeetCode.Problems._0116_Populating_Next_Right_Pointers_in_Each_Node;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/834400428/

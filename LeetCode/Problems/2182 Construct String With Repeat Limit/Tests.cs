@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2182_Construct_String_With_Repeat_Limit;
+namespace LeetCode.Problems._2182_Construct_String_With_Repeat_Limit;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

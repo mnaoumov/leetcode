@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0087_Scramble_String;
+namespace LeetCode.Problems._0087_Scramble_String;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/827622682/

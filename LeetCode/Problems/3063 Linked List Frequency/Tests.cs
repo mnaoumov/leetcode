@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3063_Linked_List_Frequency;
+namespace LeetCode.Problems._3063_Linked_List_Frequency;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3133_Minimum_Array_End;
+namespace LeetCode.Problems._3133_Minimum_Array_End;
 
 [PublicAPI]
 public interface ISolution

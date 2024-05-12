@@ -1,4 +1,4 @@
-namespace LeetCode._0341_Flatten_Nested_List_Iterator;
+namespace LeetCode.Problems._0341_Flatten_Nested_List_Iterator;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/882116786/

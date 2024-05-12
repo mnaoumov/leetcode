@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0057_Insert_Interval;
+namespace LeetCode.Problems._0057_Insert_Interval;
 
 /// <summary>
 /// https://leetcode.com/problems/insert-interval/submissions/208755663/

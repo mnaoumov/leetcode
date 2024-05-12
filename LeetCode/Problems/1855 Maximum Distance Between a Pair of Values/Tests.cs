@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1855_Maximum_Distance_Between_a_Pair_of_Values;
+namespace LeetCode.Problems._1855_Maximum_Distance_Between_a_Pair_of_Values;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

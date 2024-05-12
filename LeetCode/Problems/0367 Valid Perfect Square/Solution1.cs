@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0367_Valid_Perfect_Square;
+namespace LeetCode.Problems._0367_Valid_Perfect_Square;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/924590055/

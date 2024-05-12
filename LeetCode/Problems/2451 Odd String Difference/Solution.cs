@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2451_Odd_String_Difference;
+namespace LeetCode.Problems._2451_Odd_String_Difference;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-90/submissions/detail/832701312/

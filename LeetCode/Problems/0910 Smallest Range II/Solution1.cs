@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0910_Smallest_Range_II;
+namespace LeetCode.Problems._0910_Smallest_Range_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/950973744/

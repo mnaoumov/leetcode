@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3115_Maximum_Prime_Difference;
+namespace LeetCode.Problems._3115_Maximum_Prime_Difference;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-393/submissions/detail/1231756639/

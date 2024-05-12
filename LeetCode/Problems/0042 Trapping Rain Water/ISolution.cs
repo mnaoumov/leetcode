@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0042_Trapping_Rain_Water;
+namespace LeetCode.Problems._0042_Trapping_Rain_Water;
 
 [PublicAPI]
 public interface ISolution

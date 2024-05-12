@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3133_Minimum_Array_End;
+namespace LeetCode.Problems._3133_Minimum_Array_End;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

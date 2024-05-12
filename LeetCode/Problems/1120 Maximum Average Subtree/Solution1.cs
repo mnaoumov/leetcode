@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1120_Maximum_Average_Subtree;
+namespace LeetCode.Problems._1120_Maximum_Average_Subtree;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1115382811/

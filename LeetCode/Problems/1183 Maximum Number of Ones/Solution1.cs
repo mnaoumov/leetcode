@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1183_Maximum_Number_of_Ones;
+namespace LeetCode.Problems._1183_Maximum_Number_of_Ones;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1034608760/

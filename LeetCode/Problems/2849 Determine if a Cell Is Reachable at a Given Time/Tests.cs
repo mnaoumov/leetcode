@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2849_Determine_if_a_Cell_Is_Reachable_at_a_Given_Time;
+namespace LeetCode.Problems._2849_Determine_if_a_Cell_Is_Reachable_at_a_Given_Time;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

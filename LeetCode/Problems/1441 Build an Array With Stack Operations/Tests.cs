@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._1441_Build_an_Array_With_Stack_Operations;
+namespace LeetCode.Problems._1441_Build_an_Array_With_Stack_Operations;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

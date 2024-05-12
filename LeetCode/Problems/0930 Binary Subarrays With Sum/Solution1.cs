@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0930_Binary_Subarrays_With_Sum;
+namespace LeetCode.Problems._0930_Binary_Subarrays_With_Sum;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/898963795/

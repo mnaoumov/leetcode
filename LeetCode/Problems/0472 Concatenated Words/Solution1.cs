@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0472_Concatenated_Words;
+namespace LeetCode.Problems._0472_Concatenated_Words;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/885982567/

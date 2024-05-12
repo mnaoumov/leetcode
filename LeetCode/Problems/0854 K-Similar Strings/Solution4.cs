@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0854_K_Similar_Strings;
+namespace LeetCode.Problems._0854_K_Similar_Strings;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/886392331/

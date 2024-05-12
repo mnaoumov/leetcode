@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3147_Taking_Maximum_Energy_From_the_Mystic_Dungeon;
+namespace LeetCode.Problems._3147_Taking_Maximum_Energy_From_the_Mystic_Dungeon;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

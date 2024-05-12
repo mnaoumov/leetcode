@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2092_Find_All_People_With_Secret;
+namespace LeetCode.Problems._2092_Find_All_People_With_Secret;
 
 [PublicAPI]
 public interface ISolution

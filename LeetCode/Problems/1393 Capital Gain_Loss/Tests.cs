@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1393_Capital_Gain_Loss;
+namespace LeetCode.Problems._1393_Capital_Gain_Loss;
 
 [UsedImplicitly]
 public class Tests : SelectSqlTestsBase<Tests>

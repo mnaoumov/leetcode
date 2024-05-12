@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2707_Extra_Characters_in_a_String;
+namespace LeetCode.Problems._2707_Extra_Characters_in_a_String;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1533_Find_the_Index_of_the_Large_Integer;
+namespace LeetCode.Problems._1533_Find_the_Index_of_the_Large_Integer;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1057_Campus_Bikes;
+namespace LeetCode.Problems._1057_Campus_Bikes;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1089556678/

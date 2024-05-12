@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0301_Remove_Invalid_Parentheses;
+namespace LeetCode.Problems._0301_Remove_Invalid_Parentheses;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/879295292/

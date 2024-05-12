@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0208_Implement_Trie__Prefix_Tree_;
+namespace LeetCode.Problems._0208_Implement_Trie__Prefix_Tree_;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/197129416/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2670_Find_the_Distinct_Difference_Array;
+namespace LeetCode.Problems._2670_Find_the_Distinct_Difference_Array;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-344/submissions/detail/945794380/

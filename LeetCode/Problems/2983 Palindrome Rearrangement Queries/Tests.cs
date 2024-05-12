@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2983_Palindrome_Rearrangement_Queries;
+namespace LeetCode.Problems._2983_Palindrome_Rearrangement_Queries;
 
 [UsedImplicitly]
 [Category("TODO")]

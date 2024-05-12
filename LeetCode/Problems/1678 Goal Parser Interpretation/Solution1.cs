@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1678_Goal_Parser_Interpretation;
+namespace LeetCode.Problems._1678_Goal_Parser_Interpretation;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/927554052/

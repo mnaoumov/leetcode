@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0944_Delete_Columns_to_Make_Sorted;
+namespace LeetCode.Problems._0944_Delete_Columns_to_Make_Sorted;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/870069738/

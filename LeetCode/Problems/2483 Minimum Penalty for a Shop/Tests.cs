@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2483_Minimum_Penalty_for_a_Shop;
+namespace LeetCode.Problems._2483_Minimum_Penalty_for_a_Shop;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

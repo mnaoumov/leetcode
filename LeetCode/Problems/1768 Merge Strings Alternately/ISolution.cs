@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1768_Merge_Strings_Alternately;
+namespace LeetCode.Problems._1768_Merge_Strings_Alternately;
 
 [PublicAPI]
 public interface ISolution

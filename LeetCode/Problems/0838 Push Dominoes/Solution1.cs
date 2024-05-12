@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0838_Push_Dominoes;
+namespace LeetCode.Problems._0838_Push_Dominoes;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/809510320/

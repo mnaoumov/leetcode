@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3079_Find_the_Sum_of_Encrypted_Integers;
+namespace LeetCode.Problems._3079_Find_the_Sum_of_Encrypted_Integers;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

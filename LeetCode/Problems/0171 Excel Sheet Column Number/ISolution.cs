@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0171_Excel_Sheet_Column_Number;
+namespace LeetCode.Problems._0171_Excel_Sheet_Column_Number;
 
 [PublicAPI]
 public interface ISolution

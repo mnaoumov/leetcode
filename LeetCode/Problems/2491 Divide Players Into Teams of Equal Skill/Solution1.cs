@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._2491_Divide_Players_Into_Teams_of_Equal_Skill;
+namespace LeetCode.Problems._2491_Divide_Players_Into_Teams_of_Equal_Skill;
 
 /// <summary>
 /// https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/submissions/

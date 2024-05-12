@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0400_Nth_Digit;
+namespace LeetCode.Problems._0400_Nth_Digit;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/925487353/

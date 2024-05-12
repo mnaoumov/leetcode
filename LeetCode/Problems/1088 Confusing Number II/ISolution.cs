@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1088_Confusing_Number_II;
+namespace LeetCode.Problems._1088_Confusing_Number_II;
 
 [PublicAPI]
 public interface ISolution

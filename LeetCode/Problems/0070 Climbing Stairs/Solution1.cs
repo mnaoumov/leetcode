@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0070_Climbing_Stairs;
+namespace LeetCode.Problems._0070_Climbing_Stairs;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/820362789/

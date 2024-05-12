@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0174_Dungeon_Game;
+namespace LeetCode.Problems._0174_Dungeon_Game;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/882161846/

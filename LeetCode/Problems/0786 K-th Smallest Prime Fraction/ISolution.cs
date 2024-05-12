@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0786_K_th_Smallest_Prime_Fraction;
+namespace LeetCode.Problems._0786_K_th_Smallest_Prime_Fraction;
 
 [PublicAPI]
 public interface ISolution

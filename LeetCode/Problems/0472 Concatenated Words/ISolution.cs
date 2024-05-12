@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0472_Concatenated_Words;
+namespace LeetCode.Problems._0472_Concatenated_Words;
 
 [PublicAPI]
 public interface ISolution

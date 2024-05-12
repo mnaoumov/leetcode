@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2928_Distribute_Candies_Among_Children_I;
+namespace LeetCode.Problems._2928_Distribute_Candies_Among_Children_I;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-117/submissions/detail/1096581279/

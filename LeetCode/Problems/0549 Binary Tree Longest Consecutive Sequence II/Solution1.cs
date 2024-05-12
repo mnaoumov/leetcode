@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0549_Binary_Tree_Longest_Consecutive_Sequence_II;
+namespace LeetCode.Problems._0549_Binary_Tree_Longest_Consecutive_Sequence_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1072907826/

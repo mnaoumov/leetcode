@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0799_Champagne_Tower;
+namespace LeetCode.Problems._0799_Champagne_Tower;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

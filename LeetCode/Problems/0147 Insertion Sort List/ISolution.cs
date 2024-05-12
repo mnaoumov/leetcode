@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0147_Insertion_Sort_List;
+namespace LeetCode.Problems._0147_Insertion_Sort_List;
 
 [PublicAPI]
 public interface ISolution

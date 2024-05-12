@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2485_Find_the_Pivot_Integer;
+namespace LeetCode.Problems._2485_Find_the_Pivot_Integer;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

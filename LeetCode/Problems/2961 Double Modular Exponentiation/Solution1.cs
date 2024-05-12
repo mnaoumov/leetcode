@@ -1,7 +1,7 @@
 using System.Numerics;
 using JetBrains.Annotations;
 
-namespace LeetCode._2961_Double_Modular_Exponentiation;
+namespace LeetCode.Problems._2961_Double_Modular_Exponentiation;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-375/submissions/detail/1116136266/

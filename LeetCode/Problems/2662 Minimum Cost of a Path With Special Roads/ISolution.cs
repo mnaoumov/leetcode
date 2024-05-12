@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2662_Minimum_Cost_of_a_Path_With_Special_Roads;
+namespace LeetCode.Problems._2662_Minimum_Cost_of_a_Path_With_Special_Roads;
 
 [PublicAPI]
 public interface ISolution

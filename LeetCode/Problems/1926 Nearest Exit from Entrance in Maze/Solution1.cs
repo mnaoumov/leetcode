@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1926_Nearest_Exit_from_Entrance_in_Maze;
+namespace LeetCode.Problems._1926_Nearest_Exit_from_Entrance_in_Maze;
 
 /// <summary>
 /// https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/submissions/847184891/

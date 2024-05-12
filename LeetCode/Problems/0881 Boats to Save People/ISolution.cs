@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0881_Boats_to_Save_People;
+namespace LeetCode.Problems._0881_Boats_to_Save_People;
 
 [PublicAPI]
 public interface ISolution

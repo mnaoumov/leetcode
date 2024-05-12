@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._2441_Largest_Positive_Integer_That_Exists_With_Its_Negative;
+namespace LeetCode.Problems._2441_Largest_Positive_Integer_That_Exists_With_Its_Negative;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-315/submissions/detail/823374701/

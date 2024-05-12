@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0035_Search_Insert_Position;
+namespace LeetCode.Problems._0035_Search_Insert_Position;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/813031657/

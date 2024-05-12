@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2787_Ways_to_Express_an_Integer_as_Sum_of_Powers;
+namespace LeetCode.Problems._2787_Ways_to_Express_an_Integer_as_Sum_of_Powers;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

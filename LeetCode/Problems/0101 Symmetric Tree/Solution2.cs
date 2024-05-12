@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0101_Symmetric_Tree;
+namespace LeetCode.Problems._0101_Symmetric_Tree;
 
 /// <summary>
 /// Iterative

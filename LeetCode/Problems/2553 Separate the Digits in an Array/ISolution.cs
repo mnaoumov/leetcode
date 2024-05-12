@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2553_Separate_the_Digits_in_an_Array;
+namespace LeetCode.Problems._2553_Separate_the_Digits_in_an_Array;
 
 [PublicAPI]
 public interface ISolution

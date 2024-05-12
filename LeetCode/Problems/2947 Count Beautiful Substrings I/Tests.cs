@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2947_Count_Beautiful_Substrings_I;
+namespace LeetCode.Problems._2947_Count_Beautiful_Substrings_I;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

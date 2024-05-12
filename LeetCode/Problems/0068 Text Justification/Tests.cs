@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0068_Text_Justification;
+namespace LeetCode.Problems._0068_Text_Justification;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1347_Minimum_Number_of_Steps_to_Make_Two_Strings_Anagram;
+namespace LeetCode.Problems._1347_Minimum_Number_of_Steps_to_Make_Two_Strings_Anagram;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

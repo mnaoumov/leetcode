@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2373_Largest_Local_Values_in_a_Matrix;
+namespace LeetCode.Problems._2373_Largest_Local_Values_in_a_Matrix;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1255723425/

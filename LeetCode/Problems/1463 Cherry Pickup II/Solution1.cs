@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1463_Cherry_Pickup_II;
+namespace LeetCode.Problems._1463_Cherry_Pickup_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/954167113/

@@ -2,7 +2,7 @@ using System.Text;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0038_Count_and_Say;
+namespace LeetCode.Problems._0038_Count_and_Say;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/813820267/

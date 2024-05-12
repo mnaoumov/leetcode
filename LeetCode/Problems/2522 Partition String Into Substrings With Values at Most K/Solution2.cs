@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2522_Partition_String_Into_Substrings_With_Values_at_Most_K;
+namespace LeetCode.Problems._2522_Partition_String_Into_Substrings_With_Values_at_Most_K;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/869888133/

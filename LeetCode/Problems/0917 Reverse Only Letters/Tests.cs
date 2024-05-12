@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0917_Reverse_Only_Letters;
+namespace LeetCode.Problems._0917_Reverse_Only_Letters;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

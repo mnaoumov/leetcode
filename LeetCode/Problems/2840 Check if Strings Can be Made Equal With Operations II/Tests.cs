@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2840_Check_if_Strings_Can_be_Made_Equal_With_Operations_II;
+namespace LeetCode.Problems._2840_Check_if_Strings_Can_be_Made_Equal_With_Operations_II;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

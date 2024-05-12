@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3114_Latest_Time_You_Can_Obtain_After_Replacing_Characters;
+namespace LeetCode.Problems._3114_Latest_Time_You_Can_Obtain_After_Replacing_Characters;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0950_Reveal_Cards_In_Increasing_Order;
+namespace LeetCode.Problems._0950_Reveal_Cards_In_Increasing_Order;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1228948187/

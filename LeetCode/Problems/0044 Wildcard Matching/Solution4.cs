@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0044_Wildcard_Matching;
+namespace LeetCode.Problems._0044_Wildcard_Matching;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/829022433/

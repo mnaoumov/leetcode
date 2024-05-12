@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2050_Parallel_Courses_III;
+namespace LeetCode.Problems._2050_Parallel_Courses_III;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1077985941/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2760_Longest_Even_Odd_Subarray_With_Threshold;
+namespace LeetCode.Problems._2760_Longest_Even_Odd_Subarray_With_Threshold;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-352/submissions/detail/984141964/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1349_Maximum_Students_Taking_Exam;
+namespace LeetCode.Problems._1349_Maximum_Students_Taking_Exam;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/926914430/

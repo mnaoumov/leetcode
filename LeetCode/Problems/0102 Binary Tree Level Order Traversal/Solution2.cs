@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0102_Binary_Tree_Level_Order_Traversal;
+namespace LeetCode.Problems._0102_Binary_Tree_Level_Order_Traversal;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/829698036/

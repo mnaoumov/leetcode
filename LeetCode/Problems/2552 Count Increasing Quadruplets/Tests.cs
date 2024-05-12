@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2552_Count_Increasing_Quadruplets;
+namespace LeetCode.Problems._2552_Count_Increasing_Quadruplets;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

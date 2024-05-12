@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0075_Sort_Colors;
+namespace LeetCode.Problems._0075_Sort_Colors;
 
 [PublicAPI]
 public interface ISolution

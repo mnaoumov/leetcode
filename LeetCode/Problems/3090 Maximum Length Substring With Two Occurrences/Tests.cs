@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3090_Maximum_Length_Substring_With_Two_Occurrences;
+namespace LeetCode.Problems._3090_Maximum_Length_Substring_With_Two_Occurrences;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2251_Number_of_Flowers_in_Full_Bloom;
+namespace LeetCode.Problems._2251_Number_of_Flowers_in_Full_Bloom;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/915398774/

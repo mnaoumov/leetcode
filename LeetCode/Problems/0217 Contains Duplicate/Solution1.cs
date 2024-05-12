@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0217_Contains_Duplicate;
+namespace LeetCode.Problems._0217_Contains_Duplicate;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/898935842/

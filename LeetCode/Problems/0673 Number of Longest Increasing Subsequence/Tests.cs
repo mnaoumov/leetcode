@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0673_Number_of_Longest_Increasing_Subsequence;
+namespace LeetCode.Problems._0673_Number_of_Longest_Increasing_Subsequence;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

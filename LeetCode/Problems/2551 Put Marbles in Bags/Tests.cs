@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2551_Put_Marbles_in_Bags;
+namespace LeetCode.Problems._2551_Put_Marbles_in_Bags;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

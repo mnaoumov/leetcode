@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._1697_Checking_Existence_of_Edge_Length_Limited_Paths;
+namespace LeetCode.Problems._1697_Checking_Existence_of_Edge_Length_Limited_Paths;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

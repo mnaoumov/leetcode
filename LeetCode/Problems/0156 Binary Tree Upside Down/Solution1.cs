@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0156_Binary_Tree_Upside_Down;
+namespace LeetCode.Problems._0156_Binary_Tree_Upside_Down;
 
 /// <summary>
 /// https://leetcode.com/problems/binary-tree-upside-down/submissions/848306572/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1639_Number_of_Ways_to_Form_a_Target_String_Given_a_Dictionary;
+namespace LeetCode.Problems._1639_Number_of_Ways_to_Form_a_Target_String_Given_a_Dictionary;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/934409493/

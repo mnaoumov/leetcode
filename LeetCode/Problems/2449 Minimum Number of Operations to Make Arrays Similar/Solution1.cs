@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2449_Minimum_Number_of_Operations_to_Make_Arrays_Similar;
+namespace LeetCode.Problems._2449_Minimum_Number_of_Operations_to_Make_Arrays_Similar;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-316/submissions/detail/828356194/

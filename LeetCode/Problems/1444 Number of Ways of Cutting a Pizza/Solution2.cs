@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1444_Number_of_Ways_of_Cutting_a_Pizza;
+namespace LeetCode.Problems._1444_Number_of_Ways_of_Cutting_a_Pizza;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/925162140/

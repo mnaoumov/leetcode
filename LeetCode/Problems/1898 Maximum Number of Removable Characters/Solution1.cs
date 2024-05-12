@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1898_Maximum_Number_of_Removable_Characters;
+namespace LeetCode.Problems._1898_Maximum_Number_of_Removable_Characters;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/933438422/

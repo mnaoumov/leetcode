@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0071_Simplify_Path;
+namespace LeetCode.Problems._0071_Simplify_Path;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

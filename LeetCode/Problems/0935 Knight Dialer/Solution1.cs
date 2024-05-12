@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0935_Knight_Dialer;
+namespace LeetCode.Problems._0935_Knight_Dialer;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1107087888/

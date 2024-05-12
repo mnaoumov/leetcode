@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2899_Last_Visited_Integers;
+namespace LeetCode.Problems._2899_Last_Visited_Integers;
 
 [PublicAPI]
 public interface ISolution

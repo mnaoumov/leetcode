@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._0784_Letter_Case_Permutation;
+namespace LeetCode.Problems._0784_Letter_Case_Permutation;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/929400092/

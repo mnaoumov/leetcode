@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2901_Longest_Unequal_Adjacent_Groups_Subsequence_II;
+namespace LeetCode.Problems._2901_Longest_Unequal_Adjacent_Groups_Subsequence_II;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

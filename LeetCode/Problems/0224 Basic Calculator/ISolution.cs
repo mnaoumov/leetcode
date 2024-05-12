@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0224_Basic_Calculator;
+namespace LeetCode.Problems._0224_Basic_Calculator;
 
 [PublicAPI]
 public interface ISolution

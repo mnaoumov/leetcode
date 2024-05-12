@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1150_Check_If_a_Number_Is_Majority_Element_in_a_Sorted_Array;
+namespace LeetCode.Problems._1150_Check_If_a_Number_Is_Majority_Element_in_a_Sorted_Array;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

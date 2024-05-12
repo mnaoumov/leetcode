@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2539_Count_the_Number_of_Good_Subsequences;
+namespace LeetCode.Problems._2539_Count_the_Number_of_Good_Subsequences;
 
 [PublicAPI]
 public interface ISolution

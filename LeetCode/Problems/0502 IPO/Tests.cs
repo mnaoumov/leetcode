@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0502_IPO;
+namespace LeetCode.Problems._0502_IPO;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2519_Count_the_Number_of_K_Big_Indices;
+namespace LeetCode.Problems._2519_Count_the_Number_of_K_Big_Indices;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

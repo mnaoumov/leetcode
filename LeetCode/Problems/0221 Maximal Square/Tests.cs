@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0221_Maximal_Square;
+namespace LeetCode.Problems._0221_Maximal_Square;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

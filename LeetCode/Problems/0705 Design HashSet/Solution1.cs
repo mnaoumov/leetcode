@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0705_Design_HashSet;
+namespace LeetCode.Problems._0705_Design_HashSet;
 
 /// <summary>
 /// TODO url

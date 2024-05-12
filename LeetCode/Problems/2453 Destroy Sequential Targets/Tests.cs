@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2453_Destroy_Sequential_Targets;
+namespace LeetCode.Problems._2453_Destroy_Sequential_Targets;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

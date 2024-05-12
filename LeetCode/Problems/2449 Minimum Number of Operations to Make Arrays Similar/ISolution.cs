@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2449_Minimum_Number_of_Operations_to_Make_Arrays_Similar;
+namespace LeetCode.Problems._2449_Minimum_Number_of_Operations_to_Make_Arrays_Similar;
 
 [PublicAPI]
 public interface ISolution

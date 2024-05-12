@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2786_Visit_Array_Positions_to_Maximize_Score;
+namespace LeetCode.Problems._2786_Visit_Array_Positions_to_Maximize_Score;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-109/submissions/detail/1001048966/

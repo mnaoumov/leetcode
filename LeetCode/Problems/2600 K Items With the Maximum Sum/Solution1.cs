@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2600_K_Items_With_the_Maximum_Sum;
+namespace LeetCode.Problems._2600_K_Items_With_the_Maximum_Sum;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-338/submissions/detail/922162701/

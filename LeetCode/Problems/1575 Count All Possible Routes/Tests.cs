@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1575_Count_All_Possible_Routes;
+namespace LeetCode.Problems._1575_Count_All_Possible_Routes;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0061_Rotate_List;
+namespace LeetCode.Problems._0061_Rotate_List;
 
 [PublicAPI]
 public interface ISolution

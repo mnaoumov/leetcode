@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1496_Path_Crossing;
+namespace LeetCode.Problems._1496_Path_Crossing;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/898943771/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1314_Matrix_Block_Sum;
+namespace LeetCode.Problems._1314_Matrix_Block_Sum;
 
 [PublicAPI]
 public interface ISolution

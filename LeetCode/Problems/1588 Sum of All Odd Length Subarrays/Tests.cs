@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1588_Sum_of_All_Odd_Length_Subarrays;
+namespace LeetCode.Problems._1588_Sum_of_All_Odd_Length_Subarrays;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

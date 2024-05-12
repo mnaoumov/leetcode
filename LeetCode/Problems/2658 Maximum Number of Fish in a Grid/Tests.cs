@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2658_Maximum_Number_of_Fish_in_a_Grid;
+namespace LeetCode.Problems._2658_Maximum_Number_of_Fish_in_a_Grid;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2583_Kth_Largest_Sum_in_a_Binary_Tree;
+namespace LeetCode.Problems._2583_Kth_Largest_Sum_in_a_Binary_Tree;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-335/submissions/detail/909228257/

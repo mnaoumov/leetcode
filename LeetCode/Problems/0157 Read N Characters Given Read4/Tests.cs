@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0157_Read_N_Characters_Given_Read4;
+namespace LeetCode.Problems._0157_Read_N_Characters_Given_Read4;
 
 [UsedImplicitly]
 public class Tests : TestsBase<Reader4, Tests.TestCase>

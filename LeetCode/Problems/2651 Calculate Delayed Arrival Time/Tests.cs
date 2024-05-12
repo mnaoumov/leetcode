@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2651_Calculate_Delayed_Arrival_Time;
+namespace LeetCode.Problems._2651_Calculate_Delayed_Arrival_Time;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

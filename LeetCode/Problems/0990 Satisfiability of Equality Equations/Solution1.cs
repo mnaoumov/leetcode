@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0990_Satisfiability_of_Equality_Equations;
+namespace LeetCode.Problems._0990_Satisfiability_of_Equality_Equations;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/809093485/

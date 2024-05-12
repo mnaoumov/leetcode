@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2529_Maximum_Count_of_Positive_Integer_and_Negative_Integer;
+namespace LeetCode.Problems._2529_Maximum_Count_of_Positive_Integer_and_Negative_Integer;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._1323_Maximum_69_Number;
+namespace LeetCode.Problems._1323_Maximum_69_Number;
 
 /// <summary>
 /// https://leetcode.com/problems/maximum-69-number/submissions/838361180/

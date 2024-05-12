@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2646_Minimize_the_Total_Price_of_the_Trips;
+namespace LeetCode.Problems._2646_Minimize_the_Total_Price_of_the_Trips;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

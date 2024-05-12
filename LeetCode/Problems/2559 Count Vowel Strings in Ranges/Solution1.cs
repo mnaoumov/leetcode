@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2559_Count_Vowel_Strings_in_Ranges;
+namespace LeetCode.Problems._2559_Count_Vowel_Strings_in_Ranges;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-331/submissions/detail/891698173/

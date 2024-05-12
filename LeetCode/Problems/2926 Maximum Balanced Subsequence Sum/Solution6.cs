@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2926_Maximum_Balanced_Subsequence_Sum;
+namespace LeetCode.Problems._2926_Maximum_Balanced_Subsequence_Sum;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1091776435/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0310_Minimum_Height_Trees;
+namespace LeetCode.Problems._0310_Minimum_Height_Trees;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/936767316/

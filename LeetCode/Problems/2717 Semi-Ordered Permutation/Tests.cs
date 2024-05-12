@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2717_Semi_Ordered_Permutation;
+namespace LeetCode.Problems._2717_Semi_Ordered_Permutation;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

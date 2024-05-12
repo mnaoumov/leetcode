@@ -1,7 +1,7 @@
 using System.Text.RegularExpressions;
 using JetBrains.Annotations;
 
-namespace LeetCode._3136_Valid_Word;
+namespace LeetCode.Problems._3136_Valid_Word;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-396/submissions/detail/1249534052/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2521_Distinct_Prime_Factors_of_Product_of_Array;
+namespace LeetCode.Problems._2521_Distinct_Prime_Factors_of_Product_of_Array;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/869881372/

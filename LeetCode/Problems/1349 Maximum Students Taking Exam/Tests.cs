@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1349_Maximum_Students_Taking_Exam;
+namespace LeetCode.Problems._1349_Maximum_Students_Taking_Exam;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

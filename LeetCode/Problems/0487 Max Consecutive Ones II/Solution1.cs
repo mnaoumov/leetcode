@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0487_Max_Consecutive_Ones_II;
+namespace LeetCode.Problems._0487_Max_Consecutive_Ones_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/938724981/

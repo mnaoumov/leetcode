@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0051_N_Queens;
+namespace LeetCode.Problems._0051_N_Queens;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

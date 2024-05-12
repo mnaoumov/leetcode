@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._2389_Longest_Subsequence_With_Limited_Sum;
+namespace LeetCode.Problems._2389_Longest_Subsequence_With_Limited_Sum;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

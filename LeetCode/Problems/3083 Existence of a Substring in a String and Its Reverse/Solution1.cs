@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3083_Existence_of_a_Substring_in_a_String_and_Its_Reverse;
+namespace LeetCode.Problems._3083_Existence_of_a_Substring_in_a_String_and_Its_Reverse;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-389/submissions/detail/1205836264/

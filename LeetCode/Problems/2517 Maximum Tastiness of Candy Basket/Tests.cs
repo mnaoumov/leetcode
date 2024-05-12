@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2517_Maximum_Tastiness_of_Candy_Basket;
+namespace LeetCode.Problems._2517_Maximum_Tastiness_of_Candy_Basket;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

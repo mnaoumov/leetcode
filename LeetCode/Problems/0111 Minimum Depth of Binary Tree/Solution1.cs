@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0111_Minimum_Depth_of_Binary_Tree;
+namespace LeetCode.Problems._0111_Minimum_Depth_of_Binary_Tree;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/830892429/

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3011_Find_if_Array_Can_Be_Sorted;
+namespace LeetCode.Problems._3011_Find_if_Array_Can_Be_Sorted;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

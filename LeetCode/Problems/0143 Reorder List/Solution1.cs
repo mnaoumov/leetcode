@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0143_Reorder_List;
+namespace LeetCode.Problems._0143_Reorder_List;
 
 /// <summary>
 /// https://leetcode.com/problems/reorder-list/submissions/845322200/

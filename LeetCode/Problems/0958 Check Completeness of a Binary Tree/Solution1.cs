@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0958_Check_Completeness_of_a_Binary_Tree;
+namespace LeetCode.Problems._0958_Check_Completeness_of_a_Binary_Tree;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/915355438/

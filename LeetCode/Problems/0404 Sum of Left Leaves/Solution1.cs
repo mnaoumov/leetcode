@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0404_Sum_of_Left_Leaves;
+namespace LeetCode.Problems._0404_Sum_of_Left_Leaves;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/924487201/

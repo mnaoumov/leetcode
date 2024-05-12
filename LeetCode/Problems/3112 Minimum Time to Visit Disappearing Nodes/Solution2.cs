@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3112_Minimum_Time_to_Visit_Disappearing_Nodes;
+namespace LeetCode.Problems._3112_Minimum_Time_to_Visit_Disappearing_Nodes;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-128/submissions/detail/1231262476/

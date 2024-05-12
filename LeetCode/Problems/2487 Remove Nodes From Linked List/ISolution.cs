@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2487_Remove_Nodes_From_Linked_List;
+namespace LeetCode.Problems._2487_Remove_Nodes_From_Linked_List;
 
 [PublicAPI]
 public interface ISolution

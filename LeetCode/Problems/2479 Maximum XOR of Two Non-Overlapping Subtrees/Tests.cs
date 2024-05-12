@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2479_Maximum_XOR_of_Two_Non_Overlapping_Subtrees;
+namespace LeetCode.Problems._2479_Maximum_XOR_of_Two_Non_Overlapping_Subtrees;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

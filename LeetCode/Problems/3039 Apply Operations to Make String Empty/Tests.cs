@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3039_Apply_Operations_to_Make_String_Empty;
+namespace LeetCode.Problems._3039_Apply_Operations_to_Make_String_Empty;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2771_Longest_Non_decreasing_Subarray_From_Two_Arrays;
+namespace LeetCode.Problems._2771_Longest_Non_decreasing_Subarray_From_Two_Arrays;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

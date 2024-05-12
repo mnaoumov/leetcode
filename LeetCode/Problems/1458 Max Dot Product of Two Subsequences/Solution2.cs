@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1458_Max_Dot_Product_of_Two_Subsequences;
+namespace LeetCode.Problems._1458_Max_Dot_Product_of_Two_Subsequences;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1069871898/

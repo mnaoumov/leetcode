@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._1662_Check_If_Two_String_Arrays_are_Equivalent;
+namespace LeetCode.Problems._1662_Check_If_Two_String_Arrays_are_Equivalent;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

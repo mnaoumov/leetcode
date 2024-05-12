@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._1519_Number_of_Nodes_in_the_Sub_Tree_With_the_Same_Label;
+namespace LeetCode.Problems._1519_Number_of_Nodes_in_the_Sub_Tree_With_the_Same_Label;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

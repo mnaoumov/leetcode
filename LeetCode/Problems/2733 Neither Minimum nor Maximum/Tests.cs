@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2733_Neither_Minimum_nor_Maximum;
+namespace LeetCode.Problems._2733_Neither_Minimum_nor_Maximum;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

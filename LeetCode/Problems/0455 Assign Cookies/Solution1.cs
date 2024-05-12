@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0455_Assign_Cookies;
+namespace LeetCode.Problems._0455_Assign_Cookies;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/914084156/

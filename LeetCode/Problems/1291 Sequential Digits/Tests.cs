@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1291_Sequential_Digits;
+namespace LeetCode.Problems._1291_Sequential_Digits;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0658_Find_K_Closest_Elements;
+namespace LeetCode.Problems._0658_Find_K_Closest_Elements;
 
 [PublicAPI]
 public interface ISolution

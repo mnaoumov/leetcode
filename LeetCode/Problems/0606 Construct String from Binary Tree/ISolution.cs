@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0606_Construct_String_from_Binary_Tree;
+namespace LeetCode.Problems._0606_Construct_String_from_Binary_Tree;
 
 [PublicAPI]
 public interface ISolution

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2497_Maximum_Star_Sum_of_a_Graph;
+namespace LeetCode.Problems._2497_Maximum_Star_Sum_of_a_Graph;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

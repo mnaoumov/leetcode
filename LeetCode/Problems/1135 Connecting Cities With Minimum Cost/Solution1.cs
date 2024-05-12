@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1135_Connecting_Cities_With_Minimum_Cost;
+namespace LeetCode.Problems._1135_Connecting_Cities_With_Minimum_Cost;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/939770127/

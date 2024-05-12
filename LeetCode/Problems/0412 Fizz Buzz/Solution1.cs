@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0412_Fizz_Buzz;
+namespace LeetCode.Problems._0412_Fizz_Buzz;
 
 /// <summary>
 /// https://leetcode.com/problems/fizz-buzz/submissions/845588599/

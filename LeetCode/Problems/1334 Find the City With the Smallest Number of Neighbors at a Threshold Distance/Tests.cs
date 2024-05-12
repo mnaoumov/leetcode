@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1334_Find_the_City_With_the_Smallest_Number_of_Neighbors_at_a_Threshold_Distance;
+namespace LeetCode.Problems._1334_Find_the_City_With_the_Smallest_Number_of_Neighbors_at_a_Threshold_Distance;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

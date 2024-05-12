@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0725_Split_Linked_List_in_Parts;
+namespace LeetCode.Problems._0725_Split_Linked_List_in_Parts;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

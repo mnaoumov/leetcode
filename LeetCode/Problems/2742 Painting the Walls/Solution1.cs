@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2742_Painting_the_Walls;
+namespace LeetCode.Problems._2742_Painting_the_Walls;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-350/submissions/detail/973725361/

@@ -2,7 +2,7 @@
 #pragma warning disable
 using JetBrains.Annotations;
 
-namespace LeetCode._0502_IPO;
+namespace LeetCode.Problems._0502_IPO;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/208734677/

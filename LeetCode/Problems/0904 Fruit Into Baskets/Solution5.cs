@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0904_Fruit_Into_Baskets;
+namespace LeetCode.Problems._0904_Fruit_Into_Baskets;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/205292831/

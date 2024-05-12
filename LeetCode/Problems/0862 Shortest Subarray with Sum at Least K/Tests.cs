@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0862_Shortest_Subarray_with_Sum_at_Least_K;
+namespace LeetCode.Problems._0862_Shortest_Subarray_with_Sum_at_Least_K;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

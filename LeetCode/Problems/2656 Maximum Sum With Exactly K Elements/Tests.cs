@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2656_Maximum_Sum_With_Exactly_K_Elements;
+namespace LeetCode.Problems._2656_Maximum_Sum_With_Exactly_K_Elements;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -3,7 +3,7 @@ using JetBrains.Annotations;
 #pragma warning disable
 #pragma warning disable CS8714
 
-namespace LeetCode._1657_Determine_if_Two_Strings_Are_Close;
+namespace LeetCode.Problems._1657_Determine_if_Two_Strings_Are_Close;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/853169856/

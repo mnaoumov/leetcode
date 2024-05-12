@@ -1,4 +1,4 @@
-namespace LeetCode._1634_Add_Two_Polynomials_Represented_as_Linked_Lists
+namespace LeetCode.Problems._1634_Add_Two_Polynomials_Represented_as_Linked_Lists
 {
     public class PolyNode : IEquatable<PolyNode>
     {

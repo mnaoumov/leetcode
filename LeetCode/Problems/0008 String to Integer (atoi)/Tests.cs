@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0008_String_to_Integer__atoi_;
+namespace LeetCode.Problems._0008_String_to_Integer__atoi_;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

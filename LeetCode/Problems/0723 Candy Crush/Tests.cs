@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0723_Candy_Crush;
+namespace LeetCode.Problems._0723_Candy_Crush;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1473_Paint_House_III;
+namespace LeetCode.Problems._1473_Paint_House_III;
 
 [PublicAPI]
 public interface ISolution

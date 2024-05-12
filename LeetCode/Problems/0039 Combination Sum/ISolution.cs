@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0039_Combination_Sum;
+namespace LeetCode.Problems._0039_Combination_Sum;
 
 [PublicAPI]
 public interface ISolution

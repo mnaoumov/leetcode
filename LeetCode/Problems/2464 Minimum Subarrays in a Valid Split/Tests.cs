@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2464_Minimum_Subarrays_in_a_Valid_Split;
+namespace LeetCode.Problems._2464_Minimum_Subarrays_in_a_Valid_Split;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

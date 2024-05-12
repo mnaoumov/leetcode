@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2746_Decremental_String_Concatenation;
+namespace LeetCode.Problems._2746_Decremental_String_Concatenation;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

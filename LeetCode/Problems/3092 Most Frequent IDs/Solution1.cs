@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3092_Most_Frequent_IDs;
+namespace LeetCode.Problems._3092_Most_Frequent_IDs;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-390/submissions/detail/1212167477/

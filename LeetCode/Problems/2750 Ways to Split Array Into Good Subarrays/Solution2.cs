@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2750_Ways_to_Split_Array_Into_Good_Subarrays;
+namespace LeetCode.Problems._2750_Ways_to_Split_Array_Into_Good_Subarrays;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-351/submissions/detail/978981744/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2617_Minimum_Number_of_Visited_Cells_in_a_Grid;
+namespace LeetCode.Problems._2617_Minimum_Number_of_Visited_Cells_in_a_Grid;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/930545464/

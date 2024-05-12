@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0283_Move_Zeroes;
+namespace LeetCode.Problems._0283_Move_Zeroes;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/898890885/

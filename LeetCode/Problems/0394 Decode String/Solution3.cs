@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._0394_Decode_String;
+namespace LeetCode.Problems._0394_Decode_String;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/882189412/

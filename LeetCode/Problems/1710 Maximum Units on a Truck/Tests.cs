@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1710_Maximum_Units_on_a_Truck;
+namespace LeetCode.Problems._1710_Maximum_Units_on_a_Truck;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

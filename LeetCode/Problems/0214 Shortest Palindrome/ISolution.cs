@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0214_Shortest_Palindrome;
+namespace LeetCode.Problems._0214_Shortest_Palindrome;
 
 [PublicAPI]
 public interface ISolution

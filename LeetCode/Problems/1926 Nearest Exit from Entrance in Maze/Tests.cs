@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1926_Nearest_Exit_from_Entrance_in_Maze;
+namespace LeetCode.Problems._1926_Nearest_Exit_from_Entrance_in_Maze;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

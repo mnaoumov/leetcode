@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0132_Palindrome_Partitioning_II;
+namespace LeetCode.Problems._0132_Palindrome_Partitioning_II;
 
 [PublicAPI]
 public interface ISolution

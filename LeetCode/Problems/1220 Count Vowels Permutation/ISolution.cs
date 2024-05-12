@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1220_Count_Vowels_Permutation;
+namespace LeetCode.Problems._1220_Count_Vowels_Permutation;
 
 [PublicAPI]
 public interface ISolution

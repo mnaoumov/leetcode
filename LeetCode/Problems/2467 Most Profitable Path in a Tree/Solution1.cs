@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2467_Most_Profitable_Path_in_a_Tree;
+namespace LeetCode.Problems._2467_Most_Profitable_Path_in_a_Tree;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-91/submissions/detail/842023664/

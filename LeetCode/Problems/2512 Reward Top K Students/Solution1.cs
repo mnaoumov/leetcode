@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2512_Reward_Top_K_Students;
+namespace LeetCode.Problems._2512_Reward_Top_K_Students;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-94/submissions/detail/864788321/

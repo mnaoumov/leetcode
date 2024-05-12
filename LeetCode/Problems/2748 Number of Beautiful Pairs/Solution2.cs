@@ -1,7 +1,7 @@
 using System.Numerics;
 using JetBrains.Annotations;
 
-namespace LeetCode._2748_Number_of_Beautiful_Pairs;
+namespace LeetCode.Problems._2748_Number_of_Beautiful_Pairs;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-351/submissions/detail/978931555/

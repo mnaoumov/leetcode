@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._0835_Image_Overlap;
+namespace LeetCode.Problems._0835_Image_Overlap;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2908_Minimum_Sum_of_Mountain_Triplets_I;
+namespace LeetCode.Problems._2908_Minimum_Sum_of_Mountain_Triplets_I;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-368/submissions/detail/1080977523/

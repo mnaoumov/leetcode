@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0365_Water_and_Jug_Problem;
+namespace LeetCode.Problems._0365_Water_and_Jug_Problem;
 
 [PublicAPI]
 public interface ISolution

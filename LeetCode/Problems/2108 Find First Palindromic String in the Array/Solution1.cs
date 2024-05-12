@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2108_Find_First_Palindromic_String_in_the_Array;
+namespace LeetCode.Problems._2108_Find_First_Palindromic_String_in_the_Array;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1173649529/

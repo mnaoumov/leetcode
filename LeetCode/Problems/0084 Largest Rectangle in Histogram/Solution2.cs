@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0084_Largest_Rectangle_in_Histogram;
+namespace LeetCode.Problems._0084_Largest_Rectangle_in_Histogram;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/826838110/

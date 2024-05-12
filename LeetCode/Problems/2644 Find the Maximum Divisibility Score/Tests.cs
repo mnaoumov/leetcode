@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2644_Find_the_Maximum_Divisibility_Score;
+namespace LeetCode.Problems._2644_Find_the_Maximum_Divisibility_Score;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

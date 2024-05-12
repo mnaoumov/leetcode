@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3131_Find_the_Integer_Added_to_Array_I;
+namespace LeetCode.Problems._3131_Find_the_Integer_Added_to_Array_I;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-395/submissions/detail/1243732099/

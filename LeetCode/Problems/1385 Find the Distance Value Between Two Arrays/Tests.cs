@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1385_Find_the_Distance_Value_Between_Two_Arrays;
+namespace LeetCode.Problems._1385_Find_the_Distance_Value_Between_Two_Arrays;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

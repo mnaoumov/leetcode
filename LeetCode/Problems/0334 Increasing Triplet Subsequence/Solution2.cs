@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0334_Increasing_Triplet_Subsequence;
+namespace LeetCode.Problems._0334_Increasing_Triplet_Subsequence;
 
 /// <summary>
 /// https://leetcode.com/problems/increasing-triplet-subsequence/submissions/820270164/

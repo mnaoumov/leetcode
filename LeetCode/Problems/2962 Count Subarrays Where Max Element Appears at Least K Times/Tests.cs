@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2962_Count_Subarrays_Where_Max_Element_Appears_at_Least_K_Times;
+namespace LeetCode.Problems._2962_Count_Subarrays_Where_Max_Element_Appears_at_Least_K_Times;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

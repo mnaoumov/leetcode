@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2246_Longest_Path_With_Different_Adjacent_Characters;
+namespace LeetCode.Problems._2246_Longest_Path_With_Different_Adjacent_Characters;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/877218814/

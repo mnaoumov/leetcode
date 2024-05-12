@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2452_Words_Within_Two_Edits_of_Dictionary;
+namespace LeetCode.Problems._2452_Words_Within_Two_Edits_of_Dictionary;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using System.Numerics;
 using JetBrains.Annotations;
 
-namespace LeetCode._2818_Apply_Operations_to_Maximize_Score;
+namespace LeetCode.Problems._2818_Apply_Operations_to_Maximize_Score;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-358/submissions/detail/1019826477/

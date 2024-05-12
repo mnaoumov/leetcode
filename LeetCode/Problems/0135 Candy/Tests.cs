@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0135_Candy;
+namespace LeetCode.Problems._0135_Candy;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

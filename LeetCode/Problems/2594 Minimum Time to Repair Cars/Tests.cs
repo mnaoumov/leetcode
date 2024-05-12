@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2594_Minimum_Time_to_Repair_Cars;
+namespace LeetCode.Problems._2594_Minimum_Time_to_Repair_Cars;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

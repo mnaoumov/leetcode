@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0981_Time_Based_Key_Value_Store;
+namespace LeetCode.Problems._0981_Time_Based_Key_Value_Store;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/816620559/

@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0003_Longest_Substring_Without_Repeating_Characters;
+namespace LeetCode.Problems._0003_Longest_Substring_Without_Repeating_Characters;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/198407548/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2472_Maximum_Number_of_Non_overlapping_Palindrome_Substrings;
+namespace LeetCode.Problems._2472_Maximum_Number_of_Non_overlapping_Palindrome_Substrings;
 
 /// <summary>
 /// https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/submissions/842391089/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2405_Optimal_Partition_of_String;
+namespace LeetCode.Problems._2405_Optimal_Partition_of_String;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/914095119/

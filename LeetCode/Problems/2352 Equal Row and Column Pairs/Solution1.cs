@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2352_Equal_Row_and_Column_Pairs;
+namespace LeetCode.Problems._2352_Equal_Row_and_Column_Pairs;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/856811672/

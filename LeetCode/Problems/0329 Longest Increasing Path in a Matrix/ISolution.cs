@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0329_Longest_Increasing_Path_in_a_Matrix;
+namespace LeetCode.Problems._0329_Longest_Increasing_Path_in_a_Matrix;
 
 [PublicAPI]
 public interface ISolution

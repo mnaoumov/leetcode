@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2762_Continuous_Subarrays;
+namespace LeetCode.Problems._2762_Continuous_Subarrays;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-352/submissions/detail/984244061/

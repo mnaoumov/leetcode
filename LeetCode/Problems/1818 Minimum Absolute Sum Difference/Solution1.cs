@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1818_Minimum_Absolute_Sum_Difference;
+namespace LeetCode.Problems._1818_Minimum_Absolute_Sum_Difference;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/934396955/

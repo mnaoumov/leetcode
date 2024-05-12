@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2024_Maximize_the_Confusion_of_an_Exam;
+namespace LeetCode.Problems._2024_Maximize_the_Confusion_of_an_Exam;
 
 [PublicAPI]
 public interface ISolution

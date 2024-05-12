@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0118_Pascal_s_Triangle;
+namespace LeetCode.Problems._0118_Pascal_s_Triangle;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

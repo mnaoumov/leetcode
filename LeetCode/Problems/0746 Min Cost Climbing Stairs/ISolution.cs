@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0746_Min_Cost_Climbing_Stairs;
+namespace LeetCode.Problems._0746_Min_Cost_Climbing_Stairs;
 
 [PublicAPI]
 public interface ISolution

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0122_Best_Time_to_Buy_and_Sell_Stock_II;
+namespace LeetCode.Problems._0122_Best_Time_to_Buy_and_Sell_Stock_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/836257355/

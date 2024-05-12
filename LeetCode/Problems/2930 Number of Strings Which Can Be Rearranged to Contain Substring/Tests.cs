@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2930_Number_of_Strings_Which_Can_Be_Rearranged_to_Contain_Substring;
+namespace LeetCode.Problems._2930_Number_of_Strings_Which_Can_Be_Rearranged_to_Contain_Substring;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

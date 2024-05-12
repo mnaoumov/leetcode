@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1897_Redistribute_Characters_to_Make_All_Strings_Equal;
+namespace LeetCode.Problems._1897_Redistribute_Characters_to_Make_All_Strings_Equal;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

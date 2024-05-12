@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1095_Find_in_Mountain_Array;
+namespace LeetCode.Problems._1095_Find_in_Mountain_Array;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1073080148/

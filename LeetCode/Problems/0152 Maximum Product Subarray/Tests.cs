@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0152_Maximum_Product_Subarray;
+namespace LeetCode.Problems._0152_Maximum_Product_Subarray;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

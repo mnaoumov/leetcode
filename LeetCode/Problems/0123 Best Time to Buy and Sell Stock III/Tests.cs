@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0123_Best_Time_to_Buy_and_Sell_Stock_III;
+namespace LeetCode.Problems._0123_Best_Time_to_Buy_and_Sell_Stock_III;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

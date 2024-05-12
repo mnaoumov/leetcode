@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2564_Substring_XOR_Queries;
+namespace LeetCode.Problems._2564_Substring_XOR_Queries;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-332/submissions/detail/896315924/

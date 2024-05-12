@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1928_Minimum_Cost_to_Reach_Destination_in_Time;
+namespace LeetCode.Problems._1928_Minimum_Cost_to_Reach_Destination_in_Time;
 
 [PublicAPI]
 public interface ISolution

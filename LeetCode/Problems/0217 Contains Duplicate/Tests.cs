@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0217_Contains_Duplicate;
+namespace LeetCode.Problems._0217_Contains_Duplicate;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2851_String_Transformation;
+namespace LeetCode.Problems._2851_String_Transformation;
 
 [UsedImplicitly]
 [Category("TODO")]

@@ -3,7 +3,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0017_Letter_Combinations_of_a_Phone_Number;
+namespace LeetCode.Problems._0017_Letter_Combinations_of_a_Phone_Number;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/809521193/

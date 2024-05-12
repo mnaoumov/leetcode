@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2956_Find_Common_Elements_Between_Two_Arrays;
+namespace LeetCode.Problems._2956_Find_Common_Elements_Between_Two_Arrays;
 
 [PublicAPI]
 public interface ISolution

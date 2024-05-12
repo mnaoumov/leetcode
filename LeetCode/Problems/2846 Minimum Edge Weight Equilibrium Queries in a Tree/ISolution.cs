@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2846_Minimum_Edge_Weight_Equilibrium_Queries_in_a_Tree;
+namespace LeetCode.Problems._2846_Minimum_Edge_Weight_Equilibrium_Queries_in_a_Tree;
 
 [PublicAPI]
 public interface ISolution

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1092_Shortest_Common_Supersequence;
+namespace LeetCode.Problems._1092_Shortest_Common_Supersequence;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2572_Count_the_Number_of_Square_Free_Subsets;
+namespace LeetCode.Problems._2572_Count_the_Number_of_Square_Free_Subsets;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

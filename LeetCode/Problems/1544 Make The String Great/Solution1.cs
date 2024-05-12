@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._1544_Make_The_String_Great;
+namespace LeetCode.Problems._1544_Make_The_String_Great;
 
 /// <summary>
 /// https://leetcode.com/problems/make-the-string-great/submissions/839068203/

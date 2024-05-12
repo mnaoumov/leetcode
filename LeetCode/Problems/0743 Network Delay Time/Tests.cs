@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0743_Network_Delay_Time;
+namespace LeetCode.Problems._0743_Network_Delay_Time;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

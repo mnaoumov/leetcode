@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2149_Rearrange_Array_Elements_by_Sign;
+namespace LeetCode.Problems._2149_Rearrange_Array_Elements_by_Sign;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1174662113/

@@ -5,7 +5,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0037_Sudoku_Solver;
+namespace LeetCode.Problems._0037_Sudoku_Solver;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/813133781/

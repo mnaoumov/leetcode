@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0135_Candy;
+namespace LeetCode.Problems._0135_Candy;
 
 /// <summary>
 /// https://leetcode.com/problems/candy/submissions/839125605/

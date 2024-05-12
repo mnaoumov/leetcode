@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2781_Length_of_the_Longest_Valid_Substring;
+namespace LeetCode.Problems._2781_Length_of_the_Longest_Valid_Substring;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-354/submissions/detail/995568138/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2470_Number_of_Subarrays_With_LCM_Equal_to_K;
+namespace LeetCode.Problems._2470_Number_of_Subarrays_With_LCM_Equal_to_K;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-319/submissions/detail/842340777/

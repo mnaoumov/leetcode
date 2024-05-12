@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2849_Determine_if_a_Cell_Is_Reachable_at_a_Given_Time;
+namespace LeetCode.Problems._2849_Determine_if_a_Cell_Is_Reachable_at_a_Given_Time;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-362/submissions/detail/1045201834/

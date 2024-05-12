@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0568_Maximum_Vacation_Days;
+namespace LeetCode.Problems._0568_Maximum_Vacation_Days;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1073018954/

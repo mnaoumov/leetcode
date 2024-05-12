@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2141_Maximum_Running_Time_of_N_Computers;
+namespace LeetCode.Problems._2141_Maximum_Running_Time_of_N_Computers;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

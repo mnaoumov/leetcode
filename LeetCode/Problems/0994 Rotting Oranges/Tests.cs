@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0994_Rotting_Oranges;
+namespace LeetCode.Problems._0994_Rotting_Oranges;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

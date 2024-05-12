@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0881_Boats_to_Save_People;
+namespace LeetCode.Problems._0881_Boats_to_Save_People;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/914072629/

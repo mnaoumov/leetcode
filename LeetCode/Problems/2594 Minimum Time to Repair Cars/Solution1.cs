@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2594_Minimum_Time_to_Repair_Cars;
+namespace LeetCode.Problems._2594_Minimum_Time_to_Repair_Cars;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-100/submissions/detail/917525138/

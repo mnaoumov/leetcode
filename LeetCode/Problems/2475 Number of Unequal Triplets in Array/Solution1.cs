@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2475_Number_of_Unequal_Triplets_in_Array;
+namespace LeetCode.Problems._2475_Number_of_Unequal_Triplets_in_Array;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-320/submissions/detail/846625632/

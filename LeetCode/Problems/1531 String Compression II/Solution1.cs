@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._1531_String_Compression_II;
+namespace LeetCode.Problems._1531_String_Compression_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/823309721/

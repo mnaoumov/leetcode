@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2535_Difference_Between_Element_Sum_and_Digit_Sum_of_an_Array;
+namespace LeetCode.Problems._2535_Difference_Between_Element_Sum_and_Digit_Sum_of_an_Array;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

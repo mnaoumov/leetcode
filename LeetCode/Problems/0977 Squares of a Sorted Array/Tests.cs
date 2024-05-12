@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0977_Squares_of_a_Sorted_Array;
+namespace LeetCode.Problems._0977_Squares_of_a_Sorted_Array;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

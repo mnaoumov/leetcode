@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0152_Maximum_Product_Subarray;
+namespace LeetCode.Problems._0152_Maximum_Product_Subarray;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/198325831/

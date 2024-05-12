@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2101_Detonate_the_Maximum_Bombs;
+namespace LeetCode.Problems._2101_Detonate_the_Maximum_Bombs;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/906954084/

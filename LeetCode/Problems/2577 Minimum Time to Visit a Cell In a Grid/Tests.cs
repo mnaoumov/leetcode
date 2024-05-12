@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2577_Minimum_Time_to_Visit_a_Cell_In_a_Grid;
+namespace LeetCode.Problems._2577_Minimum_Time_to_Visit_a_Cell_In_a_Grid;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

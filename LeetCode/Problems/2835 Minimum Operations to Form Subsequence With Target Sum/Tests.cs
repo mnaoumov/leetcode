@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2835_Minimum_Operations_to_Form_Subsequence_With_Target_Sum;
+namespace LeetCode.Problems._2835_Minimum_Operations_to_Form_Subsequence_With_Target_Sum;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

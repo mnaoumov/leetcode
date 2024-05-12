@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0160_Intersection_of_Two_Linked_Lists;
+namespace LeetCode.Problems._0160_Intersection_of_Two_Linked_Lists;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0439_Ternary_Expression_Parser;
+namespace LeetCode.Problems._0439_Ternary_Expression_Parser;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

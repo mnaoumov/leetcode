@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._2663_Lexicographically_Smallest_Beautiful_String;
+namespace LeetCode.Problems._2663_Lexicographically_Smallest_Beautiful_String;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-343/submissions/detail/941904474/

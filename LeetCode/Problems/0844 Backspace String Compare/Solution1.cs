@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0844_Backspace_String_Compare;
+namespace LeetCode.Problems._0844_Backspace_String_Compare;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/899441371/

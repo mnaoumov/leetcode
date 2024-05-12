@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1079_Letter_Tile_Possibilities;
+namespace LeetCode.Problems._1079_Letter_Tile_Possibilities;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/925758430/

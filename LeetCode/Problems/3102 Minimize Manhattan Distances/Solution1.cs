@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3102_Minimize_Manhattan_Distances;
+namespace LeetCode.Problems._3102_Minimize_Manhattan_Distances;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-391/submissions/detail/1218834857/

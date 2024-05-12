@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2811_Check_if_it_is_Possible_to_Split_Array;
+namespace LeetCode.Problems._2811_Check_if_it_is_Possible_to_Split_Array;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

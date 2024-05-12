@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1268_Search_Suggestions_System;
+namespace LeetCode.Problems._1268_Search_Suggestions_System;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/921634851/

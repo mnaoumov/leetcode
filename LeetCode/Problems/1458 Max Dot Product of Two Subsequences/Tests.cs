@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1458_Max_Dot_Product_of_Two_Subsequences;
+namespace LeetCode.Problems._1458_Max_Dot_Product_of_Two_Subsequences;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3063_Linked_List_Frequency;
+namespace LeetCode.Problems._3063_Linked_List_Frequency;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1197151274/

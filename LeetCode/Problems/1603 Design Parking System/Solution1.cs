@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1603_Design_Parking_System;
+namespace LeetCode.Problems._1603_Design_Parking_System;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/929812304/

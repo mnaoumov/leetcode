@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1448_Count_Good_Nodes_in_Binary_Tree;
+namespace LeetCode.Problems._1448_Count_Good_Nodes_in_Binary_Tree;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/904380951/

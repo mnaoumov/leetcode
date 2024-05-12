@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2768_Number_of_Black_Blocks;
+namespace LeetCode.Problems._2768_Number_of_Black_Blocks;
 
 /// <summary>
 /// TODO url

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2501_Longest_Square_Streak_in_an_Array;
+namespace LeetCode.Problems._2501_Longest_Square_Streak_in_an_Array;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/858997990/

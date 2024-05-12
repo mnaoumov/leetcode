@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0875_Koko_Eating_Bananas;
+namespace LeetCode.Problems._0875_Koko_Eating_Bananas;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/911178259/

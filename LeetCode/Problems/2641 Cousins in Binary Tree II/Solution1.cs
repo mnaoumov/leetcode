@@ -1,7 +1,7 @@
 using System.Numerics;
 using JetBrains.Annotations;
 
-namespace LeetCode._2641_Cousins_in_Binary_Tree_II;
+namespace LeetCode.Problems._2641_Cousins_in_Binary_Tree_II;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-102/submissions/detail/934191182/

@@ -2,7 +2,7 @@
 #pragma warning disable
 using JetBrains.Annotations;
 
-namespace LeetCode._0085_Maximal_Rectangle;
+namespace LeetCode.Problems._0085_Maximal_Rectangle;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/200371094/

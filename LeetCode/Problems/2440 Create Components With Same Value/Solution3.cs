@@ -4,7 +4,7 @@ using JetBrains.Annotations;
 #pragma warning disable CS8321
 #pragma warning disable CS8602
 
-namespace LeetCode._2440_Create_Components_With_Same_Value;
+namespace LeetCode.Problems._2440_Create_Components_With_Same_Value;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/826255453/

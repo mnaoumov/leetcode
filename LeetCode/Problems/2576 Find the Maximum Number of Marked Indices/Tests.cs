@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2576_Find_the_Maximum_Number_of_Marked_Indices;
+namespace LeetCode.Problems._2576_Find_the_Maximum_Number_of_Marked_Indices;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

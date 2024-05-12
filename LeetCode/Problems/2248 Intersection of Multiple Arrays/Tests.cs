@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._2248_Intersection_of_Multiple_Arrays;
+namespace LeetCode.Problems._2248_Intersection_of_Multiple_Arrays;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2736_Maximum_Sum_Queries;
+namespace LeetCode.Problems._2736_Maximum_Sum_Queries;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-349/submissions/detail/968572750/

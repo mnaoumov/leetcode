@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2506_Count_Pairs_Of_Similar_Strings;
+namespace LeetCode.Problems._2506_Count_Pairs_Of_Similar_Strings;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

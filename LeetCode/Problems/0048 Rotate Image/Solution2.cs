@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0048_Rotate_Image;
+namespace LeetCode.Problems._0048_Rotate_Image;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/815519381/

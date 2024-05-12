@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._1293_Shortest_Path_in_a_Grid_with_Obstacles_Elimination;
+namespace LeetCode.Problems._1293_Shortest_Path_in_a_Grid_with_Obstacles_Elimination;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

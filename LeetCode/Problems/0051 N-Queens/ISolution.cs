@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0051_N_Queens;
+namespace LeetCode.Problems._0051_N_Queens;
 
 [PublicAPI]
 public interface ISolution

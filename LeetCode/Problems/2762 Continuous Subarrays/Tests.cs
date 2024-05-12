@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2762_Continuous_Subarrays;
+namespace LeetCode.Problems._2762_Continuous_Subarrays;
 
 [UsedImplicitly]
 [Category("TODO")]

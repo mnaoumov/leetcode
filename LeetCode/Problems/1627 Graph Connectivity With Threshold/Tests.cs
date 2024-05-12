@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._1627_Graph_Connectivity_With_Threshold;
+namespace LeetCode.Problems._1627_Graph_Connectivity_With_Threshold;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

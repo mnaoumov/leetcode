@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._0645_Set_Mismatch;
+namespace LeetCode.Problems._0645_Set_Mismatch;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

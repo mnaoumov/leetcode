@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0409_Longest_Palindrome;
+namespace LeetCode.Problems._0409_Longest_Palindrome;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/914082097/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2767_Partition_String_Into_Minimum_Beautiful_Substrings;
+namespace LeetCode.Problems._2767_Partition_String_Into_Minimum_Beautiful_Substrings;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/989500208/

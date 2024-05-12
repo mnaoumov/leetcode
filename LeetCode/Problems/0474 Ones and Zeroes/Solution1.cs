@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0474_Ones_and_Zeroes;
+namespace LeetCode.Problems._0474_Ones_and_Zeroes;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/921089091/

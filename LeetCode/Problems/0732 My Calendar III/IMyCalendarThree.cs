@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0732_My_Calendar_III;
+namespace LeetCode.Problems._0732_My_Calendar_III;
 
 public interface IMyCalendarThree
 {

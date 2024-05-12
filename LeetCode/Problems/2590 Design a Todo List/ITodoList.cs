@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2590_Design_a_Todo_List;
+namespace LeetCode.Problems._2590_Design_a_Todo_List;
 
 [PublicAPI]
 public interface ITodoList

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2571_Minimum_Operations_to_Reduce_an_Integer_to_0;
+namespace LeetCode.Problems._2571_Minimum_Operations_to_Reduce_an_Integer_to_0;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-333/submissions/detail/900692522/

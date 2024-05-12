@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1202_Smallest_String_With_Swaps;
+namespace LeetCode.Problems._1202_Smallest_String_With_Swaps;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

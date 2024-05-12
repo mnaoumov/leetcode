@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0270_Closest_Binary_Search_Tree_Value;
+namespace LeetCode.Problems._0270_Closest_Binary_Search_Tree_Value;
 
 [PublicAPI]
 public interface ISolution

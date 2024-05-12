@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3074_Apple_Redistribution_into_Boxes;
+namespace LeetCode.Problems._3074_Apple_Redistribution_into_Boxes;
 
 [PublicAPI]
 public interface ISolution

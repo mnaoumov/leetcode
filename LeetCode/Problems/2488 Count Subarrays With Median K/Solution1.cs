@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2488_Count_Subarrays_With_Median_K;
+namespace LeetCode.Problems._2488_Count_Subarrays_With_Median_K;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/855914886/

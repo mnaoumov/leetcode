@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2601_Prime_Subtraction_Operation;
+namespace LeetCode.Problems._2601_Prime_Subtraction_Operation;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-338/submissions/detail/922160346/

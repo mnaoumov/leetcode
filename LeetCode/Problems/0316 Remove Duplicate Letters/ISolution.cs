@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0316_Remove_Duplicate_Letters;
+namespace LeetCode.Problems._0316_Remove_Duplicate_Letters;
 
 [PublicAPI]
 public interface ISolution

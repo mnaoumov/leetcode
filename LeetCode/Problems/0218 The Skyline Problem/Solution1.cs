@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0218_The_Skyline_Problem;
+namespace LeetCode.Problems._0218_The_Skyline_Problem;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/812157965/

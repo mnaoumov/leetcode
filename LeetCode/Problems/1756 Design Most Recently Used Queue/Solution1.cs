@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1756_Design_Most_Recently_Used_Queue;
+namespace LeetCode.Problems._1756_Design_Most_Recently_Used_Queue;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/957982869/

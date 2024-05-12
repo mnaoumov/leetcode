@@ -1,4 +1,4 @@
-namespace LeetCode._0589_N_ary_Tree_Preorder_Traversal;
+namespace LeetCode.Problems._0589_N_ary_Tree_Preorder_Traversal;
 
 public class Node
 {

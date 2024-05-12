@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1254_Number_of_Closed_Islands;
+namespace LeetCode.Problems._1254_Number_of_Closed_Islands;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/924028732/

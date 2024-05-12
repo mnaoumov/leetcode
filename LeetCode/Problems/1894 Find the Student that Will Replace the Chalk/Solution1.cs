@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1894_Find_the_Student_that_Will_Replace_the_Chalk;
+namespace LeetCode.Problems._1894_Find_the_Student_that_Will_Replace_the_Chalk;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/930980564/

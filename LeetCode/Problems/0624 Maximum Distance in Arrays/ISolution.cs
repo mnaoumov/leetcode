@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0624_Maximum_Distance_in_Arrays;
+namespace LeetCode.Problems._0624_Maximum_Distance_in_Arrays;
 
 [PublicAPI]
 public interface ISolution

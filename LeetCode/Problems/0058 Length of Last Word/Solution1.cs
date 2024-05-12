@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0058_Length_of_Last_Word;
+namespace LeetCode.Problems._0058_Length_of_Last_Word;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/819454842/

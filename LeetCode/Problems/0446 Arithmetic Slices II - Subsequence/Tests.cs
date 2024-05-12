@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0446_Arithmetic_Slices_II___Subsequence;
+namespace LeetCode.Problems._0446_Arithmetic_Slices_II___Subsequence;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

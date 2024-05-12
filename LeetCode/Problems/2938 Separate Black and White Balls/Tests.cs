@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2938_Separate_Black_and_White_Balls;
+namespace LeetCode.Problems._2938_Separate_Black_and_White_Balls;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

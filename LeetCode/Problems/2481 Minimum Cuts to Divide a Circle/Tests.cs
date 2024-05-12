@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2481_Minimum_Cuts_to_Divide_a_Circle;
+namespace LeetCode.Problems._2481_Minimum_Cuts_to_Divide_a_Circle;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

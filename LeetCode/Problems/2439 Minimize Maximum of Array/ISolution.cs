@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2439_Minimize_Maximum_of_Array;
+namespace LeetCode.Problems._2439_Minimize_Maximum_of_Array;
 
 [PublicAPI]
 public interface ISolution

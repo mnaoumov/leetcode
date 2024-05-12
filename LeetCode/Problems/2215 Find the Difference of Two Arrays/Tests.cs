@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2215_Find_the_Difference_of_Two_Arrays;
+namespace LeetCode.Problems._2215_Find_the_Difference_of_Two_Arrays;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

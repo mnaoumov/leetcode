@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0560_Subarray_Sum_Equals_K;
+namespace LeetCode.Problems._0560_Subarray_Sum_Equals_K;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

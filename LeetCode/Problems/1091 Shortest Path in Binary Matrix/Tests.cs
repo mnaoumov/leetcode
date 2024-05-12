@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1091_Shortest_Path_in_Binary_Matrix;
+namespace LeetCode.Problems._1091_Shortest_Path_in_Binary_Matrix;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

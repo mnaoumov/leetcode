@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1444_Number_of_Ways_of_Cutting_a_Pizza;
+namespace LeetCode.Problems._1444_Number_of_Ways_of_Cutting_a_Pizza;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

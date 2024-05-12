@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0084_Largest_Rectangle_in_Histogram;
+namespace LeetCode.Problems._0084_Largest_Rectangle_in_Histogram;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

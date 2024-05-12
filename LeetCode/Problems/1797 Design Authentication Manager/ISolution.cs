@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1797_Design_Authentication_Manager;
+namespace LeetCode.Problems._1797_Design_Authentication_Manager;
 
 [PublicAPI]
 public interface ISolution

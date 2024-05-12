@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2765_Longest_Alternating_Subarray;
+namespace LeetCode.Problems._2765_Longest_Alternating_Subarray;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-108/submissions/detail/989385713/

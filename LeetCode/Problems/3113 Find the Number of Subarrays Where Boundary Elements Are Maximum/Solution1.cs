@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3113_Find_the_Number_of_Subarrays_Where_Boundary_Elements_Are_Maximum;
+namespace LeetCode.Problems._3113_Find_the_Number_of_Subarrays_Where_Boundary_Elements_Are_Maximum;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-128/submissions/detail/1231302341/

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2652_Sum_Multiples;
+namespace LeetCode.Problems._2652_Sum_Multiples;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2104_Sum_of_Subarray_Ranges;
+namespace LeetCode.Problems._2104_Sum_of_Subarray_Ranges;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/903878524/

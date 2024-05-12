@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2663_Lexicographically_Smallest_Beautiful_String;
+namespace LeetCode.Problems._2663_Lexicographically_Smallest_Beautiful_String;
 
 [PublicAPI]
 public interface ISolution

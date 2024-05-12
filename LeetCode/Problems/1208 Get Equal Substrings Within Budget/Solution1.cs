@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1208_Get_Equal_Substrings_Within_Budget;
+namespace LeetCode.Problems._1208_Get_Equal_Substrings_Within_Budget;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/898918285/

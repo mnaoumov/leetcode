@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0240_Search_a_2D_Matrix_II;
+namespace LeetCode.Problems._0240_Search_a_2D_Matrix_II;
 
 [PublicAPI]
 public interface ISolution

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3044_Most_Frequent_Prime;
+namespace LeetCode.Problems._3044_Most_Frequent_Prime;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-385/submissions/detail/1178470346/

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0487_Max_Consecutive_Ones_II;
+namespace LeetCode.Problems._0487_Max_Consecutive_Ones_II;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

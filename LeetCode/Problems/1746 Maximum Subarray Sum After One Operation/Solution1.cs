@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1746_Maximum_Subarray_Sum_After_One_Operation;
+namespace LeetCode.Problems._1746_Maximum_Subarray_Sum_After_One_Operation;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/938735622/

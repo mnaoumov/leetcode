@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1898_Maximum_Number_of_Removable_Characters;
+namespace LeetCode.Problems._1898_Maximum_Number_of_Removable_Characters;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

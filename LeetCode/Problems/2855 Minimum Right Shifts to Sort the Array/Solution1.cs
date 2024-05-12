@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2855_Minimum_Right_Shifts_to_Sort_the_Array;
+namespace LeetCode.Problems._2855_Minimum_Right_Shifts_to_Sort_the_Array;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-113/submissions/detail/1050918218/

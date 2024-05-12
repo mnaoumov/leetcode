@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._1065_Index_Pairs_of_a_String;
+namespace LeetCode.Problems._1065_Index_Pairs_of_a_String;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

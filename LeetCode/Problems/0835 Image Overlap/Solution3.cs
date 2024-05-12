@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0835_Image_Overlap;
+namespace LeetCode.Problems._0835_Image_Overlap;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/831690946/

@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0023_Merge_k_Sorted_Lists;
+namespace LeetCode.Problems._0023_Merge_k_Sorted_Lists;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

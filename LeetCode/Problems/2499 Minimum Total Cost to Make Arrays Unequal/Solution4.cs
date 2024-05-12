@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2499_Minimum_Total_Cost_to_Make_Arrays_Unequal;
+namespace LeetCode.Problems._2499_Minimum_Total_Cost_to_Make_Arrays_Unequal;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/858983052/

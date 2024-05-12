@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0218_The_Skyline_Problem;
+namespace LeetCode.Problems._0218_The_Skyline_Problem;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/829094402/

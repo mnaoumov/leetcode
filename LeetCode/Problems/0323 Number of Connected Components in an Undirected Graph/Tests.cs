@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0323_Number_of_Connected_Components_in_an_Undirected_Graph;
+namespace LeetCode.Problems._0323_Number_of_Connected_Components_in_an_Undirected_Graph;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0633_Sum_of_Square_Numbers;
+namespace LeetCode.Problems._0633_Sum_of_Square_Numbers;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

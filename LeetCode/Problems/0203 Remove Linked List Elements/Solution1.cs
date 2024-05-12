@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0203_Remove_Linked_List_Elements;
+namespace LeetCode.Problems._0203_Remove_Linked_List_Elements;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/899425157/

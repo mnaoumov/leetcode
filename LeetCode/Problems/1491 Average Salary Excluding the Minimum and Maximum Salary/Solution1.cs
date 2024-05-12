@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1491_Average_Salary_Excluding_the_Minimum_and_Maximum_Salary;
+namespace LeetCode.Problems._1491_Average_Salary_Excluding_the_Minimum_and_Maximum_Salary;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/923917209/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0875_Koko_Eating_Bananas;
+namespace LeetCode.Problems._0875_Koko_Eating_Bananas;
 
 [PublicAPI]
 public interface ISolution

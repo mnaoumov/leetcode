@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1182_Shortest_Distance_to_Target_Color;
+namespace LeetCode.Problems._1182_Shortest_Distance_to_Target_Color;
 
 [PublicAPI]
 public interface ISolution

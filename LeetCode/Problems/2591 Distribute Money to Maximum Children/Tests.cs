@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2591_Distribute_Money_to_Maximum_Children;
+namespace LeetCode.Problems._2591_Distribute_Money_to_Maximum_Children;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

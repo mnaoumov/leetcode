@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2744_Find_Maximum_Number_of_String_Pairs;
+namespace LeetCode.Problems._2744_Find_Maximum_Number_of_String_Pairs;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2949_Count_Beautiful_Substrings_II;
+namespace LeetCode.Problems._2949_Count_Beautiful_Substrings_II;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-373/submissions/detail/1106516711/

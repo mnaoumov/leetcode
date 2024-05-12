@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3046_Split_the_Array;
+namespace LeetCode.Problems._3046_Split_the_Array;
 
 [PublicAPI]
 public interface ISolution

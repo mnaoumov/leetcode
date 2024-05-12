@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3143_Maximum_Points_Inside_the_Square;
+namespace LeetCode.Problems._3143_Maximum_Points_Inside_the_Square;
 
 [PublicAPI]
 public interface ISolution

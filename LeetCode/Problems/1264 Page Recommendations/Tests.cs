@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1264_Page_Recommendations;
+namespace LeetCode.Problems._1264_Page_Recommendations;
 
 [UsedImplicitly]
 public class Tests : SelectSqlTestsBase<Tests>

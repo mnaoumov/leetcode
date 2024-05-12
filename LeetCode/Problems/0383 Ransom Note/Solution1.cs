@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0383_Ransom_Note;
+namespace LeetCode.Problems._0383_Ransom_Note;
 
 /// <summary>
 /// https://leetcode.com/problems/ransom-note/submissions/845906888/

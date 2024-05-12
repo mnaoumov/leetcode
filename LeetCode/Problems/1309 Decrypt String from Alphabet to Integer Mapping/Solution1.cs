@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._1309_Decrypt_String_from_Alphabet_to_Integer_Mapping;
+namespace LeetCode.Problems._1309_Decrypt_String_from_Alphabet_to_Integer_Mapping;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/927655954/

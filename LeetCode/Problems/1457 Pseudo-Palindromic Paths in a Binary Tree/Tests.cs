@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1457_Pseudo_Palindromic_Paths_in_a_Binary_Tree;
+namespace LeetCode.Problems._1457_Pseudo_Palindromic_Paths_in_a_Binary_Tree;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

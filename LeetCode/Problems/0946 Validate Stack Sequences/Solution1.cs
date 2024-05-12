@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0946_Validate_Stack_Sequences;
+namespace LeetCode.Problems._0946_Validate_Stack_Sequences;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/932786859/

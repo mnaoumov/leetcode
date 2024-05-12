@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1035_Uncrossed_Lines;
+namespace LeetCode.Problems._1035_Uncrossed_Lines;
 
 [PublicAPI]
 public interface ISolution

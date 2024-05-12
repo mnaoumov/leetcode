@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2685_Count_the_Number_of_Complete_Components;
+namespace LeetCode.Problems._2685_Count_the_Number_of_Complete_Components;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

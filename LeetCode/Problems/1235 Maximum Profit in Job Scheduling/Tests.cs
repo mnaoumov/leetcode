@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1235_Maximum_Profit_in_Job_Scheduling;
+namespace LeetCode.Problems._1235_Maximum_Profit_in_Job_Scheduling;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

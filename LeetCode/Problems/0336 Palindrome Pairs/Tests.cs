@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0336_Palindrome_Pairs;
+namespace LeetCode.Problems._0336_Palindrome_Pairs;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

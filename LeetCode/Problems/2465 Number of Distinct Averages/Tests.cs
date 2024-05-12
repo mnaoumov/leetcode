@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2465_Number_of_Distinct_Averages;
+namespace LeetCode.Problems._2465_Number_of_Distinct_Averages;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

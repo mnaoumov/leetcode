@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0035_Search_Insert_Position;
+namespace LeetCode.Problems._0035_Search_Insert_Position;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

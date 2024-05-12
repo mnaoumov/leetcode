@@ -1,7 +1,7 @@
 using System.Numerics;
 using JetBrains.Annotations;
 
-namespace LeetCode._2906_Construct_Product_Matrix;
+namespace LeetCode.Problems._2906_Construct_Product_Matrix;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-367/submissions/detail/1075519243/

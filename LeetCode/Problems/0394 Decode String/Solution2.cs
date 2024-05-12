@@ -3,7 +3,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0394_Decode_String;
+namespace LeetCode.Problems._0394_Decode_String;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/196678531/

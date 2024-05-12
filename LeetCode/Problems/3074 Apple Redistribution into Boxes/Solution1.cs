@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3074_Apple_Redistribution_into_Boxes;
+namespace LeetCode.Problems._3074_Apple_Redistribution_into_Boxes;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-388/submissions/detail/1199061433/

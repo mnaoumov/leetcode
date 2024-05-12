@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3040_Maximum_Number_of_Operations_With_the_Same_Score_II;
+namespace LeetCode.Problems._3040_Maximum_Number_of_Operations_With_the_Same_Score_II;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

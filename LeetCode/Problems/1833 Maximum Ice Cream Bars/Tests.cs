@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1833_Maximum_Ice_Cream_Bars;
+namespace LeetCode.Problems._1833_Maximum_Ice_Cream_Bars;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

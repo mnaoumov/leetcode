@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0348_Design_Tic_Tac_Toe;
+namespace LeetCode.Problems._0348_Design_Tic_Tac_Toe;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/959326909/

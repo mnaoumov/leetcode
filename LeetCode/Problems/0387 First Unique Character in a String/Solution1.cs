@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0387_First_Unique_Character_in_a_String;
+namespace LeetCode.Problems._0387_First_Unique_Character_in_a_String;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/923042050/

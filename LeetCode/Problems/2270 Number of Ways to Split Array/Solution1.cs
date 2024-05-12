@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2270_Number_of_Ways_to_Split_Array;
+namespace LeetCode.Problems._2270_Number_of_Ways_to_Split_Array;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/855797797/

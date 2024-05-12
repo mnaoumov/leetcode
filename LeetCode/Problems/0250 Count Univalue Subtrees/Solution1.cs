@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0250_Count_Univalue_Subtrees;
+namespace LeetCode.Problems._0250_Count_Univalue_Subtrees;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/982096181/

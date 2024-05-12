@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0799_Champagne_Tower;
+namespace LeetCode.Problems._0799_Champagne_Tower;
 
 [PublicAPI]
 public interface ISolution

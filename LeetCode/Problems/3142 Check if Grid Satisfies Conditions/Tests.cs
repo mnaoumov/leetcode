@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3142_Check_if_Grid_Satisfies_Conditions;
+namespace LeetCode.Problems._3142_Check_if_Grid_Satisfies_Conditions;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2841_Maximum_Sum_of_Almost_Unique_Subarray;
+namespace LeetCode.Problems._2841_Maximum_Sum_of_Almost_Unique_Subarray;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

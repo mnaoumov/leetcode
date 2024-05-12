@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2842_Count_K_Subsequences_of_a_String_With_Maximum_Beauty;
+namespace LeetCode.Problems._2842_Count_K_Subsequences_of_a_String_With_Maximum_Beauty;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

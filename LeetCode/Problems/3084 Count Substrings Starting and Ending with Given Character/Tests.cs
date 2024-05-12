@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3084_Count_Substrings_Starting_and_Ending_with_Given_Character;
+namespace LeetCode.Problems._3084_Count_Substrings_Starting_and_Ending_with_Given_Character;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

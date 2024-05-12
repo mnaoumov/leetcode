@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0956_Tallest_Billboard;
+namespace LeetCode.Problems._0956_Tallest_Billboard;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

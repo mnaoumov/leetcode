@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2187_Minimum_Time_to_Complete_Trips;
+namespace LeetCode.Problems._2187_Minimum_Time_to_Complete_Trips;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

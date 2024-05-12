@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0049_Group_Anagrams;
+namespace LeetCode.Problems._0049_Group_Anagrams;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

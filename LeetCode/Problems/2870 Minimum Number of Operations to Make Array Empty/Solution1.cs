@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2870_Minimum_Number_of_Operations_to_Make_Array_Empty;
+namespace LeetCode.Problems._2870_Minimum_Number_of_Operations_to_Make_Array_Empty;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-114/submissions/detail/1063112806/

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2934_Minimum_Operations_to_Maximize_Last_Elements_in_Arrays;
+namespace LeetCode.Problems._2934_Minimum_Operations_to_Maximize_Last_Elements_in_Arrays;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1823_Find_the_Winner_of_the_Circular_Game;
+namespace LeetCode.Problems._1823_Find_the_Winner_of_the_Circular_Game;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/941944678/

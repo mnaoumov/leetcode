@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0252_Meeting_Rooms;
+namespace LeetCode.Problems._0252_Meeting_Rooms;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/921928297/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0382_Linked_List_Random_Node;
+namespace LeetCode.Problems._0382_Linked_List_Random_Node;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/912406020/

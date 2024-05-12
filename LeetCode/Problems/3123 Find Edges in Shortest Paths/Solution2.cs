@@ -1,7 +1,7 @@
 using System.Collections.Immutable;
 using JetBrains.Annotations;
 
-namespace LeetCode._3123_Find_Edges_in_Shortest_Paths;
+namespace LeetCode.Problems._3123_Find_Edges_in_Shortest_Paths;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-394/submissions/detail/1237870470/

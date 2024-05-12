@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2260_Minimum_Consecutive_Cards_to_Pick_Up;
+namespace LeetCode.Problems._2260_Minimum_Consecutive_Cards_to_Pick_Up;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

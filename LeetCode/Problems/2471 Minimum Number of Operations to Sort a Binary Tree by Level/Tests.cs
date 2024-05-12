@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2471_Minimum_Number_of_Operations_to_Sort_a_Binary_Tree_by_Level;
+namespace LeetCode.Problems._2471_Minimum_Number_of_Operations_to_Sort_a_Binary_Tree_by_Level;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

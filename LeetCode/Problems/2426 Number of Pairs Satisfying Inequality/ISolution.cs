@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2426_Number_of_Pairs_Satisfying_Inequality;
+namespace LeetCode.Problems._2426_Number_of_Pairs_Satisfying_Inequality;
 
 [PublicAPI]
 public interface ISolution

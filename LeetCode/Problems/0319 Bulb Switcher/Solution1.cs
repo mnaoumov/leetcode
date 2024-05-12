@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0319_Bulb_Switcher;
+namespace LeetCode.Problems._0319_Bulb_Switcher;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/940337713/

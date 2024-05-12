@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0350_Intersection_of_Two_Arrays_II;
+namespace LeetCode.Problems._0350_Intersection_of_Two_Arrays_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/922822201/

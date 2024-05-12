@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1915_Number_of_Wonderful_Substrings;
+namespace LeetCode.Problems._1915_Number_of_Wonderful_Substrings;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1246981858/

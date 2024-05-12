@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2939_Maximum_Xor_Product;
+namespace LeetCode.Problems._2939_Maximum_Xor_Product;
 
 [UsedImplicitly]
 [Category("TODO")]

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0727_Minimum_Window_Subsequence;
+namespace LeetCode.Problems._0727_Minimum_Window_Subsequence;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/938619832/

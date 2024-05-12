@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2192_All_Ancestors_of_a_Node_in_a_Directed_Acyclic_Graph;
+namespace LeetCode.Problems._2192_All_Ancestors_of_a_Node_in_a_Directed_Acyclic_Graph;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/906869118/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0763_Partition_Labels;
+namespace LeetCode.Problems._0763_Partition_Labels;
 
 [PublicAPI]
 public interface ISolution

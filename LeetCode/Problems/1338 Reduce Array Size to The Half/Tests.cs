@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1338_Reduce_Array_Size_to_The_Half;
+namespace LeetCode.Problems._1338_Reduce_Array_Size_to_The_Half;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

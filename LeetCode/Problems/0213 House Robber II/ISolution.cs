@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0213_House_Robber_II;
+namespace LeetCode.Problems._0213_House_Robber_II;
 
 [PublicAPI]
 public interface ISolution

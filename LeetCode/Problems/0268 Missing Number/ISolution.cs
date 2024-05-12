@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0268_Missing_Number;
+namespace LeetCode.Problems._0268_Missing_Number;
 
 [PublicAPI]
 public interface ISolution

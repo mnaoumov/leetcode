@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1020_Number_of_Enclaves;
+namespace LeetCode.Problems._1020_Number_of_Enclaves;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

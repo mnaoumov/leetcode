@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0268_Missing_Number;
+namespace LeetCode.Problems._0268_Missing_Number;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/856307358/

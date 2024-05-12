@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2966_Divide_Array_Into_Arrays_With_Max_Difference;
+namespace LeetCode.Problems._2966_Divide_Array_Into_Arrays_With_Max_Difference;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

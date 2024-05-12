@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2733_Neither_Minimum_nor_Maximum;
+namespace LeetCode.Problems._2733_Neither_Minimum_nor_Maximum;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-349/submissions/detail/968481725/

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2478_Number_of_Beautiful_Partitions;
+namespace LeetCode.Problems._2478_Number_of_Beautiful_Partitions;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

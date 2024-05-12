@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2555_Maximize_Win_From_Two_Segments;
+namespace LeetCode.Problems._2555_Maximize_Win_From_Two_Segments;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

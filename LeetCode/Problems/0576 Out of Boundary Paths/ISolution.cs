@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0576_Out_of_Boundary_Paths;
+namespace LeetCode.Problems._0576_Out_of_Boundary_Paths;
 
 [PublicAPI]
 public interface ISolution

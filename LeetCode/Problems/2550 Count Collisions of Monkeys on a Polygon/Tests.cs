@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2550_Count_Collisions_of_Monkeys_on_a_Polygon;
+namespace LeetCode.Problems._2550_Count_Collisions_of_Monkeys_on_a_Polygon;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

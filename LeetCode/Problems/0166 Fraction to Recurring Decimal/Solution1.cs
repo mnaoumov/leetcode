@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._0166_Fraction_to_Recurring_Decimal;
+namespace LeetCode.Problems._0166_Fraction_to_Recurring_Decimal;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/875884658/

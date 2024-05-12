@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0913_Cat_and_Mouse;
+namespace LeetCode.Problems._0913_Cat_and_Mouse;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

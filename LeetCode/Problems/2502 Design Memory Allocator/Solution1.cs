@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2502_Design_Memory_Allocator;
+namespace LeetCode.Problems._2502_Design_Memory_Allocator;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/859016671/

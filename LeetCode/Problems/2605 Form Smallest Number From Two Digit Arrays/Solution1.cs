@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2605_Form_Smallest_Number_From_Two_Digit_Arrays;
+namespace LeetCode.Problems._2605_Form_Smallest_Number_From_Two_Digit_Arrays;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-101/submissions/detail/925951229/

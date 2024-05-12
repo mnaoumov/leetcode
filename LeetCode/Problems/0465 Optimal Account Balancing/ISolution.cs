@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0465_Optimal_Account_Balancing;
+namespace LeetCode.Problems._0465_Optimal_Account_Balancing;
 
 [PublicAPI]
 public interface ISolution

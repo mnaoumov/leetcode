@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0421_Maximum_XOR_of_Two_Numbers_in_an_Array;
+namespace LeetCode.Problems._0421_Maximum_XOR_of_Two_Numbers_in_an_Array;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/208463076/

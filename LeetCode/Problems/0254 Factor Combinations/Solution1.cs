@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0254_Factor_Combinations;
+namespace LeetCode.Problems._0254_Factor_Combinations;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/943589112/

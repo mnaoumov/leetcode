@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using System.Collections;
 
-namespace LeetCode._1921_Eliminate_Maximum_Number_of_Monsters;
+namespace LeetCode.Problems._1921_Eliminate_Maximum_Number_of_Monsters;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1093404436/

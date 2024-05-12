@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2685_Count_the_Number_of_Complete_Components;
+namespace LeetCode.Problems._2685_Count_the_Number_of_Complete_Components;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-345/submissions/detail/949948657/

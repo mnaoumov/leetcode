@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0739_Daily_Temperatures;
+namespace LeetCode.Problems._0739_Daily_Temperatures;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/861350595/

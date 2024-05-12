@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0299_Bulls_and_Cows;
+namespace LeetCode.Problems._0299_Bulls_and_Cows;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/930348811/

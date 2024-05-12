@@ -1,7 +1,7 @@
 using System.Numerics;
 using JetBrains.Annotations;
 
-namespace LeetCode._1201_Ugly_Number_III;
+namespace LeetCode.Problems._1201_Ugly_Number_III;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/966451793/

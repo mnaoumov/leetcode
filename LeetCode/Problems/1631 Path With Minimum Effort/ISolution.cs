@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1631_Path_With_Minimum_Effort;
+namespace LeetCode.Problems._1631_Path_With_Minimum_Effort;
 
 [PublicAPI]
 public interface ISolution

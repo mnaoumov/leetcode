@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1236_Web_Crawler;
+namespace LeetCode.Problems._1236_Web_Crawler;
 
 [PublicAPI]
 public interface ISolution

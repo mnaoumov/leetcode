@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1767_Find_the_Subtasks_That_Did_Not_Execute;
+namespace LeetCode.Problems._1767_Find_the_Subtasks_That_Did_Not_Execute;
 
 [UsedImplicitly]
 public class Tests : SelectSqlTestsBase<Tests>

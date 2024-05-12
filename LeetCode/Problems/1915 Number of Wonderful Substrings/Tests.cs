@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1915_Number_of_Wonderful_Substrings;
+namespace LeetCode.Problems._1915_Number_of_Wonderful_Substrings;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

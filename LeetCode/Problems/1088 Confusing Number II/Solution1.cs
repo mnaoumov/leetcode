@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1088_Confusing_Number_II;
+namespace LeetCode.Problems._1088_Confusing_Number_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/882735224/

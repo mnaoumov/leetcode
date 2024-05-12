@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2525_Categorize_Box_According_to_Criteria;
+namespace LeetCode.Problems._2525_Categorize_Box_According_to_Criteria;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

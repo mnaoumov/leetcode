@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1043_Partition_Array_for_Maximum_Sum;
+namespace LeetCode.Problems._1043_Partition_Array_for_Maximum_Sum;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

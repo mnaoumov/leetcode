@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2928_Distribute_Candies_Among_Children_I;
+namespace LeetCode.Problems._2928_Distribute_Candies_Among_Children_I;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

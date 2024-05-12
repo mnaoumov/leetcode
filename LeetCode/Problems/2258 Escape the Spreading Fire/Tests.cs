@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2258_Escape_the_Spreading_Fire;
+namespace LeetCode.Problems._2258_Escape_the_Spreading_Fire;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

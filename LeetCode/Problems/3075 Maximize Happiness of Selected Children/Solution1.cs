@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3075_Maximize_Happiness_of_Selected_Children;
+namespace LeetCode.Problems._3075_Maximize_Happiness_of_Selected_Children;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-388/submissions/detail/1199070915/

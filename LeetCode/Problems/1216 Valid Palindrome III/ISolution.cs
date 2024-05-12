@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1216_Valid_Palindrome_III;
+namespace LeetCode.Problems._1216_Valid_Palindrome_III;
 
 [PublicAPI]
 public interface ISolution

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0055_Jump_Game;
+namespace LeetCode.Problems._0055_Jump_Game;
 
 [PublicAPI]
 public interface ISolution

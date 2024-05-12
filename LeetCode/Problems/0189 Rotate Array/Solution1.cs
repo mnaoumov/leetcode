@@ -1,7 +1,7 @@
 using System.Numerics;
 using JetBrains.Annotations;
 
-namespace LeetCode._0189_Rotate_Array;
+namespace LeetCode.Problems._0189_Rotate_Array;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/922813832/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3046_Split_the_Array;
+namespace LeetCode.Problems._3046_Split_the_Array;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-386/submissions/detail/1185321359/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2428_Maximum_Sum_of_an_Hourglass;
+namespace LeetCode.Problems._2428_Maximum_Sum_of_an_Hourglass;
 
 [PublicAPI]
 public interface ISolution

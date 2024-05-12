@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0002_Add_Two_Numbers;
+namespace LeetCode.Problems._0002_Add_Two_Numbers;
 
 [PublicAPI]
 public interface ISolution

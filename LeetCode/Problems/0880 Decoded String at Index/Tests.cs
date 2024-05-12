@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0880_Decoded_String_at_Index;
+namespace LeetCode.Problems._0880_Decoded_String_at_Index;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

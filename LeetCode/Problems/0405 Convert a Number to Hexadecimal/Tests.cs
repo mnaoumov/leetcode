@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0405_Convert_a_Number_to_Hexadecimal;
+namespace LeetCode.Problems._0405_Convert_a_Number_to_Hexadecimal;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2894_Divisible_and_Non_divisible_Sums_Difference;
+namespace LeetCode.Problems._2894_Divisible_and_Non_divisible_Sums_Difference;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-366/submissions/detail/1069755298/

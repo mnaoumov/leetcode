@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2583_Kth_Largest_Sum_in_a_Binary_Tree;
+namespace LeetCode.Problems._2583_Kth_Largest_Sum_in_a_Binary_Tree;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

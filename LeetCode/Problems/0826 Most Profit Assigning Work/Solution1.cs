@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0826_Most_Profit_Assigning_Work;
+namespace LeetCode.Problems._0826_Most_Profit_Assigning_Work;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/936115936/

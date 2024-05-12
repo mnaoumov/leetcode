@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2543_Check_if_Point_Is_Reachable;
+namespace LeetCode.Problems._2543_Check_if_Point_Is_Reachable;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

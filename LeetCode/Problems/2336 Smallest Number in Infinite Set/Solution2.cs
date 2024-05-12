@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2336_Smallest_Number_in_Infinite_Set;
+namespace LeetCode.Problems._2336_Smallest_Number_in_Infinite_Set;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/908120671/

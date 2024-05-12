@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2208_Minimum_Operations_to_Halve_Array_Sum;
+namespace LeetCode.Problems._2208_Minimum_Operations_to_Halve_Array_Sum;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

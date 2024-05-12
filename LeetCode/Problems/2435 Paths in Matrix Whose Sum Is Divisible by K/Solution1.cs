@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2435_Paths_in_Matrix_Whose_Sum_Is_Divisible_by_K;
+namespace LeetCode.Problems._2435_Paths_in_Matrix_Whose_Sum_Is_Divisible_by_K;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/882140678/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1992_Find_All_Groups_of_Farmland;
+namespace LeetCode.Problems._1992_Find_All_Groups_of_Farmland;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

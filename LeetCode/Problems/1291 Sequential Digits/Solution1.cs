@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1291_Sequential_Digits;
+namespace LeetCode.Problems._1291_Sequential_Digits;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1164301195/

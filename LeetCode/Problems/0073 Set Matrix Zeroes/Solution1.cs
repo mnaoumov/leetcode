@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0073_Set_Matrix_Zeroes;
+namespace LeetCode.Problems._0073_Set_Matrix_Zeroes;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/820583896/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3092_Most_Frequent_IDs;
+namespace LeetCode.Problems._3092_Most_Frequent_IDs;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3070_Count_Submatrices_with_Top_Left_Element_and_Sum_Less_Than_k;
+namespace LeetCode.Problems._3070_Count_Submatrices_with_Top_Left_Element_and_Sum_Less_Than_k;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3149_Find_the_Minimum_Cost_Array_Permutation;
+namespace LeetCode.Problems._3149_Find_the_Minimum_Cost_Array_Permutation;
 
 [UsedImplicitly]
 [Category("TODO")]

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0573_Squirrel_Simulation;
+namespace LeetCode.Problems._0573_Squirrel_Simulation;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1094089319/

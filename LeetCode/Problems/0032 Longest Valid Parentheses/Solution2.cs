@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0032_Longest_Valid_Parentheses;
+namespace LeetCode.Problems._0032_Longest_Valid_Parentheses;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/200410559/

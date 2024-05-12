@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2214_Minimum_Health_to_Beat_Game;
+namespace LeetCode.Problems._2214_Minimum_Health_to_Beat_Game;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/875867469/

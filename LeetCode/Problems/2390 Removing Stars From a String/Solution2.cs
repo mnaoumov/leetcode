@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._2390_Removing_Stars_From_a_String;
+namespace LeetCode.Problems._2390_Removing_Stars_From_a_String;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/902685766/

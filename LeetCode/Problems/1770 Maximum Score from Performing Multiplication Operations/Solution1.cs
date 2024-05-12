@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1770_Maximum_Score_from_Performing_Multiplication_Operations;
+namespace LeetCode.Problems._1770_Maximum_Score_from_Performing_Multiplication_Operations;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/927249917/

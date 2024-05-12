@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0486_Predict_the_Winner;
+namespace LeetCode.Problems._0486_Predict_the_Winner;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

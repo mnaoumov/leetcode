@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1833_Maximum_Ice_Cream_Bars;
+namespace LeetCode.Problems._1833_Maximum_Ice_Cream_Bars;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/872274527/

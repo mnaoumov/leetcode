@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0214_Shortest_Palindrome;
+namespace LeetCode.Problems._0214_Shortest_Palindrome;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

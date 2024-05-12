@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1303_Find_the_Team_Size;
+namespace LeetCode.Problems._1303_Find_the_Team_Size;
 
 [UsedImplicitly]
 public class Tests : SelectSqlTestsBase<Tests>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0509_Fibonacci_Number;
+namespace LeetCode.Problems._0509_Fibonacci_Number;
 
 [PublicAPI]
 public interface ISolution

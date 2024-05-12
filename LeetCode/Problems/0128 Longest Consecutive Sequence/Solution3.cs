@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0128_Longest_Consecutive_Sequence;
+namespace LeetCode.Problems._0128_Longest_Consecutive_Sequence;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/199789573/

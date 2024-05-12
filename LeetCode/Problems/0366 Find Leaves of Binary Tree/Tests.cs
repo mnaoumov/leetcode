@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0366_Find_Leaves_of_Binary_Tree;
+namespace LeetCode.Problems._0366_Find_Leaves_of_Binary_Tree;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

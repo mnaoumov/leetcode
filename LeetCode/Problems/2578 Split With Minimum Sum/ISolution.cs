@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2578_Split_With_Minimum_Sum;
+namespace LeetCode.Problems._2578_Split_With_Minimum_Sum;
 
 [PublicAPI]
 public interface ISolution

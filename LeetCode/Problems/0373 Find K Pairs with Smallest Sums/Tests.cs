@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0373_Find_K_Pairs_with_Smallest_Sums;
+namespace LeetCode.Problems._0373_Find_K_Pairs_with_Smallest_Sums;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0342_Power_of_Four;
+namespace LeetCode.Problems._0342_Power_of_Four;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1081712202/

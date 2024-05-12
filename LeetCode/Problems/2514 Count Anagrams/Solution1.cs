@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2514_Count_Anagrams;
+namespace LeetCode.Problems._2514_Count_Anagrams;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/864953654/

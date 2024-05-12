@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0458_Poor_Pigs;
+namespace LeetCode.Problems._0458_Poor_Pigs;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1086990192/

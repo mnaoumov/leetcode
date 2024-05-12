@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0000_Calculate_Entropy;
+namespace LeetCode.Problems._0000_Calculate_Entropy;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/922125152

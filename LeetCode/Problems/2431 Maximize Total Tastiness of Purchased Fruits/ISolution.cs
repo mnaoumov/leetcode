@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2431_Maximize_Total_Tastiness_of_Purchased_Fruits;
+namespace LeetCode.Problems._2431_Maximize_Total_Tastiness_of_Purchased_Fruits;
 
 [PublicAPI]
 public interface ISolution

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1642_Furthest_Building_You_Can_Reach;
+namespace LeetCode.Problems._1642_Furthest_Building_You_Can_Reach;
 
 [PublicAPI]
 public interface ISolution

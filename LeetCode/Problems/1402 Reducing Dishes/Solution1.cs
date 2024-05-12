@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1402_Reducing_Dishes;
+namespace LeetCode.Problems._1402_Reducing_Dishes;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/923966227/

@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0030_Substring_with_Concatenation_of_All_Words;
+namespace LeetCode.Problems._0030_Substring_with_Concatenation_of_All_Words;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

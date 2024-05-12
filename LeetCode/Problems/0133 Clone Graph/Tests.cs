@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0133_Clone_Graph;
+namespace LeetCode.Problems._0133_Clone_Graph;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

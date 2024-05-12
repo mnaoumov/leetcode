@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2360_Longest_Cycle_in_a_Graph;
+namespace LeetCode.Problems._2360_Longest_Cycle_in_a_Graph;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

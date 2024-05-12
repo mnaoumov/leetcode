@@ -1,4 +1,4 @@
-namespace LeetCode._1236_Web_Crawler;
+namespace LeetCode.Problems._1236_Web_Crawler;
 
 public class HtmlParser
 {

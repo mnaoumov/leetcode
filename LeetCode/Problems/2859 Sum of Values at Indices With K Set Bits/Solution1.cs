@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2859_Sum_of_Values_at_Indices_With_K_Set_Bits;
+namespace LeetCode.Problems._2859_Sum_of_Values_at_Indices_With_K_Set_Bits;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-363/submissions/detail/1051399238/

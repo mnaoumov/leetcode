@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0171_Excel_Sheet_Column_Number;
+namespace LeetCode.Problems._0171_Excel_Sheet_Column_Number;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/872070189/

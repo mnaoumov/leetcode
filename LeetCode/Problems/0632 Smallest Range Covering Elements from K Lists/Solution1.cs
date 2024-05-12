@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0632_Smallest_Range_Covering_Elements_from_K_Lists;
+namespace LeetCode.Problems._0632_Smallest_Range_Covering_Elements_from_K_Lists;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/912167175/

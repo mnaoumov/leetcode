@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1246_Palindrome_Removal;
+namespace LeetCode.Problems._1246_Palindrome_Removal;
 
 [PublicAPI]
 public interface ISolution

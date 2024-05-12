@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0515_Find_Largest_Value_in_Each_Tree_Row;
+namespace LeetCode.Problems._0515_Find_Largest_Value_in_Each_Tree_Row;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

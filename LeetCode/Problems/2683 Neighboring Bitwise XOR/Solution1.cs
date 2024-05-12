@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2683_Neighboring_Bitwise_XOR;
+namespace LeetCode.Problems._2683_Neighboring_Bitwise_XOR;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-345/submissions/detail/949925751/

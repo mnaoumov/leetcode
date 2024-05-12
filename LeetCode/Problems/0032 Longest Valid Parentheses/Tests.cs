@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0032_Longest_Valid_Parentheses;
+namespace LeetCode.Problems._0032_Longest_Valid_Parentheses;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

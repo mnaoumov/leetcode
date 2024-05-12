@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._1768_Merge_Strings_Alternately;
+namespace LeetCode.Problems._1768_Merge_Strings_Alternately;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/927547666/

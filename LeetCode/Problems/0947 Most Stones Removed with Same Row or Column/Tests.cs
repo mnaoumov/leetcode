@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0947_Most_Stones_Removed_with_Same_Row_or_Column;
+namespace LeetCode.Problems._0947_Most_Stones_Removed_with_Same_Row_or_Column;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1759_Count_Number_of_Homogenous_Substrings;
+namespace LeetCode.Problems._1759_Count_Number_of_Homogenous_Substrings;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1094840650/

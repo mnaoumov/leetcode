@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1092_Shortest_Common_Supersequence;
+namespace LeetCode.Problems._1092_Shortest_Common_Supersequence;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/953705242/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2942_Find_Words_Containing_Character;
+namespace LeetCode.Problems._2942_Find_Words_Containing_Character;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

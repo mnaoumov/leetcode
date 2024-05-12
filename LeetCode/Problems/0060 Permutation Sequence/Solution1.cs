@@ -2,7 +2,7 @@ using System.Diagnostics;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0060_Permutation_Sequence;
+namespace LeetCode.Problems._0060_Permutation_Sequence;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/819486577/

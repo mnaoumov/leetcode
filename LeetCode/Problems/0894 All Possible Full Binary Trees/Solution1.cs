@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0894_All_Possible_Full_Binary_Trees;
+namespace LeetCode.Problems._0894_All_Possible_Full_Binary_Trees;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1002183208/

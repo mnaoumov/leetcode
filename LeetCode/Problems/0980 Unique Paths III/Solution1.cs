@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0980_Unique_Paths_III;
+namespace LeetCode.Problems._0980_Unique_Paths_III;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/868362198/

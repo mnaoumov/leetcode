@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0797_All_Paths_From_Source_to_Target;
+namespace LeetCode.Problems._0797_All_Paths_From_Source_to_Target;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

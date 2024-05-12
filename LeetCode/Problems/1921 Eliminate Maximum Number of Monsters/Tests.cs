@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1921_Eliminate_Maximum_Number_of_Monsters;
+namespace LeetCode.Problems._1921_Eliminate_Maximum_Number_of_Monsters;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

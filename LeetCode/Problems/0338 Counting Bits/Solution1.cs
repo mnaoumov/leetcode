@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0338_Counting_Bits;
+namespace LeetCode.Problems._0338_Counting_Bits;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/926889727/

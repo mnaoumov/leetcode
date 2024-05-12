@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0872_Leaf_Similar_Trees;
+namespace LeetCode.Problems._0872_Leaf_Similar_Trees;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

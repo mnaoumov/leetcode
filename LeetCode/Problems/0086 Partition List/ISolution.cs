@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0086_Partition_List;
+namespace LeetCode.Problems._0086_Partition_List;
 
 [PublicAPI]
 public interface ISolution

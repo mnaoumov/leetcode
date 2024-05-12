@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2659_Make_Array_Empty;
+namespace LeetCode.Problems._2659_Make_Array_Empty;
 
 [PublicAPI]
 public interface ISolution

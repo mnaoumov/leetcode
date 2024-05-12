@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0312_Burst_Balloons;
+namespace LeetCode.Problems._0312_Burst_Balloons;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/199937476/

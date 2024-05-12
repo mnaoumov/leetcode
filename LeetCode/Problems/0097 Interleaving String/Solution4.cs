@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0097_Interleaving_String;
+namespace LeetCode.Problems._0097_Interleaving_String;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/829636993/

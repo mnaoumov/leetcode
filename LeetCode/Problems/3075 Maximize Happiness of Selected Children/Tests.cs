@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3075_Maximize_Happiness_of_Selected_Children;
+namespace LeetCode.Problems._3075_Maximize_Happiness_of_Selected_Children;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

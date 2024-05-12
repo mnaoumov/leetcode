@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0200_Number_of_Islands;
+namespace LeetCode.Problems._0200_Number_of_Islands;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/197101056/

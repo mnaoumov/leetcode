@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0956_Tallest_Billboard;
+namespace LeetCode.Problems._0956_Tallest_Billboard;
 
 [PublicAPI]
 public interface ISolution

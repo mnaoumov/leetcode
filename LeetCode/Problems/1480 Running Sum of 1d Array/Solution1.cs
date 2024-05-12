@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1480_Running_Sum_of_1d_Array;
+namespace LeetCode.Problems._1480_Running_Sum_of_1d_Array;
 
 /// <summary>
 /// https://leetcode.com/problems/running-sum-of-1d-array/submissions/845556407/

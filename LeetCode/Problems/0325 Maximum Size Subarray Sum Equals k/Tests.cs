@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0325_Maximum_Size_Subarray_Sum_Equals_k;
+namespace LeetCode.Problems._0325_Maximum_Size_Subarray_Sum_Equals_k;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

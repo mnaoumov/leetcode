@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2580_Count_Ways_to_Group_Overlapping_Ranges;
+namespace LeetCode.Problems._2580_Count_Ways_to_Group_Overlapping_Ranges;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

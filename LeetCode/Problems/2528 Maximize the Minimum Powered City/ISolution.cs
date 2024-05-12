@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2528_Maximize_the_Minimum_Powered_City;
+namespace LeetCode.Problems._2528_Maximize_the_Minimum_Powered_City;
 
 [PublicAPI]
 public interface ISolution

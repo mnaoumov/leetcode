@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0480_Sliding_Window_Median;
+namespace LeetCode.Problems._0480_Sliding_Window_Median;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

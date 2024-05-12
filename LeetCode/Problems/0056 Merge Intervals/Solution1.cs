@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0056_Merge_Intervals;
+namespace LeetCode.Problems._0056_Merge_Intervals;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/197151975/

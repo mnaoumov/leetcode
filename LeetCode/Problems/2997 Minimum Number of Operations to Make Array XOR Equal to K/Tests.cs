@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2997_Minimum_Number_of_Operations_to_Make_Array_XOR_Equal_to_K;
+namespace LeetCode.Problems._2997_Minimum_Number_of_Operations_to_Make_Array_XOR_Equal_to_K;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

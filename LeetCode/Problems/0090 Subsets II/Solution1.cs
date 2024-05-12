@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0090_Subsets_II;
+namespace LeetCode.Problems._0090_Subsets_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/828253106/

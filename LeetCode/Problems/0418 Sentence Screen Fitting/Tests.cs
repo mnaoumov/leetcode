@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0418_Sentence_Screen_Fitting;
+namespace LeetCode.Problems._0418_Sentence_Screen_Fitting;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

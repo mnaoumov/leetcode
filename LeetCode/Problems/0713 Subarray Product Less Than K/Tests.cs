@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0713_Subarray_Product_Less_Than_K;
+namespace LeetCode.Problems._0713_Subarray_Product_Less_Than_K;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

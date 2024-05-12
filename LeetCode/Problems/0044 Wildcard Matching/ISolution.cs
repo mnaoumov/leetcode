@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0044_Wildcard_Matching;
+namespace LeetCode.Problems._0044_Wildcard_Matching;
 
 [PublicAPI]
 public interface ISolution

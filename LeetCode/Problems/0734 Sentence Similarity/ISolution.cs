@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0734_Sentence_Similarity;
+namespace LeetCode.Problems._0734_Sentence_Similarity;
 
 [PublicAPI]
 public interface ISolution

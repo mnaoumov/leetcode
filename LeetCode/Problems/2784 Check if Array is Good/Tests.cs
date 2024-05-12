@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2784_Check_if_Array_is_Good;
+namespace LeetCode.Problems._2784_Check_if_Array_is_Good;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2517_Maximum_Tastiness_of_Candy_Basket;
+namespace LeetCode.Problems._2517_Maximum_Tastiness_of_Candy_Basket;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/866021381/

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0404_Sum_of_Left_Leaves;
+namespace LeetCode.Problems._0404_Sum_of_Left_Leaves;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

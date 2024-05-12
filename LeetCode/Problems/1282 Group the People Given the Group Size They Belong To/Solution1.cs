@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1282_Group_the_People_Given_the_Group_Size_They_Belong_To;
+namespace LeetCode.Problems._1282_Group_the_People_Given_the_Group_Size_They_Belong_To;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1046316045/

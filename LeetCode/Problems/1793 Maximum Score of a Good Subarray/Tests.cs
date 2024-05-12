@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1793_Maximum_Score_of_a_Good_Subarray;
+namespace LeetCode.Problems._1793_Maximum_Score_of_a_Good_Subarray;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1091_Shortest_Path_in_Binary_Matrix;
+namespace LeetCode.Problems._1091_Shortest_Path_in_Binary_Matrix;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/904476731/

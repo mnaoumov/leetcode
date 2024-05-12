@@ -3,7 +3,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal;
+namespace LeetCode.Problems._0105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/197119707/

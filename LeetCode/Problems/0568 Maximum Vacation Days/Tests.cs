@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0568_Maximum_Vacation_Days;
+namespace LeetCode.Problems._0568_Maximum_Vacation_Days;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

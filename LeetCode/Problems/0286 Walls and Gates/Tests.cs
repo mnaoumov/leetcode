@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0286_Walls_and_Gates;
+namespace LeetCode.Problems._0286_Walls_and_Gates;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

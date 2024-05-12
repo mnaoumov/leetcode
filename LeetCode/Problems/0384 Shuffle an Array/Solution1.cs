@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0384_Shuffle_an_Array;
+namespace LeetCode.Problems._0384_Shuffle_an_Array;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/923229091/

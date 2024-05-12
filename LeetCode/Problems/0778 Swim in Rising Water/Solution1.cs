@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0778_Swim_in_Rising_Water;
+namespace LeetCode.Problems._0778_Swim_in_Rising_Water;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/915446625/

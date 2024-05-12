@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1055_Shortest_Way_to_Form_String;
+namespace LeetCode.Problems._1055_Shortest_Way_to_Form_String;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

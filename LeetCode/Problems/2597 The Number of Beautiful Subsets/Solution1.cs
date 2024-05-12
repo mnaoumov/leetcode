@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2597_The_Number_of_Beautiful_Subsets;
+namespace LeetCode.Problems._2597_The_Number_of_Beautiful_Subsets;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/918926972/

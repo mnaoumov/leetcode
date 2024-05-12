@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0422_Valid_Word_Square;
+namespace LeetCode.Problems._0422_Valid_Word_Square;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/906841538/

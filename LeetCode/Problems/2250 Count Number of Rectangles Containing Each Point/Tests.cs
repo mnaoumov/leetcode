@@ -1,7 +1,7 @@
 
 using JetBrains.Annotations;
 
-namespace LeetCode._2250_Count_Number_of_Rectangles_Containing_Each_Point;
+namespace LeetCode.Problems._2250_Count_Number_of_Rectangles_Containing_Each_Point;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

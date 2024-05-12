@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0830_Positions_of_Large_Groups;
+namespace LeetCode.Problems._0830_Positions_of_Large_Groups;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/924475661/

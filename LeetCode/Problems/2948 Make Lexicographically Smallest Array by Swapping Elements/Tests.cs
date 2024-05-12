@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2948_Make_Lexicographically_Smallest_Array_by_Swapping_Elements;
+namespace LeetCode.Problems._2948_Make_Lexicographically_Smallest_Array_by_Swapping_Elements;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

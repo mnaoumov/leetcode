@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0589_N_ary_Tree_Preorder_Traversal;
+namespace LeetCode.Problems._0589_N_ary_Tree_Preorder_Traversal;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/925631631/

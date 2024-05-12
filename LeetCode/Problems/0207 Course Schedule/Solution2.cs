@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0207_Course_Schedule;
+namespace LeetCode.Problems._0207_Course_Schedule;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/870067316/

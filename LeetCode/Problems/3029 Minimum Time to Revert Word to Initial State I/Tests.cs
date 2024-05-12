@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3029_Minimum_Time_to_Revert_Word_to_Initial_State_I;
+namespace LeetCode.Problems._3029_Minimum_Time_to_Revert_Word_to_Initial_State_I;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

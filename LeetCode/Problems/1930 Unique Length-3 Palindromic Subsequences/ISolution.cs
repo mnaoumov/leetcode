@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1930_Unique_Length_3_Palindromic_Subsequences;
+namespace LeetCode.Problems._1930_Unique_Length_3_Palindromic_Subsequences;
 
 [PublicAPI]
 public interface ISolution

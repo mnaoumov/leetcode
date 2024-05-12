@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1420_Build_Array_Where_You_Can_Find_The_Maximum_Exactly_K_Comparisons;
+namespace LeetCode.Problems._1420_Build_Array_Where_You_Can_Find_The_Maximum_Exactly_K_Comparisons;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

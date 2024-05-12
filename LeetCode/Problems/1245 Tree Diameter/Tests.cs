@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1245_Tree_Diameter;
+namespace LeetCode.Problems._1245_Tree_Diameter;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

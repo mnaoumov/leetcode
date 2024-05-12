@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0986_Interval_List_Intersections;
+namespace LeetCode.Problems._0986_Interval_List_Intersections;
 
 [PublicAPI]
 public interface ISolution

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2751_Robot_Collisions;
+namespace LeetCode.Problems._2751_Robot_Collisions;
 
 [UsedImplicitly]
 [Category("TODO")]

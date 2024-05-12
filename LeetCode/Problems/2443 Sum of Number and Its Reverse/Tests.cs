@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._2443_Sum_of_Number_and_Its_Reverse;
+namespace LeetCode.Problems._2443_Sum_of_Number_and_Its_Reverse;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0886_Possible_Bipartition;
+namespace LeetCode.Problems._0886_Possible_Bipartition;
 
 [PublicAPI]
 public interface ISolution

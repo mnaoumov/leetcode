@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0486_Predict_the_Winner;
+namespace LeetCode.Problems._0486_Predict_the_Winner;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/954840875/

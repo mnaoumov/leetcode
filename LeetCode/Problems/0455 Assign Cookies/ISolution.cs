@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0455_Assign_Cookies;
+namespace LeetCode.Problems._0455_Assign_Cookies;
 
 [PublicAPI]
 public interface ISolution

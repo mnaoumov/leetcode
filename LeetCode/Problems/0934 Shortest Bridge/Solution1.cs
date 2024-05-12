@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0934_Shortest_Bridge;
+namespace LeetCode.Problems._0934_Shortest_Bridge;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/926826172/

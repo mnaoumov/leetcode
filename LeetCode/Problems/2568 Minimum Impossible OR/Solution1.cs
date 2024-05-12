@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2568_Minimum_Impossible_OR;
+namespace LeetCode.Problems._2568_Minimum_Impossible_OR;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-98/submissions/detail/900410951/

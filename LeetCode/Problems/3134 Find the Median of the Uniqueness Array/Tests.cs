@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3134_Find_the_Median_of_the_Uniqueness_Array;
+namespace LeetCode.Problems._3134_Find_the_Median_of_the_Uniqueness_Array;
 
 [UsedImplicitly]
 [Category("TODO")]

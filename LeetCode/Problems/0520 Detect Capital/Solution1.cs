@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0520_Detect_Capital;
+namespace LeetCode.Problems._0520_Detect_Capital;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/869479295/

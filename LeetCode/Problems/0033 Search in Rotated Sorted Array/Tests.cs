@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0033_Search_in_Rotated_Sorted_Array;
+namespace LeetCode.Problems._0033_Search_in_Rotated_Sorted_Array;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 using JetBrains.Annotations;
 
-namespace LeetCode._0976_Largest_Perimeter_Triangle;
+namespace LeetCode.Problems._0976_Largest_Perimeter_Triangle;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

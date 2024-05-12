@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0264_Ugly_Number_II;
+namespace LeetCode.Problems._0264_Ugly_Number_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/929395154/

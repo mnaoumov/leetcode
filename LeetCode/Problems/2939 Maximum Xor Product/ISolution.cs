@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2939_Maximum_Xor_Product;
+namespace LeetCode.Problems._2939_Maximum_Xor_Product;
 
 [PublicAPI]
 public interface ISolution

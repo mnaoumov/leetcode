@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1232_Check_If_It_Is_a_Straight_Line;
+namespace LeetCode.Problems._1232_Check_If_It_Is_a_Straight_Line;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/925632967/

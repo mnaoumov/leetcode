@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._2785_Sort_Vowels_in_a_String;
+namespace LeetCode.Problems._2785_Sort_Vowels_in_a_String;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-109/submissions/detail/1000999371/

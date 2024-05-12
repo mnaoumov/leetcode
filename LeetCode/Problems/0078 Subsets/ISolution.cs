@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0078_Subsets;
+namespace LeetCode.Problems._0078_Subsets;
 
 [PublicAPI]
 public interface ISolution

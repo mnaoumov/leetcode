@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1905_Count_Sub_Islands;
+namespace LeetCode.Problems._1905_Count_Sub_Islands;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/924544351/

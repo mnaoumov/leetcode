@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0405_Convert_a_Number_to_Hexadecimal;
+namespace LeetCode.Problems._0405_Convert_a_Number_to_Hexadecimal;
 
 [PublicAPI]
 public interface ISolution

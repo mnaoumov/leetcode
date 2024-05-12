@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2427_Number_of_Common_Factors;
+namespace LeetCode.Problems._2427_Number_of_Common_Factors;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/899810305/

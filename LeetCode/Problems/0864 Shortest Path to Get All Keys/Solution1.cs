@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0864_Shortest_Path_to_Get_All_Keys;
+namespace LeetCode.Problems._0864_Shortest_Path_to_Get_All_Keys;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/957945192/

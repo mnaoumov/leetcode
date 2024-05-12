@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0067_Add_Binary;
+namespace LeetCode.Problems._0067_Add_Binary;
 
 [PublicAPI]
 public interface ISolution

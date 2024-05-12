@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0629_K_Inverse_Pairs_Array;
+namespace LeetCode.Problems._0629_K_Inverse_Pairs_Array;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/1158682191/

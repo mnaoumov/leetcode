@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2584_Split_the_Array_to_Make_Coprime_Products;
+namespace LeetCode.Problems._2584_Split_the_Array_to_Make_Coprime_Products;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-335/submissions/detail/909287588/

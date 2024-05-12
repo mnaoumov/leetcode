@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1160_Find_Words_That_Can_Be_Formed_by_Characters;
+namespace LeetCode.Problems._1160_Find_Words_That_Can_Be_Formed_by_Characters;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

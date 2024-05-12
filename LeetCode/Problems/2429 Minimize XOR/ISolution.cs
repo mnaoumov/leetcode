@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2429_Minimize_XOR;
+namespace LeetCode.Problems._2429_Minimize_XOR;
 
 [PublicAPI]
 public interface ISolution

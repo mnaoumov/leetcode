@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2904_Shortest_and_Lexicographically_Smallest_Beautiful_String;
+namespace LeetCode.Problems._2904_Shortest_and_Lexicographically_Smallest_Beautiful_String;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-367/submissions/detail/1075450664/

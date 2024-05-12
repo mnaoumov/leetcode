@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2652_Sum_Multiples;
+namespace LeetCode.Problems._2652_Sum_Multiples;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-342/submissions/detail/938157873/

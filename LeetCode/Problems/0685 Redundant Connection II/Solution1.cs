@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0685_Redundant_Connection_II;
+namespace LeetCode.Problems._0685_Redundant_Connection_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/932210149/

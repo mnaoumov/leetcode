@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2831_Find_the_Longest_Equal_Subarray;
+namespace LeetCode.Problems._2831_Find_the_Longest_Equal_Subarray;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

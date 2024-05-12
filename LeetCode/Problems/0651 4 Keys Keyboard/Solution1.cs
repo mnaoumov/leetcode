@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0651_4_Keys_Keyboard;
+namespace LeetCode.Problems._0651_4_Keys_Keyboard;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/924014604/

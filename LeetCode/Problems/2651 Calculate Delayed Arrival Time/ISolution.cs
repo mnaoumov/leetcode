@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2651_Calculate_Delayed_Arrival_Time;
+namespace LeetCode.Problems._2651_Calculate_Delayed_Arrival_Time;
 
 [PublicAPI]
 public interface ISolution

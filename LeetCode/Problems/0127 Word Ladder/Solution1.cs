@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0127_Word_Ladder;
+namespace LeetCode.Problems._0127_Word_Ladder;
 
 /// <summary>
 /// https://leetcode.com/problems/word-ladder/submissions/836525602/

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1351_Count_Negative_Numbers_in_a_Sorted_Matrix;
+namespace LeetCode.Problems._1351_Count_Negative_Numbers_in_a_Sorted_Matrix;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

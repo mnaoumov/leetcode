@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1552_Magnetic_Force_Between_Two_Balls;
+namespace LeetCode.Problems._1552_Magnetic_Force_Between_Two_Balls;
 
 [PublicAPI]
 public interface ISolution

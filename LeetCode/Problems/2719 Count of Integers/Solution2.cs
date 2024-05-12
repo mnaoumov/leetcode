@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2719_Count_of_Integers;
+namespace LeetCode.Problems._2719_Count_of_Integers;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-348/submissions/detail/963407473/

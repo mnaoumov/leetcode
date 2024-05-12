@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1140_Stone_Game_II;
+namespace LeetCode.Problems._1140_Stone_Game_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/957450831/

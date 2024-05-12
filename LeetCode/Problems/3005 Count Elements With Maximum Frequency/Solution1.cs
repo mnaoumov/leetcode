@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._3005_Count_Elements_With_Maximum_Frequency;
+namespace LeetCode.Problems._3005_Count_Elements_With_Maximum_Frequency;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-380/submissions/detail/1145531857/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2446_Determine_if_Two_Events_Have_Conflict;
+namespace LeetCode.Problems._2446_Determine_if_Two_Events_Have_Conflict;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-316/submissions/detail/828277017/

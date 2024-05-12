@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._2603_Collect_Coins_in_a_Tree;
+namespace LeetCode.Problems._2603_Collect_Coins_in_a_Tree;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

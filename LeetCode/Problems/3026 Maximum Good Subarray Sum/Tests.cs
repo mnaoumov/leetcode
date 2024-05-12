@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using NUnit.Framework;
 
-namespace LeetCode._3026_Maximum_Good_Subarray_Sum;
+namespace LeetCode.Problems._3026_Maximum_Good_Subarray_Sum;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

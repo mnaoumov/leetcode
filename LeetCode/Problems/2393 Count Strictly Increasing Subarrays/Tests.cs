@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._2393_Count_Strictly_Increasing_Subarrays;
+namespace LeetCode.Problems._2393_Count_Strictly_Increasing_Subarrays;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

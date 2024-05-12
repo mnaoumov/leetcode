@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0045_Jump_Game_II;
+namespace LeetCode.Problems._0045_Jump_Game_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/829022922/

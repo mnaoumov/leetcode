@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._1905_Count_Sub_Islands;
+namespace LeetCode.Problems._1905_Count_Sub_Islands;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

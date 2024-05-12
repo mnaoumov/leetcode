@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2747_Count_Zero_Request_Servers;
+namespace LeetCode.Problems._2747_Count_Zero_Request_Servers;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-107/submissions/detail/978619528/

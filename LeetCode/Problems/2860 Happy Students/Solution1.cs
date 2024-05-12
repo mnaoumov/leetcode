@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2860_Happy_Students;
+namespace LeetCode.Problems._2860_Happy_Students;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-363/submissions/detail/1051417987/

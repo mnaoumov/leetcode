@@ -1,7 +1,7 @@
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LeetCode._3039_Apply_Operations_to_Make_String_Empty;
+namespace LeetCode.Problems._3039_Apply_Operations_to_Make_String_Empty;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-124/submissions/detail/1177884182/

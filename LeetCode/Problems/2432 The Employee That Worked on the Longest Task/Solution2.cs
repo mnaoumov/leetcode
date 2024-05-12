@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2432_The_Employee_That_Worked_on_the_Longest_Task;
+namespace LeetCode.Problems._2432_The_Employee_That_Worked_on_the_Longest_Task;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/891684518/

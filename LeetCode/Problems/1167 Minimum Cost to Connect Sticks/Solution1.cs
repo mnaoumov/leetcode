@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._1167_Minimum_Cost_to_Connect_Sticks;
+namespace LeetCode.Problems._1167_Minimum_Cost_to_Connect_Sticks;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/908031111/

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2402_Meeting_Rooms_III;
+namespace LeetCode.Problems._2402_Meeting_Rooms_III;
 
 [PublicAPI]
 public interface ISolution

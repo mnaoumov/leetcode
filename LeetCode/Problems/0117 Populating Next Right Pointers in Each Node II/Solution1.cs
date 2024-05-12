@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode._0117_Populating_Next_Right_Pointers_in_Each_Node_II;
+namespace LeetCode.Problems._0117_Populating_Next_Right_Pointers_in_Each_Node_II;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/834408281/

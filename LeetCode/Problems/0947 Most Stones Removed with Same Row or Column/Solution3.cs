@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._0947_Most_Stones_Removed_with_Same_Row_or_Column;
+namespace LeetCode.Problems._0947_Most_Stones_Removed_with_Same_Row_or_Column;
 
 /// <summary>
 /// https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/submissions/843561962/

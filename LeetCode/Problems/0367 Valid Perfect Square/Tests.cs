@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
 
-namespace LeetCode._0367_Valid_Perfect_Square;
+namespace LeetCode.Problems._0367_Valid_Perfect_Square;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

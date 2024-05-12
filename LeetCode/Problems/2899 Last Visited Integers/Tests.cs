@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode._2899_Last_Visited_Integers;
+namespace LeetCode.Problems._2899_Last_Visited_Integers;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

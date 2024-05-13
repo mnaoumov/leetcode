@@ -40,7 +40,7 @@ internal abstract partial class GeneratorBase : IGenerator
         var validFolderName = ReplaceChars(titleWithUnifiedProblemNumber, Path.GetInvalidFileNameChars().Append('.').ToArray());
         TaskDir = $@"{LeetCodeFolderPath}\{validFolderName}";
         EscapedTitle = $"_{ReplaceChars(validFolderName, InvalidNamespaceChars.ToCharArray())}";
-        Namespace = GenerateTemplate("namespace LeetCode.{{ EscapedTitle }};");
+        Namespace = GenerateTemplate("namespace LeetCode.Problems.{{ EscapedTitle }};");
     }
 
     private static string ReplaceChars(string str, char[] chars) => string.Join(ReplacementChar, str.Split(chars));

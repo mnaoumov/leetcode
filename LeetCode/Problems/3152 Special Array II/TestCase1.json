@@ -1,0 +1,5 @@
+{
+  "nums": [3,4,1,2,6],
+  "queries": [[0,4]],
+  "output": [false]
+}

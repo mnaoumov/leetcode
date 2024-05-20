@@ -3,11 +3,11 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._2812_Find_the_Safest_Path_in_a_Grid;
 
 /// <summary>
-/// https://leetcode.com/contest/weekly-contest-357/submissions/detail/1013487543/
+/// https://leetcode.com/submissions/detail/1013499494/
 /// </summary>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
-public class Solution2 : ISolution
+public class Solution04 : ISolution
 {
     public int MaximumSafenessFactor(IList<IList<int>> grid)
     {
@@ -27,14 +27,14 @@ public class Solution2 : ISolution
         }
 
         var safenessFactors = new int[n, n];
-        var maxPathSafenessFactors = new Dictionary<(int r, int c), int>();
+        var maxPathSafenessFactors = new int[n, n];
 
         for (var r = 0; r < n; r++)
         {
             for (var c = 0; c < n; c++)
             {
                 safenessFactors[r, c] = thieves.Min(thief => Math.Abs(r - thief.r) + Math.Abs(c - thief.c));
-                maxPathSafenessFactors[(r, c)] = 0;
+                maxPathSafenessFactors[r, c] = 0;
             }
         }
 
@@ -48,14 +48,14 @@ public class Solution2 : ISolution
             var (r, c, pathSafenessFactor) = queue.Dequeue();
             pathSafenessFactor = Math.Min(pathSafenessFactor, safenessFactors[r, c]);
 
-            if (maxPathSafenessFactors[(r, c)] >= pathSafenessFactor)
+            if (maxPathSafenessFactors[r, c] >= pathSafenessFactor)
             {
                 continue;
             }
 
-            maxPathSafenessFactors[(r, c)] = pathSafenessFactor;
+            maxPathSafenessFactors[r, c] = pathSafenessFactor;
 
-            if (r == n - 1 && c == n - 1)
+            if (pathSafenessFactor <= maxPathSafenessFactors[n - 1, n - 1])
             {
                 continue;
             }
@@ -70,7 +70,7 @@ public class Solution2 : ISolution
                     continue;
                 }
 
-                if (maxPathSafenessFactors[(nextR, nextC)] >= pathSafenessFactor)
+                if (maxPathSafenessFactors[nextR, nextC] >= pathSafenessFactor)
                 {
                     continue;
                 }
@@ -79,6 +79,6 @@ public class Solution2 : ISolution
             }
         }
 
-        return maxPathSafenessFactors[(n - 1, n - 1)];
+        return maxPathSafenessFactors[n - 1, n - 1];
     }
 }

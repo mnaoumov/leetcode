@@ -3,11 +3,11 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._2812_Find_the_Safest_Path_in_a_Grid;
 
 /// <summary>
-/// https://leetcode.com/contest/weekly-contest-357/submissions/detail/1013490825/
+/// https://leetcode.com/contest/weekly-contest-357/submissions/detail/1013487543/
 /// </summary>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
-public class Solution3 : ISolution
+public class Solution02 : ISolution
 {
     public int MaximumSafenessFactor(IList<IList<int>> grid)
     {
@@ -55,7 +55,7 @@ public class Solution3 : ISolution
 
             maxPathSafenessFactors[(r, c)] = pathSafenessFactor;
 
-            if (pathSafenessFactor <= maxPathSafenessFactors[(n - 1, n - 1)])
+            if (r == n - 1 && c == n - 1)
             {
                 continue;
             }

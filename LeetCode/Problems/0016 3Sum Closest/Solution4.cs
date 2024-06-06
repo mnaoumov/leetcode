@@ -3,11 +3,10 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._0016_3Sum_Closest;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/1278985968/
+/// https://leetcode.com/submissions/detail/1278992793/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution3 : ISolution
+public class Solution4 : ISolution
 {
     public int ThreeSumClosest(int[] nums, int target)
     {
@@ -53,9 +52,9 @@ public class Solution3 : ISolution
 
                 int GetClosestValue()
                 {
-                    if (preciseValue <= nums[i + 2])
+                    if (preciseValue <= nums[j + 1])
                     {
-                        return nums[i + 2];
+                        return nums[j + 1];
                     }
 
                     if (preciseValue >= nums[^1])
@@ -63,7 +62,7 @@ public class Solution3 : ISolution
                         return nums[^1];
                     }
 
-                    var minIndex = i + 2;
+                    var minIndex = j + 1;
                     var maxIndex = nums.Length - 1;
 
                     while (maxIndex - minIndex > 1)

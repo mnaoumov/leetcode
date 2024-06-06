@@ -9,6 +9,7 @@ namespace LeetCode.Problems._0016_3Sum_Closest;
 /// https://leetcode.com/submissions/detail/817528290/
 /// </summary>
 [UsedImplicitly]
+[SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution
 {
     public int ThreeSumClosest(int[] nums, int target)

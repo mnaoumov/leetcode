@@ -3,6 +3,7 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._0087_Scramble_String;
 
 /// <summary>
+/// https://leetcode.com/submissions/detail/829061534/
 /// </summary>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]

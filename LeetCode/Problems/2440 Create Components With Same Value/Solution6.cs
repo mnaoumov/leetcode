@@ -5,7 +5,7 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._2440_Create_Components_With_Same_Value;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/826694995/
+/// https://leetcode.com/submissions/detail/826720356/
 /// </summary>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
@@ -47,7 +47,6 @@ public class Solution6 : ISolution
             }
         }
 
-
         for (var componentsCount = Math.Min(nums.Length, totalSum / max); componentsCount >= 2; componentsCount--)
         {
             if (totalSum % componentsCount != 0)
@@ -70,25 +69,33 @@ public class Solution6 : ISolution
 
         while (queue.TryDequeue(out var leaf))
         {
-            if (nums[leaf] > componentSum)
+            var num = nums[leaf];
+
+            if (num > componentSum)
             {
                 return false;
             }
 
+            if (degrees[leaf] > 1)
+            {
+                queue.Enqueue(leaf);
+                continue;
+            }
+
             degrees[leaf] = 0;
+            nums[leaf] = 0;
 
             foreach (var parent in neighbors[leaf].Where(parent => degrees[parent] > 0))
             {
                 degrees[parent]--;
                 queue.Enqueue(parent);
-                if (nums[leaf] < componentSum)
+                if (num < componentSum)
                 {
-                    nums[parent] += nums[leaf];
+                    nums[parent] += num;
                 }
             }
         }
 
         return true;
     }
-
 }

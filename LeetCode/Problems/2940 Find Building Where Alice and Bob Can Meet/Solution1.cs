@@ -3,7 +3,7 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._2940_Find_Building_Where_Alice_and_Bob_Can_Meet;
 
 /// <summary>
-/// TODO url
+/// NotImplemented
 /// </summary>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]

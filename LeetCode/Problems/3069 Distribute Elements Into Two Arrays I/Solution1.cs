@@ -3,7 +3,7 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._3069_Distribute_Elements_Into_Two_Arrays_I;
 
 /// <summary>
-/// TODO url
+/// https://leetcode.com/contest/weekly-contest-387/submissions/detail/1192150311/
 /// </summary>
 [UsedImplicitly]
 public class Solution1 : ISolution

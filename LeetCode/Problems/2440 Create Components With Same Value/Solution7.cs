@@ -5,10 +5,10 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._2440_Create_Components_With_Same_Value;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/826720356/
+/// https://leetcode.com/submissions/detail/826783747/
+/// https://leetcode.com/submissions/detail/826809746/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution7 : ISolution
 {
     public int ComponentValue(int[] nums, int[][] edges)
@@ -63,7 +63,7 @@ public class Solution7 : ISolution
         return 0;
     }
 
-    private static bool CheckIfPartitionPossible(int componentsCount, IList<int> nums, int[] degrees, IReadOnlyList<List<int>> neighbors, int totalSum, Queue<int> queue)
+    private static bool CheckIfPartitionPossible(int componentsCount, IList<int> nums, IList<int> degrees, IReadOnlyList<List<int>> neighbors, int totalSum, Queue<int> queue)
     {
         var componentSum = totalSum / componentsCount;
 
@@ -76,10 +76,15 @@ public class Solution7 : ISolution
                 return false;
             }
 
-            if (degrees[leaf] > 1)
+            switch (degrees[leaf])
             {
-                queue.Enqueue(leaf);
-                continue;
+                case 0 when num == 0 || num == componentSum:
+                    continue;
+                case 0:
+                    return false;
+                case > 1:
+                    queue.Enqueue(leaf);
+                    continue;
             }
 
             degrees[leaf] = 0;

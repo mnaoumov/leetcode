@@ -4,6 +4,7 @@ using NUnit.Framework;
 namespace LeetCode.Problems._3045_Count_Prefix_and_Suffix_Pairs_II;
 
 [UsedImplicitly]
+[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

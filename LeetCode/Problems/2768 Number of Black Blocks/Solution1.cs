@@ -3,7 +3,7 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._2768_Number_of_Black_Blocks;
 
 /// <summary>
-/// TODO url
+/// NotImplemented
 /// </summary>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]

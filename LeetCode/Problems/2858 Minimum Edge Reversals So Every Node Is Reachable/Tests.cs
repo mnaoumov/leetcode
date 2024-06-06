@@ -1,8 +1,10 @@
 using JetBrains.Annotations;
+using NUnit.Framework;
 
 namespace LeetCode.Problems._2858_Minimum_Edge_Reversals_So_Every_Node_Is_Reachable;
 
 [UsedImplicitly]
+[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

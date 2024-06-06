@@ -3,7 +3,7 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._3149_Find_the_Minimum_Cost_Array_Permutation;
 
 /// <summary>
-/// TODO url
+/// NotImplemented
 /// </summary>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]

@@ -3,7 +3,7 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._1214_Two_Sum_BSTs;
 
 /// <summary>
-/// TODO url
+/// https://leetcode.com/submissions/detail/978564177/
 /// </summary>
 [UsedImplicitly]
 public class Solution1 : ISolution

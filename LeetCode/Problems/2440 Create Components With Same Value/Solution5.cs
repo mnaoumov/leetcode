@@ -5,10 +5,10 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._2440_Create_Components_With_Same_Value;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/826374598/
+/// https://leetcode.com/submissions/detail/826694995/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
+[SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution5 : ISolution
 {
     public int ComponentValue(int[] nums, int[][] edges)
@@ -25,10 +25,28 @@ public class Solution5 : ISolution
         {
             ProcessNodeWithNeighbor(edge[0], edge[1]);
             ProcessNodeWithNeighbor(edge[1], edge[0]);
+
+            void ProcessNodeWithNeighbor(int node, int neighbor)
+            {
+                degrees[node]++;
+                neighborsLists[node] ??= new List<int>();
+                neighborsLists[node].Add(neighbor);
+            }
         }
 
         var totalSum = nums.Sum();
         var max = nums.Max();
+
+        var queue = new Queue<int>();
+
+        for (var node = 0; node < degrees.Length; node++)
+        {
+            if (degrees[node] == 1)
+            {
+                queue.Enqueue(node);
+            }
+        }
+
 
         for (var componentsCount = Math.Min(nums.Length, totalSum / max); componentsCount >= 2; componentsCount--)
         {
@@ -37,47 +55,36 @@ public class Solution5 : ISolution
                 continue;
             }
 
-            if (CheckIfPartitionPossible2(componentsCount, nums.ToArray(), degrees.ToArray(), neighborsLists.Select(list => list.ToList()).ToArray(), totalSum))
+            if (CheckIfPartitionPossible(componentsCount, nums.ToArray(), degrees.ToArray(), neighborsLists, totalSum, new Queue<int>(queue)))
             {
                 return componentsCount - 1;
             }
         }
 
         return 0;
-
-        void ProcessNodeWithNeighbor(int node, int neighbor)
-        {
-            degrees[node]++;
-            neighborsLists[node] ??= new List<int>();
-            neighborsLists[node].Add(neighbor);
-        }
     }
 
-    private static bool CheckIfPartitionPossible2(int componentsCount, IList<int> nums, int[] degrees, IReadOnlyList<List<int>> neighbors, int totalSum)
+    private static bool CheckIfPartitionPossible(int componentsCount, IList<int> nums, int[] degrees, IReadOnlyList<List<int>> neighbors, int totalSum, Queue<int> queue)
     {
         var componentSum = totalSum / componentsCount;
 
-        while (componentsCount > 1)
+        while (queue.TryDequeue(out var leaf))
         {
-            var leaf = Array.IndexOf(degrees, 1);
-
             if (nums[leaf] > componentSum)
             {
                 return false;
             }
 
             degrees[leaf] = 0;
-            var parent = neighbors[leaf][0];
-            degrees[parent]--;
-            neighbors[parent].Remove(leaf);
 
-            if (nums[leaf] < componentSum)
+            foreach (var parent in neighbors[leaf].Where(parent => degrees[parent] > 0))
             {
-                nums[parent] += nums[leaf];
-            }
-            else
-            {
-                componentsCount--;
+                degrees[parent]--;
+                queue.Enqueue(parent);
+                if (nums[leaf] < componentSum)
+                {
+                    nums[parent] += nums[leaf];
+                }
             }
         }
 

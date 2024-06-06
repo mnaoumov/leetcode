@@ -3,6 +3,7 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._2467_Most_Profitable_Path_in_a_Tree;
 
 /// <summary>
+/// https://leetcode.com/submissions/detail/844296510/
 /// </summary>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
@@ -10,128 +11,79 @@ public class Solution5 : ISolution
 {
     public int MostProfitablePath(int[][] edges, int bob, int[] amount)
     {
-        var parentsMap = new Dictionary<int, int>();
+        var nodes = BuildNodes();
 
-        var neighborsMap = new Dictionary<int, List<int>>();
+        return Get(nodes[0], nodes[bob]);
 
-        var totalCostMap = new Dictionary<int, int>();
-
-        foreach (var edge in edges)
+        int Get(Node aliceNode, Node? bobNode)
         {
-            AddNeighbor(edge[0], edge[1]);
-            AddNeighbor(edge[1], edge[0]);
-            continue;
+            aliceNode.Visited = true;
 
-            void AddNeighbor(int node1, int node2)
+            var cost = aliceNode.Amount;
+
+            if (aliceNode == bobNode)
             {
-                if (!neighborsMap.ContainsKey(node1))
-                {
-                    neighborsMap[node1] = new List<int>();
-                }
-
-                neighborsMap[node1].Add(node2);
+                cost /= 2;
             }
+
+            if (bobNode != null)
+            {
+                bobNode.Amount = 0;
+            }
+
+            var result = cost + aliceNode.Neighbors.Where(n => !n.Visited)
+                .Select(aliceNextNode => Get(aliceNextNode, bobNode?.Parent)).DefaultIfEmpty(0)
+                .Max();
+            return result;
         }
 
-        var nodesQueue = new Queue<(int node, int level)>();
-
-        nodesQueue.Enqueue((0, 0));
-
-        var leafNodes = new List<(int node, int level)>();
-        var currentLevelNodes = new List<(int node, int level)>();
-        var lastLevel = 0;
-
-        while (nodesQueue.Count > 0)
+        Node[] BuildNodes()
         {
-            var (node, level) = nodesQueue.Dequeue();
+            var nodes2 = new Node[amount.Length];
 
-            var children = neighborsMap[node].Except(totalCostMap.Keys).ToArray();
-
-            totalCostMap[node] = amount[node];
-
-            if (node != 0)
+            for (var i = 0; i < nodes2.Length; i++)
             {
-                totalCostMap[node] += totalCostMap[parentsMap[node]];
+                nodes2[i] = new Node
+                {
+                    Label = i,
+                    Amount = amount[i]
+                };
             }
 
-            if (children.Length == 0)
+            foreach (var edge in edges)
             {
-                leafNodes.Add((node, level));
+                var node0 = nodes2[edge[0]];
+                var node1 = nodes2[edge[1]];
+                node0.Neighbors.Add(node1);
+                node1.Neighbors.Add(node0);
             }
 
-            if (level > lastLevel)
-            {
-                currentLevelNodes.Clear();
-            }
+            var startNode = nodes2[0];
 
-            lastLevel = level;
-            currentLevelNodes.Add((node, level));
+            SetParent(startNode, null);
 
-            if (node == bob)
-            {
-                RecalculateForBob(level);
-            }
+            return nodes2;
 
-            foreach (var child in children)
+            void SetParent(Node node, Node? parent)
             {
-                parentsMap[child] = node;
-                nodesQueue.Enqueue((child, level + 1));
+                node.Parent = parent;
+
+                foreach (var childNode in node.Neighbors.Where(childNode => childNode.Parent == null && childNode != nodes2[0]))
+                {
+                    SetParent(childNode, node);
+                }
             }
         }
+    }
 
-        return leafNodes.Select(x => totalCostMap[x.node]).Max();
+    private class Node
+    {
+        public int Label { get; init; }
+        public int Amount { get; set; }
+        public List<Node> Neighbors { get; } = new();
+        public bool Visited { get; set; }
+        public Node? Parent { get; set; }
 
-        void RecalculateForBob(int level)
-        {
-            var correctionsMap = new Dictionary<int, int>();
-
-            var node = bob;
-
-            for (var i = 0; i <= level / 2; i++)
-            {
-                correctionsMap[node] = 0;
-                var correction = -amount[node];
-
-                if (i * 2 == level)
-                {
-                    correction /= 2;
-                }
-
-                foreach (var bobAncestorOrSelf in correctionsMap.Keys)
-                {
-                    correctionsMap[bobAncestorOrSelf] += correction;
-                    totalCostMap[bobAncestorOrSelf] += correction;
-                }
-
-                node = parentsMap[node];
-            }
-
-            foreach (var (node2, level2) in currentLevelNodes.Union(leafNodes))
-            {
-                ApplyCorrection(node2, level2);
-            }
-
-            return;
-
-            int ApplyCorrection(int node2, int level2)
-            {
-                if (correctionsMap.TryGetValue(node2, out var applyCorrection))
-                {
-                    return applyCorrection;
-                }
-
-                if (level2 < level / 2)
-                {
-                    return 0;
-                }
-
-                var correction = ApplyCorrection(parentsMap[node2], level2 - 1);
-
-                correctionsMap[node2] = correction;
-                totalCostMap[node2] += correction;
-
-                return correction;
-            }
-        }
+        public override string ToString() => $"{Label}";
     }
 }

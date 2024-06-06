@@ -3,6 +3,7 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._0046_Permutations;
 
 /// <summary>
+/// https://leetcode.com/submissions/detail/1009821619/
 /// </summary>
 [UsedImplicitly]
 public class Solution3 : ISolution

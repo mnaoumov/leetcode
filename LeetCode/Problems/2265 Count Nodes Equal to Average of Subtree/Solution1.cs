@@ -3,7 +3,7 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._2265_Count_Nodes_Equal_to_Average_of_Subtree;
 
 /// <summary>
-/// TODO url
+/// https://leetcode.com/submissions/detail/1089526786/
 /// </summary>
 [UsedImplicitly]
 public class Solution1 : ISolution

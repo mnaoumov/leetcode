@@ -3,6 +3,7 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._0662_Maximum_Width_of_Binary_Tree;
 
 /// <summary>
+/// https://leetcode.com/submissions/detail/946330405/
 /// </summary>
 [UsedImplicitly]
 public class Solution3 : ISolution

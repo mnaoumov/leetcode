@@ -3,6 +3,7 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._0384_Shuffle_an_Array;
 
 /// <summary>
+/// https://leetcode.com/submissions/detail/941814217/
 /// </summary>
 [UsedImplicitly]
 public class Solution2 : ISolution

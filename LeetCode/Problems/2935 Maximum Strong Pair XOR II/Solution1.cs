@@ -3,7 +3,7 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._2935_Maximum_Strong_Pair_XOR_II;
 
 /// <summary>
-/// TODO url
+/// NotImplemented
 /// </summary>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]

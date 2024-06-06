@@ -3,8 +3,10 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._3130_Find_All_Possible_Stable_Binary_Arrays_II;
 
 /// <summary>
+/// NotImplemented
 /// </summary>
 [UsedImplicitly]
+[SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution3 : ISolution
 {
     public int NumberOfStableArrays(int zero, int one, int limit)

@@ -3,7 +3,7 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._2851_String_Transformation;
 
 /// <summary>
-/// TODO url
+/// NotImplemented
 /// </summary>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]

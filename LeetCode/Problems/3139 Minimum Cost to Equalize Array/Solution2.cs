@@ -3,6 +3,7 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._3139_Minimum_Cost_to_Equalize_Array;
 
 /// <summary>
+/// NotImplemented
 /// </summary>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]

@@ -3,7 +3,7 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._0799_Champagne_Tower;
 
 /// <summary>
-/// TODO url
+/// https://leetcode.com/submissions/detail/1058217597/
 /// </summary>
 [UsedImplicitly]
 public class Solution1 : ISolution

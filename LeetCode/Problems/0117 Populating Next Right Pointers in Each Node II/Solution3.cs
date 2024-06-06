@@ -3,6 +3,7 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._0117_Populating_Next_Right_Pointers_in_Each_Node_II;
 
 /// <summary>
+/// https://leetcode.com/submissions/detail/934990656/
 /// </summary>
 [UsedImplicitly]
 public class Solution3 : ISolution

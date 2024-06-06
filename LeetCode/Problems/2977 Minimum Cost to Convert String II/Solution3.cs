@@ -3,6 +3,7 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._2977_Minimum_Cost_to_Convert_String_II;
 
 /// <summary>
+/// NotImplemented
 /// </summary>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]

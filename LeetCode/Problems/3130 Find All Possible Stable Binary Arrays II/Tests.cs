@@ -4,6 +4,7 @@ using NUnit.Framework;
 namespace LeetCode.Problems._3130_Find_All_Possible_Stable_Binary_Arrays_II;
 
 [UsedImplicitly]
+[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

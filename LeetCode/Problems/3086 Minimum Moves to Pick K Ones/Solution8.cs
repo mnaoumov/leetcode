@@ -3,6 +3,7 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._3086_Minimum_Moves_to_Pick_K_Ones;
 
 /// <summary>
+/// NotImplemented
 /// </summary>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]

@@ -3,7 +3,7 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._1647_Minimum_Deletions_to_Make_Character_Frequencies_Unique;
 
 /// <summary>
-/// TODO url
+/// https://leetcode.com/submissions/detail/1047092820/
 /// </summary>
 [UsedImplicitly]
 public class Solution1 : ISolution

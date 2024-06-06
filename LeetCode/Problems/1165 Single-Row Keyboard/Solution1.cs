@@ -3,7 +3,7 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._1165_Single_Row_Keyboard;
 
 /// <summary>
-/// TODO url
+/// https://leetcode.com/submissions/detail/1146507192/
 /// </summary>
 [UsedImplicitly]
 public class Solution1 : ISolution

@@ -3,6 +3,7 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._3154_Find_Number_of_Ways_to_Reach_the_K_th_Stair;
 
 /// <summary>
+/// https://leetcode.com/contest/weekly-contest-398/submissions/detail/1261839746/
 /// </summary>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]

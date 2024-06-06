@@ -3,6 +3,7 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._0437_Path_Sum_III;
 
 /// <summary>
+/// https://leetcode.com/submissions/detail/945749569/
 /// </summary>
 [UsedImplicitly]
 public class Solution2 : ISolution

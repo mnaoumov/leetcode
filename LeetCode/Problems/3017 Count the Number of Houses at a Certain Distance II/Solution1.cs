@@ -1,11 +1,13 @@
 using JetBrains.Annotations;
+using NUnit.Framework;
 
 namespace LeetCode.Problems._3017_Count_the_Number_of_Houses_at_a_Certain_Distance_II;
 
 /// <summary>
-/// TODO url
+/// NotImplemented
 /// </summary>
 [UsedImplicitly]
+[Category("TODO")]
 public class Solution1 : ISolution
 {
     public long[] CountOfPairs(int n, int x, int y)

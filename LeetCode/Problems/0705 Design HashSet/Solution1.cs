@@ -3,7 +3,7 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._0705_Design_HashSet;
 
 /// <summary>
-/// TODO url
+/// https://leetcode.com/submissions/detail/959976549/
 /// </summary>
 [UsedImplicitly]
 public class Solution1 : ISolution

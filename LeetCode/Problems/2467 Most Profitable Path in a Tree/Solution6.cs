@@ -3,16 +3,17 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._2467_Most_Profitable_Path_in_a_Tree;
 
 /// <summary>
+/// https://leetcode.com/submissions/detail/844349864/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution6 : ISolution
 {
     public int MostProfitablePath(int[][] edges, int bob, int[] amount)
     {
         var nodes = BuildNodes();
 
-        return Get(nodes[0], nodes[bob]);
+        var maxProfit = Get(nodes[0], nodes[bob]);
+        return maxProfit;
 
         int Get(Node aliceNode, Node? bobNode)
         {
@@ -30,9 +31,17 @@ public class Solution6 : ISolution
                 bobNode.Amount = 0;
             }
 
-            var result = cost + aliceNode.Neighbors.Where(n => !n.Visited)
-                .Select(aliceNextNode => Get(aliceNextNode, bobNode?.Parent)).DefaultIfEmpty(0)
+            var maxChildrenResult = aliceNode.Neighbors.Where(n => !n.Visited)
+                .Select(aliceNextNode => Get(aliceNextNode, bobNode?.Parent))
+                .DefaultIfEmpty(0)
                 .Max();
+
+            if (bobNode != null)
+            {
+                bobNode.Amount = amount[bobNode.Label];
+            }
+
+            var result = cost + maxChildrenResult;
             return result;
         }
 

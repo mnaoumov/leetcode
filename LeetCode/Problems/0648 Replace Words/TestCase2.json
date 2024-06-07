@@ -1,0 +1,5 @@
+{
+  "dictionary": ["a","b","c"],
+  "sentence": "aadsfasf absbs bbab cadsfafs",
+  "output": "a a b c"
+}

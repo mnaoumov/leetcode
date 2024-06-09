@@ -1,0 +1,9 @@
+using JetBrains.Annotations;
+
+namespace LeetCode.Problems._3176_Find_the_Maximum_Length_of_a_Good_Subsequence_I;
+
+[PublicAPI]
+public interface ISolution
+{
+    public int MaximumLength(int[] nums, int k);
+}

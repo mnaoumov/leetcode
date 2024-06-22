@@ -3,11 +3,11 @@ using JetBrains.Annotations;
 namespace LeetCode.Problems._3193_Count_the_Number_of_Inversions;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/1297031919/
+/// https://leetcode.com/submissions/detail/1297063471/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution1 : ISolution
+[SkipSolution(SkipSolutionReason.RuntimeError)]
+public class Solution2 : ISolution
 {
     public int NumberOfPermutations(int n, int[][] requirements)
     {
@@ -37,11 +37,18 @@ public class Solution1 : ISolution
                 return 1;
             }
 
-            return Enumerable.Range(0, inversesCount + 1).Select(x => recursiveFunc((length - 1, x)))
+            if (inversesCount == 0)
+            {
+                return 1;
+            }
+
+            return Enumerable.Range(0, 1 + Math.Min(length - 1, inversesCount))
+                .Select(maxValueIndex => recursiveFunc((length - 1, inversesCount - length + 1 + maxValueIndex)))
                 .Aggregate((a, b) => a + b);
         });
 
-        return dp.GetOrCalculate((n + 1, n * (n - 1) / 2));
+        return Enumerable.Range(0, n * (n - 1) / 2 + 1).Select(inversesCount => dp.GetOrCalculate((n, inversesCount)))
+            .Aggregate((a, b) => a + b);
     }
 
     private class ModNumber
@@ -66,17 +73,6 @@ public class Solution1 : ISolution
             new(1L * modNumber1._value * modNumber2._value);
 
         public override string ToString() => _value.ToString();
-    }
-
-    private static int Sample()
-    {
-        var dp = new DynamicProgramming<(int a, int b), int>((key, recursiveFunc) =>
-        {
-            var (a, b) = key;
-            return 0;
-        });
-
-        return dp.GetOrCalculate((0, 0));
     }
 
     private class DynamicProgramming<TKey, TValue> where TKey : notnull

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode.Problems._100333_Count_the_Number_of_Inversions;
+namespace LeetCode.Problems._3193_Count_the_Number_of_Inversions;
 
 [PublicAPI]
 public interface ISolution

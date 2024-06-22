@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode.Problems._100333_Count_the_Number_of_Inversions;
+namespace LeetCode.Problems._3193_Count_the_Number_of_Inversions;
 
 /// <summary>
 /// TODO url
@@ -35,7 +35,7 @@ public class Solution1 : ISolution
                 var end = requirement[0];
                 var cnt = requirement[1];
 
-                foreach (var inverseIndex in inverseIndices.GetViewBetween(0, end - 1))
+                foreach (var inverseIndex in inverseIndices.GetViewBetween(0, end))
                 {
                     cnt -= end - inverseIndex;
 

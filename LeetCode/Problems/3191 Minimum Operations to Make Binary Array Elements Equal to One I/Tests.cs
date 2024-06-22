@@ -1,7 +1,7 @@
-using NUnit.Framework;
 using JetBrains.Annotations;
+using NUnit.Framework;
 
-namespace LeetCode.Problems._100344_Minimum_Operations_to_Make_Binary_Array_Elements_Equal_to_One_I;
+namespace LeetCode.Problems._3191_Minimum_Operations_to_Make_Binary_Array_Elements_Equal_to_One_I;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

@@ -1,7 +1,7 @@
-using NUnit.Framework;
 using JetBrains.Annotations;
+using NUnit.Framework;
 
-namespace LeetCode.Problems._100345_Find_Minimum_Operations_to_Make_All_Elements_Divisible_by_Three;
+namespace LeetCode.Problems._3190_Find_Minimum_Operations_to_Make_All_Elements_Divisible_by_Three;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

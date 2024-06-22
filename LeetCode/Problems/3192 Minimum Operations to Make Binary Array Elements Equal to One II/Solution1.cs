@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode.Problems._100346_Minimum_Operations_to_Make_Binary_Array_Elements_Equal_to_One_II;
+namespace LeetCode.Problems._3192_Minimum_Operations_to_Make_Binary_Array_Elements_Equal_to_One_II;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-133/submissions/detail/1296761020/

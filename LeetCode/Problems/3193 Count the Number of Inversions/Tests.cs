@@ -1,7 +1,7 @@
-using NUnit.Framework;
 using JetBrains.Annotations;
+using NUnit.Framework;
 
-namespace LeetCode.Problems._100333_Count_the_Number_of_Inversions;
+namespace LeetCode.Problems._3193_Count_the_Number_of_Inversions;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

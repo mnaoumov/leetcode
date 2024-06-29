@@ -74,8 +74,7 @@ public class TreeNode
         return string.Join(",", valuesStr);
     }
 
-    // ReSharper disable once ReturnTypeCanBeEnumerable.Local
-    private static int?[] GetValues(TreeNode? treeNode)
+    public static int?[] GetValues(TreeNode? treeNode)
     {
         var values = new List<int?>();
         TraverseByLevel(treeNode, node => values.Add(node?.val));

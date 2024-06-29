@@ -118,6 +118,6 @@ public class Solution6 : ISolution
     {
         public bool IsValid => Top <= Bottom && Left <= Right;
         public int Area => (Bottom - Top + 1) * (Right - Left + 1);
-        public static readonly Rectangle Wrong = new Rectangle(int.MaxValue, int.MaxValue, int.MinValue, int.MinValue);
+        public static readonly Rectangle Wrong = new(int.MaxValue, int.MaxValue, int.MinValue, int.MinValue);
     }
 }

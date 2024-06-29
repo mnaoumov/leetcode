@@ -74,7 +74,7 @@ public class Solution2 : ISolution
                         {
                             (top: topOne, left, bottom: row, right: leftOne - 1),
                             (top: topOne, left: column + 1, bottom: row, right),
-                            (top: row + 1, left, bottom, right),
+                            (top: row + 1, left, bottom, right)
                         };
 
                         const int uncoveredRectanglesCount = 3;

@@ -21,12 +21,7 @@ public class Solution1 : ISolution
         {
             if (top > bottom || left > right)
             {
-                if (rectangleCount == 0)
-                {
-                    return 0;
-                }
-
-                return impossible;
+                return rectangleCount == 0 ? 0 : impossible;
             }
 
             var area = (bottom - top + 1) * (right - left + 1);

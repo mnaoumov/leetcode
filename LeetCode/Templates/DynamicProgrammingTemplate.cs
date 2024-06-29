@@ -5,6 +5,7 @@
 // ReSharper disable UnusedType.Local
 // ReSharper disable UnusedVariable
 // ReSharper disable UnusedParameter.Local
+// ReSharper disable UnusedMember.Global
 #pragma warning disable IDE0051
 
 namespace LeetCode.Templates;

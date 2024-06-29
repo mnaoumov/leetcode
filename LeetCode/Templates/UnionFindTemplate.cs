@@ -3,6 +3,7 @@
 // ReSharper disable UnusedType.Global
 // ReSharper disable UnusedMember.Local
 // ReSharper disable UnusedType.Local
+// ReSharper disable UnusedMember.Global
 
 namespace LeetCode.Templates;
 

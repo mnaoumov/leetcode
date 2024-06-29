@@ -66,14 +66,12 @@ public class Solution7 : ISolution
                     return rectangleCount;
                 }
 
-                if (rectangleCount == 0)
+                switch (rectangleCount)
                 {
-                    return impossible;
-                }
-
-                if (rectangleCount == 1)
-                {
-                    return rectangle.Area;
+                    case 0:
+                        return impossible;
+                    case 1:
+                        return rectangle.Area;
                 }
 
                 var ans = impossible;
@@ -122,6 +120,6 @@ public class Solution7 : ISolution
     {
         public bool IsValid => Top <= Bottom && Left <= Right;
         public int Area => (Bottom - Top + 1) * (Right - Left + 1);
-        public static readonly Rectangle Wrong = new Rectangle(int.MaxValue, int.MaxValue, int.MinValue, int.MinValue);
+        public static readonly Rectangle Wrong = new(int.MaxValue, int.MaxValue, int.MinValue, int.MinValue);
     }
 }

@@ -68,17 +68,6 @@ public class Solution1 : ISolution
         public override string ToString() => _value.ToString();
     }
 
-    private static int Sample()
-    {
-        var dp = new DynamicProgramming<(int a, int b), int>((key, recursiveFunc) =>
-        {
-            var (a, b) = key;
-            return 0;
-        });
-
-        return dp.GetOrCalculate((0, 0));
-    }
-
     private class DynamicProgramming<TKey, TValue> where TKey : notnull
     {
         private readonly Func<TKey, Func<TKey, TValue>, TValue> _func;

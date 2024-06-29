@@ -12,7 +12,6 @@ public class Solution4 : ISolution
     public int MinimumSum(int[][] grid)
     {
         const int impossible = 1000;
-        const int notFound = -1;
 
         var hasOnesDp = new DynamicProgramming<Rectangle, bool>((rectangle, recursiveFunc) =>
         {

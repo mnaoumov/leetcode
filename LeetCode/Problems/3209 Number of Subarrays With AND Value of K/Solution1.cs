@@ -11,7 +11,7 @@ public class Solution1 : ISolution
 {
     public long CountSubarrays(int[] nums, int k)
     {
-        var bitsCount = 32;
+        const int bitsCount = 32;
         var n = nums.Length;
         var zeroBitsCountsPrefixes = new int[n][];
 

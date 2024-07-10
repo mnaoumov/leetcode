@@ -23,7 +23,7 @@ public class Solution1 : ISolution
             var next = node.next!;
             var next2 = next.next!;
 
-            if ((next.val < node.val && next.val < next2.val) || (next.val > node.val && next.val > next2.val))
+            if (next.val < node.val && next.val < next2.val || next.val > node.val && next.val > next2.val)
             {
                 if (firstCriticalPointIndex == notFound)
                 {

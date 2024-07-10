@@ -91,6 +91,7 @@ public class Solution6 : ISolution
 
             var endIndicesCost = endIndicesCosts[end];
 
+            // ReSharper disable once ForeachCanBePartlyConvertedToQueryUsingAnotherGetEnumerator
             foreach (var startIndexCost in startIndicesCosts[start])
             {
                 if (ans <= startIndexCost.cost)

@@ -7,7 +7,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        AssertCollectionEqualWithDetails(solution.NodesBetweenCriticalPoints(ListNode.CreateOrNull(testCase.Head)), testCase.Output);
+        AssertCollectionEqualWithDetails(solution.NodesBetweenCriticalPoints(ListNode.Create(testCase.Head)), testCase.Output);
     }
 
     public class TestCase : TestCaseBase

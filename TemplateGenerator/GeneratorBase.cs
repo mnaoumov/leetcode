@@ -13,7 +13,7 @@ internal abstract partial class GeneratorBase : IGenerator
     private const string InvalidNamespaceChars = " `-=~!@#$%^&*()+[]{}',.;";
     private const int ProblemNumberLength = 4;
     private const char ReplacementChar = '_';
-    private const string LeetCodeFolderPath = @"F:\Dev\LeetCode\LeetCode\Problems";
+    private const string LeetCodeFolderPath = @"F:\Dev\LeetCode\LeetCode\ProblemsNew";
 
     private string Title { get; set; } = null!;
 

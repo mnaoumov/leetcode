@@ -51,12 +51,6 @@
     </None>
   </ItemGroup>
 
-  <ItemGroup>
-    <Compile Remove="Problems\**\*.cs" />
-    <None Remove="Problems\**\*" />
-    <Content Remove="Problems\**\*" />
-  </ItemGroup>
-
   <Target Name="GatherJsonAnalyzers">
     <ItemGroup>
       <_JsonAnalyzers Include="@(Analyzer)" Condition=" '%(Analyzer.Filename)' == 'System.Text.Json.SourceGeneration' " />

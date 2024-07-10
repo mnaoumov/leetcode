@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using NUnit.Framework;
 
 namespace LeetCode.Problems._2181_Merge_Nodes_in_Between_Zeros;
 
@@ -7,7 +8,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        AssertCollectionEqualWithDetails(solution.MergeNodes(ListNode.CreateOrNull(testCase.Head)), ListNode.CreateOrNull(testCase.Output));
+        Assert.That(solution.MergeNodes(ListNode.Create(testCase.Head)), Is.EqualTo(ListNode.Create(testCase.Output)));
     }
 
     public class TestCase : TestCaseBase

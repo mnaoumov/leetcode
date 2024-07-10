@@ -1,8 +1,10 @@
 using JetBrains.Annotations;
+using NUnit.Framework;
 
 namespace LeetCode.Problems._3108_Minimum_Cost_Walk_in_Weighted_Graph;
 
 [UsedImplicitly]
+[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

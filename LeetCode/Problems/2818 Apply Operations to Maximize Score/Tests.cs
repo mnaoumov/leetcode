@@ -4,6 +4,7 @@ using NUnit.Framework;
 namespace LeetCode.Problems._2818_Apply_Operations_to_Maximize_Score;
 
 [UsedImplicitly]
+[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

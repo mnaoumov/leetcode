@@ -4,6 +4,7 @@ using NUnit.Framework;
 namespace LeetCode.Problems._3003_Maximize_the_Number_of_Partitions_After_Operations;
 
 [UsedImplicitly]
+[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

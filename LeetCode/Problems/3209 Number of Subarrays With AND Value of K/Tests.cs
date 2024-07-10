@@ -4,6 +4,7 @@ using NUnit.Framework;
 namespace LeetCode.Problems._3209_Number_of_Subarrays_With_AND_Value_of_K;
 
 [UsedImplicitly]
+[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

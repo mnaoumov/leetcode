@@ -4,6 +4,7 @@ using NUnit.Framework;
 namespace LeetCode.Problems._3213_Construct_String_with_Minimum_Cost;
 
 [UsedImplicitly]
+[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

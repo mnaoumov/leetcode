@@ -4,6 +4,7 @@ using NUnit.Framework;
 namespace LeetCode.Problems._2977_Minimum_Cost_to_Convert_String_II;
 
 [UsedImplicitly]
+[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

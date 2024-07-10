@@ -4,6 +4,7 @@ using NUnit.Framework;
 namespace LeetCode.Problems._2875_Minimum_Size_Subarray_in_Infinite_Array;
 
 [UsedImplicitly]
+[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

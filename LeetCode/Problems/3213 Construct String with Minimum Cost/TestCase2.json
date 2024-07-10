@@ -1,0 +1,6 @@
+{
+  "target": "aaaa",
+  "words": ["z","zz","zzz"],
+  "costs": [1,10,100],
+  "output": -1
+}

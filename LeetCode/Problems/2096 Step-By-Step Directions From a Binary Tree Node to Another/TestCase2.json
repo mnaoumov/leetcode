@@ -1,0 +1,6 @@
+{
+  "root": [2,1],
+  "startValue": 2,
+  "destValue": 1,
+  "output": "L"
+}

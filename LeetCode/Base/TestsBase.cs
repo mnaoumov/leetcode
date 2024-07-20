@@ -112,7 +112,12 @@ public abstract partial class TestsBase
     {
         var namespacePart = problemRelatedType.Namespace!.Replace("LeetCode.Problems._", "");
         var problemNumber = namespacePart.Split('_')[0];
-        var problemTestCaseDirectory = Directory.GetDirectories("Problems", $"{problemNumber} *").FirstOrDefault(dir =>
+        return GetProblemDirectory(problemNumber, namespacePart, "ProblemsNew") ?? GetProblemDirectory(problemNumber, namespacePart, "Problems");
+    }
+
+    private static string? GetProblemDirectory(string problemNumber, string namespacePart, string dirName)
+    {
+        var problemTestCaseDirectory = Directory.GetDirectories(dirName, $"{problemNumber} *").FirstOrDefault(dir =>
         {
             var name = dir.Split('\\')[^1];
             var escapedName = CharactersToEscapeRegex().Replace(name, "_");

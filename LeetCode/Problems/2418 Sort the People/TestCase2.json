@@ -1,0 +1,5 @@
+{
+  "names": ["Alice","Bob","Bob"],
+  "heights": [155,185,150],
+  "output": ["Bob","Alice","Bob"]
+}

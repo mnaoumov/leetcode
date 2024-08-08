@@ -112,7 +112,7 @@ public abstract partial class TestsBase
     {
         var namespacePart = problemRelatedType.Namespace!.Replace("LeetCode.Problems._", "");
         var problemNumber = namespacePart.Split('_')[0];
-        return GetProblemDirectory(problemNumber, namespacePart, "ProblemsNew") ?? GetProblemDirectory(problemNumber, namespacePart, "Problems");
+        return GetProblemDirectory(problemNumber, namespacePart, "Problems\\!TODO") ?? GetProblemDirectory(problemNumber, namespacePart, "Problems");
     }
 
     private static string? GetProblemDirectory(string problemNumber, string namespacePart, string dirName)

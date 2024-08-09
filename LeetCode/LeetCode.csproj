@@ -22,6 +22,18 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="Problems\**\*.cs" />
+    <None Remove="Problems\**\*" />
+    <Content Remove="Problems\**\*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Problems\!TODO\**\*.cs" />
+    <None Include="Problems\!TODO\**\*" />
+    <Content Include="Problems\!TODO\**\*" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="**\*.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -48,42 +60,6 @@
   <ItemGroup>
     <None Update="JavaScript\Debugger.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Remove="Problems\**\*.cs" />
-    <None Remove="Problems\**\*" />
-    <Content Remove="Problems\**\*" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Include="Problems\!TODO\**\*.cs" />
-    <None Include="Problems\!TODO\**\*" />
-    <Content Include="Problems\!TODO\**\*" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="Problems\!TODO\**\*.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="Problems\!TODO\**\*.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="Problems\!TODO\**\*.sh">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="Problems\!TODO\**\*.js">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 

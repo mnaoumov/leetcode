@@ -63,6 +63,10 @@
     </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Problems\!TODO\" />
+  </ItemGroup>
+
   <Target Name="GatherJsonAnalyzers">
     <ItemGroup>
       <_JsonAnalyzers Include="@(Analyzer)" Condition=" '%(Analyzer.Filename)' == 'System.Text.Json.SourceGeneration' " />

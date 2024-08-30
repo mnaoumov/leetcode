@@ -28,9 +28,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Problems\!TODO\" />
     <Compile Include="Problems\!TODO\**\*.cs" />
     <None Include="Problems\!TODO\**\*" />
-    <Content Include="Problems\!TODO\**\*" />
   </ItemGroup>
 
   <ItemGroup>
@@ -61,10 +61,6 @@
     <None Update="JavaScript\Debugger.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Problems\!TODO\" />
   </ItemGroup>
 
   <Target Name="GatherJsonAnalyzers">

@@ -17,11 +17,12 @@ public static class DijkstraDirectedShortestPathTemplate
         {
             _distances[source] = 0;
             var marked = new HashSet<T>();
-            var unmarked = new HashSet<T> { source };
+            var unmarked = new PriorityQueue<T, double>();
+            unmarked.Enqueue(source, 0);
 
             while (unmarked.Count > 0)
             {
-                var v = unmarked.MinBy(node => _distances[node])!;
+                var v = unmarked.Dequeue();
                 var dv = DistanceTo(v);
 
                 foreach (var (_, w, weight) in graph.AdjacentEdges(v))
@@ -40,11 +41,10 @@ public static class DijkstraDirectedShortestPathTemplate
                     }
 
                     _distances[w] = dw2;
-                    unmarked.Add(w);
+                    unmarked.Enqueue(w, dw2);
                 }
 
                 marked.Add(v);
-                unmarked.Remove(v);
             }
         }
 

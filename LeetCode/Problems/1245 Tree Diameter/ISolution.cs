@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1245_Tree_Diameter;
 
 [PublicAPI]

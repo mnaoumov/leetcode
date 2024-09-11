@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2436_Minimum_Split_Into_Subarrays_With_GCD_Greater_Than_One;
 
 /// <summary>

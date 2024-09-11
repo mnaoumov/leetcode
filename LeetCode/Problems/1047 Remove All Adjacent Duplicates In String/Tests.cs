@@ -1,8 +1,3 @@
-using NUnit.Framework;
-
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1047_Remove_All_Adjacent_Duplicates_In_String;
 
 [UsedImplicitly]

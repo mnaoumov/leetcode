@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._0047_Permutations_II;
 
 [UsedImplicitly]

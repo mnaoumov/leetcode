@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0734_Sentence_Similarity;
 
 /// <summary>

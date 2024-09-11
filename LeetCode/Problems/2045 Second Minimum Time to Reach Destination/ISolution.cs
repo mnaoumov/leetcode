@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2045_Second_Minimum_Time_to_Reach_Destination;
 
 [PublicAPI]

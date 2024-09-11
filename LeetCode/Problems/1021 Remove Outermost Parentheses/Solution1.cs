@@ -1,5 +1,4 @@
 using System.Text;
-using JetBrains.Annotations;
 
 namespace LeetCode.Problems._1021_Remove_Outermost_Parentheses;
 

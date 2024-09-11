@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1246_Palindrome_Removal;
 
 /// <summary>

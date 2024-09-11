@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.DataStructure;
-
 namespace LeetCode.Problems._0144_Binary_Tree_Preorder_Traversal;
 
 [PublicAPI]

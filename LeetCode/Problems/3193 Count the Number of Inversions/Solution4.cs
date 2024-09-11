@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._3193_Count_the_Number_of_Inversions;
 
 /// <summary>

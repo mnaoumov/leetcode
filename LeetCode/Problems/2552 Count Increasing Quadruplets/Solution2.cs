@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2552_Count_Increasing_Quadruplets;
 
 /// <summary>

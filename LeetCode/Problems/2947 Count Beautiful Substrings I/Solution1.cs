@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2947_Count_Beautiful_Substrings_I;
 
 /// <summary>

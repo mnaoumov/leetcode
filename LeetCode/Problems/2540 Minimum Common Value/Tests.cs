@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._2540_Minimum_Common_Value;
 
 [UsedImplicitly]

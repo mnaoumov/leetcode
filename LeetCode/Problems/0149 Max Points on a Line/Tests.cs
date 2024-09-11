@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._0149_Max_Points_on_a_Line;
 
 [UsedImplicitly]

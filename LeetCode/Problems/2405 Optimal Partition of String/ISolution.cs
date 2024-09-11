@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2405_Optimal_Partition_of_String;
 
 [PublicAPI]

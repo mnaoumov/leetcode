@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1898_Maximum_Number_of_Removable_Characters;
 
 [UsedImplicitly]

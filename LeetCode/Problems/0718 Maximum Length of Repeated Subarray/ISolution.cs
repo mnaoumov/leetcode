@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0718_Maximum_Length_of_Repeated_Subarray;
 
 [PublicAPI]

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._3075_Maximize_Happiness_of_Selected_Children;
 
 /// <summary>

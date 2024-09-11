@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2438_Range_Product_Queries_of_Powers;
 
 [PublicAPI]

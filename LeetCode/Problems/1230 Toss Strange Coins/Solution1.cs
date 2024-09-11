@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1230_Toss_Strange_Coins;
 
 /// <summary>

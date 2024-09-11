@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1591_Strange_Printer_II;
 
 /// <summary>

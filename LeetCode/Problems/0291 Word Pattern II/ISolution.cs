@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0291_Word_Pattern_II;
 
 [PublicAPI]

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1183_Maximum_Number_of_Ones;
 
 [PublicAPI]

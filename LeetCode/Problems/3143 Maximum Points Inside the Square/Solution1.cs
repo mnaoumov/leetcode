@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._3143_Maximum_Points_Inside_the_Square;
 
 /// <summary>

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2429_Minimize_XOR;
 
 [PublicAPI]

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0567_Permutation_in_String;
 
 /// <summary>

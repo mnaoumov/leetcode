@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1552_Magnetic_Force_Between_Two_Balls;
 
 [UsedImplicitly]

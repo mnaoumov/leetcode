@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2528_Maximize_the_Minimum_Powered_City;
 
 [PublicAPI]

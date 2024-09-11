@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0451_Sort_Characters_By_Frequency;
 
 /// <summary>

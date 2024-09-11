@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0605_Can_Place_Flowers;
 
 [PublicAPI]

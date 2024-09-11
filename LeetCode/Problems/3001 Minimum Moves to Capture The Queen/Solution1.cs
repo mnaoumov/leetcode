@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._3001_Minimum_Moves_to_Capture_The_Queen;
 
 /// <summary>

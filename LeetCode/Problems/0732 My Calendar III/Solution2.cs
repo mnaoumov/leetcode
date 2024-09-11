@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0732_My_Calendar_III;
 
 /// <summary>

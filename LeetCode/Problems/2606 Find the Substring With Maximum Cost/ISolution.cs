@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2606_Find_the_Substring_With_Maximum_Cost;
 
 [PublicAPI]

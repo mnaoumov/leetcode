@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2073_Time_Needed_to_Buy_Tickets;
 
 [PublicAPI]

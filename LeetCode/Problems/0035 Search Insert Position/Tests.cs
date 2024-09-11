@@ -1,8 +1,3 @@
-using NUnit.Framework;
-
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._0035_Search_Insert_Position;
 
 [UsedImplicitly]

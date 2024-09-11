@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._0441_Arranging_Coins;
 
 [UsedImplicitly]

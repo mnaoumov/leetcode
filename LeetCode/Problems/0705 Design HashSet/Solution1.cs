@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0705_Design_HashSet;
 
 /// <summary>

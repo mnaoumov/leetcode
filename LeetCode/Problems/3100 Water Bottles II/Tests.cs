@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._3100_Water_Bottles_II;
 
 [UsedImplicitly]

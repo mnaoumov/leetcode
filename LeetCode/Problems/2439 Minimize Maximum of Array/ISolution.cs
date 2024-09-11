@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2439_Minimize_Maximum_of_Array;
 
 [PublicAPI]

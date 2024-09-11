@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2563_Count_the_Number_of_Fair_Pairs;
 
 /// <summary>

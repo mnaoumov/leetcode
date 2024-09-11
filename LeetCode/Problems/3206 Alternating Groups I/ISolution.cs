@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._3206_Alternating_Groups_I;
 
 [PublicAPI]

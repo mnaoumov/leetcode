@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0152_Maximum_Product_Subarray;
 
 [PublicAPI]

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0319_Bulb_Switcher;
 
 /// <summary>

@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._2614_Prime_In_Diagonal;
 
 [UsedImplicitly]

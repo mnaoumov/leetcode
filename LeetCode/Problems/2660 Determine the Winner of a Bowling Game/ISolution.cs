@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2660_Determine_the_Winner_of_a_Bowling_Game;
 
 [PublicAPI]

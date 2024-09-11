@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0994_Rotting_Oranges;
 
 [PublicAPI]

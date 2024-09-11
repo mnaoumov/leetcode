@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._3248_Snake_in_Matrix;
 
 [PublicAPI]

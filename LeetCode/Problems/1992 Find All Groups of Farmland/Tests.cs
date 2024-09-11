@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1992_Find_All_Groups_of_Farmland;
 
 [UsedImplicitly]

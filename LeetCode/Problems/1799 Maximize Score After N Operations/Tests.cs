@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1799_Maximize_Score_After_N_Operations;
 
 [UsedImplicitly]

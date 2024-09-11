@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1678_Goal_Parser_Interpretation;
 
 [PublicAPI]

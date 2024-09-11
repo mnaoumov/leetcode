@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0461_Hamming_Distance;
 
 [PublicAPI]

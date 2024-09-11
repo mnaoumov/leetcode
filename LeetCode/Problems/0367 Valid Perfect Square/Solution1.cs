@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0367_Valid_Perfect_Square;
 
 /// <summary>

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0490_The_Maze;
 
 [PublicAPI]

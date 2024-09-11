@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1428_Leftmost_Column_with_at_Least_a_One;
 
 [UsedImplicitly]

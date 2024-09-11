@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2874_Maximum_Value_of_an_Ordered_Triplet_II;
 
 /// <summary>

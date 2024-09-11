@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2370_Longest_Ideal_Subsequence;
 
 /// <summary>

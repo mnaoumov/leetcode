@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1024_Video_Stitching;
 
 /// <summary>

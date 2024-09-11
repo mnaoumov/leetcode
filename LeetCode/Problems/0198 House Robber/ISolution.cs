@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0198_House_Robber;
 
 [PublicAPI]

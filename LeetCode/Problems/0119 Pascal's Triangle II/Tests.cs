@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._0119_Pascal_s_Triangle_II;
 
 [UsedImplicitly]

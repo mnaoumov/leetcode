@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2707_Extra_Characters_in_a_String;
 
 /// <summary>

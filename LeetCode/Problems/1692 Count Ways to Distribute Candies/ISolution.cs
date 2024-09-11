@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1692_Count_Ways_to_Distribute_Candies;
 
 [PublicAPI]

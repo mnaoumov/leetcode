@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0296_Best_Meeting_Point;
 
 /// <summary>

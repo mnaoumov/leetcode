@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0476_Number_Complement;
 
 [PublicAPI]

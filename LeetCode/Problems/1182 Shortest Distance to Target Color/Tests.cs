@@ -1,7 +1,3 @@
-
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1182_Shortest_Distance_to_Target_Color;
 
 [UsedImplicitly]

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0713_Subarray_Product_Less_Than_K;
 
 /// <summary>

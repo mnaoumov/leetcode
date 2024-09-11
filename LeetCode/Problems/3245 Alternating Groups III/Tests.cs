@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._3245_Alternating_Groups_III;
 
 [UsedImplicitly]

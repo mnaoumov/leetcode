@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._3235_Check_if_the_Rectangle_Corner_Is_Reachable;
 
 [PublicAPI]

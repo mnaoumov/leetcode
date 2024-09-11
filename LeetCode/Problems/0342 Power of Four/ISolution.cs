@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0342_Power_of_Four;
 
 [PublicAPI]

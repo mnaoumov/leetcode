@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0621_Task_Scheduler;
 
 /// <summary>

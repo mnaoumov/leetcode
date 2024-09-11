@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._0540_Single_Element_in_a_Sorted_Array;
 
 [UsedImplicitly]

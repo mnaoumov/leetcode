@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0946_Validate_Stack_Sequences;
 
 /// <summary>

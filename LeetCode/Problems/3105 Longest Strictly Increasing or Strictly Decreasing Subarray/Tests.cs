@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._3105_Longest_Strictly_Increasing_or_Strictly_Decreasing_Subarray;
 
 [UsedImplicitly]

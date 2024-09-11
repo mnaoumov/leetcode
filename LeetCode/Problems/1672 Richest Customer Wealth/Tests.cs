@@ -1,8 +1,3 @@
-using NUnit.Framework;
-
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1672_Richest_Customer_Wealth;
 
 [UsedImplicitly]

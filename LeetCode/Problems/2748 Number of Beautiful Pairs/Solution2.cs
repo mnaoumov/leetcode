@@ -1,5 +1,4 @@
 using System.Numerics;
-using JetBrains.Annotations;
 
 namespace LeetCode.Problems._2748_Number_of_Beautiful_Pairs;
 

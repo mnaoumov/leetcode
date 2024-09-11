@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._0535_Encode_and_Decode_TinyURL;
 
 [UsedImplicitly]

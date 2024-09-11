@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0030_Substring_with_Concatenation_of_All_Words;
 
 [PublicAPI]

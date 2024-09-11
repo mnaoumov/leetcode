@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1791_Find_Center_of_Star_Graph;
 
 /// <summary>

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1535_Find_the_Winner_of_an_Array_Game;
 
 /// <summary>

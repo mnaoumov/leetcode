@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1272_Remove_Interval;
 
 /// <summary>

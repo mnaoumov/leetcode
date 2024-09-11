@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1229_Meeting_Scheduler;
 
 /// <summary>

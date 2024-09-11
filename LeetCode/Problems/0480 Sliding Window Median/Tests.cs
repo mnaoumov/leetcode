@@ -1,7 +1,3 @@
-
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._0480_Sliding_Window_Median;
 
 [UsedImplicitly]

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0520_Detect_Capital;
 
 /// <summary>

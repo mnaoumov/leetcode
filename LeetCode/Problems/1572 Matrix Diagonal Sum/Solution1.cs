@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1572_Matrix_Diagonal_Sum;
 
 /// <summary>

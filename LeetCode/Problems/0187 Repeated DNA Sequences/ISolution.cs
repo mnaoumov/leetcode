@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0187_Repeated_DNA_Sequences;
 
 [PublicAPI]

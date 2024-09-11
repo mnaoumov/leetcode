@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._2470_Number_of_Subarrays_With_LCM_Equal_to_K;
 
 [UsedImplicitly]

@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.DataStructure;
-
 namespace LeetCode.Problems._1660_Correct_a_Binary_Tree;
 
 [PublicAPI]

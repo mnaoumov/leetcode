@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._2842_Count_K_Subsequences_of_a_String_With_Maximum_Beauty;
 
 [UsedImplicitly]

@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1235_Maximum_Profit_in_Job_Scheduling;
 
 /// <summary>

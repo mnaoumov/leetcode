@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._3039_Apply_Operations_to_Make_String_Empty;
 
 [PublicAPI]

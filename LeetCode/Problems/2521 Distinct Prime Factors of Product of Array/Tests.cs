@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._2521_Distinct_Prime_Factors_of_Product_of_Array;
 
 [UsedImplicitly]

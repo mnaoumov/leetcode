@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0096_Unique_Binary_Search_Trees;
 
 [PublicAPI]

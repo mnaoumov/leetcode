@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0060_Permutation_Sequence;
 
 [PublicAPI]

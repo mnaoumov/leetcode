@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._3116_Kth_Smallest_Amount_With_Single_Denomination_Combination;
 
 [UsedImplicitly]

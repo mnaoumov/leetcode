@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0392_Is_Subsequence;
 
 /// <summary>

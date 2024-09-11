@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0441_Arranging_Coins;
 
 /// <summary>

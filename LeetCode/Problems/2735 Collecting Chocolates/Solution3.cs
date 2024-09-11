@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2735_Collecting_Chocolates;
 
 /// <summary>

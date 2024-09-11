@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2656_Maximum_Sum_With_Exactly_K_Elements;
 
 /// <summary>

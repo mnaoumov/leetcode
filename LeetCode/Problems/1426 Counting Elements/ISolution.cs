@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1426_Counting_Elements;
 
 [PublicAPI]

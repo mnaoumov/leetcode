@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1061_Lexicographically_Smallest_Equivalent_String;
 
 [PublicAPI]

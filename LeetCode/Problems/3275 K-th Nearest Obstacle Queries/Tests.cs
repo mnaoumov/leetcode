@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._3275_K_th_Nearest_Obstacle_Queries;
 
 [UsedImplicitly]

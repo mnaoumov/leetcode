@@ -1,8 +1,3 @@
-using NUnit.Framework;
-
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._0026_Remove_Duplicates_from_Sorted_Array;
 
 [UsedImplicitly]

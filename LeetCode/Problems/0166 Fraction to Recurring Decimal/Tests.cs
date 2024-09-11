@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._0166_Fraction_to_Recurring_Decimal;
 
 [UsedImplicitly]

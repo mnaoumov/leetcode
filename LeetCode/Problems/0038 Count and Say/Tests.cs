@@ -1,8 +1,3 @@
-using NUnit.Framework;
-
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._0038_Count_and_Say;
 
 [UsedImplicitly]

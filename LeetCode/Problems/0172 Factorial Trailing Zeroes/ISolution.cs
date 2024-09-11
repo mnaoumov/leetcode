@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0172_Factorial_Trailing_Zeroes;
 
 [PublicAPI]

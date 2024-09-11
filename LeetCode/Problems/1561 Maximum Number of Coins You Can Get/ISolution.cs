@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1561_Maximum_Number_of_Coins_You_Can_Get;
 
 [PublicAPI]

@@ -1,5 +1,4 @@
 using System.Text;
-using JetBrains.Annotations;
 
 namespace LeetCode.Problems._0022_Generate_Parentheses;
 

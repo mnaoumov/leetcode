@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1855_Maximum_Distance_Between_a_Pair_of_Values;
 
 /// <summary>

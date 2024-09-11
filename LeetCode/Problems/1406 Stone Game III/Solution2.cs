@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1406_Stone_Game_III;
 
 /// <summary>

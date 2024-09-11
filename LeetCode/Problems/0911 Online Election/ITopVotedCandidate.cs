@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0911_Online_Election;
 
 [PublicAPI]

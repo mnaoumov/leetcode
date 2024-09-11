@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._2431_Maximize_Total_Tastiness_of_Purchased_Fruits;
 
 /// <summary>

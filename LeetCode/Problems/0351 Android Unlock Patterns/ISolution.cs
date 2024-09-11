@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0351_Android_Unlock_Patterns;
 
 [PublicAPI]

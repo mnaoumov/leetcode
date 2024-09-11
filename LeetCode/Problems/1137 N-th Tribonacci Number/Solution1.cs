@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1137_N_th_Tribonacci_Number;
 
 /// <summary>

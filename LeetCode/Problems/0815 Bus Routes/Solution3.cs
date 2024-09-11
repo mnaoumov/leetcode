@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0815_Bus_Routes;
 
 /// <summary>

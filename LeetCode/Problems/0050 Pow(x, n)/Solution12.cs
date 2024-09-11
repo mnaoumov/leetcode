@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0050_Pow_x__n_;
 
 /// <summary>

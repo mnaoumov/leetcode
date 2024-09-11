@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using LeetCode.Helpers;
-
 namespace LeetCode.Problems._0286_Walls_and_Gates;
 
 [UsedImplicitly]

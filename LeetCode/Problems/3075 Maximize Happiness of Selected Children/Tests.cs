@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._3075_Maximize_Happiness_of_Selected_Children;
 
 [UsedImplicitly]

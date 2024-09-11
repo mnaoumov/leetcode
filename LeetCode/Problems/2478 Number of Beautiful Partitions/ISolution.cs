@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2478_Number_of_Beautiful_Partitions;
 
 [PublicAPI]

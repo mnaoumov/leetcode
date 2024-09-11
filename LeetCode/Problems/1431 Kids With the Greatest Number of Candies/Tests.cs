@@ -1,7 +1,3 @@
-
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1431_Kids_With_the_Greatest_Number_of_Candies;
 
 [UsedImplicitly]

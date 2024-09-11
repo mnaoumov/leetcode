@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0459_Repeated_Substring_Pattern;
 
 /// <summary>

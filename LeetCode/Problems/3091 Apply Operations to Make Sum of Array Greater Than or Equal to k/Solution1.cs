@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._3091_Apply_Operations_to_Make_Sum_of_Array_Greater_Than_or_Equal_to_k;
 
 /// <summary>

@@ -1,8 +1,3 @@
-using NUnit.Framework;
-
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._0345_Reverse_Vowels_of_a_String;
 
 [UsedImplicitly]

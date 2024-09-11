@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.JavaScript;
-
 namespace LeetCode.Problems._2635_Apply_Transform_Over_Each_Element_in_Array;
 
 [UsedImplicitly]

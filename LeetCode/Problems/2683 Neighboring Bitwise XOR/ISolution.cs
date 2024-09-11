@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2683_Neighboring_Bitwise_XOR;
 
 [PublicAPI]

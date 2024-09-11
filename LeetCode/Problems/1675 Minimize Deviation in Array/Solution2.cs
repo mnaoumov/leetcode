@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1675_Minimize_Deviation_in_Array;
 
 /// <summary>

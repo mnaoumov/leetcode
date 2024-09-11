@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0207_Course_Schedule;
 
 [PublicAPI]

@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._3171_Find_Subarray_With_Bitwise_AND_Closest_to_K;
 
 /// <summary>

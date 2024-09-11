@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2126_Destroying_Asteroids;
 
 /// <summary>

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1283_Find_the_Smallest_Divisor_Given_a_Threshold;
 
 /// <summary>

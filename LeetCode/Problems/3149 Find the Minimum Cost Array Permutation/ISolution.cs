@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._3149_Find_the_Minimum_Cost_Array_Permutation;
 
 [PublicAPI]

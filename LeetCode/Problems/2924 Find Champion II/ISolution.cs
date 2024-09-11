@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2924_Find_Champion_II;
 
 [PublicAPI]

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0486_Predict_the_Winner;
 
 [PublicAPI]

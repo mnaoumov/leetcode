@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0875_Koko_Eating_Bananas;
 
 [PublicAPI]

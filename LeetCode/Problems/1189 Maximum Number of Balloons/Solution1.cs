@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1189_Maximum_Number_of_Balloons;
 
 /// <summary>

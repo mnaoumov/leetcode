@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._3131_Find_the_Integer_Added_to_Array_I;
 
 [UsedImplicitly]

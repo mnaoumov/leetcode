@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1489_Find_Critical_and_Pseudo_Critical_Edges_in_Minimum_Spanning_Tree;
 
 [PublicAPI]

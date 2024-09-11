@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2361_Minimum_Costs_Using_the_Train_Line;
 
 /// <summary>

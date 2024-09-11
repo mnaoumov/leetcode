@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2226_Maximum_Candies_Allocated_to_K_Children;
 
 /// <summary>

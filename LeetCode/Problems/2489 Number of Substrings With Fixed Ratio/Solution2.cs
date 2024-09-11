@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2489_Number_of_Substrings_With_Fixed_Ratio;
 
 /// <summary>

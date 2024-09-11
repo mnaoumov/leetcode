@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2525_Categorize_Box_According_to_Criteria;
 
 [PublicAPI]

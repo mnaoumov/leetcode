@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2131_Longest_Palindrome_by_Concatenating_Two_Letter_Words;
 
 /// <summary>

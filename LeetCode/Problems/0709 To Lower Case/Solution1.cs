@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0709_To_Lower_Case;
 
 /// <summary>

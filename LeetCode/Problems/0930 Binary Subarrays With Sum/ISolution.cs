@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0930_Binary_Subarrays_With_Sum;
 
 [PublicAPI]

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._3143_Maximum_Points_Inside_the_Square;
 
 [PublicAPI]

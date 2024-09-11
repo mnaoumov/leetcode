@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0427_Construct_Quad_Tree;
 
 [PublicAPI]

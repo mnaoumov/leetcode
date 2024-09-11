@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._3274_Check_if_Two_Chessboard_Squares_Have_the_Same_Color;
 
 [UsedImplicitly]

@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._2090_K_Radius_Subarray_Averages;
 
 [UsedImplicitly]

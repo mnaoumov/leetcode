@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0000_Calculate_Entropy;
 
 /// <summary>

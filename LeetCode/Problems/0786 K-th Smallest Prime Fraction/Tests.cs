@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._0786_K_th_Smallest_Prime_Fraction;
 
 [UsedImplicitly]

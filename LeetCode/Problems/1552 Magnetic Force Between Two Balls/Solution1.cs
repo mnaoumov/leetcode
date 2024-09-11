@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1552_Magnetic_Force_Between_Two_Balls;
 
 /// <summary>

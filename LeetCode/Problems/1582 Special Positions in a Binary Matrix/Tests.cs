@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1582_Special_Positions_in_a_Binary_Matrix;
 
 [UsedImplicitly]

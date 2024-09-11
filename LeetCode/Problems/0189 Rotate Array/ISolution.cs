@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0189_Rotate_Array;
 
 [PublicAPI]

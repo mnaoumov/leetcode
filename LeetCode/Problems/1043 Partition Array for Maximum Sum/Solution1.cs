@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1043_Partition_Array_for_Maximum_Sum;
 
 /// <summary>

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0433_Minimum_Genetic_Mutation;
 
 [PublicAPI]

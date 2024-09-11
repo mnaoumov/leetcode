@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0005_Longest_Palindromic_Substring;
 
 [PublicAPI]

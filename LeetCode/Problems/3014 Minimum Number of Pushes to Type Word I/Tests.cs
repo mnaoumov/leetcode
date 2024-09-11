@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._3014_Minimum_Number_of_Pushes_to_Type_Word_I;
 
 [UsedImplicitly]

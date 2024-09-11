@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._0315_Count_of_Smaller_Numbers_After_Self;
 
 [UsedImplicitly]

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0276_Paint_Fence;
 
 /// <summary>

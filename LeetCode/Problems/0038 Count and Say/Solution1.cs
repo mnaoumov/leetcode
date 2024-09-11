@@ -1,7 +1,5 @@
 using System.Text;
 
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0038_Count_and_Say;
 
 /// <summary>

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1081_Smallest_Subsequence_of_Distinct_Characters;
 
 /// <summary>

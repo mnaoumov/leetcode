@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._2469_Convert_the_Temperature;
 
 [UsedImplicitly]

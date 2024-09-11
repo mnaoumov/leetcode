@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1201_Ugly_Number_III;
 
 [PublicAPI]

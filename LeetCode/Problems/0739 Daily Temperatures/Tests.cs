@@ -1,7 +1,3 @@
-
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._0739_Daily_Temperatures;
 
 [UsedImplicitly]

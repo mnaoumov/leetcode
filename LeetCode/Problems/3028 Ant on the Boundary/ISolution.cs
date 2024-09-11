@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._3028_Ant_on_the_Boundary;
 
 [PublicAPI]

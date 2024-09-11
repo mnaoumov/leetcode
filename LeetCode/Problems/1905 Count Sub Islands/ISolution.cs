@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1905_Count_Sub_Islands;
 
 [PublicAPI]

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1094_Car_Pooling;
 
 /// <summary>

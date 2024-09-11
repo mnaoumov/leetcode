@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._0506_Relative_Ranks;
 
 [UsedImplicitly]

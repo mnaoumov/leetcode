@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0583_Delete_Operation_for_Two_Strings;
 
 /// <summary>

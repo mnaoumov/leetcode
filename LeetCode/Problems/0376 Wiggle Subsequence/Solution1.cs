@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0376_Wiggle_Subsequence;
 
 /// <summary>

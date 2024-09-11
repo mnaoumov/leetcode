@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0320_Generalized_Abbreviation;
 
 /// <summary>

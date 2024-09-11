@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1822_Sign_of_the_Product_of_an_Array;
 
 [UsedImplicitly]

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2959_Number_of_Possible_Sets_of_Closing_Branches;
 
 /// <summary>

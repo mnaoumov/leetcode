@@ -1,7 +1,3 @@
-
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._0986_Interval_List_Intersections;
 
 [UsedImplicitly]

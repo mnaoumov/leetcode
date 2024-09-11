@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2614_Prime_In_Diagonal;
 
 [PublicAPI]

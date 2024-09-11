@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1049_Last_Stone_Weight_II;
 
 [PublicAPI]

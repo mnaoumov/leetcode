@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1470_Shuffle_the_Array;
 
 [PublicAPI]

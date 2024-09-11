@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0799_Champagne_Tower;
 
 /// <summary>

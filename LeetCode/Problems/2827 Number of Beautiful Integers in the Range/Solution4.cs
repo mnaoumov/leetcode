@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2827_Number_of_Beautiful_Integers_in_the_Range;
 
 /// <summary>

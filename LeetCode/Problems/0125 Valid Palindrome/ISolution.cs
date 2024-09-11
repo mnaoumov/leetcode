@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0125_Valid_Palindrome;
 
 [PublicAPI]

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1220_Count_Vowels_Permutation;
 
 [PublicAPI]

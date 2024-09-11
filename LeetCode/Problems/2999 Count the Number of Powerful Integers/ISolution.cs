@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2999_Count_the_Number_of_Powerful_Integers;
 
 [PublicAPI]

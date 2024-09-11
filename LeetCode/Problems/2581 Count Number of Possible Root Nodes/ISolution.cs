@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2581_Count_Number_of_Possible_Root_Nodes;
 
 [PublicAPI]

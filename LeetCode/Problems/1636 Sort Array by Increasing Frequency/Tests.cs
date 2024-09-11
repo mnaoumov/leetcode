@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1636_Sort_Array_by_Increasing_Frequency;
 
 [UsedImplicitly]

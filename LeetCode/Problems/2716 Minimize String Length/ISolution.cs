@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2716_Minimize_String_Length;
 
 [PublicAPI]

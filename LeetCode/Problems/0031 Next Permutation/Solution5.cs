@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0031_Next_Permutation;
 
 /// <summary>

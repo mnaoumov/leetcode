@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1508_Range_Sum_of_Sorted_Subarray_Sums;
 
 [PublicAPI]

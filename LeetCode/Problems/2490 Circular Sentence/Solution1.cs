@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2490_Circular_Sentence;
 
 /// <summary>

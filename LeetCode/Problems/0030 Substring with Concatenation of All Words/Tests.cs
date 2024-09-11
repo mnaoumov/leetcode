@@ -1,8 +1,3 @@
-using NUnit.Framework;
-
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._0030_Substring_with_Concatenation_of_All_Words;
 
 [UsedImplicitly]

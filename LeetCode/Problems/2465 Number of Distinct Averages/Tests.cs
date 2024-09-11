@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._2465_Number_of_Distinct_Averages;
 
 [UsedImplicitly]

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2870_Minimum_Number_of_Operations_to_Make_Array_Empty;
 
 [PublicAPI]

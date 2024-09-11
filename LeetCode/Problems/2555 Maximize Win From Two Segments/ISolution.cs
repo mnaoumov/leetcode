@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2555_Maximize_Win_From_Two_Segments;
 
 [PublicAPI]

@@ -1,7 +1,3 @@
-
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1475_Final_Prices_With_a_Special_Discount_in_a_Shop;
 
 [UsedImplicitly]

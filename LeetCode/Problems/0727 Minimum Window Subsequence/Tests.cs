@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._0727_Minimum_Window_Subsequence;
 
 [UsedImplicitly]

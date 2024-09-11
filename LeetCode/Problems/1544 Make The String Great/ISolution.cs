@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1544_Make_The_String_Great;
 
 [PublicAPI]

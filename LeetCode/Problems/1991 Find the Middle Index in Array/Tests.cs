@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1991_Find_the_Middle_Index_in_Array;
 
 [UsedImplicitly]

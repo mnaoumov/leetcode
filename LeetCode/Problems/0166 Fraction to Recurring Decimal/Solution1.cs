@@ -1,5 +1,4 @@
 using System.Text;
-using JetBrains.Annotations;
 
 namespace LeetCode.Problems._0166_Fraction_to_Recurring_Decimal;
 

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2731_Movement_of_Robots;
 
 [PublicAPI]

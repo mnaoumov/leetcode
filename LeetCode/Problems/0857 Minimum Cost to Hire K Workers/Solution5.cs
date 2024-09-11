@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0857_Minimum_Cost_to_Hire_K_Workers;
 
 /// <summary>

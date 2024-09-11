@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._0995_Minimum_Number_of_K_Consecutive_Bit_Flips;
 
 [UsedImplicitly]

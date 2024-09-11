@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0721_Accounts_Merge;
 
 [PublicAPI]

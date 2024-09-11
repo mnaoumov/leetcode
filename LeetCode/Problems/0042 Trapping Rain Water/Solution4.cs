@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0042_Trapping_Rain_Water;
 
 /// <summary>

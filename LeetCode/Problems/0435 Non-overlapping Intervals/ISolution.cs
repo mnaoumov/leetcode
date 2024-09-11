@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0435_Non_overlapping_Intervals;
 
 [PublicAPI]

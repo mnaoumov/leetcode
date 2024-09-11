@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2440_Create_Components_With_Same_Value;
 
 [PublicAPI]

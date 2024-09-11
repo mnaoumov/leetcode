@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1025_Divisor_Game;
 
 /// <summary>

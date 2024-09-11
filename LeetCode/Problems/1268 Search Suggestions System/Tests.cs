@@ -1,7 +1,3 @@
-
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1268_Search_Suggestions_System;
 
 [UsedImplicitly]

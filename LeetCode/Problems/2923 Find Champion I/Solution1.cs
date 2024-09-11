@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2923_Find_Champion_I;
 
 /// <summary>

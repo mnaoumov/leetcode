@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1700_Number_of_Students_Unable_to_Eat_Lunch;
 
 [UsedImplicitly]

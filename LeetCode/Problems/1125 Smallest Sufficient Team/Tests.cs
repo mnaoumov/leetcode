@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1125_Smallest_Sufficient_Team;
 
 [UsedImplicitly]

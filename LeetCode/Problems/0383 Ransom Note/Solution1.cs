@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0383_Ransom_Note;
 
 /// <summary>

@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._3039_Apply_Operations_to_Make_String_Empty;
 
 [UsedImplicitly]

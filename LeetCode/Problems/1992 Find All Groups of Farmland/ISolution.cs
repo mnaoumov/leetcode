@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1992_Find_All_Groups_of_Farmland;
 
 [PublicAPI]

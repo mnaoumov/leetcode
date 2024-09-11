@@ -1,7 +1,5 @@
 // ReSharper disable All
 #pragma warning disable
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0494_Target_Sum;
 
 /// <summary>

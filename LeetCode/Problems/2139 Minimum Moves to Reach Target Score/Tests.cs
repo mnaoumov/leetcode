@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._2139_Minimum_Moves_to_Reach_Target_Score;
 
 [UsedImplicitly]

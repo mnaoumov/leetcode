@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._2917_Find_the_K_or_of_an_Array;
 
 [UsedImplicitly]

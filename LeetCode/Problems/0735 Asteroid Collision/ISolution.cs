@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0735_Asteroid_Collision;
 
 [PublicAPI]

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0418_Sentence_Screen_Fitting;
 
 [PublicAPI]

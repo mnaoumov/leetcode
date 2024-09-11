@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0347_Top_K_Frequent_Elements;
 
 [PublicAPI]

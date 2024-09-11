@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2453_Destroy_Sequential_Targets;
 
 /// <summary>

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1626_Best_Team_With_No_Conflicts;
 
 [PublicAPI]

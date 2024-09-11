@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2139_Minimum_Moves_to_Reach_Target_Score;
 
 [PublicAPI]

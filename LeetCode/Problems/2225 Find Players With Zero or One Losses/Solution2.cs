@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2225_Find_Players_With_Zero_or_One_Losses;
 
 /// <summary>

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0678_Valid_Parenthesis_String;
 
 [PublicAPI]

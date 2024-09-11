@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0204_Count_Primes;
 
 [PublicAPI]

@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._0785_Is_Graph_Bipartite_;
 
 [UsedImplicitly]

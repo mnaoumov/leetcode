@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0202_Happy_Number;
 
 [PublicAPI]

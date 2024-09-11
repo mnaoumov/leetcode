@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._0944_Delete_Columns_to_Make_Sorted;
 
 [UsedImplicitly]

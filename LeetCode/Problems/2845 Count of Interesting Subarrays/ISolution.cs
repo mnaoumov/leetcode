@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2845_Count_of_Interesting_Subarrays;
 
 [PublicAPI]

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1349_Maximum_Students_Taking_Exam;
 
 /// <summary>

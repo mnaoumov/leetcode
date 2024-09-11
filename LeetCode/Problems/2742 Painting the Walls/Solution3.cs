@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2742_Painting_the_Walls;
 
 /// <summary>

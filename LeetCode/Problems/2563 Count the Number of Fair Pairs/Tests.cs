@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._2563_Count_the_Number_of_Fair_Pairs;
 
 [UsedImplicitly]

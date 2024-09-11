@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1160_Find_Words_That_Can_Be_Formed_by_Characters;
 
 [UsedImplicitly]

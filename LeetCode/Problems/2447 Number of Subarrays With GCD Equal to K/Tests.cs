@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._2447_Number_of_Subarrays_With_GCD_Equal_to_K;
 
 [UsedImplicitly]

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1413_Minimum_Value_to_Get_Positive_Step_by_Step_Sum;
 
 /// <summary>

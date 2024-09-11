@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Sql;
-
 namespace LeetCode.Problems._0197_Rising_Temperature;
 
 [UsedImplicitly]

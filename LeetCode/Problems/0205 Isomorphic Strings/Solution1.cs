@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0205_Isomorphic_Strings;
 
 /// <summary>

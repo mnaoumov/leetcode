@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1562_Find_Latest_Group_of_Size_M;
 
 /// <summary>

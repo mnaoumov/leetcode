@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0629_K_Inverse_Pairs_Array;
 
 /// <summary>

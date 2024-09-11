@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._3005_Count_Elements_With_Maximum_Frequency;
 
 [UsedImplicitly]

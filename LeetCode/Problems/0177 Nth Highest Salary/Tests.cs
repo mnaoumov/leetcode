@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0177_Nth_Highest_Salary;
 
 [UsedImplicitly]

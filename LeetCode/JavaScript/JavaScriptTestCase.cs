@@ -1,5 +1,3 @@
-using LeetCode.Base;
-
 namespace LeetCode.JavaScript;
 
 public class JavaScriptTestCase : TestCaseBase

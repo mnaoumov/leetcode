@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2456_Most_Popular_Video_Creator;
 
 [PublicAPI]

@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._2845_Count_of_Interesting_Subarrays;
 
 [UsedImplicitly]

@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._2717_Semi_Ordered_Permutation;
 
 [UsedImplicitly]

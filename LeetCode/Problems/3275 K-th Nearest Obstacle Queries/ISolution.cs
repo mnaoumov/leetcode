@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._3275_K_th_Nearest_Obstacle_Queries;
 
 [PublicAPI]

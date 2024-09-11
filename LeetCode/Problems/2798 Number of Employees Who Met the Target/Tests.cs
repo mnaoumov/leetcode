@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._2798_Number_of_Employees_Who_Met_the_Target;
 
 [UsedImplicitly]

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0480_Sliding_Window_Median;
 
 [PublicAPI]

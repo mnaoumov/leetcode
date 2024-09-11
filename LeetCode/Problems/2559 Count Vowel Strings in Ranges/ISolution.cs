@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2559_Count_Vowel_Strings_in_Ranges;
 
 [PublicAPI]

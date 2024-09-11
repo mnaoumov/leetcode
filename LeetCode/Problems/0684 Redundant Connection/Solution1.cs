@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0684_Redundant_Connection;
 
 /// <summary>

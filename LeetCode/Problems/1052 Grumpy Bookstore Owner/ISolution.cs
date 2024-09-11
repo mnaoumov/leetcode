@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1052_Grumpy_Bookstore_Owner;
 
 [PublicAPI]

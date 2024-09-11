@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1002_Find_Common_Characters;
 
 [PublicAPI]

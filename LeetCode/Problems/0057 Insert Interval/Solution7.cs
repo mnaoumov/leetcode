@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0057_Insert_Interval;
 
 /// <summary>

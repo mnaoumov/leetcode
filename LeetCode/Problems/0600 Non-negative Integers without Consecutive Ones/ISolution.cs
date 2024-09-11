@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0600_Non_negative_Integers_without_Consecutive_Ones;
 
 [PublicAPI]

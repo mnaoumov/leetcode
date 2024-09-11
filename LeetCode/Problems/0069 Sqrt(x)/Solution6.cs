@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0069_Sqrt_x_;
 
 /// <summary>

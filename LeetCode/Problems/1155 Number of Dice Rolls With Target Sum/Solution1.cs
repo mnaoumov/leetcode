@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1155_Number_of_Dice_Rolls_With_Target_Sum;
 
 /// <summary>

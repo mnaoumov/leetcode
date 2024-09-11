@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._2584_Split_the_Array_to_Make_Coprime_Products;
 
 [UsedImplicitly]

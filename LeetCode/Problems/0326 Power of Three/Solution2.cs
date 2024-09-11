@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0326_Power_of_Three;
 
 /// <summary>

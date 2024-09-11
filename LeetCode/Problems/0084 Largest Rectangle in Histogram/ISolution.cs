@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0084_Largest_Rectangle_in_Histogram;
 
 [PublicAPI]

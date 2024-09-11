@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1020_Number_of_Enclaves;
 
 /// <summary>

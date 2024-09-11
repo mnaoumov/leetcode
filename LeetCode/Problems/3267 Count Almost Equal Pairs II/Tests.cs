@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._3267_Count_Almost_Equal_Pairs_II;
 
 [UsedImplicitly]

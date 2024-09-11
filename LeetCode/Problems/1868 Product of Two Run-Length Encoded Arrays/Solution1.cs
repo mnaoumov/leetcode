@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1868_Product_of_Two_Run_Length_Encoded_Arrays;
 
 /// <summary>

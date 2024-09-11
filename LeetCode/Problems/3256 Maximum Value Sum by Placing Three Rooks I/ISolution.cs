@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._3256_Maximum_Value_Sum_by_Placing_Three_Rooks_I;
 
 [PublicAPI]

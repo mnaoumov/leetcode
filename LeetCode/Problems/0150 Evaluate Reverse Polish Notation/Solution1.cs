@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0150_Evaluate_Reverse_Polish_Notation;
 
 /// <summary>

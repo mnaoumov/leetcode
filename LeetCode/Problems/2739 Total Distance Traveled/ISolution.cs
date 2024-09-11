@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2739_Total_Distance_Traveled;
 
 [PublicAPI]

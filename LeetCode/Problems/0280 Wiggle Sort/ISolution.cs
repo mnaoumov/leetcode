@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0280_Wiggle_Sort;
 
 [PublicAPI]

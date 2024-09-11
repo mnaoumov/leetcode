@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0311_Sparse_Matrix_Multiplication;
 
 [PublicAPI]

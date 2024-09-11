@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2640_Find_the_Score_of_All_Prefixes_of_an_Array;
 
 /// <summary>

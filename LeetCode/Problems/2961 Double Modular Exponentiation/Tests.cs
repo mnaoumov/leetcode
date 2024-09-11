@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._2961_Double_Modular_Exponentiation;
 
 [UsedImplicitly]

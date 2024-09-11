@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0422_Valid_Word_Square;
 
 [PublicAPI]

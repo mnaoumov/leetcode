@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2418_Sort_the_People;
 
 /// <summary>

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2644_Find_the_Maximum_Divisibility_Score;
 
 [PublicAPI]

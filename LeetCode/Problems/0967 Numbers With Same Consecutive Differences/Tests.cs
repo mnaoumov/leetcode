@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._0967_Numbers_With_Same_Consecutive_Differences;
 
 [UsedImplicitly]

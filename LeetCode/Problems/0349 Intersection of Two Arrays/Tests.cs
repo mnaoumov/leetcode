@@ -1,7 +1,3 @@
-
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._0349_Intersection_of_Two_Arrays;
 
 [UsedImplicitly]

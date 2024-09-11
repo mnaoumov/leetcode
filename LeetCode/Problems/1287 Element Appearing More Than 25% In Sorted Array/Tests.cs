@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1287_Element_Appearing_More_Than_25__In_Sorted_Array;
 
 [UsedImplicitly]

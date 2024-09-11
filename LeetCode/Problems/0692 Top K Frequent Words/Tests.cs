@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._0692_Top_K_Frequent_Words;
 
 [UsedImplicitly]

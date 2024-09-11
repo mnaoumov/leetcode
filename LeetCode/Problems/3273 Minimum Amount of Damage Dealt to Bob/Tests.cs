@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._3273_Minimum_Amount_of_Damage_Dealt_to_Bob;
 
 [UsedImplicitly]

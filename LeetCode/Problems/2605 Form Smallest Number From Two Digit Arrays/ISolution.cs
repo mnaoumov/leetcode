@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2605_Form_Smallest_Number_From_Two_Digit_Arrays;
 
 [PublicAPI]

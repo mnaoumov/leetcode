@@ -1,8 +1,3 @@
-using NUnit.Framework;
-
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._0033_Search_in_Rotated_Sorted_Array;
 
 [UsedImplicitly]

@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1218_Longest_Arithmetic_Subsequence_of_Given_Difference;
 
 /// <summary>

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0589_N_ary_Tree_Preorder_Traversal;
 
 [PublicAPI]

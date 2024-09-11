@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2564_Substring_XOR_Queries;
 
 /// <summary>

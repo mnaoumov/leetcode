@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1908_Game_of_Nim;
 
 /// <summary>

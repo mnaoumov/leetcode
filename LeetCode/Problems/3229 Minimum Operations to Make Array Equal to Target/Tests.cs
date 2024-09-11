@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._3229_Minimum_Operations_to_Make_Array_Equal_to_Target;
 
 [UsedImplicitly]

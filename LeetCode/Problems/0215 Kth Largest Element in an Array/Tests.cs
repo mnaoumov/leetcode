@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._0215_Kth_Largest_Element_in_an_Array;
 
 [UsedImplicitly]

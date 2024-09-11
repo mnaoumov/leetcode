@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0330_Patching_Array;
 
 [PublicAPI]

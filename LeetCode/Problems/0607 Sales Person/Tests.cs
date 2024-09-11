@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Sql;
-
 namespace LeetCode.Problems._0607_Sales_Person;
 
 [UsedImplicitly]

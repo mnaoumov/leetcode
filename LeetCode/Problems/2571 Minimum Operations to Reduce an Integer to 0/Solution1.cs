@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2571_Minimum_Operations_to_Reduce_an_Integer_to_0;
 
 /// <summary>

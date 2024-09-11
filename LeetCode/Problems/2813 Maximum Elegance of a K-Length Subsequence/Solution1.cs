@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._2813_Maximum_Elegance_of_a_K_Length_Subsequence;
 
 /// <summary>

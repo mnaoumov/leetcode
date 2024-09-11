@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2187_Minimum_Time_to_Complete_Trips;
 
 /// <summary>

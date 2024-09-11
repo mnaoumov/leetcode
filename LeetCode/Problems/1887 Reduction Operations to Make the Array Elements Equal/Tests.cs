@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1887_Reduction_Operations_to_Make_the_Array_Elements_Equal;
 
 [UsedImplicitly]

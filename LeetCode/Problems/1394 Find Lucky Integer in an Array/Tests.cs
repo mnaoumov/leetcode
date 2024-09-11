@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1394_Find_Lucky_Integer_in_an_Array;
 
 [UsedImplicitly]

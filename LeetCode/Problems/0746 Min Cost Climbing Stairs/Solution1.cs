@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0746_Min_Cost_Climbing_Stairs;
 
 /// <summary>

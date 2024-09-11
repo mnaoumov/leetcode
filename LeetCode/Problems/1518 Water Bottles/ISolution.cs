@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1518_Water_Bottles;
 
 [PublicAPI]

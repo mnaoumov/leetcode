@@ -1,5 +1,4 @@
 using System.Text;
-using JetBrains.Annotations;
 
 namespace LeetCode.Problems._1249_Minimum_Remove_to_Make_Valid_Parentheses;
 

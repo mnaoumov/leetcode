@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2465_Number_of_Distinct_Averages;
 
 [PublicAPI]

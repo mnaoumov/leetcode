@@ -1,7 +1,3 @@
-
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._2545_Sort_the_Students_by_Their_Kth_Score;
 
 [UsedImplicitly]

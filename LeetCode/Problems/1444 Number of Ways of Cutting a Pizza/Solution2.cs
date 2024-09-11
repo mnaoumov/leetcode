@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1444_Number_of_Ways_of_Cutting_a_Pizza;
 
 /// <summary>

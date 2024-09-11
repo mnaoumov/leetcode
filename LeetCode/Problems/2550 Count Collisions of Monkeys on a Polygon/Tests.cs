@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._2550_Count_Collisions_of_Monkeys_on_a_Polygon;
 
 [UsedImplicitly]

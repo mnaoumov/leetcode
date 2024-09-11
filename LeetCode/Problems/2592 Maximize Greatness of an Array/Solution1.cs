@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._2592_Maximize_Greatness_of_an_Array;
 
 /// <summary>

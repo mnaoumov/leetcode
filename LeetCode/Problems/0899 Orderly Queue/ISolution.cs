@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0899_Orderly_Queue;
 
 [PublicAPI]

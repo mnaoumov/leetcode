@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0712_Minimum_ASCII_Delete_Sum_for_Two_Strings;
 
 /// <summary>

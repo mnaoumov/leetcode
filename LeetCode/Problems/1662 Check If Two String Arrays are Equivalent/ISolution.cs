@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1662_Check_If_Two_String_Arrays_are_Equivalent;
 
 [PublicAPI]

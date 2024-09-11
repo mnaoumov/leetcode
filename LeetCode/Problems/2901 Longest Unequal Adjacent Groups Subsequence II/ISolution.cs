@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2901_Longest_Unequal_Adjacent_Groups_Subsequence_II;
 
 [PublicAPI]

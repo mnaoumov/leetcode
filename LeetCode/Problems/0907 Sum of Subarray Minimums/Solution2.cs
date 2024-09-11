@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0907_Sum_of_Subarray_Minimums;
 
 /// <summary>

@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._0826_Most_Profit_Assigning_Work;
 
 [UsedImplicitly]

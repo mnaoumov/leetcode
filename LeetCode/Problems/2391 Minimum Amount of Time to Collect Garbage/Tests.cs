@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._2391_Minimum_Amount_of_Time_to_Collect_Garbage;
 
 [UsedImplicitly]

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2524_Maximum_Frequency_Score_of_a_Subarray;
 
 [PublicAPI]

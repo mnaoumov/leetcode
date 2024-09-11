@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0455_Assign_Cookies;
 
 /// <summary>

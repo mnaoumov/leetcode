@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._2670_Find_the_Distinct_Difference_Array;
 
 [UsedImplicitly]

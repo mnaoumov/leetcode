@@ -1,7 +1,5 @@
 // ReSharper disable All
 #pragma warning disable
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0008_String_to_Integer__atoi_;
 
 /// <summary>

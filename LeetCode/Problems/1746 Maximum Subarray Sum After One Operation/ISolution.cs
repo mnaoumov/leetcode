@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1746_Maximum_Subarray_Sum_After_One_Operation;
 
 [PublicAPI]

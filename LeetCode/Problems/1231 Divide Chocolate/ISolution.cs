@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1231_Divide_Chocolate;
 
 [PublicAPI]

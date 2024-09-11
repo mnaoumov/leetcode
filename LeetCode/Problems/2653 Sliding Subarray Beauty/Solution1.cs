@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._2653_Sliding_Subarray_Beauty;
 
 /// <summary>

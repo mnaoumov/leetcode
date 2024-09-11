@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1901_Find_a_Peak_Element_II;
 
 /// <summary>

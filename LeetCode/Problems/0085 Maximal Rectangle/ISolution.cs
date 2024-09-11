@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0085_Maximal_Rectangle;
 
 [PublicAPI]

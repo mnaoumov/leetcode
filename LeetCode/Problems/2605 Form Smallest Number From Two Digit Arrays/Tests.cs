@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._2605_Form_Smallest_Number_From_Two_Digit_Arrays;
 
 [UsedImplicitly]

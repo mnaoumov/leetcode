@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Sql;
-
 namespace LeetCode.Problems._1445_Apples___Oranges;
 
 [UsedImplicitly]

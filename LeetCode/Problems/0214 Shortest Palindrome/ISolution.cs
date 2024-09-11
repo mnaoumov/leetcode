@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0214_Shortest_Palindrome;
 
 [PublicAPI]

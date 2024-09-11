@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Sql;
-
 namespace LeetCode.Problems._0175_Combine_Two_Tables;
 
 [UsedImplicitly]

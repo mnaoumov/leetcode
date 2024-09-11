@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._3144_Minimum_Substring_Partition_of_Equal_Character_Frequency;
 
 /// <summary>

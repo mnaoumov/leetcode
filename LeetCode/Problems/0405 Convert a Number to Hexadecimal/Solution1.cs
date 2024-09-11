@@ -1,5 +1,4 @@
 using System.Text;
-using JetBrains.Annotations;
 
 namespace LeetCode.Problems._0405_Convert_a_Number_to_Hexadecimal;
 

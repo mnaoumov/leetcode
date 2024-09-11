@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0741_Cherry_Pickup;
 
 [PublicAPI]

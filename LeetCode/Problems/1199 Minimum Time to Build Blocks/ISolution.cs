@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1199_Minimum_Time_to_Build_Blocks;
 
 [PublicAPI]

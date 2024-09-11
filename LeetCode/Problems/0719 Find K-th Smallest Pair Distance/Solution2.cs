@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0719_Find_K_th_Smallest_Pair_Distance;
 
 /// <summary>

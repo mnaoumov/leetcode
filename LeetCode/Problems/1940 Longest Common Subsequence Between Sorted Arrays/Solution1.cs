@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1940_Longest_Common_Subsequence_Between_Sorted_Arrays;
 
 /// <summary>

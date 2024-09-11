@@ -1,5 +1,4 @@
 using System.Text.RegularExpressions;
-using JetBrains.Annotations;
 
 namespace LeetCode.Problems._0439_Ternary_Expression_Parser;
 

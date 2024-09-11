@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1710_Maximum_Units_on_a_Truck;
 
 /// <summary>

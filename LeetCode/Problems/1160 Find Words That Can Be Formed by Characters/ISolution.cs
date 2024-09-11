@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1160_Find_Words_That_Can_Be_Formed_by_Characters;
 
 [PublicAPI]

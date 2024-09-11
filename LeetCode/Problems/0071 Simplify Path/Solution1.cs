@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0071_Simplify_Path;
 
 /// <summary>

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0587_Erect_the_Fence;
 
 [PublicAPI]

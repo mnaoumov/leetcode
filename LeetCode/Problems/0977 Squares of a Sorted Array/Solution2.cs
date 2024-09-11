@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0977_Squares_of_a_Sorted_Array;
 
 /// <summary>

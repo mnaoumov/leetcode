@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0299_Bulls_and_Cows;
 
 [PublicAPI]

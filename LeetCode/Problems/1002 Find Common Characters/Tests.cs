@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1002_Find_Common_Characters;
 
 [UsedImplicitly]

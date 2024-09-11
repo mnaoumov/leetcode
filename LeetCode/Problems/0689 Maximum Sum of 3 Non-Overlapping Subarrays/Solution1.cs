@@ -1,7 +1,5 @@
 // ReSharper disable All
 #pragma warning disable
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0689_Maximum_Sum_of_3_Non_Overlapping_Subarrays;
 
 /// <summary>

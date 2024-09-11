@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1027_Longest_Arithmetic_Subsequence;
 
 /// <summary>

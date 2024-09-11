@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._3044_Most_Frequent_Prime;
 
 [PublicAPI]

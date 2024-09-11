@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2970_Count_the_Number_of_Incremovable_Subarrays_I;
 
 [PublicAPI]

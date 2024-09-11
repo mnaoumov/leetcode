@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._2647_Color_the_Triangle_Red;
 
 /// <summary>

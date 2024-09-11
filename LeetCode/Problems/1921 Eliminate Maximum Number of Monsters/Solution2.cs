@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1921_Eliminate_Maximum_Number_of_Monsters;
 
 /// <summary>

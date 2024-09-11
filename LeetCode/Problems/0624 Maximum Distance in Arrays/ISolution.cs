@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0624_Maximum_Distance_in_Arrays;
 
 [PublicAPI]

@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._0947_Most_Stones_Removed_with_Same_Row_or_Column;
 
 /// <summary>

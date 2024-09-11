@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._2786_Visit_Array_Positions_to_Maximize_Score;
 
 /// <summary>

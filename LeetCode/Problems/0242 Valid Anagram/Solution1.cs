@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0242_Valid_Anagram;
 
 /// <summary>

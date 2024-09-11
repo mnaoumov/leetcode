@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0905_Sort_Array_By_Parity;
 
 [PublicAPI]

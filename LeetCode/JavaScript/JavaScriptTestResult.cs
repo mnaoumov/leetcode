@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.JavaScript
 {
     public class JavaScriptTestResult

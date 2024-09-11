@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2579_Count_Total_Number_of_Colored_Cells;
 
 /// <summary>

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0055_Jump_Game;
 
 [PublicAPI]

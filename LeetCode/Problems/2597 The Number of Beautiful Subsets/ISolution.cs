@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2597_The_Number_of_Beautiful_Subsets;
 
 [PublicAPI]

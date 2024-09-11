@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Sql;
-
 namespace LeetCode.Problems._0183_Customers_Who_Never_Order;
 
 [UsedImplicitly]

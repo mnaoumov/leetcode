@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._3100_Water_Bottles_II;
 
 /// <summary>

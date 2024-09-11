@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._2944_Minimum_Number_of_Coins_for_Fruits;
 
 [UsedImplicitly]

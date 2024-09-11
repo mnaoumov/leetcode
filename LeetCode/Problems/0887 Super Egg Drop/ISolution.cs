@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0887_Super_Egg_Drop;
 
 [PublicAPI]

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0097_Interleaving_String;
 
 [PublicAPI]

@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._2709_Greatest_Common_Divisor_Traversal;
 
 [UsedImplicitly]

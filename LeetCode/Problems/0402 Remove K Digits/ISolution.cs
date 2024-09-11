@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0402_Remove_K_Digits;
 
 [PublicAPI]

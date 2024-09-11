@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0913_Cat_and_Mouse;
 
 /// <summary>

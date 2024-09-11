@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._3030_Find_the_Grid_of_Region_Average;
 
 [UsedImplicitly]

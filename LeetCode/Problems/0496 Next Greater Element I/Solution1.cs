@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0496_Next_Greater_Element_I;
 
 /// <summary>

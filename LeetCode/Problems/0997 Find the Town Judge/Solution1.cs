@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0997_Find_the_Town_Judge;
 
 /// <summary>

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0221_Maximal_Square;
 
 /// <summary>

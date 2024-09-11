@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2256_Minimum_Average_Difference;
 
 /// <summary>

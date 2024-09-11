@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._2226_Maximum_Candies_Allocated_to_K_Children;
 
 [UsedImplicitly]

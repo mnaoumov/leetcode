@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0506_Relative_Ranks;
 
 /// <summary>

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0456_132_Pattern;
 
 [PublicAPI]

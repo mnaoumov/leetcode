@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1732_Find_the_Highest_Altitude;
 
 /// <summary>

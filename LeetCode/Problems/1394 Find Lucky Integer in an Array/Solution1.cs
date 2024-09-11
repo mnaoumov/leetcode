@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1394_Find_Lucky_Integer_in_an_Array;
 
 /// <summary>

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._3012_Minimize_Length_of_Array_Using_Operations;
 
 /// <summary>

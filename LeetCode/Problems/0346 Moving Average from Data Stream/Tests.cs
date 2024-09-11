@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Sut;
-
 namespace LeetCode.Problems._0346_Moving_Average_from_Data_Stream;
 
 [UsedImplicitly]

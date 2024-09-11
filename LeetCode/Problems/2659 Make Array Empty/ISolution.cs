@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2659_Make_Array_Empty;
 
 [PublicAPI]

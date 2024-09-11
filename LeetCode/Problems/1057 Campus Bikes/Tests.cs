@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1057_Campus_Bikes;
 
 [UsedImplicitly]

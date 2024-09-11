@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0131_Palindrome_Partitioning;
 
 /// <summary>

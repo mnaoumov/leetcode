@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2974_Minimum_Number_Game;
 
 [PublicAPI]

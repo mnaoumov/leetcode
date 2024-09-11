@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._2824_Count_Pairs_Whose_Sum_is_Less_than_Target;
 
 [UsedImplicitly]

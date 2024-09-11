@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0413_Arithmetic_Slices;
 
 /// <summary>

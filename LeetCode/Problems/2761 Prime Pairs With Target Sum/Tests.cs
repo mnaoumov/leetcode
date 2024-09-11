@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._2761_Prime_Pairs_With_Target_Sum;
 
 [UsedImplicitly]

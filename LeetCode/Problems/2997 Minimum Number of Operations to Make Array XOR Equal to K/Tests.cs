@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._2997_Minimum_Number_of_Operations_to_Make_Array_XOR_Equal_to_K;
 
 [UsedImplicitly]

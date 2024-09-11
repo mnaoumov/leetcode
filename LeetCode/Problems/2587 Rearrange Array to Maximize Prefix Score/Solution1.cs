@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2587_Rearrange_Array_to_Maximize_Prefix_Score;
 
 /// <summary>

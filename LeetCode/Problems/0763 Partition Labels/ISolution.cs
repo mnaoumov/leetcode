@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0763_Partition_Labels;
 
 [PublicAPI]

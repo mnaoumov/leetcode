@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1092_Shortest_Common_Supersequence;
 
 [PublicAPI]

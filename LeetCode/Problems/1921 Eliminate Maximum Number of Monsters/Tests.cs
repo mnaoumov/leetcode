@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1921_Eliminate_Maximum_Number_of_Monsters;
 
 [UsedImplicitly]

@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1502_Can_Make_Arithmetic_Progression_From_Sequence;
 
 [UsedImplicitly]

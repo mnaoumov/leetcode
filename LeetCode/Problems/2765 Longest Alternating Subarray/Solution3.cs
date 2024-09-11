@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2765_Longest_Alternating_Subarray;
 
 /// <summary>

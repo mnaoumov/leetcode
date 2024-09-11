@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0760_Find_Anagram_Mappings;
 
 /// <summary>

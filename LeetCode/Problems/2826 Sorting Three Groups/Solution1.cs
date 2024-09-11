@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2826_Sorting_Three_Groups;
 
 /// <summary>

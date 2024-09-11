@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0867_Transpose_Matrix;
 
 /// <summary>

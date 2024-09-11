@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1283_Find_the_Smallest_Divisor_Given_a_Threshold;
 
 [UsedImplicitly]

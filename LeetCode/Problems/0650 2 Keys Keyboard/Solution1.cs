@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0650_2_Keys_Keyboard;
 
 /// <summary>

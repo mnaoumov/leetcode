@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1472_Design_Browser_History;
 
 /// <summary>

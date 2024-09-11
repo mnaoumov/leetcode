@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0128_Longest_Consecutive_Sequence;
 
 /// <summary>

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0075_Sort_Colors;
 
 [PublicAPI]

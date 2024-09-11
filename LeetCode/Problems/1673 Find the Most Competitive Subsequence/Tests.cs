@@ -1,7 +1,3 @@
-
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1673_Find_the_Most_Competitive_Subsequence;
 
 [UsedImplicitly]

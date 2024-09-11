@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0535_Encode_and_Decode_TinyURL;
 
 [PublicAPI]

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2920_Maximum_Points_After_Collecting_Coins_From_All_Nodes;
 
 /// <summary>

@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._2496_Maximum_Value_of_a_String_in_an_Array;
 
 [UsedImplicitly]

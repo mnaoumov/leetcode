@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0004_Median_of_Two_Sorted_Arrays;
 
 /// <summary>

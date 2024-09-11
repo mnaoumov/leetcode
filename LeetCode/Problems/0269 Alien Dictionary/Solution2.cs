@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0269_Alien_Dictionary;
 
 /// <summary>

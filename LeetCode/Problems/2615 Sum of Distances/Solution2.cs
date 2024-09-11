@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2615_Sum_of_Distances;
 
 /// <summary>

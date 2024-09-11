@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0191_Number_of_1_Bits;
 
 [PublicAPI]

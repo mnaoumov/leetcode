@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._3071_Minimum_Operations_to_Write_the_Letter_Y_on_a_Grid;
 
 [UsedImplicitly]

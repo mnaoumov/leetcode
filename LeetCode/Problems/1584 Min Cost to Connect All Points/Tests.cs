@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1584_Min_Cost_to_Connect_All_Points;
 
 [UsedImplicitly]

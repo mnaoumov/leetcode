@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2639_Find_the_Width_of_Columns_of_a_Grid;
 
 /// <summary>

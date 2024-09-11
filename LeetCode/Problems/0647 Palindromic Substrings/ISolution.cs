@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0647_Palindromic_Substrings;
 
 [PublicAPI]

@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1338_Reduce_Array_Size_to_The_Half;
 
 [UsedImplicitly]

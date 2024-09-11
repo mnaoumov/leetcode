@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._3120_Count_the_Number_of_Special_Characters_I;
 
 /// <summary>

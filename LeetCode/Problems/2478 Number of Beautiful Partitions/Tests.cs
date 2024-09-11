@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._2478_Number_of_Beautiful_Partitions;
 
 [UsedImplicitly]

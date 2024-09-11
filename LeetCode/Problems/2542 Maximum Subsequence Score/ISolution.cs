@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2542_Maximum_Subsequence_Score;
 
 [PublicAPI]

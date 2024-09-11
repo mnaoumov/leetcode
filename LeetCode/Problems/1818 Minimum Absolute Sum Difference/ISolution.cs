@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1818_Minimum_Absolute_Sum_Difference;
 
 [PublicAPI]

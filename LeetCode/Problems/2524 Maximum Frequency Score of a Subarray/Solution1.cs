@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._2524_Maximum_Frequency_Score_of_a_Subarray;
 
 /// <summary>

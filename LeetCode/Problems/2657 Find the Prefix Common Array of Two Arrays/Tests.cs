@@ -1,7 +1,3 @@
-
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._2657_Find_the_Prefix_Common_Array_of_Two_Arrays;
 
 [UsedImplicitly]

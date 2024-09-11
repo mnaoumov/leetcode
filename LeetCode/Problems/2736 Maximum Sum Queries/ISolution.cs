@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2736_Maximum_Sum_Queries;
 
 [PublicAPI]

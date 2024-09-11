@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._2485_Find_the_Pivot_Integer;
 
 [UsedImplicitly]

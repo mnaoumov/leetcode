@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0622_Design_Circular_Queue;
 
 public interface IMyCircularQueue

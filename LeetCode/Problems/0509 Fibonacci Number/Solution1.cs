@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0509_Fibonacci_Number;
 
 /// <summary>

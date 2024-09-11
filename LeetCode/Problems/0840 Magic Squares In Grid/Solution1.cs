@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0840_Magic_Squares_In_Grid;
 
 /// <summary>

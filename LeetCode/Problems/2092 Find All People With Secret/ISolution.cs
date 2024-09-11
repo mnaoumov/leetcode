@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2092_Find_All_People_With_Secret;
 
 [PublicAPI]

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2653_Sliding_Subarray_Beauty;
 
 [PublicAPI]

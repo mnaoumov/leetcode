@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._0049_Group_Anagrams;
 
 [UsedImplicitly]

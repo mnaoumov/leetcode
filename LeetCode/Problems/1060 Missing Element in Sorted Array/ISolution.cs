@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1060_Missing_Element_in_Sorted_Array;
 
 [PublicAPI]

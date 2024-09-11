@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0547_Number_of_Provinces;
 
 /// <summary>

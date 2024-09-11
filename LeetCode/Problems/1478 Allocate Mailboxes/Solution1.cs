@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1478_Allocate_Mailboxes;
 
 /// <summary>

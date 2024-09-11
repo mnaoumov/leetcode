@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1833_Maximum_Ice_Cream_Bars;
 
 [PublicAPI]

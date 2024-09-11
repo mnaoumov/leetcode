@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0744_Find_Smallest_Letter_Greater_Than_Target;
 
 [PublicAPI]

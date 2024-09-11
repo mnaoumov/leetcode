@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0688_Knight_Probability_in_Chessboard;
 
 /// <summary>

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2743_Count_Substrings_Without_Repeating_Character;
 
 [PublicAPI]

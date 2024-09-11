@@ -1,7 +1,5 @@
 // ReSharper disable All
 #pragma warning disable
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0039_Combination_Sum;
 
 /// <summary>

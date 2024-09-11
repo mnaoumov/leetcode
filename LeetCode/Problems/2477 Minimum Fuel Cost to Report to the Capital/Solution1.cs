@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._2477_Minimum_Fuel_Cost_to_Report_to_the_Capital;
 
 /// <summary>

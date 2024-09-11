@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._2547_Minimum_Cost_to_Split_an_Array;
 
 [UsedImplicitly]

@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._1441_Build_an_Array_With_Stack_Operations;
 
 [UsedImplicitly]

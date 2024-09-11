@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._2462_Total_Cost_to_Hire_K_Workers;
 
 /// <summary>

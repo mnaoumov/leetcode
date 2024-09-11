@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0349_Intersection_of_Two_Arrays;
 
 [PublicAPI]

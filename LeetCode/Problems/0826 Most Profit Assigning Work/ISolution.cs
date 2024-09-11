@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0826_Most_Profit_Assigning_Work;
 
 [PublicAPI]

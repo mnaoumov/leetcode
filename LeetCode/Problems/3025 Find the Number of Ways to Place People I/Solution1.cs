@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._3025_Find_the_Number_of_Ways_to_Place_People_I;
 
 /// <summary>

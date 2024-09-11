@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0778_Swim_in_Rising_Water;
 
 [PublicAPI]

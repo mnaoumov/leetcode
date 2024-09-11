@@ -1,7 +1,3 @@
-
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1630_Arithmetic_Subarrays;
 
 [UsedImplicitly]

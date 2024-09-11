@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0281_Zigzag_Iterator;
 
 /// <summary>

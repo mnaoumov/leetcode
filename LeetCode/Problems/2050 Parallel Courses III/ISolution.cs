@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2050_Parallel_Courses_III;
 
 [PublicAPI]

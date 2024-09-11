@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._0387_First_Unique_Character_in_a_String;
 
 [UsedImplicitly]

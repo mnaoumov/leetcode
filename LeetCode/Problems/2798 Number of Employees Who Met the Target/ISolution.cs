@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2798_Number_of_Employees_Who_Met_the_Target;
 
 [PublicAPI]

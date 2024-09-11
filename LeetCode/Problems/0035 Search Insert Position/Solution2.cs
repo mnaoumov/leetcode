@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0035_Search_Insert_Position;
 
 /// <summary>

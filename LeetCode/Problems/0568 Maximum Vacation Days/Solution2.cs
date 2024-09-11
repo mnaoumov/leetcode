@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0568_Maximum_Vacation_Days;
 
 /// <summary>

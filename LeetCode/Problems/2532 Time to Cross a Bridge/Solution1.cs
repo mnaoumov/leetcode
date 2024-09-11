@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._2532_Time_to_Cross_a_Bridge;
 
 /// <summary>

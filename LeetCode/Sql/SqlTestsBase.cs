@@ -1,7 +1,6 @@
 using System.Data;
 using System.Text.RegularExpressions;
 using Microsoft.Data.SqlClient;
-using NUnit.Framework;
 
 namespace LeetCode.Sql;
 

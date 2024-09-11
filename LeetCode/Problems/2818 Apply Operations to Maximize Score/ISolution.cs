@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2818_Apply_Operations_to_Maximize_Score;
 
 [PublicAPI]

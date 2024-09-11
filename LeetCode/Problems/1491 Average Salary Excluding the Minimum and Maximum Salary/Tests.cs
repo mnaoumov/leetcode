@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1491_Average_Salary_Excluding_the_Minimum_and_Maximum_Salary;
 
 [UsedImplicitly]

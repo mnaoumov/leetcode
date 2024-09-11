@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.DataStructure;
-
 namespace LeetCode.Problems._0530_Minimum_Absolute_Difference_in_BST;
 
 [PublicAPI]

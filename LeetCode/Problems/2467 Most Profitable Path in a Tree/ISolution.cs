@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2467_Most_Profitable_Path_in_a_Tree;
 
 [PublicAPI]

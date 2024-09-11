@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1425_Constrained_Subsequence_Sum;
 
 /// <summary>

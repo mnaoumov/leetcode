@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2708_Maximum_Strength_of_a_Group;
 
 [PublicAPI]

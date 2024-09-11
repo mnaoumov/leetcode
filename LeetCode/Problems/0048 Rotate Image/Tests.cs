@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using LeetCode.Helpers;
-
 namespace LeetCode.Problems._0048_Rotate_Image;
 
 [UsedImplicitly]

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0011_Container_With_Most_Water;
 
 [PublicAPI]

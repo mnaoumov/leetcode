@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0573_Squirrel_Simulation;
 
 /// <summary>

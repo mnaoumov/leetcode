@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1473_Paint_House_III;
 
 [PublicAPI]

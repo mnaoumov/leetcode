@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0724_Find_Pivot_Index;
 
 /// <summary>

@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1863_Sum_of_All_Subset_XOR_Totals;
 
 [UsedImplicitly]

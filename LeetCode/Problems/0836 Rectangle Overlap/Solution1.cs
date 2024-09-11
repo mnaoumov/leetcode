@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0836_Rectangle_Overlap;
 
 /// <summary>

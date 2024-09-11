@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1057_Campus_Bikes;
 
 /// <summary>

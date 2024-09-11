@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._2765_Longest_Alternating_Subarray;
 
 [UsedImplicitly]

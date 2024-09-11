@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1535_Find_the_Winner_of_an_Array_Game;
 
 [UsedImplicitly]

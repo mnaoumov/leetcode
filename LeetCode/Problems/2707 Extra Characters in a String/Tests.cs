@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._2707_Extra_Characters_in_a_String;
 
 [UsedImplicitly]

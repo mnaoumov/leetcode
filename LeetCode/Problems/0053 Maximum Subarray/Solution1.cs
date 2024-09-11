@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0053_Maximum_Subarray;
 
 /// <summary>

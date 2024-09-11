@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0165_Compare_Version_Numbers;
 
 /// <summary>

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0278_First_Bad_Version;
 
 /// <summary>

@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._2980_Check_if_Bitwise_OR_Has_Trailing_Zeros;
 
 [UsedImplicitly]

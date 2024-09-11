@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._3169_Count_Days_Without_Meetings;
 
 [UsedImplicitly]

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._1268_Search_Suggestions_System;
 
 [PublicAPI]

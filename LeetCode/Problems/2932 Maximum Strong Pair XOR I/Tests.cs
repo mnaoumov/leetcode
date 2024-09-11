@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._2932_Maximum_Strong_Pair_XOR_I;
 
 [UsedImplicitly]

@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2427_Number_of_Common_Factors;
 
 /// <summary>

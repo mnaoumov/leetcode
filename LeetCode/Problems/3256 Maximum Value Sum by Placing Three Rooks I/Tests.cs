@@ -1,7 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-using NUnit.Framework;
-
 namespace LeetCode.Problems._3256_Maximum_Value_Sum_by_Placing_Three_Rooks_I;
 
 [UsedImplicitly]

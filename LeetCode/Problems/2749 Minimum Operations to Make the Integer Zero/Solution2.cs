@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._2749_Minimum_Operations_to_Make_the_Integer_Zero;
 
 /// <summary>

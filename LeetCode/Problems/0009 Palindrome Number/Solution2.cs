@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0009_Palindrome_Number;
 
 /// <summary>

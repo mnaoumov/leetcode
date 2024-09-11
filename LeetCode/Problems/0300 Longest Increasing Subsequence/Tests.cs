@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._0300_Longest_Increasing_Subsequence;
 
 [UsedImplicitly]

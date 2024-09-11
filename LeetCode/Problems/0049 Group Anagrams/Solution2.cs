@@ -1,7 +1,5 @@
 // ReSharper disable All
 #pragma warning disable
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._0049_Group_Anagrams;
 
 /// <summary>

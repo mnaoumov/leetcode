@@ -1,7 +1,3 @@
-using NUnit.Framework;
-using JetBrains.Annotations;
-using LeetCode.Base;
-
 namespace LeetCode.Problems._1846_Maximum_Element_After_Decreasing_and_Rearranging;
 
 [UsedImplicitly]

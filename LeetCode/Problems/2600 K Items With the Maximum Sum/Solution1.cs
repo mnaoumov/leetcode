@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-
 namespace LeetCode.Problems._2600_K_Items_With_the_Maximum_Sum;
 
 /// <summary>

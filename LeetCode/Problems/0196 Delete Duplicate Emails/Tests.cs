@@ -1,4 +1,4 @@
 namespace LeetCode.Problems._0196_Delete_Duplicate_Emails;
 
 [UsedImplicitly]
-public class Tests : Sql.DeleteSqlTestsBase<Tests>;
+public class Tests : DeleteSqlTestsBase<Tests>;

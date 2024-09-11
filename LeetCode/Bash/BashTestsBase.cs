@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 
 namespace LeetCode.Bash;
 
-public abstract partial class BashTestsBase<TBashTests> : Base.TestsBase where TBashTests : BashTestsBase<TBashTests>
+public abstract partial class BashTestsBase<TBashTests> : TestsBase where TBashTests : BashTestsBase<TBashTests>
 {
     [GeneratedRegex("# SkipSolution: (.+)")]
     private static partial Regex SkipSolutionRegex();

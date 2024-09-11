@@ -19,7 +19,7 @@ public abstract class JavaScriptTestsBase<TJavaScriptTests> : JavaScriptTestsBas
     public static IEnumerable<TestCaseData> JoinedTestCases => GetJoinedTestCases(typeof(TJavaScriptTests));
 }
 
-public partial class JavaScriptTestsBase : Base.TestsBase
+public partial class JavaScriptTestsBase : TestsBase
 {
     [GeneratedRegex("// SkipSolution: (.+)")]
     private static partial Regex SkipSolutionRegex();

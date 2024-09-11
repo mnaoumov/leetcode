@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 using NUnit.Framework;
 
 namespace LeetCode.Problems._3234_Count_the_Number_of_Substrings_With_Dominant_Ones;

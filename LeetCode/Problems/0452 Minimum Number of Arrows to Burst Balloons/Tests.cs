@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._0452_Minimum_Number_of_Arrows_to_Burst_Balloons;
 

@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._0852_Peak_Index_in_a_Mountain_Array;
 

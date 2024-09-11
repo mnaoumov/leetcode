@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._2499_Minimum_Total_Cost_to_Make_Arrays_Unequal;
 

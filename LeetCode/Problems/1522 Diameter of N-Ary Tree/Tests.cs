@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._1522_Diameter_of_N_Ary_Tree;
 

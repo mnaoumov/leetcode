@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._1717_Maximum_Score_From_Removing_Substrings;
 

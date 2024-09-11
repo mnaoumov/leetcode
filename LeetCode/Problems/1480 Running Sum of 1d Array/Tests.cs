@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._1480_Running_Sum_of_1d_Array;
 

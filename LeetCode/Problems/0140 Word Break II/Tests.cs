@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._0140_Word_Break_II;
 

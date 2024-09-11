@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._3216_Lexicographically_Smallest_String_After_a_Swap;
 

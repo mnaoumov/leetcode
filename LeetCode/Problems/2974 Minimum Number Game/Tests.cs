@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._2974_Minimum_Number_Game;
 

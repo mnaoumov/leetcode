@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._0340_Longest_Substring_with_At_Most_K_Distinct_Characters;
 

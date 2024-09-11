@@ -1,5 +1,6 @@
 using System.Numerics;
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._2654_Minimum_Number_of_Operations_to_Make_All_Array_Elements_Equal_to_1;
 

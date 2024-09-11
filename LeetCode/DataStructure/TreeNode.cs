@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode;
+namespace LeetCode.DataStructure;
 
 public class TreeNode
 {

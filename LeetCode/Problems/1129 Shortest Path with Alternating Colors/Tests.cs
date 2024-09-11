@@ -1,5 +1,6 @@
 
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._1129_Shortest_Path_with_Alternating_Colors;
 

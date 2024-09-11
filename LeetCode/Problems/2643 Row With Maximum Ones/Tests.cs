@@ -1,5 +1,6 @@
 
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._2643_Row_With_Maximum_Ones;
 

@@ -3,9 +3,9 @@ using System.Text.RegularExpressions;
 using Microsoft.Data.SqlClient;
 using NUnit.Framework;
 
-namespace LeetCode;
+namespace LeetCode.Sql;
 
-public abstract partial class SqlTestsBase<TSqlTests> : TestsBase where TSqlTests : SqlTestsBase<TSqlTests>
+public abstract partial class SqlTestsBase<TSqlTests> : Base.TestsBase where TSqlTests : SqlTestsBase<TSqlTests>
 {
     [GeneratedRegex("-- SkipSolution: (.+)")]
     private static partial Regex SkipSolutionRegex();

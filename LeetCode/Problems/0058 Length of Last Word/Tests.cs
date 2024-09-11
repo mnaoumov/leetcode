@@ -1,6 +1,7 @@
 using NUnit.Framework;
 
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._0058_Length_of_Last_Word;
 

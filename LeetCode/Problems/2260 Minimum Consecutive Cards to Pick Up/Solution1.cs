@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._2260_Minimum_Consecutive_Cards_to_Pick_Up;
 

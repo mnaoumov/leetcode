@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 using NUnit.Framework;
 
 namespace LeetCode.Problems._2596_Check_Knight_Tour_Configuration;

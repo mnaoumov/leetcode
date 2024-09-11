@@ -1,5 +1,6 @@
 
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._2553_Separate_the_Digits_in_an_Array;
 

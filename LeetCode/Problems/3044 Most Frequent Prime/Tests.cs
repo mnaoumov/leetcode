@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 using NUnit.Framework;
 
 namespace LeetCode.Problems._3044_Most_Frequent_Prime;

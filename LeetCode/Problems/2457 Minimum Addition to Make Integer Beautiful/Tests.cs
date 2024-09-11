@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 using NUnit.Framework;
 
 namespace LeetCode.Problems._2457_Minimum_Addition_to_Make_Integer_Beautiful;

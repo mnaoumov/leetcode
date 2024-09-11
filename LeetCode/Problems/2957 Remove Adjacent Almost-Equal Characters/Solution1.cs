@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._2957_Remove_Adjacent_Almost_Equal_Characters;
 

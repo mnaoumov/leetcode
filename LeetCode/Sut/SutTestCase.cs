@@ -1,6 +1,7 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 
-namespace LeetCode;
+namespace LeetCode.Sut;
 
 public class SutTestCase : TestCaseBase
 {

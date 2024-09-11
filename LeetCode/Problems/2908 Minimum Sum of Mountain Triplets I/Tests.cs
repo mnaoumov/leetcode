@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 using NUnit.Framework;
 
 namespace LeetCode.Problems._2908_Minimum_Sum_of_Mountain_Triplets_I;

@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._3003_Maximize_the_Number_of_Partitions_After_Operations;
 

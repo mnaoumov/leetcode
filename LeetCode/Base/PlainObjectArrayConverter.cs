@@ -1,7 +1,7 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace LeetCode;
+namespace LeetCode.Base;
 
 internal class PlainObjectArrayConverter : JsonConverter
 {

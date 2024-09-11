@@ -1,5 +1,6 @@
 
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._0187_Repeated_DNA_Sequences;
 

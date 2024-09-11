@@ -1,6 +1,7 @@
 using NUnit.Framework;
 
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._0052_N_Queens_II;
 

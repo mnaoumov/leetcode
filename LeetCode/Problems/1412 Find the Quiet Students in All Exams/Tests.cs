@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Sql;
 
 namespace LeetCode.Problems._1412_Find_the_Quiet_Students_in_All_Exams;
 

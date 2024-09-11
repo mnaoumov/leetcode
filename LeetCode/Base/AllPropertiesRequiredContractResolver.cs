@@ -2,7 +2,7 @@ using System.Reflection;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace LeetCode;
+namespace LeetCode.Base;
 
 internal class AllPropertiesRequiredContractResolver : DefaultContractResolver
 {

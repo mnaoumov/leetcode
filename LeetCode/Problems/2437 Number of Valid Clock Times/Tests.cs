@@ -1,6 +1,7 @@
 using NUnit.Framework;
 
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._2437_Number_of_Valid_Clock_Times;
 

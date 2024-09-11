@@ -1,5 +1,6 @@
 using System.Numerics;
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._2963_Count_the_Number_of_Good_Partitions;
 

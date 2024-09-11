@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 using NUnit.Framework;
 
 namespace LeetCode.Problems._3158_Find_the_XOR_of_Numbers_Which_Appear_Twice;

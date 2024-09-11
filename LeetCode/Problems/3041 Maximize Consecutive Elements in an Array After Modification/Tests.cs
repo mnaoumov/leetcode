@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 using NUnit.Framework;
 
 namespace LeetCode.Problems._3041_Maximize_Consecutive_Elements_in_an_Array_After_Modification;

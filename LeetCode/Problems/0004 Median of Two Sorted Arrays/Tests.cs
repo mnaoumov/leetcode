@@ -1,6 +1,7 @@
 using NUnit.Framework;
 
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._0004_Median_of_Two_Sorted_Arrays;
 

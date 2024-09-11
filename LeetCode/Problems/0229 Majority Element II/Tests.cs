@@ -1,5 +1,6 @@
 
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._0229_Majority_Element_II;
 

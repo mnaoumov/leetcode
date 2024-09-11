@@ -1,4 +1,4 @@
-namespace LeetCode;
+namespace LeetCode.Base;
 
 [AttributeUsage(AttributeTargets.Class)]
 public class SkipSolutionAttribute : Attribute

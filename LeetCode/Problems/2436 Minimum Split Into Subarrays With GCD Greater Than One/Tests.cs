@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._2436_Minimum_Split_Into_Subarrays_With_GCD_Greater_Than_One;
 

@@ -1,4 +1,6 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
+using LeetCode.DataStructure;
 
 namespace LeetCode.Problems._0298_Binary_Tree_Longest_Consecutive_Sequence;
 

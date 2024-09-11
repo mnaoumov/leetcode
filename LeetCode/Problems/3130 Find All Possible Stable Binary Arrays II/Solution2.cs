@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._3130_Find_All_Possible_Stable_Binary_Arrays_II;
 

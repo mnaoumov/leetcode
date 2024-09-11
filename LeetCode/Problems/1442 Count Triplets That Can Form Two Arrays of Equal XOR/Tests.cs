@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._1442_Count_Triplets_That_Can_Form_Two_Arrays_of_Equal_XOR;
 

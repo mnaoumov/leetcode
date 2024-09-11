@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._3283_Maximum_Number_of_Moves_to_Kill_All_Pawns;
 

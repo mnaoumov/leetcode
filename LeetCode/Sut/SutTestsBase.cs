@@ -1,11 +1,12 @@
-using NUnit.Framework;
 using System.Reflection;
-using System.Text;
-using Newtonsoft.Json;
 using System.Runtime.ExceptionServices;
+using System.Text;
+using LeetCode.Base;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using NUnit.Framework;
 
-namespace LeetCode;
+namespace LeetCode.Sut;
 
 public abstract class SutTestsBase<TSolution, TSut> : TestsBase<TSolution, SutTestCase>
 {

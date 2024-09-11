@@ -1,5 +1,8 @@
 #pragma warning disable
 using JetBrains.Annotations;
+using LeetCode.Base;
+using LeetCode.DataStructure;
+
 // ReSharper disable All
 #pragma warning disable
 

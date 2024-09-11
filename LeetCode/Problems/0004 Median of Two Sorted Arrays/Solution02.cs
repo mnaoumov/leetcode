@@ -1,6 +1,7 @@
 // ReSharper disable All
 #pragma warning disable
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._0004_Median_of_Two_Sorted_Arrays;
 

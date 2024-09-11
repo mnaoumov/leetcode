@@ -1,5 +1,6 @@
 using System.Text;
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._0899_Orderly_Queue;
 

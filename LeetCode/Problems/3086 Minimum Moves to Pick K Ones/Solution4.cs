@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._3086_Minimum_Moves_to_Pick_K_Ones;
 

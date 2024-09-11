@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 using NUnit.Framework;
 
 namespace LeetCode.Problems._2840_Check_if_Strings_Can_be_Made_Equal_With_Operations_II;

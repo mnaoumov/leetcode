@@ -1,7 +1,8 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 using Newtonsoft.Json;
 
-namespace LeetCode;
+namespace LeetCode.Bash;
 
 public class BashTestCase : TestCaseBase
 {

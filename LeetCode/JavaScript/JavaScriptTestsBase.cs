@@ -1,10 +1,10 @@
 using System.Diagnostics;
-using NUnit.Framework;
 using System.Text.RegularExpressions;
 using Jering.Javascript.NodeJS;
+using NUnit.Framework;
 using Path = System.IO.Path;
 
-namespace LeetCode;
+namespace LeetCode.JavaScript;
 
 public abstract class JavaScriptTestsBase<TJavaScriptTests> : JavaScriptTestsBase where TJavaScriptTests : JavaScriptTestsBase<TJavaScriptTests>
 {
@@ -20,7 +20,7 @@ public abstract class JavaScriptTestsBase<TJavaScriptTests> : JavaScriptTestsBas
     public static IEnumerable<TestCaseData> JoinedTestCases => GetJoinedTestCases(typeof(TJavaScriptTests));
 }
 
-public partial class JavaScriptTestsBase : TestsBase
+public partial class JavaScriptTestsBase : Base.TestsBase
 {
     [GeneratedRegex("// SkipSolution: (.+)")]
     private static partial Regex SkipSolutionRegex();

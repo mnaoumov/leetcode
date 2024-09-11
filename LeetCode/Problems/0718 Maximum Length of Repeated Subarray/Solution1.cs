@@ -2,6 +2,7 @@
 #pragma warning disable
 #pragma warning disable
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._0718_Maximum_Length_of_Repeated_Subarray;
 

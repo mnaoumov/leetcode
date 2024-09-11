@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.DataStructure;
 
 namespace LeetCode.Problems._0538_Convert_BST_to_Greater_Tree;
 

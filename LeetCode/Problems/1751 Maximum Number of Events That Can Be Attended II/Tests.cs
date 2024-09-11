@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._1751_Maximum_Number_of_Events_That_Can_Be_Attended_II;
 

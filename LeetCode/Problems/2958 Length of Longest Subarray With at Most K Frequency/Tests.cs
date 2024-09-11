@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 using NUnit.Framework;
 
 namespace LeetCode.Problems._2958_Length_of_Longest_Subarray_With_at_Most_K_Frequency;

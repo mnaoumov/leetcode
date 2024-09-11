@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._2294_Partition_Array_Such_That_Maximum_Difference_Is_K;
 

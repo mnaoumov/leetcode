@@ -1,6 +1,7 @@
 // ReSharper disable All
 #pragma warning disable
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._0003_Longest_Substring_Without_Repeating_Characters;
 

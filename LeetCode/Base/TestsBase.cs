@@ -1,12 +1,12 @@
 using System.Diagnostics;
+using System.Runtime;
 using System.Runtime.ExceptionServices;
+using System.Text.RegularExpressions;
+using Newtonsoft.Json;
 using NUnit.Framework;
 using NUnit.Framework.Constraints;
-using Newtonsoft.Json;
-using System.Text.RegularExpressions;
-using System.Runtime;
 
-namespace LeetCode;
+namespace LeetCode.Base;
 
 public abstract class TestsBase<TSolution, TTestCase> : TestsBase where TTestCase : TestCaseBase, new()
 {

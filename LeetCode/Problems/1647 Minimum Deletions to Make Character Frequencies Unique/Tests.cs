@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._1647_Minimum_Deletions_to_Make_Character_Frequencies_Unique;
 

@@ -1,5 +1,6 @@
 using System.Text;
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._3174_Clear_Digits;
 

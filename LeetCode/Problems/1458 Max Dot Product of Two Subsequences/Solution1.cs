@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._1458_Max_Dot_Product_of_Two_Subsequences;
 

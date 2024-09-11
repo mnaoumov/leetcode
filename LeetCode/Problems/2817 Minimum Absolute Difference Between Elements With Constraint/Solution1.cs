@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._2817_Minimum_Absolute_Difference_Between_Elements_With_Constraint;
 

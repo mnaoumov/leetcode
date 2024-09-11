@@ -1,4 +1,4 @@
-namespace LeetCode;
+namespace LeetCode.Helpers;
 
 internal class TempDir : IDisposable
 {

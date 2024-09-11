@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._1637_Widest_Vertical_Area_Between_Two_Points_Containing_No_Points;
 

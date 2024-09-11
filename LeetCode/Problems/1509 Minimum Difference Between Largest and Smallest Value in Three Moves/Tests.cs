@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._1509_Minimum_Difference_Between_Largest_and_Smallest_Value_in_Three_Moves;
 

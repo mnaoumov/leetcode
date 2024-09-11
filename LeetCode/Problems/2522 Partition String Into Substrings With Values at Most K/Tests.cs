@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._2522_Partition_String_Into_Substrings_With_Values_at_Most_K;
 

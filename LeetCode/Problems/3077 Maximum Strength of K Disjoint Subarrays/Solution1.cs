@@ -1,5 +1,6 @@
 using System.Collections;
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._3077_Maximum_Strength_of_K_Disjoint_Subarrays;
 

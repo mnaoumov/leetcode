@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 using NUnit.Framework;
 
 namespace LeetCode.Problems._2846_Minimum_Edge_Weight_Equilibrium_Queries_in_a_Tree;

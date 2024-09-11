@@ -1,6 +1,6 @@
 using System.Text.RegularExpressions;
 
-namespace LeetCode;
+namespace LeetCode.Sql;
 
 public abstract partial class FunctionSqlTestsBase<TSqlTests> : SqlTestsBase<TSqlTests> where TSqlTests : SqlTestsBase<TSqlTests>
 {

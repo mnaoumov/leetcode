@@ -1,4 +1,4 @@
-namespace LeetCode;
+namespace LeetCode.Helpers;
 
 public static class ArrayHelper
 {

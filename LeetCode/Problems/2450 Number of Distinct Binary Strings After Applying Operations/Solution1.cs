@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._2450_Number_of_Distinct_Binary_Strings_After_Applying_Operations;
 

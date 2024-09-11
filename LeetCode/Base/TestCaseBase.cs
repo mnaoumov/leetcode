@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using Newtonsoft.Json;
 
-namespace LeetCode;
+namespace LeetCode.Base;
 
 public abstract class TestCaseBase
 {

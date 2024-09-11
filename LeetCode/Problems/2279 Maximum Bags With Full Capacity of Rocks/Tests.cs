@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._2279_Maximum_Bags_With_Full_Capacity_of_Rocks;
 

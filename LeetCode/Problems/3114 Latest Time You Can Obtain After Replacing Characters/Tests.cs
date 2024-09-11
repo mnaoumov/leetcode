@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 using NUnit.Framework;
 
 namespace LeetCode.Problems._3114_Latest_Time_You_Can_Obtain_After_Replacing_Characters;

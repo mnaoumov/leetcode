@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._3149_Find_the_Minimum_Cost_Array_Permutation;
 

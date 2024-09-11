@@ -1,4 +1,6 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
+using LeetCode.DataStructure;
 using NUnit.Framework;
 
 namespace LeetCode.Problems._0759_Employee_Free_Time;

@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._1318_Minimum_Flips_to_Make_a_OR_b_Equal_to_c;
 

@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._3076_Shortest_Uncommon_Substring_in_an_Array;
 

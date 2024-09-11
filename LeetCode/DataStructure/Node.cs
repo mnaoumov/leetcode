@@ -1,4 +1,4 @@
-namespace LeetCode
+namespace LeetCode.DataStructure
 {
     public class Node
     {

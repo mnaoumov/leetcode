@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 using NUnit.Framework;
 
 namespace LeetCode.Problems._3107_Minimum_Operations_to_Make_Median_of_Array_Equal_to_K;

@@ -1,7 +1,8 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 using Newtonsoft.Json;
 
-namespace LeetCode;
+namespace LeetCode.Sql;
 
 [UsedImplicitly]
 public class SqlTestCase : TestCaseBase

@@ -1,5 +1,6 @@
 using System.Numerics;
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._3266_Final_Array_State_After_K_Multiplication_Operations_II;
 

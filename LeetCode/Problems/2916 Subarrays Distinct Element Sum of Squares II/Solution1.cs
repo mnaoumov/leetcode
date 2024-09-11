@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._2916_Subarrays_Distinct_Element_Sum_of_Squares_II;
 

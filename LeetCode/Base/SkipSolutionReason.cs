@@ -1,4 +1,4 @@
-namespace LeetCode;
+namespace LeetCode.Base;
 
 public enum SkipSolutionReason
 {

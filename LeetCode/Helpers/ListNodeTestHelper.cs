@@ -1,6 +1,7 @@
+using LeetCode.DataStructure;
 using NUnit.Framework;
 
-namespace LeetCode;
+namespace LeetCode.Helpers;
 
 public static class ListNodeTestHelper
 {

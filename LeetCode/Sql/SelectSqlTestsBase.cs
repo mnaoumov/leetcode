@@ -1,4 +1,4 @@
-namespace LeetCode;
+namespace LeetCode.Sql;
 
 public abstract class SelectSqlTestsBase<TSqlTests> : SqlTestsBase<TSqlTests> where TSqlTests : SqlTestsBase<TSqlTests>
 {

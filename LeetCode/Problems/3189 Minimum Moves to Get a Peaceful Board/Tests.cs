@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._3189_Minimum_Moves_to_Get_a_Peaceful_Board;
 

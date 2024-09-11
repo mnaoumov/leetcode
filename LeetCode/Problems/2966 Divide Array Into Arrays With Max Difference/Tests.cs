@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._2966_Divide_Array_Into_Arrays_With_Max_Difference;
 

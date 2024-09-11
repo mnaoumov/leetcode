@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._2760_Longest_Even_Odd_Subarray_With_Threshold;
 

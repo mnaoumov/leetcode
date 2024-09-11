@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._2493_Divide_Nodes_Into_the_Maximum_Number_of_Groups;
 

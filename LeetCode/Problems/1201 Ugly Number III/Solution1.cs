@@ -1,5 +1,6 @@
 using System.Numerics;
 using JetBrains.Annotations;
+using LeetCode.Base;
 
 namespace LeetCode.Problems._1201_Ugly_Number_III;
 

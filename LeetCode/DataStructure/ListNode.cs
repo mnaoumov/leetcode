@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode;
+namespace LeetCode.DataStructure;
 
 [PublicAPI]
 public class ListNode

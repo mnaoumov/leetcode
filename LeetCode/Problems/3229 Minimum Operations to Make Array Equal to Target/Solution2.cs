@@ -15,14 +15,12 @@ public class Solution2 : ISolution
         var diffs = nums.Zip(target, (num, targetNum) => targetNum - num).ToArray();
         var dp = new DynamicProgramming<HashableImmutableArray<int>, long>((arr, recursiveFunc) =>
         {
-            if (arr.Count == 0)
+            switch (arr.Count)
             {
-                return 0;
-            }
-
-            if (arr.Count == 1)
-            {
-                return Math.Abs(arr[0]);
+                case 0:
+                    return 0;
+                case 1:
+                    return Math.Abs(arr[0]);
             }
 
             if (arr[0] == 0)

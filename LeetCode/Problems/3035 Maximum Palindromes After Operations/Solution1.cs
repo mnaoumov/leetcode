@@ -27,7 +27,6 @@ public class Solution1 : ISolution
                 }
 
                 ans++;
-                pairsCount -= length / 2;
             }
             else
             {
@@ -44,8 +43,9 @@ public class Solution1 : ISolution
 
                 ans++;
                 singleCounts--;
-                pairsCount -= length / 2;
             }
+
+            pairsCount -= length / 2;
         }
 
         return ans;

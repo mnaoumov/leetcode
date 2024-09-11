@@ -1,8 +1,11 @@
+using JetBrains.Annotations;
+
 namespace LeetCode.Problems._3243_Shortest_Distance_After_Road_Addition_Queries_I;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-409/submissions/detail/1343718254/
 /// </summary>
+[UsedImplicitly]
 public class Solution2 : ISolution
 {
     public int[] ShortestDistanceAfterQueries(int n, int[][] queries)

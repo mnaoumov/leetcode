@@ -30,13 +30,14 @@ public class Solution1 : ISolution
                 var digit = symbol - '0';
                 node.Count = 10 * node.Count + digit;
             }
-            else if (symbol == '(')
+            else
             {
-                node = node.Parent!.StartGroup();
-            }
-            else if (symbol == ')')
-            {
-                node = node.EndGroup();
+                node = symbol switch
+                {
+                    '(' => node.Parent!.StartGroup(),
+                    ')' => node.EndGroup(),
+                    _ => node
+                };
             }
         }
 
@@ -47,7 +48,7 @@ public class Solution1 : ISolution
 
     private class Node
     {
-        public Node? Parent { get; set; }
+        public Node? Parent { get; }
         private readonly List<Node> _children = new();
 
         public Node(Node? parent)

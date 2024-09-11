@@ -54,26 +54,4 @@ public class Solution1 : ISolution
 
         return low;
     }
-
-    private static int BinarySearchLast<T>(IReadOnlyList<T> arr, int firstIndex, T value) where T : IComparable<T>
-    {
-        var low = firstIndex;
-        var high = arr.Count - 1;
-
-        while (low <= high)
-        {
-            var mid = low + (high - low >> 1);
-
-            if (arr[mid].CompareTo(value) > 0)
-            {
-                high = mid - 1;
-            }
-            else
-            {
-                low = mid + 1;
-            }
-        }
-
-        return high;
-    }
 }

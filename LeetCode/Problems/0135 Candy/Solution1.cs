@@ -21,7 +21,6 @@ public class Solution1 : ISolution
             {
                 result++;
                 groupLength = 1;
-                lastValue = 1;
             }
             else
             {
@@ -44,8 +43,9 @@ public class Solution1 : ISolution
                 }
 
                 result += groupLength;
-                lastValue = 1;
             }
+
+            lastValue = 1;
         }
 
         return result;

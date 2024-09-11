@@ -41,13 +41,8 @@ public class Solution2 : ISolution
             var waitTime = visitTime / change % 2 == 0 ? 0 : change - visitTime % change;
             var nextVisitTime = visitTime + time + waitTime;
 
-            foreach (var neighbor in adjNodes[node])
+            foreach (var neighbor in adjNodes[node].Where(neighbor => freq[neighbor] != 2))
             {
-                if (freq[neighbor] == 2)
-                {
-                    continue;
-                }
-
                 if (minVisitTimes[neighbor] > visitTime)
                 {
                     nextAfterMinVisitTimes[neighbor] = minVisitTimes[neighbor];

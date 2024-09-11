@@ -36,19 +36,18 @@ public class Solution1 : ISolution
         var index = palindromes.BinarySearch(avg);
 
         int lessPalindromeIndex;
-        int greaterPalindromeIndex;
 
         if (index < 0)
         {
             index = ~index;
             lessPalindromeIndex = index - 1;
-            greaterPalindromeIndex = index;
         }
         else
         {
             lessPalindromeIndex = index;
-            greaterPalindromeIndex = index;
         }
+
+        var greaterPalindromeIndex = index;
 
         var lessPalindrome = palindromes[lessPalindromeIndex];
         var greaterPalindrome = palindromes[greaterPalindromeIndex];

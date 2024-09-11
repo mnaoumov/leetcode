@@ -1,7 +1,7 @@
-using NUnit.Framework;
 using JetBrains.Annotations;
+using NUnit.Framework;
 
-namespace LeetCode.Problems._100394_Count_Almost_Equal_Pairs_I;
+namespace LeetCode.Problems._3265_Count_Almost_Equal_Pairs_I;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

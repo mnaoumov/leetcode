@@ -73,13 +73,6 @@ public class Solution2 : ISolution
         }
 
         var rightPath = GetPath(node.right, value);
-
-        // ReSharper disable once ConvertIfStatementToReturnStatement
-        if (rightPath != null)
-        {
-            return rightPath.Prepend(node);
-        }
-
-        return null;
+        return rightPath?.Prepend(node);
     }
 }

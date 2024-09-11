@@ -17,17 +17,7 @@ public class Solution1 : ISolution
             .Zip(qPath, (pPathNode, qPathNode) => (pPathNode, qPathNode))
             .Last(x => x.pPathNode.val == x.qPathNode.val).pPathNode.val;
 
-        var ans = 0;
-
-        foreach (var node in pPath.Reverse())
-        {
-            if (node.val == lastCommonVal)
-            {
-                break;
-            }
-
-            ans++;
-        }
+        var ans = pPath.Reverse().TakeWhile(node => node.val != lastCommonVal).Count();
 
         var lastCommonNodeSeen = false;
 
@@ -69,13 +59,6 @@ public class Solution1 : ISolution
         }
 
         var rightPath = GetPath(node.right, value);
-
-        // ReSharper disable once ConvertIfStatementToReturnStatement
-        if (rightPath != null)
-        {
-            return rightPath.Prepend(node);
-        }
-
-        return null;
+        return rightPath?.Prepend(node);
     }
 }

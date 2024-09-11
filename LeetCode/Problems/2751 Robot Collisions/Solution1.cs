@@ -18,7 +18,6 @@ public class Solution1 : ISolution
         {
             robots[i] = new Robot
             {
-                Index = i,
                 Position = positions[i],
                 Health = healths[i],
                 Direction = directions[i] == 'L' ? Direction.Left : Direction.Right
@@ -53,23 +52,19 @@ public class Solution1 : ISolution
             switch (robot.Health.CompareTo(nextRobot.Health))
                 {
                     case 0:
-                        robot.IsRemoved = true;
-                        nextRobot.IsRemoved = true;
                         break;
                     case > 0:
                         robot.Health--;
                         robot.Position = collapsePosition;
-                        nextRobot.IsRemoved = true;
                         break;
                     case < 0:
-                        robot.IsRemoved = true;
                         nextRobot.Health--;
                         nextRobot.Position = collapsePosition;
                         break;
                 }
         }
 
-        return null;
+        return new List<int>();
     }
 
     private enum Direction
@@ -80,8 +75,6 @@ public class Solution1 : ISolution
 
     private class Robot
     {
-        public int Index { get; set; }
-        public bool IsRemoved { get; set; }
         public int Health { get; set; }
         public decimal Position { get; set; }
         public Direction Direction { get; init; }

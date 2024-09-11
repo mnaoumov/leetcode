@@ -15,11 +15,7 @@ public class Solution1 : ISolution
 
         foreach (var num in nums)
         {
-            if (stack.Count == 0 || stack.Peek() <= num)
-            {
-                stack.Push(num);
-            }
-            else
+            if (stack.Count != 0 && stack.Peek() > num)
             {
                 while (stack.Count > 0 && stack.Peek() >= num)
                 {
@@ -30,9 +26,9 @@ public class Solution1 : ISolution
                 {
                     return true;
                 }
-
-                stack.Push(num);
             }
+
+            stack.Push(num);
         }
 
         return false;

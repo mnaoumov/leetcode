@@ -60,8 +60,6 @@ public class Solution1 : ISolution
         long Answer(int[] query)
         {
             var l = query[0];
-            var r = query[1];
-
             return kConstraintCountsByStartAfter[l];
         }
     }

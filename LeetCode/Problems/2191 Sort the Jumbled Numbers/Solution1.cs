@@ -19,16 +19,7 @@ public class Solution1 : ISolution
         int MappedValue(int num)
         {
             var digits = GetDigits(num);
-            var ans = 0;
-
-            for (var i = 0; i < digits.Count; i++)
-            {
-                var digit = digits[i];
-                var mappedDigit = mapping[digit];
-                ans = ans * 10 + mappedDigit;
-            }
-
-            return ans;
+            return digits.Select(digit => mapping[digit]).Aggregate(0, (current, mappedDigit) => current * 10 + mappedDigit);
         }
     }
 

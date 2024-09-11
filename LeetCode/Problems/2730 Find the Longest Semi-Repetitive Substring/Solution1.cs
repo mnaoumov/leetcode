@@ -19,15 +19,12 @@ public class Solution1 : ISolution
         {
             if (j > 0 && s[j] == s[j - 1])
             {
-                if (pairIndex == -1)
-                {
-                    pairIndex = j;
-                }
-                else
+                if (pairIndex != -1)
                 {
                     i = pairIndex;
-                    pairIndex = j;
                 }
+
+                pairIndex = j;
             }
 
             j++;

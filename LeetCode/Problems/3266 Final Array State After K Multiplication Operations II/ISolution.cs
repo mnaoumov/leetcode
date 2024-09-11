@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode.Problems._100412_Final_Array_State_After_K_Multiplication_Operations_II;
+namespace LeetCode.Problems._3266_Final_Array_State_After_K_Multiplication_Operations_II;
 
 [PublicAPI]
 public interface ISolution

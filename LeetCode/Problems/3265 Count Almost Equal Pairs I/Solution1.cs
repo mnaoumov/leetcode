@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace LeetCode.Problems._100394_Count_Almost_Equal_Pairs_I;
+namespace LeetCode.Problems._3265_Count_Almost_Equal_Pairs_I;
 
 /// <summary>
 /// https://leetcode.com/contest/weekly-contest-412/submissions/detail/1367312841/

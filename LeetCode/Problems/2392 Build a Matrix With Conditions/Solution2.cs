@@ -20,8 +20,6 @@ public class Solution2 : ISolution
 
         var valueRowIndexMap = GetValueIndexMap(rowConditionsTs);
         var valueColIndexMap = GetValueIndexMap(colConditionsTs);
-        var unusedRowIndex = valueRowIndexMap.Count;
-        var unusedColIndex = valueColIndexMap.Count;
 
         var ans = Enumerable.Range(0, k).Select(_ => new int[k]).ToArray();
 

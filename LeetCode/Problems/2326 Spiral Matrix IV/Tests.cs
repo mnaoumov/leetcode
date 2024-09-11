@@ -7,7 +7,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        AssertCollectionEqualWithDetails(solution.SpiralMatrix(testCase.M, testCase.N, ListNode.CreateOrNull(testCase.Head)), testCase.Output);
+        AssertCollectionEqualWithDetails(solution.SpiralMatrix(testCase.M, testCase.N, ListNode.Create(testCase.Head)), testCase.Output);
     }
 
     public class TestCase : TestCaseBase

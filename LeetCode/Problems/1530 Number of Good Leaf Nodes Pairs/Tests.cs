@@ -8,7 +8,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.CountPairs(TreeNode.CreateOrNull(testCase.Root), testCase.Distance), Is.EqualTo(testCase.Output));
+        Assert.That(solution.CountPairs(TreeNode.Create(testCase.Root), testCase.Distance), Is.EqualTo(testCase.Output));
     }
 
     public class TestCase : TestCaseBase

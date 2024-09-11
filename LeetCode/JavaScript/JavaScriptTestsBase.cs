@@ -48,8 +48,7 @@ public partial class JavaScriptTestsBase : TestsBase
         StaticNodeJSService.Configure<NodeJSProcessOptions>(options => options.NodeAndV8Options = "--inspect-brk");
         StaticNodeJSService.Configure<OutOfProcessNodeJSServiceOptions>(options =>
         {
-            options.ConnectionTimeoutMS = -1;
-            options.InvocationTimeoutMS = -1;
+            options.TimeoutMS = (int) TimeSpan.FromMinutes(5).TotalMilliseconds;
         });
     }
 

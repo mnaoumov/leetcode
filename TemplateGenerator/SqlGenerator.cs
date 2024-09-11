@@ -53,8 +53,6 @@ internal partial class SqlGenerator : GeneratorBase
         GenerateFile("SetUp.sql", "{{ SetUpScript }}");
 
         GenerateFile("Tests.cs", """
-            using JetBrains.Annotations;
-
             {{ Namespace }}
 
             [UsedImplicitly]

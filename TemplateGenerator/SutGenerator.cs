@@ -60,8 +60,6 @@ internal partial class SutGenerator : GeneratorBase
             ConstructorArgumentsStr.Split(", ", StringSplitOptions.RemoveEmptyEntries).Select(x => x.Split(' ')[1]));
 
         GenerateFile($"{InterfaceName}.cs", """
-            using JetBrains.Annotations;
-
             {{ Namespace }}
 
             [PublicAPI]
@@ -74,8 +72,6 @@ internal partial class SutGenerator : GeneratorBase
             """);
 
         GenerateFile("ISolution.cs", """
-            using JetBrains.Annotations;
-
             {{ Namespace }}
 
             [PublicAPI]
@@ -86,8 +82,6 @@ internal partial class SutGenerator : GeneratorBase
             """);
 
         GenerateFile("Solution1.cs", """
-            using JetBrains.Annotations;
-
             {{ Namespace }}
 
             /// <summary>
@@ -116,8 +110,6 @@ internal partial class SutGenerator : GeneratorBase
             """);
 
         GenerateFile("Tests.cs", """
-            using JetBrains.Annotations;
-
             {{ Namespace }}
 
             [UsedImplicitly]

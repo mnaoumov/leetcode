@@ -65,8 +65,6 @@ internal partial class CSharpGenerator : GeneratorBase
         }).ToArray();
 
         GenerateFile("ISolution.cs", """
-            using JetBrains.Annotations;
-
             {{ Namespace }}
 
             [PublicAPI]
@@ -77,8 +75,6 @@ internal partial class CSharpGenerator : GeneratorBase
             """);
 
         GenerateFile("Solution1.cs", """
-            using JetBrains.Annotations;
-
             {{ Namespace }}
 
             /// <summary>
@@ -95,11 +91,6 @@ internal partial class CSharpGenerator : GeneratorBase
             """);
 
         GenerateFile("Tests.cs", """
-            {{~ if !OutputArgument.IsCollectionType ~}}
-            using NUnit.Framework;
-            {{~ end ~}}
-            using JetBrains.Annotations;
-
             {{ Namespace }}
 
             [UsedImplicitly]

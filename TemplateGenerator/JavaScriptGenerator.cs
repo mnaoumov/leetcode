@@ -51,8 +51,6 @@ internal partial class JavaScriptGenerator : GeneratorBase
             """);
 
         GenerateFile("Tests.cs", """
-            using JetBrains.Annotations;
-
             {{ Namespace }}
 
             [UsedImplicitly]

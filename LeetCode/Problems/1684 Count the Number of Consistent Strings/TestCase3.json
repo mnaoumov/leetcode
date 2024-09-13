@@ -1,0 +1,5 @@
+{
+  "allowed": "cad",
+  "words": ["cc","acd","b","ba","bac","bad","ac","d"],
+  "output": 4
+}

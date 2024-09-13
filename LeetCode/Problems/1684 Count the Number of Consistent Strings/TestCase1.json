@@ -1,0 +1,5 @@
+{
+  "allowed": "ab",
+  "words": ["ad","bd","aaab","baa","badab"],
+  "output": 2
+}

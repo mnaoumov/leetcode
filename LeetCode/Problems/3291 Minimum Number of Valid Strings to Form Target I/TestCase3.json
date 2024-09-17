@@ -1,0 +1,5 @@
+{
+  "words": ["abcdef"],
+  "target": "xyz",
+  "output": -1
+}

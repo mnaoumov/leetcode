@@ -1,0 +1,5 @@
+{
+  "words": ["abc","aaaaa","bcdef"],
+  "target": "aabcdabc",
+  "output": 3
+}

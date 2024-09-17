@@ -1,4 +1,526 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/CodeEditing/Intellisense/CodeCompletion/IntelliSenseCompletingCharacters/CSharpCompletingCharacters/UpgradedFromVSSettings/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/AnalysisEnabled/@EntryValue">SOLUTION</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022AbstractClassConstructorCanBeMadeProtected_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022AmdDependencyPathProblem_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022AnnotateCanBeNullParameter_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022AnnotateCanBeNullTypeMember_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022AnnotateNotNullParameter_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022AnnotateNotNullTypeMember_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ArgumentsStyleAnonymousFunction_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ArgumentsStyleLiteral_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ArgumentsStyleNamedExpression_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ArgumentsStyleOther_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ArgumentsStyleStringLiteral_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ArrangeAttributes_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ArrangeConstructorOrDestructorBody_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ArrangeDefaultValueWhenTypeNotEvident_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ArrangeLocalFunctionBody_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ArrangeMethodOrOperatorBody_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ArrangeMissingParentheses_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ArrangeNamespaceBody_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ArrangeNullCheckingPattern_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ArrangeObjectCreationWhenTypeNotEvident_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ArrangeRedundantParentheses_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ArrangeStaticMemberQualifier_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ArrangeThisQualifier_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ArrangeTrailingCommaInMultilineLists_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ArrangeTrailingCommaInSinglelineLists_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ArrangeTypeMemberModifiers_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ArrangeTypeModifiers_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022AsyncVoidMethod_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022BadAttributeBracketsSpaces_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022BadBracesSpaces_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022BadColonSpaces_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022BadCommaSpaces_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022BadControlBracesLineBreaks_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022BadDeclarationBracesIndent_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022BadDeclarationBracesLineBreaks_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022BadEmptyBracesLineBreaks_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022BadExpressionBracesIndent_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022BadExpressionBracesLineBreaks_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022BadGenericBracketsSpaces_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022BadIndent_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022BadLinqLineBreaks_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022BadListLineBreaks_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022BadMemberAccessSpaces_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022BadNamespaceBracesIndent_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022BadParensLineBreaks_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022BadParensSpaces_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022BadPreprocessorIndent_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022BadSemicolonSpaces_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022BadSpacesAfterKeyword_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022BadSquareBracketsSpaces_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022BadSwitchBracesIndent_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022BadSymbolSpaces_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022BuiltInTypeReferenceStyle_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022BuiltInTypeReferenceStyleForMemberAccess_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ClassCanBeSealed_002EGlobal_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ClassCanBeSealed_002ELocal_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022CoercedEqualsUsingWithNullUndefined_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022CompareNonConstrainedGenericWithNull_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ContextValueIsProvided_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ConvertConditionalTernaryExpressionToSwitchExpression_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ConvertIfStatementToReturnStatement_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ConvertIfStatementToSwitchStatement_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ConvertSwitchStatementToSwitchExpression_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ConvertToAutoPropertyWhenPossible_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ConvertToAutoPropertyWithPrivateSetter_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ConvertToCompoundAssignment_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ConvertToConstant_002EGlobal_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ConvertToConstant_002ELocal_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ConvertToVbAutoPropertyWhenPossible_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ConvertToVbAutoPropertyWithPrivateSetter_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022CreateSpecializedOverload_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022CssCaniuseFeatureRequiresPrefix_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022CssCaniuseUnsupportedFeature_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022CssObsolete_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022CyclicReferenceComment_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022DeclarationHides_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022DlTagContainsNonDtOrDdElements_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022EmptyTitleTag_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022EnforceDoWhileStatementBraces_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022EnforceFixedStatementBraces_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022EnforceForeachStatementBraces_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022EnforceForStatementBraces_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022EnforceIfStatementBraces_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022EnforceLockStatementBraces_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022EnforceUsingStatementBraces_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022EnforceWhileStatementBraces_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ExtractCommonPropertyPattern_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ForeachCanBeConvertedToQueryUsingAnotherGetEnumerator_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ForeachCanBePartlyConvertedToQueryUsingAnotherGetEnumerator_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022FunctionComplexityOverflow_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022FunctionsUsedBeforeDeclared_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022Html_002EAttributesQuotes_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022IncorrectBlankLinesNearBraces_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022InheritdocConsiderUsage_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022InlineTemporaryVariable_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022InternalOrPrivateMemberNotDocumented_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022IntroduceVariableToApplyGuard_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022InvalidTaskElement_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022InvertCondition_002E1_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022InvertIf_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022InvocationIsSkipped_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022LambdaExpressionCanBeMadeStatic_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022LocalFunctionCanBeMadeStatic_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022LoopCanBeConvertedToQuery_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022LoopCanBePartlyConvertedToQuery_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022MemberCanBeFileLocal_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022MemberCanBeInternal_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022MemberCanBeMadeStatic_002EGlobal_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022MemberCanBeMadeStatic_002ELocal_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022MergeIntoLogicalPattern_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022MergeIntoNegatedPattern_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022MergeSequentialChecks_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022MissingAltAttributeInImgTag_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022MissingBlankLines_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022MissingIndent_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022MissingLinebreak_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022MissingSpace_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022MissingTitleTag_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022MoveToExistingPositionalDeconstructionPattern_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022MultipleSpaces_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022MultipleStatementsOnOneLine_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022MultipleTypeMembersOnOneLine_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022NullableWarningSuppressionIsUsed_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022NUnit_002EAttributeProducesTooManyTests_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022OlTagContainsNonLiElements_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022OutdentIsOffPrevLevel_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022OverloadSignatureInferring_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ParameterTypeCanBeEnumerable_002EGlobal_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ParameterTypeCanBeEnumerable_002ELocal_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022PassStringInterpolation_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022PlaceAssignmentExpressionIntoBlock_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022PossiblyUnassignedProperty_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022PrivateVariableCanBeMadeReadonly_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RedundantArrayCreationExpression_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RedundantAttributeParentheses_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RedundantBlankLines_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RedundantCollectionInitializerElementBraces_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RedundantDeclarationSemicolon_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RedundantEmptyObjectCreationArgumentList_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RedundantEnumCaseLabelForDefaultSection_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RedundantIfElseBlock_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RedundantIfStatementThenKeyword_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RedundantIntermediateVariable_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RedundantLambdaSignatureParentheses_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RedundantLinebreak_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RedundantLocalClassName_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RedundantLocalFunctionName_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RedundantParentheses_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RedundantPatternParentheses_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RedundantPropertyParentheses_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RedundantQueryOrderByAscendingKeyword_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RedundantSetterValueParameterDeclaration_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RedundantSpace_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RedundantToStringCallForValueType_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RedundantVariableTypeSpecification_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RemoveConstructorInvocation_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RemoveRedundantBraces_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ReplaceAutoPropertyWithComputedProperty_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ReplaceIndicingWithArrayDestructuring_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ReplaceIndicingWithShortHandPropertiesAfterDestructuring_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ReplaceSliceWithRangeIndexer_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ReplaceSubstringWithRangeIndexer_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ReplaceUndefinedCheckingSeriesWithObjectDestructuring_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ReplaceWithDestructuringSwap_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ReturnTypeCanBeEnumerable_002EGlobal_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ReturnTypeCanBeEnumerable_002ELocal_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RouteTemplates_002EActionRoutePrefixCanBeExtractedToControllerRoute_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RouteTemplates_002EControllerRouteParameterIsNotPassedToMethods_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RouteTemplates_002EMethodMissingRouteParameters_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RouteTemplates_002EParameterConstraintCanBeSpecified_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RouteTemplates_002ERouteParameterIsNotPassedToMethod_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ScriptTagWithContentBeforeIncludes_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022SeparateControlTransferStatement_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022SimilarAnonymousTypeNearby_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022SpecifyStringComparison_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022SpecifyVariableTypeExplicitly_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022StringConcatenationToTemplateString_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022StringEndsWithIsCultureSpecific_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022StringLiteralWrongQuotes_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022StringStartsWithIsCultureSpecific_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022StructMemberCanBeMadeReadOnly_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022SuggestBaseTypeForParameter_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022SuggestBaseTypeForParameterInConstructor_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022SuggestDiscardDeclarationVarStyle_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022SuggestVarOrType_005FBuiltInTypes_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022SuggestVarOrType_005FDeconstructionDeclarations_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022SuggestVarOrType_005FElsewhere_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022SuggestVarOrType_005FSimpleTypes_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022SwitchExpressionHandlesSomeKnownEnumValuesWithExceptionInDefault_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022SwitchStatementForEnumMissesDefaultSection_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022SwitchStatementHandlesSomeKnownEnumValuesWithDefault_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022SwitchStatementMissingSomeEnumCasesNoDefault_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022TabsAndSpacesMismatch_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022TabsAreDisallowed_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022TabsOutsideIndent_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022TailRecursiveCall_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022TryStatementsCanBeMerged_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022UlTagContainsNonLiElements_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022UnknownCssVendorExtension_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022UnknownProperty_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022UnnecessaryWhitespace_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022UnusedInheritedParameter_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022UseAsInsteadOfTypeCast_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022UseConfigureAwaitFalseForAsyncDisposable_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022UseDeconstruction_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022UseImplicitByValModifier_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022UseImplicitlyTypedVariable_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022UseImplicitlyTypedVariableEvident_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022UseNameofExpressionForPartOfTheString_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022UseNegatedPatternInIsExpression_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022UseNegatedPatternMatching_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022UseNullPropagation_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022UsePositionalDeconstructionPattern_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022UseStringInterpolationWhenPossible_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022UseThrowIfNullMethod_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022UseVerbatimString_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022VariableCanBeMadeConst_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022VariableCanBeMadeLet_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022VariableCanBeMovedToInnerBlock_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022VBSimplifyLinqExpression_002E10_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022VBSimplifyLinqExpression_002E7_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022VBSimplifyLinqExpression_002E8_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022VBSimplifyLinqExpression_002E9_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022VBStringEndsWithIsCultureSpecific_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022VBStringStartsWithIsCultureSpecific_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022Web_002EIgnoredPath_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022Web_002EMappedPath_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022WrongIndentSize_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022WrongMetadataUse_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022WrongPublicModifierSpecification_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022WrongRequireRelativePath_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022Xaml_002EBindingWithoutContextNotResolved_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022Xaml_002EGridDefinitionsCanBeConvertedToAttribute_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022Xaml_002EIgnoredPathHighlighting_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022Xaml_002EMappedPathHighlighting_0022_0020_002F_003E/@EntryIndexedValue">DoShow</s:String>
+	<s:Boolean x:Key="/Default/CodeInspection/Highlighting/IdentifierHighlightingEnabled/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ConvertToPrimaryConstructor/@EntryIndexedValue">DO_NOT_SHOW</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=StringLiteralTypo/@EntryIndexedValue">DO_NOT_SHOW</s:String>
+	<s:Boolean x:Key="/Default/CodeInspection/JavaScriptResolve/FullResolveForDynamicReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/CodeInspection/JsInspections/LanguageLevel/@EntryValue">Experimental</s:String>
+	<s:String x:Key="/Default/CodeStyle/CodeCleanup/RecentlyUsedProfile/@EntryValue">Built-in: Full Cleanup</s:String>
+	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpCodeStyle/BRACES_FOR_IFELSE/@EntryValue">Required</s:String>
+	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpCodeStyle/PARENTHESES_REDUNDANCY_STYLE/@EntryValue">Remove</s:String>
+	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpCodeStyle/ThisQualifier/INSTANCE_MEMBERS_QUALIFY_DECLARED_IN/@EntryValue">BaseClass</s:String>
+	<s:Int64 x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/BLANK_LINES_BEFORE_BLOCK_STATEMENTS/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/SPACE_AFTER_TYPECAST_PARENTHESES/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/SPACE_WITHIN_SINGLE_LINE_ARRAY_INITIALIZER_BRACES/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_TERNARY_EXPR_STYLE/@EntryValue">CHOP_IF_LONG</s:String>
+	<s:Boolean x:Key="/Default/CodeStyle/EncapsulateField/UpdateExternalUsagesOnly/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/Generate/=EqualityMembers/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/CodeStyle/Generate/=EqualityMembers/Options/=EqualityOperators/@EntryIndexedValue">False</s:String>
+	<s:String x:Key="/Default/CodeStyle/Generate/=EqualityMembers/Options/=UseSystemHashCode/@EntryIndexedValue">True</s:String>
+	<s:Boolean x:Key="/Default/CodeStyle/Generate/=Implementations/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/CodeStyle/Generate/=Implementations/Options/=Mutable/@EntryIndexedValue">False</s:String>
+	<s:Boolean x:Key="/Default/CodeStyle/Generate/=RelationalMembers/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/CodeStyle/Generate/=RelationalMembers/Options/=ImplementIComparable/@EntryIndexedValue">False</s:String>
+	<s:String x:Key="/Default/CodeStyle/Generate/=RelationalMembers/Options/=RelationalOperators/@EntryIndexedValue">False</s:String>
+	<s:Boolean x:Key="/Default/CodeStyle/Naming/CSharpAutoNaming/IsNotificationDisabled/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/Abbreviations/=BST/@EntryIndexedValue">BST</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/Abbreviations/=FBT/@EntryIndexedValue">FBT</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/Abbreviations/=GCD/@EntryIndexedValue">GCD</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/Abbreviations/=HP/@EntryIndexedValue">HP</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/Abbreviations/=ID/@EntryIndexedValue">ID</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/Abbreviations/=II/@EntryIndexedValue">II</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/Abbreviations/=III/@EntryIndexedValue">III</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/Abbreviations/=LCM/@EntryIndexedValue">LCM</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/Abbreviations/=LFU/@EntryIndexedValue">LFU</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/Abbreviations/=LIS/@EntryIndexedValue">LIS</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/Abbreviations/=LRU/@EntryIndexedValue">LRU</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/Abbreviations/=MRU/@EntryIndexedValue">MRU</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/Abbreviations/=OR/@EntryIndexedValue">OR</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/Abbreviations/=RLE/@EntryIndexedValue">RLE</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/Abbreviations/=RPN/@EntryIndexedValue">RPN</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/Abbreviations/=XOR/@EntryIndexedValue">XOR</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/PredefinedNamingRules/=LocalFunctions/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb"&gt;&lt;ExtraRule Prefix="Get" Suffix="" Style="AaBb" /&gt;&lt;/Policy&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/PredefinedNamingRules/=Method/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb"&gt;&lt;ExtraRule Prefix="Get" Suffix="" Style="AaBb" /&gt;&lt;/Policy&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/UserRules/=76f79b1e_002Dece7_002D4df2_002Da322_002D1bd7fea25eb7/@EntryIndexedValue">&lt;Policy&gt;&lt;Descriptor Staticness="Any" AccessRightKinds="Any" Description="Local functions"&gt;&lt;ElementKinds&gt;&lt;Kind Name="LOCAL_FUNCTION" /&gt;&lt;/ElementKinds&gt;&lt;/Descriptor&gt;&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb"&gt;&lt;ExtraRule Prefix="Get" Suffix="" Style="AaBb" /&gt;&lt;/Policy&gt;&lt;/Policy&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/UserRules/=8284009d_002De743_002D4d89_002D9402_002Da5bf9a89b657/@EntryIndexedValue">&lt;Policy&gt;&lt;Descriptor Staticness="Any" AccessRightKinds="Any" Description="Methods"&gt;&lt;ElementKinds&gt;&lt;Kind Name="METHOD" /&gt;&lt;/ElementKinds&gt;&lt;/Descriptor&gt;&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb"&gt;&lt;ExtraRule Prefix="Get" Suffix="" Style="AaBb" /&gt;&lt;/Policy&gt;&lt;/Policy&gt;</s:String>
+	<s:Boolean x:Key="/Default/Dpa/IsEnabled/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/Dpa/IsNoEtwHostNotificationEnabled/@EntryValue">False</s:Boolean>
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\Users\mnaou\.nuget\packages\microsoft.clearscript.core\7.4.1\lib\net5.0\ClearScript.Core.dll" /&gt;&#xD;
+  &lt;PhysicalFolder Path="C:\Users\mnaou\.nuget\packages\microsoft.clearscript.v8\7.4.1" Loaded="True" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String>
+	<s:Boolean x:Key="/Default/Environment/ExternalSources/Decompiler/DecompilerLegalNoticeAccepted/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/ExternalSources/FirstTimeFormShown/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/Feedback/SendActivityLogs/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/Feedback/ShouldPrompt/@EntryValue">False</s:Boolean>
+	<s:Int64 x:Key="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue">50</s:Int64>
+	<s:String x:Key="/Default/Environment/PerformanceGuide/SwitchBehaviour/=SolExp_002DTrack/@EntryIndexedValue">DO_NOTHING</s:String>
+	<s:String x:Key="/Default/Environment/PerformanceGuide/SwitchConflictResolutionMode/=SolExp_002DTrack/@EntryIndexedValue">DO_NOTHING</s:String>
+	<s:Int64 x:Key="/Default/Environment/SearchAndNavigation/DefaultOccurrencesGroupingIndices/=JetBrains_002EPsiFeatures_002EUIInteractive_002ERefactorings_002EControls_002EUsagesDescriptor/@EntryIndexedValue">12</s:Int64>
+	<s:Int64 x:Key="/Default/Environment/SearchAndNavigation/DefaultOccurrencesGroupingIndices/=JetBrains_002EReSharper_002EFeature_002EServices_002ENavigation_002EDescriptors_002ESearchInheritorsDescriptor/@EntryIndexedValue">12</s:Int64>
+	<s:Int64 x:Key="/Default/Environment/SearchAndNavigation/DefaultOccurrencesGroupingIndices/=JetBrains_002EReSharper_002EFeature_002EServices_002ENavigation_002EDescriptors_002ESearchUsagesDescriptor/@EntryIndexedValue">12</s:Int64>
+	<s:Int64 x:Key="/Default/Environment/SearchAndNavigation/DefaultOccurrencesGroupingIndices/=JetBrains_002EReSharper_002EFeature_002EServices_002ERefactorings_002EConflicts_002EOccurrences_002EConflictOccurrencesDescriptor/@EntryIndexedValue">9</s:Int64>
+	<s:Int64 x:Key="/Default/Environment/SearchAndNavigation/DefaultOccurrencesGroupingIndices/=JetBrains_002EReSharper_002EFeatures_002ENavigation_002EFeatures_002EGoToDeclaredElement_002EGotoDeclaredElementsBrowserDescriptor/@EntryIndexedValue">9</s:Int64>
+	<s:Int64 x:Key="/Default/Environment/SearchAndNavigation/DefaultOccurrencesGroupingIndices/=JetBrains_002EReSharper_002EFeatures_002EStructuralSearch_002EStructuralReplaceSearchResultsBrowserDescriptor/@EntryIndexedValue">12</s:Int64>
+	<s:Int64 x:Key="/Default/Environment/SearchAndNavigation/DefaultOccurrencesGroupingIndices/=JetBrains_002EReSharper_002EFeatures_002EStructuralSearch_002EStructuralSearchResultsBrowserDescriptor/@EntryIndexedValue">12</s:Int64>
+	<s:Int64 x:Key="/Default/Environment/SearchAndNavigation/DefaultOccurrencesGroupingIndices/=JetBrains_002EReSharper_002ERefactorings_002EMove_002EAdjustNamespaces_002EImpl_002EAdjustNamespacesPage_002BOccurrencesDescriptor/@EntryIndexedValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EApplication_002EExceptionReport_002EUserLoginInformationMigrateSettings/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ECSharpKeepExistingMigration/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ECSharpPlaceEmbeddedOnSameLineMigration/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ECSharpUseContinuousIndentInsideBracesMigration/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ESettingsUpgrade_002EMigrateBlankLinesAroundFieldToBlankLinesAroundProperty/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ESettingsUpgrade_002EPredefinedNamingRulesToUserRulesUpgrade/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EUnitTestFramework_002ESettings_002EMigrations_002ERemoveBuildPolicyAlwaysMigration/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5fc40c3c_002D36ab_002D4816_002Daa9c_002D4c4d2ec63c46/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;LeetCode&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="F:\dev\leetcode\LeetCode" Presentation="&amp;lt;LeetCode&amp;gt;" /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7358635d_002D768d_002D4125_002D898b_002D3fd78caaf3ef/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from Tests.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:0214 Shortest Palindrome/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFolder&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:2622 Cache With Time Limit&lt;/ProjectFolder&gt;&#xD;
+    &lt;Category&gt;JavaScript&lt;/Category&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:2635 Apply Transform Over Each Element in Array/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:2623 Memoize/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:0286 Walls and Gates/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:1634 Add Two Polynomials Represented as Linked Lists/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:0369 Plus One Linked List/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:2624 Snail Traversal/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:2625 Flatten Deeply Nested Array/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:2626 Array Reduce Transformation/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:2627 Debounce/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::0B8D4545-C81F-4D01-B448-DEA21AE5FA00::net7.0::LeetCode._2628_JSON_Deep_Equal.Tests&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::0B8D4545-C81F-4D01-B448-DEA21AE5FA00::net7.0::LeetCode._2633_Convert_Object_to_JSON_String.Tests&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::0B8D4545-C81F-4D01-B448-DEA21AE5FA00::net7.0::LeetCode._6432_Count_the_Number_of_Complete_Components.Tests&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:2629 Function Composition/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:2630 Memoize II/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:2631 Group By/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:2632 Curry/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:2634 Filter Elements from Array/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:1469 Find All The Lonely Nodes/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:0582 Kill Process/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:0430 Flatten a Multilevel Doubly Linked List/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:2636 Promise Pool/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:0281 Zigzag Iterator/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:1884 Egg Drop With 2 Eggs and N Floors/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:0887 Super Egg Drop/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:2666 Allow One Function Call/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:1751 Maximum Number of Events That Can Be Attended II/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:1799 Maximize Score After N Operations/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:6430 Find the Losers of the Circular Game/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:6431 Neighboring Bitwise XOR/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:6433 Maximum Number of Moves in a Grid/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFolder&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:1478 Allocate Mailboxes&lt;/ProjectFolder&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:0241 Different Ways to Add Parentheses/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:1192 Critical Connections in a Network/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:0456 132 Pattern/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:0862 Shortest Subarray with Sum at Least K/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFolder&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:1602 Find Nearest Right Node in Binary Tree&lt;/ProjectFolder&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:0528 Random Pick with Weight/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:1508 Range Sum of Sorted Subarray Sums/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:1574 Shortest Subarray to be Removed to Make Array Sorted/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:0489 Robot Room Cleaner/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:1522 Diameter of N-Ary Tree/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:1292 Maximum Side Length of a Square with Sum Less than or Equal to Threshold/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:1300 Sum of Mutated Array Closest to Target/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFolder&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:0910 Smallest Range II&lt;/ProjectFolder&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:0445 Add Two Numbers II/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:2637 Promise Time Limit/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:1682 Longest Palindromic Subsequence II/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:1062 Longest Repeating Substring/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:0315 Count of Smaller Numbers After Self/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:0366 Find Leaves of Binary Tree/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:1802 Maximum Value at a Given Index in a Bounded Array/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:2676 Throttle/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:0860 Lemonade Change/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:1092 Shortest Common Supersequence/f:Tests.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;/Or&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UpdatesManger/LastUpdateCheck/@EntryValue">05/18/2023 08:15:37</s:String>
+	<s:String x:Key="/Default/Environment/UserInterface/ShortcutSchemeName/@EntryValue">VS</s:String>
+	<s:String x:Key="/Default/Housekeeping/AssemblyExport/AssemblyExportHistory/History/@EntryValue">&lt;AssemblyExportHisory&gt;&#xD;
+  &lt;ExportElement Assembly="133111511240000000|C:\PROGRAM FILES\DOTNET\PACKS\MICROSOFT.NETCORE.APP.REF\6.0.11\ANALYZERS\DOTNET\CS\SYSTEM.TEXT.JSON.SOURCEGENERATION.DLL" Project="f:\dev\0\System.Text.Json.SourceGeneration\System.Text.Json.SourceGeneration.csproj" /&gt;&#xD;
+&lt;/AssemblyExportHisory&gt;</s:String>
+	<s:Boolean x:Key="/Default/Housekeeping/Bookmarks/NumberedBookmarks/=Bookmark5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/Housekeeping/Bookmarks/NumberedBookmarks/=Bookmark5/Coords/@EntryValue">(Doc Ln 5 Col 54)</s:String>
+	<s:String x:Key="/Default/Housekeeping/Bookmarks/NumberedBookmarks/=Bookmark5/FileId/@EntryValue">0B8D4545-C81F-4D01-B448-DEA21AE5FA00/d:2250 Count Number of Rectangles Containing Each Point/f:Solution3.cs</s:String>
+	<s:String x:Key="/Default/Housekeeping/Bookmarks/NumberedBookmarks/=Bookmark5/Owner/@EntryValue">NumberedBookmarkManager</s:String>
+	<s:String x:Key="/Default/Housekeeping/DiskCleanup/LastRunTime/@EntryValue">05/19/2023 21:28:23</s:String>
+	<s:Boolean x:Key="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=EditorConfigFeatureSuggester/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=GotoSuggester/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=NullabilityAnnotationAssistSuggester/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=TabNavigationExplainer/@EntryIndexedValue">True</s:Boolean>
+	
+	<s:Boolean x:Key="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Housekeeping/IntellisenseHousekeeping/HintUsed/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/Housekeeping/Layout/DialogWindows/ExportToProjectDialog/DestinationFolder/@EntryValue">f:\dev\0</s:String>
+	<s:String x:Key="/Default/Housekeeping/Layout/DialogWindows/OpenFromNuGetPackagesCacheDialog/Position/@EntryValue">[170,73](640,480)</s:String>
+	<s:String x:Key="/Default/Housekeeping/Layout/DialogWindows/RefactoringWizardWindow/Location/@EntryValue">0,-233</s:String>
+	<s:Double x:Key="/Default/Housekeeping/Layout/DialogWindows/RegularExpressionEditorWindow/InputColumnWidth/@EntryValue">422</s:Double>
+	<s:Double x:Key="/Default/Housekeeping/Layout/DialogWindows/RegularExpressionEditorWindow/InputRowHeight/@EntryValue">268.5</s:Double>
+	<s:Double x:Key="/Default/Housekeeping/Layout/DialogWindows/RegularExpressionEditorWindow/MatchColumnWidth/@EntryValue">211</s:Double>
+	<s:Double x:Key="/Default/Housekeeping/Layout/DialogWindows/RegularExpressionEditorWindow/PatternRowHeight/@EntryValue">89.5</s:Double>
+	<s:Boolean x:Key="/Default/Housekeeping/LiveTemplatesHousekeeping/HotspotSessionHintIsShown/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/Housekeeping/OptionsDialog/SelectedPageId/@EntryValue">JSON</s:String>
+	<s:Boolean x:Key="/Default/Housekeeping/RefactoringsMru/InlineMethod/RemoveInitialDeclaration/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/Housekeeping/RefactoringsMru/InlineMethod/ReplaceAllUsages/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/Housekeeping/RefactoringsMru/RenameRefactoring/DoSearchForStructurallyCompatible/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/Housekeeping/TreeModelBrowserPanelPersistence/IsPreviewVisible/=UnitTestSessionDescriptor/@EntryIndexedValue">True</s:Boolean>
+	<s:Double x:Key="/Default/Housekeeping/TreeModelBrowserPanelPersistence/PreviewSplitterVerticalProportion/=UnitTestSessionDescriptor/@EntryIndexedValue">1.002628120893561</s:Double>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestRunner/SpawnedProcessesKnownList/=node_002Eexe/@EntryIndexedValue">KillOrphaned</s:String>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestRunner/SpawnedProcessesKnownList/=sqlservr_002Eexe/@EntryIndexedValue">DoNothing</s:String>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionDefault/Groupings/@EntryValue">Category;Namespace</s:String>
+	<s:Boolean x:Key="/Default/Housekeeping/UpgradeFromExceptionReport/UpgradePerformed/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/Housekeeping/WhatsNewShown/WhatsNewShownIndexedEntry/=RS0/@EntryIndexedValue">2023.1</s:String>
+	<s:Boolean x:Key="/Default/MethodListPresentation/FollowSelection/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/StructuralSearch/RecentSearch/=202302271447268021/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/RecentSearch/=202302271447268021/LanguageName/@EntryValue">CSHARP</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/StructuralSearch/RecentSearch/=202302271447268021/MatchCatchClauseWithoutExceptionFilter/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/StructuralSearch/RecentSearch/=202302271447268021/RecentSearchPlaceholder/=x/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/RecentSearch/=202302271447268021/RecentSearchPlaceholder/=x/Properties/=Maximal/@EntryIndexedValue">-1</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/RecentSearch/=202302271447268021/RecentSearchPlaceholder/=x/Properties/=Minimal/@EntryIndexedValue">-1</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/RecentSearch/=202302271447268021/RecentSearchPlaceholder/=x/Type/@EntryValue">ArgumentPlaceholder</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/RecentSearch/=202302271447268021/SearchPattern/@EntryValue">TreeNote.Create($x$)!</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/StructuralSearch/RecentSearch/=202302271447403421/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/RecentSearch/=202302271447403421/LanguageName/@EntryValue">CSHARP</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/StructuralSearch/RecentSearch/=202302271447403421/MatchCatchClauseWithoutExceptionFilter/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/StructuralSearch/RecentSearch/=202302271447403421/RecentSearchPlaceholder/=x/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/RecentSearch/=202302271447403421/RecentSearchPlaceholder/=x/Properties/=Maximal/@EntryIndexedValue">-1</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/RecentSearch/=202302271447403421/RecentSearchPlaceholder/=x/Properties/=Minimal/@EntryIndexedValue">-1</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/RecentSearch/=202302271447403421/RecentSearchPlaceholder/=x/Type/@EntryValue">ArgumentPlaceholder</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/RecentSearch/=202302271447403421/SearchPattern/@EntryValue">TreeNode.Create($x$)!</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/StructuralSearch/RecentSearch/=202302271448064786/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/StructuralSearch/RecentSearch/=202302271448064786/FormatAfterReplace/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/StructuralSearch/RecentSearch/=202302271448064786/IsReplacePattern/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/RecentSearch/=202302271448064786/LanguageName/@EntryValue">CSHARP</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/StructuralSearch/RecentSearch/=202302271448064786/MatchCatchClauseWithoutExceptionFilter/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/StructuralSearch/RecentSearch/=202302271448064786/RecentSearchPlaceholder/=x/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/RecentSearch/=202302271448064786/RecentSearchPlaceholder/=x/Properties/=Maximal/@EntryIndexedValue">-1</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/RecentSearch/=202302271448064786/RecentSearchPlaceholder/=x/Properties/=Minimal/@EntryIndexedValue">-1</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/RecentSearch/=202302271448064786/RecentSearchPlaceholder/=x/Type/@EntryValue">ArgumentPlaceholder</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/RecentSearch/=202302271448064786/ReplacePattern/@EntryValue">TreeNode.CreateNonEmpty($x$)</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/RecentSearch/=202302271448064786/SearchPattern/@EntryValue">TreeNode.Create($x$)!</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/StructuralSearch/RecentSearch/=202302271448064786/ShortenReferences/@EntryValue">False</s:Boolean>
+	<s:String x:Key="/Default/Profiling/Configurations/=2/@EntryIndexedValue">&lt;data&gt;&lt;HostParameters type="LocalHostParameters" /&gt;&lt;Argument type="StandaloneArgument"&gt;&lt;Arguments IsNull="False"&gt;&lt;/Arguments&gt;&lt;FileName IsNull="False"&gt;&lt;/FileName&gt;&lt;WorkingDirectory IsNull="False"&gt;&lt;/WorkingDirectory&gt;&lt;Scope&gt;&lt;ProcessFilters /&gt;&lt;/Scope&gt;&lt;/Argument&gt;&lt;Info type="TimelineInfo" /&gt;&lt;CoreOptions type="CoreOptions"&gt;&lt;CoreTempPath IsNull="False"&gt;&lt;/CoreTempPath&gt;&lt;RemoteEndPoint IsNull="False"&gt;&lt;/RemoteEndPoint&gt;&lt;AdditionalEnvironmentVariables&gt;&lt;Item&gt;&lt;Key&gt;RESHARPER_HOST_VERSION&lt;/Key&gt;&lt;Value&gt;231.0.20230421.92748&lt;/Value&gt;&lt;/Item&gt;&lt;Item&gt;&lt;Key&gt;RESHARPER_TESTRUNNER&lt;/Key&gt;&lt;Value&gt;Profile&lt;/Value&gt;&lt;/Item&gt;&lt;Item&gt;&lt;Key&gt;RESHARPER_HOST&lt;/Key&gt;&lt;Value&gt;ReSharperPlatformVs17&lt;/Value&gt;&lt;/Item&gt;&lt;/AdditionalEnvironmentVariables&gt;&lt;/CoreOptions&gt;&lt;HostOptions type="HostOptions"&gt;&lt;HostTempPath IsNull="False"&gt;&lt;/HostTempPath&gt;&lt;ReprofileDisableReason&gt;LaunchedByReSharperUnitTestRunner&lt;/ReprofileDisableReason&gt;&lt;/HostOptions&gt;&lt;/data&gt;</s:String>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=accum/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Arith/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=atoi/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Bipartition/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=casted/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=chisato/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Choco/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Choosable/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Comparers/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Conc/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Consec/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Coprime/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=curr/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=deadends/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=debounce/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=debounced/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Decodings/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=deser/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Dota/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Enumerables/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Equalindromic/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=funcs/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=gcds/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=gcms/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Harshad/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Hashable/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Hashmap/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Incremovable/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=indegrees/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Inorder/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Ints/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Jsons/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Kelements/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Koko/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Leet/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=leetcode/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Leetflex/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Malware/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=memoize/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=memoized/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Mincost/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Mins/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Multisets/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=noughts/@EntryIndexedValue">True</s:Boolean>
+	
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Nums/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=nums/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Objs/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Pangram/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Postorder/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Preorder/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Safehouse/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Satisfiability/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=sinonjs/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Splitted/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=strs/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Subarray/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Subarrays/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Sublists/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Submatrices/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Submatrix/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=subproblem/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Subseq/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Subsequences/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Subsetof/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Subtasks/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=succ/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Summand/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Supersequence/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=takina/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Toeplitz/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Traversable/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Tribonacci/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Tromino/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Unival/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Univalue/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Unreserve/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Vals/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=xors/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/WpfWindowSize/PositionSettings/=JetBrains_002EProfiler_002EEditor_002EWindows_002EWPF_002EViewModels_002EDialogWindowExistingConfigurationViewModel/@EntryIndexedValue">234,234</s:String>
 	<s:String x:Key="/Default/Environment/PerformanceGuide/SwitchBehaviour/=SolExp_002DTrack/@EntryIndexedValue">DO_NOTHING</s:String>
 	<s:String x:Key="/Default/Environment/PerformanceGuide/SwitchConflictResolutionMode/=SolExp_002DTrack/@EntryIndexedValue"></s:String>
-	<s:Boolean x:Key="/Default/Environment/PerformanceGuide/SwitchConflictResolutionMode/=SolExp_002DTrack/@EntryIndexRemoved">True</s:Boolean></wpf:ResourceDictionary>
+	<s:Boolean x:Key="/Default/Environment/PerformanceGuide/SwitchConflictResolutionMode/=SolExp_002DTrack/@EntryIndexRemoved">True</s:Boolean>
+	</wpf:ResourceDictionary>

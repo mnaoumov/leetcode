@@ -1,0 +1,5 @@
+{
+  "s1": "apple apple",
+  "s2": "banana",
+  "output": ["banana"]
+}

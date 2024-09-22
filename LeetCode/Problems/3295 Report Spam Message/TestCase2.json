@@ -1,0 +1,5 @@
+{
+  "message": ["hello","programming","fun"],
+  "bannedWords": ["world","programming","leetcode"],
+  "output": false
+}

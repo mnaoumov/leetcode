@@ -1,0 +1,5 @@
+{
+  "message": ["hello","world","leetcode"],
+  "bannedWords": ["world","hello"],
+  "output": true
+}

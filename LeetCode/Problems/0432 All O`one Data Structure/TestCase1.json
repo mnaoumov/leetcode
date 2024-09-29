@@ -1,0 +1,5 @@
+{
+    "commands": ["AllOne", "inc", "inc", "getMaxKey", "getMinKey", "inc", "getMaxKey", "getMinKey"],
+    "parameters": [[], ["hello"], ["hello"], [], [], ["leet"], [], []],
+    "output": [null, null, null, "hello", "hello", null, "hello", "leet"]
+}

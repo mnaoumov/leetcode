@@ -145,6 +145,7 @@ internal partial class CSharpGenerator : GeneratorBase
                 "bool" => false,
                 "double" => false,
                 "decimal" => false,
+                "char" => false,
                 _ => true
             };
 

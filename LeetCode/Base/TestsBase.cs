@@ -60,7 +60,7 @@ public abstract class TestsBase<TSolution, TTestCase> : TestsBase where TTestCas
 
 public abstract partial class TestsBase
 {
-    [GeneratedRegex(@"[ ()'&\-,%]")]
+    [GeneratedRegex(@"[ ()'&\-,%`]")]
     private static partial Regex CharactersToEscapeRegex();
 
     protected static CollectionItemsEqualConstraint IsEquivalentToIgnoringItemOrder<T>(

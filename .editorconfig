@@ -20,12 +20,16 @@ csharp_style_prefer_utf8_string_literals = true:suggestion
 csharp_style_var_elsewhere = true:suggestion
 csharp_style_var_for_built_in_types = true:suggestion
 csharp_style_var_when_type_is_apparent = true:suggestion
-dotnet_naming_rule.local_functions_rule.import_to_resharper = as_predefined
+dotnet_naming_rule.local_functions_rule.import_to_resharper = True
+dotnet_naming_rule.local_functions_rule.resharper_description = Local functions
+dotnet_naming_rule.local_functions_rule.resharper_guid = 76f79b1e-ece7-4df2-a322-1bd7fea25eb7
 dotnet_naming_rule.local_functions_rule.resharper_style = AaBb, Get + AaBb
 dotnet_naming_rule.local_functions_rule.severity = warning
 dotnet_naming_rule.local_functions_rule.style = upper_camel_case_style
 dotnet_naming_rule.local_functions_rule.symbols = local_functions_symbols
-dotnet_naming_rule.method_rule.import_to_resharper = as_predefined
+dotnet_naming_rule.method_rule.import_to_resharper = True
+dotnet_naming_rule.method_rule.resharper_description = Methods
+dotnet_naming_rule.method_rule.resharper_guid = 8284009d-e743-4d89-9402-a5bf9a89b657
 dotnet_naming_rule.method_rule.resharper_style = AaBb, Get + AaBb
 dotnet_naming_rule.method_rule.severity = warning
 dotnet_naming_rule.method_rule.style = upper_camel_case_style
@@ -45,31 +49,38 @@ dotnet_style_qualification_for_field = false:suggestion
 dotnet_style_qualification_for_method = false:suggestion
 dotnet_style_qualification_for_property = false:suggestion
 dotnet_style_require_accessibility_modifiers = for_non_interface_members:suggestion
-dotnet_diagnostic.IDE0028.severity = none
-dotnet_diagnostic.IDE0290.severity = none
-dotnet_diagnostic.IDE0300.severity = none
-dotnet_diagnostic.IDE0301.severity = none
-dotnet_diagnostic.IDE0305.severity = none
+dotnet_diagnostic.ide0028.severity = none
+dotnet_diagnostic.ide0290.severity = none
+dotnet_diagnostic.ide0300.severity = none
+dotnet_diagnostic.ide0301.severity = none
+dotnet_diagnostic.ide0305.severity = none
 
 # ReSharper properties
 resharper_blank_lines_before_block_statements = 1
+resharper_braces_for_for = not_required
+resharper_braces_for_foreach = not_required
 resharper_braces_for_ifelse = required
+resharper_braces_for_while = not_required
+resharper_braces_redundant = true
 resharper_instance_members_qualify_declared_in = base_class
 resharper_parentheses_redundancy_style = remove
+resharper_use_heuristics_for_body_style = true
 
 # ReSharper inspection severities
+resharper_arrange_accessor_owner_body_highlighting = suggestion
 resharper_arrange_redundant_parentheses_highlighting = hint
 resharper_arrange_this_qualifier_highlighting = hint
 resharper_arrange_type_member_modifiers_highlighting = hint
 resharper_arrange_type_modifiers_highlighting = hint
 resharper_built_in_type_reference_style_for_member_access_highlighting = hint
 resharper_built_in_type_reference_style_highlighting = hint
+resharper_convert_to_primary_constructor_highlighting = none
 resharper_redundant_base_qualifier_highlighting = warning
+resharper_string_literal_typo_highlighting = none
 resharper_suggest_var_or_type_built_in_types_highlighting = hint
 resharper_suggest_var_or_type_elsewhere_highlighting = hint
 resharper_suggest_var_or_type_simple_types_highlighting = hint
 dotnet_style_operator_placement_when_wrapping = beginning_of_line
-end_of_line = crlf
 csharp_indent_labels = no_change
 dotnet_style_coalesce_expression = true:suggestion
 dotnet_style_null_propagation = true:suggestion
@@ -82,7 +93,6 @@ dotnet_style_prefer_conditional_expression_over_assignment = true:silent
 csharp_using_directive_placement = outside_namespace:silent
 csharp_prefer_simple_using_statement = true:suggestion
 csharp_prefer_braces = true:silent
-csharp_style_namespace_declarations = block_scoped:silent
 csharp_style_prefer_method_group_conversion = true:silent
 csharp_style_prefer_top_level_statements = true:silent
 csharp_style_expression_bodied_methods = false:silent
@@ -93,7 +103,6 @@ csharp_style_expression_bodied_indexers = true:silent
 csharp_style_expression_bodied_accessors = true:silent
 csharp_style_expression_bodied_lambdas = true:silent
 csharp_style_expression_bodied_local_functions = false:silent
-insert_final_newline = true
 trim_trailing_whitespace = true
 charset = utf-8
 dotnet_style_prefer_conditional_expression_over_return = true:silent
@@ -104,4 +113,18 @@ dotnet_style_prefer_inferred_anonymous_type_member_names = true:suggestion
 dotnet_style_prefer_compound_assignment = true:suggestion
 dotnet_style_prefer_simplified_interpolation = true:suggestion
 csharp_style_prefer_primary_constructors = false:suggestion
-resharper_use_collection_expression_highlighting = false
+
+[*.{cshtml,htm,html,razor}]
+indent_style = tab
+indent_size = tab
+tab_width = 4
+
+[*.{asax,ascx,aspx,axaml,cs,master,paml,skin,vb,xaml,xamlx,xoml}]
+indent_style = space
+indent_size = 4
+tab_width = 4
+
+[*.{appxmanifest,axml,build,config,csproj,dbml,discomap,dtd,jsproj,lsproj,njsproj,nuspec,proj,props,resw,resx,StyleCop,targets,tasks,vbproj,xml,xsd}]
+indent_style = space
+indent_size = 2
+tab_width = 2

@@ -1,0 +1,6 @@
+{
+  "source": "abbaa",
+  "pattern": "aba",
+  "targetIndices": [0,1,2],
+  "output": 1
+}

@@ -1,0 +1,6 @@
+{
+  "source": "dda",
+  "pattern": "dda",
+  "targetIndices": [0,1,2],
+  "output": 0
+}

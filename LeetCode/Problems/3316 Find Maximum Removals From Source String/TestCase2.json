@@ -1,0 +1,6 @@
+{
+  "source": "bcda",
+  "pattern": "d",
+  "targetIndices": [0,3],
+  "output": 2
+}

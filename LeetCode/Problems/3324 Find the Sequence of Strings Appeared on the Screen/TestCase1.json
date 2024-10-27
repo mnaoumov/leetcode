@@ -1,0 +1,4 @@
+{
+  "target": "abc",
+  "output": ["a","aa","ab","aba","abb","abc"]
+}

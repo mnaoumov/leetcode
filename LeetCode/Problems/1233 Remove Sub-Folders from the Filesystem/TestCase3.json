@@ -1,0 +1,4 @@
+{
+  "folder": ["/a/b/c","/a/b/ca","/a/b/d"],
+  "output": ["/a/b/c","/a/b/ca","/a/b/d"]
+}

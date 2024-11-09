@@ -1,0 +1,6 @@
+{
+  "nums": [1,2,4,5],
+  "k": 2,
+  "numOperations": 4,
+  "output": 4
+}

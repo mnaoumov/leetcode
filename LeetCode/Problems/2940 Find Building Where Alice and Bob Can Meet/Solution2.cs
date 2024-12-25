@@ -1,11 +1,11 @@
 namespace LeetCode.Problems._2940_Find_Building_Where_Alice_and_Bob_Can_Meet;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/1486691693/
+/// https://leetcode.com/submissions/detail/1486753399/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution1 : ISolution
+[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
+public class Solution2 : ISolution
 {
     public int[] LeftmostBuildingQueries(int[] heights, int[][] queries)
     {
@@ -41,7 +41,7 @@ public class Solution1 : ISolution
                 continue;
             }
 
-            var low = 0;
+            var low = 1;
             var high = candidateIndices.Count - 1;
 
             while (low <= high)
@@ -49,7 +49,7 @@ public class Solution1 : ISolution
                 var mid = low + (high - low >> 1);
                 var index = candidateIndices[mid];
                 var height = heights[index];
-                if (height >= heights[query.MinIndex])
+                if (height >= heights[query.MinIndex] + 1)
                 {
                     high = mid - 1;
                 }

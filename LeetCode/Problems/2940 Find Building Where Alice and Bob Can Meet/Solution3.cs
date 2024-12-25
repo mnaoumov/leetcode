@@ -1,11 +1,11 @@
 namespace LeetCode.Problems._2940_Find_Building_Where_Alice_and_Bob_Can_Meet;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/1486691693/
+/// https://leetcode.com/submissions/detail/1486760141/
 /// </summary>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution1 : ISolution
+public class Solution3 : ISolution
 {
     public int[] LeftmostBuildingQueries(int[] heights, int[][] queries)
     {
@@ -19,18 +19,18 @@ public class Solution1 : ISolution
         var ans = new int[m];
 
         var lastIndex = heights.Length;
-        var candidateIndices = new List<int>();
+        var candidateIndicesReversed = new List<int>();
 
         foreach (var query in queryObjs)
         {
             for (var i = lastIndex - 1; i >= query.MaxIndex; i--)
             {
-                while (candidateIndices.Count > 0 && heights[candidateIndices[0]] <= heights[i])
+                while (candidateIndicesReversed.Count > 0 && heights[candidateIndicesReversed[^1]] <= heights[i])
                 {
-                    candidateIndices.RemoveAt(0);
+                    candidateIndicesReversed.RemoveAt(candidateIndicesReversed.Count - 1);
                 }
 
-                candidateIndices.Insert(0, i);
+                candidateIndicesReversed.Add(i);
             }
 
             lastIndex = query.MaxIndex;
@@ -41,15 +41,21 @@ public class Solution1 : ISolution
                 continue;
             }
 
-            var low = 0;
-            var high = candidateIndices.Count - 1;
+            if (heights[candidateIndicesReversed[0]] < heights[query.MinIndex] + 1)
+            {
+                ans[query.Index] = -1;
+                continue;
+            }
+
+            var low = 1;
+            var high = candidateIndicesReversed.Count - 1;
 
             while (low <= high)
             {
                 var mid = low + (high - low >> 1);
-                var index = candidateIndices[mid];
+                var index = candidateIndicesReversed[mid];
                 var height = heights[index];
-                if (height >= heights[query.MinIndex])
+                if (height <= heights[query.MinIndex] + 1)
                 {
                     high = mid - 1;
                 }
@@ -59,7 +65,7 @@ public class Solution1 : ISolution
                 }
             }
 
-            ans[query.Index] = low == candidateIndices.Count ? -1 : candidateIndices[low];
+            ans[query.Index] = candidateIndicesReversed[high];
         }
 
         return ans;

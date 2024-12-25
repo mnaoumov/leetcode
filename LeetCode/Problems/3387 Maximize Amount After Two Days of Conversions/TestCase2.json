@@ -1,0 +1,8 @@
+{
+  "initialCurrency": "NGN",
+  "pairs1": [["NGN","EUR"]],
+  "rates1": [9.0],
+  "pairs2": [["NGN","EUR"]],
+  "rates2": [6.0],
+  "output": 1.5
+}

@@ -1,0 +1,8 @@
+{
+  "initialCurrency": "USD",
+  "pairs1": [["USD","EUR"]],
+  "rates1": [1.0],
+  "pairs2": [["EUR","JPY"]],
+  "rates2": [10.0],
+  "output": 1.0
+}

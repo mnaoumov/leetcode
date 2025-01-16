@@ -32,7 +32,7 @@ internal partial class CSharpGenerator : GeneratorBase
 
     public override bool CanGenerate() => SignatureRegex().IsMatch(Signature);
 
-    public override void Generate()
+    public override void Generate(string? examplesStr)
     {
         var signatureMatch = SignatureRegex().Match(Signature);
         var outputType = signatureMatch.Groups["OutputType"].Value;
@@ -55,7 +55,7 @@ internal partial class CSharpGenerator : GeneratorBase
             )
             """);
 
-        var examplesStr = ConsoleHelper.ReadMultiline("Examples");
+        examplesStr ??= ConsoleHelper.ReadMultiline("Examples");
         Examples = ExamplesRegex().Matches(examplesStr).Select(match =>
         {
             var input = match.Groups["Input"].Value.Replace(" = ", ": ");

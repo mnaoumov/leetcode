@@ -11,7 +11,7 @@ internal static partial class Program
 
     public static void Main()
     {
-        var testCaseTypes = typeof(LeetCode.TestCaseBase).Assembly.GetTypes().Where(type => type.Name == "TestCase")
+        var testCaseTypes = typeof(LeetCode.Base.TestCaseBase).Assembly.GetTypes().Where(type => type.Name == "TestCase")
             .OrderBy(t => t.FullName)
             .ToArray();
 

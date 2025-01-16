@@ -1,13 +1,14 @@
+using System.Diagnostics;
 using System.Reflection;
 
 namespace TemplateGenerator;
 
 internal static class Generator
 {
-    public static void Generate()
+    public static void Generate(string[] args)
     {
-        var title = ConsoleHelper.Read("Title");
-        var signature = ConsoleHelper.Read("Signature");
+        var title = args.ElementAtOrDefault(0) ?? ConsoleHelper.Read("Title");
+        var signature = args.ElementAtOrDefault(1) ?? ConsoleHelper.Read("Signature");
         var generator = Assembly.GetExecutingAssembly()
                             .GetTypes().Where(t => t.IsAssignableTo(typeof(IGenerator)) && !t.IsAbstract)
                             .Select(t =>
@@ -18,6 +19,6 @@ internal static class Generator
                             })
                             .FirstOrDefault(g => g.CanGenerate())
                         ?? throw new Exception($"Unsupported signature: {signature}");
-        generator.Generate();
+        generator.Generate(args.ElementAtOrDefault(2));
     }
 }

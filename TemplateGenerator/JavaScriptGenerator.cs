@@ -17,10 +17,10 @@ internal partial class JavaScriptGenerator : GeneratorBase
 
     public override bool CanGenerate() => Signature == "JS";
 
-    public override void Generate()
+    public override void Generate(string? examplesStr)
     {
         SolutionTemplate = ConsoleHelper.ReadMultiline("Solution template");
-        var examplesStr = ConsoleHelper.ReadMultiline("Examples");
+        examplesStr ??= ConsoleHelper.ReadMultiline("Examples");
 
         var exampleJsons = ExamplesRegex().Matches(examplesStr).Select(match =>
         {

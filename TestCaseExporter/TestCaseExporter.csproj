@@ -10,11 +10,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="JetBrains.Annotations" Version="2024.2.0" />
+    <PackageReference Include="JetBrains.Annotations" Version="2024.3.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LeetCode\LeetCode.csproj" />
+    <ProjectReference Include="..\LeetCode\LeetCode.Full.csproj" />
   </ItemGroup>
 
 </Project>

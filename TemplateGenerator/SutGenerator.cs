@@ -37,10 +37,10 @@ internal partial class SutGenerator : GeneratorBase
 
     public override bool CanGenerate() => Signature == "SUT";
 
-    public override void Generate()
+    public override void Generate(string? examplesStr)
     {
         var sutClassDefinition = ConsoleHelper.ReadMultiline("SUT class definition");
-        var examplesStr = ConsoleHelper.ReadMultiline("Examples");
+        examplesStr ??= ConsoleHelper.ReadMultiline("Examples");
 
         var examples = ExamplesRegex().Matches(examplesStr).Select(match => new SutExample
         {

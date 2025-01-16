@@ -12,7 +12,6 @@ public class Solution1 : ISolution
     public int MaxCollectedFruits(int[][] fruits)
     {
         var n = fruits.Length;
-        const int wrong = int.MinValue;
         var exit = new Position(n - 1, n - 1);
 
         var kidMoves = new[]

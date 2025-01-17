@@ -1,11 +1,10 @@
 namespace LeetCode.Problems._1639_Number_of_Ways_to_Form_a_Target_String_Given_a_Dictionary;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/934875709/
+/// https://leetcode.com/submissions/detail/1491056949/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.RuntimeError)]
-public class Solution3 : ISolution
+public class Solution4 : ISolution
 {
     public int NumWays(string[] words, string target)
     {
@@ -46,9 +45,18 @@ public class Solution3 : ISolution
             }
 
             var letter = target[targetLetterIndex];
-            return letterIndicesMap[letter].GetViewBetween(minWordLetterIndex, maxWordLetterIndex + 2 + targetLetterIndex - n).Aggregate(0,
-                (current, wordLetterIndex) => (int) ((current + 1L * counts[(letter, wordLetterIndex)] *
-                    recursiveFunc((targetLetterIndex + 1, wordLetterIndex + 1))) % mod));
+            var maxIndex = maxWordLetterIndex + 2 + targetLetterIndex - n;
+
+            if (minWordLetterIndex > maxIndex)
+            {
+                return 0;
+            }
+
+            return letterIndicesMap[letter]
+                .GetViewBetween(minWordLetterIndex, maxIndex)
+                .Aggregate(0,
+                    (current, wordLetterIndex) => (int) ((current + 1L * counts[(letter, wordLetterIndex)] *
+                        recursiveFunc((targetLetterIndex + 1, wordLetterIndex + 1))) % mod));
         });
 
         return dp.GetOrCalculate((0, 0));

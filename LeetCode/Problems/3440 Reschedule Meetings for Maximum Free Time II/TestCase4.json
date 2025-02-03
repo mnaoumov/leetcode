@@ -1,0 +1,6 @@
+{
+  "eventTime": 5,
+  "startTime": [0,1,2,3,4],
+  "endTime": [1,2,3,4,5],
+  "output": 0
+}

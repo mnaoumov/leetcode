@@ -1,11 +1,10 @@
 namespace LeetCode.Problems._3306_Count_of_Substrings_Containing_Every_Vowel_and_K_Consonants_II;
 
 /// <summary>
-/// https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii/submissions/1569360566/
+/// https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii/submissions/1569365588/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public long CountOfSubstrings(string word, int k)
     {
@@ -25,6 +24,11 @@ public class Solution1 : ISolution
                 'u' => counts[i] with { U = counts[i].U + 1 },
                 _ => counts[i] with { Consonants = counts[i].Consonants + 1 }
             };
+
+            if (GetConstantsDiff(0, i + 1) < k || HasMissingVowel(0, i + 1))
+            {
+                continue;
+            }
 
             var low = 0;
             var high = i;
@@ -91,6 +95,7 @@ public class Solution1 : ISolution
             counts[from].A == counts[to].A
             || counts[from].E == counts[to].E
             || counts[from].I == counts[to].I
+            || counts[from].O == counts[to].O
             || counts[from].U == counts[to].U;
     }
 

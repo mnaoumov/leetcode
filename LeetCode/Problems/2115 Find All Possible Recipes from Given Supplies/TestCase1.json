@@ -1,0 +1,6 @@
+{
+  "recipes": ["bread"],
+  "ingredients": [["yeast","flour"]],
+  "supplies": ["yeast","flour","corn"],
+  "output": ["bread"]
+}

@@ -1,11 +1,11 @@
 namespace LeetCode.Problems._0317_Shortest_Distance_from_All_Buildings;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/898005994/
+/// https://leetcode.com/problems/shortest-distance-from-all-buildings/submissions/1592602710/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
-public class Solution2 : ISolution
+[SkipSolution(SkipSolutionReason.WrongAnswer)]
+public class Solution4 : ISolution
 {
     public int ShortestDistance(int[][] grid)
     {
@@ -42,11 +42,11 @@ public class Solution2 : ISolution
 
         var buildingsCount = queue.Count;
 
-        var visited = new Dictionary<(int i, int j), Dictionary<int, int>>();
+        var visited = new Dictionary<(int i, int j), (HashSet<int> visitedBuildingIds, int totalDistance)>();
 
         var deltas = new[] { (1, 0), (-1, 0), (0, 1), (0, -1) };
 
-        var result = int.MaxValue;
+        var ans = int.MaxValue;
 
         while (queue.Count > 0)
         {
@@ -64,20 +64,23 @@ public class Solution2 : ISolution
 
             if (grid[i][j] == emptyLand)
             {
-                visited.TryAdd((i, j), new Dictionary<int, int>());
+                visited.TryAdd((i, j), (new HashSet<int>(), 0));
 
-#pragma warning disable CA1854
-                if (visited[(i, j)].ContainsKey(buildingId))
-#pragma warning restore CA1854
+                if (!visited[(i, j)].visitedBuildingIds.Add(buildingId))
                 {
                     continue;
                 }
 
-                visited[(i, j)][buildingId] = distance;
+                visited[(i, j)] = visited[(i, j)] with { totalDistance = visited[(i, j)].totalDistance + distance };
 
-                if (visited[(i, j)].Count == buildingsCount)
+                if (visited[(i, j)].totalDistance >= ans)
                 {
-                    result = Math.Min(result, visited[(i, j)].Values.Sum());
+                    continue;
+                }
+
+                if (visited[(i, j)].visitedBuildingIds.Count == buildingsCount)
+                {
+                    ans = visited[(i, j)].totalDistance;
                 }
             }
 
@@ -87,6 +90,6 @@ public class Solution2 : ISolution
             }
         }
 
-        return result == int.MaxValue ? impossible : result;
+        return ans == int.MaxValue ? impossible : ans;
     }
 }

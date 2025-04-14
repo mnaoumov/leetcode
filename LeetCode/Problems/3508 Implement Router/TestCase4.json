@@ -1,0 +1,5 @@
+{
+    "commands": ["Router","addPacket","addPacket","forwardPacket","getCount"],
+    "parameters": [[2],[5,2,4],[4,2,4],[],[2,4,4]],
+    "output": [null,true,true,[5,2,4],1]
+}

@@ -1,0 +1,7 @@
+{
+  "tasks": [5,9,8,5,9],
+  "workers": [1,6,4,2,6],
+  "pills": 1,
+  "strength": 5,
+  "output": 3
+}

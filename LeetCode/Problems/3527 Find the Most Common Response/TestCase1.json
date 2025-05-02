@@ -1,0 +1,4 @@
+{
+  "responses": [["good","ok","good","ok"],["ok","bad","good","ok","ok"],["good"],["bad"]],
+  "output": "good"
+}

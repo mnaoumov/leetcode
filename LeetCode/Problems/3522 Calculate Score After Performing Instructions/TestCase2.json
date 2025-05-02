@@ -1,0 +1,5 @@
+{
+  "instructions": ["jump","add","add"],
+  "values": [3,1,1],
+  "output": 0
+}

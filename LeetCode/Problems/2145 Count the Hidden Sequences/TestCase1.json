@@ -1,0 +1,6 @@
+{
+  "differences": [1,-3,4],
+  "lower": 1,
+  "upper": 6,
+  "output": 2
+}

@@ -3,11 +3,11 @@ using System.Numerics;
 namespace LeetCode.Problems._3343_Count_Number_of_Balanced_Permutations;
 
 /// <summary>
-/// https://leetcode.com/problems/count-number-of-balanced-permutations/submissions/1630203365/
+/// https://leetcode.com/problems/count-number-of-balanced-permutations/submissions/1630239856/
 /// </summary>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
-public class Solution2 : ISolution
+public class Solution4 : ISolution
 {
     public int CountBalancedPermutations(string num)
     {
@@ -30,51 +30,69 @@ public class Solution2 : ISolution
         var evenIndexMaxCount = (n + 1) / 2;
         var oddIndexMaxCount = n / 2;
 
-        var factorials = new ModNumber[oddIndexMaxCount + 1];
+        var factorials = new ModNumber[evenIndexMaxCount + 1];
         factorials[0] = 1;
 
-        for (var i = 1; i <= oddIndexMaxCount; i++)
+        for (var i = 1; i <= evenIndexMaxCount; i++)
         {
             factorials[i] = factorials[i - 1] * i;
         }
 
-        var dp = new DynamicProgramming<(int evenIndexCount, int sumLeft, string digitCountsStr), ModNumber>((key, recursiveFunc) =>
+        var dp = new DynamicProgramming<(int digit, int digitsLeft, int sumLeft, string digitCountsStr), ModNumber>((key, recursiveFunc) =>
         {
-            var (evenIndexCount, sumLeft, digitCountsStr) = key;
+            var (digit, digitsLeft, sumLeft, digitCountsStr) = key;
 
             var digitCounts = digitCountsStr.Split(' ').Select(int.Parse).ToArray();
 
-            if (evenIndexCount == evenIndexMaxCount)
-            {
-                return sumLeft == 0 ? GetOddCount(digitCounts) : 0;
-            }
-
             ModNumber ans = 0;
 
-            for (var digit = 0; digit <= 9; digit++)
+            if (digit == 10)
             {
-                if (digitCounts[digit] == 0)
+                if (sumLeft != 0 || digitsLeft != 0)
                 {
-                    continue;
+                    return 0;
                 }
 
-                if (sumLeft < digit)
+                ans = factorials[evenIndexMaxCount] * factorials[oddIndexMaxCount];
+
+                for (var digit2 = 0; digit2 <= 9; digit2++)
                 {
-                    continue;
+                    ans /= factorials[digitCounts[digit2]];
+                    ans /= factorials[originalDigitCounts[digit2] - digitCounts[digit2]];
                 }
 
-                digitCounts[digit]--;
-                ans += recursiveFunc((evenIndexCount + 1, sumLeft - digit, string.Join(' ', digitCounts)));
-                digitCounts[digit]++;
+                return ans;
+            }
+
+            var maxPossibleCount = digitCounts.Skip(digit - 1).Sum();
+
+            if (maxPossibleCount < digitsLeft)
+            {
+                return 0;
+            }
+
+            var maxPossibleSum = Enumerable.Range(digit, 10 - digit).Sum(d => digitCounts[d] * d);
+            if(maxPossibleSum < sumLeft)
+            {
+                return 0;
+            }
+
+            for (var count = 0; count <= digitCounts[digit]; count++)
+            {
+                if (sumLeft < digit * count || digitsLeft < count)
+                {
+                    break;
+                }
+
+                digitCounts[digit] -= count;
+                ans += recursiveFunc((digit + 1, digitsLeft - count, sumLeft - digit * count, string.Join(' ', digitCounts)));
+                digitCounts[digit] += count;
             }
 
             return ans;
         });
 
-        return dp.GetOrCalculate((0, sum / 2, string.Join(' ', originalDigitCounts)));
-
-        ModNumber GetOddCount(int[] digitCounts) => digitCounts.Aggregate(factorials[oddIndexMaxCount],
-            (current, digitCount) => current / factorials[digitCount]);
+        return dp.GetOrCalculate((0, evenIndexMaxCount, sum / 2, string.Join(' ', originalDigitCounts)));
     }
 
     private class DynamicProgramming<TKey, TValue> where TKey : notnull

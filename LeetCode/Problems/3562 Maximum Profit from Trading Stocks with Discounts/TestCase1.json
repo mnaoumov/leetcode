@@ -1,0 +1,8 @@
+{
+  "n": 2,
+  "present": [1,2],
+  "future": [4,3],
+  "hierarchy": [[1,2]],
+  "budget": 3,
+  "output": 5
+}

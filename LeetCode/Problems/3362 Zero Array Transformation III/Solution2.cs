@@ -1,11 +1,10 @@
 namespace LeetCode.Problems._3362_Zero_Array_Transformation_III;
 
 /// <summary>
-/// https://leetcode.com/problems/zero-array-transformation-iii/submissions/1641362199/
+/// https://leetcode.com/problems/zero-array-transformation-iii/submissions/1641365806/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public int MaxRemoval(int[] nums, int[][] queries)
     {
@@ -34,6 +33,11 @@ public class Solution1 : ISolution
             while (operations < nums[i] && pq.Count > 0)
             {
                 var toIndex = pq.Dequeue();
+                if (toIndex < i)
+                {
+                    break;
+                }
+
                 operations++;
                 deltas[toIndex + 1]--;
             }

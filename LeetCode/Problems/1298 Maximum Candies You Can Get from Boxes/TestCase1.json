@@ -1,0 +1,8 @@
+{
+  "status": [1,0,1,0],
+  "candies": [7,5,4,100],
+  "keys": [[],[],[1],[]],
+  "containedBoxes": [[1,2],[3],[],[]],
+  "initialBoxes": [0],
+  "output": 16
+}

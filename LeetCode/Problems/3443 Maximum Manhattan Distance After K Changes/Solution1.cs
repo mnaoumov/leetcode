@@ -9,7 +9,6 @@ public class Solution1 : ISolution
 {
     public int MaxDistance(string s, int k)
     {
-        var counts = s.GroupBy(letter => letter).ToDictionary(g => g.Key, g => g.Count());
         const char north = 'N';
         const char south = 'S';
         const char east = 'E';

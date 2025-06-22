@@ -1,9 +1,9 @@
 namespace LeetCode.Problems._3443_Maximum_Manhattan_Distance_After_K_Changes;
 
 /// <summary>
+/// https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes/submissions/1669963374/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution2 : ISolution
 {
     public int MaxDistance(string s, int k)
@@ -22,101 +22,35 @@ public class Solution2 : ISolution
         };
 
         var ans = 0;
-        var counts = new Dictionary<char, int>();
-        foreach (var letter in new[] { north, south, east, west })
+
+        foreach (var verticalDirectionLetter in new[] { north, south })
         {
-            counts[letter] = 0;
-        }
-
-        var cell = new Cell(0, 0);
-        var maxAbsRow = 0;
-        var maxAbsColumn = 0;
-        var rowChangesCount = 0;
-        var columnChangesCount = 0;
-
-        foreach (var letter in s)
-        {
-            var direction = directions[letter];
-            cell = new Cell(cell.Row + direction.Row, cell.Column + direction.Column);
-            ans = Math.Max(ans, Math.Abs(cell.Row) + Math.Abs(cell.Column));
-
-            switch (letter)
+            foreach (var horizontalDirectionLetter in new[] { east, west })
             {
-                case north:
-                    if (cell.Row > 0)
+                var changesLeft = k;
+                var cell = new Cell(0, 0);
+
+                foreach (var letter in s)
+                {
+                    var direction = directions[letter];
+
+                    if (letter != verticalDirectionLetter && letter != horizontalDirectionLetter && changesLeft > 0)
                     {
-                        continue;
+                        direction = new Cell(-direction.Row, -direction.Column);
+                        changesLeft--;
                     }
-                    break;
-                case south:
-                    if (cell.Row < 0)
-                    {
-                        continue;
-                    }
-                    break;
-                case east:
-                case west:
-                    continue;
+
+                    cell = new Cell(cell.Row + direction.Row, cell.Column + direction.Column);
+                    ans = Math.Max(ans, cell.ManhattanDistance);
+                }
             }
-
-            var oppositeLetter = OppositeLetter(letter);
-            var possibleChangesCount = Math.Min(k, counts[oppositeLetter]);
-            var possibleCell = new Cell(cell.Row - direction.Row * 2 * possibleChangesCount, cell.Column - direction.Column * 2 * possibleChangesCount);
-            maxAbsRow = Math.Max(maxAbsRow, Math.Abs(possibleCell.Row));
-            maxAbsColumn = Math.Max(maxAbsColumn, Math.Abs(possibleCell.Column));
-            rowChangesCount = Math.Max(rowChangesCount, possibleChangesCount);
-            counts[letter]++;
         }
-
-        k -= rowChangesCount;
-
-        foreach (var letter in s)
-        {
-            var direction = directions[letter];
-            cell = new Cell(cell.Row + direction.Row, cell.Column + direction.Column);
-            ans = Math.Max(ans, Math.Abs(cell.Row) + Math.Abs(cell.Column));
-
-            switch (letter)
-            {
-                case north:
-                case south:
-                    continue;
-                case east:
-                    if (cell.Column < 0)
-                    {
-                        continue;
-                    }
-                    break;
-                case west:
-                    if (cell.Column > 0)
-                    {
-                        continue;
-                    }
-                    break;
-            }
-
-            var oppositeLetter = OppositeLetter(letter);
-            var possibleChangesCount = Math.Min(k, counts[oppositeLetter]);
-            var possibleCell = new Cell(cell.Row - direction.Row * 2 * possibleChangesCount, cell.Column - direction.Column * 2 * possibleChangesCount);
-            maxAbsRow = Math.Max(maxAbsRow, Math.Abs(possibleCell.Row));
-            maxAbsColumn = Math.Max(maxAbsColumn, Math.Abs(possibleCell.Column));
-            rowChangesCount = Math.Max(rowChangesCount, possibleChangesCount);
-            counts[letter]++;
-        }
-
-
 
         return ans;
-
-        char OppositeLetter(char letter) => letter switch
-        {
-            north => south,
-            south => north,
-            east => west,
-            west => east,
-            _ => throw new ArgumentOutOfRangeException(nameof(letter), letter, null)
-        };
     }
 
-    private record Cell(int Row, int Column);
+    private record Cell(int Row, int Column)
+    {
+        public int ManhattanDistance => Math.Abs(Row) + Math.Abs(Column);
+    }
 }

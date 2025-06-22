@@ -1,23 +1,23 @@
 namespace LeetCode.Problems._3445_Maximum_Difference_Between_Even_and_Odd_Frequency_II;
 
 /// <summary>
-/// https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-ii/submissions/1660401953/
+/// https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-ii/submissions/1660407475/
 /// </summary>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public int MaxDifference(string s, int k)
     {
         var n = s.Length;
         const int digitsCount = 5;
-        var entryIndices = new Dictionary<Entry, int>();
+        var entryIndices = new Dictionary<Entry, List<int>>();
 
         for (var digit1 = 0; digit1 < digitsCount; digit1++)
         {
             for (var digit2 = digit1 + 1; digit2 < digitsCount; digit2++)
             {
-                entryIndices.Add(new Entry(digit1, digit2, true, true), 0);
+                entryIndices.Add(new Entry(digit1, digit2, true, true), new List<int> { 0 });
             }
         }
 
@@ -47,7 +47,8 @@ public class Solution1 : ISolution
 
                 var entry = new Entry(digit1, digit2, parity1, parity2);
 
-                entryIndices.TryAdd(entry, i + 1);
+                entryIndices.TryAdd(entry, new List<int>());
+                entryIndices[entry].Add(i + 1);
 
                 var previousEntries = new[]
                 {
@@ -57,26 +58,29 @@ public class Solution1 : ISolution
 
                 foreach (var previousEntry in previousEntries)
                 {
-                    if (!entryIndices.TryGetValue(previousEntry, out var minIndex))
+                    if (!entryIndices.TryGetValue(previousEntry, out var indices))
                     {
                         continue;
                     }
 
-                    if (i - minIndex < k - 1)
+                    foreach (var index in indices)
                     {
-                        continue;
+                        if (i - index < k - 1)
+                        {
+                            break;
+                        }
+
+                        var frequency1 = frequencies[digit1, i + 1] - frequencies[digit1, index];
+                        var frequency2 = frequencies[digit2, i + 1] - frequencies[digit2, index];
+
+                        if (frequency1 == 0 || frequency2 == 0)
+                        {
+                            break;
+                        }
+
+                        var diff = frequency1 % 2 == 0 ? frequency2 - frequency1 : frequency1 - frequency2;
+                        ans = Math.Max(ans, diff);
                     }
-
-                    var frequency1 = frequencies[digit1, i + 1] - frequencies[digit1, minIndex];
-                    var frequency2 = frequencies[digit2, i + 1] - frequencies[digit2, minIndex];
-
-                    if (frequency1 == 0 || frequency2 == 0)
-                    {
-                        continue;
-                    }
-
-                    var diff = frequency1 % 2 == 0 ? frequency2 - frequency1 : frequency1 - frequency2;
-                    ans = Math.Max(ans, diff);
                 }
             }
         }

@@ -1,0 +1,6 @@
+{
+  "s": "abcdefghij",
+  "k": 3,
+  "fill": "x",
+  "output": ["abc","def","ghi","jxx"]
+}

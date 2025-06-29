@@ -1,0 +1,4 @@
+{
+  "s": "abbccccd",
+  "output": ["a","b","bc","c","cc","d"]
+}

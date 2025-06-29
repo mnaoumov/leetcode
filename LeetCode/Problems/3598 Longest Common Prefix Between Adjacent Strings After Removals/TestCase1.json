@@ -1,0 +1,4 @@
+{
+  "words": ["jump","run","run","jump","run"],
+  "output": [3,0,0,3,3]
+}

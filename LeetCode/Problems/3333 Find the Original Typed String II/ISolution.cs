@@ -1,4 +1,4 @@
-namespace LeetCode.Problems._100462_Find_the_Original_Typed_String_II;
+namespace LeetCode.Problems._3333_Find_the_Original_Typed_String_II;
 
 [PublicAPI]
 public interface ISolution

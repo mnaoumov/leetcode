@@ -3,11 +3,10 @@ using System.Numerics;
 namespace LeetCode.Problems._3333_Find_the_Original_Typed_String_II;
 
 /// <summary>
-/// https://leetcode.com/problems/find-the-original-typed-string-ii/submissions/1683266834/
+/// https://leetcode.com/problems/find-the-original-typed-string-ii/submissions/1683271075/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public int PossibleStringCount(string word, int k)
     {
@@ -28,31 +27,38 @@ public class Solution1 : ISolution
         }
 
         var unrestrictedCount = ModNumber.Multiply(repeatCounts.Select(c => (ModNumber) c));
-        var m = repeatCounts.Count;
-
-        var dp = new ModNumber[k];
-        Array.Fill<ModNumber>(dp, 0);
-        dp[0] = 1;
-
-        for (var i = 0; i < m; i++)
+        if (repeatCounts.Count >= k)
         {
-            var prefixSums = new ModNumber[k];
-            Array.Fill<ModNumber>(prefixSums, 0);
-            for (var j = 0; j < k; j++)
-            {
-                prefixSums[j] = (j == 0 ? 0 : prefixSums[j - 1]) + dp[j];
-            }
-
-            for (var j = k - 1; j >= 1; j--)
-            {
-                var low = j - repeatCounts[i] - 1;
-                dp[j] = prefixSums[j - 1] - (low >= 0 ? prefixSums[low] : 0);
-            }
-
-            dp[0] = 0;
+            return unrestrictedCount;
         }
 
-        return unrestrictedCount - ModNumber.Sum(dp) + 1;
+        var g = new ModNumber[k];
+        Array.Fill<ModNumber>(g, 1);
+        foreach (var count in repeatCounts)
+        {
+            var f = new ModNumber[k];
+            Array.Fill<ModNumber>(f, 0);
+            for (var j = 1; j < k; j++)
+            {
+                f[j] = g[j - 1];
+                if (j - count - 1 >= 0)
+                {
+                    f[j] -= g[j - count - 1];
+                }
+            }
+
+            var gNext = new ModNumber[k];
+            Array.Fill<ModNumber>(gNext, 0);
+            gNext[0] = f[0];
+            for (var j = 1; j < k; ++j)
+            {
+                gNext[j] = gNext[j - 1] + f[j];
+            }
+
+            g = gNext;
+        }
+
+        return unrestrictedCount - g[k - 1];
     }
 
     private class ModNumber
@@ -86,9 +92,6 @@ public class Solution1 : ISolution
             var inverse = Pow(modNumber2, Modulo - 2);
             return modNumber1 * inverse;
         }
-
-        public static ModNumber Sum(IEnumerable<ModNumber> numbers) =>
-            numbers.Aggregate<ModNumber, ModNumber>(1, (current, number) => current + number);
 
         public static ModNumber Multiply(IEnumerable<ModNumber> numbers) =>
             numbers.Aggregate<ModNumber, ModNumber>(1, (current, number) => current * number);

@@ -1,0 +1,16 @@
+{
+  "phrases": ["mission statement",
+                  "a quick bite to eat",
+                  "a chip off the old block",
+                  "chocolate bar",
+                  "mission impossible",
+                  "a man on a mission",
+                  "block party",
+                  "eat my words",
+                  "bar of soap"],
+  "output": ["a chip off the old block party",
+         "a man on a mission impossible",
+         "a man on a mission statement",
+         "a quick bite to eat my words",
+         "chocolate bar of soap"]
+}

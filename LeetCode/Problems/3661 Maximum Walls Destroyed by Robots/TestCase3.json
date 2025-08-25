@@ -1,0 +1,6 @@
+{
+  "robots": [1,2],
+  "distance": [100,1],
+  "walls": [10],
+  "output": 0
+}

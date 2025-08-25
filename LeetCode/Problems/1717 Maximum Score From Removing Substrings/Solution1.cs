@@ -1,37 +1,32 @@
 namespace LeetCode.Problems._1717_Maximum_Score_From_Removing_Substrings;
 
 /// <summary>
-/// TODO url
+/// https://leetcode.com/problems/maximum-score-from-removing-substrings/submissions/1707857163/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.NotImplemented)]
+[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution
 {
     public int MaximumGain(string s, int x, int y)
     {
-        var dp = new DynamicProgramming<int, int>((index, recursiveFunc) =>
+        var dp = new DynamicProgramming<string, int>((str, recursiveFunc) =>
         {
-            if (index == s.Length)
+            var ans = 0;
+            for (var i = 0; i < str.Length - 1; i++)
             {
-                return 0;
+                var substr = str[i..(i + 2)];
+                var rest = str.Remove(i, 2);
+                ans = substr switch
+                {
+                    "ab" => Math.Max(ans, x + recursiveFunc(rest)),
+                    "ba" => Math.Max(ans, y + recursiveFunc(rest)),
+                    _ => ans
+                };
             }
-
-            var ans = recursiveFunc(index + 1);
-
-            switch (s[index])
-            {
-                case 'a' when index + 1 < s.Length && s[index + 1] == 'b':
-                    ans = Math.Max(ans, x + recursiveFunc(index + 2));
-                    break;
-                case 'b' when index + 1 < s.Length && s[index + 1] == 'a':
-                    ans = Math.Max(ans, y + recursiveFunc(index + 2));
-                    break;
-            }
-
             return ans;
         });
 
-        return dp.GetOrCalculate(0);
+        return dp.GetOrCalculate(s);
     }
 
     private class DynamicProgramming<TKey, TValue> where TKey : notnull
@@ -46,4 +41,3 @@ public class Solution1 : ISolution
             : value;
     }
 }
-

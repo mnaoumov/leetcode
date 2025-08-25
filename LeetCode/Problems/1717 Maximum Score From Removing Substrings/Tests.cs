@@ -1,7 +1,6 @@
 namespace LeetCode.Problems._1717_Maximum_Score_From_Removing_Substrings;
 
 [UsedImplicitly]
-[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

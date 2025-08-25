@@ -4,6 +4,7 @@ namespace LeetCode.Problems._2787_Ways_to_Express_an_Integer_as_Sum_of_Powers;
 /// https://leetcode.com/contest/biweekly-contest-109/submissions/detail/1001099236/
 /// </summary>
 [UsedImplicitly]
+[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution5 : ISolution
 {
     public int NumberOfWays(int n, int x)

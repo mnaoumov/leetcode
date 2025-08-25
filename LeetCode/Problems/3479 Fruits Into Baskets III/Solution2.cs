@@ -1,11 +1,10 @@
 namespace LeetCode.Problems._3479_Fruits_Into_Baskets_III;
 
 /// <summary>
-/// https://leetcode.com/problems/fruits-into-baskets-iii/submissions/1726261655/
+/// https://leetcode.com/problems/fruits-into-baskets-iii/submissions/1726264838/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public int NumOfUnplacedFruits(int[] fruits, int[] baskets)
     {
@@ -20,7 +19,7 @@ public class Solution1 : ISolution
 
             while (low <= high)
             {
-                var mid = low + (high - low) / 2;
+                var mid = low + (high - low >> 1);
                 if (segmentTree.Query(0, mid) < fruit)
                 {
                     low = mid + 1;
@@ -29,15 +28,15 @@ public class Solution1 : ISolution
                 {
                     high = mid - 1;
                 }
+            }
 
-                if (low < baskets.Length && segmentTree.Query(0, low) >= fruit)
-                {
-                    segmentTree.Update(low, int.MaxValue);
-                }
-                else
-                {
-                    ans++;
-                }
+            if (low < baskets.Length && segmentTree.Query(0, low) >= fruit)
+            {
+                segmentTree.Update(low, int.MinValue);
+            }
+            else
+            {
+                ans++;
             }
         }
 
@@ -88,7 +87,7 @@ public class Solution1 : ISolution
                 return _tree[node];
             }
 
-            var mid = l + r >> 1;
+            var mid = l + (r - l >> 1);
             var left = Query(node * 2, l, mid, ql, qr);
             var right = Query(node * 2 + 1, mid + 1, r, ql, qr);
             return _merge(left, right);
@@ -103,7 +102,7 @@ public class Solution1 : ISolution
                 _tree[node] = value;
                 return;
             }
-            var mid = l + r >> 1;
+            var mid = l + (r - l >> 1);
 
             if (idx <= mid)
             {

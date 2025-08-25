@@ -1,7 +1,6 @@
 namespace LeetCode.Problems._3479_Fruits_Into_Baskets_III;
 
 [UsedImplicitly]
-[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

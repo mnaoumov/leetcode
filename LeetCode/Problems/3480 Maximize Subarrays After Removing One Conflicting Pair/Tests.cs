@@ -1,7 +1,6 @@
 namespace LeetCode.Problems._3480_Maximize_Subarrays_After_Removing_One_Conflicting_Pair;
 
 [UsedImplicitly]
-[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

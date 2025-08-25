@@ -1,11 +1,10 @@
 namespace LeetCode.Problems._3480_Maximize_Subarrays_After_Removing_One_Conflicting_Pair;
 
 /// <summary>
-/// https://leetcode.com/problems/maximize-subarrays-after-removing-one-conflicting-pair/submissions/1712675465/
+/// https://leetcode.com/problems/maximize-subarrays-after-removing-one-conflicting-pair/submissions/1712675986/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public long MaxSubarrays(int n, int[][] conflictingPairs)
     {
@@ -35,7 +34,7 @@ public class Solution1 : ISolution
             }
         }
 
-        var ans = 0;
+        var ans = 0L;
         var smallest1 = n;
         var smallest2 = n + 1;
 

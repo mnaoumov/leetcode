@@ -1,0 +1,5 @@
+{
+  "cards": ["aa","ab","ba"],
+  "x": "a",
+  "output": 1
+}

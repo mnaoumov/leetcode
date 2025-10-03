@@ -1,11 +1,10 @@
 namespace LeetCode.Problems._3508_Implement_Router;
 
 /// <summary>
-/// https://leetcode.com/contest/weekly-contest-444/problems/implement-router/submissions/1598085925/
+/// https://leetcode.com/problems/implement-router/submissions/1776558369/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution4 : ISolution
+public class Solution5 : ISolution
 {
     public IRouter Create(int memoryLimit) => new Router(memoryLimit);
 
@@ -72,11 +71,11 @@ public class Solution4 : ISolution
             var maxTimestamp = timestamps.GetViewBetween(0, endTime).Max;
             var minTimestamp = timestamps.GetViewBetween(0, startTime - 1).Max;
             var adjustedMaxTimestampCount = Math.Max(
-                _prefixCountSums[(destination, maxTimestamp)] -
+                _prefixCountSums.GetValueOrDefault((destination, maxTimestamp), 0) -
                 _removeByDestinationCounts.GetValueOrDefault(destination, 0),
                 0);
             var adjustedMinTimestampCount = Math.Max(
-                _prefixCountSums[(destination, minTimestamp)] -
+                _prefixCountSums.GetValueOrDefault((destination, minTimestamp), 0) -
                 _removeByDestinationCounts.GetValueOrDefault(destination, 0),
                 0);
             return adjustedMaxTimestampCount - adjustedMinTimestampCount;

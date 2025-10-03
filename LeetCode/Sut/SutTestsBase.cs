@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Reflection;
 using System.Runtime.ExceptionServices;
 using System.Text;
@@ -50,6 +51,22 @@ public abstract class SutTestsBase<TSolution, TSut> : TestsBase<TSolution, SutTe
             }
             else
             {
+                if (expected is double)
+                {
+                    Assert.That(actual, Is.EqualTo(expected).Within(1e-5), assertMessage);
+                }
+                else
+                {
+                    if (actual is IEnumerable actualEnumerable && expected is IEnumerable expectedEnumerable)
+                    {
+                        AssertCollectionEqualWithDetails(actualEnumerable.Cast<object>(), expectedEnumerable.Cast<object>(), assertMessage);
+                    }
+                    else
+                    {
+                        Assert.That(actual, Is.EqualTo(expected));
+                    }
+                }
+
                 Assert.That(actual,
                     expected is double
                         ? Is.EqualTo(expected).Within(1e-5)

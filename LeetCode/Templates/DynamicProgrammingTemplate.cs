@@ -14,7 +14,7 @@ public static class DynamicProgrammingTemplate
 {
     private static int Sample()
     {
-        var dp = new DynamicProgramming<(int a, int b), int>((key, recursiveFunc) =>
+        var dp = new DynamicProgramming<(int a, int b), int>((key, getOrCalculate) =>
         {
             var (a, b) = key;
             return 0;

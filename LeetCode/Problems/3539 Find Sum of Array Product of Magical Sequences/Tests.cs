@@ -1,7 +1,6 @@
 namespace LeetCode.Problems._3539_Find_Sum_of_Array_Product_of_Magical_Sequences;
 
 [UsedImplicitly]
-[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

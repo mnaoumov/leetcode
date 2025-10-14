@@ -3,11 +3,11 @@ using System.Numerics;
 namespace LeetCode.Problems._3539_Find_Sum_of_Array_Product_of_Magical_Sequences;
 
 /// <summary>
-/// https://leetcode.com/problems/find-sum-of-array-product-of-magical-sequences/submissions/1798834069/
+/// https://leetcode.com/problems/find-sum-of-array-product-of-magical-sequences/submissions/1798838581/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution1 : ISolution
+[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
+public class Solution3 : ISolution
 {
     public int MagicalSum(int m, int k, int[] nums)
     {
@@ -30,14 +30,14 @@ public class Solution1 : ISolution
 
             if (index == n)
             {
-                return BitCount(mask) == k ? factDp.GetOrCalculate(m) : 0;
+                return numbersTaken == m && BitCount(mask) == k ? factDp.GetOrCalculate(m) : 0;
             }
 
             ModNumber ans = 0;
 
             for (var count = 0; count <= m - numbersTaken; count++)
             {
-                ans += getOrCalculate((index + 1, numbersTaken + count, mask + (1 << index) * count)) *
+                ans += getOrCalculate((index + 1, numbersTaken + count, mask + (1L << index) * count)) *
                     ModNumber.Pow(nums[index], count) / factDp.GetOrCalculate(count);
             }
 

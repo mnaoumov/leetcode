@@ -1,67 +1,102 @@
 namespace LeetCode.Problems._3003_Maximize_the_Number_of_Partitions_After_Operations;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/1139220623/
+/// https://leetcode.com/problems/maximize-the-number-of-partitions-after-operations/submissions/1804703203/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution4 : ISolution
 {
     public int MaxPartitionsAfterOperations(string s, int k)
     {
-        var n = s.Length;
+        const int alphabetSize = 26;
+        var length = s.Length;
 
-        var dp = new DynamicProgramming<(int index, bool canChange, char changedFirstLetter, string usedPartitionLetters), int>((key, recursiveFunc) =>
+        if (k >= alphabetSize)
         {
-            var (index, canChange, changedFirstLetter, usedPartitionLetters) = key;
+            return 1;
+        }
 
-            if (index == n)
+        var leftPrefixStates = new PartitionState[length];
+
+        var closedPartitionsCount = 0;
+        var openPartitionDistinctLetters = new HashSet<char>();
+        for (var i = 0; i < length; i++)
+        {
+            leftPrefixStates[i] = new PartitionState(closedPartitionsCount, openPartitionDistinctLetters.ToHashSet());
+
+            var letter = s[i];
+            if (openPartitionDistinctLetters.Contains(letter))
             {
-                return usedPartitionLetters == "" ? 0 : 1;
+                continue;
             }
 
-            var usedPartitionLettersSet = usedPartitionLetters.ToHashSet();
-
-            var ans = 1;
-
-            if (canChange)
+            if (openPartitionDistinctLetters.Count < k)
             {
-                for (var newLetter = 'a'; newLetter <= 'z'; newLetter++)
-                {
-                    if (usedPartitionLettersSet.Contains(newLetter) || newLetter == s[index])
-                    {
-                        continue;
-                    }
+                openPartitionDistinctLetters.Add(letter);
+            }
+            else
+            {
+                closedPartitionsCount++;
+                openPartitionDistinctLetters = new HashSet<char> { letter };
+            }
+        }
 
-                    ans = usedPartitionLettersSet.Count == k
-                        ? Math.Max(ans, 1 + recursiveFunc((index, false, newLetter, "")))
-                        : Math.Max(ans, recursiveFunc((index, false, newLetter, usedPartitionLetters)));
-                }
+        var rightSuffixStates = new PartitionState[length];
+        closedPartitionsCount = 0;
+        openPartitionDistinctLetters = new HashSet<char>();
+        for (var i = length - 1; i >= 0; i--)
+        {
+            rightSuffixStates[i] = new PartitionState(closedPartitionsCount, openPartitionDistinctLetters.ToHashSet());
+
+            var letter = s[i];
+            if (openPartitionDistinctLetters.Contains(letter))
+            {
+                continue;
             }
 
-            usedPartitionLettersSet.Add(changedFirstLetter != default ? changedFirstLetter : s[index]);
-            var nextUsedPartitionLetters = string.Concat(usedPartitionLettersSet.OrderBy(x => x));
+            if (openPartitionDistinctLetters.Count < k)
+            {
+                openPartitionDistinctLetters.Add(letter);
+            }
+            else
+            {
+                closedPartitionsCount++;
+                openPartitionDistinctLetters = new HashSet<char> { letter };
+            }
+        }
 
-            ans = usedPartitionLettersSet.Count == k + 1
-                ? Math.Max(ans, 1 + recursiveFunc((index, canChange, default, "")))
-                : Math.Max(ans, recursiveFunc((index + 1, canChange, default, nextUsedPartitionLetters)));
+        var ans = 0;
 
-            return ans;
-        });
+        for (var i = 0; i < length; i++)
+        {
+            var leftState = leftPrefixStates[i];
+            var rightState = rightSuffixStates[i];
 
-        const int maxLettersCount = 26;
-        return dp.GetOrCalculate((0, k < maxLettersCount, default, ""));
+            var basePartitionsCount = leftState.ClosedPartitionsCount + rightState.ClosedPartitionsCount + 2;
+
+            var leftOpenPartitionDistinctLetters = leftState.OpenPartitionDistinctLetters.Count;
+            var rightOpenPartitionDistinctLetters = rightState.OpenPartitionDistinctLetters.Count;
+
+            var allDistinctLetters = leftState.OpenPartitionDistinctLetters.ToHashSet();
+            allDistinctLetters.UnionWith(rightState.OpenPartitionDistinctLetters);
+
+            var canIsolateChangedChar =
+                leftOpenPartitionDistinctLetters == k
+                && rightOpenPartitionDistinctLetters == k
+                && allDistinctLetters.Count < alphabetSize;
+
+            var canMergeOpenPartitions = Math.Min(allDistinctLetters.Count + 1, alphabetSize) <= k;
+
+            var candidateTotal =
+                basePartitionsCount
+                + (canIsolateChangedChar ? 1 : 0)
+                - (!canIsolateChangedChar && canMergeOpenPartitions ? 1 : 0);
+
+            ans = Math.Max(ans, candidateTotal);
+        }
+
+        return ans;
     }
 
-    private class DynamicProgramming<TKey, TValue> where TKey : notnull
-    {
-        private readonly Func<TKey, Func<TKey, TValue>, TValue> _func;
-        private readonly Dictionary<TKey, TValue> _cache = new();
-
-        public DynamicProgramming(Func<TKey, Func<TKey, TValue>, TValue> func) => _func = func;
-
-        public TValue GetOrCalculate(TKey key) => !_cache.TryGetValue(key, out var value)
-            ? _cache[key] = _func(key, GetOrCalculate)
-            : value;
-    }
+    private record PartitionState(int ClosedPartitionsCount, HashSet<char> OpenPartitionDistinctLetters);
 }

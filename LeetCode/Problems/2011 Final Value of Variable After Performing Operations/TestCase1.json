@@ -1,0 +1,4 @@
+{
+  "operations": ["--X","X++","X++"],
+  "output": 1
+}

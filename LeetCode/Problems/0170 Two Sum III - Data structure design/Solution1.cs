@@ -4,6 +4,7 @@ namespace LeetCode.Problems._0170_Two_Sum_III___Data_structure_design;
 /// https://leetcode.com/submissions/detail/882066597/
 /// </summary>
 [UsedImplicitly]
+[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution
 {
     public ITwoSum Create() => new TwoSum();

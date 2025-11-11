@@ -1,7 +1,6 @@
 namespace LeetCode.Problems._3461_Check_If_Digits_Are_Equal_in_String_After_Operations_I;
 
 [UsedImplicitly]
-[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

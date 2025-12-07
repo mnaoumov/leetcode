@@ -1,0 +1,6 @@
+{
+  "technique1": [5,2,10],
+  "technique2": [10,3,8],
+  "k": 2,
+  "output": 22
+}

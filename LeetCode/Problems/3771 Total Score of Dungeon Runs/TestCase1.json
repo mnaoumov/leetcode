@@ -1,0 +1,6 @@
+{
+  "hp": 11,
+  "damage": [3,6,7],
+  "requirement": [4,2,5],
+  "output": 3
+}

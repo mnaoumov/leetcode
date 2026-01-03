@@ -189,9 +189,24 @@ public abstract partial class TestsBase
             {
                 exception = ex;
             }
-        }, maxStackSize);
+        }, maxStackSize) { IsBackground = true };
         thread.Start();
-        thread.Join();
+
+        if (Debugger.IsAttached)
+        {
+            // When debugging we want to wait indefinitely to allow inspection
+            thread.Join();
+        }
+        else
+        {
+            // Wait for the thread to finish with a safety margin. If it doesn't stop, fail the test.
+            // Add a small buffer to the configured timeout to allow cleanup inside the thread.
+            var waitTimeout = testCase.TimeoutInMilliseconds + 1000;
+            if (!thread.Join(waitTimeout))
+            {
+                Assert.Fail($"Test timed out after {testCase.TimeoutInMilliseconds} milliseconds");
+            }
+        }
 
         switch (exception)
         {

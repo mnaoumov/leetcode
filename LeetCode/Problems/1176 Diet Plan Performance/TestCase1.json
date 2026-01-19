@@ -1,0 +1,7 @@
+{
+  "calories": [1,2,3,4,5],
+  "k": 1,
+  "lower": 3,
+  "upper": 3,
+  "output": 0
+}

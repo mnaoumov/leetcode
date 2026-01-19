@@ -1,11 +1,11 @@
 namespace LeetCode.Problems._3562_Maximum_Profit_from_Trading_Stocks_with_Discounts;
 
 /// <summary>
-/// https://leetcode.com/problems/maximum-profit-from-trading-stocks-with-discounts/submissions/1856746659/
+/// https://leetcode.com/problems/maximum-profit-from-trading-stocks-with-discounts/submissions/1856747830/
 /// </summary>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution2 : ISolution
+public class Solution3 : ISolution
 {
     public int MaxProfit(int n, int[] present, int[] future, int[][] hierarchy, int budget)
     {
@@ -52,7 +52,7 @@ public class Solution2 : ISolution
                         {
                             continue;
                         }
-                        dict.TryAdd(key3, 0);
+                        dict.TryAdd(key3, int.MinValue);
                         dict[key3] = Math.Max(dict[key3], employeeProfit + subordinateProfit);
                     }
                 }

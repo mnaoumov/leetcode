@@ -1,0 +1,5 @@
+{
+  "numberOfUsers": 2,
+  "events": [["MESSAGE","10","id1 id0"],["OFFLINE","11","0"],["MESSAGE","71","HERE"]],
+  "output": [2,2]
+}

@@ -1,0 +1,6 @@
+{
+  "costs": [1,4],
+  "capacity": [7,6],
+  "budget": 3,
+  "output": 7
+}

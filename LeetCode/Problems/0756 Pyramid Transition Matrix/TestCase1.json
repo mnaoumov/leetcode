@@ -1,0 +1,5 @@
+{
+  "bottom": "BCD",
+  "allowed": ["BCC","CDE","CEA","FFF"],
+  "output": true
+}

@@ -1,0 +1,5 @@
+{
+  "bottom": "AAAA",
+  "allowed": ["AAB","AAC","BCD","BBE","DEF"],
+  "output": false
+}

@@ -1,7 +1,6 @@
 namespace LeetCode.Problems._3510_Minimum_Pair_Removal_to_Sort_Array_II;
 
 [UsedImplicitly]
-[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)

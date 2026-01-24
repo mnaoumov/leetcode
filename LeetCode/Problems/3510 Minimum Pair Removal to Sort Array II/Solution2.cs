@@ -1,11 +1,10 @@
 namespace LeetCode.Problems._3510_Minimum_Pair_Removal_to_Sort_Array_II;
 
 /// <summary>
-/// https://leetcode.com/problems/minimum-pair-removal-to-sort-array-ii/submissions/1895621055/
+/// https://leetcode.com/problems/minimum-pair-removal-to-sort-array-ii/submissions/1895730732/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public int MinimumPairRemoval(int[] nums)
     {
@@ -13,9 +12,10 @@ public class Solution1 : ISolution
 
         var decreaseCount = 0;
 
-        var pq = new PriorityQueue<Item, (int sum, int index)>();
+        var pq = new PriorityQueue<Item, (long sum, int index)>();
 
         var node = list.First;
+
 
         while (node?.Next != null)
         {
@@ -32,18 +32,21 @@ public class Solution1 : ISolution
 
         var ans = 0;
 
+        var removedIndices = new HashSet<int>();
+
         while (decreaseCount > 0)
         {
             var item = pq.Dequeue();
 
-            if (item.Value != item.Node.Value.Value || item.NextValue != item.Node.Next?.Value.Value)
+            if (item.Value != item.Node.Value.Value || item.NextValue != item.Node.Next?.Value.Value || removedIndices.Contains(item.Node.Next.Value.Index))
             {
                 continue;
             }
 
             ans++;
+            removedIndices.Add(item.Node.Next.Value.Index);
 
-            var newValue = item.Value + item.NextValue;
+            var newValue = 0L + item.Value + item.NextValue;
 
             item.Node.Value = item.Node.Value with { Value = newValue };
             list.Remove(item.Node.Next);
@@ -74,10 +77,10 @@ public class Solution1 : ISolution
         return ans;
     }
 
-    private record ValueWithIndex(int Index, int Value);
+    private record ValueWithIndex(int Index, long Value);
 
-    private record Item(LinkedListNode<ValueWithIndex> Node, int Value, int NextValue)
+    private record Item(LinkedListNode<ValueWithIndex> Node, long Value, long NextValue)
     {
-        public (int sum, int index) Key => (Value + NextValue, Node.Value.Index);
+        public (long sum, int index) Key => (0L + Value + NextValue, Node.Value.Index);
     }
 }

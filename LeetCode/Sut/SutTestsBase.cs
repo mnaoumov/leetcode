@@ -63,7 +63,7 @@ public abstract class SutTestsBase<TSolution, TSut> : TestsBase<TSolution, SutTe
                     }
                     else
                     {
-                        Assert.That(actual, Is.EqualTo(expected));
+                        Assert.That(actual, Is.EqualTo(expected), assertMessage);
                     }
                 }
 

@@ -1,0 +1,5 @@
+{
+    "commands": ["HitCounter", "hit", "hit", "hit", "getHits", "hit", "getHits", "getHits"],
+    "parameters": [[], [1], [2], [3], [4], [300], [300], [301]],
+    "output": [null, null, null, null, 3, null, 4, 3]
+}

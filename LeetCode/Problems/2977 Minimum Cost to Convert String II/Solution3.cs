@@ -1,138 +1,116 @@
 namespace LeetCode.Problems._2977_Minimum_Cost_to_Convert_String_II;
 
 /// <summary>
-/// NotImplemented
+/// https://leetcode.com/problems/minimum-cost-to-convert-string-ii/submissions/1901473118/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution3 : ISolution
 {
+    private const int Infinity = int.MaxValue / 2;
+
     public long MinimumCost(string source, string target, string[] original, string[] changed, int[] cost)
     {
-        var parts = original.Concat(changed).Distinct().ToArray();
-        var m = parts.Length;
-        var partToIndexMap = Enumerable.Range(0, m).ToDictionary(i => parts[i]);
+        var n = source.Length;
+        var m = original.Length;
+        var root = new Trie();
 
-        const long impossibleCost = long.MaxValue;
-        var costs = new long[m, m];
+        var p = -1;
+        var costs = new int[m * 2, m * 2];
 
-        for (var i = 0; i < m; i++)
+        for (var i = 0; i < m * 2; i++)
         {
-            for (var j = 0; j < m; j++)
+            for (var j = 0; j < m * 2; j++)
             {
-                costs[i, j] = impossibleCost;
+                costs[i, j] = Infinity;
             }
-
             costs[i, i] = 0;
         }
 
-        var originalSet = original.ToHashSet();
-        var changedSet = changed.ToHashSet();
-
-        var n = original.Length;
-
-        for (var k = 0; k < n; k++)
+        for (var i = 0; i < m; i++)
         {
-            var fromIndex = partToIndexMap[original[k]];
-            var toIndex = partToIndexMap[changed[k]];
-            var changeCost = cost[k];
+            var x = Add(root, original[i], ref p);
+            var y = Add(root, changed[i], ref p);
+            costs[x, y] = Math.Min(costs[x, y], cost[i]);
+        }
 
-            if (costs[fromIndex, toIndex] <= changeCost)
+        var size = p + 1;
+        for (var k = 0; k < size; k++)
+        {
+            for (var i = 0; i < size; i++)
             {
-                continue;
-            }
-
-            costs[fromIndex, toIndex] = changeCost;
-
-            for (var i = 0; i < m; i++)
-            {
-                if (costs[i, fromIndex] == impossibleCost)
+                for (var j = 0; j < size; j++)
                 {
-                    continue;
-                }
-
-                for (var j = 0; j < m; j++)
-                {
-                    if (costs[toIndex, j] == impossibleCost)
-                    {
-                        continue;
-                    }
-
-                    var newCost = costs[i, fromIndex] + costs[fromIndex, toIndex] +
-                                  costs[toIndex, j];
-
-                    if (costs[i, j] > newCost)
-                    {
-                        costs[i, j] = newCost;
-                    }
+                    costs[i, j] = Math.Min(costs[i, j], costs[i, k] + costs[k, j]);
                 }
             }
         }
 
-        var dp = new DynamicProgramming<int, long>((index, recursiveFunc) =>
+        var f = new long[n];
+        Array.Fill(f, -1);
+        for (var j = 0; j < n; j++)
         {
-            if (index == source.Length)
+            if (j > 0 && f[j - 1] == -1)
             {
-                return 0;
+                continue;
+            }
+            var baseVal = (j == 0 ? 0 : f[j - 1]);
+            if (source[j] == target[j])
+            {
+                Update(ref f[j], baseVal);
             }
 
-            var ans = impossibleCost;
-
-            if (source[index] == target[index])
+            var u = root;
+            var v = root;
+            for (var i = j; i < n; i++)
             {
-                ans = recursiveFunc(index + 1);
+                u = u.Children[source[i] - 'a'];
+                v = v.Children[target[i] - 'a'];
+                if (u == null || v == null)
+                {
+                    break;
+                }
+
+                if (u.Id == -1 || v.Id == -1 || costs[u.Id, v.Id] == Infinity)
+                {
+                    continue;
+                }
+
+                var newVal = baseVal + costs[u.Id, v.Id];
+                Update(ref f[i], newVal);
             }
+        }
 
-            for (var j = index + 1; j <= source.Length; j++)
-            {
-                var originalStr = source[index..j];
-
-                if (!originalSet.Contains(originalStr))
-                {
-                    continue;
-                }
-
-                var changedStr = target[index..j];
-
-                if (!changedSet.Contains(changedStr))
-                {
-                    continue;
-                }
-
-                var changeCost = costs[partToIndexMap[originalStr], partToIndexMap[changedStr]];
-
-                if (changeCost == impossibleCost)
-                {
-                    continue;
-                }
-
-                var nextCost = recursiveFunc(j);
-
-                if (nextCost == impossibleCost)
-                {
-                    continue;
-                }
-
-                ans = Math.Min(ans, changeCost + nextCost);
-            }
-
-            return ans;
-        });
-
-        var ans2 = dp.GetOrCalculate(0);
-        return ans2 == impossibleCost ? -1 : ans2;
+        return f[n - 1];
     }
 
-    private class DynamicProgramming<TKey, TValue> where TKey : notnull
+    private static int Add(Trie node, string word, ref int index)
     {
-        private readonly Func<TKey, Func<TKey, TValue>, TValue> _func;
-        private readonly Dictionary<TKey, TValue> _cache = new();
+        foreach (var ch in word)
+        {
+            var i = ch - 'a';
 
-        public DynamicProgramming(Func<TKey, Func<TKey, TValue>, TValue> func) => _func = func;
-
-        public TValue GetOrCalculate(TKey key) => !_cache.TryGetValue(key, out var value)
-            ? _cache[key] = _func(key, GetOrCalculate)
-            : value;
+            var nextNode = node.Children[i] ??= new Trie();
+            node.Children[i] = nextNode;
+            node = nextNode;
+        }
+        if (node.Id == -1)
+        {
+            node.Id = ++index;
+        }
+        return node.Id;
     }
 
+    private static void Update(ref long x, long y)
+    {
+        if (x == -1 || y < x)
+        {
+            x = y;
+        }
+    }
+
+    public class Trie
+    {
+        public readonly Trie?[] Children = new Trie?[26];
+        public int Id = -1;
+    }
 }

@@ -5,7 +5,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestImpl(ISolution solution, TestCase testCase)
     {
-        AssertCollectionEquivalentWithDetails(solution.ClosestKValues(TreeNode.CreateOrNull(testCase.Root), testCase.Target, testCase.K), testCase.Output);
+        AssertCollectionEquivalentWithDetails(solution.ClosestKValues(TreeNode.Create(testCase.Root), testCase.Target, testCase.K), testCase.Output);
     }
 
     public class TestCase : TestCaseBase

@@ -9,7 +9,6 @@ public class Solution1 : ISolution
 {
     public IList<int> MaxActiveSectionsAfterTrade(string s, int[][] queries)
     {
-        const char inactive = '0';
         const char active = '1';
         var sectionBlocks = new List<SectionBlock> { new SectionBlock(0, 0, true) };
 

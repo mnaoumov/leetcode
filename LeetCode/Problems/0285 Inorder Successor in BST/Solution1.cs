@@ -13,6 +13,7 @@ public class Solution1 : ISolution
             return LeftmostDescendant(root.right);
         }
 
+        // ReSharper disable once InvertIf
         if (p.val < root.val)
         {
             var ans = InorderSuccessor(root.left!, p);

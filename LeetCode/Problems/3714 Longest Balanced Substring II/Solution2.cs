@@ -46,7 +46,7 @@ public class Solution2 : ISolution
 
             var min = new[] { countA, countB, countC }.Min();
 
-            var diffs = new List<Count> { new Count(countA - min, countB - min, countC - min) };
+            var diffs = new List<Count> { new(countA - min, countB - min, countC - min) };
 
             if (min == 0)
             {

@@ -5,52 +5,51 @@
 // ReSharper disable UnusedType.Local
 // ReSharper disable UnusedMember.Global
 
-namespace LeetCode.Templates
+namespace LeetCode.Templates;
+
+public static class BinarySearch
 {
-    public static class BinarySearch
+    private static int BinarySearchFirst<T>(IReadOnlyList<T> arr, T value, int? firstIndex = null, int? lastIndex = null) where T : IComparable<T>
     {
-        private static int BinarySearchFirst<T>(IReadOnlyList<T> arr, T value, int? firstIndex = null, int? lastIndex = null) where T : IComparable<T>
+        var low = firstIndex ?? 0;
+        var high = lastIndex ?? arr.Count - 1;
+
+        while (low <= high)
         {
-            var low = firstIndex ?? 0;
-            var high = lastIndex ?? arr.Count - 1;
+            var mid = low + (high - low >> 1);
 
-            while (low <= high)
+            if (arr[mid].CompareTo(value) >= 0)
             {
-                var mid = low + (high - low >> 1);
-
-                if (arr[mid].CompareTo(value) >= 0)
-                {
-                    high = mid - 1;
-                }
-                else
-                {
-                    low = mid + 1;
-                }
+                high = mid - 1;
             }
-
-            return low;
+            else
+            {
+                low = mid + 1;
+            }
         }
 
-        private static int BinarySearchLast<T>(IReadOnlyList<T> arr, T value, int? firstIndex = null, int? lastIndex = null) where T : IComparable<T>
+        return low;
+    }
+
+    private static int BinarySearchLast<T>(IReadOnlyList<T> arr, T value, int? firstIndex = null, int? lastIndex = null) where T : IComparable<T>
+    {
+        var low = firstIndex ?? 0;
+        var high = lastIndex ?? arr.Count - 1;
+
+        while (low <= high)
         {
-            var low = firstIndex ?? 0;
-            var high = lastIndex ?? arr.Count - 1;
+            var mid = low + (high - low >> 1);
 
-            while (low <= high)
+            if (arr[mid].CompareTo(value) > 0)
             {
-                var mid = low + (high - low >> 1);
-
-                if (arr[mid].CompareTo(value) > 0)
-                {
-                    high = mid - 1;
-                }
-                else
-                {
-                    low = mid + 1;
-                }
+                high = mid - 1;
             }
-
-            return high;
+            else
+            {
+                low = mid + 1;
+            }
         }
+
+        return high;
     }
 }

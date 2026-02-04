@@ -34,7 +34,7 @@ public class Solution1 : ISolution
 
         return dp.GetOrCalculate(NumsToString(nums));
 
-        string NumsToString(IEnumerable<int> arr) => string.Join(',', arr);
+        static string NumsToString(IEnumerable<int> arr) => string.Join(',', arr);
     }
 
     private class DynamicProgramming<TKey, TValue> where TKey : notnull

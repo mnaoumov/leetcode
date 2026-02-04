@@ -8,7 +8,7 @@ public class Solution1 : ISolution
 {
     public bool WinnerOfGame(string colors)
     {
-        char lastColor = default;
+        var lastColor = '\0';
         var lastColorCount = 0;
         var stepCounts = new Dictionary<char, int>
         {
@@ -16,7 +16,7 @@ public class Solution1 : ISolution
             ['B'] = 0
         };
 
-        foreach (var color in colors + default(char))
+        foreach (var color in colors + '\0')
         {
             if (color == lastColor)
             {
@@ -24,7 +24,7 @@ public class Solution1 : ISolution
             }
             else
             {
-                if (lastColor != default)
+                if (lastColor != 0)
                 {
                     stepCounts[lastColor] += Math.Max(0, lastColorCount - 2);
                 }

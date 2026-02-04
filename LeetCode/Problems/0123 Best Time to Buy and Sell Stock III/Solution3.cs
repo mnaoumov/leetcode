@@ -25,13 +25,7 @@ public class Solution3 : ISolution
 
             var (day, hasStock, amountOfTransactions) = key;
 
-            if (day == prices.Length)
-            {
-                cache[key] = 0;
-                continue;
-            }
-
-            if (amountOfTransactions == 2)
+            if (day == prices.Length || amountOfTransactions == 2)
             {
                 cache[key] = 0;
                 continue;

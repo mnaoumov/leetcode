@@ -26,7 +26,7 @@ public class Solution2 : ISolution
             return FindNode(node.left) || FindNode(node.right);
         }
 
-        bool FindValue(TreeNode? searchNode, int value, TreeNode skipNode)
+        static bool FindValue(TreeNode? searchNode, int value, TreeNode skipNode)
         {
             if (searchNode == null)
             {

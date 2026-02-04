@@ -8,13 +8,13 @@ public class Solution1 : ISolution
 {
     public int Compress(char[] chars)
     {
-        var lastChar = default(char);
+        var lastChar = '\0';
         var count = 0;
         var resultIndex = 0;
 
         for (var i = 0; i <= chars.Length; i++)
         {
-            var @char = i < chars.Length ? chars[i] : default;
+            var @char = i < chars.Length ? chars[i] : '\0';
 
             if (@char == lastChar)
             {
@@ -22,7 +22,7 @@ public class Solution1 : ISolution
             }
             else
             {
-                if (lastChar != default)
+                if (lastChar != 0)
                 {
                     chars[resultIndex] = lastChar;
                     resultIndex++;

@@ -15,10 +15,10 @@ public class Solution2 : ISolution
 
         var directions = new Dictionary<char, Cell>
         {
-            [north] = new Cell(-1, 0),
-            [south] = new Cell(1, 0),
-            [east] = new Cell(0, 1),
-            [west] = new Cell(0, -1)
+            [north] = new(-1, 0),
+            [south] = new(1, 0),
+            [east] = new(0, 1),
+            [west] = new(0, -1)
         };
 
         var ans = 0;

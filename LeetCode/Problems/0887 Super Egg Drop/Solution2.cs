@@ -12,12 +12,7 @@ public class Solution2 : ISolution
         {
             var (floorsCount, eggsLeft) = key;
 
-            if (floorsCount <= 1)
-            {
-                return floorsCount;
-            }
-
-            if (eggsLeft == 1)
+            if (floorsCount <= 1 || eggsLeft == 1)
             {
                 return floorsCount;
             }

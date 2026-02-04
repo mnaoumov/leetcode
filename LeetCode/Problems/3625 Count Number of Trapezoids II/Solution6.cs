@@ -67,6 +67,7 @@ public class Solution6 : ISolution
         var a = p2.Y - p1.Y;
         var b = p1.X - p2.X;
 
+        // ReSharper disable once ConvertIfStatementToSwitchStatement
         if (a == 0)
         {
             b = 1;

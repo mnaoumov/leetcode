@@ -20,12 +20,7 @@ public class Solution1 : ISolution
         {
             var (row, column, obstacleEliminationsLeft) = key;
 
-            if (row < 0 || row >= m || column < 0 || column >= n)
-            {
-                return impossible;
-            }
-
-            if (visited[row, column])
+            if (row < 0 || row >= m || column < 0 || column >= n || visited[row, column])
             {
                 return impossible;
             }

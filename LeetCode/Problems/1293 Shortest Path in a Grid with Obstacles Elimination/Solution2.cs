@@ -20,12 +20,7 @@ public class Solution2 : ISolution
 
         int Get(int row, int column, int obstacleEliminationsLeft)
         {
-            if (row < 0 || row >= m || column < 0 || column >= n)
-            {
-                return impossible;
-            }
-
-            if (visited[row, column])
+            if (row < 0 || row >= m || column < 0 || column >= n || visited[row, column])
             {
                 return impossible;
             }

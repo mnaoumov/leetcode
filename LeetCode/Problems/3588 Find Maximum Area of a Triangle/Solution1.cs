@@ -31,6 +31,7 @@ public class Solution1 : ISolution
                 continue;
             }
 
+            // ReSharper disable once LoopCanBeConvertedToQuery
             foreach (var group in groups)
             {
                 if (group.OtherDimensions.Length < 2)

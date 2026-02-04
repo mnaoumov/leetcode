@@ -58,7 +58,7 @@ public class Solution3 : ISolution
 
             continue;
 
-            bool HasMatchingGraphNodes(TrieNode? trieNode1, TrieNode? trieNode2)
+            static bool HasMatchingGraphNodes(TrieNode? trieNode1, TrieNode? trieNode2)
             {
                 if (trieNode1 == null || trieNode2 == null)
                 {

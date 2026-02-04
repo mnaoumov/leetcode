@@ -84,7 +84,7 @@ public class Solution3 : ISolution
         var halfCounts = counts.OrderBy(kvp => kvp.Key).Select(kvp => kvp.Value / 2).ToArray();
         return dp.GetOrCalculate((Join(halfCounts), k)).palindrome;
 
-        string Join(int[] arr) => string.Join(' ', arr);
+        static string Join(int[] arr) => string.Join(' ', arr);
     }
 
     private class DynamicProgramming<TKey, TValue> where TKey : notnull

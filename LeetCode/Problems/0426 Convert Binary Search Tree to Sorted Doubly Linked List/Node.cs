@@ -3,7 +3,9 @@ namespace LeetCode.Problems._0426_Convert_Binary_Search_Tree_to_Sorted_Doubly_Li
 public class Node
 {
     // ReSharper disable once InconsistentNaming
+#pragma warning disable IDE0044
     public int val;
+#pragma warning restore IDE0044
     // ReSharper disable once InconsistentNaming
     public Node? left;
     // ReSharper disable once InconsistentNaming

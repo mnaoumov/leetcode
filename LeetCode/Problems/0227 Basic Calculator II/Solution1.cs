@@ -12,7 +12,7 @@ public class Solution1 : ISolution
         var operators = new Stack<char>();
         numbers.Push(0L);
 
-        foreach (var symbol in s.Append(default))
+        foreach (var symbol in s.Append('\0'))
         {
             if (symbol == ' ')
             {
@@ -66,7 +66,7 @@ public class Solution1 : ISolution
                 }
             }
 
-            if (symbol == default)
+            if (symbol == 0)
             {
                 break;
             }

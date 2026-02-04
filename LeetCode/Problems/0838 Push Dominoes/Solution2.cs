@@ -51,7 +51,7 @@ public class Solution2 : ISolution
 
             for (var i = 0; i < dominoesArr.Length; i++)
             {
-                if (newFalls[i] != default)
+                if (newFalls[i] != 0)
                 {
                     dominoesArr[i] = newFalls[i];
                 }

@@ -18,7 +18,7 @@ public class NestedIntegerImpl : NestedInteger
 
     public bool IsInteger() => _values == null;
 
-    public int GetInteger() => IsInteger() ? _value : default;
+    public int GetInteger() => IsInteger() ? _value : 0;
 
     public IList<NestedInteger>? GetList() => !IsInteger() ? _values : null;
 

@@ -60,7 +60,7 @@ public class Solution1 : ISolution
     private class TrieNode
     {
         private readonly Dictionary<char, TrieNode> _childNodes = new();
-        public HashSet<int> WordIndices { get; private set; } = new();
+        public HashSet<int> WordIndices { get; } = new();
         public int PrefixLength { get; set; }
 
         public TrieNode GetOrCreate(char letter)

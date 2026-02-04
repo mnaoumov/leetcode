@@ -53,7 +53,7 @@ public class Solution3 : ISolution
 
         string Build() => string.Concat(s.Where((_, index) => shouldTake[index]));
 
-        bool IsValidParentheses(string str)
+        static bool IsValidParentheses(string str)
         {
             var balance = 0;
 

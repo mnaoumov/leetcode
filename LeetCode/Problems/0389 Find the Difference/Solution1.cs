@@ -19,6 +19,6 @@ public class Solution1 : ISolution
             }
         }
 
-        return default;
+        return '\0';
     }
 }

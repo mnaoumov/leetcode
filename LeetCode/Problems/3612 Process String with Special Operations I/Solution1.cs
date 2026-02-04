@@ -18,6 +18,7 @@ public class Solution1 : ISolution
             {
                 sb.Append(symbol);
             }
+            // ReSharper disable once ConvertIfStatementToSwitchStatement
             else if (symbol == '*')
             {
                 if (sb.Length > 0)

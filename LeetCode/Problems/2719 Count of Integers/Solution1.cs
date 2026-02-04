@@ -59,6 +59,6 @@ public class Solution1 : ISolution
 
         }
 
-        int ModDiff(int a, int b) => ((a - b) % modulo + modulo) % modulo;
+        static int ModDiff(int a, int b) => ((a - b) % modulo + modulo) % modulo;
     }
 }

@@ -28,6 +28,7 @@ public class Solution4 : ISolution
                 return recursiveFunc((day - 1, secretKnownDaysCount - 1));
             }
 
+            // ReSharper disable once InlineTemporaryVariable
             var min = delay;
             var max = Math.Min(day, forget);
 
@@ -89,7 +90,7 @@ public class Solution4 : ISolution
         public static ModNumber Sum(IEnumerable<ModNumber> numbers) =>
             numbers.Aggregate<ModNumber, ModNumber>(0, (current, number) => current + number);
 
-        public static ModNumber Pow(ModNumber value, BigInteger exponent) => (int) BigInteger.ModPow((int) value, exponent, Modulo);
+        private static ModNumber Pow(ModNumber value, BigInteger exponent) => (int) BigInteger.ModPow((int) value, exponent, Modulo);
 
         public override string ToString() => _value.ToString();
     }

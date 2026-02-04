@@ -46,7 +46,7 @@ public class Solution4 : ISolution
 
                     foreach (var (subordinateBudget, subordinateProfit) in subordinateResult)
                     {
-                        var key3 = (employeeBudget: key2.employeeBudget + subordinateBudget, key2.didBuyStock);
+                        var key3 = key2 with { employeeBudget = key2.employeeBudget + subordinateBudget };
                         if (key3.employeeBudget > budget)
                         {
                             continue;

@@ -21,12 +21,7 @@ public class Solution2 : ISolution
                 return 0;
             }
 
-            if (index == nums.Length)
-            {
-                return impossible;
-            }
-
-            if (partsLeft > nums.Length - index + 1)
+            if (index == nums.Length || partsLeft > nums.Length - index + 1)
             {
                 return impossible;
             }

@@ -42,6 +42,7 @@ public class Solution1 : ISolution
                 }
             }
 
+            // ReSharper disable once InvertIf
             if (column < n - 1)
             {
                 var next = getOrCalculate((row, column + 1, newCostLeft));

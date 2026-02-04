@@ -22,12 +22,7 @@ public class Solution2 : ISolution
             return moneyLeft == 0 ? result : result - 1;
         }
 
-        if (moneyLeft < childrenLeft)
-        {
-            return result - 1;
-        }
-
-        if (moneyLeft == 4 && childrenLeft == 1)
+        if (moneyLeft < childrenLeft || moneyLeft == 4 && childrenLeft == 1)
         {
             return result - 1;
         }

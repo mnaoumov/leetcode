@@ -41,7 +41,7 @@ public class Solution1 : ISolution
         {
             var letter = possibleLetters.FirstOrDefault(letter => indicesMap1[letter].Any());
 
-            if (letter == default)
+            if (letter == 0)
             {
                 return result;
             }

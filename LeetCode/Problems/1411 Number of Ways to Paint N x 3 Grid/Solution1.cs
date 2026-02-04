@@ -13,10 +13,13 @@ public class Solution1 : ISolution
         var triplets = new List<ColorTriplet>();
         var colors = Enum.GetValues<Color>();
 
+        // ReSharper disable once LoopCanBeConvertedToQuery
         foreach (var color1 in colors)
         {
+            // ReSharper disable once LoopCanBeConvertedToQuery
             foreach (var color2 in colors)
             {
+                // ReSharper disable once LoopCanBeConvertedToQuery
                 foreach (var color3 in colors)
                 {
                     var triplet = new ColorTriplet(color1, color2, color3);

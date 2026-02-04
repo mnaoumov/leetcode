@@ -11,7 +11,7 @@ public class Solution1 : ISolution
         var start = -1;
         var result = new List<IList<int>>();
 
-        char lastLetter = default;
+        var lastLetter = '\0';
 
         for (var i = 0; i <= s.Length; i++)
         {

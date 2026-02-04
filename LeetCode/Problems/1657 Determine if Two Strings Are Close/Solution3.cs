@@ -13,9 +13,9 @@ public class Solution3 : ISolution
 
         return AreEquivalent(countsMap1.Keys, countsMap2.Keys) && AreEquivalent(countsMap1.Values, countsMap2.Values);
 
-        Dictionary<char, int> CountLetters(string word) => word.GroupBy(letter => letter).ToDictionary(g => g.Key, g => g.Count());
+        static Dictionary<char, int> CountLetters(string word) => word.GroupBy(letter => letter).ToDictionary(g => g.Key, g => g.Count());
 
-        bool AreEquivalent<T>(IEnumerable<T> items1, IEnumerable<T> items2) where T : notnull
+        static bool AreEquivalent<T>(IEnumerable<T> items1, IEnumerable<T> items2) where T : notnull
         {
             using var enumerator1 = items1.GetEnumerator();
             using var enumerator2 = items2.GetEnumerator();

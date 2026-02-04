@@ -11,14 +11,14 @@ public class Solution1 : ISolution
     public string LargestPalindromic(string num)
     {
         var result = new StringBuilder();
-        var middleOddCountLetter = default(char);
+        var middleOddCountLetter = '\0';
         var hasNonZeroDigits = false;
 
         foreach (var (digit, count) in num.GroupBy(digit => digit).Select(g => (digit: g.Key, count: g.Count())).OrderByDescending(x => x.digit))
         {
             if (digit == '0' && !hasNonZeroDigits)
             {
-                if (middleOddCountLetter == default)
+                if (middleOddCountLetter == 0)
                 {
                     middleOddCountLetter = '0';
                 }
@@ -34,7 +34,7 @@ public class Solution1 : ISolution
             {
                 result.Append(digit, count / 2);
 
-                if (middleOddCountLetter == default)
+                if (middleOddCountLetter == 0)
                 {
                     middleOddCountLetter = digit;
                 }
@@ -48,7 +48,7 @@ public class Solution1 : ISolution
 
         var halfLength = result.Length;
 
-        if (middleOddCountLetter != default)
+        if (middleOddCountLetter != 0)
         {
             result.Append(middleOddCountLetter);
         }

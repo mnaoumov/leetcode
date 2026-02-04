@@ -8,7 +8,7 @@ public class Solution1 : ISolution
 {
     public long MaxProduct(int[] nums)
     {
-        nums = nums.OrderByDescending(num => Math.Abs(num)).ToArray();
+        nums = nums.OrderByDescending(Math.Abs).ToArray();
 
         var ans = 1L * Math.Abs(nums[0]) * Math.Abs(nums[1]) * 100_000;
         return ans;

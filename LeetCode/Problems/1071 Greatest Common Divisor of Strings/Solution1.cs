@@ -26,24 +26,14 @@ public class Solution1 : ISolution
 
             for (var j = 0; j < Math.Max(str1.Length, str2.Length); j++)
             {
-                if (j < str1.Length && j < str2.Length && str1[j] != str2[j])
+                if ((j >= str1.Length || j >= str2.Length || str1[j] == str2[j]) &&
+                    (j >= str1.Length || str1[j] == str1[j % i]) && (j >= str2.Length || str2[j] == str2[j % i]))
                 {
-                    success = false;
-                    break;
+                    continue;
                 }
 
-                if (j < str1.Length && str1[j] != str1[j % i])
-                {
-                    success = false;
-                    break;
-                }
-
-                // ReSharper disable once InvertIf
-                if (j < str2.Length && str2[j] != str2[j % i])
-                {
-                    success = false;
-                    break;
-                }
+                success = false;
+                break;
             }
 
             if (success)

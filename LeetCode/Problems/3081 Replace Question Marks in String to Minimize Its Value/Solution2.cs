@@ -64,6 +64,6 @@ public class Solution2 : ISolution
 
         void IncreaseCount(char letter) => counts[ToIndex(letter)]++;
 
-        int ToIndex(char letter) => letter - 'a';
+        static int ToIndex(char letter) => letter - 'a';
     }
 }

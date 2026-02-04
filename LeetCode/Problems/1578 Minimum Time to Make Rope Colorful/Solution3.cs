@@ -8,14 +8,14 @@ public class Solution3 : ISolution
 {
     public int MinCost(string colors, int[] neededTime)
     {
-        var lastColor = default(char);
+        var lastColor = '\0';
         var result = 0;
         var lastColorNeededTimeSum = 0;
         var lastColorNeededTimeMax = 0;
 
         for (var i = 0; i < colors.Length + 1; i++)
         {
-            var color = i < colors.Length ? colors[i] : default;
+            var color = i < colors.Length ? colors[i] : '\0';
             if (color != lastColor)
             {
                 result += lastColorNeededTimeSum - lastColorNeededTimeMax;

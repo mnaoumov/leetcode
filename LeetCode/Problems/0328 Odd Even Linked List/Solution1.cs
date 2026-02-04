@@ -23,10 +23,7 @@ public class Solution1 : ISolution
             var nextEven = nextOdd?.next;
             odd.next = nextOdd;
 
-            if (even != null)
-            {
-                even.next = nextEven;
-            }
+            even?.next = nextEven;
 
             if (nextOdd == null)
             {

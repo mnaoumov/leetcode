@@ -38,7 +38,7 @@ public class Solution1 : ISolution
 
         return sb.ToString();
 
-        bool IsBinaryOneDigit(string binaryNumberStr, int indexFromEnd)
+        static bool IsBinaryOneDigit(string binaryNumberStr, int indexFromEnd)
         {
             if (indexFromEnd >= binaryNumberStr.Length)
             {

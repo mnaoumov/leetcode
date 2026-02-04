@@ -11,6 +11,7 @@ public class Solution1 : ISolution
     {
         var binaries = nums.Select((num) => Convert.ToString(num, 2)).ToArray();
         var ans = 0;
+        // ReSharper disable once LoopCanBeConvertedToQuery
         foreach (var permutation in Permutations(binaries))
         {
             var concat = string.Concat(permutation);
@@ -21,7 +22,7 @@ public class Solution1 : ISolution
         return ans;
     }
 
-    private IEnumerable<IEnumerable<T>> Permutations<T>(T[] items)
+    private static IEnumerable<IEnumerable<T>> Permutations<T>(T[] items)
     {
         if (items.Length == 0)
         {

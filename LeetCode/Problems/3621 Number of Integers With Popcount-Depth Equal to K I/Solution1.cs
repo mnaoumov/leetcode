@@ -24,6 +24,7 @@ public class Solution1 : ISolution
 
         var ans = 0L;
 
+        // ReSharper disable once LoopCanBeConvertedToQuery
         foreach (var popCount in popCounts)
         {
             ans += Choose(bitsCount, popCount);
@@ -32,7 +33,7 @@ public class Solution1 : ISolution
         return ans;
     }
 
-    private long Choose(int bitsCount, int popCount)
+    private static long Choose(int bitsCount, int popCount)
     {
         return bitsCount + popCount;
     }

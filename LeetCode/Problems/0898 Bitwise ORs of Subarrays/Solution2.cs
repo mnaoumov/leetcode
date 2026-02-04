@@ -14,6 +14,7 @@ public class Solution2 : ISolution
         {
             var ors = new HashSet<int>();
 
+            // ReSharper disable once ForeachCanBePartlyConvertedToQueryUsingAnotherGetEnumerator
             foreach (var or in previousOrs)
             {
                 var newOr = or | num;

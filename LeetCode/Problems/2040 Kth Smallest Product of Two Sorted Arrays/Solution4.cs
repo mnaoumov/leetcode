@@ -90,11 +90,13 @@ public class Solution4 : ISolution
 
             if (notGreaterProductCount < k)
             {
+                // ReSharper disable once TailRecursiveCall
                 return BinarySearch(mid + 1, high);
             }
 
             if (notGreaterProductCount > k)
             {
+                // ReSharper disable once TailRecursiveCall
                 return BinarySearch(low, mid - 1);
             }
 
@@ -110,6 +112,7 @@ public class Solution4 : ISolution
                 return lowPartResult;
             }
 
+            // ReSharper disable once TailRecursiveCall
             return BinarySearch(mid + 1, high);
         }
 

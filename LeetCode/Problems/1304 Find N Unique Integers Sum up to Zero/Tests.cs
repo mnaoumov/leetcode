@@ -14,6 +14,5 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     public class TestCase : TestCaseBase
     {
         public int N { get; [UsedImplicitly] init; }
-        public int[] Output { get; [UsedImplicitly] init; } = null!;
     }
 }

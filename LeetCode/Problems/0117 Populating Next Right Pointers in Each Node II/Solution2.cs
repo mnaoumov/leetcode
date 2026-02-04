@@ -26,14 +26,11 @@ public class Solution2 : ISolution
             {
                 node.right.next = childrenLevelNext;
 
-                if (node.left != null)
-                {
-                    node.left.next = node.right;
-                }
+                node.left?.next = node.right;
             }
-            else if (node.left != null)
+            else
             {
-                node.left.next = childrenLevelNext;
+                node.left?.next = childrenLevelNext;
             }
 
             Connect(node.left);

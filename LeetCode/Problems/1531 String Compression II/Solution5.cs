@@ -12,7 +12,7 @@ public class Solution5 : ISolution
 
         var dp = new Dictionary<(int letterIndex, int maxLettersToRemoveCount, char lastLetter, int lastLetterCount), int>();
 
-        return Get(0, k, default, 0);
+        return Get(0, k, '\0', 0);
 
         (char letter, int count)[] GetLetterCounts()
         {
@@ -93,9 +93,9 @@ public class Solution5 : ISolution
     private static int GetCompressedLength(IEnumerable<(char letter, int count)> letterCounts)
     {
         var result = 0;
-        char lastLetter = default;
+        var lastLetter = '\0';
         var lastCount = 0;
-        (char, int) fakeSuffix = (default, 1);
+        var fakeSuffix = ('\0', 1);
         foreach (var (letter, count) in letterCounts.Concat(new[] { fakeSuffix }))
         {
             if (count == 0)

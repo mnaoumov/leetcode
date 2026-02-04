@@ -19,6 +19,7 @@ public class Solution3 : ISolution
         var topXKeys = new SortedSet<Key>();
         var smallerKeys = new SortedSet<Key>();
 
+        // ReSharper disable once ForeachCanBePartlyConvertedToQueryUsingAnotherGetEnumerator
         foreach (var num in counts.Keys)
         {
             var key = GetKey(num);
@@ -96,6 +97,7 @@ public class Solution3 : ISolution
 
                 sum += key.TotalCount;
 
+                // ReSharper disable once InvertIf
                 if (topXKeys.Count == x + 1 && topXKeys.Max != null)
                 {
                     smallerKeys.Add(topXKeys.Max);

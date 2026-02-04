@@ -89,6 +89,7 @@ public class Solution2 : ISolution
         var a = p2.Y - p1.Y;
         var b = p1.X - p2.X;
 
+        // ReSharper disable once ConvertIfStatementToSwitchStatement
         if (a == 0)
         {
             b = 1;
@@ -113,6 +114,6 @@ public class Solution2 : ISolution
 
     private record Line(int A, int B, int C)
     {
-        public Point Direction => new Point(B, -A);
+        public Point Direction => new(B, -A);
     }
 }

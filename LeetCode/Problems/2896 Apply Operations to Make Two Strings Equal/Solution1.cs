@@ -74,7 +74,7 @@ public class Solution1 : ISolution
 
         return dp.GetOrCalculate((s1, s2));
 
-        void Invert(StringBuilder sb, int index) => sb[index] = sb[index] == '0' ? '1' : '0';
+        static void Invert(StringBuilder sb, int index) => sb[index] = sb[index] == '0' ? '1' : '0';
     }
 
     private class DynamicProgramming<TKey, TValue> where TKey : notnull

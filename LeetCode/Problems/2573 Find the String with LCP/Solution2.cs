@@ -23,7 +23,7 @@ public class Solution2 : ISolution
                 return "";
             }
 
-            if (sb[i] != default)
+            if (sb[i] != 0)
             {
                 continue;
             }
@@ -55,7 +55,7 @@ public class Solution2 : ISolution
                         continue;
                     }
 
-                    if (sb[j + k] != default)
+                    if (sb[j + k] != 0)
                     {
                         return "";
                     }

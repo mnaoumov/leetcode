@@ -24,20 +24,14 @@ public class Solution6 : ISolution
                 cost /= 2;
             }
 
-            if (bobNode != null)
-            {
-                bobNode.Amount = 0;
-            }
+            bobNode?.Amount = 0;
 
             var maxChildrenResult = aliceNode.Neighbors.Where(n => !n.Visited)
                 .Select(aliceNextNode => Get(aliceNextNode, bobNode?.Parent))
                 .DefaultIfEmpty(0)
                 .Max();
 
-            if (bobNode != null)
-            {
-                bobNode.Amount = amount[bobNode.Label];
-            }
+            bobNode?.Amount = amount[bobNode.Label];
 
             var result = cost + maxChildrenResult;
             return result;

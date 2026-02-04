@@ -11,7 +11,7 @@ public class Solution2 : ISolution
         var counts = new Dictionary<(char letter, int length), int>();
 
         var length = 0;
-        char lastLetter = default;
+        var lastLetter = '\0';
         var ans = -1;
 
         foreach (var letter in s)

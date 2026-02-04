@@ -48,7 +48,7 @@ public class Solution2 : ISolution
             );
         }
 
-        int Multiply(params int[] arr) => arr.Aggregate((curr, num) => (int) (1L * curr * num % modulo));
+        static int Multiply(params int[] arr) => arr.Aggregate((curr, num) => (int) (1L * curr * num % modulo));
     }
 
     private class DynamicProgramming<TKey, TValue> where TKey : notnull

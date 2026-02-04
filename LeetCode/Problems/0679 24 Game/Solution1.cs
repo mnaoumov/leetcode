@@ -83,7 +83,7 @@ public class Solution1 : ISolution
 
     private class Fraction : IEquatable<Fraction>
     {
-        public Fraction(int numerator, int denominator)
+        private Fraction(int numerator, int denominator)
         {
             if (denominator == 0)
             {
@@ -102,8 +102,8 @@ public class Solution1 : ISolution
             Denominator = -Denominator;
         }
 
-        public int Denominator { get; }
-        public int Numerator { get; }
+        private int Denominator { get; }
+        private int Numerator { get; }
 
         public static implicit operator Fraction(int value) => new(value, 1);
 

@@ -1,107 +1,103 @@
 using Newtonsoft.Json;
 
-namespace LeetCode.Problems._0430_Flatten_a_Multilevel_Doubly_Linked_List
+namespace LeetCode.Problems._0430_Flatten_a_Multilevel_Doubly_Linked_List;
+
+public class Node : IEquatable<Node>
 {
-    public class Node : IEquatable<Node>
+    // ReSharper disable once InconsistentNaming
+    public int val;
+
+    // ReSharper disable once InconsistentNaming
+    public Node? prev;
+
+    // ReSharper disable once InconsistentNaming
+    public Node? next;
+
+    // ReSharper disable once InconsistentNaming
+    public Node? child;
+
+    public static Node? CreateOrNull(IEnumerable<int?> values)
     {
-        // ReSharper disable once InconsistentNaming
-        public int val;
+        var root = new Node();
+        var node = root;
+        Node? currentLevelStartNode = null;
+        Node? parentNode = null;
 
-        // ReSharper disable once InconsistentNaming
-        public Node? prev;
-
-        // ReSharper disable once InconsistentNaming
-        public Node? next;
-
-        // ReSharper disable once InconsistentNaming
-        public Node? child;
-
-        public static Node? CreateOrNull(IEnumerable<int?> values)
+        foreach (var value in values)
         {
-            var root = new Node();
-            var node = root;
-            Node? currentLevelStartNode = null;
-            Node? parentNode = null;
-
-            foreach (var value in values)
+            if (value != null)
             {
-                if (value != null)
+                node.next = new Node { val = (int) value };
+
+                if (node.val != 0)
                 {
-                    node.next = new Node { val = (int) value };
-
-                    if (node.val != 0)
-                    {
-                        node.next.prev = node;
-                    }
-
-                    node = node.next;
-
-                    if (currentLevelStartNode != null)
-                    {
-                        continue;
-                    }
-
-                    if (parentNode != null)
-                    {
-                        parentNode.child = node;
-                    }
-
-                    currentLevelStartNode = node;
+                    node.next.prev = node;
                 }
-                else if (currentLevelStartNode != null)
+
+                node = node.next;
+
+                if (currentLevelStartNode != null)
                 {
-                    parentNode = currentLevelStartNode;
-                    currentLevelStartNode = null;
-                    node = new Node();
+                    continue;
                 }
-                else
-                {
-                    parentNode = parentNode!.next;
-                }
+
+                parentNode?.child = node;
+
+                currentLevelStartNode = node;
             }
-
-            return root.next;
+            else if (currentLevelStartNode != null)
+            {
+                parentNode = currentLevelStartNode;
+                currentLevelStartNode = null;
+                node = new Node();
+            }
+            else
+            {
+                parentNode = parentNode!.next;
+            }
         }
 
-        public bool Equals(Node? other) => other != null && ToString() == other.ToString();
+        return root.next;
+    }
 
-        public override bool Equals(object? obj) => obj?.GetType() == GetType() && Equals((Node) obj);
+    public bool Equals(Node? other) => other != null && ToString() == other.ToString();
 
-        // ReSharper disable NonReadonlyMemberInGetHashCode
-        public override int GetHashCode() => HashCode.Combine(val, prev?.val, next?.val, child?.val);
-        // ReSharper restore NonReadonlyMemberInGetHashCode
+    public override bool Equals(object? obj) => obj?.GetType() == GetType() && Equals((Node) obj);
 
-        public override string ToString() => JsonConvert.SerializeObject(GetValues(this));
+    // ReSharper disable NonReadonlyMemberInGetHashCode
+    public override int GetHashCode() => HashCode.Combine(val, prev?.val, next?.val, child?.val);
+    // ReSharper restore NonReadonlyMemberInGetHashCode
 
-        private static List<int?> GetValues(Node node)
+    public override string ToString() => JsonConvert.SerializeObject(GetValues(this));
+
+    private static List<int?> GetValues(Node node)
+    {
+        var values = new List<int?>();
+
+        var node2 = node;
+        var nullsCount = 0;
+        Node? child = null;
+
+        while (node2 != null)
         {
-            var values = new List<int?>();
+            values.Add(node2.val);
+            nullsCount++;
 
-            var node2 = node;
-            var nullsCount = 0;
-            Node? child = null;
-
-            while (node2 != null)
+            if (node2.child != null)
             {
-                values.Add(node2.val);
-                nullsCount++;
-
-                if (node2.child != null)
-                {
-                    child = node2.child;
-                }
-
-                node2 = node2.next;
+                child = node2.child;
             }
 
-            if (child == null)
-            {
-                return values;
-            }
+            node2 = node2.next;
+        }
 
-            values.AddRange(Enumerable.Repeat<int?>(null, nullsCount));
-            values.AddRange(GetValues(child));
+        if (child == null)
+        {
             return values;
         }
+
+        values.AddRange(Enumerable.Repeat<int?>(null, nullsCount));
+        values.AddRange(GetValues(child));
+        return values;
     }
 }

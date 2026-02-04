@@ -20,7 +20,7 @@ public class Solution1 : ISolution
 
         var costMaxCapacityMap = new Dictionary<int, PriorityQueue<Machine, int>>();
 
-        var previousCost = 0;
+        const int previousCost = 0;
         var pq = new PriorityQueue<Machine, int>();
         var sortedCosts = new List<int>();
 
@@ -42,6 +42,7 @@ public class Solution1 : ISolution
 
         var ans = 0;
 
+        // ReSharper disable once ForeachCanBePartlyConvertedToQueryUsingAnotherGetEnumerator
         foreach (var cost in sortedCosts)
         {
             if (cost >= budget)

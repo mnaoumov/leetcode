@@ -11,7 +11,7 @@ public class Solution1 : ISolution
 {
     public string ShiftingLetters(string s, int[][] shifts)
     {
-        var intervals = new List<Interval> { new Interval(0, s.Length, 0) };
+        var intervals = new List<Interval> { new(0, s.Length, 0) };
         var comparerByStart = Comparer<Interval>.Create((a, b) => a.Start.CompareTo(b.Start));
         var comparerByEnd = Comparer<Interval>.Create((a, b) => a.EndExclusive.CompareTo(b.EndExclusive));
 

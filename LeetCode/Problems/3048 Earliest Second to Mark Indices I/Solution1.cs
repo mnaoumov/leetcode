@@ -26,12 +26,7 @@ public class Solution1 : ISolution
                 return s - 1;
             }
 
-            if (s == m + 1)
-            {
-                return impossible;
-            }
-
-            if (marked.Count + m - s + 1 - decrementsSum < n)
+            if (s == m + 1 || marked.Count + m - s + 1 - decrementsSum < n)
             {
                 return impossible;
             }
@@ -77,11 +72,12 @@ public class Solution1 : ISolution
         var numsDict = Enumerable.Range(0, n).ToDictionary(i => i + 1, i => nums[i]);
         return dp.GetOrCalculate((1, "", BuildCountsStr(numsDict)));
 
-        IEnumerable<int> ParseArray(string arrayStr) =>
+        static IEnumerable<int> ParseArray(string arrayStr) =>
             arrayStr.Split(',', StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
-        string Join(IEnumerable<int> values) => string.Join(",", values);
 
-        IDictionary<int, int> ParseCountsDictionary(string dictStr)
+        static string Join(IEnumerable<int> values) => string.Join(",", values);
+
+        static IDictionary<int, int> ParseCountsDictionary(string dictStr)
         {
             var dict = new Dictionary<int, int>();
 
@@ -94,7 +90,7 @@ public class Solution1 : ISolution
             return dict;
         }
 
-        string BuildCountsStr(IDictionary<int, int> counts) => string.Join(',',
+        static string BuildCountsStr(IDictionary<int, int> counts) => string.Join(',',
             counts.Keys.OrderBy(i => i).Where(i => counts[i] > 0).Select(i => $"{i}:{counts[i]}"));
     }
 

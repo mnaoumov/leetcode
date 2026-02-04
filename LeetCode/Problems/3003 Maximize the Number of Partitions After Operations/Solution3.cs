@@ -39,18 +39,18 @@ public class Solution3 : ISolution
                 }
             }
 
-            usedPartitionLettersSet.Add(changedFirstLetter != default ? changedFirstLetter : s[index]);
+            usedPartitionLettersSet.Add(changedFirstLetter != 0 ? changedFirstLetter : s[index]);
             var nextUsedPartitionLetters = string.Concat(usedPartitionLettersSet.OrderBy(x => x));
 
             ans = usedPartitionLettersSet.Count == k + 1
-                ? Math.Max(ans, 1 + recursiveFunc((index, canChange, default, "")))
-                : Math.Max(ans, recursiveFunc((index + 1, canChange, default, nextUsedPartitionLetters)));
+                ? Math.Max(ans, 1 + recursiveFunc((index, canChange, '\0', "")))
+                : Math.Max(ans, recursiveFunc((index + 1, canChange, '\0', nextUsedPartitionLetters)));
 
             return ans;
         });
 
         const int maxLettersCount = 26;
-        return dp.GetOrCalculate((0, k < maxLettersCount, default, ""));
+        return dp.GetOrCalculate((0, k < maxLettersCount, '\0', ""));
     }
 
     private class DynamicProgramming<TKey, TValue> where TKey : notnull

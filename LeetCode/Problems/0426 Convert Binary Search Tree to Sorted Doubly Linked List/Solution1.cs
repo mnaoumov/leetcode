@@ -21,15 +21,9 @@ public class Solution1 : ISolution
         node.left = leftTail;
         node.right = rightHead;
 
-        if (leftTail != null)
-        {
-            leftTail.right = node;
-        }
+        leftTail?.right = node;
 
-        if (rightHead != null)
-        {
-            rightHead.left = node;
-        }
+        rightHead?.left = node;
 
         leftHead ??= node;
         rightTail ??= node;

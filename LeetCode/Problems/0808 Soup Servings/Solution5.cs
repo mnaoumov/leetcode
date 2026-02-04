@@ -19,6 +19,7 @@ public class Solution5 : ISolution
         {
             var (a, b) = key;
 
+            // ReSharper disable once ConvertIfStatementToSwitchStatement
             if (a <= 0 && b <= 0)
             {
                 return (0, 1);

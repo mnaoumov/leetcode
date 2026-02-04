@@ -35,6 +35,7 @@ public class Solution2 : ISolution
 
             if (canStayInRow)
             {
+                // ReSharper disable once ForeachCanBeConvertedToQueryUsingAnotherGetEnumerator
                 foreach (var nextColumn in availableCells[row].GetViewBetween(column - d, column + d))
                 {
                     if (nextColumn == column)
@@ -51,6 +52,7 @@ public class Solution2 : ISolution
                 return ans;
             }
 
+            // ReSharper disable once ForeachCanBeConvertedToQueryUsingAnotherGetEnumerator
             foreach (var nextColumn in availableCells[row - 1].GetViewBetween(column - d + 1, column + d - 1))
             {
                 ans += getOrCalculate((row - 1, nextColumn, true));

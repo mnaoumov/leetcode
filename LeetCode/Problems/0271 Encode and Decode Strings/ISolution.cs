@@ -1,7 +1,6 @@
-namespace LeetCode.Problems._0271_Encode_and_Decode_Strings
+namespace LeetCode.Problems._0271_Encode_and_Decode_Strings;
+
+public interface ISolution
 {
-    public interface ISolution
-    {
-        ICodec Create();
-    }
+    ICodec Create();
 }

@@ -18,7 +18,7 @@ public class Solution1 : ISolution
         {
             (fireDragon, earthGolem),
             (waterSerpent, fireDragon),
-            (earthGolem, waterSerpent),
+            (earthGolem, waterSerpent)
         };
 
         var n = s.Length;

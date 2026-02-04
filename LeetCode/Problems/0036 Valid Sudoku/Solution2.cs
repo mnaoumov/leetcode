@@ -41,7 +41,7 @@ public class Solution2 : ISolution
             return board.Skip(3 * squareRowId).Take(3).SelectMany(row => row.Skip(3 * squareColumnId).Take(3)).ToArray();
         }
 
-        bool IsValid(IEnumerable<char> group)
+        static bool IsValid(IEnumerable<char> group)
         {
             var set = new HashSet<char>();
             return group.Where(x => x != '.').All(digit => set.Add(digit));

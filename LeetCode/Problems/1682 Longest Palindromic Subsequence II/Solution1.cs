@@ -60,7 +60,7 @@ public class Solution1 : ISolution
             return ans;
         });
 
-        return dp.GetOrCalculate((0, s.Length - 1, default));
+        return dp.GetOrCalculate((0, s.Length - 1, '\0'));
     }
 
     private class DynamicProgramming<TKey, TValue> where TKey : notnull

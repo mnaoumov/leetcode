@@ -30,6 +30,7 @@ public class Solution4 : ISolution
         {
             var ans = 0L;
 
+            // ReSharper disable once LoopCanBeConvertedToQuery
             foreach (var interval in intervals)
             {
                 ans += prefixSums[interval.To] - prefixSums[interval.From];

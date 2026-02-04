@@ -13,7 +13,7 @@ public class Solution5 : ISolution
 
         return Get(nodes[0], nodes[bob]);
 
-        int Get(Node aliceNode, Node? bobNode)
+        static int Get(Node aliceNode, Node? bobNode)
         {
             aliceNode.Visited = true;
 
@@ -24,10 +24,7 @@ public class Solution5 : ISolution
                 cost /= 2;
             }
 
-            if (bobNode != null)
-            {
-                bobNode.Amount = 0;
-            }
+            bobNode?.Amount = 0;
 
             var result = cost + aliceNode.Neighbors.Where(n => !n.Visited)
                 .Select(aliceNextNode => Get(aliceNextNode, bobNode?.Parent)).DefaultIfEmpty(0)

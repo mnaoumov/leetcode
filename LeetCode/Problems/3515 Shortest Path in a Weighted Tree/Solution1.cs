@@ -63,7 +63,7 @@ public class Solution1 : ISolution
             _edges[(w, v)] = edge;
         }
 
-        public void AddNode(T node) => _adjacentEdges.TryAdd(node, new HashSet<Edge<T>>());
+        private void AddNode(T node) => _adjacentEdges.TryAdd(node, new HashSet<Edge<T>>());
 
         public IEnumerable<Edge<T>> AdjacentEdges(T node) => _adjacentEdges.GetValueOrDefault(node, new HashSet<Edge<T>>());
 

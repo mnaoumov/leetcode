@@ -70,7 +70,7 @@ public class Solution3 : ISolution
 
         return maximumScore;
 
-        int[] PrimeScoresSieve(int num)
+        static int[] PrimeScoresSieve(int num)
         {
             var primeScores2 = new int[num + 1];
 

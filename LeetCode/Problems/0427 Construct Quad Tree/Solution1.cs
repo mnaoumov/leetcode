@@ -41,7 +41,7 @@ public class Solution1 : ISolution
 
         Node BuildLeafNode((int from, int to) rowRange, (int from, int to) columnRange) => new(grid[rowRange.from][columnRange.from] == 1, true);
 
-        int Middle((int from, int to) range) => (range.from + range.to) / 2;
-        bool IsSingle((int from, int to) range) => range.to - range.from == 1;
+        static int Middle((int from, int to) range) => (range.from + range.to) / 2;
+        static bool IsSingle((int from, int to) range) => range.to - range.from == 1;
     }
 }

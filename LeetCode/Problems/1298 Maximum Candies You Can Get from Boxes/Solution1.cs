@@ -17,7 +17,7 @@ public class Solution1 : ISolution
             boxes[i] = new Box
             {
                 IsOpen = status[i] == 1,
-                Candies = candies[i],
+                Candies = candies[i]
             };
         }
 

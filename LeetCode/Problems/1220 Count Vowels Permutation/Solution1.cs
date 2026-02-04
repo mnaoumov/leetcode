@@ -15,7 +15,7 @@ public class Solution1 : ISolution
             ['i'] = new[] { 'a', 'e', 'o', 'u' },
             ['o'] = new[] { 'i', 'u' },
             ['u'] = new[] { 'a' },
-            [default] = new[] { 'a', 'e', 'i', 'o', 'u' }
+            ['\0'] = new[] { 'a', 'e', 'i', 'o', 'u' }
         };
 
         const int modulo = 1_000_000_007;
@@ -29,7 +29,7 @@ public class Solution1 : ISolution
                     (current, vowel) => (current + recursiveFunc((lettersLeft - 1, vowel))) % modulo);
         });
 
-        return dp.GetOrCalculate((n, default));
+        return dp.GetOrCalculate((n, '\0'));
     }
 
     private class DynamicProgramming<TKey, TValue> where TKey : notnull

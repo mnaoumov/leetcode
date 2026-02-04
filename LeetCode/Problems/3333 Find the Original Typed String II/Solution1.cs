@@ -93,7 +93,7 @@ public class Solution1 : ISolution
         public static ModNumber Multiply(IEnumerable<ModNumber> numbers) =>
             numbers.Aggregate<ModNumber, ModNumber>(1, (current, number) => current * number);
 
-        public static ModNumber Pow(ModNumber value, BigInteger exponent) => (int) BigInteger.ModPow((int) value, exponent, Modulo);
+        private static ModNumber Pow(ModNumber value, BigInteger exponent) => (int) BigInteger.ModPow((int) value, exponent, Modulo);
 
         public override string ToString() => _value.ToString();
     }

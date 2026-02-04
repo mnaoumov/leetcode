@@ -89,6 +89,6 @@ public class Solution1 : ISolution
         public bool IsValid(int rowCount, int columnCount) =>
             Row >= 0 && Row < rowCount && Column >= 0 && Column < columnCount;
 
-        public Cell Move(Cell direction) => new Cell(Row + direction.Row, Column + direction.Column);
+        public Cell Move(Cell direction) => new(Row + direction.Row, Column + direction.Column);
     }
 }

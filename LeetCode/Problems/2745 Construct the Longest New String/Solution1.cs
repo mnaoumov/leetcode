@@ -31,7 +31,7 @@ public class Solution1 : ISolution
             return ans;
         });
 
-        return dp.GetOrCalculate((x, y, z, default));
+        return dp.GetOrCalculate((x, y, z, '\0'));
     }
 
     private class DynamicProgramming<TKey, TValue> where TKey : notnull

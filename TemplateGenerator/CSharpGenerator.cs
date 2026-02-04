@@ -83,7 +83,7 @@ internal partial class CSharpGenerator : GeneratorBase
             [UsedImplicitly]
             public class Solution1 : ISolution
             {
-                {{ Signature }}
+                public {{ Signature }}
                 {
                     throw new NotImplementedException();
                 }

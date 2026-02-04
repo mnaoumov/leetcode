@@ -35,7 +35,7 @@ internal abstract partial class GeneratorBase : IGenerator
     public void Init(string title, string signature)
     {
         Title = title;
-        Signature = signature;
+        Signature = signature.Replace("public ", "");
         var titleWithUnifiedProblemNumber = ProblemNumberRegex().Replace(Title, match => match.Groups[1].Value.PadLeft(ProblemNumberLength, '0'));
         var validFolderName = ReplaceChars(titleWithUnifiedProblemNumber, Path.GetInvalidFileNameChars().Append('.').ToArray());
         TaskDir = $@"{LeetCodeFolderPath}\{validFolderName}";

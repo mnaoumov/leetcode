@@ -77,7 +77,7 @@ internal partial class SutGenerator : GeneratorBase
             [PublicAPI]
             public interface ISolution
             {
-                public {{ InterfaceName }} Create({{ ConstructorArgumentsStr }});
+                {{ InterfaceName }} Create({{ ConstructorArgumentsStr }});
             }
             """);
 

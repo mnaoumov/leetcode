@@ -45,7 +45,7 @@ public class Solution3 : ISolution
         }
 
         list.Add(firstDigit);
-        var nextIndex = k - digitsToSkip * count + (n % 2 == 0 && firstDigit % 2 == 1 ? 0 : 0);
+        var nextIndex = k - digitsToSkip * count + (n % 2 == 0 && firstDigit % 2 == 1 ? 1 : 0);
         list.AddRange(Permute(n - 1, nextIndex));
 
         var unusedDigits = Enumerable.Range(1, n).ToHashSet();

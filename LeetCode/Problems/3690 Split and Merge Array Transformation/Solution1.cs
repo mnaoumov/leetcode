@@ -30,7 +30,10 @@ public class Solution1 : ISolution
                     return ans;
                 }
 
-                seen.Add(str);
+                if (!seen.Add(str))
+                {
+                    continue;
+                }
 
                 for (var l = 0; l < n - 1; l++)
                 {

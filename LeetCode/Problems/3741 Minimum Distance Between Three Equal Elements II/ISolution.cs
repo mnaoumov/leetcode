@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3741_Minimum_Distance_Between_Three_Equal_Elements_
 [PublicAPI]
 public interface ISolution
 {
-    public int MinimumDistance(int[] nums);
+    int MinimumDistance(int[] nums);
 }

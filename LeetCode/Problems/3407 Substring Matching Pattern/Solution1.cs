@@ -8,9 +8,6 @@ public class Solution1 : ISolution
 {
     public bool HasMatch(string s, string p)
     {
-        var n = s.Length;
-        var m = p.Length;
-
         var parts = p.Split('*');
 
         var startIndex = s.IndexOf(parts[0], StringComparison.Ordinal);

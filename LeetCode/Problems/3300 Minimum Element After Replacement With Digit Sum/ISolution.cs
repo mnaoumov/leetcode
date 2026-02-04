@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3300_Minimum_Element_After_Replacement_With_Digit_S
 [PublicAPI]
 public interface ISolution
 {
-    public int MinElement(int[] nums);
+    int MinElement(int[] nums);
 }

@@ -19,6 +19,7 @@ public class Solution1 : ISolution
         for (var i = 0; i < n - 1; i++)
         {
             var diff = nums[i + 1] - nums[i];
+            diffs.Add(diff);
             pq.Enqueue(diff, diff);
         }
 

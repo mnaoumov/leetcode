@@ -16,7 +16,10 @@ public class Solution2 : ISolution
         private readonly Dictionary<(int shop, int movie), int> _prices = new();
         private readonly PriorityQueue<(int shop, int movie), (int price, int shop, int movie)> _cheapestRentedQueue = new();
 
+        // ReSharper disable once UnusedParameter.Local
+#pragma warning disable IDE0060 // Remove unused parameter
         public MovieRentingSystem(int n, int[][] entries)
+#pragma warning restore IDE0060 // Remove unused parameter
         {
             foreach (var entry in entries)
             {

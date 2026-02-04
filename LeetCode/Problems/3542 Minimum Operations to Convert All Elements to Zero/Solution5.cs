@@ -1,7 +1,7 @@
 namespace LeetCode.Problems._3542_Minimum_Operations_to_Convert_All_Elements_to_Zero;
 
 /// <summary>
-/// https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/submissions/1825596478/?envType=daily-question&envId=2025-11-10
+/// https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/submissions/1825596478/
 /// </summary>
 [UsedImplicitly]
 public class Solution5 : ISolution

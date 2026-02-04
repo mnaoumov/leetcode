@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1455_Check_If_a_Word_Occurs_As_a_Prefix_of_Any_Word
 [PublicAPI]
 public interface ISolution
 {
-    public int IsPrefixOfWord(string sentence, string searchWord);
+    int IsPrefixOfWord(string sentence, string searchWord);
 }

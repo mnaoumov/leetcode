@@ -4,5 +4,5 @@ namespace LeetCode.Problems._2933_High_Access_Employees;
 public interface ISolution
 {
     // ReSharper disable once InconsistentNaming
-    public IList<string> FindHighAccessEmployees(IList<IList<string>> access_times);
+    IList<string> FindHighAccessEmployees(IList<IList<string>> access_times);
 }

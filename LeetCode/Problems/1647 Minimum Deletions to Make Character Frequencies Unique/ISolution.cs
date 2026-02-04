@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1647_Minimum_Deletions_to_Make_Character_Frequencie
 [PublicAPI]
 public interface ISolution
 {
-    public int MinDeletions(string s);
+    int MinDeletions(string s);
 }

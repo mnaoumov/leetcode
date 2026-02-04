@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2507_Smallest_Value_After_Replacing_With_Sum_of_Pri
 [PublicAPI]
 public interface ISolution
 {
-    public int SmallestValue(int n);
+    int SmallestValue(int n);
 }

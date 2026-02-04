@@ -62,8 +62,11 @@ public class Solution1 : ISolution
 
     private enum Color
     {
+        // ReSharper disable once UnusedMember.Local
         Red,
+        // ReSharper disable once UnusedMember.Local
         Yellow,
+        // ReSharper disable once UnusedMember.Local
         Green
     }
 

@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2981_Find_Longest_Special_Substring_That_Occurs_Thr
 [PublicAPI]
 public interface ISolution
 {
-    public int MaximumLength(string s);
+    int MaximumLength(string s);
 }

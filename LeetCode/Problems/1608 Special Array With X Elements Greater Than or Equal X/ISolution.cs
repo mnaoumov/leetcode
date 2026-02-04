@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1608_Special_Array_With_X_Elements_Greater_Than_or_
 [PublicAPI]
 public interface ISolution
 {
-    public int SpecialArray(int[] nums);
+    int SpecialArray(int[] nums);
 }

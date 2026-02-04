@@ -4,5 +4,5 @@ namespace LeetCode.Problems._0983_Minimum_Cost_For_Tickets;
 public interface ISolution
 {
     // ReSharper disable once IdentifierTypo
-    public int MincostTickets(int[] days, int[] costs);
+    int MincostTickets(int[] days, int[] costs);
 }

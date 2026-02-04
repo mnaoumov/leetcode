@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3734_Lexicographically_Smallest_Palindromic_Permuta
 [PublicAPI]
 public interface ISolution
 {
-    public string LexPalindromicPermutation(string s, string target);
+    string LexPalindromicPermutation(string s, string target);
 }

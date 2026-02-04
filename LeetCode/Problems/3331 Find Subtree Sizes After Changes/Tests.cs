@@ -1,4 +1,4 @@
-namespace LeetCode.Problems._100430_Find_Subtree_Sizes_After_Changes;
+namespace LeetCode.Problems._3331_Find_Subtree_Sizes_After_Changes;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

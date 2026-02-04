@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2442_Count_Number_of_Distinct_Integers_After_Revers
 [PublicAPI]
 public interface ISolution
 {
-    public int CountDistinctIntegers(int[] nums);
+    int CountDistinctIntegers(int[] nums);
 }

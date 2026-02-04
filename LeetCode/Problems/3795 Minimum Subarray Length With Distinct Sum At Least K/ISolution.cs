@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3795_Minimum_Subarray_Length_With_Distinct_Sum_At_L
 [PublicAPI]
 public interface ISolution
 {
-    public int MinLength(int[] nums, int k);
+    int MinLength(int[] nums, int k);
 }

@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1639_Number_of_Ways_to_Form_a_Target_String_Given_a
 [PublicAPI]
 public interface ISolution
 {
-    public int NumWays(string[] words, string target);
+    int NumWays(string[] words, string target);
 }

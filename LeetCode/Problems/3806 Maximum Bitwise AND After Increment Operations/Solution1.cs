@@ -9,11 +9,6 @@ public class Solution1 : ISolution
 {
     public int MaximumAND(int[] nums, int k, int m)
     {
-        nums = nums.OrderByDescending(num => num).ToArray();
-        var and = nums.Take(m).Aggregate((a, b) => a & b);
-
-
-
         throw new NotImplementedException();
     }
 }

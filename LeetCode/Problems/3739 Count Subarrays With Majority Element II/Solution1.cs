@@ -9,7 +9,6 @@ public class Solution1 : ISolution
 {
     public long CountMajoritySubarrays(int[] nums, int target)
     {
-        var n = nums.Length;
         var targetCount = 0;
         var ans = 0L;
         var set = new SortedSet<(int weight, int index)>

@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1625_Lexicographically_Smallest_String_After_Applyi
 [PublicAPI]
 public interface ISolution
 {
-    public string FindLexSmallestString(string s, int a, int b);
+    string FindLexSmallestString(string s, int a, int b);
 }

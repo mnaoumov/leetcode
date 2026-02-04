@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2515_Shortest_Distance_to_Target_String_in_a_Circul
 [PublicAPI]
 public interface ISolution
 {
-    public int ClosetTarget(string[] words, string target, int startIndex);
+    int ClosetTarget(string[] words, string target, int startIndex);
 }

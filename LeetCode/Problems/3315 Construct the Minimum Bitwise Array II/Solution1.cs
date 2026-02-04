@@ -1,4 +1,4 @@
-namespace LeetCode.Problems._100456_Construct_the_Minimum_Bitwise_Array_II;
+namespace LeetCode.Problems._3315_Construct_the_Minimum_Bitwise_Array_II;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-141/submissions/detail/1420032694/

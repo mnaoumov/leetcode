@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2862_Maximum_Element_Sum_of_a_Complete_Subset_of_In
 [PublicAPI]
 public interface ISolution
 {
-    public long MaximumSum(IList<int> nums);
+    long MaximumSum(IList<int> nums);
 }

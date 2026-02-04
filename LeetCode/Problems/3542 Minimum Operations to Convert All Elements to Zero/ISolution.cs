@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3542_Minimum_Operations_to_Convert_All_Elements_to_
 [PublicAPI]
 public interface ISolution
 {
-    public int MinOperations(int[] nums);
+    int MinOperations(int[] nums);
 }

@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2557_Maximum_Number_of_Integers_to_Choose_From_a_Ra
 [PublicAPI]
 public interface ISolution
 {
-    public int MaxCount(int[] banned, int n, long maxSum);
+    int MaxCount(int[] banned, int n, long maxSum);
 }

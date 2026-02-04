@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3694_Distinct_Points_Reachable_After_Substring_Remo
 [PublicAPI]
 public interface ISolution
 {
-    public int DistinctPoints(string s, int k);
+    int DistinctPoints(string s, int k);
 }

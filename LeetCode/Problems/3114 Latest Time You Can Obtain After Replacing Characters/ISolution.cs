@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3114_Latest_Time_You_Can_Obtain_After_Replacing_Cha
 [PublicAPI]
 public interface ISolution
 {
-    public string FindLatestTime(string s);
+    string FindLatestTime(string s);
 }

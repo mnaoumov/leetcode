@@ -10,15 +10,12 @@ public class Solution1 : ISolution
     public int SortArray(int[] nums)
     {
         var n = nums.Length;
-        var valueToIndexMap = new int[n];
 
         var wrongLeftSidedIndices = new HashSet<int>();
         var wrongRightSidedIndices = new HashSet<int>();
 
         for (var i = 0; i < n; i++)
         {
-            valueToIndexMap[nums[i]] = i;
-
             if (nums[i] == 0)
             {
                 continue;

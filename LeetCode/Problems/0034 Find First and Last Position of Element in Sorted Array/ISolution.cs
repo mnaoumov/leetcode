@@ -3,5 +3,5 @@ namespace LeetCode.Problems._0034_Find_First_and_Last_Position_of_Element_in_Sor
 [PublicAPI]
 public interface ISolution
 {
-    public int[] SearchRange(int[] nums, int target);
+    int[] SearchRange(int[] nums, int target);
 }

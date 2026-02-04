@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2379_Minimum_Recolors_to_Get_K_Consecutive_Black_Bl
 [PublicAPI]
 public interface ISolution
 {
-    public int MinimumRecolors(string blocks, int k);
+    int MinimumRecolors(string blocks, int k);
 }

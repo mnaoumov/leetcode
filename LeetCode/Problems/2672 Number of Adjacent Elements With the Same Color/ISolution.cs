@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2672_Number_of_Adjacent_Elements_With_the_Same_Colo
 [PublicAPI]
 public interface ISolution
 {
-    public int[] ColorTheArray(int n, int[][] queries);
+    int[] ColorTheArray(int n, int[][] queries);
 }

@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3070_Count_Submatrices_with_Top_Left_Element_and_Su
 [PublicAPI]
 public interface ISolution
 {
-    public int CountSubmatrices(int[][] grid, int k);
+    int CountSubmatrices(int[][] grid, int k);
 }

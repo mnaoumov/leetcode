@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2904_Shortest_and_Lexicographically_Smallest_Beauti
 [PublicAPI]
 public interface ISolution
 {
-    public string ShortestBeautifulSubstring(string s, int k);
+    string ShortestBeautifulSubstring(string s, int k);
 }

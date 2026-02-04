@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3228_Maximum_Number_of_Operations_to_Move_Ones_to_t
 [PublicAPI]
 public interface ISolution
 {
-    public int MaxOperations(string s);
+    int MaxOperations(string s);
 }

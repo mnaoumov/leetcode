@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3752_Lexicographically_Smallest_Negated_Permutation
 [PublicAPI]
 public interface ISolution
 {
-    public int[] LexSmallestNegatedPerm(int n, long target);
+    int[] LexSmallestNegatedPerm(int n, long target);
 }

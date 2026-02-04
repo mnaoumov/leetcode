@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2590_Design_a_Todo_List;
 [PublicAPI]
 public interface ISolution
 {
-    public ITodoList Create();
+    ITodoList Create();
 }

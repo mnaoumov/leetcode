@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3463_Check_If_Digits_Are_Equal_in_String_After_Oper
 [PublicAPI]
 public interface ISolution
 {
-    public bool HasSameDigits(string s);
+    bool HasSameDigits(string s);
 }

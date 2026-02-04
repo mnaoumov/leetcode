@@ -1,7 +1,7 @@
 namespace LeetCode.Problems._1780_Check_if_Number_is_a_Sum_of_Powers_of_Three;
 
 /// <summary>
-/// https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/submissions/1561987663/?envType=daily-question&envId=2025-03-04
+/// https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/submissions/1561987663/
 /// </summary>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]

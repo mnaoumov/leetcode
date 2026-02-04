@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1758_Minimum_Changes_To_Make_Alternating_Binary_Str
 [PublicAPI]
 public interface ISolution
 {
-    public int MinOperations(string s);
+    int MinOperations(string s);
 }

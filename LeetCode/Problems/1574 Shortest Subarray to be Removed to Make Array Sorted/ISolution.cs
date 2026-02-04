@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1574_Shortest_Subarray_to_be_Removed_to_Make_Array_
 [PublicAPI]
 public interface ISolution
 {
-    public int FindLengthOfShortestSubarray(int[] arr);
+    int FindLengthOfShortestSubarray(int[] arr);
 }

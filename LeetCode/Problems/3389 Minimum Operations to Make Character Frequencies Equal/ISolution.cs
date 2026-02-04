@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3389_Minimum_Operations_to_Make_Character_Frequenci
 [PublicAPI]
 public interface ISolution
 {
-    public int MakeStringGood(string s);
+    int MakeStringGood(string s);
 }

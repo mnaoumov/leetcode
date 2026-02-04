@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3563_Lexicographically_Smallest_String_After_Adjace
 [PublicAPI]
 public interface ISolution
 {
-    public string LexicographicallySmallestString(string s);
+    string LexicographicallySmallestString(string s);
 }

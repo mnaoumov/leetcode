@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3226_Number_of_Bit_Changes_to_Make_Two_Integers_Equ
 [PublicAPI]
 public interface ISolution
 {
-    public int MinChanges(int n, int k);
+    int MinChanges(int n, int k);
 }

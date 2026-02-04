@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3326_Minimum_Division_Operations_to_Make_Array_Non_
 [PublicAPI]
 public interface ISolution
 {
-    public int MinOperations(int[] nums);
+    int MinOperations(int[] nums);
 }

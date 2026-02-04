@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3480_Maximize_Subarrays_After_Removing_One_Conflict
 [PublicAPI]
 public interface ISolution
 {
-    public long MaxSubarrays(int n, int[][] conflictingPairs);
+    long MaxSubarrays(int n, int[][] conflictingPairs);
 }

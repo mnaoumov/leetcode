@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3007_Maximum_Number_That_Sum_of_the_Prices_Is_Less_
 [PublicAPI]
 public interface ISolution
 {
-    public long FindMaximumNumber(long k, int x);
+    long FindMaximumNumber(long k, int x);
 }

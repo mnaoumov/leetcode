@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2058_Find_the_Minimum_and_Maximum_Number_of_Nodes_B
 [PublicAPI]
 public interface ISolution
 {
-    public int[] NodesBetweenCriticalPoints(ListNode head);
+    int[] NodesBetweenCriticalPoints(ListNode head);
 }

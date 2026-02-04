@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1473_Paint_House_III;
 [PublicAPI]
 public interface ISolution
 {
-    public int MinCost(int[] houses, int[][] cost, int m, int n, int target);
+    int MinCost(int[] houses, int[][] cost, int m, int n, int target);
 }

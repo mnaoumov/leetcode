@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2538_Difference_Between_Maximum_and_Minimum_Price_S
 [PublicAPI]
 public interface ISolution
 {
-    public long MaxOutput(int n, int[][] edges, int[] price);
+    long MaxOutput(int n, int[][] edges, int[] price);
 }

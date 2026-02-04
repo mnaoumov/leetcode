@@ -1,7 +1,7 @@
 namespace LeetCode.Problems._2145_Count_the_Hidden_Sequences;
 
 /// <summary>
-/// https://leetcode.com/problems/count-the-hidden-sequences/submissions/1612991269/?envType=daily-question&envId=2025-04-21
+/// https://leetcode.com/problems/count-the-hidden-sequences/submissions/1612991269/
 /// </summary>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]

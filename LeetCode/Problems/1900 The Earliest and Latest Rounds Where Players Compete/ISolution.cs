@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1900_The_Earliest_and_Latest_Rounds_Where_Players_C
 [PublicAPI]
 public interface ISolution
 {
-    public int[] EarliestAndLatest(int n, int firstPlayer, int secondPlayer);
+    int[] EarliestAndLatest(int n, int firstPlayer, int secondPlayer);
 }

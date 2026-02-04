@@ -3,5 +3,5 @@ namespace LeetCode.Problems._0106_Construct_Binary_Tree_from_Inorder_and_Postord
 [PublicAPI]
 public interface ISolution
 {
-    public TreeNode BuildTree(int[] inorder, int[] postorder);
+    TreeNode BuildTree(int[] inorder, int[] postorder);
 }

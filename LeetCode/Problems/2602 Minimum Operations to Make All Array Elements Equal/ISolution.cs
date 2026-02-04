@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2602_Minimum_Operations_to_Make_All_Array_Elements_
 [PublicAPI]
 public interface ISolution
 {
-    public IList<long> MinOperations(int[] nums, int[] queries);
+    IList<long> MinOperations(int[] nums, int[] queries);
 }

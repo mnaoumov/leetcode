@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3178_Find_the_Child_Who_Has_the_Ball_After_K_Second
 [PublicAPI]
 public interface ISolution
 {
-    public int NumberOfChild(int n, int k);
+    int NumberOfChild(int n, int k);
 }

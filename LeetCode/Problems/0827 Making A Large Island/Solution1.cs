@@ -1,7 +1,7 @@
 namespace LeetCode.Problems._0827_Making_A_Large_Island;
 
 /// <summary>
-/// https://leetcode.com/problems/making-a-large-island/submissions/1525956435/?envType=daily-question&envId=2025-01-31
+/// https://leetcode.com/problems/making-a-large-island/submissions/1525956435/
 /// </summary>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]

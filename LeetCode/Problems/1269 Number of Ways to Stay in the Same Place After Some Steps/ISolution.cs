@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1269_Number_of_Ways_to_Stay_in_the_Same_Place_After
 [PublicAPI]
 public interface ISolution
 {
-    public int NumWays(int steps, int arrLen);
+    int NumWays(int steps, int arrLen);
 }

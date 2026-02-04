@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2011_Final_Value_of_Variable_After_Performing_Opera
 [PublicAPI]
 public interface ISolution
 {
-    public int FinalValueAfterOperations(string[] operations);
+    int FinalValueAfterOperations(string[] operations);
 }

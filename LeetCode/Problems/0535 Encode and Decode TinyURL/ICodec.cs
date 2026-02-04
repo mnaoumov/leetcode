@@ -5,8 +5,8 @@ public interface ICodec
 {
     // ReSharper disable InconsistentNaming
 #pragma warning disable IDE1006
-    public string encode(string longUrl);
-    public string decode(string shortUrl);
+    string encode(string longUrl);
+    string decode(string shortUrl);
 #pragma warning restore IDE1006
     // ReSharper enable InconsistentNaming
 }

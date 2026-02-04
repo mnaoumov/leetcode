@@ -3,5 +3,5 @@ namespace LeetCode.Problems._0460_LFU_Cache;
 [PublicAPI]
 public interface ISolution
 {
-    public ILFUCache Create(int capacity);
+    ILFUCache Create(int capacity);
 }

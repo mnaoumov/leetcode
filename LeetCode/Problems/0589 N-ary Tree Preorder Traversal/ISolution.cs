@@ -3,5 +3,5 @@ namespace LeetCode.Problems._0589_N_ary_Tree_Preorder_Traversal;
 [PublicAPI]
 public interface ISolution
 {
-    public IList<int> Preorder(Node? root);
+    IList<int> Preorder(Node? root);
 }

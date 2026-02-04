@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2897_Apply_Operations_on_Array_to_Maximize_Sum_of_S
 [PublicAPI]
 public interface ISolution
 {
-    public int MaxSum(IList<int> nums, int k);
+    int MaxSum(IList<int> nums, int k);
 }

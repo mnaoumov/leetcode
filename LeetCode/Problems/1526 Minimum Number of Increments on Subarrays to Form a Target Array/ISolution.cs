@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1526_Minimum_Number_of_Increments_on_Subarrays_to_F
 [PublicAPI]
 public interface ISolution
 {
-    public int MinNumberOperations(int[] target);
+    int MinNumberOperations(int[] target);
 }

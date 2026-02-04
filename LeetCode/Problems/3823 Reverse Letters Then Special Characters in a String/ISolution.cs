@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3823_Reverse_Letters_Then_Special_Characters_in_a_S
 [PublicAPI]
 public interface ISolution
 {
-    public string ReverseByType(string s);
+    string ReverseByType(string s);
 }

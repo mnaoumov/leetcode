@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2434_Using_a_Robot_to_Print_the_Lexicographically_S
 [PublicAPI]
 public interface ISolution
 {
-    public string RobotWithString(string s);
+    string RobotWithString(string s);
 }

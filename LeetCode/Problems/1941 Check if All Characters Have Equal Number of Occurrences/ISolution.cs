@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1941_Check_if_All_Characters_Have_Equal_Number_of_O
 [PublicAPI]
 public interface ISolution
 {
-    public bool AreOccurrencesEqual(string s);
+    bool AreOccurrencesEqual(string s);
 }

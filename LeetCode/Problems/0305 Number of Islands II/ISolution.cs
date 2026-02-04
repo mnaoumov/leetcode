@@ -3,5 +3,5 @@ namespace LeetCode.Problems._0305_Number_of_Islands_II;
 [PublicAPI]
 public interface ISolution
 {
-    public IList<int> NumIslands2(int m, int n, int[][] positions);
+    IList<int> NumIslands2(int m, int n, int[][] positions);
 }

@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3144_Minimum_Substring_Partition_of_Equal_Character
 [PublicAPI]
 public interface ISolution
 {
-    public int MinimumSubstringsInPartition(string s);
+    int MinimumSubstringsInPartition(string s);
 }

@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1671_Minimum_Number_of_Removals_to_Make_Mountain_Ar
 [PublicAPI]
 public interface ISolution
 {
-    public int MinimumMountainRemovals(int[] nums);
+    int MinimumMountainRemovals(int[] nums);
 }

@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3107_Minimum_Operations_to_Make_Median_of_Array_Equ
 [PublicAPI]
 public interface ISolution
 {
-    public long MinOperationsToMakeMedianK(int[] nums, int k);
+    long MinOperationsToMakeMedianK(int[] nums, int k);
 }

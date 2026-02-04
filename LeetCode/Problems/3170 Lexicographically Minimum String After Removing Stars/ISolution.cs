@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3170_Lexicographically_Minimum_String_After_Removin
 [PublicAPI]
 public interface ISolution
 {
-    public string ClearStars(string s);
+    string ClearStars(string s);
 }

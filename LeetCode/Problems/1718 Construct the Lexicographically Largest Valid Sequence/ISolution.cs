@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1718_Construct_the_Lexicographically_Largest_Valid_
 [PublicAPI]
 public interface ISolution
 {
-    public int[] ConstructDistancedSequence(int n);
+    int[] ConstructDistancedSequence(int n);
 }

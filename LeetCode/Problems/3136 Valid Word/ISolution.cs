@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3136_Valid_Word;
 [PublicAPI]
 public interface ISolution
 {
-    public bool IsValid(string word);
+    bool IsValid(string word);
 }

@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3577_Count_the_Number_of_Computer_Unlocking_Permuta
 [PublicAPI]
 public interface ISolution
 {
-    public int CountPermutations(int[] complexity);
+    int CountPermutations(int[] complexity);
 }

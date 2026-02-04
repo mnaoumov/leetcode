@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1244_Design_A_Leaderboard;
 [PublicAPI]
 public interface ISolution
 {
-    public ILeaderboard Create();
+    ILeaderboard Create();
 }

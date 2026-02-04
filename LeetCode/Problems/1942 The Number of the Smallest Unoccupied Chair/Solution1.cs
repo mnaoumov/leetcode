@@ -25,7 +25,7 @@ public class Solution1 : ISolution
 
         while (pq.Count > 0)
         {
-            var (time, isArriving, friendIndex) = pq.Dequeue();
+            var (_, isArriving, friendIndex) = pq.Dequeue();
 
             if (isArriving)
             {

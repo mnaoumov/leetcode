@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3122_Minimum_Number_of_Operations_to_Satisfy_Condit
 [PublicAPI]
 public interface ISolution
 {
-    public int MinimumOperations(int[][] grid);
+    int MinimumOperations(int[][] grid);
 }

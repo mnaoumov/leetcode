@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3530_Maximum_Profit_from_Valid_Topological_Order_in
 [PublicAPI]
 public interface ISolution
 {
-    public int MaxProfit(int n, int[][] edges, int[] score);
+    int MaxProfit(int n, int[][] edges, int[] score);
 }

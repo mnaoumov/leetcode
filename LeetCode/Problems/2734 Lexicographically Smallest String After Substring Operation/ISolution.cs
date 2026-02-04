@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2734_Lexicographically_Smallest_String_After_Substr
 [PublicAPI]
 public interface ISolution
 {
-    public string SmallestString(string s);
+    string SmallestString(string s);
 }

@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2471_Minimum_Number_of_Operations_to_Sort_a_Binary_
 [PublicAPI]
 public interface ISolution
 {
-    public int MinimumOperations(TreeNode root);
+    int MinimumOperations(TreeNode root);
 }

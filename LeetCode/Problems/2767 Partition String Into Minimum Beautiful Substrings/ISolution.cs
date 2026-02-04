@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2767_Partition_String_Into_Minimum_Beautiful_Substr
 [PublicAPI]
 public interface ISolution
 {
-    public int MinimumBeautifulSubstrings(string s);
+    int MinimumBeautifulSubstrings(string s);
 }

@@ -4,5 +4,5 @@ namespace LeetCode.Problems._0606_Construct_String_from_Binary_Tree;
 public interface ISolution
 {
     // ReSharper disable once InconsistentNaming
-    public string Tree2str(TreeNode root);
+    string Tree2str(TreeNode root);
 }

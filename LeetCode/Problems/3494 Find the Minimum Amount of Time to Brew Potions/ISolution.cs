@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3494_Find_the_Minimum_Amount_of_Time_to_Brew_Potion
 [PublicAPI]
 public interface ISolution
 {
-    public long MinTime(int[] skill, int[] mana);
+    long MinTime(int[] skill, int[] mana);
 }

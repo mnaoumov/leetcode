@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3010_Divide_an_Array_Into_Subarrays_With_Minimum_Co
 [PublicAPI]
 public interface ISolution
 {
-    public int MinimumCost(int[] nums);
+    int MinimumCost(int[] nums);
 }

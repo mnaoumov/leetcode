@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3305_Count_of_Substrings_Containing_Every_Vowel_and
 [PublicAPI]
 public interface ISolution
 {
-    public int CountOfSubstrings(string word, int k);
+    int CountOfSubstrings(string word, int k);
 }

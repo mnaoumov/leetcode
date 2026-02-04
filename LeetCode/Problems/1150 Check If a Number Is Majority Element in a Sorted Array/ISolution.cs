@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1150_Check_If_a_Number_Is_Majority_Element_in_a_Sor
 [PublicAPI]
 public interface ISolution
 {
-    public bool IsMajorityElement(int[] nums, int target);
+    bool IsMajorityElement(int[] nums, int target);
 }

@@ -4,6 +4,6 @@ namespace LeetCode.Problems._2657_Find_the_Prefix_Common_Array_of_Two_Arrays;
 public interface ISolution
 {
     // ReSharper disable InconsistentNaming
-    public int[] FindThePrefixCommonArray(int[] A, int[] B);
+    int[] FindThePrefixCommonArray(int[] A, int[] B);
     // ReSharper restore InconsistentNaming
 }

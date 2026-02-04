@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3747_Count_Distinct_Integers_After_Removing_Zeros;
 [PublicAPI]
 public interface ISolution
 {
-    public long CountDistinct(long n);
+    long CountDistinct(long n);
 }

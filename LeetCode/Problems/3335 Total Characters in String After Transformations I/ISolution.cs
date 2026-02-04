@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3335_Total_Characters_in_String_After_Transformatio
 [PublicAPI]
 public interface ISolution
 {
-    public int LengthAfterTransformations(string s, int t);
+    int LengthAfterTransformations(string s, int t);
 }

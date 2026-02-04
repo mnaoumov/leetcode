@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3811_Number_of_Alternating_XOR_Partitions;
 [PublicAPI]
 public interface ISolution
 {
-    public int AlternatingXOR(int[] nums, int target1, int target2);
+    int AlternatingXOR(int[] nums, int target1, int target2);
 }

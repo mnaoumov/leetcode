@@ -8,7 +8,6 @@ public class Solution2 : ISolution
 {
     public int MaxBalancedSubarray(int[] nums)
     {
-        var n = nums.Length;
         var map = new Dictionary<Entry, int>
         {
             [new Entry(0, 0)] = -1

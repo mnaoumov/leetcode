@@ -3,5 +3,5 @@ namespace LeetCode.Problems._0430_Flatten_a_Multilevel_Doubly_Linked_List;
 [PublicAPI]
 public interface ISolution
 {
-    public Node? Flatten(Node? head);
+    Node? Flatten(Node? head);
 }

@@ -4,5 +4,5 @@ namespace LeetCode.Problems._0402_Remove_K_Digits;
 public interface ISolution
 {
     // ReSharper disable once IdentifierTypo
-    public string RemoveKdigits(string num, int k);
+    string RemoveKdigits(string num, int k);
 }

@@ -34,7 +34,7 @@ public class Solution1 : ISolution
 
     private long Choose(int bitsCount, int popCount)
     {
-        throw new NotImplementedException();
+        return bitsCount + popCount;
     }
 
     private static IEnumerable<int> GetPossiblePopcounts(int n, int depth)

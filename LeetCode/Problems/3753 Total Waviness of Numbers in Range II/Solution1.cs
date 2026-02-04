@@ -11,6 +11,6 @@ public class Solution1 : ISolution
 
     private static long TotalWaviness(long max)
     {
-        return 0;
+        return max;
     }
 }

@@ -1,7 +1,7 @@
 namespace LeetCode.Problems._1752_Check_if_Array_Is_Sorted_and_Rotated;
 
 /// <summary>
-/// https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/submissions/1528251091/?envType=daily-question&envId=2025-02-02
+/// https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/submissions/1528251091/
 /// </summary>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]

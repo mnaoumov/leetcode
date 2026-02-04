@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3742_Maximum_Path_Score_in_a_Grid;
 [PublicAPI]
 public interface ISolution
 {
-    public int MaxPathScore(int[][] grid, int k);
+    int MaxPathScore(int[][] grid, int k);
 }

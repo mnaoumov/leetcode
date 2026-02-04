@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3396_Minimum_Number_of_Operations_to_Make_Elements_
 [PublicAPI]
 public interface ISolution
 {
-    public int MinimumOperations(int[] nums);
+    int MinimumOperations(int[] nums);
 }

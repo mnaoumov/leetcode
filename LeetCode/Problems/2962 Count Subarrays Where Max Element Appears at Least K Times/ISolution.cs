@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2962_Count_Subarrays_Where_Max_Element_Appears_at_L
 [PublicAPI]
 public interface ISolution
 {
-    public long CountSubarrays(int[] nums, int k);
+    long CountSubarrays(int[] nums, int k);
 }

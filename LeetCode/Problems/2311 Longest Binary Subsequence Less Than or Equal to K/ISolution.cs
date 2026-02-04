@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2311_Longest_Binary_Subsequence_Less_Than_or_Equal_
 [PublicAPI]
 public interface ISolution
 {
-    public int LongestSubsequence(string s, int k);
+    int LongestSubsequence(string s, int k);
 }

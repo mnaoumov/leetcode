@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2556_Disconnect_Path_in_a_Binary_Matrix_by_at_Most_
 [PublicAPI]
 public interface ISolution
 {
-    public bool IsPossibleToCutPath(int[][] grid);
+    bool IsPossibleToCutPath(int[][] grid);
 }

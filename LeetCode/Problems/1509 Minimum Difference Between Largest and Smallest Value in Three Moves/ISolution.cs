@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1509_Minimum_Difference_Between_Largest_and_Smalles
 [PublicAPI]
 public interface ISolution
 {
-    public int MinDifference(int[] nums);
+    int MinDifference(int[] nums);
 }

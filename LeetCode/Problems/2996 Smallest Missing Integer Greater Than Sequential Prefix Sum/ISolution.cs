@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2996_Smallest_Missing_Integer_Greater_Than_Sequenti
 [PublicAPI]
 public interface ISolution
 {
-    public int MissingInteger(int[] nums);
+    int MissingInteger(int[] nums);
 }

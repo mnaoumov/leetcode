@@ -4,6 +4,6 @@ namespace LeetCode.Problems._3242_Design_Neighbor_Sum_Service;
 [PublicAPI]
 public interface IneighborSum
 {
-    public int AdjacentSum(int value);
-    public int DiagonalSum(int value);
+    int AdjacentSum(int value);
+    int DiagonalSum(int value);
 }

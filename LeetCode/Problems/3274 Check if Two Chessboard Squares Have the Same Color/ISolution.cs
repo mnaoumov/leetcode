@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3274_Check_if_Two_Chessboard_Squares_Have_the_Same_
 [PublicAPI]
 public interface ISolution
 {
-    public bool CheckTwoChessboards(string coordinate1, string coordinate2);
+    bool CheckTwoChessboards(string coordinate1, string coordinate2);
 }

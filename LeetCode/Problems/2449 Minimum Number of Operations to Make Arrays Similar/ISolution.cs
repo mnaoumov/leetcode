@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2449_Minimum_Number_of_Operations_to_Make_Arrays_Si
 [PublicAPI]
 public interface ISolution
 {
-    public long MakeSimilar(int[] nums, int[] target);
+    long MakeSimilar(int[] nums, int[] target);
 }

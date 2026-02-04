@@ -20,7 +20,6 @@ public class Solution1 : ISolution
         const int lcm = 2520;
         var num = 0;
         var ans = 0L;
-        var lastResult = 0;
 
         for (var i = 0; i < n; i++)
         {
@@ -35,7 +34,7 @@ public class Solution1 : ISolution
             }
 
             var key2 = (numDigit, num % numDigit);
-            lastResult = counts[key2] - 1;
+            var lastResult = counts[key2] - 1;
             ans += lastResult;
         }
 

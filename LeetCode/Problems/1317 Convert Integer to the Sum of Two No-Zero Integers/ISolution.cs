@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1317_Convert_Integer_to_the_Sum_of_Two_No_Zero_Inte
 [PublicAPI]
 public interface ISolution
 {
-    public int[] GetNoZeroIntegers(int n);
+    int[] GetNoZeroIntegers(int n);
 }

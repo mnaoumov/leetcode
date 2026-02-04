@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1309_Decrypt_String_from_Alphabet_to_Integer_Mappin
 [PublicAPI]
 public interface ISolution
 {
-    public string FreqAlphabets(string s);
+    string FreqAlphabets(string s);
 }

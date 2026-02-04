@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3264_Final_Array_State_After_K_Multiplication_Opera
 [PublicAPI]
 public interface ISolution
 {
-    public int[] GetFinalState(int[] nums, int k, int multiplier);
+    int[] GetFinalState(int[] nums, int k, int multiplier);
 }

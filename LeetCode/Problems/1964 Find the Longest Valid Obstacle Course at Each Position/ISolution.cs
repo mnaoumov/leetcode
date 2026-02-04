@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1964_Find_the_Longest_Valid_Obstacle_Course_at_Each
 [PublicAPI]
 public interface ISolution
 {
-    public int[] LongestObstacleCourseAtEachPosition(int[] obstacles);
+    int[] LongestObstacleCourseAtEachPosition(int[] obstacles);
 }

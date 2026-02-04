@@ -4,5 +4,5 @@ namespace LeetCode.Problems._0456_132_Pattern;
 public interface ISolution
 {
     // ReSharper disable once InconsistentNaming
-    public bool Find132pattern(int[] nums);
+    bool Find132pattern(int[] nums);
 }

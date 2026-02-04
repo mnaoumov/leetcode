@@ -36,14 +36,6 @@ public class Solution1 : ISolution
             }
         }
 
-        for (int i = 0; i < n; i++)
-        {
-            if (suspicious.Contains(i))
-            {
-                continue;
-            }
-        }
-
         throw new NotImplementedException();
     }
 }

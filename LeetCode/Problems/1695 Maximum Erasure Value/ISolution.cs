@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1695_Maximum_Erasure_Value;
 [PublicAPI]
 public interface ISolution
 {
-    public int MaximumUniqueSubarray(int[] nums);
+    int MaximumUniqueSubarray(int[] nums);
 }

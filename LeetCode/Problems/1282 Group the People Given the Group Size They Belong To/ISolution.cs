@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1282_Group_the_People_Given_the_Group_Size_They_Bel
 [PublicAPI]
 public interface ISolution
 {
-    public IList<IList<int>> GroupThePeople(int[] groupSizes);
+    IList<IList<int>> GroupThePeople(int[] groupSizes);
 }

@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2948_Make_Lexicographically_Smallest_Array_by_Swapp
 [PublicAPI]
 public interface ISolution
 {
-    public int[] LexicographicallySmallestArray(int[] nums, int limit);
+    int[] LexicographicallySmallestArray(int[] nums, int limit);
 }

@@ -74,12 +74,12 @@ public class Solution1 : ISolution
             ans.TryAdd(from, new List<CurrencyExchange>());
             ans.TryAdd(to, new List<CurrencyExchange>());
 
-            ans[from].Add(new CurrencyExchange(from, to, rate));
-            ans[to].Add(new CurrencyExchange(to, from, 1 / rate));
+            ans[from].Add(new CurrencyExchange(to, rate));
+            ans[to].Add(new CurrencyExchange(from, 1 / rate));
         }
 
         return ans;
     }
 
-    private record CurrencyExchange(string From, string To, double Rate);
+    private record CurrencyExchange(string To, double Rate);
 }

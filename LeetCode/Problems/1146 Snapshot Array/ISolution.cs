@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1146_Snapshot_Array;
 [PublicAPI]
 public interface ISolution
 {
-    public ISnapshotArray Create(int length);
+    ISnapshotArray Create(int length);
 }

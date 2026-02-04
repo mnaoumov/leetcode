@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3746_Minimum_String_Length_After_Balanced_Removals;
 [PublicAPI]
 public interface ISolution
 {
-    public int MinLengthAfterRemovals(string s);
+    int MinLengthAfterRemovals(string s);
 }

@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2918_Minimum_Equal_Sum_of_Two_Arrays_After_Replacin
 [PublicAPI]
 public interface ISolution
 {
-    public long MinSum(int[] nums1, int[] nums2);
+    long MinSum(int[] nums1, int[] nums2);
 }

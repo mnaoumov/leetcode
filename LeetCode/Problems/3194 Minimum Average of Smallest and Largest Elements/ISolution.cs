@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3194_Minimum_Average_of_Smallest_and_Largest_Elemen
 [PublicAPI]
 public interface ISolution
 {
-    public double MinimumAverage(int[] nums);
+    double MinimumAverage(int[] nums);
 }

@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2711_Difference_of_Number_of_Distinct_Values_on_Dia
 [PublicAPI]
 public interface ISolution
 {
-    public int[][] DifferenceOfDistinctValues(int[][] grid);
+    int[][] DifferenceOfDistinctValues(int[][] grid);
 }

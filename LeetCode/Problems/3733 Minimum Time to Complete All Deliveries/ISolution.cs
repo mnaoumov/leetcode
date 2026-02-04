@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3733_Minimum_Time_to_Complete_All_Deliveries;
 [PublicAPI]
 public interface ISolution
 {
-    public long MinimumTime(int[] d, int[] r);
+    long MinimumTime(int[] d, int[] r);
 }

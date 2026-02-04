@@ -12,7 +12,7 @@ public class Solution1 : ISolution
     {
         private readonly Dictionary<int, int> _hitsByTimestamp = new();
         private readonly SortedSet<int> _timestamps = new();
-        private int _totalHits = 0;
+        private int _totalHits;
 
         public void Hit(int timestamp)
         {

@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2450_Number_of_Distinct_Binary_Strings_After_Applyi
 [PublicAPI]
 public interface ISolution
 {
-    public int CountDistinctStrings(string s, int k);
+    int CountDistinctStrings(string s, int k);
 }

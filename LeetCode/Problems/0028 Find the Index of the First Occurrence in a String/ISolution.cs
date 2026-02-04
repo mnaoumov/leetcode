@@ -3,5 +3,5 @@ namespace LeetCode.Problems._0028_Find_the_Index_of_the_First_Occurrence_in_a_St
 [PublicAPI]
 public interface ISolution
 {
-    public int StrStr(string haystack, string needle);
+    int StrStr(string haystack, string needle);
 }

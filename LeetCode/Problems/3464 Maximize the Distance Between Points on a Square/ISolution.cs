@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3464_Maximize_the_Distance_Between_Points_on_a_Squa
 [PublicAPI]
 public interface ISolution
 {
-    public int MaxDistance(int side, int[][] points, int k);
+    int MaxDistance(int side, int[][] points, int k);
 }

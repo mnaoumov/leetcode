@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3040_Maximum_Number_of_Operations_With_the_Same_Sco
 [PublicAPI]
 public interface ISolution
 {
-    public int MaxOperations(int[] nums);
+    int MaxOperations(int[] nums);
 }

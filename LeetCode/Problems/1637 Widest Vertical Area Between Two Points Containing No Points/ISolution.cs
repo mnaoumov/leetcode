@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1637_Widest_Vertical_Area_Between_Two_Points_Contai
 [PublicAPI]
 public interface ISolution
 {
-    public int MaxWidthOfVerticalArea(int[][] points);
+    int MaxWidthOfVerticalArea(int[][] points);
 }

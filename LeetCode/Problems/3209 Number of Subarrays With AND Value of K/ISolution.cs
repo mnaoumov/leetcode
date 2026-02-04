@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3209_Number_of_Subarrays_With_AND_Value_of_K;
 [PublicAPI]
 public interface ISolution
 {
-    public long CountSubarrays(int[] nums, int k);
+    long CountSubarrays(int[] nums, int k);
 }

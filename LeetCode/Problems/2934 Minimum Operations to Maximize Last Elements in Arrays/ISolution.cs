@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2934_Minimum_Operations_to_Maximize_Last_Elements_i
 [PublicAPI]
 public interface ISolution
 {
-    public int MinOperations(int[] nums1, int[] nums2);
+    int MinOperations(int[] nums1, int[] nums2);
 }

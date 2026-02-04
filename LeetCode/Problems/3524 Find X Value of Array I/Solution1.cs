@@ -12,8 +12,6 @@ public class Solution1 : ISolution
         var n = nums.Length;
         var ans = new long[k];
 
-        var x = new int[k];
-
         for (var i = 0; i < n; i++)
         {
             var num = nums[i];

@@ -18,7 +18,7 @@ public class Solution1 : ISolution
 
         var counts = new Dictionary<string, int>();
 
-        foreach (var (user, userEntries) in entriesByUsers)
+        foreach (var (_, userEntries) in entriesByUsers)
         {
             var m = userEntries.Length;
 

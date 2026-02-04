@@ -3,5 +3,5 @@ namespace LeetCode.Problems._0714_Best_Time_to_Buy_and_Sell_Stock_with_Transacti
 [PublicAPI]
 public interface ISolution
 {
-    public int MaxProfit(int[] prices, int fee);
+    int MaxProfit(int[] prices, int fee);
 }

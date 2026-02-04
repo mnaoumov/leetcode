@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3578_Count_Partitions_With_Max_Min_Difference_at_Mo
 [PublicAPI]
 public interface ISolution
 {
-    public int CountPartitions(int[] nums, int k);
+    int CountPartitions(int[] nums, int k);
 }

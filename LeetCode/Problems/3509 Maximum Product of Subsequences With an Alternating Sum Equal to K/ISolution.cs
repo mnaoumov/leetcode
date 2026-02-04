@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3509_Maximum_Product_of_Subsequences_With_an_Altern
 [PublicAPI]
 public interface ISolution
 {
-    public int MaxProduct(int[] nums, int k, int limit);
+    int MaxProduct(int[] nums, int k, int limit);
 }

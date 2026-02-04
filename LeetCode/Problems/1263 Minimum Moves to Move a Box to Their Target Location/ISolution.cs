@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1263_Minimum_Moves_to_Move_a_Box_to_Their_Target_Lo
 [PublicAPI]
 public interface ISolution
 {
-    public int MinPushBox(char[][] grid);
+    int MinPushBox(char[][] grid);
 }

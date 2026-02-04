@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2486_Append_Characters_to_String_to_Make_Subsequenc
 [PublicAPI]
 public interface ISolution
 {
-    public int AppendCharacters(string s, string t);
+    int AppendCharacters(string s, string t);
 }

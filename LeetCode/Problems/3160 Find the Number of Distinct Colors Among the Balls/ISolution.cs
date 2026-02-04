@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3160_Find_the_Number_of_Distinct_Colors_Among_the_B
 [PublicAPI]
 public interface ISolution
 {
-    public int[] QueryResults(int limit, int[][] queries);
+    int[] QueryResults(int limit, int[][] queries);
 }

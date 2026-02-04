@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3410_Maximize_Subarray_Sum_After_Removing_All_Occur
 [PublicAPI]
 public interface ISolution
 {
-    public long MaxSubarraySum(int[] nums);
+    long MaxSubarraySum(int[] nums);
 }

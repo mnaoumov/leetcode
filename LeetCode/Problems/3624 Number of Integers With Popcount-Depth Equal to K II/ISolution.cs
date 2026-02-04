@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3624_Number_of_Integers_With_Popcount_Depth_Equal_t
 [PublicAPI]
 public interface ISolution
 {
-    public int[] PopcountDepth(long[] nums, long[][] queries);
+    int[] PopcountDepth(long[] nums, long[][] queries);
 }

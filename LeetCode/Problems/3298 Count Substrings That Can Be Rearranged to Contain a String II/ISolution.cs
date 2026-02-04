@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3298_Count_Substrings_That_Can_Be_Rearranged_to_Con
 [PublicAPI]
 public interface ISolution
 {
-    public long ValidSubstringCount(string word1, string word2);
+    long ValidSubstringCount(string word1, string word2);
 }

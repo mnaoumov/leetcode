@@ -3,5 +3,5 @@ namespace LeetCode.Problems._0426_Convert_Binary_Search_Tree_to_Sorted_Doubly_Li
 [PublicAPI]
 public interface ISolution
 {
-    public Node TreeToDoublyList(Node root);
+    Node TreeToDoublyList(Node root);
 }

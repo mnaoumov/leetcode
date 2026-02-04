@@ -1,7 +1,7 @@
-namespace LeetCode.Problems._100461_Find_the_Original_Typed_String_I;
+namespace LeetCode.Problems._3330_Find_the_Original_Typed_String_I;
 
 [PublicAPI]
 public interface ISolution
 {
-    public int PossibleStringCount(string word);
+    int PossibleStringCount(string word);
 }

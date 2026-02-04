@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2458_Height_of_Binary_Tree_After_Subtree_Removal_Qu
 [PublicAPI]
 public interface ISolution
 {
-    public int[] TreeQueries(TreeNode root, int[] queries);
+    int[] TreeQueries(TreeNode root, int[] queries);
 }

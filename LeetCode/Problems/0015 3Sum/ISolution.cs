@@ -3,5 +3,5 @@ namespace LeetCode.Problems._0015_3Sum;
 [PublicAPI]
 public interface ISolution
 {
-    public IList<IList<int>> ThreeSum(int[] nums);
+    IList<IList<int>> ThreeSum(int[] nums);
 }

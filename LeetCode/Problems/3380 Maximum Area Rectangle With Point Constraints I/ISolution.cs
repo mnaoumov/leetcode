@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3380_Maximum_Area_Rectangle_With_Point_Constraints_
 [PublicAPI]
 public interface ISolution
 {
-    public int MaxRectangleArea(int[][] points);
+    int MaxRectangleArea(int[][] points);
 }

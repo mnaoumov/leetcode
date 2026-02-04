@@ -3,8 +3,8 @@ namespace LeetCode.Problems._1146_Snapshot_Array;
 [PublicAPI]
 public interface ISnapshotArray
 {
-    public void Set(int index, int val);
-    public int Snap();
+    void Set(int index, int val);
+    int Snap();
     // ReSharper disable once InconsistentNaming
-    public int Get(int index, int snap_id);
+    int Get(int index, int snap_id);
 }

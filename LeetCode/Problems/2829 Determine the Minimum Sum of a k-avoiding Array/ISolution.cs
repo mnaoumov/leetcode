@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2829_Determine_the_Minimum_Sum_of_a_k_avoiding_Arra
 [PublicAPI]
 public interface ISolution
 {
-    public int MinimumSum(int n, int k);
+    int MinimumSum(int n, int k);
 }

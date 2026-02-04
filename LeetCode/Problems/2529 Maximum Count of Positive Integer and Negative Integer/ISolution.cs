@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2529_Maximum_Count_of_Positive_Integer_and_Negative
 [PublicAPI]
 public interface ISolution
 {
-    public int MaximumCount(int[] nums);
+    int MaximumCount(int[] nums);
 }

@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1371_Find_the_Longest_Substring_Containing_Vowels_i
 [PublicAPI]
 public interface ISolution
 {
-    public int FindTheLongestSubstring(string s);
+    int FindTheLongestSubstring(string s);
 }

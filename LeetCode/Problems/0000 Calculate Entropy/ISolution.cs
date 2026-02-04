@@ -6,5 +6,5 @@ namespace LeetCode.Problems._0000_Calculate_Entropy;
 [PublicAPI]
 public interface ISolution
 {
-    public double CalculateEntropy(int[] input);
+    double CalculateEntropy(int[] input);
 }

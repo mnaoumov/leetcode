@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3177_Find_the_Maximum_Length_of_a_Good_Subsequence_
 [PublicAPI]
 public interface ISolution
 {
-    public int MaximumLength(int[] nums, int k);
+    int MaximumLength(int[] nums, int k);
 }

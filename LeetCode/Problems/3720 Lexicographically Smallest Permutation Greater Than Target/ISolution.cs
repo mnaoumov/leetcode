@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3720_Lexicographically_Smallest_Permutation_Greater
 [PublicAPI]
 public interface ISolution
 {
-    public string LexGreaterPermutation(string s, string target);
+    string LexGreaterPermutation(string s, string target);
 }

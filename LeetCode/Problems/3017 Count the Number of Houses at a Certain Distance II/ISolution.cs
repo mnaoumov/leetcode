@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3017_Count_the_Number_of_Houses_at_a_Certain_Distan
 [PublicAPI]
 public interface ISolution
 {
-    public long[] CountOfPairs(int n, int x, int y);
+    long[] CountOfPairs(int n, int x, int y);
 }

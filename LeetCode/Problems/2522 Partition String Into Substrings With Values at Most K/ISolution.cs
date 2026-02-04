@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2522_Partition_String_Into_Substrings_With_Values_a
 [PublicAPI]
 public interface ISolution
 {
-    public int MinimumPartition(string s, int k);
+    int MinimumPartition(string s, int k);
 }

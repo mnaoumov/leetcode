@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2441_Largest_Positive_Integer_That_Exists_With_Its_
 [PublicAPI]
 public interface ISolution
 {
-    public int FindMaxK(int[] nums);
+    int FindMaxK(int[] nums);
 }

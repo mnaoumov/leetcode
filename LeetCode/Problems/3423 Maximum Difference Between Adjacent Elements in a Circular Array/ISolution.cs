@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3423_Maximum_Difference_Between_Adjacent_Elements_i
 [PublicAPI]
 public interface ISolution
 {
-    public int MaxAdjacentDistance(int[] nums);
+    int MaxAdjacentDistance(int[] nums);
 }

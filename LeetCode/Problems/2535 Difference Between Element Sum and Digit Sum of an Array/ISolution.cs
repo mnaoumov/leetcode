@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2535_Difference_Between_Element_Sum_and_Digit_Sum_o
 [PublicAPI]
 public interface ISolution
 {
-    public int DifferenceOfSum(int[] nums);
+    int DifferenceOfSum(int[] nums);
 }

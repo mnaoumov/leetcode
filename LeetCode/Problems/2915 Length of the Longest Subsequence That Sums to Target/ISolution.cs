@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2915_Length_of_the_Longest_Subsequence_That_Sums_to
 [PublicAPI]
 public interface ISolution
 {
-    public int LengthOfLongestSubsequence(IList<int> nums, int target);
+    int LengthOfLongestSubsequence(IList<int> nums, int target);
 }

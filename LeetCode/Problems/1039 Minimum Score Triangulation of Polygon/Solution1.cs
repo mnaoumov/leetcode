@@ -31,7 +31,9 @@ public class Solution1 : ISolution
         return dp.GetOrCalculate((0, n - 1));
     }
 
+#pragma warning disable IDE0051
     private static string ToString(IEnumerable<int> values) => string.Join(' ', values);
+#pragma warning restore IDE0051
 
     private class DynamicProgramming<TKey, TValue> where TKey : notnull
     {

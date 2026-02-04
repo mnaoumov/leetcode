@@ -18,7 +18,6 @@ public class Solution1 : ISolution
 
             for (var i = 0; i < n; i++)
             {
-                var letter = sb[i];
                 var letterIndex = sb[i] - 'a';
                 var nextLetterIndex = (letterIndex + 1) % 26;
                 var nextLetter = (char) ('a' + nextLetterIndex);

@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1606_Find_Servers_That_Handled_Most_Number_of_Reque
 [PublicAPI]
 public interface ISolution
 {
-    public IList<int> BusiestServers(int k, int[] arrival, int[] load);
+    IList<int> BusiestServers(int k, int[] arrival, int[] load);
 }

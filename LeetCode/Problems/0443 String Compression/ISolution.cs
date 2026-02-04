@@ -3,5 +3,5 @@ namespace LeetCode.Problems._0443_String_Compression;
 [PublicAPI]
 public interface ISolution
 {
-    public int Compress(char[] chars);
+    int Compress(char[] chars);
 }

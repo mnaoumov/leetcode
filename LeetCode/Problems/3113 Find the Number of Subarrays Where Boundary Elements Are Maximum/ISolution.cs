@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3113_Find_the_Number_of_Subarrays_Where_Boundary_El
 [PublicAPI]
 public interface ISolution
 {
-    public long NumberOfSubarrays(int[] nums);
+    long NumberOfSubarrays(int[] nums);
 }

@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3584_Maximum_Product_of_First_and_Last_Elements_of_
 [PublicAPI]
 public interface ISolution
 {
-    public long MaximumProduct(int[] nums, int m);
+    long MaximumProduct(int[] nums, int m);
 }

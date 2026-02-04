@@ -21,7 +21,7 @@ public class Solution4 : ISolution
             return num * getOrCalculate(num - 1);
         });
 
-        var coefficientDp = new DynamicProgramming<(int idx, int c), ModNumber>((key, get) =>
+        var coefficientDp = new DynamicProgramming<(int idx, int c), ModNumber>((key, _) =>
         {
             var (idx, c) = key;
             return ModNumber.Pow(nums[idx], c) / factDp.GetOrCalculate(c);

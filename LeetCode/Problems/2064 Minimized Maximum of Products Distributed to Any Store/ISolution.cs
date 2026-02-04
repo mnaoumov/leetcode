@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2064_Minimized_Maximum_of_Products_Distributed_to_A
 [PublicAPI]
 public interface ISolution
 {
-    public int MinimizedMaximum(int n, int[] quantities);
+    int MinimizedMaximum(int n, int[] quantities);
 }

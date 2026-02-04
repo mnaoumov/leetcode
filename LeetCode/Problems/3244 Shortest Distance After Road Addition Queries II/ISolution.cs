@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3244_Shortest_Distance_After_Road_Addition_Queries_
 [PublicAPI]
 public interface ISolution
 {
-    public int[] ShortestDistanceAfterQueries(int n, int[][] queries);
+    int[] ShortestDistanceAfterQueries(int n, int[][] queries);
 }

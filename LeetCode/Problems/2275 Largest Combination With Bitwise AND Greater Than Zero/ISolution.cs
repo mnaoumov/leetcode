@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2275_Largest_Combination_With_Bitwise_AND_Greater_T
 [PublicAPI]
 public interface ISolution
 {
-    public int LargestCombination(int[] candidates);
+    int LargestCombination(int[] candidates);
 }

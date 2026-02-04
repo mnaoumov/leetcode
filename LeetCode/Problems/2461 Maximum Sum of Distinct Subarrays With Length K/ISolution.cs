@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2461_Maximum_Sum_of_Distinct_Subarrays_With_Length_
 [PublicAPI]
 public interface ISolution
 {
-    public long MaximumSubarraySum(int[] nums, int k);
+    long MaximumSubarraySum(int[] nums, int k);
 }

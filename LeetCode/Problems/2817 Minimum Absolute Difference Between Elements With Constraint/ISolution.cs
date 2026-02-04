@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2817_Minimum_Absolute_Difference_Between_Elements_W
 [PublicAPI]
 public interface ISolution
 {
-    public int MinAbsoluteDifference(IList<int> nums, int x);
+    int MinAbsoluteDifference(IList<int> nums, int x);
 }

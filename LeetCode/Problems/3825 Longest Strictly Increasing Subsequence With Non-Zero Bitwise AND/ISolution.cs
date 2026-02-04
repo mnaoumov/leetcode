@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3825_Longest_Strictly_Increasing_Subsequence_With_N
 [PublicAPI]
 public interface ISolution
 {
-    public int LongestSubsequence(int[] nums);
+    int LongestSubsequence(int[] nums);
 }

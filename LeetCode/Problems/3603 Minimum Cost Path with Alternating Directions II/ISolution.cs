@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3603_Minimum_Cost_Path_with_Alternating_Directions_
 [PublicAPI]
 public interface ISolution
 {
-    public long MinCost(int m, int n, int[][] waitCost);
+    long MinCost(int m, int n, int[][] waitCost);
 }

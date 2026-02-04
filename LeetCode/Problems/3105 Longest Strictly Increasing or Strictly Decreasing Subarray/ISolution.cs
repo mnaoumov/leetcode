@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3105_Longest_Strictly_Increasing_or_Strictly_Decrea
 [PublicAPI]
 public interface ISolution
 {
-    public int LongestMonotonicSubarray(int[] nums);
+    int LongestMonotonicSubarray(int[] nums);
 }

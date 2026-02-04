@@ -9,10 +9,9 @@ public class Solution1 : ISolution
 {
     public int MaxBalancedSubarray(int[] nums)
     {
-        var n = nums.Length;
         var map = new Dictionary<int, List<Entry>>
         {
-            [0] = new List<Entry> { new Entry(-1, 0, 0) }
+            [0] = new() { new Entry(-1, 0, 0) }
         };
 
         var xor = 0;

@@ -7,5 +7,5 @@ namespace LeetCode.Problems._0000_Calculate_Maximum_Information_Gain;
 public interface ISolution
 {
     // ReSharper disable once InconsistentNaming
-    public double CalculateMaxInfoGain(double[] petal_length, string[] species);
+    double CalculateMaxInfoGain(double[] petal_length, string[] species);
 }

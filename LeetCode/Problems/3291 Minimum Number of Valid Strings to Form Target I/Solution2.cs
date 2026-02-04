@@ -102,29 +102,6 @@ public class Solution2 : ISolution
             return node.WordsStartingWithCount;
         }
 
-        public void Erase(string word)
-        {
-            var count = CountWordsStartingWith(word);
-
-            if (count == 0)
-            {
-                return;
-            }
-
-            var node = _root;
-
-            foreach (var letter in word)
-            {
-                node = node.ChildNodes[letter];
-                node.WordsStartingWithCount--;
-            }
-
-            if (node.WordsEqualToCount > 0)
-            {
-                node.WordsEqualToCount--;
-            }
-        }
-
         private class TrieNode
         {
             public Dictionary<char, TrieNode> ChildNodes { get; } = new();

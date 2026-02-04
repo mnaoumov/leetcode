@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3084_Count_Substrings_Starting_and_Ending_with_Give
 [PublicAPI]
 public interface ISolution
 {
-    public long CountSubstrings(string s, char c);
+    long CountSubstrings(string s, char c);
 }

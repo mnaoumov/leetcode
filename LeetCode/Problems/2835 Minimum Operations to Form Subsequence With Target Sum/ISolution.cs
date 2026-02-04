@@ -3,5 +3,5 @@ namespace LeetCode.Problems._2835_Minimum_Operations_to_Form_Subsequence_With_Ta
 [PublicAPI]
 public interface ISolution
 {
-    public int MinOperations(IList<int> nums, int target);
+    int MinOperations(IList<int> nums, int target);
 }

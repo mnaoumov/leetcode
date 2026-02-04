@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3738_Longest_Non_Decreasing_Subarray_After_Replacin
 [PublicAPI]
 public interface ISolution
 {
-    public int LongestSubarray(int[] nums);
+    int LongestSubarray(int[] nums);
 }

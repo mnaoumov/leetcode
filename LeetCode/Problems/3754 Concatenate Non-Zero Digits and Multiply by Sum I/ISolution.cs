@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3754_Concatenate_Non_Zero_Digits_and_Multiply_by_Su
 [PublicAPI]
 public interface ISolution
 {
-    public long SumAndMultiply(int n);
+    long SumAndMultiply(int n);
 }

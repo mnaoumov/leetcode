@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1466_Reorder_Routes_to_Make_All_Paths_Lead_to_the_C
 [PublicAPI]
 public interface ISolution
 {
-    public int MinReorder(int n, int[][] connections);
+    int MinReorder(int n, int[][] connections);
 }

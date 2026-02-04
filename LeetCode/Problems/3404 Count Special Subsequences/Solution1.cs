@@ -11,8 +11,6 @@ public class Solution1 : ISolution
     {
         var n = nums.Length;
 
-        var counts = new Dictionary<(int numerator, int denominator), int>();
-
         var ans = 0L;
 
         for (var p = 0; p < n; p++)

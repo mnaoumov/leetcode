@@ -1,7 +1,7 @@
 namespace LeetCode.Problems._1717_Maximum_Score_From_Removing_Substrings;
 
 /// <summary>
-/// https://leetcode.com/problems/maximum-score-from-removing-substrings/submissions/1707917095/?envType=daily-question&envId=2025-07-23
+/// https://leetcode.com/problems/maximum-score-from-removing-substrings/submissions/1707917095/
 /// </summary>
 [UsedImplicitly]
 public class Solution3 : ISolution

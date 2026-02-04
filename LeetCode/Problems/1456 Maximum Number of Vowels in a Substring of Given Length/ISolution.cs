@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1456_Maximum_Number_of_Vowels_in_a_Substring_of_Giv
 [PublicAPI]
 public interface ISolution
 {
-    public int MaxVowels(string s, int k);
+    int MaxVowels(string s, int k);
 }

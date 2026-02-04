@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1292_Maximum_Side_Length_of_a_Square_with_Sum_Less_
 [PublicAPI]
 public interface ISolution
 {
-    public int MaxSideLength(int[][] mat, int threshold);
+    int MaxSideLength(int[][] mat, int threshold);
 }

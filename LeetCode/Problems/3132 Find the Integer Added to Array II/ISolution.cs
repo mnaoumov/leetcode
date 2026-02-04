@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3132_Find_the_Integer_Added_to_Array_II;
 [PublicAPI]
 public interface ISolution
 {
-    public int MinimumAddedInteger(int[] nums1, int[] nums2);
+    int MinimumAddedInteger(int[] nums1, int[] nums2);
 }

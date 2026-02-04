@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3212_Count_Submatrices_With_Equal_Frequency_of_X_an
 [PublicAPI]
 public interface ISolution
 {
-    public int NumberOfSubmatrices(char[][] grid);
+    int NumberOfSubmatrices(char[][] grid);
 }

@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3192_Minimum_Operations_to_Make_Binary_Array_Elemen
 [PublicAPI]
 public interface ISolution
 {
-    public int MinOperations(int[] nums);
+    int MinOperations(int[] nums);
 }

@@ -3,5 +3,5 @@ namespace LeetCode.Problems._0766_Toeplitz_Matrix;
 [PublicAPI]
 public interface ISolution
 {
-    public bool IsToeplitzMatrix(int[][] matrix);
+    bool IsToeplitzMatrix(int[][] matrix);
 }

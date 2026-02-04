@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1281_Subtract_the_Product_and_Sum_of_Digits_of_an_I
 [PublicAPI]
 public interface ISolution
 {
-    public int SubtractProductAndSum(int n);
+    int SubtractProductAndSum(int n);
 }

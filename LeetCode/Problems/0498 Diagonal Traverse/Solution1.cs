@@ -1,7 +1,7 @@
 namespace LeetCode.Problems._0498_Diagonal_Traverse;
 
 /// <summary>
-/// https://leetcode.com/problems/diagonal-traverse/submissions/1747186736/?envType=daily-question&envId=2025-08-25
+/// https://leetcode.com/problems/diagonal-traverse/submissions/1747186736/
 /// </summary>
 [UsedImplicitly]
 public class Solution1 : ISolution

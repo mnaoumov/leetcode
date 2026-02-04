@@ -1,4 +1,4 @@
-namespace LeetCode.Problems._100461_Find_the_Original_Typed_String_I;
+namespace LeetCode.Problems._3330_Find_the_Original_Typed_String_I;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

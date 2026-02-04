@@ -3,5 +3,5 @@ namespace LeetCode.Problems._1751_Maximum_Number_of_Events_That_Can_Be_Attended_
 [PublicAPI]
 public interface ISolution
 {
-    public int MaxValue(int[][] events, int k);
+    int MaxValue(int[][] events, int k);
 }

@@ -1,4 +1,4 @@
-namespace LeetCode.Problems._100438_Maximum_Points_Tourist_Can_Earn;
+namespace LeetCode.Problems._3332_Maximum_Points_Tourist_Can_Earn;
 
 [UsedImplicitly]
 [Category("TODO")]

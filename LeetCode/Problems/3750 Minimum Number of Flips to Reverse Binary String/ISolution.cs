@@ -3,5 +3,5 @@ namespace LeetCode.Problems._3750_Minimum_Number_of_Flips_to_Reverse_Binary_Stri
 [PublicAPI]
 public interface ISolution
 {
-    public int MinimumFlips(int n);
+    int MinimumFlips(int n);
 }

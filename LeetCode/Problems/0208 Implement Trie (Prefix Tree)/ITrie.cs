@@ -4,11 +4,11 @@ namespace LeetCode.Problems._0208_Implement_Trie__Prefix_Tree_;
 public interface ITrie
 {
     [UsedImplicitly]
-    public void Insert(string word);
+    void Insert(string word);
 
     [UsedImplicitly]
-    public bool Search(string word);
+    bool Search(string word);
 
     [UsedImplicitly]
-    public bool StartsWith(string prefix);
+    bool StartsWith(string prefix);
 }

@@ -9,7 +9,7 @@ namespace LeetCode.Templates;
 
 public static class UnionFindTemplate
 {
-    private class UnionFind<T> where T : IEquatable<T>
+    private sealed class UnionFind<T> where T : IEquatable<T>
     {
         private readonly Dictionary<T, T> _roots = new();
         private readonly Dictionary<T, int> _ranks = new();

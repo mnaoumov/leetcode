@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using System.Globalization;
 using System.Text.RegularExpressions;
 
 namespace LeetCode.Bash;
@@ -23,7 +24,7 @@ public abstract partial class BashTestsBase<TBashTests> : TestsBase where TBashT
 
         foreach (var (fileName, content) in testCase.Files)
         {
-            await File.WriteAllTextAsync($@"{tempDir.Path}\{fileName}", content);
+            await File.WriteAllTextAsync($@"{tempDir.Path}\{fileName}", content).ConfigureAwait(true);
         }
 
         var process = Process.Start(new ProcessStartInfo
@@ -36,9 +37,9 @@ public abstract partial class BashTestsBase<TBashTests> : TestsBase where TBashT
             CreateNoWindow = true
         })!;
 
-        var standardOutput = FixLineEnding(await process.StandardOutput.ReadToEndAsync());
-        var standardError = FixLineEnding(await process.StandardError.ReadToEndAsync());
-        await process.WaitForExitAsync();
+        var standardOutput = FixLineEnding(await process.StandardOutput.ReadToEndAsync().ConfigureAwait(true));
+        var standardError = FixLineEnding(await process.StandardError.ReadToEndAsync().ConfigureAwait(true));
+        await process.WaitForExitAsync().ConfigureAwait(true);
 
         Assert.Multiple(() =>
         {
@@ -47,7 +48,7 @@ public abstract partial class BashTestsBase<TBashTests> : TestsBase where TBashT
         });
     }
 
-    private static string FixLineEnding(string str) => str.Replace("\r", "").TrimEnd('\n');
+    private static string FixLineEnding(string str) => str.Replace("\r", "", StringComparison.Ordinal).TrimEnd('\n');
 
     private static string ToLinuxFullPath(string solutionScriptPath)
     {
@@ -55,11 +56,13 @@ public abstract partial class BashTestsBase<TBashTests> : TestsBase where TBashT
         var driveLetter = fullPath[0];
         var rootPath = fullPath[2..];
         var linuxRootPath = rootPath.Replace('\\', '/');
-        var linuxFullPath = $"/mnt/{char.ToLower(driveLetter)}{linuxRootPath}";
+        var linuxFullPath = $"/mnt/{char.ToLower(driveLetter, CultureInfo.InvariantCulture)}{linuxRootPath}";
         return linuxFullPath;
     }
 
+#pragma warning disable CA1000
     public static IEnumerable<TestCaseData> JoinedTestCases
+#pragma warning restore CA1000
     {
         get
         {

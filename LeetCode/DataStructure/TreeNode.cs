@@ -1,3 +1,6 @@
+using System.Globalization;
+
+#pragma warning disable CA1051
 namespace LeetCode.DataStructure;
 
 public class TreeNode
@@ -68,7 +71,7 @@ public class TreeNode
 
     public override string ToString()
     {
-        var valuesStr = GetValues(this).Select(value => value == null ? "null" : value.ToString());
+        var valuesStr = GetValues(this).Select(value => value == null ? "null" : ((int)value).ToString(CultureInfo.InvariantCulture));
         return string.Join(",", valuesStr);
     }
 
@@ -140,7 +143,7 @@ public class TreeNode
     public static TreeNode? FromObject(object obj)
     {
         var values = ((object?[]) obj)
-            .Select(valueObj => valueObj == null ? (int?) null : Convert.ToInt32(valueObj))
+            .Select(valueObj => valueObj == null ? (int?) null : Convert.ToInt32(valueObj, CultureInfo.InvariantCulture))
             .ToArray();
         return CreateOrNull(values);
     }

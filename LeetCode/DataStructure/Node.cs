@@ -1,3 +1,4 @@
+#pragma warning disable CA1051
 namespace LeetCode.DataStructure;
 
 public class Node

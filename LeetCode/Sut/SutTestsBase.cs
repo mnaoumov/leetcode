@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Globalization;
 using System.Reflection;
 using System.Runtime.ExceptionServices;
 using System.Text;
@@ -9,7 +10,7 @@ namespace LeetCode.Sut;
 
 public abstract class SutTestsBase<TSolution, TSut> : TestsBase<TSolution, SutTestCase>
 {
-    protected override void TestImpl(TSolution solution, SutTestCase testCase)
+    protected override void TestCore(TSolution solution, SutTestCase testCase)
     {
         var createMethod = solution!.GetType().GetMethod("Create")!;
         var sut = CastAndInvoke(createMethod, solution, testCase.Parameters[0]);
@@ -120,7 +121,7 @@ public abstract class SutTestsBase<TSolution, TSut> : TestsBase<TSolution, SutTe
         switch (value)
         {
             case IConvertible:
-                return Convert.ChangeType(value, conversionType);
+                return Convert.ChangeType(value, conversionType, CultureInfo.InvariantCulture);
             case object[] array:
                 {
                     Type elementType;
@@ -175,7 +176,7 @@ public abstract class SutTestsBase<TSolution, TSut> : TestsBase<TSolution, SutTe
     private static string ToPascalCase(string command)
     {
         var sb = new StringBuilder(command);
-        sb[0] = char.ToUpper(sb[0]);
+        sb[0] = char.ToUpper(sb[0], CultureInfo.InvariantCulture);
         return sb.ToString();
     }
 }

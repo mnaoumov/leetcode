@@ -1,3 +1,4 @@
+#pragma warning disable CA1814
 namespace LeetCode.Helpers;
 
 public static class ArrayHelper

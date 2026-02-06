@@ -7,13 +7,14 @@
 // ReSharper disable UnusedParameter.Local
 // ReSharper disable UnusedMember.Global
 
+using System.Globalization;
 using System.Numerics;
 
 namespace LeetCode.Templates;
 
 public static class ModNumberTemplate
 {
-    private class ModNumber
+    private sealed class ModNumber
     {
         private const int Modulo = 1_000_000_007;
         private readonly int _value;
@@ -50,6 +51,6 @@ public static class ModNumberTemplate
 
         public static ModNumber Pow(ModNumber value, BigInteger exponent) => (int) BigInteger.ModPow((int) value, exponent, Modulo);
 
-        public override string ToString() => _value.ToString();
+        public override string ToString() => _value.ToString(CultureInfo.InvariantCulture);
     }
 }

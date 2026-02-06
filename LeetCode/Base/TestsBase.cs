@@ -14,10 +14,10 @@ public abstract class TestsBase<TSolution, TTestCase> : TestsBase where TTestCas
     [Category("C#")]
     public void Test(TSolution solution, TTestCase testCase)
     {
-        RunTestWithStackAndTimeoutChecks(testCase, () => TestImpl(solution, testCase));
+        RunTestWithStackAndTimeoutChecks(testCase, () => TestCore(solution, testCase));
     }
 
-    protected abstract void TestImpl(TSolution solution, TTestCase testCase);
+    protected abstract void TestCore(TSolution solution, TTestCase testCase);
 
     private static IEnumerable<TestCaseData> JoinedTestCases
     {
@@ -109,7 +109,7 @@ public abstract partial class TestsBase
 
     protected static string? GetProblemDirectory(Type problemRelatedType)
     {
-        var namespacePart = problemRelatedType.Namespace!.Replace("LeetCode.Problems._", "");
+        var namespacePart = problemRelatedType.Namespace!.Replace("LeetCode.Problems._", "", StringComparison.Ordinal);
         var problemNumber = namespacePart.Split('_')[0];
         return GetProblemDirectory(problemNumber, namespacePart, "Problems\\!TODO") ?? GetProblemDirectory(problemNumber, namespacePart, "Problems");
     }
@@ -143,11 +143,13 @@ public abstract partial class TestsBase
                 Converters = { new PlainObjectArrayConverter() }
             };
 
-            var testCase = (TTestCase) serializer.Deserialize(jr, typeof(TTestCase))!;
+            var testCase = serializer.Deserialize<TTestCase>(jr)!;
             testCase.TestCaseName = name;
             return testCase;
         }
+#pragma warning disable CA1031
         catch (Exception ex)
+#pragma warning restore CA1031
         {
             return new TTestCase
             {
@@ -159,6 +161,8 @@ public abstract partial class TestsBase
 
     protected static void RunTestWithStackAndTimeoutChecks(TestCaseBase testCase, Action testAction)
     {
+        ArgumentNullException.ThrowIfNull(testCase);
+
         if (testCase.JsonParsingException != null)
         {
             Assert.Fail(testCase.JsonParsingException.ToString());
@@ -185,7 +189,9 @@ public abstract partial class TestsBase
                 ControlledExecution.Run(testAction, cts.Token);
 #pragma warning restore SYSLIB0046
             }
+#pragma warning disable CA1031
             catch (Exception ex)
+#pragma warning restore CA1031
             {
                 exception = ex;
             }

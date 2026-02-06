@@ -1,6 +1,6 @@
 namespace LeetCode.Helpers;
 
-internal class TempDir : IDisposable
+internal sealed class TempDir : IDisposable
 {
     public string Path { get; }
 
@@ -16,7 +16,9 @@ internal class TempDir : IDisposable
         {
             Directory.Delete(Path, true);
         }
+#pragma warning disable CA1031
         catch
+#pragma warning restore CA1031
         {
             // Ignore
         }

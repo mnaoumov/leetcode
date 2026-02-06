@@ -1,3 +1,4 @@
+#pragma warning disable CA1051
 namespace LeetCode.DataStructure;
 
 [PublicAPI]
@@ -34,7 +35,7 @@ public class ListNode
 
     public static ListNode Create(params int[] values)
     {
-        if (values.Length == 0)
+        if (values == null || values.Length == 0)
         {
             throw new ArgumentException("No values", nameof(values));
         }
@@ -48,10 +49,7 @@ public class ListNode
         return listNode;
     }
 
-    public static ListNode? CreateOrNull(params int[] values)
-    {
-        return values.Any() ? Create(values) : null;
-    }
+    public static ListNode? CreateOrNull(params int[] values) => values.Length > 0 ? Create(values) : null;
 
     public ListNode? FindNode(int value)
     {

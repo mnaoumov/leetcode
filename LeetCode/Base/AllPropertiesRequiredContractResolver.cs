@@ -4,7 +4,7 @@ using Newtonsoft.Json.Serialization;
 
 namespace LeetCode.Base;
 
-internal class AllPropertiesRequiredContractResolver : DefaultContractResolver
+internal sealed class AllPropertiesRequiredContractResolver : DefaultContractResolver
 {
     private Type TestCaseType { get; set; } = null!;
 
@@ -18,7 +18,7 @@ internal class AllPropertiesRequiredContractResolver : DefaultContractResolver
     {
         var property = base.CreateProperty(member, memberSerialization);
 
-        if (member.DeclaringType == TestCaseType && !member.GetCustomAttributes(typeof(JsonPropertyAttribute)).Any())
+        if (member.DeclaringType == TestCaseType && !member.GetCustomAttributes<JsonPropertyAttribute>().Any())
         {
             property.Required = Required.AllowNull;
         }

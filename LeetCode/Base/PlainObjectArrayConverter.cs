@@ -3,7 +3,7 @@ using Newtonsoft.Json.Linq;
 
 namespace LeetCode.Base;
 
-internal class PlainObjectArrayConverter : JsonConverter
+internal sealed class PlainObjectArrayConverter : JsonConverter
 {
     public override void WriteJson(JsonWriter writer, object? value, JsonSerializer serializer)
     {

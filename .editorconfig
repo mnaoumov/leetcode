@@ -49,6 +49,11 @@ dotnet_style_qualification_for_field = false:suggestion
 dotnet_style_qualification_for_method = false:suggestion
 dotnet_style_qualification_for_property = false:suggestion
 dotnet_style_require_accessibility_modifiers = for_non_interface_members:suggestion
+dotnet_diagnostic.ca1062.severity = none
+dotnet_diagnostic.ca1515.severity = none
+dotnet_diagnostic.ca1707.severity = none
+dotnet_diagnostic.ca1819.severity = none
+dotnet_diagnostic.ca2100.severity = none
 dotnet_diagnostic.ide0028.severity = none
 dotnet_diagnostic.ide0290.severity = none
 dotnet_diagnostic.ide0300.severity = none
@@ -128,3 +133,6 @@ tab_width = 4
 indent_style = space
 indent_size = 2
 tab_width = 2
+
+[Tests.cs]
+dotnet_diagnostic.ca1034.severity = none

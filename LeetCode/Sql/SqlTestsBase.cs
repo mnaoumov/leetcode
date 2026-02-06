@@ -20,20 +20,23 @@ public abstract partial class SqlTestsBase<TSqlTests> : TestsBase where TSqlTest
 
     private async Task RunSqlTestAsync(string solutionScriptPath, SqlTestCase testCase)
     {
-        var sqlInstance = new SqlInstance("LeetCodeSqlTests", _ => Task.CompletedTask);
+        using var sqlInstance = new SqlInstance("LeetCodeSqlTests", _ => Task.CompletedTask);
         var dbName = $"{new FileInfo(solutionScriptPath).Directory!.Name} - {Path.GetFileNameWithoutExtension(solutionScriptPath)} - {testCase.TestCaseName}";
         dbName = string.Join("_", dbName.Split(Path.GetInvalidFileNameChars()));
 
-        var db = await sqlInstance.Build(dbName);
-        await using var command = db.Connection.CreateCommand();
+        var db = await sqlInstance.Build(dbName).ConfigureAwait(true);
+        // ReSharper disable once UseAwaitUsing
+        using var command = db.Connection.CreateCommand();
 
         try
         {
             var problemTestCaseDirectory = GetProblemDirectory(typeof(TSqlTests));
-            command.CommandText = await File.ReadAllTextAsync($@"{problemTestCaseDirectory}\SetUp.sql");
-            await command.ExecuteNonQueryAsync();
+            command.CommandText = await File.ReadAllTextAsync($@"{problemTestCaseDirectory}\SetUp.sql").ConfigureAwait(true);
+            await command.ExecuteNonQueryAsync().ConfigureAwait(true);
         }
+#pragma warning disable CA1031
         catch (Exception e)
+#pragma warning restore CA1031
         {
             Assert.Fail($"Error executing SetUp.sql\r\n{e}");
         }
@@ -53,12 +56,14 @@ public abstract partial class SqlTestsBase<TSqlTests> : TestsBase where TSqlTest
                         command.Parameters.AddWithValue($"@p{i}", row[i] ?? DBNull.Value);
                     }
 
-                    await command.ExecuteNonQueryAsync();
+                    await command.ExecuteNonQueryAsync().ConfigureAwait(true);
                     command.Parameters.Clear();
                 }
             }
         }
+#pragma warning disable CA1031
         catch (Exception e)
+#pragma warning restore CA1031
         {
             HandleException(e, "Error preparing test case data");
         }
@@ -67,14 +72,17 @@ public abstract partial class SqlTestsBase<TSqlTests> : TestsBase where TSqlTest
 
         try
         {
-            var script = await File.ReadAllTextAsync(solutionScriptPath);
+            var script = await File.ReadAllTextAsync(solutionScriptPath).ConfigureAwait(true);
 
             command.CommandText = GetResultQuery(db, testCase, script);
-            await using var reader = await command.ExecuteReaderAsync();
+            // ReSharper disable once UseAwaitUsing
+            using var reader = await command.ExecuteReaderAsync().ConfigureAwait(true);
             dt = new DataTable();
             dt.Load(reader);
         }
+#pragma warning disable CA1031
         catch (Exception e)
+#pragma warning restore CA1031
         {
             HandleException(e, "Error getting solution execution result");
         }
@@ -127,6 +135,8 @@ public abstract partial class SqlTestsBase<TSqlTests> : TestsBase where TSqlTest
         {
             AssertCollectionEqualWithDetails(actualData, expectedData);
         }
+
+        dt.Dispose();
     }
 
     private static void HandleException(Exception e, string message)
@@ -145,7 +155,9 @@ public abstract partial class SqlTestsBase<TSqlTests> : TestsBase where TSqlTest
 
     protected abstract string GetResultQuery(SqlDatabase db, SqlTestCase testCase, string script);
 
+#pragma warning disable CA1000
     public static IEnumerable<TestCaseData> JoinedTestCases
+#pragma warning restore CA1000
     {
         get
         {

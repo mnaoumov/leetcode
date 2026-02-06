@@ -16,7 +16,9 @@ public abstract class JavaScriptTestsBase<TJavaScriptTests> : JavaScriptTestsBas
             () => RunJavaScriptTestAsync(solutionScriptPath, testCase, testsScriptPath).GetAwaiter().GetResult());
     }
 
-    public static IEnumerable<TestCaseData> JoinedTestCases => GetJoinedTestCases(typeof(TJavaScriptTests));
+#pragma warning disable CA1000
+    public static IEnumerable<TestCaseData> JoinedTestCases => CalculateJoinedTestCases(typeof(TJavaScriptTests));
+#pragma warning restore CA1000
 }
 
 public partial class JavaScriptTestsBase : TestsBase
@@ -29,14 +31,17 @@ public partial class JavaScriptTestsBase : TestsBase
 
     private static readonly string TestRunnerScriptPath;
 
+#pragma warning disable CA1810
     static JavaScriptTestsBase()
+#pragma warning restore CA1810
     {
         var dir = Directory.GetCurrentDirectory();
         TestRunnerScriptPath = $@"{dir}\JavaScript\TestRunner.js";
 
         if (!File.Exists(TestRunnerScriptPath))
         {
-            throw new InvalidOperationException("TestRunner.js is missing");
+            Console.Error.WriteLine("TestRunner.js is missing");
+            return;
         }
 
         if (!Debugger.IsAttached)
@@ -70,7 +75,7 @@ public partial class JavaScriptTestsBase : TestsBase
         };
     }
 
-    protected static IEnumerable<TestCaseData> GetJoinedTestCases(Type problemRelatedType)
+    protected static IEnumerable<TestCaseData> CalculateJoinedTestCases(Type problemRelatedType)
     {
         var problemTestCaseDirectory = GetProblemDirectory(problemRelatedType)!;
         var testsScriptPath = $@"{problemTestCaseDirectory}\Tests.js";
@@ -128,7 +133,7 @@ public partial class JavaScriptTestsBase : TestsBase
                 args: new object?[]
                 {
                     solutionScriptPath, testCase.TestCaseScriptPath, testsScriptPath, Debugger.IsAttached
-                }))!;
+                }).ConfigureAwait(true))!;
 
             Assert.That(result.ActualResultJson, Is.EqualTo(result.ExpectedResultJson).NoClip);
         }

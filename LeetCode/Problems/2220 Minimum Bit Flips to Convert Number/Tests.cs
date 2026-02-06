@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2220_Minimum_Bit_Flips_to_Convert_Number;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinBitFlips(testCase.Start, testCase.Goal), Is.EqualTo(testCase.Output));
     }

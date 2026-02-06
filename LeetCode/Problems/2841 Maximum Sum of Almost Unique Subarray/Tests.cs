@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2841_Maximum_Sum_of_Almost_Unique_Subarray;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxSum(testCase.Nums, testCase.M, testCase.K), Is.EqualTo(testCase.Output));
     }

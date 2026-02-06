@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3685_Subsequence_Sum_After_Capping_Elements;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.SubsequenceSumAfterCapping(testCase.Nums, testCase.K), testCase.Output);
     }

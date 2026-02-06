@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3270_Find_the_Key_of_the_Numbers;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.GenerateKey(testCase.Num1, testCase.Num2, testCase.Num3), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1662_Check_If_Two_String_Arrays_are_Equivalent;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.ArrayStringsAreEqual(testCase.Word1, testCase.Word2), Is.EqualTo(testCase.Output));
     }

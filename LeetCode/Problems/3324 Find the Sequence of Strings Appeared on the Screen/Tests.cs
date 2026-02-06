@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3324_Find_the_Sequence_of_Strings_Appeared_on_the_S
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.StringSequence(testCase.Target), testCase.Output);
     }

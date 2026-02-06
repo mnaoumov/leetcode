@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3331_Find_Subtree_Sizes_After_Changes;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.FindSubtreeSizes(testCase.Parent, testCase.S), testCase.Output);
     }

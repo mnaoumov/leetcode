@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0149_Max_Points_on_a_Line;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxPoints(testCase.Points), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2839_Check_if_Strings_Can_be_Made_Equal_With_Operat
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CanBeEqual(testCase.S1, testCase.S2), Is.EqualTo(testCase.Output));
     }

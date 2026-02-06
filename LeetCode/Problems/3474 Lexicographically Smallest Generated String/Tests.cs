@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3474_Lexicographically_Smallest_Generated_String;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.GenerateString(testCase.Str1, testCase.Str2), Is.EqualTo(testCase.Output));
     }

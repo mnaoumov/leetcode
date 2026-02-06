@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0727_Minimum_Window_Subsequence;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinWindow(testCase.S1, testCase.S2), Is.EqualTo(testCase.Output));
     }

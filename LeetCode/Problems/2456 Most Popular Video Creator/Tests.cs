@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2456_Most_Popular_Video_Creator;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.MostPopularCreator(testCase.Creators, testCase.Ids, testCase.Views), testCase.Output);
     }

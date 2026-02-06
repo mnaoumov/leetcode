@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3382_Maximum_Area_Rectangle_With_Point_Constraints_
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxRectangleArea(testCase.XCoord, testCase.YCoord), Is.EqualTo(testCase.Output));
     }

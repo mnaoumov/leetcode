@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1727_Largest_Submatrix_With_Rearrangements;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.LargestSubmatrix(testCase.Matrix), Is.EqualTo(testCase.Output));
     }

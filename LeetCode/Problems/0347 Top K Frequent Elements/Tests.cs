@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0347_Top_K_Frequent_Elements;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEquivalentWithDetails(solution.TopKFrequent(testCase.Nums, testCase.K), testCase.Output);
     }

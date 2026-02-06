@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1208_Get_Equal_Substrings_Within_Budget;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.EqualSubstring(testCase.S, testCase.T, testCase.MaxCost), Is.EqualTo(testCase.Output));
     }

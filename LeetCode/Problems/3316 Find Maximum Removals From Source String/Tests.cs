@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3316_Find_Maximum_Removals_From_Source_String;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxRemovals(testCase.Source, testCase.Pattern, testCase.TargetIndices), Is.EqualTo(testCase.Output));
     }

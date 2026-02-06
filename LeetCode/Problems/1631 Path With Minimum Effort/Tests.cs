@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1631_Path_With_Minimum_Effort;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumEffortPath(testCase.Heights), Is.EqualTo(testCase.Output));
     }

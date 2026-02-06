@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0734_Sentence_Similarity;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.AreSentencesSimilar(testCase.Sentence1, testCase.Sentence2, testCase.SimilarPairs), Is.EqualTo(testCase.Output));
     }

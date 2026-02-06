@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0572_Subtree_of_Another_Tree;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.IsSubtree(TreeNode.Create(testCase.Root), TreeNode.Create(testCase.SubRoot)), Is.EqualTo(testCase.Output));
     }

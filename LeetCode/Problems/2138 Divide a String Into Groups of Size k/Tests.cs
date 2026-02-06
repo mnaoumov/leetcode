@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2138_Divide_a_String_Into_Groups_of_Size_k;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.DivideString(testCase.S, testCase.K, testCase.Fill), testCase.Output);
     }

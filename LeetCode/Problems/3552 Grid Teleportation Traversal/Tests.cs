@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3552_Grid_Teleportation_Traversal;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinMoves(testCase.Matrix), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3607_Power_Grid_Maintenance;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.ProcessQueries(testCase.C, testCase.Connections, testCase.Queries), testCase.Output);
     }

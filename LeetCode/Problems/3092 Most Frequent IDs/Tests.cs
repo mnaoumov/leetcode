@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3092_Most_Frequent_IDs;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.MostFrequentIDs(testCase.Nums, testCase.Freq), testCase.Output);
     }

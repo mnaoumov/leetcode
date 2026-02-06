@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3809_Best_Reachable_Tower;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.BestTower(testCase.Towers, testCase.Center, testCase.Radius), testCase.Output);
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1931_Painting_a_Grid_With_Three_Different_Colors;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.ColorTheGrid(testCase.M, testCase.N), Is.EqualTo(testCase.Output));
     }

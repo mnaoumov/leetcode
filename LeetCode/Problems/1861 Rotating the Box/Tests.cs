@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1861_Rotating_the_Box;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.RotateTheBox(testCase.Box), testCase.Output);
     }

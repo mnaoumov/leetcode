@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3311_Construct_2D_Grid_Matching_Graph_Layout;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.ConstructGridLayout(testCase.N, testCase.Edges), testCase.Output);
     }

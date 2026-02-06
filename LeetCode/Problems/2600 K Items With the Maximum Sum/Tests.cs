@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2600_K_Items_With_the_Maximum_Sum;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.KItemsWithMaximumSum(testCase.NumOnes, testCase.NumZeros, testCase.NumNegOnes, testCase.K), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2169_Count_Operations_to_Obtain_Zero;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountOperations(testCase.Num1, testCase.Num2), Is.EqualTo(testCase.Output));
     }

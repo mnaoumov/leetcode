@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3678_Smallest_Absent_Positive_Greater_Than_Average;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.SmallestAbsent(testCase.Nums), Is.EqualTo(testCase.Output));
     }

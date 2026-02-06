@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0010_Regular_Expression_Matching;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.IsMatch(testCase.S, testCase.P), Is.EqualTo(testCase.Output));
     }

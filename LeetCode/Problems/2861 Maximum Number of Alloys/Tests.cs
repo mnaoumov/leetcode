@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2861_Maximum_Number_of_Alloys;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxNumberOfAlloys(testCase.N, testCase.K, testCase.Budget, testCase.Composition, testCase.Stock, testCase.Cost), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3271_Hash_Divided_String;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.StringHash(testCase.S, testCase.K), Is.EqualTo(testCase.Output));
     }

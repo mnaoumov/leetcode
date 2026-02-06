@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3615_Longest_Palindromic_Path_in_Graph;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxLen(testCase.N, testCase.Edges, testCase.Label), Is.EqualTo(testCase.Output));
     }

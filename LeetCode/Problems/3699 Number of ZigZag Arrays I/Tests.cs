@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3699_Number_of_ZigZag_Arrays_I;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.ZigZagArrays(testCase.N, testCase.L, testCase.R), Is.EqualTo(testCase.Output));
     }

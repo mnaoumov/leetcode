@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3494_Find_the_Minimum_Amount_of_Time_to_Brew_Potion
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinTime(testCase.Skill, testCase.Mana), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0876_Middle_of_the_Linked_List;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MiddleNode(ListNode.Create(testCase.Head)), Is.EqualTo(ListNode.Create(testCase.Output)));
     }

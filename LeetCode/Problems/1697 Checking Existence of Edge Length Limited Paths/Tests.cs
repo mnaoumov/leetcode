@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1697_Checking_Existence_of_Edge_Length_Limited_Path
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.DistanceLimitedPathsExist(testCase.N, testCase.EdgeList, testCase.Queries), testCase.Output);
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1060_Missing_Element_in_Sorted_Array;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MissingElement(testCase.Nums, testCase.K), Is.EqualTo(testCase.Output));
     }

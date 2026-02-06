@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2682_Find_the_Losers_of_the_Circular_Game;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.CircularGameLosers(testCase.N, testCase.K), testCase.Output);
     }

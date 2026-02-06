@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1669_Merge_In_Between_Linked_Lists;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(
             solution.MergeInBetween(ListNode.Create(testCase.List1), testCase.A, testCase.B,

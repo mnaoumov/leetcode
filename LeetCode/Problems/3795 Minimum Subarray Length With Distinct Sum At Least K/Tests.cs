@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3795_Minimum_Subarray_Length_With_Distinct_Sum_At_L
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinLength(testCase.Nums, testCase.K), Is.EqualTo(testCase.Output));
     }

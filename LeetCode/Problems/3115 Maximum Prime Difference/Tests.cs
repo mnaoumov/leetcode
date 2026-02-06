@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3115_Maximum_Prime_Difference;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaximumPrimeDifference(testCase.Nums), Is.EqualTo(testCase.Output));
     }

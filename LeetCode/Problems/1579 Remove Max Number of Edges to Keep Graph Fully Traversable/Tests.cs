@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1579_Remove_Max_Number_of_Edges_to_Keep_Graph_Fully
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxNumEdgesToRemove(testCase.N, testCase.Edges), Is.EqualTo(testCase.Output));
     }

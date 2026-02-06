@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1855_Maximum_Distance_Between_a_Pair_of_Values;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxDistance(testCase.Nums1, testCase.Nums2), Is.EqualTo(testCase.Output));
     }

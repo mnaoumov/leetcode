@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3123_Find_Edges_in_Shortest_Paths;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.FindAnswer(testCase.N, testCase.Edges), testCase.Output);
     }

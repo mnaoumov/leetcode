@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0325_Maximum_Size_Subarray_Sum_Equals_k;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxSubArrayLen(testCase.Nums, testCase.K), Is.EqualTo(testCase.Output));
     }

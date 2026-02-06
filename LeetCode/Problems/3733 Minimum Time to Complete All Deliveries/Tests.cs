@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3733_Minimum_Time_to_Complete_All_Deliveries;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumTime(testCase.D, testCase.R), Is.EqualTo(testCase.Output));
     }

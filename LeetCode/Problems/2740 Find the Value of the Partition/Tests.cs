@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2740_Find_the_Value_of_the_Partition;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.FindValueOfPartition(testCase.Nums), Is.EqualTo(testCase.Output));
     }

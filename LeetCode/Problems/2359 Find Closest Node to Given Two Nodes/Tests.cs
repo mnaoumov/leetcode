@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2359_Find_Closest_Node_to_Given_Two_Nodes;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.ClosestMeetingNode(testCase.Edges, testCase.Node1, testCase.Node2), Is.EqualTo(testCase.Output));
     }

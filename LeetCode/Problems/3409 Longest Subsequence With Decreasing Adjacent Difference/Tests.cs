@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3409_Longest_Subsequence_With_Decreasing_Adjacent_D
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.LongestSubsequence(testCase.Nums), Is.EqualTo(testCase.Output));
     }

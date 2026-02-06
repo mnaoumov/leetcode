@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3266_Final_Array_State_After_K_Multiplication_Opera
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.GetFinalState(testCase.Nums, testCase.K, testCase.Multiplier), testCase.Output);
     }

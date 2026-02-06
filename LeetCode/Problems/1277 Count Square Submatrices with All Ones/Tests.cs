@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1277_Count_Square_Submatrices_with_All_Ones;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountSquares(testCase.Matrix), Is.EqualTo(testCase.Output));
     }

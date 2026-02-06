@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2647_Color_the_Triangle_Red;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var actual = solution.ColorRed(testCase.N);
         Assert.That(actual.Length, Is.EqualTo(testCase.Output.Length));

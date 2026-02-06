@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3567_Minimum_Absolute_Difference_in_Sliding_Submatr
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.MinAbsDiff(testCase.Grid, testCase.K), testCase.Output);
     }

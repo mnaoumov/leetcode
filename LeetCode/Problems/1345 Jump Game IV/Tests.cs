@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1345_Jump_Game_IV;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinJumps(testCase.Arr), Is.EqualTo(testCase.Output));
     }

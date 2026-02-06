@@ -4,7 +4,7 @@ namespace LeetCode.Problems._2836_Maximize_Value_of_Function_in_a_Ball_Passing_G
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.GetMaxFunctionValue(testCase.Receiver, testCase.K), Is.EqualTo(testCase.Output));
     }

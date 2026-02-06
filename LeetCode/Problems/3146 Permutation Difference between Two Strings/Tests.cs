@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3146_Permutation_Difference_between_Two_Strings;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.FindPermutationDifference(testCase.S, testCase.T), Is.EqualTo(testCase.Output));
     }

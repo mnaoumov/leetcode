@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3388_Count_Beautiful_Splits_in_an_Array;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.BeautifulSplits(testCase.Nums), Is.EqualTo(testCase.Output));
     }

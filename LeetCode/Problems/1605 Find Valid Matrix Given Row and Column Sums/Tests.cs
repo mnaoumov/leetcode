@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1605_Find_Valid_Matrix_Given_Row_and_Column_Sums;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var ans = solution.RestoreMatrix(testCase.RowSum, testCase.ColSum);
         var m = testCase.RowSum.Length;

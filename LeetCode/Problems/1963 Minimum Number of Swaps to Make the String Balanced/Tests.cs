@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1963_Minimum_Number_of_Swaps_to_Make_the_String_Bal
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinSwaps(testCase.S), Is.EqualTo(testCase.Output));
     }

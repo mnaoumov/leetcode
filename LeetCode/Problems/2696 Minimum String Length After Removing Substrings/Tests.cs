@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2696_Minimum_String_Length_After_Removing_Substring
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinLength(testCase.S), Is.EqualTo(testCase.Output));
     }

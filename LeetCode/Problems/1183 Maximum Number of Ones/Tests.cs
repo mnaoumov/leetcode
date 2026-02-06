@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1183_Maximum_Number_of_Ones;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaximumNumberOfOnes(testCase.Width, testCase.Height, testCase.SideLength, testCase.MaxOnes), Is.EqualTo(testCase.Output));
     }

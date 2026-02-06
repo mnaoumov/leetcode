@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3274_Check_if_Two_Chessboard_Squares_Have_the_Same_
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CheckTwoChessboards(testCase.Coordinate1, testCase.Coordinate2), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0089_Gray_Code;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var output = solution.GrayCode(testCase.N);
 

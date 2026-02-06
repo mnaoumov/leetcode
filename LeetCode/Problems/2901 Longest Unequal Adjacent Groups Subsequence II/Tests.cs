@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2901_Longest_Unequal_Adjacent_Groups_Subsequence_II
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var ans = solution.GetWordsInLongestSubsequence(testCase.N, testCase.Words, testCase.Groups);
 

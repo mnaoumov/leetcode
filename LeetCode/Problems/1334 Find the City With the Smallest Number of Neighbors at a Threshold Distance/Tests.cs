@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1334_Find_the_City_With_the_Smallest_Number_of_Neig
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.FindTheCity(testCase.N, testCase.Edges, testCase.DistanceThreshold), Is.EqualTo(testCase.Output));
     }

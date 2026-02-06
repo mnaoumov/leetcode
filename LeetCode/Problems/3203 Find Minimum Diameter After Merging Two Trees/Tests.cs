@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3203_Find_Minimum_Diameter_After_Merging_Two_Trees;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumDiameterAfterMerge(testCase.Edges1, testCase.Edges2), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3295_Report_Spam_Message;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.ReportSpam(testCase.Message, testCase.BannedWords), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1328_Break_a_Palindrome;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.BreakPalindrome(testCase.Palindrome), Is.EqualTo(testCase.Output));
     }

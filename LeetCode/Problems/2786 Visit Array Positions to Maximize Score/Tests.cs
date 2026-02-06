@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2786_Visit_Array_Positions_to_Maximize_Score;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxScore(testCase.Nums, testCase.X), Is.EqualTo(testCase.Output));
     }

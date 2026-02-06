@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1491_Average_Salary_Excluding_the_Minimum_and_Maxim
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.Average(testCase.Salary), Is.EqualTo(testCase.Output));
     }

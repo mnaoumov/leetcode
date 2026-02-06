@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0875_Koko_Eating_Bananas;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinEatingSpeed(testCase.Piles, testCase.H), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3074_Apple_Redistribution_into_Boxes;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumBoxes(testCase.Apple, testCase.Capacity), Is.EqualTo(testCase.Output));
     }

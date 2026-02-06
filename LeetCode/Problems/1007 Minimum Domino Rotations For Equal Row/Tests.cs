@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1007_Minimum_Domino_Rotations_For_Equal_Row;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinDominoRotations(testCase.Tops, testCase.Bottoms), Is.EqualTo(testCase.Output));
     }

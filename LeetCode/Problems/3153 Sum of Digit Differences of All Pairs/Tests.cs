@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3153_Sum_of_Digit_Differences_of_All_Pairs;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.SumDigitDifferences(testCase.Nums), Is.EqualTo(testCase.Output));
     }

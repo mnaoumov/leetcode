@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2563_Count_the_Number_of_Fair_Pairs;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountFairPairs(testCase.Nums, testCase.Lower, testCase.Upper), Is.EqualTo(testCase.Output));
     }

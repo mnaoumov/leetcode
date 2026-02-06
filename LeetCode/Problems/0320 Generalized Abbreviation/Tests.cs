@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0320_Generalized_Abbreviation;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEquivalentWithDetails(solution.GenerateAbbreviations(testCase.Word), testCase.Output);
     }

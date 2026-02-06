@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3413_Maximum_Coins_From_K_Consecutive_Bags;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaximumCoins(testCase.Coins, testCase.K), Is.EqualTo(testCase.Output));
     }

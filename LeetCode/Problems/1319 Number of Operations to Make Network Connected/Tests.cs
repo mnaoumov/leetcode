@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1319_Number_of_Operations_to_Make_Network_Connected
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MakeConnected(testCase.N, testCase.Connections), Is.EqualTo(testCase.Output));
     }

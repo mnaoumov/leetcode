@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3194_Minimum_Average_of_Smallest_and_Largest_Elemen
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumAverage(testCase.Nums), Is.EqualTo(testCase.Output));
     }

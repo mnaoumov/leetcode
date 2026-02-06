@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2904_Shortest_and_Lexicographically_Smallest_Beauti
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.ShortestBeautifulSubstring(testCase.S, testCase.K), Is.EqualTo(testCase.Output));
     }

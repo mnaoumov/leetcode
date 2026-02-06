@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0776_Split_BST;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.SplitBST(TreeNode.CreateOrNull(testCase.Root), testCase.Target).Select(TreeNode.GetValues), testCase.Output);
     }

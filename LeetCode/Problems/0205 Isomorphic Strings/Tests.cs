@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0205_Isomorphic_Strings;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.IsIsomorphic(testCase.S, testCase.T), Is.EqualTo(testCase.Output));
     }

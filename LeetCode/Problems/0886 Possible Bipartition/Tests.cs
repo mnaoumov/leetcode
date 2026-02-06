@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0886_Possible_Bipartition;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.PossibleBipartition(testCase.N, testCase.Dislikes), Is.EqualTo(testCase.Output));
     }

@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3500_Minimum_Cost_to_Divide_Array_Into_Subarrays;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumCost(testCase.Nums, testCase.Cost, testCase.K), Is.EqualTo(testCase.Output));
     }

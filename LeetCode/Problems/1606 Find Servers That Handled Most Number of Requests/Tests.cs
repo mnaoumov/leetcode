@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1606_Find_Servers_That_Handled_Most_Number_of_Reque
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.BusiestServers(testCase.K, testCase.Arrival, testCase.Load), testCase.Output);
     }

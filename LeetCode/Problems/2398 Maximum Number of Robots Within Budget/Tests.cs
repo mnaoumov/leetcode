@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2398_Maximum_Number_of_Robots_Within_Budget;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaximumRobots(testCase.ChargeTimes, testCase.RunningCosts, testCase.Budget), Is.EqualTo(testCase.Output));
     }

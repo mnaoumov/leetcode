@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3661_Maximum_Walls_Destroyed_by_Robots;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxWalls(testCase.Robots, testCase.Distance, testCase.Walls), Is.EqualTo(testCase.Output));
     }

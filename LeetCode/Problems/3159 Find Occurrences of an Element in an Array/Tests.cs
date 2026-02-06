@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3159_Find_Occurrences_of_an_Element_in_an_Array;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.OccurrencesOfElement(testCase.Nums, testCase.Queries, testCase.X), testCase.Output);
     }

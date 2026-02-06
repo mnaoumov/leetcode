@@ -4,7 +4,7 @@ namespace LeetCode.Problems._2791_Count_Paths_That_Can_Form_a_Palindrome_in_a_Tr
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountPalindromePaths(testCase.Parent, testCase.S), Is.EqualTo(testCase.Output));
     }

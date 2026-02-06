@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3542_Minimum_Operations_to_Convert_All_Elements_to_
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinOperations(testCase.Nums), Is.EqualTo(testCase.Output));
     }

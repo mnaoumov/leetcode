@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2849_Determine_if_a_Cell_Is_Reachable_at_a_Given_Ti
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.IsReachableAtTime(testCase.Sx, testCase.Sy, testCase.Fx, testCase.Fy, testCase.T), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2946_Matrix_Similarity_After_Cyclic_Shifts;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.AreSimilar(testCase.Mat, testCase.K), Is.EqualTo(testCase.Output));
     }

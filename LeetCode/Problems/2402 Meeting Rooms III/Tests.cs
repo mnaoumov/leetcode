@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2402_Meeting_Rooms_III;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MostBooked(testCase.N, ArrayHelper.DeepCopy(testCase.Meetings)), Is.EqualTo(testCase.Output));
     }

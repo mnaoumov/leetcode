@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3589_Count_Prime_Gap_Balanced_Subarrays;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.PrimeSubarray(testCase.Nums, testCase.K), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2385_Amount_of_Time_for_Binary_Tree_to_Be_Infected;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.AmountOfTime(TreeNode.Create(testCase.Root), testCase.Start), Is.EqualTo(testCase.Output));
     }

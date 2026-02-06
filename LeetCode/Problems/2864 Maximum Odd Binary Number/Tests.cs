@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2864_Maximum_Odd_Binary_Number;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaximumOddBinaryNumber(testCase.S), Is.EqualTo(testCase.Output));
     }

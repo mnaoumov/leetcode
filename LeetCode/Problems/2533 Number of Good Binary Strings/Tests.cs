@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2533_Number_of_Good_Binary_Strings;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.GoodBinaryStrings(testCase.MinLength, testCase.MaxLength, testCase.OneGroup, testCase.ZeroGroup), Is.EqualTo(testCase.Output));
     }

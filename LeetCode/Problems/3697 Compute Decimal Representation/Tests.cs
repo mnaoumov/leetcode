@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3697_Compute_Decimal_Representation;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.DecimalRepresentation(testCase.N), testCase.Output);
     }

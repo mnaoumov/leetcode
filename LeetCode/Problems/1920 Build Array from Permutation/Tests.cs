@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1920_Build_Array_from_Permutation;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.BuildArray(testCase.Nums), testCase.Output);
     }

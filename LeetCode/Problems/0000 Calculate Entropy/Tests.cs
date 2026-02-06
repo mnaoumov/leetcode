@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0000_Calculate_Entropy;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var output = solution.CalculateEntropy(testCase.Input);
         Assert.That(output, Is.EqualTo(testCase.Output).Within(1e-6));

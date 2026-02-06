@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1829_Maximum_XOR_for_Each_Query;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.GetMaximumXor(testCase.Nums, testCase.MaximumBit), testCase.Output);
     }

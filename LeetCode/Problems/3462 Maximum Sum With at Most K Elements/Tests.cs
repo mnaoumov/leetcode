@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3462_Maximum_Sum_With_at_Most_K_Elements;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxSum(testCase.Grid, testCase.Limits, testCase.K), Is.EqualTo(testCase.Output));
     }

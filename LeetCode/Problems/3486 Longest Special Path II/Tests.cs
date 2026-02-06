@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3486_Longest_Special_Path_II;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.LongestSpecialPath(testCase.Edges, testCase.Nums), testCase.Output);
     }

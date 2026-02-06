@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0863_All_Nodes_Distance_K_in_Binary_Tree;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var root = TreeNode.Create(testCase.Root);
         var target = root.FindNode(testCase.Target)!;

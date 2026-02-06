@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2735_Collecting_Chocolates;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinCost(testCase.Nums, testCase.X), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2477_Minimum_Fuel_Cost_to_Report_to_the_Capital;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumFuelCost(testCase.Roads, testCase.Seats), Is.EqualTo(testCase.Output));
     }

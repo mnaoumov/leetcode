@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3248_Snake_in_Matrix;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.FinalPositionOfSnake(testCase.N, testCase.Commands), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2662_Minimum_Cost_of_a_Path_With_Special_Roads;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumCost(testCase.Start, testCase.Target, testCase.SpecialRoads), Is.EqualTo(testCase.Output));
     }

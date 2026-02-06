@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3136_Valid_Word;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.IsValid(testCase.Word), Is.EqualTo(testCase.Output));
     }

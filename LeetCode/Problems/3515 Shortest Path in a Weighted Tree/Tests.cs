@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3515_Shortest_Path_in_a_Weighted_Tree;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.TreeQueries(testCase.N, testCase.Edges, testCase.Queries), testCase.Output);
     }

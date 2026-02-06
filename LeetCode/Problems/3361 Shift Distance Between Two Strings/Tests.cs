@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3361_Shift_Distance_Between_Two_Strings;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.ShiftDistance(testCase.S, testCase.T, testCase.NextCost, testCase.PreviousCost), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3582_Generate_Tag_for_Video_Caption;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.GenerateTag(testCase.Caption), Is.EqualTo(testCase.Output));
     }

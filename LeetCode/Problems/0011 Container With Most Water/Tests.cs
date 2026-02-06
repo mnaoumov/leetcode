@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0011_Container_With_Most_Water;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxArea(testCase.Height), Is.EqualTo(testCase.Output));
     }

@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3420_Count_Non_Decreasing_Subarrays_After_K_Operati
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountNonDecreasingSubarrays(testCase.Nums, testCase.K), Is.EqualTo(testCase.Output));
     }

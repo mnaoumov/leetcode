@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2519_Count_the_Number_of_K_Big_Indices;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.KBigIndices(testCase.Nums, testCase.K), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3805_Count_Caesar_Cipher_Pairs;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountPairs(testCase.Words), Is.EqualTo(testCase.Output));
     }

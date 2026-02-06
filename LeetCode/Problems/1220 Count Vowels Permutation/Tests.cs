@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1220_Count_Vowels_Permutation;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountVowelPermutation(testCase.N), Is.EqualTo(testCase.Output));
     }

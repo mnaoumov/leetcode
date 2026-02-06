@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0859_Buddy_Strings;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.BuddyStrings(testCase.S, testCase.Goal), Is.EqualTo(testCase.Output));
     }

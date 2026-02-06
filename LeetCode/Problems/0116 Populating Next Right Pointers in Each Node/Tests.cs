@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0116_Populating_Next_Right_Pointers_in_Each_Node;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var output = solution.Connect(Node.Create(testCase.RootValues));
 

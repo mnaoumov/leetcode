@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0662_Maximum_Width_of_Binary_Tree;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.WidthOfBinaryTree(TreeNode.Create(testCase.Root)), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0050_Pow_x__n_;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MyPow(testCase.X, testCase.N), Is.EqualTo(testCase.Output).Within(1e-10));
     }

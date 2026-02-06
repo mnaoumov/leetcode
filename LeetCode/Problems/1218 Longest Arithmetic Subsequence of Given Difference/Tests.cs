@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1218_Longest_Arithmetic_Subsequence_of_Given_Differ
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.LongestSubsequence(testCase.Arr, testCase.Difference), Is.EqualTo(testCase.Output));
     }

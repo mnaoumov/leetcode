@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1567_Maximum_Length_of_Subarray_With_Positive_Produ
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.GetMaxLen(testCase.Nums), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0505_The_Maze_II;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.ShortestDistance(testCase.Maze, testCase.Start, testCase.Destination), Is.EqualTo(testCase.Output));
     }

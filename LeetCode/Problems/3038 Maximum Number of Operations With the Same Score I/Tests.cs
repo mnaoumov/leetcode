@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3038_Maximum_Number_of_Operations_With_the_Same_Sco
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxOperations(testCase.Nums), Is.EqualTo(testCase.Output));
     }

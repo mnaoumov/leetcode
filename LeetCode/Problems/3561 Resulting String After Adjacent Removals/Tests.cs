@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3561_Resulting_String_After_Adjacent_Removals;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.ResultingString(testCase.S), Is.EqualTo(testCase.Output));
     }

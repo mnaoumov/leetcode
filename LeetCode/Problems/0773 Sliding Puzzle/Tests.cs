@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0773_Sliding_Puzzle;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.SlidingPuzzle(testCase.Board), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0028_Find_the_Index_of_the_First_Occurrence_in_a_St
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.StrStr(testCase.HayStack, testCase.Needle), Is.EqualTo(testCase.Output));
     }

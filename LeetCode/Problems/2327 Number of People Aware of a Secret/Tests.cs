@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2327_Number_of_People_Aware_of_a_Secret;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.PeopleAwareOfSecret(testCase.N, testCase.Delay, testCase.Forget), Is.EqualTo(testCase.Output));
     }

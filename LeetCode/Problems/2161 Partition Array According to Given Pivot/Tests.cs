@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2161_Partition_Array_According_to_Given_Pivot;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.PivotArray(testCase.Nums, testCase.Pivot), testCase.Output);
     }

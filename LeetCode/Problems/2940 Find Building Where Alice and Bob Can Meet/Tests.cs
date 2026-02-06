@@ -4,7 +4,7 @@ namespace LeetCode.Problems._2940_Find_Building_Where_Alice_and_Bob_Can_Meet;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.LeftmostBuildingQueries(testCase.Heights, testCase.Queries), testCase.Output);
     }

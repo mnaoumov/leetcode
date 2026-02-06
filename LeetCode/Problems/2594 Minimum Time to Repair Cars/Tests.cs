@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2594_Minimum_Time_to_Repair_Cars;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.RepairCars(testCase.Ranks, testCase.Cars), Is.EqualTo(testCase.Output));
     }

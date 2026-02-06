@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1317_Convert_Integer_to_the_Sum_of_Two_No_Zero_Inte
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var arr = solution.GetNoZeroIntegers(testCase.N);
 

@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3362_Zero_Array_Transformation_III;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxRemoval(testCase.Nums, testCase.Queries), Is.EqualTo(testCase.Output));
     }

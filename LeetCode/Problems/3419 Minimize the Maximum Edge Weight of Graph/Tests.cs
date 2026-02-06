@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3419_Minimize_the_Maximum_Edge_Weight_of_Graph;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinMaxWeight(testCase.N, testCase.Edges, testCase.Threshold), Is.EqualTo(testCase.Output));
     }

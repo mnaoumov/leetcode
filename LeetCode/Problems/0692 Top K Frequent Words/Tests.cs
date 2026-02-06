@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0692_Top_K_Frequent_Words;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.TopKFrequent(testCase.Words, testCase.K), testCase.Output);
     }

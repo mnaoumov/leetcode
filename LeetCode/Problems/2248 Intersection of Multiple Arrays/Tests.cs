@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2248_Intersection_of_Multiple_Arrays;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.Intersection(testCase.Nums), testCase.Output);
     }

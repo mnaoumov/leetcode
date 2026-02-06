@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3376_Minimum_Time_to_Break_Locks_I;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.FindMinimumTime(testCase.Strength, testCase.K), Is.EqualTo(testCase.Output));
     }

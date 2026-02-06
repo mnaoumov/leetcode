@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0278_First_Bad_Version;
 [UsedImplicitly]
 public class Tests : TestsBase<VersionControl, Tests.TestCase>
 {
-    protected override void TestImpl(VersionControl solution, TestCase testCase)
+    protected override void TestCore(VersionControl solution, TestCase testCase)
     {
         solution.SetFirstBadVersion(testCase.Bad);
         Assert.That(solution.FirstBadVersion(testCase.N), Is.EqualTo(testCase.Output));

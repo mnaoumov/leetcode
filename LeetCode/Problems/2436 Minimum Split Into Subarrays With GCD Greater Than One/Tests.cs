@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2436_Minimum_Split_Into_Subarrays_With_GCD_Greater_
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumSplits(testCase.Nums), Is.EqualTo(testCase.Output));
     }

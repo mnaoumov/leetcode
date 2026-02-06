@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3483_Unique_3_Digit_Even_Numbers;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.TotalNumbers(testCase.Digits), Is.EqualTo(testCase.Output));
     }

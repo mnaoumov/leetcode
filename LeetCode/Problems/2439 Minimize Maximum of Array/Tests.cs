@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2439_Minimize_Maximum_of_Array;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimizeArrayValue(testCase.Nums), Is.EqualTo(testCase.Output));
     }

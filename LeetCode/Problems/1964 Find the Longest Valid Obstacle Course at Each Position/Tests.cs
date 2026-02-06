@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1964_Find_the_Longest_Valid_Obstacle_Course_at_Each
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.LongestObstacleCourseAtEachPosition(testCase.Obstacles), testCase.Output);
     }

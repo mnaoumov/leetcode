@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2670_Find_the_Distinct_Difference_Array;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.DistinctDifferenceArray(testCase.Nums), testCase.Output);
     }

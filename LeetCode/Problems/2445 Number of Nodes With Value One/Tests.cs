@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2445_Number_of_Nodes_With_Value_One;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.NumberOfNodes(testCase.N, testCase.Queries), Is.EqualTo(testCase.Output));
     }

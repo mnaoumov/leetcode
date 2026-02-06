@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2957_Remove_Adjacent_Almost_Equal_Characters;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.RemoveAlmostEqualCharacters(testCase.Word), Is.EqualTo(testCase.Output));
     }

@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3337_Total_Characters_in_String_After_Transformatio
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.LengthAfterTransformations(testCase.S, testCase.T, testCase.Nums), Is.EqualTo(testCase.Output));
     }

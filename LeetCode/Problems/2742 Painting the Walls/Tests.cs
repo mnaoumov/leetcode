@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2742_Painting_the_Walls;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.PaintWalls(testCase.Cost, testCase.Time), Is.EqualTo(testCase.Output));
     }

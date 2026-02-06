@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1168_Optimize_Water_Distribution_in_a_Village;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinCostToSupplyWater(testCase.N, testCase.Wells, testCase.Pipes), Is.EqualTo(testCase.Output));
     }

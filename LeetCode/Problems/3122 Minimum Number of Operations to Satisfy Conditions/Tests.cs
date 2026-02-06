@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3122_Minimum_Number_of_Operations_to_Satisfy_Condit
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumOperations(testCase.Grid), Is.EqualTo(testCase.Output));
     }

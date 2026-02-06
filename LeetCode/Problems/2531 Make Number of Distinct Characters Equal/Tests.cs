@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2531_Make_Number_of_Distinct_Characters_Equal;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.IsItPossible(testCase.Word1, testCase.Word2), Is.EqualTo(testCase.Output));
     }

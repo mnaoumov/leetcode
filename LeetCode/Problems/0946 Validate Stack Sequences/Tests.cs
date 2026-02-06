@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0946_Validate_Stack_Sequences;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.ValidateStackSequences(testCase.Pushed, testCase.Popped), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3503_Longest_Palindrome_After_Substring_Concatenati
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.LongestPalindrome(testCase.S, testCase.T), Is.EqualTo(testCase.Output));
     }

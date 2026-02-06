@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3742_Maximum_Path_Score_in_a_Grid;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxPathScore(testCase.Grid, testCase.K), Is.EqualTo(testCase.Output));
     }

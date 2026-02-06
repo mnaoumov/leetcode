@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0450_Delete_Node_in_a_BST;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var result = solution.DeleteNode(TreeNode.CreateOrNull(testCase.Root), testCase.Key);
         var originalNumbers = testCase.Root.OfType<int>().ToArray();

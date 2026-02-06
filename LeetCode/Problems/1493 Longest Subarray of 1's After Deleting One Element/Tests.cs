@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1493_Longest_Subarray_of_1_s_After_Deleting_One_Ele
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.LongestSubarray(testCase.Nums), Is.EqualTo(testCase.Output));
     }

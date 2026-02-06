@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0757_Set_Intersection_Size_At_Least_Two;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.IntersectionSizeTwo(testCase.Intervals), Is.EqualTo(testCase.Output));
     }

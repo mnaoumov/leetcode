@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2510_Check_if_There_is_a_Path_With_Equal_Number_of_
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.IsThereAPath(testCase.Grid), Is.EqualTo(testCase.Output));
     }

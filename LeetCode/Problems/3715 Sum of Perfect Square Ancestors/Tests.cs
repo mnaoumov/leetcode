@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3715_Sum_of_Perfect_Square_Ancestors;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.SumOfAncestors(testCase.N, testCase.Edges, testCase.Nums), Is.EqualTo(testCase.Output));
     }

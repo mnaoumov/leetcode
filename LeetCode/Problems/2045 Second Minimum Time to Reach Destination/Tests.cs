@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2045_Second_Minimum_Time_to_Reach_Destination;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.SecondMinimum(testCase.N, testCase.Edges, testCase.Time, testCase.Change), Is.EqualTo(testCase.Output));
     }

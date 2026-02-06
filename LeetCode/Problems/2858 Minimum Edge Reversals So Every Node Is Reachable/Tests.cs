@@ -4,7 +4,7 @@ namespace LeetCode.Problems._2858_Minimum_Edge_Reversals_So_Every_Node_Is_Reacha
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.MinEdgeReversals(testCase.N, testCase.Edges), testCase.Output);
     }

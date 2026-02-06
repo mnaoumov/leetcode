@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3447_Assign_Elements_to_Groups_with_Constraints;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.AssignElements(testCase.Groups, testCase.Elements), testCase.Output);
     }

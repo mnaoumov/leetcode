@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1750_Minimum_Length_of_String_After_Deleting_Simila
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumLength(testCase.S), Is.EqualTo(testCase.Output));
     }

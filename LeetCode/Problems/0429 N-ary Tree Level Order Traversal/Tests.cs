@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0429_N_ary_Tree_Level_Order_Traversal;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var root = Node.CreateOrNull(testCase.Root);
         AssertCollectionEqualWithDetails(solution.LevelOrder(root), testCase.Output);

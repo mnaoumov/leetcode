@@ -4,7 +4,7 @@ namespace LeetCode.Problems._2813_Maximum_Elegance_of_a_K_Length_Subsequence;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.FindMaximumElegance(testCase.Items, testCase.K), Is.EqualTo(testCase.Output));
     }

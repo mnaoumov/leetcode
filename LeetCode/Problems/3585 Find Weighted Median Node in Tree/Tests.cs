@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3585_Find_Weighted_Median_Node_in_Tree;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.FindMedian(testCase.N, testCase.Edges, testCase.Queries), testCase.Output);
     }

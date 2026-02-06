@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3529_Count_Cells_in_Overlapping_Horizontal_and_Vert
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountCells(testCase.Grid, testCase.Pattern), Is.EqualTo(testCase.Output));
     }

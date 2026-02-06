@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2512_Reward_Top_K_Students;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.TopStudents(testCase.Positive_feedback, testCase.Negative_feedback, testCase.Report, testCase.Student_id, testCase.K), testCase.Output);
     }

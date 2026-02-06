@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1582_Special_Positions_in_a_Binary_Matrix;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.NumSpecial(testCase.Mat), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1905_Count_Sub_Islands;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountSubIslands(testCase.Grid1, testCase.Grid2), Is.EqualTo(testCase.Output));
     }

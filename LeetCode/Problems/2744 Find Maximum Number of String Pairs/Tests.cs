@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2744_Find_Maximum_Number_of_String_Pairs;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaximumNumberOfStringPairs(testCase.Words), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0725_Split_Linked_List_in_Parts;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var output = testCase.Output.Select(ListNode.CreateOrNull);
         AssertCollectionEqualWithDetails(solution.SplitListToParts(ListNode.CreateOrNull(testCase.Head), testCase.K),

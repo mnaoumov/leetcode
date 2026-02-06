@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0913_Cat_and_Mouse;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CatMouseGame(testCase.Graph), Is.EqualTo(testCase.Output));
     }

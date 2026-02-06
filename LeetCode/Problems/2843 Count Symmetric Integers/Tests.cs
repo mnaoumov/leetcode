@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2843_Count_Symmetric_Integers;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountSymmetricIntegers(testCase.Low, testCase.High), Is.EqualTo(testCase.Output));
     }

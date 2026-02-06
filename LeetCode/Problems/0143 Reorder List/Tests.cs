@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0143_Reorder_List;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var head = ListNode.Create(testCase.Head);
 

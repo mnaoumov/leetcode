@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3296_Minimum_Number_of_Seconds_to_Make_Mountain_Hei
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinNumberOfSeconds(testCase.MountainHeight, testCase.WorkerTimes), Is.EqualTo(testCase.Output));
     }

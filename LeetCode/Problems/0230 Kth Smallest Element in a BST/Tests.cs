@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0230_Kth_Smallest_Element_in_a_BST;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.KthSmallest(TreeNode.Create(testCase.Root), testCase.K), Is.EqualTo(testCase.Output));
     }

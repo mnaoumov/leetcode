@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3443_Maximum_Manhattan_Distance_After_K_Changes;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxDistance(testCase.S, testCase.K), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1424_Diagonal_Traverse_II;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.FindDiagonalOrder(testCase.Nums), testCase.Output);
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3063_Linked_List_Frequency;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var ans = solution.FrequenciesOfElements(ListNode.Create(testCase.Head));
         AssertCollectionEquivalentWithDetails(GetValues(ans), testCase.Output);

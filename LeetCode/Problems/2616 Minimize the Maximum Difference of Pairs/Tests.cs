@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2616_Minimize_the_Maximum_Difference_of_Pairs;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimizeMax(testCase.Nums, testCase.P), Is.EqualTo(testCase.Output));
     }

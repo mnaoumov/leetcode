@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1258_Synonymous_Sentences;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.GenerateSentences(testCase.Synonyms, testCase.Text), testCase.Output);
     }

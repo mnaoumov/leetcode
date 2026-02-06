@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0443_String_Compression;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var chars = testCase.Chars.ToArray();
         Assert.That(solution.Compress(chars), Is.EqualTo(testCase.Output.Length));

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2251_Number_of_Flowers_in_Full_Bloom;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.FullBloomFlowers(testCase.Flowers, testCase.Persons), testCase.Output);
     }

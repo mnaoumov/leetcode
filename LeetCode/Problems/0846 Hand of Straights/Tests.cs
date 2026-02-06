@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0846_Hand_of_Straights;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.IsNStraightHand(testCase.Hand, testCase.GroupSize), Is.EqualTo(testCase.Output));
     }

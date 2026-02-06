@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2974_Minimum_Number_Game;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.NumberGame(testCase.Nums), testCase.Output);
     }

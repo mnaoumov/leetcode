@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0812_Largest_Triangle_Area;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.LargestTriangleArea(testCase.Points), Is.EqualTo(testCase.Output).Within(1e-5));
     }

@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3414_Maximum_Score_of_Non_overlapping_Intervals;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.MaximumWeight(testCase.Intervals), testCase.Output);
     }

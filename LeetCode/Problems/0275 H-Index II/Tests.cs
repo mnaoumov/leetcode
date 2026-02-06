@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0275_H_Index_II;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.HIndex(testCase.Citations), Is.EqualTo(testCase.Output));
     }

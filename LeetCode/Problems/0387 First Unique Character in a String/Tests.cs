@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0387_First_Unique_Character_in_a_String;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.FirstUniqChar(testCase.S), Is.EqualTo(testCase.Output));
     }

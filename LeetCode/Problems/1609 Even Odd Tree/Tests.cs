@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1609_Even_Odd_Tree;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.IsEvenOddTree(TreeNode.Create(testCase.Root)), Is.EqualTo(testCase.Output));
     }

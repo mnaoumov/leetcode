@@ -4,7 +4,7 @@ namespace LeetCode.Problems._2846_Minimum_Edge_Weight_Equilibrium_Queries_in_a_T
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.MinOperationsQueries(testCase.N, testCase.Edges, testCase.Queries), testCase.Output);
     }

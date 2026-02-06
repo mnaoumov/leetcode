@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0461_Hamming_Distance;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.HammingDistance(testCase.X, testCase.Y), Is.EqualTo(testCase.Output));
     }

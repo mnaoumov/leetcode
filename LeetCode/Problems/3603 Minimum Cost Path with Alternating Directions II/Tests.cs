@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3603_Minimum_Cost_Path_with_Alternating_Directions_
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinCost(testCase.M, testCase.N, testCase.WaitCost), Is.EqualTo(testCase.Output));
     }

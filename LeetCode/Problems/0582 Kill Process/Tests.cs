@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0582_Kill_Process;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.KillProcess(testCase.Pid, testCase.Ppid, testCase.Kill), testCase.Output);
     }

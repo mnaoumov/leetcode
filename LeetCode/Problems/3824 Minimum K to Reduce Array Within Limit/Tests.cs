@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3824_Minimum_K_to_Reduce_Array_Within_Limit;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumK(testCase.Nums), Is.EqualTo(testCase.Output));
     }

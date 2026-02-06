@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3692_Majority_Frequency_Characters;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEquivalentWithDetails(solution.MajorityFrequencyGroup(testCase.S), testCase.Output);
     }

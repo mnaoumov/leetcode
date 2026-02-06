@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3213_Construct_String_with_Minimum_Cost;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumCost(testCase.Target, testCase.Words, testCase.Costs), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1548_The_Most_Similar_Path_in_a_Graph;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.MostSimilar(testCase.N, testCase.Roads, testCase.Names, testCase.TargetPath), testCase.Output);
     }

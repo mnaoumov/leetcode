@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3796_Find_Maximum_Value_in_a_Constrained_Sequence;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.FindMaxVal(testCase.N, testCase.Restrictions, testCase.Diff), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2831_Find_the_Longest_Equal_Subarray;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.LongestEqualSubarray(testCase.Nums, testCase.K), Is.EqualTo(testCase.Output));
     }

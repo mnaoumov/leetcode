@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3680_Generate_Schedule;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var schedule = solution.GenerateSchedule(testCase.N);
 

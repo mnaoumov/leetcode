@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3091_Apply_Operations_to_Make_Sum_of_Array_Greater_
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinOperations(testCase.K), Is.EqualTo(testCase.Output));
     }

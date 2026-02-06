@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1314_Matrix_Block_Sum;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.MatrixBlockSum(testCase.Mat, testCase.K), testCase.Output);
     }

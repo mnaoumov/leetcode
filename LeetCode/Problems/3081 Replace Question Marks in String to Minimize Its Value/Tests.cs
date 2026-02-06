@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3081_Replace_Question_Marks_in_String_to_Minimize_I
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimizeStringValue(testCase.S), Is.EqualTo(testCase.Output));
     }

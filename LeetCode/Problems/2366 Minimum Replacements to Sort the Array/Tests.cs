@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2366_Minimum_Replacements_to_Sort_the_Array;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumReplacement(testCase.Nums), Is.EqualTo(testCase.Output));
     }

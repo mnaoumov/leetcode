@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3354_Make_Array_Elements_Equal_to_Zero;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountValidSelections(testCase.Nums), Is.EqualTo(testCase.Output));
     }

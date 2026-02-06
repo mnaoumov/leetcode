@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0535_Encode_and_Decode_TinyURL;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var codec = solution.Create();
         Assert.That(codec.decode(codec.encode(testCase.Url)), Is.EqualTo(testCase.Url));

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0652_Find_Duplicate_Subtrees;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var actualSerializedSubtrees = solution.FindDuplicateSubtrees(TreeNode.Create(testCase.Root)).Select(subtree => subtree.ToString());
         var expectedSerializedSubtrees = testCase.Output.Select(values => TreeNode.Create(values).ToString());

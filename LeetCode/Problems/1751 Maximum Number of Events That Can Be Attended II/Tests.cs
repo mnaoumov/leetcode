@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1751_Maximum_Number_of_Events_That_Can_Be_Attended_
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxValue(testCase.Events, testCase.K), Is.EqualTo(testCase.Output));
     }

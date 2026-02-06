@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0124_Binary_Tree_Maximum_Path_Sum;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxPathSum(TreeNode.Create(testCase.Values)), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2236_Root_Equals_Sum_of_Children;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CheckTree(TreeNode.Create(testCase.Root)), Is.EqualTo(testCase.Output));
     }

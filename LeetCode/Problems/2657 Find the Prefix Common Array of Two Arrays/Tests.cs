@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2657_Find_the_Prefix_Common_Array_of_Two_Arrays;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.FindThePrefixCommonArray(testCase.A, testCase.B), testCase.Output);
     }

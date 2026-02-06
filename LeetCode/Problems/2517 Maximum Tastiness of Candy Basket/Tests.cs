@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2517_Maximum_Tastiness_of_Candy_Basket;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaximumTastiness(testCase.Price, testCase.K), Is.EqualTo(testCase.Output));
     }

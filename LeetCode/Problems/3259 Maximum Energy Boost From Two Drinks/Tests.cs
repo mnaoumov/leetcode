@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3259_Maximum_Energy_Boost_From_Two_Drinks;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxEnergyBoost(testCase.EnergyDrinkA, testCase.EnergyDrinkB), Is.EqualTo(testCase.Output));
     }

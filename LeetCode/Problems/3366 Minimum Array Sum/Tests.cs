@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3366_Minimum_Array_Sum;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinArraySum(testCase.Nums, testCase.K, testCase.Op1, testCase.Op2), Is.EqualTo(testCase.Output));
     }

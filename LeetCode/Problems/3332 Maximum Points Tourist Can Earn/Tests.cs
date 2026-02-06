@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3332_Maximum_Points_Tourist_Can_Earn;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxScore(testCase.N, testCase.K, testCase.StayScore, testCase.TravelScore), Is.EqualTo(testCase.Output));
     }

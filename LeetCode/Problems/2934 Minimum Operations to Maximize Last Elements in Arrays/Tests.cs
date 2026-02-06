@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2934_Minimum_Operations_to_Maximize_Last_Elements_i
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinOperations(testCase.Nums1, testCase.Nums2), Is.EqualTo(testCase.Output));
     }

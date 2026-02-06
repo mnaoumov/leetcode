@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3509_Maximum_Product_of_Subsequences_With_an_Altern
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxProduct(testCase.Nums, testCase.K, testCase.Limit), Is.EqualTo(testCase.Output));
     }

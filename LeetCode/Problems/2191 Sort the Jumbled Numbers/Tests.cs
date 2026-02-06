@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2191_Sort_the_Jumbled_Numbers;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.SortJumbled(testCase.Mapping, testCase.Nums), testCase.Output);
     }

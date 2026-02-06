@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0590_N_ary_Tree_Postorder_Traversal;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var root = Node.CreateOrNull(testCase.Root);
 

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1192_Critical_Connections_in_a_Network;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.CriticalConnections(testCase.N, testCase.Connections), testCase.Output);
     }

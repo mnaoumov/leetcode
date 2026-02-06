@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0241_Different_Ways_to_Add_Parentheses;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEquivalentWithDetails(solution.DiffWaysToCompute(testCase.Expression), testCase.Output);
     }

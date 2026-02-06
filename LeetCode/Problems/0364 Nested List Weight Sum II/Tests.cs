@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0364_Nested_List_Weight_Sum_II;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.DepthSumInverse(NestedIntegerImpl.Create(testCase.NestedList)), Is.EqualTo(testCase.Output));
     }

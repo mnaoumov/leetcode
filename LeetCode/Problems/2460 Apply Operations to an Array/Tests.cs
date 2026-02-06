@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2460_Apply_Operations_to_an_Array;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.ApplyOperations(testCase.Nums), testCase.Output);
     }

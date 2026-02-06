@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2447_Number_of_Subarrays_With_GCD_Equal_to_K;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.SubarrayGCD(testCase.Nums, testCase.K), Is.EqualTo(testCase.Output));
     }

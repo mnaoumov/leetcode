@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1647_Minimum_Deletions_to_Make_Character_Frequencie
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinDeletions(testCase.S), Is.EqualTo(testCase.Output));
     }

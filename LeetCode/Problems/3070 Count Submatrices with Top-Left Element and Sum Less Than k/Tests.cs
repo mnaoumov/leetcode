@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3070_Count_Submatrices_with_Top_Left_Element_and_Su
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountSubmatrices(testCase.Grid, testCase.K), Is.EqualTo(testCase.Output));
     }

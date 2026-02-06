@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3600_Maximize_Spanning_Tree_Stability_with_Upgrades
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxStability(testCase.N, testCase.Edges, testCase.K), Is.EqualTo(testCase.Output));
     }

@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3816_Lexicographically_Smallest_String_After_Deleti
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.LexSmallestAfterDeletion(testCase.S), Is.EqualTo(testCase.Output));
     }

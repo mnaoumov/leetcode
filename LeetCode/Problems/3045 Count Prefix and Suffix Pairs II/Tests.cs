@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3045_Count_Prefix_and_Suffix_Pairs_II;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountPrefixSuffixPairs(testCase.Words), Is.EqualTo(testCase.Output));
     }

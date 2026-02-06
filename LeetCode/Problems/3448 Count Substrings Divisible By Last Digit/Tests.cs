@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3448_Count_Substrings_Divisible_By_Last_Digit;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountSubstrings(testCase.S), Is.EqualTo(testCase.Output));
     }

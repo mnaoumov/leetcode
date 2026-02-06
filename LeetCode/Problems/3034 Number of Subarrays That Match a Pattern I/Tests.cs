@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3034_Number_of_Subarrays_That_Match_a_Pattern_I;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountMatchingSubarrays(testCase.Nums, testCase.Pattern), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2894_Divisible_and_Non_divisible_Sums_Difference;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.DifferenceOfSums(testCase.N, testCase.M), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3305_Count_of_Substrings_Containing_Every_Vowel_and
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountOfSubstrings(testCase.Word, testCase.K), Is.EqualTo(testCase.Output));
     }

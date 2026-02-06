@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3541_Find_Most_Frequent_Vowel_and_Consonant;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxFreqSum(testCase.S), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2038_Remove_Colored_Pieces_if_Both_Neighbors_are_th
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.WinnerOfGame(testCase.Colors), Is.EqualTo(testCase.Output));
     }

@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3261_Count_Substrings_That_Satisfy_K_Constraint_II;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.CountKConstraintSubstrings(testCase.S, testCase.K, testCase.Queries), testCase.Output);
     }

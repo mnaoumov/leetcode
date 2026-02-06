@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3241_Time_Taken_to_Mark_All_Nodes;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.TimeTaken(testCase.Edges), testCase.Output);
     }

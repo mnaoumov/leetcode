@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0632_Smallest_Range_Covering_Elements_from_K_Lists;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.SmallestRange(testCase.Nums), testCase.Output);
     }

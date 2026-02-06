@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0835_Image_Overlap;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         // public int LargestOverlap(int[][] img1, int[][] img2)
         Assert.That(solution.LargestOverlap(testCase.Img1, testCase.Img2), Is.EqualTo(testCase.Output));

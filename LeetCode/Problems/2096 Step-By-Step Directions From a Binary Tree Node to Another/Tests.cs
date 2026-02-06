@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2096_Step_By_Step_Directions_From_a_Binary_Tree_Nod
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.GetDirections(TreeNode.Create(testCase.Root), testCase.StartValue, testCase.DestValue), Is.EqualTo(testCase.Output));
     }

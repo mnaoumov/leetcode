@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0983_Minimum_Cost_For_Tickets;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MincostTickets(testCase.Days, testCase.Costs), Is.EqualTo(testCase.Output));
     }

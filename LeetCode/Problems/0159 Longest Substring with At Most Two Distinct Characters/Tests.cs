@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0159_Longest_Substring_with_At_Most_Two_Distinct_Ch
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.LengthOfLongestSubstringTwoDistinct(testCase.S), Is.EqualTo(testCase.Output));
     }

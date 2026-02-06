@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1143_Longest_Common_Subsequence;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.LongestCommonSubsequence(testCase.Text1, testCase.Text2), Is.EqualTo(testCase.Output));
     }

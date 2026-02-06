@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0905_Sort_Array_By_Parity;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.SortArrayByParity(testCase.Nums), testCase.Output);
     }

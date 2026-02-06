@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1561_Maximum_Number_of_Coins_You_Can_Get;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxCoins(testCase.Piles), Is.EqualTo(testCase.Output));
     }

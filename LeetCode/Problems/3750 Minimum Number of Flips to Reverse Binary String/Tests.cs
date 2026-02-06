@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3750_Minimum_Number_of_Flips_to_Reverse_Binary_Stri
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumFlips(testCase.N), Is.EqualTo(testCase.Output));
     }

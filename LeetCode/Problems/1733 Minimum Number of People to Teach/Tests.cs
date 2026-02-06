@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1733_Minimum_Number_of_People_to_Teach;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumTeachings(testCase.N, testCase.Languages, testCase.Friendships), Is.EqualTo(testCase.Output));
     }

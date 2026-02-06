@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1498_Number_of_Subsequences_That_Satisfy_the_Given_
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.NumSubseq(testCase.Nums, testCase.Target), Is.EqualTo(testCase.Output));
     }

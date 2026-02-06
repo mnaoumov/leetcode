@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1984_Minimum_Difference_Between_Highest_and_Lowest_
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumDifference(testCase.Nums, testCase.K), Is.EqualTo(testCase.Output));
     }

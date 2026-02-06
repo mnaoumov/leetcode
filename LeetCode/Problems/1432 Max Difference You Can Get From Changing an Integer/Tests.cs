@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1432_Max_Difference_You_Can_Get_From_Changing_an_In
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxDiff(testCase.Num), Is.EqualTo(testCase.Output));
     }

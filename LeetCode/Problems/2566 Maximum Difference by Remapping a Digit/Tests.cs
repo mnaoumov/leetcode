@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2566_Maximum_Difference_by_Remapping_a_Digit;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinMaxDifference(testCase.Num), Is.EqualTo(testCase.Output));
     }

@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3553_Minimum_Weighted_Subgraph_With_the_Required_Pa
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.MinimumWeight(testCase.Edges, testCase.Queries), testCase.Output);
     }

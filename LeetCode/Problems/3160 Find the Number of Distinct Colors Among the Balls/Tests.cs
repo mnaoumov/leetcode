@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3160_Find_the_Number_of_Distinct_Colors_Among_the_B
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.QueryResults(testCase.Limit, testCase.Queries), testCase.Output);
     }

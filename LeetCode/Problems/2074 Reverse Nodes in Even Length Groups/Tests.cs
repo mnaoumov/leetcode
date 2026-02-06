@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2074_Reverse_Nodes_in_Even_Length_Groups;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.ReverseEvenLengthGroups(ListNode.Create(testCase.Head)), Is.EqualTo(ListNode.Create(testCase.Output)));
     }

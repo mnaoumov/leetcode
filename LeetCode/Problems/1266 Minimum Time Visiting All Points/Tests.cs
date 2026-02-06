@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1266_Minimum_Time_Visiting_All_Points;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinTimeToVisitAllPoints(testCase.Points), Is.EqualTo(testCase.Output));
     }

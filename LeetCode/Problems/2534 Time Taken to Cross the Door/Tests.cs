@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2534_Time_Taken_to_Cross_the_Door;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.TimeTaken(testCase.Arrival, testCase.State), testCase.Output);
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3190_Find_Minimum_Operations_to_Make_All_Elements_D
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumOperations(testCase.Nums), Is.EqualTo(testCase.Output));
     }

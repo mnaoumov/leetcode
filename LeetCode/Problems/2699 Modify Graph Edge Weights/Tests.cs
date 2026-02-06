@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2699_Modify_Graph_Edge_Weights;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.ModifiedGraphEdges(testCase.N, testCase.Edges, testCase.Source, testCase.Destination, testCase.Target), testCase.Output);
     }

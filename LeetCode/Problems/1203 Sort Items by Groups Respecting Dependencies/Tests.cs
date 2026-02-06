@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1203_Sort_Items_by_Groups_Respecting_Dependencies;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var output = solution.SortItems(testCase.N, testCase.M, testCase.Group, testCase.BeforeItems);
 

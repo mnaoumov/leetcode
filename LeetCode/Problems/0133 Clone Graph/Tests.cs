@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0133_Clone_Graph;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var node = Node.Create(testCase.AdjustmentLists);
         var clone = solution.CloneGraph(node);

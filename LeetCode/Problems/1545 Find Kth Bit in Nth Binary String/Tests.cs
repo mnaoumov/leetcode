@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1545_Find_Kth_Bit_in_Nth_Binary_String;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.FindKthBit(testCase.N, testCase.K), Is.EqualTo(testCase.Output));
     }

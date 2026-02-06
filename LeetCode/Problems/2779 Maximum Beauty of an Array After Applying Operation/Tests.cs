@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2779_Maximum_Beauty_of_an_Array_After_Applying_Oper
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaximumBeauty(testCase.Nums, testCase.K), Is.EqualTo(testCase.Output));
     }

@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3273_Minimum_Amount_of_Damage_Dealt_to_Bob;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinDamage(testCase.Power, testCase.Damage, testCase.Health), Is.EqualTo(testCase.Output));
     }

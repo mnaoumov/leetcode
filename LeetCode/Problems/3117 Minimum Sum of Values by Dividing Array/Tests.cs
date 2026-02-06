@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3117_Minimum_Sum_of_Values_by_Dividing_Array;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumValueSum(testCase.Nums, testCase.AndValues), Is.EqualTo(testCase.Output));
     }

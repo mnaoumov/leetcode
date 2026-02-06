@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2947_Count_Beautiful_Substrings_I;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.BeautifulSubstrings(testCase.S, testCase.K), Is.EqualTo(testCase.Output));
     }

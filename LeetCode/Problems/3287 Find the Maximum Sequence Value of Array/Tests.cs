@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3287_Find_the_Maximum_Sequence_Value_of_Array;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxValue(testCase.Nums, testCase.K), Is.EqualTo(testCase.Output));
     }

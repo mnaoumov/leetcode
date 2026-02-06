@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3002_Maximum_Size_of_a_Set_After_Removals;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaximumSetSize(testCase.Nums1, testCase.Nums2), Is.EqualTo(testCase.Output));
     }

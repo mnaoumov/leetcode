@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2185_Counting_Words_With_a_Given_Prefix;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.PrefixCount(testCase.Words, testCase.Pref), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2545_Sort_the_Students_by_Their_Kth_Score;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.SortTheStudents(testCase.Score, testCase.K), testCase.Output);
     }

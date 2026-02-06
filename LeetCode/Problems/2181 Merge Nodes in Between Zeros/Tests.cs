@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2181_Merge_Nodes_in_Between_Zeros;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MergeNodes(ListNode.Create(testCase.Head)), Is.EqualTo(ListNode.Create(testCase.Output)));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1290_Convert_Binary_Number_in_a_Linked_List_to_Inte
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.GetDecimalValue(ListNode.Create(testCase.Head)), Is.EqualTo(testCase.Output));
     }

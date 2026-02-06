@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2485_Find_the_Pivot_Integer;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.PivotInteger(testCase.N), Is.EqualTo(testCase.Output));
     }

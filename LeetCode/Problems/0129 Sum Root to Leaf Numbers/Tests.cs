@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0129_Sum_Root_to_Leaf_Numbers;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.SumNumbers(TreeNode.Create(testCase.RootValues)), Is.EqualTo(testCase.Output));
     }

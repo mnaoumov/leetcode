@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1570_Dot_Product_of_Two_Sparse_Vectors;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var v1 = solution.Create(testCase.Nums1);
         var v2 = solution.Create(testCase.Nums2);

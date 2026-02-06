@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2000_Reverse_Prefix_of_Word;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.ReversePrefix(testCase.Word, testCase.Ch), Is.EqualTo(testCase.Output));
     }

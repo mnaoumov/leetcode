@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3356_Zero_Array_Transformation_II;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinZeroArray(testCase.Nums, testCase.Queries), Is.EqualTo(testCase.Output));
     }

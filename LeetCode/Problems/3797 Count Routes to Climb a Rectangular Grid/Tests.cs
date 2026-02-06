@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3797_Count_Routes_to_Climb_a_Rectangular_Grid;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.NumberOfRoutes(testCase.Grid, testCase.D), Is.EqualTo(testCase.Output));
     }

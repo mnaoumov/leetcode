@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3557_Find_Maximum_Number_of_Non_Intersecting_Substr
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxSubstrings(testCase.Word), Is.EqualTo(testCase.Output));
     }

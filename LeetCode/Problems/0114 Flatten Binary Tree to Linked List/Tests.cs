@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0114_Flatten_Binary_Tree_to_Linked_List;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var root = TreeNode.CreateOrNull(testCase.Values);
         solution.Flatten(root);

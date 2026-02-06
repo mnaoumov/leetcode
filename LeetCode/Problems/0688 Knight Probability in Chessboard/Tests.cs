@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0688_Knight_Probability_in_Chessboard;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.KnightProbability(testCase.N, testCase.K, testCase.Row, testCase.Column),
             Is.EqualTo(testCase.Output).Within(1e-5));

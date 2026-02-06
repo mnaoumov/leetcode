@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3652_Best_Time_to_Buy_and_Sell_Stock_using_Strategy
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxProfit(testCase.Prices, testCase.Strategy, testCase.K), Is.EqualTo(testCase.Output));
     }

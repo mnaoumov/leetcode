@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2845_Count_of_Interesting_Subarrays;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountInterestingSubarrays(testCase.Nums, testCase.Modulo, testCase.K), Is.EqualTo(testCase.Output));
     }

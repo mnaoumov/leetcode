@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3365_Rearrange_K_Substrings_to_Form_Target_String;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.IsPossibleToRearrange(testCase.S, testCase.T, testCase.K), Is.EqualTo(testCase.Output));
     }

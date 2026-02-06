@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0502_IPO;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.FindMaximizedCapital(testCase.K, testCase.W, testCase.Profits, testCase.Capital), Is.EqualTo(testCase.Output));
     }

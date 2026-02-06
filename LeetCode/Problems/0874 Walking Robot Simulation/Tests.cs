@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0874_Walking_Robot_Simulation;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.RobotSim(testCase.Commands, testCase.Obstacles), Is.EqualTo(testCase.Output));
     }

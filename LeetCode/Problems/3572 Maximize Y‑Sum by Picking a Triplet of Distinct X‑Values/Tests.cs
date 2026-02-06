@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3572_Maximize_Y_Sum_by_Picking_a_Triplet_of_Distinc
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxSumDistinctTriplet(testCase.X, testCase.Y), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1167_Minimum_Cost_to_Connect_Sticks;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.ConnectSticks(testCase.Sticks), Is.EqualTo(testCase.Output));
     }

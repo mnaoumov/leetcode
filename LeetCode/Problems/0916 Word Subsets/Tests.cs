@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0916_Word_Subsets;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.WordSubsets(testCase.Words1, testCase.Words2), testCase.Output);
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1283_Find_the_Smallest_Divisor_Given_a_Threshold;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.SmallestDivisor(testCase.Nums, testCase.Threshold), Is.EqualTo(testCase.Output));
     }

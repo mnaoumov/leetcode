@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2824_Count_Pairs_Whose_Sum_is_Less_than_Target;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountPairs(testCase.Nums, testCase.Target), Is.EqualTo(testCase.Output));
     }

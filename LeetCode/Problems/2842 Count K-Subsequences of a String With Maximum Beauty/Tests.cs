@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2842_Count_K_Subsequences_of_a_String_With_Maximum_
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountKSubsequencesWithMaxBeauty(testCase.S, testCase.K), Is.EqualTo(testCase.Output));
     }

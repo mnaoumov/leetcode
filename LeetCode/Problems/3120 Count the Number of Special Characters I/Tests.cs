@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3120_Count_the_Number_of_Special_Characters_I;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.NumberOfSpecialChars(testCase.Word), Is.EqualTo(testCase.Output));
     }

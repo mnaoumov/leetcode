@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2257_Count_Unguarded_Cells_in_the_Grid;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountUnguarded(testCase.M, testCase.N, testCase.Guards, testCase.Walls), Is.EqualTo(testCase.Output));
     }

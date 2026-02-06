@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2192_All_Ancestors_of_a_Node_in_a_Directed_Acyclic_
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.GetAncestors(testCase.N, testCase.Edges), testCase.Output);
     }

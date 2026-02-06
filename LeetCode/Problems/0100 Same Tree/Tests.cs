@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0100_Same_Tree;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.IsSameTree(TreeNode.Create(testCase.PValues), TreeNode.Create(testCase.QValues)), Is.EqualTo(testCase.Output));
     }

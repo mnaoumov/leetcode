@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2525_Categorize_Box_According_to_Criteria;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CategorizeBox(testCase.Length, testCase.Width, testCase.Height, testCase.Mass), Is.EqualTo(testCase.Output));
     }

@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3404_Count_Special_Subsequences;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.NumberOfSubsequences(testCase.Nums), Is.EqualTo(testCase.Output));
     }

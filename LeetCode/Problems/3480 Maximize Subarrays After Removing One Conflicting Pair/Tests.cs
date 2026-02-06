@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3480_Maximize_Subarrays_After_Removing_One_Conflict
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxSubarrays(testCase.N, testCase.ConflictingPairs), Is.EqualTo(testCase.Output));
     }

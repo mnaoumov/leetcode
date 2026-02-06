@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0653_Two_Sum_IV___Input_is_a_BST;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.FindTarget(TreeNode.Create(testCase.Values), testCase.K), Is.EqualTo(testCase.Output));
     }

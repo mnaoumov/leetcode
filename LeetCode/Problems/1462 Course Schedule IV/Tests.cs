@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1462_Course_Schedule_IV;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.CheckIfPrerequisite(testCase.NumCourses, testCase.Prerequisites, testCase.Queries), testCase.Output);
     }

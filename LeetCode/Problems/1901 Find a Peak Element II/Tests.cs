@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1901_Find_a_Peak_Element_II;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var cell = solution.FindPeakGrid(testCase.Mat);
         var row = cell[0];

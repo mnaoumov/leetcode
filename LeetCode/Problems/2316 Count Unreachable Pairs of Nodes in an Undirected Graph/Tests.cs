@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2316_Count_Unreachable_Pairs_of_Nodes_in_an_Undirec
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountPairs(testCase.N, testCase.Edges), Is.EqualTo(testCase.Output));
     }

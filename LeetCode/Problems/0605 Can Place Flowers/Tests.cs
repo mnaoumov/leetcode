@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0605_Can_Place_Flowers;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CanPlaceFlowers(testCase.Flowerbed, testCase.N), Is.EqualTo(testCase.Output));
     }

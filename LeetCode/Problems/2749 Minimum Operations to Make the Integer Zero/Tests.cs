@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2749_Minimum_Operations_to_Make_the_Integer_Zero;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MakeTheIntegerZero(testCase.Num1, testCase.Num2), Is.EqualTo(testCase.Output));
     }

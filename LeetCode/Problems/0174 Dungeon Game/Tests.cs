@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0174_Dungeon_Game;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CalculateMinimumHP(testCase.Dungeon), Is.EqualTo(testCase.Output));
     }

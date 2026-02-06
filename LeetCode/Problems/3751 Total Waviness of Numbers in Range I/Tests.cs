@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3751_Total_Waviness_of_Numbers_in_Range_I;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.TotalWaviness(testCase.Num1, testCase.Num2), Is.EqualTo(testCase.Output));
     }

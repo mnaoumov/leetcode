@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3256_Maximum_Value_Sum_by_Placing_Three_Rooks_I;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaximumValueSum(testCase.Board), Is.EqualTo(testCase.Output));
     }

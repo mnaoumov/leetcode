@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2182_Construct_String_With_Repeat_Limit;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.RepeatLimitedString(testCase.S, testCase.RepeatLimit), Is.EqualTo(testCase.Output));
     }

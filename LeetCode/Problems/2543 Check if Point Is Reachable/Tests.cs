@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2543_Check_if_Point_Is_Reachable;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.IsReachable(testCase.TargetX, testCase.TargetY), Is.EqualTo(testCase.Output));
     }

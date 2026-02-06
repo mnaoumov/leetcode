@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2450_Number_of_Distinct_Binary_Strings_After_Applyi
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountDistinctStrings(testCase.S, testCase.K), Is.EqualTo(testCase.Output));
     }

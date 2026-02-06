@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1171_Remove_Zero_Sum_Consecutive_Nodes_from_Linked_
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var head = ListNode.Create(testCase.Head);
         var ans = solution.RemoveZeroSumSublists(head);

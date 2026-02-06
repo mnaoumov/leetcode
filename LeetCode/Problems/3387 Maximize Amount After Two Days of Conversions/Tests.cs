@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3387_Maximize_Amount_After_Two_Days_of_Conversions;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxAmount(testCase.InitialCurrency, testCase.Pairs1, testCase.Rates1, testCase.Pairs2, testCase.Rates2), Is.EqualTo(testCase.Output));
     }

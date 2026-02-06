@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3049_Earliest_Second_to_Mark_Indices_II;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.EarliestSecondToMarkIndices(testCase.Nums, testCase.ChangeIndices), Is.EqualTo(testCase.Output));
     }

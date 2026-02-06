@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2250_Count_Number_of_Rectangles_Containing_Each_Poi
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.CountRectangles(testCase.Rectangles, testCase.Points), testCase.Output);
     }

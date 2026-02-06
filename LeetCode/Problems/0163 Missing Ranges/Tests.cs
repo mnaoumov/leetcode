@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0163_Missing_Ranges;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.FindMissingRanges(testCase.Nums, testCase.Lower, testCase.Upper), testCase.Output);
     }

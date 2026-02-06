@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3666_Minimum_Operations_to_Equalize_Binary_String;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinOperations(testCase.S, testCase.K), Is.EqualTo(testCase.Output));
     }

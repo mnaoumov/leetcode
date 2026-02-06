@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3302_Find_the_Lexicographically_Smallest_Valid_Sequ
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.ValidSequence(testCase.Word1, testCase.Word2), testCase.Output);
     }

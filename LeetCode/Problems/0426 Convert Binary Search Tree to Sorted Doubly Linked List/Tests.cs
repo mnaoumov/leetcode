@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0426_Convert_Binary_Search_Tree_to_Sorted_Doubly_Li
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var doublyList = solution.TreeToDoublyList(Node.Create(testCase.Root));
         var values = new List<int>();

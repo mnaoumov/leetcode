@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3285_Find_Indices_of_Stable_Mountains;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.StableMountains(testCase.Height, testCase.Threshold), testCase.Output);
     }

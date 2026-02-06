@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3210_Find_the_Encrypted_String;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.GetEncryptedString(testCase.S, testCase.K), Is.EqualTo(testCase.Output));
     }

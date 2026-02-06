@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0518_Coin_Change_II;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.Change(testCase.Amount, testCase.Coins), Is.EqualTo(testCase.Output));
     }

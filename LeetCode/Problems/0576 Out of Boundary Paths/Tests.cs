@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0576_Out_of_Boundary_Paths;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.FindPaths(testCase.M, testCase.N, testCase.MaxMove, testCase.StartRow, testCase.StartColumn), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3106_Lexicographically_Smallest_String_After_Operat
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.GetSmallestString(testCase.S, testCase.K), Is.EqualTo(testCase.Output));
     }

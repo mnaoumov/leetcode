@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0056_Merge_Intervals;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEquivalentWithDetails(solution.Merge(testCase.Intervals), testCase.Output);
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1992_Find_All_Groups_of_Farmland;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.FindFarmland(testCase.Land), testCase.Output);
     }

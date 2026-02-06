@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0049_Group_Anagrams;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEquivalentIgnoringItemOrderWithDetails(solution.GroupAnagrams(testCase.Strs), testCase.Output);
     }

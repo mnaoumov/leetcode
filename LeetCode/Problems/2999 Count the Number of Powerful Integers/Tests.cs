@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2999_Count_the_Number_of_Powerful_Integers;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.NumberOfPowerfulInt(testCase.Start, testCase.Finish, testCase.Limit, testCase.S), Is.EqualTo(testCase.Output));
     }

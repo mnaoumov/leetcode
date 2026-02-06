@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3107_Minimum_Operations_to_Make_Median_of_Array_Equ
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinOperationsToMakeMedianK(testCase.Nums, testCase.K), Is.EqualTo(testCase.Output));
     }

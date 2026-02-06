@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0017_Letter_Combinations_of_a_Phone_Number;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.LetterCombinations(testCase.Digits), Is.EquivalentTo(testCase.Output));
     }

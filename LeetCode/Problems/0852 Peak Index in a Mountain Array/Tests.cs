@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0852_Peak_Index_in_a_Mountain_Array;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.PeakIndexInMountainArray(testCase.Arr), Is.EqualTo(testCase.Output));
     }

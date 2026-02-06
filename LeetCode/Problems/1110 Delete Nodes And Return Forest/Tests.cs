@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1110_Delete_Nodes_And_Return_Forest;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEquivalentWithDetails(solution.DelNodes(TreeNode.CreateOrNull(testCase.Root), testCase.To_delete).Select(TreeNode.GetValues), testCase.Output);
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3545_Minimum_Deletions_for_At_Most_K_Distinct_Chara
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinDeletion(testCase.S, testCase.K), Is.EqualTo(testCase.Output));
     }

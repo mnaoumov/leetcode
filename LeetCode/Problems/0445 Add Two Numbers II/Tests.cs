@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0445_Add_Two_Numbers_II;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.AddTwoNumbers(ListNode.Create(testCase.L1), ListNode.Create(testCase.L2)),
             Is.EqualTo(ListNode.Create(testCase.Output)));

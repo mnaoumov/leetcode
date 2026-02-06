@@ -4,7 +4,7 @@ namespace LeetCode.Problems._2910_Minimum_Number_of_Groups_to_Create_a_Valid_Ass
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinGroupsForValidAssignment(testCase.Nums), Is.EqualTo(testCase.Output));
     }

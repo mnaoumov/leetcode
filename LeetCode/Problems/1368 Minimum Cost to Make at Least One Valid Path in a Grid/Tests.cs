@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1368_Minimum_Cost_to_Make_at_Least_One_Valid_Path_i
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinCost(testCase.Grid), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2554_Maximum_Number_of_Integers_to_Choose_From_a_Ra
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxCount(testCase.Banned, testCase.N, testCase.MaxSum), Is.EqualTo(testCase.Output));
     }

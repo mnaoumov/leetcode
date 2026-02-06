@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2337_Move_Pieces_to_Obtain_a_String;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CanChange(testCase.Start, testCase.Target), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0160_Intersection_of_Two_Linked_Lists;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var listA = ListNode.Create(testCase.ListA);
         var listB = ListNode.Create(testCase.ListB);

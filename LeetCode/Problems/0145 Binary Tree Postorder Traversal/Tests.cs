@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0145_Binary_Tree_Postorder_Traversal;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.PostorderTraversal(TreeNode.CreateOrNull(testCase.Root)), testCase.Output);
     }

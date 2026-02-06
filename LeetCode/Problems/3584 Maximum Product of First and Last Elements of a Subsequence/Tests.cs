@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3584_Maximum_Product_of_First_and_Last_Elements_of_
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaximumProduct(testCase.Nums, testCase.M), Is.EqualTo(testCase.Output));
     }

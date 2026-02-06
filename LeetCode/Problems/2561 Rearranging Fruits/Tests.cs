@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2561_Rearranging_Fruits;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinCost(testCase.Basket1, testCase.Basket2), Is.EqualTo(testCase.Output));
     }

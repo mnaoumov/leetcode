@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0424_Longest_Repeating_Character_Replacement;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CharacterReplacement(testCase.S, testCase.K), Is.EqualTo(testCase.Output));
     }

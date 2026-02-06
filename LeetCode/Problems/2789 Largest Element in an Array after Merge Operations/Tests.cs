@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2789_Largest_Element_in_an_Array_after_Merge_Operat
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxArrayValue(testCase.Nums), Is.EqualTo(testCase.Output));
     }

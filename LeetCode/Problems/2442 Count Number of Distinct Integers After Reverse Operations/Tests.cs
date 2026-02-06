@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2442_Count_Number_of_Distinct_Integers_After_Revers
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountDistinctIntegers(testCase.Nums), Is.EqualTo(testCase.Output));
     }

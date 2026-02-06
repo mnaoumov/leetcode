@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0189_Rotate_Array;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var nums = testCase.Nums.ToArray();
         solution.Rotate(nums, testCase.K);

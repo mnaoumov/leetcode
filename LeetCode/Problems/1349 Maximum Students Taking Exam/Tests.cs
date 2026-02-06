@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1349_Maximum_Students_Taking_Exam;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxStudents(testCase.Seats), Is.EqualTo(testCase.Output));
     }

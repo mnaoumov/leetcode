@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0921_Minimum_Add_to_Make_Parentheses_Valid;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinAddToMakeValid(testCase.S), Is.EqualTo(testCase.Output));
     }

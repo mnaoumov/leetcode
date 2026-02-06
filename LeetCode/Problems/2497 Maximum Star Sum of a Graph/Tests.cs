@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2497_Maximum_Star_Sum_of_a_Graph;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxStarSum(testCase.Vals, testCase.Edges, testCase.K), Is.EqualTo(testCase.Output));
     }

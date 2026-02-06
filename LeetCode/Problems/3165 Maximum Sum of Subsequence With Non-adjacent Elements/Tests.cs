@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3165_Maximum_Sum_of_Subsequence_With_Non_adjacent_E
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaximumSumSubsequence(testCase.Nums, testCase.Queries), Is.EqualTo(testCase.Output));
     }

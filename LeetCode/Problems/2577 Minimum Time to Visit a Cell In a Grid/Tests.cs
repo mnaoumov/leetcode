@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2577_Minimum_Time_to_Visit_a_Cell_In_a_Grid;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumTime(testCase.Grid), Is.EqualTo(testCase.Output));
     }

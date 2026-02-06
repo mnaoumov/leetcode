@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3547_Maximum_Sum_of_Edge_Values_in_a_Graph;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxScore(testCase.N, testCase.Edges), Is.EqualTo(testCase.Output));
     }

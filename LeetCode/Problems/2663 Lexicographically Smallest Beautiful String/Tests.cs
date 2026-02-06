@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2663_Lexicographically_Smallest_Beautiful_String;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.SmallestBeautifulString(testCase.S, testCase.K), Is.EqualTo(testCase.Output));
     }

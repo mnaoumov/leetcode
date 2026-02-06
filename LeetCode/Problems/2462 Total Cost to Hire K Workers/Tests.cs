@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2462_Total_Cost_to_Hire_K_Workers;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.TotalCost(testCase.Costs, testCase.K, testCase.Candidates), Is.EqualTo(testCase.Output));
     }

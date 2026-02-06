@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3044_Most_Frequent_Prime;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MostFrequentPrime(testCase.Mat), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2830_Maximize_the_Profit_as_the_Salesman;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaximizeTheProfit(testCase.N, testCase.Offers), Is.EqualTo(testCase.Output));
     }

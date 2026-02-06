@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1122_Relative_Sort_Array;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.RelativeSortArray(testCase.Arr1, testCase.Arr2), testCase.Output);
     }

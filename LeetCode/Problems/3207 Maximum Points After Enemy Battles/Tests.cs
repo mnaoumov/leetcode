@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3207_Maximum_Points_After_Enemy_Battles;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaximumPoints(testCase.EnemyEnergies, testCase.CurrentEnergy), Is.EqualTo(testCase.Output));
     }

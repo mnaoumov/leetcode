@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0118_Pascal_s_Triangle;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.Generate(testCase.NumRows), testCase.Output);
     }

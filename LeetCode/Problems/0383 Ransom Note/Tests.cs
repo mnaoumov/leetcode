@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0383_Ransom_Note;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CanConstruct(testCase.RansomNote, testCase.Magazine), Is.EqualTo(testCase.Output));
     }

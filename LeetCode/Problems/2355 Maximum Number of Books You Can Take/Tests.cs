@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2355_Maximum_Number_of_Books_You_Can_Take;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaximumBooks(testCase.Books), Is.EqualTo(testCase.Output));
     }

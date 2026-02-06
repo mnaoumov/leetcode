@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2608_Shortest_Cycle_in_a_Graph;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.FindShortestCycle(testCase.N, testCase.Edges), Is.EqualTo(testCase.Output));
     }

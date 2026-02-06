@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3558_Number_of_Ways_to_Assign_Edge_Weights_I;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.AssignEdgeWeights(testCase.Edges), Is.EqualTo(testCase.Output));
     }

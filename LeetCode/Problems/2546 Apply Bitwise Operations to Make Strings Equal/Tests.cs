@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2546_Apply_Bitwise_Operations_to_Make_Strings_Equal
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MakeStringsEqual(testCase.S, testCase.Target), Is.EqualTo(testCase.Output));
     }

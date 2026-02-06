@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3608_Minimum_Time_for_K_Connected_Components;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinTime(testCase.N, testCase.Edges, testCase.K), Is.EqualTo(testCase.Output));
     }

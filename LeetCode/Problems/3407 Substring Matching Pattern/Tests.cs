@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3407_Substring_Matching_Pattern;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.HasMatch(testCase.S, testCase.P), Is.EqualTo(testCase.Output));
     }

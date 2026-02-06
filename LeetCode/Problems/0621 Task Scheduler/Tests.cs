@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0621_Task_Scheduler;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.LeastInterval(testCase.Tasks, testCase.N), Is.EqualTo(testCase.Output));
     }

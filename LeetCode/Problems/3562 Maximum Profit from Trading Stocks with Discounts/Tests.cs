@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3562_Maximum_Profit_from_Trading_Stocks_with_Discou
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxProfit(testCase.N, testCase.Present, testCase.Future, testCase.Hierarchy, testCase.Budget), Is.EqualTo(testCase.Output));
     }

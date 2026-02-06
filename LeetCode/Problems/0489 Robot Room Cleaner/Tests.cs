@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0489_Robot_Room_Cleaner;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var robot = new Robot(testCase.Room, testCase.Row, testCase.Col);
         solution.CleanRoom(robot);

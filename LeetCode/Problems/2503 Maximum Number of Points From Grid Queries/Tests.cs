@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2503_Maximum_Number_of_Points_From_Grid_Queries;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.MaxPoints(testCase.Grid, testCase.Queries), testCase.Output);
     }

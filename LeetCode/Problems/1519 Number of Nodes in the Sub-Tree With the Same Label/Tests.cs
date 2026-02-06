@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1519_Number_of_Nodes_in_the_Sub_Tree_With_the_Same_
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.CountSubTrees(testCase.N, testCase.Edges, testCase.Labels), testCase.Output);
     }

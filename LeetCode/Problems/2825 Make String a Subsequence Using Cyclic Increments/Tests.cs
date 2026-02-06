@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2825_Make_String_a_Subsequence_Using_Cyclic_Increme
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CanMakeSubsequence(testCase.Str1, testCase.Str2), Is.EqualTo(testCase.Output));
     }

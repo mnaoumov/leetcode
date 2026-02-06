@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0167_Two_Sum_II___Input_Array_Is_Sorted;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.TwoSum(testCase.Numbers, testCase.Target), testCase.Output);
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1857_Largest_Color_Value_in_a_Directed_Graph;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.LargestPathValue(testCase.Colors, testCase.Edges), Is.EqualTo(testCase.Output));
     }

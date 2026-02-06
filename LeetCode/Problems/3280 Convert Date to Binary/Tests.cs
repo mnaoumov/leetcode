@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3280_Convert_Date_to_Binary;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.ConvertDateToBinary(testCase.Date), Is.EqualTo(testCase.Output));
     }

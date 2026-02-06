@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2551_Put_Marbles_in_Bags;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.PutMarbles(testCase.Weights, testCase.K), Is.EqualTo(testCase.Output));
     }

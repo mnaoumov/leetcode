@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3219_Minimum_Cost_for_Cutting_Cake_II;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumCost(testCase.M, testCase.N, testCase.HorizontalCut, testCase.VerticalCut), Is.EqualTo(testCase.Output));
     }

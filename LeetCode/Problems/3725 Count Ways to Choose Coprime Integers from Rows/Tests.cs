@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3725_Count_Ways_to_Choose_Coprime_Integers_from_Row
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountCoprime(testCase.Mat), Is.EqualTo(testCase.Output));
     }

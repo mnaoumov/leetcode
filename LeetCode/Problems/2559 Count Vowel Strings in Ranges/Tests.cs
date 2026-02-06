@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2559_Count_Vowel_Strings_in_Ranges;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.VowelStrings(testCase.Words, testCase.Queries), testCase.Output);
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3144_Minimum_Substring_Partition_of_Equal_Character
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumSubstringsInPartition(testCase.S), Is.EqualTo(testCase.Output));
     }

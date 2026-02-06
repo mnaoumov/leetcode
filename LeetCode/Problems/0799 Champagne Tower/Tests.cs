@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0799_Champagne_Tower;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.ChampagneTower(testCase.Poured, testCase.Query_row, testCase.Query_glass), Is.EqualTo(testCase.Output));
     }

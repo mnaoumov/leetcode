@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0735_Asteroid_Collision;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.AsteroidCollision(testCase.Asteroids), testCase.Output);
     }

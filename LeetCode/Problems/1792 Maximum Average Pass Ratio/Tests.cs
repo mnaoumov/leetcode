@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1792_Maximum_Average_Pass_Ratio;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxAverageRatio(testCase.Classes, testCase.ExtraStudents), Is.EqualTo(testCase.Output).Within(1e-5));
     }

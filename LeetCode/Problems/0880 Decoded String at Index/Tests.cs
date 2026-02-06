@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0880_Decoded_String_at_Index;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.DecodeAtIndex(testCase.S, testCase.K), Is.EqualTo(testCase.Output));
     }

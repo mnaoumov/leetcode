@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3417_Zigzag_Grid_Traversal_With_Skip;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.ZigzagTraversal(testCase.Grid), testCase.Output);
     }

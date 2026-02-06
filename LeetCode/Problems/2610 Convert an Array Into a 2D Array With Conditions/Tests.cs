@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2610_Convert_an_Array_Into_a_2D_Array_With_Conditio
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var list = solution.FindMatrix(testCase.Nums);
 

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3075_Maximize_Happiness_of_Selected_Children;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaximumHappinessSum(testCase.Happiness, testCase.K), Is.EqualTo(testCase.Output));
     }

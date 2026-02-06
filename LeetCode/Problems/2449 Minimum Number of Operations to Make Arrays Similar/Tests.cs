@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2449_Minimum_Number_of_Operations_to_Make_Arrays_Si
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MakeSimilar(testCase.Nums, testCase.Target), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2943_Maximize_Area_of_Square_Hole_in_Grid;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaximizeSquareHoleArea(testCase.N, testCase.M, testCase.HBars, testCase.VBars), Is.EqualTo(testCase.Output));
     }

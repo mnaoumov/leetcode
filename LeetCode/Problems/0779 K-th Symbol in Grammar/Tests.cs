@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0779_K_th_Symbol_in_Grammar;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.KthGrammar(testCase.N, testCase.K), Is.EqualTo(testCase.Output));
     }

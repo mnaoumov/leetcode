@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1894_Find_the_Student_that_Will_Replace_the_Chalk;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.ChalkReplacer(testCase.Chalk, testCase.K), Is.EqualTo(testCase.Output));
     }

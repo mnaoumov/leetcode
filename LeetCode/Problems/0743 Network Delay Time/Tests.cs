@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0743_Network_Delay_Time;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.NetworkDelayTime(testCase.Times, testCase.N, testCase.K), Is.EqualTo(testCase.Output));
     }

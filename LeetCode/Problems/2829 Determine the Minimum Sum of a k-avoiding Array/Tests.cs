@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2829_Determine_the_Minimum_Sum_of_a_k_avoiding_Arra
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumSum(testCase.N, testCase.K), Is.EqualTo(testCase.Output));
     }

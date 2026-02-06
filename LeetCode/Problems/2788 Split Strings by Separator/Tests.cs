@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2788_Split_Strings_by_Separator;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.SplitWordsBySeparator(testCase.Words, testCase.Separator), testCase.Output);
     }

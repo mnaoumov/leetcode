@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2672_Number_of_Adjacent_Elements_With_the_Same_Colo
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.ColorTheArray(testCase.N, testCase.Queries), testCase.Output);
     }

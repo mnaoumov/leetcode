@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0370_Range_Addition;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.GetModifiedArray(testCase.Length, testCase.Updates), testCase.Output);
     }

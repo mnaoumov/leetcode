@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2536_Increment_Submatrices_by_One;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.RangeAddQueries(testCase.N, testCase.Queries), testCase.Output);
     }

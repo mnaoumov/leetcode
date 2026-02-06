@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0683_K_Empty_Slots;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.KEmptySlots(testCase.Bulbs, testCase.K), Is.EqualTo(testCase.Output));
     }

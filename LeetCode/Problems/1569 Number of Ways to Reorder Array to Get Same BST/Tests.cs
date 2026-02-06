@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1569_Number_of_Ways_to_Reorder_Array_to_Get_Same_BS
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.NumOfWays(testCase.Nums), Is.EqualTo(testCase.Output));
     }

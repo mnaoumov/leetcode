@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2444_Count_Subarrays_With_Fixed_Bounds;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountSubarrays(testCase.Nums, testCase.MinK, testCase.MaxK), Is.EqualTo(testCase.Output));
     }

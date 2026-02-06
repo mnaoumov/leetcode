@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1481_Least_Number_of_Unique_Integers_after_K_Remova
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.FindLeastNumOfUniqueInts(testCase.Arr, testCase.K), Is.EqualTo(testCase.Output));
     }

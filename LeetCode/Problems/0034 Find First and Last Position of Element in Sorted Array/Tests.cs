@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0034_Find_First_and_Last_Position_of_Element_in_Sor
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.SearchRange(testCase.Nums, testCase.Target), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2895_Minimum_Processing_Time;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinProcessingTime(testCase.ProcessorTime, testCase.Tasks), Is.EqualTo(testCase.Output));
     }

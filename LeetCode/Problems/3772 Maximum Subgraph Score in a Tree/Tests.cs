@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3772_Maximum_Subgraph_Score_in_a_Tree;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.MaxSubgraphScore(testCase.N, testCase.Edges, testCase.Good), testCase.Output);
     }

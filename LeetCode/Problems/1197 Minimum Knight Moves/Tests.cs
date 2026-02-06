@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1197_Minimum_Knight_Moves;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinKnightMoves(testCase.X, testCase.Y), Is.EqualTo(testCase.Output));
     }

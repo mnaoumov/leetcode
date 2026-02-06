@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3250_Find_the_Count_of_Monotonic_Pairs_I;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountOfPairs(testCase.Nums), Is.EqualTo(testCase.Output));
     }

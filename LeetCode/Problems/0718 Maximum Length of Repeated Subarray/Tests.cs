@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0718_Maximum_Length_of_Repeated_Subarray;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.FindLength(testCase.Nums1, testCase.Nums2), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1466_Reorder_Routes_to_Make_All_Paths_Lead_to_the_C
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinReorder(testCase.N, testCase.Connections), Is.EqualTo(testCase.Output));
     }

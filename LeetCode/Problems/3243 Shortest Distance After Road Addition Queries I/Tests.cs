@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3243_Shortest_Distance_After_Road_Addition_Queries_
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.ShortestDistanceAfterQueries(testCase.N, testCase.Queries), testCase.Output);
     }

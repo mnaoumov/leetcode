@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0019_Remove_Nth_Node_From_End_of_List;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.RemoveNthFromEnd(ListNode.Create(testCase.HeadValues), testCase.N),
             Is.EqualTo(ListNode.CreateOrNull(testCase.OutputValues)));

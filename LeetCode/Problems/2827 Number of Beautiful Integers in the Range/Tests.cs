@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2827_Number_of_Beautiful_Integers_in_the_Range;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.NumberOfBeautifulIntegers(testCase.Low, testCase.High, testCase.K), Is.EqualTo(testCase.Output));
     }

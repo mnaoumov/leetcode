@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3690_Split_and_Merge_Array_Transformation;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinSplitMerge(testCase.Nums1, testCase.Nums2), Is.EqualTo(testCase.Output));
     }

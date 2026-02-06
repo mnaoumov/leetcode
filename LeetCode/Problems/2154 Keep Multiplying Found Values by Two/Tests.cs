@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2154_Keep_Multiplying_Found_Values_by_Two;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.FindFinalValue(testCase.Nums, testCase.Original), Is.EqualTo(testCase.Output));
     }

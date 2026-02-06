@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3177_Find_the_Maximum_Length_of_a_Good_Subsequence_
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaximumLength(testCase.Nums, testCase.K), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0002_Add_Two_Numbers;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var list1 = ListNode.Create(testCase.List1Values);
         var list2 = ListNode.Create(testCase.List2Values);

@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3590_Kth_Smallest_Path_XOR_Sum;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.KthSmallest(testCase.Par, testCase.Vals, testCase.Queries), testCase.Output);
     }

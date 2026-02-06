@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0071_Simplify_Path;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.SimplifyPath(testCase.Path), Is.EqualTo(testCase.Output));
     }

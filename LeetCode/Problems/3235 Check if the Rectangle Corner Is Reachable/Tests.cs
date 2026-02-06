@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3235_Check_if_the_Rectangle_Corner_Is_Reachable;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CanReachCorner(testCase.X, testCase.Y, testCase.Circles), Is.EqualTo(testCase.Output));
     }

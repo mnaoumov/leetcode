@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1480_Running_Sum_of_1d_Array;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.RunningSum(testCase.Nums), testCase.Output);
     }

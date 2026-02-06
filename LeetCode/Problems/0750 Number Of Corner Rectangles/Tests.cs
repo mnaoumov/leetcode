@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0750_Number_Of_Corner_Rectangles;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountCornerRectangles(testCase.Grid), Is.EqualTo(testCase.Output));
     }

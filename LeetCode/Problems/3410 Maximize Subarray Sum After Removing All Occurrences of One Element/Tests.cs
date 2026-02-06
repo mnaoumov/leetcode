@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3410_Maximize_Subarray_Sum_After_Removing_All_Occur
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxSubarraySum(testCase.Nums), Is.EqualTo(testCase.Output));
     }

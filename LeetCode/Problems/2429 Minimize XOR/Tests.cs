@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2429_Minimize_XOR;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimizeXor(testCase.Num1, testCase.Num2), Is.EqualTo(testCase.Output));
     }

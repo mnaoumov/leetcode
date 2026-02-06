@@ -4,7 +4,7 @@ namespace LeetCode.Problems._2902_Count_of_Sub_Multisets_With_Bounded_Sum;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountSubMultisets(testCase.Nums, testCase.L, testCase.R), Is.EqualTo(testCase.Output));
     }

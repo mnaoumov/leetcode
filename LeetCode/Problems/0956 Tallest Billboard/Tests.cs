@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0956_Tallest_Billboard;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.TallestBillboard(testCase.Rods), Is.EqualTo(testCase.Output));
     }

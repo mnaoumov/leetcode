@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0148_Sort_List;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.SortList(ListNode.CreateOrNull(testCase.Head)), Is.EqualTo(ListNode.CreateOrNull(testCase.Output)));
     }

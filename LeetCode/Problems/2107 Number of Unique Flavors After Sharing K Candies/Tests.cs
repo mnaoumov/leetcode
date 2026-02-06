@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2107_Number_of_Unique_Flavors_After_Sharing_K_Candi
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.ShareCandies(testCase.Candies, testCase.K), Is.EqualTo(testCase.Output));
     }

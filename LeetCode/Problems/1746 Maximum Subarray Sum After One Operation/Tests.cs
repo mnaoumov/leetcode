@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1746_Maximum_Subarray_Sum_After_One_Operation;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxSumAfterOperation(testCase.Nums), Is.EqualTo(testCase.Output));
     }

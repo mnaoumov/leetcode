@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3625_Count_Number_of_Trapezoids_II;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountTrapezoids(testCase.Points), Is.EqualTo(testCase.Output));
     }

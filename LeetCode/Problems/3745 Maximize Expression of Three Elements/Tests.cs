@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3745_Maximize_Expression_of_Three_Elements;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaximizeExpressionOfThree(testCase.Nums), Is.EqualTo(testCase.Output));
     }

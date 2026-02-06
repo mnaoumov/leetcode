@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0592_Fraction_Addition_and_Subtraction;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.FractionAddition(testCase.Expression), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1229_Meeting_Scheduler;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.MinAvailableDuration(testCase.Slots1, testCase.Slots2, testCase.Duration), testCase.Output);
     }

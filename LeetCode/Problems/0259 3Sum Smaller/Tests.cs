@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0259_3Sum_Smaller;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.ThreeSumSmaller(testCase.Nums, testCase.Target), Is.EqualTo(testCase.Output));
     }

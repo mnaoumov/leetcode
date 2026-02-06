@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0403_Frog_Jump;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CanCross(testCase.Stones), Is.EqualTo(testCase.Output));
     }

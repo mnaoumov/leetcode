@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3310_Remove_Methods_From_Project;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.RemainingMethods(testCase.N, testCase.K, testCase.Invocations), testCase.Output);
     }

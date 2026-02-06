@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2896_Apply_Operations_to_Make_Two_Strings_Equal;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinOperations(testCase.S1, testCase.S2, testCase.X), Is.EqualTo(testCase.Output));
     }

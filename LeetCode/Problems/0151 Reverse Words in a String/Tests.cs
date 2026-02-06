@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0151_Reverse_Words_in_a_String;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.ReverseWords(testCase.S), Is.EqualTo(testCase.Output));
     }

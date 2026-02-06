@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3255_Find_the_Power_of_K_Size_Subarrays_II;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.ResultsArray(testCase.Nums, testCase.K), testCase.Output);
     }

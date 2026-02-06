@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0430_Flatten_a_Multilevel_Doubly_Linked_List;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.Flatten(Node.CreateOrNull(testCase.Head)), Is.EqualTo(Node.CreateOrNull(testCase.Output)));
     }

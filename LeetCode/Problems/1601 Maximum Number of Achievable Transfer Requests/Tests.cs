@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1601_Maximum_Number_of_Achievable_Transfer_Requests
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaximumRequests(testCase.N, testCase.Requests), Is.EqualTo(testCase.Output));
     }

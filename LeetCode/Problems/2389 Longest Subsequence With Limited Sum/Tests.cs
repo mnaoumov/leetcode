@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2389_Longest_Subsequence_With_Limited_Sum;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.AnswerQueries(testCase.Nums, testCase.Queries), testCase.Output);
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1908_Game_of_Nim;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.NimGame(testCase.Piles), Is.EqualTo(testCase.Output));
     }

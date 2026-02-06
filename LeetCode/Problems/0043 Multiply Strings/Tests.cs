@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0043_Multiply_Strings;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.Multiply(testCase.Num1, testCase.Num2), Is.EqualTo(testCase.Output));
     }

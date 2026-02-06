@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2379_Minimum_Recolors_to_Get_K_Consecutive_Black_Bl
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumRecolors(testCase.Blocks, testCase.K), Is.EqualTo(testCase.Output));
     }

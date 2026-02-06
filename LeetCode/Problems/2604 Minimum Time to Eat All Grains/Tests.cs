@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2604_Minimum_Time_to_Eat_All_Grains;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumTime(testCase.Hens, testCase.Grains), Is.EqualTo(testCase.Output));
     }

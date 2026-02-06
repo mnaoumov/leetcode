@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0218_The_Skyline_Problem;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.GetSkyline(testCase.Buildings), Is.EqualTo(testCase.Output));
     }

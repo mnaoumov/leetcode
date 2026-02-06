@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3381_Maximum_Subarray_Sum_With_Length_Divisible_by_
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxSubarraySum(testCase.Nums, testCase.K), Is.EqualTo(testCase.Output));
     }

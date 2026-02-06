@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3605_Minimum_Stability_Factor_of_Array;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinStable(testCase.Nums, testCase.MaxC), Is.EqualTo(testCase.Output));
     }

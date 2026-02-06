@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0796_Rotate_String;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.RotateString(testCase.S, testCase.Goal), Is.EqualTo(testCase.Output));
     }

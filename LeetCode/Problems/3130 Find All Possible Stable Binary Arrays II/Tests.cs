@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3130_Find_All_Possible_Stable_Binary_Arrays_II;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.NumberOfStableArrays(testCase.Zero, testCase.One, testCase.Limit), Is.EqualTo(testCase.Output));
     }

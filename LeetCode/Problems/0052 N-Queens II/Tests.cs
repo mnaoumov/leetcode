@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0052_N_Queens_II;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.TotalNQueens(testCase.N), Is.EqualTo(testCase.Output));
     }

@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3007_Maximum_Number_That_Sum_of_the_Prices_Is_Less_
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.FindMaximumNumber(testCase.K, testCase.X), Is.EqualTo(testCase.Output));
     }

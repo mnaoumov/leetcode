@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2767_Partition_String_Into_Minimum_Beautiful_Substr
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumBeautifulSubstrings(testCase.S), Is.EqualTo(testCase.Output));
     }

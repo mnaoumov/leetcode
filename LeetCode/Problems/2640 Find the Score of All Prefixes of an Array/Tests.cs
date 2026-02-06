@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2640_Find_the_Score_of_All_Prefixes_of_an_Array;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.FindPrefixScore(testCase.Nums), testCase.Output);
     }

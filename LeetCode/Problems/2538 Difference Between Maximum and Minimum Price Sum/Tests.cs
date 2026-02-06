@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2538_Difference_Between_Maximum_and_Minimum_Price_S
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxOutput(testCase.N, testCase.Edges, testCase.Price), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2421_Number_of_Good_Paths;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.NumberOfGoodPaths(testCase.Vals, testCase.Edges), Is.EqualTo(testCase.Output));
     }

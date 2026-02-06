@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1642_Furthest_Building_You_Can_Reach;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.FurthestBuilding(testCase.Heights, testCase.Bricks, testCase.Ladders), Is.EqualTo(testCase.Output));
     }

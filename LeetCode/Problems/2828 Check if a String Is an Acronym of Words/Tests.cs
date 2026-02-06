@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2828_Check_if_a_String_Is_an_Acronym_of_Words;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.IsAcronym(testCase.Words, testCase.S), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0314_Binary_Tree_Vertical_Order_Traversal;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.VerticalOrder(TreeNode.Create(testCase.Root)), testCase.Output);
     }

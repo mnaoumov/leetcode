@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1926_Nearest_Exit_from_Entrance_in_Maze;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.NearestExit(testCase.Maze, testCase.Entrance), Is.EqualTo(testCase.Output));
     }

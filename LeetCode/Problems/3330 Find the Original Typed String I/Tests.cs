@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3330_Find_the_Original_Typed_String_I;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.PossibleStringCount(testCase.Word), Is.EqualTo(testCase.Output));
     }

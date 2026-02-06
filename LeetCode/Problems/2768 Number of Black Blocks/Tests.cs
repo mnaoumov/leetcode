@@ -4,7 +4,7 @@ namespace LeetCode.Problems._2768_Number_of_Black_Blocks;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.CountBlackBlocks(testCase.M, testCase.N, testCase.Coordinates), testCase.Output);
     }

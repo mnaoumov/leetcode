@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0158_Read_N_Characters_Given_read4_II___Call_Multip
 [UsedImplicitly]
 public class Tests : TestsBase<Reader4, Tests.TestCase>
 {
-    protected override void TestImpl(Reader4 solution, TestCase testCase)
+    protected override void TestCore(Reader4 solution, TestCase testCase)
     {
         solution.SetFile(testCase.File);
         var buf = new char[testCase.File.Length];

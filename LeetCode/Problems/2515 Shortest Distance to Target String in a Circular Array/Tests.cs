@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2515_Shortest_Distance_to_Target_String_in_a_Circul
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.ClosetTarget(testCase.Words, testCase.Target, testCase.StartIndex), Is.EqualTo(testCase.Output));
     }

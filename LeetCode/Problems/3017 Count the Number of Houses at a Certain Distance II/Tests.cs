@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3017_Count_the_Number_of_Houses_at_a_Certain_Distan
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.CountOfPairs(testCase.N, testCase.X, testCase.Y), testCase.Output);
     }

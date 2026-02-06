@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0976_Largest_Perimeter_Triangle;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.LargestPerimeter(testCase.Nums), Is.EqualTo(testCase.Output));
     }

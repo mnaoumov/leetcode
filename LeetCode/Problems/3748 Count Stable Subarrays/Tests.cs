@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3748_Count_Stable_Subarrays;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.CountStableSubarrays(testCase.Nums, testCase.Queries), testCase.Output);
     }

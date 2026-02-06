@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3357_Minimize_the_Maximum_Adjacent_Element_Differen
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinDifference(testCase.Nums), Is.EqualTo(testCase.Output));
     }

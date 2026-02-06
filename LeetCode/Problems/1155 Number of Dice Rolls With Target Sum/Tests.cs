@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1155_Number_of_Dice_Rolls_With_Target_Sum;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.NumRollsToTarget(testCase.N, testCase.K, testCase.Target), Is.EqualTo(testCase.Output));
     }

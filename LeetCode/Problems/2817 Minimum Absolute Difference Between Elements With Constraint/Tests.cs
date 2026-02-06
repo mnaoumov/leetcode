@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2817_Minimum_Absolute_Difference_Between_Elements_W
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinAbsoluteDifference(testCase.Nums, testCase.X), Is.EqualTo(testCase.Output));
     }

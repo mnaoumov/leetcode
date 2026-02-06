@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1717_Maximum_Score_From_Removing_Substrings;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaximumGain(testCase.S, testCase.X, testCase.Y), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2730_Find_the_Longest_Semi_Repetitive_Substring;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.LongestSemiRepetitiveSubstring(testCase.S), Is.EqualTo(testCase.Output));
     }

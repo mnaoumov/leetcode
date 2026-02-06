@@ -4,7 +4,7 @@ namespace LeetCode.Problems._2851_String_Transformation;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.NumberOfWays(testCase.S, testCase.T, testCase.K), Is.EqualTo(testCase.Output));
     }

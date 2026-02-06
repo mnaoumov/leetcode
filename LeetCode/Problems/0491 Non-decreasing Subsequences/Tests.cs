@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0491_Non_decreasing_Subsequences;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEquivalentWithDetails(solution.FindSubsequences(testCase.Nums), testCase.Output);
     }

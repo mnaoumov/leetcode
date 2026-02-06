@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3245_Alternating_Groups_III;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.NumberOfAlternatingGroups(testCase.Colors, testCase.Queries), testCase.Output);
     }

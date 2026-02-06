@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2471_Minimum_Number_of_Operations_to_Sort_a_Binary_
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumOperations(TreeNode.Create(testCase.RootValues)), Is.EqualTo(testCase.Output));
     }

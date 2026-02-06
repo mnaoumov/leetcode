@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0074_Search_a_2D_Matrix;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.SearchMatrix(testCase.Matrix, testCase.Target), Is.EqualTo(testCase.Output));
     }

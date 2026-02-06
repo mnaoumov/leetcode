@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2529_Maximum_Count_of_Positive_Integer_and_Negative
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaximumCount(testCase.Nums), Is.EqualTo(testCase.Output));
     }

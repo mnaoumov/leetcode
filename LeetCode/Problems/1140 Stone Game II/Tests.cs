@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1140_Stone_Game_II;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.StoneGameII(testCase.Piles), Is.EqualTo(testCase.Output));
     }

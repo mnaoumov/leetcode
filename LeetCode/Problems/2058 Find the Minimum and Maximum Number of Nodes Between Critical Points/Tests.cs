@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2058_Find_the_Minimum_and_Maximum_Number_of_Nodes_B
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.NodesBetweenCriticalPoints(ListNode.Create(testCase.Head)), testCase.Output);
     }

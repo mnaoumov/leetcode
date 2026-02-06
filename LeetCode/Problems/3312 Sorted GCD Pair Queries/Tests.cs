@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3312_Sorted_GCD_Pair_Queries;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.GcdValues(testCase.Nums, testCase.Queries), testCase.Output);
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0995_Minimum_Number_of_K_Consecutive_Bit_Flips;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinKBitFlips(testCase.Nums, testCase.K), Is.EqualTo(testCase.Output));
     }

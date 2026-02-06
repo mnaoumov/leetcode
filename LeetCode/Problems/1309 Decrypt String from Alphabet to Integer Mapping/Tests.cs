@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1309_Decrypt_String_from_Alphabet_to_Integer_Mappin
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.FreqAlphabets(testCase.S), Is.EqualTo(testCase.Output));
     }

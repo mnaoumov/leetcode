@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3743_Maximize_Cyclic_Partition_Score;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaximumScore(testCase.Nums, testCase.K), Is.EqualTo(testCase.Output));
     }

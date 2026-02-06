@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1442_Count_Triplets_That_Can_Form_Two_Arrays_of_Equ
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountTriplets(testCase.Arr), Is.EqualTo(testCase.Output));
     }

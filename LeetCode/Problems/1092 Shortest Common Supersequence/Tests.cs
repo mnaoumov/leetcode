@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1092_Shortest_Common_Supersequence;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var ans = solution.ShortestCommonSupersequence(testCase.Str1, testCase.Str2);
         Assert.That(ans.Length, Is.EqualTo(testCase.Output.Length));

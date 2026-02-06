@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1404_Number_of_Steps_to_Reduce_a_Number_in_Binary_R
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.NumSteps(testCase.S), Is.EqualTo(testCase.Output));
     }

@@ -4,7 +4,7 @@ namespace LeetCode.Problems._2916_Subarrays_Distinct_Element_Sum_of_Squares_II;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.SumCounts(testCase.Nums), Is.EqualTo(testCase.Output));
     }

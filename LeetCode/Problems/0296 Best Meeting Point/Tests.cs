@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0296_Best_Meeting_Point;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinTotalDistance(testCase.Grid), Is.EqualTo(testCase.Output));
     }

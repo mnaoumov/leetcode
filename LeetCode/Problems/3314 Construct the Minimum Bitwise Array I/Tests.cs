@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3314_Construct_the_Minimum_Bitwise_Array_I;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.MinBitwiseArray(testCase.Nums), testCase.Output);
     }

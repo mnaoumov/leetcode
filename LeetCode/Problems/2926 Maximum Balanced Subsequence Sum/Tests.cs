@@ -4,7 +4,7 @@ namespace LeetCode.Problems._2926_Maximum_Balanced_Subsequence_Sum;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxBalancedSubsequenceSum(testCase.Nums), Is.EqualTo(testCase.Output));
     }

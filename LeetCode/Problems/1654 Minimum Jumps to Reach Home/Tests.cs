@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1654_Minimum_Jumps_to_Reach_Home;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumJumps(testCase.Forbidden, testCase.A, testCase.B, testCase.X), Is.EqualTo(testCase.Output));
     }

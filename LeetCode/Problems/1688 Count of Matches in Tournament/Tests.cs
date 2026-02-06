@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1688_Count_of_Matches_in_Tournament;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.NumberOfMatches(testCase.N), Is.EqualTo(testCase.Output));
     }

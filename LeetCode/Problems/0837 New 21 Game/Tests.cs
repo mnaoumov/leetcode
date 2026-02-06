@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0837_New_21_Game;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.New21Game(testCase.N, testCase.K, testCase.MaxPts),
             Is.EqualTo(testCase.Output).Within(1e-5));

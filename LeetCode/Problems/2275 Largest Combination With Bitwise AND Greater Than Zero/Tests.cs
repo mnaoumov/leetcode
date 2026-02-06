@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2275_Largest_Combination_With_Bitwise_AND_Greater_T
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.LargestCombination(testCase.Candidates), Is.EqualTo(testCase.Output));
     }

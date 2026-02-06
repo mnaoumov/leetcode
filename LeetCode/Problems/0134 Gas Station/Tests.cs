@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0134_Gas_Station;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CanCompleteCircuit(testCase.Gas, testCase.Cost), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1095_Find_in_Mountain_Array;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.FindInMountainArray(testCase.Target, new MountainArray(testCase.Array)), Is.EqualTo(testCase.Output));
     }

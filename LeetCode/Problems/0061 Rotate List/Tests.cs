@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0061_Rotate_List;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.RotateRight(ListNode.Create(testCase.Values), testCase.K), Is.EqualTo(ListNode.Create(testCase.OutputValues)));
     }

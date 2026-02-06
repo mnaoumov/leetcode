@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2585_Number_of_Ways_to_Earn_Points;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.WaysToReachTarget(testCase.Target, testCase.Types), Is.EqualTo(testCase.Output));
     }

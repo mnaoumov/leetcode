@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2197_Replace_Non_Coprime_Numbers_in_Array;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.ReplaceNonCoprimes(testCase.Nums), testCase.Output);
     }

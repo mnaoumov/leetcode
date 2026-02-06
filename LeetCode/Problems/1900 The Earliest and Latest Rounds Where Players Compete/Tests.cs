@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1900_The_Earliest_and_Latest_Rounds_Where_Players_C
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.EarliestAndLatest(testCase.N, testCase.FirstPlayer, testCase.SecondPlayer), testCase.Output);
     }

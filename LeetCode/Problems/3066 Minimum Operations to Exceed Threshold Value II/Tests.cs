@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3066_Minimum_Operations_to_Exceed_Threshold_Value_I
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinOperations(testCase.Nums, testCase.K), Is.EqualTo(testCase.Output));
     }

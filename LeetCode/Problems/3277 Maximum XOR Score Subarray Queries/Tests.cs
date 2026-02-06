@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3277_Maximum_XOR_Score_Subarray_Queries;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.MaximumSubarrayXor(testCase.Nums, testCase.Queries), testCase.Output);
     }

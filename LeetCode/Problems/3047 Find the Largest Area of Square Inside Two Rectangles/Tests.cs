@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3047_Find_the_Largest_Area_of_Square_Inside_Two_Rec
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.LargestSquareArea(testCase.BottomLeft, testCase.TopRight), Is.EqualTo(testCase.Output));
     }

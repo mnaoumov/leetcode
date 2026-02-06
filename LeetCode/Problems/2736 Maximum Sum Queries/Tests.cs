@@ -4,7 +4,7 @@ namespace LeetCode.Problems._2736_Maximum_Sum_Queries;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.MaximumSumQueries(testCase.Nums1, testCase.Nums2, testCase.Queries), testCase.Output);
     }

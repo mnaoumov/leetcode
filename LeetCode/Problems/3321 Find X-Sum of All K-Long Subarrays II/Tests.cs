@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3321_Find_X_Sum_of_All_K_Long_Subarrays_II;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.FindXSum(testCase.Nums, testCase.K, testCase.X), testCase.Output);
     }

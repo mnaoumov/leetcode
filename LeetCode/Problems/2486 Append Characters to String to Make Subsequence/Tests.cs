@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2486_Append_Characters_to_String_to_Make_Subsequenc
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.AppendCharacters(testCase.S, testCase.T), Is.EqualTo(testCase.Output));
     }

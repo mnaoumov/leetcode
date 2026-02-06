@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3720_Lexicographically_Smallest_Permutation_Greater
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.LexGreaterPermutation(testCase.S, testCase.Target), Is.EqualTo(testCase.Output));
     }

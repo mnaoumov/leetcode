@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3239_Minimum_Number_of_Flips_to_Make_Binary_Grid_Pa
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinFlips(testCase.Grid), Is.EqualTo(testCase.Output));
     }

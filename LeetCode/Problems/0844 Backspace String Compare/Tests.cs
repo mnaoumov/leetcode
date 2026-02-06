@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0844_Backspace_String_Compare;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.BackspaceCompare(testCase.S, testCase.T), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0774_Minimize_Max_Distance_to_Gas_Station;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinmaxGasDist(testCase.Stations, testCase.K), Is.EqualTo(testCase.Output).Within(1e-6));
     }

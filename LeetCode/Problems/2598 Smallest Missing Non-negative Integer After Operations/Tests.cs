@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2598_Smallest_Missing_Non_negative_Integer_After_Op
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.FindSmallestInteger(testCase.Nums, testCase.Value), Is.EqualTo(testCase.Output));
     }

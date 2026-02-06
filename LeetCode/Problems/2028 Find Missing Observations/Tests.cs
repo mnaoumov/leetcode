@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2028_Find_Missing_Observations;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var missingRolls = solution.MissingRolls(testCase.Rolls, testCase.Mean, testCase.N);
         if (testCase.Output.Length == 0)

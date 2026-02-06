@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2406_Divide_Intervals_Into_Minimum_Number_of_Groups
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinGroups(testCase.Intervals), Is.EqualTo(testCase.Output));
     }

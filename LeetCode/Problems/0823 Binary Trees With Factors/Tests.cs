@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0823_Binary_Trees_With_Factors;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.NumFactoredBinaryTrees(testCase.Arr), Is.EqualTo(testCase.Output));
     }

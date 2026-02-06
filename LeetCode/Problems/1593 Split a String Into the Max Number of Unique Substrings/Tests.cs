@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1593_Split_a_String_Into_the_Max_Number_of_Unique_S
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxUniqueSplit(testCase.S), Is.EqualTo(testCase.Output));
     }

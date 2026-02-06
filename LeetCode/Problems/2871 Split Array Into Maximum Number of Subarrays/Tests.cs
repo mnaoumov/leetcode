@@ -4,7 +4,7 @@ namespace LeetCode.Problems._2871_Split_Array_Into_Maximum_Number_of_Subarrays;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxSubarrays(testCase.Nums), Is.EqualTo(testCase.Output));
     }

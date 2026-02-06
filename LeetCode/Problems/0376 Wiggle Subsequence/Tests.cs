@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0376_Wiggle_Subsequence;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.WiggleMaxLength(testCase.Nums), Is.EqualTo(testCase.Output));
     }

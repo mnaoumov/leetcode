@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1608_Special_Array_With_X_Elements_Greater_Than_or_
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.SpecialArray(testCase.Nums), Is.EqualTo(testCase.Output));
     }

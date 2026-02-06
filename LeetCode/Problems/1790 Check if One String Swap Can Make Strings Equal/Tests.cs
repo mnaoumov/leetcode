@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1790_Check_if_One_String_Swap_Can_Make_Strings_Equa
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.AreAlmostEqual(testCase.S1, testCase.S2), Is.EqualTo(testCase.Output));
     }

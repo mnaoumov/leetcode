@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1405_Longest_Happy_String;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.LongestDiverseString(testCase.A, testCase.B, testCase.C), Is.EqualTo(testCase.Output));
     }

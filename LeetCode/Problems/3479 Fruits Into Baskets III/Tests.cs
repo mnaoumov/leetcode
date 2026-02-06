@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3479_Fruits_Into_Baskets_III;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.NumOfUnplacedFruits(testCase.Fruits, testCase.Baskets), Is.EqualTo(testCase.Output));
     }

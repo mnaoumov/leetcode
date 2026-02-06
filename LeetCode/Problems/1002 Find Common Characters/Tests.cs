@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1002_Find_Common_Characters;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.CommonChars(testCase.Words), testCase.Output);
     }

@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3654_Minimum_Sum_After_Divisible_Sum_Deletions;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinArraySum(testCase.Nums, testCase.K), Is.EqualTo(testCase.Output));
     }

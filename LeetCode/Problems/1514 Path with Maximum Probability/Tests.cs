@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1514_Path_with_Maximum_Probability;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxProbability(testCase.N, testCase.Edges, testCase.SuccProb, testCase.Start, testCase.End), Is.EqualTo(testCase.Output));
     }

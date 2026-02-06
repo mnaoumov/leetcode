@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1473_Paint_House_III;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinCost(testCase.Houses, testCase.Cost, testCase.M, testCase.N, testCase.Target), Is.EqualTo(testCase.Output));
     }

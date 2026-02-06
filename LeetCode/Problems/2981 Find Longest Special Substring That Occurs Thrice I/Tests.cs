@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2981_Find_Longest_Special_Substring_That_Occurs_Thr
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaximumLength(testCase.S), Is.EqualTo(testCase.Output));
     }

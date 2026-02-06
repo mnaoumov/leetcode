@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2802_Find_The_K_th_Lucky_Number;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.KthLuckyNumber(testCase.K), Is.EqualTo(testCase.Output));
     }

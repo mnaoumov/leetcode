@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0826_Most_Profit_Assigning_Work;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxProfitAssignment(testCase.Difficulty, testCase.Profit, testCase.Worker), Is.EqualTo(testCase.Output));
     }

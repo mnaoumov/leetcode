@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3695_Maximize_Alternating_Sum_Using_Swaps;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxAlternatingSum(testCase.Nums, testCase.Swaps), Is.EqualTo(testCase.Output));
     }

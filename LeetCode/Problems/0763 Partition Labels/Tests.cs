@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0763_Partition_Labels;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.PartitionLabels(testCase.S), testCase.Output);
     }

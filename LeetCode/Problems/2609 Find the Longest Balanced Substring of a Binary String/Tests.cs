@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2609_Find_the_Longest_Balanced_Substring_of_a_Binar
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.FindTheLongestBalancedSubstring(testCase.S), Is.EqualTo(testCase.Output));
     }

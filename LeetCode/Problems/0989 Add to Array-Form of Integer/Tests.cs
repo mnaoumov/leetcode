@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0989_Add_to_Array_Form_of_Integer;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.AddToArrayForm(testCase.Num, testCase.K), testCase.Output);
     }

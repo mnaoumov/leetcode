@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0341_Flatten_Nested_List_Iterator;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var i = solution.Create(NestedIntegerImpl.Create(testCase.NestedList));
 

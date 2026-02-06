@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0992_Subarrays_with_K_Different_Integers;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.SubarraysWithKDistinct(testCase.Nums, testCase.K), Is.EqualTo(testCase.Output));
     }

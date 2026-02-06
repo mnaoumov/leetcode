@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0948_Bag_of_Tokens;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.BagOfTokensScore(testCase.Tokens, testCase.Power), Is.EqualTo(testCase.Output));
     }

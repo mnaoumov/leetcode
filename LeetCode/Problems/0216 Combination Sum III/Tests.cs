@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0216_Combination_Sum_III;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.CombinationSum3(testCase.K, testCase.N), testCase.Output);
     }

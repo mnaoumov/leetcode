@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1485_Clone_Binary_Tree_With_Random_Pointer;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var root = BuildNode(testCase.Root);
         var rootCopy = solution.CopyRandomBinaryTree(root);

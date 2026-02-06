@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2569_Handling_Sum_Queries_After_Update;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.HandleQuery(testCase.Nums1, testCase.Nums2, testCase.Queries), testCase.Output);
     }

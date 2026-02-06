@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0070_Climbing_Stairs;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.ClimbStairs(testCase.N), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2930_Number_of_Strings_Which_Can_Be_Rearranged_to_C
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.StringCount(testCase.N), Is.EqualTo(testCase.Output));
     }

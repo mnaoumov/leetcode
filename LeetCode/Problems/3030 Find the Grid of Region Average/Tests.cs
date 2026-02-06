@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3030_Find_the_Grid_of_Region_Average;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.ResultGrid(testCase.Image, testCase.Threshold), testCase.Output);
     }

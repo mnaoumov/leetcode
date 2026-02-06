@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1413_Minimum_Value_to_Get_Positive_Step_by_Step_Sum
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinStartValue(testCase.Nums), Is.EqualTo(testCase.Output));
     }

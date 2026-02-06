@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1657_Determine_if_Two_Strings_Are_Close;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CloseStrings(testCase.Word1, testCase.Word2), Is.EqualTo(testCase.Output));
     }

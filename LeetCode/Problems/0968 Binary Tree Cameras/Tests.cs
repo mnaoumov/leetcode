@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0968_Binary_Tree_Cameras;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinCameraCover(TreeNode.Create(testCase.Root)), Is.EqualTo(testCase.Output));
     }

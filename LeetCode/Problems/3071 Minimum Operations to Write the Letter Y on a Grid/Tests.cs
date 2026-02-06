@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3071_Minimum_Operations_to_Write_the_Letter_Y_on_a_
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumOperationsToWriteY(testCase.Grid), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2644_Find_the_Maximum_Divisibility_Score;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxDivScore(testCase.Nums, testCase.Divisors), Is.EqualTo(testCase.Output));
     }

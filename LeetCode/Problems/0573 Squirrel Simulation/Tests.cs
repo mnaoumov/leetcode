@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0573_Squirrel_Simulation;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinDistance(testCase.Height, testCase.Width, testCase.Tree, testCase.Squirrel, testCase.Nuts), Is.EqualTo(testCase.Output));
     }

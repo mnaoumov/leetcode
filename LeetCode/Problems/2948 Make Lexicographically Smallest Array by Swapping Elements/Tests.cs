@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2948_Make_Lexicographically_Smallest_Array_by_Swapp
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.LexicographicallySmallestArray(testCase.Nums, testCase.Limit), testCase.Output);
     }

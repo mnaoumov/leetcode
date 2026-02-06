@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0023_Merge_k_Sorted_Lists;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var lists = testCase.ListValuesArr.Select(ListNode.CreateOrNull).ToArray();
 

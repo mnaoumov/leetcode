@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0787_Cheapest_Flights_Within_K_Stops;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.FindCheapestPrice(testCase.N, testCase.Flights, testCase.Src, testCase.Dst, testCase.K), Is.EqualTo(testCase.Output));
     }

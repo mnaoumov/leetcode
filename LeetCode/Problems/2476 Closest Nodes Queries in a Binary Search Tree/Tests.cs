@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2476_Closest_Nodes_Queries_in_a_Binary_Search_Tree;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.ClosestNodes(TreeNode.Create(testCase.Root), testCase.Queries), testCase.Output);
     }

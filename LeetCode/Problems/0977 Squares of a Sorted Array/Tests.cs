@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0977_Squares_of_a_Sorted_Array;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.SortedSquares(testCase.Nums), testCase.Output);
     }

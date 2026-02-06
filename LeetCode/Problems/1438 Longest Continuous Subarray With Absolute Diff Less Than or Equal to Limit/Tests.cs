@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1438_Longest_Continuous_Subarray_With_Absolute_Diff
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.LongestSubarray(testCase.Nums, testCase.Limit), Is.EqualTo(testCase.Output));
     }

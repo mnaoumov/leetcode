@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2446_Determine_if_Two_Events_Have_Conflict;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.HaveConflict(testCase.Event1, testCase.Event2), Is.EqualTo(testCase.Output));
     }

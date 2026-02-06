@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0310_Minimum_Height_Trees;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.FindMinHeightTrees(testCase.N, testCase.Edges), testCase.Output);
     }

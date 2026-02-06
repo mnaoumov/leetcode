@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2548_Maximum_Price_to_Fill_a_Bag;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxPrice(testCase.Items, testCase.Capacity), Is.EqualTo(testCase.Output).Within(1e-5));
     }

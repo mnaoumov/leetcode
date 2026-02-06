@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2458_Height_of_Binary_Tree_After_Subtree_Removal_Qu
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.TreeQueries(TreeNode.Create(testCase.RootValues), testCase.Queries), testCase.Output);
     }

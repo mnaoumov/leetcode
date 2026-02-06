@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3234_Count_the_Number_of_Substrings_With_Dominant_O
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.NumberOfSubstrings(testCase.S), Is.EqualTo(testCase.Output));
     }

@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3599_Partition_Array_to_Minimize_XOR;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinXor(testCase.Nums, testCase.K), Is.EqualTo(testCase.Output));
     }

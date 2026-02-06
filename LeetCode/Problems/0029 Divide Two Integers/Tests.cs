@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0029_Divide_Two_Integers;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.Divide(testCase.Dividend, testCase.Divisor), Is.EqualTo(testCase.Output));
     }

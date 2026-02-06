@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0694_Number_of_Distinct_Islands;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.NumDistinctIslands(testCase.Grid), Is.EqualTo(testCase.Output));
     }

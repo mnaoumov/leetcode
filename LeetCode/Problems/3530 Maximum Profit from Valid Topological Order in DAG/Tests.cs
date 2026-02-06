@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3530_Maximum_Profit_from_Valid_Topological_Order_in
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxProfit(testCase.N, testCase.Edges, testCase.Score), Is.EqualTo(testCase.Output));
     }

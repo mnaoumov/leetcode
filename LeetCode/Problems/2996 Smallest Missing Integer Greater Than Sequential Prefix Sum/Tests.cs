@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2996_Smallest_Missing_Integer_Greater_Than_Sequenti
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MissingInteger(testCase.Nums), Is.EqualTo(testCase.Output));
     }

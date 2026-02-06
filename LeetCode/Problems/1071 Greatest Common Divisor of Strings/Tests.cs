@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1071_Greatest_Common_Divisor_of_Strings;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.GcdOfStrings(testCase.Str1, testCase.Str2), Is.EqualTo(testCase.Output));
     }

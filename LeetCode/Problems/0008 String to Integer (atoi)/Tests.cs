@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0008_String_to_Integer__atoi_;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MyAtoi(testCase.S), Is.EqualTo(testCase.Output));
     }

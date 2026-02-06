@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1456_Maximum_Number_of_Vowels_in_a_Substring_of_Giv
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxVowels(testCase.S, testCase.K), Is.EqualTo(testCase.Output));
     }

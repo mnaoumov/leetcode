@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0617_Merge_Two_Binary_Trees;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MergeTrees(TreeNode.CreateOrNull(testCase.Root1), TreeNode.CreateOrNull(testCase.Root2)), Is.EqualTo(TreeNode.CreateOrNull(testCase.Output)));
     }

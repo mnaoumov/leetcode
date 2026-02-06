@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0436_Find_Right_Interval;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.FindRightInterval(testCase.Intervals), testCase.Output);
     }

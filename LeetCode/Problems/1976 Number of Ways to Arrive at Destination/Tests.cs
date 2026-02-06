@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1976_Number_of_Ways_to_Arrive_at_Destination;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountPaths(testCase.N, testCase.Roads), Is.EqualTo(testCase.Output));
     }

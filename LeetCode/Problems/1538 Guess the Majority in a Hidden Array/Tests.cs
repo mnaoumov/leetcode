@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1538_Guess_the_Majority_in_a_Hidden_Array;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var ans = solution.GuessMajority(new ArrayReader(testCase.Nums));
         var countZero = testCase.Nums.Count(num => num == 0);

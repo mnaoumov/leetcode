@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2360_Longest_Cycle_in_a_Graph;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.LongestCycle(testCase.Edges), Is.EqualTo(testCase.Output));
     }

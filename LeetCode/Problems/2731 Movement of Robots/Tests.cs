@@ -4,7 +4,7 @@ namespace LeetCode.Problems._2731_Movement_of_Robots;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.SumDistance(testCase.Nums, testCase.S, testCase.D), Is.EqualTo(testCase.Output));
     }

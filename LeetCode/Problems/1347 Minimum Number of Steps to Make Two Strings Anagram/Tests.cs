@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1347_Minimum_Number_of_Steps_to_Make_Two_Strings_An
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinSteps(testCase.S, testCase.T), Is.EqualTo(testCase.Output));
     }

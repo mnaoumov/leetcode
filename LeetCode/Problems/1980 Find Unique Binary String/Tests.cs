@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1980_Find_Unique_Binary_String;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var n = testCase.Nums.Length;
         var ans = solution.FindDifferentBinaryString(testCase.Nums);

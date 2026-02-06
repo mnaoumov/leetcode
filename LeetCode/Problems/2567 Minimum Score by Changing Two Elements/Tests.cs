@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2567_Minimum_Score_by_Changing_Two_Elements;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimizeSum(testCase.Nums), Is.EqualTo(testCase.Output));
     }

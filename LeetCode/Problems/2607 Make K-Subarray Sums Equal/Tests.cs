@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2607_Make_K_Subarray_Sums_Equal;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MakeSubKSumEqual(testCase.Arr, testCase.K), Is.EqualTo(testCase.Output));
     }

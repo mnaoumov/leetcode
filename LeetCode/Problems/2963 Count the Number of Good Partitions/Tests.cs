@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2963_Count_the_Number_of_Good_Partitions;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.NumberOfGoodPartitions(testCase.Nums), Is.EqualTo(testCase.Output));
     }

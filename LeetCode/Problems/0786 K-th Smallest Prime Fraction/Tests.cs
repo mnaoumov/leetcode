@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0786_K_th_Smallest_Prime_Fraction;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.KthSmallestPrimeFraction(testCase.Arr, testCase.K), testCase.Output);
     }

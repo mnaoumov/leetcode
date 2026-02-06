@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0815_Bus_Routes;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.NumBusesToDestination(testCase.Routes, testCase.Source, testCase.Target), Is.EqualTo(testCase.Output));
     }

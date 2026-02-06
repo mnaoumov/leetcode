@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2862_Maximum_Element_Sum_of_a_Complete_Subset_of_In
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaximumSum(testCase.Nums), Is.EqualTo(testCase.Output));
     }

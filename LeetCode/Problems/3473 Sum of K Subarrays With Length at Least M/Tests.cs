@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3473_Sum_of_K_Subarrays_With_Length_at_Least_M;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxSum(testCase.Nums, testCase.K, testCase.M), Is.EqualTo(testCase.Output));
     }

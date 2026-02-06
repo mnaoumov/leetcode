@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2958_Length_of_Longest_Subarray_With_at_Most_K_Freq
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxSubarrayLength(testCase.Nums, testCase.K), Is.EqualTo(testCase.Output));
     }

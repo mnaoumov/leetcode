@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1482_Minimum_Number_of_Days_to_Make_m_Bouquets;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinDays(testCase.BloomDay, testCase.M, testCase.K), Is.EqualTo(testCase.Output));
     }

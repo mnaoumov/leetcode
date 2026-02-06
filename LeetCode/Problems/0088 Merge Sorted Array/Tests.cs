@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0088_Merge_Sorted_Array;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var nums1 = testCase.Nums1.ToArray();
         solution.Merge(nums1, testCase.M, testCase.Nums2, testCase.N);

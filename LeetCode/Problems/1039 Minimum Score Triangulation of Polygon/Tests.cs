@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1039_Minimum_Score_Triangulation_of_Polygon;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinScoreTriangulation(testCase.Values), Is.EqualTo(testCase.Output));
     }

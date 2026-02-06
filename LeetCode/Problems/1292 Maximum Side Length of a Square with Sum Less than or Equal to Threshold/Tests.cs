@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1292_Maximum_Side_Length_of_a_Square_with_Sum_Less_
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxSideLength(testCase.Mat, testCase.Threshold), Is.EqualTo(testCase.Output));
     }

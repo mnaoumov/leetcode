@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0873_Length_of_Longest_Fibonacci_Subsequence;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.LenLongestFibSubseq(testCase.Arr), Is.EqualTo(testCase.Output));
     }

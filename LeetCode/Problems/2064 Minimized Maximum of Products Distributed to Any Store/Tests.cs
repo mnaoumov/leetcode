@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2064_Minimized_Maximum_of_Products_Distributed_to_A
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimizedMaximum(testCase.N, testCase.Quantities), Is.EqualTo(testCase.Output));
     }

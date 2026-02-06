@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2081_Sum_of_k_Mirror_Numbers;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.KMirror(testCase.K, testCase.N), Is.EqualTo(testCase.Output));
     }

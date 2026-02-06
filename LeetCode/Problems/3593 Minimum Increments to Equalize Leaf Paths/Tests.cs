@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3593_Minimum_Increments_to_Equalize_Leaf_Paths;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinIncrease(testCase.N, testCase.Edges, testCase.Cost), Is.EqualTo(testCase.Output));
     }

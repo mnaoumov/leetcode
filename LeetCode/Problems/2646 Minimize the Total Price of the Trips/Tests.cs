@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2646_Minimize_the_Total_Price_of_the_Trips;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumTotalPrice(testCase.N, testCase.Edges, testCase.Price, testCase.Trips), Is.EqualTo(testCase.Output));
     }

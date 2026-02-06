@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1948_Delete_Duplicate_Folders_in_System;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEquivalentWithDetails(solution.DeleteDuplicateFolder(testCase.Paths), testCase.Output);
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1502_Can_Make_Arithmetic_Progression_From_Sequence;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CanMakeArithmeticProgression(testCase.Arr), Is.EqualTo(testCase.Output));
     }

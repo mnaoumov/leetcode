@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3655_XOR_After_Range_Multiplication_Queries_II;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.XorAfterQueries(testCase.Nums, testCase.Queries), Is.EqualTo(testCase.Output));
     }

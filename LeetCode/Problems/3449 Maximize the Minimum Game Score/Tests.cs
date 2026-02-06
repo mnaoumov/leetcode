@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3449_Maximize_the_Minimum_Game_Score;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxScore(testCase.Points, testCase.M), Is.EqualTo(testCase.Output));
     }

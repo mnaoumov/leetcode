@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0700_Search_in_a_Binary_Search_Tree;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.SearchBST(TreeNode.Create(testCase.Root), testCase.Val), Is.EqualTo(TreeNode.CreateOrNull(testCase.Output)));
     }

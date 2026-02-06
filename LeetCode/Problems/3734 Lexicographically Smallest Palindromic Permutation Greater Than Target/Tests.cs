@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3734_Lexicographically_Smallest_Palindromic_Permuta
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.LexPalindromicPermutation(testCase.S, testCase.Target), Is.EqualTo(testCase.Output));
     }

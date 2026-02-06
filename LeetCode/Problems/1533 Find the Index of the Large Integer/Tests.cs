@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1533_Find_the_Index_of_the_Large_Integer;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.GetIndex(new ArrayReader(testCase.Arr)), Is.EqualTo(testCase.Output));
     }

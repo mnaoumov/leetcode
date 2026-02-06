@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1760_Minimum_Limit_of_Balls_in_a_Bag;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumSize(testCase.Nums, testCase.MaxOperations), Is.EqualTo(testCase.Output));
     }

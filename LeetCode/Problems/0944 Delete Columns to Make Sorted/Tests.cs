@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0944_Delete_Columns_to_Make_Sorted;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinDeletionSize(testCase.Strs), Is.EqualTo(testCase.Output));
     }

@@ -4,7 +4,7 @@ namespace LeetCode.Problems._2712_Minimum_Cost_to_Make_All_Characters_Equal;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumCost(testCase.S), Is.EqualTo(testCase.Output));
     }

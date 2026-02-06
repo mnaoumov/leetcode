@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2467_Most_Profitable_Path_in_a_Tree;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MostProfitablePath(testCase.Edges, testCase.Bob, testCase.Amount), Is.EqualTo(testCase.Output));
     }

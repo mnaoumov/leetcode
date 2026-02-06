@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2612_Minimum_Reverse_Operations;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.MinReverseOperations(testCase.N, testCase.P, testCase.Banned, testCase.K), testCase.Output);
     }

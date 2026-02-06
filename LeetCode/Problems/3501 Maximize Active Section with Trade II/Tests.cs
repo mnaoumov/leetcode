@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3501_Maximize_Active_Section_with_Trade_II;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.MaxActiveSectionsAfterTrade(testCase.S, testCase.Queries), testCase.Output);
     }

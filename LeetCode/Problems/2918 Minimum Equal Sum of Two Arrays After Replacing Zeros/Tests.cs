@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2918_Minimum_Equal_Sum_of_Two_Arrays_After_Replacin
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinSum(testCase.Nums1, testCase.Nums2), Is.EqualTo(testCase.Output));
     }

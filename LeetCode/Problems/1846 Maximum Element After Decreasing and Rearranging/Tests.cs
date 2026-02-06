@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1846_Maximum_Element_After_Decreasing_and_Rearrangi
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaximumElementAfterDecrementingAndRearranging(testCase.Arr), Is.EqualTo(testCase.Output));
     }

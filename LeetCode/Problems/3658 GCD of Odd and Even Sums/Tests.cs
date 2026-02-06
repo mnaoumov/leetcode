@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3658_GCD_of_Odd_and_Even_Sums;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.GcdOfOddEvenSums(testCase.N), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2997_Minimum_Number_of_Operations_to_Make_Array_XOR
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinOperations(testCase.Nums, testCase.K), Is.EqualTo(testCase.Output));
     }

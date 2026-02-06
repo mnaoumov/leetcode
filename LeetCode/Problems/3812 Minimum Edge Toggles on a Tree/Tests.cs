@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3812_Minimum_Edge_Toggles_on_a_Tree;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.MinimumFlips(testCase.N, testCase.Edges, testCase.Start, testCase.Target), testCase.Output);
     }

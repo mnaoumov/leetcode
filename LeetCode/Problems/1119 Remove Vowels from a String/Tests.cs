@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1119_Remove_Vowels_from_a_String;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.RemoveVowels(testCase.S), Is.EqualTo(testCase.Output));
     }

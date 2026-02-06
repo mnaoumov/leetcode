@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0926_Flip_String_to_Monotone_Increasing;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinFlipsMonoIncr(testCase.S), Is.EqualTo(testCase.Output));
     }

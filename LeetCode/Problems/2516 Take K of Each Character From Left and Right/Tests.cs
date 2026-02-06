@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2516_Take_K_of_Each_Character_From_Left_and_Right;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.TakeCharacters(testCase.S, testCase.K), Is.EqualTo(testCase.Output));
     }

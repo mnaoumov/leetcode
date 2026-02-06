@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1094_Car_Pooling;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CarPooling(testCase.Trips, testCase.Capacity), Is.EqualTo(testCase.Output));
     }

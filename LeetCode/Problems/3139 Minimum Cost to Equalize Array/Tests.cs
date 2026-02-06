@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3139_Minimum_Cost_to_Equalize_Array;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinCostToEqualizeArray(testCase.Nums, testCase.Cost1, testCase.Cost2), Is.EqualTo(testCase.Output));
     }

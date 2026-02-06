@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2528_Maximize_the_Minimum_Powered_City;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxPower(testCase.Stations, testCase.R, testCase.K), Is.EqualTo(testCase.Output));
     }

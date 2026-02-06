@@ -4,7 +4,7 @@ namespace LeetCode.Problems._1434_Number_of_Ways_to_Wear_Different_Hats_to_Each_
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.NumberWays(testCase.Hats), Is.EqualTo(testCase.Output));
     }

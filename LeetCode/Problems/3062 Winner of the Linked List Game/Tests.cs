@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3062_Winner_of_the_Linked_List_Game;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.GameResult(ListNode.Create(testCase.Head)), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3345_Smallest_Divisible_Digit_Product_I;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.SmallestNumber(testCase.N, testCase.T), Is.EqualTo(testCase.Output));
     }

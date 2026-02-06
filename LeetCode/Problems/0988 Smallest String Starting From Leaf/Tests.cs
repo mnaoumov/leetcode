@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0988_Smallest_String_Starting_From_Leaf;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.SmallestFromLeaf(TreeNode.Create(testCase.Root)), Is.EqualTo(testCase.Output));
     }

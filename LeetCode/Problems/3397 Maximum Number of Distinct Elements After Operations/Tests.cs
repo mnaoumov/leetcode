@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3397_Maximum_Number_of_Distinct_Elements_After_Oper
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxDistinctElements(testCase.Nums, testCase.K), Is.EqualTo(testCase.Output));
     }

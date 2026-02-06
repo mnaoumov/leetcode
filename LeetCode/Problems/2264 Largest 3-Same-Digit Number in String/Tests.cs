@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2264_Largest_3_Same_Digit_Number_in_String;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.LargestGoodInteger(testCase.Num), Is.EqualTo(testCase.Output));
     }

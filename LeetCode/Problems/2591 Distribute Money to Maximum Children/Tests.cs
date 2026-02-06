@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2591_Distribute_Money_to_Maximum_Children;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.DistMoney(testCase.Money, testCase.Children), Is.EqualTo(testCase.Output));
     }

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0272_Closest_Binary_Search_Tree_Value_II;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEquivalentWithDetails(solution.ClosestKValues(TreeNode.Create(testCase.Root), testCase.Target, testCase.K), testCase.Output);
     }

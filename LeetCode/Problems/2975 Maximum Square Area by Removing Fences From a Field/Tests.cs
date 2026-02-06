@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2975_Maximum_Square_Area_by_Removing_Fences_From_a_
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaximizeSquareArea(testCase.M, testCase.N, testCase.HFences, testCase.VFences), Is.EqualTo(testCase.Output));
     }

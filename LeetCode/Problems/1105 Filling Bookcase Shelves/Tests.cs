@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1105_Filling_Bookcase_Shelves;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinHeightShelves(testCase.Books, testCase.ShelfWidth), Is.EqualTo(testCase.Output));
     }

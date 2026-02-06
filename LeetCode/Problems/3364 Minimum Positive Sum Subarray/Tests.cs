@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3364_Minimum_Positive_Sum_Subarray;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumSumSubarray(testCase.Nums, testCase.L, testCase.R), Is.EqualTo(testCase.Output));
     }

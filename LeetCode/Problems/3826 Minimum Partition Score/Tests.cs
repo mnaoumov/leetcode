@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3826_Minimum_Partition_Score;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinPartitionScore(testCase.Nums, testCase.K), Is.EqualTo(testCase.Output));
     }

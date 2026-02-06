@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2022_Convert_1D_Array_Into_2D_Array;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.Construct2DArray(testCase.Original, testCase.M, testCase.N), testCase.Output);
     }

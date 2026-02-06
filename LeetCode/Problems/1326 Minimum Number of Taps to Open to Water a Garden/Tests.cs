@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1326_Minimum_Number_of_Taps_to_Open_to_Water_a_Gard
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinTaps(testCase.N, testCase.Ranges), Is.EqualTo(testCase.Output));
     }

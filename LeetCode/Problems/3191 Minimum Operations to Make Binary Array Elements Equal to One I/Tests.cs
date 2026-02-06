@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3191_Minimum_Operations_to_Make_Binary_Array_Elemen
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinOperations(testCase.Nums), Is.EqualTo(testCase.Output));
     }

@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3470_Permutations_IV;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.Permute(testCase.N, testCase.K), testCase.Output);
     }

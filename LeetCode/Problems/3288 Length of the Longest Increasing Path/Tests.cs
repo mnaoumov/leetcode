@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3288_Length_of_the_Longest_Increasing_Path;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxPathLength(testCase.Coordinates, testCase.K), Is.EqualTo(testCase.Output));
     }

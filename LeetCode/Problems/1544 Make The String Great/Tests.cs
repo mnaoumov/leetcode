@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1544_Make_The_String_Great;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MakeGood(testCase.S), Is.EqualTo(testCase.Output));
     }

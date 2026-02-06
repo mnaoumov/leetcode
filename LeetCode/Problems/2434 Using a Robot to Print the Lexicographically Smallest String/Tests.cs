@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2434_Using_a_Robot_to_Print_the_Lexicographically_S
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.RobotWithString(testCase.S), Is.EqualTo(testCase.Output));
     }

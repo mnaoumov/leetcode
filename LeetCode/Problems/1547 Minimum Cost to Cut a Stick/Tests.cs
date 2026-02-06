@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1547_Minimum_Cost_to_Cut_a_Stick;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinCost(testCase.N, testCase.Cuts), Is.EqualTo(testCase.Output));
     }

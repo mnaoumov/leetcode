@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1832_Check_if_the_Sentence_Is_Pangram;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CheckIfPangram(testCase.Sentence), Is.EqualTo(testCase.Output));
     }

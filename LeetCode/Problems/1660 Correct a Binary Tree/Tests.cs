@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1660_Correct_a_Binary_Tree;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         var treeNode = TreeNode.Create(testCase.Root);
         treeNode.FindNode(testCase.FromNode)!.right = treeNode.FindNode(testCase.ToNode);

@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1769_Minimum_Number_of_Operations_to_Move_All_Balls
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.MinOperations(testCase.Boxes), testCase.Output);
     }

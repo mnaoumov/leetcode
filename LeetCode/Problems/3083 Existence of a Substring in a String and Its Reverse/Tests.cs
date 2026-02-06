@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3083_Existence_of_a_Substring_in_a_String_and_Its_R
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.IsSubstringPresent(testCase.S), Is.EqualTo(testCase.Output));
     }

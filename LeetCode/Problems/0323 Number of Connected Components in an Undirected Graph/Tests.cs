@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0323_Number_of_Connected_Components_in_an_Undirecte
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.CountComponents(testCase.N, testCase.Edges), Is.EqualTo(testCase.Output));
     }

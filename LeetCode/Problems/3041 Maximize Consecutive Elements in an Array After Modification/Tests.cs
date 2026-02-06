@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3041_Maximize_Consecutive_Elements_in_an_Array_Afte
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxSelectedElements(testCase.Nums), Is.EqualTo(testCase.Output));
     }

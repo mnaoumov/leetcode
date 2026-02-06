@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3464_Maximize_the_Distance_Between_Points_on_a_Squa
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaxDistance(testCase.Side, testCase.Points, testCase.K), Is.EqualTo(testCase.Output));
     }

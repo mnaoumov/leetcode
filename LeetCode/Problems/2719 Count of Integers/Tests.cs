@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2719_Count_of_Integers;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.Count(testCase.Num1, testCase.Num2, testCase.Min_sum, testCase.Max_sum), Is.EqualTo(testCase.Output));
     }

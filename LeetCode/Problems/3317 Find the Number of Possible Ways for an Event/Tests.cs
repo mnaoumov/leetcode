@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3317_Find_the_Number_of_Possible_Ways_for_an_Event;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.NumberOfWays(testCase.N, testCase.X, testCase.Y), Is.EqualTo(testCase.Output));
     }

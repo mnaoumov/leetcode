@@ -3,7 +3,7 @@ namespace LeetCode.Problems._3659_Partition_Array_Into_K_Distinct_Groups;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.PartitionArray(testCase.Nums, testCase.K), Is.EqualTo(testCase.Output));
     }

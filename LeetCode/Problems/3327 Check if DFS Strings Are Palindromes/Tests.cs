@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3327_Check_if_DFS_Strings_Are_Palindromes;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.FindAnswer(testCase.Parent, testCase.S), testCase.Output);
     }

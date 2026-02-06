@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0206_Reverse_Linked_List;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.ReverseList(ListNode.CreateOrNull(testCase.Head)), Is.EqualTo(ListNode.CreateOrNull(testCase.Output)));
     }

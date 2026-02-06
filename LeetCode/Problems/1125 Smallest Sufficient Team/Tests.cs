@@ -3,7 +3,7 @@ namespace LeetCode.Problems._1125_Smallest_Sufficient_Team;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEquivalentWithDetails(solution.SmallestSufficientTeam(testCase.Req_skills, testCase.People), testCase.Output);
     }

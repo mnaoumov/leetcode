@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2011_Final_Value_of_Variable_After_Performing_Opera
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.FinalValueAfterOperations(testCase.Operations), Is.EqualTo(testCase.Output));
     }

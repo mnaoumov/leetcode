@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3171_Find_Subarray_With_Bitwise_AND_Closest_to_K;
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumDifference(testCase.Nums, testCase.K), Is.EqualTo(testCase.Output));
     }

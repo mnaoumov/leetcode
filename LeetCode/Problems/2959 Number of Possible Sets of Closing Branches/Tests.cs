@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2959_Number_of_Possible_Sets_of_Closing_Branches;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.NumberOfSets(testCase.N, testCase.MaxDistance, testCase.Roads), Is.EqualTo(testCase.Output));
     }

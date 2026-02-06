@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2522_Partition_String_Into_Substrings_With_Values_a
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumPartition(testCase.S, testCase.K), Is.EqualTo(testCase.Output));
     }

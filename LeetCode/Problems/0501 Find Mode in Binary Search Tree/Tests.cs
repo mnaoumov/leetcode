@@ -3,7 +3,7 @@ namespace LeetCode.Problems._0501_Find_Mode_in_Binary_Search_Tree;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         AssertCollectionEqualWithDetails(solution.FindMode(TreeNode.Create(testCase.Root)), testCase.Output);
     }

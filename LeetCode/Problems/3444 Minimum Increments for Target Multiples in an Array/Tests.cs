@@ -4,7 +4,7 @@ namespace LeetCode.Problems._3444_Minimum_Increments_for_Target_Multiples_in_an_
 [Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MinimumIncrements(testCase.Nums, testCase.Target), Is.EqualTo(testCase.Output));
     }

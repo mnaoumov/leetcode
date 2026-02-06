@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2490_Circular_Sentence;
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.IsCircularSentence(testCase.Sentence), Is.EqualTo(testCase.Output));
     }

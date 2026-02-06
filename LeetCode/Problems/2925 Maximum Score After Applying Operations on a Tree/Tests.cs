@@ -3,7 +3,7 @@ namespace LeetCode.Problems._2925_Maximum_Score_After_Applying_Operations_on_a_T
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
-    protected override void TestImpl(ISolution solution, TestCase testCase)
+    protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.MaximumScoreAfterOperations(testCase.Edges, testCase.Values), Is.EqualTo(testCase.Output));
     }

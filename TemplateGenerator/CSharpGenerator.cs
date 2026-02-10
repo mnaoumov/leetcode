@@ -6,7 +6,7 @@ namespace TemplateGenerator;
 
 internal partial class CSharpGenerator : GeneratorBase
 {
-    [GeneratedRegex(@"^public (?<OutputType>\S+) (?<MethodName>\S+?)\s*\((?<Arguments>.+)?\)$")]
+    [GeneratedRegex(@"^(?<OutputType>\S+) (?<MethodName>\S+?)\s*\((?<Arguments>.+)?\)$")]
     private static partial Regex SignatureRegex();
 
     [GeneratedRegex(@"\r\nInput: (?<Input>(.|\r\n)+?)\r\nOutput: (?<Output>.+?)($|\r\n)")]

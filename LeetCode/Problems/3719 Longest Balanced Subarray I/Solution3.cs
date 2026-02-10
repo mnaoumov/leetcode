@@ -1,11 +1,10 @@
 namespace LeetCode.Problems._3719_Longest_Balanced_Subarray_I;
 
 /// <summary>
-/// https://leetcode.com/problems/longest-balanced-subarray-i/submissions/1915167406/
+/// https://leetcode.com/problems/longest-balanced-subarray-i/submissions/1915168689/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
-public class Solution2 : ISolution
+public class Solution3 : ISolution
 {
     public int LongestBalanced(int[] nums)
     {
@@ -14,21 +13,17 @@ public class Solution2 : ISolution
 
         for (var i = 0; i < n; i++)
         {
+            var evenCounts = 0;
+            var oddCounts = 0;
+            var seen = new HashSet<int>();
+
             for (var j = i; j < n; j++)
             {
-                var evenCounts = 0;
-                var oddCounts = 0;
-                var seen = new HashSet<int>();
-                for (var k = i; k <= j; k++)
+                var num = nums[j];
+
+                if (seen.Add(num))
                 {
-                    var num = nums[k];
-
-                    if (!seen.Add(num))
-                    {
-                        continue;
-                    }
-
-                    if (nums[k] % 2 == 0)
+                    if (num % 2 == 0)
                     {
                         evenCounts++;
                     }
@@ -37,6 +32,7 @@ public class Solution2 : ISolution
                         oddCounts++;
                     }
                 }
+
                 if (evenCounts == oddCounts)
                 {
                     ans = Math.Max(ans, j - i + 1);

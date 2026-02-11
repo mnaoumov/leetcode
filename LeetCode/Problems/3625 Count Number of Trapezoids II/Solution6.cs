@@ -108,6 +108,6 @@ public class Solution6 : ISolution
 
     private record Line(int A, int B, int C)
     {
-        public Point Direction => new Point(B, -A);
+        public Point Direction => new(B, -A);
     }
 }

@@ -9,7 +9,7 @@ public class Solution1 : ISolution
 {
     public int MaxGoodNumber(int[] nums)
     {
-        var binaries = nums.Select((num) => Convert.ToString(num, 2)).ToArray();
+        var binaries = nums.Select(num => Convert.ToString(num, 2)).ToArray();
         var ans = 0;
         // ReSharper disable once LoopCanBeConvertedToQuery
         foreach (var permutation in Permutations(binaries))

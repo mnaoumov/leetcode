@@ -49,15 +49,35 @@ dotnet_style_qualification_for_field = false:suggestion
 dotnet_style_qualification_for_method = false:suggestion
 dotnet_style_qualification_for_property = false:suggestion
 dotnet_style_require_accessibility_modifiers = for_non_interface_members:suggestion
+
+# CA1062: Validate arguments of public methods
 dotnet_diagnostic.ca1062.severity = none
+
+# CA1515: Consider making public types internal
 dotnet_diagnostic.ca1515.severity = none
+
+# CA1707: Identifiers should not contain underscores
 dotnet_diagnostic.ca1707.severity = none
+
+# CA1819: Properties should not return arrays
 dotnet_diagnostic.ca1819.severity = none
+
+# CA2100: Review SQL queries for security vulnerabilities
 dotnet_diagnostic.ca2100.severity = none
+
+# IDE0028: Use collection initializers or expressions
 dotnet_diagnostic.ide0028.severity = none
+
+# IDE0290: Use primary constructor
 dotnet_diagnostic.ide0290.severity = none
+
+# IDE0300: Use collection expression for array
 dotnet_diagnostic.ide0300.severity = none
+
+# IDE0301: Use collection expression for empty
 dotnet_diagnostic.ide0301.severity = none
+
+# IDE0305: Use collection expression for fluent
 dotnet_diagnostic.ide0305.severity = none
 
 # ReSharper properties
@@ -135,4 +155,5 @@ indent_size = 2
 tab_width = 2
 
 [Tests.cs]
+# CA1034: Nested types should not be visible
 dotnet_diagnostic.ca1034.severity = none

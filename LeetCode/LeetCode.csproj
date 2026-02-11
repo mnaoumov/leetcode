@@ -9,6 +9,13 @@
     <OutputType>Library</OutputType>
     <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
     <AnalysisLevel>latest-all</AnalysisLevel>
+<!--
+CA1062: Validate arguments of public methods
+CA1515: Consider making public types internal
+CA1707: Identifiers should not contain underscores
+CA1819: Properties should not return arrays
+CA2100: Review SQL queries for security vulnerabilities
+-->
     <NoWarn>CA1062;CA1515;CA1707;CA1812;CA1819;CA2100</NoWarn>
   </PropertyGroup>
 

@@ -1,0 +1,5 @@
+{
+  "words": ["bat","dog","dog","doggy","bat"],
+  "k": 3,
+  "output": 2
+}

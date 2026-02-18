@@ -1,0 +1,5 @@
+{
+  "words": ["apple","apply","banana","bandit"],
+  "k": 2,
+  "output": 2
+}

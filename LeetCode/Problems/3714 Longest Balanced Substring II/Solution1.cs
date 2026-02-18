@@ -75,5 +75,5 @@ public class Solution1 : ISolution
         return ans;
     }
 
-    private record Count(int A, int B, int C);
+    private sealed record Count(int A, int B, int C);
 }

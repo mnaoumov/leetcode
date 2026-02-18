@@ -1,37 +1,30 @@
 namespace LeetCode.Problems._3714_Longest_Balanced_Substring_II;
 
 /// <summary>
+/// https://leetcode.com/problems/longest-balanced-substring-ii/submissions/1917599690/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution2 : ISolution
 {
     public int LongestBalanced(string s)
     {
-        const int any = int.MinValue;
-
-        var diffIndexMap = new Dictionary<Count, int>
-        {
-            [new Count(0, 0, 0)] = -1,
-            [new Count(any, 0, 0)] = -1,
-            [new Count(0, any, 0)] = -1,
-            [new Count(0, 0, any)] = -1,
-            [new Count(any, any, 0)] = -1,
-            [new Count(0, any, any)] = -1,
-            [new Count(any, 0, any)] = -1
-        };
+        var n = s.Length;
+        var ans = 0;
 
         var countA = 0;
         var countB = 0;
         var countC = 0;
+        var abIndices = new Dictionary<(int countA, int countB), int> { [(0, 0)] = -1 };
+        var bcIndices = new Dictionary<(int countB, int countC), int> { [(0, 0)] = -1 };
+        var caIndices = new Dictionary<(int countC, int countA), int> { [(0, 0)] = -1 };
+        var aDiffBcIndices = new Dictionary<(int countA, int diffBC), int> { [(0, 0)] = -1 };
+        var bDiffCaIndices = new Dictionary<(int countB, int diffCA), int> { [(0, 0)] = -1 };
+        var cDiffAbIndices = new Dictionary<(int countC, int diffAB), int> { [(0, 0)] = -1 };
+        var diffAbDiffBcIndices = new Dictionary<(int diffAB, int diffBC), int> { [(0, 0)] = -1 };
 
-        var ans = 0;
-
-        for (var index = 0; index < s.Length; index++)
+        for (var i = 0; i < n; i++)
         {
-            var letter = s[index];
-
-            switch (letter)
+            switch (s[i])
             {
                 case 'a':
                     countA++;
@@ -44,35 +37,54 @@ public class Solution2 : ISolution
                     break;
             }
 
-            var min = new[] { countA, countB, countC }.Min();
-
-            var diffs = new List<Count> { new(countA - min, countB - min, countC - min) };
-
-            if (min == 0)
+            if (abIndices.TryGetValue((countA, countB), out var abIndex))
             {
-                var nonZeroMin = new[] { countA, countB, countC }.Where(c => c > 0).Min();
-                diffs.Add(new Count(
-                    countA == 0 ? any : countA - nonZeroMin,
-                    countB == 0 ? any : countB - nonZeroMin,
-                    countC == 0 ? any : countC - nonZeroMin
-                ));
+                ans = Math.Max(ans, i - abIndex);
             }
 
-            foreach (var diff in diffs)
+            if (bcIndices.TryGetValue((countB, countC), out var bcIndex))
             {
-                if (diffIndexMap.TryGetValue(diff, out var previousIndex))
-                {
-                    ans = Math.Max(ans, index - previousIndex);
-                }
-                else
-                {
-                    diffIndexMap.Add(diff, index);
-                }
+                ans = Math.Max(ans, i - bcIndex);
             }
+
+            if (caIndices.TryGetValue((countC, countA), out var caIndex))
+            {
+                ans = Math.Max(ans, i - caIndex);
+            }
+
+            var diffBc = countB - countC;
+            var diffCa = countC - countA;
+            var diffAb = countA - countB;
+
+            if (aDiffBcIndices.TryGetValue((countA, diffBc), out var aDiffBcIndex))
+            {
+                ans = Math.Max(ans, i - aDiffBcIndex);
+            }
+
+            if (bDiffCaIndices.TryGetValue((countB, diffCa), out var bDiffCaIndex))
+            {
+                ans = Math.Max(ans, i - bDiffCaIndex);
+            }
+
+            if (cDiffAbIndices.TryGetValue((countC, diffAb), out var cDiffAbIndex))
+            {
+                ans = Math.Max(ans, i - cDiffAbIndex);
+            }
+
+            if (diffAbDiffBcIndices.TryGetValue((diffAb, diffBc), out var diffAbDiffBcIndex))
+            {
+                ans = Math.Max(ans, i - diffAbDiffBcIndex);
+            }
+
+            abIndices.TryAdd((countA, countB), i);
+            bcIndices.TryAdd((countB, countC), i);
+            caIndices.TryAdd((countC, countA), i);
+            aDiffBcIndices.TryAdd((countA, diffBc), i);
+            bDiffCaIndices.TryAdd((countB, diffCa), i);
+            cDiffAbIndices.TryAdd((countC, diffAb), i);
+            diffAbDiffBcIndices.TryAdd((diffAb, diffBc), i);
         }
 
         return ans;
     }
-
-    private record Count(int A, int B, int C);
 }

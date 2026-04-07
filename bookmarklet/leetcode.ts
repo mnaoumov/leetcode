@@ -1,5 +1,7 @@
-const NBSP = '\u00A0';
 const PROJECT_PATH = 'F:\\\\dev\\\\leetcode\\\\TemplateGenerator\\\\TemplateGenerator.csproj';
+
+// Characters used by LeetCode's Monaco editor as visual markers
+const EDITOR_ARTIFACTS = /[\u00A0\u00B7\u200C]/g;
 
 async function main(): Promise<void> {
   const title = getTextContent('.text-title-large').replace(/^Q\d/g, '0000');
@@ -13,7 +15,7 @@ async function main(): Promise<void> {
 }
 
 function fixString(text: string): string {
-  return text.replaceAll(NBSP, ' ').replaceAll('\n', '\r\n');
+  return text.replace(EDITOR_ARTIFACTS, ' ').replaceAll('\n', '\r\n');
 }
 
 function escapeArg(text: string): string {
@@ -29,12 +31,27 @@ function getTextContent(selector: string): string {
 }
 
 function getCodeContent(): string {
-  const element = document.querySelector('.view-lines')
-    ?? document.querySelector('[contenteditable].cm-content.cm-lineWrapping');
-  if (!element) {
-    throw new Error('Code element not found');
+  // Monaco editor stores each line in a separate .view-line div
+  const viewLines = document.querySelector('.view-lines');
+  if (viewLines) {
+    const lines = Array.from(viewLines.querySelectorAll('.view-line'));
+    // Lines may be rendered out of order (virtualized), sort by DOM position
+    lines.sort((a, b) => {
+      const topA = parseFloat((a as HTMLElement).style.top);
+      const topB = parseFloat((b as HTMLElement).style.top);
+      return topA - topB;
+    });
+    const text = lines.map(l => (l as HTMLElement).innerText).join('\n');
+    return fixString(text);
   }
-  return fixString((element as HTMLElement).innerText);
+
+  // CodeMirror fallback
+  const cmElement = document.querySelector('[contenteditable].cm-content.cm-lineWrapping');
+  if (cmElement) {
+    return fixString((cmElement as HTMLElement).innerText);
+  }
+
+  throw new Error('Code element not found');
 }
 
 function isClassDesign(code: string): boolean {

@@ -1,0 +1,5 @@
+{
+    "commands": ["PhoneDirectory", "get", "get", "check", "get", "check", "release", "check"],
+    "parameters": [[3], [], [], [2], [], [2], [2], [2]],
+    "output": [null, 0, 1, true, 2, false, null, true]
+}

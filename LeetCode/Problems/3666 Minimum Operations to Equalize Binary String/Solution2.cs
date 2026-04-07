@@ -1,11 +1,10 @@
 namespace LeetCode.Problems._3666_Minimum_Operations_to_Equalize_Binary_String;
 
 /// <summary>
-/// https://leetcode.com/problems/minimum-operations-to-equalize-binary-string/submissions/1932325244/
+/// https://leetcode.com/problems/minimum-operations-to-equalize-binary-string/submissions/1932326835/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public int MinOperations(string s, int k)
     {
@@ -23,8 +22,6 @@ public class Solution1 : ISolution
         queue.Enqueue(zeroCount);
         distances[zeroCount] = 0;
 
-        var ans = 0;
-
         var unprocessed = new[] { new SortedSet<int>(), new SortedSet<int>() };
 
         for (var i = 0; i < n; i++)
@@ -32,6 +29,8 @@ public class Solution1 : ISolution
             var parity = i & 1;
             unprocessed[parity].Add(i);
         }
+
+        unprocessed[zeroCount & 1].Remove(zeroCount);
 
         while (queue.Count > 0)
         {
@@ -59,8 +58,6 @@ public class Solution1 : ISolution
                     unprocessed[parity].Remove(next);
                 }
             }
-
-            ans++;
         }
 
         return unknown;

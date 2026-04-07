@@ -55,11 +55,13 @@ internal partial class ClassDesignGenerator : GeneratorBase
 
         ClassName = ClassNameRegex().Match(classDefinition).Groups[1].Value;
         InterfaceName = $"I{ClassName}";
-        Methods = MethodsRegex().Matches(classDefinition).Select(m => m.Groups[1].Value)
+        var allMethods = MethodsRegex().Matches(classDefinition).Select(m => m.Groups[1].Value)
             .ToArray();
-        var constructor = Methods.FirstOrDefault(m => m.Contains($"public {ClassName}"))
+        var constructor = allMethods.FirstOrDefault(m => m.Contains($"public {ClassName}"))
             ?? throw new InvalidOperationException($"No constructor found for class '{ClassName}'");
-        Methods = Methods.Except(new[] { constructor }).ToArray();
+        Methods = allMethods.Except(new[] { constructor })
+            .Select(m => m.Replace("public ", ""))
+            .ToArray();
         ConstructorArgumentsStr = ConstructorArgumentsRegex().Match(constructor).Groups[1].Value;
         ConstructorArgumentNamesStr = string.Join(", ",
             ConstructorArgumentsStr.Split(", ", StringSplitOptions.RemoveEmptyEntries).Select(x => x.Split(' ')[1]));
@@ -104,8 +106,8 @@ internal partial class ClassDesignGenerator : GeneratorBase
                         throw new NotImplementedException();
                     }
                 {{~ for method in Methods ~}}
-                
-                    {{ method }}
+
+                    public {{ method }}
                     {
                         throw new NotImplementedException();
                     }

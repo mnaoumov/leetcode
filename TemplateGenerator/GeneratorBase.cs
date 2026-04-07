@@ -70,9 +70,12 @@ internal abstract partial class GeneratorBase : IGenerator
         Directory.CreateDirectory(TaskDir);
         var content = GenerateTemplate(template);
 
-        if (!content.EndsWith(Environment.NewLine))
+        // Normalize line endings to CRLF for Windows/Visual Studio
+        content = content.Replace("\r\n", "\n").Replace("\n", "\r\n");
+
+        if (!content.EndsWith("\r\n"))
         {
-            content += Environment.NewLine;
+            content += "\r\n";
         }
 
         File.WriteAllText($@"{TaskDir}\{fileName}", content);

@@ -1,22 +1,30 @@
 namespace LeetCodeExporter;
 
-public static class SolutionFinder
+public class SolutionFinder
 {
-    public static string? FindSolutionFile(string problemNumber, int? solutionNumber)
+    private readonly IFileSystem _fileSystem;
+    private readonly string _baseDir;
+
+    public SolutionFinder(IFileSystem fileSystem, string baseDir)
     {
-        var baseDir = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "LeetCode"));
-        var searchDirs = new[] { Path.Combine(baseDir, "Problems", "!TODO"), Path.Combine(baseDir, "Problems") };
+        _fileSystem = fileSystem;
+        _baseDir = baseDir;
+    }
+
+    public string? FindSolutionFile(string problemNumber, int? solutionNumber)
+    {
+        var searchDirs = new[] { Path.Combine(_baseDir, "Problems", "!TODO"), Path.Combine(_baseDir, "Problems") };
 
         string? problemDir = null;
 
         foreach (var dir in searchDirs)
         {
-            if (!Directory.Exists(dir))
+            if (!_fileSystem.DirectoryExists(dir))
             {
                 continue;
             }
 
-            var match = Directory.GetDirectories(dir, $"{problemNumber} *").FirstOrDefault();
+            var match = _fileSystem.GetDirectories(dir, $"{problemNumber} *").FirstOrDefault();
 
             if (match != null)
             {
@@ -30,7 +38,7 @@ public static class SolutionFinder
             return null;
         }
 
-        var solutionFiles = Directory.GetFiles(problemDir, "Solution*.cs")
+        var solutionFiles = _fileSystem.GetFiles(problemDir, "Solution*.cs")
             .OrderBy(f => int.Parse(Path.GetFileNameWithoutExtension(f).Replace("Solution", "")))
             .ToArray();
 

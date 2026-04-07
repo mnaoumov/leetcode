@@ -2,22 +2,13 @@ using System.CommandLine;
 using System.Diagnostics;
 using LeetCodeExporter;
 
-var problemNumberArgument = new Argument<string>("problem-number", "LeetCode problem number (e.g. 3508)");
-var solutionNumberOption = new Option<int?>("--solution", "Solution number (default: highest)");
-solutionNumberOption.AddAlias("-s");
+var baseDir = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "LeetCode"));
+var fileSystem = new RealFileSystem();
+var finder = new SolutionFinder(fileSystem, baseDir);
 
-var rootCommand = new RootCommand("Export a LeetCode solution to clipboard-ready format")
+var command = CommandSetup.CreateCommand((problemNumber, solutionNumber) =>
 {
-    problemNumberArgument,
-    solutionNumberOption
-};
-
-rootCommand.SetHandler(Run, problemNumberArgument, solutionNumberOption);
-return rootCommand.Invoke(args);
-
-static void Run(string problemNumber, int? solutionNumber)
-{
-    var filePath = SolutionFinder.FindSolutionFile(problemNumber, solutionNumber);
+    var filePath = finder.FindSolutionFile(problemNumber, solutionNumber);
 
     if (filePath == null)
     {
@@ -28,12 +19,14 @@ static void Run(string problemNumber, int? solutionNumber)
 
     Console.Error.WriteLine($"Exporting: {filePath}");
 
-    var source = File.ReadAllText(filePath);
+    var source = fileSystem.ReadAllText(filePath);
     var result = SolutionTransformer.Transform(source);
 
     Console.Write(result);
     CopyToClipboard(result);
-}
+});
+
+return command.Invoke(args);
 
 static void CopyToClipboard(string text)
 {

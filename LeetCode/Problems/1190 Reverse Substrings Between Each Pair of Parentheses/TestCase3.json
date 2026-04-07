@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "s": "(ed(et(oc))el)",
   "output": "leetcode"
 }

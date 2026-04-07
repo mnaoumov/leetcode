@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "dividend": 1100540749,
   "divisor": -1090366779,
   "output": -1

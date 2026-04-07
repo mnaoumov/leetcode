@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "intersectVal": 0,
   "listA": [2,6,4],
   "listB": [1,5],

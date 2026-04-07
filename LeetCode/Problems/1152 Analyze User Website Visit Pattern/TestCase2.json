@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "username": ["ua","ua","ua","ub","ub","ub"],
   "timestamp": [1,2,3,4,5,6],
   "website": ["a","b","a","a","b","c"],

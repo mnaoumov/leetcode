@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "root": [3,4,5,1,null,2],
   "subRoot": [3,1,2],
   "output": false

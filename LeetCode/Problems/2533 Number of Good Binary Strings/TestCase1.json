@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "minLength": 2,
   "maxLength": 3,
   "oneGroup": 1,

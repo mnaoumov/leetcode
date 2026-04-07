@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "matrix": [[-19,57],[-40,-5]],
   "output": -59
 }

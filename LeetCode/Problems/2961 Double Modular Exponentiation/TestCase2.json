@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "variables": [[39,3,1000,1000]],
   "target": 17,
   "output": []

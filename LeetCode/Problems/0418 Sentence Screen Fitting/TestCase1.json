@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "sentence": ["hello","world"],
   "rows": 2,
   "cols": 8,

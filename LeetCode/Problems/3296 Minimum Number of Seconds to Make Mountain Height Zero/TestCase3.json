@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "mountainHeight": 5,
   "workerTimes": [1],
   "output": 15

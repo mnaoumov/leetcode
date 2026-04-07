@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "nums": [0,1,2,2,5,7],
   "maximumBit": 3,
   "output": [4,3,6,4,6,7]

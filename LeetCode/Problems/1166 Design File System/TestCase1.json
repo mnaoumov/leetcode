@@ -1,4 +1,5 @@
 {
+  "$schema": "../../ClassDesign/classdesign-testcase.schema.json",
   "commands": ["FileSystem","createPath","get"],
   "parameters": [[],["/a",1],["/a"]],
   "output": [null,true,1]

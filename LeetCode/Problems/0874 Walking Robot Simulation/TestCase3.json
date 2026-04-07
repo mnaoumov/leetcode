@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "commands": [6,-1,-1,6],
   "obstacles": [],
   "output": 36

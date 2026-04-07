@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "wordlist": ["KiTe","kite","hare","Hare"],
   "queries": ["kite","Kite","KiTe","Hare","HARE","Hear","hear","keti","keet","keto"],
   "output": ["kite","KiTe","KiTe","Hare","hare","","","KiTe","","KiTe"]

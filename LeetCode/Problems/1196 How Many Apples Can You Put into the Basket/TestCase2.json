@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "weight": [900,950,800,1000,700,800],
   "output": 5
 }

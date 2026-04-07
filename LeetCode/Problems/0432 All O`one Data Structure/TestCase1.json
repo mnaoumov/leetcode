@@ -1,5 +1,6 @@
 {
-    "commands": ["AllOne", "inc", "inc", "getMaxKey", "getMinKey", "inc", "getMaxKey", "getMinKey"],
-    "parameters": [[], ["hello"], ["hello"], [], [], ["leet"], [], []],
-    "output": [null, null, null, "hello", "hello", null, "hello", "leet"]
+  "$schema": "../../ClassDesign/classdesign-testcase.schema.json",
+  "commands": ["AllOne", "inc", "inc", "getMaxKey", "getMinKey", "inc", "getMaxKey", "getMinKey"],
+  "parameters": [[], ["hello"], ["hello"], [], [], ["leet"], [], []],
+  "output": [null, null, null, "hello", "hello", null, "hello", "leet"]
 }

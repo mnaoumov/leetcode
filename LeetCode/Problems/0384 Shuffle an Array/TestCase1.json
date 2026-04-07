@@ -1,4 +1,5 @@
 {
+  "$schema": "../../ClassDesign/classdesign-testcase.schema.json",
   "commands": [ "Solution", "shuffle", "reset", "shuffle" ],
   "parameters": [
     [ [ 1, 2, 3 ] ],

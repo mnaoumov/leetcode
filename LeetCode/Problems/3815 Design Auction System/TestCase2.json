@@ -1,5 +1,6 @@
 {
-    "commands": ["AuctionSystem","addBid","removeBid","getHighestBidder","addBid"],
-    "parameters": [[],[8,10,9],[8,10],[10],[10,10,7]],
-    "output": [null,null,null,-1,null]
+  "$schema": "../../ClassDesign/classdesign-testcase.schema.json",
+  "commands": ["AuctionSystem","addBid","removeBid","getHighestBidder","addBid"],
+  "parameters": [[],[8,10,9],[8,10],[10],[10,10,7]],
+  "output": [null,null,null,-1,null]
 }

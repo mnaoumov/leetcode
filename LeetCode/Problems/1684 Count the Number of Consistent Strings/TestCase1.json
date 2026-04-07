@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "allowed": "ab",
   "words": ["ad","bd","aaab","baa","badab"],
   "output": 2

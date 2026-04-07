@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "targetGrid": [[6,2,2,5],[2,2,2,5],[2,2,2,5],[4,3,3,4]],
   "output": true
 }

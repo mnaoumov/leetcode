@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "intervals": [[1,5]],
   "newInterval": [0,0],
   "output": [[0,0],[1,5]]

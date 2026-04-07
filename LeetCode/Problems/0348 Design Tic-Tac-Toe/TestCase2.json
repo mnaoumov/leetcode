@@ -1,4 +1,5 @@
 {
+  "$schema": "../../ClassDesign/classdesign-testcase.schema.json",
   "commands": [ "TicTacToe", "move", "move", "move" ],
   "parameters": [
     [ 2 ],

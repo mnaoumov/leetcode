@@ -1,5 +1,6 @@
 {
-    "commands": ["RangeModule", "addRange", "removeRange", "queryRange", "queryRange", "queryRange"],
-    "parameters": [[], [10, 20], [14, 16], [10, 14], [13, 15], [16, 17]],
-    "output": [null, null, null, true, false, true]
+  "$schema": "../../ClassDesign/classdesign-testcase.schema.json",
+  "commands": ["RangeModule", "addRange", "removeRange", "queryRange", "queryRange", "queryRange"],
+  "parameters": [[], [10, 20], [14, 16], [10, 14], [13, 15], [16, 17]],
+  "output": [null, null, null, true, false, true]
 }

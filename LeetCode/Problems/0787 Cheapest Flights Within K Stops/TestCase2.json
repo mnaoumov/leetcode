@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "n": 3,
   "flights": [[0,1,100],[1,2,100],[0,2,500]],
   "src": 0,

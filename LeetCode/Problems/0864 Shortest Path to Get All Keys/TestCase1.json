@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "grid": ["@.a..","###.#","b.A.B"],
   "output": 8
 }

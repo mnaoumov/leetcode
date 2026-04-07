@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "command": "G()(al)",
   "output": "Goal"
 }

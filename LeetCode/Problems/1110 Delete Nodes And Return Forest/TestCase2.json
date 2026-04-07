@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "root": [1,2,4,null,3],
   "to_delete": [3],
   "output": [[1,2,4]]

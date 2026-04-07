@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "hens": [0],
   "grains": [1000000000],
   "output": 1000000000

@@ -1,5 +1,6 @@
 {
-    "commands": ["SnapshotArray","set","snap","set","get"],
-    "parameters": [[3],[0,5],[],[0,6],[0,0]],
-    "output": [null,null,0,null,5]
+  "$schema": "../../ClassDesign/classdesign-testcase.schema.json",
+  "commands": ["SnapshotArray","set","snap","set","get"],
+  "parameters": [[3],[0,5],[],[0,6],[0,0]],
+  "output": [null,null,0,null,5]
 }

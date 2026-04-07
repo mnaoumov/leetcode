@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "mat": [[18,70],[61,1],[25,85],[14,40],[11,96],[97,96],[63,45]],
   "threshold": 40184,
   "output": 2

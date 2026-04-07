@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "n": 2,
   "edges": [[0,1,1]],
   "disappear": [1,1],

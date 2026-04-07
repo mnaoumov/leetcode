@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "parent": [-1,0,0,1,1,1],
   "s": "abaabc",
   "output": [6,3,1,1,1,1]

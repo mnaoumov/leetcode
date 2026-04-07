@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "tops": [3,5,1,2,3],
   "bottoms": [3,6,3,3,4],
   "output": -1

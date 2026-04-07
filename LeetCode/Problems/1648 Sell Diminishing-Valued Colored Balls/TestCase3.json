@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "inventory": [1000000000],
   "orders": 1000000000,
   "output": 21

@@ -1,4 +1,5 @@
 {
+  "$schema": "../../ClassDesign/classdesign-testcase.schema.json",
   "commands": ["TaskManager","rmv","execTop"],
   "parameters": [[[[10,26,25]]],[26],[]],
   "output": [null, null, -1]

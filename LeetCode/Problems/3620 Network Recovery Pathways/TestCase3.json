@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "edges": [],
   "online": [true,true],
   "k": 73,

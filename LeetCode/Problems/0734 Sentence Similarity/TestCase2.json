@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "sentence1": ["great"],
   "sentence2": ["great"],
   "similarPairs": [],

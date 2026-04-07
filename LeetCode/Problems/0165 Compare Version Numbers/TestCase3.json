@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "version1": "0.1",
   "version2": "1.1",
   "output": -1

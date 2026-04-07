@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "paths": [["B","C"],["D","B"],["C","A"]],
   "output": "A"
 }

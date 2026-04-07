@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "deadends": ["0201","0101","0102","1212","2002"],
   "target": "0202",
   "output": 6

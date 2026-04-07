@@ -1,3 +1,4 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "url": "https://leetcode.com/problems/design-tinyurl"
 }

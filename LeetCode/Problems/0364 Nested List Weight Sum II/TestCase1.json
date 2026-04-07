@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "nestedList": [[1,1],2,[1,1]],
   "output": 8
 }

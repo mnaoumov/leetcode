@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "s": "odaxusaweuasuoeudxwa",
   "queries": [[0,5,10,14]],
   "output": [false]

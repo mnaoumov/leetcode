@@ -1,3 +1,4 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "input": ["Hello","World"]
 }

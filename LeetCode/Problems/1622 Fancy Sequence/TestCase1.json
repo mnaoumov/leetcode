@@ -1,5 +1,6 @@
 {
-    "commands": ["Fancy", "append", "addAll", "append", "multAll", "getIndex", "addAll", "append", "multAll", "getIndex", "getIndex", "getIndex"],
-    "parameters": [[], [2], [3], [7], [2], [0], [3], [10], [2], [0], [1], [2]],
-    "output": [null, null, null, null, null, 10, null, null, null, 26, 34, 20]
+  "$schema": "../../ClassDesign/classdesign-testcase.schema.json",
+  "commands": ["Fancy", "append", "addAll", "append", "multAll", "getIndex", "addAll", "append", "multAll", "getIndex", "getIndex", "getIndex"],
+  "parameters": [[], [2], [3], [7], [2], [0], [3], [10], [2], [0], [1], [2]],
+  "output": [null, null, null, null, null, 10, null, null, null, 26, 34, 20]
 }

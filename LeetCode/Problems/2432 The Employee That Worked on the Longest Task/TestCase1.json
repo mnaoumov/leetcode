@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "n": 10,
   "logs": [[0,3],[2,5],[0,9],[1,15]],
   "output": 1

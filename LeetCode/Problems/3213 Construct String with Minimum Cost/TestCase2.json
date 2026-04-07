@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "target": "aaaa",
   "words": ["z","zz","zzz"],
   "costs": [1,10,100],

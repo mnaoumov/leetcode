@@ -1,4 +1,5 @@
 {
+  "$schema": "../../ClassDesign/classdesign-testcase.schema.json",
   "commands": ["SeatManager", "reserve", "reserve", "unreserve", "reserve", "reserve", "reserve", "reserve", "unreserve"],
   "parameters": [[5], [], [], [2], [], [], [], [], [5]],
   "output": [null, 1, 2, null, 2, 3, 4, 5, null]

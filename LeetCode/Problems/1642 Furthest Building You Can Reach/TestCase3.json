@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "heights": [14,3,19,3],
   "bricks": 17,
   "ladders": 0,

@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "s": "0001111",
   "k": 2,
   "queries": [[0,6]],

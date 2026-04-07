@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "emails": ["a@leetcode.com","b@leetcode.com","c@leetcode.com"],
   "output": 3
 }

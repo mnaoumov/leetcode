@@ -1,4 +1,5 @@
 {
+  "$schema": "../../ClassDesign/classdesign-testcase.schema.json",
   "commands": ["DataStream", "consec", "consec", "consec", "consec"],
   "parameters": [[4, 3], [4], [4], [4], [3]],
   "output": [null, false, false, true, false]

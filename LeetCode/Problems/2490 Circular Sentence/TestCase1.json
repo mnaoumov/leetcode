@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "sentence": "leetcode exercises sound delightful",
   "output": true
 }

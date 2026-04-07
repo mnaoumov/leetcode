@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "s": "jqktcurgdvlibczdsvnsg",
   "t": 7517,
   "output": 79033769

@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "formula": "Mg(OH)2",
   "output": "H2MgO2"
 }

@@ -1,5 +1,6 @@
 {
-    "commands": ["FrequencyTracker", "add", "deleteOne", "hasFrequency"],
-    "parameters": [[], [1], [1], [1]],
-    "output": [null, null, null, false]
+  "$schema": "../../ClassDesign/classdesign-testcase.schema.json",
+  "commands": ["FrequencyTracker", "add", "deleteOne", "hasFrequency"],
+  "parameters": [[], [1], [1], [1]],
+  "output": [null, null, null, false]
 }

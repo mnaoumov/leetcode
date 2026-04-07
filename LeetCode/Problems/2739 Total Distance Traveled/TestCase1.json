@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "mainTank": 5,
   "additionalTank": 10,
   "output": 60

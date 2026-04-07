@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "banned": [1,4,6],
   "n": 6,
   "maxSum": 4,

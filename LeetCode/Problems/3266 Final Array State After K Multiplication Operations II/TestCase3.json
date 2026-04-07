@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "nums": [161209470],
   "k": 56851412,
   "multiplier": 39846,

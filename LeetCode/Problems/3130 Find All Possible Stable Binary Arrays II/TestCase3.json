@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "zero": 3,
   "one": 3,
   "limit": 2,

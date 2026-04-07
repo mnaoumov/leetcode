@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "positive_feedback": ["smart","brilliant","studious"],
   "negative_feedback": ["not"],
   "report": ["this student is studious","the student is smart"],

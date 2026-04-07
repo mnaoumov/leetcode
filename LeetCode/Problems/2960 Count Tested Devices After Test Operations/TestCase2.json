@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "batteryPercentages": [0,1,2],
   "output": 2
 }

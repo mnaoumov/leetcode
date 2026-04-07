@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "sentence": "this problem is an easy problem",
   "searchWord": "pro",
   "output": 2

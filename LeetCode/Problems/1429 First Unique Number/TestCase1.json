@@ -1,4 +1,5 @@
 {
+  "$schema": "../../ClassDesign/classdesign-testcase.schema.json",
   "commands": ["FirstUnique","showFirstUnique","add","showFirstUnique","add","showFirstUnique","add","showFirstUnique"],
   "parameters": [[[2,3,5]],[],[5],[],[2],[],[3],[]],
   "output": [null,2,null,2,null,3,null,-1]

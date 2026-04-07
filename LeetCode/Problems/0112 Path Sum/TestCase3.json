@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "treeNodeValues": [],
   "targetSum": 0,
   "output": false

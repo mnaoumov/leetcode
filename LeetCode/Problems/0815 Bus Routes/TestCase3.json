@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "routes": [[2],[2,8]],
   "source": 8,
   "target": 2,

@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "garbage": ["MMM","PGM","GP"],
   "travel": [3,10],
   "output": 37

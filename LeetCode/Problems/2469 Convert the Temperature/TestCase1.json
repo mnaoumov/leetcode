@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "celsius": 36.5,
   "output": [309.65,97.7]
 }

@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "creators": ["alice","alice","alice"],
   "ids": ["a","b","c"],
   "views": [1,2,2],

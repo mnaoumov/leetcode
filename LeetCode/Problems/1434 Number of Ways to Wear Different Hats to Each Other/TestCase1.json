@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "hats": [[3,4],[4,5],[5]],
   "output": 1
 }

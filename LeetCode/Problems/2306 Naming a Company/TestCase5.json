@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "ideas": ["aaa","baa","caa","bbb","cbb","dbb"],
   "output": 2
 }

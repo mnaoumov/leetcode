@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "s": "sayhelloworld",
   "dictionary": ["hello","world"],
   "output": 3

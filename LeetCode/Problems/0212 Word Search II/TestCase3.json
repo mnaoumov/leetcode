@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "board": [["a","b","c","e"],["x","x","c","d"],["x","x","b","a"]],
   "words": ["abc","abcd"],
   "output": ["abc","abcd"]

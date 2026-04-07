@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "startUrl": "http://news.yahoo.com/news/topics/",
   "urls": [
     "http://news.yahoo.com",

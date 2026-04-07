@@ -1,5 +1,6 @@
 {
-    "commands": ["MyCalendar", "book", "book", "book"],
-    "parameters": [[], [10, 20], [15, 25], [20, 30]],
-    "output": [null, true, false, true]
+  "$schema": "../../ClassDesign/classdesign-testcase.schema.json",
+  "commands": ["MyCalendar", "book", "book", "book"],
+  "parameters": [[], [10, 20], [15, 25], [20, 30]],
+  "output": [null, true, false, true]
 }

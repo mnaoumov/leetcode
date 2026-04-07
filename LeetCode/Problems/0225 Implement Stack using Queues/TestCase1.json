@@ -1,4 +1,5 @@
 {
+  "$schema": "../../ClassDesign/classdesign-testcase.schema.json",
   "commands": ["MyStack", "push", "push", "top", "pop", "empty"],
   "parameters": [[], [1], [2], [], [], []],
   "output": [null, null, null, 2, 2, false]

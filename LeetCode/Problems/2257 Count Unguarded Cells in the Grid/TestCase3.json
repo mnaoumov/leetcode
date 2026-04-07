@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "m": 2,
   "n": 7,
   "guards": [[1,5],[1,1],[1,6],[0,2]],

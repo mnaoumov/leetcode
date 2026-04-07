@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "finalSum": 12,
   "outputLength": 3
 }

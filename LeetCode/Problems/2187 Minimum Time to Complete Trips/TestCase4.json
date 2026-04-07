@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "time": [10000000],
   "totalTrips": 10000000,
   "output": 100000000000000

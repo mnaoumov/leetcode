@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "intervals": [[0,2],[3,4],[5,7]],
   "toBeRemoved": [1,6],
   "output": [[0,1],[6,7]]

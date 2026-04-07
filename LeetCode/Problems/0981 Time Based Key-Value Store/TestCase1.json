@@ -1,4 +1,5 @@
 {
+  "$schema": "../../ClassDesign/classdesign-testcase.schema.json",
   "commands": ["TimeMap", "set", "get", "get", "set", "get", "get"],
   "parameters": [[], ["foo", "bar", 1], ["foo", 1], ["foo", 3], ["foo", "bar2", 4], ["foo", 4], ["foo", 5]],
   "output": [null, null, "bar", "bar", null, "bar2", "bar2"]

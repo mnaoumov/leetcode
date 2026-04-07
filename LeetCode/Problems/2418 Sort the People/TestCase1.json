@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "names": ["Mary","John","Emma"],
   "heights": [180,165,170],
   "output": ["Mary","Emma","John"]

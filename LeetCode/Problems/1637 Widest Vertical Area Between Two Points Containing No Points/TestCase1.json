@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "points": [[8,7],[9,9],[7,4],[9,7]],
   "output": 1
 }

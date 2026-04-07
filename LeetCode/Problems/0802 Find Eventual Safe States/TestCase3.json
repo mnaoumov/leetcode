@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "graph": [[],[0,2,3,4],[3],[4],[]],
   "output": [0,1,2,3,4]
 }

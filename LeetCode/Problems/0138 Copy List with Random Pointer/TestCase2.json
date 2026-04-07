@@ -1,3 +1,4 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "headValues": [[1,1],[2,1]]
 }

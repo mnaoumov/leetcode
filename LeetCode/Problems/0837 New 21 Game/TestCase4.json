@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "n": 9676,
   "k": 8090,
   "maxPts": 3056,

@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "access_times": [["a","0549"],["b","0457"],["a","0532"],["a","0621"],["b","0540"]],
   "output": ["a"]
 }

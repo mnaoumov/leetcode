@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "hand": [1,2,3,4,5,6],
   "groupSize": 2,
   "output": true

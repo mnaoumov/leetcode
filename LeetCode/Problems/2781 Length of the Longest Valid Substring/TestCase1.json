@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "word": "cbaaaabc",
   "forbidden": ["aaa","cb"],
   "output": 4

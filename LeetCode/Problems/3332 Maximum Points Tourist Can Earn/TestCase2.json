@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "n": 3,
   "k": 2,
   "stayScore": [[3,4,2],[2,1,2]],

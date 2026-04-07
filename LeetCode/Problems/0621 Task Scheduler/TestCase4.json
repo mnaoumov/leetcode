@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "tasks": ["A","A","A","B","B","B"],
   "n": 50,
   "output": 104

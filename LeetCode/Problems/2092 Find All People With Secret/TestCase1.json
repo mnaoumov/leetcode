@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "n": 6,
   "meetings": [[1,2,5],[2,3,8],[1,5,10]],
   "firstPerson": 1,

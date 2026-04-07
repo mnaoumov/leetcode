@@ -1,5 +1,6 @@
 {
-    "commands": ["LogSystem","put","put","retrieve"],
-    "parameters": [[],[1,"2017:01:01:23:59:59"],[2,"2017:01:02:23:59:59"],["2017:01:01:23:59:59","2017:01:02:23:59:59","Month"]],
-    "output": [null,null,null,[1,2]]
+  "$schema": "../../ClassDesign/classdesign-testcase.schema.json",
+  "commands": ["LogSystem","put","put","retrieve"],
+  "parameters": [[],[1,"2017:01:01:23:59:59"],[2,"2017:01:02:23:59:59"],["2017:01:01:23:59:59","2017:01:02:23:59:59","Month"]],
+  "output": [null,null,null,[1,2]]
 }

@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "code": ["SAVE20","","PHARMA5","SAVE@20"],
   "businessLine": ["restaurant","grocery","pharmacy","restaurant"],
   "isActive": [true,true,true,true],

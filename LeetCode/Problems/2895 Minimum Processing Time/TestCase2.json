@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "processorTime": [10,20],
   "tasks": [2,3,1,2,5,8,4,3],
   "output": 23

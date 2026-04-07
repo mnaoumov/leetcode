@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "s": "leet2code3",
   "k": 10,
   "output": "o"

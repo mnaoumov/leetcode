@@ -1,5 +1,6 @@
 {
-    "commands": ["Solution","pickIndex","pickIndex","pickIndex","pickIndex","pickIndex"],
-    "parameters": [[[1,3]],[],[],[],[],[]],
-    "output": [null,{"isAnyOf": [0, 1]},{"isAnyOf": [0, 1]},{"isAnyOf": [0, 1]},{"isAnyOf": [0, 1]},{"isAnyOf": [0, 1]}]
+  "$schema": "../../ClassDesign/classdesign-testcase.schema.json",
+  "commands": ["Solution","pickIndex","pickIndex","pickIndex","pickIndex","pickIndex"],
+  "parameters": [[[1,3]],[],[],[],[],[]],
+  "output": [null,{"isAnyOf": [0, 1]},{"isAnyOf": [0, 1]},{"isAnyOf": [0, 1]},{"isAnyOf": [0, 1]},{"isAnyOf": [0, 1]}]
 }

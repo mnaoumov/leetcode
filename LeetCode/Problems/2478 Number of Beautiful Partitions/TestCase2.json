@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "s": "23542185131",
   "k": 3,
   "minLength": 3,

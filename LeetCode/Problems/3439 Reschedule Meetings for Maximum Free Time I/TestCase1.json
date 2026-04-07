@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "eventTime": 5,
   "k": 1,
   "startTime": [1,3],

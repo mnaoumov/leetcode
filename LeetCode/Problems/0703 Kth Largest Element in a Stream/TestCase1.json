@@ -1,4 +1,5 @@
 {
+  "$schema": "../../ClassDesign/classdesign-testcase.schema.json",
   "commands": ["KthLargest", "add", "add", "add", "add", "add"],
   "parameters": [[3, [4, 5, 8, 2]], [3], [5], [10], [9], [4]],
   "output": [null, 4, 5, 5, 8, 8]

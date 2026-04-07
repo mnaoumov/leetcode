@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "traversal": "1-401--349---90--88",
   "output": [1,401,null,349,88,90]
 }

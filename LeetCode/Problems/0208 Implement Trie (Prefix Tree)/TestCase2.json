@@ -1,4 +1,5 @@
 {
+  "$schema": "../../ClassDesign/classdesign-testcase.schema.json",
   "commands": ["Trie", "search", "insert", "search", "search", "startsWith", "startsWith"],
   "parameters": [[], ["ab"], ["ab"], ["ab"], ["ab"], ["ab"], ["ab"]],
   "output": [null, false, null, true, true, true, true]

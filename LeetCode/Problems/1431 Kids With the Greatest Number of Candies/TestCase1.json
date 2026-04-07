@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "candies": [2,3,5,1,3],
   "extraCandies": 3,
   "output": [true,true,true,false,true] 

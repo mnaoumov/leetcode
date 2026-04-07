@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "poly1": [[1,2]],
   "poly2": [[-1,2]],
   "output": []

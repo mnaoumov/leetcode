@@ -1,5 +1,6 @@
 {
-    "commands": ["Router","addPacket","getCount"],
-    "parameters": [[3],[1,4,90],[5,100,110]],
-    "output": [null,true,0]
+  "$schema": "../../ClassDesign/classdesign-testcase.schema.json",
+  "commands": ["Router","addPacket","getCount"],
+  "parameters": [[3],[1,4,90],[5,100,110]],
+  "output": [null,true,0]
 }

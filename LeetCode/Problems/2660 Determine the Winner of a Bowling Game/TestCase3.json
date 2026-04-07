@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "player1": [2,3],
   "player2": [4,1],
   "output": 0

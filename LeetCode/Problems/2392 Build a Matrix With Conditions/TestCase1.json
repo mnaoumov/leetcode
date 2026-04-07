@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "k": 3,
   "rowConditions": [[1,2],[3,2]],
   "colConditions": [[2,1],[3,2]],

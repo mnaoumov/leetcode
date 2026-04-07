@@ -1,5 +1,6 @@
 {
-    "commands": ["FindElements","find","find","find"],
-    "parameters": [[[-1,-1,-1,-1,-1]],[1],[3],[5]],
-    "output": [null,true,true,false]
+  "$schema": "../../ClassDesign/classdesign-testcase.schema.json",
+  "commands": ["FindElements","find","find","find"],
+  "parameters": [[[-1,-1,-1,-1,-1]],[1],[3],[5]],
+  "output": [null,true,true,false]
 }

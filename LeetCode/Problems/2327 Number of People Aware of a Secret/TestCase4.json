@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "n": 382,
   "delay": 174,
   "forget": 205,

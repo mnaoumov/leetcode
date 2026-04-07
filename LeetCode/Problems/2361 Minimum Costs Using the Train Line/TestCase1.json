@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "regular": [1,6,9,5],
   "express": [5,2,3,10],
   "expressCost": 8,

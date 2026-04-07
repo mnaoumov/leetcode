@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "cookies": [6,1,3,2,2,4,1,2],
   "k": 3,
   "output": 7

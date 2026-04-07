@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "pid": [1],
   "ppid": [0],
   "kill": 1,

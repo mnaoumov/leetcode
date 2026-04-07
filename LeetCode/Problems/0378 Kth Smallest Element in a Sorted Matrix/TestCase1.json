@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "matrix": [[1,5,9],[10,11,13],[12,13,15]],
   "k": 8,
   "output": 13

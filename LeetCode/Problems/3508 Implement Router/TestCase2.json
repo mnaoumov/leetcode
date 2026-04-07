@@ -1,5 +1,6 @@
 {
-    "commands": ["Router", "addPacket", "forwardPacket", "forwardPacket"],
-    "parameters": [[2], [7, 4, 90], [], []],
-    "output": [null, true, [7, 4, 90], []]
+  "$schema": "../../ClassDesign/classdesign-testcase.schema.json",
+  "commands": ["Router", "addPacket", "forwardPacket", "forwardPacket"],
+  "parameters": [[2], [7, 4, 90], [], []],
+  "output": [null, true, [7, 4, 90], []]
 }

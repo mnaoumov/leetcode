@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "petal_length": [],
   "species": [],
   "output": 0.00000

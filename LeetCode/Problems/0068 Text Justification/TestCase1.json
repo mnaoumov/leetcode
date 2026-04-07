@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "words": ["This","is","an","example","of","text","justification."],
   "maxWidth": 16,
   "output": ["This    is    an","example  of text","justification.  "]

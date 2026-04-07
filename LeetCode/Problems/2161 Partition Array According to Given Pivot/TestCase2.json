@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "nums": [-3,4,3,2],
   "pivot": 2,
   "output": [-3,2,4,3]

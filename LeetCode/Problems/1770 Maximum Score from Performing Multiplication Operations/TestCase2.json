@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "nums": [-5,-3,-3,-2,7,1],
   "multipliers": [-10,-5,3,4,6],
   "output": 102

@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "robots": [1,2],
   "distance": [100,1],
   "walls": [10],

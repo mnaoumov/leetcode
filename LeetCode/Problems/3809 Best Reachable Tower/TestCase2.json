@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "towers": [[1,3,4],[2,2,4],[4,4,7]],
   "center": [0,0],
   "radius": 5,

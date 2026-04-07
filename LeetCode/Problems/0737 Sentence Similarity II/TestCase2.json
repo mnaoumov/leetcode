@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "sentence1": ["I","love","leetcode"],
   "sentence2": ["I","love","onepiece"],
   "similarPairs": [["manga","onepiece"],["platform","anime"],["leetcode","platform"],["anime","manga"]],

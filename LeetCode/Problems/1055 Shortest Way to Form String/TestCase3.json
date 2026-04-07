@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "source": "xyz",
   "target": "xzyxz",
   "output": 3

@@ -1,4 +1,5 @@
 {
+  "$schema": "../../ClassDesign/classdesign-testcase.schema.json",
   "commands": ["MedianFinder", "addNum", "addNum", "findMedian", "addNum", "findMedian"],
   "parameters": [[], [1], [2], [], [3], []],
   "output": [null, null, null, 1.5, null, 2.0]

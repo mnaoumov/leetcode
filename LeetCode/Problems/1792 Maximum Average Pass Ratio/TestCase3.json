@@ -1,4 +1,5 @@
 {
+  "$schema": "../../Base/testcase.schema.json",
   "classes": [[13609,17094],[24079,89827]],
   "extraStudents": 22159,
   "output": 0.61455

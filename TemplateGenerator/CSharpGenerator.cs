@@ -13,19 +13,19 @@ internal partial class CSharpGenerator : GeneratorBase
     private static partial Regex ExamplesRegex();
 
     [UsedImplicitly]
-    public JObject[] Examples { get; set; } = null!;
+    public JObject[] Examples { get; set; } = [];
 
     [UsedImplicitly]
-    public string MethodName { get; private set; } = null!;
+    public string MethodName { get; private set; } = string.Empty;
 
     [UsedImplicitly]
-    public Argument[] InputArguments { get; private set; } = Array.Empty<Argument>();
+    public Argument[] InputArguments { get; private set; } = [];
 
     [UsedImplicitly]
-    public Argument OutputArgument { get; private set; } = null!;
+    public Argument OutputArgument { get; private set; } = new();
 
     [UsedImplicitly]
-    public string InvokeSolutionCode { get; private set; } = null!;
+    public string InvokeSolutionCode { get; private set; } = string.Empty;
 
     [UsedImplicitly]
     public IEnumerable<Argument> AllArguments => InputArguments.Append(OutputArgument);
@@ -40,6 +40,12 @@ internal partial class CSharpGenerator : GeneratorBase
         InputArguments = signatureMatch.Groups["Arguments"].Value.Split(", ").Select(argumentStr =>
         {
             var parts = argumentStr.Split(' ');
+
+            if (parts.Length < 2)
+            {
+                throw new InvalidOperationException($"Invalid argument format: '{argumentStr}'. Expected 'type name'.");
+            }
+
             var originalType = parts[0];
             var jsonName = parts[1];
             return Argument.Create(originalType, jsonName);
@@ -114,12 +120,9 @@ internal partial class CSharpGenerator : GeneratorBase
             }
             """);
 
-        var testCaseCounter = 0;
-
-        foreach (var example in Examples)
+        for (var i = 0; i < Examples.Length; i++)
         {
-            testCaseCounter++;
-            GenerateFile($"TestCase{testCaseCounter}.json", NoIndentArrayJsonTextWriter.Indent(example));
+            GenerateFile($"TestCase{i + 1}.json", NoIndentArrayJsonTextWriter.Indent(Examples[i]));
         }
     }
 
@@ -128,13 +131,13 @@ internal partial class CSharpGenerator : GeneratorBase
     internal class Argument
     {
         [UsedImplicitly]
-        public string Type { get; init; } = null!;
+        public string Type { get; init; } = string.Empty;
 
         [UsedImplicitly]
-        public string Name { get; set; } = null!;
+        public string Name { get; set; } = string.Empty;
 
         [UsedImplicitly]
-        public string TestCasePropertyCode { get; set; } = null!;
+        public string TestCasePropertyCode { get; set; } = string.Empty;
 
         [UsedImplicitly]
         public bool IsClassType =>

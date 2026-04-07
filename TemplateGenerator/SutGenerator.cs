@@ -18,22 +18,22 @@ internal partial class SutGenerator : GeneratorBase
     private static partial Regex ExamplesRegex();
 
     [UsedImplicitly]
-    public string InterfaceName { get; private set; } = null!;
+    public string InterfaceName { get; private set; } = string.Empty;
 
     [UsedImplicitly]
-    public string ClassName { get; private set; } = null!;
+    public string ClassName { get; private set; } = string.Empty;
 
     [UsedImplicitly]
-    public string[] Methods { get; private set; } = null!;
+    public string[] Methods { get; private set; } = [];
 
     [UsedImplicitly]
-    public string ConstructorArgumentsStr { get; private set; } = null!;
+    public string ConstructorArgumentsStr { get; private set; } = string.Empty;
 
     [UsedImplicitly]
-    public string ConstructorArgumentNamesStr { get; private set; } = null!;
+    public string ConstructorArgumentNamesStr { get; private set; } = string.Empty;
 
     [UsedImplicitly]
-    public SutExample Example { get; private set; } = null!;
+    public SutExample Example { get; private set; } = new();
 
     public override bool CanGenerate() => Signature == "SUT";
 
@@ -53,7 +53,8 @@ internal partial class SutGenerator : GeneratorBase
         InterfaceName = $"I{ClassName}";
         Methods = MethodsRegex().Matches(sutClassDefinition).Select(m => m.Groups[1].Value)
             .ToArray();
-        var constructor = Methods.First(m => m.Contains($"public {ClassName}"));
+        var constructor = Methods.FirstOrDefault(m => m.Contains($"public {ClassName}"))
+            ?? throw new InvalidOperationException($"No constructor found for class '{ClassName}'");
         Methods = Methods.Except(new[] { constructor }).ToArray();
         ConstructorArgumentsStr = ConstructorArgumentsRegex().Match(constructor).Groups[1].Value;
         ConstructorArgumentNamesStr = string.Join(", ",
@@ -118,14 +119,11 @@ internal partial class SutGenerator : GeneratorBase
             }
             """);
 
-        var testCaseCounter = 0;
-
-        foreach (var example in examples)
+        for (var i = 0; i < examples.Length; i++)
         {
-            testCaseCounter++;
-            Example = example;
+            Example = examples[i];
 
-            GenerateFile($"TestCase{testCaseCounter}.json", """
+            GenerateFile($"TestCase{i + 1}.json", """
             {
                 "commands": {{ Example.CommandsStr }},
                 "parameters": {{ Example.ParametersStr }},
@@ -138,12 +136,12 @@ internal partial class SutGenerator : GeneratorBase
     public class SutExample
     {
         [UsedImplicitly]
-        public string CommandsStr { get; init; } = null!;
+        public string CommandsStr { get; init; } = string.Empty;
 
         [UsedImplicitly]
-        public string ParametersStr { get; init; } = null!;
+        public string ParametersStr { get; init; } = string.Empty;
 
         [UsedImplicitly]
-        public string OutputStr { get; init; } = null!;
+        public string OutputStr { get; init; } = string.Empty;
     }
 }

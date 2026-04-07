@@ -13,20 +13,21 @@ internal abstract partial class GeneratorBase : IGenerator
     private const string InvalidNamespaceChars = " `-=~!@#$%^&*()+[]{}',.;";
     private const int ProblemNumberLength = 4;
     private const char ReplacementChar = '_';
-    private const string LeetCodeFolderPath = @"F:\Dev\LeetCode\LeetCode\Problems\!TODO";
+    private static readonly string LeetCodeFolderPath = Path.GetFullPath(
+        Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "LeetCode", "Problems", "!TODO"));
 
-    private string Title { get; set; } = null!;
-
-    [UsedImplicitly]
-    public string Signature { get; private set; } = null!;
-
-    private string TaskDir { get; set; } = null!;
+    private string Title { get; set; } = string.Empty;
 
     [UsedImplicitly]
-    public string EscapedTitle { get; private set; } = null!;
+    public string Signature { get; private set; } = string.Empty;
+
+    private string TaskDir { get; set; } = string.Empty;
 
     [UsedImplicitly]
-    public string Namespace { get; private set; } = null!;
+    public string EscapedTitle { get; private set; } = string.Empty;
+
+    [UsedImplicitly]
+    public string Namespace { get; private set; } = string.Empty;
 
     public abstract bool CanGenerate();
 
@@ -34,6 +35,9 @@ internal abstract partial class GeneratorBase : IGenerator
 
     public void Init(string title, string signature)
     {
+        ArgumentException.ThrowIfNullOrWhiteSpace(title);
+        ArgumentException.ThrowIfNullOrWhiteSpace(signature);
+
         Title = title;
         Signature = signature.Replace("public ", "");
         var titleWithUnifiedProblemNumber = ProblemNumberRegex().Replace(Title, match => match.Groups[1].Value.PadLeft(ProblemNumberLength, '0'));
@@ -47,6 +51,11 @@ internal abstract partial class GeneratorBase : IGenerator
 
     protected void GenerateFile(string fileName, string template)
     {
+        if (fileName.IndexOfAny(Path.GetInvalidFileNameChars()) >= 0)
+        {
+            throw new ArgumentException($"Invalid file name: {fileName}", nameof(fileName));
+        }
+
         Directory.CreateDirectory(TaskDir);
         var content = GenerateTemplate(template);
 

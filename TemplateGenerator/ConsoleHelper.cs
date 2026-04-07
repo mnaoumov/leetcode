@@ -7,7 +7,7 @@ public static class ConsoleHelper
     public static string Read(string prompt)
     {
         Console.Write($"Enter {prompt}: ");
-        return Console.ReadLine()!;
+        return Console.ReadLine() ?? throw new InvalidOperationException("Unexpected end of input");
     }
 
     public static string ReadMultiline(string prompt)

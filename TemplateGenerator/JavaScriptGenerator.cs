@@ -1,5 +1,6 @@
 using System.Text.RegularExpressions;
 using JetBrains.Annotations;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
 namespace TemplateGenerator;
@@ -10,10 +11,10 @@ internal partial class JavaScriptGenerator : GeneratorBase
     private static partial Regex ExamplesRegex();
 
     [UsedImplicitly]
-    public string SolutionTemplate { get; private set; } = null!;
+    public string SolutionTemplate { get; private set; } = string.Empty;
 
     [UsedImplicitly]
-    public string ExampleJson { get; private set; } = null!;
+    public string ExampleJson { get; private set; } = string.Empty;
 
     public override bool CanGenerate() => Signature == "JS";
 
@@ -36,8 +37,9 @@ internal partial class JavaScriptGenerator : GeneratorBase
             {
                 return NoIndentArrayJsonTextWriter.Indent(JObject.Parse(json));
             }
-            catch
+            catch (JsonReaderException ex)
             {
+                Console.Error.WriteLine($"Warning: Failed to parse JSON, using raw text. Error: {ex.Message}");
                 return json;
             }
         }).ToArray();
@@ -65,14 +67,10 @@ internal partial class JavaScriptGenerator : GeneratorBase
             };
             """);
 
-        var testCaseCounter = 0;
-
-        foreach (var exampleJson in exampleJsons)
+        for (var i = 0; i < exampleJsons.Length; i++)
         {
-            testCaseCounter++;
-            ExampleJson = exampleJson;
-
-            GenerateFile($"TestCase{testCaseCounter}.js", $"module.exports = {exampleJson};");
+            ExampleJson = exampleJsons[i];
+            GenerateFile($"TestCase{i + 1}.js", $"module.exports = {exampleJsons[i]};");
         }
     }
 }

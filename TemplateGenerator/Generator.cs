@@ -12,12 +12,13 @@ internal static class Generator
                             .GetTypes().Where(t => t.IsAssignableTo(typeof(IGenerator)) && !t.IsAbstract)
                             .Select(t =>
                             {
-                                var generator = (IGenerator) Activator.CreateInstance(t)!;
-                                generator.Init(title, signature);
-                                return generator;
+                                var instance = Activator.CreateInstance(t) as IGenerator
+                                    ?? throw new InvalidOperationException($"Failed to create instance of {t.Name}");
+                                instance.Init(title, signature);
+                                return instance;
                             })
                             .FirstOrDefault(g => g.CanGenerate())
-                        ?? throw new Exception($"Unsupported signature: {signature}");
+                        ?? throw new InvalidOperationException($"Unsupported signature: {signature}");
         generator.Generate(args.ElementAtOrDefault(2));
     }
 }

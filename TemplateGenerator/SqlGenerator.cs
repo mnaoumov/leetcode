@@ -17,28 +17,28 @@ internal partial class SqlGenerator : GeneratorBase
     private static partial Regex HeaderNameRegex();
 
     [UsedImplicitly]
-    public string SetUpScript { get; private set; } = null!;
+    public string SetUpScript { get; private set; } = string.Empty;
 
     [UsedImplicitly]
-    public string TableName { get; set; } = null!;
+    public string TableName { get; set; } = string.Empty;
 
     [UsedImplicitly]
-    public List<string> ColumnDefinitions { get; private set; } = null!;
+    public List<string> ColumnDefinitions { get; private set; } = [];
 
     [UsedImplicitly]
-    public string ColumnName { get; private set; } = null!;
+    public string ColumnName { get; private set; } = string.Empty;
 
     [UsedImplicitly]
-    public string[] Values { get; private set; } = null!;
+    public string[] Values { get; private set; } = [];
 
     [UsedImplicitly]
     public int MaxValueLength { get; set; }
 
     [UsedImplicitly]
-    public string TestCaseJson { get; set; } = null!;
+    public string TestCaseJson { get; set; } = string.Empty;
 
     [UsedImplicitly]
-    public string[] HeaderNames { get; private set; } = null!;
+    public string[] HeaderNames { get; private set; } = [];
 
     public override bool CanGenerate() => Signature == "SQL";
 
@@ -65,7 +65,9 @@ internal partial class SqlGenerator : GeneratorBase
         {
             var testCaseObj = JObject.Parse(testCases[i]);
             testCaseObj.Add("output", JObject.Parse(expectedOutputs[i]));
-            HeaderNames = testCaseObj["output"]!["headers"]!.Select(EscapeHeaderName).ToArray();
+            var output = testCaseObj["output"] ?? throw new InvalidOperationException("Test case missing 'output' field");
+            var headers = output["headers"] ?? throw new InvalidOperationException("Test case output missing 'headers' field");
+            HeaderNames = headers.Select(EscapeHeaderName).ToArray();
             TestCaseJson = testCaseObj.ToString(Formatting.Indented);
 
             GenerateFile($"TestCase{i + 1}.json", "{{ TestCaseJson }}");
@@ -83,7 +85,8 @@ internal partial class SqlGenerator : GeneratorBase
 
     private static string EscapeHeaderName(JToken headerJson)
     {
-        var headerName = headerJson.Value<string>()!;
+        var headerName = headerJson.Value<string>()
+            ?? throw new InvalidOperationException($"Header name is null: {headerJson}");
         return HeaderNameRegex().IsMatch(headerName) ? headerName : $"[{headerName}]";
     }
 
@@ -118,7 +121,7 @@ internal partial class SqlGenerator : GeneratorBase
                 var columnDefinition = string.Join(", ", complexParts);
                 ColumnName = columnDefinition.Split(' ')[0];
                 Values = ValuesRegex().Matches(columnDefinition).Select(m => m.Groups[1].Value).ToArray();
-                MaxValueLength = Values.Max(value => value.Length);
+                MaxValueLength = Values.Length > 0 ? Values.Max(value => value.Length) : 0;
 
                 columnDefinition = GenerateTemplate("""
                     {{ ColumnName}} varchar({{ MaxValueLength }}) CHECK({{ ColumnName }} IN (

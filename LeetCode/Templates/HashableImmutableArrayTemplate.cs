@@ -13,7 +13,7 @@ namespace LeetCode.Templates;
 
 public static class HashableImmutableArrayTemplate
 {
-    private sealed class HashableImmutableArray<T> : IReadOnlyList<T>
+    public sealed class HashableImmutableArray<T> : IReadOnlyList<T>
     {
         private readonly T[] _items;
         public HashableImmutableArray(IEnumerable<T> items) => _items = items.ToArray();

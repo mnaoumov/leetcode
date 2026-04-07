@@ -9,7 +9,7 @@ namespace LeetCode.Templates;
 
 public static class DijkstraShortestPathTemplate
 {
-    private sealed class EdgeWeightedGraph<T> where T : notnull
+    public sealed class EdgeWeightedGraph<T> where T : notnull
     {
         private readonly Dictionary<T, HashSet<Edge<T>>> _adjacentEdges = new();
 
@@ -28,7 +28,7 @@ public static class DijkstraShortestPathTemplate
         public HashSet<Edge<T>> AdjacentEdges(T node) => _adjacentEdges.GetValueOrDefault(node, new HashSet<Edge<T>>());
     }
 
-    private sealed class DijkstraShortestPath<T> where T : notnull
+    public sealed class DijkstraShortestPath<T> where T : notnull
     {
         private readonly Dictionary<T, double> _distances = new();
 
@@ -72,7 +72,7 @@ public static class DijkstraShortestPathTemplate
         public double DistanceTo(T target) => _distances.GetValueOrDefault(target, double.PositiveInfinity);
     }
 
-    private sealed record Edge<T>(T Node1, T Node2, double Weight)
+    public sealed record Edge<T>(T Node1, T Node2, double Weight)
     {
         public T Either() => Node1;
 

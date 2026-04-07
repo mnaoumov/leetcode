@@ -14,7 +14,7 @@ namespace LeetCode.Templates;
 
 public static class ModNumberTemplate
 {
-    private sealed class ModNumber
+    public sealed class ModNumber
     {
         private const int Modulo = 1_000_000_007;
         private readonly int _value;

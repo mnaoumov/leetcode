@@ -9,7 +9,7 @@ namespace LeetCode.Templates;
 
 public static class BinarySearch
 {
-    private static int BinarySearchFirst<T>(IReadOnlyList<T> arr, T value, int? firstIndex = null, int? lastIndex = null) where T : IComparable<T>
+    public static int BinarySearchFirst<T>(IReadOnlyList<T> arr, T value, int? firstIndex = null, int? lastIndex = null) where T : IComparable<T>
     {
         var low = firstIndex ?? 0;
         var high = lastIndex ?? arr.Count - 1;
@@ -31,7 +31,7 @@ public static class BinarySearch
         return low;
     }
 
-    private static int BinarySearchLast<T>(IReadOnlyList<T> arr, T value, int? firstIndex = null, int? lastIndex = null) where T : IComparable<T>
+    public static int BinarySearchLast<T>(IReadOnlyList<T> arr, T value, int? firstIndex = null, int? lastIndex = null) where T : IComparable<T>
     {
         var low = firstIndex ?? 0;
         var high = lastIndex ?? arr.Count - 1;

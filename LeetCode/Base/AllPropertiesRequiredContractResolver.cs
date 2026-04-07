@@ -3,7 +3,7 @@ using System.Text.Json.Serialization.Metadata;
 
 namespace LeetCode.Base;
 
-internal static class AllPropertiesRequiredModifier
+public static class AllPropertiesRequiredModifier
 {
     public static void MakePropertiesRequired(JsonTypeInfo typeInfo)
     {

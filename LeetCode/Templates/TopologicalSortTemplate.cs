@@ -9,7 +9,7 @@ namespace LeetCode.Templates;
 
 public static class TopologicalSortTemplate
 {
-    private sealed class TopologicalSort<T> where T : notnull
+    public sealed class TopologicalSort<T> where T : notnull
     {
         private readonly HashSet<T> _seen = new();
         private readonly HashSet<T> _processing = new();
@@ -65,7 +65,7 @@ public static class TopologicalSortTemplate
         public IEnumerable<T> Order => IsAcyclic ? _order : Enumerable.Empty<T>();
     }
 
-    private sealed class DirectedGraph<T> where T : notnull
+    public sealed class DirectedGraph<T> where T : notnull
     {
         private readonly Dictionary<T, List<T>> _adjacentNodes = new();
 

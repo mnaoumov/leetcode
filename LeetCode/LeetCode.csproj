@@ -10,13 +10,16 @@
     <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
     <AnalysisLevel>latest-all</AnalysisLevel>
 <!--
+CA1002: Change List<T> to Collection<T> (template code)
+CA1034: Do not nest type (template code, public for testability)
 CA1062: Validate arguments of public methods
 CA1515: Consider making public types internal
 CA1707: Identifiers should not contain underscores
 CA1819: Properties should not return arrays
 CA2100: Review SQL queries for security vulnerabilities
+CA2225: Provide alternate method for operator (template code)
 -->
-    <NoWarn>CA1062;CA1515;CA1707;CA1812;CA1819;CA2100</NoWarn>
+    <NoWarn>CA1002;CA1034;CA1062;CA1515;CA1707;CA1812;CA1819;CA2100;CA2225</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>

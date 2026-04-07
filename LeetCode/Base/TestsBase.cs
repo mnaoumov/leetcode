@@ -130,6 +130,7 @@ public abstract partial class TestsBase
 
     private static readonly JsonSerializerOptions DeserializeOptions = new()
     {
+        PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
         UnmappedMemberHandling = JsonUnmappedMemberHandling.Disallow,
         Converters = { new PlainObjectArrayConverter() },
         TypeInfoResolver = new DefaultJsonTypeInfoResolver

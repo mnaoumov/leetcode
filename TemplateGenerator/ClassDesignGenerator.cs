@@ -35,7 +35,7 @@ internal partial class ClassDesignGenerator : GeneratorBase
     [UsedImplicitly]
     public ClassDesignExample Example { get; private set; } = new();
 
-    public override bool CanGenerate() => Signature == "SUT";
+    public override bool CanGenerate() => Signature.Equals("CLASS", StringComparison.OrdinalIgnoreCase);
 
     public override void Generate(string? examplesStr)
     {

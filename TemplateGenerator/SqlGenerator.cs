@@ -40,7 +40,7 @@ internal partial class SqlGenerator : GeneratorBase
     [UsedImplicitly]
     public string[] HeaderNames { get; private set; } = [];
 
-    public override bool CanGenerate() => Signature == "SQL";
+    public override bool CanGenerate() => Signature.Equals("SQL", StringComparison.OrdinalIgnoreCase);
 
     public override void Generate(string? examplesStr)
     {

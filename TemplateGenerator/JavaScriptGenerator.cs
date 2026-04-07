@@ -16,7 +16,7 @@ internal partial class JavaScriptGenerator : GeneratorBase
     [UsedImplicitly]
     public string ExampleJson { get; private set; } = string.Empty;
 
-    public override bool CanGenerate() => Signature == "JS";
+    public override bool CanGenerate() => Signature.Equals("JS", StringComparison.OrdinalIgnoreCase);
 
     public override void Generate(string? examplesStr)
     {

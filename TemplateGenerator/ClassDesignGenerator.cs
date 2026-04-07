@@ -14,6 +14,9 @@ internal partial class ClassDesignGenerator : GeneratorBase
     [GeneratedRegex(@"\((.*)\)")]
     private static partial Regex ConstructorArgumentsRegex();
 
+    [GeneratedRegex(@"//.*|/\*[\s\S]*?\*/")]
+    private static partial Regex CommentsRegex();
+
     [GeneratedRegex(@"(?m)^Input\:?(?:\r?\n| )(?<Input>.+?)\r?\n(?<Parameters>.+?)(?:\r?\n)+Output\:?(?:\r?\n| )(?<Output>.+?)\r?$")]
     private static partial Regex ExamplesRegex();
 
@@ -39,7 +42,8 @@ internal partial class ClassDesignGenerator : GeneratorBase
 
     public override void Generate(string? examplesStr)
     {
-        var classDefinition = ConsoleHelper.ReadMultiline("Class definition");
+        var rawClassDefinition = ConsoleHelper.ReadMultiline("Class definition");
+        var classDefinition = CommentsRegex().Replace(rawClassDefinition, "").Trim();
         examplesStr ??= ConsoleHelper.ReadMultiline("Examples");
 
         var examples = ExamplesRegex().Matches(examplesStr).Select(match => new ClassDesignExample

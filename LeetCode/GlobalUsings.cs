@@ -4,5 +4,5 @@ global using LeetCode.DataStructure;
 global using LeetCode.Helpers;
 global using LeetCode.JavaScript;
 global using LeetCode.Sql;
-global using LeetCode.Sut;
+global using LeetCode.ClassDesign;
 global using NUnit.Framework;

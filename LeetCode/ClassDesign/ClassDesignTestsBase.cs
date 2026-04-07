@@ -5,11 +5,11 @@ using System.Runtime.ExceptionServices;
 using System.Text;
 using System.Text.Json;
 
-namespace LeetCode.Sut;
+namespace LeetCode.ClassDesign;
 
-public abstract class SutTestsBase<TSolution, TSut> : TestsBase<TSolution, SutTestCase>
+public abstract class ClassDesignTestsBase<TSolution, TSut> : TestsBase<TSolution, ClassDesignTestCase>
 {
-    protected override void TestCore(TSolution solution, SutTestCase testCase)
+    protected override void TestCore(TSolution solution, ClassDesignTestCase testCase)
     {
         var createMethod = solution!.GetType().GetMethod("Create")!;
         var sut = CastAndInvoke(createMethod, solution, testCase.Parameters[0]);

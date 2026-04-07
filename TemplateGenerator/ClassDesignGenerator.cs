@@ -3,7 +3,7 @@ using JetBrains.Annotations;
 
 namespace TemplateGenerator;
 
-internal partial class SutGenerator : GeneratorBase
+internal partial class ClassDesignGenerator : GeneratorBase
 {
     [GeneratedRegex(@"public class (.+) \{")]
     private static partial Regex ClassNameRegex();
@@ -33,25 +33,25 @@ internal partial class SutGenerator : GeneratorBase
     public string ConstructorArgumentNamesStr { get; private set; } = string.Empty;
 
     [UsedImplicitly]
-    public SutExample Example { get; private set; } = new();
+    public ClassDesignExample Example { get; private set; } = new();
 
     public override bool CanGenerate() => Signature == "SUT";
 
     public override void Generate(string? examplesStr)
     {
-        var sutClassDefinition = ConsoleHelper.ReadMultiline("SUT class definition");
+        var classDefinition = ConsoleHelper.ReadMultiline("Class definition");
         examplesStr ??= ConsoleHelper.ReadMultiline("Examples");
 
-        var examples = ExamplesRegex().Matches(examplesStr).Select(match => new SutExample
+        var examples = ExamplesRegex().Matches(examplesStr).Select(match => new ClassDesignExample
         {
             CommandsStr = match.Groups["Input"].Value,
             ParametersStr = match.Groups["Parameters"].Value,
             OutputStr = match.Groups["Output"].Value
         }).ToArray();
 
-        ClassName = ClassNameRegex().Match(sutClassDefinition).Groups[1].Value;
+        ClassName = ClassNameRegex().Match(classDefinition).Groups[1].Value;
         InterfaceName = $"I{ClassName}";
-        Methods = MethodsRegex().Matches(sutClassDefinition).Select(m => m.Groups[1].Value)
+        Methods = MethodsRegex().Matches(classDefinition).Select(m => m.Groups[1].Value)
             .ToArray();
         var constructor = Methods.FirstOrDefault(m => m.Contains($"public {ClassName}"))
             ?? throw new InvalidOperationException($"No constructor found for class '{ClassName}'");
@@ -114,7 +114,7 @@ internal partial class SutGenerator : GeneratorBase
             {{ Namespace }}
 
             [UsedImplicitly]
-            public class Tests : SutTestsBase<ISolution, {{ InterfaceName }}>
+            public class Tests : ClassDesignTestsBase<ISolution, {{ InterfaceName }}>
             {
             }
             """);
@@ -133,7 +133,7 @@ internal partial class SutGenerator : GeneratorBase
         }
     }
 
-    public class SutExample
+    public class ClassDesignExample
     {
         [UsedImplicitly]
         public string CommandsStr { get; init; } = string.Empty;

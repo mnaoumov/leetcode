@@ -18,7 +18,7 @@ internal abstract partial class GeneratorBase : IGenerator
     private static readonly string LeetCodeFolderPath = Path.GetFullPath(
         Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "LeetCode", "Problems", "!TODO"));
 
-    protected readonly Option<string> TitleOption = new("--title", "-t") { Description = "Problem title", Required = true };
+    protected readonly Option<string> TitleOption = new("--title") { Description = "Problem title", Required = true };
 
     private string Title { get; set; } = string.Empty;
     private string TaskDir { get; set; } = string.Empty;

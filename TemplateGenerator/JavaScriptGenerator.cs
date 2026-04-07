@@ -12,7 +12,7 @@ internal partial class JavaScriptGenerator : GeneratorBase
     [GeneratedRegex(@"\r\nInput\:?(?: |\r\n)(?<Input>(?:.|\r\n)+?)\r\nOutput\:?(?: |\r\n)(?<Output>.+?)(?:\r\n|$)")]
     private static partial Regex ExamplesRegex();
 
-    private readonly Option<string?> _descriptionOption = new("--description", "-d") { Description = "Problem description (used to extract examples)" };
+    private readonly Option<string?> _descriptionOption = new("--description") { Description = "Problem description (used to extract examples)" };
 
     private string? _description;
 

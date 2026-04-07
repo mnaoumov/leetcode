@@ -122,7 +122,7 @@ internal partial class CSharpClassGenerator : GeneratorBase
             {
                 public {{ InterfaceName }} Create({{ ConstructorArgumentsStr }}) => new {{ ClassName }}({{ ConstructorArgumentNamesStr }});
 
-                private class {{ ClassName }} : {{ InterfaceName }}
+                private sealed class {{ ClassName }} : {{ InterfaceName }}
                 {
                     public {{ ClassName }}({{ ConstructorArgumentsStr }})
                     {

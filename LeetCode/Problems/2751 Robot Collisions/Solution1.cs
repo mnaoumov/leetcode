@@ -1,68 +1,86 @@
 namespace LeetCode.Problems._2751_Robot_Collisions;
 
 /// <summary>
-/// TODO url
+/// https://leetcode.com/problems/robot-collisions/submissions/1966313478/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution
 {
     public IList<int> SurvivedRobotsHealths(int[] positions, int[] healths, string directions)
     {
         var n = positions.Length;
-        var robots = new Robot[n];
+        var robots = new List<Robot>();
 
         for (var i = 0; i < n; i++)
         {
-            robots[i] = new Robot
+            robots.Add(new Robot
             {
+                OriginalIndex = i,
                 Position = positions[i],
                 Health = healths[i],
                 Direction = directions[i] == 'L' ? Direction.Left : Direction.Right
-            };
+            });
         }
 
-        robots = robots.OrderBy(x => x.Position).ToArray();
+        var sortedRobots = new LinkedList<Robot>(robots.OrderBy(x => x.Position));
 
-        var index = 0;
+        var pq = new PriorityQueue<Collision, decimal>();
 
-        while (true)
+        for (var leftRobotNode = sortedRobots.First; leftRobotNode != null; leftRobotNode = leftRobotNode.Next)
         {
-            while (index < n)
-            {
-                if (index + 1 < n && robots[index].Direction == Direction.Right && robots[index + 1].Direction == Direction.Left)
-                {
-                    break;
-                }
-
-                index++;
-            }
-
-            if (index == n)
-            {
-                break;
-            }
-
-            var robot = robots[index];
-            var nextRobot = robots[index + 1];
-            var collapsePosition = (robot.Position + nextRobot.Position) / 2m;
-
-            switch (robot.Health.CompareTo(nextRobot.Health))
-                {
-                    case 0:
-                        break;
-                    case > 0:
-                        robot.Health--;
-                        robot.Position = collapsePosition;
-                        break;
-                    case < 0:
-                        nextRobot.Health--;
-                        nextRobot.Position = collapsePosition;
-                        break;
-                }
+            AddToQueue(leftRobotNode, leftRobotNode.Next);
         }
 
-        return new List<int>();
+        while (pq.Count > 0)
+        {
+            var collision = pq.Dequeue();
+
+            if (collision.LeftRobotNode.List == null || collision.RightRobotNode.List == null)
+            {
+                continue;
+            }
+
+            switch (collision.LeftRobotNode.Value.Health.CompareTo(collision.RightRobotNode.Value.Health))
+            {
+                case 0:
+                    AddToQueue(collision.LeftRobotNode.Previous, collision.RightRobotNode.Next);
+                    sortedRobots.Remove(collision.LeftRobotNode);
+                    sortedRobots.Remove(collision.RightRobotNode);
+                    break;
+                case > 0:
+                    AddToQueue(collision.LeftRobotNode, collision.RightRobotNode.Next);
+                    collision.LeftRobotNode.Value.Health--;
+                    sortedRobots.Remove(collision.RightRobotNode);
+                    break;
+                case < 0:
+                    AddToQueue(collision.LeftRobotNode.Previous, collision.RightRobotNode);
+                    collision.RightRobotNode.Value.Health--;
+                    sortedRobots.Remove(collision.LeftRobotNode);
+                    break;
+            }
+        }
+
+        return sortedRobots.OrderBy(r => r.OriginalIndex).Select(r => r.Health).ToArray();
+
+        void AddToQueue(LinkedListNode<Robot>? leftRobotNode, LinkedListNode<Robot>? rightRobotNode)
+        {
+            if (leftRobotNode == null || rightRobotNode == null)
+            {
+                return;
+            }
+
+            var leftRobot = leftRobotNode.Value;
+            var rightRobot = rightRobotNode.Value;
+
+            if (leftRobot.Direction != Direction.Right || rightRobot.Direction != Direction.Left)
+            {
+                return;
+            }
+
+            var distance = rightRobot.Position - leftRobot.Position;
+            var collisionTime = distance / 2;
+            pq.Enqueue(new Collision(leftRobotNode, rightRobotNode), collisionTime);
+        }
     }
 
     private enum Direction
@@ -71,10 +89,13 @@ public class Solution1 : ISolution
         Right
     }
 
-    private class Robot
+    private sealed class Robot
     {
+        public int OriginalIndex { get; init; }
         public int Health { get; set; }
-        public decimal Position { get; set; }
+        public decimal Position { get; init; }
         public Direction Direction { get; init; }
     }
+
+    private sealed record Collision(LinkedListNode<Robot> LeftRobotNode, LinkedListNode<Robot> RightRobotNode);
 }

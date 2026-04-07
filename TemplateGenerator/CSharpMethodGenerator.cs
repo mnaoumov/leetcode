@@ -14,7 +14,7 @@ internal partial class CSharpMethodGenerator : GeneratorBase
     [GeneratedRegex(@"\r\nInput: (?<Input>(.|\r\n)+?)\r\nOutput: (?<Output>.+?)($|\r\n)")]
     private static partial Regex ExamplesRegex();
 
-    private readonly Option<string> _signatureOption = new("--signature") { Description = "Method signature (e.g. 'int[] twoSum(int[] nums, int target)')", Required = true };
+    private readonly Option<string> _signatureOption = new("--method-signature") { Description = "Method signature (e.g. 'int[] twoSum(int[] nums, int target)')", Required = true };
     private readonly Option<string?> _descriptionOption = new("--description") { Description = "Problem description (used to extract examples)" };
 
     private string _signature = string.Empty;

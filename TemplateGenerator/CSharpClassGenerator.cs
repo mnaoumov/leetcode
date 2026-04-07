@@ -22,7 +22,7 @@ internal partial class CSharpClassGenerator : GeneratorBase
     [GeneratedRegex(@"(?m)^Input\:?(?:\r?\n| )(?<Input>.+?)\r?\n(?<Parameters>.+?)(?:\r?\n)+Output\:?(?:\r?\n| )(?<Output>.+?)\r?$")]
     private static partial Regex ExamplesRegex();
 
-    private readonly Option<string?> _codeOption = new("--code") { Description = "Class definition code block" };
+    private readonly Option<string?> _codeOption = new("--class-code") { Description = "Class definition code block" };
     private readonly Option<string?> _descriptionOption = new("--description") { Description = "Problem description (used to extract examples)" };
 
     private string? _code;

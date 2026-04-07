@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "LeetCode Test Case",
+  "type": "object",
+  "properties": {
+    "timeoutInMilliseconds": {
+      "type": "integer",
+      "description": "Timeout for the test case in milliseconds.",
+      "default": 200,
+      "minimum": 1
+    }
+  },
+  "additionalProperties": true
+}

@@ -4,6 +4,11 @@ namespace LeetCode.Base;
 
 public abstract class TestCaseBase
 {
+    [JsonPropertyName("$schema")]
+    [JsonPropertyOrder(int.MinValue)]
+    [JsonOptionalProperty]
+    public string Schema { get; [UsedImplicitly] init; } = "../../Base/testcase.schema.json";
+
     [JsonIgnore]
     public string? TestCaseName { get; set; }
 

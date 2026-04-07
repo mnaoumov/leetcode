@@ -95,7 +95,16 @@ internal partial class CSharpMethodGenerator : GeneratorBase
             var input = match.Groups["Input"].Value.Replace(" = ", ": ");
             var output = match.Groups["Output"].Value;
             var json = $"{{ {input}, output: {output} }}";
-            return (JsonObject)JsonNode.Parse(json)!;
+            var obj = (JsonObject)JsonNode.Parse(json)!;
+
+            var ordered = new JsonObject { ["$schema"] = "../../Base/testcase.schema.json" };
+
+            foreach (var (key, value) in obj)
+            {
+                ordered[key] = value?.DeepClone();
+            }
+
+            return ordered;
         }).ToArray();
 
         GenerateFile("ISolution.cs", """

@@ -154,9 +154,10 @@ internal partial class CSharpClassGenerator : GeneratorBase
 
             GenerateFile($"TestCase{i + 1}.json", """
             {
-                "commands": {{ Example.CommandsStr }},
-                "parameters": {{ Example.ParametersStr }},
-                "output": {{ Example.OutputStr }}
+              "$schema": "../../ClassDesign/classdesign-testcase.schema.json",
+              "commands": {{ Example.CommandsStr }},
+              "parameters": {{ Example.ParametersStr }},
+              "output": {{ Example.OutputStr }}
             }
             """);
         }

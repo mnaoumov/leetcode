@@ -64,8 +64,15 @@ internal partial class SqlGenerator : GeneratorBase
 
         for (var i = 0; i < testCases.Length; i++)
         {
-            var testCaseObj = JsonNode.Parse(testCases[i])?.AsObject()
+            var parsed = JsonNode.Parse(testCases[i])?.AsObject()
                 ?? throw new InvalidOperationException("Failed to parse test case JSON");
+            var testCaseObj = new JsonObject { ["$schema"] = "../../Base/testcase.schema.json" };
+
+            foreach (var (key, value) in parsed)
+            {
+                testCaseObj[key] = value?.DeepClone();
+            }
+
             testCaseObj["output"] = JsonNode.Parse(expectedOutputs[i]);
             var output = testCaseObj["output"] ?? throw new InvalidOperationException("Test case missing 'output' field");
             var headers = output["headers"]?.AsArray() ?? throw new InvalidOperationException("Test case output missing 'headers' field");

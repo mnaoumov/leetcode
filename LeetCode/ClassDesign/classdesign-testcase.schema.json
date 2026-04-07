@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "LeetCode Class Design Test Case",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "commands": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Method names to invoke. The first element is the constructor."
+    },
+    "parameters": {
+      "type": "array",
+      "items": {
+        "type": "array"
+      },
+      "description": "Arguments for each method call."
+    },
+    "output": {
+      "type": "array",
+      "description": "Expected return values for each method call."
+    },
+    "timeoutInMilliseconds": {
+      "type": "integer",
+      "description": "Timeout for the test case in milliseconds.",
+      "default": 200,
+      "minimum": 1
+    }
+  },
+  "required": [
+    "commands",
+    "output",
+    "parameters"
+  ],
+  "additionalProperties": false
+}

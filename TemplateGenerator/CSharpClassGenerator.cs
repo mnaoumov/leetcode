@@ -5,7 +5,7 @@ using JetBrains.Annotations;
 
 namespace TemplateGenerator;
 
-internal partial class ClassDesignGenerator : GeneratorBase
+internal partial class CSharpClassGenerator : GeneratorBase
 {
     [GeneratedRegex(@"public class (.+) \{")]
     private static partial Regex ClassNameRegex();
@@ -44,10 +44,10 @@ internal partial class ClassDesignGenerator : GeneratorBase
     public string ConstructorArgumentNamesStr { get; private set; } = string.Empty;
 
     [UsedImplicitly]
-    public ClassDesignExample Example { get; private set; } = new();
+    public CSharpClassExample Example { get; private set; } = new();
 
-    public override string CommandName => "class";
-    public override string CommandDescription => "Generate class design problem template";
+    public override string CommandName => "csharp-class";
+    public override string CommandDescription => "Generate C# class design problem template";
 
     public override void ConfigureCommand(Command command)
     {
@@ -69,7 +69,7 @@ internal partial class ClassDesignGenerator : GeneratorBase
         var classDefinition = CommentsRegex().Replace(rawClassDefinition, "").Trim();
         var examplesStr = _description ?? ConsoleHelper.ReadMultiline("Examples");
 
-        var examples = ExamplesRegex().Matches(examplesStr).Select(match => new ClassDesignExample
+        var examples = ExamplesRegex().Matches(examplesStr).Select(match => new CSharpClassExample
         {
             CommandsStr = match.Groups["Input"].Value,
             ParametersStr = match.Groups["Parameters"].Value,
@@ -162,7 +162,7 @@ internal partial class ClassDesignGenerator : GeneratorBase
         }
     }
 
-    public class ClassDesignExample
+    public class CSharpClassExample
     {
         [UsedImplicitly]
         public string CommandsStr { get; init; } = string.Empty;

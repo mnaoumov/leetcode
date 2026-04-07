@@ -6,7 +6,7 @@ using JetBrains.Annotations;
 
 namespace TemplateGenerator;
 
-internal partial class CSharpGenerator : GeneratorBase
+internal partial class CSharpMethodGenerator : GeneratorBase
 {
     [GeneratedRegex(@"^(?<OutputType>\S+) (?<MethodName>\S+?)\s*\((?<Arguments>.+)?\)$")]
     private static partial Regex SignatureRegex();
@@ -41,8 +41,8 @@ internal partial class CSharpGenerator : GeneratorBase
     [UsedImplicitly]
     public IEnumerable<Argument> AllArguments => InputArguments.Append(OutputArgument);
 
-    public override string CommandName => "csharp";
-    public override string CommandDescription => "Generate C# problem template";
+    public override string CommandName => "csharp-method";
+    public override string CommandDescription => "Generate C# method problem template";
 
     public override void ConfigureCommand(Command command)
     {

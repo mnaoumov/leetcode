@@ -6,4 +6,5 @@ const result = execSync(`npx esbuild ${path.join(__dirname, 'leetcode.ts')} --bu
 });
 
 const bookmarklet = 'javascript:' + encodeURIComponent(result.trim());
-console.log(bookmarklet);
+execSync('clip', { input: bookmarklet });
+console.log('Bookmarklet URL copied to clipboard');

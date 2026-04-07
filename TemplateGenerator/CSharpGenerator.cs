@@ -32,9 +32,9 @@ internal partial class CSharpGenerator : GeneratorBase
 
     public override bool CanGenerate() => SignatureRegex().IsMatch(Signature);
 
-    public override void Generate(string[] args)
+    public override void Generate(GeneratorOptions options)
     {
-        var examplesStr = args.ElementAtOrDefault(0);
+        var examplesStr = options.Description;
         var signatureMatch = SignatureRegex().Match(Signature);
         var outputType = signatureMatch.Groups["OutputType"].Value;
         MethodName = signatureMatch.Groups["MethodName"].Value;

@@ -4,10 +4,11 @@ namespace TemplateGenerator;
 
 internal static class Generator
 {
-    public static void Generate(string[] args)
+    public static void Generate(string? title, string? signature, GeneratorOptions options)
     {
-        var title = args.ElementAtOrDefault(0) ?? ConsoleHelper.Read("Title");
-        var signature = args.ElementAtOrDefault(1) ?? ConsoleHelper.Read("Signature");
+        title ??= ConsoleHelper.Read("Title");
+        signature ??= ConsoleHelper.Read("Signature");
+
         var generator = Assembly.GetExecutingAssembly()
                             .GetTypes().Where(t => t.IsAssignableTo(typeof(IGenerator)) && !t.IsAbstract)
                             .Select(t =>
@@ -19,6 +20,6 @@ internal static class Generator
                             })
                             .FirstOrDefault(g => g.CanGenerate())
                         ?? throw new InvalidOperationException($"Unsupported signature: {signature}");
-        generator.Generate(args.Skip(2).ToArray());
+        generator.Generate(options);
     }
 }

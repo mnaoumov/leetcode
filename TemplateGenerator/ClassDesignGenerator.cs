@@ -40,11 +40,11 @@ internal partial class ClassDesignGenerator : GeneratorBase
 
     public override bool CanGenerate() => Signature.Equals("CLASS", StringComparison.OrdinalIgnoreCase);
 
-    public override void Generate(string[] args)
+    public override void Generate(GeneratorOptions options)
     {
-        var rawClassDefinition = args.ElementAtOrDefault(0) ?? ConsoleHelper.ReadMultiline("Class definition");
+        var rawClassDefinition = options.Code ?? ConsoleHelper.ReadMultiline("Class definition");
         var classDefinition = CommentsRegex().Replace(rawClassDefinition, "").Trim();
-        var examplesStr = args.ElementAtOrDefault(1) ?? ConsoleHelper.ReadMultiline("Examples");
+        var examplesStr = options.Description ?? ConsoleHelper.ReadMultiline("Examples");
 
         var examples = ExamplesRegex().Matches(examplesStr).Select(match => new ClassDesignExample
         {

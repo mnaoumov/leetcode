@@ -31,7 +31,7 @@ internal abstract partial class GeneratorBase : IGenerator
 
     public abstract bool CanGenerate();
 
-    public abstract void Generate(string[] args);
+    public abstract void Generate(GeneratorOptions options);
 
     public void Init(string title, string signature)
     {

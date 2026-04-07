@@ -42,7 +42,7 @@ internal partial class SqlGenerator : GeneratorBase
 
     public override bool CanGenerate() => Signature.Equals("SQL", StringComparison.OrdinalIgnoreCase);
 
-    public override void Generate(string[] args)
+    public override void Generate(GeneratorOptions options)
     {
         var setUpScript = ConsoleHelper.ReadMultiline("SetUp script");
         SetUpScript = FixSetUpScript(setUpScript);

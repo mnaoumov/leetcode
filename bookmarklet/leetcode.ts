@@ -15,7 +15,7 @@ async function main(): Promise<void> {
 }
 
 function fixString(text: string): string {
-  return text.replace(EDITOR_ARTIFACTS, ' ').replaceAll('\n', '\r\n');
+  return text.replace(EDITOR_ARTIFACTS, '').replaceAll('\n', '\r\n');
 }
 
 function escapeArg(text: string): string {
@@ -31,11 +31,16 @@ function getTextContent(selector: string): string {
 }
 
 function getCodeContent(): string {
-  // Monaco editor stores each line in a separate .view-line div
+  // Try to get code from Monaco's internal model (most reliable, no virtualization issues)
+  const monacoEditor = (window as any).monaco?.editor?.getEditors?.()?.[0];
+  if (monacoEditor) {
+    return fixString(monacoEditor.getValue());
+  }
+
+  // Fallback: Monaco editor stores each line in a separate .view-line div
   const viewLines = document.querySelector('.view-lines');
   if (viewLines) {
     const lines = Array.from(viewLines.querySelectorAll('.view-line'));
-    // Lines may be rendered out of order (virtualized), sort by DOM position
     lines.sort((a, b) => {
       const topA = parseFloat((a as HTMLElement).style.top);
       const topB = parseFloat((b as HTMLElement).style.top);

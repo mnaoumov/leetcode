@@ -1,11 +1,10 @@
 namespace LeetCode.Problems._3661_Maximum_Walls_Destroyed_by_Robots;
 
 /// <summary>
-/// https://leetcode.com/problems/maximum-walls-destroyed-by-robots/submissions/1967273968/
+/// https://leetcode.com/problems/maximum-walls-destroyed-by-robots/submissions/1967280910/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public int MaxWalls(int[] robots, int[] distance, int[] walls)
     {
@@ -56,13 +55,7 @@ public class Solution1 : ISolution
                 minLeftWallIndex = ~minLeftWallIndex;
             }
 
-            var ans = 0;
-
-            if (minLeftWallIndex <= maxLeftWallIndex)
-            {
-                ans = Math.Max(ans,
-                    maxLeftWallIndex - minLeftWallIndex + 1 + getOrCalculate((index + 1, noWallPosition)));
-            }
+            var ans = GetWallsCount(minLeftWallIndex, maxLeftWallIndex) + getOrCalculate((index + 1, noWallPosition));
 
             var maxRightShootPosition = new[]
             {
@@ -72,21 +65,36 @@ public class Solution1 : ISolution
 
             var maxRightWallIndex = walls.BinarySearch(maxRightShootPosition);
 
-            if (maxLeftWallIndex < 0)
+            if (maxRightWallIndex < 0)
             {
                 maxRightWallIndex = ~maxRightWallIndex - 1;
             }
 
-            if (minRightWallIndex <= maxRightWallIndex)
-            {
-                ans = Math.Max(ans,
-                    maxRightWallIndex - minRightWallIndex + 1 + getOrCalculate((index + 1, walls[maxRightWallIndex])));
-            }
+            ans = Math.Max(ans,
+                GetWallsCount(minRightWallIndex, maxRightWallIndex) +
+                (IsValidWallIndex(maxRightWallIndex) ? getOrCalculate((index + 1, walls[maxRightWallIndex])) : 0));
 
             return ans;
         });
 
         return dp.GetOrCalculate((0, noWallPosition));
+
+        bool IsValidWallIndex(int wallIndex) => 0 <= wallIndex && wallIndex < walls.Length;
+
+        int GetWallsCount(int minIndex, int maxIndex)
+        {
+            if (!IsValidWallIndex(minIndex) || !IsValidWallIndex(maxIndex))
+            {
+                return 0;
+            }
+
+            if (minIndex > maxIndex)
+            {
+                return 0;
+            }
+
+            return maxIndex - minIndex + 1;
+        }
     }
 
     private sealed record Robot(int Position, int MaxBulletDistance);

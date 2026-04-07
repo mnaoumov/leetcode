@@ -19,6 +19,6 @@ internal static class Generator
                             })
                             .FirstOrDefault(g => g.CanGenerate())
                         ?? throw new InvalidOperationException($"Unsupported signature: {signature}");
-        generator.Generate(args.ElementAtOrDefault(2));
+        generator.Generate(args.Skip(2).ToArray());
     }
 }

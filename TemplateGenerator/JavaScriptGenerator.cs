@@ -18,8 +18,9 @@ internal partial class JavaScriptGenerator : GeneratorBase
 
     public override bool CanGenerate() => Signature.Equals("JS", StringComparison.OrdinalIgnoreCase);
 
-    public override void Generate(string? examplesStr)
+    public override void Generate(string[] args)
     {
+        var examplesStr = args.ElementAtOrDefault(0);
         SolutionTemplate = ConsoleHelper.ReadMultiline("Solution template");
         examplesStr ??= ConsoleHelper.ReadMultiline("Examples");
 

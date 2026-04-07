@@ -1,4 +1,4 @@
-using Newtonsoft.Json;
+using System.Text.Json.Serialization;
 
 namespace LeetCode.Base;
 
@@ -13,6 +13,4 @@ public abstract class TestCaseBase
     private const int DefaultTimeoutInMilliseconds = 200;
 
     public int TimeoutInMilliseconds { get; [UsedImplicitly] init; } = DefaultTimeoutInMilliseconds;
-
-    public bool ShouldSerializeTimeoutInMilliseconds() => TimeoutInMilliseconds != DefaultTimeoutInMilliseconds;
 }

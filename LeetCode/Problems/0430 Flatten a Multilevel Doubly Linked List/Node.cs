@@ -1,4 +1,4 @@
-using Newtonsoft.Json;
+using System.Text.Json;
 
 namespace LeetCode.Problems._0430_Flatten_a_Multilevel_Doubly_Linked_List;
 
@@ -68,7 +68,7 @@ public class Node : IEquatable<Node>
     public override int GetHashCode() => HashCode.Combine(val, prev?.val, next?.val, child?.val);
     // ReSharper restore NonReadonlyMemberInGetHashCode
 
-    public override string ToString() => JsonConvert.SerializeObject(GetValues(this));
+    public override string ToString() => JsonSerializer.Serialize(GetValues(this));
 
     private static List<int?> GetValues(Node node)
     {

@@ -1,6 +1,5 @@
+using System.Text.Json;
 using System.Text.RegularExpressions;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Serialization;
 
 namespace TestCaseExporter;
 
@@ -8,6 +7,18 @@ internal static partial class Program
 {
     [GeneratedRegex(@"LeetCode\._(\d+)")]
     private static partial Regex NamespaceRegex();
+
+    private static readonly JsonSerializerOptions SerializeOptions = new()
+    {
+        WriteIndented = true,
+        PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+        Converters = { new ArrayNoIndentingConverter() }
+    };
+
+    private static readonly JsonSerializerOptions DeserializeOptions = new()
+    {
+        PropertyNameCaseInsensitive = true
+    };
 
     public static void Main()
     {
@@ -25,9 +36,6 @@ internal static partial class Program
 
                 var dir = Directory.GetDirectories(@"f:\dev\leetcode\LeetCode", $"{problemNumber} *")[0];
 
-                //dynamic testCaseBuilder = Activator.CreateInstance(testCaseType)!;
-                //var testCases = ((IEnumerable<object>)testCaseBuilder.TestCases).ToArray();
-
                 var testCaseFiles = Directory.GetFiles(dir, "TestCase*.json").OrderBy(x => x);
                 var testCases = testCaseFiles.Select(file => FromJson(file, testCaseType)).ToArray();
 
@@ -42,23 +50,15 @@ internal static partial class Program
                     }
 
                     var path = $@"{dir}\TestCase{index}.json";
-                    using var file = File.CreateText(path);
-                    var serializer = new JsonSerializer
-                    {
-                        Formatting = Formatting.Indented,
-                        ContractResolver = new CamelCasePropertyNamesContractResolver()
-                    };
-
-                    serializer.Converters.Add(new ArrayNoIndentingConverter());
 
                     try
                     {
-                        serializer.Serialize(file, testCase);
+                        var json = JsonSerializer.Serialize(testCase, testCaseType, SerializeOptions);
+                        File.WriteAllText(path, json);
                     }
                     catch (Exception ex)
                     {
                         Console.WriteLine(ex);
-                        file.Close();
                         File.WriteAllText(path, "{ \"TODO\": true }");
                     }
 
@@ -74,16 +74,10 @@ internal static partial class Program
 
     private static object? FromJson(string testCaseFilePath, Type testCaseType)
     {
-        using var fileStream = File.OpenRead(testCaseFilePath);
-        using var reader = new StreamReader(fileStream);
-        using var jr = new JsonTextReader(reader);
-
-        var serializer = new JsonSerializer();
-
         try
         {
-            var testCase = serializer.Deserialize(jr, testCaseType);
-            return testCase;
+            using var fileStream = File.OpenRead(testCaseFilePath);
+            return JsonSerializer.Deserialize(fileStream, testCaseType, DeserializeOptions);
         }
         catch
         {

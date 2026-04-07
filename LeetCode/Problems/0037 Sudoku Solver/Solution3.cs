@@ -1,5 +1,5 @@
 using System.Text;
-using Newtonsoft.Json;
+using System.Text.Json;
 
 namespace LeetCode.Problems._0037_Sudoku_Solver;
 
@@ -184,7 +184,7 @@ public class Solution3 : ISolution
             RecalculateNeighborsCandidates();
         }
 
-        public override string ToString() => JsonConvert.SerializeObject(new
+        public override string ToString() => JsonSerializer.Serialize(new
         {
             Value,
             Row = Row.Id,

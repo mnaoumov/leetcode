@@ -1,6 +1,6 @@
+using System.Text.Json.Nodes;
 using System.Text.RegularExpressions;
 using JetBrains.Annotations;
-using Newtonsoft.Json.Linq;
 
 namespace TemplateGenerator;
 
@@ -13,7 +13,7 @@ internal partial class CSharpGenerator : GeneratorBase
     private static partial Regex ExamplesRegex();
 
     [UsedImplicitly]
-    public JObject[] Examples { get; set; } = [];
+    public JsonObject[] Examples { get; set; } = [];
 
     [UsedImplicitly]
     public string MethodName { get; private set; } = string.Empty;
@@ -67,7 +67,7 @@ internal partial class CSharpGenerator : GeneratorBase
             var input = match.Groups["Input"].Value.Replace(" = ", ": ");
             var output = match.Groups["Output"].Value;
             var json = $"{{ {input}, output: {output} }}";
-            return JObject.Parse(json);
+            return (JsonObject)JsonNode.Parse(json)!;
         }).ToArray();
 
         GenerateFile("ISolution.cs", """

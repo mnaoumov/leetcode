@@ -1,5 +1,5 @@
 using System.Text;
-using Newtonsoft.Json;
+using System.Text.Json;
 
 // ReSharper disable All
 #pragma warning disable
@@ -187,7 +187,7 @@ public class Solution2 : ISolution
             RecalculateNeighborsCandidates();
         }
 
-        public override string ToString() => JsonConvert.SerializeObject(new
+        public override string ToString() => JsonSerializer.Serialize(new
         {
             Value,
             Row = Row.Id,

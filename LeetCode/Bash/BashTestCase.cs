@@ -1,4 +1,4 @@
-using Newtonsoft.Json;
+using System.Text.Json.Serialization;
 
 namespace LeetCode.Bash;
 
@@ -9,11 +9,11 @@ public class BashTestCase : TestCaseBase
         TimeoutInMilliseconds = 30000;
     }
 
-    [JsonProperty(Required = Required.Default)]
+    [JsonOptionalProperty]
     public Dictionary<string, string> Files { get; [UsedImplicitly] init; } = new();
 
     public string StandardOutput { get; [UsedImplicitly] init; } = "";
 
-    [JsonProperty(Required = Required.Default)]
+    [JsonOptionalProperty]
     public string StandardError { get; [UsedImplicitly] init; } = "";
 }

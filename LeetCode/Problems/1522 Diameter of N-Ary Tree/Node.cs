@@ -1,4 +1,4 @@
-using Newtonsoft.Json;
+using System.Text.Json;
 
 namespace LeetCode.Problems._1522_Diameter_of_N_Ary_Tree;
 
@@ -79,6 +79,6 @@ public class Node
             values.RemoveAt(values.Count - 1);
         }
 
-        return JsonConvert.SerializeObject(values);
+        return JsonSerializer.Serialize(values);
     }
 }

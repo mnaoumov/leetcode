@@ -3,8 +3,7 @@ using System.Globalization;
 using System.Reflection;
 using System.Runtime.ExceptionServices;
 using System.Text;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
+using System.Text.Json;
 
 namespace LeetCode.Sut;
 
@@ -31,18 +30,18 @@ public abstract class SutTestsBase<TSolution, TSut> : TestsBase<TSolution, SutTe
 
             var actual = CastAndInvoke(methodMap[methodName], sut, parameters);
 
-            var assertMessage = $"Command #{i + 1}: {command} {JsonConvert.SerializeObject(parameters)}";
+            var assertMessage = $"Command #{i + 1}: {command} {JsonSerializer.Serialize(parameters)}";
 
-            if (expected is JObject expectedJson)
+            if (expected is JsonElement { ValueKind: JsonValueKind.Object } expectedJson)
             {
-                if (expectedJson["isAnyOf"] is { } isAnyOfJson)
+                if (expectedJson.TryGetProperty("isAnyOf", out var isAnyOfJson))
                 {
-                    var values = isAnyOfJson.ToObject<object[]>();
+                    var values = DeserializeJsonElement(isAnyOfJson) as object?[];
                     Assert.That(actual, Is.AnyOf(values), assertMessage);
                 }
-                else if (expectedJson["isEquivalentTo"] is { } isEquivalentToJson)
+                else if (expectedJson.TryGetProperty("isEquivalentTo", out var isEquivalentToJson))
                 {
-                    var values = isEquivalentToJson.ToObject<object[]>()!;
+                    var values = (DeserializeJsonElement(isEquivalentToJson) as object?[])!;
                     Assert.That(actual, Is.EquivalentTo(values), assertMessage);
                 }
                 else
@@ -74,6 +73,37 @@ public abstract class SutTestsBase<TSolution, TSut> : TestsBase<TSolution, SutTe
                         : Is.EqualTo(expected),
                     assertMessage);
             }
+        }
+    }
+
+    private static object? DeserializeJsonElement(JsonElement element)
+    {
+        switch (element.ValueKind)
+        {
+            case JsonValueKind.Array:
+                return element.EnumerateArray().Select(DeserializeJsonElement).ToArray();
+            case JsonValueKind.Number:
+                if (element.TryGetInt32(out var intVal))
+                {
+                    return intVal;
+                }
+
+                if (element.TryGetInt64(out var longVal))
+                {
+                    return longVal;
+                }
+
+                return element.GetDouble();
+            case JsonValueKind.String:
+                return element.GetString();
+            case JsonValueKind.True:
+                return true;
+            case JsonValueKind.False:
+                return false;
+            case JsonValueKind.Null:
+                return null;
+            default:
+                return element;
         }
     }
 

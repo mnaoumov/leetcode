@@ -1,4 +1,4 @@
-using Newtonsoft.Json;
+using System.Text.Json.Serialization;
 
 namespace LeetCode.Sql;
 
@@ -14,6 +14,6 @@ public class SqlTestCase : TestCaseBase
     public Dictionary<string, object?[][]> Rows { get; [UsedImplicitly] init; } = null!;
     public SqlTestCaseOutput Output { get; [UsedImplicitly] init; } = null!;
 
-    [JsonProperty(Required = Required.Default)]
+    [JsonOptionalProperty]
     public object? Argument { get; [UsedImplicitly] init; }
 }

@@ -1,28 +1,25 @@
 using System.Reflection;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Serialization;
+using System.Text.Json.Serialization.Metadata;
 
 namespace LeetCode.Base;
 
-internal sealed class AllPropertiesRequiredContractResolver : DefaultContractResolver
+internal static class AllPropertiesRequiredModifier
 {
-    private Type TestCaseType { get; set; } = null!;
-
-    public override JsonContract ResolveContract(Type type)
+    public static void MakePropertiesRequired(JsonTypeInfo typeInfo)
     {
-        TestCaseType = type;
-        return base.ResolveContract(type);
-    }
-
-    protected override JsonProperty CreateProperty(MemberInfo member, MemberSerialization memberSerialization)
-    {
-        var property = base.CreateProperty(member, memberSerialization);
-
-        if (member.DeclaringType == TestCaseType && !member.GetCustomAttributes<JsonPropertyAttribute>().Any())
+        if (typeInfo.Kind != JsonTypeInfoKind.Object)
         {
-            property.Required = Required.AllowNull;
+            return;
         }
 
-        return property;
+        foreach (var property in typeInfo.Properties)
+        {
+            if (property.AttributeProvider is MemberInfo member &&
+                member.DeclaringType == typeInfo.Type &&
+                !member.GetCustomAttributes<JsonOptionalPropertyAttribute>().Any())
+            {
+                property.IsRequired = true;
+            }
+        }
     }
 }

@@ -1,7 +1,7 @@
+using System.Text.Json;
+using System.Text.Json.Nodes;
 using System.Text.RegularExpressions;
 using JetBrains.Annotations;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 
 namespace TemplateGenerator;
 
@@ -35,9 +35,9 @@ internal partial class JavaScriptGenerator : GeneratorBase
                 """;
             try
             {
-                return NoIndentArrayJsonTextWriter.Indent(JObject.Parse(json));
+                return NoIndentArrayJsonTextWriter.Indent(JsonNode.Parse(json));
             }
-            catch (JsonReaderException ex)
+            catch (JsonException ex)
             {
                 Console.Error.WriteLine($"Warning: Failed to parse JSON, using raw text. Error: {ex.Message}");
                 return json;

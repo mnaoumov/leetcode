@@ -1,39 +1,67 @@
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace LeetCode.Base;
 
-internal sealed class PlainObjectArrayConverter : JsonConverter
+internal sealed class PlainObjectArrayConverter : JsonConverter<object>
 {
-    public override void WriteJson(JsonWriter writer, object? value, JsonSerializer serializer)
+    public override object? Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
     {
-        throw new NotImplementedException();
+        return ReadValue(ref reader);
     }
 
-    public override object? ReadJson(JsonReader reader, Type objectType, object? existingValue, JsonSerializer serializer)
+    public override void Write(Utf8JsonWriter writer, object value, JsonSerializerOptions options)
     {
-        var obj = serializer.Deserialize(reader);
-        return ReplaceJArrayWithObjectArray(obj);
+        JsonSerializer.Serialize(writer, value, value.GetType(), options);
     }
 
-    private static object? ReplaceJArrayWithObjectArray(object? obj)
+    private static object? ReadValue(ref Utf8JsonReader reader)
     {
-        if (obj is JValue jValue)
+        switch (reader.TokenType)
         {
-            return jValue.Value;
+            case JsonTokenType.Null:
+                return null;
+            case JsonTokenType.True:
+                return true;
+            case JsonTokenType.False:
+                return false;
+            case JsonTokenType.String:
+                return reader.GetString();
+            case JsonTokenType.Number:
+                if (reader.TryGetInt32(out var intValue))
+                {
+                    return intValue;
+                }
+
+                if (reader.TryGetInt64(out var longValue))
+                {
+                    return longValue;
+                }
+
+                return reader.GetDouble();
+            case JsonTokenType.StartArray:
+                return ReadArray(ref reader);
+            case JsonTokenType.StartObject:
+                return JsonElement.ParseValue(ref reader);
+            default:
+                throw new JsonException($"Unexpected token type: {reader.TokenType}");
+        }
+    }
+
+    private static object?[] ReadArray(ref Utf8JsonReader reader)
+    {
+        var list = new List<object?>();
+
+        while (reader.Read())
+        {
+            if (reader.TokenType == JsonTokenType.EndArray)
+            {
+                return list.ToArray();
+            }
+
+            list.Add(ReadValue(ref reader));
         }
 
-        if (obj is not JArray jArray)
-        {
-            return obj;
-        }
-
-        var array = jArray.Select(ReplaceJArrayWithObjectArray).ToArray();
-        return array;
-    }
-
-    public override bool CanConvert(Type objectType)
-    {
-        return objectType == typeof(object[]) || objectType == typeof(object);
+        throw new JsonException("Unexpected end of JSON while reading array");
     }
 }

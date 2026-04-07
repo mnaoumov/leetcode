@@ -1,7 +1,7 @@
+using System.Text.Json;
+using System.Text.Json.Nodes;
 using System.Text.RegularExpressions;
 using JetBrains.Annotations;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 
 namespace TemplateGenerator;
 
@@ -63,12 +63,13 @@ internal partial class SqlGenerator : GeneratorBase
 
         for (var i = 0; i < testCases.Length; i++)
         {
-            var testCaseObj = JObject.Parse(testCases[i]);
-            testCaseObj.Add("output", JObject.Parse(expectedOutputs[i]));
+            var testCaseObj = JsonNode.Parse(testCases[i])?.AsObject()
+                ?? throw new InvalidOperationException("Failed to parse test case JSON");
+            testCaseObj["output"] = JsonNode.Parse(expectedOutputs[i]);
             var output = testCaseObj["output"] ?? throw new InvalidOperationException("Test case missing 'output' field");
-            var headers = output["headers"] ?? throw new InvalidOperationException("Test case output missing 'headers' field");
+            var headers = output["headers"]?.AsArray() ?? throw new InvalidOperationException("Test case output missing 'headers' field");
             HeaderNames = headers.Select(EscapeHeaderName).ToArray();
-            TestCaseJson = testCaseObj.ToString(Formatting.Indented);
+            TestCaseJson = testCaseObj.ToJsonString(new JsonSerializerOptions { WriteIndented = true });
 
             GenerateFile($"TestCase{i + 1}.json", "{{ TestCaseJson }}");
         }
@@ -83,9 +84,9 @@ internal partial class SqlGenerator : GeneratorBase
             """);
     }
 
-    private static string EscapeHeaderName(JToken headerJson)
+    private static string EscapeHeaderName(JsonNode? headerJson)
     {
-        var headerName = headerJson.Value<string>()
+        var headerName = headerJson?.GetValue<string>()
             ?? throw new InvalidOperationException($"Header name is null: {headerJson}");
         return HeaderNameRegex().IsMatch(headerName) ? headerName : $"[{headerName}]";
     }

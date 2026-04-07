@@ -1,4 +1,4 @@
-using Newtonsoft.Json;
+using System.Text.Json;
 
 namespace LeetCode.Problems._0427_Construct_Quad_Tree;
 
@@ -12,7 +12,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         var expectedOutput = testCase.Output;
 
         var detailedMessage =
-            $"\r\nActual:\r\n{JsonConvert.SerializeObject(actualOutput)}\r\n\r\nExpected:\r\n{JsonConvert.SerializeObject(expectedOutput)}\r\n\r\n";
+            $"\r\nActual:\r\n{JsonSerializer.Serialize(actualOutput)}\r\n\r\nExpected:\r\n{JsonSerializer.Serialize(expectedOutput)}\r\n\r\n";
 
         Assert.That(actualOutput.Length, Is.EqualTo(expectedOutput.Length),
             $"Length don't match. Actual Length: {actualOutput.Length}, Expected Length: {expectedOutput.Length}{detailedMessage}");
@@ -33,7 +33,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
             {
                 if (actualOutputItem.Length != 2)
                 {
-                    Assert.Fail($"{i}'s output {JsonConvert.SerializeObject(actualOutputItem)} length is not equal to 2{detailedMessage}");
+                    Assert.Fail($"{i}'s output {JsonSerializer.Serialize(actualOutputItem)} length is not equal to 2{detailedMessage}");
                 }
 
                 if (actualOutputItem[0] == 0 && expectedOutputItem[0] == 0)
@@ -42,7 +42,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
                 }
             }
 
-            Assert.Fail($"{i}'s output {JsonConvert.SerializeObject(actualOutputItem)} is not equal to {JsonConvert.SerializeObject(expectedOutputItem)}{detailedMessage}");
+            Assert.Fail($"{i}'s output {JsonSerializer.Serialize(actualOutputItem)} is not equal to {JsonSerializer.Serialize(expectedOutputItem)}{detailedMessage}");
         }
     }
 

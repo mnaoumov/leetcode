@@ -1,4 +1,4 @@
-using Newtonsoft.Json;
+using System.Text.Json;
 using NUnit.Framework.Constraints;
 
 namespace LeetCode.Problems._0280_Wiggle_Sort;
@@ -15,7 +15,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         {
             IResolveConstraint constraint =
                 i % 2 == 0 ? Is.LessThanOrEqualTo(nums[i + 1]) : Is.GreaterThanOrEqualTo(nums[i + 1]);
-            Assert.That(nums[i], constraint, $"{JsonConvert.SerializeObject(nums)} is not wiggle at index {i}");
+            Assert.That(nums[i], constraint, $"{JsonSerializer.Serialize(nums)} is not wiggle at index {i}");
         }
     }
 

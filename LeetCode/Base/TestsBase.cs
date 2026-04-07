@@ -1,8 +1,10 @@
 using System.Diagnostics;
 using System.Runtime;
 using System.Runtime.ExceptionServices;
+using System.Text.Json;
+using System.Text.Json.Serialization;
+using System.Text.Json.Serialization.Metadata;
 using System.Text.RegularExpressions;
-using Newtonsoft.Json;
 using NUnit.Framework.Constraints;
 
 namespace LeetCode.Base;
@@ -83,7 +85,7 @@ public abstract partial class TestsBase
         }
 
         Assert.That(actual, Is.EqualTo(expected),
-            $"{message}Actual:\r\n{JsonConvert.SerializeObject(actual)}\r\n\r\nExpected:\r\n{JsonConvert.SerializeObject(expected)}\r\n\r\n");
+            $"{message}Actual:\r\n{JsonSerializer.Serialize(actual)}\r\n\r\nExpected:\r\n{JsonSerializer.Serialize(expected)}\r\n\r\n");
     }
 
     protected static void AssertCollectionEqualWithDetails<T>(IEnumerable<T> actual, IEnumerable<T> expected,
@@ -94,7 +96,7 @@ public abstract partial class TestsBase
         var actualArray = actual.ToArray();
         var expectedArray = expected.ToArray();
         Assert.That(actualArray, Is.EquivalentTo(expectedArray), "Actual:\r\n{0}\r\n\r\nExpected:\r\n{1}\r\n\r\n",
-            JsonConvert.SerializeObject(actualArray), JsonConvert.SerializeObject(expectedArray));
+            JsonSerializer.Serialize(actualArray), JsonSerializer.Serialize(expectedArray));
     }
 
     protected static void AssertCollectionEquivalentIgnoringItemOrderWithDetails<T>(IEnumerable<IEnumerable<T>> actual,
@@ -103,8 +105,8 @@ public abstract partial class TestsBase
         var actualArray = actual.ToArray();
         var expectedArray = expected.ToArray();
         Assert.That(actualArray, IsEquivalentToIgnoringItemOrder(expectedArray),
-            "Actual:\r\n{0}\r\n\r\nExpected:\r\n{1}\r\n\r\n", JsonConvert.SerializeObject(actualArray),
-            JsonConvert.SerializeObject(expectedArray));
+            "Actual:\r\n{0}\r\n\r\nExpected:\r\n{1}\r\n\r\n", JsonSerializer.Serialize(actualArray),
+            JsonSerializer.Serialize(expectedArray));
     }
 
     protected static string? GetProblemDirectory(Type problemRelatedType)
@@ -126,6 +128,16 @@ public abstract partial class TestsBase
         return problemTestCaseDirectory == null ? null : Path.GetFullPath(problemTestCaseDirectory);
     }
 
+    private static readonly JsonSerializerOptions DeserializeOptions = new()
+    {
+        UnmappedMemberHandling = JsonUnmappedMemberHandling.Disallow,
+        Converters = { new PlainObjectArrayConverter() },
+        TypeInfoResolver = new DefaultJsonTypeInfoResolver
+        {
+            Modifiers = { AllPropertiesRequiredModifier.MakePropertiesRequired }
+        }
+    };
+
     private static TTestCase FromJson<TTestCase>(string testCaseFilePath) where TTestCase : TestCaseBase, new()
     {
         var name = Path.GetFileNameWithoutExtension(testCaseFilePath);
@@ -133,17 +145,8 @@ public abstract partial class TestsBase
         try
         {
             using var fileStream = File.OpenRead(testCaseFilePath);
-            using var reader = new StreamReader(fileStream);
-            using var jr = new JsonTextReader(reader);
-
-            var serializer = new JsonSerializer
-            {
-                MissingMemberHandling = MissingMemberHandling.Error,
-                ContractResolver = new AllPropertiesRequiredContractResolver(),
-                Converters = { new PlainObjectArrayConverter() }
-            };
-
-            var testCase = serializer.Deserialize<TTestCase>(jr)!;
+            var testCase = JsonSerializer.Deserialize<TTestCase>(fileStream, DeserializeOptions)
+                ?? throw new JsonException("Deserialized test case is null");
             testCase.TestCaseName = name;
             return testCase;
         }

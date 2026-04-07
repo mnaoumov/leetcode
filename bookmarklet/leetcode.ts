@@ -7,10 +7,9 @@ async function main(): Promise<void> {
   const description = getTextContent('[data-track-load=description_content]');
 
   const command = buildCommand(title, code, description);
-  const isClassDesign = code.split('\n')[0].trim().startsWith('class ');
 
   await navigator.clipboard.writeText(command);
-  alert('Copied: ' + (isClassDesign ? 'csharp-class' : 'csharp-method'));
+  alert('Copied: ' + (isClassDesign(code) ? 'csharp-class' : 'csharp-method'));
 }
 
 function fixString(text: string): string {
@@ -38,16 +37,20 @@ function getCodeContent(): string {
   return fixString((element as HTMLElement).innerText);
 }
 
+function isClassDesign(code: string): boolean {
+  return !/\bclass\s+Solution\b/.test(code);
+}
+
 function buildCommand(title: string, code: string, description: string): string {
-  const codeLines = code.split('\n');
-  const isClassDesign = codeLines[0].trim().startsWith('class ');
   const prefix = `dotnet run --project ${PROJECT_PATH} --`;
 
-  if (isClassDesign) {
+  if (isClassDesign(code)) {
     return `${prefix} csharp-class --title "${escapeArg(title)}" --class-code "${escapeArg(code)}" --description "${escapeArg(description)}"`;
   }
 
-  const signature = codeLines[1].trim().replace(/ \{$/g, '');
+  const codeLines = code.split('\n');
+  const methodLine = codeLines.find(l => l.trim().startsWith('public') && !l.includes('class '));
+  const signature = (methodLine ?? '').trim().replace(/ \{$/g, '');
   return `${prefix} csharp-method --title "${escapeArg(title)}" --method-signature "${escapeArg(signature)}" --description "${escapeArg(description)}"`;
 }
 

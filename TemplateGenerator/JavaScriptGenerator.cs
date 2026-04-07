@@ -1,3 +1,5 @@
+using System.CommandLine;
+using System.CommandLine.Parsing;
 using System.Text.Json;
 using System.Text.Json.Nodes;
 using System.Text.RegularExpressions;
@@ -10,19 +12,35 @@ internal partial class JavaScriptGenerator : GeneratorBase
     [GeneratedRegex(@"\r\nInput\:?(?: |\r\n)(?<Input>(?:.|\r\n)+?)\r\nOutput\:?(?: |\r\n)(?<Output>.+?)(?:\r\n|$)")]
     private static partial Regex ExamplesRegex();
 
+    private readonly Option<string?> _descriptionOption = new("--description", "-d") { Description = "Problem description (used to extract examples)" };
+
+    private string? _description;
+
     [UsedImplicitly]
     public string SolutionTemplate { get; private set; } = string.Empty;
 
     [UsedImplicitly]
     public string ExampleJson { get; private set; } = string.Empty;
 
-    public override bool CanGenerate() => Signature.Equals("JS", StringComparison.OrdinalIgnoreCase);
+    public override string CommandName => "js";
+    public override string CommandDescription => "Generate JavaScript problem template";
 
-    public override void Generate(GeneratorOptions options)
+    public override void ConfigureCommand(Command command)
     {
-        var examplesStr = options.Description;
+        base.ConfigureCommand(command);
+        command.Add(_descriptionOption);
+    }
+
+    public override void SetOptions(ParseResult parseResult)
+    {
+        base.SetOptions(parseResult);
+        _description = parseResult.GetValue(_descriptionOption);
+    }
+
+    public override void Generate()
+    {
         SolutionTemplate = ConsoleHelper.ReadMultiline("Solution template");
-        examplesStr ??= ConsoleHelper.ReadMultiline("Examples");
+        var examplesStr = _description ?? ConsoleHelper.ReadMultiline("Examples");
 
         var exampleJsons = ExamplesRegex().Matches(examplesStr).Select(match =>
         {

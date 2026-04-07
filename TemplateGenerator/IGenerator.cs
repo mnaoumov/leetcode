@@ -1,8 +1,14 @@
+using System.CommandLine;
+using System.CommandLine.Parsing;
+
 namespace TemplateGenerator;
 
 internal interface IGenerator
 {
-    bool CanGenerate();
-    void Generate(GeneratorOptions options);
-    void Init(string title, string signature);
+    string CommandName { get; }
+    string CommandDescription { get; }
+    void ConfigureCommand(Command command);
+    void SetOptions(ParseResult parseResult);
+    void Init(string title);
+    void Generate();
 }

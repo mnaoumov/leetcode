@@ -1,3 +1,5 @@
+using System.CommandLine;
+using System.CommandLine.Parsing;
 using System.Text.RegularExpressions;
 using JetBrains.Annotations;
 
@@ -20,6 +22,12 @@ internal partial class ClassDesignGenerator : GeneratorBase
     [GeneratedRegex(@"(?m)^Input\:?(?:\r?\n| )(?<Input>.+?)\r?\n(?<Parameters>.+?)(?:\r?\n)+Output\:?(?:\r?\n| )(?<Output>.+?)\r?$")]
     private static partial Regex ExamplesRegex();
 
+    private readonly Option<string?> _codeOption = new("--code", "-c") { Description = "Class definition code block" };
+    private readonly Option<string?> _descriptionOption = new("--description", "-d") { Description = "Problem description (used to extract examples)" };
+
+    private string? _code;
+    private string? _description;
+
     [UsedImplicitly]
     public string InterfaceName { get; private set; } = string.Empty;
 
@@ -38,13 +46,28 @@ internal partial class ClassDesignGenerator : GeneratorBase
     [UsedImplicitly]
     public ClassDesignExample Example { get; private set; } = new();
 
-    public override bool CanGenerate() => Signature.Equals("CLASS", StringComparison.OrdinalIgnoreCase);
+    public override string CommandName => "class";
+    public override string CommandDescription => "Generate class design problem template";
 
-    public override void Generate(GeneratorOptions options)
+    public override void ConfigureCommand(Command command)
     {
-        var rawClassDefinition = options.Code ?? ConsoleHelper.ReadMultiline("Class definition");
+        base.ConfigureCommand(command);
+        command.Add(_codeOption);
+        command.Add(_descriptionOption);
+    }
+
+    public override void SetOptions(ParseResult parseResult)
+    {
+        base.SetOptions(parseResult);
+        _code = parseResult.GetValue(_codeOption);
+        _description = parseResult.GetValue(_descriptionOption);
+    }
+
+    public override void Generate()
+    {
+        var rawClassDefinition = _code ?? ConsoleHelper.ReadMultiline("Class definition");
         var classDefinition = CommentsRegex().Replace(rawClassDefinition, "").Trim();
-        var examplesStr = options.Description ?? ConsoleHelper.ReadMultiline("Examples");
+        var examplesStr = _description ?? ConsoleHelper.ReadMultiline("Examples");
 
         var examples = ExamplesRegex().Matches(examplesStr).Select(match => new ClassDesignExample
         {

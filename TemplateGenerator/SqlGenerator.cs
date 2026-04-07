@@ -40,9 +40,10 @@ internal partial class SqlGenerator : GeneratorBase
     [UsedImplicitly]
     public string[] HeaderNames { get; private set; } = [];
 
-    public override bool CanGenerate() => Signature.Equals("SQL", StringComparison.OrdinalIgnoreCase);
+    public override string CommandName => "sql";
+    public override string CommandDescription => "Generate SQL problem template";
 
-    public override void Generate(GeneratorOptions options)
+    public override void Generate()
     {
         var setUpScript = ConsoleHelper.ReadMultiline("SetUp script");
         SetUpScript = FixSetUpScript(setUpScript);

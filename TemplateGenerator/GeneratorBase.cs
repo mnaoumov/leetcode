@@ -1,3 +1,5 @@
+using System.CommandLine;
+using System.CommandLine.Parsing;
 using System.Text.RegularExpressions;
 using Scriban;
 using JetBrains.Annotations;
@@ -16,11 +18,9 @@ internal abstract partial class GeneratorBase : IGenerator
     private static readonly string LeetCodeFolderPath = Path.GetFullPath(
         Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "LeetCode", "Problems", "!TODO"));
 
+    protected readonly Option<string> TitleOption = new("--title", "-t") { Description = "Problem title", Required = true };
+
     private string Title { get; set; } = string.Empty;
-
-    [UsedImplicitly]
-    public string Signature { get; private set; } = string.Empty;
-
     private string TaskDir { get; set; } = string.Empty;
 
     [UsedImplicitly]
@@ -29,23 +29,34 @@ internal abstract partial class GeneratorBase : IGenerator
     [UsedImplicitly]
     public string Namespace { get; private set; } = string.Empty;
 
-    public abstract bool CanGenerate();
+    public abstract string CommandName { get; }
+    public abstract string CommandDescription { get; }
 
-    public abstract void Generate(GeneratorOptions options);
+    public virtual void ConfigureCommand(Command command)
+    {
+        command.Add(TitleOption);
+    }
 
-    public void Init(string title, string signature)
+    public virtual void SetOptions(ParseResult parseResult)
+    {
+        var title = parseResult.GetValue(TitleOption)
+            ?? throw new InvalidOperationException("Title is required");
+        Init(title);
+    }
+
+    public void Init(string title)
     {
         ArgumentException.ThrowIfNullOrWhiteSpace(title);
-        ArgumentException.ThrowIfNullOrWhiteSpace(signature);
 
         Title = title;
-        Signature = signature.Replace("public ", "");
         var titleWithUnifiedProblemNumber = ProblemNumberRegex().Replace(Title, match => match.Groups[1].Value.PadLeft(ProblemNumberLength, '0'));
         var validFolderName = ReplaceChars(titleWithUnifiedProblemNumber, Path.GetInvalidFileNameChars().Append('.').ToArray());
         TaskDir = $@"{LeetCodeFolderPath}\{validFolderName}";
         EscapedTitle = $"_{ReplaceChars(validFolderName, InvalidNamespaceChars.ToCharArray())}";
         Namespace = GenerateTemplate("namespace LeetCode.Problems.{{ EscapedTitle }};");
     }
+
+    public abstract void Generate();
 
     private static string ReplaceChars(string str, char[] chars) => string.Join(ReplacementChar, str.Split(chars));
 

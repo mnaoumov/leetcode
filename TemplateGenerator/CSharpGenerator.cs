@@ -1,3 +1,5 @@
+using System.CommandLine;
+using System.CommandLine.Parsing;
 using System.Text.Json.Nodes;
 using System.Text.RegularExpressions;
 using JetBrains.Annotations;
@@ -11,6 +13,15 @@ internal partial class CSharpGenerator : GeneratorBase
 
     [GeneratedRegex(@"\r\nInput: (?<Input>(.|\r\n)+?)\r\nOutput: (?<Output>.+?)($|\r\n)")]
     private static partial Regex ExamplesRegex();
+
+    private readonly Option<string> _signatureOption = new("--signature", "-s") { Description = "Method signature (e.g. 'int[] twoSum(int[] nums, int target)')", Required = true };
+    private readonly Option<string?> _descriptionOption = new("--description", "-d") { Description = "Problem description (used to extract examples)" };
+
+    private string _signature = string.Empty;
+    private string? _description;
+
+    [UsedImplicitly]
+    public string Signature => _signature;
 
     [UsedImplicitly]
     public JsonObject[] Examples { get; set; } = [];
@@ -30,12 +41,28 @@ internal partial class CSharpGenerator : GeneratorBase
     [UsedImplicitly]
     public IEnumerable<Argument> AllArguments => InputArguments.Append(OutputArgument);
 
-    public override bool CanGenerate() => SignatureRegex().IsMatch(Signature);
+    public override string CommandName => "csharp";
+    public override string CommandDescription => "Generate C# problem template";
 
-    public override void Generate(GeneratorOptions options)
+    public override void ConfigureCommand(Command command)
     {
-        var examplesStr = options.Description;
-        var signatureMatch = SignatureRegex().Match(Signature);
+        base.ConfigureCommand(command);
+        command.Add(_signatureOption);
+        command.Add(_descriptionOption);
+    }
+
+    public override void SetOptions(ParseResult parseResult)
+    {
+        base.SetOptions(parseResult);
+        _signature = (parseResult.GetValue(_signatureOption)
+            ?? throw new InvalidOperationException("Signature is required"))
+            .Replace("public ", "");
+        _description = parseResult.GetValue(_descriptionOption);
+    }
+
+    public override void Generate()
+    {
+        var signatureMatch = SignatureRegex().Match(_signature);
         var outputType = signatureMatch.Groups["OutputType"].Value;
         MethodName = signatureMatch.Groups["MethodName"].Value;
         InputArguments = signatureMatch.Groups["Arguments"].Value.Split(", ").Select(argumentStr =>
@@ -62,7 +89,7 @@ internal partial class CSharpGenerator : GeneratorBase
             )
             """);
 
-        examplesStr ??= ConsoleHelper.ReadMultiline("Examples");
+        var examplesStr = _description ?? ConsoleHelper.ReadMultiline("Examples");
         Examples = ExamplesRegex().Matches(examplesStr).Select(match =>
         {
             var input = match.Groups["Input"].Value.Replace(" = ", ": ");

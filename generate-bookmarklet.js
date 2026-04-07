@@ -1,8 +1,9 @@
-const fs = require('fs');
-const path = require('path');
+const { execSync } = require('node:child_process');
+const path = require('node:path');
 
-const src = fs.readFileSync(path.join(__dirname, 'bookmarklet.js'), 'utf8');
-const min = src.split('\n').map(l => l.trim()).filter(l => l).join(' ');
-const bookmarklet = 'javascript:' + encodeURIComponent(min);
+const result = execSync(`npx esbuild ${path.join(__dirname, 'bookmarklet.ts')} --bundle --format=iife --minify --target=es2020`, {
+    encoding: 'utf8'
+});
 
+const bookmarklet = 'javascript:' + encodeURIComponent(result.trim());
 console.log(bookmarklet);

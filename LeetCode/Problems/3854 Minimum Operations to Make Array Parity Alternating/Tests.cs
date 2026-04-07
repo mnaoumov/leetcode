@@ -10,7 +10,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
     public class TestCase : TestCaseBase
     {
-[UsedImplicitly] init; } = null!;
-[UsedImplicitly] init; } = null!;
+        public int[] Nums { get; [UsedImplicitly] init; } = null!;
+        public int[] Output { get; [UsedImplicitly] init; } = null!;
     }
 }

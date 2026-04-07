@@ -55,23 +55,15 @@ public abstract class ClassDesignTestsBase<TSolution, TSut> : TestsBase<TSolutio
                 {
                     Assert.That(actual, Is.EqualTo(expected).Within(1e-5), assertMessage);
                 }
+                else if (actual is not string && actual is IEnumerable actualEnumerable && expected is IEnumerable expectedEnumerable)
+                {
+                    AssertCollectionEqualWithDetails(actualEnumerable.Cast<object>(), expectedEnumerable.Cast<object>(),
+                        assertMessage);
+                }
                 else
                 {
-                    if (actual is IEnumerable actualEnumerable && expected is IEnumerable expectedEnumerable)
-                    {
-                        AssertCollectionEqualWithDetails(actualEnumerable.Cast<object>(), expectedEnumerable.Cast<object>(), assertMessage);
-                    }
-                    else
-                    {
-                        Assert.That(actual, Is.EqualTo(expected), assertMessage);
-                    }
+                    Assert.That(actual, Is.EqualTo(expected), assertMessage);
                 }
-
-                Assert.That(actual,
-                    expected is double
-                        ? Is.EqualTo(expected).Within(1e-5)
-                        : Is.EqualTo(expected),
-                    assertMessage);
             }
         }
     }

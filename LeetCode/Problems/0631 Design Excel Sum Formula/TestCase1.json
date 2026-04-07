@@ -1,0 +1,5 @@
+{
+    "commands": ["Excel", "set", "sum", "set", "get"],
+    "parameters": [[3, "C"], [1, "A", 2], [3, "C", ["A1", "A1:B2"]], [2, "B", 2], [3, "C"]],
+    "output": [null, null, 4, null, 6]
+}

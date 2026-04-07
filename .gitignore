@@ -31,3 +31,6 @@ _ReSharper*/
 #Nuget packages folder
 packages/
 .idea
+
+.claude/settings.local.json
+bookmarklet.txt

@@ -1,3 +1,5 @@
+using System.Globalization;
+
 namespace LeetCode.Problems._3129_Find_All_Possible_Stable_Binary_Arrays_I;
 
 /// <summary>
@@ -30,7 +32,7 @@ public class Solution2 : ISolution
         return dp.GetOrCalculate((zero, one)) + dp.GetOrCalculate((one, zero));
     }
 
-    private class DynamicProgramming<TKey, TValue> where TKey : notnull
+    private sealed class DynamicProgramming<TKey, TValue> where TKey : notnull
     {
         private readonly Func<TKey, Func<TKey, TValue>, TValue> _func;
         private readonly Dictionary<TKey, TValue> _cache = new();
@@ -42,7 +44,7 @@ public class Solution2 : ISolution
             : value;
     }
 
-    private class ModNumber
+    private sealed class ModNumber
     {
         private const int Modulo = 1_000_000_007;
         private readonly int _value;
@@ -63,6 +65,6 @@ public class Solution2 : ISolution
         public static ModNumber operator *(ModNumber modNumber1, ModNumber modNumber2) =>
             new(1L * modNumber1._value * modNumber2._value);
 
-        public override string ToString() => _value.ToString();
+        public override string ToString() => _value.ToString(CultureInfo.InvariantCulture);
     }
 }

@@ -4,7 +4,7 @@ const PROJECT_PATH = 'F:\\\\dev\\\\leetcode\\\\TemplateGenerator\\\\TemplateGene
 const EDITOR_ARTIFACTS = /[\u00A0\u00B7\u200C]/g;
 
 async function main(): Promise<void> {
-  const title = getTextContent('.text-title-large').replace(/^Q\d/g, '0000');
+  const title = getTextContent('.text-title-large').replace(/^Q(\d)/g, (_, q) => getContestPrefix(q));
   const code = getCodeContent();
   const description = getTextContent('[data-track-load=description_content]');
 
@@ -61,6 +61,19 @@ function getCodeContent(): string {
 
 function isClassDesign(code: string): boolean {
   return !/\bclass\s+Solution\b/.test(code);
+}
+
+function getContestPrefix(questionNumber: string): string {
+  const url = window.location.href;
+  const weeklyMatch = url.match(/weekly-contest-(\d+)/);
+  if (weeklyMatch) {
+    return `10${weeklyMatch[1]}0${questionNumber}`;
+  }
+  const biweeklyMatch = url.match(/biweekly-contest-(\d+)/);
+  if (biweeklyMatch) {
+    return `20${biweeklyMatch[1]}0${questionNumber}`;
+  }
+  return '0000';
 }
 
 function buildCommand(title: string, code: string, description: string): string {

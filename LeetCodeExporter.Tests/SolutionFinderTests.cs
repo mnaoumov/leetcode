@@ -188,6 +188,27 @@ public class SolutionFinderTests
     }
 
     [Test]
+    public void FindSolutionFile_PadsShortProblemNumber()
+    {
+        var problemDir = Path.Combine(ProblemsDir, "0755 Pour Water");
+        var solutionFile = Path.Combine(problemDir, "Solution1.cs");
+
+        var fs = new MockFileSystem
+        {
+            OnDirectoryExists = path => path == ProblemsDir,
+            OnGetDirectories = (parent, pattern) =>
+                parent == ProblemsDir && pattern == "0755 *" ? [problemDir] : [],
+            OnGetFiles = (dir, _) =>
+                dir == problemDir ? [solutionFile] : []
+        };
+        var finder = new SolutionFinder(fs, BaseDir);
+
+        var result = finder.FindSolutionFile("755", null);
+
+        Assert.That(result, Is.EqualTo(solutionFile));
+    }
+
+    [Test]
     public void FindSolutionFile_ReturnsNull_WhenNoSolutionFilesInDirectory()
     {
         var problemDir = Path.Combine(ProblemsDir, "0001 Two Sum");

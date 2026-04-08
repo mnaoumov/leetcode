@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.2.32630.192
+# Visual Studio Version 18
+VisualStudioVersion = 18.4.11626.88 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode", "LeetCode\LeetCode.csproj", "{0B8D4545-C81F-4D01-B448-DEA21AE5FA00}"
 EndProject
@@ -15,8 +15,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodeExporter.Tests", "LeetCodeExporter.Tests\LeetCodeExporter.Tests.csproj", "{4FA7ACDF-FB33-4F20-8367-BC4CC05B3FE5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode.Tests", "LeetCode.Tests\LeetCode.Tests.csproj", "{C5D7C4B5-5B3F-4BFB-BC16-011A97BC8084}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LeetCode", "LeetCode", "{3839457E-A4D2-EDDE-2D95-A020B8C0601A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode.Full", "LeetCode\LeetCode.Full.csproj", "{1829E1AC-662C-4367-A36F-5C8F9213839E}"
 EndProject
@@ -107,9 +105,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{1829E1AC-662C-4367-A36F-5C8F9213839E} = {3839457E-A4D2-EDDE-2D95-A020B8C0601A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1C26644D-A659-4ED3-B2E2-52CEEABBB366}

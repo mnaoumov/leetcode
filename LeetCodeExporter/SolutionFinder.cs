@@ -13,6 +13,7 @@ public class SolutionFinder
 
     public string? FindSolutionFile(string problemNumber, int? solutionNumber)
     {
+        var paddedNumber = problemNumber.PadLeft(4, '0');
         var searchDirs = new[] { Path.Combine(_baseDir, "Problems", "!TODO"), Path.Combine(_baseDir, "Problems") };
 
         string? problemDir = null;
@@ -24,7 +25,7 @@ public class SolutionFinder
                 continue;
             }
 
-            var match = _fileSystem.GetDirectories(dir, $"{problemNumber} *").FirstOrDefault();
+            var match = _fileSystem.GetDirectories(dir, $"{paddedNumber} *").FirstOrDefault();
 
             if (match != null)
             {

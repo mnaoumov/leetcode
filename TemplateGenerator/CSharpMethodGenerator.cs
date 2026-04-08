@@ -95,6 +95,7 @@ internal partial class CSharpMethodGenerator : GeneratorBase
             var input = match.Groups["Input"].Value.Replace(" = ", ": ");
             var output = match.Groups["Output"].Value;
             var json = $"{{ {input}, output: {output} }}";
+            json = Regex.Replace(json, @"(?<=[\{,]\s*)(\w+)\s*:", "\"$1\":");
             var obj = (JsonObject)JsonNode.Parse(json)!;
 
             var ordered = new JsonObject { ["$schema"] = "../../Base/testcase.schema.json" };

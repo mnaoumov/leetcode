@@ -1,0 +1,7 @@
+{
+  "$schema": "../../Base/testcase.schema.json",
+  "l": 8,
+  "r": 10,
+  "directions": "DDDRRR",
+  "output": 2
+}

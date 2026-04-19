@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls F:\\\\dev\\\\leetcode\\\\LeetCode\\\\Problems\\\\!TODO\\\\1018003 Minimum Operations to Transform Array into Alternating Prime\\\\\\\\:*)"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "$schema": "../../Base/testcase.schema.json",
+  "matrix": [[0]],
+  "output": [0]
+}

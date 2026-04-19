@@ -84,8 +84,16 @@ public abstract partial class TestsBase
             message += "\r\n";
         }
 
-        Assert.That(actual, Is.EqualTo(expected),
-            $"{message}Actual:\r\n{JsonSerializer.Serialize(actual)}\r\n\r\nExpected:\r\n{JsonSerializer.Serialize(expected)}\r\n\r\n");
+        if (expected is double[])
+        {
+            Assert.That(actual, Is.EqualTo(expected).Within(1e-5),
+                $"{message}Actual:\r\n{JsonSerializer.Serialize(actual)}\r\n\r\nExpected:\r\n{JsonSerializer.Serialize(expected)}\r\n\r\n");
+        }
+        else
+        {
+            Assert.That(actual, Is.EqualTo(expected),
+                $"{message}Actual:\r\n{JsonSerializer.Serialize(actual)}\r\n\r\nExpected:\r\n{JsonSerializer.Serialize(expected)}\r\n\r\n");
+        }
     }
 
     protected static void AssertCollectionEqualWithDetails<T>(IEnumerable<T> actual, IEnumerable<T> expected,

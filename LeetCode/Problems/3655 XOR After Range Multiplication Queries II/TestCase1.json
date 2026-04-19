@@ -1,6 +1,6 @@
 {
   "$schema": "../../Base/testcase.schema.json",
-  "nums": [1,1,1],
-  "queries": [[0,2,1,4]],
+  "nums": [1, 1, 1],
+  "queries": [[0, 2, 1, 4]],
   "output": 4
 }

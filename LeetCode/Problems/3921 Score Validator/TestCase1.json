@@ -1,0 +1,5 @@
+{
+  "$schema": "../../Base/testcase.schema.json",
+  "events": ["1", "4", "W", "6", "WD"],
+  "output": [12, 1]
+}

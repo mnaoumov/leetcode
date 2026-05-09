@@ -1,0 +1,9 @@
+{
+  "$schema": "../../Base/testcase.schema.json",
+  "n": 6,
+  "edges": [[0, 1, 3], [1, 2, 4], [3, 4, 5], [4, 5, 6]],
+  "source": 0,
+  "target": 4,
+  "k": 1,
+  "output": -1
+}

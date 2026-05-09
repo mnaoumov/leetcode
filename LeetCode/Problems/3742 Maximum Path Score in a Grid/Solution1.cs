@@ -59,7 +59,7 @@ public class Solution1 : ISolution
         return dp.GetOrCalculate((0, 0, k));
     }
 
-    private class DynamicProgramming<TKey, TValue> where TKey : notnull
+    private sealed class DynamicProgramming<TKey, TValue> where TKey : notnull
     {
         private readonly Func<TKey, Func<TKey, TValue>, TValue> _func;
         private readonly Dictionary<TKey, TValue> _cache = new();

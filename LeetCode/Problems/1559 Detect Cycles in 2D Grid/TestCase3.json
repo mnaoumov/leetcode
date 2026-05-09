@@ -1,0 +1,5 @@
+{
+  "$schema": "../../Base/testcase.schema.json",
+  "grid": [["a", "b", "b"], ["b", "z", "b"], ["b", "b", "a"]],
+  "output": false
+}

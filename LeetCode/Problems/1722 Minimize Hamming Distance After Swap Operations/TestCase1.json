@@ -1,0 +1,7 @@
+{
+  "$schema": "../../Base/testcase.schema.json",
+  "source": [1, 2, 3, 4],
+  "target": [2, 1, 4, 5],
+  "allowedSwaps": [[0, 1], [2, 3]],
+  "output": 1
+}

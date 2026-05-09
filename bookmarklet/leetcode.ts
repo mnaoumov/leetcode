@@ -65,13 +65,13 @@ function isClassDesign(code: string): boolean {
 
 function getContestPrefix(questionNumber: string): string {
   const url = window.location.href;
-  const weeklyMatch = url.match(/weekly-contest-(\d+)/);
-  if (weeklyMatch) {
-    return `10${weeklyMatch[1]}0${questionNumber}`;
-  }
   const biweeklyMatch = url.match(/biweekly-contest-(\d+)/);
   if (biweeklyMatch) {
     return `20${biweeklyMatch[1]}0${questionNumber}`;
+  }
+  const weeklyMatch = url.match(/weekly-contest-(\d+)/);
+  if (weeklyMatch) {
+    return `10${weeklyMatch[1]}0${questionNumber}`;
   }
   return '0000';
 }

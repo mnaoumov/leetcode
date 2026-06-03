@@ -1,0 +1,7 @@
+{
+  "$schema": "../../Base/testcase.schema.json",
+  "s": "011010",
+  "minJump": 2,
+  "maxJump": 3,
+  "output": true
+}

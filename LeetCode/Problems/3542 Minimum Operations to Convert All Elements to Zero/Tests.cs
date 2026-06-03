@@ -1,7 +1,6 @@
 namespace LeetCode.Problems._3542_Minimum_Operations_to_Convert_All_Elements_to_Zero;
 
 [UsedImplicitly]
-[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestCore(ISolution solution, TestCase testCase)

@@ -1,7 +1,6 @@
 namespace LeetCode.Problems._3108_Minimum_Cost_Walk_in_Weighted_Graph;
 
 [UsedImplicitly]
-[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestCore(ISolution solution, TestCase testCase)

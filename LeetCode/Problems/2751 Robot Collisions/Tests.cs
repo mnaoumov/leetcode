@@ -1,7 +1,6 @@
 namespace LeetCode.Problems._2751_Robot_Collisions;
 
 [UsedImplicitly]
-[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestCore(ISolution solution, TestCase testCase)

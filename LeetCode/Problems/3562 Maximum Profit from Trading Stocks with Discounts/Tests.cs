@@ -1,7 +1,6 @@
 namespace LeetCode.Problems._3562_Maximum_Profit_from_Trading_Stocks_with_Discounts;
 
 [UsedImplicitly]
-[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestCore(ISolution solution, TestCase testCase)

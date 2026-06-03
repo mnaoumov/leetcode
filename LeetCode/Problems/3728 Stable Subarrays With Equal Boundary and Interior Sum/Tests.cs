@@ -1,7 +1,6 @@
 namespace LeetCode.Problems._3728_Stable_Subarrays_With_Equal_Boundary_and_Interior_Sum;
 
 [UsedImplicitly]
-[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestCore(ISolution solution, TestCase testCase)

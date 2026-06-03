@@ -1,7 +1,6 @@
 namespace LeetCode.Problems._3714_Longest_Balanced_Substring_II;
 
 [UsedImplicitly]
-[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestCore(ISolution solution, TestCase testCase)

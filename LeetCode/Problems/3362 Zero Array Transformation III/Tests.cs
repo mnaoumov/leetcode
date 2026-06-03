@@ -1,7 +1,6 @@
 namespace LeetCode.Problems._3362_Zero_Array_Transformation_III;
 
 [UsedImplicitly]
-[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestCore(ISolution solution, TestCase testCase)

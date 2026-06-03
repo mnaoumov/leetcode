@@ -1,7 +1,6 @@
 namespace LeetCode.Problems._0808_Soup_Servings;
 
 [UsedImplicitly]
-[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestCore(ISolution solution, TestCase testCase)

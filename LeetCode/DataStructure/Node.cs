@@ -63,4 +63,21 @@ public class Node
     }
 
     public override string ToString() => $"{{{val}}}";
+
+    public override bool Equals(object? obj)
+    {
+        var equals = (obj is Node node) && Equals(node);
+        return equals;
+    }
+
+    public override int GetHashCode()
+    {
+        return HashCode.Combine(val, children);
+    }
+
+    private bool Equals(Node obj)
+    {
+        return val == obj.val && children.Count == obj.children.Count &&
+               Enumerable.Range(0, children.Count).All(i => Equals(children[i], obj.children[i]));
+    }
 }

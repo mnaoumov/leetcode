@@ -1,7 +1,6 @@
 namespace LeetCode.Problems._3753_Total_Waviness_of_Numbers_in_Range_II;
 
 [UsedImplicitly]
-[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestCore(ISolution solution, TestCase testCase)

@@ -1,11 +1,11 @@
 namespace LeetCode.Problems._3753_Total_Waviness_of_Numbers_in_Range_II;
 
 /// <summary>
-/// https://leetcode.com/problems/total-waviness-of-numbers-in-range-ii/submissions/2023441034/
+/// https://leetcode.com/problems/total-waviness-of-numbers-in-range-ii/submissions/2023459363/
 /// </summary>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public long TotalWaviness(long num1, long num2)
     {
@@ -23,22 +23,24 @@ public class Solution1 : ISolution
 
             var ans = 0L;
 
-            while (10 * maxPowerOfTen < max)
+            while (10 * maxPowerOfTen <= max)
             {
-                ans += getOrCalculate((10 * maxPowerOfTen - 1, unset, unset));
+                if (previousDigit == unset)
+                {
+                    ans += getOrCalculate((10 * maxPowerOfTen - 1, unset, unset));
+                }
+
                 maxPowerOfTen *= 10;
             }
 
             if (previousDigit == unset)
             {
-                maxPowerOfTen /= 10;
-
                 for (var prefix = 10; prefix <= 99; prefix++)
                 {
                     previousDigit = prefix % 10;
                     previousDigit2 = prefix / 10;
 
-                    var nextMax = Math.Min(maxPowerOfTen - 1, max - prefix * maxPowerOfTen);
+                    var nextMax = Math.Min(maxPowerOfTen / 10 - 1, max - prefix * maxPowerOfTen / 10);
 
                     if (nextMax < 0)
                     {

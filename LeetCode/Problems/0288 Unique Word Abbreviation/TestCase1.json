@@ -1,0 +1,6 @@
+{
+  "$schema": "../../ClassDesign/classdesign-testcase.schema.json",
+  "commands": ["ValidWordAbbr", "isUnique", "isUnique", "isUnique", "isUnique", "isUnique"],
+  "parameters": [[["deer", "door", "cake", "card"]], ["dear"], ["cart"], ["cane"], ["make"], ["cake"]],
+  "output": [null, false, true, false, true, true]
+}

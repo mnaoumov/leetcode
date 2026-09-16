@@ -1,0 +1,6 @@
+{
+  "$schema": "../../Base/testcase.schema.json",
+  "n": 10,
+  "restrictions": [[5, 3], [2, 5], [7, 4], [10, 3]],
+  "output": 5
+}

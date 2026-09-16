@@ -1,0 +1,6 @@
+{
+  "$schema": "../../Base/testcase.schema.json",
+  "n": 4,
+  "reservedSeats": [[4, 3], [1, 4], [4, 6], [1, 7]],
+  "output": 4
+}

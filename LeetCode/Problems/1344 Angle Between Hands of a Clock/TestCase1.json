@@ -1,0 +1,6 @@
+{
+  "$schema": "../../Base/testcase.schema.json",
+  "hour": 12,
+  "minutes": 30,
+  "output": 165
+}

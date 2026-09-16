@@ -1,11 +1,10 @@
 namespace LeetCode.Problems._3568_Minimum_Moves_to_Clean_the_Classroom;
 
 /// <summary>
-/// https://leetcode.com/problems/minimum-moves-to-clean-the-classroom/submissions/2127382953/
+/// https://leetcode.com/problems/minimum-moves-to-clean-the-classroom/submissions/2127490933/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution2 : ISolution
+public class Solution3 : ISolution
 {
     public int MinMoves(string[] classroom, int energy)
     {
@@ -53,7 +52,7 @@ public class Solution2 : ISolution
         {
             var (row, column, energyLeft, moves, collectedLitterMask) = queue.Dequeue();
 
-            if (!visited.Add((row, column, energy, collectedLitterMask)))
+            if (!visited.Add((row, column, energyLeft, collectedLitterMask)))
             {
                 continue;
             }

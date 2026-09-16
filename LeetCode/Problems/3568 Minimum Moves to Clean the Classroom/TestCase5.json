@@ -1,0 +1,6 @@
+{
+  "$schema": "../../Base/testcase.schema.json",
+  "classroom": ["SRXL", "LLR.", "XRRL"],
+  "energy": 3,
+  "output": 7
+}

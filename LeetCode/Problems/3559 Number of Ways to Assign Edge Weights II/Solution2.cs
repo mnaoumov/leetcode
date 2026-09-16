@@ -4,16 +4,18 @@ using System.Numerics;
 namespace LeetCode.Problems._3559_Number_of_Ways_to_Assign_Edge_Weights_II;
 
 /// <summary>
-/// https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-ii/submissions/2030277005/
+/// https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-ii/submissions/2030289678/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.MemoryLimitExceeded)]
-public class Solution1 : ISolution
+[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
+public class Solution2 : ISolution
 {
     public int[] AssignEdgeWeights(int[][] edges, int[][] queries)
     {
         var n = edges.Length + 1;
         var adjNodes = Enumerable.Range(0, n + 1).Select(_ => new List<int>()).ToArray();
+        var parents = new int[n + 1];
+        var depths = new int[n + 1];
 
         foreach (var edge in edges)
         {
@@ -24,23 +26,20 @@ public class Solution1 : ISolution
         }
 
 
-        var pathsFromRoot = new List<int>[n + 1];
-        pathsFromRoot[1] = new List<int>();
-
         var visited = new bool[n + 1];
-        Dfs(1, 1);
+        Dfs(1, 0, 0);
 
         return queries.Select(query => Answer(query[0], query[1])).ToArray();
 
-        void Dfs(int node, int parent)
+        void Dfs(int node, int parent, int depth)
         {
             visited[node] = true;
-            pathsFromRoot[node] = pathsFromRoot[parent].ToList();
-            pathsFromRoot[node].Add(node);
+            parents[node] = parent;
+            depths[node] = depth;
 
             foreach (var adjNode in adjNodes[node].Where(adjNode => !visited[adjNode]))
             {
-                Dfs(adjNode, node);
+                Dfs(adjNode, node, depth + 1);
             }
         }
 
@@ -51,14 +50,25 @@ public class Solution1 : ISolution
                 return 0;
             }
 
-            var i = 0;
+            var length = depths[u] + depths[v];
 
-            while (i < pathsFromRoot[u].Count && i < pathsFromRoot[v].Count && pathsFromRoot[u][i] == pathsFromRoot[v][i])
+            if (depths[u] < depths[v])
             {
-                i++;
+                (u, v) = (v, u);
             }
 
-            var length = pathsFromRoot[u].Count + pathsFromRoot[v].Count - 2 * i;
+            while (depths[u] > depths[v])
+            {
+                u = parents[u];
+            }
+
+            while (u != v)
+            {
+                u = parents[u];
+                v = parents[v];
+            }
+
+            length -= 2 * depths[u];
             return ModNumber.Pow(2, length - 1);
         }
     }

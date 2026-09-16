@@ -1,7 +1,6 @@
 namespace LeetCode.Problems._3559_Number_of_Ways_to_Assign_Edge_Weights_II;
 
 [UsedImplicitly]
-[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestCore(ISolution solution, TestCase testCase)

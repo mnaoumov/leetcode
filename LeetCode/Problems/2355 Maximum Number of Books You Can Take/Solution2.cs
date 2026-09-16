@@ -4,6 +4,7 @@ namespace LeetCode.Problems._2355_Maximum_Number_of_Books_You_Can_Take;
 /// https://leetcode.com/submissions/detail/1078018639/
 /// </summary>
 [UsedImplicitly]
+[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution
 {
     public long MaximumBooks(int[] books)
@@ -44,7 +45,7 @@ public class Solution2 : ISolution
         return Enumerable.Range(0, n).Max(r => dp.GetOrCalculate(r));
     }
 
-    private class DynamicProgramming<TKey, TValue> where TKey : notnull
+    private sealed class DynamicProgramming<TKey, TValue> where TKey : notnull
     {
         private readonly Func<TKey, Func<TKey, TValue>, TValue> _func;
         private readonly Dictionary<TKey, TValue> _cache = new();

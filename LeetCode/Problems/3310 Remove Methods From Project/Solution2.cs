@@ -1,11 +1,10 @@
 namespace LeetCode.Problems._3310_Remove_Methods_From_Project;
 
 /// <summary>
-/// https://leetcode.com/problems/remove-methods-from-project/submissions/2097542629/
+/// https://leetcode.com/problems/remove-methods-from-project/submissions/2097550509/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public IList<int> RemainingMethods(int n, int k, int[][] invocations)
     {
@@ -26,9 +25,9 @@ public class Solution1 : ISolution
 
         var remainingNodes = Enumerable.Range(0, n).ToHashSet();
 
-        foreach (var node in suspiciousNodes.Where(node => reverseNodes[node].All(suspiciousNodes.Contains)))
+        if (suspiciousNodes.All(node => reverseNodes[node].All(suspiciousNodes.Contains)))
         {
-            remainingNodes.Remove(node);
+            remainingNodes.ExceptWith(suspiciousNodes);
         }
 
         return remainingNodes.ToArray();

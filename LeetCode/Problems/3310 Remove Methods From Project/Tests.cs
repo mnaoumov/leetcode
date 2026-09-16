@@ -1,7 +1,6 @@
 namespace LeetCode.Problems._3310_Remove_Methods_From_Project;
 
 [UsedImplicitly]
-[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestCore(ISolution solution, TestCase testCase)

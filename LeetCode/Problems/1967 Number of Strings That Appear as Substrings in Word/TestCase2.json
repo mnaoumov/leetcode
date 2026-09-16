@@ -1,0 +1,6 @@
+{
+  "$schema": "../../Base/testcase.schema.json",
+  "patterns": ["a", "b", "c"],
+  "word": "aaaaabbbbb",
+  "output": 2
+}

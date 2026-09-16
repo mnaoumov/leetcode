@@ -1,15 +1,15 @@
 namespace LeetCode.Problems._3414_Maximum_Score_of_Non_overlapping_Intervals;
 
 /// <summary>
-/// https://leetcode.com/problems/maximum-score-of-non-overlapping-intervals/submissions/2141070855/
+/// https://leetcode.com/problems/maximum-score-of-non-overlapping-intervals/submissions/2141074228/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.WrongAnswer)]
-public class Solution1 : ISolution
+[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
+public class Solution2 : ISolution
 {
     public int[] MaximumWeight(IList<IList<int>> intervals)
     {
-        var dp = new DynamicProgramming<(int index, int minValue, int maxValue, int maxCount), (int[] indices, int maxWeight)>((key, getOrCalculate) =>
+        var dp = new DynamicProgramming<(int index, int minValue, int maxValue, int maxCount), (int[] indices, long maxWeight)>((key, getOrCalculate) =>
         {
             var (index, minValue, maxValue, maxCount) = key;
 
@@ -34,7 +34,7 @@ public class Solution1 : ISolution
             {
                 var leftResult = getOrCalculate((index + 1, minValue, l - 1, leftMaxCount));
                 var rightResult = getOrCalculate((index + 1, r + 1, maxValue, maxCount - 1 - leftMaxCount));
-                var collectedWeight = leftResult.maxWeight + weight + rightResult.maxWeight;
+                var collectedWeight = 0L + leftResult.maxWeight + weight + rightResult.maxWeight;
                 var collectedIndices = leftResult.indices.Append(index).Concat(rightResult.indices).ToArray();
                 Array.Sort(collectedIndices);
 

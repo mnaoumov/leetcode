@@ -1,0 +1,5 @@
+{
+  "$schema": "../../Base/testcase.schema.json",
+  "color": "#4e3fe1",
+  "output": "#5544dd"
+}

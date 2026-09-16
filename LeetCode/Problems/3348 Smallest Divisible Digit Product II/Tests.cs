@@ -1,7 +1,6 @@
 namespace LeetCode.Problems._3348_Smallest_Divisible_Digit_Product_II;
 
 [UsedImplicitly]
-[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestCore(ISolution solution, TestCase testCase)

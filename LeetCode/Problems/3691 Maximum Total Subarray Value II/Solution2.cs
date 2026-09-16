@@ -3,11 +3,10 @@ using System.Numerics;
 namespace LeetCode.Problems._3691_Maximum_Total_Subarray_Value_II;
 
 /// <summary>
-/// https://leetcode.com/problems/maximum-total-subarray-value-ii/submissions/2029930848/
+/// https://leetcode.com/problems/maximum-total-subarray-value-ii/submissions/2029943003/
 /// </summary>
 [UsedImplicitly]
-[SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
-public class Solution1 : ISolution
+public class Solution2 : ISolution
 {
     public long MaxTotalValue(int[] nums, int k)
     {
@@ -45,7 +44,7 @@ public class Solution1 : ISolution
         }
     }
 
-    private sealed class SparseTable
+    private class SparseTable
     {
         private readonly Dictionary<Range, int> _rangeMins = new();
         private readonly Dictionary<Range, int> _rangeMaxes = new();
@@ -108,7 +107,7 @@ public class Solution1 : ISolution
         }
     }
 
-    private sealed record Range(int StartIndex, int Length)
+    private readonly record struct Range(int StartIndex, int Length)
     {
         public int EndIndex => StartIndex + Length - 1;
     }

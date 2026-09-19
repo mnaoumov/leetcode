@@ -1,0 +1,11 @@
+{
+  "$schema": "../../Base/testcase.schema.json",
+  "radius": 1,
+  "xCenter": 0,
+  "yCenter": 0,
+  "x1": 1,
+  "y1": -1,
+  "x2": 3,
+  "y2": 1,
+  "output": true
+}

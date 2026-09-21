@@ -1,7 +1,6 @@
 namespace LeetCode.Problems._3524_Find_X_Value_of_Array_I;
 
 [UsedImplicitly]
-[Category("TODO")]
 public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestCore(ISolution solution, TestCase testCase)

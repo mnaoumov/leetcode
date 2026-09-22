@@ -1,0 +1,17 @@
+namespace LeetCode.Problems._0751_IP_to_CIDR;
+
+[UsedImplicitly]
+public class Tests : TestsBase<ISolution, Tests.TestCase>
+{
+    protected override void TestCore(ISolution solution, TestCase testCase)
+    {
+        AssertCollectionEqualWithDetails(solution.IpToCIDR(testCase.Ip, testCase.N), testCase.Output);
+    }
+
+    public class TestCase : TestCaseBase
+    {
+        public string Ip { get; [UsedImplicitly] init; } = null!;
+        public int N { get; [UsedImplicitly] init; }
+        public IList<string> Output { get; [UsedImplicitly] init; } = null!;
+    }
+}

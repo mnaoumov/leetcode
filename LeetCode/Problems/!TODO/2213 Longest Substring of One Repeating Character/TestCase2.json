@@ -1,0 +1,7 @@
+{
+  "$schema": "../../Base/testcase.schema.json",
+  "s": "abyzz",
+  "queryCharacters": "aa",
+  "queryIndices": [2, 1],
+  "output": [2, 3]
+}

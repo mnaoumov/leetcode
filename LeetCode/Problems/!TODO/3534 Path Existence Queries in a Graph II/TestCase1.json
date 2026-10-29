@@ -1,0 +1,8 @@
+{
+  "$schema": "../../Base/testcase.schema.json",
+  "n": 5,
+  "nums": [1, 8, 3, 4, 2],
+  "maxDiff": 3,
+  "queries": [[0, 3], [2, 4]],
+  "output": [1, 1]
+}

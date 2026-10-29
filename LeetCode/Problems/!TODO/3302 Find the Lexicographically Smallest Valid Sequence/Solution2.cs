@@ -9,8 +9,7 @@ public class Solution2 : ISolution
 {
     public int[] ValidSequence(string word1, string word2)
     {
-        // ReSharper disable once UseArrayEmptyMethod
-        var impossible = new int[0];
+        var impossible = Array.Empty<int>();
 
         var dp = new DynamicProgramming<(int index, int digitsLeft, bool allowNonEqual), IEnumerable<int>>((key, recursiveFunc) =>
     {
@@ -48,7 +47,7 @@ public class Solution2 : ISolution
         return dp.GetOrCalculate((0, word2.Length, true)).ToArray();
     }
 
-    private class DynamicProgramming<TKey, TValue> where TKey : notnull
+    private sealed class DynamicProgramming<TKey, TValue> where TKey : notnull
     {
         private readonly Func<TKey, Func<TKey, TValue>, TValue> _func;
         private readonly Dictionary<TKey, TValue> _cache = new();

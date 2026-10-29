@@ -1,0 +1,8 @@
+{
+  "$schema": "../../Base/testcase.schema.json",
+  "arriveAlice": "10-01",
+  "leaveAlice": "10-31",
+  "arriveBob": "11-01",
+  "leaveBob": "12-31",
+  "output": 0
+}

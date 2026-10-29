@@ -46,5 +46,5 @@ public class Solution1 : ISolution
         return ans;
     }
 
-    private record Edge(int From, int To, int Cost);
+    private sealed record Edge(int From, int To, int Cost);
 }

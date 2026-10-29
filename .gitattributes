@@ -1,0 +1,2 @@
+# Bash runs under WSL, which reads a carriage return as part of the command.
+*.sh text eol=lf

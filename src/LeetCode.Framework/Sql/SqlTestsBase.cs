@@ -14,11 +14,12 @@ public abstract partial class SqlTestsBase<TSqlTests> : TestsBase where TSqlTest
     [Category("SQL")]
     public void Test(string solutionScriptPath, SqlTestCase testCase)
     {
-        RunTestWithStackAndTimeoutChecks(testCase,
-            () => RunSqlTestAsync(solutionScriptPath, testCase).GetAwaiter().GetResult());
+        RunTestWithTimeout(testCase,
+            cancellationToken => RunSqlTestAsync(solutionScriptPath, testCase, cancellationToken));
     }
 
-    private async Task RunSqlTestAsync(string solutionScriptPath, SqlTestCase testCase)
+    private async Task RunSqlTestAsync(string solutionScriptPath, SqlTestCase testCase,
+        CancellationToken cancellationToken)
     {
         using var sqlInstance = new SqlInstance("LeetCodeSqlTests", _ => Task.CompletedTask);
         var dbName = $"{new FileInfo(solutionScriptPath).Directory!.Name} - {Path.GetFileNameWithoutExtension(solutionScriptPath)} - {testCase.TestCaseName}";
@@ -31,8 +32,8 @@ public abstract partial class SqlTestsBase<TSqlTests> : TestsBase where TSqlTest
         try
         {
             var problemTestCaseDirectory = GetProblemDirectory(typeof(TSqlTests));
-            command.CommandText = await File.ReadAllTextAsync($@"{problemTestCaseDirectory}\SetUp.sql").ConfigureAwait(true);
-            await command.ExecuteNonQueryAsync().ConfigureAwait(true);
+            command.CommandText = await File.ReadAllTextAsync($@"{problemTestCaseDirectory}\SetUp.sql", cancellationToken).ConfigureAwait(true);
+            await command.ExecuteNonQueryAsync(cancellationToken).ConfigureAwait(true);
         }
 #pragma warning disable CA1031
         catch (Exception e)
@@ -56,7 +57,7 @@ public abstract partial class SqlTestsBase<TSqlTests> : TestsBase where TSqlTest
                         command.Parameters.AddWithValue($"@p{i}", row[i] ?? DBNull.Value);
                     }
 
-                    await command.ExecuteNonQueryAsync().ConfigureAwait(true);
+                    await command.ExecuteNonQueryAsync(cancellationToken).ConfigureAwait(true);
                     command.Parameters.Clear();
                 }
             }
@@ -72,11 +73,11 @@ public abstract partial class SqlTestsBase<TSqlTests> : TestsBase where TSqlTest
 
         try
         {
-            var script = await File.ReadAllTextAsync(solutionScriptPath).ConfigureAwait(true);
+            var script = await File.ReadAllTextAsync(solutionScriptPath, cancellationToken).ConfigureAwait(true);
 
             command.CommandText = GetResultQuery(db, testCase, script);
             // ReSharper disable once UseAwaitUsing
-            using var reader = await command.ExecuteReaderAsync().ConfigureAwait(true);
+            using var reader = await command.ExecuteReaderAsync(cancellationToken).ConfigureAwait(true);
             dt = new DataTable();
             dt.Load(reader);
         }

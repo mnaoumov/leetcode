@@ -12,8 +12,8 @@ public abstract class JavaScriptTestsBase<TJavaScriptTests> : JavaScriptTestsBas
     [Category("JavaScript")]
     public void Test(string solutionScriptPath, JavaScriptTestCase testCase, string testsScriptPath)
     {
-        RunTestWithStackAndTimeoutChecks(testCase,
-            () => RunJavaScriptTestAsync(solutionScriptPath, testCase, testsScriptPath).GetAwaiter().GetResult());
+        RunTestWithTimeout(testCase,
+            cancellationToken => RunJavaScriptTestAsync(solutionScriptPath, testCase, testsScriptPath, cancellationToken));
     }
 
 #pragma warning disable CA1000
@@ -120,7 +120,8 @@ public partial class JavaScriptTestsBase : TestsBase
         }
     }
 
-    protected static async Task RunJavaScriptTestAsync(string solutionScriptPath, JavaScriptTestCase testCase, string testsScriptPath)
+    protected static async Task RunJavaScriptTestAsync(string solutionScriptPath, JavaScriptTestCase testCase, string testsScriptPath,
+        CancellationToken cancellationToken)
     {
         if (Debugger.IsAttached)
         {
@@ -133,7 +134,7 @@ public partial class JavaScriptTestsBase : TestsBase
                 args: new object?[]
                 {
                     solutionScriptPath, testCase.TestCaseScriptPath, testsScriptPath, Debugger.IsAttached
-                }).ConfigureAwait(true))!;
+                }, cancellationToken: cancellationToken).ConfigureAwait(true))!;
 
             Assert.That(result.ActualResultJson, Is.EqualTo(result.ExpectedResultJson).NoClip);
         }

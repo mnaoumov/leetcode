@@ -14,20 +14,21 @@ public abstract partial class BashTestsBase<TBashTests> : TestsBase where TBashT
     [Category("Bash")]
     public void Test(string solutionScriptPath, BashTestCase testCase)
     {
-        RunTestWithStackAndTimeoutChecks(testCase,
-            () => RunBashTestAsync(solutionScriptPath, testCase).GetAwaiter().GetResult());
+        RunTestWithTimeout(testCase,
+            cancellationToken => RunBashTestAsync(solutionScriptPath, testCase, cancellationToken));
     }
 
-    private static async Task RunBashTestAsync(string solutionScriptPath, BashTestCase testCase)
+    private static async Task RunBashTestAsync(string solutionScriptPath, BashTestCase testCase,
+        CancellationToken cancellationToken)
     {
         using var tempDir = new TempDir();
 
         foreach (var (fileName, content) in testCase.Files)
         {
-            await File.WriteAllTextAsync($@"{tempDir.Path}\{fileName}", content).ConfigureAwait(true);
+            await File.WriteAllTextAsync($@"{tempDir.Path}\{fileName}", content, cancellationToken).ConfigureAwait(true);
         }
 
-        var process = Process.Start(new ProcessStartInfo
+        using var process = Process.Start(new ProcessStartInfo
         {
             FileName = "bash.exe",
             ArgumentList = { ToLinuxFullPath(solutionScriptPath) },
@@ -37,15 +38,30 @@ public abstract partial class BashTestsBase<TBashTests> : TestsBase where TBashT
             CreateNoWindow = true
         })!;
 
-        var standardOutput = FixLineEnding(await process.StandardOutput.ReadToEndAsync().ConfigureAwait(true));
-        var standardError = FixLineEnding(await process.StandardError.ReadToEndAsync().ConfigureAwait(true));
-        await process.WaitForExitAsync().ConfigureAwait(true);
+        // A timed-out script must not outlive its test, nor must anything it started.
+        await using var killOnTimeout = cancellationToken.Register(() => KillProcessTree(process)).ConfigureAwait(true);
+
+        var standardOutput = FixLineEnding(await process.StandardOutput.ReadToEndAsync(cancellationToken).ConfigureAwait(true));
+        var standardError = FixLineEnding(await process.StandardError.ReadToEndAsync(cancellationToken).ConfigureAwait(true));
+        await process.WaitForExitAsync(cancellationToken).ConfigureAwait(true);
 
         Assert.Multiple(() =>
         {
             Assert.That(standardOutput, Is.EqualTo(testCase.StandardOutput).NoClip, "Standard Output");
             Assert.That(standardError, Is.EqualTo(testCase.StandardError).NoClip, "Standard Error");
         });
+    }
+
+    private static void KillProcessTree(Process process)
+    {
+        try
+        {
+            process.Kill(entireProcessTree: true);
+        }
+        catch (InvalidOperationException)
+        {
+            // It has already exited.
+        }
     }
 
     private static string FixLineEnding(string str) => str.Replace("\r", "", StringComparison.Ordinal).TrimEnd('\n');

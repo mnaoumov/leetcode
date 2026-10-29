@@ -32,6 +32,10 @@ CS_TODO_DIR = CS_PROBLEMS_DIR / "!TODO"
 WEEKLY_CONTEST_PREFIX = 10
 BIWEEKLY_CONTEST_PREFIX = 20
 
+# Contest fields waiting for the logged-in ranking; the vault keeps its tag notes in !Tags.
+NA_MARKER = '"[NA](<../../../../!Tags/NA.md>)"'
+LEGACY_NA_MARKER = '"[NA](<../../../../Tags/NA.md>)"'
+
 GRAPHQL_URL = "https://leetcode.com/graphql"
 
 PROBLEMSET_QUERY = """
@@ -702,7 +706,7 @@ def generate_contest_markdown(contest_title, contest_slug, contest_date, problem
     """Generate Obsidian markdown for a contest."""
     date_link = contest_date
     timestamp = format_timestamp()
-    na = '"[NA](<../../../../Tags/NA.md>)"'
+    na = NA_MARKER
 
     my_rank = my_ranking.get("my_rank") if my_ranking else None
     my_submissions = my_ranking.get("my_submission", {}) if my_ranking else {}
@@ -1118,7 +1122,7 @@ def backfill_contest_results(all_contests):
         print("\nSkipping contest backfill (no session cookie)")
         return
 
-    na_marker = '"[NA](<../../../../Tags/NA.md>)"'
+
     contest_files = []
     for contest_dir in [WEEKLY_DIR, BIWEEKLY_DIR]:
         for f in sorted(contest_dir.iterdir()):
@@ -1127,7 +1131,7 @@ def backfill_contest_results(all_contests):
             content = f.read_text(encoding="utf-8")
             # Only re-check contests that still have NA in metadata fields (Rank/Score/Finish time).
             # "Did not solve" is a valid final state and should not trigger re-processing.
-            if na_marker not in content:
+            if not any(marker in content for marker in (NA_MARKER, LEGACY_NA_MARKER)):
                 continue
             match = re.search(r"source: https://leetcode\.com/contest/([^/]+)/", content)
             if match:

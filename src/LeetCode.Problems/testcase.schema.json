@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LeetCode Test Case",
+  "description": "A plain test case, or with \"kind\": \"classDesign\" a class design test case.",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "kind": {
+      "enum": ["classDesign"],
+      "description": "Absent for a plain test case."
+    },
+    "timeoutInMilliseconds": {
+      "type": "integer",
+      "description": "Timeout for the test case in milliseconds.",
+      "default": 200,
+      "minimum": 1
+    }
+  },
+  "if": {
+    "properties": {
+      "kind": {
+        "const": "classDesign"
+      }
+    },
+    "required": ["kind"]
+  },
+  "then": {
+    "properties": {
+      "$schema": true,
+      "kind": true,
+      "timeoutInMilliseconds": true,
+      "commands": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Method names to invoke. The first element is the constructor."
+      },
+      "parameters": {
+        "type": "array",
+        "items": {
+          "type": "array"
+        },
+        "description": "Arguments for each method call."
+      },
+      "output": {
+        "type": "array",
+        "description": "Expected return values for each method call."
+      }
+    },
+    "required": ["commands", "output", "parameters"],
+    "additionalProperties": false
+  }
+}

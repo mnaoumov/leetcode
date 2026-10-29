@@ -1,5 +1,6 @@
 {
-  "$schema": "../../ClassDesign/classdesign-testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
+  "kind": "classDesign",
   "commands": ["Router","addPacket","getCount"],
   "parameters": [[3],[1,4,90],[5,100,110]],
   "output": [null,true,0]

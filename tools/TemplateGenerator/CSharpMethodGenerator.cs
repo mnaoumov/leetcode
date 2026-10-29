@@ -98,7 +98,7 @@ internal partial class CSharpMethodGenerator : GeneratorBase
             json = Regex.Replace(json, @"(?<=[\{,]\s*)(\w+)\s*:", "\"$1\":");
             var obj = (JsonObject)JsonNode.Parse(json)!;
 
-            var ordered = new JsonObject { ["$schema"] = "../../Base/testcase.schema.json" };
+            var ordered = new JsonObject { ["$schema"] = "../../testcase.schema.json" };
 
             foreach (var (key, value) in obj)
             {

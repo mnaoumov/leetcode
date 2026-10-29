@@ -1,5 +1,5 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "valuesBefore": [1],
   "valuesAfter": [1]
 }

@@ -1,5 +1,5 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "a": 53449611838892,
   "b": 712958946092406,
   "n": 6,

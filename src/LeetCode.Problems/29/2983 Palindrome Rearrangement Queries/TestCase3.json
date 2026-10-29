@@ -1,5 +1,5 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "s": "acbcab",
   "queries": [[1,2,4,5]],
   "output": [true]

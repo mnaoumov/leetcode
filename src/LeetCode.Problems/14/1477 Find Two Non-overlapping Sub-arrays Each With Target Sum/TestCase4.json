@@ -1,5 +1,5 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "arr": [61,2,11,39,13,1,5,11,3,2,15,32,7,14,2,3,1,18,13,26,11,5,1,21,21],
   "target": 74,
   "output": 9

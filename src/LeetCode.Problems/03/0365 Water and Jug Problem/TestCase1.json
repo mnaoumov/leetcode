@@ -1,5 +1,5 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "jug1Capacity": 3,
   "jug2Capacity": 5,
   "targetCapacity": 4,

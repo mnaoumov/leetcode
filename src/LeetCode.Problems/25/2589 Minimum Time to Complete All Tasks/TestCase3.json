@@ -1,5 +1,5 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "tasks": [[1,18,5],[3,15,1]],
   "output": 5
 }

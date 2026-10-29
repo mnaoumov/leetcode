@@ -1,5 +1,5 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "landStartTime": [5],
   "landDuration": [3],
   "waterStartTime": [1],

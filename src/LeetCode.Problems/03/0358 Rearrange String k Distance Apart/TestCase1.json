@@ -1,5 +1,5 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "s": "aabbcc",
   "k": 3,
   "output": "abcabc"

@@ -1,5 +1,5 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "s": "Let's take LeetCode contest",
   "output": "s'teL ekat edoCteeL tsetnoc"
 }

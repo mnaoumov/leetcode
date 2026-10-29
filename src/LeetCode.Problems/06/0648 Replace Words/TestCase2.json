@@ -1,5 +1,5 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "dictionary": ["a","b","c"],
   "sentence": "aadsfasf absbs bbab cadsfafs",
   "output": "a a b c"

@@ -1,5 +1,5 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "digits": "23",
   "output": ["ad","ae","af","bd","be","bf","cd","ce","cf"]
 }

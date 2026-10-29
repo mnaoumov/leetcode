@@ -1,5 +1,5 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "ip": "255.0.0.7",
   "n": 10,
   "output": ["255.0.0.7/32", "255.0.0.8/29", "255.0.0.16/32"]

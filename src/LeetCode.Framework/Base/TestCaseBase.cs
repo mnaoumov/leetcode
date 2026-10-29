@@ -7,7 +7,7 @@ public abstract class TestCaseBase
     [JsonPropertyName("$schema")]
     [JsonPropertyOrder(int.MinValue)]
     [JsonOptionalProperty]
-    public string Schema { get; [UsedImplicitly] init; } = "../../Base/testcase.schema.json";
+    public string Schema { get; [UsedImplicitly] init; } = "../../testcase.schema.json";
 
     [JsonIgnore]
     public string? TestCaseName { get; set; }

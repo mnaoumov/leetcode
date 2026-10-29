@@ -66,7 +66,7 @@ internal partial class SqlGenerator : GeneratorBase
         {
             var parsed = JsonNode.Parse(testCases[i])?.AsObject()
                 ?? throw new InvalidOperationException("Failed to parse test case JSON");
-            var testCaseObj = new JsonObject { ["$schema"] = "../../Base/testcase.schema.json" };
+            var testCaseObj = new JsonObject { ["$schema"] = "../../testcase.schema.json" };
 
             foreach (var (key, value) in parsed)
             {

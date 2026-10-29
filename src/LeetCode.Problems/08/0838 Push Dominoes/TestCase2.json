@@ -1,5 +1,5 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "dominoes": ".L.R...LR..L..",
   "output": "LL.RR.LLRRLL.."
 }

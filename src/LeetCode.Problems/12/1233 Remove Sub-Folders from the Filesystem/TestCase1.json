@@ -1,5 +1,5 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "folder": ["/a","/a/b","/c/d","/c/d/e","/c/f"],
   "output": ["/a","/c/d","/c/f"]
 }

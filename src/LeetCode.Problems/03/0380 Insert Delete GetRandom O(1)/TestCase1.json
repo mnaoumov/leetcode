@@ -1,5 +1,6 @@
 {
-  "$schema": "../../ClassDesign/classdesign-testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
+  "kind": "classDesign",
   "commands": ["RandomizedSet", "insert", "remove", "insert", "getRandom", "remove", "insert", "getRandom"],
   "parameters": [[], [1], [2], [2], [], [1], [2], []],
   "output": [null, true, false, true, {"isAnyOf": [1, 2]}, true, false, 2]

@@ -1,5 +1,5 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "message": ["hello","programming","fun"],
   "bannedWords": ["world","programming","leetcode"],
   "output": false

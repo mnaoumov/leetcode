@@ -1,5 +1,5 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "s": ")ebc#da@f(",
   "output": "(fad@cb#e)"
 }

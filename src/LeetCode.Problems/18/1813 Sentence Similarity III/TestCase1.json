@@ -1,5 +1,5 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "sentence1": "My name is Haley",
   "sentence2": "My Haley",
   "output": true

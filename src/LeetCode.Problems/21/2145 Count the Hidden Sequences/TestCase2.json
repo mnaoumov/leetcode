@@ -1,5 +1,5 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "differences": [3,-4,5,1,-2],
   "lower": -4,
   "upper": 5,

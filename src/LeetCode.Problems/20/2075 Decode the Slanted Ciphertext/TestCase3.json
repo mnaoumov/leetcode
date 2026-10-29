@@ -1,5 +1,5 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "encodedText": "coding",
   "rows": 1,
   "output": "coding"

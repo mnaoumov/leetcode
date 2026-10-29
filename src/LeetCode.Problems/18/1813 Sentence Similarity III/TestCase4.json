@@ -1,5 +1,5 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "sentence1": "xD iP tqchblXgqvNVdi",
   "sentence2": "FmtdCzv Gp YZf UYJ xD iP tqchblXgqvNVdi",
   "output": true

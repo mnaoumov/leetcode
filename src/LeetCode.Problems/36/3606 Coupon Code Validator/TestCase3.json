@@ -1,5 +1,5 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "code": ["MI","b_"],
   "businessLine": ["pharmacy","pharmacy"],
   "isActive": [true,true],

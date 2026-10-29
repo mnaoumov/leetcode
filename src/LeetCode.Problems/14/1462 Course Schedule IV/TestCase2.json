@@ -1,5 +1,5 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "numCourses": 2,
   "prerequisites": [],
   "queries": [[1,0],[0,1]],

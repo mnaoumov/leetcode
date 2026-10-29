@@ -1,5 +1,5 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "eventTime": 5,
   "k": 2,
   "startTime": [0,1,2,3,4],

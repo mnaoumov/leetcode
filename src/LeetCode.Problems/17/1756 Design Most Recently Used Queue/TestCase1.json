@@ -1,5 +1,6 @@
 {
-  "$schema": "../../ClassDesign/classdesign-testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
+  "kind": "classDesign",
   "commands": ["MRUQueue", "fetch", "fetch", "fetch", "fetch"],
   "parameters": [[8], [3], [5], [2], [8]],
   "output": [null, 3, 6, 2, 2]

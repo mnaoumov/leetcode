@@ -1,5 +1,5 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "side": 16,
   "points": [[0,7],[8,0],[16,16],[1,0],[16,4]],
   "k": 4,

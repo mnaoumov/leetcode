@@ -1,5 +1,5 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "s": "abyzz",
   "queryCharacters": "aa",
   "queryIndices": [2, 1],

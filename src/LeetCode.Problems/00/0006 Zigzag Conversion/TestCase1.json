@@ -1,5 +1,5 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "string": "PAYPALISHIRING",
   "numRows": 3,
   "output": "PAHNAPLSIIGYIR"

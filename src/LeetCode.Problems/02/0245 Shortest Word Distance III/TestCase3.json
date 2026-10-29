@@ -1,5 +1,5 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "wordsDict": ["a","c","a","a"],
   "word1": "a",
   "word2": "a",

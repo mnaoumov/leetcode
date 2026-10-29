@@ -1,4 +1,4 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "root": [[1,null],null,[4,3],[7,0]]
 }

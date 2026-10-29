@@ -1,5 +1,5 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "l": 1288561398769758,
   "r": 1288561398769758,
   "directions": "RRRDDD",

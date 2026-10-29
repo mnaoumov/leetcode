@@ -1,5 +1,5 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "sentence": "i am tired",
   "searchWord": "you",
   "output": -1

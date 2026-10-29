@@ -1,5 +1,5 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "calories": [1,2,3,4,5],
   "k": 1,
   "lower": 3,

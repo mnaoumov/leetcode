@@ -1,5 +1,5 @@
 {
-  "$schema": "../../Base/testcase.schema.json",
+  "$schema": "../../testcase.schema.json",
   "encodedText": "ch   ie   pr",
   "rows": 3,
   "output": "cipher"

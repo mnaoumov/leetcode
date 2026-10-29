@@ -13,7 +13,7 @@
     },
     "timeoutInMilliseconds": {
       "type": "integer",
-      "description": "Timeout for the test case in milliseconds.",
+      "description": "Budget for the test case in milliseconds: CPU time spent by a C# solution, less JIT compilation; wall-clock time for a SQL or Bash one.",
       "default": 200,
       "minimum": 1
     }

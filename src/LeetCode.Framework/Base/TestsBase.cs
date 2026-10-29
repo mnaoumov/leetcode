@@ -16,7 +16,7 @@ public abstract class TestsBase<TSolution, TTestCase> : TestsBase where TTestCas
     [Category("C#")]
     public void Test(TSolution solution, TTestCase testCase)
     {
-        RunTestWithStackAndTimeoutChecks(testCase, () => TestCore(solution, testCase));
+        RunTestWithTimeout(testCase, () => TestCore(solution, testCase));
     }
 
     protected abstract void TestCore(TSolution solution, TTestCase testCase);
@@ -207,36 +207,58 @@ public abstract partial class TestsBase
         }
     }
 
-    protected static void RunTestWithStackAndTimeoutChecks(TestCaseBase testCase, Action testAction)
+    // LeetCode accepts deeply recursive solutions (a 1e5-deep memoized recursion, a 1e5-node skewed tree),
+    // and a debug build's frames are large, so 8 MB overflowed. A stack overflow cannot be caught in .NET:
+    // it still kills the whole test host, this only makes it rarer.
+    // Only the reservation is this size; pages are committed as the stack grows.
+    private const int MaxStackSize = 512 * 1024 * 1024;
+
+    private static readonly TimeSpan PollInterval = TimeSpan.FromMilliseconds(20);
+
+    // How long an aborted solution gets to unwind before the test gives up on it.
+    private static readonly TimeSpan AbortGracePeriod = TimeSpan.FromSeconds(1);
+
+    /// <summary>
+    /// Runs a C# solution on its own thread and budgets the CPU time that thread spends, less the time it spends
+    /// in the JIT, so neither a loaded machine nor the first call's compilation times a test out.
+    /// A solution that blocks uses no CPU, so wall-clock time is capped too, at <see cref="GetWallClockLimit"/>.
+    /// A solution over either budget is aborted with <see cref="ControlledExecution"/>, the one in-process way to
+    /// stop a runaway loop; the state it can leave torn is the solution's own.
+    /// </summary>
+    protected static void RunTestWithTimeout(TestCaseBase testCase, Action testAction)
     {
-        ArgumentNullException.ThrowIfNull(testCase);
+        ThrowIfInvalid(testCase);
 
-        if (testCase.JsonParsingException != null)
-        {
-            Assert.Fail(testCase.JsonParsingException.ToString());
-        }
-
+        var budget = TimeSpan.FromMilliseconds(testCase.TimeoutInMilliseconds);
         Exception? exception = null;
-
-        // LeetCode accepts deeply recursive solutions (a 1e5-deep memoized recursion, a 1e5-node skewed tree),
-        // and a debug build's frames are large, so 8 MB overflowed and a stack overflow kills the whole test host.
-        // Only the reservation is this size; pages are committed as the stack grows.
-        const int maxStackSize = 512 * 1024 * 1024;
-        const int gcHeapHardLimit = 8 * 1024 * 1024;
-        AppContext.SetData("GCHeapHardLimit", gcHeapHardLimit);
-        GC.RefreshMemoryLimit();
+        var solutionCpuTime = TimeSpan.Zero;
+        ThreadCpuClock? clock = null;
+        using var clockReady = new ManualResetEventSlim();
+        using var cts = new CancellationTokenSource();
 
         var thread = new Thread(() =>
         {
             try
             {
-                using var cts = new CancellationTokenSource();
+                clock = ThreadCpuClock.ForCurrentThread();
+            }
+#pragma warning disable CA1031
+            catch (Exception ex)
+#pragma warning restore CA1031
+            {
+                exception = ex;
+                return;
+            }
+            finally
+            {
+                clockReady.Set();
+            }
 
-                if (!Debugger.IsAttached)
-                {
-                    cts.CancelAfter(testCase.TimeoutInMilliseconds);
-                }
+            var cpuTimeBefore = clock.Elapsed;
+            var jitTimeBefore = JitInfo.GetCompilationTime(currentThread: true);
 
+            try
+            {
 #pragma warning disable SYSLIB0046
                 ControlledExecution.Run(testAction, cts.Token);
 #pragma warning restore SYSLIB0046
@@ -247,8 +269,23 @@ public abstract partial class TestsBase
             {
                 exception = ex;
             }
-        }, maxStackSize) { IsBackground = true };
+
+            solutionCpuTime = clock.Elapsed - cpuTimeBefore
+                - (JitInfo.GetCompilationTime(currentThread: true) - jitTimeBefore);
+        }, MaxStackSize) { IsBackground = true };
+
+        var processJitTimeBefore = JitInfo.GetCompilationTime();
+        var wallClock = Stopwatch.StartNew();
         thread.Start();
+        clockReady.Wait();
+
+        if (clock == null)
+        {
+            thread.Join();
+            ExceptionDispatchInfo.Throw(exception!);
+        }
+
+        string? timeoutMessage = null;
 
         if (Debugger.IsAttached)
         {
@@ -257,25 +294,103 @@ public abstract partial class TestsBase
         }
         else
         {
-            // Wait for the thread to finish with a safety margin. If it doesn't stop, fail the test.
-            // Add a small buffer to the configured timeout to allow cleanup inside the thread.
-            var waitTimeout = testCase.TimeoutInMilliseconds + 1000;
-            if (!thread.Join(waitTimeout))
+            var wallClockLimit = GetWallClockLimit(budget);
+            var abortedAt = TimeSpan.Zero;
+
+            while (!thread.Join(PollInterval))
             {
-                Assert.Fail($"Test timed out after {testCase.TimeoutInMilliseconds} milliseconds");
+                if (timeoutMessage == null)
+                {
+                    // The thread's own JIT time is only known to the thread, so the whole process's stands in for it:
+                    // it can only be larger, so the watch never aborts a solution the final check would pass.
+                    var cpuTime = clock.Elapsed - (JitInfo.GetCompilationTime() - processJitTimeBefore);
+
+                    if (cpuTime > budget)
+                    {
+                        timeoutMessage = GetCpuTimeoutMessage(testCase);
+                    }
+                    else if (wallClock.Elapsed > wallClockLimit)
+                    {
+                        timeoutMessage = $"Test timed out: it ran {wallClockLimit.TotalMilliseconds} milliseconds of " +
+                            $"wall-clock time, having used only {cpuTime.TotalMilliseconds:F0} of its " +
+                            $"{testCase.TimeoutInMilliseconds} milliseconds of CPU time, so it is blocked";
+                    }
+
+                    if (timeoutMessage != null)
+                    {
+                        abortedAt = wallClock.Elapsed;
+                        cts.Cancel();
+                    }
+                }
+                else if (wallClock.Elapsed - abortedAt > AbortGracePeriod)
+                {
+                    // The abort lands only in managed code; a thread stuck in a native call keeps running.
+                    Assert.Fail($"{timeoutMessage}, and it did not stop when aborted");
+                }
             }
         }
 
-        switch (exception)
+        clock.Dispose();
+
+        if (timeoutMessage != null)
         {
-            case null:
-                return;
-            case OperationCanceledException:
-                Assert.Fail($"Test timed out after {testCase.TimeoutInMilliseconds} milliseconds");
-                break;
-            default:
-                ExceptionDispatchInfo.Throw(exception);
-                break;
+            Assert.Fail(timeoutMessage);
+        }
+
+        if (exception != null)
+        {
+            ExceptionDispatchInfo.Throw(exception);
+        }
+
+        if (!Debugger.IsAttached && solutionCpuTime > budget)
+        {
+            Assert.Fail(GetCpuTimeoutMessage(testCase));
+        }
+    }
+
+    /// <summary>
+    /// Runs a test whose work happens in another process (bash, SQL Server, Node.js). Its budget is wall-clock time,
+    /// and it is stopped by cancelling the token, which the test passes down to that process.
+    /// </summary>
+    protected static void RunTestWithTimeout(TestCaseBase testCase, Func<CancellationToken, Task> testAction)
+    {
+        ThrowIfInvalid(testCase);
+        ArgumentNullException.ThrowIfNull(testAction);
+
+        using var cts = new CancellationTokenSource();
+
+        if (!Debugger.IsAttached)
+        {
+            cts.CancelAfter(testCase.TimeoutInMilliseconds);
+        }
+
+        try
+        {
+            Task.Run(() => testAction(cts.Token), CancellationToken.None).GetAwaiter().GetResult();
+        }
+        // Whatever a cancelled test throws (SqlClient reports a cancel as a SqlException, and the SQL runner wraps
+        // that in an assertion), it threw it because it timed out.
+#pragma warning disable CA1031
+        catch (Exception) when (cts.IsCancellationRequested)
+#pragma warning restore CA1031
+        {
+            Assert.Fail($"Test timed out after {testCase.TimeoutInMilliseconds} milliseconds");
+        }
+    }
+
+    // Generous, because a solution starved of CPU on a loaded machine needs several times its budget to use it.
+    internal static TimeSpan GetWallClockLimit(TimeSpan budget) => budget * 10 + TimeSpan.FromSeconds(5);
+
+    private static string GetCpuTimeoutMessage(TestCaseBase testCase) =>
+        $"Test timed out after {testCase.TimeoutInMilliseconds} milliseconds of CPU time";
+
+    private static void ThrowIfInvalid(TestCaseBase testCase)
+    {
+        ArgumentNullException.ThrowIfNull(testCase);
+
+        if (testCase.JsonParsingException != null)
+        {
+            Assert.Fail(testCase.JsonParsingException.ToString());
         }
     }
 

@@ -89,7 +89,9 @@ resharper_braces_for_while = not_required
 resharper_braces_redundant = true
 resharper_instance_members_qualify_declared_in = base_class
 resharper_parentheses_redundancy_style = remove
+resharper_space_within_single_line_array_initializer_braces = true
 resharper_use_heuristics_for_body_style = true
+resharper_wrap_ternary_expr_style = chop_if_long
 
 # ReSharper inspection severities
 resharper_arrange_accessor_owner_body_highlighting = suggestion

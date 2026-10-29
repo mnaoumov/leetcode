@@ -1,6 +1,6 @@
 using LeetCode.DataStructure;
 
-namespace LeetCode.Tests.DataStructure;
+namespace LeetCode.Framework.Tests.DataStructure;
 
 public class ListNodeTests
 {

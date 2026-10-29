@@ -1,7 +1,7 @@
 using System.Text.Json.Nodes;
 using TemplateGenerator;
 
-namespace LeetCode.Tests.TemplateGenerator;
+namespace LeetCode.Framework.Tests.TemplateGenerator;
 
 public class NoIndentArrayJsonTextWriterTests
 {

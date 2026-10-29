@@ -1,4 +1,4 @@
-namespace LeetCode.Problems._1018201_Score_Validator;
+namespace LeetCode.Problems._3921_Score_Validator;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

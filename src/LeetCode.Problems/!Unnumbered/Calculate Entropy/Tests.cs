@@ -1,4 +1,4 @@
-namespace LeetCode.Problems._0000_Calculate_Entropy;
+namespace LeetCode.Problems.Calculate_Entropy;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

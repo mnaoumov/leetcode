@@ -1,4 +1,4 @@
-namespace LeetCode.Problems._1018203_Minimum_Generations_to_Target_Point;
+namespace LeetCode.Problems._3923_Minimum_Generations_to_Target_Point;
 
 /// <summary>
 /// https://leetcode.com/contest/biweekly-contest-182/problems/minimum-generations-to-target-point/submissions/1999003896/

@@ -1,6 +1,6 @@
 using static LeetCode.Templates.DijkstraShortestPathTemplate;
 
-namespace LeetCode.Tests.Templates;
+namespace LeetCode.Framework.Tests.Templates;
 
 public class DijkstraShortestPathTests
 {

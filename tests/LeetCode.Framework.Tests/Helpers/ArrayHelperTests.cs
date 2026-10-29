@@ -1,6 +1,6 @@
 using LeetCode.Helpers;
 
-namespace LeetCode.Tests.Helpers;
+namespace LeetCode.Framework.Tests.Helpers;
 
 public class ArrayHelperTests
 {

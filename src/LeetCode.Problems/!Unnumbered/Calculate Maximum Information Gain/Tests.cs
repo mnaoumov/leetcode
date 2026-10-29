@@ -1,4 +1,4 @@
-namespace LeetCode.Problems._0000_Calculate_Maximum_Information_Gain;
+namespace LeetCode.Problems.Calculate_Maximum_Information_Gain;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

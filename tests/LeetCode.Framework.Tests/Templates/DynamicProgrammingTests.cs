@@ -1,6 +1,6 @@
 using LeetCode.Templates;
 
-namespace LeetCode.Tests.Templates;
+namespace LeetCode.Framework.Tests.Templates;
 
 public class DynamicProgrammingTests
 {

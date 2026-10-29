@@ -2,7 +2,7 @@ using System.Text.Json;
 using System.Text.Json.Serialization.Metadata;
 using LeetCode.Base;
 
-namespace LeetCode.Tests.Base;
+namespace LeetCode.Framework.Tests.Base;
 
 public class AllPropertiesRequiredModifierTests
 {

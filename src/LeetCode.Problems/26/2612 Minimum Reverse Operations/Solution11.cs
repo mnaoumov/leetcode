@@ -1,9 +1,9 @@
-using LeetCode.Problems._2612_Minimum_Reverse_Operations;
+
 
 // ReSharper disable All
 #pragma warning disable
 
-namespace LeetCode.Problems._6365_Minimum_Reverse_Operations;
+namespace LeetCode.Problems._2612_Minimum_Reverse_Operations;
 
 /// <summary>
 /// https://leetcode.com/submissions/detail/926693841/

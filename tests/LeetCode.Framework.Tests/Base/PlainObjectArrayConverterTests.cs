@@ -1,7 +1,7 @@
 using System.Text.Json;
 using LeetCode.Base;
 
-namespace LeetCode.Tests.Base;
+namespace LeetCode.Framework.Tests.Base;
 
 public class PlainObjectArrayConverterTests
 {

@@ -1,4 +1,4 @@
-namespace LeetCode.Problems._0000_Sum_of_K_Digit_Numbers_in_a_Range;
+namespace LeetCode.Problems._3855_Sum_of_K_Digit_Numbers_in_a_Range;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

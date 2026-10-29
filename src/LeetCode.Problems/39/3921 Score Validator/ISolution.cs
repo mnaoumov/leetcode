@@ -1,4 +1,4 @@
-namespace LeetCode.Problems._1018201_Score_Validator;
+namespace LeetCode.Problems._3921_Score_Validator;
 
 [PublicAPI]
 public interface ISolution

@@ -1,4 +1,4 @@
-namespace LeetCode.Problems._1018203_Minimum_Generations_to_Target_Point;
+namespace LeetCode.Problems._3923_Minimum_Generations_to_Target_Point;
 
 [UsedImplicitly]
 public class Tests : TestsBase<ISolution, Tests.TestCase>

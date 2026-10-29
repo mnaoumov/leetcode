@@ -1,0 +1,2 @@
+# The solution builds WIP unless -c Full is given: MSBuild would otherwise pick Full, the first configuration alphabetically.
+-property:Configuration=WIP

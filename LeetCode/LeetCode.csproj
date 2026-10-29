@@ -7,6 +7,7 @@
     <PlatformTarget>x64</PlatformTarget>
     <Platforms>AnyCPU;x64</Platforms>
     <OutputType>Library</OutputType>
+    <RootNamespace>LeetCode</RootNamespace>
     <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
     <AnalysisLevel>latest-all</AnalysisLevel>
 <!--
@@ -23,200 +24,23 @@ CA2225: Provide alternate method for operator (template code)
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Jering.Javascript.NodeJS" Version="7.0.0" />
-    <PackageReference Include="JetBrains.Annotations" Version="2026.2.0" />
-    <PackageReference Include="LocalDb" Version="27.2.6" />
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.11.0" />
-    <PackageReference Include="Microsoft.NETCore.Platforms" Version="8.0.0-preview.7.23375.6" />
+    <PackageReference Include="Jering.Javascript.NodeJS" />
+    <PackageReference Include="JetBrains.Annotations" />
+    <PackageReference Include="LocalDb" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="Microsoft.NETCore.Platforms" />
 
-    <PackageReference Include="NUnit" Version="5.0.0" />
-    <PackageReference Include="NUnit3TestAdapter" Version="6.3.1" />
+    <PackageReference Include="NUnit" />
+    <PackageReference Include="NUnit3TestAdapter" />
   </ItemGroup>
 
-  <ItemGroup>
+  <!-- WIP compiles only the working set in Problems\!TODO; Full compiles every problem (see Directory.Build.props). -->
+  <ItemGroup Condition="'$(Configuration)' != 'Full'">
     <Compile Remove="Problems\**\*.cs" />
     <None Remove="Problems\**\*" />
     <Content Remove="Problems\**\*" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Compile Include="Problems\!TODO\**\*.cs" />
     <None Include="Problems\!TODO\**\*" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Include="Problems\0396 Rotate Function\ISolution.cs" />
-    <Compile Include="Problems\0396 Rotate Function\Solution1.cs" />
-    <Compile Include="Problems\0396 Rotate Function\Tests.cs" />
-    <Compile Include="Problems\0788 Rotated Digits\ISolution.cs" />
-    <Compile Include="Problems\0788 Rotated Digits\Solution1.cs" />
-    <Compile Include="Problems\0788 Rotated Digits\Tests.cs" />
-    <Compile Include="Problems\1059 All Paths from Source Lead to Destination\ISolution.cs" />
-    <Compile Include="Problems\1059 All Paths from Source Lead to Destination\Solution1.cs" />
-    <Compile Include="Problems\1059 All Paths from Source Lead to Destination\Solution2.cs" />
-    <Compile Include="Problems\1059 All Paths from Source Lead to Destination\Solution3.cs" />
-    <Compile Include="Problems\1059 All Paths from Source Lead to Destination\Solution4.cs" />
-    <Compile Include="Problems\1059 All Paths from Source Lead to Destination\Solution5.cs" />
-    <Compile Include="Problems\1059 All Paths from Source Lead to Destination\Solution6.cs" />
-    <Compile Include="Problems\1059 All Paths from Source Lead to Destination\Solution7.cs" />
-    <Compile Include="Problems\1059 All Paths from Source Lead to Destination\Tests.cs" />
-    <Compile Include="Problems\1391 Check if There is a Valid Path in a Grid\ISolution.cs" />
-    <Compile Include="Problems\1391 Check if There is a Valid Path in a Grid\Solution1.cs" />
-    <Compile Include="Problems\1391 Check if There is a Valid Path in a Grid\Tests.cs" />
-    <Compile Include="Problems\1559 Detect Cycles in 2D Grid\ISolution.cs" />
-    <Compile Include="Problems\1559 Detect Cycles in 2D Grid\Solution1.cs" />
-    <Compile Include="Problems\1559 Detect Cycles in 2D Grid\Tests.cs" />
-    <Compile Include="Problems\1722 Minimize Hamming Distance After Swap Operations\ISolution.cs" />
-    <Compile Include="Problems\1722 Minimize Hamming Distance After Swap Operations\Solution1.cs" />
-    <Compile Include="Problems\1722 Minimize Hamming Distance After Swap Operations\Tests.cs" />
-    <Compile Include="Problems\1914 Cyclically Rotating a Grid\ISolution.cs" />
-    <Compile Include="Problems\1914 Cyclically Rotating a Grid\Solution1.cs" />
-    <Compile Include="Problems\1914 Cyclically Rotating a Grid\Tests.cs" />
-    <Compile Include="Problems\3225 Maximum Score From Grid Operations\ISolution.cs" />
-    <Compile Include="Problems\3225 Maximum Score From Grid Operations\Solution1.cs" />
-    <Compile Include="Problems\3225 Maximum Score From Grid Operations\Solution2.cs" />
-    <Compile Include="Problems\3225 Maximum Score From Grid Operations\Tests.cs" />
-    <Compile Include="Problems\3464 Maximize the Distance Between Points on a Square\ISolution.cs" />
-    <Compile Include="Problems\3464 Maximize the Distance Between Points on a Square\Solution1.cs" />
-    <Compile Include="Problems\3464 Maximize the Distance Between Points on a Square\Solution2.cs" />
-    <Compile Include="Problems\3464 Maximize the Distance Between Points on a Square\Solution3.cs" />
-    <Compile Include="Problems\3464 Maximize the Distance Between Points on a Square\Solution4.cs" />
-    <Compile Include="Problems\3464 Maximize the Distance Between Points on a Square\Solution5.cs" />
-    <Compile Include="Problems\3464 Maximize the Distance Between Points on a Square\Solution6.cs" />
-    <Compile Include="Problems\3464 Maximize the Distance Between Points on a Square\Tests.cs" />
-    <Compile Include="Problems\3629 Minimum Jumps to Reach End via Prime Teleportation\ISolution.cs" />
-    <Compile Include="Problems\3629 Minimum Jumps to Reach End via Prime Teleportation\Solution1.cs" />
-    <Compile Include="Problems\3629 Minimum Jumps to Reach End via Prime Teleportation\Solution2.cs" />
-    <Compile Include="Problems\3629 Minimum Jumps to Reach End via Prime Teleportation\Solution3.cs" />
-    <Compile Include="Problems\3629 Minimum Jumps to Reach End via Prime Teleportation\Solution4.cs" />
-    <Compile Include="Problems\3629 Minimum Jumps to Reach End via Prime Teleportation\Tests.cs" />
-    <Compile Include="Problems\3742 Maximum Path Score in a Grid\ISolution.cs" />
-    <Compile Include="Problems\3742 Maximum Path Score in a Grid\Solution1.cs" />
-    <Compile Include="Problems\3742 Maximum Path Score in a Grid\Solution2.cs" />
-    <Compile Include="Problems\3742 Maximum Path Score in a Grid\Solution3.cs" />
-    <Compile Include="Problems\3742 Maximum Path Score in a Grid\Tests.cs" />
-    <Compile Include="Problems\3924 Minimum Threshold Path With Limited Heavy Edges\ISolution.cs" />
-    <Compile Include="Problems\3924 Minimum Threshold Path With Limited Heavy Edges\Solution1.cs" />
-    <Compile Include="Problems\3924 Minimum Threshold Path With Limited Heavy Edges\Solution2.cs" />
-    <Compile Include="Problems\3924 Minimum Threshold Path With Limited Heavy Edges\Solution3.cs" />
-    <Compile Include="Problems\3924 Minimum Threshold Path With Limited Heavy Edges\Solution4.cs" />
-    <Compile Include="Problems\3924 Minimum Threshold Path With Limited Heavy Edges\Solution5.cs" />
-    <Compile Include="Problems\3924 Minimum Threshold Path With Limited Heavy Edges\Tests.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Problems\0396 Rotate Function\ISolution.cs" />
-    <None Include="Problems\0396 Rotate Function\Solution1.cs" />
-    <None Include="Problems\0396 Rotate Function\TestCase1.json" />
-    <None Include="Problems\0396 Rotate Function\TestCase2.json" />
-    <None Include="Problems\0396 Rotate Function\Tests.cs" />
-    <None Include="Problems\0788 Rotated Digits\ISolution.cs" />
-    <None Include="Problems\0788 Rotated Digits\Solution1.cs" />
-    <None Include="Problems\0788 Rotated Digits\TestCase1.json" />
-    <None Include="Problems\0788 Rotated Digits\TestCase2.json" />
-    <None Include="Problems\0788 Rotated Digits\TestCase3.json" />
-    <None Include="Problems\0788 Rotated Digits\Tests.cs" />
-    <None Include="Problems\1059 All Paths from Source Lead to Destination\ISolution.cs" />
-    <None Include="Problems\1059 All Paths from Source Lead to Destination\Solution1.cs" />
-    <None Include="Problems\1059 All Paths from Source Lead to Destination\Solution2.cs" />
-    <None Include="Problems\1059 All Paths from Source Lead to Destination\Solution3.cs" />
-    <None Include="Problems\1059 All Paths from Source Lead to Destination\Solution4.cs" />
-    <None Include="Problems\1059 All Paths from Source Lead to Destination\Solution5.cs" />
-    <None Include="Problems\1059 All Paths from Source Lead to Destination\Solution6.cs" />
-    <None Include="Problems\1059 All Paths from Source Lead to Destination\Solution7.cs" />
-    <None Include="Problems\1059 All Paths from Source Lead to Destination\TestCase1.json" />
-    <None Include="Problems\1059 All Paths from Source Lead to Destination\TestCase10.json" />
-    <None Include="Problems\1059 All Paths from Source Lead to Destination\TestCase2.json" />
-    <None Include="Problems\1059 All Paths from Source Lead to Destination\TestCase3.json" />
-    <None Include="Problems\1059 All Paths from Source Lead to Destination\TestCase4.json" />
-    <None Include="Problems\1059 All Paths from Source Lead to Destination\TestCase5.json" />
-    <None Include="Problems\1059 All Paths from Source Lead to Destination\TestCase6.json" />
-    <None Include="Problems\1059 All Paths from Source Lead to Destination\TestCase7.json" />
-    <None Include="Problems\1059 All Paths from Source Lead to Destination\TestCase8.json" />
-    <None Include="Problems\1059 All Paths from Source Lead to Destination\TestCase9.json" />
-    <None Include="Problems\1059 All Paths from Source Lead to Destination\Tests.cs" />
-    <None Include="Problems\1391 Check if There is a Valid Path in a Grid\ISolution.cs" />
-    <None Include="Problems\1391 Check if There is a Valid Path in a Grid\Solution1.cs" />
-    <None Include="Problems\1391 Check if There is a Valid Path in a Grid\TestCase1.json" />
-    <None Include="Problems\1391 Check if There is a Valid Path in a Grid\TestCase2.json" />
-    <None Include="Problems\1391 Check if There is a Valid Path in a Grid\TestCase3.json" />
-    <None Include="Problems\1391 Check if There is a Valid Path in a Grid\Tests.cs" />
-    <None Include="Problems\1559 Detect Cycles in 2D Grid\ISolution.cs" />
-    <None Include="Problems\1559 Detect Cycles in 2D Grid\Solution1.cs" />
-    <None Include="Problems\1559 Detect Cycles in 2D Grid\TestCase1.json" />
-    <None Include="Problems\1559 Detect Cycles in 2D Grid\TestCase2.json" />
-    <None Include="Problems\1559 Detect Cycles in 2D Grid\TestCase3.json" />
-    <None Include="Problems\1559 Detect Cycles in 2D Grid\Tests.cs" />
-    <None Include="Problems\1722 Minimize Hamming Distance After Swap Operations\ISolution.cs" />
-    <None Include="Problems\1722 Minimize Hamming Distance After Swap Operations\Solution1.cs" />
-    <None Include="Problems\1722 Minimize Hamming Distance After Swap Operations\TestCase1.json" />
-    <None Include="Problems\1722 Minimize Hamming Distance After Swap Operations\TestCase2.json" />
-    <None Include="Problems\1722 Minimize Hamming Distance After Swap Operations\TestCase3.json" />
-    <None Include="Problems\1722 Minimize Hamming Distance After Swap Operations\Tests.cs" />
-    <None Include="Problems\1914 Cyclically Rotating a Grid\ISolution.cs" />
-    <None Include="Problems\1914 Cyclically Rotating a Grid\Solution1.cs" />
-    <None Include="Problems\1914 Cyclically Rotating a Grid\TestCase1.json" />
-    <None Include="Problems\1914 Cyclically Rotating a Grid\TestCase2.json" />
-    <None Include="Problems\1914 Cyclically Rotating a Grid\Tests.cs" />
-    <None Include="Problems\3225 Maximum Score From Grid Operations\ISolution.cs" />
-    <None Include="Problems\3225 Maximum Score From Grid Operations\Solution1.cs" />
-    <None Include="Problems\3225 Maximum Score From Grid Operations\Solution2.cs" />
-    <None Include="Problems\3225 Maximum Score From Grid Operations\TestCase1.json" />
-    <None Include="Problems\3225 Maximum Score From Grid Operations\TestCase2.json" />
-    <None Include="Problems\3225 Maximum Score From Grid Operations\TestCase3.json" />
-    <None Include="Problems\3225 Maximum Score From Grid Operations\Tests.cs" />
-    <None Include="Problems\3464 Maximize the Distance Between Points on a Square\ISolution.cs" />
-    <None Include="Problems\3464 Maximize the Distance Between Points on a Square\Solution1.cs" />
-    <None Include="Problems\3464 Maximize the Distance Between Points on a Square\Solution2.cs" />
-    <None Include="Problems\3464 Maximize the Distance Between Points on a Square\Solution3.cs" />
-    <None Include="Problems\3464 Maximize the Distance Between Points on a Square\Solution4.cs" />
-    <None Include="Problems\3464 Maximize the Distance Between Points on a Square\Solution5.cs" />
-    <None Include="Problems\3464 Maximize the Distance Between Points on a Square\Solution6.cs" />
-    <None Include="Problems\3464 Maximize the Distance Between Points on a Square\TestCase1.json" />
-    <None Include="Problems\3464 Maximize the Distance Between Points on a Square\TestCase2.json" />
-    <None Include="Problems\3464 Maximize the Distance Between Points on a Square\TestCase3.json" />
-    <None Include="Problems\3464 Maximize the Distance Between Points on a Square\TestCase4.json" />
-    <None Include="Problems\3464 Maximize the Distance Between Points on a Square\TestCase5.json" />
-    <None Include="Problems\3464 Maximize the Distance Between Points on a Square\TestCase6.json" />
-    <None Include="Problems\3464 Maximize the Distance Between Points on a Square\TestCase7.json" />
-    <None Include="Problems\3464 Maximize the Distance Between Points on a Square\TestCase8.json" />
-    <None Include="Problems\3464 Maximize the Distance Between Points on a Square\Tests.cs" />
-    <None Include="Problems\3629 Minimum Jumps to Reach End via Prime Teleportation\ISolution.cs" />
-    <None Include="Problems\3629 Minimum Jumps to Reach End via Prime Teleportation\Solution1.cs" />
-    <None Include="Problems\3629 Minimum Jumps to Reach End via Prime Teleportation\Solution2.cs" />
-    <None Include="Problems\3629 Minimum Jumps to Reach End via Prime Teleportation\Solution3.cs" />
-    <None Include="Problems\3629 Minimum Jumps to Reach End via Prime Teleportation\Solution4.cs" />
-    <None Include="Problems\3629 Minimum Jumps to Reach End via Prime Teleportation\TestCase1.json" />
-    <None Include="Problems\3629 Minimum Jumps to Reach End via Prime Teleportation\TestCase2.json" />
-    <None Include="Problems\3629 Minimum Jumps to Reach End via Prime Teleportation\TestCase3.json" />
-    <None Include="Problems\3629 Minimum Jumps to Reach End via Prime Teleportation\TestCase4.json" />
-    <None Include="Problems\3629 Minimum Jumps to Reach End via Prime Teleportation\TestCase5.json" />
-    <None Include="Problems\3629 Minimum Jumps to Reach End via Prime Teleportation\TestCase6.json" />
-    <None Include="Problems\3629 Minimum Jumps to Reach End via Prime Teleportation\Tests.cs" />
-    <None Include="Problems\3742 Maximum Path Score in a Grid\ISolution.cs" />
-    <None Include="Problems\3742 Maximum Path Score in a Grid\Solution1.cs" />
-    <None Include="Problems\3742 Maximum Path Score in a Grid\Solution2.cs" />
-    <None Include="Problems\3742 Maximum Path Score in a Grid\Solution3.cs" />
-    <None Include="Problems\3742 Maximum Path Score in a Grid\TestCase1.json" />
-    <None Include="Problems\3742 Maximum Path Score in a Grid\TestCase2.json" />
-    <None Include="Problems\3742 Maximum Path Score in a Grid\TestCase3.json" />
-    <None Include="Problems\3742 Maximum Path Score in a Grid\TestCase4.json" />
-    <None Include="Problems\3742 Maximum Path Score in a Grid\Tests.cs" />
-    <None Include="Problems\3924 Minimum Threshold Path With Limited Heavy Edges\ISolution.cs" />
-    <None Include="Problems\3924 Minimum Threshold Path With Limited Heavy Edges\Solution1.cs" />
-    <None Include="Problems\3924 Minimum Threshold Path With Limited Heavy Edges\Solution2.cs" />
-    <None Include="Problems\3924 Minimum Threshold Path With Limited Heavy Edges\Solution3.cs" />
-    <None Include="Problems\3924 Minimum Threshold Path With Limited Heavy Edges\Solution4.cs" />
-    <None Include="Problems\3924 Minimum Threshold Path With Limited Heavy Edges\Solution5.cs" />
-    <None Include="Problems\3924 Minimum Threshold Path With Limited Heavy Edges\TestCase1.json" />
-    <None Include="Problems\3924 Minimum Threshold Path With Limited Heavy Edges\TestCase2.json" />
-    <None Include="Problems\3924 Minimum Threshold Path With Limited Heavy Edges\TestCase3.json" />
-    <None Include="Problems\3924 Minimum Threshold Path With Limited Heavy Edges\TestCase4.json" />
-    <None Include="Problems\3924 Minimum Threshold Path With Limited Heavy Edges\TestCase5.json" />
-    <None Include="Problems\3924 Minimum Threshold Path With Limited Heavy Edges\TestCase6.json" />
-    <None Include="Problems\3924 Minimum Threshold Path With Limited Heavy Edges\TestCase7.json" />
-    <None Include="Problems\3924 Minimum Threshold Path With Limited Heavy Edges\TestCase8.json" />
-    <None Include="Problems\3924 Minimum Threshold Path With Limited Heavy Edges\Tests.cs" />
   </ItemGroup>
 
   <ItemGroup>

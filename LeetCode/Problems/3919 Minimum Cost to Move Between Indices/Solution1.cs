@@ -58,6 +58,7 @@ public class Solution1 : ISolution
                 }
             }
 
+            return val;
         }
     }
 

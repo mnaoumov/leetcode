@@ -1,0 +1,18 @@
+<Project>
+
+  <!--
+  Every project builds in one of two configurations:
+  WIP  (default) - LeetCode compiles only the problems in Problems\!TODO, so the IDE and test runs stay fast.
+  Full           - LeetCode compiles every problem.
+  Both are debug builds; the other projects build the same in either.
+  -->
+  <PropertyGroup>
+    <Configurations>WIP;Full</Configurations>
+    <Configuration Condition="'$(Configuration)' == ''">WIP</Configuration>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>false</Optimize>
+    <DefineConstants>$(DefineConstants);DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+
+</Project>

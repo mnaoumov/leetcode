@@ -1,0 +1,20 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="WIP" />
+    <BuildType Name="Full" />
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+  </Configurations>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Build.rsp" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Project Path="LeetCode/LeetCode.csproj" />
+  <Project Path="LeetCode.Tests/LeetCode.Tests.csproj" />
+  <Project Path="LeetCodeExporter/LeetCodeExporter.csproj" />
+  <Project Path="LeetCodeExporter.Tests/LeetCodeExporter.Tests.csproj" />
+  <Project Path="TemplateGenerator/TemplateGenerator.csproj" />
+  <Project Path="TestCaseExporter/TestCaseExporter.csproj" />
+</Solution>

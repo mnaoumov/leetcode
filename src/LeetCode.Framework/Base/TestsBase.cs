@@ -218,8 +218,12 @@ public abstract partial class TestsBase
 
         Exception? exception = null;
 
-        const int maxStackSize = 8 * 1024 * 1024;
-        AppContext.SetData("GCHeapHardLimit", maxStackSize);
+        // LeetCode accepts deeply recursive solutions (a 1e5-deep memoized recursion, a 1e5-node skewed tree),
+        // and a debug build's frames are large, so 8 MB overflowed and a stack overflow kills the whole test host.
+        // Only the reservation is this size; pages are committed as the stack grows.
+        const int maxStackSize = 512 * 1024 * 1024;
+        const int gcHeapHardLimit = 8 * 1024 * 1024;
+        AppContext.SetData("GCHeapHardLimit", gcHeapHardLimit);
         GC.RefreshMemoryLimit();
 
         var thread = new Thread(() =>

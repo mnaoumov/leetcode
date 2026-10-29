@@ -11,7 +11,7 @@ public class CommandSetupTests
         string? capturedProblemNumber = null;
 
         var command = CommandSetup.CreateCommand((pn, _) => capturedProblemNumber = pn);
-        command.Invoke(["--problem", "3508"]);
+        command.Parse(["--problem", "3508"]).Invoke();
 
         Assert.That(capturedProblemNumber, Is.EqualTo("3508"));
     }
@@ -22,7 +22,7 @@ public class CommandSetupTests
         string? capturedProblemNumber = null;
 
         var command = CommandSetup.CreateCommand((pn, _) => capturedProblemNumber = pn);
-        command.Invoke(["-p", "3508"]);
+        command.Parse(["-p", "3508"]).Invoke();
 
         Assert.That(capturedProblemNumber, Is.EqualTo("3508"));
     }
@@ -33,7 +33,7 @@ public class CommandSetupTests
         int? capturedSolutionNumber = -1;
 
         var command = CommandSetup.CreateCommand((_, sn) => capturedSolutionNumber = sn);
-        command.Invoke(["--problem", "3508"]);
+        command.Parse(["--problem", "3508"]).Invoke();
 
         Assert.That(capturedSolutionNumber, Is.Null);
     }
@@ -44,7 +44,7 @@ public class CommandSetupTests
         int? capturedSolutionNumber = null;
 
         var command = CommandSetup.CreateCommand((_, sn) => capturedSolutionNumber = sn);
-        command.Invoke(["--problem", "3508", "--solution", "2"]);
+        command.Parse(["--problem", "3508", "--solution", "2"]).Invoke();
 
         Assert.That(capturedSolutionNumber, Is.EqualTo(2));
     }
@@ -55,7 +55,7 @@ public class CommandSetupTests
         int? capturedSolutionNumber = null;
 
         var command = CommandSetup.CreateCommand((_, sn) => capturedSolutionNumber = sn);
-        command.Invoke(["--problem", "3508", "-s", "3"]);
+        command.Parse(["--problem", "3508", "-s", "3"]).Invoke();
 
         Assert.That(capturedSolutionNumber, Is.EqualTo(3));
     }
@@ -64,7 +64,7 @@ public class CommandSetupTests
     public void CreateCommand_ReturnsNonZeroExitCode_WhenProblemOptionMissing()
     {
         var command = CommandSetup.CreateCommand((_, _) => { });
-        var exitCode = command.Invoke([]);
+        var exitCode = command.Parse([]).Invoke();
 
         Assert.That(exitCode, Is.Not.EqualTo(0));
     }

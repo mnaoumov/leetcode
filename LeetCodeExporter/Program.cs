@@ -26,7 +26,7 @@ var command = CommandSetup.CreateCommand((problemNumber, solutionNumber) =>
     CopyToClipboard(result);
 });
 
-return command.Invoke(args);
+return command.Parse(args).Invoke();
 
 static void CopyToClipboard(string text)
 {

@@ -6,11 +6,16 @@ public static class CommandSetup
 {
     public static RootCommand CreateCommand(Action<string, int?> handler)
     {
-        var problemOption = new Option<string>("--problem", "LeetCode problem number (e.g. 3508)") { IsRequired = true };
-        problemOption.AddAlias("-p");
+        var problemOption = new Option<string>("--problem", "-p")
+        {
+            Description = "LeetCode problem number (e.g. 3508)",
+            Required = true
+        };
 
-        var solutionOption = new Option<int?>("--solution", "Solution number (default: highest)");
-        solutionOption.AddAlias("-s");
+        var solutionOption = new Option<int?>("--solution", "-s")
+        {
+            Description = "Solution number (default: highest)"
+        };
 
         var rootCommand = new RootCommand("Export a LeetCode solution to clipboard-ready format")
         {
@@ -18,7 +23,7 @@ public static class CommandSetup
             solutionOption
         };
 
-        rootCommand.SetHandler(handler, problemOption, solutionOption);
+        rootCommand.SetAction(parseResult => handler(parseResult.GetValue(problemOption)!, parseResult.GetValue(solutionOption)));
         return rootCommand;
     }
 }

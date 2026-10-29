@@ -27,7 +27,8 @@ LAST_SYNC_KEY = "_last_sync"
 # First year LeetCode daily challenges existed; nothing to fetch before this.
 DAILY_CHALLENGE_START_YEAR = 2021
 
-CS_PROBLEMS_DIR = Path(r"F:\dev\projects\leetcode\LeetCode\Problems")
+# The leetcode repo this tool lives in: tools/leetcode-scraper -> repo root.
+CS_PROBLEMS_DIR = Path(__file__).resolve().parents[2] / "src" / "LeetCode.Problems"
 CS_TODO_DIR = CS_PROBLEMS_DIR / "!TODO"
 WEEKLY_CONTEST_PREFIX = 10
 BIWEEKLY_CONTEST_PREFIX = 20

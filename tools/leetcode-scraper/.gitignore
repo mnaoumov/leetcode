@@ -4,3 +4,4 @@ __pycache__/
 unsolved_cache.json
 daily_weekly_cache.json
 slug_cache.json
+solved_cache.json

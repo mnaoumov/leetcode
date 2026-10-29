@@ -1,5 +1,5 @@
 """LeetCode scraper that generates Obsidian markdown files for new problems and contests,
-and promotes contest solutions from !TODO to their real LeetCode problem numbers."""
+and promotes contest solutions from !WIP to their real LeetCode problem numbers."""
 
 import json
 import re
@@ -29,7 +29,7 @@ DAILY_CHALLENGE_START_YEAR = 2021
 
 # The leetcode repo this tool lives in: tools/leetcode-scraper -> repo root.
 CS_PROBLEMS_DIR = Path(__file__).resolve().parents[2] / "src" / "LeetCode.Problems"
-CS_TODO_DIR = CS_PROBLEMS_DIR / "!TODO"
+CS_TODO_DIR = CS_PROBLEMS_DIR / "!WIP"
 WEEKLY_CONTEST_PREFIX = 10
 BIWEEKLY_CONTEST_PREFIX = 20
 
@@ -843,7 +843,7 @@ def update_cs_namespaces(problem_dir, old_num, new_num):
 
 
 def promote_todo_problems():
-    """Promote contest problems from !TODO to their real LeetCode problem numbers."""
+    """Promote contest problems from !WIP to their real LeetCode problem numbers, into the bucket\n    named by the number's first two digits."""
     if not CS_TODO_DIR.exists():
         return
 
@@ -910,7 +910,7 @@ def promote_todo_problems():
         old_num_str = re.match(r"(\d+)", dir_path.name).group(1)
         padded = str(real_num).zfill(4)
         new_dir_name = f"{padded} {real_title}"
-        target_path = CS_PROBLEMS_DIR / new_dir_name
+        target_path = CS_PROBLEMS_DIR / padded[:2] / new_dir_name
 
         if target_path.exists():
             print(f"  SKIP: {new_dir_name} already exists")
@@ -929,7 +929,8 @@ def promote_todo_problems():
         # Update namespaces
         update_cs_namespaces(dir_path, old_num_str, padded)
 
-        # Move directory
+        # Move directory; a number past the last bucket opens a new one
+        target_path.parent.mkdir(exist_ok=True)
         shutil.move(str(dir_path), str(target_path))
         status = " [UNSOLVED]" if unsolved else ""
         print(f"  Promoted: {new_dir_name}{status}")
@@ -1110,7 +1111,7 @@ def main():
     # --- Solved dates ---
     sync_solved_dates()
 
-    # --- Promote contest solutions from !TODO ---
+    # --- Promote contest solutions from !WIP ---
     promote_todo_problems()
 
     print("\nDone!")

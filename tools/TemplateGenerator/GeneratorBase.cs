@@ -15,7 +15,7 @@ internal abstract partial class GeneratorBase : IGenerator
     private const string InvalidNamespaceChars = " `-=~!@#$%^&*()+[]{}',.;";
     private const int ProblemNumberLength = 4;
     private const char ReplacementChar = '_';
-    private static readonly string LeetCodeFolderPath = Path.Combine(FindRepoRoot(), "src", "LeetCode.Problems", "!TODO");
+    private static readonly string LeetCodeFolderPath = Path.Combine(FindRepoRoot(), "src", "LeetCode.Problems", "!WIP");
 
     protected readonly Option<string> TitleOption = new("--title") { Description = "Problem title", Required = true };
 

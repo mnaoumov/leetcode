@@ -35,13 +35,13 @@ CA2225: Provide alternate method for operator (template code)
     <ProjectReference Include="..\LeetCode.Framework\LeetCode.Framework.csproj" />
   </ItemGroup>
 
-  <!-- WIP compiles only the working set in !TODO; Full compiles every problem (see Directory.Build.props). -->
+  <!-- WIP compiles only the working set in !WIP; Full compiles every problem (see Directory.Build.props). -->
   <ItemGroup Condition="'$(Configuration)' != 'Full'">
     <Compile Remove="*\**\*.cs" />
     <None Remove="*\**\*" />
     <Content Remove="*\**\*" />
-    <Compile Include="!TODO\**\*.cs" />
-    <None Include="!TODO\**\*" />
+    <Compile Include="!WIP\**\*.cs" />
+    <None Include="!WIP\**\*" />
   </ItemGroup>
 
   <!-- Test cases and scripts are copied under Problems\ in the output, where TestsBase looks for them. -->

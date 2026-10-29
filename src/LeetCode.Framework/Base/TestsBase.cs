@@ -121,14 +121,26 @@ public abstract partial class TestsBase
     {
         var namespacePart = problemRelatedType.Namespace!.Replace("LeetCode.Problems._", "", StringComparison.Ordinal);
         var problemNumber = namespacePart.Split('_')[0];
-        return GetProblemDirectory(problemNumber, namespacePart, "Problems\\!TODO") ?? GetProblemDirectory(problemNumber, namespacePart, "Problems");
+
+        // A problem is in the working set, in the bucket named by the first two digits of its number,
+        // or, numbered 0000, in !Unnumbered under its title alone.
+        return GetProblemDirectory(problemNumber, namespacePart, "Problems\\!WIP")
+            ?? GetProblemDirectory(problemNumber, namespacePart, Path.Combine("Problems", problemNumber[..2]))
+            ?? GetProblemDirectory(problemNumber, namespacePart, "Problems\\!Unnumbered", "0000 ");
     }
 
-    private static string? GetProblemDirectory(string problemNumber, string namespacePart, string dirName)
+    private static string? GetProblemDirectory(string problemNumber, string namespacePart, string dirName,
+        string folderNamePrefix = "")
     {
-        var problemTestCaseDirectory = Directory.GetDirectories(dirName, $"{problemNumber} *").FirstOrDefault(dir =>
+        if (!Directory.Exists(dirName))
         {
-            var name = dir.Split('\\')[^1];
+            return null;
+        }
+
+        var searchPattern = folderNamePrefix == "" ? $"{problemNumber} *" : "*";
+        var problemTestCaseDirectory = Directory.GetDirectories(dirName, searchPattern).FirstOrDefault(dir =>
+        {
+            var name = folderNamePrefix + dir.Split('\\')[^1];
             var escapedName = CharactersToEscapeRegex().Replace(name, "_");
             return escapedName == namespacePart;
         });

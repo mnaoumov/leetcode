@@ -2,8 +2,8 @@
 
   <!--
   Every project builds in one of two configurations:
-  WIP  (default) - LeetCode compiles only the problems in Problems\!TODO, so the IDE and test runs stay fast.
-  Full           - LeetCode compiles every problem.
+  WIP  (default) - LeetCode.Problems compiles only the working set in !WIP, so the IDE and test runs stay fast.
+  Full           - LeetCode.Problems compiles every problem.
   Both are debug builds; the other projects build the same in either.
   -->
   <PropertyGroup>

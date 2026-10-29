@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LeetCodeExporter\LeetCodeExporter.csproj" />
+    <ProjectReference Include="..\..\tools\LeetCodeExporter\LeetCodeExporter.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -14,7 +14,7 @@ public class SolutionFinder
     public string? FindSolutionFile(string problemNumber, int? solutionNumber)
     {
         var paddedNumber = problemNumber.PadLeft(4, '0');
-        var searchDirs = new[] { Path.Combine(_baseDir, "Problems", "!TODO"), Path.Combine(_baseDir, "Problems") };
+        var searchDirs = new[] { Path.Combine(_baseDir, "!TODO"), _baseDir };
 
         string? problemDir = null;
 

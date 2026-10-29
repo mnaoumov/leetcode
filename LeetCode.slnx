@@ -11,10 +11,17 @@
     <File Path="Directory.Build.rsp" />
     <File Path="Directory.Packages.props" />
   </Folder>
-  <Project Path="LeetCode/LeetCode.csproj" />
-  <Project Path="LeetCode.Tests/LeetCode.Tests.csproj" />
-  <Project Path="LeetCodeExporter/LeetCodeExporter.csproj" />
-  <Project Path="LeetCodeExporter.Tests/LeetCodeExporter.Tests.csproj" />
-  <Project Path="TemplateGenerator/TemplateGenerator.csproj" />
-  <Project Path="TestCaseExporter/TestCaseExporter.csproj" />
+  <Folder Name="/src/">
+    <Project Path="src/LeetCode.Framework/LeetCode.Framework.csproj" />
+    <Project Path="src/LeetCode.Problems/LeetCode.Problems.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/LeetCode.Framework.Tests/LeetCode.Framework.Tests.csproj" />
+    <Project Path="tests/LeetCodeExporter.Tests/LeetCodeExporter.Tests.csproj" />
+  </Folder>
+  <Folder Name="/tools/">
+    <Project Path="tools/LeetCodeExporter/LeetCodeExporter.csproj" />
+    <Project Path="tools/TemplateGenerator/TemplateGenerator.csproj" />
+    <Project Path="tools/TestCaseExporter/TestCaseExporter.csproj" />
+  </Folder>
 </Solution>

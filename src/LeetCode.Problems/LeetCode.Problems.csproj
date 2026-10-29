@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
@@ -7,7 +7,7 @@
     <PlatformTarget>x64</PlatformTarget>
     <Platforms>AnyCPU;x64</Platforms>
     <OutputType>Library</OutputType>
-    <RootNamespace>LeetCode</RootNamespace>
+    <RootNamespace>LeetCode.Problems</RootNamespace>
     <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
     <AnalysisLevel>latest-all</AnalysisLevel>
 <!--
@@ -24,57 +24,32 @@ CA2225: Provide alternate method for operator (template code)
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Jering.Javascript.NodeJS" />
     <PackageReference Include="JetBrains.Annotations" />
-    <PackageReference Include="LocalDb" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" />
     <PackageReference Include="Microsoft.NETCore.Platforms" />
-
     <PackageReference Include="NUnit" />
     <PackageReference Include="NUnit3TestAdapter" />
   </ItemGroup>
 
-  <!-- WIP compiles only the working set in Problems\!TODO; Full compiles every problem (see Directory.Build.props). -->
+  <ItemGroup>
+    <ProjectReference Include="..\LeetCode.Framework\LeetCode.Framework.csproj" />
+  </ItemGroup>
+
+  <!-- WIP compiles only the working set in !TODO; Full compiles every problem (see Directory.Build.props). -->
   <ItemGroup Condition="'$(Configuration)' != 'Full'">
-    <Compile Remove="Problems\**\*.cs" />
-    <None Remove="Problems\**\*" />
-    <Content Remove="Problems\**\*" />
-    <Compile Include="Problems\!TODO\**\*.cs" />
-    <None Include="Problems\!TODO\**\*" />
+    <Compile Remove="*\**\*.cs" />
+    <None Remove="*\**\*" />
+    <Content Remove="*\**\*" />
+    <Compile Include="!TODO\**\*.cs" />
+    <None Include="!TODO\**\*" />
   </ItemGroup>
 
+  <!-- Test cases and scripts are copied under Problems\ in the output, where TestsBase looks for them. -->
   <ItemGroup>
-    <None Update="**\*.json">
+    <None Update="**\*.json;**\*.sql;**\*.sh;**\*.js">
+      <Link>Problems\%(Identity)</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="**\*.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="**\*.sh">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="**\*.js">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="JavaScript\Debugger.html">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Problems\!TODO\" />
   </ItemGroup>
 
   <Target Name="GatherJsonAnalyzers">

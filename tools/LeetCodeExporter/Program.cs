@@ -2,7 +2,7 @@ using System.CommandLine;
 using System.Diagnostics;
 using LeetCodeExporter;
 
-var baseDir = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "LeetCode"));
+var baseDir = Path.Combine(FindRepoRoot(), "src", "LeetCode.Problems");
 var fileSystem = new RealFileSystem();
 var finder = new SolutionFinder(fileSystem, baseDir);
 
@@ -49,4 +49,20 @@ static void CopyToClipboard(string text)
     process.StandardInput.Close();
     process.WaitForExit();
     Console.Error.WriteLine("Copied to clipboard.");
+}
+
+/// <summary>
+/// The repo root is the nearest folder above the tool's output that holds LeetCode.slnx.
+/// </summary>
+static string FindRepoRoot()
+{
+    for (var dir = new DirectoryInfo(AppContext.BaseDirectory); dir != null; dir = dir.Parent)
+    {
+        if (File.Exists(Path.Combine(dir.FullName, "LeetCode.slnx")))
+        {
+            return dir.FullName;
+        }
+    }
+
+    throw new DirectoryNotFoundException($"No LeetCode.slnx above {AppContext.BaseDirectory}");
 }

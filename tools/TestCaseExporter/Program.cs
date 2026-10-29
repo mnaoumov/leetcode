@@ -5,8 +5,25 @@ namespace TestCaseExporter;
 
 internal static partial class Program
 {
-    [GeneratedRegex(@"LeetCode\._(\d+)")]
+    [GeneratedRegex(@"LeetCode\.Problems\._(\d+)")]
     private static partial Regex NamespaceRegex();
+
+    private static readonly string ProblemsRoot = Path.Combine(FindRepoRoot(), "src", "LeetCode.Problems");
+    /// <summary>
+    /// The repo root is the nearest folder above the tool's output that holds LeetCode.slnx.
+    /// </summary>
+    private static string FindRepoRoot()
+    {
+        for (var dir = new DirectoryInfo(AppContext.BaseDirectory); dir != null; dir = dir.Parent)
+        {
+            if (File.Exists(Path.Combine(dir.FullName, "LeetCode.slnx")))
+            {
+                return dir.FullName;
+            }
+        }
+
+        throw new DirectoryNotFoundException($"No LeetCode.slnx above {AppContext.BaseDirectory}");
+    }
 
     private static readonly JsonSerializerOptions SerializeOptions = new()
     {
@@ -22,7 +39,7 @@ internal static partial class Program
 
     public static void Main()
     {
-        var testCaseTypes = typeof(LeetCode.Base.TestCaseBase).Assembly.GetTypes().Where(type => type.Name == "TestCase")
+        var testCaseTypes = System.Reflection.Assembly.Load("LeetCode.Problems").GetTypes().Where(type => type.Name == "TestCase")
             .OrderBy(t => t.FullName)
             .ToArray();
 
@@ -34,7 +51,7 @@ internal static partial class Program
 
                 Console.WriteLine(problemNumber);
 
-                var dir = Directory.GetDirectories(@"f:\dev\leetcode\LeetCode", $"{problemNumber} *")[0];
+                var dir = Directory.GetDirectories(ProblemsRoot, $"{problemNumber} *", SearchOption.AllDirectories)[0];
 
                 var testCaseFiles = Directory.GetFiles(dir, "TestCase*.json").OrderBy(x => x);
                 var testCases = testCaseFiles.Select(file => FromJson(file, testCaseType)).ToArray();

@@ -4,10 +4,10 @@ namespace LeetCodeExporter.Tests;
 
 public class SolutionFinderTests
 {
-    private const string BaseDir = @"C:\repo\LeetCode";
+    private const string BaseDir = @"C:\repo\src\LeetCode.Problems";
 
-    private static readonly string TodoDir = Path.Combine(BaseDir, "Problems", "!TODO");
-    private static readonly string ProblemsDir = Path.Combine(BaseDir, "Problems");
+    private static readonly string TodoDir = Path.Combine(BaseDir, "!TODO");
+    private const string ProblemsDir = BaseDir;
 
     [Test]
     public void FindSolutionFile_ReturnsNull_WhenNoDirectoriesExist()

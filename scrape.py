@@ -4,6 +4,7 @@ and promotes contest solutions from !TODO to their real LeetCode problem numbers
 import json
 import re
 import shutil
+import sys
 import time
 import urllib.error
 import urllib.request
@@ -17,6 +18,8 @@ BIWEEKLY_DIR = Path(r"F:\Obsidian\Projects\LeetCode\Contests\Biweekly Contest")
 COOKIE_FILE = Path(__file__).parent / "leetcode_cookie.txt"
 DAILY_WEEKLY_CACHE_FILE = Path(__file__).parent / "daily_weekly_cache.json"
 SLUG_CACHE_FILE = Path(__file__).parent / "slug_cache.json"
+# titleSlug -> date of the first accepted submission; that date never changes.
+SOLVED_CACHE_FILE = Path(__file__).parent / "solved_cache.json"
 
 # Reserved key inside DAILY_WEEKLY_CACHE_FILE holding the ISO timestamp of the
 # last successful daily/weekly sync. Never collides with month keys ("YYYY-MM").
@@ -120,7 +123,6 @@ query($year: Int!, $month: Int!) {
 
 
 _cached_cookie = None
-_cookie_loaded = False
 
 
 def load_json_cache(path):
@@ -157,38 +159,63 @@ def _extract_cookie_from_browser():
 
 
 def load_session_cookie():
-    """Load LeetCode session cookie, trying file, browser extraction, then interactive prompt."""
-    global _cached_cookie, _cookie_loaded
-    if _cookie_loaded:
-        return _cached_cookie
-    _cookie_loaded = True
+    """Return the session cookie verified by ensure_signed_in()."""
+    return _cached_cookie
 
+
+def _is_signed_in(cookie):
+    """Check whether LeetCode accepts the cookie as a signed-in session."""
+    global _cached_cookie
+    _cached_cookie = cookie
+    try:
+        status = graphql_request("query { userStatus { isSignedIn } }")["data"]["userStatus"]
+    except (urllib.error.HTTPError, KeyError, TypeError):
+        return False
+    finally:
+        _cached_cookie = None
+    return bool(status and status["isSignedIn"])
+
+
+def ensure_signed_in():
+    """Find a signed-in session cookie (saved file, browser, prompt) or stop the run.
+
+    A stale cookie is not a reason to carry on: without a session every solved date
+    and contest result comes back empty, and the contest backfill would then mark
+    those contests as checked for good.
+    """
+    global _cached_cookie
+
+    candidates = []
     if COOKIE_FILE.exists():
-        cookie = COOKIE_FILE.read_text(encoding="utf-8").strip()
-        if cookie:
+        candidates.append(("saved file", COOKIE_FILE.read_text(encoding="utf-8").strip()))
+    candidates.append(("browser", lambda: _extract_cookie_from_browser()))
+    if sys.stdin.isatty():
+        def prompt():
+            print("To get your LEETCODE_SESSION cookie:")
+            print("  1. Open https://leetcode.com in Chrome and log in")
+            print("  2. Open DevTools (F12) > Application > Cookies > leetcode.com")
+            print("  3. Copy the value of LEETCODE_SESSION")
+            try:
+                return input("Paste your LEETCODE_SESSION cookie: ").strip()
+            except EOFError:
+                # Windows reports the NUL device as a tty, so isatty() alone lets
+                # a non-interactive run reach here.
+                return ""
+        candidates.append(("prompt", prompt))
+
+    for source, cookie in candidates:
+        if callable(cookie):
+            cookie = cookie()
+        if not cookie:
+            continue
+        if _is_signed_in(cookie):
+            if source != "saved file":
+                COOKIE_FILE.write_text(cookie, encoding="utf-8")
             _cached_cookie = cookie
-            return cookie
+            return
+        print(f"The LEETCODE_SESSION cookie from the {source} is not signed in.")
 
-    print("No saved session cookie. Trying to extract from browser...")
-    cookie = _extract_cookie_from_browser()
-    if cookie:
-        COOKIE_FILE.write_text(cookie, encoding="utf-8")
-        print("Cookie extracted from browser and saved!")
-        _cached_cookie = cookie
-        return cookie
-
-    print("Could not extract cookie automatically.")
-    print("To get your LEETCODE_SESSION cookie:")
-    print("  1. Open https://leetcode.com in Chrome and log in")
-    print("  2. Open DevTools (F12) > Application > Cookies > leetcode.com")
-    print("  3. Copy the value of LEETCODE_SESSION")
-    cookie = input("Paste your LEETCODE_SESSION cookie (or press Enter to skip): ").strip()
-    if cookie:
-        COOKIE_FILE.write_text(cookie, encoding="utf-8")
-        print("Cookie saved!")
-        _cached_cookie = cookie
-        return cookie
-    return None
+    sys.exit(f"No signed-in LeetCode session. Put a fresh LEETCODE_SESSION value in {COOKIE_FILE}.")
 
 
 def graphql_request(query):
@@ -907,6 +934,8 @@ def promote_todo_problems():
 
 
 def main():
+    ensure_signed_in()
+
     print("Fetching existing problems...")
     existing = get_existing_problem_numbers()
     print(f"Found {len(existing)} existing problems")
@@ -1070,8 +1099,11 @@ def main():
     # --- Backfill contest results ---
     backfill_contest_results(all_contests)
 
-    # --- Backfill daily/weekly premium/solved ---
-    backfill_daily_weekly_solved()
+    # --- Backfill daily/weekly premium ---
+    backfill_daily_weekly()
+
+    # --- Solved dates ---
+    sync_solved_dates()
 
     # --- Promote contest solutions from !TODO ---
     promote_todo_problems()
@@ -1227,8 +1259,8 @@ def date_to_week_label(date_str):
     return f"{dt.year}-{dt.month:02d}-W{week_num}"
 
 
-def backfill_daily_weekly_solved():
-    """Backfill daily problem tags, weekly premium tags, and solved dates."""
+def backfill_daily_weekly():
+    """Backfill daily problem and weekly premium dates."""
     cookie = load_session_cookie()
     if not cookie:
         print("\nSkipping daily/weekly/solved backfill (no session cookie)")
@@ -1308,7 +1340,6 @@ def backfill_daily_weekly_solved():
 
     # Now update problem files
     updated = 0
-    solved_added = 0
 
     for num, filepath in sorted(problem_files.items()):
         api_daily = daily_map.get(num, set())
@@ -1319,9 +1350,6 @@ def backfill_daily_weekly_solved():
 
         content = filepath.read_text(encoding="utf-8")
         original = content
-
-        # Check if we need to update anything for this problem
-        needs_solved = "solved:" not in content
 
         # Parse existing daily entries
         existing_daily = set()
@@ -1382,25 +1410,6 @@ def backfill_daily_weekly_solved():
                 ) + "\n"
                 frontmatter += weekly_entries
 
-        # Add solved date if missing — only check for problems that got new daily/weekly entries
-        if needs_solved and (new_daily or new_weekly):
-            slug_match = re.search(r"source: https://leetcode\.com/problems/([^/]+)/", frontmatter)
-            if slug_match:
-                title_slug = slug_match.group(1)
-                print(f"  Checking solved: {filepath.name}...", end="\r")
-                try:
-                    solved_date = fetch_first_accepted_date(title_slug)
-                except Exception:
-                    solved_date = None
-                if solved_date:
-                    frontmatter = re.sub(
-                        r'(source: .+\n)',
-                        rf'\g<1>solved: {solved_date}\n',
-                        frontmatter,
-                    )
-                    solved_added += 1
-                time.sleep(0.5)
-
         content = "---\n" + frontmatter + "---\n" + after_fm
 
         if content != original:
@@ -1411,11 +1420,91 @@ def backfill_daily_weekly_solved():
                 changes.append(f"{len(new_daily)} daily")
             if new_weekly:
                 changes.append(f"{len(new_weekly)} weekly")
-            if needs_solved and "solved:" in content and "solved:" not in original:
-                changes.append("solved")
             print(f"  Updated: {filepath.name} ({', '.join(changes)})")
 
-    print(f"\nDaily/weekly/solved backfill: {updated} files updated, {solved_added} solved dates added")
+    print(f"\nDaily/weekly backfill: {updated} files updated")
+
+
+SOLVED_STATUS_QUERY = """
+query {
+  problemsetQuestionListV2(
+    categorySlug: ""
+    limit: %d
+    skip: %d
+    filters: { filterCombineType: ALL }
+  ) {
+    totalLength
+    questions { questionFrontendId titleSlug status }
+  }
+}
+"""
+
+
+def fetch_solved_slugs():
+    """Return {frontend id: titleSlug} for every problem the signed-in user has solved."""
+    solved = {}
+    skip, page = 0, 100
+    while True:
+        data = graphql_request(SOLVED_STATUS_QUERY % (page, skip))["data"]["problemsetQuestionListV2"]
+        for q in data["questions"]:
+            if q["status"] == "SOLVED":
+                solved[int(q["questionFrontendId"])] = q["titleSlug"]
+        skip += page
+        if skip >= data["totalLength"] or not data["questions"]:
+            return solved
+        time.sleep(0.3)
+
+
+def sync_solved_dates():
+    """Set each solved problem's `solved:` to the date of its first accepted submission."""
+    print("\nSyncing solved dates...")
+    solved = fetch_solved_slugs()
+    print(f"  LeetCode reports {len(solved)} solved problems")
+
+    cache = load_json_cache(SOLVED_CACHE_FILE)
+    added = 0
+    mismatched = []
+    for f in sorted(PROBLEMS_DIR.iterdir()):
+        match = re.match(r"(\d+) ", f.name)
+        if f.suffix != ".md" or not match:
+            continue
+        slug = solved.get(int(match.group(1)))
+        if not slug:
+            continue
+
+        date = cache.get(slug)
+        if not date:
+            time.sleep(0.3)
+            date = fetch_first_accepted_date(slug)
+            if not date:
+                continue
+            cache[slug] = date
+            save_json_cache(SOLVED_CACHE_FILE, cache)
+
+        content = f.read_text(encoding="utf-8")
+        fm_match = re.match(r"---\n(.*?\n)---\n", content, re.DOTALL)
+        if not fm_match:
+            continue
+        frontmatter = fm_match.group(1)
+        current = re.search(r"^solved: (.+)$", frontmatter, re.MULTILINE)
+        if current:
+            if current.group(1).strip('"') != date:
+                mismatched.append((f.name, current.group(1), date))
+            continue
+
+        if re.search(r"^source: .+\n", frontmatter, re.MULTILINE):
+            frontmatter = re.sub(r"^(source: .+\n)", rf"\g<1>solved: {date}\n", frontmatter, count=1, flags=re.MULTILINE)
+        else:
+            frontmatter += f"solved: {date}\n"
+        f.write_text("---\n" + frontmatter + "---\n" + content[fm_match.end():], encoding="utf-8")
+        added += 1
+        print(f"  Solved: {f.name} ({date})")
+
+    print(f"  {added} solved dates added")
+    if mismatched:
+        print(f"  {len(mismatched)} notes have a solved date other than the first accepted submission (left as is):")
+        for name, note_date, api_date in mismatched:
+            print(f"    {name}: note {note_date}, LeetCode {api_date}")
 
 
 if __name__ == "__main__":

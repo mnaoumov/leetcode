@@ -10,7 +10,7 @@ namespace LeetCode.Problems._0005_Longest_Palindromic_Substring;
 /// </summary>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
-public class Solution8 : ISolution
+public class Solution08 : ISolution
 {
     public string LongestPalindrome(string s)
     {

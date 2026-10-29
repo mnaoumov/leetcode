@@ -8,7 +8,7 @@ namespace LeetCode.Problems._0005_Longest_Palindromic_Substring;
 /// https://leetcode.com/submissions/detail/147577534/
 /// </summary>
 [UsedImplicitly]
-public class Solution7 : ISolution
+public class Solution07 : ISolution
 {
     public string LongestPalindrome(string s)
     {

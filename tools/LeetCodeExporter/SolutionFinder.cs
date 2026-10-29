@@ -40,7 +40,7 @@ public class SolutionFinder
         }
 
         var solutionFiles = _fileSystem.GetFiles(problemDir, "Solution*.cs")
-            .OrderBy(f => int.Parse(Path.GetFileNameWithoutExtension(f).Replace("Solution", "")))
+            .OrderBy(SolutionNumber)
             .ToArray();
 
         if (solutionFiles.Length == 0)
@@ -50,9 +50,13 @@ public class SolutionFinder
 
         if (solutionNumber.HasValue)
         {
-            return solutionFiles.FirstOrDefault(f => Path.GetFileName(f) == $"Solution{solutionNumber}.cs");
+            return solutionFiles.FirstOrDefault(f => SolutionNumber(f) == solutionNumber);
         }
 
         return solutionFiles.Last();
     }
+
+    // Solution7.cs, Solution07.cs and Solution5_10.cs (one file for solutions 5 and 10) start with their number.
+    private static int SolutionNumber(string path) =>
+        int.Parse(new string(Path.GetFileNameWithoutExtension(path)["Solution".Length..].TakeWhile(char.IsDigit).ToArray()));
 }

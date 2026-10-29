@@ -6,11 +6,11 @@
 namespace LeetCode.Problems._0005_Longest_Palindromic_Substring;
 
 /// <summary>
-/// https://leetcode.com/submissions/detail/147569719/
+/// https://leetcode.com/submissions/detail/147569862/
 /// </summary>
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 [UsedImplicitly]
-public class Solution3 : ISolution
+public class Solution04 : ISolution
 {
     public string LongestPalindrome(string s)
     {

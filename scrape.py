@@ -562,7 +562,7 @@ def generate_problem_markdown(detail, solved_date=None):
     lines.append(f"source: https://leetcode.com/problems/{title_slug}/")
 
     if solved_date:
-        lines.append(f'solved: "[{solved_date}](<../../../Date.md>)"')
+        lines.append(f"solved: {solved_date}")
 
     if is_paid:
         lines.append("tagLinks:")
@@ -673,7 +673,7 @@ def format_finish_time(finish_timestamp, start_timestamp):
 def generate_contest_markdown(contest_title, contest_slug, contest_date, problems_info,
                               my_ranking=None, participants=None, contest_start_time=None):
     """Generate Obsidian markdown for a contest."""
-    date_link = f'"[{contest_date}](<../../../../Date.md>)"'
+    date_link = contest_date
     timestamp = format_timestamp()
     na = '"[NA](<../../../../Tags/NA.md>)"'
 
@@ -1326,13 +1326,13 @@ def backfill_daily_weekly_solved():
         # Parse existing daily entries
         existing_daily = set()
         for m in re.finditer(r'dailyProblems:\n((?:  - .+\n)*)', content):
-            for dm in re.finditer(r'\[(\d{4}-\d{2}-\d{2})\]', m.group(1)):
+            for dm in re.finditer(r'(\d{4}-\d{2}-\d{2})', m.group(1)):
                 existing_daily.add(dm.group(1))
 
         # Parse existing weekly entries
         existing_weekly = set()
         for m in re.finditer(r'weeklyPremiumProblems:\n((?:  - .+\n)*)', content):
-            for wm in re.finditer(r'\[(\d{4}-\d{2}-W\d+)\]', m.group(1)):
+            for wm in re.finditer(r'(\d{4}-\d{2}-W\d+)', m.group(1)):
                 existing_weekly.add(wm.group(1))
 
         new_daily = sorted(api_daily - existing_daily)
@@ -1353,7 +1353,7 @@ def backfill_daily_weekly_solved():
         if new_daily:
             if "dailyProblems:" in frontmatter:
                 # Find the dailyProblems block and append entries
-                daily_entries = "\n".join(f'  - "[{d}](<../../../Date.md>)"' for d in new_daily)
+                daily_entries = "\n".join(f"  - {d}" for d in new_daily)
                 # Insert after existing dailyProblems entries
                 frontmatter = re.sub(
                     r'(dailyProblems:\n(?:  - .+\n)*)',
@@ -1363,14 +1363,14 @@ def backfill_daily_weekly_solved():
             else:
                 # Add dailyProblems section before ---
                 daily_entries = "dailyProblems:\n" + "\n".join(
-                    f'  - "[{d}](<../../../Date.md>)"' for d in sorted(api_daily)
+                    f"  - {d}" for d in sorted(api_daily)
                 ) + "\n"
                 frontmatter += daily_entries
 
         # Add new weekly entries
         if new_weekly:
             if "weeklyPremiumProblems:" in frontmatter:
-                weekly_entries = "\n".join(f'  - "[{w}](<../../../Date.md>)"' for w in new_weekly)
+                weekly_entries = "\n".join(f"  - {w}" for w in new_weekly)
                 frontmatter = re.sub(
                     r'(weeklyPremiumProblems:\n(?:  - .+\n)*)',
                     lambda m: m.group(1) + weekly_entries + "\n",
@@ -1378,7 +1378,7 @@ def backfill_daily_weekly_solved():
                 )
             else:
                 weekly_entries = "weeklyPremiumProblems:\n" + "\n".join(
-                    f'  - "[{w}](<../../../Date.md>)"' for w in sorted(api_weekly)
+                    f"  - {w}" for w in sorted(api_weekly)
                 ) + "\n"
                 frontmatter += weekly_entries
 
@@ -1395,7 +1395,7 @@ def backfill_daily_weekly_solved():
                 if solved_date:
                     frontmatter = re.sub(
                         r'(source: .+\n)',
-                        rf'\g<1>solved: "[{solved_date}](<../../../Date.md>)"\n',
+                        rf'\g<1>solved: {solved_date}\n',
                         frontmatter,
                     )
                     solved_added += 1

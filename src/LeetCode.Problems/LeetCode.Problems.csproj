@@ -44,10 +44,11 @@ CA2225: Provide alternate method for operator (template code)
     <None Include="!WIP\**\*" />
   </ItemGroup>
 
-  <!-- Test cases and scripts are copied under Problems\ in the output, where TestsBase looks for them. -->
+  <!-- Test cases and scripts are copied under Problems\ in the output, where TestsBase looks for them.
+       TargetPath sets only the output path; Link would also show a virtual Problems folder in Solution Explorer. -->
   <ItemGroup>
     <None Update="**\*.json;**\*.sql;**\*.sh;**\*.js">
-      <Link>Problems\%(Identity)</Link>
+      <TargetPath>Problems\%(Identity)</TargetPath>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

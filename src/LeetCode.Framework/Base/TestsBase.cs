@@ -119,28 +119,52 @@ public abstract partial class TestsBase
 
     protected static string? GetProblemDirectory(Type problemRelatedType)
     {
-        var namespacePart = problemRelatedType.Namespace!.Replace("LeetCode.Problems._", "", StringComparison.Ordinal);
-        var problemNumber = namespacePart.Split('_')[0];
+        const string namespacePrefix = "LeetCode.Problems.";
+        var namespacePart = problemRelatedType.Namespace![namespacePrefix.Length..];
+        var wipDirectory = Path.Combine(ProblemsRoot.Value, "!WIP");
 
-        // A problem is in the working set, in the bucket named by the first two digits of its number,
-        // or, numbered 0000, in !Unnumbered under its title alone.
-        return GetProblemDirectory(problemNumber, namespacePart, "Problems\\!WIP")
-            ?? GetProblemDirectory(problemNumber, namespacePart, Path.Combine("Problems", problemNumber[..2]))
-            ?? GetProblemDirectory(problemNumber, namespacePart, "Problems\\!Unnumbered", "0000 ");
+        // A problem without a number (namespace LeetCode.Problems.<Title>) is in the working set or in !Unnumbered.
+        if (!namespacePart.StartsWith('_'))
+        {
+            return GetProblemDirectory(namespacePart, wipDirectory, "*")
+                ?? GetProblemDirectory(namespacePart, Path.Combine(ProblemsRoot.Value, "!Unnumbered"), "*");
+        }
+
+        // A numbered one (LeetCode.Problems._<Number>_<Title>) is in the working set,
+        // or in the bucket named by the first two digits of its number.
+        namespacePart = namespacePart[1..];
+        var problemNumber = namespacePart.Split('_')[0];
+        return GetProblemDirectory(namespacePart, wipDirectory, $"{problemNumber} *")
+            ?? GetProblemDirectory(namespacePart, Path.Combine(ProblemsRoot.Value, problemNumber[..2]), $"{problemNumber} *");
     }
 
-    private static string? GetProblemDirectory(string problemNumber, string namespacePart, string dirName,
-        string folderNamePrefix = "")
+    // Test cases are read from the source tree, so editing one needs no rebuild.
+    private static readonly Lazy<string> ProblemsRoot =
+        new(() => Path.Combine(FindRepoRoot(), "src", "LeetCode.Problems"));
+
+    private static string FindRepoRoot()
+    {
+        for (var dir = new DirectoryInfo(AppContext.BaseDirectory); dir != null; dir = dir.Parent)
+        {
+            if (File.Exists(Path.Combine(dir.FullName, "LeetCode.slnx")))
+            {
+                return dir.FullName;
+            }
+        }
+
+        throw new DirectoryNotFoundException($"No LeetCode.slnx above {AppContext.BaseDirectory}");
+    }
+
+    private static string? GetProblemDirectory(string namespacePart, string dirName, string searchPattern)
     {
         if (!Directory.Exists(dirName))
         {
             return null;
         }
 
-        var searchPattern = folderNamePrefix == "" ? $"{problemNumber} *" : "*";
         var problemTestCaseDirectory = Directory.GetDirectories(dirName, searchPattern).FirstOrDefault(dir =>
         {
-            var name = folderNamePrefix + dir.Split('\\')[^1];
+            var name = dir.Split('\\')[^1];
             var escapedName = CharactersToEscapeRegex().Replace(name, "_");
             return escapedName == namespacePart;
         });

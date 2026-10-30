@@ -34,3 +34,4 @@ packages/
 
 .claude/settings.local.json
 bookmarklet.txt
+node_modules/

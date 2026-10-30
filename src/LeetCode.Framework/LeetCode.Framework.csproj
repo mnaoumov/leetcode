@@ -30,11 +30,9 @@ CA2225: Provide alternate method for operator (template code)
     <PackageReference Include="NUnit" />
   </ItemGroup>
 
-  <!-- The framework was one assembly with the problems until it was split off; its internals stay theirs. -->
+  <!-- The public types are the API the problems and tools use; internals are implementation details only the framework's own tests see. -->
   <ItemGroup>
-    <InternalsVisibleTo Include="LeetCode.Problems" />
     <InternalsVisibleTo Include="LeetCode.Framework.Tests" />
-    <InternalsVisibleTo Include="TestCaseExporter" />
   </ItemGroup>
 
   <ItemGroup>
@@ -56,6 +54,17 @@ CA2225: Provide alternate method for operator (template code)
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+
+  <!-- node_modules is not committed: restore it from package-lock.json, then copy it to the output with the other scripts. -->
+  <Target Name="RestoreJavaScriptPackages" Inputs="JavaScript\package.json;JavaScript\package-lock.json" Outputs="JavaScript\node_modules\.package-lock.json">
+    <Exec Command="npm ci --no-audit --no-fund" WorkingDirectory="JavaScript" />
+  </Target>
+  <Target Name="CopyJavaScriptPackages" BeforeTargets="AssignTargetPaths" DependsOnTargets="RestoreJavaScriptPackages">
+    <ItemGroup>
+      <None Remove="JavaScript\node_modules\**" />
+      <None Include="JavaScript\node_modules\**\*.js;JavaScript\node_modules\**\*.json" CopyToOutputDirectory="PreserveNewest" />
+    </ItemGroup>
+  </Target>
 
   <Target Name="GatherJsonAnalyzers">
     <ItemGroup>

@@ -1,7 +1,7 @@
 namespace LeetCode.Base;
 
 [AttributeUsage(AttributeTargets.Class)]
-internal sealed class SkipSolutionAttribute : Attribute
+public sealed class SkipSolutionAttribute : Attribute
 {
     public SkipSolutionAttribute(SkipSolutionReason reason)
     {

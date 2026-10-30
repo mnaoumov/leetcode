@@ -1,6 +1,6 @@
 namespace LeetCode.Base;
 
-internal enum SkipSolutionReason
+public enum SkipSolutionReason
 {
     RuntimeError,
     WrongAnswer,

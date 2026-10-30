@@ -1,5 +1,4 @@
 using System.Diagnostics;
-using System.Text.RegularExpressions;
 using Jering.Javascript.NodeJS;
 using Path = System.IO.Path;
 
@@ -12,6 +11,7 @@ public abstract class JavaScriptTestsBase<TJavaScriptTests> : JavaScriptTestsBas
     [Category("JavaScript")]
     public void Test(string solutionScriptPath, string testCaseScriptPath, string testsScriptPath)
     {
+        UseNodeFor(solutionScriptPath);
         var testCase = GetTestCase(testCaseScriptPath);
         RunTestWithTimeout(testCase,
             cancellationToken => RunJavaScriptTestAsync(solutionScriptPath, testCase, testsScriptPath, cancellationToken));
@@ -22,23 +22,19 @@ public abstract class JavaScriptTestsBase<TJavaScriptTests> : JavaScriptTestsBas
 #pragma warning restore CA1000
 }
 
-public partial class JavaScriptTestsBase : TestsBase
+public class JavaScriptTestsBase : TestsBase
 {
-    [GeneratedRegex("// SkipSolution: (.+)")]
-    private static partial Regex SkipSolutionRegex();
+    private static readonly string JavaScriptDirectory = Path.Combine(AppContext.BaseDirectory, "JavaScript");
+    private static readonly string TestRunnerScriptPath = Path.Combine(JavaScriptDirectory, "TestRunner.js");
 
-    [GeneratedRegex(@"timeoutInMilliseconds: (\d+);")]
-    private static partial Regex TimeoutInMillisecondsRegex();
-
-    private static readonly string TestRunnerScriptPath;
+    // The solution the running Node process has run. A solution can change globals (a prototype, a timer), which
+    // clearing the require cache does not undo, so another solution gets a fresh process.
+    private static string? _nodeSolutionScriptPath;
 
 #pragma warning disable CA1810
     static JavaScriptTestsBase()
 #pragma warning restore CA1810
     {
-        var dir = Directory.GetCurrentDirectory();
-        TestRunnerScriptPath = Path.Combine(dir, "JavaScript", "TestRunner.js");
-
         if (!File.Exists(TestRunnerScriptPath))
         {
             Console.Error.WriteLine("TestRunner.js is missing");
@@ -59,20 +55,43 @@ public partial class JavaScriptTestsBase : TestsBase
         });
     }
 
+    /// <summary>
+    /// Keeps the Node process for the tests of one solution, and starts a fresh one for the next solution.
+    /// </summary>
+    protected static void UseNodeFor(string solutionScriptPath)
+    {
+        if (_nodeSolutionScriptPath == solutionScriptPath)
+        {
+            return;
+        }
+
+        RestartNode();
+        _nodeSolutionScriptPath = solutionScriptPath;
+
+        // Under the debugger every Node process waits at its start for a debugger to attach.
+        if (Debugger.IsAttached)
+        {
+            Process.Start("cmd.exe", ["/c", Path.Combine(JavaScriptDirectory, "Debugger.html")]);
+        }
+    }
+
+    private static void RestartNode()
+    {
+        StaticNodeJSService.DisposeServiceProvider();
+        _nodeSolutionScriptPath = null;
+    }
+
     protected static JavaScriptTestCase GetTestCase(string testCaseScriptPath)
     {
-        var testCaseName = Path.GetFileNameWithoutExtension(testCaseScriptPath);
+        // The test case module says its own timeout, so Node reads it rather than a regex reading its source.
+        var timeoutInMilliseconds = StaticNodeJSService.InvokeFromFileAsync<int?>(TestRunnerScriptPath,
+            "getTimeoutInMilliseconds", [testCaseScriptPath]).GetAwaiter().GetResult();
 
-        var content = File.ReadAllText(testCaseScriptPath);
-        var timeoutInMillisecondsStr = TimeoutInMillisecondsRegex().Match(content).Groups[1].Value;
-        var timeoutInMilliseconds = int.TryParse(timeoutInMillisecondsStr, out var value)
-            ? value
-            : JavaScriptTestCase.DefaultTimeoutInMilliseconds;
         return new JavaScriptTestCase
         {
-            TestCaseName = testCaseName,
+            TestCaseName = Path.GetFileNameWithoutExtension(testCaseScriptPath),
             TestCaseScriptPath = testCaseScriptPath,
-            TimeoutInMilliseconds = timeoutInMilliseconds
+            TimeoutInMilliseconds = timeoutInMilliseconds ?? JavaScriptTestCase.DefaultTimeoutInMilliseconds
         };
     }
 
@@ -105,20 +124,9 @@ public partial class JavaScriptTestsBase : TestsBase
 
         foreach (var solutionScriptFile in solutionScriptFiles)
         {
-            var solutionName = Path.GetFileNameWithoutExtension(solutionScriptFile);
-            var skipSolutionReason = SkipSolutionRegex().Match(ReadFirstLine(solutionScriptFile)).Groups[1].Value;
-
-            foreach (var testCaseScriptFile in testCaseScriptFiles)
+            foreach (var testCaseData in JoinScriptTestCases(solutionScriptFile, "//", testCaseScriptFiles, argumentCount,
+                         testCaseScriptFile => [solutionScriptFile, testCaseScriptFile, testsScriptPath]))
             {
-                var testCaseData =
-                    new TestCaseData(solutionScriptFile, testCaseScriptFile, testsScriptPath)
-                        .SetName($"{solutionName}: {Path.GetFileNameWithoutExtension(testCaseScriptFile)}");
-
-                if (!string.IsNullOrEmpty(skipSolutionReason))
-                {
-                    testCaseData.Explicit(skipSolutionReason);
-                }
-
                 yield return testCaseData;
             }
         }
@@ -127,24 +135,23 @@ public partial class JavaScriptTestsBase : TestsBase
     protected static async Task RunJavaScriptTestAsync(string solutionScriptPath, JavaScriptTestCase testCase, string testsScriptPath,
         CancellationToken cancellationToken)
     {
-        if (Debugger.IsAttached)
-        {
-            Process.Start("cmd.exe", new[] { "/c", Path.Combine(Directory.GetCurrentDirectory(), "JavaScript", "Debugger.html") });
-        }
+        ArgumentNullException.ThrowIfNull(testCase);
+
+        JavaScriptTestResult result;
 
         try
         {
-            var result = (await StaticNodeJSService.InvokeFromFileAsync<JavaScriptTestResult>(TestRunnerScriptPath,
-                args: new object?[]
-                {
-                    solutionScriptPath, testCase.TestCaseScriptPath, testsScriptPath, Debugger.IsAttached
-                }, cancellationToken: cancellationToken).ConfigureAwait(true))!;
-
-            Assert.That(result.ActualResultJson, Is.EqualTo(result.ExpectedResultJson).NoClip);
+            result = (await StaticNodeJSService.InvokeFromFileAsync<JavaScriptTestResult>(TestRunnerScriptPath,
+                args: [solutionScriptPath, testCase.TestCaseScriptPath, testsScriptPath, Debugger.IsAttached],
+                cancellationToken: cancellationToken).ConfigureAwait(true))!;
         }
-        finally
+        catch
         {
-            StaticNodeJSService.DisposeServiceProvider();
+            // A timed-out test leaves Node running the solution, and a failed call leaves it in no known state.
+            RestartNode();
+            throw;
         }
+
+        Assert.That(result.ActualResultJson, Is.EqualTo(result.ExpectedResultJson).NoClip);
     }
 }

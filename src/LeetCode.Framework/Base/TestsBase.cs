@@ -93,7 +93,7 @@ public abstract class TestsBase
             message += "\r\n";
         }
 
-        if (expected is double[])
+        if (ContainsFloatingPoint(expected) || ContainsFloatingPoint(actual))
         {
             Assert.That(actual, Is.EqualTo(expected).Within(1e-5),
                 $"{message}Actual:\r\n{JsonSerializer.Serialize(actual)}\r\n\r\nExpected:\r\n{JsonSerializer.Serialize(expected)}\r\n\r\n");
@@ -104,6 +104,18 @@ public abstract class TestsBase
                 $"{message}Actual:\r\n{JsonSerializer.Serialize(actual)}\r\n\r\nExpected:\r\n{JsonSerializer.Serialize(expected)}\r\n\r\n");
         }
     }
+
+    /// <summary>
+    /// Whether <paramref name="value"/> is a floating-point number or a collection holding one at any depth, so
+    /// comparing it needs a tolerance: a <see cref="double"/>, a <c>double[][]</c>, an <see cref="IList{T}"/> of them.
+    /// </summary>
+    protected static bool ContainsFloatingPoint(object? value) => value switch
+    {
+        double or float or decimal => true,
+        string => false,
+        System.Collections.IEnumerable items => items.Cast<object?>().Any(ContainsFloatingPoint),
+        _ => false
+    };
 
     protected static void AssertCollectionEqualWithDetails<T>(IEnumerable<T> actual, IEnumerable<T> expected,
         string? message = null)

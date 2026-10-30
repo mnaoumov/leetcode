@@ -11,10 +11,11 @@ public abstract class ClassDesignTestsBase<TSolution, TSut> : TestsBase<TSolutio
 {
     protected override void TestCore(TSolution solution, ClassDesignTestCase testCase)
     {
+        ArgumentNullException.ThrowIfNull(testCase);
+        AssertWellFormed(testCase);
+
         var createMethod = solution!.GetType().GetMethod("Create")!;
         var sut = CastAndInvoke(createMethod, solution, testCase.Parameters[0]);
-
-        var methodMap = typeof(TSut).GetMethods().ToDictionary(x => x.Name);
 
         for (var i = 1; i < testCase.Commands.Length; i++)
         {
@@ -23,12 +24,13 @@ public abstract class ClassDesignTestsBase<TSolution, TSut> : TestsBase<TSolutio
             var parameters = testCase.Parameters[i];
             var expected = testCase.Output[i];
 
-            if (!methodMap.ContainsKey(methodName))
+            if (!MethodsByName.Value.TryGetValue(methodName, out var overloads))
             {
                 Assert.Fail($"Unknown command '{command}'");
             }
 
-            var actual = CastAndInvoke(methodMap[methodName], sut, parameters);
+            var method = ResolveOverload(overloads!, parameters, command);
+            var actual = CastAndInvoke(method, sut, parameters);
 
             var assertMessage = $"Command #{i + 1}: {command} {JsonSerializer.Serialize(parameters)}";
 
@@ -51,7 +53,7 @@ public abstract class ClassDesignTestsBase<TSolution, TSut> : TestsBase<TSolutio
             }
             else
             {
-                if (expected is double)
+                if (ContainsFloatingPoint(expected) || ContainsFloatingPoint(actual))
                 {
                     Assert.That(actual, Is.EqualTo(expected).Within(1e-5), assertMessage);
                 }
@@ -65,6 +67,111 @@ public abstract class ClassDesignTestsBase<TSolution, TSut> : TestsBase<TSolutio
                     Assert.That(actual, Is.EqualTo(expected), assertMessage);
                 }
             }
+        }
+    }
+
+    // The interface's own methods do not include those of the interfaces it extends, and a class's include object's.
+    private static readonly Lazy<IReadOnlyDictionary<string, MethodInfo[]>> MethodsByName = new(() =>
+        typeof(TSut).GetInterfaces().Prepend(typeof(TSut))
+            .SelectMany(type => type.GetMethods(BindingFlags.Public | BindingFlags.Instance))
+            .Where(method => method.DeclaringType != typeof(object) && !method.IsSpecialName)
+            .Distinct()
+            .GroupBy(method => method.Name, StringComparer.Ordinal)
+            .ToDictionary(group => group.Key, group => group.ToArray(), StringComparer.Ordinal));
+
+    /// <summary>
+    /// Fails a test case whose three arrays do not line up command for command, whose first command is not the
+    /// constructor of <typeparamref name="TSut"/>'s class, or whose constructor has an output.
+    /// </summary>
+    private static void AssertWellFormed(ClassDesignTestCase testCase)
+    {
+        if (testCase.Commands.Length == 0 || testCase.Parameters.Length != testCase.Commands.Length ||
+            testCase.Output.Length != testCase.Commands.Length)
+        {
+            Assert.Fail($"The test case has {testCase.Commands.Length} commands, {testCase.Parameters.Length} " +
+                $"parameter lists and {testCase.Output.Length} outputs; it needs one of each per command, the first " +
+                "being the constructor");
+        }
+
+        var classNames = GetClassNames();
+
+        if (!classNames.Contains(testCase.Commands[0], StringComparer.Ordinal))
+        {
+            Assert.Fail($"The first command is '{testCase.Commands[0]}', not the constructor " +
+                $"'{string.Join("' or '", classNames)}'");
+        }
+
+        if (testCase.Output[0] != null)
+        {
+            Assert.Fail($"The constructor's output is {JsonSerializer.Serialize(testCase.Output[0])}, not null");
+        }
+    }
+
+    /// <summary>
+    /// The names LeetCode's class can have: <typeparamref name="TSut"/>'s without its leading I, and without a
+    /// trailing Impl as well, since LeetCode's <c>Solution</c> class is <c>ISolutionImpl</c> here.
+    /// </summary>
+    private static string[] GetClassNames()
+    {
+        var name = typeof(TSut).Name;
+
+        if (typeof(TSut).IsInterface && name.Length > 1 && name[0] == 'I' && char.IsUpper(name[1]))
+        {
+            name = name[1..];
+        }
+
+        const string implSuffix = "Impl";
+        return name.EndsWith(implSuffix, StringComparison.Ordinal) && name.Length > implSuffix.Length
+            ? [name, name[..^implSuffix.Length]]
+            : [name];
+    }
+
+    /// <summary>
+    /// The overload taking as many arguments as the command passes and accepting them. Of several, the one taking the
+    /// most of them as they are, since a number converts to a string too.
+    /// </summary>
+    private static MethodInfo ResolveOverload(MethodInfo[] overloads, object[] parameters, string command)
+    {
+        var candidates = overloads.Where(method => method.GetParameters().Length == parameters.Length).ToArray();
+
+        if (candidates.Length == 0)
+        {
+            Assert.Fail($"No overload of '{command}' takes {parameters.Length} arguments");
+        }
+
+        if (candidates.Length == 1)
+        {
+            return candidates[0];
+        }
+
+        var best = candidates.Where(method => Accepts(method, parameters))
+            .OrderByDescending(method => CountTakenAsIs(method, parameters))
+            .FirstOrDefault();
+
+        if (best == null)
+        {
+            Assert.Fail($"No overload of '{command}' accepts {JsonSerializer.Serialize(parameters)}");
+        }
+
+        return best!;
+    }
+
+    private static int CountTakenAsIs(MethodInfo method, object?[] parameters) =>
+        method.GetParameters().Zip(parameters)
+            .Count(pair => pair.Second == null || pair.Second.GetType().IsAssignableTo(pair.First.ParameterType));
+
+    private static bool Accepts(MethodInfo method, object[] parameters)
+    {
+        var parameterTypes = method.GetParameters().Select(p => p.ParameterType).ToArray();
+
+        try
+        {
+            _ = parameters.Zip(parameterTypes, ChangeType).ToArray();
+            return true;
+        }
+        catch (Exception e) when (e is InvalidCastException or FormatException or OverflowException)
+        {
+            return false;
         }
     }
 

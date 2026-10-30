@@ -8,7 +8,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         var root = ListNode.Create(testCase.Values);
         var node = root.FindNode(testCase.NodeValue)!;
         solution.DeleteNode(node);
-        Assert.That(root, Is.EqualTo(ListNode.Create(testCase.OutputValues)));
+        Assert.That(root, Is.EqualTo(ListNode.Create(testCase.OutputValues)).Using(ListNode.StructuralComparer));
     }
 
     public class TestCase : TestCaseBase

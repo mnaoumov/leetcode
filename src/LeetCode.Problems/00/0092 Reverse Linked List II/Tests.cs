@@ -5,7 +5,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestCore(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.ReverseBetween(ListNode.Create(testCase.Values), testCase.Left, testCase.Right), Is.EqualTo(ListNode.Create(testCase.OutputValues)));
+        Assert.That(solution.ReverseBetween(ListNode.Create(testCase.Values), testCase.Left, testCase.Right), Is.EqualTo(ListNode.Create(testCase.OutputValues)).Using(ListNode.StructuralComparer));
     }
 
     public class TestCase : TestCaseBase

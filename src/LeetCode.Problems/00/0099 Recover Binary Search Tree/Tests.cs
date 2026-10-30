@@ -8,7 +8,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         var root = TreeNode.Create(testCase.RootValues);
         solution.RecoverTree(root);
 
-        Assert.That(root, Is.EqualTo(TreeNode.CreateOrNull(testCase.OutputValues)));
+        Assert.That(root, Is.EqualTo(TreeNode.CreateOrNull(testCase.OutputValues)).Using(TreeNode.StructuralComparer));
     }
 
     public class TestCase : TestCaseBase

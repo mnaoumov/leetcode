@@ -5,7 +5,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestCore(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.InsertGreatestCommonDivisors(ListNode.Create(testCase.Head)), Is.EqualTo(ListNode.Create(testCase.Output)));
+        Assert.That(solution.InsertGreatestCommonDivisors(ListNode.Create(testCase.Head)), Is.EqualTo(ListNode.Create(testCase.Output)).Using(ListNode.StructuralComparer));
     }
 
     public class TestCase : TestCaseBase

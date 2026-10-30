@@ -24,7 +24,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
             nodeB!.next = nodeA!.next;
         }
-        Assert.That(solution.GetIntersectionNode(listA, listB), Is.EqualTo(ListNode.CreateOrNull(testCase.Output)));
+        Assert.That(solution.GetIntersectionNode(listA, listB), Is.EqualTo(ListNode.CreateOrNull(testCase.Output)).Using(ListNode.StructuralComparer));
     }
 
     public class TestCase : TestCaseBase

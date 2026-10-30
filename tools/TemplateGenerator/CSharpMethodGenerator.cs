@@ -145,7 +145,7 @@ internal partial class CSharpMethodGenerator : GeneratorBase
                 {{~ if OutputArgument.IsCollectionType ~}}
                     AssertCollectionEqualWithDetails({{ InvokeSolutionCode }}, {{ OutputArgument.TestCasePropertyCode }});
                 {{~ else ~}}
-                    Assert.That({{ InvokeSolutionCode }}, Is.EqualTo({{ OutputArgument.TestCasePropertyCode }}));
+                    Assert.That({{ InvokeSolutionCode }}, Is.EqualTo({{ OutputArgument.TestCasePropertyCode }}){{ OutputArgument.ComparerCode }});
                 {{~ end ~}}
                 }
 
@@ -177,6 +177,10 @@ internal partial class CSharpMethodGenerator : GeneratorBase
         [UsedImplicitly]
         public string TestCasePropertyCode { get; set; } = string.Empty;
 
+        // Nodes compare by reference, as on LeetCode, so an expected node is matched by structure.
+        [UsedImplicitly]
+        public string ComparerCode { get; init; } = string.Empty;
+
         [UsedImplicitly]
         public bool IsClassType =>
             Type switch
@@ -204,13 +208,15 @@ internal partial class CSharpMethodGenerator : GeneratorBase
                 {
                     Type = "int[]",
                     Name = name,
-                    TestCasePropertyCode = $"ListNode.CreateOrNull({testCasePropertyCode})"
+                    TestCasePropertyCode = $"ListNode.CreateOrNull({testCasePropertyCode})",
+                    ComparerCode = ".Using(ListNode.StructuralComparer)"
                 },
                 "TreeNode" => new Argument
                 {
                     Type = "int?[]",
                     Name = name,
-                    TestCasePropertyCode = $"TreeNode.CreateOrNull({testCasePropertyCode})"
+                    TestCasePropertyCode = $"TreeNode.CreateOrNull({testCasePropertyCode})",
+                    ComparerCode = ".Using(TreeNode.StructuralComparer)"
                 },
                 _ => new Argument
                 {

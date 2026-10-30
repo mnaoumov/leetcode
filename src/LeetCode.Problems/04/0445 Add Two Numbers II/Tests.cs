@@ -6,7 +6,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.AddTwoNumbers(ListNode.Create(testCase.L1), ListNode.Create(testCase.L2)),
-            Is.EqualTo(ListNode.Create(testCase.Output)));
+            Is.EqualTo(ListNode.Create(testCase.Output)).Using(ListNode.StructuralComparer));
     }
 
     public class TestCase : TestCaseBase

@@ -19,7 +19,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 
         solution.ReorderList(head);
 
-        Assert.That(head, Is.EqualTo(ListNode.Create(testCase.Output)));
+        Assert.That(head, Is.EqualTo(ListNode.Create(testCase.Output)).Using(ListNode.StructuralComparer));
 
         node = head;
 

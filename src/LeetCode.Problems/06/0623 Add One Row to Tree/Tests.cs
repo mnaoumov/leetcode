@@ -6,7 +6,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.AddOneRow(TreeNode.Create(testCase.ValuesBefore), testCase.Val, testCase.Depth),
-            Is.EqualTo(TreeNode.CreateOrNull(testCase.ValuesAfter)));
+            Is.EqualTo(TreeNode.CreateOrNull(testCase.ValuesAfter)).Using(TreeNode.StructuralComparer));
     }
 
     public class TestCase : TestCaseBase

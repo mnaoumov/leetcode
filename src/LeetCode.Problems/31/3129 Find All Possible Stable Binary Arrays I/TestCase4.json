@@ -1,7 +1,8 @@
 {
   "$schema": "../../testcase.schema.json",
+  "timeoutInMilliseconds": 1000,
   "zero": 198,
   "one": 199,
   "limit": 197,
-  "output": 14
+  "output": 193931817
 }

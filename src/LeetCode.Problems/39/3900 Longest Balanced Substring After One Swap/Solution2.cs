@@ -3,6 +3,7 @@ namespace LeetCode.Problems._3900_Longest_Balanced_Substring_After_One_Swap;
 /// <summary>
 /// </summary>
 [UsedImplicitly]
+[SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution
 {
     public int LongestBalanced(string s)

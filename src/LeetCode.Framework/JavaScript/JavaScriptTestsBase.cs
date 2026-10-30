@@ -36,7 +36,7 @@ public partial class JavaScriptTestsBase : TestsBase
 #pragma warning restore CA1810
     {
         var dir = Directory.GetCurrentDirectory();
-        TestRunnerScriptPath = $@"{dir}\JavaScript\TestRunner.js";
+        TestRunnerScriptPath = Path.Combine(dir, "JavaScript", "TestRunner.js");
 
         if (!File.Exists(TestRunnerScriptPath))
         {
@@ -78,7 +78,7 @@ public partial class JavaScriptTestsBase : TestsBase
     protected static IEnumerable<TestCaseData> CalculateJoinedTestCases(Type problemRelatedType)
     {
         var problemTestCaseDirectory = GetProblemDirectory(problemRelatedType)!;
-        var testsScriptPath = $@"{problemTestCaseDirectory}\Tests.js";
+        var testsScriptPath = Path.Combine(problemTestCaseDirectory, "Tests.js");
 
         if (!File.Exists(testsScriptPath))
         {
@@ -125,7 +125,7 @@ public partial class JavaScriptTestsBase : TestsBase
     {
         if (Debugger.IsAttached)
         {
-            Process.Start("cmd.exe", new[] { "/c", $@"{Directory.GetCurrentDirectory()}\JavaScript\Debugger.html" });
+            Process.Start("cmd.exe", new[] { "/c", Path.Combine(Directory.GetCurrentDirectory(), "JavaScript", "Debugger.html") });
         }
 
         try

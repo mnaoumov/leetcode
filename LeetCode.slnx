@@ -14,6 +14,7 @@
   <Folder Name="/src/">
     <Project Path="src/LeetCode.Framework/LeetCode.Framework.csproj" />
     <Project Path="src/LeetCode.Problems/LeetCode.Problems.csproj" />
+    <Project Path="src/LeetCode.Problems.Generators/LeetCode.Problems.Generators.csproj" />
   </Folder>
   <Folder Name="/tests/">
     <Project Path="tests/LeetCode.Framework.Tests/LeetCode.Framework.Tests.csproj" />

@@ -25,7 +25,7 @@ public abstract partial class BashTestsBase<TBashTests> : TestsBase where TBashT
 
         foreach (var (fileName, content) in testCase.Files)
         {
-            await File.WriteAllTextAsync($@"{tempDir.Path}\{fileName}", content, cancellationToken).ConfigureAwait(true);
+            await File.WriteAllTextAsync(Path.Combine(tempDir.Path, fileName), content, cancellationToken).ConfigureAwait(true);
         }
 
         using var process = Process.Start(new ProcessStartInfo

@@ -12,8 +12,9 @@ public abstract partial class SqlTestsBase<TSqlTests> : TestsBase where TSqlTest
     [Test]
     [TestCaseSource(nameof(JoinedTestCases))]
     [Category("SQL")]
-    public void Test(string solutionScriptPath, SqlTestCase testCase)
+    public void Test(string solutionScriptPath, string testCaseFilePath)
     {
+        var testCase = LoadTestCase<SqlTestCase>(testCaseFilePath);
         RunTestWithTimeout(testCase,
             cancellationToken => RunSqlTestAsync(solutionScriptPath, testCase, cancellationToken));
     }
@@ -162,26 +163,32 @@ public abstract partial class SqlTestsBase<TSqlTests> : TestsBase where TSqlTest
     {
         get
         {
-            var testCases = GetTestCases<TSqlTests, SqlTestCase>();
-            var problemTestCaseDirectory = GetProblemDirectory(typeof(TSqlTests));
-            var solutionScriptFiles = problemTestCaseDirectory == null
-                ? Array.Empty<string>()
-                : Directory.GetFiles(problemTestCaseDirectory, "Solution*.sql");
+            const int argumentCount = 2;
+            var testCaseFiles = GetProblemFiles(typeof(TSqlTests), "TestCase*.json");
+
+            if (testCaseFiles.Length == 0)
+            {
+                yield return DiscoveryFailure("No test cases found", argumentCount);
+                yield break;
+            }
+
+            var solutionScriptFiles = GetProblemFiles(typeof(TSqlTests), "Solution*.sql");
 
             if (solutionScriptFiles.Length == 0)
             {
-                Assert.Fail("No Solution*.sql found");
+                yield return DiscoveryFailure("No Solution*.sql found", argumentCount);
+                yield break;
             }
 
             foreach (var solutionScriptFile in solutionScriptFiles)
             {
                 var solutionName = Path.GetFileNameWithoutExtension(solutionScriptFile);
-                var firstLine = File.ReadLines(solutionScriptFile).First();
-                var skipSolutionReason = SkipSolutionRegex().Match(firstLine).Groups[1].Value;
+                var skipSolutionReason = SkipSolutionRegex().Match(ReadFirstLine(solutionScriptFile)).Groups[1].Value;
 
-                foreach (var testCase in testCases)
+                foreach (var testCaseFile in testCaseFiles)
                 {
-                    var testCaseData = new TestCaseData(solutionScriptFile, testCase).SetName($"{solutionName}: {testCase.TestCaseName}");
+                    var testCaseData = new TestCaseData(solutionScriptFile, testCaseFile)
+                        .SetName($"{solutionName}: {Path.GetFileNameWithoutExtension(testCaseFile)}");
 
                     if (!string.IsNullOrEmpty(skipSolutionReason))
                     {

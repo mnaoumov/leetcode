@@ -27,7 +27,9 @@ public abstract class SqlTestsBase<TSqlTests> : TestsBase where TSqlTests : SqlT
 
         // Cloning the database and dropping it are outside the budget: they are LocalDb's file work, not the test's,
         // and on a loaded machine either can take most of the 30 seconds by itself.
-        var db = Instance.Value.Build(GetDatabaseName(solutionScriptPath, testCase)).GetAwaiter().GetResult();
+        var databaseName = GetDatabaseName(solutionScriptPath, testCase);
+        var db = RetryOnceAsync(() => Instance.Value.Build(databaseName), IsCloneNotYetAccessible).GetAwaiter()
+            .GetResult();
 
         try
         {
@@ -38,6 +40,43 @@ public abstract class SqlTestsBase<TSqlTests> : TestsBase where TSqlTests : SqlT
         {
             db.Delete().GetAwaiter().GetResult();
         }
+    }
+
+    /// <summary>
+    /// Runs the action, and runs it once more if its first failure is one <paramref name="shouldRetry"/> accepts.
+    /// </summary>
+    internal static async Task<T> RetryOnceAsync<T>(Func<Task<T>> action, Func<Exception, bool> shouldRetry)
+    {
+        ArgumentNullException.ThrowIfNull(action);
+        ArgumentNullException.ThrowIfNull(shouldRetry);
+
+        try
+        {
+            return await action().ConfigureAwait(false);
+        }
+        catch (Exception e) when (shouldRetry(e))
+        {
+            await Task.Delay(TimeSpan.FromSeconds(1)).ConfigureAwait(false);
+            return await action().ConfigureAwait(false);
+        }
+    }
+
+    /// <summary>
+    /// Error 5011 on the <c>set read_write</c> straight after LocalDb attaches a clone: on a loaded machine the attached
+    /// database is now and then not yet accessible. Building it again takes it offline, copies the template over it and
+    /// brings it back online.
+    /// </summary>
+    private static bool IsCloneNotYetAccessible(Exception exception)
+    {
+        for (var e = exception; e != null; e = e.InnerException)
+        {
+            if (e is SqlException { Number: 5011 })
+            {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     /// <summary>

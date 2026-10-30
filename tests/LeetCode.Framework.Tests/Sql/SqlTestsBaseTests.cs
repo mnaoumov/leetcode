@@ -35,6 +35,18 @@ namespace LeetCode.Framework.Tests.Sql
         }
 
         [Test]
+        public void OrderRows_PutsTheSameRowsInTheSameOrderWhateverTheirOrder()
+        {
+            object?[][] rows = [[2, "b"], [DBNull.Value, "z"], [1, "c"], [1, "a"], [10, "a"]];
+            object?[][] reversed = [.. rows.Reverse()];
+
+            Assert.That(SqlTestsBase<FakeSqlTests>.OrderRows(reversed),
+                Is.EqualTo(SqlTestsBase<FakeSqlTests>.OrderRows(rows)));
+            Assert.That(SqlTestsBase<FakeSqlTests>.OrderRows(rows),
+                Is.EqualTo(new object?[][] { [DBNull.Value, "z"], [1, "a"], [1, "c"], [2, "b"], [10, "a"] }));
+        }
+
+        [Test]
         public void ModifiedTable_IsTheOnlyTable()
         {
             var testCase = CreateTestCase(["id", "email"], ("Person", ["id", "email"]));

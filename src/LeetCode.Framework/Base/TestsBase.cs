@@ -7,6 +7,8 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Text.Json.Serialization.Metadata;
 using NUnit.Framework.Constraints;
+using NUnit.Framework.Interfaces;
+using NUnit.Framework.Internal;
 
 namespace LeetCode.Base;
 
@@ -15,38 +17,52 @@ public abstract class TestsBase<TSolution, TTestCase> : TestsBase where TTestCas
     [Test]
     [TestCaseSource(nameof(JoinedTestCases))]
     [Category("C#")]
-    public void Test(TSolution solution, TTestCase testCase)
+    public void Test(Type solutionType, string testCaseFilePath)
     {
+        ArgumentNullException.ThrowIfNull(solutionType);
+
+        // A fresh solution per test, so no field or memo of one test case leaks into the next.
+        var solution = (TSolution) Activator.CreateInstance(solutionType)!;
+        var testCase = LoadTestCase<TTestCase>(testCaseFilePath);
         RunTestWithTimeout(testCase, () => TestCore(solution, testCase));
     }
 
     protected abstract void TestCore(TSolution solution, TTestCase testCase);
 
+    // Only types and paths are held per test; a test case is read when its test runs.
     private static IEnumerable<TestCaseData> JoinedTestCases
     {
         get
         {
-            var testCases = GetTestCases<TSolution, TTestCase>();
-            var solutionInterfaceType = typeof(TSolution);
-            var solutionTypes = solutionInterfaceType.Assembly.GetTypes()
-                .Where(t => t.IsClass && t.IsAssignableTo(solutionInterfaceType) && !t.IsAbstract);
-            var solutions = solutionTypes.Select(t => (TSolution) Activator.CreateInstance(t)!).ToArray();
+            const int argumentCount = 2;
+            var testCaseFiles = GetProblemFiles(typeof(TSolution), "TestCase*.json");
 
-            if (solutions.Length == 0)
+            if (testCaseFiles.Length == 0)
             {
-                Assert.Fail("No Solution types found");
+                yield return DiscoveryFailure("No test cases found", argumentCount);
+                yield break;
             }
 
-            foreach (var solution in solutions)
+            var solutionInterfaceType = typeof(TSolution);
+            var solutionTypes = solutionInterfaceType.Assembly.GetTypes()
+                .Where(t => t.IsClass && t.IsAssignableTo(solutionInterfaceType) && !t.IsAbstract).ToArray();
+
+            if (solutionTypes.Length == 0)
             {
-                foreach (var testCase in testCases)
+                yield return DiscoveryFailure("No Solution types found", argumentCount);
+                yield break;
+            }
+
+            foreach (var solutionType in solutionTypes)
+            {
+                foreach (var testCaseFile in testCaseFiles)
                 {
                     var testCaseData =
-                        new TestCaseData(solution, testCase).SetName(
-                            $"{solution!.GetType().Name}: {testCase.TestCaseName}");
+                        new TestCaseData(solutionType, testCaseFile).SetName(
+                            $"{solutionType.Name}: {Path.GetFileNameWithoutExtension(testCaseFile)}");
 
                     var skipSolutionAttribute =
-                        (SkipSolutionAttribute?) Attribute.GetCustomAttribute(solution.GetType(),
+                        (SkipSolutionAttribute?) Attribute.GetCustomAttribute(solutionType,
                             typeof(SkipSolutionAttribute));
 
                     if (skipSolutionAttribute != null)
@@ -206,7 +222,10 @@ public abstract class TestsBase
         }
     };
 
-    private static TTestCase FromJson<TTestCase>(string testCaseFilePath) where TTestCase : TestCaseBase, new()
+    /// <summary>
+    /// Reads a test case file. One that does not parse is returned carrying its exception, so the test fails on it.
+    /// </summary>
+    protected static TTestCase LoadTestCase<TTestCase>(string testCaseFilePath) where TTestCase : TestCaseBase, new()
     {
         var name = Path.GetFileNameWithoutExtension(testCaseFilePath);
 
@@ -417,20 +436,32 @@ public abstract class TestsBase
         }
     }
 
-    protected static TTestCase[] GetTestCases<TProblemRelatedType, TTestCase>() where TTestCase : TestCaseBase, new()
+    /// <summary>
+    /// The files matching <paramref name="searchPattern"/> in the folder of the problem
+    /// <paramref name="problemRelatedType"/> belongs to, or none when it has no folder.
+    /// </summary>
+    protected static string[] GetProblemFiles(Type problemRelatedType, string searchPattern)
     {
-        var problemTestCaseDirectory = GetProblemDirectory(typeof(TProblemRelatedType));
+        var problemDirectory = GetProblemDirectory(problemRelatedType);
 
-        var testCaseFiles = problemTestCaseDirectory == null
+        return problemDirectory == null || !Directory.Exists(problemDirectory)
             ? Array.Empty<string>()
-            : Directory.GetFiles(problemTestCaseDirectory, "TestCase*.json");
-
-        if (testCaseFiles.Length == 0)
-        {
-            Assert.Fail("No test cases found");
-        }
-
-        var testCases = testCaseFiles.Select(FromJson<TTestCase>).ToArray();
-        return testCases;
+            : Directory.GetFiles(problemDirectory, searchPattern);
     }
+
+    /// <summary>
+    /// A case a test case source yields instead of failing: an assertion there breaks the whole fixture at discovery,
+    /// while this one case fails under its own name, saying why.
+    /// </summary>
+    /// <param name="message">Why the problem's tests cannot be built; it is also the case's name.</param>
+    /// <param name="argumentCount">How many parameters the test method takes, so NUnit accepts the case.</param>
+    protected static TestCaseData DiscoveryFailure(string message, int argumentCount)
+    {
+        var testCaseData = new TestCaseData(new object?[argumentCount]) { RunState = RunState.NotRunnable };
+        testCaseData.Properties.Set(PropertyNames.SkipReason, message);
+        return testCaseData.SetName(message);
+    }
+
+    // The first line of a solution script, where a SkipSolution marker goes; an empty script has none.
+    protected static string ReadFirstLine(string path) => File.ReadLines(path).FirstOrDefault() ?? string.Empty;
 }

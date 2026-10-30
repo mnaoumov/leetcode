@@ -12,8 +12,9 @@ public abstract partial class BashTestsBase<TBashTests> : TestsBase where TBashT
     [Test]
     [TestCaseSource(nameof(JoinedTestCases))]
     [Category("Bash")]
-    public void Test(string solutionScriptPath, BashTestCase testCase)
+    public void Test(string solutionScriptPath, string testCaseFilePath)
     {
+        var testCase = LoadTestCase<BashTestCase>(testCaseFilePath);
         RunTestWithTimeout(testCase,
             cancellationToken => RunBashTestAsync(solutionScriptPath, testCase, cancellationToken));
     }
@@ -82,24 +83,32 @@ public abstract partial class BashTestsBase<TBashTests> : TestsBase where TBashT
     {
         get
         {
-            var testCases = GetTestCases<TBashTests, BashTestCase>();
-            var problemTestCaseDirectory = GetProblemDirectory(typeof(TBashTests))!;
-            var solutionScriptFiles = Directory.GetFiles(problemTestCaseDirectory, "Solution*.sh");
+            const int argumentCount = 2;
+            var testCaseFiles = GetProblemFiles(typeof(TBashTests), "TestCase*.json");
+
+            if (testCaseFiles.Length == 0)
+            {
+                yield return DiscoveryFailure("No test cases found", argumentCount);
+                yield break;
+            }
+
+            var solutionScriptFiles = GetProblemFiles(typeof(TBashTests), "Solution*.sh");
 
             if (solutionScriptFiles.Length == 0)
             {
-                Assert.Fail("No Solution*.sh found");
+                yield return DiscoveryFailure("No Solution*.sh found", argumentCount);
+                yield break;
             }
 
             foreach (var solutionScriptFile in solutionScriptFiles)
             {
                 var solutionName = Path.GetFileNameWithoutExtension(solutionScriptFile);
-                var firstLine = File.ReadLines(solutionScriptFile).First();
-                var skipSolutionReason = SkipSolutionRegex().Match(firstLine).Groups[1].Value;
+                var skipSolutionReason = SkipSolutionRegex().Match(ReadFirstLine(solutionScriptFile)).Groups[1].Value;
 
-                foreach (var testCase in testCases)
+                foreach (var testCaseFile in testCaseFiles)
                 {
-                    var testCaseData = new TestCaseData(solutionScriptFile, testCase).SetName($"{solutionName}: {testCase.TestCaseName}");
+                    var testCaseData = new TestCaseData(solutionScriptFile, testCaseFile)
+                        .SetName($"{solutionName}: {Path.GetFileNameWithoutExtension(testCaseFile)}");
 
                     if (!string.IsNullOrEmpty(skipSolutionReason))
                     {

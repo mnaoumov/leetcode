@@ -10,8 +10,9 @@ public abstract class JavaScriptTestsBase<TJavaScriptTests> : JavaScriptTestsBas
     [Test]
     [TestCaseSource(nameof(JoinedTestCases))]
     [Category("JavaScript")]
-    public void Test(string solutionScriptPath, JavaScriptTestCase testCase, string testsScriptPath)
+    public void Test(string solutionScriptPath, string testCaseScriptPath, string testsScriptPath)
     {
+        var testCase = GetTestCase(testCaseScriptPath);
         RunTestWithTimeout(testCase,
             cancellationToken => RunJavaScriptTestAsync(solutionScriptPath, testCase, testsScriptPath, cancellationToken));
     }
@@ -58,7 +59,7 @@ public partial class JavaScriptTestsBase : TestsBase
         });
     }
 
-    private static JavaScriptTestCase GetTestCase(string testCaseScriptPath)
+    protected static JavaScriptTestCase GetTestCase(string testCaseScriptPath)
     {
         var testCaseName = Path.GetFileNameWithoutExtension(testCaseScriptPath);
 
@@ -77,38 +78,41 @@ public partial class JavaScriptTestsBase : TestsBase
 
     protected static IEnumerable<TestCaseData> CalculateJoinedTestCases(Type problemRelatedType)
     {
-        var problemTestCaseDirectory = GetProblemDirectory(problemRelatedType)!;
-        var testsScriptPath = Path.Combine(problemTestCaseDirectory, "Tests.js");
+        const int argumentCount = 3;
+        var testsScriptPath = GetProblemFiles(problemRelatedType, "Tests.js").SingleOrDefault();
 
-        if (!File.Exists(testsScriptPath))
+        if (testsScriptPath == null)
         {
-            Assert.Fail("No Tests.js found");
+            yield return DiscoveryFailure("No Tests.js found", argumentCount);
+            yield break;
         }
 
-        var solutionScriptFiles = Directory.GetFiles(problemTestCaseDirectory, "Solution*.js");
-        var testCaseScriptFiles = Directory.GetFiles(problemTestCaseDirectory, "TestCase*.js");
-        var testCases = testCaseScriptFiles.Select(GetTestCase).ToArray();
+        var solutionScriptFiles = GetProblemFiles(problemRelatedType, "Solution*.js");
 
         if (solutionScriptFiles.Length == 0)
         {
-            Assert.Fail("No Solution*.js found");
+            yield return DiscoveryFailure("No Solution*.js found", argumentCount);
+            yield break;
         }
 
-        if (testCases.Length == 0)
+        var testCaseScriptFiles = GetProblemFiles(problemRelatedType, "TestCase*.js");
+
+        if (testCaseScriptFiles.Length == 0)
         {
-            Assert.Fail("No TestCase*.js found");
+            yield return DiscoveryFailure("No TestCase*.js found", argumentCount);
+            yield break;
         }
 
         foreach (var solutionScriptFile in solutionScriptFiles)
         {
             var solutionName = Path.GetFileNameWithoutExtension(solutionScriptFile);
-            var firstLine = File.ReadLines(solutionScriptFile).First();
-            var skipSolutionReason = SkipSolutionRegex().Match(firstLine).Groups[1].Value;
+            var skipSolutionReason = SkipSolutionRegex().Match(ReadFirstLine(solutionScriptFile)).Groups[1].Value;
 
-            foreach (var testCase in testCases)
+            foreach (var testCaseScriptFile in testCaseScriptFiles)
             {
                 var testCaseData =
-                    new TestCaseData(solutionScriptFile, testCase, testsScriptPath).SetName($"{solutionName}: {testCase.TestCaseName}");
+                    new TestCaseData(solutionScriptFile, testCaseScriptFile, testsScriptPath)
+                        .SetName($"{solutionName}: {Path.GetFileNameWithoutExtension(testCaseScriptFile)}");
 
                 if (!string.IsNullOrEmpty(skipSolutionReason))
                 {

@@ -1,0 +1,6 @@
+{
+  "files": {
+    "input.txt": "hello"
+  },
+  "standardOutput": "hello"
+}

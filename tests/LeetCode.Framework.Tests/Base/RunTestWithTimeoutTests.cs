@@ -75,12 +75,15 @@ public class RunTestWithTimeoutTests : TestsBase
     [Test]
     public void AbortsABlockedActionAtTheWallClockLimit()
     {
+        // The CPU clock charges whole clock ticks of about 15.6 ms, so a budget under a few ticks is overrun by a
+        // blocked thread whose wake-ups a tick happens to land on, as one did on a loaded machine.
+        // Sleeping in short naps leaves the abort a managed point to land at.
         var exception = Assert.Throws<AssertionException>(() =>
-            RunTestWithTimeout(WithTimeout(10), () =>
+            RunTestWithTimeout(WithTimeout(100), () =>
             {
                 while (true)
                 {
-                    Thread.Sleep(10);
+                    Thread.Sleep(100);
                 }
             }));
 

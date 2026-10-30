@@ -6,7 +6,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     protected override void TestCore(ISolution solution, TestCase testCase)
     {
         Assert.That(solution.RemoveNthFromEnd(ListNode.Create(testCase.HeadValues), testCase.N),
-            Is.EqualTo(ListNode.CreateOrNull(testCase.OutputValues)));
+            Is.EqualTo(ListNode.CreateOrNull(testCase.OutputValues)).Using(ListNode.StructuralComparer));
     }
 
     public class TestCase : TestCaseBase

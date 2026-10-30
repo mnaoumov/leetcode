@@ -19,7 +19,7 @@ public static class ListNodeTestHelper
 
         var listAfter = listModificationFunc(listBefore);
 
-        Assert.That(listAfter, Is.EqualTo(ListNode.CreateOrNull(valuesAfter)));
+        Assert.That(listAfter, Is.EqualTo(ListNode.CreateOrNull(valuesAfter)).Using(ListNode.StructuralComparer));
 
         node = listAfter;
 

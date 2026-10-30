@@ -7,7 +7,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     {
         var lists = testCase.ListValuesArr.Select(ListNode.CreateOrNull).ToArray();
 
-        Assert.That(solution.MergeKLists(lists), Is.EqualTo(ListNode.CreateOrNull(testCase.OutputValues)));
+        Assert.That(solution.MergeKLists(lists), Is.EqualTo(ListNode.CreateOrNull(testCase.OutputValues)).Using(ListNode.StructuralComparer));
     }
 
     public class TestCase : TestCaseBase

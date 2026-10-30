@@ -5,7 +5,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestCore(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.BuildTree(testCase.Preorder, testCase.Inorder), Is.EqualTo(TreeNode.CreateOrNull(testCase.OutputValues)));
+        Assert.That(solution.BuildTree(testCase.Preorder, testCase.Inorder), Is.EqualTo(TreeNode.CreateOrNull(testCase.OutputValues)).Using(TreeNode.StructuralComparer));
     }
 
     public class TestCase : TestCaseBase

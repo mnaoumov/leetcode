@@ -7,7 +7,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     {
         var treeNode = TreeNode.Create(testCase.Root);
         treeNode.FindNode(testCase.FromNode)!.right = treeNode.FindNode(testCase.ToNode);
-        Assert.That(solution.CorrectBinaryTree(treeNode), Is.EqualTo(TreeNode.Create(testCase.Output)));
+        Assert.That(solution.CorrectBinaryTree(treeNode), Is.EqualTo(TreeNode.Create(testCase.Output)).Using(TreeNode.StructuralComparer));
     }
 
     public class TestCase : TestCaseBase

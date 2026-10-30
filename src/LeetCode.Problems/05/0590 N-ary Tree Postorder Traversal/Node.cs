@@ -1,5 +1,5 @@
 #pragma warning disable CA1051
-namespace LeetCode.DataStructure;
+namespace LeetCode.Problems._0590_N_ary_Tree_Postorder_Traversal;
 
 public class Node
 {
@@ -18,7 +18,6 @@ public class Node
     // ReSharper disable once MemberCanBePrivate.Global
     public Node(int val) : this(val, new List<Node>())
     {
-        this.val = val;
     }
 
     // ReSharper disable once MemberCanBePrivate.Global
@@ -63,21 +62,4 @@ public class Node
     }
 
     public override string ToString() => $"{{{val}}}";
-
-    public override bool Equals(object? obj)
-    {
-        var equals = (obj is Node node) && Equals(node);
-        return equals;
-    }
-
-    public override int GetHashCode()
-    {
-        return HashCode.Combine(val, children);
-    }
-
-    private bool Equals(Node obj)
-    {
-        return val == obj.val && children.Count == obj.children.Count &&
-               Enumerable.Range(0, children.Count).All(i => Equals(children[i], obj.children[i]));
-    }
 }

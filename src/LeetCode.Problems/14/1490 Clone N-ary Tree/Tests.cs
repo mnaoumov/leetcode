@@ -13,7 +13,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
             Assert.That(cloned, Is.Not.SameAs(node));
         }
 
-        Assert.That(cloned, Is.EqualTo(node));
+        Assert.That(cloned, Is.EqualTo(node).Using(Node.StructuralComparer));
     }
 
     public class TestCase : TestCaseBase

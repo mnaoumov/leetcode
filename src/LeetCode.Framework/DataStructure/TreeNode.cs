@@ -64,22 +64,91 @@ public class TreeNode
 
     public static TreeNode Create(int?[] values) => CreateOrNull(values) ?? throw new ArgumentException("Values represent an empty tree", nameof(values));
 
-    public override bool Equals(object? obj) => obj is TreeNode treeNode && Equals((val, left, right), (treeNode.val, treeNode.left, treeNode.right));
-
-    // ReSharper disable once BaseObjectGetHashCodeCallInGetHashCode
-    public override int GetHashCode() => base.GetHashCode();
+    /// <summary>
+    /// Compares trees by shape and values. <see cref="TreeNode"/> itself keeps reference equality, as LeetCode's does,
+    /// so a solution may key a collection by node; a test that compares trees by value passes this comparer.
+    /// </summary>
+    public static IEqualityComparer<TreeNode?> StructuralComparer { get; } = new TreeNodeStructuralComparer();
 
     public override string ToString()
     {
+        if (HasCycle(this))
+        {
+            return $"{val.ToString(CultureInfo.InvariantCulture)},...cycle";
+        }
+
         var valuesStr = GetValues(this).Select(value => value == null ? "null" : ((int)value).ToString(CultureInfo.InvariantCulture));
         return string.Join(",", valuesStr);
     }
 
     public static int?[] GetValues(TreeNode? treeNode)
     {
+        if (HasCycle(treeNode))
+        {
+            throw new InvalidOperationException("The tree has a cycle, so it has no level-order values");
+        }
+
         var values = new List<int?>();
         TraverseByLevel(treeNode, node => values.Add(node?.val));
         return values.ToArray();
+    }
+
+    /// <summary>
+    /// A node reached twice is not a cycle by itself: a solution may hang one subtree in two places, and that tree is
+    /// still finite. Only a node reached again from below itself makes a traversal endless.
+    /// </summary>
+    private static bool HasCycle(TreeNode? root)
+    {
+        if (root == null)
+        {
+            return false;
+        }
+
+        var onPath = new HashSet<TreeNode>(ReferenceEqualityComparer.Instance);
+        var done = new HashSet<TreeNode>(ReferenceEqualityComparer.Instance);
+        var stack = new Stack<(TreeNode Node, bool IsExit)>();
+        stack.Push((root, false));
+
+        while (stack.Count > 0)
+        {
+            var (node, isExit) = stack.Pop();
+
+            if (isExit)
+            {
+                onPath.Remove(node);
+                done.Add(node);
+                continue;
+            }
+
+            if (done.Contains(node))
+            {
+                continue;
+            }
+
+            if (!onPath.Add(node))
+            {
+                return true;
+            }
+
+            stack.Push((node, true));
+
+            foreach (var child in new[] { node.right, node.left })
+            {
+                if (child == null)
+                {
+                    continue;
+                }
+
+                if (onPath.Contains(child))
+                {
+                    return true;
+                }
+
+                stack.Push((child, false));
+            }
+        }
+
+        return false;
     }
 
     private static void TraverseByLevel(TreeNode? node, Action<TreeNode?> treeAction)
@@ -115,6 +184,7 @@ public class TreeNode
 
     public TreeNode? FindNode(int value)
     {
+        var visited = new HashSet<TreeNode>(ReferenceEqualityComparer.Instance);
         var queue = new Queue<TreeNode?>();
         queue.Enqueue(this);
 
@@ -122,7 +192,7 @@ public class TreeNode
         {
             var node = queue.Dequeue();
 
-            if (node == null)
+            if (node == null || !visited.Add(node))
             {
                 continue;
             }
@@ -146,5 +216,77 @@ public class TreeNode
             .Select(valueObj => valueObj == null ? (int?) null : Convert.ToInt32(valueObj, CultureInfo.InvariantCulture))
             .ToArray();
         return CreateOrNull(values);
+    }
+
+    private sealed class TreeNodeStructuralComparer : IEqualityComparer<TreeNode?>
+    {
+        // Equal trees share every level-order prefix, so hashing a bounded prefix keeps the Equals contract.
+        private const int HashedPrefixLength = 64;
+
+        /// <summary>
+        /// Compares with an explicit stack, so a deep or skewed tree does not overflow the stack. A pair of nodes
+        /// already compared is not compared again, so a cyclic structure terminates.
+        /// </summary>
+        public bool Equals(TreeNode? x, TreeNode? y)
+        {
+            var comparedPairs = new HashSet<(TreeNode, TreeNode)>(ReferencePairComparer<TreeNode>.Instance);
+            var stack = new Stack<(TreeNode?, TreeNode?)>();
+            stack.Push((x, y));
+
+            while (stack.Count > 0)
+            {
+                var (a, b) = stack.Pop();
+
+                if (a == null || b == null)
+                {
+                    if (a != b)
+                    {
+                        return false;
+                    }
+
+                    continue;
+                }
+
+                if (ReferenceEquals(a, b) || !comparedPairs.Add((a, b)))
+                {
+                    continue;
+                }
+
+                if (a.val != b.val)
+                {
+                    return false;
+                }
+
+                stack.Push((a.right, b.right));
+                stack.Push((a.left, b.left));
+            }
+
+            return true;
+        }
+
+        public int GetHashCode(TreeNode? obj)
+        {
+            var hashCode = new HashCode();
+            var queue = new Queue<TreeNode?>();
+            queue.Enqueue(obj);
+
+            for (var i = 0; i < HashedPrefixLength && queue.Count > 0; i++)
+            {
+                var node = queue.Dequeue();
+
+                if (node == null)
+                {
+                    hashCode.Add(-1);
+                    continue;
+                }
+
+                hashCode.Add(1);
+                hashCode.Add(node.val);
+                queue.Enqueue(node.left);
+                queue.Enqueue(node.right);
+            }
+
+            return hashCode.ToHashCode();
+        }
     }
 }

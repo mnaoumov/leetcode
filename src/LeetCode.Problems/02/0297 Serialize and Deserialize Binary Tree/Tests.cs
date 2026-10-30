@@ -9,7 +9,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
         var deser = solution.Create();
         var root = TreeNode.CreateOrNull(testCase.Values);
         var ans = deser.deserialize(ser.serialize(root));
-        Assert.That(ans, Is.EqualTo(root));
+        Assert.That(ans, Is.EqualTo(root).Using(TreeNode.StructuralComparer));
     }
 
     public class TestCase : TestCaseBase

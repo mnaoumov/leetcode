@@ -7,7 +7,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
     {
         Assert.That(
             solution.MergeInBetween(ListNode.Create(testCase.List1), testCase.A, testCase.B,
-                ListNode.Create(testCase.List2)), Is.EqualTo(ListNode.CreateOrNull(testCase.Output)));
+                ListNode.Create(testCase.List2)), Is.EqualTo(ListNode.CreateOrNull(testCase.Output)).Using(ListNode.StructuralComparer));
     }
 
     public class TestCase : TestCaseBase

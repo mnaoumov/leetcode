@@ -5,7 +5,7 @@ public class Tests : TestsBase<ISolution, Tests.TestCase>
 {
     protected override void TestCore(ISolution solution, TestCase testCase)
     {
-        Assert.That(solution.MergeTwoLists(ListNode.CreateOrNull(testCase.List1Values), ListNode.CreateOrNull(testCase.List2Values)), Is.EqualTo(ListNode.CreateOrNull(testCase.OutputValues)));
+        Assert.That(solution.MergeTwoLists(ListNode.CreateOrNull(testCase.List1Values), ListNode.CreateOrNull(testCase.List2Values)), Is.EqualTo(ListNode.CreateOrNull(testCase.OutputValues)).Using(ListNode.StructuralComparer));
     }
 
     public class TestCase : TestCaseBase

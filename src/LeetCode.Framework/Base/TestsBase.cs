@@ -97,15 +97,55 @@ public abstract partial class TestsBase
     }
 
     protected static void AssertCollectionEqualWithDetails<T>(IEnumerable<T> actual, IEnumerable<T> expected,
-        string? message = null) => AssertEqualWithDetails(actual.ToArray(), expected.ToArray(), message);
+        string? message = null)
+    {
+        if (GetStructuralComparer<T>() is not { } comparer)
+        {
+            AssertEqualWithDetails(actual.ToArray(), expected.ToArray(), message);
+            return;
+        }
+
+        var actualArray = actual.ToArray();
+        var expectedArray = expected.ToArray();
+        Assert.That(actualArray, Is.EqualTo(expectedArray).Using(comparer),
+            $"{(message == null ? null : message + "\r\n")}Actual:\r\n{FormatItems(actualArray)}\r\n\r\nExpected:\r\n{FormatItems(expectedArray)}\r\n\r\n");
+    }
 
     protected static void AssertCollectionEquivalentWithDetails<T>(IEnumerable<T> actual, IEnumerable<T> expected)
     {
         var actualArray = actual.ToArray();
         var expectedArray = expected.ToArray();
+        if (GetStructuralComparer<T>() is { } comparer)
+        {
+            Assert.That(actualArray, Is.EquivalentTo(expectedArray).Using(comparer),
+                "Actual:\r\n{0}\r\n\r\nExpected:\r\n{1}\r\n\r\n", FormatItems(actualArray), FormatItems(expectedArray));
+            return;
+        }
+
         Assert.That(actualArray, Is.EquivalentTo(expectedArray), "Actual:\r\n{0}\r\n\r\nExpected:\r\n{1}\r\n\r\n",
             JsonSerializer.Serialize(actualArray), JsonSerializer.Serialize(expectedArray));
     }
+
+    /// <summary>
+    /// Nodes compare by reference, as on LeetCode, so collections of them are compared by structure here instead.
+    /// </summary>
+    private static IEqualityComparer<T>? GetStructuralComparer<T>()
+    {
+        if (typeof(T) == typeof(ListNode))
+        {
+            return (IEqualityComparer<T>) ListNode.StructuralComparer;
+        }
+
+        if (typeof(T) == typeof(TreeNode))
+        {
+            return (IEqualityComparer<T>) TreeNode.StructuralComparer;
+        }
+
+        return null;
+    }
+
+    // JSON shows a node as {}, its fields being public fields; its ToString shows its values.
+    private static string FormatItems<T>(T[] items) => $"[{string.Join(", ", items.Select(item => item?.ToString() ?? "null"))}]";
 
     protected static void AssertCollectionEquivalentIgnoringItemOrderWithDetails<T>(IEnumerable<IEnumerable<T>> actual,
         IEnumerable<IEnumerable<T>> expected)

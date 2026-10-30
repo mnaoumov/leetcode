@@ -55,7 +55,7 @@ public abstract class ClassDesignTestsBase<TSolution, TSut> : TestsBase<TSolutio
             {
                 if (ContainsFloatingPoint(expected) || ContainsFloatingPoint(actual))
                 {
-                    Assert.That(actual, Is.EqualTo(expected).Within(1e-5), assertMessage);
+                    Assert.That(actual, IsEqualToWithinTolerance(expected), assertMessage);
                 }
                 else if (actual is not string && actual is IEnumerable actualEnumerable && expected is IEnumerable expectedEnumerable)
                 {

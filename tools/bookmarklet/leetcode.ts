@@ -1,4 +1,5 @@
-const PROJECT_PATH = 'F:\\\\dev\\\\leetcode\\\\TemplateGenerator\\\\TemplateGenerator.csproj';
+// Defined by generate-url.ts at build time.
+declare const PROJECT_PATH: string;
 
 // Characters used by LeetCode's Monaco editor as visual markers
 const EDITOR_ARTIFACTS = /[\u00A0\u00B7\u200C]/g;
@@ -77,7 +78,7 @@ function getContestPrefix(questionNumber: string): string {
 }
 
 function buildCommand(title: string, code: string, description: string): string {
-  const prefix = `dotnet run --project ${PROJECT_PATH} --`;
+  const prefix = `dotnet run --project "${PROJECT_PATH}" --`;
 
   if (isClassDesign(code)) {
     return `${prefix} csharp-class --title "${escapeArg(title)}" --class-code "${escapeArg(code)}" --description "${escapeArg(description)}"`;

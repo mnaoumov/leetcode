@@ -47,6 +47,42 @@ namespace LeetCode.Framework.Tests.Sql
         }
 
         [Test]
+        public async Task RetryOnce_RunsAgainAfterAnAcceptedFailure()
+        {
+            var calls = 0;
+
+            var result = await SqlTestsBase<FakeSqlTests>.RetryOnceAsync(
+                () => ++calls == 1 ? throw new TimeoutException() : Task.FromResult(calls),
+                e => e is TimeoutException);
+
+            Assert.That(result, Is.EqualTo(2));
+        }
+
+        [Test]
+        public void RetryOnce_DoesNotRetryAnotherFailure()
+        {
+            var calls = 0;
+
+            Assert.That(() => SqlTestsBase<FakeSqlTests>.RetryOnceAsync<int>(
+                    () => { calls++; throw new InvalidOperationException(); },
+                    e => e is TimeoutException),
+                Throws.InvalidOperationException);
+            Assert.That(calls, Is.EqualTo(1));
+        }
+
+        [Test]
+        public void RetryOnce_GivesUpAfterTheSecondFailure()
+        {
+            var calls = 0;
+
+            Assert.That(() => SqlTestsBase<FakeSqlTests>.RetryOnceAsync<int>(
+                    () => { calls++; throw new TimeoutException(); },
+                    e => e is TimeoutException),
+                Throws.TypeOf<TimeoutException>());
+            Assert.That(calls, Is.EqualTo(2));
+        }
+
+        [Test]
         public void ModifiedTable_IsTheOnlyTable()
         {
             var testCase = CreateTestCase(["id", "email"], ("Person", ["id", "email"]));

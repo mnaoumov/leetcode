@@ -1,0 +1,8 @@
+{
+  "$schema": "../../testcase.schema.json",
+  "n": 3,
+  "edges": [[0,1,1802],[1,0,4223],[2,0,1537]],
+  "labels": "gki",
+  "k": 1,
+  "output": -1
+}

@@ -9,8 +9,14 @@ namespace LeetCode.Sql;
 public abstract class SqlTestsBase<TSqlTests> : TestsBase where TSqlTests : SqlTestsBase<TSqlTests>
 {
     // One instance per test run, as LocalDb advises: its template is built once and each test's database is cloned from it.
+    // Its files go under the local application data folder rather than LocalDb's default, the temp folder: SQL Server
+    // refuses a data file on a volume whose sectors are larger than 4 KB, and the temp folder may well sit on one.
     private static readonly Lazy<SqlInstance> Instance =
-        new(() => new SqlInstance("LeetCodeSqlTests", _ => Task.CompletedTask));
+        new(() => new SqlInstance("LeetCodeSqlTests", _ => Task.CompletedTask, LocalDbDirectory));
+
+    private static string LocalDbDirectory =>
+        Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "LocalDb",
+            "LeetCodeSqlTests");
 
     [Test]
     [TestCaseSource(nameof(JoinedTestCases))]

@@ -1,5 +1,6 @@
 using System.Collections.Concurrent;
 using System.Diagnostics;
+using System.Globalization;
 using System.Reflection;
 using System.Runtime;
 using System.Runtime.ExceptionServices;
@@ -95,7 +96,7 @@ public abstract class TestsBase
 
         if (ContainsFloatingPoint(expected) || ContainsFloatingPoint(actual))
         {
-            Assert.That(actual, Is.EqualTo(expected).Within(1e-5),
+            Assert.That(actual, IsEqualToWithinTolerance(expected),
                 $"{message}Actual:\r\n{JsonSerializer.Serialize(actual)}\r\n\r\nExpected:\r\n{JsonSerializer.Serialize(expected)}\r\n\r\n");
         }
         else
@@ -116,6 +117,47 @@ public abstract class TestsBase
         System.Collections.IEnumerable items => items.Cast<object?>().Any(ContainsFloatingPoint),
         _ => false
     };
+
+    /// <summary>
+    /// Equality where floating-point numbers at any depth match within 1e-5. NUnit's own <c>Within</c> refuses a
+    /// collection that mixes numbers with anything else, such as a SQL result row of strings and decimals.
+    /// </summary>
+    protected static EqualConstraint IsEqualToWithinTolerance(object? expected) =>
+        Is.EqualTo(expected).Using(ToleranceComparer.Instance);
+
+    private sealed class ToleranceComparer : System.Collections.IEqualityComparer
+    {
+        private const double Tolerance = 1e-5;
+
+        public static readonly ToleranceComparer Instance = new();
+
+        public new bool Equals(object? x, object? y)
+        {
+            if (IsNumber(x) && IsNumber(y))
+            {
+                return x is double or float or decimal || y is double or float or decimal
+                    ? Math.Abs(Convert.ToDouble(x, CultureInfo.InvariantCulture) -
+                               Convert.ToDouble(y, CultureInfo.InvariantCulture)) <= Tolerance
+                    : Convert.ToDecimal(x, CultureInfo.InvariantCulture) ==
+                      Convert.ToDecimal(y, CultureInfo.InvariantCulture);
+            }
+
+            if (x is not string && y is not string && x is System.Collections.IEnumerable xItems &&
+                y is System.Collections.IEnumerable yItems)
+            {
+                var xArray = xItems.Cast<object?>().ToArray();
+                var yArray = yItems.Cast<object?>().ToArray();
+                return xArray.Length == yArray.Length && xArray.Zip(yArray).All(pair => Equals(pair.First, pair.Second));
+            }
+
+            return object.Equals(x, y);
+        }
+
+        public int GetHashCode(object obj) => 0;
+
+        private static bool IsNumber(object? value) =>
+            value is sbyte or byte or short or ushort or int or uint or long or ulong or float or double or decimal;
+    }
 
     protected static void AssertCollectionEqualWithDetails<T>(IEnumerable<T> actual, IEnumerable<T> expected,
         string? message = null)

@@ -24,22 +24,19 @@ public abstract class SqlTestsBase<TSqlTests> : TestsBase where TSqlTests : SqlT
     public void Test(string solutionScriptPath, string testCaseFilePath)
     {
         var testCase = LoadTestCase<SqlTestCase>(testCaseFilePath);
-        RunTestWithTimeout(testCase,
-            cancellationToken => RunSqlTestAsync(solutionScriptPath, testCase, cancellationToken));
-    }
 
-    private async Task RunSqlTestAsync(string solutionScriptPath, SqlTestCase testCase,
-        CancellationToken cancellationToken)
-    {
-        var db = await Instance.Value.Build(GetDatabaseName(solutionScriptPath, testCase)).ConfigureAwait(true);
+        // Cloning the database and dropping it are outside the budget: they are LocalDb's file work, not the test's,
+        // and on a loaded machine either can take most of the 30 seconds by itself.
+        var db = Instance.Value.Build(GetDatabaseName(solutionScriptPath, testCase)).GetAwaiter().GetResult();
 
         try
         {
-            await RunSqlTestAsync(db.Connection, solutionScriptPath, testCase, cancellationToken).ConfigureAwait(true);
+            RunTestWithTimeout(testCase,
+                cancellationToken => RunSqlTestAsync(db.Connection, solutionScriptPath, testCase, cancellationToken));
         }
         finally
         {
-            await db.Delete().ConfigureAwait(true);
+            db.Delete().GetAwaiter().GetResult();
         }
     }
 
@@ -163,14 +160,64 @@ public abstract class SqlTestsBase<TSqlTests> : TestsBase where TSqlTests : SqlT
 
         var expectedData = dt.Rows.Cast<DataRow>().Select(row => row.ItemArray).ToArray();
 
+        // NUnit's equivalence compares every row with every other, which took half a minute on 1,454 rows, so both
+        // sides are put in one order instead and compared in it.
         if (IgnoreRowOrder)
         {
-            AssertCollectionEquivalentWithDetails(actualData, expectedData);
+            actualData = OrderRows(actualData);
+            expectedData = OrderRows(expectedData);
         }
-        else
+
+        AssertCollectionEqualWithDetails(actualData, expectedData);
+    }
+
+    internal static object?[][] OrderRows(IEnumerable<object?[]> rows) => [.. rows.Order(RowComparer.Instance)];
+
+    /// <summary>
+    /// Orders result rows column by column: nulls first, numbers by value whatever their type, anything else by its
+    /// invariant text.
+    /// </summary>
+    private sealed class RowComparer : IComparer<object?[]>
+    {
+        public static readonly RowComparer Instance = new();
+
+        public int Compare(object?[]? x, object?[]? y)
         {
-            AssertCollectionEqualWithDetails(actualData, expectedData);
+            ArgumentNullException.ThrowIfNull(x);
+            ArgumentNullException.ThrowIfNull(y);
+
+            for (var i = 0; i < Math.Min(x.Length, y.Length); i++)
+            {
+                var result = CompareValues(x[i], y[i]);
+                if (result != 0)
+                {
+                    return result;
+                }
+            }
+
+            return x.Length.CompareTo(y.Length);
         }
+
+        private static int CompareValues(object? x, object? y)
+        {
+            var xIsNull = x is null or DBNull;
+            var yIsNull = y is null or DBNull;
+            if (xIsNull || yIsNull)
+            {
+                return yIsNull.CompareTo(xIsNull);
+            }
+
+            if (IsNumber(x) && IsNumber(y))
+            {
+                return Convert.ToDouble(x, CultureInfo.InvariantCulture)
+                    .CompareTo(Convert.ToDouble(y, CultureInfo.InvariantCulture));
+            }
+
+            return string.CompareOrdinal(FormatValue(x), FormatValue(y));
+        }
+
+        private static bool IsNumber(object? value) =>
+            value is sbyte or byte or short or ushort or int or uint or long or ulong or float or double or decimal;
     }
 
     private static void HandleException(Exception e, string message)

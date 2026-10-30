@@ -1,5 +1,5 @@
 {
   "$schema": "../../testcase.schema.json",
   "grid": [[1],[2]],
-  "output": 7
+  "output": 0
 }

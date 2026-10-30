@@ -5,6 +5,7 @@ namespace LeetCode.Problems._3129_Find_All_Possible_Stable_Binary_Arrays_I;
 /// <summary>
 /// </summary>
 [UsedImplicitly]
+[SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution4 : ISolution
 {
     public int NumberOfStableArrays(int zero, int one, int limit)

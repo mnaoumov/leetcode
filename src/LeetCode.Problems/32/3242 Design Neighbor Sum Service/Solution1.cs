@@ -6,10 +6,10 @@ namespace LeetCode.Problems._3242_Design_Neighbor_Sum_Service;
 [UsedImplicitly]
 public class Solution1 : ISolution
 {
-    public IneighborSum Create(int[][] grid) => new neighborSum(grid);
+    public INeighborSum Create(int[][] grid) => new neighborSum(grid);
 
     // ReSharper disable once InconsistentNaming
-    private class neighborSum : IneighborSum
+    private class neighborSum : INeighborSum
     {
         private readonly int[][] _grid;
         private readonly (int row, int column)[] _valueToCoordinates;

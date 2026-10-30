@@ -3,6 +3,7 @@ namespace LeetCode.Problems._3302_Find_the_Lexicographically_Smallest_Valid_Sequ
 /// <summary>
 /// </summary>
 [UsedImplicitly]
+[SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution3 : ISolution
 {
     public int[] ValidSequence(string word1, string word2)

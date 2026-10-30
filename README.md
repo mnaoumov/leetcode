@@ -47,3 +47,9 @@ All [my LeetCode](https://leetcode.com/mnaoumov/) tasks solved
 The JavaScript problems run on Node.js, so `node` and `npm` must be on `PATH`: the first build runs `npm ci` in `src/LeetCode.Framework/JavaScript` to restore `node_modules`, which is not committed.
 
 A problem moves into `!WIP` to be worked on and back into its bucket when it is done. Within a problem folder, `Solution<n>` and `TestCase<n>` are padded to the width of the largest number, so they sort in order.
+
+## Filing an issue (for AI agents and humans)
+
+Open issues through the [issue forms](https://github.com/mnaoumov/leetcode/issues/new/choose), not as blank issues.
+
+Filing from the CLI or the API (`gh issue create --body`, or an AI agent filing for you) skips the form, and `gh issue create --template` cannot load an issue form. In that case, open the matching form in [`.github/ISSUE_TEMPLATE/`](https://github.com/mnaoumov/leetcode/tree/HEAD/.github/ISSUE_TEMPLATE), copy every field as a `### <label>` heading in the form's order, and fill in each one. Always state the version you used and your operating system.

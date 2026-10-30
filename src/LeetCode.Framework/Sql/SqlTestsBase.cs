@@ -1,13 +1,16 @@
 using System.Data;
-using System.Text.RegularExpressions;
+using System.Globalization;
+using System.Security.Cryptography;
+using System.Text;
 using Microsoft.Data.SqlClient;
 
 namespace LeetCode.Sql;
 
-public abstract partial class SqlTestsBase<TSqlTests> : TestsBase where TSqlTests : SqlTestsBase<TSqlTests>
+public abstract class SqlTestsBase<TSqlTests> : TestsBase where TSqlTests : SqlTestsBase<TSqlTests>
 {
-    [GeneratedRegex("-- SkipSolution: (.+)")]
-    private static partial Regex SkipSolutionRegex();
+    // One instance per test run, as LocalDb advises: its template is built once and each test's database is cloned from it.
+    private static readonly Lazy<SqlInstance> Instance =
+        new(() => new SqlInstance("LeetCodeSqlTests", _ => Task.CompletedTask));
 
     [Test]
     [TestCaseSource(nameof(JoinedTestCases))]
@@ -22,19 +25,41 @@ public abstract partial class SqlTestsBase<TSqlTests> : TestsBase where TSqlTest
     private async Task RunSqlTestAsync(string solutionScriptPath, SqlTestCase testCase,
         CancellationToken cancellationToken)
     {
-        using var sqlInstance = new SqlInstance("LeetCodeSqlTests", _ => Task.CompletedTask);
-        var dbName = $"{new FileInfo(solutionScriptPath).Directory!.Name} - {Path.GetFileNameWithoutExtension(solutionScriptPath)} - {testCase.TestCaseName}";
-        dbName = string.Join("_", dbName.Split(Path.GetInvalidFileNameChars()));
-
-        var db = await sqlInstance.Build(dbName).ConfigureAwait(true);
-        // ReSharper disable once UseAwaitUsing
-        using var command = db.Connection.CreateCommand();
+        var db = await Instance.Value.Build(GetDatabaseName(solutionScriptPath, testCase)).ConfigureAwait(true);
 
         try
         {
+            await RunSqlTestAsync(db.Connection, solutionScriptPath, testCase, cancellationToken).ConfigureAwait(true);
+        }
+        finally
+        {
+            await db.Delete().ConfigureAwait(true);
+        }
+    }
+
+    /// <summary>
+    /// A database name unique to the test, kept well under SQL Server's 128 characters: the problem folder, cut short,
+    /// and a hash of the whole test.
+    /// </summary>
+    internal static string GetDatabaseName(string solutionScriptPath, TestCaseBase testCase)
+    {
+        ArgumentNullException.ThrowIfNull(testCase);
+
+        var problemName = new FileInfo(solutionScriptPath).Directory!.Name;
+        var key = $"{Path.GetFullPath(solutionScriptPath)}|{testCase.TestCaseName}";
+        var hash = Convert.ToHexString(SHA256.HashData(Encoding.UTF8.GetBytes(key)))[..16];
+        var prefix = new string(problemName.Where(char.IsAsciiLetterOrDigit).Take(40).ToArray());
+        return $"{prefix}_{hash}";
+    }
+
+    private async Task RunSqlTestAsync(SqlConnection connection, string solutionScriptPath, SqlTestCase testCase,
+        CancellationToken cancellationToken)
+    {
+        try
+        {
             var problemTestCaseDirectory = GetProblemDirectory(typeof(TSqlTests));
-            command.CommandText = await File.ReadAllTextAsync(Path.Combine(problemTestCaseDirectory!, "SetUp.sql"), cancellationToken).ConfigureAwait(true);
-            await command.ExecuteNonQueryAsync(cancellationToken).ConfigureAwait(true);
+            var setUpScript = await File.ReadAllTextAsync(Path.Combine(problemTestCaseDirectory!, "SetUp.sql"), cancellationToken).ConfigureAwait(true);
+            await ExecuteNonQueryAsync(connection, setUpScript, cancellationToken).ConfigureAwait(true);
         }
 #pragma warning disable CA1031
         catch (Exception e)
@@ -45,6 +70,9 @@ public abstract partial class SqlTestsBase<TSqlTests> : TestsBase where TSqlTest
 
         try
         {
+            // ReSharper disable once UseAwaitUsing
+            using var command = connection.CreateCommand();
+
             foreach (var tableName in testCase.Rows.Keys)
             {
                 var columnNames = testCase.Headers[tableName];
@@ -70,16 +98,16 @@ public abstract partial class SqlTestsBase<TSqlTests> : TestsBase where TSqlTest
             HandleException(e, "Error preparing test case data");
         }
 
-        DataTable dt = null!;
+        using var dt = new DataTable();
 
         try
         {
             var script = await File.ReadAllTextAsync(solutionScriptPath, cancellationToken).ConfigureAwait(true);
 
-            command.CommandText = GetResultQuery(db, testCase, script);
+            // ReSharper disable once UseAwaitUsing
+            using var command = await GetResultCommandAsync(connection, testCase, script, cancellationToken).ConfigureAwait(true);
             // ReSharper disable once UseAwaitUsing
             using var reader = await command.ExecuteReaderAsync(cancellationToken).ConfigureAwait(true);
-            dt = new DataTable();
             dt.Load(reader);
         }
 #pragma warning disable CA1031
@@ -137,8 +165,6 @@ public abstract partial class SqlTestsBase<TSqlTests> : TestsBase where TSqlTest
         {
             AssertCollectionEqualWithDetails(actualData, expectedData);
         }
-
-        dt.Dispose();
     }
 
     private static void HandleException(Exception e, string message)
@@ -153,9 +179,35 @@ public abstract partial class SqlTestsBase<TSqlTests> : TestsBase where TSqlTest
         }
     }
 
+    protected static async Task ExecuteNonQueryAsync(SqlConnection connection, string commandText,
+        CancellationToken cancellationToken)
+    {
+        ArgumentNullException.ThrowIfNull(connection);
+
+        // ReSharper disable once UseAwaitUsing
+        using var command = connection.CreateCommand();
+        command.CommandText = commandText;
+        await command.ExecuteNonQueryAsync(cancellationToken).ConfigureAwait(true);
+    }
+
+    /// <summary>
+    /// Quotes a name as a SQL Server identifier, so it is used as it is rather than parsed as SQL.
+    /// </summary>
+    protected static string QuoteIdentifier(string name)
+    {
+        ArgumentNullException.ThrowIfNull(name);
+        return $"[{name.Replace("]", "]]", StringComparison.Ordinal)}]";
+    }
+
+    protected static string FormatValue(object? value) => Convert.ToString(value, CultureInfo.InvariantCulture) ?? "NULL";
+
     protected virtual bool IgnoreRowOrder => false;
 
-    protected abstract string GetResultQuery(SqlDatabase db, SqlTestCase testCase, string script);
+    /// <summary>
+    /// Runs whatever the solution script must run first, and returns the command whose rows are its result.
+    /// </summary>
+    protected abstract Task<SqlCommand> GetResultCommandAsync(SqlConnection connection, SqlTestCase testCase,
+        string script, CancellationToken cancellationToken);
 
 #pragma warning disable CA1000
     public static IEnumerable<TestCaseData> JoinedTestCases
@@ -182,19 +234,9 @@ public abstract partial class SqlTestsBase<TSqlTests> : TestsBase where TSqlTest
 
             foreach (var solutionScriptFile in solutionScriptFiles)
             {
-                var solutionName = Path.GetFileNameWithoutExtension(solutionScriptFile);
-                var skipSolutionReason = SkipSolutionRegex().Match(ReadFirstLine(solutionScriptFile)).Groups[1].Value;
-
-                foreach (var testCaseFile in testCaseFiles)
+                foreach (var testCaseData in JoinScriptTestCases(solutionScriptFile, "--", testCaseFiles, argumentCount,
+                             testCaseFile => [solutionScriptFile, testCaseFile]))
                 {
-                    var testCaseData = new TestCaseData(solutionScriptFile, testCaseFile)
-                        .SetName($"{solutionName}: {Path.GetFileNameWithoutExtension(testCaseFile)}");
-
-                    if (!string.IsNullOrEmpty(skipSolutionReason))
-                    {
-                        testCaseData.Explicit(skipSolutionReason);
-                    }
-
                     yield return testCaseData;
                 }
             }

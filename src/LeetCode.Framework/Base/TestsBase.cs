@@ -65,12 +65,7 @@ public abstract class TestsBase<TSolution, TTestCase> : TestsBase where TTestCas
                         (SkipSolutionAttribute?) Attribute.GetCustomAttribute(solutionType,
                             typeof(SkipSolutionAttribute));
 
-                    if (skipSolutionAttribute != null)
-                    {
-                        testCaseData.Explicit(skipSolutionAttribute.Reason.ToString());
-                    }
-
-                    yield return testCaseData;
+                    yield return Skip(testCaseData, skipSolutionAttribute?.Reason);
                 }
             }
         }
@@ -462,6 +457,72 @@ public abstract class TestsBase
         return testCaseData.SetName(message);
     }
 
+    /// <summary>
+    /// Marks a solution's test case as skipped, when the solution is marked so. A C# solution is marked with a
+    /// <see cref="SkipSolutionAttribute"/>, a script with a first-line comment; both name a <see cref="SkipSolutionReason"/>.
+    /// </summary>
+    internal static TestCaseData Skip(TestCaseData testCaseData, SkipSolutionReason? reason) =>
+        reason is { } value ? testCaseData.Explicit(value.ToString()) : testCaseData;
+
+    /// <summary>
+    /// The test cases of one solution script, each skipped when the script is marked so: its first line is
+    /// <c>&lt;comment&gt; SkipSolution: &lt;reason&gt;</c>, the reason a <see cref="SkipSolutionReason"/>.
+    /// A marker naming no reason fails discovery rather than being ignored.
+    /// </summary>
+    /// <param name="solutionScriptFile">The solution script.</param>
+    /// <param name="lineComment">What starts a comment in the script's language: <c>--</c>, <c>#</c>, <c>//</c>.</param>
+    /// <param name="testCaseFiles">The problem's test cases.</param>
+    /// <param name="argumentCount">How many parameters the test method takes.</param>
+    /// <param name="getArguments">The test method's arguments for one test case.</param>
+    protected static IEnumerable<TestCaseData> JoinScriptTestCases(string solutionScriptFile, string lineComment,
+        IEnumerable<string> testCaseFiles, int argumentCount, Func<string, object?[]> getArguments)
+    {
+        ArgumentNullException.ThrowIfNull(testCaseFiles);
+        ArgumentNullException.ThrowIfNull(getArguments);
+
+        var solutionName = Path.GetFileNameWithoutExtension(solutionScriptFile);
+
+        if (!TryReadScriptSkipReason(ReadFirstLine(solutionScriptFile), lineComment, out var reason, out var error))
+        {
+            return [DiscoveryFailure($"{solutionName}: {error}", argumentCount)];
+        }
+
+        return testCaseFiles.Select(testCaseFile =>
+            Skip(new TestCaseData(getArguments(testCaseFile))
+                .SetName($"{solutionName}: {Path.GetFileNameWithoutExtension(testCaseFile)}"), reason));
+    }
+
+    /// <summary>
+    /// Reads the <see cref="SkipSolutionReason"/> a script's first line names, if it is a SkipSolution marker.
+    /// </summary>
+    /// <returns><see langword="false"/> when the line is a marker naming no known reason.</returns>
+    internal static bool TryReadScriptSkipReason(string firstLine, string lineComment, out SkipSolutionReason? reason,
+        out string? error)
+    {
+        ArgumentNullException.ThrowIfNull(firstLine);
+
+        reason = null;
+        error = null;
+        var marker = $"{lineComment} SkipSolution:";
+
+        if (!firstLine.StartsWith(marker, StringComparison.Ordinal))
+        {
+            return true;
+        }
+
+        var reasonName = firstLine[marker.Length..].Trim();
+
+        if (Enum.TryParse<SkipSolutionReason>(reasonName, ignoreCase: false, out var parsed) &&
+            Enum.IsDefined(parsed) && !int.TryParse(reasonName, out _))
+        {
+            reason = parsed;
+            return true;
+        }
+
+        error = $"SkipSolution names an unknown reason '{reasonName}'; use one of {string.Join(", ", Enum.GetNames<SkipSolutionReason>())}";
+        return false;
+    }
+
     // The first line of a solution script, where a SkipSolution marker goes; an empty script has none.
-    protected static string ReadFirstLine(string path) => File.ReadLines(path).FirstOrDefault() ?? string.Empty;
+    private static string ReadFirstLine(string path) => File.ReadLines(path).FirstOrDefault() ?? string.Empty;
 }

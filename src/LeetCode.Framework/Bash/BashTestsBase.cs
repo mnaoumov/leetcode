@@ -1,14 +1,10 @@
 using System.Diagnostics;
 using System.Globalization;
-using System.Text.RegularExpressions;
 
 namespace LeetCode.Bash;
 
-public abstract partial class BashTestsBase<TBashTests> : TestsBase where TBashTests : BashTestsBase<TBashTests>
+public abstract class BashTestsBase<TBashTests> : TestsBase where TBashTests : BashTestsBase<TBashTests>
 {
-    [GeneratedRegex("# SkipSolution: (.+)")]
-    private static partial Regex SkipSolutionRegex();
-
     [Test]
     [TestCaseSource(nameof(JoinedTestCases))]
     [Category("Bash")]
@@ -42,8 +38,12 @@ public abstract partial class BashTestsBase<TBashTests> : TestsBase where TBashT
         // A timed-out script must not outlive its test, nor must anything it started.
         await using var killOnTimeout = cancellationToken.Register(() => KillProcessTree(process)).ConfigureAwait(true);
 
-        var standardOutput = FixLineEnding(await process.StandardOutput.ReadToEndAsync(cancellationToken).ConfigureAwait(true));
-        var standardError = FixLineEnding(await process.StandardError.ReadToEndAsync(cancellationToken).ConfigureAwait(true));
+        // Both pipes are drained at once: reading one to its end first deadlocks once the script fills the other.
+        var standardOutputTask = process.StandardOutput.ReadToEndAsync(cancellationToken);
+        var standardErrorTask = process.StandardError.ReadToEndAsync(cancellationToken);
+        await Task.WhenAll(standardOutputTask, standardErrorTask).ConfigureAwait(true);
+        var standardOutput = FixLineEnding(await standardOutputTask.ConfigureAwait(true));
+        var standardError = FixLineEnding(await standardErrorTask.ConfigureAwait(true));
         await process.WaitForExitAsync(cancellationToken).ConfigureAwait(true);
 
         Assert.Multiple(() =>
@@ -102,19 +102,9 @@ public abstract partial class BashTestsBase<TBashTests> : TestsBase where TBashT
 
             foreach (var solutionScriptFile in solutionScriptFiles)
             {
-                var solutionName = Path.GetFileNameWithoutExtension(solutionScriptFile);
-                var skipSolutionReason = SkipSolutionRegex().Match(ReadFirstLine(solutionScriptFile)).Groups[1].Value;
-
-                foreach (var testCaseFile in testCaseFiles)
+                foreach (var testCaseData in JoinScriptTestCases(solutionScriptFile, "#", testCaseFiles, argumentCount,
+                             testCaseFile => [solutionScriptFile, testCaseFile]))
                 {
-                    var testCaseData = new TestCaseData(solutionScriptFile, testCaseFile)
-                        .SetName($"{solutionName}: {Path.GetFileNameWithoutExtension(testCaseFile)}");
-
-                    if (!string.IsNullOrEmpty(skipSolutionReason))
-                    {
-                        testCaseData.Explicit(skipSolutionReason);
-                    }
-
                     yield return testCaseData;
                 }
             }

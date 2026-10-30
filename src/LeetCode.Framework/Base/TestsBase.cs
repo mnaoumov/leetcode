@@ -1,10 +1,11 @@
+using System.Collections.Concurrent;
 using System.Diagnostics;
+using System.Reflection;
 using System.Runtime;
 using System.Runtime.ExceptionServices;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Text.Json.Serialization.Metadata;
-using System.Text.RegularExpressions;
 using NUnit.Framework.Constraints;
 
 namespace LeetCode.Base;
@@ -60,11 +61,8 @@ public abstract class TestsBase<TSolution, TTestCase> : TestsBase where TTestCas
     }
 }
 
-public abstract partial class TestsBase
+public abstract class TestsBase
 {
-    [GeneratedRegex(@"[ ()'&\-,%`‑]")]
-    private static partial Regex CharactersToEscapeRegex();
-
     protected static CollectionItemsEqualConstraint IsEquivalentToIgnoringItemOrder<T>(
         IEnumerable<IEnumerable<T>> expected)
     {
@@ -117,26 +115,28 @@ public abstract partial class TestsBase
             JsonSerializer.Serialize(expectedArray));
     }
 
+    /// <summary>
+    /// The folder of the problem <paramref name="problemRelatedType"/> belongs to, as recorded at compile time by
+    /// the <see cref="ProblemDirectoryAttribute"/>s of its assembly, or <see langword="null"/> when none names
+    /// its namespace.
+    /// </summary>
     protected static string? GetProblemDirectory(Type problemRelatedType)
     {
-        const string namespacePrefix = "LeetCode.Problems.";
-        var namespacePart = problemRelatedType.Namespace![namespacePrefix.Length..];
-        var wipDirectory = Path.Combine(ProblemsRoot.Value, "!WIP");
+        ArgumentNullException.ThrowIfNull(problemRelatedType);
 
-        // A problem without a number (namespace LeetCode.Problems.<Title>) is in the working set or in !Unnumbered.
-        if (!namespacePart.StartsWith('_'))
-        {
-            return GetProblemDirectory(namespacePart, wipDirectory, "*")
-                ?? GetProblemDirectory(namespacePart, Path.Combine(ProblemsRoot.Value, "!Unnumbered"), "*");
-        }
-
-        // A numbered one (LeetCode.Problems._<Number>_<Title>) is in the working set,
-        // or in the bucket named by the first two digits of its number.
-        namespacePart = namespacePart[1..];
-        var problemNumber = namespacePart.Split('_')[0];
-        return GetProblemDirectory(namespacePart, wipDirectory, $"{problemNumber} *")
-            ?? GetProblemDirectory(namespacePart, Path.Combine(ProblemsRoot.Value, problemNumber[..2]), $"{problemNumber} *");
+        var directories = ProblemDirectories.GetOrAdd(problemRelatedType.Assembly, ReadProblemDirectories);
+        return problemRelatedType.Namespace != null &&
+            directories.TryGetValue(problemRelatedType.Namespace, out var relativePath)
+                ? Path.GetFullPath(Path.Combine(ProblemsRoot.Value, relativePath))
+                : null;
     }
+
+    private static readonly ConcurrentDictionary<Assembly, IReadOnlyDictionary<string, string>> ProblemDirectories =
+        new();
+
+    internal static IReadOnlyDictionary<string, string> ReadProblemDirectories(Assembly assembly) =>
+        assembly.GetCustomAttributes<ProblemDirectoryAttribute>()
+            .ToDictionary(attribute => attribute.NamespaceName, attribute => attribute.RelativePath, StringComparer.Ordinal);
 
     // Test cases are read from the source tree, so editing one needs no rebuild.
     private static readonly Lazy<string> ProblemsRoot =
@@ -153,23 +153,6 @@ public abstract partial class TestsBase
         }
 
         throw new DirectoryNotFoundException($"No LeetCode.slnx above {AppContext.BaseDirectory}");
-    }
-
-    private static string? GetProblemDirectory(string namespacePart, string dirName, string searchPattern)
-    {
-        if (!Directory.Exists(dirName))
-        {
-            return null;
-        }
-
-        var problemTestCaseDirectory = Directory.GetDirectories(dirName, searchPattern).FirstOrDefault(dir =>
-        {
-            var name = dir.Split('\\')[^1];
-            var escapedName = CharactersToEscapeRegex().Replace(name, "_");
-            return escapedName == namespacePart;
-        });
-
-        return problemTestCaseDirectory == null ? null : Path.GetFullPath(problemTestCaseDirectory);
     }
 
     private static readonly JsonSerializerOptions DeserializeOptions = new()

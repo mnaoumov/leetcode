@@ -66,7 +66,7 @@ internal static partial class Program
                         continue;
                     }
 
-                    var path = $@"{dir}\TestCase{index}.json";
+                    var path = Path.Combine(dir, $"TestCase{index}.json");
 
                     try
                     {

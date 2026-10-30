@@ -50,7 +50,7 @@ internal abstract partial class GeneratorBase : IGenerator
         Title = title;
         var titleWithUnifiedProblemNumber = ProblemNumberRegex().Replace(Title, match => match.Groups[1].Value.PadLeft(ProblemNumberLength, '0'));
         var validFolderName = ReplaceChars(titleWithUnifiedProblemNumber, Path.GetInvalidFileNameChars().Append('.').ToArray());
-        TaskDir = $@"{LeetCodeFolderPath}\{validFolderName}";
+        TaskDir = Path.Combine(LeetCodeFolderPath, validFolderName);
         EscapedTitle = $"_{ReplaceChars(validFolderName, InvalidNamespaceChars.ToCharArray())}";
         Namespace = GenerateTemplate("namespace LeetCode.Problems.{{ EscapedTitle }};");
     }
@@ -77,7 +77,7 @@ internal abstract partial class GeneratorBase : IGenerator
             content += "\r\n";
         }
 
-        File.WriteAllText($@"{TaskDir}\{fileName}", content);
+        File.WriteAllText(Path.Combine(TaskDir, fileName), content);
     }
 
     protected string GenerateTemplate(string template)

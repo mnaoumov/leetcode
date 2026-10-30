@@ -32,7 +32,7 @@ public abstract partial class SqlTestsBase<TSqlTests> : TestsBase where TSqlTest
         try
         {
             var problemTestCaseDirectory = GetProblemDirectory(typeof(TSqlTests));
-            command.CommandText = await File.ReadAllTextAsync($@"{problemTestCaseDirectory}\SetUp.sql", cancellationToken).ConfigureAwait(true);
+            command.CommandText = await File.ReadAllTextAsync(Path.Combine(problemTestCaseDirectory!, "SetUp.sql"), cancellationToken).ConfigureAwait(true);
             await command.ExecuteNonQueryAsync(cancellationToken).ConfigureAwait(true);
         }
 #pragma warning disable CA1031

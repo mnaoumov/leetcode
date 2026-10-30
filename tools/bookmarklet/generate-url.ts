@@ -1,9 +1,11 @@
 import { execSync } from 'node:child_process';
 import path from 'node:path';
 
-const entryPath = path.join(__dirname, 'leetcode.ts');
+// node runs this file as an ES module, which has no __dirname.
+const scriptDir = import.meta.dirname;
+const entryPath = path.join(scriptDir, 'leetcode.ts');
 // Baked into the bookmarklet, so the copied command follows the repo wherever it is cloned.
-const projectPath = path.resolve(__dirname, '..', 'TemplateGenerator', 'TemplateGenerator.csproj').replaceAll('\\', '/');
+const projectPath = path.resolve(scriptDir, '..', 'TemplateGenerator', 'TemplateGenerator.csproj').replaceAll('\\', '/');
 
 const result = execSync(`npx esbuild "${entryPath}" --bundle --format=iife --minify --target=es2022 "--define:PROJECT_PATH=\\"${projectPath}\\""`, {
   encoding: 'utf8'

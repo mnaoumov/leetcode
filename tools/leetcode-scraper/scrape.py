@@ -440,7 +440,7 @@ def clean_hint(hint_html):
 def get_existing_problem_numbers():
     """Get set of problem numbers already in the vault."""
     numbers = set()
-    for f in PROBLEMS_DIR.iterdir():
+    for f in iter_problem_notes():
         if f.suffix == ".md":
             match = re.match(r"(\d+)", f.name)
             if match:
@@ -567,6 +567,38 @@ def format_problem_number(num):
     return str(num).zfill(4)
 
 
+def problem_bucket(padded):
+    """Problems are grouped by the first two digits of their number, in the vault and in src/LeetCode.Problems."""
+    return padded[:2]
+
+
+def problem_link(padded, title):
+    """Link to a problem note from a note two folders below LeetCode/: a problem note in its bucket, or a contest note."""
+    return f"../../Problems/{problem_bucket(padded)}/{padded} {title}.md"
+
+
+def iter_problem_notes():
+    """Every problem note in the vault, across all buckets."""
+    return PROBLEMS_DIR.glob("[0-9][0-9]/*.md")
+
+
+def ensure_problem_bucket(padded):
+    """Create the problem's bucket folder, with its folder note, and return the folder."""
+    bucket = problem_bucket(padded)
+    bucket_dir = PROBLEMS_DIR / bucket
+    folder_note = bucket_dir / "!.md"
+    if not folder_note.exists():
+        bucket_dir.mkdir(parents=True, exist_ok=True)
+        first = max(int(bucket) * 100, 1)
+        last = int(bucket) * 100 + 99
+        timestamp = format_timestamp()
+        folder_note.write_text(
+            f'---\ntitle: "{bucket}"\naliases:\n  - {first:04d}-{last:04d}\nctime: {timestamp}\nmtime: {timestamp}\n---\n\n# {bucket}\n',
+            encoding="utf-8",
+        )
+    return bucket_dir
+
+
 def format_timestamp():
     """Get current timestamp in ISO format with timezone offset."""
     now = datetime.now().astimezone()
@@ -590,7 +622,7 @@ def generate_problem_markdown(detail, solved_date=None):
     lines.append(f"created: {timestamp}")
     lines.append(f"updated: {timestamp}")
     lines.append(f"title: {full_title}")
-    lines.append(f'difficulty: "[{difficulty}](<../Difficulty/{difficulty}.md>)"')
+    lines.append(f'difficulty: "[{difficulty}](<../../Difficulty/{difficulty}.md>)"')
     lines.append(f"source: https://leetcode.com/problems/{title_slug}/")
 
     if solved_date:
@@ -598,7 +630,7 @@ def generate_problem_markdown(detail, solved_date=None):
 
     if is_paid:
         lines.append("tagLinks:")
-        lines.append('  - "[Premium](<../Tags/Premium.md>)"')
+        lines.append('  - "[Premium](<../../Tags/Premium.md>)"')
 
     lines.append("---")
     lines.append("")
@@ -619,9 +651,9 @@ def generate_problem_markdown(detail, solved_date=None):
     lines.append("## Topics")
     lines.append("")
     for topic in topics:
-        lines.append(f"- [{topic['name']}](<../Topics/{topic['name']}.md>)")
+        lines.append(f"- [{topic['name']}](<../../Topics/{topic['name']}.md>)")
     for tag in position_tags:
-        lines.append(f"- [{tag['name']}](<../Topics/{tag['name']}.md>)")
+        lines.append(f"- [{tag['name']}](<../../Topics/{tag['name']}.md>)")
     lines.append("")
 
     lines.append("## Companies")
@@ -635,7 +667,7 @@ def generate_problem_markdown(detail, solved_date=None):
                 name = company.get("name", "")
                 if name and name not in seen_companies:
                     seen_companies.add(name)
-                    lines.append(f"- [{name}](<../Companies/{name}.md>)")
+                    lines.append(f"- [{name}](<../../Companies/{name}.md>)")
     lines.append("")
 
     lines.append("## Hints")
@@ -653,7 +685,7 @@ def generate_problem_markdown(detail, solved_date=None):
         sq_num = int(sq["questionFrontendId"])
         sq_padded = format_problem_number(sq_num)
         sq_title = sq["title"]
-        lines.append(f"- [{sq_padded} {sq_title}](<./{sq_padded} {sq_title}.md>)")
+        lines.append(f"- [{sq_padded} {sq_title}](<{problem_link(sq_padded, sq_title)}>)")
     lines.append("")
 
     lines.append("## Code template")
@@ -686,7 +718,7 @@ def generate_problem_markdown(detail, solved_date=None):
 
     lines.append("## Solution")
     lines.append("")
-    lines.append("[No Solution](<../Tags/No Solution.md>)")
+    lines.append("[No Solution](<../../Tags/No Solution.md>)")
 
     text = "\n".join(lines)
     text = re.sub(r"\n{3,}", "\n\n", text)
@@ -757,7 +789,7 @@ def generate_contest_markdown(contest_title, contest_slug, contest_date, problem
             result_str = '"[Did not solve](<../Did not solve.md>)"'
 
         lines.append(f"  - Problem Index: {idx}")
-        lines.append(f'    Problem: "[{padded} {title}](<../../Problems/{padded} {title}.md>)"')
+        lines.append(f'    Problem: "[{padded} {title}](<{problem_link(padded, title)}>)"')
         lines.append(f"    Credit: {credit}")
         lines.append(f"    My result: {result_str}")
 
@@ -910,7 +942,7 @@ def promote_todo_problems():
         old_num_str = re.match(r"(\d+)", dir_path.name).group(1)
         padded = str(real_num).zfill(4)
         new_dir_name = f"{padded} {real_title}"
-        target_path = CS_PROBLEMS_DIR / padded[:2] / new_dir_name
+        target_path = CS_PROBLEMS_DIR / problem_bucket(padded) / new_dir_name
 
         if target_path.exists():
             print(f"  SKIP: {new_dir_name} already exists")
@@ -979,7 +1011,7 @@ def main():
             padded = format_problem_number(num)
             title = prob["title"]
             filename = f"{padded} {title}.md"
-            filepath = PROBLEMS_DIR / filename
+            filepath = ensure_problem_bucket(padded) / filename
 
             print(f"\n[{i + 1}/{len(new_problems)}] Fetching {padded} {title}...")
             time.sleep(0.5)
@@ -1274,7 +1306,7 @@ def backfill_daily_weekly():
 
     # Build lookup: problem number -> filepath
     problem_files = {}
-    for f in PROBLEMS_DIR.iterdir():
+    for f in iter_problem_notes():
         if f.suffix == ".md":
             match = re.match(r"(\d+)", f.name)
             if match:
@@ -1470,7 +1502,7 @@ def sync_solved_dates():
     cache = load_json_cache(SOLVED_CACHE_FILE)
     added = 0
     mismatched = []
-    for f in sorted(PROBLEMS_DIR.iterdir()):
+    for f in sorted(iter_problem_notes()):
         match = re.match(r"(\d+) ", f.name)
         if f.suffix != ".md" or not match:
             continue

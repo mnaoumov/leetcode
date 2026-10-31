@@ -63,6 +63,22 @@ public class UnionFindTests
     }
 
     [Test]
+    public void Count_TracksDisjointSets()
+    {
+        var uf = new UnionFindTemplate.UnionFind<int>();
+        Assert.That(uf.Count, Is.EqualTo(0));
+
+        uf.Union(1, 2);
+        uf.Union(3, 4);
+        uf.Find(5);
+        Assert.That(uf.Count, Is.EqualTo(3));
+
+        uf.Union(2, 3);
+        uf.Union(1, 4);
+        Assert.That(uf.Count, Is.EqualTo(2));
+    }
+
+    [Test]
     public void Union_WorksWithStrings()
     {
         var uf = new UnionFindTemplate.UnionFind<string>();

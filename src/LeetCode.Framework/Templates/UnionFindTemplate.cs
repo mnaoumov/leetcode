@@ -14,7 +14,20 @@ public static class UnionFindTemplate
         private readonly Dictionary<T, T> _roots = new();
         private readonly Dictionary<T, int> _ranks = new();
 
-        public T Find(T x) => _roots.GetValueOrDefault(x, x).Equals(x) ? x : _roots[x] = Find(_roots[x]);
+        /// <summary>The number of disjoint sets among the elements seen so far.</summary>
+        public int Count { get; private set; }
+
+        public T Find(T x)
+        {
+            if (_roots.TryAdd(x, x))
+            {
+                Count++;
+                return x;
+            }
+
+            var root = _roots[x];
+            return root.Equals(x) ? x : _roots[x] = Find(root);
+        }
 
         public void Union(T x, T y)
         {
@@ -26,6 +39,7 @@ public static class UnionFindTemplate
                 return;
             }
 
+            Count--;
             var rankX = GetRank(rootX);
             var rankY = GetRank(rootY);
 

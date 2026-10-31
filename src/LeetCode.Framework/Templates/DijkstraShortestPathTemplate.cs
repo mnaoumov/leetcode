@@ -11,21 +11,25 @@ public static class DijkstraShortestPathTemplate
 {
     public sealed class EdgeWeightedGraph<T> where T : notnull
     {
-        private readonly Dictionary<T, HashSet<Edge<T>>> _adjacentEdges = new();
+        private static readonly List<Edge<T>> NoEdges = [];
+        private readonly Dictionary<T, List<Edge<T>>> _adjacentEdges = new();
 
         public void AddEdge(Edge<T> edge)
         {
-            var v = edge.Either();
-            var w = edge.Other(v);
-            AddNode(v);
-            AddNode(w);
-            _adjacentEdges[v].Add(edge);
-            _adjacentEdges[w].Add(edge);
+            AddNode(edge.From);
+            AddNode(edge.To);
+            _adjacentEdges[edge.From].Add(edge);
         }
 
-        public void AddNode(T node) => _adjacentEdges.TryAdd(node, new HashSet<Edge<T>>());
+        public void AddUndirectedEdge(T node1, T node2, double weight)
+        {
+            AddEdge(new Edge<T>(node1, node2, weight));
+            AddEdge(new Edge<T>(node2, node1, weight));
+        }
 
-        public HashSet<Edge<T>> AdjacentEdges(T node) => _adjacentEdges.GetValueOrDefault(node, new HashSet<Edge<T>>());
+        public void AddNode(T node) => _adjacentEdges.TryAdd(node, []);
+
+        public IReadOnlyList<Edge<T>> AdjacentEdges(T node) => _adjacentEdges.GetValueOrDefault(node, NoEdges);
     }
 
     public sealed class DijkstraShortestPath<T> where T : notnull
@@ -42,21 +46,24 @@ public static class DijkstraShortestPathTemplate
             while (unmarked.Count > 0)
             {
                 var v = unmarked.Dequeue();
+
+                if (!marked.Add(v))
+                {
+                    continue;
+                }
+
                 var dv = DistanceTo(v);
 
-                foreach (var adjEdge in graph.AdjacentEdges(v))
+                foreach (var (_, w, weight) in graph.AdjacentEdges(v))
                 {
-                    var w = adjEdge.Other(v);
-
                     if (marked.Contains(w))
                     {
                         continue;
                     }
 
-                    var dw = DistanceTo(w);
-                    var dw2 = dv + adjEdge.Weight;
+                    var dw2 = dv + weight;
 
-                    if (dw2 >= dw)
+                    if (dw2 >= DistanceTo(w))
                     {
                         continue;
                     }
@@ -64,31 +71,11 @@ public static class DijkstraShortestPathTemplate
                     _distances[w] = dw2;
                     unmarked.Enqueue(w, dw2);
                 }
-
-                marked.Add(v);
             }
         }
 
         public double DistanceTo(T target) => _distances.GetValueOrDefault(target, double.PositiveInfinity);
     }
 
-    public sealed record Edge<T>(T Node1, T Node2, double Weight)
-    {
-        public T Either() => Node1;
-
-        public T Other(T node)
-        {
-            if (Equals(node, Node1))
-            {
-                return Node2;
-            }
-
-            if (Equals(node, Node2))
-            {
-                return Node1;
-            }
-
-            throw new InvalidOperationException();
-        }
-    }
+    public sealed record Edge<T>(T From, T To, double Weight);
 }

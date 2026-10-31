@@ -7,4 +7,5 @@
 
 namespace LeetCode.Templates;
 
+// Blank skeleton: copy this file to start a new <Name>Template.
 public static class Template;

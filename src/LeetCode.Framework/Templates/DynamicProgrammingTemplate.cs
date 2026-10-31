@@ -23,6 +23,7 @@ public static class DynamicProgrammingTemplate
         return dp.GetOrCalculate((0, 0));
     }
 
+    // Top-down: GetOrCalculate recurses, so a chain of more than ~10^4 dependent states can overflow the stack.
     public sealed class DynamicProgramming<TKey, TValue> where TKey : notnull
     {
         private readonly Func<TKey, Func<TKey, TValue>, TValue> _func;

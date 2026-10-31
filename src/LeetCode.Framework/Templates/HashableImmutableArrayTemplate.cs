@@ -16,13 +16,19 @@ public static class HashableImmutableArrayTemplate
     public sealed class HashableImmutableArray<T> : IReadOnlyList<T>
     {
         private readonly T[] _items;
-        public HashableImmutableArray(IEnumerable<T> items) => _items = items.ToArray();
+        private readonly int _hashCode;
 
-        public override int GetHashCode() => (_items as IStructuralEquatable).GetHashCode(EqualityComparer<T>.Default);
+        public HashableImmutableArray(IEnumerable<T> items)
+        {
+            _items = items.ToArray();
+            _hashCode = (_items as IStructuralEquatable).GetHashCode(EqualityComparer<T>.Default);
+        }
+
+        public override int GetHashCode() => _hashCode;
 
         public override bool Equals(object? obj) =>
             ReferenceEquals(this, obj) ||
-            obj is HashableImmutableArray<T> other && _items.SequenceEqual(other._items);
+            obj is HashableImmutableArray<T> other && _hashCode == other._hashCode && _items.SequenceEqual(other._items);
 
         IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
         // ReSharper disable once NotDisposedResourceIsReturned

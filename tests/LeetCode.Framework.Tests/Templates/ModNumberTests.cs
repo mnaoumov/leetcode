@@ -115,6 +115,43 @@ public class ModNumberTests
     }
 
     [Test]
+    public void Equality_ComparesValues()
+    {
+        ModNumberTemplate.ModNumber a = 5;
+        ModNumberTemplate.ModNumber b = Mod + 5;
+        Assert.That(a == b, Is.True);
+        Assert.That(a.Equals(b), Is.True);
+        Assert.That(new HashSet<ModNumberTemplate.ModNumber> { a, b }, Has.Count.EqualTo(1));
+    }
+
+    [Test]
+    public void Default_IsZero()
+    {
+        Assert.That((int)default(ModNumberTemplate.ModNumber), Is.EqualTo(0));
+    }
+
+    [Test]
+    public void Subtraction_LargestValue_Wraps()
+    {
+        ModNumberTemplate.ModNumber a = 0;
+        ModNumberTemplate.ModNumber b = Mod - 1;
+        Assert.That((int)(a - b), Is.EqualTo(1));
+    }
+
+    [Test]
+    public void Pow_ZeroExponent_ReturnsOne()
+    {
+        Assert.That((int)ModNumberTemplate.ModNumber.Pow(12345, 0), Is.EqualTo(1));
+    }
+
+    [Test]
+    public void Pow_FermatExponent_ReturnsOne()
+    {
+        // 2^(p-1) = 1 mod p
+        Assert.That((int)ModNumberTemplate.ModNumber.Pow(2, Mod - 1), Is.EqualTo(1));
+    }
+
+    [Test]
     public void Division_Roundtrip()
     {
         // (a * b) / b == a

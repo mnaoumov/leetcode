@@ -80,6 +80,33 @@ public class TopologicalSortTests
     }
 
     [Test]
+    public void LongChain_DoesNotOverflowStack()
+    {
+        const int n = 200_000;
+        var graph = new DirectedGraph<int>();
+
+        for (var i = 0; i < n - 1; i++)
+        {
+            graph.AddEdge(i, i + 1);
+        }
+
+        var topo = new TopologicalSort<int>(graph);
+        Assert.That(topo.IsAcyclic, Is.True);
+        Assert.That(topo.Order, Is.EqualTo(Enumerable.Range(0, n)));
+    }
+
+    [Test]
+    public void DuplicateEdges_StillSorted()
+    {
+        var graph = new DirectedGraph<string>();
+        graph.AddEdge("A", "B");
+        graph.AddEdge("A", "B");
+
+        var topo = new TopologicalSort<string>(graph);
+        Assert.That(topo.Order, Is.EqualTo(new[] { "A", "B" }));
+    }
+
+    [Test]
     public void SelfLoop_DetectsCycle()
     {
         var graph = new DirectedGraph<int>();

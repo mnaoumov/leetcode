@@ -11,54 +11,37 @@ public static class TopologicalSortTemplate
 {
     public sealed class TopologicalSort<T> where T : notnull
     {
-        private readonly HashSet<T> _seen = new();
-        private readonly HashSet<T> _processing = new();
-        private readonly DirectedGraph<T> _graph;
-        private readonly Stack<T> _order = new();
+        private readonly List<T> _order = [];
 
         public TopologicalSort(DirectedGraph<T> graph)
         {
-            _graph = graph;
-            IsAcyclic = true;
+            var inDegrees = graph.Nodes.ToDictionary(node => node, _ => 0);
 
             foreach (var node in graph.Nodes)
             {
-                if (_seen.Contains(node))
+                foreach (var adjacentNode in graph.AdjacentNodes(node))
                 {
-                    continue;
+                    inDegrees[adjacentNode]++;
                 }
+            }
 
-                if (Dfs(node))
+            var ready = new Queue<T>(inDegrees.Where(pair => pair.Value == 0).Select(pair => pair.Key));
+
+            while (ready.Count > 0)
+            {
+                var node = ready.Dequeue();
+                _order.Add(node);
+
+                foreach (var adjacentNode in graph.AdjacentNodes(node))
                 {
-                    continue;
+                    if (--inDegrees[adjacentNode] == 0)
+                    {
+                        ready.Enqueue(adjacentNode);
+                    }
                 }
-
-                IsAcyclic = false;
-                break;
-            }
-        }
-
-        private bool Dfs(T node)
-        {
-            if (!_processing.Add(node))
-            {
-                return false;
             }
 
-            if (!_seen.Add(node))
-            {
-                _processing.Remove(node);
-                return true;
-            }
-
-            if (_graph.AdjacentNodes(node).Any(adjacentNode => !Dfs(adjacentNode)))
-            {
-                return false;
-            }
-
-            _order.Push(node);
-            _processing.Remove(node);
-            return true;
+            IsAcyclic = _order.Count == inDegrees.Count;
         }
 
         public bool IsAcyclic { get; }
@@ -67,19 +50,18 @@ public static class TopologicalSortTemplate
 
     public sealed class DirectedGraph<T> where T : notnull
     {
+        private static readonly List<T> NoNodes = [];
         private readonly Dictionary<T, List<T>> _adjacentNodes = new();
 
         public void AddEdge(T from, T to)
         {
             AddNode(from);
             AddNode(to);
-
-            _adjacentNodes.TryAdd(from, new List<T>());
             _adjacentNodes[from].Add(to);
         }
 
         public IEnumerable<T> Nodes => _adjacentNodes.Keys;
-        public List<T> AdjacentNodes(T node) => _adjacentNodes.GetValueOrDefault(node, new List<T>());
-        public void AddNode(T node) => _adjacentNodes.TryAdd(node, new List<T>());
+        public IReadOnlyList<T> AdjacentNodes(T node) => _adjacentNodes.GetValueOrDefault(node, NoNodes);
+        public void AddNode(T node) => _adjacentNodes.TryAdd(node, []);
     }
 }

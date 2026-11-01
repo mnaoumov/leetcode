@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2435_Paths_in_Matrix_Whose_Sum_Is_Divisible_by_K;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/882144782/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/882144782/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

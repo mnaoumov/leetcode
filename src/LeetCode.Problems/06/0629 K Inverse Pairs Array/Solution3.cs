@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0629_K_Inverse_Pairs_Array;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1158717699/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1158717699/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1334_Find_the_City_With_the_Smallest_Number_of_Neighbors_at_a_Threshold_Distance;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/968071208/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/968071208/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

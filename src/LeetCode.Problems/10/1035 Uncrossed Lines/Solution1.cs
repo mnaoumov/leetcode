@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1035_Uncrossed_Lines;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/919937688/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/919937688/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

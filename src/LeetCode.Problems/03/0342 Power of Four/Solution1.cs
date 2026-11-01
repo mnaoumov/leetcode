@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0342_Power_of_Four;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1081712202/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1081712202/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

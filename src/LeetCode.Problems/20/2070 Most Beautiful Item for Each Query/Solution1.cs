@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2070_Most_Beautiful_Item_for_Each_Query;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1450066572/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1450066572/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

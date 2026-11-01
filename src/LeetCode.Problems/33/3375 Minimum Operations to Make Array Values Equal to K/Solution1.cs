@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3375_Minimum_Operations_to_Make_Array_Values_Equal_to_K;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-145/submissions/detail/1472659480/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-145/submissions/detail/1472659480/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

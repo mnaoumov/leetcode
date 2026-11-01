@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3863_Minimum_Operations_to_Sort_a_String;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-492/problems/minimum-operations-to-sort-a-string/submissions/1941377718/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-492/problems/minimum-operations-to-sort-a-string/submissions/1941377718/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

@@ -2,9 +2,7 @@
 #pragma warning disable
 namespace LeetCode.Problems._0008_String_to_Integer__atoi_;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/148645507/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/148645507/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1894_Find_the_Student_that_Will_Replace_the_Chalk;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/930981848/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/930981848/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0977_Squares_of_a_Sorted_Array;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/854893432/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/854893432/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

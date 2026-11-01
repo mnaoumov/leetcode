@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1146_Snapshot_Array;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/964793338/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/964793338/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

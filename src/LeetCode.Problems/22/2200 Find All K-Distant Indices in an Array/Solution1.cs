@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2200_Find_All_K_Distant_Indices_in_an_Array;
 
-/// <summary>
-/// https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/submissions/1674288248/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/submissions/1674288248/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

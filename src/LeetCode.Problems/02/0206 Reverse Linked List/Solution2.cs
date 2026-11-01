@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0206_Reverse_Linked_List;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/923169183/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/923169183/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

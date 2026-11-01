@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3348_Smallest_Divisible_Digit_Product_II;
 
-/// <summary>
-/// https://leetcode.com/problems/smallest-divisible-digit-product-ii/submissions/2097470154/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/smallest-divisible-digit-product-ii/submissions/2097470154/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution09 : ISolution

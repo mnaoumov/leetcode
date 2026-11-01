@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0774_Minimize_Max_Distance_to_Gas_Station;
 
-/// <summary>
-/// https://leetcode.com/problems/minimize-max-distance-to-gas-station/submissions/1794772377/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/minimize-max-distance-to-gas-station/submissions/1794772377/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

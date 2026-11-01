@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3592_Inverse_Coin_Change;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-455/problems/inverse-coin-change/submissions/1672224873/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-455/problems/inverse-coin-change/submissions/1672224873/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

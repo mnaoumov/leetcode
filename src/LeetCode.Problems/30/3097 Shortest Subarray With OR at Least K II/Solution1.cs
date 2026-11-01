@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3097_Shortest_Subarray_With_OR_at_Least_K_II;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1448127321/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1448127321/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

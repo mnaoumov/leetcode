@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1469_Find_All_The_Lonely_Nodes;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/946938304/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/946938304/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

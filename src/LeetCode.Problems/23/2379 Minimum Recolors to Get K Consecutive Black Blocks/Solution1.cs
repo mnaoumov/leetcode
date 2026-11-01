@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2379_Minimum_Recolors_to_Get_K_Consecutive_Black_Blocks;
 
-/// <summary>
-/// https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/submissions/1566548081/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/submissions/1566548081/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

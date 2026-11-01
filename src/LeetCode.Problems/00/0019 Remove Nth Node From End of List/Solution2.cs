@@ -6,9 +6,7 @@
 
 namespace LeetCode.Problems._0019_Remove_Nth_Node_From_End_of_List;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/810070816/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/810070816/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1208_Get_Equal_Substrings_Within_Budget;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/898918285/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/898918285/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

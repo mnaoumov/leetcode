@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0067_Add_Binary;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/819729320/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/819729320/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3568_Minimum_Moves_to_Clean_the_Classroom;
 
-/// <summary>
-/// https://leetcode.com/problems/minimum-moves-to-clean-the-classroom/submissions/2127382953/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/minimum-moves-to-clean-the-classroom/submissions/2127382953/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

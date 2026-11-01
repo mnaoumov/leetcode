@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0407_Trapping_Rain_Water_II;
 
-/// <summary>
-/// https://leetcode.com/problems/trapping-rain-water-ii/submissions/1514057256/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/trapping-rain-water-ii/submissions/1514057256/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

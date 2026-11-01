@@ -2,9 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._1062_Longest_Repeating_Substring;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/951608712/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/951608712/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

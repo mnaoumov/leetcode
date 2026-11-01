@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._0128_Longest_Consecutive_Sequence;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/199789573/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/199789573/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

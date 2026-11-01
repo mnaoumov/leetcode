@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._2075_Decode_the_Slanted_Ciphertext;
 
-/// <summary>
-/// https://leetcode.com/problems/decode-the-slanted-ciphertext/submissions/1968161221/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/decode-the-slanted-ciphertext/submissions/1968161221/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

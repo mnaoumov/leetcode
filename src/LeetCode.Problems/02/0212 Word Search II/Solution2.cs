@@ -1,9 +1,7 @@
 namespace LeetCode.Problems._0212_Word_Search_II;
 
-/// <summary>
-/// https://leetcode.com/problems/word-search-ii/submissions/837069605/
-/// https://leetcode.com/problems/word-search-ii/submissions/837087027/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/word-search-ii/submissions/837069605/"/>
+/// <seealso href="https://leetcode.com/problems/word-search-ii/submissions/837087027/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

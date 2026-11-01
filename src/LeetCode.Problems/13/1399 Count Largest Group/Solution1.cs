@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1399_Count_Largest_Group;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

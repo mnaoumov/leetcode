@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1390_Four_Divisors;
 
-/// <summary>
-/// https://leetcode.com/problems/four-divisors/submissions/1874726676/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/four-divisors/submissions/1874726676/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

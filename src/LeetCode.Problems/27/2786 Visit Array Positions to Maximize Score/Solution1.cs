@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2786_Visit_Array_Positions_to_Maximize_Score;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1001015816/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1001015816/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

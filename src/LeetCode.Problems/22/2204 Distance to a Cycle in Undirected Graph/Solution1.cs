@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2204_Distance_to_a_Cycle_in_Undirected_Graph;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1467990362/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1467990362/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

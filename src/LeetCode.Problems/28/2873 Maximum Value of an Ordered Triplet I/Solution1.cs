@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2873_Maximum_Value_of_an_Ordered_Triplet_I;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-365/submissions/detail/1063583358/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-365/submissions/detail/1063583358/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

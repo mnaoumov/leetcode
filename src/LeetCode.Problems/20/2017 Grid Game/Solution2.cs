@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2017_Grid_Game;
 
-/// <summary>
-/// https://leetcode.com/problems/grid-game/submissions/1515213336/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/grid-game/submissions/1515213336/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

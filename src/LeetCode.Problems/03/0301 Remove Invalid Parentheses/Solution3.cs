@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0301_Remove_Invalid_Parentheses;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/879295292/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/879295292/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

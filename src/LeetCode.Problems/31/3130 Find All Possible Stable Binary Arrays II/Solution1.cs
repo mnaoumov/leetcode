@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3130_Find_All_Possible_Stable_Binary_Arrays_II;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-129/submissions/detail/1243346369/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-129/submissions/detail/1243346369/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

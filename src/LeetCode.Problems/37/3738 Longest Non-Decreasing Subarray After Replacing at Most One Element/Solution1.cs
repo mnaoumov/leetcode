@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3738_Longest_Non_Decreasing_Subarray_After_Replacing_at_Most_One_Element;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-169/problems/longest-non-decreasing-subarray-after-replacing-at-most-one-element/submissions/1824252722/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-169/problems/longest-non-decreasing-subarray-after-replacing-at-most-one-element/submissions/1824252722/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

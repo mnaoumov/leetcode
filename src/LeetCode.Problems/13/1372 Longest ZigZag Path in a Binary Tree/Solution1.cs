@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1372_Longest_ZigZag_Path_in_a_Binary_Tree;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/904987142/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/904987142/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

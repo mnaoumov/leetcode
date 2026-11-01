@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1903_Largest_Odd_Number_in_String;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1113976870/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1113976870/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

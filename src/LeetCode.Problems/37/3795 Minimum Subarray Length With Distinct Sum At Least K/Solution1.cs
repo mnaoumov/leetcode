@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3795_Minimum_Subarray_Length_With_Distinct_Sum_At_Least_K;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-173/problems/minimum-subarray-length-with-distinct-sum-at-least-k/submissions/1873210440/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-173/problems/minimum-subarray-length-with-distinct-sum-at-least-k/submissions/1873210440/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

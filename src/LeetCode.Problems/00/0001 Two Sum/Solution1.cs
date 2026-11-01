@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._0001_Two_Sum;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/147383765/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/147383765/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

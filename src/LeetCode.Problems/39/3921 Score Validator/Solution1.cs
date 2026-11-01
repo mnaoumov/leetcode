@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3921_Score_Validator;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-182/problems/score-validator/submissions/1998914566/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-182/problems/score-validator/submissions/1998914566/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

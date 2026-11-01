@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3006_Find_Beautiful_Indices_in_the_Given_Array_I;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-380/submissions/detail/1145542723/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-380/submissions/detail/1145542723/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

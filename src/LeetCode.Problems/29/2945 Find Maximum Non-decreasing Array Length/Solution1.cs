@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2945_Find_Maximum_Non_decreasing_Array_Length;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-118/submissions/detail/1106179925/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-118/submissions/detail/1106179925/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

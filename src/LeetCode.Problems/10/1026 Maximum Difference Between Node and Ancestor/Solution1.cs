@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1026_Maximum_Difference_Between_Node_and_Ancestor;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/856881642/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/856881642/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

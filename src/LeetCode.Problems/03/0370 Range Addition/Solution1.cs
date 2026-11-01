@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0370_Range_Addition;
 
-/// <summary>
-/// https://leetcode.com/problems/range-addition/submissions/1842115387/?envType=weekly-question
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/range-addition/submissions/1842115387/?envType=weekly-question"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

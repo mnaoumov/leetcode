@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2604_Minimum_Time_to_Eat_All_Grains;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/924621184/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/924621184/"/>
 [UsedImplicitly]
 public class Solution6 : ISolution
 {

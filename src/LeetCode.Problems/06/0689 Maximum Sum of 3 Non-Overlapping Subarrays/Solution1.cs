@@ -2,9 +2,7 @@
 #pragma warning disable
 namespace LeetCode.Problems._0689_Maximum_Sum_of_3_Non_Overlapping_Subarrays;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/197183659/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/197183659/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

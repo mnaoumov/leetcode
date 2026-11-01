@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1726_Tuple_with_Same_Product;
 
-/// <summary>
-/// https://leetcode.com/problems/tuple-with-same-product/submissions/1533004051/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/tuple-with-same-product/submissions/1533004051/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2126_Destroying_Asteroids;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/914067639/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/914067639/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

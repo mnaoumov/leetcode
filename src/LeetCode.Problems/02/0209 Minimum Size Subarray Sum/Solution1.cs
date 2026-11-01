@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0209_Minimum_Size_Subarray_Sum;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/898898647/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/898898647/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

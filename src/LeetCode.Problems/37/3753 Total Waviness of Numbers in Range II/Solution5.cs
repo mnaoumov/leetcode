@@ -2,9 +2,7 @@ using System.Globalization;
 
 namespace LeetCode.Problems._3753_Total_Waviness_of_Numbers_in_Range_II;
 
-/// <summary>
-/// https://leetcode.com/problems/total-waviness-of-numbers-in-range-ii/submissions/2023718232/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/total-waviness-of-numbers-in-range-ii/submissions/2023718232/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution5 : ISolution

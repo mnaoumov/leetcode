@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1071_Greatest_Common_Divisor_of_Strings;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/889458801/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/889458801/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

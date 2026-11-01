@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3542_Minimum_Operations_to_Convert_All_Elements_to_Zero;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-156/problems/minimum-operations-to-convert-all-elements-to-zero/submissions/1630179866/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-156/problems/minimum-operations-to-convert-all-elements-to-zero/submissions/1630179866/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

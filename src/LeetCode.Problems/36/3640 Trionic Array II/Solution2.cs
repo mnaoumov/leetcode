@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3640_Trionic_Array_II;
 
-/// <summary>
-/// https://leetcode.com/problems/trionic-array-ii/submissions/1907356925/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/trionic-array-ii/submissions/1907356925/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

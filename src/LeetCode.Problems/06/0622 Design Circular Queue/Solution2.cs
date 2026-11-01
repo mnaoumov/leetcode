@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0622_Design_Circular_Queue;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/807884997/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/807884997/"/>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution2 : ISolution

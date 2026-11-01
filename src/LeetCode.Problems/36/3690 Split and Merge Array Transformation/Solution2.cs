@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3690_Split_and_Merge_Array_Transformation;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-468/problems/split-and-merge-array-transformation/submissions/1777649271/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-468/problems/split-and-merge-array-transformation/submissions/1777649271/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

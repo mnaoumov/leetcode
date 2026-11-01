@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0030_Substring_with_Concatenation_of_All_Words;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/829015443/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/829015443/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

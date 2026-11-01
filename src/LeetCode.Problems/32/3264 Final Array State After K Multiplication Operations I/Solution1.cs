@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3264_Final_Array_State_After_K_Multiplication_Operations_I;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-412/submissions/detail/1367291266/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-412/submissions/detail/1367291266/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3402_Minimum_Operations_to_Make_Columns_Strictly_Increasing;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-430/submissions/detail/1491109823/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-430/submissions/detail/1491109823/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

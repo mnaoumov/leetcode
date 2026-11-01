@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2493_Divide_Nodes_Into_the_Maximum_Number_of_Groups;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/856177235/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/856177235/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0202_Happy_Number;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/925206237/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/925206237/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2300_Successful_Pairs_of_Spells_and_Potions;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/914706781/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/914706781/"/>
 [UsedImplicitly]
 public class Solution6 : ISolution
 {

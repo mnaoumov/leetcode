@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0329_Longest_Increasing_Path_in_a_Matrix;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/926228110/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/926228110/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

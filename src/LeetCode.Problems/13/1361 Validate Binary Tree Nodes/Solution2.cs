@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1361_Validate_Binary_Tree_Nodes;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1077125147/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1077125147/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0823_Binary_Trees_With_Factors;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1084241556/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1084241556/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

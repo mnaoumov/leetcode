@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2093_Minimum_Cost_to_Reach_City_With_Discounts;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1329050179/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1329050179/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

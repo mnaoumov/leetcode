@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2429_Minimize_XOR;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/898880990/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/898880990/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

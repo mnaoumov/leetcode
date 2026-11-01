@@ -5,9 +5,7 @@
 
 namespace LeetCode.Problems._0179_Largest_Number;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/896863315/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/896863315/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

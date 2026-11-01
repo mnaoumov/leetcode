@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0867_Transpose_Matrix;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1116493981/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1116493981/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

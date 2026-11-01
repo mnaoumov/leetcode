@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._2256_Minimum_Average_Difference;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/854142481/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/854142481/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

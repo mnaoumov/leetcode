@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2466_Count_Ways_To_Build_Good_Strings;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-91/submissions/detail/842001364/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-91/submissions/detail/842001364/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

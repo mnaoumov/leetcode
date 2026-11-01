@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0727_Minimum_Window_Subsequence;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/938619832/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/938619832/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2557_Maximum_Number_of_Integers_to_Choose_From_a_Range_II;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/891666762/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/891666762/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3814_Maximum_Capacity_Within_Budget;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-485/problems/maximum-capacity-within-budget/submissions/1888476204/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-485/problems/maximum-capacity-within-budget/submissions/1888476204/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0004_Median_of_Two_Sorted_Arrays;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/828904106/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/828904106/"/>
 [UsedImplicitly]
 public class Solution13 : ISolution
 {

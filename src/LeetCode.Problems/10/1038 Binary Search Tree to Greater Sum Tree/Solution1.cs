@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1038_Binary_Search_Tree_to_Greater_Sum_Tree;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1299441702/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1299441702/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

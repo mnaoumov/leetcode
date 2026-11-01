@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1688_Count_of_Matches_in_Tournament;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1113238116/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1113238116/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

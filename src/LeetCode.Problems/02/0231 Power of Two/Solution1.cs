@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0231_Power_of_Two;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/929935256/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/929935256/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3605_Minimum_Stability_Factor_of_Array;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

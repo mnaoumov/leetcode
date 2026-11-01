@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2236_Root_Equals_Sum_of_Children;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/864597927/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/864597927/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

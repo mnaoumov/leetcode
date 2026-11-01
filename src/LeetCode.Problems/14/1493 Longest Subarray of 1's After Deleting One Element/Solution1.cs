@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1493_Longest_Subarray_of_1_s_After_Deleting_One_Element;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/987230854/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/987230854/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

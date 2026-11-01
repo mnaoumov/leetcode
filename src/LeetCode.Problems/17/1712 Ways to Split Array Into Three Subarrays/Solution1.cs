@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1712_Ways_to_Split_Array_Into_Three_Subarrays;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/935899698/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/935899698/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

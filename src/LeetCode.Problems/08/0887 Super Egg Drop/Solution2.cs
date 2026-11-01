@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0887_Super_Egg_Drop;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/947598310/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/947598310/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

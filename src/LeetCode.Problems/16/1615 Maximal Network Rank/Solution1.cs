@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1615_Maximal_Network_Rank;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/906211431/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/906211431/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

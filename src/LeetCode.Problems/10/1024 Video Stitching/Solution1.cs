@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1024_Video_Stitching;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/914153760/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/914153760/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2214_Minimum_Health_to_Beat_Game;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/875867469/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/875867469/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

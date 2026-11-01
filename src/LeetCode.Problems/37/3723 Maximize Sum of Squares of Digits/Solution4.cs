@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._3723_Maximize_Sum_of_Squares_of_Digits;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-168/problems/maximize-sum-of-squares-of-digits/submissions/1811345876/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-168/problems/maximize-sum-of-squares-of-digits/submissions/1811345876/"/>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

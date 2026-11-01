@@ -2,9 +2,7 @@ using System.Text.RegularExpressions;
 
 namespace LeetCode.Problems._3606_Coupon_Code_Validator;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-457/problems/coupon-code-validator/submissions/1687855802/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-457/problems/coupon-code-validator/submissions/1687855802/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

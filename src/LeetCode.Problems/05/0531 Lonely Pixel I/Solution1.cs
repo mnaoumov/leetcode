@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0531_Lonely_Pixel_I;
 
-/// <summary>
-/// https://leetcode.com/problems/lonely-pixel-i/submissions/2186589354/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/lonely-pixel-i/submissions/2186589354/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

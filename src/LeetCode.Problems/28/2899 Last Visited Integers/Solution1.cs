@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2899_Last_Visited_Integers;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-115/submissions/detail/1075005481/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-115/submissions/detail/1075005481/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

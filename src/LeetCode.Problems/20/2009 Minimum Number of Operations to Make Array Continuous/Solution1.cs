@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2009_Minimum_Number_of_Operations_to_Make_Array_Continuous;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1071459227/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1071459227/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

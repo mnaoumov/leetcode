@@ -5,9 +5,7 @@
 
 namespace LeetCode.Problems._0224_Basic_Calculator;
 
-/// <summary>
-/// https://leetcode.com/problems/basic-calculator/submissions/847146122/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/basic-calculator/submissions/847146122/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

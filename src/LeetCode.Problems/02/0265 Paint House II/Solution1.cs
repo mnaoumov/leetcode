@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0265_Paint_House_II;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/927268538/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/927268538/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

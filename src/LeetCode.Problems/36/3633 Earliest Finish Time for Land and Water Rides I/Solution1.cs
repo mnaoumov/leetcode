@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3633_Earliest_Finish_Time_for_Land_and_Water_Rides_I;
 
-/// <summary>
-/// https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/submissions/2020555474/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/submissions/2020555474/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2518_Number_of_Great_Partitions;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/866036157/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/866036157/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

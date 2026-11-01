@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2014_Longest_Subsequence_Repeated_k_Times;
 
-/// <summary>
-/// https://leetcode.com/problems/longest-subsequence-repeated-k-times/submissions/1680517164/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/longest-subsequence-repeated-k-times/submissions/1680517164/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

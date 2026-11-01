@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1948_Delete_Duplicate_Folders_in_System;
 
-/// <summary>
-/// https://leetcode.com/problems/delete-duplicate-folders-in-system/submissions/1704156009/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/delete-duplicate-folders-in-system/submissions/1704156009/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

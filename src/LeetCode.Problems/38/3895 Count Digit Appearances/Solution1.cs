@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3895_Count_Digit_Appearances;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-180/problems/count-digit-appearances/submissions/1975422635/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-180/problems/count-digit-appearances/submissions/1975422635/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2311_Longest_Binary_Subsequence_Less_Than_or_Equal_to_K;
 
-/// <summary>
-/// https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/submissions/1678792262/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/submissions/1678792262/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

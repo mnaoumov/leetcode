@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3825_Longest_Strictly_Increasing_Subsequence_With_Non_Zero_Bitwise_AND;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-175/problems/longest-strictly-increasing-subsequence-with-non-zero-bitwise-and/submissions/1903191643/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-175/problems/longest-strictly-increasing-subsequence-with-non-zero-bitwise-and/submissions/1903191643/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded
     )]

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3404_Count_Special_Subsequences;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-430/submissions/detail/1491205972/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-430/submissions/detail/1491205972/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2781_Length_of_the_Longest_Valid_Substring;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-354/submissions/detail/995568138/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-354/submissions/detail/995568138/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

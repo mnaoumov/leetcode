@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0046_Permutations;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/829023731/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/829023731/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

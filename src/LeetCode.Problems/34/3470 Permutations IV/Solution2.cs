@@ -2,9 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3470_Permutations_IV;
 
-/// <summary>
-/// https://leetcode.com/problems/permutations-iv/submissions/1559496372/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/permutations-iv/submissions/1559496372/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

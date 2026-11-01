@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0929_Unique_Email_Addresses;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/924478042/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/924478042/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

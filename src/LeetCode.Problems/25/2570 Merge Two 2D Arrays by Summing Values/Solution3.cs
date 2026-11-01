@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2570_Merge_Two_2D_Arrays_by_Summing_Values;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-333/submissions/detail/900684484/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-333/submissions/detail/900684484/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

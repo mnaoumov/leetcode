@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3467_Transform_Array_by_Parity;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-151/problems/transform-array-by-parity/submissions/1559234912/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-151/problems/transform-array-by-parity/submissions/1559234912/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

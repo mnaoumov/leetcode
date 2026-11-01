@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0024_Swap_Nodes_in_Pairs;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/829012598/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/829012598/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0113_Path_Sum_II;
 
-/// <summary>
-/// https://leetcode.com/problems/path-sum-ii/submissions/834083699/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/path-sum-ii/submissions/834083699/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

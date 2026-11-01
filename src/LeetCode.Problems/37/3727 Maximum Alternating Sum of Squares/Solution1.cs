@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3727_Maximum_Alternating_Sum_of_Squares;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-473/problems/maximum-alternating-sum-of-squares/submissions/1811778208/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-473/problems/maximum-alternating-sum-of-squares/submissions/1811778208/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

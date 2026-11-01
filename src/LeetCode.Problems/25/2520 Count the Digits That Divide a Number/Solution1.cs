@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2520_Count_the_Digits_That_Divide_a_Number;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/869788346/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/869788346/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

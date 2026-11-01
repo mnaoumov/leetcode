@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2451_Odd_String_Difference;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-90/submissions/detail/832701312/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-90/submissions/detail/832701312/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

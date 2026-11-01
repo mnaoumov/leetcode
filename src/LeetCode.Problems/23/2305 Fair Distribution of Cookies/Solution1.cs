@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2305_Fair_Distribution_of_Cookies;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/918903423/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/918903423/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

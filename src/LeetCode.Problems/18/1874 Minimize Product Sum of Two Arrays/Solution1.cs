@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1874_Minimize_Product_Sum_of_Two_Arrays;
 
-/// <summary>
-/// https://leetcode.com/problems/minimize-product-sum-of-two-arrays/submissions/1849691170/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/minimize-product-sum-of-two-arrays/submissions/1849691170/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

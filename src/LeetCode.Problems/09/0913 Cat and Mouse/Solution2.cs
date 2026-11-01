@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0913_Cat_and_Mouse;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/970576221/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/970576221/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

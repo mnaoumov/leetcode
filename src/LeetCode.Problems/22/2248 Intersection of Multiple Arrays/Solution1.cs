@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2248_Intersection_of_Multiple_Arrays;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/856347954/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/856347954/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

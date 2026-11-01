@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1524_Number_of_Sub_arrays_With_Odd_Sum;
 
-/// <summary>
-/// https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/submissions/1554380380/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/submissions/1554380380/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

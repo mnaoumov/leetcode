@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1257_Smallest_Common_Region;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1390440316/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1390440316/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

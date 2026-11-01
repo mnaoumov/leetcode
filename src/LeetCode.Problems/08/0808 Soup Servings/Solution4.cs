@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0808_Soup_Servings;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1074025029/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1074025029/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.MemoryLimitExceeded)]
 public class Solution4 : ISolution

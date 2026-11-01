@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3186_Maximum_Total_Damage_With_Spell_Casting;
 
-/// <summary>
-/// https://leetcode.com/problems/maximum-total-damage-with-spell-casting/submissions/1797813373/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/maximum-total-damage-with-spell-casting/submissions/1797813373/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

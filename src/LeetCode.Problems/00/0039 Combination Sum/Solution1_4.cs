@@ -2,10 +2,8 @@
 #pragma warning disable
 namespace LeetCode.Problems._0039_Combination_Sum;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/193999858/
-/// https://leetcode.com/submissions/detail/195069394/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/193999858/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/195069394/"/>
 [UsedImplicitly]
 public class Solution1_4 : ISolution
 {

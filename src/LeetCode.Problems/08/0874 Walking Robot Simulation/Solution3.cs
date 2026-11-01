@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0874_Walking_Robot_Simulation;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1379347505/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1379347505/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

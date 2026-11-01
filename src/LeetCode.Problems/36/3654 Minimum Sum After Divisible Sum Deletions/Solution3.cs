@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3654_Minimum_Sum_After_Divisible_Sum_Deletions;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-463/problems/minimum-sum-after-divisible-sum-deletions/submissions/1738014056/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-463/problems/minimum-sum-after-divisible-sum-deletions/submissions/1738014056/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution3 : ISolution

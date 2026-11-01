@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3478_Choose_K_Elements_With_Maximum_Sum;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-440/problems/choose-k-elements-with-maximum-sum/submissions/1567576215/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-440/problems/choose-k-elements-with-maximum-sum/submissions/1567576215/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

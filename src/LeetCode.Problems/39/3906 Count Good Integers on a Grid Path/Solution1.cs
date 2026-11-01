@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3906_Count_Good_Integers_on_a_Grid_Path;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-498/problems/count-good-integers-on-a-grid-path/submissions/1982287883/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-498/problems/count-good-integers-on-a-grid-path/submissions/1982287883/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

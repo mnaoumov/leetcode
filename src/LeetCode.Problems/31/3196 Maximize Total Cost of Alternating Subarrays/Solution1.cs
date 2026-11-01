@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3196_Maximize_Total_Cost_of_Alternating_Subarrays;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-403/submissions/detail/1297257202/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-403/submissions/detail/1297257202/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

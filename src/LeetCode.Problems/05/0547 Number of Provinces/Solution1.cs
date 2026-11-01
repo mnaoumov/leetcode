@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0547_Number_of_Provinces;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/904393246/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/904393246/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

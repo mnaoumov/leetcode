@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1710_Maximum_Units_on_a_Truck;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/914077612/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/914077612/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

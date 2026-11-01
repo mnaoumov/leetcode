@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0160_Intersection_of_Two_Linked_Lists;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/870054700/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/870054700/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3354_Make_Array_Elements_Equal_to_Zero;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-424/submissions/detail/1454819616/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-424/submissions/detail/1454819616/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

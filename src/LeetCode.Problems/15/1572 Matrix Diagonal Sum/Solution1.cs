@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1572_Matrix_Diagonal_Sum;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/926924966/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/926924966/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

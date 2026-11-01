@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1658_Minimum_Operations_to_Reduce_X_to_Zero;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1054996521/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1054996521/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

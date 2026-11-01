@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3919_Minimum_Cost_to_Move_Between_Indices;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

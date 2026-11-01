@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0186_Reverse_Words_in_a_String_II;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/901778349/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/901778349/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

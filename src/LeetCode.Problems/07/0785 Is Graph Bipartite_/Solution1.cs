@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0785_Is_Graph_Bipartite_;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/928794176/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/928794176/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

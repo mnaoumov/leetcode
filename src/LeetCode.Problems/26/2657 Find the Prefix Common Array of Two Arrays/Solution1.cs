@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2657_Find_the_Prefix_Common_Array_of_Two_Arrays;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-103/submissions/detail/941584297/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-103/submissions/detail/941584297/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

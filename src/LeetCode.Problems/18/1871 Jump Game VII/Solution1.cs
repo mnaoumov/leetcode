@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1871_Jump_Game_VII;
 
-/// <summary>
-/// https://leetcode.com/problems/jump-game-vii/submissions/2013002085/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/jump-game-vii/submissions/2013002085/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

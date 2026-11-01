@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3378_Count_Connected_Components_in_LCM_Graph;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

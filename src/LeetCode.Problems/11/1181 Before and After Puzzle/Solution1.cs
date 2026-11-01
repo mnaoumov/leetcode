@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1181_Before_and_After_Puzzle;
 
-/// <summary>
-/// https://leetcode.com/problems/before-and-after-puzzle/submissions/1743964456/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/before-and-after-puzzle/submissions/1743964456/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._3823_Reverse_Letters_Then_Special_Characters_in_a_String;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-175/problems/reverse-letters-then-special-characters-in-a-string/submissions/1903127200/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-175/problems/reverse-letters-then-special-characters-in-a-string/submissions/1903127200/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

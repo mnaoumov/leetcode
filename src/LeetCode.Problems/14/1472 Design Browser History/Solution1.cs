@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1472_Design_Browser_History;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/917631234/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/917631234/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

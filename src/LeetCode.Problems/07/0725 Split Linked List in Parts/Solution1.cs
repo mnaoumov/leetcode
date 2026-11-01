@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0725_Split_Linked_List_in_Parts;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1041719032/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1041719032/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

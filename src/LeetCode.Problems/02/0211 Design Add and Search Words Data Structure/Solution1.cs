@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0211_Design_Add_and_Search_Words_Data_Structure;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/918379884/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/918379884/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1908_Game_of_Nim;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/887146115/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/887146115/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

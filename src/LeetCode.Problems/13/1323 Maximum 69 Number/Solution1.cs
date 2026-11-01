@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._1323_Maximum_69_Number;
 
-/// <summary>
-/// https://leetcode.com/problems/maximum-69-number/submissions/838361180/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/maximum-69-number/submissions/838361180/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

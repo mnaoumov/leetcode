@@ -2,9 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3577_Count_the_Number_of_Computer_Unlocking_Permutations;
 
-/// <summary>
-/// https://leetcode.com/problems/count-the-number-of-computer-unlocking-permutations/submissions/1852459424/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/count-the-number-of-computer-unlocking-permutations/submissions/1852459424/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

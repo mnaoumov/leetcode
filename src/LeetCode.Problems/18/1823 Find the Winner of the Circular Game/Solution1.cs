@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1823_Find_the_Winner_of_the_Circular_Game;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/941944678/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/941944678/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0312_Burst_Balloons;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/881585051/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/881585051/"/>
 [UsedImplicitly]
 public class Solution6 : ISolution
 {

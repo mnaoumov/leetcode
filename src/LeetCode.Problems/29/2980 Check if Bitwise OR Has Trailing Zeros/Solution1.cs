@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2980_Check_if_Bitwise_OR_Has_Trailing_Zeros;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-378/submissions/detail/1132628431/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-378/submissions/detail/1132628431/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

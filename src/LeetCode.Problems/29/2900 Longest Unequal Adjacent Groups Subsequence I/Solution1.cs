@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2900_Longest_Unequal_Adjacent_Groups_Subsequence_I;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-115/submissions/detail/1075012710/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-115/submissions/detail/1075012710/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

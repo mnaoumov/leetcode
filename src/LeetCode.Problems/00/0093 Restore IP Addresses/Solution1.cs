@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0093_Restore_IP_Addresses;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/829112718/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/829112718/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

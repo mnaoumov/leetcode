@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1514_Path_with_Maximum_Probability;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1374890990/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1374890990/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

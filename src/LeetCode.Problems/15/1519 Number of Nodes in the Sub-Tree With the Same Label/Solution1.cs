@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1519_Number_of_Nodes_in_the_Sub_Tree_With_the_Same_Label;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/877087832/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/877087832/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

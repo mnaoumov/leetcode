@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1443_Minimum_Time_to_Collect_All_Apples_in_a_Tree;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/875855179/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/875855179/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

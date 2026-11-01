@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3548_Equal_Sum_Grid_Partition_II;
 
-/// <summary>
-/// https://leetcode.com/problems/equal-sum-grid-partition-ii/submissions/1960534390/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/equal-sum-grid-partition-ii/submissions/1960534390/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

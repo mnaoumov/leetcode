@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2570_Merge_Two_2D_Arrays_by_Summing_Values;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-333/submissions/detail/900675791/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-333/submissions/detail/900675791/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

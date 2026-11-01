@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1105_Filling_Bookcase_Shelves;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1339015684/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1339015684/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

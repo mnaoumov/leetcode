@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3598_Longest_Common_Prefix_Between_Adjacent_Strings_After_Removals;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-456/problems/longest-common-prefix-between-adjacent-strings-after-removals/submissions/1679897842/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-456/problems/longest-common-prefix-between-adjacent-strings-after-removals/submissions/1679897842/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

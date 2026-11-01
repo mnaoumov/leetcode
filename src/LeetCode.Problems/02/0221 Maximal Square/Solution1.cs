@@ -5,9 +5,7 @@
 
 namespace LeetCode.Problems._0221_Maximal_Square;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/198251366/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/198251366/"/>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution1 : ISolution

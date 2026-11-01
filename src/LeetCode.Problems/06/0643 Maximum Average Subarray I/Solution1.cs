@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0643_Maximum_Average_Subarray_I;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/855210155/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/855210155/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

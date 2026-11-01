@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2612_Minimum_Reverse_Operations;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/926415598/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/926415598/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution07 : ISolution

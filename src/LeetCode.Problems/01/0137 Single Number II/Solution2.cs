@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0137_Single_Number_II;
 
-/// <summary>
-/// https://leetcode.com/problems/single-number-ii/submissions/839893850/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/single-number-ii/submissions/839893850/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

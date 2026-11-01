@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3765_Complete_Prime_Number;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-171/problems/complete-prime-number/submissions/1848395804/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-171/problems/complete-prime-number/submissions/1848395804/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

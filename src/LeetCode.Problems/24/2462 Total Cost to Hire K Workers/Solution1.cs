@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2462_Total_Cost_to_Hire_K_Workers;
 
-/// <summary>
-/// https://leetcode.com/problems/total-cost-to-hire-k-workers/submissions/837752441/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/total-cost-to-hire-k-workers/submissions/837752441/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

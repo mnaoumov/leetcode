@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3550_Smallest_Index_With_Digit_Sum_Equal_to_Index;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-450/problems/smallest-index-with-digit-sum-equal-to-index/submissions/1636858436/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-450/problems/smallest-index-with-digit-sum-equal-to-index/submissions/1636858436/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2431_Maximize_Total_Tastiness_of_Purchased_Fruits;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/895683831/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/895683831/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

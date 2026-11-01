@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2127_Maximum_Employees_to_Be_Invited_to_a_Meeting;
 
-/// <summary>
-/// https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/submissions/1521696454/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/submissions/1521696454/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

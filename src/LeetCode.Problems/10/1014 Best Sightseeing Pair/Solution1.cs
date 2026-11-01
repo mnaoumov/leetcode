@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1014_Best_Sightseeing_Pair;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/926928274/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/926928274/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

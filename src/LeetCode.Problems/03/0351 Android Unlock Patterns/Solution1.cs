@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0351_Android_Unlock_Patterns;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/954660687/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/954660687/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

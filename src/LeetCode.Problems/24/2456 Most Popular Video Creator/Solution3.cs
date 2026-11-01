@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2456_Most_Popular_Video_Creator;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/833639056/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/833639056/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

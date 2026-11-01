@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0402_Remove_K_Digits;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/924497750/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/924497750/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

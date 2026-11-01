@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3347_Maximum_Frequency_of_an_Element_After_Performing_Operations_II;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1447804569/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1447804569/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

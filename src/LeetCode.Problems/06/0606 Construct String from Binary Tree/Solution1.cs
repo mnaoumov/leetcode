@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0606_Construct_String_from_Binary_Tree;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1115379342/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1115379342/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

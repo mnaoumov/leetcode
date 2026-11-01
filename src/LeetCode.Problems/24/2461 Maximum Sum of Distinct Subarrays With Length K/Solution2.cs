@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2461_Maximum_Sum_of_Distinct_Subarrays_With_Length_K;
 
-/// <summary>
-/// https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/submissions/838923936/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/submissions/838923936/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

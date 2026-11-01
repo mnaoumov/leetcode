@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3522_Calculate_Score_After_Performing_Instructions;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-446/problems/calculate-score-after-performing-instructions/submissions/1611999660/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-446/problems/calculate-score-after-performing-instructions/submissions/1611999660/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

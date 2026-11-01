@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3245_Alternating_Groups_III;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

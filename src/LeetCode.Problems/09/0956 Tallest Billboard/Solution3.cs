@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0956_Tallest_Billboard;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/978231664/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/978231664/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

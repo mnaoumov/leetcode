@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1852_Distinct_Numbers_in_Each_Subarray;
 
-/// <summary>
-/// https://leetcode.com/problems/distinct-numbers-in-each-subarray/submissions/1526893591/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/distinct-numbers-in-each-subarray/submissions/1526893591/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

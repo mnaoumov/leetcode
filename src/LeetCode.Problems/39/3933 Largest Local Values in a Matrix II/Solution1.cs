@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3933_Largest_Local_Values_in_a_Matrix_II;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-502/problems/largest-local-values-in-a-matrix-ii/submissions/2005098576/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-502/problems/largest-local-values-in-a-matrix-ii/submissions/2005098576/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

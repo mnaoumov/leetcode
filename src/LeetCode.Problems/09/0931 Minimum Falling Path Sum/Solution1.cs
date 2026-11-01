@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0931_Minimum_Falling_Path_Sum;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/858892390/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/858892390/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

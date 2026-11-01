@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1584_Min_Cost_to_Connect_All_Points;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/939773634/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/939773634/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

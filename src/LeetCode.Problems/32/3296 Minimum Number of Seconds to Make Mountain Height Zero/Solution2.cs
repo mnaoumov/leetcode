@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3296_Minimum_Number_of_Seconds_to_Make_Mountain_Height_Zero;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-416/submissions/detail/1398034878/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-416/submissions/detail/1398034878/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

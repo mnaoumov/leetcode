@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0150_Evaluate_Reverse_Polish_Notation;
 
-/// <summary>
-/// https://leetcode.com/problems/evaluate-reverse-polish-notation/submissions/848088325/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/evaluate-reverse-polish-notation/submissions/848088325/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

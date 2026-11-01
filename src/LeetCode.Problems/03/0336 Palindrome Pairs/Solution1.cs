@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0336_Palindrome_Pairs;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/961430782/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/961430782/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

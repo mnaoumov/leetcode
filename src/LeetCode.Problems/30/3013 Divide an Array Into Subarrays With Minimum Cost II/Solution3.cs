@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3013_Divide_an_Array_Into_Subarrays_With_Minimum_Cost_II;
 
-/// <summary>
-/// https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-ii/submissions/1906081458/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-ii/submissions/1906081458/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution3 : ISolution

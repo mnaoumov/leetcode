@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0020_Valid_Parentheses;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/810308208/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/810308208/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

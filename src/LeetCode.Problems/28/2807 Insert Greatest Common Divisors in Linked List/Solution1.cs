@@ -2,9 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._2807_Insert_Greatest_Common_Divisors_in_Linked_List;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1384838267/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1384838267/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

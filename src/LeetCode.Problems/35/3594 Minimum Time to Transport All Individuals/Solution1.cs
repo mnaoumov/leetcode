@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3594_Minimum_Time_to_Transport_All_Individuals;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

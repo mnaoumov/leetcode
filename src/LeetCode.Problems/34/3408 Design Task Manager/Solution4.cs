@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3408_Design_Task_Manager;
 
-/// <summary>
-/// https://leetcode.com/problems/design-task-manager/submissions/1774534266/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/design-task-manager/submissions/1774534266/"/>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

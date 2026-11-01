@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3619_Count_Islands_With_Total_Value_Divisible_by_K;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-161/problems/count-islands-with-total-value-divisible-by-k/submissions/1703636789/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-161/problems/count-islands-with-total-value-divisible-by-k/submissions/1703636789/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0170_Two_Sum_III___Data_structure_design;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/882066597/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/882066597/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

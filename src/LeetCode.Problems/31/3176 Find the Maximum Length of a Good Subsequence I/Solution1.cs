@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3176_Find_the_Maximum_Length_of_a_Good_Subsequence_I;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1281751107/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1281751107/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

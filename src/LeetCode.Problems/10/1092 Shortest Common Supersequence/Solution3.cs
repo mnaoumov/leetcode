@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1092_Shortest_Common_Supersequence;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/954074081/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/954074081/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

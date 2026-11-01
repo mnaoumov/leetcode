@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1717_Maximum_Score_From_Removing_Substrings;
 
-/// <summary>
-/// https://leetcode.com/problems/maximum-score-from-removing-substrings/submissions/1707857163/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/maximum-score-from-removing-substrings/submissions/1707857163/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

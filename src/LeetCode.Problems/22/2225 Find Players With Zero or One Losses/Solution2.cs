@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2225_Find_Players_With_Zero_or_One_Losses;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/851228110/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/851228110/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

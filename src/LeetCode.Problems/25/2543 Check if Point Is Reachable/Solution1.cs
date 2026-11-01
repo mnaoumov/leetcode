@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2543_Check_if_Point_Is_Reachable;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/882546878/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/882546878/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

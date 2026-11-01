@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2830_Maximize_the_Profit_as_the_Salesman;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-359/submissions/detail/1026313426/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-359/submissions/detail/1026313426/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution3 : ISolution

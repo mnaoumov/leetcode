@@ -5,9 +5,7 @@
 
 namespace LeetCode.Problems._0040_Combination_Sum_II;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/813866824/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/813866824/"/>
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 [UsedImplicitly]
 public class Solution2 : ISolution

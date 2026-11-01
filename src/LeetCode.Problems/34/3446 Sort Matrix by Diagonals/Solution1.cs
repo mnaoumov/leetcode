@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3446_Sort_Matrix_by_Diagonals;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-436/problems/sort-matrix-by-diagonals/submissions/1536408758/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-436/problems/sort-matrix-by-diagonals/submissions/1536408758/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1475_Final_Prices_With_a_Special_Discount_in_a_Shop;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/903214037/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/903214037/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

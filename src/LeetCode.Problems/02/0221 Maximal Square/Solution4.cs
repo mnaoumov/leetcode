@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0221_Maximal_Square;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/871195468/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/871195468/"/>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

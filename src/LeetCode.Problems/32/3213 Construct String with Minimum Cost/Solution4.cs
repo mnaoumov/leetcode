@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3213_Construct_String_with_Minimum_Cost;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-405/submissions/detail/1312364533/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-405/submissions/detail/1312364533/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution4 : ISolution

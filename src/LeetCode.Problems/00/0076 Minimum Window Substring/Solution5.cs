@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._0076_Minimum_Window_Substring;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/821667964/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/821667964/"/>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

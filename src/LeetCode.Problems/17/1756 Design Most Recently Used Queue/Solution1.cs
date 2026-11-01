@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1756_Design_Most_Recently_Used_Queue;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/957982869/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/957982869/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

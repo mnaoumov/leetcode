@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0427_Construct_Quad_Tree;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/905633717/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/905633717/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

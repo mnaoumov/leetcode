@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1022_Sum_of_Root_To_Leaf_Binary_Numbers;
 
-/// <summary>
-/// https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/submissions/1929074132/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/submissions/1929074132/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

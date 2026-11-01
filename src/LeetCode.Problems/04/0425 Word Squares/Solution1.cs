@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0425_Word_Squares;
 
-/// <summary>
-/// https://leetcode.com/problems/word-squares/submissions/1698186472/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/word-squares/submissions/1698186472/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

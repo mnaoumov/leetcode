@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3325_Count_Substrings_With_K_Frequency_Characters_I;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-420/submissions/detail/1427846357/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-420/submissions/detail/1427846357/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

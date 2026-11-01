@@ -6,9 +6,7 @@
 
 namespace LeetCode.Problems._0017_Letter_Combinations_of_a_Phone_Number;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/197098040/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/197098040/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

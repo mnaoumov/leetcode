@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._2096_Step_By_Step_Directions_From_a_Binary_Tree_Node_to_Another;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1322423177/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1322423177/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

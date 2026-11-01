@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2349_Design_a_Number_Container_System;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

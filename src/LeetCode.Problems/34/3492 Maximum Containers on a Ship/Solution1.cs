@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3492_Maximum_Containers_on_a_Ship;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-442/problems/maximum-containers-on-a-ship/submissions/1582816409/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-442/problems/maximum-containers-on-a-ship/submissions/1582816409/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

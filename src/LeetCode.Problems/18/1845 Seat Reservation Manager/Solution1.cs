@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1845_Seat_Reservation_Manager;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/908090691/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/908090691/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3272_Find_the_Count_of_Good_Integers;
 
-/// <summary>
-/// https://leetcode.com/problems/find-the-count-of-good-integers/submissions/1604130599/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/find-the-count-of-good-integers/submissions/1604130599/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

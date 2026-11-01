@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2652_Sum_Multiples;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-342/submissions/detail/938157873/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-342/submissions/detail/938157873/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2778_Sum_of_Squares_of_Special_Elements;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-354/submissions/detail/995480060/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-354/submissions/detail/995480060/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

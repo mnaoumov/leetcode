@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2779_Maximum_Beauty_of_an_Array_After_Applying_Operation;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-354/submissions/detail/995505087/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-354/submissions/detail/995505087/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

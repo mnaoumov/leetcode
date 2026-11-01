@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0378_Kth_Smallest_Element_in_a_Sorted_Matrix;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/956288694/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/956288694/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

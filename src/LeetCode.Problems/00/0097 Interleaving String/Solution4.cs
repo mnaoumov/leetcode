@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0097_Interleaving_String;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/829636993/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/829636993/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution4 : ISolution

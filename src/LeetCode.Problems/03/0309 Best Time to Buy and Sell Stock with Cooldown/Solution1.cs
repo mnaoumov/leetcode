@@ -4,10 +4,8 @@
 
 namespace LeetCode.Problems._0309_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/196716285/
-/// https://leetcode.com/submissions/detail/834063404/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/196716285/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/834063404/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

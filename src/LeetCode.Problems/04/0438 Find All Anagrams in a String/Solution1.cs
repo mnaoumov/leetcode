@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0438_Find_All_Anagrams_in_a_String;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/891650877/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/891650877/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

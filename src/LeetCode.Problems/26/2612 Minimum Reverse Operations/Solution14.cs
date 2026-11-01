@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2612_Minimum_Reverse_Operations;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/926714267/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/926714267/"/>
 [UsedImplicitly]
 public class Solution14 : ISolution
 {

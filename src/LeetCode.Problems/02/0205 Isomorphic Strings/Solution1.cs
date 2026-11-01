@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0205_Isomorphic_Strings;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/898980124/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/898980124/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

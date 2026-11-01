@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0918_Maximum_Sum_Circular_Subarray;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/880850275/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/880850275/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

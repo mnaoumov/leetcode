@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0830_Positions_of_Large_Groups;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/924475661/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/924475661/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

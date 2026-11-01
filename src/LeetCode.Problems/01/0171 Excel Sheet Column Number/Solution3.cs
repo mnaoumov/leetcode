@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0171_Excel_Sheet_Column_Number;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/872070189/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/872070189/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

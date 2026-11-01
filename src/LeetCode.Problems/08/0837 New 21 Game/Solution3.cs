@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0837_New_21_Game;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/956850299/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/956850299/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

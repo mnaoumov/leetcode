@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2221_Find_Triangular_Sum_of_an_Array;
 
-/// <summary>
-/// https://leetcode.com/problems/find-triangular-sum-of-an-array/submissions/1786923415/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/find-triangular-sum-of-an-array/submissions/1786923415/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

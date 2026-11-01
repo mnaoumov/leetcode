@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3469_Find_Minimum_Cost_to_Remove_Array_Elements;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-151/problems/find-minimum-cost-to-remove-array-elements/submissions/1559275290/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-151/problems/find-minimum-cost-to-remove-array-elements/submissions/1559275290/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

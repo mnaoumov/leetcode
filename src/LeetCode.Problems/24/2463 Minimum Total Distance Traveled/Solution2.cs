@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2463_Minimum_Total_Distance_Traveled;
 
-/// <summary>
-/// https://leetcode.com/problems/minimum-total-distance-traveled/submissions/838828140/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/minimum-total-distance-traveled/submissions/838828140/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

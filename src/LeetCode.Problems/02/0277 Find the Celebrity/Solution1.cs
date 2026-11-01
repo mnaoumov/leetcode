@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0277_Find_the_Celebrity;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1468008253/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1468008253/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : Relation, ISolution

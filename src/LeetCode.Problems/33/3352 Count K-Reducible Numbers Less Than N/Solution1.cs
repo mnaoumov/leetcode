@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3352_Count_K_Reducible_Numbers_Less_Than_N;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2147_Number_of_Ways_to_Divide_a_Long_Corridor;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1107791411/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1107791411/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

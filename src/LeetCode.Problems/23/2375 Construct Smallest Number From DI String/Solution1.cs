@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._2375_Construct_Smallest_Number_From_DI_String;
 
-/// <summary>
-/// https://leetcode.com/problems/construct-smallest-number-from-di-string/submissions/1548038152/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/construct-smallest-number-from-di-string/submissions/1548038152/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

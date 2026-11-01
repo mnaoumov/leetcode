@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2370_Longest_Ideal_Subsequence;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1242043084/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1242043084/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

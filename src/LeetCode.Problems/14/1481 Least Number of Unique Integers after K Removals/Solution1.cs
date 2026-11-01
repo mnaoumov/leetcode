@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1481_Least_Number_of_Unique_Integers_after_K_Removals;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/914070938/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/914070938/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

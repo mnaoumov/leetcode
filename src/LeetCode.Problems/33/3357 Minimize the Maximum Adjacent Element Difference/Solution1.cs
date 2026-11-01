@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3357_Minimize_the_Maximum_Adjacent_Element_Difference;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

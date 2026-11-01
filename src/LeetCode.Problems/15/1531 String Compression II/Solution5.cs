@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1531_String_Compression_II;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/829080923/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/829080923/"/>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

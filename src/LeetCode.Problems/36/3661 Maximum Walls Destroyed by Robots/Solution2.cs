@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3661_Maximum_Walls_Destroyed_by_Robots;
 
-/// <summary>
-/// https://leetcode.com/problems/maximum-walls-destroyed-by-robots/submissions/1967280910/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/maximum-walls-destroyed-by-robots/submissions/1967280910/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

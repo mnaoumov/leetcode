@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2611_Mice_and_Cheese;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-339/submissions/detail/926310565/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-339/submissions/detail/926310565/"/>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

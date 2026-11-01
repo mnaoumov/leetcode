@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2973_Find_Number_of_Coins_to_Place_in_Tree_Nodes;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1126746131/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1126746131/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

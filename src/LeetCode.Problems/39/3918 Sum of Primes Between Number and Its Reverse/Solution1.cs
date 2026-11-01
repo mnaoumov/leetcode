@@ -2,9 +2,7 @@ using System.Globalization;
 
 namespace LeetCode.Problems._3918_Sum_of_Primes_Between_Number_and_Its_Reverse;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-500/problems/sum-of-primes-between-number-and-its-reverse/submissions/1993780901/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-500/problems/sum-of-primes-between-number-and-its-reverse/submissions/1993780901/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

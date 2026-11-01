@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2125_Number_of_Laser_Beams_in_a_Bank;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1135136739/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1135136739/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

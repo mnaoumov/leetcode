@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3882_Minimum_XOR_Path_in_a_Grid;
 
-/// <summary>
-/// https://leetcode.com/problems/minimum-xor-path-in-a-grid/submissions/2183519791/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/minimum-xor-path-in-a-grid/submissions/2183519791/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

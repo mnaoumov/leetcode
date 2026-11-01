@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1530_Number_of_Good_Leaf_Nodes_Pairs;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1325698208/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1325698208/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

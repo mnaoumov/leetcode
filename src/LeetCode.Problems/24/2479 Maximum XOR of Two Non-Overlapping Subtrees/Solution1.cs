@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2479_Maximum_XOR_of_Two_Non_Overlapping_Subtrees;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/874379924/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/874379924/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

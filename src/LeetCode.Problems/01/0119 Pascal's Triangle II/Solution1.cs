@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0119_Pascal_s_Triangle_II;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/835127632/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/835127632/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

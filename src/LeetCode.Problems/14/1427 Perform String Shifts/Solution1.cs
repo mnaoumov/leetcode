@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._1427_Perform_String_Shifts;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/945208173/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/945208173/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

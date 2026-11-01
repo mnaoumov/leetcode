@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2478_Number_of_Beautiful_Partitions;
 
-/// <summary>
-/// https://leetcode.com/problems/number-of-beautiful-partitions/submissions/846690628/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/number-of-beautiful-partitions/submissions/846690628/"/>
 [UsedImplicitly]
 public class Solution6 : ISolution
 {

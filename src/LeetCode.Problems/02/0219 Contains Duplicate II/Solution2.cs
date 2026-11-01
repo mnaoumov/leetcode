@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0219_Contains_Duplicate_II;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/826954508/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/826954508/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1582_Special_Positions_in_a_Binary_Matrix;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1119173258/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1119173258/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

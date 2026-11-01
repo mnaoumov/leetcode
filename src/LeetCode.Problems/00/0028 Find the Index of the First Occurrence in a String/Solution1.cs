@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._0028_Find_the_Index_of_the_First_Occurrence_in_a_String;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/812272924/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/812272924/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

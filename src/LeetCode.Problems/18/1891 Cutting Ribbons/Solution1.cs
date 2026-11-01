@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1891_Cutting_Ribbons;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1475352455/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1475352455/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

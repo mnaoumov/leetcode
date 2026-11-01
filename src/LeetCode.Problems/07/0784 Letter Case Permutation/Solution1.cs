@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0784_Letter_Case_Permutation;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/929400092/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/929400092/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

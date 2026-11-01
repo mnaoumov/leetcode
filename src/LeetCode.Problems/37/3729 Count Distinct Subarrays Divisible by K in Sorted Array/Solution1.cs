@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3729_Count_Distinct_Subarrays_Divisible_by_K_in_Sorted_Array;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

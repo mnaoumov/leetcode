@@ -2,9 +2,7 @@
 #pragma warning disable
 namespace LeetCode.Problems._0494_Target_Sum;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/196694343/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/196694343/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

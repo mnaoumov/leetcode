@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1261_Find_Elements_in_a_Contaminated_Binary_Tree;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1550264323/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1550264323/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -5,9 +5,7 @@
 
 namespace LeetCode.Problems._0240_Search_a_2D_Matrix_II;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/208244157/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/208244157/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3321_Find_X_Sum_of_All_K_Long_Subarrays_II;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-419/submissions/detail/1420572271/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-419/submissions/detail/1420572271/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2493_Divide_Nodes_Into_the_Maximum_Number_of_Groups;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/856174654/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/856174654/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

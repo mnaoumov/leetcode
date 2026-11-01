@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0126_Word_Ladder_II;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/836417344/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/836417344/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

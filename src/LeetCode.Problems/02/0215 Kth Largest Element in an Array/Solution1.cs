@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0215_Kth_Largest_Element_in_an_Array;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/908085542/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/908085542/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

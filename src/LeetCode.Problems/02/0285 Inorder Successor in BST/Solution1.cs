@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0285_Inorder_Successor_in_BST;
 
-/// <summary>
-/// https://leetcode.com/problems/inorder-successor-in-bst/submissions/1690156446/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/inorder-successor-in-bst/submissions/1690156446/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

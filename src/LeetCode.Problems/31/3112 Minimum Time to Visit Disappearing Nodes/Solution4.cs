@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3112_Minimum_Time_to_Visit_Disappearing_Nodes;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-128/submissions/detail/1231281934/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-128/submissions/detail/1231281934/"/>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

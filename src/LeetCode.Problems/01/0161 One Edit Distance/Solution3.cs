@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0161_One_Edit_Distance;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/870817922/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/870817922/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

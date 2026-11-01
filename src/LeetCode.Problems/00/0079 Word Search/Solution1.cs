@@ -5,9 +5,7 @@
 
 namespace LeetCode.Problems._0079_Word_Search;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/198314293/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/198314293/"/>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution1 : ISolution

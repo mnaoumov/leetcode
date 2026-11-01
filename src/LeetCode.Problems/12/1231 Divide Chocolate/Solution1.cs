@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1231_Divide_Chocolate;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/915125252/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/915125252/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

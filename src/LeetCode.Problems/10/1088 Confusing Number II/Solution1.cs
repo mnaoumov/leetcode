@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1088_Confusing_Number_II;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/882735224/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/882735224/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2983_Palindrome_Rearrangement_Queries;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1132723896/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1132723896/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

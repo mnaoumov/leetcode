@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2788_Split_Strings_by_Separator;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-355/submissions/detail/1001420178/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-355/submissions/detail/1001420178/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3541_Find_Most_Frequent_Vowel_and_Consonant;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-156/problems/find-most-frequent-vowel-and-consonant/submissions/1630142865/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-156/problems/find-most-frequent-vowel-and-consonant/submissions/1630142865/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

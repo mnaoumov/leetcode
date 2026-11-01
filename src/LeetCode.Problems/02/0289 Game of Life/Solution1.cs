@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._0289_Game_of_Life;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/205276260/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/205276260/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

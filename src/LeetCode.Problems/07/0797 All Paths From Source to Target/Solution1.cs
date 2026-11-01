@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0797_All_Paths_From_Source_to_Target;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/868286764/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/868286764/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

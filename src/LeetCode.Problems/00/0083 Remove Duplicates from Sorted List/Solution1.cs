@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0083_Remove_Duplicates_from_Sorted_List;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/822541644/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/822541644/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

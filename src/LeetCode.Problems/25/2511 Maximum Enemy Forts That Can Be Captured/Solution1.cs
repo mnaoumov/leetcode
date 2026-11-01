@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2511_Maximum_Enemy_Forts_That_Can_Be_Captured;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-94/submissions/detail/864772592/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-94/submissions/detail/864772592/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

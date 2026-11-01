@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3239_Minimum_Number_of_Flips_to_Make_Binary_Grid_Palindromic_I;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

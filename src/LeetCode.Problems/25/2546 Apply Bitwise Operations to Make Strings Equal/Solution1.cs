@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2546_Apply_Bitwise_Operations_to_Make_Strings_Equal;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-329/submissions/detail/882783895/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-329/submissions/detail/882783895/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

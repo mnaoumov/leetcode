@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2415_Reverse_Odd_Levels_of_Binary_Tree;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1483835257/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1483835257/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

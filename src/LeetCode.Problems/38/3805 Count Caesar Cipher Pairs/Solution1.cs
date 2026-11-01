@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3805_Count_Caesar_Cipher_Pairs;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-484/problems/count-caesar-cipher-pairs/submissions/1881268429/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-484/problems/count-caesar-cipher-pairs/submissions/1881268429/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

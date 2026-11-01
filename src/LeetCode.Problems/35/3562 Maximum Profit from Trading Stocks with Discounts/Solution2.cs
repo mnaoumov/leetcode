@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3562_Maximum_Profit_from_Trading_Stocks_with_Discounts;
 
-/// <summary>
-/// https://leetcode.com/problems/maximum-profit-from-trading-stocks-with-discounts/submissions/1856746659/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/maximum-profit-from-trading-stocks-with-discounts/submissions/1856746659/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

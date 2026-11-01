@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3479_Fruits_Into_Baskets_III;
 
-/// <summary>
-/// https://leetcode.com/problems/fruits-into-baskets-iii/submissions/1726264838/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/fruits-into-baskets-iii/submissions/1726264838/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

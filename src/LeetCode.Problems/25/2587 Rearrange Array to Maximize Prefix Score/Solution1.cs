@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2587_Rearrange_Array_to_Maximize_Prefix_Score;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-336/submissions/detail/913518471/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-336/submissions/detail/913518471/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

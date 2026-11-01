@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3876_Construct_Uniform_Parity_Array_II;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-494/problems/construct-uniform-parity-array-ii/submissions/1955261564/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-494/problems/construct-uniform-parity-array-ii/submissions/1955261564/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

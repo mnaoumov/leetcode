@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1928_Minimum_Cost_to_Reach_Destination_in_Time;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/941128899/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/941128899/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

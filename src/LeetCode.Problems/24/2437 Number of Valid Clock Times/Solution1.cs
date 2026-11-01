@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._2437_Number_of_Valid_Clock_Times;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-89/submissions/detail/822997004/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-89/submissions/detail/822997004/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

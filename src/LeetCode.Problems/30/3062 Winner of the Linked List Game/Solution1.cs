@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3062_Winner_of_the_Linked_List_Game;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1192149383/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1192149383/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

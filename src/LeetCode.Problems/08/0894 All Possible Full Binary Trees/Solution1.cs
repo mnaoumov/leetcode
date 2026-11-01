@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0894_All_Possible_Full_Binary_Trees;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1002183208/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1002183208/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

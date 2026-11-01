@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0452_Minimum_Number_of_Arrows_to_Burst_Balloons;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/871627901/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/871627901/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

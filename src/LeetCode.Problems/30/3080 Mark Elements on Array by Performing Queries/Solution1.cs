@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3080_Mark_Elements_on_Array_by_Performing_Queries;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-126/submissions/detail/1205362304/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-126/submissions/detail/1205362304/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

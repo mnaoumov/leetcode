@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0389_Find_the_Difference;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/927557820/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/927557820/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

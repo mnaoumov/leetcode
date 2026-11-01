@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3307_Find_the_K_th_Character_in_String_Game_II;
 
-/// <summary>
-/// https://leetcode.com/problems/find-the-k-th-character-in-string-game-ii/submissions/1685584375/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/find-the-k-th-character-in-string-game-ii/submissions/1685584375/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2746_Decremental_String_Concatenation;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-107/submissions/detail/978580167/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-107/submissions/detail/978580167/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

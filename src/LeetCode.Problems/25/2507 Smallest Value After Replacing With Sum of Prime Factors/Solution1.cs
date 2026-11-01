@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2507_Smallest_Value_After_Replacing_With_Sum_of_Prime_Factors;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-324/submissions/detail/861390389/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-324/submissions/detail/861390389/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

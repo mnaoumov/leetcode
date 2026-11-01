@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0149_Max_Points_on_a_Line;
 
-/// <summary>
-/// https://leetcode.com/problems/max-points-on-a-line/submissions/847811444/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/max-points-on-a-line/submissions/847811444/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

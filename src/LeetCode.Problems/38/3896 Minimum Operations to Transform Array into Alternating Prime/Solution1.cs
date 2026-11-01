@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3896_Minimum_Operations_to_Transform_Array_into_Alternating_Prime;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-180/problems/minimum-operations-to-transform-array-into-alternating-prime/submissions/1975456958/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-180/problems/minimum-operations-to-transform-array-into-alternating-prime/submissions/1975456958/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

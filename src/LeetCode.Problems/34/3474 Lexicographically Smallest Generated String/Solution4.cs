@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._3474_Lexicographically_Smallest_Generated_String;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-439/problems/lexicographically-smallest-generated-string/submissions/1559949124/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-439/problems/lexicographically-smallest-generated-string/submissions/1559949124/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution4 : ISolution

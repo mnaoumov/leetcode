@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3608_Minimum_Time_for_K_Connected_Components;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

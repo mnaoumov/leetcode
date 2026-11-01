@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2427_Number_of_Common_Factors;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/899810305/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/899810305/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

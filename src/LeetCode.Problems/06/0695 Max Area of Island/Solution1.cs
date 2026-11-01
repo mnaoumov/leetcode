@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0695_Max_Area_of_Island;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/897950321/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/897950321/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3003_Maximize_the_Number_of_Partitions_After_Operations;
 
-/// <summary>
-/// https://leetcode.com/problems/maximize-the-number-of-partitions-after-operations/submissions/1804703203/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/maximize-the-number-of-partitions-after-operations/submissions/1804703203/"/>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

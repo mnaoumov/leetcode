@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._1239_Maximum_Length_of_a_Concatenated_String_with_Unique_Characters;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/828999570/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/828999570/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

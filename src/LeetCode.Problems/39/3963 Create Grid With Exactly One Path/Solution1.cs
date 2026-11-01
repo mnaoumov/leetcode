@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3963_Create_Grid_With_Exactly_One_Path;
 
-/// <summary>
-/// https://leetcode.com/problems/create-grid-with-exactly-one-path/submissions/2183488660/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/create-grid-with-exactly-one-path/submissions/2183488660/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

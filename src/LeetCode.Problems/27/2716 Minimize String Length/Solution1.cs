@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2716_Minimize_String_Length;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-348/submissions/detail/963320611/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-348/submissions/detail/963320611/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

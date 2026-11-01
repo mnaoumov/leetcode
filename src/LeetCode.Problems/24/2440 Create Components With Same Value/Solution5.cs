@@ -5,9 +5,7 @@
 
 namespace LeetCode.Problems._2440_Create_Components_With_Same_Value;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/826694995/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/826694995/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution5 : ISolution

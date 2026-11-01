@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2548_Maximum_Price_to_Fill_a_Bag;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/887106947/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/887106947/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

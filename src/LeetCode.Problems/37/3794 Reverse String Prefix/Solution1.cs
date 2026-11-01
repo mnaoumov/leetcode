@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3794_Reverse_String_Prefix;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-173/problems/reverse-string-prefix/submissions/1873176961/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-173/problems/reverse-string-prefix/submissions/1873176961/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

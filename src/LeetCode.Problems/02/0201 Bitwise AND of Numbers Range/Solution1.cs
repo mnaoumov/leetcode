@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0201_Bitwise_AND_of_Numbers_Range;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/926886378/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/926886378/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3644_Maximum_K_to_Sort_a_Permutation;
 
-/// <summary>
-/// https://leetcode.com/problems/maximum-k-to-sort-a-permutation/submissions/2180059046/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/maximum-k-to-sort-a-permutation/submissions/2180059046/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2448_Minimum_Cost_to_Make_Array_Equal;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-316/submissions/detail/828333824/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-316/submissions/detail/828333824/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

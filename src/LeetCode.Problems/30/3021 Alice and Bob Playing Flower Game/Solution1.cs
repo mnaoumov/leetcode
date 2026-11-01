@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3021_Alice_and_Bob_Playing_Flower_Game;
 
-/// <summary>
-/// https://leetcode.com/problems/alice-and-bob-playing-flower-game/submissions/1751913467/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/alice-and-bob-playing-flower-game/submissions/1751913467/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

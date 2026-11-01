@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3144_Minimum_Substring_Partition_of_Equal_Character_Frequency;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-130/submissions/detail/1255261857/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-130/submissions/detail/1255261857/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

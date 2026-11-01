@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0539_Minimum_Time_Difference;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1391597823/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1391597823/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

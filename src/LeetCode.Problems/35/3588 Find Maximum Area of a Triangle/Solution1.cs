@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3588_Find_Maximum_Area_of_a_Triangle;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-159/problems/find-maximum-area-of-a-triangle/submissions/1671675260/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-159/problems/find-maximum-area-of-a-triangle/submissions/1671675260/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

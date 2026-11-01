@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0006_Zigzag_Conversion;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/828911380/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/828911380/"/>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

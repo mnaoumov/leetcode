@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0121_Best_Time_to_Buy_and_Sell_Stock;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/836248252/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/836248252/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

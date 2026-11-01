@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0144_Binary_Tree_Preorder_Traversal;
 
-/// <summary>
-/// https://leetcode.com/problems/binary-tree-preorder-traversal/submissions/845326188/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/binary-tree-preorder-traversal/submissions/845326188/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

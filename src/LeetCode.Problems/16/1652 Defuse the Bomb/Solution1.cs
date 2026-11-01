@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1652_Defuse_the_Bomb;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

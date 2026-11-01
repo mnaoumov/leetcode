@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0516_Longest_Palindromic_Subsequence;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/929999265/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/929999265/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

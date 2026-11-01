@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3471_Find_the_Largest_Almost_Missing_Integer;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-439/problems/find-the-largest-almost-missing-integer/submissions/1559825148/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-439/problems/find-the-largest-almost-missing-integer/submissions/1559825148/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

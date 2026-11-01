@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2460_Apply_Operations_to_an_Array;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-318/submissions/detail/837722048/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-318/submissions/detail/837722048/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

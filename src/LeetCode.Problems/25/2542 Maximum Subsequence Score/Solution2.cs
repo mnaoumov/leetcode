@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2542_Maximum_Subsequence_Score;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-96/submissions/detail/882494451/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-96/submissions/detail/882494451/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

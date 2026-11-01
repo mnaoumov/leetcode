@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._3734_Lexicographically_Smallest_Palindromic_Permutation_Greater_Than_Target;
 
-/// <summary>
-/// https://leetcode.com/problems/lexicographically-smallest-palindromic-permutation-greater-than-target/submissions/2122516908/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/lexicographically-smallest-palindromic-permutation-greater-than-target/submissions/2122516908/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3115_Maximum_Prime_Difference;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-393/submissions/detail/1231756639/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-393/submissions/detail/1231756639/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

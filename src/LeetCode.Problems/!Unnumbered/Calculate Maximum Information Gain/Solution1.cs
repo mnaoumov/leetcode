@@ -1,8 +1,6 @@
 namespace LeetCode.Problems.Calculate_Maximum_Information_Gain;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/922140740/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/922140740/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

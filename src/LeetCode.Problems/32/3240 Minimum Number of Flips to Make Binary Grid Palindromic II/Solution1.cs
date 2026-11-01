@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3240_Minimum_Number_of_Flips_to_Make_Binary_Grid_Palindromic_II;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-136/submissions/detail/1343179396/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-136/submissions/detail/1343179396/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

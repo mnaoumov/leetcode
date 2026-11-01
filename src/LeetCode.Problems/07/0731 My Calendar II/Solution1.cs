@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0731_My_Calendar_II;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2608_Shortest_Cycle_in_a_Graph;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/926162365/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/926162365/"/>
 [UsedImplicitly]
 public class Solution6 : ISolution
 {

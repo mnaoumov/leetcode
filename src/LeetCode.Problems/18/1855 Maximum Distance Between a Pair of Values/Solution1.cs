@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1855_Maximum_Distance_Between_a_Pair_of_Values;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/915162018/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/915162018/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1137_N_th_Tribonacci_Number;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/887782753/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/887782753/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

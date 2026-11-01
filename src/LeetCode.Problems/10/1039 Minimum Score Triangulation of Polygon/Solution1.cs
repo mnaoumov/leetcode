@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1039_Minimum_Score_Triangulation_of_Polygon;
 
-/// <summary>
-/// https://leetcode.com/problems/minimum-score-triangulation-of-polygon/submissions/1785902296/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/minimum-score-triangulation-of-polygon/submissions/1785902296/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

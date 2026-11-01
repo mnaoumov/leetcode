@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._0029_Divide_Two_Integers;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/812354082/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/812354082/"/>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

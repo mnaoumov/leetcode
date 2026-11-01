@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3905_Multi_Source_Flood_Fill;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-498/problems/multi-source-flood-fill/submissions/1982238494/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-498/problems/multi-source-flood-fill/submissions/1982238494/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2091_Removing_Minimum_and_Maximum_From_Array;
 
-/// <summary>
-/// https://leetcode.com/problems/removing-minimum-and-maximum-from-array/submissions/2124647509/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/removing-minimum-and-maximum-from-array/submissions/2124647509/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

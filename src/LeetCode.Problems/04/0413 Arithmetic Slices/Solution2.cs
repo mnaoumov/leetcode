@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0413_Arithmetic_Slices;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/928783642/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/928783642/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

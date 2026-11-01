@@ -2,9 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._2572_Count_the_Number_of_Square_Free_Subsets;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-333/submissions/detail/900726524/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-333/submissions/detail/900726524/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

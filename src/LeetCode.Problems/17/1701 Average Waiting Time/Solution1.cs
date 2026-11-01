@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1701_Average_Waiting_Time;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1314552351/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1314552351/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

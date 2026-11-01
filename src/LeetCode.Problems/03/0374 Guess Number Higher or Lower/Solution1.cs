@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0374_Guess_Number_Higher_or_Lower;
 
-/// <summary>
-/// https://leetcode.com/problems/guess-number-higher-or-lower/submissions/844280524/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/guess-number-higher-or-lower/submissions/844280524/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : GuessGame

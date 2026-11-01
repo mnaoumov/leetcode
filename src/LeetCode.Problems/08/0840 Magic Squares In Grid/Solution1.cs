@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0840_Magic_Squares_In_Grid;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1349426707/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1349426707/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

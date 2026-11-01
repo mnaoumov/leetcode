@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._2483_Minimum_Penalty_for_a_Shop;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/850319258/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/850319258/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

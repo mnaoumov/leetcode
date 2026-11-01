@@ -5,9 +5,7 @@
 
 namespace LeetCode.Problems._0025_Reverse_Nodes_in_k_Group;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/811540652/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/811540652/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

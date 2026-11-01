@@ -2,9 +2,7 @@ using System.Text.RegularExpressions;
 
 namespace LeetCode.Problems._0966_Vowel_Spellchecker;
 
-/// <summary>
-/// https://leetcode.com/problems/vowel-spellchecker/submissions/1770052490/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/vowel-spellchecker/submissions/1770052490/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2612_Minimum_Reverse_Operations;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/926417223/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/926417223/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution08 : ISolution

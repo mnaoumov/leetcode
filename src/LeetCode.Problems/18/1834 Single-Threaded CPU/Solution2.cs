@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1834_Single_Threaded_CPU;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/867234452/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/867234452/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

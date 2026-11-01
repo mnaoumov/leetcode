@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0281_Zigzag_Iterator;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/947555261/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/947555261/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

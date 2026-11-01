@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3438_Find_Valid_Pair_of_Adjacent_Digits_in_String;
 
-/// <summary>
-/// https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/submissions/1527520929/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/submissions/1527520929/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

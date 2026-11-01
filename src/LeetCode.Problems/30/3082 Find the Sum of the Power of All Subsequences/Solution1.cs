@@ -2,9 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3082_Find_the_Sum_of_the_Power_of_All_Subsequences;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-126/submissions/detail/1205422000/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-126/submissions/detail/1205422000/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

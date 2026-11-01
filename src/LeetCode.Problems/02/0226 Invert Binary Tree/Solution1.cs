@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0226_Invert_Binary_Tree;
 
-/// <summary>
-/// https://leetcode.com/problems/invert-binary-tree/submissions/845554524/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/invert-binary-tree/submissions/845554524/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

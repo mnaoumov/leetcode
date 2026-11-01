@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._0052_N_Queens_II;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/819088644/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/819088644/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

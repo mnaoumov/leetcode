@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3721_Longest_Balanced_Subarray_II;
 
-/// <summary>
-/// https://leetcode.com/problems/longest-balanced-subarray-ii/submissions/1915292024/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/longest-balanced-subarray-ii/submissions/1915292024/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

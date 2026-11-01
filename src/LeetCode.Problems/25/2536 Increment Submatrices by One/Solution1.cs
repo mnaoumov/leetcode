@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2536_Increment_Submatrices_by_One;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-328/submissions/detail/878339876/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-328/submissions/detail/878339876/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

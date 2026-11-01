@@ -2,9 +2,7 @@ using System.Globalization;
 
 namespace LeetCode.Problems._0288_Unique_Word_Abbreviation;
 
-/// <summary>
-/// https://leetcode.com/problems/unique-word-abbreviation/submissions/2057415819/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/unique-word-abbreviation/submissions/2057415819/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

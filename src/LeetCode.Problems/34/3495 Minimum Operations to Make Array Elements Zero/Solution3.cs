@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3495_Minimum_Operations_to_Make_Array_Elements_Zero;
 
-/// <summary>
-/// https://leetcode.com/problems/minimum-operations-to-make-array-elements-zero/submissions/1760983897/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/minimum-operations-to-make-array-elements-zero/submissions/1760983897/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

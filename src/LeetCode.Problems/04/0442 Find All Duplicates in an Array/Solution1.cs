@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0442_Find_All_Duplicates_in_an_Array;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1213909277/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1213909277/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._0007_Reverse_Integer;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/148143853/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/148143853/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

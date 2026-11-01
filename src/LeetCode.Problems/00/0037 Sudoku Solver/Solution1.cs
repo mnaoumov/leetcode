@@ -2,9 +2,7 @@
 #pragma warning disable
 namespace LeetCode.Problems._0037_Sudoku_Solver;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/813085431/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/813085431/"/>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution1 : ISolution

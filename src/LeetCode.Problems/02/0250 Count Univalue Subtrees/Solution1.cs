@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0250_Count_Univalue_Subtrees;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/982096181/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/982096181/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

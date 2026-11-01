@@ -2,9 +2,7 @@
 #pragma warning disable
 namespace LeetCode.Problems._0085_Maximal_Rectangle;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/200371094/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/200371094/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

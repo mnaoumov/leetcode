@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3258_Count_Substrings_That_Satisfy_K_Constraint_I;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-411/submissions/detail/1359745532/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-411/submissions/detail/1359745532/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

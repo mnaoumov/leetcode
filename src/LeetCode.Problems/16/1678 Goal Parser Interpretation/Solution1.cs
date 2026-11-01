@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1678_Goal_Parser_Interpretation;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/927554052/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/927554052/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

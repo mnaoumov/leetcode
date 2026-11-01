@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0779_K_th_Symbol_in_Grammar;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1083483246/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1083483246/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

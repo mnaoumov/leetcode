@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2977_Minimum_Cost_to_Convert_String_II;
 
-/// <summary>
-/// https://leetcode.com/problems/minimum-cost-to-convert-string-ii/submissions/1901473118/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/minimum-cost-to-convert-string-ii/submissions/1901473118/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

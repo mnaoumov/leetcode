@@ -4,10 +4,8 @@
 
 namespace LeetCode.Problems._2440_Create_Components_With_Same_Value;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/826783747/
-/// https://leetcode.com/submissions/detail/826809746/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/826783747/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/826809746/"/>
 [UsedImplicitly]
 public class Solution7 : ISolution
 {

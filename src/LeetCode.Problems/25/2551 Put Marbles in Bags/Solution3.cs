@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2551_Put_Marbles_in_Bags;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-330/submissions/detail/887206701/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-330/submissions/detail/887206701/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0237_Delete_Node_in_a_Linked_List;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/821254721/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/821254721/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

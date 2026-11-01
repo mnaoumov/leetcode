@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1557_Minimum_Number_of_Vertices_to_Reach_All_Nodes;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/904445469/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/904445469/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

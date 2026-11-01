@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2540_Minimum_Common_Value;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-96/submissions/detail/882417317/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-96/submissions/detail/882417317/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

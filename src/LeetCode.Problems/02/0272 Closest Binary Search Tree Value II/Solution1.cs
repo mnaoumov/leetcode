@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0272_Closest_Binary_Search_Tree_Value_II;
 
-/// <summary>
-/// https://leetcode.com/problems/closest-binary-search-tree-value-ii/submissions/1715317834/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/closest-binary-search-tree-value-ii/submissions/1715317834/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3332_Maximum_Points_Tourist_Can_Earn;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-142/submissions/detail/1434345357/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-142/submissions/detail/1434345357/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

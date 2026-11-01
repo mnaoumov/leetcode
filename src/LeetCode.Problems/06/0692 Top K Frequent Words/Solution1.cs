@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0692_Top_K_Frequent_Words;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/826087379/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/826087379/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

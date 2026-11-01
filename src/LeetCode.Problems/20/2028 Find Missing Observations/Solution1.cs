@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2028_Find_Missing_Observations;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1380510109/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1380510109/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

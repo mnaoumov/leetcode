@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._0005_Longest_Palindromic_Substring;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/147577534/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/147577534/"/>
 [UsedImplicitly]
 public class Solution07 : ISolution
 {

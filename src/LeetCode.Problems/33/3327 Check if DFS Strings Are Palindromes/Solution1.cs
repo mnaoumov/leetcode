@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._3327_Check_if_DFS_Strings_Are_Palindromes;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-420/submissions/detail/1427955066/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-420/submissions/detail/1427955066/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

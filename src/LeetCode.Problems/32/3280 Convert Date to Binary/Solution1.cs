@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3280_Convert_Date_to_Binary;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-414/submissions/detail/1382654578/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-414/submissions/detail/1382654578/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -2,9 +2,7 @@ using System.Globalization;
 
 namespace LeetCode.Problems._0635_Design_Log_Storage_System;
 
-/// <summary>
-/// https://leetcode.com/problems/design-log-storage-system/submissions/1942652732/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/design-log-storage-system/submissions/1942652732/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

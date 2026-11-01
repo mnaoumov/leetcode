@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0421_Maximum_XOR_of_Two_Numbers_in_an_Array;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/891017172/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/891017172/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0641_Design_Circular_Deque;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1404424595/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1404424595/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

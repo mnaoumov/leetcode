@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0567_Permutation_in_String;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/891012371/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/891012371/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

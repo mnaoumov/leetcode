@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1339_Maximum_Product_of_Splitted_Binary_Tree;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/857351204/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/857351204/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

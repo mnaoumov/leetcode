@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._2109_Adding_Spaces_to_a_String;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1468817188/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1468817188/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2176_Count_Equal_and_Divisible_Pairs_in_an_Array;
 
-/// <summary>
-/// https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/submissions/1609108100/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/submissions/1609108100/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

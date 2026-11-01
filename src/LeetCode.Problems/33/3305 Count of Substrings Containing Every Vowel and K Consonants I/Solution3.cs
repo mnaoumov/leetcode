@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3305_Count_of_Substrings_Containing_Every_Vowel_and_K_Consonants_I;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-417/submissions/detail/1405638414/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-417/submissions/detail/1405638414/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

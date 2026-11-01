@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._1980_Find_Unique_Binary_String;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1100421396/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1100421396/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

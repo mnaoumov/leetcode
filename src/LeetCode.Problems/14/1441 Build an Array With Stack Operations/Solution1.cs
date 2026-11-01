@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1441_Build_an_Array_With_Stack_Operations;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1090669303/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1090669303/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

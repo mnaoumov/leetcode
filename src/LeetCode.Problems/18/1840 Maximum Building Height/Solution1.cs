@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1840_Maximum_Building_Height;
 
-/// <summary>
-/// https://leetcode.com/problems/maximum-building-height/submissions/2039361671/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/maximum-building-height/submissions/2039361671/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.MemoryLimitExceeded)]
 public class Solution1 : ISolution

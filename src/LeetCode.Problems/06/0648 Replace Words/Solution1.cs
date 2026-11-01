@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0648_Replace_Words;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1280042864/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1280042864/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

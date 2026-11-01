@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1865_Finding_Pairs_With_a_Certain_Sum;
 
-/// <summary>
-/// https://leetcode.com/problems/finding-pairs-with-a-certain-sum/submissions/1687818313/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/finding-pairs-with-a-certain-sum/submissions/1687818313/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

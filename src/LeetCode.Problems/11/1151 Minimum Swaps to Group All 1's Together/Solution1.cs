@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1151_Minimum_Swaps_to_Group_All_1_s_Together;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/943291802/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/943291802/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._2456_Most_Popular_Video_Creator;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-317/submissions/detail/833069031/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-317/submissions/detail/833069031/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

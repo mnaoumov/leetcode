@@ -5,9 +5,7 @@
 
 namespace LeetCode.Problems._0075_Sort_Colors;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/196742471/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/196742471/"/>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution1 : ISolution

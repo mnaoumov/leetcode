@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0270_Closest_Binary_Search_Tree_Value;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/897480344/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/897480344/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

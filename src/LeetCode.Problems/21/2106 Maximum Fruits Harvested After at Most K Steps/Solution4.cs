@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2106_Maximum_Fruits_Harvested_After_at_Most_K_Steps;
 
-/// <summary>
-/// https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps/submissions/1721431032/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps/submissions/1721431032/"/>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

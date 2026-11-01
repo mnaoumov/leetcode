@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0433_Minimum_Genetic_Mutation;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/835054128/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/835054128/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

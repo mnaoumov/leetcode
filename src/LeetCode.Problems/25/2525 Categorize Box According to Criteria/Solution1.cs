@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2525_Categorize_Box_According_to_Criteria;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-95/submissions/detail/873326075/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-95/submissions/detail/873326075/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

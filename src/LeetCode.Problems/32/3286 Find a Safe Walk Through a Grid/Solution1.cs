@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3286_Find_a_Safe_Walk_Through_a_Grid;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-139/submissions/detail/1389927384/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-139/submissions/detail/1389927384/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

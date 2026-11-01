@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3036_Number_of_Subarrays_That_Match_a_Pattern_II;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-384/submissions/detail/1171968622/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-384/submissions/detail/1171968622/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

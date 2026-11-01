@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0021_Merge_Two_Sorted_Lists;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/923208181/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/923208181/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

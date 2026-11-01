@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1779_Find_Nearest_Point_That_Has_the_Same_X_or_Y_Coordinate;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/924528600/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/924528600/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

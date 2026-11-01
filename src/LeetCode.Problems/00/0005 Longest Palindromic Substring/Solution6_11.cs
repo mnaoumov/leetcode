@@ -2,10 +2,8 @@
 #pragma warning disable
 namespace LeetCode.Problems._0005_Longest_Palindromic_Substring;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/147572986/
-/// https://leetcode.com/submissions/detail/815933885/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/147572986/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/815933885/"/>
 [UsedImplicitly]
 public class Solution6_11 : ISolution
 {

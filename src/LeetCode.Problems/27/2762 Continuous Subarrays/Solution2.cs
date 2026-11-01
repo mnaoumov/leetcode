@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2762_Continuous_Subarrays;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/985014242/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/985014242/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

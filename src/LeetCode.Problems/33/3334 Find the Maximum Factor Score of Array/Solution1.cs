@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3334_Find_the_Maximum_Factor_Score_of_Array;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-421/submissions/detail/1434779155/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-421/submissions/detail/1434779155/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

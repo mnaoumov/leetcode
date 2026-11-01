@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2761_Prime_Pairs_With_Target_Sum;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/984923347/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/984923347/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution5 : ISolution

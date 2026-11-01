@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2445_Number_of_Nodes_With_Value_One;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/882110921/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/882110921/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

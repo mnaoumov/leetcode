@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2484_Count_Palindromic_Subsequences;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/850356449/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/850356449/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

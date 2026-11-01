@@ -5,9 +5,7 @@
 
 namespace LeetCode.Problems._0007_Reverse_Integer;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/148143787/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/148143787/"/>
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 [UsedImplicitly]
 public class Solution2 : ISolution

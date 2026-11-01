@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3033_Modify_the_Matrix;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-384/submissions/detail/1171873111/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-384/submissions/detail/1171873111/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

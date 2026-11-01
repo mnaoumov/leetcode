@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2825_Make_String_a_Subsequence_Using_Cyclic_Increments;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-111/submissions/detail/1025785735/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-111/submissions/detail/1025785735/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

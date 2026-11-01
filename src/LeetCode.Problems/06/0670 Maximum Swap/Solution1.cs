@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0670_Maximum_Swap;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1424882182/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1424882182/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

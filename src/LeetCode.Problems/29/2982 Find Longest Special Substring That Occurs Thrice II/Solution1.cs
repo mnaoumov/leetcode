@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2982_Find_Longest_Special_Substring_That_Occurs_Thrice_II;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-378/submissions/detail/1132663925/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-378/submissions/detail/1132663925/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

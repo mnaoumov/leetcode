@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2498_Frog_Jump_II;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/858356153/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/858356153/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

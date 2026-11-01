@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2337_Move_Pieces_to_Obtain_a_String;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1470606374/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1470606374/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

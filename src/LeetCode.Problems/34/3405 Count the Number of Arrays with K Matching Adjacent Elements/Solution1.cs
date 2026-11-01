@@ -2,9 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3405_Count_the_Number_of_Arrays_with_K_Matching_Adjacent_Elements;
 
-/// <summary>
-/// https://leetcode.com/problems/count-the-number-of-arrays-with-k-matching-adjacent-elements/submissions/1666664062/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/count-the-number-of-arrays-with-k-matching-adjacent-elements/submissions/1666664062/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

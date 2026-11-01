@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0651_4_Keys_Keyboard;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/924014604/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/924014604/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

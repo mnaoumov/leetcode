@@ -5,9 +5,7 @@
 
 namespace LeetCode.Problems._0018_4Sum;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/810187230/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/810187230/"/>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution1 : ISolution

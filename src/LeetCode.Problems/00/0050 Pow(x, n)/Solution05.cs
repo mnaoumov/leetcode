@@ -5,9 +5,7 @@
 
 namespace LeetCode.Problems._0050_Pow_x__n_;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/205250713/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/205250713/"/>
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 [UsedImplicitly]
 public class Solution05 : ISolution

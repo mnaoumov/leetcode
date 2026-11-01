@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2664_The_Knight_s_Tour;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1431067592/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1431067592/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

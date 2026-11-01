@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0204_Count_Primes;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/923274587/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/923274587/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

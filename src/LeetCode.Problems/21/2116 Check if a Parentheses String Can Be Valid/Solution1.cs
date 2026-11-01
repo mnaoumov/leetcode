@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2116_Check_if_a_Parentheses_String_Can_Be_Valid;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1505585533/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1505585533/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

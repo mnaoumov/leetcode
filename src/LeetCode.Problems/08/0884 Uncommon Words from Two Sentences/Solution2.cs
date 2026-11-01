@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0884_Uncommon_Words_from_Two_Sentences;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1393551234/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1393551234/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

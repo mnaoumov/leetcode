@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0170_Two_Sum_III___Data_structure_design;
 
-/// <summary>
-/// https://leetcode.com/problems/two-sum-iii-data-structure-design/submissions/1823682933/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/two-sum-iii-data-structure-design/submissions/1823682933/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

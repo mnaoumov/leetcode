@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0769_Max_Chunks_To_Make_Sorted;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1482506975/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1482506975/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

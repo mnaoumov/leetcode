@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0661_Image_Smoother;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1123785869/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1123785869/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

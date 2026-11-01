@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0973_K_Closest_Points_to_Origin;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/908084079/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/908084079/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

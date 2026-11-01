@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0773_Sliding_Puzzle;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1462108900/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1462108900/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

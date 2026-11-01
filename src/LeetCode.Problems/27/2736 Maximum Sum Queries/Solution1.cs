@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2736_Maximum_Sum_Queries;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-349/submissions/detail/968572750/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-349/submissions/detail/968572750/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

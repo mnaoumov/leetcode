@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1673_Find_the_Most_Competitive_Subsequence;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/903249113/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/903249113/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

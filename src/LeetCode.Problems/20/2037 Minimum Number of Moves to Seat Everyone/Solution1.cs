@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2037_Minimum_Number_of_Moves_to_Seat_Everyone;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1286488481/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1286488481/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3494_Find_the_Minimum_Amount_of_Time_to_Brew_Potions;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-442/problems/find-the-minimum-amount-of-time-to-brew-potions/submissions/1582859348/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-442/problems/find-the-minimum-amount-of-time-to-brew-potions/submissions/1582859348/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2141_Maximum_Running_Time_of_N_Computers;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/915433679/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/915433679/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

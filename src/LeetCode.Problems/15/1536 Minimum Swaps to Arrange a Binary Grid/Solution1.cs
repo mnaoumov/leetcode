@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1536_Minimum_Swaps_to_Arrange_a_Binary_Grid;
 
-/// <summary>
-/// https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/submissions/1936205059/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/submissions/1936205059/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

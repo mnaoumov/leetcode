@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1009_Complement_of_Base_10_Integer;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1364176074/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1364176074/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

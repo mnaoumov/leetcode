@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1526_Minimum_Number_of_Increments_on_Subarrays_to_Form_a_Target_Array;
 
-/// <summary>
-/// https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/submissions/1816413992/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/submissions/1816413992/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

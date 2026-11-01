@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2285_Maximum_Total_Importance_of_Roads;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1302439826/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1302439826/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0320_Generalized_Abbreviation;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1364204465/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1364204465/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

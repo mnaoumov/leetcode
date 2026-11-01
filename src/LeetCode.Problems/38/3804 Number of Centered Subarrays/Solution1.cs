@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3804_Number_of_Centered_Subarrays;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-484/problems/number-of-centered-subarrays/submissions/1881256704/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-484/problems/number-of-centered-subarrays/submissions/1881256704/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

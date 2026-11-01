@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._0043_Multiply_Strings;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/814694353/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/814694353/"/>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

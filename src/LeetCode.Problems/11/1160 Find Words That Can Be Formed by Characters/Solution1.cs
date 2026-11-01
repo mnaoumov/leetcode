@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1160_Find_Words_That_Can_Be_Formed_by_Characters;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1110524409/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1110524409/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

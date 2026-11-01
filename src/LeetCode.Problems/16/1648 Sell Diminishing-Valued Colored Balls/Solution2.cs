@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1648_Sell_Diminishing_Valued_Colored_Balls;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/966442019/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/966442019/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

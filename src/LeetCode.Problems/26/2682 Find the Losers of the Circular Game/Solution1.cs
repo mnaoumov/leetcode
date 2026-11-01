@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2682_Find_the_Losers_of_the_Circular_Game;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-345/submissions/detail/949919151/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-345/submissions/detail/949919151/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

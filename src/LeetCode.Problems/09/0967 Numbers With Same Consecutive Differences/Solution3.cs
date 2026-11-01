@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._0967_Numbers_With_Same_Consecutive_Differences;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/200392813/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/200392813/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3715_Sum_of_Perfect_Square_Ancestors;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

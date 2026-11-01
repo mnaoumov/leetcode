@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0287_Find_the_Duplicate_Number;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/933121615/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/933121615/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

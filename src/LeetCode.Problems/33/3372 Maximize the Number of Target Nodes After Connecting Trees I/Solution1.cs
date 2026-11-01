@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3372_Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_I;
 
-/// <summary>
-/// https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-i/submissions/1646524439/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-i/submissions/1646524439/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

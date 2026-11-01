@@ -2,10 +2,8 @@
 #pragma warning disable
 namespace LeetCode.Problems._0621_Task_Scheduler;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/196722409/
-/// https://leetcode.com/submissions/detail/818858872/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/196722409/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/818858872/"/>
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 [UsedImplicitly]
 public class Solution5_8 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0364_Nested_List_Weight_Sum_II;
 
-/// <summary>
-/// https://leetcode.com/problems/nested-list-weight-sum-ii/submissions/1836759259/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/nested-list-weight-sum-ii/submissions/1836759259/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

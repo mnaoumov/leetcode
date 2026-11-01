@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3086_Minimum_Moves_to_Pick_K_Ones;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-389/submissions/detail/1205947889/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-389/submissions/detail/1205947889/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0317_Shortest_Distance_from_All_Buildings;
 
-/// <summary>
-/// https://leetcode.com/problems/shortest-distance-from-all-buildings/submissions/1592598714/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/shortest-distance-from-all-buildings/submissions/1592598714/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution3 : ISolution

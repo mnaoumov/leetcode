@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3363_Find_the_Maximum_Number_of_Fruits_Collected;
 
-/// <summary>
-/// https://leetcode.com/problems/find-the-maximum-number-of-fruits-collected/submissions/1727421237/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/find-the-maximum-number-of-fruits-collected/submissions/1727421237/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

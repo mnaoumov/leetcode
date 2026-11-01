@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0129_Sum_Root_to_Leaf_Numbers;
 
-/// <summary>
-/// https://leetcode.com/problems/sum-root-to-leaf-numbers/submissions/836547257/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/sum-root-to-leaf-numbers/submissions/836547257/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

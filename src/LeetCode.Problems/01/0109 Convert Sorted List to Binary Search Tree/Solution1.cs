@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0109_Convert_Sorted_List_to_Binary_Search_Tree;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/830200789/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/830200789/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

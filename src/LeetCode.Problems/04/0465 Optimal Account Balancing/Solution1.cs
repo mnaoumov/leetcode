@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0465_Optimal_Account_Balancing;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/984117670/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/984117670/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

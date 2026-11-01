@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2802_Find_The_K_th_Lucky_Number;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1271009131/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1271009131/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3604_Minimum_Time_to_Reach_Destination_in_Directed_Graph;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-160/problems/minimum-time-to-reach-destination-in-directed-graph/submissions/1687421431/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-160/problems/minimum-time-to-reach-destination-in-directed-graph/submissions/1687421431/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.MemoryLimitExceeded)]
 public class Solution1 : ISolution

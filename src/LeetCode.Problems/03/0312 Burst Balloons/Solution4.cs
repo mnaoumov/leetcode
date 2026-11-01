@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0312_Burst_Balloons;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/881578038/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/881578038/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution4 : ISolution

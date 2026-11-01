@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3295_Report_Spam_Message;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-416/submissions/detail/1397966326/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-416/submissions/detail/1397966326/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

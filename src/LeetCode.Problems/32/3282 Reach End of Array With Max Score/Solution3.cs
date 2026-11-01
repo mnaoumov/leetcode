@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3282_Reach_End_of_Array_With_Max_Score;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-414/submissions/detail/1382738913/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-414/submissions/detail/1382738913/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

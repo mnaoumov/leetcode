@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3900_Longest_Balanced_Substring_After_One_Swap;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-497/problems/longest-balanced-substring-after-one-swap/submissions/1975998322/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-497/problems/longest-balanced-substring-after-one-swap/submissions/1975998322/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

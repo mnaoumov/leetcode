@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0115_Distinct_Subsequences;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/834370368/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/834370368/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2425_Bitwise_XOR_of_All_Pairings;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

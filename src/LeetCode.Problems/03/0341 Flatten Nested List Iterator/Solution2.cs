@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0341_Flatten_Nested_List_Iterator;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/205283879/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/205283879/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

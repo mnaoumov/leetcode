@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2577_Minimum_Time_to_Visit_a_Cell_In_a_Grid;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-334/submissions/detail/905079188/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-334/submissions/detail/905079188/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

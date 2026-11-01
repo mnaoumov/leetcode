@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3257_Maximum_Value_Sum_by_Placing_Three_Rooks_II;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

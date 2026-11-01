@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0276_Paint_Fence;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/927259729/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/927259729/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

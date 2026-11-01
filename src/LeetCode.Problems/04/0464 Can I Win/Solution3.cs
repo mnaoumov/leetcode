@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0464_Can_I_Win;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/974176745/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/974176745/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

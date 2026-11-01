@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2848_Points_That_Intersect_With_Cars;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-362/submissions/detail/1045186528/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-362/submissions/detail/1045186528/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

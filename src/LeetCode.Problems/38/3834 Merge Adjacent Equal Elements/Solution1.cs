@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3834_Merge_Adjacent_Equal_Elements;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-488/problems/merge-adjacent-equal-elements/submissions/1911907802/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-488/problems/merge-adjacent-equal-elements/submissions/1911907802/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

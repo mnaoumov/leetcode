@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2418_Sort_the_People;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1328997528/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1328997528/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

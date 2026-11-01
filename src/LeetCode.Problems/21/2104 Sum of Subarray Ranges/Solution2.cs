@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2104_Sum_of_Subarray_Ranges;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/903880385/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/903880385/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

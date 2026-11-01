@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0868_Binary_Gap;
 
-/// <summary>
-/// https://leetcode.com/problems/binary-gap/submissions/1926832792/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/binary-gap/submissions/1926832792/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

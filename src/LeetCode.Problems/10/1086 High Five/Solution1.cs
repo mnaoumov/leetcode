@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1086_High_Five;
 
-/// <summary>
-/// https://leetcode.com/problems/high-five/submissions/2134599135/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/high-five/submissions/2134599135/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

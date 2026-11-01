@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0474_Ones_and_Zeroes;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/921089091/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/921089091/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

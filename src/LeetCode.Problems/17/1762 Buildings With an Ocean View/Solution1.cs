@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1762_Buildings_With_an_Ocean_View;
 
-/// <summary>
-/// https://leetcode.com/problems/buildings-with-an-ocean-view/submissions/2142068815/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/buildings-with-an-ocean-view/submissions/2142068815/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -5,9 +5,7 @@
 
 namespace LeetCode.Problems._0523_Continuous_Subarray_Sum;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/830306234/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/830306234/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

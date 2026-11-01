@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1858_Longest_Word_With_All_Prefixes;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/959361222/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/959361222/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

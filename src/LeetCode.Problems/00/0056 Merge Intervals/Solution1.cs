@@ -5,9 +5,7 @@
 
 namespace LeetCode.Problems._0056_Merge_Intervals;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/197151975/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/197151975/"/>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution1 : ISolution

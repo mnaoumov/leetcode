@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0802_Find_Eventual_Safe_States;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/928118467/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/928118467/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

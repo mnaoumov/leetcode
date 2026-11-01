@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1302_Deepest_Leaves_Sum;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/897377077/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/897377077/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3697_Compute_Decimal_Representation;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-469/problems/compute-decimal-representation/submissions/1784770372/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-469/problems/compute-decimal-representation/submissions/1784770372/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

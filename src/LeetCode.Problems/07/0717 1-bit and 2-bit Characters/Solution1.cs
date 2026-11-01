@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0717_1_bit_and_2_bit_Characters;
 
-/// <summary>
-/// https://leetcode.com/problems/1-bit-and-2-bit-characters/submissions/1832811167/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/1-bit-and-2-bit-characters/submissions/1832811167/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

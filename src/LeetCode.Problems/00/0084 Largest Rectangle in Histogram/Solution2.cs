@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0084_Largest_Rectangle_in_Histogram;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/826838110/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/826838110/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

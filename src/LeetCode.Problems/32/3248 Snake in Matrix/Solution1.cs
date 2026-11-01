@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3248_Snake_in_Matrix;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-410/submissions/detail/1351511842/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-410/submissions/detail/1351511842/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

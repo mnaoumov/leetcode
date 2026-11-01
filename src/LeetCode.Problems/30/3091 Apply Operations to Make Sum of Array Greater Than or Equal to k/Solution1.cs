@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3091_Apply_Operations_to_Make_Sum_of_Array_Greater_Than_or_Equal_to_k;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-390/submissions/detail/1212144619/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-390/submissions/detail/1212144619/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

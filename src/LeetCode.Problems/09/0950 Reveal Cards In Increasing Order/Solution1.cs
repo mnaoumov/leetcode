@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0950_Reveal_Cards_In_Increasing_Order;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1228948187/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1228948187/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

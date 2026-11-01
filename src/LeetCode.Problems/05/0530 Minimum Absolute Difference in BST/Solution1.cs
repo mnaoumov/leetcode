@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0530_Minimum_Absolute_Difference_in_BST;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/899437282/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/899437282/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

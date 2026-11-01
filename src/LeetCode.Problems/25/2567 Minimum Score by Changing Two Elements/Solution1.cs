@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2567_Minimum_Score_by_Changing_Two_Elements;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-98/submissions/detail/900370175/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-98/submissions/detail/900370175/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

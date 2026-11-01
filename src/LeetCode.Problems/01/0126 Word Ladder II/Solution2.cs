@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0126_Word_Ladder_II;
 
-/// <summary>
-/// https://leetcode.com/problems/word-ladder-ii/submissions/836424103/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/word-ladder-ii/submissions/836424103/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution2 : ISolution

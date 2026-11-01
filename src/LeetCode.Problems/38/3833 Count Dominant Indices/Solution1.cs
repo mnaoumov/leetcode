@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3833_Count_Dominant_Indices;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-488/problems/count-dominant-indices/submissions/1911895855/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-488/problems/count-dominant-indices/submissions/1911895855/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

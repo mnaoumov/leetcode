@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2385_Amount_of_Time_for_Binary_Tree_to_Be_Infected;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1143748655/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1143748655/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution5 : ISolution

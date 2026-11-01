@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2729_Check_if_The_Number_is_Fascinating;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-106/submissions/detail/968078468/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-106/submissions/detail/968078468/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

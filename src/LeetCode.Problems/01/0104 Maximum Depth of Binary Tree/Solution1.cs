@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0104_Maximum_Depth_of_Binary_Tree;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/830087995/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/830087995/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

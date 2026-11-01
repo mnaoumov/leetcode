@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3770_Largest_Prime_from_Consecutive_Prime_Sum;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-479/problems/largest-prime-from-consecutive-prime-sum/submissions/1848845366/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-479/problems/largest-prime-from-consecutive-prime-sum/submissions/1848845366/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

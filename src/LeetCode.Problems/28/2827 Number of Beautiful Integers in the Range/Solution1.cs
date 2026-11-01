@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2827_Number_of_Beautiful_Integers_in_the_Range;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1025917253/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1025917253/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

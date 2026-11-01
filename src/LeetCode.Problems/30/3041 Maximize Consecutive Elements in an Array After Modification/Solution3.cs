@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3041_Maximize_Consecutive_Elements_in_an_Array_After_Modification;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-124/submissions/detail/1177970685/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-124/submissions/detail/1177970685/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.StackOverflow)]
 public class Solution3 : ISolution

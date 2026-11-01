@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0164_Maximum_Gap;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/874441919/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/874441919/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

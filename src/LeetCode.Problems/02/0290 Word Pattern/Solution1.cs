@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0290_Word_Pattern;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/868780285/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/868780285/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

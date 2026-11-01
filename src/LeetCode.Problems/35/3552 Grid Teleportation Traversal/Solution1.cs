@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3552_Grid_Teleportation_Traversal;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-450/problems/grid-teleportation-traversal/submissions/1636900350/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-450/problems/grid-teleportation-traversal/submissions/1636900350/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3731_Find_Missing_Elements;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-474/problems/find-missing-elements/submissions/1818196634/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-474/problems/find-missing-elements/submissions/1818196634/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

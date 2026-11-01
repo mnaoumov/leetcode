@@ -3,9 +3,7 @@
 #pragma warning disable
 namespace LeetCode.Problems._0142_Linked_List_Cycle_II;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/195967696/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/195967696/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

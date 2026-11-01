@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0259_3Sum_Smaller;
 
-/// <summary>
-/// https://leetcode.com/problems/3sum-smaller/submissions/1830006645/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/3sum-smaller/submissions/1830006645/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3544_Subtree_Inversion_Sum;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

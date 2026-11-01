@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2208_Minimum_Operations_to_Halve_Array_Sum;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/907463895/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/907463895/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

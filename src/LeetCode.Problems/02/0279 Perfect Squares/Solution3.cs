@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0279_Perfect_Squares;
 
-/// <summary>
-/// https://leetcode.com/problems/perfect-squares/submissions/847729726/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/perfect-squares/submissions/847729726/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

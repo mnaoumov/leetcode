@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0464_Can_I_Win;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/974171577/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/974171577/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

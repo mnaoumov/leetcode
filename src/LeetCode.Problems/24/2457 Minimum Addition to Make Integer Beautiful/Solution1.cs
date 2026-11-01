@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2457_Minimum_Addition_to_Make_Integer_Beautiful;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-317/submissions/detail/833081949/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-317/submissions/detail/833081949/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

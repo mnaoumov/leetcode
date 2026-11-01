@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3877_Minimum_Removals_to_Achieve_Target_XOR;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-494/problems/minimum-removals-to-achieve-target-xor/submissions/1955281457/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-494/problems/minimum-removals-to-achieve-target-xor/submissions/1955281457/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

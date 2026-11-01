@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3483_Unique_3_Digit_Even_Numbers;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-152/problems/unique-3-digit-even-numbers/submissions/1574553288/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-152/problems/unique-3-digit-even-numbers/submissions/1574553288/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

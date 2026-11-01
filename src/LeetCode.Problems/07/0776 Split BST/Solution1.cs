@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0776_Split_BST;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1303418214/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1303418214/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

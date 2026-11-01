@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0948_Bag_of_Tokens;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1193094746/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1193094746/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

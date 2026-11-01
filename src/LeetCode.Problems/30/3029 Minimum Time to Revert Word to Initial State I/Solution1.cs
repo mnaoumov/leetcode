@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3029_Minimum_Time_to_Revert_Word_to_Initial_State_I;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-383/submissions/detail/1165399228/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-383/submissions/detail/1165399228/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

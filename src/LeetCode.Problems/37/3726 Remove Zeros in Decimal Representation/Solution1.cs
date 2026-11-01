@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3726_Remove_Zeros_in_Decimal_Representation;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-473/problems/remove-zeros-in-decimal-representation/submissions/1811773222/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-473/problems/remove-zeros-in-decimal-representation/submissions/1811773222/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

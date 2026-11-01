@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0159_Longest_Substring_with_At_Most_Two_Distinct_Characters;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/870012259/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/870012259/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

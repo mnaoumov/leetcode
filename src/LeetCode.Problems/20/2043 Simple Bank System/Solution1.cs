@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2043_Simple_Bank_System;
 
-/// <summary>
-/// https://leetcode.com/problems/simple-bank-system/submissions/1811689608/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/simple-bank-system/submissions/1811689608/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

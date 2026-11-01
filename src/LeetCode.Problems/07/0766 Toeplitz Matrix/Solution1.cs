@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0766_Toeplitz_Matrix;
 
-/// <summary>
-/// https://leetcode.com/problems/toeplitz-matrix/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/toeplitz-matrix/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

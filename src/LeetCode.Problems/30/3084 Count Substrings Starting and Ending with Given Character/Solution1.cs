@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3084_Count_Substrings_Starting_and_Ending_with_Given_Character;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-389/submissions/detail/1205842463/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-389/submissions/detail/1205842463/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

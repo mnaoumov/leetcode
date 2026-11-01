@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3394_Check_if_Grid_can_be_Cut_into_Sections;
 
-/// <summary>
-/// https://leetcode.com/problems/check-if-grid-can-be-cut-into-sections/submissions/1586075216/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/check-if-grid-can-be-cut-into-sections/submissions/1586075216/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

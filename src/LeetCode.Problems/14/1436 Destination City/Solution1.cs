@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1436_Destination_City;
 
-/// <summary>
-/// https://leetcode.com/problems/destination-city/submissions/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/destination-city/submissions/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

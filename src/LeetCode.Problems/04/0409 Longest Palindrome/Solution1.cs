@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0409_Longest_Palindrome;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/914082097/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/914082097/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

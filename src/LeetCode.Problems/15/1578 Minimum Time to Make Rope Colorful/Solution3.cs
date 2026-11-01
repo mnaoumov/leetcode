@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1578_Minimum_Time_to_Make_Rope_Colorful;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/829080151/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/829080151/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

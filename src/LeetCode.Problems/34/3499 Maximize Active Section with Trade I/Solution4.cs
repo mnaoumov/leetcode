@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3499_Maximize_Active_Section_with_Trade_I;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-153/problems/maximize-active-section-with-trade-i/submissions/1590159513/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-153/problems/maximize-active-section-with-trade-i/submissions/1590159513/"/>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

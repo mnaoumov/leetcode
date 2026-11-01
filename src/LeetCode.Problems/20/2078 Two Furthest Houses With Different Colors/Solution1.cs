@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2078_Two_Furthest_Houses_With_Different_Colors;
 
-/// <summary>
-/// https://leetcode.com/problems/two-furthest-houses-with-different-colors/submissions/1983128370/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/two-furthest-houses-with-different-colors/submissions/1983128370/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

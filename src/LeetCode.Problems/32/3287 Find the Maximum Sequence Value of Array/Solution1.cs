@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3287_Find_the_Maximum_Sequence_Value_of_Array;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

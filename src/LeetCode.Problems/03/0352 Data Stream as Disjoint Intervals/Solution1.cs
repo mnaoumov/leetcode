@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0352_Data_Stream_as_Disjoint_Intervals;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/887098880/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/887098880/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

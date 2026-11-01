@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0737_Sentence_Similarity_II;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/933405447/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/933405447/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

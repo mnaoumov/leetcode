@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0771_Jewels_and_Stones;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/856865137/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/856865137/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2932_Maximum_Strong_Pair_XOR_I;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-371/submissions/detail/1096947114/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-371/submissions/detail/1096947114/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0058_Length_of_Last_Word;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/819454842/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/819454842/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

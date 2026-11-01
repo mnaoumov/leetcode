@@ -2,9 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3411_Maximum_Subarray_With_Equal_Products;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-431/submissions/detail/1498003643/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-431/submissions/detail/1498003643/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

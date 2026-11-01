@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1015_Smallest_Integer_Divisible_by_K;
 
-/// <summary>
-/// https://leetcode.com/problems/binary-prefix-divisible-by-5/submissions/1838067745/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/binary-prefix-divisible-by-5/submissions/1838067745/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

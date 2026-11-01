@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1863_Sum_of_All_Subset_XOR_Totals;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1262660280/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1262660280/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3228_Maximum_Number_of_Operations_to_Move_Ones_to_the_End;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-407/submissions/detail/1327952220/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-407/submissions/detail/1327952220/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

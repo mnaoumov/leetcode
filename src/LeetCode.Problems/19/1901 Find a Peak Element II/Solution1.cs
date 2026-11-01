@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1901_Find_a_Peak_Element_II;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/943264301/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/943264301/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

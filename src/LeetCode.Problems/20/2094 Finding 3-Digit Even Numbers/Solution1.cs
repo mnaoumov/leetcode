@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2094_Finding_3_Digit_Even_Numbers;
 
-/// <summary>
-/// https://leetcode.com/problems/finding-3-digit-even-numbers/submissions/1631545367/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/finding-3-digit-even-numbers/submissions/1631545367/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

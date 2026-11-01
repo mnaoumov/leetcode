@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0808_Soup_Servings;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1073963563/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1073963563/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

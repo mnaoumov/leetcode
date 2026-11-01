@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0886_Possible_Bipartition;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/863049433/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/863049433/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

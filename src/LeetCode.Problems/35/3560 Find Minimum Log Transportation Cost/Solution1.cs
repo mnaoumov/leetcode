@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3560_Find_Minimum_Log_Transportation_Cost;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-451/problems/find-minimum-log-transportation-cost/submissions/1643599009/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-451/problems/find-minimum-log-transportation-cost/submissions/1643599009/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

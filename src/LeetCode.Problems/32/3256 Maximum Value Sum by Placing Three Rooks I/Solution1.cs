@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3256_Maximum_Value_Sum_by_Placing_Three_Rooks_I;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-137/submissions/detail/1359163618/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-137/submissions/detail/1359163618/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

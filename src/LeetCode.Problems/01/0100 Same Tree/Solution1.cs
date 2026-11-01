@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0100_Same_Tree;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/829672106/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/829672106/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

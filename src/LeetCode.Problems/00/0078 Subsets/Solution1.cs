@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0078_Subsets;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/821699063/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/821699063/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

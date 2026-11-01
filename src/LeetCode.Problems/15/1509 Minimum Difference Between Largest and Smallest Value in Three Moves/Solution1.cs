@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1509_Minimum_Difference_Between_Largest_and_Smallest_Value_in_Three_Moves;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1307746820/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1307746820/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

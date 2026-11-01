@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0854_K_Similar_Strings;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/885780673/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/885780673/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2519_Count_the_Number_of_K_Big_Indices;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/869923175/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/869923175/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

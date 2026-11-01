@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0299_Bulls_and_Cows;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/930348811/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/930348811/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

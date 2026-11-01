@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3666_Minimum_Operations_to_Equalize_Binary_String;
 
-/// <summary>
-/// https://leetcode.com/problems/minimum-operations-to-equalize-binary-string/submissions/1932325244/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/minimum-operations-to-equalize-binary-string/submissions/1932325244/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

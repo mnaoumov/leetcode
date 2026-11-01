@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2131_Longest_Palindrome_by_Concatenating_Two_Letter_Words;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/835714151/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/835714151/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

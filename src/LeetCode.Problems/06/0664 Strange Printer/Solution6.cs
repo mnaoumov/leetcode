@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0664_Strange_Printer;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1072266234/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1072266234/"/>
 [UsedImplicitly]
 public class Solution6 : ISolution
 {

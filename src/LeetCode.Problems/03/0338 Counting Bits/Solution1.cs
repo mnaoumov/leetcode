@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0338_Counting_Bits;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/926889727/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/926889727/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

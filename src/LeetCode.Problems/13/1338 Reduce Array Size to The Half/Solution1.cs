@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1338_Reduce_Array_Size_to_The_Half;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/914080262/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/914080262/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

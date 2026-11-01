@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1051_Height_Checker;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1283553164/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1283553164/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

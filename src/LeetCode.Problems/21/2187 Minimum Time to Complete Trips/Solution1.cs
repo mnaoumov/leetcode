@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2187_Minimum_Time_to_Complete_Trips;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/910514982/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/910514982/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

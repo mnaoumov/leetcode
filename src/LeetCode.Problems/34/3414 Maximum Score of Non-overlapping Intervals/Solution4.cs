@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3414_Maximum_Score_of_Non_overlapping_Intervals;
 
-/// <summary>
-/// https://leetcode.com/problems/maximum-score-of-non-overlapping-intervals/submissions/2141108368/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/maximum-score-of-non-overlapping-intervals/submissions/2141108368/"/>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

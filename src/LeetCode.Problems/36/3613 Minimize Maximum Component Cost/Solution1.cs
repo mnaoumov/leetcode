@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3613_Minimize_Maximum_Component_Cost;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-458/problems/minimize-maximum-component-cost/submissions/1695831340/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-458/problems/minimize-maximum-component-cost/submissions/1695831340/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

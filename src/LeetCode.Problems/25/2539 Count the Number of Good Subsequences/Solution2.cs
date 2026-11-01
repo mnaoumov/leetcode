@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2539_Count_the_Number_of_Good_Subsequences;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/880984098/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/880984098/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

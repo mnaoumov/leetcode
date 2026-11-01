@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1605_Find_Valid_Matrix_Given_Row_and_Column_Sums;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1327623658/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1327623658/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

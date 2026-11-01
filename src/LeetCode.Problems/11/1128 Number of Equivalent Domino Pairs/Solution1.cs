@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1128_Number_of_Equivalent_Domino_Pairs;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

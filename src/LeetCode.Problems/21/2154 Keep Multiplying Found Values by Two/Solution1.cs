@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2154_Keep_Multiplying_Found_Values_by_Two;
 
-/// <summary>
-/// https://leetcode.com/problems/keep-multiplying-found-values-by-two/submissions/1833719434/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/keep-multiplying-found-values-by-two/submissions/1833719434/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0050_Pow_x__n_;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/829025823/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/829025823/"/>
 [UsedImplicitly]
 public class Solution12 : ISolution
 {

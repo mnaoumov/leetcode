@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2558_Take_Gifts_From_the_Richest_Pile;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-331/submissions/detail/891689954/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-331/submissions/detail/891689954/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

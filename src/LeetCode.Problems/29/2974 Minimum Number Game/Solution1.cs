@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2974_Minimum_Number_Game;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-377/submissions/detail/1127035861/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-377/submissions/detail/1127035861/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

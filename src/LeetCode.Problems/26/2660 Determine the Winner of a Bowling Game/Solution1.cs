@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2660_Determine_the_Winner_of_a_Bowling_Game;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-343/submissions/detail/941848496/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-343/submissions/detail/941848496/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

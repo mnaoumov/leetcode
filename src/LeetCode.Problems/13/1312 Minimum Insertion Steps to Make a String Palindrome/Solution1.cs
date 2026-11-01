@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1312_Minimum_Insertion_Steps_to_Make_a_String_Palindrome;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/937668947/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/937668947/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0343_Integer_Break;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/930021027/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/930021027/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

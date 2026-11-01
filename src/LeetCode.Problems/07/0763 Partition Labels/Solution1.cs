@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0763_Partition_Labels;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/935059481/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/935059481/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

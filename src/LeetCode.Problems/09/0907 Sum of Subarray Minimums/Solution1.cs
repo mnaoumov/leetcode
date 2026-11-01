@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0907_Sum_of_Subarray_Minimums;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/849712564/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/849712564/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

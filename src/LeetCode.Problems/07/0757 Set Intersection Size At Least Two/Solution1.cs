@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0757_Set_Intersection_Size_At_Least_Two;
 
-/// <summary>
-/// https://leetcode.com/problems/set-intersection-size-at-least-two/submissions/1834761454/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/set-intersection-size-at-least-two/submissions/1834761454/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3538_Merge_Operations_for_Minimum_Travel_Time;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-448/problems/merge-operations-for-minimum-travel-time/submissions/1624925235/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-448/problems/merge-operations-for-minimum-travel-time/submissions/1624925235/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

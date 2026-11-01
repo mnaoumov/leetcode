@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0872_Leaf_Similar_Trees;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/856365153/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/856365153/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

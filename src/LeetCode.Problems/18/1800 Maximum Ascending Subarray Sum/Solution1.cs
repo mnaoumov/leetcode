@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1800_Maximum_Ascending_Subarray_Sum;
 
-/// <summary>
-/// https://leetcode.com/problems/maximum-ascending-subarray-sum/submissions/1530618769/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/maximum-ascending-subarray-sum/submissions/1530618769/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

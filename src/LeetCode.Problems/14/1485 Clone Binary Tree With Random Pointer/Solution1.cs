@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1485_Clone_Binary_Tree_With_Random_Pointer;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/915382923/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/915382923/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

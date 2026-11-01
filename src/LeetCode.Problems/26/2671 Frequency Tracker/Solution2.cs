@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2671_Frequency_Tracker;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-344/submissions/detail/945811605/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-344/submissions/detail/945811605/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

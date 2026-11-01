@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1198_Find_Smallest_Common_Element_in_All_Rows;
 
-/// <summary>
-/// https://leetcode.com/problems/find-smallest-common-element-in-all-rows/submissions/1727443179/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/find-smallest-common-element-in-all-rows/submissions/1727443179/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

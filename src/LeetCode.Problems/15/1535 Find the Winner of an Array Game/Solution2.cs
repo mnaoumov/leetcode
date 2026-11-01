@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1535_Find_the_Winner_of_an_Array_Game;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1092336965/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1092336965/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1925_Count_Square_Sum_Triples;
 
-/// <summary>
-/// https://leetcode.com/problems/count-square-sum-triples/submissions/1849682423/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/count-square-sum-triples/submissions/1849682423/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

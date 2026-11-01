@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1818_Minimum_Absolute_Sum_Difference;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/934396955/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/934396955/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

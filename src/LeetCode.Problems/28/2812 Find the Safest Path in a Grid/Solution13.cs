@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2812_Find_the_Safest_Path_in_a_Grid;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1259335439/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1259335439/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.MemoryLimitExceeded)]
 public class Solution13 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2599_Make_the_Prefix_Sum_Non_negative;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/920499809/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/920499809/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution2 : ISolution

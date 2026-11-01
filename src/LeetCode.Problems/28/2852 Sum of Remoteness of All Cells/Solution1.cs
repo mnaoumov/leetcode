@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2852_Sum_of_Remoteness_of_All_Cells;
 
-/// <summary>
-/// https://leetcode.com/problems/sum-of-remoteness-of-all-cells/submissions/1517490713/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/sum-of-remoteness-of-all-cells/submissions/1517490713/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

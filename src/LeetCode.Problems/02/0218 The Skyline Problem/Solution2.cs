@@ -1,9 +1,7 @@
 namespace LeetCode.Problems._0218_The_Skyline_Problem;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/829094402/
-/// https://leetcode.com/submissions/detail/829095129/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/829094402/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/829095129/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

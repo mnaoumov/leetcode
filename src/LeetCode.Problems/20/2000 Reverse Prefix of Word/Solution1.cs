@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._2000_Reverse_Prefix_of_Word;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/898892979/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/898892979/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._3561_Resulting_String_After_Adjacent_Removals;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-451/problems/resulting-string-after-adjacent-removals/submissions/1643610952/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-451/problems/resulting-string-after-adjacent-removals/submissions/1643610952/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0859_Buddy_Strings;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/984908703/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/984908703/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

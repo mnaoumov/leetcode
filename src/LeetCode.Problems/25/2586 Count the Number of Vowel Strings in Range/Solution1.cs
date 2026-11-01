@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2586_Count_the_Number_of_Vowel_Strings_in_Range;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-336/submissions/detail/913509835/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-336/submissions/detail/913509835/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

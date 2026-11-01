@@ -2,9 +2,7 @@
 #pragma warning disable
 namespace LeetCode.Problems._0990_Satisfiability_of_Equality_Equations;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/809157627/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/809157627/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._1768_Merge_Strings_Alternately;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/927547666/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/927547666/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3381_Maximum_Subarray_Sum_With_Length_Divisible_by_K;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-427/submissions/detail/1473140508/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-427/submissions/detail/1473140508/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

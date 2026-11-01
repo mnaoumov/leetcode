@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2279_Maximum_Bags_With_Full_Capacity_of_Rocks;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/866046315/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/866046315/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

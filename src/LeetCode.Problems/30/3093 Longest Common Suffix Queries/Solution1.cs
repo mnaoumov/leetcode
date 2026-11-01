@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3093_Longest_Common_Suffix_Queries;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-390/submissions/detail/1212195786/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-390/submissions/detail/1212195786/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

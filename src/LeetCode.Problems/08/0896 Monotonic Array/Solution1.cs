@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0896_Monotonic_Array;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/930961807/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/930961807/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

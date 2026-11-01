@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0543_Diameter_of_Binary_Tree;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/882872935/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/882872935/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

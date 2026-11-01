@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._0072_Edit_Distance;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/197096186/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/197096186/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

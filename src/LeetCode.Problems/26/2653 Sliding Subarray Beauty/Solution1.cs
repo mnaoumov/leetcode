@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2653_Sliding_Subarray_Beauty;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-342/submissions/detail/938199030/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-342/submissions/detail/938199030/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

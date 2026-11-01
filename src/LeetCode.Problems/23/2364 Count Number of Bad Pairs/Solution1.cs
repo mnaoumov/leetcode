@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2364_Count_Number_of_Bad_Pairs;
 
-/// <summary>
-/// https://leetcode.com/problems/count-number-of-bad-pairs/submissions/1536346943/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/count-number-of-bad-pairs/submissions/1536346943/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

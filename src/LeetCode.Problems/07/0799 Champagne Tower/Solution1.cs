@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0799_Champagne_Tower;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1058217597/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1058217597/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1167_Minimum_Cost_to_Connect_Sticks;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/908031111/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/908031111/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1182_Shortest_Distance_to_Target_Color;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/942733660/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/942733660/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

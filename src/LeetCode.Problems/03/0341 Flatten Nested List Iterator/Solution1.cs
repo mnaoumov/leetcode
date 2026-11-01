@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0341_Flatten_Nested_List_Iterator;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/205283103/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/205283103/"/>
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 [UsedImplicitly]
 public class Solution1 : ISolution

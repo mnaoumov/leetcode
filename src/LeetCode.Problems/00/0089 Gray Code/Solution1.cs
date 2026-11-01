@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._0089_Gray_Code;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/828245201/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/828245201/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

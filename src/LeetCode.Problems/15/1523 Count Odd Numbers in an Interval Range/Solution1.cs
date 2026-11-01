@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1523_Count_Odd_Numbers_in_an_Interval_Range;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/896837174/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/896837174/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1258_Synonymous_Sentences;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/934391356/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/934391356/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

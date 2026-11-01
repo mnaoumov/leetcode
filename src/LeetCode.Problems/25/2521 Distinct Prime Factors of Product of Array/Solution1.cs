@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2521_Distinct_Prime_Factors_of_Product_of_Array;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/869881372/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/869881372/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

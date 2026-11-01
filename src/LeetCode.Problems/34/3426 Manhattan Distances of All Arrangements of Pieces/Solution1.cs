@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3426_Manhattan_Distances_of_All_Arrangements_of_Pieces;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

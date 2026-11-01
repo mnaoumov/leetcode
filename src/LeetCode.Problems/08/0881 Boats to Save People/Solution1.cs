@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0881_Boats_to_Save_People;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/914072629/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/914072629/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

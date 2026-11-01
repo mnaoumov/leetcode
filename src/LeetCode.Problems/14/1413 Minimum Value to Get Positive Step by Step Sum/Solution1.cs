@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1413_Minimum_Value_to_Get_Positive_Step_by_Step_Sum;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/856233584/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/856233584/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0538_Convert_BST_to_Greater_Tree;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1299443056/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1299443056/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

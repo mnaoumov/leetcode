@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3505_Minimum_Operations_to_Make_Elements_Within_K_Subarrays_Equal;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

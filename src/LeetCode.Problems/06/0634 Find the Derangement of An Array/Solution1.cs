@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0634_Find_the_Derangement_of_An_Array;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/954824723/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/954824723/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

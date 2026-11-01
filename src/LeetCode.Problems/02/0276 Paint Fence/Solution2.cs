@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0276_Paint_Fence;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/927263513/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/927263513/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

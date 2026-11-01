@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0741_Cherry_Pickup;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/954162211/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/954162211/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

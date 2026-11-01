@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0172_Factorial_Trailing_Zeroes;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/882113670/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/882113670/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

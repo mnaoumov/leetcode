@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0509_Fibonacci_Number;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/923843687/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/923843687/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0673_Number_of_Longest_Increasing_Subsequence;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/940343439/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/940343439/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

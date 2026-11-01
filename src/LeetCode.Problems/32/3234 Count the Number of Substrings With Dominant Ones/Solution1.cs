@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3234_Count_the_Number_of_Substrings_With_Dominant_Ones;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-408/submissions/detail/1335763771/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-408/submissions/detail/1335763771/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

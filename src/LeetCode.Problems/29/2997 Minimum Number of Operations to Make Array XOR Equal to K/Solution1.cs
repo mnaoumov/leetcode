@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2997_Minimum_Number_of_Operations_to_Make_Array_XOR_Equal_to_K;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-121/submissions/detail/1138539088/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-121/submissions/detail/1138539088/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

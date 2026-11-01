@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1025_Divisor_Game;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/926846485/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/926846485/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

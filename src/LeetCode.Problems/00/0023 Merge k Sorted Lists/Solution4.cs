@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0023_Merge_k_Sorted_Lists;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/829011488/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/829011488/"/>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

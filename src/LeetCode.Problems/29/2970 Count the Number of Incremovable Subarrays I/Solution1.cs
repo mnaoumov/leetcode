@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2970_Count_the_Number_of_Incremovable_Subarrays_I;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-120/submissions/detail/1126659027/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-120/submissions/detail/1126659027/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

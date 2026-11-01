@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0934_Shortest_Bridge;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/926826172/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/926826172/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

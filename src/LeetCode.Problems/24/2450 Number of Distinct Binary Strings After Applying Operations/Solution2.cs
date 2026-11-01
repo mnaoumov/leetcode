@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2450_Number_of_Distinct_Binary_Strings_After_Applying_Operations;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/881606218/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/881606218/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

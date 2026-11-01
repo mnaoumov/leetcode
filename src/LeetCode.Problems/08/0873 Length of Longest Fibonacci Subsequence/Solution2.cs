@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0873_Length_of_Longest_Fibonacci_Subsequence;
 
-/// <summary>
-/// https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/submissions/1556621116/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/submissions/1556621116/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

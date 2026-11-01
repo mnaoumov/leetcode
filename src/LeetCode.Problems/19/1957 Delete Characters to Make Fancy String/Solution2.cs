@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._1957_Delete_Characters_to_Make_Fancy_String;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1439439875/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1439439875/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

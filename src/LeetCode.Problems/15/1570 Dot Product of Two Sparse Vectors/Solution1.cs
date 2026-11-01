@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1570_Dot_Product_of_Two_Sparse_Vectors;
 
-/// <summary>
-/// https://leetcode.com/problems/dot-product-of-two-sparse-vectors/submissions/1808231806/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/dot-product-of-two-sparse-vectors/submissions/1808231806/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

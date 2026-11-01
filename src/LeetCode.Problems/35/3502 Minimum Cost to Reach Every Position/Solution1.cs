@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3502_Minimum_Cost_to_Reach_Every_Position;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-443/problems/minimum-cost-to-reach-every-position/submissions/1590609870/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-443/problems/minimum-cost-to-reach-every-position/submissions/1590609870/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

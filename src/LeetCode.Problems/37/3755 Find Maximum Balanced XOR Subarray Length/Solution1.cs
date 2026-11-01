@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3755_Find_Maximum_Balanced_XOR_Subarray_Length;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-477/problems/find-maximum-balanced-xor-subarray-length/submissions/1837266672/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-477/problems/find-maximum-balanced-xor-subarray-length/submissions/1837266672/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

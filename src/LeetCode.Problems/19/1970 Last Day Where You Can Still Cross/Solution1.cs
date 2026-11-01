@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1970_Last_Day_Where_You_Can_Still_Cross;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/915454755/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/915454755/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

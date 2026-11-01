@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1697_Checking_Existence_of_Edge_Length_Limited_Paths;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/935541864/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/935541864/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

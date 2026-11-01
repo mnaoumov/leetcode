@@ -2,9 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3333_Find_the_Original_Typed_String_II;
 
-/// <summary>
-/// https://leetcode.com/problems/find-the-original-typed-string-ii/submissions/1683271075/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/find-the-original-typed-string-ii/submissions/1683271075/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

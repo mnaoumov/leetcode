@@ -5,9 +5,7 @@
 
 namespace LeetCode.Problems._0560_Subarray_Sum_Equals_K;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/196731152/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/196731152/"/>
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 [UsedImplicitly]
 public class Solution1 : ISolution

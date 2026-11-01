@@ -6,9 +6,7 @@
 
 namespace LeetCode.Problems._0105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/197119707/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/197119707/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

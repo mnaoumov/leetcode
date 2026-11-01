@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0487_Max_Consecutive_Ones_II;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/938724981/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/938724981/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

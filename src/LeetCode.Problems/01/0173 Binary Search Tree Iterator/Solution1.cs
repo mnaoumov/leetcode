@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0173_Binary_Search_Tree_Iterator;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/882132892/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/882132892/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

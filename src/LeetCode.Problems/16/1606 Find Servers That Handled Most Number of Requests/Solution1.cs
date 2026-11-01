@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1606_Find_Servers_That_Handled_Most_Number_of_Requests;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/957989331/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/957989331/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

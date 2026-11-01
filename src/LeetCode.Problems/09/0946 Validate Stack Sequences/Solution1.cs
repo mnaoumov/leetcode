@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0946_Validate_Stack_Sequences;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/932786859/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/932786859/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

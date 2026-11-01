@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2589_Minimum_Time_to_Complete_All_Tasks;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/914057793/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/914057793/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

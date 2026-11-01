@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2911_Minimum_Changes_to_Make_K_Semi_palindromes;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1081073022/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1081073022/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

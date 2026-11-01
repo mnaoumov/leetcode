@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1152_Analyze_User_Website_Visit_Pattern;
 
-/// <summary>
-/// https://leetcode.com/problems/analyze-user-website-visit-pattern/submissions/1778594135/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/analyze-user-website-visit-pattern/submissions/1778594135/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

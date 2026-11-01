@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1298_Maximum_Candies_You_Can_Get_from_Boxes;
 
-/// <summary>
-/// https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/submissions/1652230995/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/submissions/1652230995/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

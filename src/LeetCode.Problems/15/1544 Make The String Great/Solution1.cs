@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._1544_Make_The_String_Great;
 
-/// <summary>
-/// https://leetcode.com/problems/make-the-string-great/submissions/839068203/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/make-the-string-great/submissions/839068203/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

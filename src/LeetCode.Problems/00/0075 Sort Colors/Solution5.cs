@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0075_Sort_Colors;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/829032127/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/829032127/"/>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

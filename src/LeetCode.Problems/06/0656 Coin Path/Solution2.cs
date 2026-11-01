@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0656_Coin_Path;
 
-/// <summary>
-/// https://leetcode.com/problems/coin-path/submissions/1802123175/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/coin-path/submissions/1802123175/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

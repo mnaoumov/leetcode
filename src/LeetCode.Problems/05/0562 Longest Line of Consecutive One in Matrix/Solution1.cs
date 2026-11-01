@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0562_Longest_Line_of_Consecutive_One_in_Matrix;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/942719683/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/942719683/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

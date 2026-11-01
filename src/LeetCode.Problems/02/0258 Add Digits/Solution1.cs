@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0258_Add_Digits;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/924648111/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/924648111/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

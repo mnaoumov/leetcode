@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1496_Path_Crossing;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/898943771/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/898943771/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

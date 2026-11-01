@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3724_Minimum_Operations_to_Transform_Array;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-168/problems/minimum-operations-to-transform-array/submissions/1811364755/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-168/problems/minimum-operations-to-transform-array/submissions/1811364755/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

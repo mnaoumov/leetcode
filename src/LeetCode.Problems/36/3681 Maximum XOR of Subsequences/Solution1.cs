@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3681_Maximum_XOR_of_Subsequences;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

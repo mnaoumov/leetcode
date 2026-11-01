@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3121_Count_the_Number_of_Special_Characters_II;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-394/submissions/detail/1237800188/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-394/submissions/detail/1237800188/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

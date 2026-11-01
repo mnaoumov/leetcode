@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1692_Count_Ways_to_Distribute_Candies;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/956052746/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/956052746/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

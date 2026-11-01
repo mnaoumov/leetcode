@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3806_Maximum_Bitwise_AND_After_Increment_Operations;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

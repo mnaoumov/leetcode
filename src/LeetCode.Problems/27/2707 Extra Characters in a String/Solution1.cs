@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2707_Extra_Characters_in_a_String;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-105/submissions/detail/958325649/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-105/submissions/detail/958325649/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

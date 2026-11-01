@@ -2,9 +2,7 @@ using System.Globalization;
 
 namespace LeetCode.Problems._0631_Design_Excel_Sum_Formula;
 
-/// <summary>
-/// https://leetcode.com/problems/design-excel-sum-formula/submissions/1934168577/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/design-excel-sum-formula/submissions/1934168577/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

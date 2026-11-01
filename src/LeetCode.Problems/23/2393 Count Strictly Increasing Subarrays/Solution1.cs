@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2393_Count_Strictly_Increasing_Subarrays;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1063082814/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1063082814/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

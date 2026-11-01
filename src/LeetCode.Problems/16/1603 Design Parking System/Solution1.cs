@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1603_Design_Parking_System;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/929812304/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/929812304/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

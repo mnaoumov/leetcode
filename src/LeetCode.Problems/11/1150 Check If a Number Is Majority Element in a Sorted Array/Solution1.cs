@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1150_Check_If_a_Number_Is_Majority_Element_in_a_Sorted_Array;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/967744439/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/967744439/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

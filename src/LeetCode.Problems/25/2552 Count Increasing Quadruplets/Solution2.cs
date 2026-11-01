@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2552_Count_Increasing_Quadruplets;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/887542502/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/887542502/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2017_Grid_Game;
 
-/// <summary>
-/// https://leetcode.com/problems/grid-game/submissions/1515211696/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/grid-game/submissions/1515211696/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

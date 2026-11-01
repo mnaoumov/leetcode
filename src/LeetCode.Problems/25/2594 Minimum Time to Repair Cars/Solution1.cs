@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2594_Minimum_Time_to_Repair_Cars;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-100/submissions/detail/917525138/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-100/submissions/detail/917525138/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

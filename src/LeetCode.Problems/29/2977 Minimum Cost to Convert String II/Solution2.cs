@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2977_Minimum_Cost_to_Convert_String_II;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1127129696/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1127129696/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

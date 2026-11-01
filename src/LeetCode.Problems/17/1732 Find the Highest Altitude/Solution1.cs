@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1732_Find_the_Highest_Altitude;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/898920682/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/898920682/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

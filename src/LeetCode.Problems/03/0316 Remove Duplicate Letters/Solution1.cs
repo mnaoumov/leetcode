@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0316_Remove_Duplicate_Letters;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1060172596/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1060172596/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0865_Smallest_Subtree_with_all_the_Deepest_Nodes;
 
-/// <summary>
-/// https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/submissions/1596275383/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/submissions/1596275383/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

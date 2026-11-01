@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1346_Check_If_N_and_Its_Double_Exist;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/928130601/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/928130601/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

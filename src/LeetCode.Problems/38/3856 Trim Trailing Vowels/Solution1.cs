@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._3856_Trim_Trailing_Vowels;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-491/problems/trim-trailing-vowels/submissions/1934203343/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-491/problems/trim-trailing-vowels/submissions/1934203343/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

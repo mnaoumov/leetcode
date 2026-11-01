@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2569_Handling_Sum_Queries_After_Update;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/900538272/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/900538272/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

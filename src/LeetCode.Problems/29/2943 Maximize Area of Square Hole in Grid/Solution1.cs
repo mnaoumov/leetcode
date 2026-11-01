@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2943_Maximize_Area_of_Square_Hole_in_Grid;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-118/submissions/detail/1106130477/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-118/submissions/detail/1106130477/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

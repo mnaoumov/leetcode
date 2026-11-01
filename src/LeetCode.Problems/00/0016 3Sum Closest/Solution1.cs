@@ -5,9 +5,7 @@
 
 namespace LeetCode.Problems._0016_3Sum_Closest;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/809285651/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/809285651/"/>
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 [UsedImplicitly]
 public class Solution1 : ISolution

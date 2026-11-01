@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2045_Second_Minimum_Time_to_Reach_Destination;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1336722238/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1336722238/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

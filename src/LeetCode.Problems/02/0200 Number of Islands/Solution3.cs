@@ -5,9 +5,7 @@
 
 namespace LeetCode.Problems._0200_Number_of_Islands;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/197108988/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/197108988/"/>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution3 : ISolution

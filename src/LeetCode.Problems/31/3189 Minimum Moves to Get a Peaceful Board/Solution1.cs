@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3189_Minimum_Moves_to_Get_a_Peaceful_Board;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1356990019/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1356990019/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

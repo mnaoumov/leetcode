@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._1328_Break_a_Palindrome;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/819083914/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/819083914/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

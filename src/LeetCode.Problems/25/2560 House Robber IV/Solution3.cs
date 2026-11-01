@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2560_House_Robber_IV;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/892724710/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/892724710/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

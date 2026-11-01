@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0353_Design_Snake_Game;
 
-/// <summary>
-/// https://leetcode.com/problems/design-snake-game/submissions/1623113315/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/design-snake-game/submissions/1623113315/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._3106_Lexicographically_Smallest_String_After_Operations_With_Constraint;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-392/submissions/detail/1225332073/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-392/submissions/detail/1225332073/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2862_Maximum_Element_Sum_of_a_Complete_Subset_of_Indices;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-363/submissions/detail/1051452263/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-363/submissions/detail/1051452263/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2839_Check_if_Strings_Can_be_Made_Equal_With_Operations_I;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-112/submissions/detail/1038494916/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-112/submissions/detail/1038494916/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0779_K_th_Symbol_in_Grammar;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1083494577/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1083494577/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

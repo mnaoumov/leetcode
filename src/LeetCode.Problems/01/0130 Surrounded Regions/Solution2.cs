@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0130_Surrounded_Regions;
 
-/// <summary>
-/// https://leetcode.com/problems/surrounded-regions/submissions/836849443/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/surrounded-regions/submissions/836849443/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

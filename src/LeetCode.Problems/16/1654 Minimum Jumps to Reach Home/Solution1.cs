@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1654_Minimum_Jumps_to_Reach_Home;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/928685663/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/928685663/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

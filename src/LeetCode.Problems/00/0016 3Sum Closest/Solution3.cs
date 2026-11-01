@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0016_3Sum_Closest;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1278985968/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1278985968/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution3 : ISolution

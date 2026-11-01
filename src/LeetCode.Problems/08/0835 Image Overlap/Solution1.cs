@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0835_Image_Overlap;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/831686189/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/831686189/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

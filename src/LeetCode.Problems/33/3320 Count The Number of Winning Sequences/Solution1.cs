@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3320_Count_The_Number_of_Winning_Sequences;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-419/submissions/detail/1420616816/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-419/submissions/detail/1420616816/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

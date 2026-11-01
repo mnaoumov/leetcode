@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._0026_Remove_Duplicates_from_Sorted_Array;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/811558778/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/811558778/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

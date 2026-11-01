@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2185_Counting_Words_With_a_Given_Prefix;
 
-/// <summary>
-/// https://leetcode.com/problems/counting-words-with-a-given-prefix/submissions/1502453753/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/counting-words-with-a-given-prefix/submissions/1502453753/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

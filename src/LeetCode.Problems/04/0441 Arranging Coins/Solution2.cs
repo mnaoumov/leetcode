@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0441_Arranging_Coins;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/926840255/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/926840255/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

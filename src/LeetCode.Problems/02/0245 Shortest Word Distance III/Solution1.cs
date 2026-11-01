@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0245_Shortest_Word_Distance_III;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/926858839/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/926858839/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

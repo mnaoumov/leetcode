@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1857_Largest_Color_Value_in_a_Directed_Graph;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/930520156/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/930520156/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

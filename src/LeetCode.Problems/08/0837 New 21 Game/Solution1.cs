@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0837_New_21_Game;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/956812518/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/956812518/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

@@ -2,9 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3699_Number_of_ZigZag_Arrays_I;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-469/problems/number-of-zigzag-arrays-i/submissions/1784822565/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-469/problems/number-of-zigzag-arrays-i/submissions/1784822565/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

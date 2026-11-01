@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3178_Find_the_Child_Who_Has_the_Ball_After_K_Seconds;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-401/submissions/detail/1282247920/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-401/submissions/detail/1282247920/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0458_Poor_Pigs;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1086990192/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1086990192/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

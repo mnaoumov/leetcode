@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2373_Largest_Local_Values_in_a_Matrix;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1255723425/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1255723425/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

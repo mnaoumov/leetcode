@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3488_Closest_Equal_Element_Queries;
 
-/// <summary>
-/// https://leetcode.com/problems/closest-equal-element-queries/submissions/1980389204/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/closest-equal-element-queries/submissions/1980389204/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

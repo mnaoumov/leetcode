@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1752_Check_if_Array_Is_Sorted_and_Rotated;
 
-/// <summary>
-/// https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/submissions/1528251091/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/submissions/1528251091/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

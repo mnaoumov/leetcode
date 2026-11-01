@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._2390_Removing_Stars_From_a_String;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/902685766/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/902685766/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

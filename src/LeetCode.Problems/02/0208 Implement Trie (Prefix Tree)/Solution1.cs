@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0208_Implement_Trie__Prefix_Tree_;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/197128931/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/197128931/"/>
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 [UsedImplicitly]
 public class Solution1 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2966_Divide_Array_Into_Arrays_With_Max_Difference;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-376/submissions/detail/1121429618/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-376/submissions/detail/1121429618/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

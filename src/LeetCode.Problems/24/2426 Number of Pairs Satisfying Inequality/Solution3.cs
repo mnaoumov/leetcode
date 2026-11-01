@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2426_Number_of_Pairs_Satisfying_Inequality;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/902679126/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/902679126/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1304_Find_N_Unique_Integers_Sum_up_to_Zero;
 
-/// <summary>
-/// https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/submissions/1762011086/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/submissions/1762011086/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

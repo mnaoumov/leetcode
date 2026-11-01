@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0334_Increasing_Triplet_Subsequence;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/829093640/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/829093640/"/>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

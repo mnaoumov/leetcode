@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2699_Modify_Graph_Edge_Weights;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1374878030/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1374878030/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

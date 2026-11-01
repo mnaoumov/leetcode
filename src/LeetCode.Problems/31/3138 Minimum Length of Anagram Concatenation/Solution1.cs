@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3138_Minimum_Length_of_Anagram_Concatenation;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-396/submissions/detail/1249565136/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-396/submissions/detail/1249565136/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

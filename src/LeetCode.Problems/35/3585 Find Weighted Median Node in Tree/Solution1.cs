@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3585_Find_Weighted_Median_Node_in_Tree;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

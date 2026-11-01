@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1884_Egg_Drop_With_2_Eggs_and_N_Floors;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/947558973/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/947558973/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

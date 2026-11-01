@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0864_Shortest_Path_to_Get_All_Keys;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/957945192/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/957945192/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

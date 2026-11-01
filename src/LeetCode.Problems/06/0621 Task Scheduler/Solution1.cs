@@ -5,9 +5,7 @@
 
 namespace LeetCode.Problems._0621_Task_Scheduler;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/196703341/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/196703341/"/>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution1 : ISolution

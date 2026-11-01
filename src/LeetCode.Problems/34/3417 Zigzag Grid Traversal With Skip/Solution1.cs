@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3417_Zigzag_Grid_Traversal_With_Skip;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-432/submissions/detail/1505653209/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-432/submissions/detail/1505653209/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

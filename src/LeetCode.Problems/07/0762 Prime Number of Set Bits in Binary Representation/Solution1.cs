@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0762_Prime_Number_of_Set_Bits_in_Binary_Representation;
 
-/// <summary>
-/// https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/submissions/1926037666/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/submissions/1926037666/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

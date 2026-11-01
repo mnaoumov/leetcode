@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3092_Most_Frequent_IDs;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-390/submissions/detail/1212167477/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-390/submissions/detail/1212167477/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

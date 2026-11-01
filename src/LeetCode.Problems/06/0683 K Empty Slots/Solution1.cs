@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0683_K_Empty_Slots;
 
-/// <summary>
-/// https://leetcode.com/problems/k-empty-slots/submissions/1672089514/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/k-empty-slots/submissions/1672089514/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

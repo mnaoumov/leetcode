@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0917_Reverse_Only_Letters;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/898888007/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/898888007/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

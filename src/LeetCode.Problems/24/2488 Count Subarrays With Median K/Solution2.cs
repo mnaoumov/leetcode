@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2488_Count_Subarrays_With_Median_K;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/855921076/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/855921076/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2458_Height_of_Binary_Tree_After_Subtree_Removal_Queries;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/833133683/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/833133683/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution02 : ISolution

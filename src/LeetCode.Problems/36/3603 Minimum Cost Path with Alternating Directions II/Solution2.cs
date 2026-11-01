@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3603_Minimum_Cost_Path_with_Alternating_Directions_II;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-160/problems/minimum-cost-path-with-alternating-directions-ii/submissions/1687379213/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-160/problems/minimum-cost-path-with-alternating-directions-ii/submissions/1687379213/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

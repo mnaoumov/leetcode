@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3025_Find_the_Number_of_Ways_to_Place_People_I;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-123/submissions/detail/1164857811/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-123/submissions/detail/1164857811/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3306_Count_of_Substrings_Containing_Every_Vowel_and_K_Consonants_II;
 
-/// <summary>
-/// https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii/submissions/1569365588/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii/submissions/1569365588/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -2,9 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._1513_Number_of_Substrings_With_Only_1s;
 
-/// <summary>
-/// https://leetcode.com/problems/number-of-substrings-with-only-1s/submissions/1830965206/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/number-of-substrings-with-only-1s/submissions/1830965206/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

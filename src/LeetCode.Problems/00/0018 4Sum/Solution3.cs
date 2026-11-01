@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0018_4Sum;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/829009435/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/829009435/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

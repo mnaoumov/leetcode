@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3745_Maximize_Expression_of_Three_Elements;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-476/problems/maximize-expression-of-three-elements/submissions/1830833697/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-476/problems/maximize-expression-of-three-elements/submissions/1830833697/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

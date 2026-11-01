@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1432_Max_Difference_You_Can_Get_From_Changing_an_Integer;
 
-/// <summary>
-/// https://leetcode.com/problems/max-difference-you-can-get-from-changing-an-integer/submissions/1664484011/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/max-difference-you-can-get-from-changing-an-integer/submissions/1664484011/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

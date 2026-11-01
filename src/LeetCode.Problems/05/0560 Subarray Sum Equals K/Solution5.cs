@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0560_Subarray_Sum_Equals_K;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/856483564/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/856483564/"/>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

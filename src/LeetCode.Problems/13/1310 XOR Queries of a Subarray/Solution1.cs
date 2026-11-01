@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1310_XOR_Queries_of_a_Subarray;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1388262800/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1388262800/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

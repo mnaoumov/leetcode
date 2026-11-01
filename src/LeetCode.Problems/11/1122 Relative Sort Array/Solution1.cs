@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1122_Relative_Sort_Array;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1285334840/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1285334840/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3028_Ant_on_the_Boundary;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-383/submissions/detail/1165392428/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-383/submissions/detail/1165392428/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

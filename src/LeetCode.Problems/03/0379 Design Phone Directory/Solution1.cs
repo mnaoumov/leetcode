@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0379_Design_Phone_Directory;
 
-/// <summary>
-/// https://leetcode.com/problems/design-phone-directory/submissions/1964355130/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/design-phone-directory/submissions/1964355130/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

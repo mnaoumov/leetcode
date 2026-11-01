@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3842_Toggle_Light_Bulbs;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

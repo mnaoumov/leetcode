@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1288_Remove_Covered_Intervals;
 
-/// <summary>
-/// https://leetcode.com/problems/remove-covered-intervals/submissions/2057420220/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/remove-covered-intervals/submissions/2057420220/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

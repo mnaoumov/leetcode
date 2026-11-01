@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0344_Reverse_String;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/854885639/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/854885639/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

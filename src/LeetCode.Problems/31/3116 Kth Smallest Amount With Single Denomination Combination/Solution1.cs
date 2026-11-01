@@ -2,9 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3116_Kth_Smallest_Amount_With_Single_Denomination_Combination;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-393/submissions/detail/1231851263/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-393/submissions/detail/1231851263/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

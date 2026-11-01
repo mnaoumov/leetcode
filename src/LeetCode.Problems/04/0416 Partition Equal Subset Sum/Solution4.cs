@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0416_Partition_Equal_Subset_Sum;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/888158207/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/888158207/"/>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

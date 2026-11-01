@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3677_Count_Binary_Palindromic_Numbers;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

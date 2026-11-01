@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0535_Encode_and_Decode_TinyURL;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/925497116/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/925497116/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

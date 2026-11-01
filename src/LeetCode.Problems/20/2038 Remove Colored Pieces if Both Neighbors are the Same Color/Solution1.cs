@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2038_Remove_Colored_Pieces_if_Both_Neighbors_are_the_Same_Color;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1065161140/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1065161140/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

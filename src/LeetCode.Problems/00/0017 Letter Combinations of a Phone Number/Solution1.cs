@@ -7,9 +7,7 @@
 
 namespace LeetCode.Problems._0017_Letter_Combinations_of_a_Phone_Number;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/197097678/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/197097678/"/>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution1 : ISolution

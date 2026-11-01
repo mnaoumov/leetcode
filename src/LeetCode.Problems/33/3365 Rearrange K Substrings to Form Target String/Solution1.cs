@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3365_Rearrange_K_Substrings_to_Form_Target_String;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-425/submissions/detail/1461255599/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-425/submissions/detail/1461255599/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

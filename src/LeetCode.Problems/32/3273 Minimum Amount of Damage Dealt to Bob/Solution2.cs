@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3273_Minimum_Amount_of_Damage_Dealt_to_Bob;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-138/submissions/detail/1374329349/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-138/submissions/detail/1374329349/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

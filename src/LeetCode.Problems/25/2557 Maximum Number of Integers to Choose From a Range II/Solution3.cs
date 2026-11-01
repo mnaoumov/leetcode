@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2557_Maximum_Number_of_Integers_to_Choose_From_a_Range_II;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/891680862/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/891680862/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

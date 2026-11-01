@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2735_Collecting_Chocolates;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-349/submissions/detail/968536302/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-349/submissions/detail/968536302/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

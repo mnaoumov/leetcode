@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3614_Process_String_with_Special_Operations_II;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-458/problems/process-string-with-special-operations-ii/submissions/1695865478/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-458/problems/process-string-with-special-operations-ii/submissions/1695865478/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

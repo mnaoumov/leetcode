@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._2384_Largest_Palindromic_Number;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/914100462/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/914100462/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

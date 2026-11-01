@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0617_Merge_Two_Binary_Trees;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/927590935/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/927590935/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

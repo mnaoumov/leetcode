@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2673_Make_Costs_of_Paths_Equal_in_a_Binary_Tree;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/945835728/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/945835728/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

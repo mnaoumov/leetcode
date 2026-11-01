@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0761_Special_Binary_String;
 
-/// <summary>
-/// https://leetcode.com/problems/special-binary-string/submissions/1925738256/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/special-binary-string/submissions/1925738256/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

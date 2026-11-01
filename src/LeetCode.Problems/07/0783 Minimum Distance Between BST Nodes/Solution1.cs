@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0783_Minimum_Distance_Between_BST_Nodes;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/899436464/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/899436464/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

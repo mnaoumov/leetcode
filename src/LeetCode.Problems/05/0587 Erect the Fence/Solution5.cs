@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0587_Erect_the_Fence;
 
-/// <summary>
-/// https://leetcode.com/problems/erect-the-fence/submissions/846491836/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/erect-the-fence/submissions/846491836/"/>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

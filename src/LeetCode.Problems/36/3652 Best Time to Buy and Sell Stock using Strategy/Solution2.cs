@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3652_Best_Time_to_Buy_and_Sell_Stock_using_Strategy;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-463/problems/best-time-to-buy-and-sell-stock-using-strategy/submissions/1737965567/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-463/problems/best-time-to-buy-and-sell-stock-using-strategy/submissions/1737965567/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

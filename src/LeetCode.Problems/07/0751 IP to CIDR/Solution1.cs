@@ -2,9 +2,7 @@ using System.Globalization;
 
 namespace LeetCode.Problems._0751_IP_to_CIDR;
 
-/// <summary>
-/// https://leetcode.com/problems/ip-to-cidr/submissions/2149178133/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/ip-to-cidr/submissions/2149178133/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

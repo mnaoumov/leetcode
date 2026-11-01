@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2476_Closest_Nodes_Queries_in_a_Binary_Search_Tree;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-320/submissions/detail/846634153/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-320/submissions/detail/846634153/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

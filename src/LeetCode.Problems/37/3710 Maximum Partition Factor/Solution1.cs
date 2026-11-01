@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3710_Maximum_Partition_Factor;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-167/problems/maximum-partition-factor/submissions/1798446342/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-167/problems/maximum-partition-factor/submissions/1798446342/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

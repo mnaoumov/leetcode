@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1870_Minimum_Speed_to_Arrive_on_Time;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/914720735/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/914720735/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

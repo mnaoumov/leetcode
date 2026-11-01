@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1239_Maximum_Length_of_a_Concatenated_String_with_Unique_Characters;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/829000423/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/829000423/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

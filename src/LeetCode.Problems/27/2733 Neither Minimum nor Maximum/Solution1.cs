@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2733_Neither_Minimum_nor_Maximum;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-349/submissions/detail/968481725/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-349/submissions/detail/968481725/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

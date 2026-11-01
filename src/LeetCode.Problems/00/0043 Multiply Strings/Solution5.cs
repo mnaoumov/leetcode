@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0043_Multiply_Strings;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/829021661/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/829021661/"/>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

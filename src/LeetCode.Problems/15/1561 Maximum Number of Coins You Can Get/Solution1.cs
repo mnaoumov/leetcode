@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1561_Maximum_Number_of_Coins_You_Can_Get;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1105256842/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1105256842/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

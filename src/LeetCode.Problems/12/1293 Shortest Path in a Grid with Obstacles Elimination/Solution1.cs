@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1293_Shortest_Path_in_a_Grid_with_Obstacles_Elimination;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/833596816/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/833596816/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

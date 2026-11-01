@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2584_Split_the_Array_to_Make_Coprime_Products;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-335/submissions/detail/909287588/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-335/submissions/detail/909287588/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

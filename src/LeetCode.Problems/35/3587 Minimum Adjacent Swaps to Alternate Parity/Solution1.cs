@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3587_Minimum_Adjacent_Swaps_to_Alternate_Parity;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-159/problems/minimum-adjacent-swaps-to-alternate-parity/submissions/1671632700/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-159/problems/minimum-adjacent-swaps-to-alternate-parity/submissions/1671632700/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

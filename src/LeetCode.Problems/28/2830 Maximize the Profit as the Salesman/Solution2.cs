@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2830_Maximize_the_Profit_as_the_Salesman;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-359/submissions/detail/1026305502/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-359/submissions/detail/1026305502/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

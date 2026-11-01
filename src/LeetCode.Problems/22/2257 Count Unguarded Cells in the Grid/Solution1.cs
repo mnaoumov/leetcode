@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2257_Count_Unguarded_Cells_in_the_Grid;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1458717625/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1458717625/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

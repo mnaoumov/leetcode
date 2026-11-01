@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._2573_Find_the_String_with_LCP;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/901691527/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/901691527/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

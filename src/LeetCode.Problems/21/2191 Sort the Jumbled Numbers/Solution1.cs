@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2191_Sort_the_Jumbled_Numbers;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1331216101/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1331216101/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

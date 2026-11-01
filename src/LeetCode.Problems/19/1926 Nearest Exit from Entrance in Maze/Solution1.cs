@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1926_Nearest_Exit_from_Entrance_in_Maze;
 
-/// <summary>
-/// https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/submissions/847184891/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/submissions/847184891/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

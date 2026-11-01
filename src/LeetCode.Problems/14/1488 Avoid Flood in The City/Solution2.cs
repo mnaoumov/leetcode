@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1488_Avoid_Flood_in_The_City;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/965608797/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/965608797/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

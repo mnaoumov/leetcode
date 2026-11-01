@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._3720_Lexicographically_Smallest_Permutation_Greater_Than_Target;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-472/problems/lexicographically-smallest-permutation-greater-than-target/submissions/1805564968/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-472/problems/lexicographically-smallest-permutation-greater-than-target/submissions/1805564968/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

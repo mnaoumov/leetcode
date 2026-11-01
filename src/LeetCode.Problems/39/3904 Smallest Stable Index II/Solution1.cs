@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3904_Smallest_Stable_Index_II;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-498/problems/smallest-stable-index-ii/submissions/1982182281/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-498/problems/smallest-stable-index-ii/submissions/1982182281/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

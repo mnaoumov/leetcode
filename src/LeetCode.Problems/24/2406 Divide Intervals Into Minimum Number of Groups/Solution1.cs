@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2406_Divide_Intervals_Into_Minimum_Number_of_Groups;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1419489163/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1419489163/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

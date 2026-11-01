@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1872_Stone_Game_VIII;
 
-/// <summary>
-/// https://leetcode.com/problems/stone-game-viii/submissions/2118131877/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/stone-game-viii/submissions/2118131877/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

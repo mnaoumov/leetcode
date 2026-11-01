@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1245_Tree_Diameter;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1182506686/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1182506686/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

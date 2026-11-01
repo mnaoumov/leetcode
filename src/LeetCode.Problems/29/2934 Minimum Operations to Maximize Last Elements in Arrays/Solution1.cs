@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2934_Minimum_Operations_to_Maximize_Last_Elements_in_Arrays;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-371/submissions/detail/1096976759/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-371/submissions/detail/1096976759/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

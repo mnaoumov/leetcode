@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3545_Minimum_Deletions_for_At_Most_K_Distinct_Characters;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-449/problems/minimum-deletions-for-at-most-k-distinct-characters/submissions/1630589607/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-449/problems/minimum-deletions-for-at-most-k-distinct-characters/submissions/1630589607/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

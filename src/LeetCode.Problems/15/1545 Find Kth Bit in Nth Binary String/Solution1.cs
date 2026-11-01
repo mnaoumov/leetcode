@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1545_Find_Kth_Bit_in_Nth_Binary_String;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1426881155/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1426881155/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -5,9 +5,7 @@
 
 namespace LeetCode.Problems._0069_Sqrt_x_;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/193354463/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/193354463/"/>
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 [UsedImplicitly]
 public class Solution3 : ISolution

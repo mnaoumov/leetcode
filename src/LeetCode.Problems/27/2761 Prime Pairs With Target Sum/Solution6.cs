@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2761_Prime_Pairs_With_Target_Sum;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/984927478/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/984927478/"/>
 [UsedImplicitly]
 public class Solution6 : ISolution
 {

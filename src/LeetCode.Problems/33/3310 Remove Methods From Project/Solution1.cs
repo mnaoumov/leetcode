@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3310_Remove_Methods_From_Project;
 
-/// <summary>
-/// https://leetcode.com/problems/remove-methods-from-project/submissions/2097542629/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/remove-methods-from-project/submissions/2097542629/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

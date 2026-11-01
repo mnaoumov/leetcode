@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1244_Design_A_Leaderboard;
 
-/// <summary>
-/// https://leetcode.com/problems/design-a-leaderboard/submissions/1871449569/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/design-a-leaderboard/submissions/1871449569/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

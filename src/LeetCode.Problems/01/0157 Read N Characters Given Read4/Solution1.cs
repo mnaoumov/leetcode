@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0157_Read_N_Characters_Given_Read4;
 
-/// <summary>
-/// https://leetcode.com/problems/read-n-characters-given-read4/submissions/848313548/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/read-n-characters-given-read4/submissions/848313548/"/>
 [UsedImplicitly]
 public class Solution1 : Reader4
 {

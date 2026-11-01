@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1584_Min_Cost_to_Connect_All_Points;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/939773020/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/939773020/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1790_Check_if_One_String_Swap_Can_Make_Strings_Equal;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/925209705/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/925209705/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

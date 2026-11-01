@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1538_Guess_the_Majority_in_a_Hidden_Array;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/941726580/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/941726580/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

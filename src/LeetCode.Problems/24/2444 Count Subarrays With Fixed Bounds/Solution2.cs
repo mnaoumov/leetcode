@@ -5,9 +5,7 @@
 
 namespace LeetCode.Problems._2444_Count_Subarrays_With_Fixed_Bounds;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/823471637/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/823471637/"/>
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 [UsedImplicitly]
 public class Solution2 : ISolution

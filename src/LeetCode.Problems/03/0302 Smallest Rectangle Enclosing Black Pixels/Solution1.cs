@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0302_Smallest_Rectangle_Enclosing_Black_Pixels;
 
-/// <summary>
-/// https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/submissions/1614135987/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/submissions/1614135987/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

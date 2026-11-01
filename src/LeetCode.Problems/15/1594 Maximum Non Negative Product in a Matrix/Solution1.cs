@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1594_Maximum_Non_Negative_Product_in_a_Matrix;
 
-/// <summary>
-/// https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/submissions/1956223774/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/submissions/1956223774/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

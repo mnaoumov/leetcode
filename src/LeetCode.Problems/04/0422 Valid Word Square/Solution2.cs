@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0422_Valid_Word_Square;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/906839305/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/906839305/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution2 : ISolution

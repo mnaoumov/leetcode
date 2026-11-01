@@ -3,9 +3,7 @@
 #pragma warning disable
 namespace LeetCode.Problems._0236_Lowest_Common_Ancestor_of_a_Binary_Tree;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/197160379/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/197160379/"/>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution1 : ISolution

@@ -2,9 +2,7 @@ using System.Text.RegularExpressions;
 
 namespace LeetCode.Problems._3136_Valid_Word;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-396/submissions/detail/1249534052/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-396/submissions/detail/1249534052/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0836_Rectangle_Overlap;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/925505077/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/925505077/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

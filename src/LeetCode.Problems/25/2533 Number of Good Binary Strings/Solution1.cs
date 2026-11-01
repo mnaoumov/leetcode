@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2533_Number_of_Good_Binary_Strings;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/879630831/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/879630831/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2749_Minimum_Operations_to_Make_the_Integer_Zero;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-351/submissions/detail/978962457/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-351/submissions/detail/978962457/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

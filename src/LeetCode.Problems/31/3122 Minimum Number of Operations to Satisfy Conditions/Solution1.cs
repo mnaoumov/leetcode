@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3122_Minimum_Number_of_Operations_to_Satisfy_Conditions;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-394/submissions/detail/1237823739/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-394/submissions/detail/1237823739/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

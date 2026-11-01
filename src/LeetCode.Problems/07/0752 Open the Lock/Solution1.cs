@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0752_Open_the_Lock;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/904863665/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/904863665/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

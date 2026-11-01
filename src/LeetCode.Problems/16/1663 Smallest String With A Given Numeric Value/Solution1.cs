@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._1663_Smallest_String_With_A_Given_Numeric_Value;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/914093118/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/914093118/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

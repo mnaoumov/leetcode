@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0491_Non_decreasing_Subsequences;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/919050278/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/919050278/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

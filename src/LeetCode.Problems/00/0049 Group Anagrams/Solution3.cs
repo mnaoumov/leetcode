@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0049_Group_Anagrams;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/829025009/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/829025009/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2747_Count_Zero_Request_Servers;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-107/submissions/detail/978619528/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-107/submissions/detail/978619528/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution2 : ISolution

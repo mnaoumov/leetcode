@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2834_Find_the_Minimum_Possible_Sum_of_a_Beautiful_Array;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-360/submissions/detail/1032742886/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-360/submissions/detail/1032742886/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

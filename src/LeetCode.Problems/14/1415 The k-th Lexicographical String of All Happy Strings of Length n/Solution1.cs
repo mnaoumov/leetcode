@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._1415_The_k_th_Lexicographical_String_of_All_Happy_Strings_of_Length_n;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/919046086/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/919046086/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

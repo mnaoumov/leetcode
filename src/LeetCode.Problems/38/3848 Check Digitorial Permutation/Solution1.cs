@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3848_Check_Digitorial_Permutation;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-490/problems/check-digitorial-permutation/submissions/1926908862/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-490/problems/check-digitorial-permutation/submissions/1926908862/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

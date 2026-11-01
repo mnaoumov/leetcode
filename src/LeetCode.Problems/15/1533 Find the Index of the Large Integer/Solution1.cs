@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1533_Find_the_Index_of_the_Large_Integer;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/878929474/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/878929474/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

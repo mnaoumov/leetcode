@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0135_Candy;
 
-/// <summary>
-/// https://leetcode.com/problems/candy/submissions/839174722/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/candy/submissions/839174722/"/>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

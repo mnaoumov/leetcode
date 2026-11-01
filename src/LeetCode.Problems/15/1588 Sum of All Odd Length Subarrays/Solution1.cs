@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1588_Sum_of_All_Odd_Length_Subarrays;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/926807890/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/926807890/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

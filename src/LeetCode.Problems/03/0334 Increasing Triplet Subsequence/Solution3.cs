@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._0334_Increasing_Triplet_Subsequence;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/820348412/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/820348412/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

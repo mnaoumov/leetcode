@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0986_Interval_List_Intersections;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/933427832/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/933427832/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

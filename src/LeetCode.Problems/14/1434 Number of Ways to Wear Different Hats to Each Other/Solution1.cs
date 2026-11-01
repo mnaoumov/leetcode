@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1434_Number_of_Ways_to_Wear_Different_Hats_to_Each_Other;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/974430855/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/974430855/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

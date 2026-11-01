@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1593_Split_a_String_Into_the_Max_Number_of_Unique_Substrings;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1428852860/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1428852860/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

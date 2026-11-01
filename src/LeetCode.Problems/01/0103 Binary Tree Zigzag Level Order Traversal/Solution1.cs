@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0103_Binary_Tree_Zigzag_Level_Order_Traversal;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/830083326/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/830083326/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

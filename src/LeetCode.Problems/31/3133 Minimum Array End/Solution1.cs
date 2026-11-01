@@ -2,9 +2,7 @@ using System.Collections;
 
 namespace LeetCode.Problems._3133_Minimum_Array_End;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-395/submissions/detail/1243801339/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-395/submissions/detail/1243801339/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

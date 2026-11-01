@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2765_Longest_Alternating_Subarray;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-108/submissions/detail/989380388/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-108/submissions/detail/989380388/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

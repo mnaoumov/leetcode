@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1416_Restore_The_Array;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/938601962/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/938601962/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

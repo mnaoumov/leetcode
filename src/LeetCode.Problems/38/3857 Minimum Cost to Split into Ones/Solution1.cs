@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3857_Minimum_Cost_to_Split_into_Ones;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-491/problems/minimum-cost-to-split-into-ones/submissions/1934213542/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-491/problems/minimum-cost-to-split-into-ones/submissions/1934213542/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

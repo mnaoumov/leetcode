@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0856_Score_of_Parentheses;
 
-/// <summary>
-/// https://leetcode.com/problems/score-of-parentheses/submissions/2163706175/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/score-of-parentheses/submissions/2163706175/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

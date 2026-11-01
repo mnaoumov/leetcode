@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2140_Solving_Questions_With_Brainpower;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/919788298/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/919788298/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3524_Find_X_Value_of_Array_I;
 
-/// <summary>
-/// https://leetcode.com/problems/find-x-value-of-array-i/submissions/2148761202/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/find-x-value-of-array-i/submissions/2148761202/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

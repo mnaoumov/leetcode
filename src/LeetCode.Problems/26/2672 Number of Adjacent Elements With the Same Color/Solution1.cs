@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2672_Number_of_Adjacent_Elements_With_the_Same_Color;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-344/submissions/detail/945820733/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-344/submissions/detail/945820733/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

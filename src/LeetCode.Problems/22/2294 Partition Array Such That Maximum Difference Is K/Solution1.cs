@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2294_Partition_Array_Such_That_Maximum_Difference_Is_K;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/914069640/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/914069640/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

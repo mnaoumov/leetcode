@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3249_Count_the_Number_of_Good_Nodes;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-410/submissions/detail/1351530004/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-410/submissions/detail/1351530004/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3868_Minimum_Cost_to_Equalize_Arrays_Using_Swaps;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-178/problems/minimum-cost-to-equalize-arrays-using-swaps/submissions/1948069259/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-178/problems/minimum-cost-to-equalize-arrays-using-swaps/submissions/1948069259/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

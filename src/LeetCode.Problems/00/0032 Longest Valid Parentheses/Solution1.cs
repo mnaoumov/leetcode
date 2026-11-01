@@ -5,9 +5,7 @@
 
 namespace LeetCode.Problems._0032_Longest_Valid_Parentheses;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/200409741/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/200409741/"/>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution1 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0239_Sliding_Window_Maximum;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/874613344/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/874613344/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

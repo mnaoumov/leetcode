@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0994_Rotting_Oranges;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/906895183/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/906895183/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1381_Design_a_Stack_With_Increment_Operation;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1406653352/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1406653352/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

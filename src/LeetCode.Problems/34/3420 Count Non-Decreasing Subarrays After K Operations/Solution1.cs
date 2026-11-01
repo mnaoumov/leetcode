@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3420_Count_Non_Decreasing_Subarrays_After_K_Operations;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-432/submissions/detail/1505701606/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-432/submissions/detail/1505701606/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

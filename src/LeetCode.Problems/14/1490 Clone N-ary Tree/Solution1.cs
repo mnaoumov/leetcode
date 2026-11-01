@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1490_Clone_N_ary_Tree;
 
-/// <summary>
-/// https://leetcode.com/problems/clone-n-ary-tree/submissions/2051645734/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/clone-n-ary-tree/submissions/2051645734/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

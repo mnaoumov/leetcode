@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3281_Maximize_Score_of_Numbers_in_Ranges;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-414/submissions/detail/1382689217/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-414/submissions/detail/1382689217/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

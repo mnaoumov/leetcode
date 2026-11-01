@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2460_Apply_Operations_to_an_Array;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-318/submissions/detail/837717271/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-318/submissions/detail/837717271/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

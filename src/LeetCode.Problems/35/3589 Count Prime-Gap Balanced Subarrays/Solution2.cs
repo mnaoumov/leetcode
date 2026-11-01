@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3589_Count_Prime_Gap_Balanced_Subarrays;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-159/problems/count-prime-gap-balanced-subarrays/submissions/1671747250/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-159/problems/count-prime-gap-balanced-subarrays/submissions/1671747250/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

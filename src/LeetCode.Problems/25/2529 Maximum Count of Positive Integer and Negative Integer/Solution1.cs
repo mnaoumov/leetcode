@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2529_Maximum_Count_of_Positive_Integer_and_Negative_Integer;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-327/submissions/detail/873709687/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-327/submissions/detail/873709687/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

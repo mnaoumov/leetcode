@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._2896_Apply_Operations_to_Make_Two_Strings_Equal;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-366/submissions/detail/1069813931/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-366/submissions/detail/1069813931/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

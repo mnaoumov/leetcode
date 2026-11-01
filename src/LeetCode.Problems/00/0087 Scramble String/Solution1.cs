@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._0087_Scramble_String;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/827622682/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/827622682/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._0069_Sqrt_x_;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/193809146/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/193809146/"/>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

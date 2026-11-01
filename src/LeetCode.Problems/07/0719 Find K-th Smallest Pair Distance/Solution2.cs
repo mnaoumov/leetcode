@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0719_Find_K_th_Smallest_Pair_Distance;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1354874531/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1354874531/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

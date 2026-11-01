@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2477_Minimum_Fuel_Cost_to_Report_to_the_Capital;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-320/submissions/detail/846656928/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-320/submissions/detail/846656928/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

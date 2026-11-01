@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1534_Count_Good_Triplets;
 
-/// <summary>
-/// https://leetcode.com/problems/count-good-triplets/submissions/1606154224/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/count-good-triplets/submissions/1606154224/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

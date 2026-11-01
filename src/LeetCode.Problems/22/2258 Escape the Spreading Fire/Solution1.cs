@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2258_Escape_the_Spreading_Fire;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/915970374/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/915970374/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1020_Number_of_Enclaves;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/906299825/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/906299825/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0134_Gas_Station;
 
-/// <summary>
-/// https://leetcode.com/problems/gas-station/submissions/838933524/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/gas-station/submissions/838933524/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

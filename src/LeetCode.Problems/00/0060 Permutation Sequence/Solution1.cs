@@ -2,9 +2,7 @@ using System.Diagnostics;
 
 namespace LeetCode.Problems._0060_Permutation_Sequence;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/819486577/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/819486577/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

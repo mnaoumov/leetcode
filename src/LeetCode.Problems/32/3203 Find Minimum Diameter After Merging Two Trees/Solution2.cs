@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3203_Find_Minimum_Diameter_After_Merging_Two_Trees;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1304919981/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1304919981/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

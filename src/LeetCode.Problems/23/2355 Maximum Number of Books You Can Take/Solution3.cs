@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2355_Maximum_Number_of_Books_You_Can_Take;
 
-/// <summary>
-/// https://leetcode.com/problems/maximum-number-of-books-you-can-take/submissions/2134656865/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/maximum-number-of-books-you-can-take/submissions/2134656865/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

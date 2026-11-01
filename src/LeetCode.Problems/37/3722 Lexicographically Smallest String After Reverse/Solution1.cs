@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._3722_Lexicographically_Smallest_String_After_Reverse;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-168/problems/lexicographically-smallest-string-after-reverse/submissions/1811285852/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-168/problems/lexicographically-smallest-string-after-reverse/submissions/1811285852/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

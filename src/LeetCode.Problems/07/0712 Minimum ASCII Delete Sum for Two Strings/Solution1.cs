@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0712_Minimum_ASCII_Delete_Sum_for_Two_Strings;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/940320418/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/940320418/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

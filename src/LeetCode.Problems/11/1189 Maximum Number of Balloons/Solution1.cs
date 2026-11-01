@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1189_Maximum_Number_of_Balloons;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/856504352/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/856504352/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

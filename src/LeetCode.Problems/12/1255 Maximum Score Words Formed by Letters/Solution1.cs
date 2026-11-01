@@ -2,9 +2,7 @@ using System.Collections;
 
 namespace LeetCode.Problems._1255_Maximum_Score_Words_Formed_by_Letters;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1266484533/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1266484533/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

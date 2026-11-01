@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2428_Maximum_Sum_of_an_Hourglass;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/899230468/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/899230468/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

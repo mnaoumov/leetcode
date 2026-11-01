@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2473_Minimum_Cost_to_Buy_Apples;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/875048152/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/875048152/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0624_Maximum_Distance_in_Arrays;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1104206029/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1104206029/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

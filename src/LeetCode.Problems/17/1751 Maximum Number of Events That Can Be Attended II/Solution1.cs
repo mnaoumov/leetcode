@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1751_Maximum_Number_of_Events_That_Can_Be_Attended_II;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/949164500/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/949164500/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

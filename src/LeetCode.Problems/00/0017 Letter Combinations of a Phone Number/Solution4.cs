@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0017_Letter_Combinations_of_a_Phone_Number;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/829009158/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/829009158/"/>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

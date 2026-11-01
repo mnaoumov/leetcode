@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0898_Bitwise_ORs_of_Subarrays;
 
-/// <summary>
-/// https://leetcode.com/problems/bitwise-ors-of-subarrays/submissions/1717795328/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/bitwise-ors-of-subarrays/submissions/1717795328/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.MemoryLimitExceeded)]
 public class Solution1 : ISolution

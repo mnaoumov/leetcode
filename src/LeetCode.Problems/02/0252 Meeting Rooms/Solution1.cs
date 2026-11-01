@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0252_Meeting_Rooms;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/921928297/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/921928297/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

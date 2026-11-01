@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3838_Weighted_Word_Mapping;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-176/problems/weighted-word-mapping/submissions/1919006454/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-176/problems/weighted-word-mapping/submissions/1919006454/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

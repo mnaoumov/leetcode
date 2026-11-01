@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0838_Push_Dominoes;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/829086444/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/829086444/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

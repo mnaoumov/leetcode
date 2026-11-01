@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3207_Maximum_Points_After_Enemy_Battles;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-134/submissions/detail/1311653734/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-134/submissions/detail/1311653734/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

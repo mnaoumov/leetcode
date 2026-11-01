@@ -5,9 +5,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0012_Integer_to_Roman;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/808441069/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/808441069/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

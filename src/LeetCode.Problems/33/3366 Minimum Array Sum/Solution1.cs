@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3366_Minimum_Array_Sum;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-425/submissions/detail/1461266628/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-425/submissions/detail/1461266628/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

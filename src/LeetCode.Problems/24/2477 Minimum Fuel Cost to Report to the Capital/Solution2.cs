@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2477_Minimum_Fuel_Cost_to_Report_to_the_Capital;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-320/submissions/detail/846659433/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-320/submissions/detail/846659433/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

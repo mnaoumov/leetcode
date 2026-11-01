@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0693_Binary_Number_with_Alternating_Bits;
 
-/// <summary>
-/// https://leetcode.com/problems/binary-number-with-alternating-bits/submissions/1922734858/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/binary-number-with-alternating-bits/submissions/1922734858/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

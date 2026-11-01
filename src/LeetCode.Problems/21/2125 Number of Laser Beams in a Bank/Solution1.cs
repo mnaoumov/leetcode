@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2125_Number_of_Laser_Beams_in_a_Bank;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1135135407/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1135135407/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

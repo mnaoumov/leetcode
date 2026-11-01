@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0841_Keys_and_Rooms;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/862390666/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/862390666/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

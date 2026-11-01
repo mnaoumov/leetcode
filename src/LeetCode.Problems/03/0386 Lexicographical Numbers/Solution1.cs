@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0386_Lexicographical_Numbers;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1396959669/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1396959669/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

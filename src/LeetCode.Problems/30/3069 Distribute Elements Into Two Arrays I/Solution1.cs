@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3069_Distribute_Elements_Into_Two_Arrays_I;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-387/submissions/detail/1192150311/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-387/submissions/detail/1192150311/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

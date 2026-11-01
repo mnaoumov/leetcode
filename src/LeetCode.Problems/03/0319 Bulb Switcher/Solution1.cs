@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0319_Bulb_Switcher;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/940337713/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/940337713/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

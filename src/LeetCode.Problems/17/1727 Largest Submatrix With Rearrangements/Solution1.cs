@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1727_Largest_Submatrix_With_Rearrangements;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1106421449/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1106421449/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

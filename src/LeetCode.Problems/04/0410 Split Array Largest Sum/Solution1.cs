@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0410_Split_Array_Largest_Sum;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/915146340/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/915146340/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

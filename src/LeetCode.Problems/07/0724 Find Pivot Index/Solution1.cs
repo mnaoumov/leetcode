@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0724_Find_Pivot_Index;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/898923574/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/898923574/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

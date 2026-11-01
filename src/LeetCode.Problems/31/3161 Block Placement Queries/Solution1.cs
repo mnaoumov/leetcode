@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3161_Block_Placement_Queries;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-131/submissions/detail/1267629605/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-131/submissions/detail/1267629605/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

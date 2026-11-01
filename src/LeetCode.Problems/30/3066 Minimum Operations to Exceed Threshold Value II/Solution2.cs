@@ -1,9 +1,7 @@
 
 namespace LeetCode.Problems._3066_Minimum_Operations_to_Exceed_Threshold_Value_II;
 
-/// <summary>
-/// https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/submissions/1541159092/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/submissions/1541159092/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0253_Meeting_Rooms_II;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/954788256/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/954788256/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

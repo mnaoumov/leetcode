@@ -2,9 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._0189_Rotate_Array;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/922813832/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/922813832/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

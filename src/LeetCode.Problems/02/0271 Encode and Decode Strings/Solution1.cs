@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0271_Encode_and_Decode_Strings;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1015202483/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1015202483/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

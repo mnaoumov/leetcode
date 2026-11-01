@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1314_Matrix_Block_Sum;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/929951244/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/929951244/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

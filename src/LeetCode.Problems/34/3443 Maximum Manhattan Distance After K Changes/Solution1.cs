@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3443_Maximum_Manhattan_Distance_After_K_Changes;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-435/problems/maximum-manhattan-distance-after-k-changes/submissions/1528124847/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-435/problems/maximum-manhattan-distance-after-k-changes/submissions/1528124847/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.MemoryLimitExceeded)]
 public class Solution1 : ISolution

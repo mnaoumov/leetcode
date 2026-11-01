@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._0279_Perfect_Squares;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/197091584/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/197091584/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0812_Largest_Triangle_Area;
 
-/// <summary>
-/// https://leetcode.com/problems/largest-triangle-area/submissions/1783744767/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/largest-triangle-area/submissions/1783744767/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

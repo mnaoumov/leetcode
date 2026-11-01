@@ -2,9 +2,7 @@
 #pragma warning disable
 namespace LeetCode.Problems._0091_Decode_Ways;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/812369551/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/812369551/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

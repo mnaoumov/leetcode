@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0501_Find_Mode_in_Binary_Search_Tree;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1088780151/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1088780151/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

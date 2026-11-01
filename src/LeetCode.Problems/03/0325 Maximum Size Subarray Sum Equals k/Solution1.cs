@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0325_Maximum_Size_Subarray_Sum_Equals_k;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/943287760/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/943287760/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

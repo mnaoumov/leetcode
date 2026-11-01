@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0142_Linked_List_Cycle_II;
 
-/// <summary>
-/// https://leetcode.com/problems/linked-list-cycle-ii/submissions/841671301/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/linked-list-cycle-ii/submissions/841671301/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

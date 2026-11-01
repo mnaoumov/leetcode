@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3503_Longest_Palindrome_After_Substring_Concatenation_I;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-443/problems/longest-palindrome-after-substring-concatenation-i/submissions/1590658345/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-443/problems/longest-palindrome-after-substring-concatenation-i/submissions/1590658345/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution6 : ISolution

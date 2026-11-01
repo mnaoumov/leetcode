@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2267_Check_if_There_Is_a_Valid_Parentheses_String_Path;
 
-/// <summary>
-/// https://leetcode.com/problems/check-if-there-is-a-valid-parentheses-string-path/submissions/2156523365/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/check-if-there-is-a-valid-parentheses-string-path/submissions/2156523365/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

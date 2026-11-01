@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2638_Count_the_Number_of_K_Free_Subsets;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/956291692/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/956291692/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

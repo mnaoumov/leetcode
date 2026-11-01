@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3074_Apple_Redistribution_into_Boxes;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-388/submissions/detail/1199061433/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-388/submissions/detail/1199061433/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

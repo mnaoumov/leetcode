@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0909_Snakes_and_Ladders;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/884076326/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/884076326/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2642_Design_Graph_With_Shortest_Path_Calculator;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/934240484/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/934240484/"/>
 [UsedImplicitly]
 public class Solution6 : ISolution
 {

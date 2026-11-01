@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0400_Nth_Digit;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/925487353/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/925487353/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1522_Diameter_of_N_Ary_Tree;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/950546115/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/950546115/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

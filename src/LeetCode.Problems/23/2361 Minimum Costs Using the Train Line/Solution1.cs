@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2361_Minimum_Costs_Using_the_Train_Line;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1012055238/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1012055238/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

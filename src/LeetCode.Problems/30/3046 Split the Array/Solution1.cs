@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3046_Split_the_Array;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-386/submissions/detail/1185321359/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-386/submissions/detail/1185321359/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

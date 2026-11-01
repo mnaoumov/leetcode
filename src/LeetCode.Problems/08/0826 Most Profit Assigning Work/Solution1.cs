@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0826_Most_Profit_Assigning_Work;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/936115936/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/936115936/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

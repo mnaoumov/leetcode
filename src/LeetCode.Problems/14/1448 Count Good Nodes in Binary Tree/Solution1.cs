@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1448_Count_Good_Nodes_in_Binary_Tree;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/904380951/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/904380951/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

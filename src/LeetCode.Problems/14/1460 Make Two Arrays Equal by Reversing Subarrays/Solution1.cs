@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1460_Make_Two_Arrays_Equal_by_Reversing_Subarrays;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1342425048/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1342425048/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0310_Minimum_Height_Trees;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/937157105/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/937157105/"/>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

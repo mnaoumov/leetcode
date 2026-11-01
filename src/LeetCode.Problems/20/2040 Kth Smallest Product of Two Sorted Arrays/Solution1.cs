@@ -2,9 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._2040_Kth_Smallest_Product_of_Two_Sorted_Arrays;
 
-/// <summary>
-/// https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays/submissions/1675493092/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays/submissions/1675493092/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

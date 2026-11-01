@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2799_Count_Complete_Subarrays_in_an_Array;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-356/submissions/detail/1007327254/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-356/submissions/detail/1007327254/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

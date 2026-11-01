@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0315_Count_of_Smaller_Numbers_After_Self;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/951654066/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/951654066/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

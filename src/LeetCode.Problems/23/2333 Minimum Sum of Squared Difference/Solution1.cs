@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2333_Minimum_Sum_of_Squared_Difference;
 
-/// <summary>
-/// https://leetcode.com/problems/minimum-sum-of-squared-difference/submissions/2168678480/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/minimum-sum-of-squared-difference/submissions/2168678480/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

@@ -2,9 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3733_Minimum_Time_to_Complete_All_Deliveries;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-474/problems/minimum-time-to-complete-all-deliveries/submissions/1818287240/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-474/problems/minimum-time-to-complete-all-deliveries/submissions/1818287240/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

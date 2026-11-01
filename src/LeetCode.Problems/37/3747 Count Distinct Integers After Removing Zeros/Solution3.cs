@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3747_Count_Distinct_Integers_After_Removing_Zeros;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-476/problems/count-distinct-integers-after-removing-zeros/submissions/1830900288/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-476/problems/count-distinct-integers-after-removing-zeros/submissions/1830900288/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution3 : ISolution

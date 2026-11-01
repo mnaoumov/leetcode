@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3751_Total_Waviness_of_Numbers_in_Range_I;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-170/problems/total-waviness-of-numbers-in-range-i/submissions/1836833593/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-170/problems/total-waviness-of-numbers-in-range-i/submissions/1836833593/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0635_Design_Log_Storage_System;
 
-/// <summary>
-/// https://leetcode.com/problems/design-log-storage-system/submissions/1942629544/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/design-log-storage-system/submissions/1942629544/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

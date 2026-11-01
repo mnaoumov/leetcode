@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3232_Find_if_Digit_Game_Can_Be_Won;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-408/submissions/detail/1335663531/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-408/submissions/detail/1335663531/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

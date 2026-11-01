@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2541_Minimum_Operations_to_Make_Array_Equal_II;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-96/submissions/detail/882432472/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-96/submissions/detail/882432472/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -2,9 +2,7 @@
 #pragma warning disable
 namespace LeetCode.Problems._0003_Longest_Substring_Without_Repeating_Characters;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/147414013/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/147414013/"/>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0658_Find_K_Closest_Elements;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/811499542/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/811499542/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

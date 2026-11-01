@@ -2,9 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3725_Count_Ways_to_Choose_Coprime_Integers_from_Rows;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-168/problems/count-ways-to-choose-coprime-integers-from-rows/submissions/1811392518/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-168/problems/count-ways-to-choose-coprime-integers-from-rows/submissions/1811392518/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

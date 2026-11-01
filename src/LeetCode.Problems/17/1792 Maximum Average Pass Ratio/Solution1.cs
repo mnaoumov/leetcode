@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1792_Maximum_Average_Pass_Ratio;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1478985821/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1478985821/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

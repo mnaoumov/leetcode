@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2054_Two_Best_Non_Overlapping_Events;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1473080405/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1473080405/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

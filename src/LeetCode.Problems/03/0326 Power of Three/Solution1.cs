@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0326_Power_of_Three;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/923277207/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/923277207/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

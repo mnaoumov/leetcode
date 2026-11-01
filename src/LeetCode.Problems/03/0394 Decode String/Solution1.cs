@@ -6,9 +6,7 @@
 
 namespace LeetCode.Problems._0394_Decode_String;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/196678076/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/196678076/"/>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution1 : ISolution

@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._3170_Lexicographically_Minimum_String_After_Removing_Stars;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-400/submissions/detail/1274851465/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-400/submissions/detail/1274851465/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

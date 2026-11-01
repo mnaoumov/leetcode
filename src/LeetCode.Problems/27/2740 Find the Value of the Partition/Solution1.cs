@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2740_Find_the_Value_of_the_Partition;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-350/submissions/detail/973687078/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-350/submissions/detail/973687078/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

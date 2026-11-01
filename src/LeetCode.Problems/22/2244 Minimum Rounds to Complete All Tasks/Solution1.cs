@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2244_Minimum_Rounds_to_Complete_All_Tasks;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/870802634/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/870802634/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

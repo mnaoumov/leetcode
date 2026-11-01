@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3824_Minimum_K_to_Reduce_Array_Within_Limit;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-175/problems/minimum-k-to-reduce-array-within-limit/submissions/1903151336/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-175/problems/minimum-k-to-reduce-array-within-limit/submissions/1903151336/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

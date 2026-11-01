@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3609_Minimum_Moves_to_Reach_Target_in_Grid;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-457/problems/minimum-moves-to-reach-target-in-grid/submissions/1687904834/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-457/problems/minimum-moves-to-reach-target-in-grid/submissions/1687904834/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.MemoryLimitExceeded)]
 public class Solution1 : ISolution

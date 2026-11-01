@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3484_Design_Spreadsheet;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-152/problems/design-spreadsheet/submissions/1574569955/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-152/problems/design-spreadsheet/submissions/1574569955/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

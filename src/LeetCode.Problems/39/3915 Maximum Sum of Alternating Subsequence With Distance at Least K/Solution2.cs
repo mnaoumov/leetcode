@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3915_Maximum_Sum_of_Alternating_Subsequence_With_Distance_at_Least_K;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-499/problems/maximum-sum-of-alternating-subsequence-with-distance-at-least-k/submissions/1988272061/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-499/problems/maximum-sum-of-alternating-subsequence-with-distance-at-least-k/submissions/1988272061/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

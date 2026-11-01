@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3622_Check_Divisibility_by_Digit_Sum_and_Product;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1457_Pseudo_Palindromic_Paths_in_a_Binary_Tree;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1155990699/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1155990699/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

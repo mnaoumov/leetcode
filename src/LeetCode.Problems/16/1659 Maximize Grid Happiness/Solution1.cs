@@ -2,9 +2,7 @@ using System.Collections;
 
 namespace LeetCode.Problems._1659_Maximize_Grid_Happiness;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/919268040/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/919268040/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

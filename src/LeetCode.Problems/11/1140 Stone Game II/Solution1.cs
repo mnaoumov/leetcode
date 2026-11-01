@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1140_Stone_Game_II;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/957450831/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/957450831/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

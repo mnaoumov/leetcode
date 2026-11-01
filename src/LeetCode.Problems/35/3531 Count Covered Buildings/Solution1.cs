@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3531_Count_Covered_Buildings;
 
-/// <summary>
-/// https://leetcode.com/problems/count-covered-buildings/submissions/1852461973/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/count-covered-buildings/submissions/1852461973/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

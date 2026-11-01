@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3886_Sum_of_Sortable_Integers;
 
-/// <summary>
-/// https://leetcode.com/problems/sum-of-sortable-integers/submissions/2177509542/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/sum-of-sortable-integers/submissions/2177509542/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

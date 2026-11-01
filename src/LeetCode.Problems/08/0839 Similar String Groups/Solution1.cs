@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0839_Similar_String_Groups;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/934905684/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/934905684/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

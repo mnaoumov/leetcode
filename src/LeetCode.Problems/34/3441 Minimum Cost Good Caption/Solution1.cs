@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3441_Minimum_Cost_Good_Caption;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3702_Longest_Subsequence_With_Non_Zero_Bitwise_XOR;
 
-/// <summary>
-/// https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/submissions/2107213606/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/submissions/2107213606/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

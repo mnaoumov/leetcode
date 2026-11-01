@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0380_Insert_Delete_GetRandom_O_1_;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/851805806/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/851805806/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution3 : ISolution

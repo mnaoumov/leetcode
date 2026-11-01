@@ -6,9 +6,7 @@
 
 namespace LeetCode.Problems._0082_Remove_Duplicates_from_Sorted_List_II;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/822535370/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/822535370/"/>
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 [UsedImplicitly]
 public class Solution1 : ISolution

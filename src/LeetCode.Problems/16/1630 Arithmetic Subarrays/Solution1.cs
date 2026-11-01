@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1630_Arithmetic_Subarrays;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/935067138/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/935067138/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

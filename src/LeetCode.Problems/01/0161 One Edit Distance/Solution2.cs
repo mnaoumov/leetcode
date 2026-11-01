@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0161_One_Edit_Distance;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/870815679/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/870815679/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution2 : ISolution

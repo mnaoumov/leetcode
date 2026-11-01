@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2845_Count_of_Interesting_Subarrays;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-361/submissions/detail/1039077169/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-361/submissions/detail/1039077169/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

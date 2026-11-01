@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3771_Total_Score_of_Dungeon_Runs;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-479/problems/total-score-of-dungeon-runs/submissions/1848887947/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-479/problems/total-score-of-dungeon-runs/submissions/1848887947/"/>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution2 : ISolution

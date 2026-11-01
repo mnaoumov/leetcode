@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1192_Critical_Connections_in_a_Network;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/950275822/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/950275822/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

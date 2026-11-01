@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0743_Network_Delay_Time;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/942883838/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/942883838/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

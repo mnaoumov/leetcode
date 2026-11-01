@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1064_Fixed_Point;
 
-/// <summary>
-/// https://leetcode.com/problems/fixed-point/submissions/2010303167/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/fixed-point/submissions/2010303167/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

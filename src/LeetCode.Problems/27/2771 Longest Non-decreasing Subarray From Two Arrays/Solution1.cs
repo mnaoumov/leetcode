@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2771_Longest_Non_decreasing_Subarray_From_Two_Arrays;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-353/submissions/detail/989782624/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-353/submissions/detail/989782624/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

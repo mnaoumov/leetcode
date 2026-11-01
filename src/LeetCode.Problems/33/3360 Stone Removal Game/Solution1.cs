@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3360_Stone_Removal_Game;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-144/submissions/detail/1460803863/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-144/submissions/detail/1460803863/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

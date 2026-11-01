@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2256_Minimum_Average_Difference;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/854140513/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/854140513/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2471_Minimum_Number_of_Operations_to_Sort_a_Binary_Tree_by_Level;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-319/submissions/detail/842358474/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-319/submissions/detail/842358474/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

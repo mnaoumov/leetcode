@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3508_Implement_Router;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-444/problems/implement-router/submissions/1598017337/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-444/problems/implement-router/submissions/1598017337/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

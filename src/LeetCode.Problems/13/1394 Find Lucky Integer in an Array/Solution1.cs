@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1394_Find_Lucky_Integer_in_an_Array;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/898952290/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/898952290/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

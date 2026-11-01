@@ -2,9 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._2327_Number_of_People_Aware_of_a_Secret;
 
-/// <summary>
-/// https://leetcode.com/problems/number-of-people-aware-of-a-secret/submissions/1764487858/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/number-of-people-aware-of-a-secret/submissions/1764487858/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3847_Find_the_Score_Difference_in_a_Game;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-490/problems/find-the-score-difference-in-a-game/submissions/1926868722/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-490/problems/find-the-score-difference-in-a-game/submissions/1926868722/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

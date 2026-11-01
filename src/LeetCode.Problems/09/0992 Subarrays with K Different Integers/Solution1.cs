@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0992_Subarrays_with_K_Different_Integers;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1218678076/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1218678076/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

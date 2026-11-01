@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1895_Largest_Magic_Square;
 
-/// <summary>
-/// https://leetcode.com/problems/largest-magic-square/submissions/1888311915/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/largest-magic-square/submissions/1888311915/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3193_Count_the_Number_of_Inversions;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1297100787/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1297100787/"/>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

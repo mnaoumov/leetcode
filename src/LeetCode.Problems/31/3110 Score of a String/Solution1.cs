@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3110_Score_of_a_String;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-128/submissions/detail/1231217881/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-128/submissions/detail/1231217881/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

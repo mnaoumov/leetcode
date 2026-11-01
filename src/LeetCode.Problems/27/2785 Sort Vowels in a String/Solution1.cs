@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._2785_Sort_Vowels_in_a_String;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-109/submissions/detail/1000999371/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-109/submissions/detail/1000999371/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

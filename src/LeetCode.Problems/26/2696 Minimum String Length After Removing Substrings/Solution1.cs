@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._2696_Minimum_String_Length_After_Removing_Substrings;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1415263534/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1415263534/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

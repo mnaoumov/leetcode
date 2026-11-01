@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._3114_Latest_Time_You_Can_Obtain_After_Replacing_Characters;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-393/submissions/detail/1231739892/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-393/submissions/detail/1231739892/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

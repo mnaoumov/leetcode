@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3409_Longest_Subsequence_With_Decreasing_Adjacent_Difference;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-147/submissions/detail/1497478098/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-147/submissions/detail/1497478098/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

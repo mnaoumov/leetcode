@@ -2,9 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._1411_Number_of_Ways_to_Paint_N_x_3_Grid;
 
-/// <summary>
-/// https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/submissions/1872618664/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/submissions/1872618664/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1129_Shortest_Path_with_Alternating_Colors;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/895653607/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/895653607/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

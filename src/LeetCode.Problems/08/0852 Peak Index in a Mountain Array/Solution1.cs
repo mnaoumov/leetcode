@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0852_Peak_Index_in_a_Mountain_Array;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/924034108/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/924034108/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

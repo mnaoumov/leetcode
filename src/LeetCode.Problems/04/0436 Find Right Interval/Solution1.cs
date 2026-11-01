@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0436_Find_Right_Interval;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/936119437/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/936119437/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1290_Convert_Binary_Number_in_a_Linked_List_to_Integer;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/899425894/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/899425894/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

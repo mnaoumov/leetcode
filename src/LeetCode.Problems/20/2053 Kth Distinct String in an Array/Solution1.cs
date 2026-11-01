@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2053_Kth_Distinct_String_in_an_Array;
 
-/// <summary>
-/// https://leetcode.com/problems/kth-distinct-string-in-an-array/submissions/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/kth-distinct-string-in-an-array/submissions/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

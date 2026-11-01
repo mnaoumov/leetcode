@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2163_Minimum_Difference_in_Sums_After_Removal_of_Elements;
 
-/// <summary>
-/// https://leetcode.com/problems/minimum-difference-in-sums-after-removal-of-elements/submissions/1702948134/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/minimum-difference-in-sums-after-removal-of-elements/submissions/1702948134/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

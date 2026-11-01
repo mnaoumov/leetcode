@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0242_Valid_Anagram;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/923049178/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/923049178/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

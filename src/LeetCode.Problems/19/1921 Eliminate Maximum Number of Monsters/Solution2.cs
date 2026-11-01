@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1921_Eliminate_Maximum_Number_of_Monsters;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1093994201/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1093994201/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

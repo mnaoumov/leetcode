@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0576_Out_of_Boundary_Paths;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/945217188/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/945217188/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

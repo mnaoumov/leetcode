@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2544_Alternating_Digit_Sum;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-329/submissions/detail/882770186/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-329/submissions/detail/882770186/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

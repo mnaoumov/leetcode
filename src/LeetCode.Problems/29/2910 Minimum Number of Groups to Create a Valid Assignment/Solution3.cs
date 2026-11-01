@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2910_Minimum_Number_of_Groups_to_Create_a_Valid_Assignment;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-368/submissions/detail/1081047035/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-368/submissions/detail/1081047035/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution3 : ISolution

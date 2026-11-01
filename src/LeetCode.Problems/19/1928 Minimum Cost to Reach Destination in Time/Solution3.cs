@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1928_Minimum_Cost_to_Reach_Destination_in_Time;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/941147849/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/941147849/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution3 : ISolution

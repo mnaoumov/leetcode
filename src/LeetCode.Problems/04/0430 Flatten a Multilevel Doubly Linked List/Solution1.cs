@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0430_Flatten_a_Multilevel_Doubly_Linked_List;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/946972976/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/946972976/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

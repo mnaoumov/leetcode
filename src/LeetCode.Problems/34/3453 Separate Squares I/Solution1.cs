@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3453_Separate_Squares_I;
 
-/// <summary>
-/// https://leetcode.com/problems/separate-squares-i/submissions/1883388939/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/separate-squares-i/submissions/1883388939/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

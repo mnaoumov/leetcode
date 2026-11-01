@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1344_Angle_Between_Hands_of_a_Clock;
 
-/// <summary>
-/// https://leetcode.com/problems/angle-between-hands-of-a-clock/submissions/2036904195/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/angle-between-hands-of-a-clock/submissions/2036904195/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

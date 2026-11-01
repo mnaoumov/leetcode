@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0834_Sum_of_Distances_in_Tree;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/863906431/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/863906431/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

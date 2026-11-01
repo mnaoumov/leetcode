@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2532_Time_to_Cross_a_Bridge;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/874264473/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/874264473/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

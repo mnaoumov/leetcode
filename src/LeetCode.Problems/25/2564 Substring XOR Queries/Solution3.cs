@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2564_Substring_XOR_Queries;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-332/submissions/detail/896319745/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-332/submissions/detail/896319745/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

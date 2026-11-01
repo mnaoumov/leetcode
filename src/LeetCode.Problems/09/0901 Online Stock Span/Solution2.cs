@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0901_Online_Stock_Span;
 
-/// <summary>
-/// https://leetcode.com/problems/online-stock-span/submissions/839784236/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/online-stock-span/submissions/839784236/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

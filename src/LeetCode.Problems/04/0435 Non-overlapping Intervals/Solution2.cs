@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0435_Non_overlapping_Intervals;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/933433756/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/933433756/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

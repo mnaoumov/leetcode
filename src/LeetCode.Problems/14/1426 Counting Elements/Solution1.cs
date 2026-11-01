@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1426_Counting_Elements;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/856310749/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/856310749/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0709_To_Lower_Case;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/927650979/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/927650979/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

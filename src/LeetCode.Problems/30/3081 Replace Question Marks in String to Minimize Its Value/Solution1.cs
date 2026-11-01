@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._3081_Replace_Question_Marks_in_String_to_Minimize_Its_Value;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-126/submissions/detail/1205386543/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-126/submissions/detail/1205386543/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

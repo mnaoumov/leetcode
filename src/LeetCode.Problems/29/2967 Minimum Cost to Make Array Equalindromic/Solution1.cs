@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2967_Minimum_Cost_to_Make_Array_Equalindromic;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-376/submissions/detail/1121475946/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-376/submissions/detail/1121475946/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

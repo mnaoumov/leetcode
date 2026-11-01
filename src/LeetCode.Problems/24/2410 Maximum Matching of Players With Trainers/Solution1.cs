@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2410_Maximum_Matching_of_Players_With_Trainers;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/914088944/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/914088944/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

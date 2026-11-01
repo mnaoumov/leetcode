@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3766_Minimum_Operations_to_Make_Binary_Palindrome;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-171/problems/minimum-operations-to-make-binary-palindrome/submissions/1848427600/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-171/problems/minimum-operations-to-make-binary-palindrome/submissions/1848427600/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

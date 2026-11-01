@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3324_Find_the_Sequence_of_Strings_Appeared_on_the_Screen;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-420/submissions/detail/1427828464/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-420/submissions/detail/1427828464/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

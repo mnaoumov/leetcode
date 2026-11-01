@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1642_Furthest_Building_You_Can_Reach;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1179971656/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1179971656/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

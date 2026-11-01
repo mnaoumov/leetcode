@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1833_Maximum_Ice_Cream_Bars;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/872274527/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/872274527/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

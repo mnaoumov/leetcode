@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0041_First_Missing_Positive;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/814399148/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/814399148/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

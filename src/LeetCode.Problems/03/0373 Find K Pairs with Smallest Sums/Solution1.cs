@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0373_Find_K_Pairs_with_Smallest_Sums;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/908511730/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/908511730/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

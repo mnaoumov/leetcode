@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2454_Next_Greater_Element_IV;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-90/submissions/detail/832762673/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-90/submissions/detail/832762673/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

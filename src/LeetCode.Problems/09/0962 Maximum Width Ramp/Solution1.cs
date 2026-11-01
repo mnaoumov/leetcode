@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0962_Maximum_Width_Ramp;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1417531751/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1417531751/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

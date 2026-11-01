@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3217_Delete_Nodes_From_Linked_List_Present_in_Array;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1380577251/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1380577251/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

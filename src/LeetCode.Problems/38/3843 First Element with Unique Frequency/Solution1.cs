@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3843_First_Element_with_Unique_Frequency;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-489/problems/first-element-with-unique-frequency/submissions/1919553786/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-489/problems/first-element-with-unique-frequency/submissions/1919553786/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

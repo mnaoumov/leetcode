@@ -2,9 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3539_Find_Sum_of_Array_Product_of_Magical_Sequences;
 
-/// <summary>
-/// https://leetcode.com/problems/find-sum-of-array-product-of-magical-sequences/submissions/1798838581/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/find-sum-of-array-product-of-magical-sequences/submissions/1798838581/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution3 : ISolution

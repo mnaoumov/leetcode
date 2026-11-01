@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1438_Longest_Continuous_Subarray_With_Absolute_Diff_Less_Than_or_Equal_to_Limit;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/899538584/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/899538584/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

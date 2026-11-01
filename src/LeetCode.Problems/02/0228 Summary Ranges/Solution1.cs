@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0228_Summary_Ranges;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/944110400/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/944110400/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

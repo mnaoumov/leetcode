@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2369_Check_if_There_is_a_Valid_Partition_For_The_Array;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1019722087/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1019722087/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

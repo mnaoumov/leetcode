@@ -2,9 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3811_Number_of_Alternating_XOR_Partitions;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-174/problems/number-of-alternating-xor-partitions/submissions/1887896197/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-174/problems/number-of-alternating-xor-partitions/submissions/1887896197/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

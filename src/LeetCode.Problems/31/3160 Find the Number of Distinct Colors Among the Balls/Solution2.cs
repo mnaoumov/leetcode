@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3160_Find_the_Number_of_Distinct_Colors_Among_the_Balls;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-131/submissions/detail/1267567480/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-131/submissions/detail/1267567480/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

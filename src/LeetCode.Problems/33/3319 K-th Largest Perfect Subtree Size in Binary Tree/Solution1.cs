@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3319_K_th_Largest_Perfect_Subtree_Size_in_Binary_Tree;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-419/submissions/detail/1420588110/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-419/submissions/detail/1420588110/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2359_Find_Closest_Node_to_Given_Two_Nodes;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/884771945/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/884771945/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

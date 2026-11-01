@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3045_Count_Prefix_and_Suffix_Pairs_II;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-385/submissions/detail/1178498046/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-385/submissions/detail/1178498046/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0611_Valid_Triangle_Number;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/930959350/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/930959350/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

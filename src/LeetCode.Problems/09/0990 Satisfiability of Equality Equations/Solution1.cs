@@ -5,9 +5,7 @@
 
 namespace LeetCode.Problems._0990_Satisfiability_of_Equality_Equations;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/809093485/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/809093485/"/>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution1 : ISolution

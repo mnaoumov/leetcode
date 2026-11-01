@@ -2,9 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._2338_Count_the_Number_of_Ideal_Arrays;
 
-/// <summary>
-/// https://leetcode.com/problems/count-the-number-of-ideal-arrays/submissions/1614128674/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/count-the-number-of-ideal-arrays/submissions/1614128674/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution2 : ISolution

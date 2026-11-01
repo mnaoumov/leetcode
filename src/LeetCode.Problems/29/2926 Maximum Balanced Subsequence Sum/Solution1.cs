@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2926_Maximum_Balanced_Subsequence_Sum;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-370/submissions/detail/1091732218/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-370/submissions/detail/1091732218/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

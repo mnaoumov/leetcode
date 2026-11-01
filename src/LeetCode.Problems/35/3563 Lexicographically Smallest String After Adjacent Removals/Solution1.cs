@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3563_Lexicographically_Smallest_String_After_Adjacent_Removals;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

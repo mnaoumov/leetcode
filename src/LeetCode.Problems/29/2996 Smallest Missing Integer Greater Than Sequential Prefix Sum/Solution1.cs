@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2996_Smallest_Missing_Integer_Greater_Than_Sequential_Prefix_Sum;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-121/submissions/detail/1138532986/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-121/submissions/detail/1138532986/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

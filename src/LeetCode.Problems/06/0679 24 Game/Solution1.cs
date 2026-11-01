@@ -2,9 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._0679_24_Game;
 
-/// <summary>
-/// https://leetcode.com/problems/24-game/submissions/1739189289/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/24-game/submissions/1739189289/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

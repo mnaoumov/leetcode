@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2048_Next_Greater_Numerically_Balanced_Number;
 
-/// <summary>
-/// https://leetcode.com/problems/next-greater-numerically-balanced-number/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/next-greater-numerically-balanced-number/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

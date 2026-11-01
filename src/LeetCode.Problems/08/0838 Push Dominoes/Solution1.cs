@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._0838_Push_Dominoes;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/809510320/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/809510320/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

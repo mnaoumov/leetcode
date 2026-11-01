@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2192_All_Ancestors_of_a_Node_in_a_Directed_Acyclic_Graph;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/906711937/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/906711937/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

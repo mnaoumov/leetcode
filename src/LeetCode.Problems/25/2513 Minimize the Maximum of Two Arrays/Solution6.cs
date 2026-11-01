@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2513_Minimize_the_Maximum_of_Two_Arrays;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/864935543/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/864935543/"/>
 [UsedImplicitly]
 public class Solution6 : ISolution
 {

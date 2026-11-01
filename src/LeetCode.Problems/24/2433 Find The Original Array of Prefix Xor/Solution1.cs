@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2433_Find_The_Original_Array_of_Prefix_Xor;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/891020987/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/891020987/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3683_Earliest_Time_to_Finish_One_Task;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-467/problems/earliest-time-to-finish-one-task/submissions/1769958835/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-467/problems/earliest-time-to-finish-one-task/submissions/1769958835/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

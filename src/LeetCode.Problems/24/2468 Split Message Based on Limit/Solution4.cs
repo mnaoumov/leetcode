@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2468_Split_Message_Based_on_Limit;
 
-/// <summary>
-/// https://leetcode.com/problems/split-message-based-on-limit/submissions/844911547/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/split-message-based-on-limit/submissions/844911547/"/>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3527_Find_the_Most_Common_Response;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-155/problems/find-the-most-common-response/submissions/1618436965/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-155/problems/find-the-most-common-response/submissions/1618436965/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2452_Words_Within_Two_Edits_of_Dictionary;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-90/submissions/detail/832711438/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-90/submissions/detail/832711438/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._2441_Largest_Positive_Integer_That_Exists_With_Its_Negative;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-315/submissions/detail/823374701/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-315/submissions/detail/823374701/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

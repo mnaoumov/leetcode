@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0166_Fraction_to_Recurring_Decimal;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/875884658/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/875884658/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

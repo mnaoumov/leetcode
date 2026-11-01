@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._0621_Task_Scheduler;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/196705695/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/196705695/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

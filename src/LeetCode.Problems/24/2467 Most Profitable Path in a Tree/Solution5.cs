@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2467_Most_Profitable_Path_in_a_Tree;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/844296510/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/844296510/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution5 : ISolution

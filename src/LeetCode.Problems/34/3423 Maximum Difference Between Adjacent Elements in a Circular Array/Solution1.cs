@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3423_Maximum_Difference_Between_Adjacent_Elements_in_a_Circular_Array;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-148/problems/maximum-difference-between-adjacent-elements-in-a-circular-array/submissions/1512562027/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-148/problems/maximum-difference-between-adjacent-elements-in-a-circular-array/submissions/1512562027/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

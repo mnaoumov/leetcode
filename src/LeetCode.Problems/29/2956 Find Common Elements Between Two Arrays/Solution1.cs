@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2956_Find_Common_Elements_Between_Two_Arrays;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-119/submissions/detail/1115746004/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-119/submissions/detail/1115746004/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

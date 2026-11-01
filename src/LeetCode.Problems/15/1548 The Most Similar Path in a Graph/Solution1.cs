@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1548_The_Most_Similar_Path_in_a_Graph;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/936005704/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/936005704/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

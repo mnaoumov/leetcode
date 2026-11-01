@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1580_Put_Boxes_Into_the_Warehouse_II;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1289277253/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1289277253/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

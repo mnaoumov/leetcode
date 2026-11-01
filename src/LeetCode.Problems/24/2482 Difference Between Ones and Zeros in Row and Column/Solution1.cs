@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2482_Difference_Between_Ones_and_Zeros_in_Row_and_Column;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/850249473/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/850249473/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

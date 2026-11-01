@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0935_Knight_Dialer;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1107087888/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1107087888/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

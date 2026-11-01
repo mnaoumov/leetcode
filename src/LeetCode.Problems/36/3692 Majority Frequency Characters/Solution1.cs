@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3692_Majority_Frequency_Characters;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-166/problems/majority-frequency-characters/submissions/1784276143/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-166/problems/majority-frequency-characters/submissions/1784276143/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

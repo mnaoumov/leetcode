@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3152_Special_Array_II;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-398/submissions/detail/1261764608/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-398/submissions/detail/1261764608/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

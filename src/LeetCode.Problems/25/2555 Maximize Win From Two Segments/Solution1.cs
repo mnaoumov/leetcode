@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2555_Maximize_Win_From_Two_Segments;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-97/submissions/detail/891392306/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-97/submissions/detail/891392306/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

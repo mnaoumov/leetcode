@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0383_Ransom_Note;
 
-/// <summary>
-/// https://leetcode.com/problems/ransom-note/submissions/845906888/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/ransom-note/submissions/845906888/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

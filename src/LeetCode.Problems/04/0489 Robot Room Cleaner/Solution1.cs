@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0489_Robot_Room_Cleaner;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/950514652/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/950514652/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3796_Find_Maximum_Value_in_a_Constrained_Sequence;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-173/problems/find-maximum-value-in-a-constrained-sequence/submissions/1873257061/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-173/problems/find-maximum-value-in-a-constrained-sequence/submissions/1873257061/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

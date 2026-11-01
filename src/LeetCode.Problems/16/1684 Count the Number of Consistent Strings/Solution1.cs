@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1684_Count_the_Number_of_Consistent_Strings;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1387354749/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1387354749/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1905_Count_Sub_Islands;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/924544351/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/924544351/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

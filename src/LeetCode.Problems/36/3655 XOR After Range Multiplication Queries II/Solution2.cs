@@ -3,9 +3,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3655_XOR_After_Range_Multiplication_Queries_II;
 
-/// <summary>
-/// https://leetcode.com/problems/xor-after-range-multiplication-queries-ii/submissions/1973217769/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/xor-after-range-multiplication-queries-ii/submissions/1973217769/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

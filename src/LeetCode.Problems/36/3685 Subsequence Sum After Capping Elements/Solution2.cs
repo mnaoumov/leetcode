@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3685_Subsequence_Sum_After_Capping_Elements;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-467/problems/subsequence-sum-after-capping-elements/submissions/1770003874/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-467/problems/subsequence-sum-after-capping-elements/submissions/1770003874/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._0031_Next_Permutation;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/198321952/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/198321952/"/>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

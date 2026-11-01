@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2581_Count_Number_of_Possible_Root_Nodes;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/909204408/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/909204408/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

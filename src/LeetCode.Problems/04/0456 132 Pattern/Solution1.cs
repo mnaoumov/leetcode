@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0456_132_Pattern;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/950366816/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/950366816/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1136_Parallel_Courses;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/937161395/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/937161395/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

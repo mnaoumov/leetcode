@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3768_Minimum_Inversion_Count_in_Subarrays_of_Fixed_Length;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-171/problems/minimum-inversion-count-in-subarrays-of-fixed-length/submissions/1848499405/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-171/problems/minimum-inversion-count-in-subarrays-of-fixed-length/submissions/1848499405/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

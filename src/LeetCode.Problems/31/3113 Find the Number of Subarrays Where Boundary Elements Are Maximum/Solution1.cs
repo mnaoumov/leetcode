@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3113_Find_the_Number_of_Subarrays_Where_Boundary_Elements_Are_Maximum;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-128/submissions/detail/1231302341/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-128/submissions/detail/1231302341/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

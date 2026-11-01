@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3408_Design_Task_Manager;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-147/submissions/detail/1497444298/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-147/submissions/detail/1497444298/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

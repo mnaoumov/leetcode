@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0605_Can_Place_Flowers;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/918525459/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/918525459/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

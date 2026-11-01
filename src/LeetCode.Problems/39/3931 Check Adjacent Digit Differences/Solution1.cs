@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3931_Check_Adjacent_Digit_Differences;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-502/problems/check-adjacent-digit-differences/submissions/2005023103/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-502/problems/check-adjacent-digit-differences/submissions/2005023103/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

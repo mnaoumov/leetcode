@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3599_Partition_Array_to_Minimize_XOR;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-456/problems/partition-array-to-minimize-xor/submissions/1679937264/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-456/problems/partition-array-to-minimize-xor/submissions/1679937264/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

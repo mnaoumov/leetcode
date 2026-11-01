@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2081_Sum_of_k_Mirror_Numbers;
 
-/// <summary>
-/// https://leetcode.com/problems/sum-of-k-mirror-numbers/submissions/1673154332/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/sum-of-k-mirror-numbers/submissions/1673154332/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

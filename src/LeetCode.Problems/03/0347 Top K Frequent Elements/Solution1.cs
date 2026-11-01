@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0347_Top_K_Frequent_Elements;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/908072721/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/908072721/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

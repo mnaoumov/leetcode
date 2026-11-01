@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3448_Count_Substrings_Divisible_By_Last_Digit;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

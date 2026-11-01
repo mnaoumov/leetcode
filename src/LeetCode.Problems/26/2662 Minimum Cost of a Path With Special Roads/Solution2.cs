@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2662_Minimum_Cost_of_a_Path_With_Special_Roads;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-343/submissions/detail/941882900/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-343/submissions/detail/941882900/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

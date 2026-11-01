@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2446_Determine_if_Two_Events_Have_Conflict;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-316/submissions/detail/828277017/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-316/submissions/detail/828277017/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

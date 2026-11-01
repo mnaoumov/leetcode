@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._3271_Hash_Divided_String;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-138/submissions/detail/1374263106/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-138/submissions/detail/1374263106/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3582_Generate_Tag_for_Video_Caption;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-454/problems/generate-tag-for-video-caption/submissions/1664366772/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-454/problems/generate-tag-for-video-caption/submissions/1664366772/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

@@ -2,9 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3578_Count_Partitions_With_Max_Min_Difference_at_Most_K;
 
-/// <summary>
-/// https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k/submissions/1847990584/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k/submissions/1847990584/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

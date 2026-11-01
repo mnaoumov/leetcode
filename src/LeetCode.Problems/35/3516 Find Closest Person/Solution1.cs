@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3516_Find_Closest_Person;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-445/problems/find-closest-person/submissions/1605117387/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-445/problems/find-closest-person/submissions/1605117387/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

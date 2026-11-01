@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2595_Number_of_Even_and_Odd_Bits;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-337/submissions/detail/917860339/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-337/submissions/detail/917860339/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

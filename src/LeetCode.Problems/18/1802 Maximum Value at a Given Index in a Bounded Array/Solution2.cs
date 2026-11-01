@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1802_Maximum_Value_at_a_Given_Index_in_a_Bounded_Array;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/953606396/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/953606396/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

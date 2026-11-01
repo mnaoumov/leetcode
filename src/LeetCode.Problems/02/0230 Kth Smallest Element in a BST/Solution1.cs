@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0230_Kth_Smallest_Element_in_a_BST;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/936757284/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/936757284/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

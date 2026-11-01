@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1066_Campus_Bikes_II;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/974344113/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/974344113/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

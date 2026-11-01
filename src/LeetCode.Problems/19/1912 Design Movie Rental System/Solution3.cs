@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1912_Design_Movie_Rental_System;
 
-/// <summary>
-/// https://leetcode.com/problems/design-movie-rental-system/submissions/1778299341/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/design-movie-rental-system/submissions/1778299341/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution3 : ISolution

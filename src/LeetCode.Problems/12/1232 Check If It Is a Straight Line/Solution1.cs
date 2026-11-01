@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1232_Check_If_It_Is_a_Straight_Line;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/925632967/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/925632967/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

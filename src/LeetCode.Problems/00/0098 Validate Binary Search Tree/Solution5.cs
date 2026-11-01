@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0098_Validate_Binary_Search_Tree;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/829655650/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/829655650/"/>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

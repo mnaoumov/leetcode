@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3870_Count_Commas_in_Range;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-493/problems/count-commas-in-range/submissions/1948534001/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-493/problems/count-commas-in-range/submissions/1948534001/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

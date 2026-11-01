@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2502_Design_Memory_Allocator;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/859018226/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/859018226/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

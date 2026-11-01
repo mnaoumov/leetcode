@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1168_Optimize_Water_Distribution_in_a_Village;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/931659752/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/931659752/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

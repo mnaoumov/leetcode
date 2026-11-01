@@ -5,9 +5,7 @@
 
 namespace LeetCode.Problems._2456_Most_Popular_Video_Creator;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-317/submissions/detail/833060894/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-317/submissions/detail/833060894/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

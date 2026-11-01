@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._3304_Find_the_K_th_Character_in_String_Game_I;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-417/submissions/detail/1405546483/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-417/submissions/detail/1405546483/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

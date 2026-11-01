@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2569_Handling_Sum_Queries_After_Update;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/900574637/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/900574637/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution4 : ISolution

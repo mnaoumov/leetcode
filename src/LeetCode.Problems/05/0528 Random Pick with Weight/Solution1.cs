@@ -1,10 +1,8 @@
 namespace LeetCode.Problems._0528_Random_Pick_with_Weight;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/950458872/
-/// https://leetcode.com/submissions/detail/950459507/
-/// https://leetcode.com/submissions/detail/950461969/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/950458872/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/950459507/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/950461969/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1671_Minimum_Number_of_Removals_to_Make_Mountain_Array;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1438337862/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1438337862/"/>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

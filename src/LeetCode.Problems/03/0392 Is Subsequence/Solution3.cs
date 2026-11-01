@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0392_Is_Subsequence;
 
-/// <summary>
-/// https://leetcode.com/problems/is-subsequence/submissions/853562534/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/is-subsequence/submissions/853562534/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

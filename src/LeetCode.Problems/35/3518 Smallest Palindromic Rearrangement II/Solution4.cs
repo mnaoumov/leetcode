@@ -2,9 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3518_Smallest_Palindromic_Rearrangement_II;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-445/problems/smallest-palindromic-rearrangement-ii/submissions/1605197458/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-445/problems/smallest-palindromic-rearrangement-ii/submissions/1605197458/"/>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0476_Number_Complement;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1364170826/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1364170826/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

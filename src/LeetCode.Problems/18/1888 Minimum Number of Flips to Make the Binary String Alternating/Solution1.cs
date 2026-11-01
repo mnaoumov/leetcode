@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1888_Minimum_Number_of_Flips_to_Make_the_Binary_String_Alternating;
 
-/// <summary>
-/// https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/submissions/1942607472/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/submissions/1942607472/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

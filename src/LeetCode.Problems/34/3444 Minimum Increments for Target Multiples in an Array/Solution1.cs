@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3444_Minimum_Increments_for_Target_Multiples_in_an_Array;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

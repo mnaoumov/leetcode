@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2462_Total_Cost_to_Hire_K_Workers;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-318/submissions/detail/837788601/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-318/submissions/detail/837788601/"/>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

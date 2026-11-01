@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2858_Minimum_Edge_Reversals_So_Every_Node_Is_Reachable;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-113/submissions/detail/1051054272/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-113/submissions/detail/1051054272/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

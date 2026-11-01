@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._0054_Spiral_Matrix;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/819411014/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/819411014/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

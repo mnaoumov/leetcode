@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2560_House_Robber_IV;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/892718193/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/892718193/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution2 : ISolution

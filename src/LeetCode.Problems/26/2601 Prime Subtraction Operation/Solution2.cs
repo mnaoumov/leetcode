@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2601_Prime_Subtraction_Operation;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-338/submissions/detail/922162310/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-338/submissions/detail/922162310/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

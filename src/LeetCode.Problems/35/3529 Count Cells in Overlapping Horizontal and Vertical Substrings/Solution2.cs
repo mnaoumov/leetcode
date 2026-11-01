@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3529_Count_Cells_in_Overlapping_Horizontal_and_Vertical_Substrings;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-155/problems/count-cells-in-overlapping-horizontal-and-vertical-substrings/submissions/1618513473/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-155/problems/count-cells-in-overlapping-horizontal-and-vertical-substrings/submissions/1618513473/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1267_Count_Servers_that_Communicate;
 
-/// <summary>
-/// https://leetcode.com/problems/count-servers-that-communicate/submissions/1517481050/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/count-servers-that-communicate/submissions/1517481050/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

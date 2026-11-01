@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3085_Minimum_Deletions_to_Make_String_K_Special;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-389/submissions/detail/1205876638/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-389/submissions/detail/1205876638/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

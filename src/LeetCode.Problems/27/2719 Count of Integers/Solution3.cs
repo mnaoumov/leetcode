@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2719_Count_of_Integers;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-348/submissions/detail/963410397/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-348/submissions/detail/963410397/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

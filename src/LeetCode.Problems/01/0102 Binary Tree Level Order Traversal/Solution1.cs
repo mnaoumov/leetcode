@@ -3,9 +3,7 @@
 #pragma warning disable
 namespace LeetCode.Problems._0102_Binary_Tree_Level_Order_Traversal;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/193349968/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/193349968/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

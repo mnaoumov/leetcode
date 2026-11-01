@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2770_Maximum_Number_of_Jumps_to_Reach_the_Last_Index;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-353/submissions/detail/989750117/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-353/submissions/detail/989750117/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

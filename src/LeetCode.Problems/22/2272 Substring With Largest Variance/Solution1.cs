@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2272_Substring_With_Largest_Variance;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/990501363/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/990501363/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

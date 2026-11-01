@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0514_Freedom_Trail;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1242874256/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1242874256/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

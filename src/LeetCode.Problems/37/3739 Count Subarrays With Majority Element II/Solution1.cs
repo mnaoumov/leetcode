@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3739_Count_Subarrays_With_Majority_Element_II;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-169/problems/count-subarrays-with-majority-element-ii/submissions/1824274302/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-169/problems/count-subarrays-with-majority-element-ii/submissions/1824274302/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0885_Spiral_Matrix_III;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1349314226/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1349314226/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

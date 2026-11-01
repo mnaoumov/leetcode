@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1161_Maximum_Level_Sum_of_a_Binary_Tree;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/905677744/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/905677744/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

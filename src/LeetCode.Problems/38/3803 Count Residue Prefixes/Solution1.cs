@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3803_Count_Residue_Prefixes;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-484/problems/count-residue-prefixes/submissions/1881248525/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-484/problems/count-residue-prefixes/submissions/1881248525/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

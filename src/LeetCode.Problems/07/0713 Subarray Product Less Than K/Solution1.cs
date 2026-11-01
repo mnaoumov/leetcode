@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0713_Subarray_Product_Less_Than_K;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/855114904/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/855114904/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

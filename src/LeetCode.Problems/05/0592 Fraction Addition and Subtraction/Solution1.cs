@@ -3,9 +3,7 @@ using System.Text.RegularExpressions;
 
 namespace LeetCode.Problems._0592_Fraction_Addition_and_Subtraction;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1365199118/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1365199118/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

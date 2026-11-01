@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3127_Make_a_Square_with_the_Same_Color;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-129/submissions/detail/1243292492/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-129/submissions/detail/1243292492/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

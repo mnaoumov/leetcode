@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._3174_Clear_Digits;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-132/submissions/detail/1281668630/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-132/submissions/detail/1281668630/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

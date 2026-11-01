@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1601_Maximum_Number_of_Achievable_Transfer_Requests;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/984097303/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/984097303/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

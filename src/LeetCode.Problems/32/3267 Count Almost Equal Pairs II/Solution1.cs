@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._3267_Count_Almost_Equal_Pairs_II;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-412/submissions/detail/1367399471/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-412/submissions/detail/1367399471/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

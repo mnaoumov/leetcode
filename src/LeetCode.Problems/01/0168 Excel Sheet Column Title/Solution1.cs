@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0168_Excel_Sheet_Column_Title;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/879060384/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/879060384/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

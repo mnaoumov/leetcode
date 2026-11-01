@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1520_Maximum_Number_of_Non_Overlapping_Substrings;
 
-/// <summary>
-/// https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/submissions/2145888005/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/submissions/2145888005/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

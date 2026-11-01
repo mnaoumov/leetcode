@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._2800_Shortest_String_That_Contains_Three_Strings;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-356/submissions/detail/1007344133/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-356/submissions/detail/1007344133/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

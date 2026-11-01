@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3386_Button_with_Longest_Push_Time;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-428/submissions/detail/1479012248/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-428/submissions/detail/1479012248/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2547_Minimum_Cost_to_Split_an_Array;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-329/submissions/detail/882795913/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-329/submissions/detail/882795913/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

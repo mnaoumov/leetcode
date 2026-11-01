@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0460_LFU_Cache;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/887130111/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/887130111/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

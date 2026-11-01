@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3274_Check_if_Two_Chessboard_Squares_Have_the_Same_Color;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-413/submissions/detail/1374787212/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-413/submissions/detail/1374787212/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

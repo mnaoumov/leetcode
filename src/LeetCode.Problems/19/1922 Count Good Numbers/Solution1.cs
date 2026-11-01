@@ -2,9 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._1922_Count_Good_Numbers;
 
-/// <summary>
-/// https://leetcode.com/problems/count-good-numbers/submissions/1605082369/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/count-good-numbers/submissions/1605082369/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0552_Student_Attendance_Record_II;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1267949955/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1267949955/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

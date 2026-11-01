@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0502_IPO;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/895951147/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/895951147/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution4 : ISolution

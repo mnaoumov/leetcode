@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0010_Regular_Expression_Matching;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/828914867/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/828914867/"/>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

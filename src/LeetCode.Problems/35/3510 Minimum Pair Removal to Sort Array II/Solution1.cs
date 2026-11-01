@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3510_Minimum_Pair_Removal_to_Sort_Array_II;
 
-/// <summary>
-/// https://leetcode.com/problems/minimum-pair-removal-to-sort-array-ii/submissions/1895621055/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/minimum-pair-removal-to-sort-array-ii/submissions/1895621055/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

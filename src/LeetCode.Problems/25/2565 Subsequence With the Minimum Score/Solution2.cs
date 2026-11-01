@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2565_Subsequence_With_the_Minimum_Score;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/897222233/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/897222233/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

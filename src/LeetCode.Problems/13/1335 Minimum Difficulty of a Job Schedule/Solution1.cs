@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._1335_Minimum_Difficulty_of_a_Job_Schedule;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/823332607/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/823332607/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

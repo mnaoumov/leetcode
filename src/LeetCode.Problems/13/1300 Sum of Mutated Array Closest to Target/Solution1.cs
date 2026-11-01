@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1300_Sum_of_Mutated_Array_Closest_to_Target;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/950602396/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/950602396/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

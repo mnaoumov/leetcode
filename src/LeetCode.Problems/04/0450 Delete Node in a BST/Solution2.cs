@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0450_Delete_Node_in_a_BST;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/906186037/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/906186037/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

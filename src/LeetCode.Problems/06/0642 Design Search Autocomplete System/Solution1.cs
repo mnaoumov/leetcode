@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0642_Design_Search_Autocomplete_System;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/964770089/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/964770089/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

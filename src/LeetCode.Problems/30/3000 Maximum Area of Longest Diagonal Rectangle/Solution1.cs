@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3000_Maximum_Area_of_Longest_Diagonal_Rectangle;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-379/submissions/detail/1139058347/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-379/submissions/detail/1139058347/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

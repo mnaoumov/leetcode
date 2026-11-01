@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3473_Sum_of_K_Subarrays_With_Length_at_Least_M;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-439/problems/sum-of-k-subarrays-with-length-at-least-m/submissions/1559902691/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-439/problems/sum-of-k-subarrays-with-length-at-least-m/submissions/1559902691/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

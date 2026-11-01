@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0152_Maximum_Product_Subarray;
 
-/// <summary>
-/// https://leetcode.com/problems/maximum-product-subarray/submissions/848228338/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/maximum-product-subarray/submissions/848228338/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution5 : ISolution

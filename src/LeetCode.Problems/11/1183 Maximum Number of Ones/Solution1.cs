@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1183_Maximum_Number_of_Ones;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1034608760/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1034608760/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

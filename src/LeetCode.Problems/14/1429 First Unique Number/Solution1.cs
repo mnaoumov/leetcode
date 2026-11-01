@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1429_First_Unique_Number;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

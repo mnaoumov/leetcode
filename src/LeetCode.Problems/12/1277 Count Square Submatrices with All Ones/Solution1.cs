@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1277_Count_Square_Submatrices_with_All_Ones;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1434714335/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1434714335/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

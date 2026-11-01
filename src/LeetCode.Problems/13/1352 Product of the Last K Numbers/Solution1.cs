@@ -2,9 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._1352_Product_of_the_Last_K_Numbers;
 
-/// <summary>
-/// https://leetcode.com/problems/product-of-the-last-k-numbers/submissions/1542334466/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/product-of-the-last-k-numbers/submissions/1542334466/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

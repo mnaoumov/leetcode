@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2481_Minimum_Cuts_to_Divide_a_Circle;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/850235792/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/850235792/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

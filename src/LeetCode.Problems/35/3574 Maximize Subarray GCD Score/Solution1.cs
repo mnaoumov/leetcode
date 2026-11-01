@@ -2,9 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3574_Maximize_Subarray_GCD_Score;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-158/problems/maximize-subarray-gcd-score/submissions/1656763098/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-158/problems/maximize-subarray-gcd-score/submissions/1656763098/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

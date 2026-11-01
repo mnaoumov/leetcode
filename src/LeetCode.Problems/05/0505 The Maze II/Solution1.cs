@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0505_The_Maze_II;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/942891413/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/942891413/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

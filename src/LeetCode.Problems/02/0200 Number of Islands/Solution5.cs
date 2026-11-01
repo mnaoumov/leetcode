@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0200_Number_of_Islands;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/870017776/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/870017776/"/>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

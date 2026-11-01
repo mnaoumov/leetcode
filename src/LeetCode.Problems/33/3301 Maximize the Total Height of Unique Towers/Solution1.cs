@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3301_Maximize_the_Total_Height_of_Unique_Towers;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-140/submissions/detail/1404967504/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-140/submissions/detail/1404967504/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

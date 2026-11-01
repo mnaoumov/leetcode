@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2553_Separate_the_Digits_in_an_Array;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-97/submissions/detail/891331172/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-97/submissions/detail/891331172/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

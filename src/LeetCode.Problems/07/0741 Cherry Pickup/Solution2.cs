@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0741_Cherry_Pickup;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/954153235/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/954153235/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

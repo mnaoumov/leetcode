@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0981_Time_Based_Key_Value_Store;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/816620559/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/816620559/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

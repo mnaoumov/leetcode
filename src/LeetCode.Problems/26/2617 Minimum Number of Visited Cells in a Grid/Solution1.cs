@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2617_Minimum_Number_of_Visited_Cells_in_a_Grid;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/930545464/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/930545464/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

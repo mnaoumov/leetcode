@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3942_Minimum_Operations_to_Sort_a_Permutation;
 
-/// <summary>
-/// https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/submissions/2178421862/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/submissions/2178421862/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

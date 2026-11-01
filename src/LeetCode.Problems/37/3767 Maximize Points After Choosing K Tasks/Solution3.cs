@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3767_Maximize_Points_After_Choosing_K_Tasks;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-171/problems/maximize-points-after-choosing-k-tasks/submissions/1848463120/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-171/problems/maximize-points-after-choosing-k-tasks/submissions/1848463120/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

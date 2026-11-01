@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._2182_Construct_String_With_Repeat_Limit;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/908432666/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/908432666/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

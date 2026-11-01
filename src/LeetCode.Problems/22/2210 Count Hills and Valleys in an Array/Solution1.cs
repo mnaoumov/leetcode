@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2210_Count_Hills_and_Valleys_in_an_Array;
 
-/// <summary>
-/// https://leetcode.com/problems/count-hills-and-valleys-in-an-array/submissions/1712958111/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/count-hills-and-valleys-in-an-array/submissions/1712958111/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

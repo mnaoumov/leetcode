@@ -2,9 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3756_Concatenate_Non_Zero_Digits_and_Multiply_by_Sum_II;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-477/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii/submissions/1837319436/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-477/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii/submissions/1837319436/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

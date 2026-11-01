@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2139_Minimum_Moves_to_Reach_Target_Score;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/914110109/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/914110109/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

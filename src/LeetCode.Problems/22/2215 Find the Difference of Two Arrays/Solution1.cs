@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2215_Find_the_Difference_of_Two_Arrays;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/943578304/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/943578304/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

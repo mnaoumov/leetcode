@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._0055_Jump_Game;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/198308227/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/198308227/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

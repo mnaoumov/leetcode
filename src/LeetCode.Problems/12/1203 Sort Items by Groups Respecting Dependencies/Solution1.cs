@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1203_Sort_Items_by_Groups_Respecting_Dependencies;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/939755815/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/939755815/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

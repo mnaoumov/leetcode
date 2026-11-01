@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0429_N_ary_Tree_Level_Order_Traversal;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/935088822/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/935088822/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems.Calculate_Maximum_Information_Gain;
 
-/// <summary>
-/// https://leetcode.com/explore/learn/card/decision-tree/285/implementation/2651/
-/// </summary>
+/// <seealso href="https://leetcode.com/explore/learn/card/decision-tree/285/implementation/2651/"/>
 [PublicAPI]
 public interface ISolution
 {

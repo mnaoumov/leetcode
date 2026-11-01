@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2598_Smallest_Missing_Non_negative_Integer_After_Operations;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/918958820/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/918958820/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

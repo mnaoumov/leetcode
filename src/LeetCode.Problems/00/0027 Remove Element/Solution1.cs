@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._0027_Remove_Element;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/811934718/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/811934718/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

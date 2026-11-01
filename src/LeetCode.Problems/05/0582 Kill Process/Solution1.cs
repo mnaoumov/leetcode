@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0582_Kill_Process;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/946941551/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/946941551/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

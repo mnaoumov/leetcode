@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2751_Robot_Collisions;
 
-/// <summary>
-/// https://leetcode.com/problems/robot-collisions/submissions/1966313478/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/robot-collisions/submissions/1966313478/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -5,9 +5,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0006_Zigzag_Conversion;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/148141798/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/148141798/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

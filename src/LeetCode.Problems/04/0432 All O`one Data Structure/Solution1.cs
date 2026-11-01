@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0432_All_O_one_Data_Structure;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1405495536/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1405495536/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

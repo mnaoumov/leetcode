@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0348_Design_Tic_Tac_Toe;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/959328127/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/959328127/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

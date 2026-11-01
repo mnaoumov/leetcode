@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3351_Sum_of_Good_Subsequences;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-423/submissions/detail/1448238702/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-423/submissions/detail/1448238702/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution3 : ISolution

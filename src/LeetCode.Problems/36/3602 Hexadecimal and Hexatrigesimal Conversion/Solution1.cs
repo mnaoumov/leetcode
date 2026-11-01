@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._3602_Hexadecimal_and_Hexatrigesimal_Conversion;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-160/problems/hexadecimal-and-hexatrigesimal-conversion/submissions/1687324473/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-160/problems/hexadecimal-and-hexatrigesimal-conversion/submissions/1687324473/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

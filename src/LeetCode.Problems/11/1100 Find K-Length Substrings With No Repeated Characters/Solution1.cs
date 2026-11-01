@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1100_Find_K_Length_Substrings_With_No_Repeated_Characters;
 
-/// <summary>
-/// https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters/submissions/1566552096/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters/submissions/1566552096/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

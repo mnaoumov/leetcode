@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0066_Plus_One;
 
-/// <summary>
-/// https://leetcode.com/problems/plus-one/submissions/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/plus-one/submissions/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

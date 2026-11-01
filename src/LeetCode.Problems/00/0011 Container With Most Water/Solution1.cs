@@ -4,9 +4,7 @@
 
 namespace LeetCode.Problems._0011_Container_With_Most_Water;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/196729552/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/196729552/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

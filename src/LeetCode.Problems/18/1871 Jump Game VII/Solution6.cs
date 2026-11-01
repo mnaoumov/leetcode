@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1871_Jump_Game_VII;
 
-/// <summary>
-/// https://leetcode.com/problems/jump-game-vii/submissions/2013038607/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/jump-game-vii/submissions/2013038607/"/>
 [UsedImplicitly]
 public class Solution6 : ISolution
 {

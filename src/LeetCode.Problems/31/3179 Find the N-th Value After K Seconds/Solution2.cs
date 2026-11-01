@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3179_Find_the_N_th_Value_After_K_Seconds;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1282290322/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1282290322/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

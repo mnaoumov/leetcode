@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2144_Minimum_Cost_of_Buying_Candies_With_Discount;
 
-/// <summary>
-/// https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/submissions/2018595700/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/submissions/2018595700/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0808_Soup_Servings;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1073864429/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1073864429/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

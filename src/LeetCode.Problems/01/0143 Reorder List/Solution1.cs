@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0143_Reorder_List;
 
-/// <summary>
-/// https://leetcode.com/problems/reorder-list/submissions/845322200/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/reorder-list/submissions/845322200/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2509_Cycle_Length_Queries_in_a_Tree;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/861446990/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/861446990/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

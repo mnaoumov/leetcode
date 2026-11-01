@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2582_Pass_the_Pillow;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-335/submissions/detail/909222198/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-335/submissions/detail/909222198/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

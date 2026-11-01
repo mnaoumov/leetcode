@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3223_Minimum_Length_of_String_After_Operations;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1507773122/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1507773122/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

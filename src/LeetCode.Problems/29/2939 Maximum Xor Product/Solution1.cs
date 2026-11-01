@@ -2,9 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._2939_Maximum_Xor_Product;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-372/submissions/detail/1101801597/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-372/submissions/detail/1101801597/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

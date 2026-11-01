@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0035_Search_Insert_Position;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/813032548/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/813032548/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

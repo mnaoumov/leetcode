@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1248_Count_Number_of_Nice_Subarrays;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/856489076/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/856489076/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

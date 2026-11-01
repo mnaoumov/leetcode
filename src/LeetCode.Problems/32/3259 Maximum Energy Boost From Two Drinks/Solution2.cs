@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3259_Maximum_Energy_Boost_From_Two_Drinks;
 
-/// <summary>
-/// https://leetcode.com/contest/weekly-contest-411/submissions/detail/1359790667/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-411/submissions/detail/1359790667/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

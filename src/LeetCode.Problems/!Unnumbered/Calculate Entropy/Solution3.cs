@@ -1,8 +1,6 @@
 namespace LeetCode.Problems.Calculate_Entropy;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/922125663/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/922125663/"/>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

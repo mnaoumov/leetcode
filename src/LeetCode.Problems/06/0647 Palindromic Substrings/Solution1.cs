@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0647_Palindromic_Substrings;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/941791115/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/941791115/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

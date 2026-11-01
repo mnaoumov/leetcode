@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0523_Continuous_Subarray_Sum;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/830304546/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/830304546/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

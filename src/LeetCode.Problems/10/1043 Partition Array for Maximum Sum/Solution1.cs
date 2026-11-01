@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1043_Partition_Array_for_Maximum_Sum;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/1164438586/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/1164438586/"/>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

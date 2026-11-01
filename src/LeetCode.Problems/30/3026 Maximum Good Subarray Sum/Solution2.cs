@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3026_Maximum_Good_Subarray_Sum;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-123/submissions/detail/1164930488/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-123/submissions/detail/1164930488/"/>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

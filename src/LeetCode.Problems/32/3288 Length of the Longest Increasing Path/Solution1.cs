@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3288_Length_of_the_Longest_Increasing_Path;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

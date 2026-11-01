@@ -2,9 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3528_Unit_Conversion_I;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-155/problems/unit-conversion-i/submissions/1618454395/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-155/problems/unit-conversion-i/submissions/1618454395/"/>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

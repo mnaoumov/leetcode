@@ -2,9 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._2663_Lexicographically_Smallest_Beautiful_String;
 
-/// <summary>
-/// https://leetcode.com/submissions/detail/941938861/
-/// </summary>
+/// <seealso href="https://leetcode.com/submissions/detail/941938861/"/>
 [UsedImplicitly]
 public class Solution8 : ISolution
 {

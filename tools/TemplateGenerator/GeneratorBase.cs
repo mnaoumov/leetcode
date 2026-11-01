@@ -15,7 +15,8 @@ internal abstract partial class GeneratorBase : IGenerator
     private const string InvalidNamespaceChars = " `-=~!@#$%^&*()+[]{}',.;";
     private const int ProblemNumberLength = 4;
     private const char ReplacementChar = '_';
-    private static readonly string LeetCodeFolderPath = Path.Combine(FindRepoRoot(), "src", "LeetCode.Problems", "!WIP");
+    internal static readonly string ProblemsFolderPath = Path.Combine(FindRepoRoot(), "src", "LeetCode.Problems");
+    internal static readonly string LeetCodeFolderPath = Path.Combine(ProblemsFolderPath, "!WIP");
 
     protected readonly Option<string> TitleOption = new("--title") { Description = "Problem title", Required = true };
 
@@ -98,7 +99,7 @@ internal abstract partial class GeneratorBase : IGenerator
     /// <summary>
     /// The repo root is the nearest folder above the tool's output that holds LeetCode.slnx.
     /// </summary>
-    private static string FindRepoRoot()
+    internal static string FindRepoRoot()
     {
         for (var dir = new DirectoryInfo(AppContext.BaseDirectory); dir != null; dir = dir.Parent)
         {

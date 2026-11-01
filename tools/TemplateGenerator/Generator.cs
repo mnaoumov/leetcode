@@ -30,5 +30,7 @@ internal static class Generator
             });
             rootCommand.Add(command);
         }
+
+        rootCommand.Add(FinishCommand.Create());
     }
 }

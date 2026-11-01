@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2670_Find_the_Distinct_Difference_Array;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-344/submissions/detail/945794380/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-344/submissions/detail/945794380/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._0029_Divide_Two_Integers;
 
-/// <seealso href="https://leetcode.com/submissions/detail/812351526/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/812351526/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution1 : ISolution

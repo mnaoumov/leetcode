@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2749_Minimum_Operations_to_Make_the_Integer_Zero;
 
-/// <seealso href="https://leetcode.com/submissions/detail/982106911/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/982106911/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

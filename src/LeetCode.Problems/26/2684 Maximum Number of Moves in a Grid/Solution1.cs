@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2684_Maximum_Number_of_Moves_in_a_Grid;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-345/submissions/detail/949936222/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-345/submissions/detail/949936222/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

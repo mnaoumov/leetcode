@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1639_Number_of_Ways_to_Form_a_Target_String_Given_a_Dictionary;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1491056949/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1491056949/">Submission</seealso>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

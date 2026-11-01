@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1072_Flip_Columns_For_Maximum_Number_of_Equal_Rows;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1459668038/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1459668038/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

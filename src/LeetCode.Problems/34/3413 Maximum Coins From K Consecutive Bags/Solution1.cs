@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3413_Maximum_Coins_From_K_Consecutive_Bags;
 
-/// <seealso href="TODO url"/>
+/// <seealso href="TODO url">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

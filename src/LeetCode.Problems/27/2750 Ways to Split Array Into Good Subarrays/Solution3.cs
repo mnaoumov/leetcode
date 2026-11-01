@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2750_Ways_to_Split_Array_Into_Good_Subarrays;
 
-/// <seealso href="https://leetcode.com/submissions/detail/979007264/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/979007264/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

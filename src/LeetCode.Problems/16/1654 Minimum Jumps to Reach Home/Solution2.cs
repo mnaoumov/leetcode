@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1654_Minimum_Jumps_to_Reach_Home;
 
-/// <seealso href="https://leetcode.com/submissions/detail/928710929/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/928710929/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution2 : ISolution

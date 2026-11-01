@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3100_Water_Bottles_II;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-391/submissions/detail/1218753599/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-391/submissions/detail/1218753599/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2526_Find_Consecutive_Integers_from_a_Data_Stream;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-95/submissions/detail/873334371/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-95/submissions/detail/873334371/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

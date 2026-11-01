@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3858_Minimum_Bitwise_OR_From_Grid;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-491/problems/minimum-bitwise-or-from-grid/submissions/1934255487/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-491/problems/minimum-bitwise-or-from-grid/submissions/1934255487/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

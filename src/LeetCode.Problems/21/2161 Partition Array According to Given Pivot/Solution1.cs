@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2161_Partition_Array_According_to_Given_Pivot;
 
-/// <seealso href="https://leetcode.com/problems/partition-array-according-to-given-pivot/submissions/1560919893/"/>
+/// <seealso href="https://leetcode.com/problems/partition-array-according-to-given-pivot/submissions/1560919893/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

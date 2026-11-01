@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3209_Number_of_Subarrays_With_AND_Value_of_K;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1311947926/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1311947926/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

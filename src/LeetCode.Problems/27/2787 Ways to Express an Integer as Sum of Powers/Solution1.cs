@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2787_Ways_to_Express_an_Integer_as_Sum_of_Powers;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-109/submissions/detail/1001068664/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-109/submissions/detail/1001068664/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

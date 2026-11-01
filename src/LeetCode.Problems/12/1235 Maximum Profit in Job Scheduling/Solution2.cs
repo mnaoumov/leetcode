@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1235_Maximum_Profit_in_Job_Scheduling;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1138053798/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1138053798/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

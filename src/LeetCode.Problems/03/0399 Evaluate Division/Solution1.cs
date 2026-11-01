@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0399_Evaluate_Division;
 
-/// <seealso href="https://leetcode.com/submissions/detail/904882839/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/904882839/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

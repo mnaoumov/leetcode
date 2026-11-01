@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0956_Tallest_Billboard;
 
-/// <seealso href="https://leetcode.com/submissions/detail/978225065/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/978225065/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2658_Maximum_Number_of_Fish_in_a_Grid;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-103/submissions/detail/941594456/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-103/submissions/detail/941594456/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

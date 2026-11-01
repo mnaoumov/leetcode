@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2838_Maximum_Coins_Heroes_Can_Collect;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1416501233/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1416501233/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

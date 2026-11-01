@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3349_Adjacent_Increasing_Subarrays_Detection_I;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-423/submissions/detail/1448185210/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-423/submissions/detail/1448185210/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

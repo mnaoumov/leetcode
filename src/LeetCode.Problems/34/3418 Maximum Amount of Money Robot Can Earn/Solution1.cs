@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3418_Maximum_Amount_of_Money_Robot_Can_Earn;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-432/submissions/detail/1505671439/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-432/submissions/detail/1505671439/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2957_Remove_Adjacent_Almost_Equal_Characters;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-119/submissions/detail/1115770723/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-119/submissions/detail/1115770723/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

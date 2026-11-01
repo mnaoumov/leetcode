@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2016_Maximum_Difference_Between_Increasing_Elements;
 
-/// <seealso href="https://leetcode.com/problems/maximum-difference-between-increasing-elements/submissions/1665431935/"/>
+/// <seealso href="https://leetcode.com/problems/maximum-difference-between-increasing-elements/submissions/1665431935/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

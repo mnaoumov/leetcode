@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0296_Best_Meeting_Point;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1119985980/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1119985980/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

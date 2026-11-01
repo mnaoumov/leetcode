@@ -2,7 +2,7 @@ using System.Collections;
 
 namespace LeetCode.Problems._2931_Maximum_Spending_After_Buying_Items;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-117/submissions/detail/1096653457/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-117/submissions/detail/1096653457/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

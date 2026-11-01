@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2447_Number_of_Subarrays_With_GCD_Equal_to_K;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-316/submissions/detail/828299883/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-316/submissions/detail/828299883/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1351_Count_Negative_Numbers_in_a_Sorted_Matrix;
 
-/// <seealso href="https://leetcode.com/submissions/detail/927599719/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/927599719/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

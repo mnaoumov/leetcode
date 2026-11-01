@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0622_Design_Circular_Queue;
 
-/// <seealso href="https://leetcode.com/submissions/detail/807882544/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/807882544/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution1 : ISolution

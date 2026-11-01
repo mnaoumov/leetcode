@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0646_Maximum_Length_of_Pair_Chain;
 
-/// <seealso href="https://leetcode.com/submissions/detail/940880167/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/940880167/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

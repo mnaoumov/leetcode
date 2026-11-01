@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1897_Redistribute_Characters_to_Make_All_Strings_Equal;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1131835626/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1131835626/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

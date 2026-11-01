@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3030_Find_the_Grid_of_Region_Average;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-383/submissions/detail/1165429051/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-383/submissions/detail/1165429051/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

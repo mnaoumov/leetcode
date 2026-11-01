@@ -3,7 +3,7 @@
 #pragma warning disable
 namespace LeetCode.Problems._0124_Binary_Tree_Maximum_Path_Sum;
 
-/// <seealso href="https://leetcode.com/submissions/detail/203460140/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/203460140/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2368_Reachable_Nodes_With_Restrictions;
 
-/// <seealso href="https://leetcode.com/submissions/detail/897955963/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/897955963/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

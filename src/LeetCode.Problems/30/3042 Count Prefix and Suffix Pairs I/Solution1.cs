@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3042_Count_Prefix_and_Suffix_Pairs_I;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-385/submissions/detail/1178391160/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-385/submissions/detail/1178391160/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -4,7 +4,7 @@
 
 namespace LeetCode.Problems._0049_Group_Anagrams;
 
-/// <seealso href="https://leetcode.com/submissions/detail/196716802/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/196716802/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

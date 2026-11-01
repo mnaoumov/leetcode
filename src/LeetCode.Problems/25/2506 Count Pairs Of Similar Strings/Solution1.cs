@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2506_Count_Pairs_Of_Similar_Strings;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-324/submissions/detail/861385201/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-324/submissions/detail/861385201/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0863_All_Nodes_Distance_K_in_Binary_Tree;
 
-/// <seealso href="https://leetcode.com/submissions/detail/904845508/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/904845508/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

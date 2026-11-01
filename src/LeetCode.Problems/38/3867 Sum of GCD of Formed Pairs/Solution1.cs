@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3867_Sum_of_GCD_of_Formed_Pairs;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-178/problems/sum-of-gcd-of-formed-pairs/submissions/1948048732/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-178/problems/sum-of-gcd-of-formed-pairs/submissions/1948048732/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

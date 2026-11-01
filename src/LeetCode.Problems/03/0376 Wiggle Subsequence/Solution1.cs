@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0376_Wiggle_Subsequence;
 
-/// <seealso href="https://leetcode.com/submissions/detail/930015467/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/930015467/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

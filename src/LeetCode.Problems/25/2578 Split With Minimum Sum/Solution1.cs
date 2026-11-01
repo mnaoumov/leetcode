@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2578_Split_With_Minimum_Sum;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-99/submissions/detail/908901803/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-99/submissions/detail/908901803/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

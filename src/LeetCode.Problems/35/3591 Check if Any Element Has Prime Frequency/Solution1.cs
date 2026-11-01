@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3591_Check_if_Any_Element_Has_Prime_Frequency;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-455/problems/check-if-any-element-has-prime-frequency/submissions/1672140510/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-455/problems/check-if-any-element-has-prime-frequency/submissions/1672140510/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

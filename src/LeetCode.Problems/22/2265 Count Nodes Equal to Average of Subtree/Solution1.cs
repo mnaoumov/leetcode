@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2265_Count_Nodes_Equal_to_Average_of_Subtree;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1089526786/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1089526786/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

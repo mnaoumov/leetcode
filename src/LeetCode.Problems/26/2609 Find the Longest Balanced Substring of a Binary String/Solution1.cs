@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2609_Find_the_Longest_Balanced_Substring_of_a_Binary_String;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-339/submissions/detail/926277700/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-339/submissions/detail/926277700/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

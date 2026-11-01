@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2251_Number_of_Flowers_in_Full_Bloom;
 
-/// <seealso href="https://leetcode.com/submissions/detail/915398774/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/915398774/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

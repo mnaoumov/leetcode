@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2812_Find_the_Safest_Path_in_a_Grid;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1259316280/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1259316280/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution11 : ISolution

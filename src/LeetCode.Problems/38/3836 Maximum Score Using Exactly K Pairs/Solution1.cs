@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3836_Maximum_Score_Using_Exactly_K_Pairs;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-488/problems/maximum-score-using-exactly-k-pairs/submissions/1911963853/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-488/problems/maximum-score-using-exactly-k-pairs/submissions/1911963853/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3206_Alternating_Groups_I;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-134/submissions/detail/1311627645/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-134/submissions/detail/1311627645/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

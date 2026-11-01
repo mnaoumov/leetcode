@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3433_Count_Mentions_Per_User;
 
-/// <seealso href="https://leetcode.com/problems/count-mentions-per-user/submissions/1853399883/"/>
+/// <seealso href="https://leetcode.com/problems/count-mentions-per-user/submissions/1853399883/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

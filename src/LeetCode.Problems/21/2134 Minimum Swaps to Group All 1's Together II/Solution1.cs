@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2134_Minimum_Swaps_to_Group_All_1_s_Together_II;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1341298433/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1341298433/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

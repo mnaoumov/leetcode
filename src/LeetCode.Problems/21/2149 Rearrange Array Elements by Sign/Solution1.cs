@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2149_Rearrange_Array_Elements_by_Sign;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1174662113/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1174662113/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

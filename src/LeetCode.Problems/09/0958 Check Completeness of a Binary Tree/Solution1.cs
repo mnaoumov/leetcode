@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0958_Check_Completeness_of_a_Binary_Tree;
 
-/// <seealso href="https://leetcode.com/submissions/detail/915355438/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/915355438/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

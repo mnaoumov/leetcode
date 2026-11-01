@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3536_Maximum_Product_of_Two_Digits;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-448/problems/maximum-product-of-two-digits/submissions/1624859540/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-448/problems/maximum-product-of-two-digits/submissions/1624859540/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

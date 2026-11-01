@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3137_Minimum_Number_of_Operations_to_Make_Word_K_Periodic;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-396/submissions/detail/1249543900/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-396/submissions/detail/1249543900/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

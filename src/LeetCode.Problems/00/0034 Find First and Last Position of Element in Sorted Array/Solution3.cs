@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array;
 
-/// <seealso href="https://leetcode.com/submissions/detail/198235968/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/198235968/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution3 : ISolution

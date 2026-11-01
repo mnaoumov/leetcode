@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0155_Min_Stack;
 
-/// <seealso href="https://leetcode.com/problems/min-stack/submissions/848293212/"/>
+/// <seealso href="https://leetcode.com/problems/min-stack/submissions/848293212/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

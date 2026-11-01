@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1281_Subtract_the_Product_and_Sum_of_Digits_of_an_Integer;
 
-/// <seealso href="https://leetcode.com/submissions/detail/924018669/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/924018669/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

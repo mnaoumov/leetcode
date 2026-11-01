@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2856_Minimum_Array_Length_After_Pair_Removals;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-113/submissions/detail/1050998194/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-113/submissions/detail/1050998194/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._0086_Partition_List;
 
-/// <seealso href="https://leetcode.com/submissions/detail/827454880/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/827454880/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

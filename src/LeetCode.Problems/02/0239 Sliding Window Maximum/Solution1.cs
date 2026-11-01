@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._0239_Sliding_Window_Maximum;
 
-/// <seealso href="https://leetcode.com/submissions/detail/200173035/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/200173035/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 [UsedImplicitly]
 public class Solution1 : ISolution

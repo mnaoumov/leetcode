@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1325_Delete_Leaves_With_a_Given_Value;
 
-/// <seealso href="https://leetcode.com/submissions/detail/904942183/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/904942183/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

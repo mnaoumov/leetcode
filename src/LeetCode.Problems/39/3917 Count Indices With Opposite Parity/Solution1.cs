@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3917_Count_Indices_With_Opposite_Parity;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-500/problems/count-indices-with-opposite-parity/submissions/1993749426/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-500/problems/count-indices-with-opposite-parity/submissions/1993749426/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

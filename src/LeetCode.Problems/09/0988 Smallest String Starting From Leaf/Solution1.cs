@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0988_Smallest_String_Starting_From_Leaf;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1234435910/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1234435910/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

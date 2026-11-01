@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3180_Maximum_Total_Reward_Using_Operations_I;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-401/submissions/detail/1282352199/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-401/submissions/detail/1282352199/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

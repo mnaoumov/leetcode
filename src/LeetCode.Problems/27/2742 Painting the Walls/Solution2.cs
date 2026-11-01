@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2742_Painting_the_Walls;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-350/submissions/detail/973747005/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-350/submissions/detail/973747005/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution2 : ISolution

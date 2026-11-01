@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0069_Sqrt_x_;
 
-/// <seealso href="https://leetcode.com/submissions/detail/820356584/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/820356584/">Submission</seealso>
 [UsedImplicitly]
 public class Solution6 : ISolution
 {

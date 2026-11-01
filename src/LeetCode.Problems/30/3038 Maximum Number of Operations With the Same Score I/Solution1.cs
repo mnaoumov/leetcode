@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3038_Maximum_Number_of_Operations_With_the_Same_Score_I;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-124/submissions/detail/1177862735/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-124/submissions/detail/1177862735/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

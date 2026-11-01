@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3337_Total_Characters_in_String_After_Transformations_II;
 
-/// <seealso href="https://leetcode.com/problems/total-characters-in-string-after-transformations-ii/submissions/1633390541/"/>
+/// <seealso href="https://leetcode.com/problems/total-characters-in-string-after-transformations-ii/submissions/1633390541/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

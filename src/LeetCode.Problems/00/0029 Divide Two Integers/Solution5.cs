@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0029_Divide_Two_Integers;
 
-/// <seealso href="https://leetcode.com/submissions/detail/829014964/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/829014964/">Submission</seealso>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

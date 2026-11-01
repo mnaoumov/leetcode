@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0910_Smallest_Range_II;
 
-/// <seealso href="https://leetcode.com/submissions/detail/950973744/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/950973744/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

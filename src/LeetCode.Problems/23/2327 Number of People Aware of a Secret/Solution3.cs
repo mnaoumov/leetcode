@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._2327_Number_of_People_Aware_of_a_Secret;
 
-/// <seealso href="https://leetcode.com/problems/number-of-people-aware-of-a-secret/submissions/1764491138/"/>
+/// <seealso href="https://leetcode.com/problems/number-of-people-aware-of-a-secret/submissions/1764491138/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution3 : ISolution

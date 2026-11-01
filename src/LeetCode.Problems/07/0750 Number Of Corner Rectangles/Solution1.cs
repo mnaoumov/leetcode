@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0750_Number_Of_Corner_Rectangles;
 
-/// <seealso href="https://leetcode.com/submissions/detail/954777121/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/954777121/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

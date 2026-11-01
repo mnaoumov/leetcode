@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0403_Frog_Jump;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1032682123/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1032682123/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

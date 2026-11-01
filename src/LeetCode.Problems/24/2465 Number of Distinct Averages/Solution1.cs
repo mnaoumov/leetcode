@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2465_Number_of_Distinct_Averages;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-91/submissions/detail/841986738/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-91/submissions/detail/841986738/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

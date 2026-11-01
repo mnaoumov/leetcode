@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3396_Minimum_Number_of_Operations_to_Make_Elements_in_Array_Distinct;
 
-/// <seealso href="https://leetcode.com/problems/minimum-number-of-operations-to-make-elements-in-array-distinct/submissions/1601125747/"/>
+/// <seealso href="https://leetcode.com/problems/minimum-number-of-operations-to-make-elements-in-array-distinct/submissions/1601125747/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

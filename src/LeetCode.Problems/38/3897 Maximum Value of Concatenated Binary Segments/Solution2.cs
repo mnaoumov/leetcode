@@ -3,7 +3,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3897_Maximum_Value_of_Concatenated_Binary_Segments;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-180/problems/maximum-value-of-concatenated-binary-segments/submissions/1975554250/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-180/problems/maximum-value-of-concatenated-binary-segments/submissions/1975554250/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

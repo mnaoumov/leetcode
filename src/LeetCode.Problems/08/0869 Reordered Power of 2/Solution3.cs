@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0869_Reordered_Power_of_2;
 
-/// <seealso href="https://leetcode.com/problems/reordered-power-of-2/submissions/1730637913/"/>
+/// <seealso href="https://leetcode.com/problems/reordered-power-of-2/submissions/1730637913/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

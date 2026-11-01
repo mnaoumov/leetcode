@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0266_Palindrome_Permutation;
 
-/// <seealso href="https://leetcode.com/problems/palindrome-permutation/submissions/1574011415/"/>
+/// <seealso href="https://leetcode.com/problems/palindrome-permutation/submissions/1574011415/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

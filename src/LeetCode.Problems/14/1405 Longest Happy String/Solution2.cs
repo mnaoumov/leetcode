@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._1405_Longest_Happy_String;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1423779815/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1423779815/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

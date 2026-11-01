@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0263_Ugly_Number;
 
-/// <seealso href="https://leetcode.com/problems/ugly-number/submissions/845545807/"/>
+/// <seealso href="https://leetcode.com/problems/ugly-number/submissions/845545807/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

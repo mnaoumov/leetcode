@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2603_Collect_Coins_in_a_Tree;
 
-/// <seealso href="https://leetcode.com/submissions/detail/922255051/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/922255051/">Submission</seealso>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

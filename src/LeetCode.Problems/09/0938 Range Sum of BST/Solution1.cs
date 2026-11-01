@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0938_Range_Sum_of_BST;
 
-/// <seealso href="https://leetcode.com/submissions/detail/855853129/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/855853129/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1769_Minimum_Number_of_Operations_to_Move_All_Balls_to_Each_Box;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1500084877/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1500084877/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

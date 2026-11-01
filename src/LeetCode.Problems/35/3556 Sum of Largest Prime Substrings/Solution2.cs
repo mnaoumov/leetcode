@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3556_Sum_of_Largest_Prime_Substrings;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-157/problems/sum-of-largest-prime-substrings/submissions/1643154562/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-157/problems/sum-of-largest-prime-substrings/submissions/1643154562/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

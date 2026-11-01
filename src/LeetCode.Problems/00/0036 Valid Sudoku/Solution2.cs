@@ -1,7 +1,7 @@
 namespace LeetCode.Problems._0036_Valid_Sudoku;
 
-/// <seealso href="https://leetcode.com/problems/valid-sudoku/submissions/829017183/"/>
-/// <seealso href="https://leetcode.com/problems/valid-sudoku/submissions/848302282/"/>
+/// <seealso href="https://leetcode.com/problems/valid-sudoku/submissions/829017183/">Submission</seealso>
+/// <seealso href="https://leetcode.com/problems/valid-sudoku/submissions/848302282/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2371_Minimize_Maximum_Value_in_a_Grid;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1459677029/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1459677029/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

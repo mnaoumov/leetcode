@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0269_Alien_Dictionary;
 
-/// <seealso href="https://leetcode.com/submissions/detail/937677600/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/937677600/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

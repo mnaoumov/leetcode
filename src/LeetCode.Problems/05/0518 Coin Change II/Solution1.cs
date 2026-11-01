@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0518_Coin_Change_II;
 
-/// <seealso href="https://leetcode.com/submissions/detail/920400059/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/920400059/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

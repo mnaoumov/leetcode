@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3737_Count_Subarrays_With_Majority_Element_I;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-169/problems/count-subarrays-with-majority-element-i/submissions/1824144384/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-169/problems/count-subarrays-with-majority-element-i/submissions/1824144384/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

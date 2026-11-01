@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0162_Find_Peak_Element;
 
-/// <seealso href="https://leetcode.com/submissions/detail/870934464/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/870934464/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

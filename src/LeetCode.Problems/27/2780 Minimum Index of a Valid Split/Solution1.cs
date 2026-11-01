@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2780_Minimum_Index_of_a_Valid_Split;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-354/submissions/detail/995530902/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-354/submissions/detail/995530902/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

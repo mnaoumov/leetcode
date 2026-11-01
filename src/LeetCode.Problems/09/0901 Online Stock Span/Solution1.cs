@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0901_Online_Stock_Span;
 
-/// <seealso href="https://leetcode.com/problems/online-stock-span/submissions/839781460/"/>
+/// <seealso href="https://leetcode.com/problems/online-stock-span/submissions/839781460/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

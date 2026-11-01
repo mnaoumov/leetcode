@@ -3,7 +3,7 @@ using System.Text.Json;
 
 namespace LeetCode.Problems._0037_Sudoku_Solver;
 
-/// <seealso href="https://leetcode.com/submissions/detail/829018302/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/829018302/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

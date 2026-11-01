@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1598_Crawler_Log_Folder;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1315784074/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1315784074/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

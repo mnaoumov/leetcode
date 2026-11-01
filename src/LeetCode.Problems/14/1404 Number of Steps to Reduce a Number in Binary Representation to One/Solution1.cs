@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._1404_Number_of_Steps_to_Reduce_a_Number_in_Binary_Representation_to_One;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1270945025/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1270945025/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

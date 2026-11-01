@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3665_Twisted_Mirror_Path_Count;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-164/problems/twisted-mirror-path-count/submissions/1753965529/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-164/problems/twisted-mirror-path-count/submissions/1753965529/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

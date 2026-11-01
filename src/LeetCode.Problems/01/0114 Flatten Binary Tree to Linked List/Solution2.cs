@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0114_Flatten_Binary_Tree_to_Linked_List;
 
-/// <seealso href="https://leetcode.com/submissions/detail/834091869/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/834091869/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

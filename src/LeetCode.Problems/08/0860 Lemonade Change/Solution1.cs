@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0860_Lemonade_Change;
 
-/// <seealso href="https://leetcode.com/submissions/detail/953698268/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/953698268/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

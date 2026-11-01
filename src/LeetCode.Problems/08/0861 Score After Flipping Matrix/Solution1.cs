@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0861_Score_After_Flipping_Matrix;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1257010013/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1257010013/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0368_Largest_Divisible_Subset;
 
-/// <seealso href="https://leetcode.com/submissions/detail/921084324/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/921084324/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

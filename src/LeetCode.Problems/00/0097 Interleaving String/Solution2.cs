@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0097_Interleaving_String;
 
-/// <seealso href="https://leetcode.com/submissions/detail/829625725/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/829625725/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

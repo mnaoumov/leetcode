@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0405_Convert_a_Number_to_Hexadecimal;
 
-/// <seealso href="https://leetcode.com/submissions/detail/926239207/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/926239207/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

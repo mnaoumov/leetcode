@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2659_Make_Array_Empty;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-103/submissions/detail/941631804/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-103/submissions/detail/941631804/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

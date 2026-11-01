@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0123_Best_Time_to_Buy_and_Sell_Stock_III;
 
-/// <seealso href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/submissions/836882155/"/>
+/// <seealso href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/submissions/836882155/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2366_Minimum_Replacements_to_Sort_the_Array;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1035520149/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1035520149/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

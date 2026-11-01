@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0759_Employee_Free_Time;
 
-/// <seealso href="https://leetcode.com/submissions/detail/957250074/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/957250074/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

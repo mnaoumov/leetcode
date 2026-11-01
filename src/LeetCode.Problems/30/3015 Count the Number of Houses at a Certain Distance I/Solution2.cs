@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3015_Count_the_Number_of_Houses_at_a_Certain_Distance_I;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-381/submissions/detail/1152165229/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-381/submissions/detail/1152165229/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

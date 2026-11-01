@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2500_Delete_Greatest_Value_in_Each_Row;
 
-/// <seealso href="https://leetcode.com/submissions/detail/858991067/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/858991067/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

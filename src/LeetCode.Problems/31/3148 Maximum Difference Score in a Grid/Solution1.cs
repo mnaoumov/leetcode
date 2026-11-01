@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3148_Maximum_Difference_Score_in_a_Grid;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-397/submissions/detail/1255701707/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-397/submissions/detail/1255701707/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

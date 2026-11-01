@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2817_Minimum_Absolute_Difference_Between_Elements_With_Constraint;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-358/submissions/detail/1019775526/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-358/submissions/detail/1019775526/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3686_Number_of_Stable_Subsequences;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-467/problems/number-of-stable-subsequences/submissions/1770035234/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-467/problems/number-of-stable-subsequences/submissions/1770035234/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

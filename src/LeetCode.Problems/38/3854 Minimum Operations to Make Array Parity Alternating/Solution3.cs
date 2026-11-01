@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3854_Minimum_Operations_to_Make_Array_Parity_Alternating;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-177/problems/minimum-operations-to-make-array-parity-alternating/submissions/1933824477/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-177/problems/minimum-operations-to-make-array-parity-alternating/submissions/1933824477/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

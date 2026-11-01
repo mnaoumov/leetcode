@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2464_Minimum_Subarrays_in_a_Valid_Split;
 
-/// <seealso href="https://leetcode.com/submissions/detail/875908186/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/875908186/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

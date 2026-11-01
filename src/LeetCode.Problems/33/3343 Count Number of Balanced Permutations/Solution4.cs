@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3343_Count_Number_of_Balanced_Permutations;
 
-/// <seealso href="https://leetcode.com/problems/count-number-of-balanced-permutations/submissions/1630239856/"/>
+/// <seealso href="https://leetcode.com/problems/count-number-of-balanced-permutations/submissions/1630239856/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution4 : ISolution

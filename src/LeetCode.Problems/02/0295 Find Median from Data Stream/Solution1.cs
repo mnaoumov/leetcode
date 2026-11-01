@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0295_Find_Median_from_Data_Stream;
 
-/// <seealso href="https://leetcode.com/problems/find-median-from-data-stream/submissions/841676521/"/>
+/// <seealso href="https://leetcode.com/problems/find-median-from-data-stream/submissions/841676521/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

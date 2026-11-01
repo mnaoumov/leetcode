@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3523_Make_Array_Non_decreasing;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-446/problems/make-array-non-decreasing/submissions/1612008975/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-446/problems/make-array-non-decreasing/submissions/1612008975/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

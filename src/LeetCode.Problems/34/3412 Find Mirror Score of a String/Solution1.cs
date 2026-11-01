@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3412_Find_Mirror_Score_of_a_String;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-431/submissions/detail/1498013498/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-431/submissions/detail/1498013498/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

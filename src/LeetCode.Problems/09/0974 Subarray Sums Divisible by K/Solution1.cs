@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0974_Subarray_Sums_Divisible_by_K;
 
-/// <seealso href="https://leetcode.com/submissions/detail/880926140/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/880926140/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

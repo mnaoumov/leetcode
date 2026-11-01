@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._0076_Minimum_Window_Substring;
 
-/// <seealso href="https://leetcode.com/submissions/detail/821333906/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/821333906/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 [UsedImplicitly]
 public class Solution3 : ISolution

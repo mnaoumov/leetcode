@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2432_The_Employee_That_Worked_on_the_Longest_Task;
 
-/// <seealso href="https://leetcode.com/submissions/detail/891684518/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/891684518/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

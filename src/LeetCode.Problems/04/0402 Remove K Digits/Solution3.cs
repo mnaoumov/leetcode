@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0402_Remove_K_Digits;
 
-/// <seealso href="https://leetcode.com/submissions/detail/924499788/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/924499788/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution3 : ISolution

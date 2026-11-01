@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2029_Stone_Game_IX;
 
-/// <seealso href="https://leetcode.com/problems/stone-game-ix/submissions/2108351769/"/>
+/// <seealso href="https://leetcode.com/problems/stone-game-ix/submissions/2108351769/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

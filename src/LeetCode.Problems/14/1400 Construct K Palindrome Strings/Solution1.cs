@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1400_Construct_K_Palindrome_Strings;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1504729074/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1504729074/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

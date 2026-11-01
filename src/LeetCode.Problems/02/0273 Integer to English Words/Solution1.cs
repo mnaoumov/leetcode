@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0273_Integer_to_English_Words;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1347168842/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1347168842/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

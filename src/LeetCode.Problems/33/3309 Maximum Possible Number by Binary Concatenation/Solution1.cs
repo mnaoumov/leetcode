@@ -1,7 +1,7 @@
 
 namespace LeetCode.Problems._3309_Maximum_Possible_Number_by_Binary_Concatenation;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-418/submissions/detail/1413264708/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-418/submissions/detail/1413264708/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

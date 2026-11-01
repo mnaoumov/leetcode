@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2610_Convert_an_Array_Into_a_2D_Array_With_Conditions;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-339/submissions/detail/926284602/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-339/submissions/detail/926284602/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

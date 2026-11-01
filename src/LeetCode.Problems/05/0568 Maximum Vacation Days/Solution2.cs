@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0568_Maximum_Vacation_Days;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1073018954/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1073018954/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

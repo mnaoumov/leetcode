@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._2458_Height_of_Binary_Tree_After_Subtree_Removal_Queries;
 
-/// <seealso href="https://leetcode.com/submissions/detail/833832604/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/833832604/">Submission</seealso>
 [UsedImplicitly]
 public class Solution10 : ISolution
 {

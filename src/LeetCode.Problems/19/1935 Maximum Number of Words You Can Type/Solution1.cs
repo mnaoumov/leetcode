@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1935_Maximum_Number_of_Words_You_Can_Type;
 
-/// <seealso href="https://leetcode.com/problems/maximum-number-of-words-you-can-type/submissions/1771139791/"/>
+/// <seealso href="https://leetcode.com/problems/maximum-number-of-words-you-can-type/submissions/1771139791/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

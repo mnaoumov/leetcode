@@ -4,7 +4,7 @@
 
 namespace LeetCode.Problems._0008_String_to_Integer__atoi_;
 
-/// <seealso href="https://leetcode.com/submissions/detail/807871103/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/807871103/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

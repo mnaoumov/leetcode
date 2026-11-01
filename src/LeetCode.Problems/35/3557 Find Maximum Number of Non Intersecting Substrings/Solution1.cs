@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3557_Find_Maximum_Number_of_Non_Intersecting_Substrings;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-157/problems/find-maximum-number-of-non-intersecting-substrings/submissions/1643167750/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-157/problems/find-maximum-number-of-non-intersecting-substrings/submissions/1643167750/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

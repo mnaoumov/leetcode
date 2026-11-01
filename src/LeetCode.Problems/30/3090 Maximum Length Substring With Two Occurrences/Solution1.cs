@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3090_Maximum_Length_Substring_With_Two_Occurrences;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-390/submissions/detail/1212125287/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-390/submissions/detail/1212125287/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

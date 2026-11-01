@@ -7,7 +7,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0006_Zigzag_Conversion;
 
-/// <seealso href="https://leetcode.com/submissions/detail/807823572/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/807823572/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 [UsedImplicitly]
 public class Solution3 : ISolution

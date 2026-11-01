@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1697_Checking_Existence_of_Edge_Length_Limited_Paths;
 
-/// <seealso href="https://leetcode.com/submissions/detail/935549823/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/935549823/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

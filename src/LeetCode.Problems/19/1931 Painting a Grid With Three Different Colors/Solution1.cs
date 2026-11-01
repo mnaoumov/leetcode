@@ -3,7 +3,7 @@ using System.Text;
 
 namespace LeetCode.Problems._1931_Painting_a_Grid_With_Three_Different_Colors;
 
-/// <seealso href="https://leetcode.com/problems/painting-a-grid-with-three-different-colors/submissions/1636832410/"/>
+/// <seealso href="https://leetcode.com/problems/painting-a-grid-with-three-different-colors/submissions/1636832410/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3826_Minimum_Partition_Score;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-175/problems/minimum-partition-score/submissions/1903242442/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-175/problems/minimum-partition-score/submissions/1903242442/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

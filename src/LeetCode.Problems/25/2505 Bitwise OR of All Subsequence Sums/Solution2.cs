@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2505_Bitwise_OR_of_All_Subsequence_Sums;
 
-/// <seealso href="https://leetcode.com/submissions/detail/869952226/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/869952226/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

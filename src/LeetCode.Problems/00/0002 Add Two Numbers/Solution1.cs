@@ -3,7 +3,7 @@
 #pragma warning disable
 namespace LeetCode.Problems._0002_Add_Two_Numbers;
 
-/// <seealso href="https://leetcode.com/submissions/detail/147401756/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/147401756/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

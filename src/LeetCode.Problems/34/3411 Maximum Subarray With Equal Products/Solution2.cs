@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3411_Maximum_Subarray_With_Equal_Products;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-431/submissions/detail/1498003643/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-431/submissions/detail/1498003643/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

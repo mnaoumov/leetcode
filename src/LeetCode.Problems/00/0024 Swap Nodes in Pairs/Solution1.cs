@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._0024_Swap_Nodes_in_Pairs;
 
-/// <seealso href="https://leetcode.com/submissions/detail/811116954/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/811116954/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

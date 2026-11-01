@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2593_Find_Score_of_an_Array_After_Marking_All_Elements;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-100/submissions/detail/917509998/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-100/submissions/detail/917509998/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1695_Maximum_Erasure_Value;
 
-/// <seealso href="https://leetcode.com/submissions/detail/898975375/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/898975375/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3899_Angles_of_a_Triangle;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-497/problems/angles-of-a-triangle/submissions/1975920942/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-497/problems/angles-of-a-triangle/submissions/1975920942/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

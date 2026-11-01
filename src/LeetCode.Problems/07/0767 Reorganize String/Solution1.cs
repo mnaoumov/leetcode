@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0767_Reorganize_String;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1029137538/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1029137538/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

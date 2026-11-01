@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3235_Check_if_the_Rectangle_Corner_Is_Reachable;
 
-/// <seealso href="TODO url"/>
+/// <seealso href="TODO url">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

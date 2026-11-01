@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2585_Number_of_Ways_to_Earn_Points;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-335/submissions/detail/909300017/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-335/submissions/detail/909300017/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

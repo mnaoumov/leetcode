@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3079_Find_the_Sum_of_Encrypted_Integers;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-126/submissions/detail/1205315993/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-126/submissions/detail/1205315993/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

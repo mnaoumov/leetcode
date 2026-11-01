@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0827_Making_A_Large_Island;
 
-/// <seealso href="https://leetcode.com/problems/making-a-large-island/submissions/1525957182/"/>
+/// <seealso href="https://leetcode.com/problems/making-a-large-island/submissions/1525957182/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1748_Sum_of_Unique_Elements;
 
-/// <seealso href="https://leetcode.com/submissions/detail/898949507/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/898949507/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

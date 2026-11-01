@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2257_Count_Unguarded_Cells_in_the_Grid;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1458717625/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1458717625/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

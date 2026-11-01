@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1442_Count_Triplets_That_Can_Form_Two_Arrays_of_Equal_XOR;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1271921961/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1271921961/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

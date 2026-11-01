@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1110_Delete_Nodes_And_Return_Forest;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1323510146/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1323510146/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

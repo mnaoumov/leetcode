@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2574_Left_and_Right_Sum_Differences;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-334/submissions/detail/904999709/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-334/submissions/detail/904999709/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

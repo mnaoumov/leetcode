@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0688_Knight_Probability_in_Chessboard;
 
-/// <seealso href="https://leetcode.com/submissions/detail/954669139/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/954669139/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2398_Maximum_Number_of_Robots_Within_Budget;
 
-/// <seealso href="https://leetcode.com/submissions/detail/904362031/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/904362031/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0945_Minimum_Increment_to_Make_Array_Unique;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1287543075/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1287543075/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

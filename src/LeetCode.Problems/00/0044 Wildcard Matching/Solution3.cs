@@ -4,7 +4,7 @@
 
 namespace LeetCode.Problems._0044_Wildcard_Matching;
 
-/// <seealso href="https://leetcode.com/submissions/detail/814705661/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/814705661/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

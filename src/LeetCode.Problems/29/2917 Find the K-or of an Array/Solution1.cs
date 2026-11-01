@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2917_Find_the_K_or_of_an_Array;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-369/submissions/detail/1086461887/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-369/submissions/detail/1086461887/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

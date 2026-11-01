@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._2197_Replace_Non_Coprime_Numbers_in_Array;
 
-/// <seealso href="https://leetcode.com/problems/replace-non-coprime-numbers-in-array/submissions/1772190800/"/>
+/// <seealso href="https://leetcode.com/problems/replace-non-coprime-numbers-in-array/submissions/1772190800/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

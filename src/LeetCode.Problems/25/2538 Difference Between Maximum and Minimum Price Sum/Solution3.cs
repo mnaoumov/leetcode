@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2538_Difference_Between_Maximum_and_Minimum_Price_Sum;
 
-/// <seealso href="https://leetcode.com/submissions/detail/878410422/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/878410422/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

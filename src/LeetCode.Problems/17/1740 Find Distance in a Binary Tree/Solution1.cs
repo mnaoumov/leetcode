@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1740_Find_Distance_in_a_Binary_Tree;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1322464335/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1322464335/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

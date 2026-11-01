@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2535_Difference_Between_Element_Sum_and_Digit_Sum_of_an_Array;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-328/submissions/detail/878331650/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-328/submissions/detail/878331650/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

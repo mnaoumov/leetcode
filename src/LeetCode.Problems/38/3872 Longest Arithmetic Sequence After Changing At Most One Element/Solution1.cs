@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3872_Longest_Arithmetic_Sequence_After_Changing_At_Most_One_Element;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-493/problems/longest-arithmetic-sequence-after-changing-at-most-one-element/submissions/1948684161/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-493/problems/longest-arithmetic-sequence-after-changing-at-most-one-element/submissions/1948684161/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

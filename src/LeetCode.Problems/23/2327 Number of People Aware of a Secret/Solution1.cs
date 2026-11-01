@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2327_Number_of_People_Aware_of_a_Secret;
 
-/// <seealso href="https://leetcode.com/problems/number-of-people-aware-of-a-secret/submissions/1764486059/"/>
+/// <seealso href="https://leetcode.com/problems/number-of-people-aware-of-a-secret/submissions/1764486059/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3676_Count_Bowl_Subarrays;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-466/problems/count-bowl-subarrays/submissions/1762178345/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-466/problems/count-bowl-subarrays/submissions/1762178345/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

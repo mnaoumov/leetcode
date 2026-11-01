@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0868_Binary_Gap;
 
-/// <seealso href="https://leetcode.com/problems/binary-gap/submissions/1926832792/"/>
+/// <seealso href="https://leetcode.com/problems/binary-gap/submissions/1926832792/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

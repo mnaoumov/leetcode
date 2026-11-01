@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1386_Cinema_Seat_Allocation;
 
-/// <seealso href="https://leetcode.com/problems/cinema-seat-allocation/submissions/2112084725/"/>
+/// <seealso href="https://leetcode.com/problems/cinema-seat-allocation/submissions/2112084725/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

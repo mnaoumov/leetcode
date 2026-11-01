@@ -2,7 +2,7 @@
 #pragma warning disable
 namespace LeetCode.Problems._0040_Combination_Sum_II;
 
-/// <seealso href="https://leetcode.com/submissions/detail/814099332/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/814099332/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3_4 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0455_Assign_Cookies;
 
-/// <seealso href="https://leetcode.com/submissions/detail/914084156/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/914084156/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

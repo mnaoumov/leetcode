@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1401_Circle_and_Rectangle_Overlapping;
 
-/// <seealso href="https://leetcode.com/problems/circle-and-rectangle-overlapping/submissions/2146215310/"/>
+/// <seealso href="https://leetcode.com/problems/circle-and-rectangle-overlapping/submissions/2146215310/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

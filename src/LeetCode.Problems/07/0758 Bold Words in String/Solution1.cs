@@ -3,7 +3,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0758_Bold_Words_in_String;
 
-/// <seealso href="https://leetcode.com/problems/bold-words-in-string/submissions/2076483247/"/>
+/// <seealso href="https://leetcode.com/problems/bold-words-in-string/submissions/2076483247/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

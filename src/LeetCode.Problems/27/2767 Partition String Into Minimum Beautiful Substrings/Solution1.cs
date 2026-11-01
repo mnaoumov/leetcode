@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2767_Partition_String_Into_Minimum_Beautiful_Substrings;
 
-/// <seealso href="https://leetcode.com/submissions/detail/989500208/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/989500208/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

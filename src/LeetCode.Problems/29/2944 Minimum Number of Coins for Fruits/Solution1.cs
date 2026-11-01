@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2944_Minimum_Number_of_Coins_for_Fruits;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-118/submissions/detail/1106117407/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-118/submissions/detail/1106117407/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

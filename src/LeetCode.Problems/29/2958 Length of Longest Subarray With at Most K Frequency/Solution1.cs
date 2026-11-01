@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2958_Length_of_Longest_Subarray_With_at_Most_K_Frequency;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-119/submissions/detail/1115780218/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-119/submissions/detail/1115780218/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

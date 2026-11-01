@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2436_Minimum_Split_Into_Subarrays_With_GCD_Greater_Than_One;
 
-/// <seealso href="https://leetcode.com/submissions/detail/882119315/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/882119315/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

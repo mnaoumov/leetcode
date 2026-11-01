@@ -6,7 +6,7 @@
 
 namespace LeetCode.Problems._0207_Course_Schedule;
 
-/// <seealso href="https://leetcode.com/submissions/detail/197124777/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/197124777/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

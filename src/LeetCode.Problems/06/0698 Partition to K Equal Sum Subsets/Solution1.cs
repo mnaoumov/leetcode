@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0698_Partition_to_K_Equal_Sum_Subsets;
 
-/// <seealso href="https://leetcode.com/submissions/detail/974304508/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/974304508/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

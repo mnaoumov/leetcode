@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0846_Hand_of_Straights;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1278969549/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1278969549/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

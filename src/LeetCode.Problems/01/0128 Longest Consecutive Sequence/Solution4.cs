@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0128_Longest_Consecutive_Sequence;
 
-/// <seealso href="https://leetcode.com/problems/longest-consecutive-sequence/submissions/836539948/"/>
+/// <seealso href="https://leetcode.com/problems/longest-consecutive-sequence/submissions/836539948/">Submission</seealso>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

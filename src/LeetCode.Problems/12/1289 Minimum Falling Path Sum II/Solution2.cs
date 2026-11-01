@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1289_Minimum_Falling_Path_Sum_II;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1242208005/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1242208005/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

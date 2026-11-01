@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._0416_Partition_Equal_Subset_Sum;
 
-/// <seealso href="https://leetcode.com/problems/partition-equal-subset-sum/submissions/196669406/"/>
+/// <seealso href="https://leetcode.com/problems/partition-equal-subset-sum/submissions/196669406/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.MemoryLimitExceeded)]
 [UsedImplicitly]
 public class Solution1 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2664_The_Knight_s_Tour;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1431067592/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1431067592/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

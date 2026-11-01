@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1644_Lowest_Common_Ancestor_of_a_Binary_Tree_II;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1001248788/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1001248788/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

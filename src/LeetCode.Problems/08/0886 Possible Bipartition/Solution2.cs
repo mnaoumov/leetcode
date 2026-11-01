@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0886_Possible_Bipartition;
 
-/// <seealso href="https://leetcode.com/submissions/detail/863050520/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/863050520/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

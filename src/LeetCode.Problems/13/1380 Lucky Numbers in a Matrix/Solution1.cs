@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1380_Lucky_Numbers_in_a_Matrix;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1325720915/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1325720915/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2801_Count_Stepping_Numbers_in_Range;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-356/submissions/detail/1007374431/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-356/submissions/detail/1007374431/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

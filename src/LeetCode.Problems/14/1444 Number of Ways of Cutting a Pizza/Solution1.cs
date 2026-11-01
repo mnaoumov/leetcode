@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1444_Number_of_Ways_of_Cutting_a_Pizza;
 
-/// <seealso href="https://leetcode.com/submissions/detail/925154002/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/925154002/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

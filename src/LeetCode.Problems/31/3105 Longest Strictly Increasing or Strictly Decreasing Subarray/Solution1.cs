@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3105_Longest_Strictly_Increasing_or_Strictly_Decreasing_Subarray;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1225305895/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1225305895/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0208_Implement_Trie__Prefix_Tree_;
 
-/// <seealso href="https://leetcode.com/submissions/detail/197129416/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/197129416/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

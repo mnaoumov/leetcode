@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._1309_Decrypt_String_from_Alphabet_to_Integer_Mapping;
 
-/// <seealso href="https://leetcode.com/submissions/detail/927655954/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/927655954/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

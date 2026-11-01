@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0068_Text_Justification;
 
-/// <seealso href="https://leetcode.com/submissions/detail/819855226/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/819855226/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

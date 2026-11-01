@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3242_Design_Neighbor_Sum_Service;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-409/submissions/detail/1343694590/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-409/submissions/detail/1343694590/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

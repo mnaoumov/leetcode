@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1971_Find_if_Path_Exists_in_Graph;
 
-/// <seealso href="https://leetcode.com/submissions/detail/861846464/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/861846464/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

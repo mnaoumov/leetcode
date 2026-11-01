@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._1799_Maximize_Score_After_N_Operations;
 
-/// <seealso href="https://leetcode.com/submissions/detail/949883745/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/949883745/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

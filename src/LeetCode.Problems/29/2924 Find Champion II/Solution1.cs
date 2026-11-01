@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2924_Find_Champion_II;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-370/submissions/detail/1091692421/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-370/submissions/detail/1091692421/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

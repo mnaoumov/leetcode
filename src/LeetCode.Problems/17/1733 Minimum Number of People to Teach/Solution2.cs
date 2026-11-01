@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1733_Minimum_Number_of_People_to_Teach;
 
-/// <seealso href="https://leetcode.com/problems/minimum-number-of-people-to-teach/submissions/1765569967/"/>
+/// <seealso href="https://leetcode.com/problems/minimum-number-of-people-to-teach/submissions/1765569967/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

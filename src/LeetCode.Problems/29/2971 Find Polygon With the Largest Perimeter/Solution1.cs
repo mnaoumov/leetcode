@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2971_Find_Polygon_With_the_Largest_Perimeter;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-120/submissions/detail/1126668342/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-120/submissions/detail/1126668342/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

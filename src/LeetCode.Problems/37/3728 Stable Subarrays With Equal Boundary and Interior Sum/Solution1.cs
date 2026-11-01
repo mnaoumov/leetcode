@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3728_Stable_Subarrays_With_Equal_Boundary_and_Interior_Sum;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-473/problems/stable-subarrays-with-equal-boundary-and-interior-sum/submissions/1811791823/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-473/problems/stable-subarrays-with-equal-boundary-and-interior-sum/submissions/1811791823/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

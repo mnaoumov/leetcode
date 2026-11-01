@@ -3,7 +3,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3855_Sum_of_K_Digit_Numbers_in_a_Range;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-177/problems/sum-of-k-digit-numbers-in-a-range/submissions/1933835908/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-177/problems/sum-of-k-digit-numbers-in-a-range/submissions/1933835908/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

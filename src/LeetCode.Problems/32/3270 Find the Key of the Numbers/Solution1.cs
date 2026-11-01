@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3270_Find_the_Key_of_the_Numbers;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-138/submissions/detail/1374246578/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-138/submissions/detail/1374246578/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

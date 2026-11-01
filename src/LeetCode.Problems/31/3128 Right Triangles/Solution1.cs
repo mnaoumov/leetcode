@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3128_Right_Triangles;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-129/submissions/detail/1243307174/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-129/submissions/detail/1243307174/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

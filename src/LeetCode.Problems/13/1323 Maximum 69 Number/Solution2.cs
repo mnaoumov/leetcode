@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1323_Maximum_69_Number;
 
-/// <seealso href="https://leetcode.com/problems/maximum-69-number/submissions/838363666/"/>
+/// <seealso href="https://leetcode.com/problems/maximum-69-number/submissions/838363666/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

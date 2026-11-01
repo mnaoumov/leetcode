@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0053_Maximum_Subarray;
 
-/// <seealso href="https://leetcode.com/submissions/detail/819095461/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/819095461/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0245_Shortest_Word_Distance_III;
 
-/// <seealso href="https://leetcode.com/submissions/detail/926859443/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/926859443/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

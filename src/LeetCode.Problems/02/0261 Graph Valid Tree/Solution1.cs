@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0261_Graph_Valid_Tree;
 
-/// <seealso href="https://leetcode.com/submissions/detail/931497000/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/931497000/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

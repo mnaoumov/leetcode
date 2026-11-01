@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3680_Generate_Schedule;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-165/problems/generate-schedule/submissions/1769525012/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-165/problems/generate-schedule/submissions/1769525012/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

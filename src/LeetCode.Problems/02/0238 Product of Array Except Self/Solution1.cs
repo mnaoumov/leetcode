@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0238_Product_of_Array_Except_Self;
 
-/// <seealso href="https://leetcode.com/submissions/detail/924348302/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/924348302/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

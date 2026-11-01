@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0744_Find_Smallest_Letter_Greater_Than_Target;
 
-/// <seealso href="https://leetcode.com/submissions/detail/925459162/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/925459162/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

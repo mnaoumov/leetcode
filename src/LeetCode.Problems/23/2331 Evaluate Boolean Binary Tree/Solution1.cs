@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2331_Evaluate_Boolean_Binary_Tree;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1259173221/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1259173221/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

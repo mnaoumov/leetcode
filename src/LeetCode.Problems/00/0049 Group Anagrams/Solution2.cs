@@ -2,7 +2,7 @@
 #pragma warning disable
 namespace LeetCode.Problems._0049_Group_Anagrams;
 
-/// <seealso href="https://leetcode.com/submissions/detail/815529506/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/815529506/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

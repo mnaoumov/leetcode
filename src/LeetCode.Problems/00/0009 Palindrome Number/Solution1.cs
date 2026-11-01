@@ -4,7 +4,7 @@
 
 namespace LeetCode.Problems._0009_Palindrome_Number;
 
-/// <seealso href="https://leetcode.com/submissions/detail/807911669/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/807911669/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1229_Meeting_Scheduler;
 
-/// <seealso href="https://leetcode.com/submissions/detail/944079949/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/944079949/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

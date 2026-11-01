@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2024_Maximize_the_Confusion_of_an_Exam;
 
-/// <seealso href="https://leetcode.com/submissions/detail/988723105/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/988723105/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

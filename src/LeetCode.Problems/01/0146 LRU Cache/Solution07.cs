@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0146_LRU_Cache;
 
-/// <seealso href="https://leetcode.com/submissions/detail/200571563/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/200571563/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution07 : ISolution

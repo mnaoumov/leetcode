@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0293_Flip_Game;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1162656352/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1162656352/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

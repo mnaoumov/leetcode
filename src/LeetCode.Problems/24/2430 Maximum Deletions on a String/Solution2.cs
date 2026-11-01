@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._2430_Maximum_Deletions_on_a_String;
 
-/// <seealso href="https://leetcode.com/submissions/detail/898829219/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/898829219/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0752_Open_the_Lock;
 
-/// <seealso href="https://leetcode.com/submissions/detail/904863665/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/904863665/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

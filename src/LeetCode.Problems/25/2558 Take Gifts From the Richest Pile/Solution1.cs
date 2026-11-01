@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2558_Take_Gifts_From_the_Richest_Pile;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-331/submissions/detail/891688137/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-331/submissions/detail/891688137/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

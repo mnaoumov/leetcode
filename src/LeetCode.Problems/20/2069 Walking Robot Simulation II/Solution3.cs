@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2069_Walking_Robot_Simulation_II;
 
-/// <seealso href="https://leetcode.com/problems/walking-robot-simulation-ii/submissions/1971170069/"/>
+/// <seealso href="https://leetcode.com/problems/walking-robot-simulation-ii/submissions/1971170069/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

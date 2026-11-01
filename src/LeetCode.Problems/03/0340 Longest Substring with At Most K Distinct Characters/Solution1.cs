@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0340_Longest_Substring_with_At_Most_K_Distinct_Characters;
 
-/// <seealso href="https://leetcode.com/submissions/detail/945289146/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/945289146/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

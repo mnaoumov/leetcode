@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0020_Valid_Parentheses;
 
-/// <seealso href="https://leetcode.com/submissions/detail/810308208/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/810308208/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

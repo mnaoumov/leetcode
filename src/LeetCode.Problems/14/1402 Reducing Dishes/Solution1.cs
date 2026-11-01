@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1402_Reducing_Dishes;
 
-/// <seealso href="https://leetcode.com/submissions/detail/923966227/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/923966227/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

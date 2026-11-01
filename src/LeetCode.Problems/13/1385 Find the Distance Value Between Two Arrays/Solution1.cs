@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1385_Find_the_Distance_Value_Between_Two_Arrays;
 
-/// <seealso href="https://leetcode.com/submissions/detail/924594155/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/924594155/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

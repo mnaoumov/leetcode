@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1130_Minimum_Cost_Tree_From_Leaf_Values;
 
-/// <seealso href="https://leetcode.com/submissions/detail/945299676/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/945299676/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

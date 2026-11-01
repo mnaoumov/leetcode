@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1700_Number_of_Students_Unable_to_Eat_Lunch;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1227125735/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1227125735/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

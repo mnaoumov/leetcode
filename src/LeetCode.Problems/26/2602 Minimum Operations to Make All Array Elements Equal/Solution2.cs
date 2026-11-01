@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2602_Minimum_Operations_to_Make_All_Array_Elements_Equal;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-338/submissions/detail/922172275/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-338/submissions/detail/922172275/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

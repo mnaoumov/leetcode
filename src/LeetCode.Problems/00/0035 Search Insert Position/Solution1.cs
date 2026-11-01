@@ -4,7 +4,7 @@
 
 namespace LeetCode.Problems._0035_Search_Insert_Position;
 
-/// <seealso href="https://leetcode.com/submissions/detail/813031657/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/813031657/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

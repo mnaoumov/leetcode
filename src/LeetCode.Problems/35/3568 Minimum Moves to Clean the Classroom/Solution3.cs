@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3568_Minimum_Moves_to_Clean_the_Classroom;
 
-/// <seealso href="https://leetcode.com/problems/minimum-moves-to-clean-the-classroom/submissions/2127490933/"/>
+/// <seealso href="https://leetcode.com/problems/minimum-moves-to-clean-the-classroom/submissions/2127490933/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

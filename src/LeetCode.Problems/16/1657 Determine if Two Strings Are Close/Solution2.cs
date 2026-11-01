@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._1657_Determine_if_Two_Strings_Are_Close;
 
-/// <seealso href="https://leetcode.com/submissions/detail/853169856/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/853169856/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

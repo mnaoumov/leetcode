@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3276_Select_Cells_in_Grid_With_Maximum_Score;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-413/submissions/detail/1374819097/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-413/submissions/detail/1374819097/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

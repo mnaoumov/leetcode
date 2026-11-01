@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2639_Find_the_Width_of_Columns_of_a_Grid;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-102/submissions/detail/934164314/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-102/submissions/detail/934164314/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

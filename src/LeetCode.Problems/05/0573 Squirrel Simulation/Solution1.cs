@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0573_Squirrel_Simulation;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1094089319/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1094089319/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

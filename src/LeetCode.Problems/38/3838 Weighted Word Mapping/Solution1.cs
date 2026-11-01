@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3838_Weighted_Word_Mapping;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-176/problems/weighted-word-mapping/submissions/1919006454/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-176/problems/weighted-word-mapping/submissions/1919006454/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

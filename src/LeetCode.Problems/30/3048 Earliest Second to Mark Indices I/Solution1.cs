@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3048_Earliest_Second_to_Mark_Indices_I;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1185419262/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1185419262/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

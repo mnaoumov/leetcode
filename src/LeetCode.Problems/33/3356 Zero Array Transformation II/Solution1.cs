@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3356_Zero_Array_Transformation_II;
 
-/// <seealso href="https://leetcode.com/problems/zero-array-transformation-ii/submissions/1573040586/"/>
+/// <seealso href="https://leetcode.com/problems/zero-array-transformation-ii/submissions/1573040586/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

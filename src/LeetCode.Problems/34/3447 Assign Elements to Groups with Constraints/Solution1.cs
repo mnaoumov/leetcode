@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3447_Assign_Elements_to_Groups_with_Constraints;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-436/problems/assign-elements-to-groups-with-constraints/submissions/1536421460/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-436/problems/assign-elements-to-groups-with-constraints/submissions/1536421460/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

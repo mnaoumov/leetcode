@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2092_Find_All_People_With_Secret;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1185242698/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1185242698/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

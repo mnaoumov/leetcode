@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3740_Minimum_Distance_Between_Three_Equal_Elements_I;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-475/problems/minimum-distance-between-three-equal-elements-i/submissions/1824621532/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-475/problems/minimum-distance-between-three-equal-elements-i/submissions/1824621532/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

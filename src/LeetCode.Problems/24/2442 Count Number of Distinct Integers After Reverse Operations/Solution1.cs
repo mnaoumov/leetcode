@@ -4,7 +4,7 @@
 
 namespace LeetCode.Problems._2442_Count_Number_of_Distinct_Integers_After_Reverse_Operations;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-315/submissions/detail/823385654/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-315/submissions/detail/823385654/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

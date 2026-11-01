@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1944_Number_of_Visible_People_in_a_Queue;
 
-/// <seealso href="https://leetcode.com/submissions/detail/903675338/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/903675338/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

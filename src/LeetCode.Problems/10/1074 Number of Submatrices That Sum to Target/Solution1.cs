@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1074_Number_of_Submatrices_That_Sum_to_Target;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1159592028/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1159592028/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

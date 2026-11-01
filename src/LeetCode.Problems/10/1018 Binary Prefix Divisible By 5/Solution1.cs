@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1018_Binary_Prefix_Divisible_By_5;
 
-/// <seealso href="https://leetcode.com/problems/binary-prefix-divisible-by-5/submissions/1838066324/"/>
+/// <seealso href="https://leetcode.com/problems/binary-prefix-divisible-by-5/submissions/1838066324/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

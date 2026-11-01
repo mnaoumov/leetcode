@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1063_Number_of_Valid_Subarrays;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1055938095/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1055938095/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2745_Construct_the_Longest_New_String;
 
-/// <seealso href="https://leetcode.com/submissions/detail/978573665/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/978573665/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

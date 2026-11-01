@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._0904_Fruit_Into_Baskets;
 
-/// <seealso href="https://leetcode.com/submissions/detail/205285967/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/205285967/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 [UsedImplicitly]
 public class Solution1 : ISolution

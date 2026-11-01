@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3213_Construct_String_with_Minimum_Cost;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-405/submissions/detail/1312331216/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-405/submissions/detail/1312331216/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0377_Combination_Sum_IV;
 
-/// <seealso href="https://leetcode.com/submissions/detail/882137797/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/882137797/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

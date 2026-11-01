@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._3348_Smallest_Divisible_Digit_Product_II;
 
-/// <seealso href="https://leetcode.com/problems/smallest-divisible-digit-product-ii/submissions/2097505770/"/>
+/// <seealso href="https://leetcode.com/problems/smallest-divisible-digit-product-ii/submissions/2097505770/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution11 : ISolution

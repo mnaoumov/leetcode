@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0076_Minimum_Window_Substring;
 
-/// <seealso href="https://leetcode.com/submissions/detail/827635307/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/827635307/">Submission</seealso>
 [UsedImplicitly]
 public class Solution6 : ISolution
 {

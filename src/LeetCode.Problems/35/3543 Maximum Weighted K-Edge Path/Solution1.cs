@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3543_Maximum_Weighted_K_Edge_Path;
 
-/// <seealso href="TODO url"/>
+/// <seealso href="TODO url">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

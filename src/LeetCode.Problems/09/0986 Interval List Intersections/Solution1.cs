@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0986_Interval_List_Intersections;
 
-/// <seealso href="https://leetcode.com/submissions/detail/933427832/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/933427832/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

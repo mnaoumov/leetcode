@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3551_Minimum_Swaps_to_Sort_by_Digit_Sum;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-450/problems/minimum-swaps-to-sort-by-digit-sum/submissions/1636875088/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-450/problems/minimum-swaps-to-sort-by-digit-sum/submissions/1636875088/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

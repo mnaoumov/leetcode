@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0008_String_to_Integer__atoi_;
 
-/// <seealso href="https://leetcode.com/submissions/detail/828913544/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/828913544/">Submission</seealso>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

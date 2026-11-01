@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2401_Longest_Nice_Subarray;
 
-/// <seealso href="https://leetcode.com/problems/longest-nice-subarray/submissions/1577349103/"/>
+/// <seealso href="https://leetcode.com/problems/longest-nice-subarray/submissions/1577349103/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

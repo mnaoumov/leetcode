@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0496_Next_Greater_Element_I;
 
-/// <seealso href="https://leetcode.com/submissions/detail/882846079/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/882846079/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

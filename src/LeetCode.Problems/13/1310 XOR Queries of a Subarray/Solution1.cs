@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1310_XOR_Queries_of_a_Subarray;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1388262800/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1388262800/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

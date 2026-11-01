@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2130_Maximum_Twin_Sum_of_a_Linked_List;
 
-/// <seealso href="https://leetcode.com/submissions/detail/857317831/w"/>
+/// <seealso href="https://leetcode.com/submissions/detail/857317831/w">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

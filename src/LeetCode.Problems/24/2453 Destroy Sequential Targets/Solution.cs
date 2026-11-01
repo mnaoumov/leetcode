@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2453_Destroy_Sequential_Targets;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-90/submissions/detail/832724318/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-90/submissions/detail/832724318/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

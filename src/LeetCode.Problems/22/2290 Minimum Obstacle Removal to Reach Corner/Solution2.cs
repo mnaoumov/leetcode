@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2290_Minimum_Obstacle_Removal_to_Reach_Corner;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1464656858/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1464656858/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

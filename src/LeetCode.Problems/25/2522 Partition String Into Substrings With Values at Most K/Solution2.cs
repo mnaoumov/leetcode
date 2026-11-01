@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2522_Partition_String_Into_Substrings_With_Values_at_Most_K;
 
-/// <seealso href="https://leetcode.com/submissions/detail/869888133/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/869888133/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

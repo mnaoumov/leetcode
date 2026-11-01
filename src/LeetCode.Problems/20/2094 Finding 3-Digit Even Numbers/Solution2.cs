@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2094_Finding_3_Digit_Even_Numbers;
 
-/// <seealso href="https://leetcode.com/problems/finding-3-digit-even-numbers/submissions/1631550325/"/>
+/// <seealso href="https://leetcode.com/problems/finding-3-digit-even-numbers/submissions/1631550325/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

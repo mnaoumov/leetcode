@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0311_Sparse_Matrix_Multiplication;
 
-/// <seealso href="https://leetcode.com/submissions/detail/925596231/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/925596231/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

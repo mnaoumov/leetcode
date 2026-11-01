@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2485_Find_the_Pivot_Integer;
 
-/// <seealso href="https://leetcode.com/submissions/detail/850790845/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/850790845/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1135_Connecting_Cities_With_Minimum_Cost;
 
-/// <seealso href="https://leetcode.com/submissions/detail/939770127/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/939770127/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

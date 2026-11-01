@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1945_Sum_of_Digits_of_String_After_Convert;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1377133769/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1377133769/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2735_Collecting_Chocolates;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-349/submissions/detail/968564801/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-349/submissions/detail/968564801/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1550_Three_Consecutive_Odds;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1305477123/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1305477123/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

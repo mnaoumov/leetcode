@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2246_Longest_Path_With_Different_Adjacent_Characters;
 
-/// <seealso href="https://leetcode.com/submissions/detail/877161855/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/877161855/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._0057_Insert_Interval;
 
-/// <seealso href="https://leetcode.com/submissions/detail/819444024/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/819444024/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution5 : ISolution

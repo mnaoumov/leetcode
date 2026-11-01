@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3392_Count_Subarrays_of_Length_Three_With_a_Condition;
 
-/// <seealso href="https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/submissions/1619812901/"/>
+/// <seealso href="https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/submissions/1619812901/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

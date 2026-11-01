@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2541_Minimum_Operations_to_Make_Array_Equal_II;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-96/submissions/detail/882427768/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-96/submissions/detail/882427768/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

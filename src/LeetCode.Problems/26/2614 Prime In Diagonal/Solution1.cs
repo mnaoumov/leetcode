@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2614_Prime_In_Diagonal;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-340/submissions/detail/930421326/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-340/submissions/detail/930421326/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

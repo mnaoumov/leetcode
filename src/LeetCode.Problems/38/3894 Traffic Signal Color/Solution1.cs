@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3894_Traffic_Signal_Color;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-180/problems/traffic-signal-color/submissions/1975403404/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-180/problems/traffic-signal-color/submissions/1975403404/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

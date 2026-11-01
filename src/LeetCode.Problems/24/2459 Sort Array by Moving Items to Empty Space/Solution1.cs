@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2459_Sort_Array_by_Moving_Items_to_Empty_Space;
 
-/// <seealso href="https://leetcode.com/submissions/detail/879020135/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/879020135/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

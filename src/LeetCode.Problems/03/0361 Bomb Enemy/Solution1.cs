@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0361_Bomb_Enemy;
 
-/// <seealso href="https://leetcode.com/submissions/detail/945259840/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/945259840/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

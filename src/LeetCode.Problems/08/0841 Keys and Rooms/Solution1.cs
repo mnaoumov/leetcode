@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0841_Keys_and_Rooms;
 
-/// <seealso href="https://leetcode.com/submissions/detail/862390666/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/862390666/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3043_Find_the_Length_of_the_Longest_Common_Prefix;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-385/submissions/detail/1178430223/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-385/submissions/detail/1178430223/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

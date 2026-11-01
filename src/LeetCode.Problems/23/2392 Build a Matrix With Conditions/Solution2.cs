@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2392_Build_a_Matrix_With_Conditions;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1328916677/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1328916677/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

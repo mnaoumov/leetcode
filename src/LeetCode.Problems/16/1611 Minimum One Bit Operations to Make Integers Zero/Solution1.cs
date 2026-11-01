@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1611_Minimum_One_Bit_Operations_to_Make_Integers_Zero;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1109253791/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1109253791/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

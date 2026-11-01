@@ -2,7 +2,7 @@
 #pragma warning disable
 namespace LeetCode.Problems._0502_IPO;
 
-/// <seealso href="https://leetcode.com/submissions/detail/208734677/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/208734677/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 [UsedImplicitly]
 public class Solution2 : ISolution

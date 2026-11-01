@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2061_Number_of_Spaces_Cleaning_Robot_Cleaned;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1259364874/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1259364874/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

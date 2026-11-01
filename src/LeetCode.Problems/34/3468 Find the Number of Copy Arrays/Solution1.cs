@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3468_Find_the_Number_of_Copy_Arrays;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-151/problems/find-the-number-of-copy-arrays/submissions/1559246308/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-151/problems/find-the-number-of-copy-arrays/submissions/1559246308/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

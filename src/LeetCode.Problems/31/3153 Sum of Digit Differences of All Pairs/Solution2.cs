@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3153_Sum_of_Digit_Differences_of_All_Pairs;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-398/submissions/detail/1261819951/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-398/submissions/detail/1261819951/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

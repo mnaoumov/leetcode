@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2556_Disconnect_Path_in_a_Binary_Matrix_by_at_Most_One_Flip;
 
-/// <seealso href="https://leetcode.com/submissions/detail/891663643/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/891663643/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

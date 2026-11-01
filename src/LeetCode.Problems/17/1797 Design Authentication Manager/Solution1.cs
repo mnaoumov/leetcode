@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1797_Design_Authentication_Manager;
 
-/// <seealso href="https://leetcode.com/submissions/detail/966244768/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/966244768/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

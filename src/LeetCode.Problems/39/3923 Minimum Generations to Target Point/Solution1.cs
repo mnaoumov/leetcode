@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3923_Minimum_Generations_to_Target_Point;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-182/problems/minimum-generations-to-target-point/submissions/1999003896/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-182/problems/minimum-generations-to-target-point/submissions/1999003896/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

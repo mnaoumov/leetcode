@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1760_Minimum_Limit_of_Balls_in_a_Bag;
 
-/// <seealso href="https://leetcode.com/submissions/detail/930988558/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/930988558/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

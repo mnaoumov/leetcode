@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2966_Divide_Array_Into_Arrays_With_Max_Difference;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1121514268/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1121514268/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

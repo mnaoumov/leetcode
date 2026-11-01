@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._2440_Create_Components_With_Same_Value;
 
-/// <seealso href="https://leetcode.com/submissions/detail/825569616/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/825569616/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

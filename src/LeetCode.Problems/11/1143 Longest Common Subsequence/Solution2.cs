@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1143_Longest_Common_Subsequence;
 
-/// <seealso href="https://leetcode.com/submissions/detail/859977937/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/859977937/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

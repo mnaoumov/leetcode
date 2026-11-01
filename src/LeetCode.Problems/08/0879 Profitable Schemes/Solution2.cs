@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0879_Profitable_Schemes;
 
-/// <seealso href="https://leetcode.com/submissions/detail/937633764/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/937633764/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

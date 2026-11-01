@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1840_Maximum_Building_Height;
 
-/// <seealso href="https://leetcode.com/problems/maximum-building-height/submissions/2039419962/"/>
+/// <seealso href="https://leetcode.com/problems/maximum-building-height/submissions/2039419962/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

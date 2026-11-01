@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1900_The_Earliest_and_Latest_Rounds_Where_Players_Compete;
 
-/// <seealso href="https://leetcode.com/problems/the-earliest-and-latest-rounds-where-players-compete/submissions/1694813136/"/>
+/// <seealso href="https://leetcode.com/problems/the-earliest-and-latest-rounds-where-players-compete/submissions/1694813136/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

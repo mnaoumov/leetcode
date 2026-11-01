@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0756_Pyramid_Transition_Matrix;
 
-/// <seealso href="https://leetcode.com/problems/pyramid-transition-matrix/submissions/1868901712/"/>
+/// <seealso href="https://leetcode.com/problems/pyramid-transition-matrix/submissions/1868901712/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

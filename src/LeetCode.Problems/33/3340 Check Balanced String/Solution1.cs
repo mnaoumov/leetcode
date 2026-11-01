@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3340_Check_Balanced_String;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-422/submissions/detail/1441322747/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-422/submissions/detail/1441322747/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

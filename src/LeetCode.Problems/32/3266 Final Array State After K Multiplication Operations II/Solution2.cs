@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3266_Final_Array_State_After_K_Multiplication_Operations_II;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-412/submissions/detail/1367341498/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-412/submissions/detail/1367341498/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2033_Minimum_Operations_to_Make_a_Uni_Value_Grid;
 
-/// <seealso href="https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/submissions/1587320564/"/>
+/// <seealso href="https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/submissions/1587320564/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

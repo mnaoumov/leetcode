@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0440_K_th_Smallest_in_Lexicographical_Order;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1398766246/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1398766246/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

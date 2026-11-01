@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3154_Find_Number_of_Ways_to_Reach_the_K_th_Stair;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-398/submissions/detail/1261851012/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-398/submissions/detail/1261851012/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

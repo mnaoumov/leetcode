@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2766_Relocate_Marbles;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-108/submissions/detail/989390565/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-108/submissions/detail/989390565/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

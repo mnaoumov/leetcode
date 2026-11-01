@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2751_Robot_Collisions;
 
-/// <seealso href="https://leetcode.com/problems/robot-collisions/submissions/1966313478/"/>
+/// <seealso href="https://leetcode.com/problems/robot-collisions/submissions/1966313478/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

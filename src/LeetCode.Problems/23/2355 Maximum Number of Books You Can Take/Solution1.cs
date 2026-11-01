@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2355_Maximum_Number_of_Books_You_Can_Take;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1077993676/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1077993676/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

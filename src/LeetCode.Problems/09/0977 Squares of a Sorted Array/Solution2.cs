@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0977_Squares_of_a_Sorted_Array;
 
-/// <seealso href="https://leetcode.com/submissions/detail/854894444/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/854894444/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

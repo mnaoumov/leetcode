@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2101_Detonate_the_Maximum_Bombs;
 
-/// <seealso href="https://leetcode.com/submissions/detail/906954084/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/906954084/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

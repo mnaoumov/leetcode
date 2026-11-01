@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1199_Minimum_Time_to_Build_Blocks;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1037239486/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1037239486/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

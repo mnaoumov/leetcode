@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._1047_Remove_All_Adjacent_Duplicates_In_String;
 
-/// <seealso href="https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/submissions/840423443/"/>
+/// <seealso href="https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/submissions/840423443/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

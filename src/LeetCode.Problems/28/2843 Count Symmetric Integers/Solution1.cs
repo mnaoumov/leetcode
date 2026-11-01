@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2843_Count_Symmetric_Integers;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-361/submissions/detail/1038992343/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-361/submissions/detail/1038992343/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

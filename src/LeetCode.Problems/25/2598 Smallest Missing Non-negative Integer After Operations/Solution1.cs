@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2598_Smallest_Missing_Non_negative_Integer_After_Operations;
 
-/// <seealso href="https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations/"/>
+/// <seealso href="https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations/">Problem</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0127_Word_Ladder;
 
-/// <seealso href="https://leetcode.com/problems/word-ladder/submissions/836525602/"/>
+/// <seealso href="https://leetcode.com/problems/word-ladder/submissions/836525602/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

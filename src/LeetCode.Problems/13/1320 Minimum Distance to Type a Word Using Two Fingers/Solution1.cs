@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1320_Minimum_Distance_to_Type_a_Word_Using_Two_Fingers;
 
-/// <seealso href="https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/submissions/1975887369/"/>
+/// <seealso href="https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/submissions/1975887369/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

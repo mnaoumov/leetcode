@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3190_Find_Minimum_Operations_to_Make_All_Elements_Divisible_by_Three;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-133/submissions/detail/1296728067/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-133/submissions/detail/1296728067/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

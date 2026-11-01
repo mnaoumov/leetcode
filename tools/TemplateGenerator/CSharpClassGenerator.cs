@@ -114,7 +114,7 @@ internal partial class CSharpClassGenerator : GeneratorBase
         GenerateFile("Solution1.cs", """
             {{ Namespace }}
 
-            /// <seealso href="TODO url"/>
+            /// <seealso href="TODO url">Submission</seealso>
             [UsedImplicitly]
             public class Solution1 : ISolution
             {

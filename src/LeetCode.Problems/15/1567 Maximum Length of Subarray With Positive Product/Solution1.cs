@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1567_Maximum_Length_of_Subarray_With_Positive_Product;
 
-/// <seealso href="https://leetcode.com/submissions/detail/926834806/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/926834806/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

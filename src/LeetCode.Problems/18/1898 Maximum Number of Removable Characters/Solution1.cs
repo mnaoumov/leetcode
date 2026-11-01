@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1898_Maximum_Number_of_Removable_Characters;
 
-/// <seealso href="https://leetcode.com/submissions/detail/933438422/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/933438422/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1426_Counting_Elements;
 
-/// <seealso href="https://leetcode.com/submissions/detail/856310749/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/856310749/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

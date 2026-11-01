@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2616_Minimize_the_Maximum_Difference_of_Pairs;
 
-/// <seealso href="https://leetcode.com/submissions/detail/930540656/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/930540656/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution3 : ISolution

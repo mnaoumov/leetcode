@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3651_Minimum_Cost_Path_with_Teleportations;
 
-/// <seealso href="https://leetcode.com/problems/minimum-cost-path-with-teleportations/submissions/1899303046/"/>
+/// <seealso href="https://leetcode.com/problems/minimum-cost-path-with-teleportations/submissions/1899303046/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution4 : ISolution

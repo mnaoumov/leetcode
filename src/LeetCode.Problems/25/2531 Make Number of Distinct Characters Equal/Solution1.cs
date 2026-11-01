@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2531_Make_Number_of_Distinct_Characters_Equal;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-327/submissions/detail/873767528/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-327/submissions/detail/873767528/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

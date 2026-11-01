@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3440_Reschedule_Meetings_for_Maximum_Free_Time_II;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-149/problems/reschedule-meetings-for-maximum-free-time-ii/submissions/1527606662/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-149/problems/reschedule-meetings-for-maximum-free-time-ii/submissions/1527606662/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

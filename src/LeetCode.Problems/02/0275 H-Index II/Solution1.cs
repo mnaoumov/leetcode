@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0275_H_Index_II;
 
-/// <seealso href="https://leetcode.com/submissions/detail/934912404/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/934912404/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

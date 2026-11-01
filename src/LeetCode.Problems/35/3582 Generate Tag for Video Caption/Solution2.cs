@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3582_Generate_Tag_for_Video_Caption;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-454/problems/generate-tag-for-video-caption/submissions/1664371293/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-454/problems/generate-tag-for-video-caption/submissions/1664371293/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution2 : ISolution

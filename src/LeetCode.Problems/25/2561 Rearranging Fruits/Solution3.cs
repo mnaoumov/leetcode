@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2561_Rearranging_Fruits;
 
-/// <seealso href="https://leetcode.com/submissions/detail/891768875/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/891768875/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution3 : ISolution

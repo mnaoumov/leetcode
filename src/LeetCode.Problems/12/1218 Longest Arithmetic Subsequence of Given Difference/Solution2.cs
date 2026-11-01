@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1218_Longest_Arithmetic_Subsequence_of_Given_Difference;
 
-/// <seealso href="https://leetcode.com/submissions/detail/919902621/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/919902621/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1541_Minimum_Insertions_to_Balance_a_Parentheses_String;
 
-/// <seealso href="https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/submissions/2166863572/"/>
+/// <seealso href="https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/submissions/2166863572/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

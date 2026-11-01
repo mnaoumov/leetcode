@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1335_Minimum_Difficulty_of_a_Job_Schedule;
 
-/// <seealso href="https://leetcode.com/submissions/detail/829081575/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/829081575/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

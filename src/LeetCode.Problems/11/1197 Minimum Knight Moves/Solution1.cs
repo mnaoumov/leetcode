@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1197_Minimum_Knight_Moves;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1087697360/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1087697360/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

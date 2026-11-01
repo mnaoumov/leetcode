@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0729_My_Calendar_I;
 
-/// <seealso href="https://leetcode.com/submissions/detail/957985018/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/957985018/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

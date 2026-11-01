@@ -2,7 +2,7 @@ using System.Text.RegularExpressions;
 
 namespace LeetCode.Problems._1236_Web_Crawler;
 
-/// <seealso href="https://leetcode.com/submissions/detail/919833680/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/919833680/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

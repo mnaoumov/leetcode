@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0693_Binary_Number_with_Alternating_Bits;
 
-/// <seealso href="https://leetcode.com/problems/binary-number-with-alternating-bits/submissions/1922734858/"/>
+/// <seealso href="https://leetcode.com/problems/binary-number-with-alternating-bits/submissions/1922734858/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

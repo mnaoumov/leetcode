@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2824_Count_Pairs_Whose_Sum_is_Less_than_Target;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-111/submissions/detail/1025768464/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-111/submissions/detail/1025768464/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

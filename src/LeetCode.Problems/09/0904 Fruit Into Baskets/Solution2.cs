@@ -4,7 +4,7 @@
 
 namespace LeetCode.Problems._0904_Fruit_Into_Baskets;
 
-/// <seealso href="https://leetcode.com/submissions/detail/205291683/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/205291683/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

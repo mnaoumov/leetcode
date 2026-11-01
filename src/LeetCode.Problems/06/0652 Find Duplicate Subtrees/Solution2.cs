@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0652_Find_Duplicate_Subtrees;
 
-/// <seealso href="https://leetcode.com/submissions/detail/906197667/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/906197667/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

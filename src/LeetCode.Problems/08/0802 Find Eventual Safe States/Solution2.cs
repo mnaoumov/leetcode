@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0802_Find_Eventual_Safe_States;
 
-/// <seealso href="https://leetcode.com/submissions/detail/928118467/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/928118467/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

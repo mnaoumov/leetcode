@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2744_Find_Maximum_Number_of_String_Pairs;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-107/submissions/detail/978570061/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-107/submissions/detail/978570061/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

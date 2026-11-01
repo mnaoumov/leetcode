@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1829_Maximum_XOR_for_Each_Query;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1446349797/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1446349797/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2710_Remove_Trailing_Zeros_From_a_String;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-347/submissions/detail/958680214/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-347/submissions/detail/958680214/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

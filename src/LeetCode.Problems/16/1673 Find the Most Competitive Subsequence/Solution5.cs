@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1673_Find_the_Most_Competitive_Subsequence;
 
-/// <seealso href="https://leetcode.com/submissions/detail/903586422/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/903586422/">Submission</seealso>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

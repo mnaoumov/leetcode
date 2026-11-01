@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2168_Unique_Substrings_With_Equal_Digit_Frequency;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1501276667/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1501276667/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

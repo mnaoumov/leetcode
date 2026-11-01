@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1165_Single_Row_Keyboard;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1146507192/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1146507192/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

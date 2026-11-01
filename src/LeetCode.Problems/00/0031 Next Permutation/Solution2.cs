@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._0031_Next_Permutation;
 
-/// <seealso href="https://leetcode.com/submissions/detail/198320124/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/198320124/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution2 : ISolution

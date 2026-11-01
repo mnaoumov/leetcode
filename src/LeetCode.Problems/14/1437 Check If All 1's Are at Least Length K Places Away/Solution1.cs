@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1437_Check_If_All_1_s_Are_at_Least_Length_K_Places_Away;
 
-/// <seealso href="https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/submissions/1831838119/"/>
+/// <seealso href="https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/submissions/1831838119/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

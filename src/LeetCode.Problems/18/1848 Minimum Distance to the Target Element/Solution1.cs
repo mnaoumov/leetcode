@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1848_Minimum_Distance_to_the_Target_Element;
 
-/// <seealso href="https://leetcode.com/problems/minimum-distance-to-the-target-element/submissions/1976840434/"/>
+/// <seealso href="https://leetcode.com/problems/minimum-distance-to-the-target-element/submissions/1976840434/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

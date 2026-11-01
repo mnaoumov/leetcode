@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1424_Diagonal_Traverse_II;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1103824685/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1103824685/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

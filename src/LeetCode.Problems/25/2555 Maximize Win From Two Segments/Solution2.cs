@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2555_Maximize_Win_From_Two_Segments;
 
-/// <seealso href="https://leetcode.com/submissions/detail/891638102/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/891638102/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

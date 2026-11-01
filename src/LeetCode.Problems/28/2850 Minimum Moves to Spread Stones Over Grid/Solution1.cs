@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2850_Minimum_Moves_to_Spread_Stones_Over_Grid;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-362/submissions/detail/1045236728/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-362/submissions/detail/1045236728/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

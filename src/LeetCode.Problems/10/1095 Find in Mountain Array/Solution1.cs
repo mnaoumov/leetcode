@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1095_Find_in_Mountain_Array;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1073080148/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1073080148/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

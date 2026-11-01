@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0025_Reverse_Nodes_in_k_Group;
 
-/// <seealso href="https://leetcode.com/submissions/detail/829013137/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/829013137/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

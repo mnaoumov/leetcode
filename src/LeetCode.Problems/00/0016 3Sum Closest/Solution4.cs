@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0016_3Sum_Closest;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1278992793/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1278992793/">Submission</seealso>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

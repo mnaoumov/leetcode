@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1940_Longest_Common_Subsequence_Between_Sorted_Arrays;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1273728609/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1273728609/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

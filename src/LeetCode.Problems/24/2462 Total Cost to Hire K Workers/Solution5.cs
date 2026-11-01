@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2462_Total_Cost_to_Hire_K_Workers;
 
-/// <seealso href="https://leetcode.com/submissions/detail/908451321/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/908451321/">Submission</seealso>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

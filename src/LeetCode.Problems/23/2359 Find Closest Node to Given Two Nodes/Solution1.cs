@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2359_Find_Closest_Node_to_Given_Two_Nodes;
 
-/// <seealso href="https://leetcode.com/submissions/detail/884770760/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/884770760/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3070_Count_Submatrices_with_Top_Left_Element_and_Sum_Less_Than_k;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-387/submissions/detail/1192177931/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-387/submissions/detail/1192177931/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

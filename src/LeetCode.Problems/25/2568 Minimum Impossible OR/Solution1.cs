@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2568_Minimum_Impossible_OR;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-98/submissions/detail/900410951/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-98/submissions/detail/900410951/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

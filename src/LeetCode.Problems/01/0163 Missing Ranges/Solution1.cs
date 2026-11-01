@@ -1,7 +1,7 @@
 namespace LeetCode.Problems._0163_Missing_Ranges;
 
-/// <seealso href="https://leetcode.com/submissions/detail/871317089/"/>
-/// <seealso href="https://leetcode.com/submissions/detail/972352320/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/871317089/">Submission</seealso>
+/// <seealso href="https://leetcode.com/submissions/detail/972352320/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

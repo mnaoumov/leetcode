@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0486_Predict_the_Winner;
 
-/// <seealso href="https://leetcode.com/submissions/detail/954840875/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/954840875/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

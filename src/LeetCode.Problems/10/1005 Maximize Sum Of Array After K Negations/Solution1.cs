@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1005_Maximize_Sum_Of_Array_After_K_Negations;
 
-/// <seealso href="https://leetcode.com/submissions/detail/914086559/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/914086559/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

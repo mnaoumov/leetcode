@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3445_Maximum_Difference_Between_Even_and_Odd_Frequency_II;
 
-/// <seealso href="https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-ii/submissions/1672067913/"/>
+/// <seealso href="https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-ii/submissions/1672067913/">Submission</seealso>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

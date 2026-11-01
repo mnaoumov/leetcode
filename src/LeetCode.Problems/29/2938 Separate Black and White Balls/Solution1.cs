@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2938_Separate_Black_and_White_Balls;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-372/submissions/detail/1101780083/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-372/submissions/detail/1101780083/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

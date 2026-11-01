@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2579_Count_Total_Number_of_Colored_Cells;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-99/submissions/detail/908910206/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-99/submissions/detail/908910206/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

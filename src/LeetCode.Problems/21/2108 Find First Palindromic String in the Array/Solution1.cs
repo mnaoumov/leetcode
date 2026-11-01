@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2108_Find_First_Palindromic_String_in_the_Array;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1173649529/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1173649529/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

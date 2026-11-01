@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3575_Maximum_Good_Subtree_Score;
 
-/// <seealso href="TODO url"/>
+/// <seealso href="TODO url">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

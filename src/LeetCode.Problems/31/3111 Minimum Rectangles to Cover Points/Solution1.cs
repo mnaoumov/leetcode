@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3111_Minimum_Rectangles_to_Cover_Points;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-128/submissions/detail/1231226947/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-128/submissions/detail/1231226947/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

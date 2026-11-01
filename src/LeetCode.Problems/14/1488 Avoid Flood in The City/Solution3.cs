@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1488_Avoid_Flood_in_The_City;
 
-/// <seealso href="https://leetcode.com/submissions/detail/965612265/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/965612265/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

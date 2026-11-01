@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3212_Count_Submatrices_With_Equal_Frequency_of_X_and_Y;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-405/submissions/detail/1312304555/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-405/submissions/detail/1312304555/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

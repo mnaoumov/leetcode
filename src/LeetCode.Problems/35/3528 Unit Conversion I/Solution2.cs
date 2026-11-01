@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3528_Unit_Conversion_I;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-155/problems/unit-conversion-i/submissions/1618466264/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-155/problems/unit-conversion-i/submissions/1618466264/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

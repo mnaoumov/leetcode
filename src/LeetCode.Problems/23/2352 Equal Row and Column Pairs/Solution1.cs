@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2352_Equal_Row_and_Column_Pairs;
 
-/// <seealso href="https://leetcode.com/submissions/detail/856811672/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/856811672/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

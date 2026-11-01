@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._0394_Decode_String;
 
-/// <seealso href="https://leetcode.com/submissions/detail/196678531/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/196678531/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

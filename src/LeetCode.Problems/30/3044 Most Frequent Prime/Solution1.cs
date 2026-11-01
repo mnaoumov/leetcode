@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3044_Most_Frequent_Prime;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-385/submissions/detail/1178470346/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-385/submissions/detail/1178470346/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

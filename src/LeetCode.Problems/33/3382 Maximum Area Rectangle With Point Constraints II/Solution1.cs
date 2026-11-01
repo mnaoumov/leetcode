@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3382_Maximum_Area_Rectangle_With_Point_Constraints_II;
 
-/// <seealso href="TODO url"/>
+/// <seealso href="TODO url">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

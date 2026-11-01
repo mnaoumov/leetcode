@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1337_The_K_Weakest_Rows_in_a_Matrix;
 
-/// <seealso href="https://leetcode.com/submissions/detail/928129478/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/928129478/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

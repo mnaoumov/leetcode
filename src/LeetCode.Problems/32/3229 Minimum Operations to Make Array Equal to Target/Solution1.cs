@@ -2,7 +2,7 @@ using System.Collections;
 
 namespace LeetCode.Problems._3229_Minimum_Operations_to_Make_Array_Equal_to_Target;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-407/submissions/detail/1328001946/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-407/submissions/detail/1328001946/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

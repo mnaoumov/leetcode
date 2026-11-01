@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0174_Dungeon_Game;
 
-/// <seealso href="https://leetcode.com/submissions/detail/882161846/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/882161846/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

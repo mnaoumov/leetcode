@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2612_Minimum_Reverse_Operations;
 
-/// <seealso href="https://leetcode.com/submissions/detail/926698892/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/926698892/">Submission</seealso>
 [UsedImplicitly]
 public class Solution12 : ISolution
 {

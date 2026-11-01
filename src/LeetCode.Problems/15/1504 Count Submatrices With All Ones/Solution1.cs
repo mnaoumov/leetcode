@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1504_Count_Submatrices_With_All_Ones;
 
-/// <seealso href="https://leetcode.com/problems/count-submatrices-with-all-ones/submissions/1743757710/"/>
+/// <seealso href="https://leetcode.com/problems/count-submatrices-with-all-ones/submissions/1743757710/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

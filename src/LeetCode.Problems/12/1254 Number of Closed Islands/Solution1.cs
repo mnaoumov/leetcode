@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1254_Number_of_Closed_Islands;
 
-/// <seealso href="https://leetcode.com/submissions/detail/924028732/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/924028732/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

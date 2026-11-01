@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2937_Make_Three_Strings_Equal;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-372/submissions/detail/1101773071/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-372/submissions/detail/1101773071/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

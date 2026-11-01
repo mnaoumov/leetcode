@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2762_Continuous_Subarrays;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1478356023/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1478356023/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

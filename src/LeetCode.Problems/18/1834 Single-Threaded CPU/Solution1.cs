@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1834_Single_Threaded_CPU;
 
-/// <seealso href="https://leetcode.com/submissions/detail/867231078/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/867231078/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

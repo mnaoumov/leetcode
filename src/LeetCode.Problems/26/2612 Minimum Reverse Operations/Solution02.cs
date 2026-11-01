@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2612_Minimum_Reverse_Operations;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-339/submissions/detail/926333982/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-339/submissions/detail/926333982/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution02 : ISolution

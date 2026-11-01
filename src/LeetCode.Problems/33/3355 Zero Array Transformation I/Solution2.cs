@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3355_Zero_Array_Transformation_I;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-424/submissions/detail/1454861384/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-424/submissions/detail/1454861384/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

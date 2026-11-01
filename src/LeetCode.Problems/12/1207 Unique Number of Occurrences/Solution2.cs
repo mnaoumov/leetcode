@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1207_Unique_Number_of_Occurrences;
 
-/// <seealso href="https://leetcode.com/submissions/detail/852503461/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/852503461/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

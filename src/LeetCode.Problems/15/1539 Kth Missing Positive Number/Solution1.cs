@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1539_Kth_Missing_Positive_Number;
 
-/// <seealso href="https://leetcode.com/submissions/detail/909838379/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/909838379/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

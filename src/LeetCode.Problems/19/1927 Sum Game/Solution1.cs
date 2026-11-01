@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1927_Sum_Game;
 
-/// <seealso href="https://leetcode.com/problems/sum-game/submissions/2118610951/"/>
+/// <seealso href="https://leetcode.com/problems/sum-game/submissions/2118610951/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0367_Valid_Perfect_Square;
 
-/// <seealso href="https://leetcode.com/submissions/detail/924590055/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/924590055/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

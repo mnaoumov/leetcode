@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3500_Minimum_Cost_to_Divide_Array_Into_Subarrays;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-153/problems/minimum-cost-to-divide-array-into-subarrays/submissions/1590189804/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-153/problems/minimum-cost-to-divide-array-into-subarrays/submissions/1590189804/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

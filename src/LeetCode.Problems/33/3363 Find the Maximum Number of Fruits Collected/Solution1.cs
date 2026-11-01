@@ -2,7 +2,7 @@ using System.Collections.Immutable;
 
 namespace LeetCode.Problems._3363_Find_the_Maximum_Number_of_Fruits_Collected;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-144/submissions/detail/1460903571/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-144/submissions/detail/1460903571/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

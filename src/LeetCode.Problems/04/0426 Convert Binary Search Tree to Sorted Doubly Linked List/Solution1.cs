@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0426_Convert_Binary_Search_Tree_to_Sorted_Doubly_Linked_List;
 
-/// <seealso href="https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/submissions/1679811088/"/>
+/// <seealso href="https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/submissions/1679811088/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

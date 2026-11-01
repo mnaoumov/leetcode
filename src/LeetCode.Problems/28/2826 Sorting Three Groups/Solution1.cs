@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2826_Sorting_Three_Groups;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-111/submissions/detail/1025816087/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-111/submissions/detail/1025816087/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

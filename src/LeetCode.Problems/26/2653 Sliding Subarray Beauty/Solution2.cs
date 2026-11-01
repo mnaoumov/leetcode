@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2653_Sliding_Subarray_Beauty;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-342/submissions/detail/938212922/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-342/submissions/detail/938212922/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

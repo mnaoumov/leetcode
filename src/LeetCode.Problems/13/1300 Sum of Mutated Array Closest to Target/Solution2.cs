@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1300_Sum_of_Mutated_Array_Closest_to_Target;
 
-/// <seealso href="https://leetcode.com/submissions/detail/950603964/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/950603964/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

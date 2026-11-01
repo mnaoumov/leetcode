@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0366_Find_Leaves_of_Binary_Tree;
 
-/// <seealso href="https://leetcode.com/submissions/detail/951660910/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/951660910/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

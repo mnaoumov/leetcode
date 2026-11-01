@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._0042_Trapping_Rain_Water;
 
-/// <seealso href="https://leetcode.com/submissions/detail/814594556/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/814594556/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution2 : ISolution

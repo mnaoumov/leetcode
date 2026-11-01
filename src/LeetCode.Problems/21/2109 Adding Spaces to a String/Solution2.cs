@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._2109_Adding_Spaces_to_a_String;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1468829224/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1468829224/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

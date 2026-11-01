@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0787_Cheapest_Flights_Within_K_Stops;
 
-/// <seealso href="https://leetcode.com/submissions/detail/885377715/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/885377715/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution3 : ISolution

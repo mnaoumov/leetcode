@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1984_Minimum_Difference_Between_Highest_and_Lowest_of_K_Scores;
 
-/// <seealso href="https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/submissions/1896587986/"/>
+/// <seealso href="https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/submissions/1896587986/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

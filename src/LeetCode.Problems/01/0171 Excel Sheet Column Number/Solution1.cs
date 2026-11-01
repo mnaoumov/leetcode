@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._0171_Excel_Sheet_Column_Number;
 
-/// <seealso href="https://leetcode.com/submissions/detail/193813878/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/193813878/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution1 : ISolution

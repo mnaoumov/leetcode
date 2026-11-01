@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3260_Find_the_Largest_Palindrome_Divisible_by_K;
 
-/// <seealso href="TODO url"/>
+/// <seealso href="TODO url">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

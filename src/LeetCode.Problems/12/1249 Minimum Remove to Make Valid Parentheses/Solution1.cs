@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._1249_Minimum_Remove_to_Make_Valid_Parentheses;
 
-/// <seealso href="https://leetcode.com/submissions/detail/941808995/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/941808995/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

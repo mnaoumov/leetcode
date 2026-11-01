@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3866_First_Unique_Even_Element;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-178/problems/first-unique-even-element/submissions/1948015855/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-178/problems/first-unique-even-element/submissions/1948015855/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

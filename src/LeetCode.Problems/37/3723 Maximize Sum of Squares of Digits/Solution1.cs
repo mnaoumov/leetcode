@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3723_Maximize_Sum_of_Squares_of_Digits;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-168/problems/maximize-sum-of-squares-of-digits/submissions/1811312065/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-168/problems/maximize-sum-of-squares-of-digits/submissions/1811312065/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

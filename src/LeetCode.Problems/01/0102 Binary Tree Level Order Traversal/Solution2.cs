@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0102_Binary_Tree_Level_Order_Traversal;
 
-/// <seealso href="https://leetcode.com/submissions/detail/829698036/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/829698036/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

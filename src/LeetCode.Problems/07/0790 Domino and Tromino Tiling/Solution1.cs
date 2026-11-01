@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0790_Domino_and_Tromino_Tiling;
 
-/// <seealso href="https://leetcode.com/submissions/detail/864533369/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/864533369/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

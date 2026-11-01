@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1146_Snapshot_Array;
 
-/// <seealso href="https://leetcode.com/submissions/detail/964793338/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/964793338/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1260_Shift_2D_Grid;
 
-/// <seealso href="https://leetcode.com/problems/shift-2d-grid/submissions/2075136071/"/>
+/// <seealso href="https://leetcode.com/problems/shift-2d-grid/submissions/2075136071/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3618_Split_Array_by_Prime_Indices;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-161/problems/split-array-by-prime-indices/submissions/1703610000/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-161/problems/split-array-by-prime-indices/submissions/1703610000/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

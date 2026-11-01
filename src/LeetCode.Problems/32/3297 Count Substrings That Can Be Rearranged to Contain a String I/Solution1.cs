@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3297_Count_Substrings_That_Can_Be_Rearranged_to_Contain_a_String_I;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-416/submissions/detail/1398055811/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-416/submissions/detail/1398055811/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0451_Sort_Characters_By_Frequency;
 
-/// <seealso href="https://leetcode.com/submissions/detail/853648038/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/853648038/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

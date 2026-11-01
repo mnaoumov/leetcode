@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0696_Count_Binary_Substrings;
 
-/// <seealso href="https://leetcode.com/problems/count-binary-substrings/submissions/1923904228/"/>
+/// <seealso href="https://leetcode.com/problems/count-binary-substrings/submissions/1923904228/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

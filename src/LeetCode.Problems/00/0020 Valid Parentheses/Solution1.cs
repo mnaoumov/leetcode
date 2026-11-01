@@ -4,7 +4,7 @@
 
 namespace LeetCode.Problems._0020_Valid_Parentheses;
 
-/// <seealso href="https://leetcode.com/submissions/detail/196727004/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/196727004/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -3,7 +3,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._1680_Concatenation_of_Consecutive_Binary_Numbers;
 
-/// <seealso href="https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/submissions/1933199708/"/>
+/// <seealso href="https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/submissions/1933199708/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

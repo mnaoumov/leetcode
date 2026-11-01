@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0857_Minimum_Cost_to_Hire_K_Workers;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1255768197/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1255768197/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution3 : ISolution

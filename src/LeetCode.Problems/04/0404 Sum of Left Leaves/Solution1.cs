@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0404_Sum_of_Left_Leaves;
 
-/// <seealso href="https://leetcode.com/submissions/detail/924487201/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/924487201/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

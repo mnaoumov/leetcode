@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2596_Check_Knight_Tour_Configuration;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-337/submissions/detail/917866835/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-337/submissions/detail/917866835/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

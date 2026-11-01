@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._0081_Search_in_Rotated_Sorted_Array_II;
 
-/// <seealso href="https://leetcode.com/submissions/detail/822487962/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/822487962/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution1 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0011_Container_With_Most_Water;
 
-/// <seealso href="https://leetcode.com/submissions/detail/808435334/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/808435334/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

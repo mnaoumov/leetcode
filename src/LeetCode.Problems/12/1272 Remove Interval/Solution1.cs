@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1272_Remove_Interval;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1176512754/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1176512754/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

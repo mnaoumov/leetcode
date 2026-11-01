@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0242_Valid_Anagram;
 
-/// <seealso href="https://leetcode.com/submissions/detail/923049178/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/923049178/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

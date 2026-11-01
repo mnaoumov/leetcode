@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2789_Largest_Element_in_an_Array_after_Merge_Operations;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-355/submissions/detail/1001428994/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-355/submissions/detail/1001428994/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

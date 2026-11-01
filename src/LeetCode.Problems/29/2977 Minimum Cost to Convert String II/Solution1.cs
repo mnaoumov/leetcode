@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2977_Minimum_Cost_to_Convert_String_II;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1127127379/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1127127379/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

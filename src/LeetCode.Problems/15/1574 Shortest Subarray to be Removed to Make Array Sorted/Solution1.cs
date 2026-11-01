@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1574_Shortest_Subarray_to_be_Removed_to_Make_Array_Sorted;
 
-/// <seealso href="https://leetcode.com/submissions/detail/950474972/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/950474972/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

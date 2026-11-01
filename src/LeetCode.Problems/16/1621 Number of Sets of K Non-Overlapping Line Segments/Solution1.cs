@@ -3,7 +3,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._1621_Number_of_Sets_of_K_Non_Overlapping_Line_Segments;
 
-/// <seealso href="https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/submissions/2143259010/"/>
+/// <seealso href="https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/submissions/2143259010/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2942_Find_Words_Containing_Character;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-118/submissions/detail/1106108718/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-118/submissions/detail/1106108718/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

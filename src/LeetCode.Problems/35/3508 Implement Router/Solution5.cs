@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3508_Implement_Router;
 
-/// <seealso href="https://leetcode.com/problems/implement-router/submissions/1776558369/"/>
+/// <seealso href="https://leetcode.com/problems/implement-router/submissions/1776558369/">Submission</seealso>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

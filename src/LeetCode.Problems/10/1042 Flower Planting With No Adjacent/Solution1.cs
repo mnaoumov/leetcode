@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1042_Flower_Planting_With_No_Adjacent;
 
-/// <seealso href="https://leetcode.com/submissions/detail/925768722/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/925768722/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

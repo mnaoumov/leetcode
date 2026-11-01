@@ -4,7 +4,7 @@
 
 namespace LeetCode.Problems._0032_Longest_Valid_Parentheses;
 
-/// <seealso href="https://leetcode.com/submissions/detail/200410559/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/200410559/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

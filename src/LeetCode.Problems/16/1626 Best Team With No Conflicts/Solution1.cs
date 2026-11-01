@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1626_Best_Team_With_No_Conflicts;
 
-/// <seealso href="https://leetcode.com/submissions/detail/888548269/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/888548269/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3675_Minimum_Operations_to_Transform_String;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-466/problems/minimum-operations-to-transform-string/submissions/1762073270/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-466/problems/minimum-operations-to-transform-string/submissions/1762073270/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

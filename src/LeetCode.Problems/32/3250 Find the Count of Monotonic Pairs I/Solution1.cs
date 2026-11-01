@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3250_Find_the_Count_of_Monotonic_Pairs_I;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-410/submissions/detail/1351575729/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-410/submissions/detail/1351575729/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

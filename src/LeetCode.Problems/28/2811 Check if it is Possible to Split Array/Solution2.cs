@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2811_Check_if_it_is_Possible_to_Split_Array;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-357/submissions/detail/1013426621/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-357/submissions/detail/1013426621/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

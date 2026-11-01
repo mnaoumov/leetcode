@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2698_Find_the_Punishment_Number_of_an_Integer;
 
-/// <seealso href="https://leetcode.com/problems/find-the-punishment-number-of-an-integer/submissions/1544447470/"/>
+/// <seealso href="https://leetcode.com/problems/find-the-punishment-number-of-an-integer/submissions/1544447470/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

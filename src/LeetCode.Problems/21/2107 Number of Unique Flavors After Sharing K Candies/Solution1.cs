@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2107_Number_of_Unique_Flavors_After_Sharing_K_Candies;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1453939392/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1453939392/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

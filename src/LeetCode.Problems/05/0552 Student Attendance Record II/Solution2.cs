@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0552_Student_Attendance_Record_II;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1267955146/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1267955146/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

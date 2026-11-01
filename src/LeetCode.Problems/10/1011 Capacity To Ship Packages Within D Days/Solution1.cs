@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1011_Capacity_To_Ship_Packages_Within_D_Days;
 
-/// <seealso href="https://leetcode.com/submissions/detail/902638182/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/902638182/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

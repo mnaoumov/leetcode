@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3243_Shortest_Distance_After_Road_Addition_Queries_I;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-409/submissions/detail/1343718254/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-409/submissions/detail/1343718254/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

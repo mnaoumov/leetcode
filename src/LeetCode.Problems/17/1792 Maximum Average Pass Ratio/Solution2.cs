@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1792_Maximum_Average_Pass_Ratio;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1478986569/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1478986569/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

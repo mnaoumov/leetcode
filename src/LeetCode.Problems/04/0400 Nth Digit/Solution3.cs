@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0400_Nth_Digit;
 
-/// <seealso href="https://leetcode.com/submissions/detail/925489000/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/925489000/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

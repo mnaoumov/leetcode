@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0336_Palindrome_Pairs;
 
-/// <seealso href="https://leetcode.com/submissions/detail/963948069/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/963948069/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution4 : ISolution

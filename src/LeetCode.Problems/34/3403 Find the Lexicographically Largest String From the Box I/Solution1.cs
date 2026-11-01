@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3403_Find_the_Lexicographically_Largest_String_From_the_Box_I;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-430/submissions/detail/1491129834/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-430/submissions/detail/1491129834/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

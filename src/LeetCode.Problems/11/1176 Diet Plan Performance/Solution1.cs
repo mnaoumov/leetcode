@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1176_Diet_Plan_Performance;
 
-/// <seealso href="https://leetcode.com/problems/diet-plan-performance/submissions/1868959436/"/>
+/// <seealso href="https://leetcode.com/problems/diet-plan-performance/submissions/1868959436/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

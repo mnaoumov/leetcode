@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3083_Existence_of_a_Substring_in_a_String_and_Its_Reverse;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-389/submissions/detail/1205836264/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-389/submissions/detail/1205836264/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

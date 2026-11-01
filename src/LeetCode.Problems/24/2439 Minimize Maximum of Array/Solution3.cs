@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._2439_Minimize_Maximum_of_Array;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-89/submissions/detail/823058750/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-89/submissions/detail/823058750/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution3 : ISolution

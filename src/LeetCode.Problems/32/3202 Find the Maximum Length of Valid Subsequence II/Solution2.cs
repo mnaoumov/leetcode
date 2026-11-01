@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3202_Find_the_Maximum_Length_of_Valid_Subsequence_II;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-404/submissions/detail/1304436456/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-404/submissions/detail/1304436456/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1502_Can_Make_Arithmetic_Progression_From_Sequence;
 
-/// <seealso href="https://leetcode.com/submissions/detail/925204567/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/925204567/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

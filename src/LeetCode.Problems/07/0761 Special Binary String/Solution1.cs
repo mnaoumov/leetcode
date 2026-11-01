@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0761_Special_Binary_String;
 
-/// <seealso href="https://leetcode.com/problems/special-binary-string/submissions/1925738256/"/>
+/// <seealso href="https://leetcode.com/problems/special-binary-string/submissions/1925738256/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

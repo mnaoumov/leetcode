@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2131_Longest_Palindrome_by_Concatenating_Two_Letter_Words;
 
-/// <seealso href="https://leetcode.com/submissions/detail/835714151/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/835714151/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

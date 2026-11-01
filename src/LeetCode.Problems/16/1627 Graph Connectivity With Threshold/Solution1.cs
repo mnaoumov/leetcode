@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1627_Graph_Connectivity_With_Threshold;
 
-/// <seealso href="https://leetcode.com/problems/graph-connectivity-with-threshold/"/>
+/// <seealso href="https://leetcode.com/problems/graph-connectivity-with-threshold/">Problem</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

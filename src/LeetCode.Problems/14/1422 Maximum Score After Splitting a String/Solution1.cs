@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1422_Maximum_Score_After_Splitting_a_String;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1126083875/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1126083875/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

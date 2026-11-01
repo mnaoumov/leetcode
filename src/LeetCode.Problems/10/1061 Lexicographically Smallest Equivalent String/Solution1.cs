@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1061_Lexicographically_Smallest_Equivalent_String;
 
-/// <seealso href="https://leetcode.com/submissions/detail/878281641/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/878281641/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

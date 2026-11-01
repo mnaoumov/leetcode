@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0880_Decoded_String_at_Index;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1060912060/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1060912060/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.MemoryLimitExceeded)]
 public class Solution1 : ISolution

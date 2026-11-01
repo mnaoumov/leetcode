@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3277_Maximum_XOR_Score_Subarray_Queries;
 
-/// <seealso href="TODO url"/>
+/// <seealso href="TODO url">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

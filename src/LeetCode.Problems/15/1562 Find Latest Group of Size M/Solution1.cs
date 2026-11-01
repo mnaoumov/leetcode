@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1562_Find_Latest_Group_of_Size_M;
 
-/// <seealso href="https://leetcode.com/submissions/detail/966403446/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/966403446/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -2,7 +2,7 @@ using System.Text.RegularExpressions;
 
 namespace LeetCode.Problems._1028_Recover_a_Tree_From_Preorder_Traversal;
 
-/// <seealso href="https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/submissions/1551222375/"/>
+/// <seealso href="https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/submissions/1551222375/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

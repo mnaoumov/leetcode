@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1431_Kids_With_the_Greatest_Number_of_Candies;
 
-/// <seealso href="https://leetcode.com/submissions/detail/934983418/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/934983418/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

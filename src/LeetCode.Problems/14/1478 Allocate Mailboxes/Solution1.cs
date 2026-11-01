@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1478_Allocate_Mailboxes;
 
-/// <seealso href="https://leetcode.com/submissions/detail/949966080/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/949966080/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

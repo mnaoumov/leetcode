@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0371_Sum_of_Two_Integers;
 
-/// <seealso href="https://leetcode.com/submissions/detail/926879351/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/926879351/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

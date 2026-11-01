@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._0112_Path_Sum;
 
-/// <seealso href="https://leetcode.com/submissions/detail/814660488/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/814660488/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

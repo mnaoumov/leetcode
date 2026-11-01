@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1408_String_Matching_in_an_Array;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1500112014/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1500112014/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

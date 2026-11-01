@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0412_Fizz_Buzz;
 
-/// <seealso href="https://leetcode.com/problems/fizz-buzz/submissions/845588599/"/>
+/// <seealso href="https://leetcode.com/problems/fizz-buzz/submissions/845588599/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1416_Restore_The_Array;
 
-/// <seealso href="https://leetcode.com/submissions/detail/938601962/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/938601962/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

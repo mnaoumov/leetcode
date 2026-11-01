@@ -2,7 +2,7 @@ using System.Collections;
 
 namespace LeetCode.Problems._3077_Maximum_Strength_of_K_Disjoint_Subarrays;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-388/submissions/detail/1199177239/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-388/submissions/detail/1199177239/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

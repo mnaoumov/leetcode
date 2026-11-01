@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0733_Flood_Fill;
 
-/// <seealso href="https://leetcode.com/submissions/detail/923849172/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/923849172/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

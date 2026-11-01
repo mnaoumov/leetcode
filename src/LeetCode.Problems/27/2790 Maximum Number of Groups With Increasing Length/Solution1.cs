@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2790_Maximum_Number_of_Groups_With_Increasing_Length;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-355/submissions/detail/1001447265/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-355/submissions/detail/1001447265/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

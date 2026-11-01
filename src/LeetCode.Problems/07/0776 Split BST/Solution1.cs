@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0776_Split_BST;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1303418214/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1303418214/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

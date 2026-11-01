@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3349_Adjacent_Increasing_Subarrays_Detection_I;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-423/submissions/detail/1448199781/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-423/submissions/detail/1448199781/">Submission</seealso>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

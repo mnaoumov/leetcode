@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._1021_Remove_Outermost_Parentheses;
 
-/// <seealso href="https://leetcode.com/submissions/detail/926843404/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/926843404/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

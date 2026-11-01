@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1704_Determine_if_String_Halves_Are_Alike;
 
-/// <seealso href="https://leetcode.com/submissions/detail/852632401/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/852632401/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

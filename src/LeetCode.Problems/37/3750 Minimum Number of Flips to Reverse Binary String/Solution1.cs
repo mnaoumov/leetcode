@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3750_Minimum_Number_of_Flips_to_Reverse_Binary_String;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-170/problems/minimum-number-of-flips-to-reverse-binary-string/submissions/1836815917/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-170/problems/minimum-number-of-flips-to-reverse-binary-string/submissions/1836815917/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

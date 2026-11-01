@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3707_Equal_Score_Substrings;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-167/problems/equal-score-substrings/submissions/1798337602/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-167/problems/equal-score-substrings/submissions/1798337602/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

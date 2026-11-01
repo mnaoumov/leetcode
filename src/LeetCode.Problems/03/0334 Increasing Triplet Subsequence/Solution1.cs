@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._0334_Increasing_Triplet_Subsequence;
 
-/// <seealso href="https://leetcode.com/submissions/detail/820225745/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/820225745/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 [UsedImplicitly]
 public class Solution1 : ISolution

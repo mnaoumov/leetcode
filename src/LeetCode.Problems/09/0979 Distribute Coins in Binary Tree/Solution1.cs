@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0979_Distribute_Coins_in_Binary_Tree;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1261388250/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1261388250/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

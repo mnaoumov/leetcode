@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3566_Partition_Array_into_Two_Equal_Product_Subsets;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-452/problems/partition-array-into-two-equal-product-subsets/submissions/1650240273/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-452/problems/partition-array-into-two-equal-product-subsets/submissions/1650240273/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

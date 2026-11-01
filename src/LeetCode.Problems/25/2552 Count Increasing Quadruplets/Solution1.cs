@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2552_Count_Increasing_Quadruplets;
 
-/// <seealso href="https://leetcode.com/submissions/detail/887540666/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/887540666/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

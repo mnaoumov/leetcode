@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2187_Minimum_Time_to_Complete_Trips;
 
-/// <seealso href="https://leetcode.com/submissions/detail/910562527/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/910562527/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution3 : ISolution

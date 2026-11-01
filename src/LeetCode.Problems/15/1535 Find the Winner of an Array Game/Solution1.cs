@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1535_Find_the_Winner_of_an_Array_Game;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1092335891/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1092335891/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

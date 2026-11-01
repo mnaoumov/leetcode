@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2179_Count_Good_Triplets_in_an_Array;
 
-/// <seealso href="https://leetcode.com/problems/count-good-triplets-in-an-array/submissions/1607138011/"/>
+/// <seealso href="https://leetcode.com/problems/count-good-triplets-in-an-array/submissions/1607138011/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

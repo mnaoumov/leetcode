@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1758_Minimum_Changes_To_Make_Alternating_Binary_String;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1126992195/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1126992195/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0280_Wiggle_Sort;
 
-/// <seealso href="https://leetcode.com/submissions/detail/893747494/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/893747494/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

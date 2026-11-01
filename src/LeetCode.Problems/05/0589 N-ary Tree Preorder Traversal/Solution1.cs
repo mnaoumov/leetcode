@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0589_N_ary_Tree_Preorder_Traversal;
 
-/// <seealso href="https://leetcode.com/submissions/detail/925630437/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/925630437/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

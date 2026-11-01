@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._3163_String_Compression_III;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-399/submissions/detail/1268019933/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-399/submissions/detail/1268019933/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

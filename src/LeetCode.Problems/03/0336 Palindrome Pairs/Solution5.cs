@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0336_Palindrome_Pairs;
 
-/// <seealso href="https://leetcode.com/submissions/detail/963964327/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/963964327/">Submission</seealso>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

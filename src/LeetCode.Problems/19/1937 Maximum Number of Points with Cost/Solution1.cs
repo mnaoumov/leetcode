@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1937_Maximum_Number_of_Points_with_Cost;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1358459323/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1358459323/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

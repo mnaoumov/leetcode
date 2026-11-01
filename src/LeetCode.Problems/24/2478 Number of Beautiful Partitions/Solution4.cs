@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2478_Number_of_Beautiful_Partitions;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-320/submissions/detail/846677563/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-320/submissions/detail/846677563/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution4 : ISolution

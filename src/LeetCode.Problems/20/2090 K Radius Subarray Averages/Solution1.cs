@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2090_K_Radius_Subarray_Averages;
 
-/// <seealso href="https://leetcode.com/submissions/detail/975182150/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/975182150/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

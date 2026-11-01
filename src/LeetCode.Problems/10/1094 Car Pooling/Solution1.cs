@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1094_Car_Pooling;
 
-/// <seealso href="https://leetcode.com/submissions/detail/921149265/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/921149265/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

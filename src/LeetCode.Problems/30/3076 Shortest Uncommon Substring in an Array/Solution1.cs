@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3076_Shortest_Uncommon_Substring_in_an_Array;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-388/submissions/detail/1199102554/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-388/submissions/detail/1199102554/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

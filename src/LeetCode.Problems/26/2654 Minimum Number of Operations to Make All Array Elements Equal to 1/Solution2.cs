@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._2654_Minimum_Number_of_Operations_to_Make_All_Array_Elements_Equal_to_1;
 
-/// <seealso href="https://leetcode.com/submissions/detail/938460214/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/938460214/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

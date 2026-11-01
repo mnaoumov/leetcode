@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1706_Where_Will_the_Ball_Fall;
 
-/// <seealso href="https://leetcode.com/submissions/detail/834366324/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/834366324/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

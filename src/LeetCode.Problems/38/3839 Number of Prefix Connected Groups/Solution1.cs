@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3839_Number_of_Prefix_Connected_Groups;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-176/problems/number-of-prefix-connected-groups/submissions/1919026009/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-176/problems/number-of-prefix-connected-groups/submissions/1919026009/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

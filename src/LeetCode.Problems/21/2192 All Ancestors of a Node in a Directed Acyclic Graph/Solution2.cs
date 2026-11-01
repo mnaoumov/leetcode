@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2192_All_Ancestors_of_a_Node_in_a_Directed_Acyclic_Graph;
 
-/// <seealso href="https://leetcode.com/submissions/detail/906869118/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/906869118/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

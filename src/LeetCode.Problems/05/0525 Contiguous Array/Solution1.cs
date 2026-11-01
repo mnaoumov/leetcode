@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0525_Contiguous_Array;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1204835816/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1204835816/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

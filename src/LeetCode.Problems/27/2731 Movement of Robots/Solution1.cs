@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2731_Movement_of_Robots;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-106/submissions/detail/968186613/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-106/submissions/detail/968186613/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

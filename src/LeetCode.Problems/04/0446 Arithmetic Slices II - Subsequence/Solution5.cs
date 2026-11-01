@@ -4,7 +4,7 @@
 
 namespace LeetCode.Problems._0446_Arithmetic_Slices_II___Subsequence;
 
-/// <seealso href="https://leetcode.com/submissions/detail/850747925/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/850747925/">Submission</seealso>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

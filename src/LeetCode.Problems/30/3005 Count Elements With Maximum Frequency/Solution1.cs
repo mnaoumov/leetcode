@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3005_Count_Elements_With_Maximum_Frequency;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-380/submissions/detail/1145531857/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-380/submissions/detail/1145531857/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3693_Climbing_Stairs_II;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-166/problems/climbing-stairs-ii/submissions/1784293652/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-166/problems/climbing-stairs-ii/submissions/1784293652/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

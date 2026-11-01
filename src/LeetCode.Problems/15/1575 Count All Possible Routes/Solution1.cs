@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1575_Count_All_Possible_Routes;
 
-/// <seealso href="https://leetcode.com/submissions/detail/978884908/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/978884908/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

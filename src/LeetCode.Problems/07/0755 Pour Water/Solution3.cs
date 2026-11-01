@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0755_Pour_Water;
 
-/// <seealso href="https://leetcode.com/problems/pour-water/submissions/1972154428/"/>
+/// <seealso href="https://leetcode.com/problems/pour-water/submissions/1972154428/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

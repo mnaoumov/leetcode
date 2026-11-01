@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0201_Bitwise_AND_of_Numbers_Range;
 
-/// <seealso href="https://leetcode.com/submissions/detail/926887216/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/926887216/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

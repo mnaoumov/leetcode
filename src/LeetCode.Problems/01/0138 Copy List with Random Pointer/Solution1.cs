@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0138_Copy_List_with_Random_Pointer;
 
-/// <seealso href="https://leetcode.com/problems/copy-list-with-random-pointer/submissions/840421256/"/>
+/// <seealso href="https://leetcode.com/problems/copy-list-with-random-pointer/submissions/840421256/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

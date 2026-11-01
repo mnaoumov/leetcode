@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0718_Maximum_Length_of_Repeated_Subarray;
 
-/// <seealso href="https://leetcode.com/submissions/detail/898740397/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/898740397/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution3 : ISolution

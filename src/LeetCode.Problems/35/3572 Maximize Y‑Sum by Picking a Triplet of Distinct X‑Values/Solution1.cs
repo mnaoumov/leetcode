@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3572_Maximize_Y_Sum_by_Picking_a_Triplet_of_Distinct_X_Values;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-158/problems/maximize-ysum-by-picking-a-triplet-of-distinct-xvalues/submissions/1656669511/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-158/problems/maximize-ysum-by-picking-a-triplet-of-distinct-xvalues/submissions/1656669511/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

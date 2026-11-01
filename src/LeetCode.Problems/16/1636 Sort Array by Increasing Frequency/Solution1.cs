@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1636_Sort_Array_by_Increasing_Frequency;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1331193866/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1331193866/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

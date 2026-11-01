@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2960_Count_Tested_Devices_After_Test_Operations;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-375/submissions/detail/1116130913/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-375/submissions/detail/1116130913/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

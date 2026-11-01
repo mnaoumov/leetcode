@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2138_Divide_a_String_Into_Groups_of_Size_k;
 
-/// <seealso href="https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/submissions/1672079804/"/>
+/// <seealso href="https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/submissions/1672079804/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2765_Longest_Alternating_Subarray;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-108/submissions/detail/989385713/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-108/submissions/detail/989385713/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

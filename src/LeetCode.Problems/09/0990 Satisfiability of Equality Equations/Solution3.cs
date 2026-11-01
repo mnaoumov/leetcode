@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0990_Satisfiability_of_Equality_Equations;
 
-/// <seealso href="https://leetcode.com/submissions/detail/829083516/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/829083516/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

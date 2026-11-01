@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0800_Similar_RGB_Color;
 
-/// <seealso href="https://leetcode.com/problems/similar-rgb-color/submissions/2123459035/"/>
+/// <seealso href="https://leetcode.com/problems/similar-rgb-color/submissions/2123459035/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

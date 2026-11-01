@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1716_Calculate_Money_in_Leetcode_Bank;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1113273439/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1113273439/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

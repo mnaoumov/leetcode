@@ -5,7 +5,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0006_Zigzag_Conversion;
 
-/// <seealso href="https://leetcode.com/submissions/detail/148141552/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/148141552/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 [UsedImplicitly]
 public class Solution1 : ISolution

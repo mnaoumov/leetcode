@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0156_Binary_Tree_Upside_Down;
 
-/// <seealso href="https://leetcode.com/problems/binary-tree-upside-down/submissions/848306572/"/>
+/// <seealso href="https://leetcode.com/problems/binary-tree-upside-down/submissions/848306572/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1975_Maximum_Matrix_Sum;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1461203405/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1461203405/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

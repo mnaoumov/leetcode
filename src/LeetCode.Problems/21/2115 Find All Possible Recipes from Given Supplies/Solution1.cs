@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2115_Find_All_Possible_Recipes_from_Given_Supplies;
 
-/// <seealso href="https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/submissions/1581804769/"/>
+/// <seealso href="https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/submissions/1581804769/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

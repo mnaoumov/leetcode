@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1885_Count_Pairs_in_Two_Arrays;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1246991058/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1246991058/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

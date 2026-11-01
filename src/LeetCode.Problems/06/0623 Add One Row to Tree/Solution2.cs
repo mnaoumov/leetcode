@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0623_Add_One_Row_to_Tree;
 
-/// <seealso href="https://leetcode.com/submissions/detail/829092687/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/829092687/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

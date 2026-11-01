@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3283_Maximum_Number_of_Moves_to_Kill_All_Pawns;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1382800084/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1382800084/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

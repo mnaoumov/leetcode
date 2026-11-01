@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1915_Number_of_Wonderful_Substrings;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1246981858/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1246981858/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

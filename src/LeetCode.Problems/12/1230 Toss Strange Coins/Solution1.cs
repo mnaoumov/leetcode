@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1230_Toss_Strange_Coins;
 
-/// <seealso href="https://leetcode.com/submissions/detail/938738980/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/938738980/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

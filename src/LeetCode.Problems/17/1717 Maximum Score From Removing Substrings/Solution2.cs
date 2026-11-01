@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._1717_Maximum_Score_From_Removing_Substrings;
 
-/// <seealso href="https://leetcode.com/problems/maximum-score-from-removing-substrings/submissions/1707896884/"/>
+/// <seealso href="https://leetcode.com/problems/maximum-score-from-removing-substrings/submissions/1707896884/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

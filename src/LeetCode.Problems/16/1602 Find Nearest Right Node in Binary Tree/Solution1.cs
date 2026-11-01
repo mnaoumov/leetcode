@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1602_Find_Nearest_Right_Node_in_Binary_Tree;
 
-/// <seealso href="https://leetcode.com/submissions/detail/950454326/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/950454326/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

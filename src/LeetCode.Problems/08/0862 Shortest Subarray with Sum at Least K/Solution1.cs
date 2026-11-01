@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0862_Shortest_Subarray_with_Sum_at_Least_K;
 
-/// <seealso href="https://leetcode.com/submissions/detail/950450851/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/950450851/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

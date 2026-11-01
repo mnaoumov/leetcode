@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2582_Pass_the_Pillow;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-335/submissions/detail/909222198/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-335/submissions/detail/909222198/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

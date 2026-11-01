@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0566_Reshape_the_Matrix;
 
-/// <seealso href="https://leetcode.com/submissions/detail/925456509/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/925456509/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

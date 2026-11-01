@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2861_Maximum_Number_of_Alloys;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-363/submissions/detail/1051433804/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-363/submissions/detail/1051433804/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

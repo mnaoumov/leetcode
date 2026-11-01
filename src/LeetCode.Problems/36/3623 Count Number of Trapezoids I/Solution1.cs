@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3623_Count_Number_of_Trapezoids_I;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-459/problems/count-number-of-trapezoids-i/submissions/1704204473/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-459/problems/count-number-of-trapezoids-i/submissions/1704204473/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

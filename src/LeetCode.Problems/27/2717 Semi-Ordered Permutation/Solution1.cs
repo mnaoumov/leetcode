@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2717_Semi_Ordered_Permutation;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-348/submissions/detail/963328531/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-348/submissions/detail/963328531/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

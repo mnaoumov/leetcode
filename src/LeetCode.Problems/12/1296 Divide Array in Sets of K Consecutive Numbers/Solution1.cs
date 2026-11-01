@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1296_Divide_Array_in_Sets_of_K_Consecutive_Numbers;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1299460069/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1299460069/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

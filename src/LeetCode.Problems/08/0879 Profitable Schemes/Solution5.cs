@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._0879_Profitable_Schemes;
 
-/// <seealso href="https://leetcode.com/submissions/detail/937646734/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/937646734/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution5 : ISolution

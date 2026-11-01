@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1046_Last_Stone_Weight;
 
-/// <seealso href="https://leetcode.com/submissions/detail/907457116/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/907457116/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

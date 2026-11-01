@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0988_Smallest_String_Starting_From_Leaf;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1234452657/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1234452657/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

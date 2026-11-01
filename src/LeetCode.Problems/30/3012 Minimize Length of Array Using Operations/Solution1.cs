@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3012_Minimize_Length_of_Array_Using_Operations;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-122/submissions/detail/1151661527/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-122/submissions/detail/1151661527/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

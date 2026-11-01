@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._0005_Longest_Palindromic_Substring;
 
-/// <seealso href="https://leetcode.com/submissions/detail/147569862/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/147569862/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 [UsedImplicitly]
 public class Solution04 : ISolution

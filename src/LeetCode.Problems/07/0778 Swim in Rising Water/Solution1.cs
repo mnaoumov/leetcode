@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0778_Swim_in_Rising_Water;
 
-/// <seealso href="https://leetcode.com/submissions/detail/915446625/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/915446625/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

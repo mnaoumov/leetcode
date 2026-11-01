@@ -3,7 +3,7 @@
 #pragma warning disable
 namespace LeetCode.Problems._0019_Remove_Nth_Node_From_End_of_List;
 
-/// <seealso href="https://leetcode.com/submissions/detail/810302281/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/810302281/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

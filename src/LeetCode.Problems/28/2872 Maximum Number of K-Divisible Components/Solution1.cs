@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2872_Maximum_Number_of_K_Divisible_Components;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1063230145/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1063230145/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

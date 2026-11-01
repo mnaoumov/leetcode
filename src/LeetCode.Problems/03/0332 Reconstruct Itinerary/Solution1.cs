@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0332_Reconstruct_Itinerary;
 
-/// <seealso href="https://leetcode.com/submissions/detail/932161395/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/932161395/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2842_Count_K_Subsequences_of_a_String_With_Maximum_Beauty;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-112/submissions/detail/1038595352/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-112/submissions/detail/1038595352/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

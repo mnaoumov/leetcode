@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3844_Longest_Almost_Palindromic_Substring;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-489/problems/longest-almost-palindromic-substring/submissions/1919596283/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-489/problems/longest-almost-palindromic-substring/submissions/1919596283/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

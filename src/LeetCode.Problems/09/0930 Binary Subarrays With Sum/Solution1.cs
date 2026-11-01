@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0930_Binary_Subarrays_With_Sum;
 
-/// <seealso href="https://leetcode.com/submissions/detail/898963795/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/898963795/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

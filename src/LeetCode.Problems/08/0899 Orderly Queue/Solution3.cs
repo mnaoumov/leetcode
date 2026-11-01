@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0899_Orderly_Queue;
 
-/// <seealso href="https://leetcode.com/problems/orderly-queue/submissions/837690030/"/>
+/// <seealso href="https://leetcode.com/problems/orderly-queue/submissions/837690030/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution3 : ISolution

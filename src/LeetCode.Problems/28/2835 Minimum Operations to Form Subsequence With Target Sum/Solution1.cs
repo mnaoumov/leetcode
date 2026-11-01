@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2835_Minimum_Operations_to_Form_Subsequence_With_Target_Sum;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-360/submissions/detail/1032781370/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-360/submissions/detail/1032781370/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

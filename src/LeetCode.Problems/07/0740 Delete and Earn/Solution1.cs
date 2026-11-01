@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0740_Delete_and_Earn;
 
-/// <seealso href="https://leetcode.com/submissions/detail/924552758/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/924552758/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

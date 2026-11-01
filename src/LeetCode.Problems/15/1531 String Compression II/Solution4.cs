@@ -4,7 +4,7 @@
 
 namespace LeetCode.Problems._1531_String_Compression_II;
 
-/// <seealso href="https://leetcode.com/submissions/detail/824850674/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/824850674/">Submission</seealso>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

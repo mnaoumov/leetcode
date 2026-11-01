@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3367_Maximize_Sum_of_Weights_after_Edge_Removals;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-425/submissions/detail/1461305418/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-425/submissions/detail/1461305418/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution3 : ISolution

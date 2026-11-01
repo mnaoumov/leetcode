@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3041_Maximize_Consecutive_Elements_in_an_Array_After_Modification;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-124/submissions/detail/1177961680/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-124/submissions/detail/1177961680/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

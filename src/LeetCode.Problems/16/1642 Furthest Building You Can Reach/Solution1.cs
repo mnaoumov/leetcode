@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1642_Furthest_Building_You_Can_Reach;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1178355349/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1178355349/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.MemoryLimitExceeded)]
 public class Solution1 : ISolution

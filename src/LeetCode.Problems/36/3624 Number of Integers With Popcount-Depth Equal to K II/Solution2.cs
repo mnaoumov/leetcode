@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3624_Number_of_Integers_With_Popcount_Depth_Equal_to_K_II;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-459/problems/number-of-integers-with-popcount-depth-equal-to-k-ii/submissions/1704234145/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-459/problems/number-of-integers-with-popcount-depth-equal-to-k-ii/submissions/1704234145/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

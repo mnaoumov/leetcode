@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2646_Minimize_the_Total_Price_of_the_Trips;
 
-/// <seealso href="https://leetcode.com/submissions/detail/936074533/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/936074533/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

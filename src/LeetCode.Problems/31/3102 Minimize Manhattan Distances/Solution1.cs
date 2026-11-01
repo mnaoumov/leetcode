@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3102_Minimize_Manhattan_Distances;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-391/submissions/detail/1218834857/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-391/submissions/detail/1218834857/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

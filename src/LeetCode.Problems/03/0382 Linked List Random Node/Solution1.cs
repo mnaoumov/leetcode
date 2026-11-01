@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0382_Linked_List_Random_Node;
 
-/// <seealso href="https://leetcode.com/submissions/detail/912406020/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/912406020/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

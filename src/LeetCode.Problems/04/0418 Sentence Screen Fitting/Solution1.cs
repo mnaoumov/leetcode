@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0418_Sentence_Screen_Fitting;
 
-/// <seealso href="https://leetcode.com/submissions/detail/956102529/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/956102529/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3679_Minimum_Discards_to_Balance_Inventory;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-165/problems/minimum-discards-to-balance-inventory/submissions/1769432585/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-165/problems/minimum-discards-to-balance-inventory/submissions/1769432585/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

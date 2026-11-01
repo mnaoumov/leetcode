@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3364_Minimum_Positive_Sum_Subarray;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-425/submissions/detail/1461249203/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-425/submissions/detail/1461249203/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0909_Snakes_and_Ladders;
 
-/// <seealso href="https://leetcode.com/submissions/detail/884076326/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/884076326/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

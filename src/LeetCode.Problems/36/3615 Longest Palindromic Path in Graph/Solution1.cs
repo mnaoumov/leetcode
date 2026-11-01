@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3615_Longest_Palindromic_Path_in_Graph;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-458/problems/longest-palindromic-path-in-graph/submissions/1695880005/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-458/problems/longest-palindromic-path-in-graph/submissions/1695880005/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

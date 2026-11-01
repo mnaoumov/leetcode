@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3695_Maximize_Alternating_Sum_Using_Swaps;
 
-/// <seealso href="TODO url"/>
+/// <seealso href="TODO url">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

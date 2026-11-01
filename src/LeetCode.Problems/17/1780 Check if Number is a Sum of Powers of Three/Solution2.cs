@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1780_Check_if_Number_is_a_Sum_of_Powers_of_Three;
 
-/// <seealso href="https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/submissions/1561990759/"/>
+/// <seealso href="https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/submissions/1561990759/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2844_Minimum_Operations_to_Make_a_Special_Number;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-361/submissions/detail/1039021869/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-361/submissions/detail/1039021869/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

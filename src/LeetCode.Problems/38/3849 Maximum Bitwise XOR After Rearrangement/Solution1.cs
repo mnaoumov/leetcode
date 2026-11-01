@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._3849_Maximum_Bitwise_XOR_After_Rearrangement;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-490/problems/maximum-bitwise-xor-after-rearrangement/submissions/1926940808/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-490/problems/maximum-bitwise-xor-after-rearrangement/submissions/1926940808/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

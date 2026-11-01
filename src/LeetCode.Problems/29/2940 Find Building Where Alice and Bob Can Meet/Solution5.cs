@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2940_Find_Building_Where_Alice_and_Bob_Can_Meet;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1487475794/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1487475794/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 [UsedImplicitly]
 public class Solution5 : ISolution

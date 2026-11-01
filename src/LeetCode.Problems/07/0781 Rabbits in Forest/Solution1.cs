@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0781_Rabbits_in_Forest;
 
-/// <seealso href="https://leetcode.com/problems/rabbits-in-forest/submissions/1611943340/"/>
+/// <seealso href="https://leetcode.com/problems/rabbits-in-forest/submissions/1611943340/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

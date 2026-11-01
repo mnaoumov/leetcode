@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2831_Find_the_Longest_Equal_Subarray;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-359/submissions/detail/1026368354/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-359/submissions/detail/1026368354/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

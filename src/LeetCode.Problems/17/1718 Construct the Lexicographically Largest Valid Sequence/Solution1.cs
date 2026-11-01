@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1718_Construct_the_Lexicographically_Largest_Valid_Sequence;
 
-/// <seealso href="https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence/submissions/1545186668/"/>
+/// <seealso href="https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence/submissions/1545186668/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

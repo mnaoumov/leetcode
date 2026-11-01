@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1721_Swapping_Nodes_in_a_Linked_List;
 
-/// <seealso href="https://leetcode.com/submissions/detail/899040016/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/899040016/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

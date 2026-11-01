@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0133_Clone_Graph;
 
-/// <seealso href="https://leetcode.com/problems/clone-graph/submissions/837665655/"/>
+/// <seealso href="https://leetcode.com/problems/clone-graph/submissions/837665655/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3480_Maximize_Subarrays_After_Removing_One_Conflicting_Pair;
 
-/// <seealso href="https://leetcode.com/problems/maximize-subarrays-after-removing-one-conflicting-pair/submissions/1712675986/"/>
+/// <seealso href="https://leetcode.com/problems/maximize-subarrays-after-removing-one-conflicting-pair/submissions/1712675986/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

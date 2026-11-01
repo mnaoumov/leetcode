@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0506_Relative_Ranks;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1252750120/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1252750120/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

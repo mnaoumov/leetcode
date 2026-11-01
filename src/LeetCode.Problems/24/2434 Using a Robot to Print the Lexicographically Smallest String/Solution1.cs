@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2434_Using_a_Robot_to_Print_the_Lexicographically_Smallest_String;
 
-/// <seealso href="https://leetcode.com/submissions/detail/890331278/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/890331278/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

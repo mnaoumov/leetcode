@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0027_Remove_Element;
 
-/// <seealso href="https://leetcode.com/submissions/detail/829013909/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/829013909/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0225_Implement_Stack_using_Queues;
 
-/// <seealso href="https://leetcode.com/submissions/detail/903005475/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/903005475/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

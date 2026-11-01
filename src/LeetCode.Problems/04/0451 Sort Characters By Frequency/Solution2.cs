@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0451_Sort_Characters_By_Frequency;
 
-/// <seealso href="https://leetcode.com/submissions/detail/854014525/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/854014525/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

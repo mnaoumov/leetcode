@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1675_Minimize_Deviation_in_Array;
 
-/// <seealso href="https://leetcode.com/submissions/detail/903872869/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/903872869/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

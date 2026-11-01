@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3509_Maximum_Product_of_Subsequences_With_an_Alternating_Sum_Equal_to_K;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-444/problems/maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k/submissions/1598122739/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-444/problems/maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k/submissions/1598122739/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

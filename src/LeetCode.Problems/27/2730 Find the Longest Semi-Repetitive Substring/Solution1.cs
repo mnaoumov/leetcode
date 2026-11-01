@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2730_Find_the_Longest_Semi_Repetitive_Substring;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-106/submissions/detail/968103468/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-106/submissions/detail/968103468/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

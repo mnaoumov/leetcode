@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2455_Average_Value_of_Even_Numbers_That_Are_Divisible_by_Three;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-317/submissions/detail/833041477/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-317/submissions/detail/833041477/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

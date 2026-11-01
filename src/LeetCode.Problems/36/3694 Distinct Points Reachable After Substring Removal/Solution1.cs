@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3694_Distinct_Points_Reachable_After_Substring_Removal;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-166/problems/distinct-points-reachable-after-substring-removal/submissions/1784308895/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-166/problems/distinct-points-reachable-after-substring-removal/submissions/1784308895/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

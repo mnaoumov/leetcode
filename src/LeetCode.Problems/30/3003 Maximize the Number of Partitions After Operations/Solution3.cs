@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3003_Maximize_the_Number_of_Partitions_After_Operations;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1139220623/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1139220623/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.StackOverflow)]
 public class Solution3 : ISolution

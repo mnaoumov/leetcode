@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1171_Remove_Zero_Sum_Consecutive_Nodes_from_Linked_List;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1201076579/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1201076579/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

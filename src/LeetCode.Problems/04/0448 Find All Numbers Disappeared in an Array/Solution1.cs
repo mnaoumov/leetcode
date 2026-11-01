@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0448_Find_All_Numbers_Disappeared_in_an_Array;
 
-/// <seealso href="https://leetcode.com/submissions/detail/924357635/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/924357635/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

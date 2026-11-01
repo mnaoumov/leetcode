@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3905_Multi_Source_Flood_Fill;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-498/problems/multi-source-flood-fill/submissions/1982238494/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-498/problems/multi-source-flood-fill/submissions/1982238494/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

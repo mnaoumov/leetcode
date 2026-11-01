@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1878_Get_Biggest_Three_Rhombus_Sums_in_a_Grid;
 
-/// <seealso href="https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/submissions/1949577517/"/>
+/// <seealso href="https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/submissions/1949577517/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

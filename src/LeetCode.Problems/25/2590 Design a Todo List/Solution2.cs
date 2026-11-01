@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2590_Design_a_Todo_List;
 
-/// <seealso href="https://leetcode.com/submissions/detail/917149915/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/917149915/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

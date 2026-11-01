@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2600_K_Items_With_the_Maximum_Sum;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-338/submissions/detail/922162701/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-338/submissions/detail/922162701/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

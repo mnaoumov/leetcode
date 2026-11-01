@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2642_Design_Graph_With_Shortest_Path_Calculator;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-102/submissions/detail/934221388/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-102/submissions/detail/934221388/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution2 : ISolution

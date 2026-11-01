@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1547_Minimum_Cost_to_Cut_a_Stick;
 
-/// <seealso href="https://leetcode.com/submissions/detail/958651696/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/958651696/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

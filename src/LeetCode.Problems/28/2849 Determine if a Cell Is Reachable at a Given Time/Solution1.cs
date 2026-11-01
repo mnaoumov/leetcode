@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2849_Determine_if_a_Cell_Is_Reachable_at_a_Given_Time;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-362/submissions/detail/1045197873/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-362/submissions/detail/1045197873/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1262_Greatest_Sum_Divisible_by_Three;
 
-/// <seealso href="https://leetcode.com/problems/greatest-sum-divisible-by-three/submissions/1837226054/"/>
+/// <seealso href="https://leetcode.com/problems/greatest-sum-divisible-by-three/submissions/1837226054/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

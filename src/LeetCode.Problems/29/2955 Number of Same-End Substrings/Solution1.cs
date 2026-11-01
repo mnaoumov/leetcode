@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2955_Number_of_Same_End_Substrings;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1439445975/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1439445975/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

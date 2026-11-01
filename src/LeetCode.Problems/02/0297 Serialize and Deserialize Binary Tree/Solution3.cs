@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0297_Serialize_and_Deserialize_Binary_Tree;
 
-/// <seealso href="https://leetcode.com/submissions/detail/875922654/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/875922654/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

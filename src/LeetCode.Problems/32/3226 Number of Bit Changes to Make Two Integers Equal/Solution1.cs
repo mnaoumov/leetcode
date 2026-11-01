@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3226_Number_of_Bit_Changes_to_Make_Two_Integers_Equal;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-407/submissions/detail/1327899777/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-407/submissions/detail/1327899777/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

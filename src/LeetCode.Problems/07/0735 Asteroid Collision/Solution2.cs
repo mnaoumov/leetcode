@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0735_Asteroid_Collision;
 
-/// <seealso href="https://leetcode.com/submissions/detail/902692709/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/902692709/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

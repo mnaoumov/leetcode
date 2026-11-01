@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2959_Number_of_Possible_Sets_of_Closing_Branches;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-119/submissions/detail/1115833706/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-119/submissions/detail/1115833706/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

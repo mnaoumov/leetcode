@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2562_Find_the_Array_Concatenation_Value;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-332/submissions/detail/896248929/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-332/submissions/detail/896248929/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

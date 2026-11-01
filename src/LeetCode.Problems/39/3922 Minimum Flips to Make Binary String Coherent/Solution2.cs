@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3922_Minimum_Flips_to_Make_Binary_String_Coherent;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-182/problems/minimum-flips-to-make-binary-string-coherent/submissions/1998955723/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-182/problems/minimum-flips-to-make-binary-string-coherent/submissions/1998955723/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

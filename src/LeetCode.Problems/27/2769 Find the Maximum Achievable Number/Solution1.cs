@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2769_Find_the_Maximum_Achievable_Number;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-353/submissions/detail/989740357/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-353/submissions/detail/989740357/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

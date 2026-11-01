@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3488_Closest_Equal_Element_Queries;
 
-/// <seealso href="https://leetcode.com/problems/closest-equal-element-queries/submissions/1980389204/"/>
+/// <seealso href="https://leetcode.com/problems/closest-equal-element-queries/submissions/1980389204/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2074_Reverse_Nodes_in_Even_Length_Groups;
 
-/// <seealso href="https://leetcode.com/submissions/detail/899421071/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/899421071/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

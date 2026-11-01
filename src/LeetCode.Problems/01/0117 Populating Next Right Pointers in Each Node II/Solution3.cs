@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0117_Populating_Next_Right_Pointers_in_Each_Node_II;
 
-/// <seealso href="https://leetcode.com/submissions/detail/934990656/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/934990656/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

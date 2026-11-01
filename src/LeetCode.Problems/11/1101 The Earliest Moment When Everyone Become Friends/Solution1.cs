@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1101_The_Earliest_Moment_When_Everyone_Become_Friends;
 
-/// <seealso href="https://leetcode.com/submissions/detail/931566213/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/931566213/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

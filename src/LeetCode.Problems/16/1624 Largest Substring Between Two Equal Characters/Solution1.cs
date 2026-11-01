@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1624_Largest_Substring_Between_Two_Equal_Characters;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1132580135/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1132580135/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

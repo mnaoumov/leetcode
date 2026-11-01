@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._1201_Ugly_Number_III;
 
-/// <seealso href="https://leetcode.com/submissions/detail/966456104/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/966456104/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

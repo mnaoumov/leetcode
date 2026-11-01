@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3562_Maximum_Profit_from_Trading_Stocks_with_Discounts;
 
-/// <seealso href="https://leetcode.com/problems/maximum-profit-from-trading-stocks-with-discounts/submissions/1856759248/"/>
+/// <seealso href="https://leetcode.com/problems/maximum-profit-from-trading-stocks-with-discounts/submissions/1856759248/">Submission</seealso>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

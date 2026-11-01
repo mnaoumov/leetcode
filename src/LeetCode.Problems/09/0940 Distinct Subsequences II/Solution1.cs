@@ -3,7 +3,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._0940_Distinct_Subsequences_II;
 
-/// <seealso href="https://leetcode.com/problems/distinct-subsequences-ii/submissions/2134692259/"/>
+/// <seealso href="https://leetcode.com/problems/distinct-subsequences-ii/submissions/2134692259/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

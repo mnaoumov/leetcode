@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1367_Linked_List_in_Binary_Tree;
 
-/// <seealso href="https://leetcode.com/submissions/detail/930975942/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/930975942/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution3 : ISolution

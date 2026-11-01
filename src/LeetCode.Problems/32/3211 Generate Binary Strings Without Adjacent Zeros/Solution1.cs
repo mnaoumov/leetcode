@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3211_Generate_Binary_Strings_Without_Adjacent_Zeros;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-405/submissions/detail/1312290388/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-405/submissions/detail/1312290388/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

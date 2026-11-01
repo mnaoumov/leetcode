@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2567_Minimum_Score_by_Changing_Two_Elements;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-98/submissions/detail/900374141/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-98/submissions/detail/900374141/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

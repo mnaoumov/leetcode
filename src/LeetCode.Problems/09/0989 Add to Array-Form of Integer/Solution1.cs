@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0989_Add_to_Array_Form_of_Integer;
 
-/// <seealso href="https://leetcode.com/submissions/detail/898554601/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/898554601/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0241_Different_Ways_to_Add_Parentheses;
 
-/// <seealso href="https://leetcode.com/submissions/detail/950257043/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/950257043/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

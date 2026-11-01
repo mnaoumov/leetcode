@@ -1,7 +1,7 @@
 namespace LeetCode.Problems._0070_Climbing_Stairs;
 
-/// <seealso href="https://leetcode.com/submissions/detail/820362789/"/>
-/// <seealso href="https://leetcode.com/submissions/detail/858357437/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/820362789/">Submission</seealso>
+/// <seealso href="https://leetcode.com/submissions/detail/858357437/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0278_First_Bad_Version;
 
-/// <seealso href="https://leetcode.com/submissions/detail/923215339/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/923215339/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : VersionControl
 {

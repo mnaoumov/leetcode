@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3086_Minimum_Moves_to_Pick_K_Ones;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1206925023/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1206925023/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution6 : ISolution

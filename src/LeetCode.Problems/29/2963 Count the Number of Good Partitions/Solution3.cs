@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._2963_Count_the_Number_of_Good_Partitions;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1116201512/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1116201512/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

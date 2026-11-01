@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3228_Maximum_Number_of_Operations_to_Move_Ones_to_the_End;
 
-/// <seealso href="https://leetcode.com/problems/maximum-number-of-operations-to-move-ones-to-the-end/submissions/1828873053/"/>
+/// <seealso href="https://leetcode.com/problems/maximum-number-of-operations-to-move-ones-to-the-end/submissions/1828873053/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3068_Find_the_Maximum_Sum_of_Node_Values;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1262002125/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1262002125/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

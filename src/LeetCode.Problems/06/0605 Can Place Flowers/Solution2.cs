@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0605_Can_Place_Flowers;
 
-/// <seealso href="https://leetcode.com/submissions/detail/918526461/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/918526461/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

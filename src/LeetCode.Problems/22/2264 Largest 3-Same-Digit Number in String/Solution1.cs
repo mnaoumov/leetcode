@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2264_Largest_3_Same_Digit_Number_in_String;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1111828842/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1111828842/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

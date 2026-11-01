@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0424_Longest_Repeating_Character_Replacement;
 
-/// <seealso href="https://leetcode.com/submissions/detail/929891805/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/929891805/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0057_Insert_Interval;
 
-/// <seealso href="https://leetcode.com/submissions/detail/819449641/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/819449641/">Submission</seealso>
 [UsedImplicitly]
 public class Solution7 : ISolution
 {

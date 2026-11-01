@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0439_Ternary_Expression_Parser;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1001414011/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1001414011/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

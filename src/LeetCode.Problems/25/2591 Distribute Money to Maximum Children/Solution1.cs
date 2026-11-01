@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2591_Distribute_Money_to_Maximum_Children;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-100/submissions/detail/917446511/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-100/submissions/detail/917446511/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

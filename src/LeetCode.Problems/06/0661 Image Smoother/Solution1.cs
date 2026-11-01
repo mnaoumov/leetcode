@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0661_Image_Smoother;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1123785246/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1123785246/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

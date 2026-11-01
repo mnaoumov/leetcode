@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3537_Fill_a_Special_Grid;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-448/problems/fill-a-special-grid/submissions/1624868010/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-448/problems/fill-a-special-grid/submissions/1624868010/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3194_Minimum_Average_of_Smallest_and_Largest_Elements;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-403/submissions/detail/1297228246/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-403/submissions/detail/1297228246/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2300_Successful_Pairs_of_Spells_and_Potions;
 
-/// <seealso href="https://leetcode.com/submissions/detail/914704840/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/914704840/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution5 : ISolution

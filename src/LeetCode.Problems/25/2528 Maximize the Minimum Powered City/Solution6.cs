@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2528_Maximize_the_Minimum_Powered_City;
 
-/// <seealso href="https://leetcode.com/submissions/detail/874354632/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/874354632/">Submission</seealso>
 [UsedImplicitly]
 public class Solution6 : ISolution
 {

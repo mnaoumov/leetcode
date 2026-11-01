@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2411_Smallest_Subarrays_With_Maximum_Bitwise_OR;
 
-/// <seealso href="https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/submissions/1715286423/"/>
+/// <seealso href="https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/submissions/1715286423/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1121_Divide_Array_Into_Increasing_Sequences;
 
-/// <seealso href="https://leetcode.com/problems/divide-array-into-increasing-sequences/submissions/1785918403/"/>
+/// <seealso href="https://leetcode.com/problems/divide-array-into-increasing-sequences/submissions/1785918403/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

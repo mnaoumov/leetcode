@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0078_Subsets;
 
-/// <seealso href="https://leetcode.com/submissions/detail/821699063/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/821699063/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

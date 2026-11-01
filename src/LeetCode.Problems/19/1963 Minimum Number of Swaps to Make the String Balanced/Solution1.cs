@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._1963_Minimum_Number_of_Swaps_to_Make_the_String_Balanced;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1415330247/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1415330247/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

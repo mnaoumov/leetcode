@@ -2,7 +2,7 @@ using System.Collections.Immutable;
 
 namespace LeetCode.Problems._3123_Find_Edges_in_Shortest_Paths;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-394/submissions/detail/1237860538/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-394/submissions/detail/1237860538/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0212_Word_Search_II;
 
-/// <seealso href="https://leetcode.com/problems/word-search-ii/submissions/837066227/"/>
+/// <seealso href="https://leetcode.com/problems/word-search-ii/submissions/837066227/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

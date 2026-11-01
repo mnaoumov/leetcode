@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1973_Count_Nodes_Equal_to_Sum_of_Descendants;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1189229081/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1189229081/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

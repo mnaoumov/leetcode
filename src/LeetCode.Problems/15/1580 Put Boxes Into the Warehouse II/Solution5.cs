@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1580_Put_Boxes_Into_the_Warehouse_II;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1290709831/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1290709831/">Submission</seealso>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

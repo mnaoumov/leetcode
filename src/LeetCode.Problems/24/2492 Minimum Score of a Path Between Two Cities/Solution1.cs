@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2492_Minimum_Score_of_a_Path_Between_Two_Cities;
 
-/// <seealso href="https://leetcode.com/submissions/detail/854561795/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/854561795/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

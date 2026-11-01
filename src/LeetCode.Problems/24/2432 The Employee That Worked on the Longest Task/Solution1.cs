@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2432_The_Employee_That_Worked_on_the_Longest_Task;
 
-/// <seealso href="https://leetcode.com/submissions/detail/891683486/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/891683486/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

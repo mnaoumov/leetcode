@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3131_Find_the_Integer_Added_to_Array_I;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-395/submissions/detail/1243732099/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-395/submissions/detail/1243732099/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

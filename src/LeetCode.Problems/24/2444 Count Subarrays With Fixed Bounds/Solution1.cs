@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._2444_Count_Subarrays_With_Fixed_Bounds;
 
-/// <seealso href="https://leetcode.com/submissions/detail/823464695/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/823464695/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution1 : ISolution

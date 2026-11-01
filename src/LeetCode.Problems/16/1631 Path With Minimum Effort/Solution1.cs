@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1631_Path_With_Minimum_Effort;
 
-/// <seealso href="https://leetcode.com/submissions/detail/914716309/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/914716309/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

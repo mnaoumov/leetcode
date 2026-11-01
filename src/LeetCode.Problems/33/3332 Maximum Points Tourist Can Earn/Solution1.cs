@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3332_Maximum_Points_Tourist_Can_Earn;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-142/submissions/detail/1434330172/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-142/submissions/detail/1434330172/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.MemoryLimitExceeded)]
 public class Solution1 : ISolution

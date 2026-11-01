@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0081_Search_in_Rotated_Sorted_Array_II;
 
-/// <seealso href="https://leetcode.com/submissions/detail/822495117/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/822495117/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

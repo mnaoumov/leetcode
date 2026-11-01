@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3077_Maximum_Strength_of_K_Disjoint_Subarrays;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-388/submissions/detail/1199196224/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-388/submissions/detail/1199196224/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution3 : ISolution

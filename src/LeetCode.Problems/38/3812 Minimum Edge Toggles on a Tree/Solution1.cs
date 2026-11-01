@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3812_Minimum_Edge_Toggles_on_a_Tree;
 
-/// <seealso href="TODO url"/>
+/// <seealso href="TODO url">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3063_Linked_List_Frequency;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1197151274/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1197151274/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

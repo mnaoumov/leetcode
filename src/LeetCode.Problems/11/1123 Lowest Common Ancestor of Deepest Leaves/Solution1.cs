@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1123_Lowest_Common_Ancestor_of_Deepest_Leaves;
 
-/// <seealso href="https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/submissions/1596273104/"/>
+/// <seealso href="https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/submissions/1596273104/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

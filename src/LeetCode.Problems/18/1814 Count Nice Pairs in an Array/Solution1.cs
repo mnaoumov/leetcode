@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1814_Count_Nice_Pairs_in_an_Array;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1103133657/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1103133657/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

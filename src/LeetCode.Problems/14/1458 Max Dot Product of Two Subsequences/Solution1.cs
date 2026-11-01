@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1458_Max_Dot_Product_of_Two_Subsequences;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1069858859/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1069858859/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

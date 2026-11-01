@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2405_Optimal_Partition_of_String;
 
-/// <seealso href="https://leetcode.com/submissions/detail/914095119/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/914095119/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

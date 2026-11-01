@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3233_Find_the_Count_of_Numbers_Which_Are_Not_Special;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-408/submissions/detail/1335677758/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-408/submissions/detail/1335677758/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

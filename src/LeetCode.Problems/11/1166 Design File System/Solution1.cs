@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1166_Design_File_System;
 
-/// <seealso href="https://leetcode.com/problems/design-file-system/submissions/1735548340/"/>
+/// <seealso href="https://leetcode.com/problems/design-file-system/submissions/1735548340/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

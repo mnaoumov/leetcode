@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1669_Merge_In_Between_Linked_Lists;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1209517231/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1209517231/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

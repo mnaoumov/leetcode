@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2502_Design_Memory_Allocator;
 
-/// <seealso href="https://leetcode.com/submissions/detail/859016671/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/859016671/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

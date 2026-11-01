@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1759_Count_Number_of_Homogenous_Substrings;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1094840650/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1094840650/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2603_Collect_Coins_in_a_Tree;
 
-/// <seealso href="https://leetcode.com/submissions/detail/922208975/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/922208975/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

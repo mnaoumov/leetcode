@@ -4,7 +4,7 @@
 
 namespace LeetCode.Problems._0218_The_Skyline_Problem;
 
-/// <seealso href="https://leetcode.com/submissions/detail/812157965/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/812157965/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

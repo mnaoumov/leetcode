@@ -6,7 +6,7 @@
 
 namespace LeetCode.Problems._2461_Maximum_Sum_of_Distinct_Subarrays_With_Length_K;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-318/submissions/detail/837734210/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-318/submissions/detail/837734210/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

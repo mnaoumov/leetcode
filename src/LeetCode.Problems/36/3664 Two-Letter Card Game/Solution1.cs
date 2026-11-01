@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3664_Two_Letter_Card_Game;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-164/problems/two-letter-card-game/submissions/1753634795/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-164/problems/two-letter-card-game/submissions/1753634795/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3147_Taking_Maximum_Energy_From_the_Mystic_Dungeon;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-397/submissions/detail/1255688703/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-397/submissions/detail/1255688703/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

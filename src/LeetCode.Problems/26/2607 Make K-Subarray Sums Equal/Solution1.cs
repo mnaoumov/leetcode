@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2607_Make_K_Subarray_Sums_Equal;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-101/submissions/detail/925996865/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-101/submissions/detail/925996865/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

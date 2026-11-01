@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0959_Regions_Cut_By_Slashes;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1350551302/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1350551302/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

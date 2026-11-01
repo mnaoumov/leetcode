@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1569_Number_of_Ways_to_Reorder_Array_to_Get_Same_BST;
 
-/// <seealso href="https://leetcode.com/submissions/detail/972346074/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/972346074/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

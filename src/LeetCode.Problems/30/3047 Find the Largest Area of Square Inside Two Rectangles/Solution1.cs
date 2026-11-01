@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3047_Find_the_Largest_Area_of_Square_Inside_Two_Rectangles;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-386/submissions/detail/1185332779/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-386/submissions/detail/1185332779/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

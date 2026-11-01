@@ -1,6 +1,6 @@
 namespace LeetCode.Problems.Calculate_Entropy;
 
-/// <seealso href="https://leetcode.com/submissions/detail/922125152"/>
+/// <seealso href="https://leetcode.com/submissions/detail/922125152">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

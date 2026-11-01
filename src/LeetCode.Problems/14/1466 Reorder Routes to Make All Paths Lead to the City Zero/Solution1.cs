@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1466_Reorder_Routes_to_Make_All_Paths_Lead_to_the_City_Zero;
 
-/// <seealso href="https://leetcode.com/submissions/detail/904442641/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/904442641/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

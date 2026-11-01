@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0463_Island_Perimeter;
 
-/// <seealso href="https://leetcode.com/submissions/detail/906256990/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/906256990/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._0061_Rotate_List;
 
-/// <seealso href="https://leetcode.com/submissions/detail/819499147/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/819499147/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

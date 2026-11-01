@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._0044_Wildcard_Matching;
 
-/// <seealso href="https://leetcode.com/submissions/detail/208757970/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/208757970/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 [UsedImplicitly]
 public class Solution1 : ISolution

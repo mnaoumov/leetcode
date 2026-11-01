@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._2810_Faulty_Keyboard;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-357/submissions/detail/1013403513/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-357/submissions/detail/1013403513/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

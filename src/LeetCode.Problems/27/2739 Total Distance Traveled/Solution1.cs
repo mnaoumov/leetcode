@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2739_Total_Distance_Traveled;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-350/submissions/detail/973681846/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-350/submissions/detail/973681846/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

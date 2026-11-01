@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1654_Minimum_Jumps_to_Reach_Home;
 
-/// <seealso href="https://leetcode.com/submissions/detail/928778550/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/928778550/">Submission</seealso>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

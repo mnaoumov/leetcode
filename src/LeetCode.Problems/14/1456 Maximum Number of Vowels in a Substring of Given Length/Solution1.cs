@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1456_Maximum_Number_of_Vowels_in_a_Substring_of_Given_Length;
 
-/// <seealso href="https://leetcode.com/submissions/detail/898901402/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/898901402/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

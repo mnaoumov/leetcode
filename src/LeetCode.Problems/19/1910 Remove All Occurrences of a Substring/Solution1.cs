@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1910_Remove_All_Occurrences_of_a_Substring;
 
-/// <seealso href="https://leetcode.com/problems/remove-all-occurrences-of-a-substring/submissions/1538768426/"/>
+/// <seealso href="https://leetcode.com/problems/remove-all-occurrences-of-a-substring/submissions/1538768426/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

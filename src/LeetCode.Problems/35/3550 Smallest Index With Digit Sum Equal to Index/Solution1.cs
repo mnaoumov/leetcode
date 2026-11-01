@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3550_Smallest_Index_With_Digit_Sum_Equal_to_Index;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-450/problems/smallest-index-with-digit-sum-equal-to-index/submissions/1636858436/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-450/problems/smallest-index-with-digit-sum-equal-to-index/submissions/1636858436/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

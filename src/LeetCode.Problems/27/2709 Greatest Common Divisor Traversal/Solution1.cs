@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._2709_Greatest_Common_Divisor_Traversal;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-105/submissions/detail/958371647/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-105/submissions/detail/958371647/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3698_Split_Array_With_Minimum_Difference;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-469/problems/split-array-with-minimum-difference/submissions/1784794751/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-469/problems/split-array-with-minimum-difference/submissions/1784794751/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

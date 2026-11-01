@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0445_Add_Two_Numbers_II;
 
-/// <seealso href="https://leetcode.com/submissions/detail/951007276/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/951007276/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

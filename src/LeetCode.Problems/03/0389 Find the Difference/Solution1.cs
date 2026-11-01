@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0389_Find_the_Difference;
 
-/// <seealso href="https://leetcode.com/submissions/detail/927557820/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/927557820/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

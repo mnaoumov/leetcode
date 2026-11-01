@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3495_Minimum_Operations_to_Make_Array_Elements_Zero;
 
-/// <seealso href="https://leetcode.com/problems/minimum-operations-to-make-array-elements-zero/submissions/1760983897/"/>
+/// <seealso href="https://leetcode.com/problems/minimum-operations-to-make-array-elements-zero/submissions/1760983897/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

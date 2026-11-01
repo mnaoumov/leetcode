@@ -4,7 +4,7 @@
 
 namespace LeetCode.Problems._0004_Median_of_Two_Sorted_Arrays;
 
-/// <seealso href="https://leetcode.com/submissions/detail/807278399/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/807278399/">Submission</seealso>
 [UsedImplicitly]
 public class Solution12 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3031_Minimum_Time_to_Revert_Word_to_Initial_State_II;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-383/submissions/detail/1165442041/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-383/submissions/detail/1165442041/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1489_Find_Critical_and_Pseudo_Critical_Edges_in_Minimum_Spanning_Tree;
 
-/// <seealso href="https://leetcode.com/submissions/detail/940761304/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/940761304/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

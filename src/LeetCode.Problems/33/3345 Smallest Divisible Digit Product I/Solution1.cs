@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3345_Smallest_Divisible_Digit_Product_I;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-143/submissions/detail/1447669457/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-143/submissions/detail/1447669457/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

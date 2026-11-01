@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2816_Double_a_Number_Represented_as_a_Linked_List;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-358/submissions/detail/1019748802/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-358/submissions/detail/1019748802/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

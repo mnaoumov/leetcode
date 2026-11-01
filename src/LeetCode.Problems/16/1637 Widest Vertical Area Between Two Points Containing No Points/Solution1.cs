@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1637_Widest_Vertical_Area_Between_Two_Points_Containing_No_Points;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1124802013/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1124802013/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

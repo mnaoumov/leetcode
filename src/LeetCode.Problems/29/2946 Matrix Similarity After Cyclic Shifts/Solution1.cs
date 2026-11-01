@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2946_Matrix_Similarity_After_Cyclic_Shifts;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-373/submissions/detail/1106458692/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-373/submissions/detail/1106458692/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

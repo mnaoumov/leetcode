@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._1048_Longest_String_Chain;
 
-/// <seealso href="https://leetcode.com/submissions/detail/940379544/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/940379544/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

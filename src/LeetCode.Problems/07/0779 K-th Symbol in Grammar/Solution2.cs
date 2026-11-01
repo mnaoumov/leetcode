@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0779_K_th_Symbol_in_Grammar;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1083494577/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1083494577/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

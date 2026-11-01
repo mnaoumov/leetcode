@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1964_Find_the_Longest_Valid_Obstacle_Course_at_Each_Position;
 
-/// <seealso href="https://leetcode.com/submissions/detail/945745778/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/945745778/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

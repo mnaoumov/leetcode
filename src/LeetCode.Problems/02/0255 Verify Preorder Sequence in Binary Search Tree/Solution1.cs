@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0255_Verify_Preorder_Sequence_in_Binary_Search_Tree;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1227192319/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1227192319/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

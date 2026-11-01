@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2472_Maximum_Number_of_Non_overlapping_Palindrome_Substrings;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-319/submissions/detail/842372672/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-319/submissions/detail/842372672/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

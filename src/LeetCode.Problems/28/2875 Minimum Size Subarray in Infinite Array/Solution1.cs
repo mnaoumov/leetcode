@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2875_Minimum_Size_Subarray_in_Infinite_Array;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1063692877/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1063692877/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.MemoryLimitExceeded)]
 public class Solution1 : ISolution

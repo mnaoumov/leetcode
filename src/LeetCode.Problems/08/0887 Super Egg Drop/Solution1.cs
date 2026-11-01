@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0887_Super_Egg_Drop;
 
-/// <seealso href="https://leetcode.com/submissions/detail/947562146/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/947562146/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

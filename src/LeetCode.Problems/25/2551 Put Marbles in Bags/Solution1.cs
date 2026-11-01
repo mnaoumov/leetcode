@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2551_Put_Marbles_in_Bags;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-330/submissions/detail/887182997/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-330/submissions/detail/887182997/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

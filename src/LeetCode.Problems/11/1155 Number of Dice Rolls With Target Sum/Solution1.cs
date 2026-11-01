@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1155_Number_of_Dice_Rolls_With_Target_Sum;
 
-/// <seealso href="https://leetcode.com/submissions/detail/813662085/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/813662085/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

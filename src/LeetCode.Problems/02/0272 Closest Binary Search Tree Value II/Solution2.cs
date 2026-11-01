@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0272_Closest_Binary_Search_Tree_Value_II;
 
-/// <seealso href="https://leetcode.com/problems/closest-binary-search-tree-value-ii/submissions/1715323289/"/>
+/// <seealso href="https://leetcode.com/problems/closest-binary-search-tree-value-ii/submissions/1715323289/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

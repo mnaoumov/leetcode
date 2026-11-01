@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2466_Count_Ways_To_Build_Good_Strings;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-91/submissions/detail/842003813/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-91/submissions/detail/842003813/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

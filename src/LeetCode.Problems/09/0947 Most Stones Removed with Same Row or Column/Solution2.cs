@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0947_Most_Stones_Removed_with_Same_Row_or_Column;
 
-/// <seealso href="https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/submissions/843560819/"/>
+/// <seealso href="https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/submissions/843560819/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

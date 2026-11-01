@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3112_Minimum_Time_to_Visit_Disappearing_Nodes;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-128/submissions/detail/1231255508/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-128/submissions/detail/1231255508/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

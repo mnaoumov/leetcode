@@ -3,8 +3,8 @@
 #pragma warning disable
 namespace LeetCode.Problems._0621_Task_Scheduler;
 
-/// <seealso href="https://leetcode.com/submissions/detail/196716359/"/>
-/// <seealso href="https://leetcode.com/submissions/detail/818856201/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/196716359/">Submission</seealso>
+/// <seealso href="https://leetcode.com/submissions/detail/818856201/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3_6 : ISolution
 {

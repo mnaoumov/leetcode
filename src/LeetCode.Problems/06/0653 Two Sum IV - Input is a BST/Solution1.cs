@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._0653_Two_Sum_IV___Input_is_a_BST;
 
-/// <seealso href="https://leetcode.com/submissions/detail/818383631/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/818383631/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

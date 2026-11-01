@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3234_Count_the_Number_of_Substrings_With_Dominant_Ones;
 
-/// <seealso href="https://leetcode.com/problems/count-the-number-of-substrings-with-dominant-ones/submissions/1830460875/"/>
+/// <seealso href="https://leetcode.com/problems/count-the-number-of-substrings-with-dominant-ones/submissions/1830460875/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

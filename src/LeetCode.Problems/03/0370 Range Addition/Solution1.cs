@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0370_Range_Addition;
 
-/// <seealso href="https://leetcode.com/problems/range-addition/submissions/1842115387/?envType=weekly-question"/>
+/// <seealso href="https://leetcode.com/problems/range-addition/submissions/1842115387/?envType=weekly-question">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

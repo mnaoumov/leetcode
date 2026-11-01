@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1490_Clone_N_ary_Tree;
 
-/// <seealso href="https://leetcode.com/problems/clone-n-ary-tree/submissions/2051648772/"/>
+/// <seealso href="https://leetcode.com/problems/clone-n-ary-tree/submissions/2051648772/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3813_Vowel_Consonant_Score;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-485/problems/vowel-consonant-score/submissions/1888374208/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-485/problems/vowel-consonant-score/submissions/1888374208/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

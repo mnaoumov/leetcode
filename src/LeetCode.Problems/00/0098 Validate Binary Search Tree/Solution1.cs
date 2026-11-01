@@ -3,7 +3,7 @@
 #pragma warning disable
 namespace LeetCode.Problems._0098_Validate_Binary_Search_Tree;
 
-/// <seealso href="https://leetcode.com/submissions/detail/200144698/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/200144698/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution1 : ISolution

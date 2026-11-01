@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2640_Find_the_Score_of_All_Prefixes_of_an_Array;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-102/submissions/detail/934172482/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-102/submissions/detail/934172482/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._2734_Lexicographically_Smallest_String_After_Substring_Operation;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-349/submissions/detail/968503921/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-349/submissions/detail/968503921/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

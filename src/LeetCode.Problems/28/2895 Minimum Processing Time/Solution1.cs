@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2895_Minimum_Processing_Time;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-366/submissions/detail/1069764479/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-366/submissions/detail/1069764479/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

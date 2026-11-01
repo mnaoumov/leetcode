@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2798_Number_of_Employees_Who_Met_the_Target;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-356/submissions/detail/1007319004/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-356/submissions/detail/1007319004/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

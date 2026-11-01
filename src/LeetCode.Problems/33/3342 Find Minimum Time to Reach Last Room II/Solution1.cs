@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3342_Find_Minimum_Time_to_Reach_Last_Room_II;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-422/submissions/detail/1441345299/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-422/submissions/detail/1441345299/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

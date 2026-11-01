@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1319_Number_of_Operations_to_Make_Network_Connected;
 
-/// <seealso href="https://leetcode.com/submissions/detail/920491120/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/920491120/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

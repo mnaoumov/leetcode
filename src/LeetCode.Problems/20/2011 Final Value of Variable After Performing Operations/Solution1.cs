@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2011_Final_Value_of_Variable_After_Performing_Operations;
 
-/// <seealso href="https://leetcode.com/problems/final-value-of-variable-after-performing-operations/submissions/1806331713/"/>
+/// <seealso href="https://leetcode.com/problems/final-value-of-variable-after-performing-operations/submissions/1806331713/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

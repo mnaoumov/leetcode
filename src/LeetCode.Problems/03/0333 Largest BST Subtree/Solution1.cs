@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0333_Largest_BST_Subtree;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1072292232/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1072292232/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

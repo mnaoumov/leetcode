@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1342_Number_of_Steps_to_Reduce_a_Number_to_Zero;
 
-/// <seealso href="https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/submissions/845591907/"/>
+/// <seealso href="https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/submissions/845591907/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3485_Longest_Common_Prefix_of_K_Strings_After_Removal;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-152/problems/longest-common-prefix-of-k-strings-after-removal/submissions/1574626085/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-152/problems/longest-common-prefix-of-k-strings-after-removal/submissions/1574626085/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0622_Design_Circular_Queue;
 
-/// <seealso href="https://leetcode.com/submissions/detail/807894085/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/807894085/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

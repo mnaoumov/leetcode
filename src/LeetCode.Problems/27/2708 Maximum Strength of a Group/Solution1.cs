@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2708_Maximum_Strength_of_a_Group;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-105/submissions/detail/958362941/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-105/submissions/detail/958362941/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

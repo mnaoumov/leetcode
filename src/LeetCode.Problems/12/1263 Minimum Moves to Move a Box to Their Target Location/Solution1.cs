@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1263_Minimum_Moves_to_Move_a_Box_to_Their_Target_Location;
 
-/// <seealso href="https://leetcode.com/submissions/detail/969852317/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/969852317/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

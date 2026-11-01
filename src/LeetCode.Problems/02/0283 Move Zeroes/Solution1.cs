@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0283_Move_Zeroes;
 
-/// <seealso href="https://leetcode.com/submissions/detail/898890885/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/898890885/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

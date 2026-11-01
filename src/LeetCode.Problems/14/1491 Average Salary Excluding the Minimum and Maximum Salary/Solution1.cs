@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1491_Average_Salary_Excluding_the_Minimum_and_Maximum_Salary;
 
-/// <seealso href="https://leetcode.com/submissions/detail/923917209/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/923917209/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

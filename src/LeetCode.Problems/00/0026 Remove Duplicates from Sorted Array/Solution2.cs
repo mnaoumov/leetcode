@@ -1,7 +1,7 @@
 namespace LeetCode.Problems._0026_Remove_Duplicates_from_Sorted_Array;
 
-/// <seealso href="https://leetcode.com/submissions/detail/829013575/"/>
-/// <seealso href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/841077699/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/829013575/">Submission</seealso>
+/// <seealso href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/841077699/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

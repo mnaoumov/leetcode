@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3388_Count_Beautiful_Splits_in_an_Array;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1479099997/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1479099997/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

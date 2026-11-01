@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0124_Binary_Tree_Maximum_Path_Sum;
 
-/// <seealso href="https://leetcode.com/submissions/detail/836382102/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/836382102/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution3 : ISolution

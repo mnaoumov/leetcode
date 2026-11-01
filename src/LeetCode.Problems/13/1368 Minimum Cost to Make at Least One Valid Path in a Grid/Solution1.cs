@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1368_Minimum_Cost_to_Make_at_Least_One_Valid_Path_in_a_Grid;
 
-/// <seealso href="https://leetcode.com/submissions/detail/942827176/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/942827176/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

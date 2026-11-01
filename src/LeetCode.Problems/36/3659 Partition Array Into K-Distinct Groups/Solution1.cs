@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3659_Partition_Array_Into_K_Distinct_Groups;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-464/problems/partition-array-into-k-distinct-groups/submissions/1746021711/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-464/problems/partition-array-into-k-distinct-groups/submissions/1746021711/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

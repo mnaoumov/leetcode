@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3538_Merge_Operations_for_Minimum_Travel_Time;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-448/problems/merge-operations-for-minimum-travel-time/submissions/1624918937/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-448/problems/merge-operations-for-minimum-travel-time/submissions/1624918937/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

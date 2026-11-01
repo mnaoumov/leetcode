@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._1498_Number_of_Subsequences_That_Satisfy_the_Given_Sum_Condition;
 
-/// <seealso href="https://leetcode.com/submissions/detail/945270115/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/945270115/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

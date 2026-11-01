@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2136_Earliest_Possible_Day_of_Full_Bloom;
 
-/// <seealso href="https://leetcode.com/submissions/detail/832973774/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/832973774/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

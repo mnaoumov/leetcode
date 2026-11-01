@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3650_Minimum_Cost_Path_with_Edge_Reversals;
 
-/// <seealso href="https://leetcode.com/problems/minimum-cost-path-with-edge-reversals/submissions/1898152425/"/>
+/// <seealso href="https://leetcode.com/problems/minimum-cost-path-with-edge-reversals/submissions/1898152425/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

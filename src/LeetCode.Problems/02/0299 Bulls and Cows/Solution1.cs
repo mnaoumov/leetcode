@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0299_Bulls_and_Cows;
 
-/// <seealso href="https://leetcode.com/submissions/detail/930348811/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/930348811/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

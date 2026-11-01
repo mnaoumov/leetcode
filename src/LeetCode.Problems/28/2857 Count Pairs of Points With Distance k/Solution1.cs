@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2857_Count_Pairs_of_Points_With_Distance_k;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-113/submissions/detail/1051021949/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-113/submissions/detail/1051021949/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

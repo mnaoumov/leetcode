@@ -3,7 +3,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3559_Number_of_Ways_to_Assign_Edge_Weights_II;
 
-/// <seealso href="https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-ii/submissions/2030289678/"/>
+/// <seealso href="https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-ii/submissions/2030289678/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

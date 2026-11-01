@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._3853_Merge_Close_Characters;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-177/problems/merge-close-characters/submissions/1933745481/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-177/problems/merge-close-characters/submissions/1933745481/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

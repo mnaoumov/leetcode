@@ -4,7 +4,7 @@
 
 namespace LeetCode.Problems._0838_Push_Dominoes;
 
-/// <seealso href="https://leetcode.com/submissions/detail/809510320/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/809510320/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

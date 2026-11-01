@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0951_Flip_Equivalent_Binary_Trees;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1431931262/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1431931262/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

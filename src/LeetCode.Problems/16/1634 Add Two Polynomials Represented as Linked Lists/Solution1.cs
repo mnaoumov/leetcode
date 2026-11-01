@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1634_Add_Two_Polynomials_Represented_as_Linked_Lists;
 
-/// <seealso href="https://leetcode.com/submissions/detail/946348592/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/946348592/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

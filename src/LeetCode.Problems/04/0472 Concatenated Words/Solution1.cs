@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0472_Concatenated_Words;
 
-/// <seealso href="https://leetcode.com/submissions/detail/885982567/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/885982567/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

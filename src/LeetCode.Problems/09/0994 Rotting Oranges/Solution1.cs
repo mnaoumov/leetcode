@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0994_Rotting_Oranges;
 
-/// <seealso href="https://leetcode.com/submissions/detail/906888506/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/906888506/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

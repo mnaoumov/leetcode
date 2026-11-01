@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0326_Power_of_Three;
 
-/// <seealso href="https://leetcode.com/submissions/detail/923280427/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/923280427/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

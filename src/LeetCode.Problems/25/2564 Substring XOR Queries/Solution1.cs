@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2564_Substring_XOR_Queries;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-332/submissions/detail/896313651/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-332/submissions/detail/896313651/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

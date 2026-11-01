@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3459_Length_of_Longest_V_Shaped_Diagonal_Segment;
 
-/// <seealso href="https://leetcode.com/problems/length-of-longest-v-shaped-diagonal-segment/submissions/1749617567/"/>
+/// <seealso href="https://leetcode.com/problems/length-of-longest-v-shaped-diagonal-segment/submissions/1749617567/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

@@ -2,7 +2,7 @@ using System.Collections.Immutable;
 
 namespace LeetCode.Problems._3568_Minimum_Moves_to_Clean_the_Classroom;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-452/problems/minimum-moves-to-clean-the-classroom/submissions/1650324953/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-452/problems/minimum-moves-to-clean-the-classroom/submissions/1650324953/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2316_Count_Unreachable_Pairs_of_Nodes_in_an_Undirected_Graph;
 
-/// <seealso href="https://leetcode.com/submissions/detail/921605593/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/921605593/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

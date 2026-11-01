@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1346_Check_If_N_and_Its_Double_Exist;
 
-/// <seealso href="https://leetcode.com/submissions/detail/928130601/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/928130601/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

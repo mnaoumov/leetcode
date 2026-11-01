@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0499_The_Maze_III;
 
-/// <seealso href="https://leetcode.com/submissions/detail/942961271/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/942961271/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

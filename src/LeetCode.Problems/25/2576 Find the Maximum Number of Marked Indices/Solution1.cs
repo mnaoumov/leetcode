@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2576_Find_the_Maximum_Number_of_Marked_Indices;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-334/submissions/detail/905027708/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-334/submissions/detail/905027708/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

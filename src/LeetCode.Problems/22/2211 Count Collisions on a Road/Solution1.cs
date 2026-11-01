@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2211_Count_Collisions_on_a_Road;
 
-/// <seealso href="https://leetcode.com/problems/count-collisions-on-a-road/submissions/1846371446/"/>
+/// <seealso href="https://leetcode.com/problems/count-collisions-on-a-road/submissions/1846371446/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

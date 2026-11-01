@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0268_Missing_Number;
 
-/// <seealso href="https://leetcode.com/submissions/detail/856307358/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/856307358/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3840_House_Robber_V;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-176/problems/house-robber-v/submissions/1919040829/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-176/problems/house-robber-v/submissions/1919040829/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2647_Color_the_Triangle_Red;
 
-/// <seealso href="https://leetcode.com/submissions/detail/957270181/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/957270181/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3810_Minimum_Operations_to_Reach_Target_Array;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-174/problems/minimum-operations-to-reach-target-array/submissions/1887860224/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-174/problems/minimum-operations-to-reach-target-array/submissions/1887860224/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

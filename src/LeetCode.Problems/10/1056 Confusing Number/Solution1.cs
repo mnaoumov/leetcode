@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1056_Confusing_Number;
 
-/// <seealso href="https://leetcode.com/submissions/detail/875156796/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/875156796/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

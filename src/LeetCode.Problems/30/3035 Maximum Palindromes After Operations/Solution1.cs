@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3035_Maximum_Palindromes_After_Operations;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1171919800/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1171919800/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

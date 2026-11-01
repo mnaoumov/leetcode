@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0879_Profitable_Schemes;
 
-/// <seealso href="https://leetcode.com/submissions/detail/937647551/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/937647551/">Submission</seealso>
 [UsedImplicitly]
 public class Solution6 : ISolution
 {

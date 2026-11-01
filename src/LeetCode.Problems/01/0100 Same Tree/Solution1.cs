@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0100_Same_Tree;
 
-/// <seealso href="https://leetcode.com/submissions/detail/829672106/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/829672106/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

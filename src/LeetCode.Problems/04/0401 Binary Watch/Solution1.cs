@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0401_Binary_Watch;
 
-/// <seealso href="https://leetcode.com/problems/binary-watch/submissions/1921652804/"/>
+/// <seealso href="https://leetcode.com/problems/binary-watch/submissions/1921652804/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

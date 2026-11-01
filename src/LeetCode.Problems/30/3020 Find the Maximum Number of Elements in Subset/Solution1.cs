@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3020_Find_the_Maximum_Number_of_Elements_in_Subset;
 
-/// <seealso href="https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/submissions/2047382042/"/>
+/// <seealso href="https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/submissions/2047382042/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

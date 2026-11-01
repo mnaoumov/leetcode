@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0309_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown;
 
-/// <seealso href="https://leetcode.com/submissions/detail/834070250/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/834070250/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

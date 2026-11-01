@@ -2,7 +2,7 @@ using System.Diagnostics;
 
 namespace LeetCode.Problems._0060_Permutation_Sequence;
 
-/// <seealso href="https://leetcode.com/submissions/detail/819486577/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/819486577/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

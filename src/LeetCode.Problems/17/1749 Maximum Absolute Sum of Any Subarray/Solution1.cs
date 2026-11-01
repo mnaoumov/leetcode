@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1749_Maximum_Absolute_Sum_of_Any_Subarray;
 
-/// <seealso href="https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/submissions/1555525518/"/>
+/// <seealso href="https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/submissions/1555525518/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

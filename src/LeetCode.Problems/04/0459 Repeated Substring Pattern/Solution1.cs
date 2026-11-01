@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0459_Repeated_Substring_Pattern;
 
-/// <seealso href="https://leetcode.com/submissions/detail/930966269/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/930966269/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

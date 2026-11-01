@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2592_Maximize_Greatness_of_an_Array;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-100/submissions/detail/917502603/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-100/submissions/detail/917502603/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

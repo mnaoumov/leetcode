@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2073_Time_Needed_to_Buy_Tickets;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1227301885/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1227301885/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

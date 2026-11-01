@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2965_Find_Missing_and_Repeated_Values;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-376/submissions/detail/1121421000/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-376/submissions/detail/1121421000/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3002_Maximum_Size_of_a_Set_After_Removals;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-379/submissions/detail/1139146908/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-379/submissions/detail/1139146908/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

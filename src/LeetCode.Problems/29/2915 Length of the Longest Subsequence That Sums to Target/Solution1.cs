@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2915_Length_of_the_Longest_Subsequence_That_Sums_to_Target;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-116/submissions/detail/1086099637/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-116/submissions/detail/1086099637/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

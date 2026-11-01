@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0386_Lexicographical_Numbers;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1396959669/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1396959669/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

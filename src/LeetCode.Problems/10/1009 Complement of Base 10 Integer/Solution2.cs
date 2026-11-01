@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1009_Complement_of_Base_10_Integer;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1364178123/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1364178123/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2864_Maximum_Odd_Binary_Number;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1190168861/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1190168861/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

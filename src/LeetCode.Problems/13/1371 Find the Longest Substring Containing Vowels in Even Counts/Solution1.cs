@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1371_Find_the_Longest_Substring_Containing_Vowels_in_Even_Counts;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1390435670/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1390435670/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

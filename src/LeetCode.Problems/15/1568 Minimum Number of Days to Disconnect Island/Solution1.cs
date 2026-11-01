@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1568_Minimum_Number_of_Days_to_Disconnect_Island;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1351507634/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1351507634/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

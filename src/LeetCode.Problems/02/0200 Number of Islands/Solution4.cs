@@ -6,7 +6,7 @@
 
 namespace LeetCode.Problems._0200_Number_of_Islands;
 
-/// <seealso href="https://leetcode.com/submissions/detail/197115268/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/197115268/">Submission</seealso>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

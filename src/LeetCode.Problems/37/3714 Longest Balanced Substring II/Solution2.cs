@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3714_Longest_Balanced_Substring_II;
 
-/// <seealso href="https://leetcode.com/problems/longest-balanced-substring-ii/submissions/1917599690/"/>
+/// <seealso href="https://leetcode.com/problems/longest-balanced-substring-ii/submissions/1917599690/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

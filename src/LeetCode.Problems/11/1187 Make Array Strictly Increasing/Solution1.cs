@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1187_Make_Array_Strictly_Increasing;
 
-/// <seealso href="https://leetcode.com/submissions/detail/973353104/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/973353104/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

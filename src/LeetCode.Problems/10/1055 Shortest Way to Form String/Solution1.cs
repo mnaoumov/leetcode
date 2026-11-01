@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1055_Shortest_Way_to_Form_String;
 
-/// <seealso href="https://leetcode.com/submissions/detail/911193523/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/911193523/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

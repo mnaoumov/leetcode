@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0513_Find_Bottom_Left_Tree_Value;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1188867854/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1188867854/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

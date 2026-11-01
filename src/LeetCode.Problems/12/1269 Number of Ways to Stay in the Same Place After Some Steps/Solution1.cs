@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1269_Number_of_Ways_to_Stay_in_the_Same_Place_After_Some_Steps;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1075384814/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1075384814/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1287_Element_Appearing_More_Than_25__In_Sorted_Array;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1116946754/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1116946754/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

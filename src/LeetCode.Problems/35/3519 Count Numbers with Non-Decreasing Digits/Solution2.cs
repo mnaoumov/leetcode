@@ -3,7 +3,7 @@ using System.Text;
 
 namespace LeetCode.Problems._3519_Count_Numbers_with_Non_Decreasing_Digits;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-445/problems/count-numbers-with-non-decreasing-digits/submissions/1605228401/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-445/problems/count-numbers-with-non-decreasing-digits/submissions/1605228401/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

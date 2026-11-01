@@ -4,7 +4,7 @@
 
 namespace LeetCode.Problems._0075_Sort_Colors;
 
-/// <seealso href="https://leetcode.com/submissions/detail/196742943/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/196742943/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

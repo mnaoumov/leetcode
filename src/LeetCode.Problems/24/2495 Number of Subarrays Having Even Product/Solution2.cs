@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2495_Number_of_Subarrays_Having_Even_Product;
 
-/// <seealso href="https://leetcode.com/submissions/detail/870035382/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/870035382/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

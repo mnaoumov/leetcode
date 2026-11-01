@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2581_Count_Number_of_Possible_Root_Nodes;
 
-/// <seealso href="https://leetcode.com/submissions/detail/909068239/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/909068239/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

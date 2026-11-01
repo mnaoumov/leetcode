@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3932_Count_K_th_Roots_in_a_Range;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-502/problems/count-k-th-roots-in-a-range/submissions/2005047980/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-502/problems/count-k-th-roots-in-a-range/submissions/2005047980/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution2 : ISolution

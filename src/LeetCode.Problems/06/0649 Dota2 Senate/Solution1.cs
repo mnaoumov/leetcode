@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0649_Dota2_Senate;
 
-/// <seealso href="https://leetcode.com/submissions/detail/903209412/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/903209412/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3603_Minimum_Cost_Path_with_Alternating_Directions_II;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-160/problems/minimum-cost-path-with-alternating-directions-ii/submissions/1687352285/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-160/problems/minimum-cost-path-with-alternating-directions-ii/submissions/1687352285/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.MemoryLimitExceeded)]
 public class Solution1 : ISolution

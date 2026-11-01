@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2491_Divide_Players_Into_Teams_of_Equal_Skill;
 
-/// <seealso href="https://leetcode.com/submissions/detail/856184774/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/856184774/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

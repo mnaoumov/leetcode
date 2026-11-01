@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2829_Determine_the_Minimum_Sum_of_a_k_avoiding_Array;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-359/submissions/detail/1026275507/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-359/submissions/detail/1026275507/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

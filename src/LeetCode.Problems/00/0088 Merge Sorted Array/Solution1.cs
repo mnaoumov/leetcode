@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0088_Merge_Sorted_Array;
 
-/// <seealso href="https://leetcode.com/submissions/detail/827634475/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/827634475/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

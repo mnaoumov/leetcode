@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1482_Minimum_Number_of_Days_to_Make_m_Bouquets;
 
-/// <seealso href="https://leetcode.com/submissions/detail/915440388/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/915440388/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

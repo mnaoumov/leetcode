@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3066_Minimum_Operations_to_Exceed_Threshold_Value_II;
 
-/// <seealso href="https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/submissions/1541157324/"/>
+/// <seealso href="https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/submissions/1541157324/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

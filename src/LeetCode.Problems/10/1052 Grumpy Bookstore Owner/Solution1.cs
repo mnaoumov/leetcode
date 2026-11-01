@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1052_Grumpy_Bookstore_Owner;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1295114461/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1295114461/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

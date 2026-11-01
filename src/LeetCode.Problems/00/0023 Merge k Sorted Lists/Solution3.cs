@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0023_Merge_k_Sorted_Lists;
 
-/// <seealso href="https://leetcode.com/submissions/detail/829010419/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/829010419/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution3 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2572_Count_the_Number_of_Square_Free_Subsets;
 
-/// <seealso href="https://leetcode.com/submissions/detail/901614275/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/901614275/">Submission</seealso>
 [UsedImplicitly]
 public class Solution6 : ISolution
 {

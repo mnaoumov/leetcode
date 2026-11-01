@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2925_Maximum_Score_After_Applying_Operations_on_a_Tree;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-370/submissions/detail/1091715452/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-370/submissions/detail/1091715452/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

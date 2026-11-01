@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0760_Find_Anagram_Mappings;
 
-/// <seealso href="https://leetcode.com/submissions/detail/925744434/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/925744434/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

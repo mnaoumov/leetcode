@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3567_Minimum_Absolute_Difference_in_Sliding_Submatrix;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-452/problems/minimum-absolute-difference-in-sliding-submatrix/submissions/1650265422/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-452/problems/minimum-absolute-difference-in-sliding-submatrix/submissions/1650265422/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

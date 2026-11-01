@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2534_Time_Taken_to_Cross_the_Door;
 
-/// <seealso href="https://leetcode.com/submissions/detail/881008805/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/881008805/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

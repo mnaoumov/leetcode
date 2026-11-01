@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3663_Find_The_Least_Frequent_Digit;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-164/problems/find-the-least-frequent-digit/submissions/1753614964/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-164/problems/find-the-least-frequent-digit/submissions/1753614964/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

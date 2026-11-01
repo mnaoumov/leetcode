@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0089_Gray_Code;
 
-/// <seealso href="https://leetcode.com/submissions/detail/829073789/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/829073789/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

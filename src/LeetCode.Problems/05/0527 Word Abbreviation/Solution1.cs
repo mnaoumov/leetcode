@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0527_Word_Abbreviation;
 
-/// <seealso href="https://leetcode.com/problems/word-abbreviation/submissions/1706633204/"/>
+/// <seealso href="https://leetcode.com/problems/word-abbreviation/submissions/1706633204/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

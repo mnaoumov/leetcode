@@ -3,7 +3,7 @@
 #pragma warning disable
 namespace LeetCode.Problems._0142_Linked_List_Cycle_II;
 
-/// <seealso href="https://leetcode.com/submissions/detail/195967416/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/195967416/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 [UsedImplicitly]
 public class Solution1 : ISolution

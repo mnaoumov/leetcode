@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2644_Find_the_Maximum_Divisibility_Score;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-341/submissions/detail/934450982/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-341/submissions/detail/934450982/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

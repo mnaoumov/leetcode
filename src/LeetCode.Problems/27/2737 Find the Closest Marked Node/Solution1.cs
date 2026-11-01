@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2737_Find_the_Closest_Marked_Node;
 
-/// <seealso href="https://leetcode.com/problems/find-the-closest-marked-node/submissions/1581843517/"/>
+/// <seealso href="https://leetcode.com/problems/find-the-closest-marked-node/submissions/1581843517/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

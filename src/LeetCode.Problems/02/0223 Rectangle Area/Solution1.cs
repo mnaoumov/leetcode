@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0223_Rectangle_Area;
 
-/// <seealso href="https://leetcode.com/problems/rectangle-area/submissions/844939990/"/>
+/// <seealso href="https://leetcode.com/problems/rectangle-area/submissions/844939990/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

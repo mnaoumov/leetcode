@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0694_Number_of_Distinct_Islands;
 
-/// <seealso href="https://leetcode.com/submissions/detail/970846563/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/970846563/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2275_Largest_Combination_With_Bitwise_AND_Greater_Than_Zero;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1445398608/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1445398608/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

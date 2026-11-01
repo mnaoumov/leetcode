@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1283_Find_the_Smallest_Divisor_Given_a_Threshold;
 
-/// <seealso href="https://leetcode.com/submissions/detail/915116979/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/915116979/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

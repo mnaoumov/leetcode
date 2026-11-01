@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._2818_Apply_Operations_to_Maximize_Score;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-358/submissions/detail/1019826477/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-358/submissions/detail/1019826477/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

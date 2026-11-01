@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2044_Count_Number_of_Maximum_Bitwise_OR_Subsets;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1425941674/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1425941674/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

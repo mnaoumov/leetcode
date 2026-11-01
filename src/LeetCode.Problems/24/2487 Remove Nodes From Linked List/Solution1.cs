@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2487_Remove_Nodes_From_Linked_List;
 
-/// <seealso href="https://leetcode.com/submissions/detail/850807006/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/850807006/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

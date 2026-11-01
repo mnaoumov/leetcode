@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2532_Time_to_Cross_a_Bridge;
 
-/// <seealso href="https://leetcode.com/submissions/detail/874261425/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/874261425/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

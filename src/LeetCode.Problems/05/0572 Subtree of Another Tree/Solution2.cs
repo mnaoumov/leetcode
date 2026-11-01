@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0572_Subtree_of_Another_Tree;
 
-/// <seealso href="https://leetcode.com/submissions/detail/935055140/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/935055140/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1060_Missing_Element_in_Sorted_Array;
 
-/// <seealso href="https://leetcode.com/submissions/detail/942983899/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/942983899/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

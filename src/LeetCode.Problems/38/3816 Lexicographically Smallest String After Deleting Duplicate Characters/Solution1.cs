@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3816_Lexicographically_Smallest_String_After_Deleting_Duplicate_Characters;
 
-/// <seealso href="TODO url"/>
+/// <seealso href="TODO url">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

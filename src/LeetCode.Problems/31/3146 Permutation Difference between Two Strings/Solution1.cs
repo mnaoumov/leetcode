@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3146_Permutation_Difference_between_Two_Strings;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-397/submissions/detail/1255677241/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-397/submissions/detail/1255677241/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

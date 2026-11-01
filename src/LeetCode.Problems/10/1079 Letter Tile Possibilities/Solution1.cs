@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1079_Letter_Tile_Possibilities;
 
-/// <seealso href="https://leetcode.com/submissions/detail/925758430/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/925758430/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

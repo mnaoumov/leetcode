@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2909_Minimum_Sum_of_Mountain_Triplets_II;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-368/submissions/detail/1081004265/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-368/submissions/detail/1081004265/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

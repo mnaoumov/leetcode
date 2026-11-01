@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0875_Koko_Eating_Bananas;
 
-/// <seealso href="https://leetcode.com/submissions/detail/911178259/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/911178259/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

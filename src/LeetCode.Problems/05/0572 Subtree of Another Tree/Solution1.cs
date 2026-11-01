@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0572_Subtree_of_Another_Tree;
 
-/// <seealso href="https://leetcode.com/submissions/detail/935017583/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/935017583/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

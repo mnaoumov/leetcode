@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0611_Valid_Triangle_Number;
 
-/// <seealso href="https://leetcode.com/submissions/detail/930960210/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/930960210/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

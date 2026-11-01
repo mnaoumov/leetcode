@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3265_Count_Almost_Equal_Pairs_I;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-412/submissions/detail/1367312841/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-412/submissions/detail/1367312841/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

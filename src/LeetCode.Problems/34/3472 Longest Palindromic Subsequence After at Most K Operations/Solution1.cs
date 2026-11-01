@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3472_Longest_Palindromic_Subsequence_After_at_Most_K_Operations;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-439/problems/longest-palindromic-subsequence-after-at-most-k-operations/submissions/1559854144/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-439/problems/longest-palindromic-subsequence-after-at-most-k-operations/submissions/1559854144/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

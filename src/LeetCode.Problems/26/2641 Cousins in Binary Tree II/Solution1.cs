@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._2641_Cousins_in_Binary_Tree_II;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-102/submissions/detail/934191182/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-102/submissions/detail/934191182/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

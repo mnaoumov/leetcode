@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1213_Intersection_of_Three_Sorted_Arrays;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1446366666/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1446366666/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

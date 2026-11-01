@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0684_Redundant_Connection;
 
-/// <seealso href="https://leetcode.com/submissions/detail/931642276/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/931642276/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

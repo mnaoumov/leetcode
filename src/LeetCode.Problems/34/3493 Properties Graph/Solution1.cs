@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3493_Properties_Graph;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-442/problems/properties-graph/submissions/1582832472/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-442/problems/properties-graph/submissions/1582832472/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3643_Flip_Square_Submatrix_Vertically;
 
-/// <seealso href="https://leetcode.com/problems/flip-square-submatrix-vertically/submissions/1954354262/"/>
+/// <seealso href="https://leetcode.com/problems/flip-square-submatrix-vertically/submissions/1954354262/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

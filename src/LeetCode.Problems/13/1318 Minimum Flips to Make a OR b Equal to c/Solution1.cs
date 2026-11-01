@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1318_Minimum_Flips_to_Make_a_OR_b_Equal_to_c;
 
-/// <seealso href="https://leetcode.com/submissions/detail/965518213/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/965518213/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

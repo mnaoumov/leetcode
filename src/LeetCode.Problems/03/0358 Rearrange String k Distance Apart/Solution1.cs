@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0358_Rearrange_String_k_Distance_Apart;
 
-/// <seealso href="https://leetcode.com/submissions/detail/956877214/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/956877214/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

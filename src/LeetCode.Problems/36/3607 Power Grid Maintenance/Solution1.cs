@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3607_Power_Grid_Maintenance;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-457/problems/power-grid-maintenance/submissions/1687885943/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-457/problems/power-grid-maintenance/submissions/1687885943/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

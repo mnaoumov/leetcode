@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0222_Count_Complete_Tree_Nodes;
 
-/// <seealso href="https://leetcode.com/problems/count-complete-tree-nodes/submissions/843585833/"/>
+/// <seealso href="https://leetcode.com/problems/count-complete-tree-nodes/submissions/843585833/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

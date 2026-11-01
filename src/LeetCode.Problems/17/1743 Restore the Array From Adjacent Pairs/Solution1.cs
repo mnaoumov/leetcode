@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1743_Restore_the_Array_From_Adjacent_Pairs;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1095659869/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1095659869/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

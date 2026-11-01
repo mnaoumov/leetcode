@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0165_Compare_Version_Numbers;
 
-/// <seealso href="https://leetcode.com/submissions/detail/874657524/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/874657524/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3361_Shift_Distance_Between_Two_Strings;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-144/submissions/detail/1460845130/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-144/submissions/detail/1460845130/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

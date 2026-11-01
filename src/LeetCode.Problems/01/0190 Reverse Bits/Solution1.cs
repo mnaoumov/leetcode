@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0190_Reverse_Bits;
 
-/// <seealso href="https://leetcode.com/submissions/detail/923300142/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/923300142/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

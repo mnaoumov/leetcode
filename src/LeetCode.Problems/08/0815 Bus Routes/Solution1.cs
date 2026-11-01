@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0815_Bus_Routes;
 
-/// <seealso href="https://leetcode.com/submissions/detail/939108029/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/939108029/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._2961_Double_Modular_Exponentiation;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-375/submissions/detail/1116136266/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-375/submissions/detail/1116136266/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

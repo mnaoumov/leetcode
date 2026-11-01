@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3158_Find_the_XOR_of_Numbers_Which_Appear_Twice;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-131/submissions/detail/1267527144/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-131/submissions/detail/1267527144/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

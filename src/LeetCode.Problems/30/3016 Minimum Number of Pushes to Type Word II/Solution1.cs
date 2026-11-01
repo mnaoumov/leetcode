@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3016_Minimum_Number_of_Pushes_to_Type_Word_II;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-381/submissions/detail/1152141294/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-381/submissions/detail/1152141294/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

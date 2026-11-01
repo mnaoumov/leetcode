@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1345_Jump_Game_IV;
 
-/// <seealso href="https://leetcode.com/submissions/detail/909187049/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/909187049/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3748_Count_Stable_Subarrays;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-476/problems/count-stable-subarrays/submissions/1830950371/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-476/problems/count-stable-subarrays/submissions/1830950371/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

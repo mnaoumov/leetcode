@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3197_Find_the_Minimum_Area_to_Cover_All_Ones_II;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1298012404/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1298012404/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 [UsedImplicitly]
 public class Solution5 : ISolution

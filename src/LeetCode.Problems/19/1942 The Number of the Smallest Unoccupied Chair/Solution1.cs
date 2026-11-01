@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1942_The_Number_of_the_Smallest_Unoccupied_Chair;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1418659683/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1418659683/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

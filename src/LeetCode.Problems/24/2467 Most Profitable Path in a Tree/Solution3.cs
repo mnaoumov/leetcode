@@ -1,7 +1,7 @@
 namespace LeetCode.Problems._2467_Most_Profitable_Path_in_a_Tree;
 
-/// <seealso href="https://leetcode.com/problems/most-profitable-path-in-a-tree/submissions/842038064/"/>
-/// <seealso href="https://leetcode.com/problems/most-profitable-path-in-a-tree/submissions/842080268/"/>
+/// <seealso href="https://leetcode.com/problems/most-profitable-path-in-a-tree/submissions/842038064/">Submission</seealso>
+/// <seealso href="https://leetcode.com/problems/most-profitable-path-in-a-tree/submissions/842080268/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution3 : ISolution

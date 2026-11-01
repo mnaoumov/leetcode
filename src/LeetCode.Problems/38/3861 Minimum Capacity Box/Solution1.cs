@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3861_Minimum_Capacity_Box;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-492/problems/minimum-capacity-box/submissions/1941330975/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-492/problems/minimum-capacity-box/submissions/1941330975/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

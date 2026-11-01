@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2302_Count_Subarrays_With_Score_Less_Than_K;
 
-/// <seealso href="https://leetcode.com/problems/count-subarrays-with-score-less-than-k/submissions/1619816185/"/>
+/// <seealso href="https://leetcode.com/problems/count-subarrays-with-score-less-than-k/submissions/1619816185/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

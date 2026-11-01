@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0087_Scramble_String;
 
-/// <seealso href="https://leetcode.com/submissions/detail/829061534/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/829061534/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution2 : ISolution

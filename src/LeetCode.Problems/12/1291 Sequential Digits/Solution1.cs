@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1291_Sequential_Digits;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1164301195/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1164301195/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

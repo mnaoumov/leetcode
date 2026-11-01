@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2490_Circular_Sentence;
 
-/// <seealso href="https://leetcode.com/submissions/detail/854253715/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/854253715/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

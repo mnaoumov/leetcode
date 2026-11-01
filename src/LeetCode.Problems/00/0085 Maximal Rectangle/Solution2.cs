@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0085_Maximal_Rectangle;
 
-/// <seealso href="https://leetcode.com/submissions/detail/827356461/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/827356461/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

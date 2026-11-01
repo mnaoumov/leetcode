@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0446_Arithmetic_Slices_II___Subsequence;
 
-/// <seealso href="https://leetcode.com/submissions/detail/850745648/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/850745648/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution4 : ISolution

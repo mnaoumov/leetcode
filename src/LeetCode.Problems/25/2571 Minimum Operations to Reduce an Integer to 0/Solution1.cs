@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2571_Minimum_Operations_to_Reduce_an_Integer_to_0;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-333/submissions/detail/900692522/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-333/submissions/detail/900692522/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

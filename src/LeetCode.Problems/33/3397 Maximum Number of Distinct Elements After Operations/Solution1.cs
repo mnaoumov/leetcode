@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3397_Maximum_Number_of_Distinct_Elements_After_Operations;
 
-/// <seealso href="https://leetcode.com/problems/maximum-number-of-distinct-elements-after-operations/submissions/1804644451/"/>
+/// <seealso href="https://leetcode.com/problems/maximum-number-of-distinct-elements-after-operations/submissions/1804644451/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

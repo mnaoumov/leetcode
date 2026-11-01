@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2911_Minimum_Changes_to_Make_K_Semi_palindromes;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1081078991/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1081078991/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3200_Maximum_Height_of_a_Triangle;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-404/submissions/detail/1304375228/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-404/submissions/detail/1304375228/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

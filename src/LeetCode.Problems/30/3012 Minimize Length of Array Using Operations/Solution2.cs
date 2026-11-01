@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3012_Minimize_Length_of_Array_Using_Operations;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1151667574/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1151667574/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

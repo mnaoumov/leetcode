@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3219_Minimum_Cost_for_Cutting_Cake_II;
 
-/// <seealso href="TODO url"/>
+/// <seealso href="TODO url">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

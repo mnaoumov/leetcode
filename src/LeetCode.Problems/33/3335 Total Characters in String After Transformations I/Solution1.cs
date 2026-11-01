@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3335_Total_Characters_in_String_After_Transformations_I;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-421/submissions/detail/1434796810/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-421/submissions/detail/1434796810/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

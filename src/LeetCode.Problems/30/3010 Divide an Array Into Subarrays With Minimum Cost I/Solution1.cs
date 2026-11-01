@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3010_Divide_an_Array_Into_Subarrays_With_Minimum_Cost_I;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-122/submissions/detail/1151628487/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-122/submissions/detail/1151628487/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

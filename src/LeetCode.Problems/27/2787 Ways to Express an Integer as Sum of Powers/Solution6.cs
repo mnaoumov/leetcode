@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._2787_Ways_to_Express_an_Integer_as_Sum_of_Powers;
 
-/// <seealso href="https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/submissions/1731976582/"/>
+/// <seealso href="https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/submissions/1731976582/">Submission</seealso>
 [UsedImplicitly]
 public class Solution6 : ISolution
 {

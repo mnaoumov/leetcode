@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2273_Find_Resultant_Array_After_Removing_Anagrams;
 
-/// <seealso href="https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/submissions/1799855320/"/>
+/// <seealso href="https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/submissions/1799855320/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

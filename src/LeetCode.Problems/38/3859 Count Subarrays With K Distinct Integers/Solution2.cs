@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3859_Count_Subarrays_With_K_Distinct_Integers;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-491/problems/count-subarrays-with-k-distinct-integers/submissions/1934280318/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-491/problems/count-subarrays-with-k-distinct-integers/submissions/1934280318/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

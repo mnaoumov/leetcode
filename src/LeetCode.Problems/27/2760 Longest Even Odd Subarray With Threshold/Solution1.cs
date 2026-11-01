@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2760_Longest_Even_Odd_Subarray_With_Threshold;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-352/submissions/detail/984134490/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-352/submissions/detail/984134490/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

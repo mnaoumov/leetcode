@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1846_Maximum_Element_After_Decreasing_and_Rearranging;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1099021696/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1099021696/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

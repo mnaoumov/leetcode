@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3746_Minimum_String_Length_After_Balanced_Removals;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-476/problems/minimum-string-length-after-balanced-removals/submissions/1830846112/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-476/problems/minimum-string-length-after-balanced-removals/submissions/1830846112/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

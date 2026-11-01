@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0270_Closest_Binary_Search_Tree_Value;
 
-/// <seealso href="https://leetcode.com/submissions/detail/897480344/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/897480344/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

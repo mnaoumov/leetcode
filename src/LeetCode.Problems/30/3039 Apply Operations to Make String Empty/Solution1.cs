@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._3039_Apply_Operations_to_Make_String_Empty;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-124/submissions/detail/1177884182/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-124/submissions/detail/1177884182/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

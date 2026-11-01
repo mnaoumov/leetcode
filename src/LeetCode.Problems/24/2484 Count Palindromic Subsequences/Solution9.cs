@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2484_Count_Palindromic_Subsequences;
 
-/// <seealso href="https://leetcode.com/submissions/detail/855910283/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/855910283/">Submission</seealso>
 [UsedImplicitly]
 public class Solution9 : ISolution
 {

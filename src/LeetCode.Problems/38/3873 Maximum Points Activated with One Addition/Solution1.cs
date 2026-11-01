@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3873_Maximum_Points_Activated_with_One_Addition;
 
-/// <seealso href="TODO url"/>
+/// <seealso href="TODO url">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

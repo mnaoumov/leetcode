@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1608_Special_Array_With_X_Elements_Greater_Than_or_Equal_X;
 
-/// <seealso href="https://leetcode.com/submissions/detail/926936770/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/926936770/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

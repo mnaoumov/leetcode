@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2920_Maximum_Points_After_Collecting_Coins_From_All_Nodes;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-369/submissions/detail/1086520195/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-369/submissions/detail/1086520195/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

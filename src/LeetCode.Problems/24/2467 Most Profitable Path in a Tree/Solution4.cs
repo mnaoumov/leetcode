@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2467_Most_Profitable_Path_in_a_Tree;
 
-/// <seealso href="https://leetcode.com/submissions/detail/842134474/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/842134474/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 [UsedImplicitly]
 public class Solution4 : ISolution

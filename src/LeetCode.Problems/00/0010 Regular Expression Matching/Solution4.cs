@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._0010_Regular_Expression_Matching;
 
-/// <seealso href="https://leetcode.com/submissions/detail/808310678/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/808310678/">Submission</seealso>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

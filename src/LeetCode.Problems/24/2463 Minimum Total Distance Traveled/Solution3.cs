@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2463_Minimum_Total_Distance_Traveled;
 
-/// <seealso href="https://leetcode.com/problems/minimum-total-distance-traveled/submissions/838919365/"/>
+/// <seealso href="https://leetcode.com/problems/minimum-total-distance-traveled/submissions/838919365/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

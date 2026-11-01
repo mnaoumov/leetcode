@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0648_Replace_Words;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1280042864/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1280042864/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

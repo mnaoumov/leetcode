@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1425_Constrained_Subsequence_Sum;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1080899093/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1080899093/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2530_Maximal_Score_After_Applying_K_Operations;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-327/submissions/detail/873715750/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-327/submissions/detail/873715750/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

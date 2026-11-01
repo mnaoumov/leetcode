@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0422_Valid_Word_Square;
 
-/// <seealso href="https://leetcode.com/submissions/detail/906841538/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/906841538/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution3 : ISolution

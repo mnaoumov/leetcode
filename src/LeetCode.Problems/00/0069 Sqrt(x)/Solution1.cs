@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._0069_Sqrt_x_;
 
-/// <seealso href="https://leetcode.com/submissions/detail/193351695/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/193351695/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 [UsedImplicitly]
 public class Solution1 : ISolution

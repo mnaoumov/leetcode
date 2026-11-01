@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0014_Longest_Common_Prefix;
 
-/// <seealso href="https://leetcode.com/submissions/detail/808458986/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/808458986/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

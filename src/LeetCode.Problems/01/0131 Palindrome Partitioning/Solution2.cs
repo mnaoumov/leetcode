@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0131_Palindrome_Partitioning;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1264518121/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1264518121/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

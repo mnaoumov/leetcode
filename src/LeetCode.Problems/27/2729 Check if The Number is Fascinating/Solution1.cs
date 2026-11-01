@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2729_Check_if_The_Number_is_Fascinating;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-106/submissions/detail/968074324/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-106/submissions/detail/968074324/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

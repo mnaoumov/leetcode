@@ -2,7 +2,7 @@ using System.Collections;
 
 namespace LeetCode.Problems._1921_Eliminate_Maximum_Number_of_Monsters;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1093404436/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1093404436/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

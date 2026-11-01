@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3326_Minimum_Division_Operations_to_Make_Array_Non_Decreasing;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-420/submissions/detail/1427904621/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-420/submissions/detail/1427904621/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

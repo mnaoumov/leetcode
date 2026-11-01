@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1832_Check_if_the_Sentence_Is_Pangram;
 
-/// <seealso href="https://leetcode.com/submissions/detail/824472751/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/824472751/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

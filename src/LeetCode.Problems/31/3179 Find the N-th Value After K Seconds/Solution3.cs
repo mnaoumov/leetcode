@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3179_Find_the_N_th_Value_After_K_Seconds;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-401/submissions/detail/1282320692/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-401/submissions/detail/1282320692/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2467_Most_Profitable_Path_in_a_Tree;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-91/submissions/detail/842023664/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-91/submissions/detail/842023664/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

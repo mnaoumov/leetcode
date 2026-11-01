@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3443_Maximum_Manhattan_Distance_After_K_Changes;
 
-/// <seealso href="https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes/submissions/1669963374/"/>
+/// <seealso href="https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes/submissions/1669963374/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

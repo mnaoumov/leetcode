@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0621_Task_Scheduler;
 
-/// <seealso href="https://leetcode.com/submissions/detail/897260292/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/897260292/">Submission</seealso>
 [UsedImplicitly]
 public class Solution9 : ISolution
 {

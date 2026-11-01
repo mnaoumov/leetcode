@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0169_Majority_Element;
 
-/// <seealso href="https://leetcode.com/submissions/detail/881539689/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/881539689/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

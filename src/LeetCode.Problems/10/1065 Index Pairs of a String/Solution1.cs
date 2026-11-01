@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1065_Index_Pairs_of_a_String;
 
-/// <seealso href="https://leetcode.com/submissions/detail/942693936/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/942693936/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

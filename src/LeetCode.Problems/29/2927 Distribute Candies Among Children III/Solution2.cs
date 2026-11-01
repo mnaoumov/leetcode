@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2927_Distribute_Candies_Among_Children_III;
 
-/// <seealso href="https://leetcode.com/problems/distribute-candies-among-children-iii/submissions/1650214345/"/>
+/// <seealso href="https://leetcode.com/problems/distribute-candies-among-children-iii/submissions/1650214345/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

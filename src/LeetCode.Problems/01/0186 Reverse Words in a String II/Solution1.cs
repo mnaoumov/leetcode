@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0186_Reverse_Words_in_a_String_II;
 
-/// <seealso href="https://leetcode.com/submissions/detail/901778349/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/901778349/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3609_Minimum_Moves_to_Reach_Target_in_Grid;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-457/problems/minimum-moves-to-reach-target-in-grid/submissions/1687906835/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-457/problems/minimum-moves-to-reach-target-in-grid/submissions/1687906835/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

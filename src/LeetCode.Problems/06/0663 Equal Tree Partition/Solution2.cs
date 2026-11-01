@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0663_Equal_Tree_Partition;
 
-/// <seealso href="https://leetcode.com/problems/equal-tree-partition/submissions/1664504678/"/>
+/// <seealso href="https://leetcode.com/problems/equal-tree-partition/submissions/1664504678/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

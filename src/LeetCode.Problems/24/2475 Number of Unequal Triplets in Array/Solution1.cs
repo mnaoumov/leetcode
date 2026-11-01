@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2475_Number_of_Unequal_Triplets_in_Array;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-320/submissions/detail/846625632/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-320/submissions/detail/846625632/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

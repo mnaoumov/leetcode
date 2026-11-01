@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3771_Total_Score_of_Dungeon_Runs;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-479/problems/total-score-of-dungeon-runs/submissions/1848855583/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-479/problems/total-score-of-dungeon-runs/submissions/1848855583/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

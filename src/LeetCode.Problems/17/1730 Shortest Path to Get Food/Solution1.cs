@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1730_Shortest_Path_to_Get_Food;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1508982790/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1508982790/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

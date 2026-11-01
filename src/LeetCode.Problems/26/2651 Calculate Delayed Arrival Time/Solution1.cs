@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2651_Calculate_Delayed_Arrival_Time;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-342/submissions/detail/938152183/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-342/submissions/detail/938152183/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

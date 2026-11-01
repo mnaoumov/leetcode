@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2569_Handling_Sum_Queries_After_Update;
 
-/// <seealso href="https://leetcode.com/submissions/detail/900645255/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/900645255/">Submission</seealso>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

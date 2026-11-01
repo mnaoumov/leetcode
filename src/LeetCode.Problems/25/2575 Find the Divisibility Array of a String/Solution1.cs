@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2575_Find_the_Divisibility_Array_of_a_String;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-334/submissions/detail/905008143/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-334/submissions/detail/905008143/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

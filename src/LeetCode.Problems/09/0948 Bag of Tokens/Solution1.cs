@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0948_Bag_of_Tokens;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1193093531/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1193093531/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2469_Convert_the_Temperature;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-319/submissions/detail/842330859/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-319/submissions/detail/842330859/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

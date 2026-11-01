@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1406_Stone_Game_III;
 
-/// <seealso href="https://leetcode.com/submissions/detail/921097919/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/921097919/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

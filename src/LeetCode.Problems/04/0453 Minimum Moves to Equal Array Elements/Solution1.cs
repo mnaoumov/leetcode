@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0453_Minimum_Moves_to_Equal_Array_Elements;
 
-/// <seealso href="https://leetcode.com/problems/minimum-moves-to-equal-array-elements/submissions/2186571087/"/>
+/// <seealso href="https://leetcode.com/problems/minimum-moves-to-equal-array-elements/submissions/2186571087/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

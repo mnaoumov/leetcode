@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2516_Take_K_of_Each_Character_From_Left_and_Right;
 
-/// <seealso href="https://leetcode.com/submissions/detail/865487489/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/865487489/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3317_Find_the_Number_of_Possible_Ways_for_an_Event;
 
-/// <seealso href="TODO url"/>
+/// <seealso href="TODO url">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

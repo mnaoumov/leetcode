@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3752_Lexicographically_Smallest_Negated_Permutation_that_Sums_to_Target;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-170/problems/lexicographically-smallest-negated-permutation-that-sums-to-target/submissions/1836866519/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-170/problems/lexicographically-smallest-negated-permutation-that-sums-to-target/submissions/1836866519/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

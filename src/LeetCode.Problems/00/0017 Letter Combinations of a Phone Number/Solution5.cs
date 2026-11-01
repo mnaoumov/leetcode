@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0017_Letter_Combinations_of_a_Phone_Number;
 
-/// <seealso href="https://leetcode.com/submissions/detail/918834678/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/918834678/">Submission</seealso>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

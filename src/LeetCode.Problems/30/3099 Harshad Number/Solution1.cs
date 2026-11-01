@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3099_Harshad_Number;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-391/submissions/detail/1218741759/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-391/submissions/detail/1218741759/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

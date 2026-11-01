@@ -2,7 +2,7 @@
 #pragma warning disable
 namespace LeetCode.Problems._0075_Sort_Colors;
 
-/// <seealso href="https://leetcode.com/submissions/detail/821249541/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/821249541/">Submission</seealso>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

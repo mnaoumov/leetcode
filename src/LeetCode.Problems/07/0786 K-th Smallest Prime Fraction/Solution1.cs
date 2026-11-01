@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0786_K_th_Smallest_Prime_Fraction;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1254782204/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1254782204/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

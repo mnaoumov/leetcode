@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1136_Parallel_Courses;
 
-/// <seealso href="https://leetcode.com/submissions/detail/937161829/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/937161829/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

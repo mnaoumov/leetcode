@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0022_Generate_Parentheses;
 
-/// <seealso href="https://leetcode.com/submissions/detail/918875907/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/918875907/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

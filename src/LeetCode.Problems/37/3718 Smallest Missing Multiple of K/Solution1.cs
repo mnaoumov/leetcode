@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3718_Smallest_Missing_Multiple_of_K;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-472/problems/smallest-missing-multiple-of-k/submissions/1805454729/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-472/problems/smallest-missing-multiple-of-k/submissions/1805454729/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

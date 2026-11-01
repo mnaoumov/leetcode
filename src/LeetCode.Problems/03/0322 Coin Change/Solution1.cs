@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._0322_Coin_Change;
 
-/// <seealso href="https://leetcode.com/submissions/detail/195949989/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/195949989/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

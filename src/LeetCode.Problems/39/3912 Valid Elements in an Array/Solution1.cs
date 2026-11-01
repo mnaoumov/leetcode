@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3912_Valid_Elements_in_an_Array;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-499/problems/valid-elements-in-an-array/submissions/1988214817/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-499/problems/valid-elements-in-an-array/submissions/1988214817/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

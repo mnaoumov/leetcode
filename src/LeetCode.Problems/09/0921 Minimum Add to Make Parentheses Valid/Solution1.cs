@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0921_Minimum_Add_to_Make_Parentheses_Valid;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1416492244/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1416492244/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

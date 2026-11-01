@@ -2,7 +2,7 @@ using System.Text.RegularExpressions;
 
 namespace LeetCode.Problems._0439_Ternary_Expression_Parser;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1001409791/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1001409791/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

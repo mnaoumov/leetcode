@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0461_Hamming_Distance;
 
-/// <seealso href="https://leetcode.com/submissions/detail/922088233/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/922088233/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3709_Design_Exam_Scores_Tracker;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-167/problems/design-exam-scores-tracker/submissions/1798410884/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-167/problems/design-exam-scores-tracker/submissions/1798410884/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

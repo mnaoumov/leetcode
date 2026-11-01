@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0632_Smallest_Range_Covering_Elements_from_K_Lists;
 
-/// <seealso href="https://leetcode.com/submissions/detail/912167175/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/912167175/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

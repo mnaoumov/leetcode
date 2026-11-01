@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3542_Minimum_Operations_to_Convert_All_Elements_to_Zero;
 
-/// <seealso href="https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/submissions/1825596478/"/>
+/// <seealso href="https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/submissions/1825596478/">Submission</seealso>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

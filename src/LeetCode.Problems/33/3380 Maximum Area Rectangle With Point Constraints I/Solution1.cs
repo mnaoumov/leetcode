@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3380_Maximum_Area_Rectangle_With_Point_Constraints_I;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-427/submissions/detail/1473122411/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-427/submissions/detail/1473122411/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

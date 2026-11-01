@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2537_Count_the_Number_of_Good_Subarrays;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-328/submissions/detail/878353370/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-328/submissions/detail/878353370/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

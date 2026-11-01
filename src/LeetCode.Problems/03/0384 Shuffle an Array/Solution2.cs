@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0384_Shuffle_an_Array;
 
-/// <seealso href="https://leetcode.com/submissions/detail/941814217/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/941814217/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

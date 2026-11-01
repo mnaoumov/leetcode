@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3757_Number_of_Effective_Subsequences;
 
-/// <seealso href="TODO url"/>
+/// <seealso href="TODO url">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

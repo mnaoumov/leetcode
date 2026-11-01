@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2206_Divide_Array_Into_Equal_Pairs;
 
-/// <seealso href="https://leetcode.com/problems/divide-array-into-equal-pairs/submissions/1576226768/"/>
+/// <seealso href="https://leetcode.com/problems/divide-array-into-equal-pairs/submissions/1576226768/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3193_Count_the_Number_of_Inversions;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1297097509/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1297097509/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution4 : ISolution

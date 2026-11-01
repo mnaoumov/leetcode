@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3291_Minimum_Number_of_Valid_Strings_to_Form_Target_I;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-415/submissions/detail/1390546306/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-415/submissions/detail/1390546306/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

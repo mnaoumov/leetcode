@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2515_Shortest_Distance_to_Target_String_in_a_Circular_Array;
 
-/// <seealso href="https://leetcode.com/submissions/detail/865476618/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/865476618/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

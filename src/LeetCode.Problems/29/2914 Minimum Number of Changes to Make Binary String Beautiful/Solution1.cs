@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2914_Minimum_Number_of_Changes_to_Make_Binary_String_Beautiful;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-116/submissions/detail/1086082956/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-116/submissions/detail/1086082956/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

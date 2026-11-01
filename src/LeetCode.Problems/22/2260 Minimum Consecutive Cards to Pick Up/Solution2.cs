@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2260_Minimum_Consecutive_Cards_to_Pick_Up;
 
-/// <seealso href="https://leetcode.com/submissions/detail/856716093/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/856716093/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

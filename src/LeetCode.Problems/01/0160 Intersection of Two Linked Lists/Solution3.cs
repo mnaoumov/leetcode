@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0160_Intersection_of_Two_Linked_Lists;
 
-/// <seealso href="https://leetcode.com/submissions/detail/870060301/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/870060301/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

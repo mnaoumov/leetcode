@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2962_Count_Subarrays_Where_Max_Element_Appears_at_Least_K_Times;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-375/submissions/detail/1116145823/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-375/submissions/detail/1116145823/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

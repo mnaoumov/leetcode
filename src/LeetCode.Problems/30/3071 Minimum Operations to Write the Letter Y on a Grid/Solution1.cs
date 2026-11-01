@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3071_Minimum_Operations_to_Write_the_Letter_Y_on_a_Grid;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-387/submissions/detail/1192201474/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-387/submissions/detail/1192201474/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

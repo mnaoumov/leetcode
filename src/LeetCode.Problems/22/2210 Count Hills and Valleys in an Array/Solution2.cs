@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2210_Count_Hills_and_Valleys_in_an_Array;
 
-/// <seealso href="https://leetcode.com/problems/count-hills-and-valleys-in-an-array/submissions/1712960750/"/>
+/// <seealso href="https://leetcode.com/problems/count-hills-and-valleys-in-an-array/submissions/1712960750/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

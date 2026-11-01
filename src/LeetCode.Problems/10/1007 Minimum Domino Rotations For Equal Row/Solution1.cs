@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1007_Minimum_Domino_Rotations_For_Equal_Row;
 
-/// <seealso href="TODO url"/>
+/// <seealso href="TODO url">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

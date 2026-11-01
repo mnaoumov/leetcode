@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0844_Backspace_String_Compare;
 
-/// <seealso href="https://leetcode.com/submissions/detail/899441371/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/899441371/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

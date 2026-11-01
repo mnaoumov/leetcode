@@ -3,7 +3,7 @@
 #pragma warning disable
 namespace LeetCode.Problems._0718_Maximum_Length_of_Repeated_Subarray;
 
-/// <seealso href="https://leetcode.com/submissions/detail/195796428/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/195796428/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution1 : ISolution

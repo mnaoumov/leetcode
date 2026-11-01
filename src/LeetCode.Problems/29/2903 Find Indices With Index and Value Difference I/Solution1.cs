@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2903_Find_Indices_With_Index_and_Value_Difference_I;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-367/submissions/detail/1075429618/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-367/submissions/detail/1075429618/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

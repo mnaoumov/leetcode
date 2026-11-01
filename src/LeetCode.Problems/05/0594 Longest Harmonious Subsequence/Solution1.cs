@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0594_Longest_Harmonious_Subsequence;
 
-/// <seealso href="https://leetcode.com/problems/longest-harmonious-subsequence/submissions/1682051795/"/>
+/// <seealso href="https://leetcode.com/problems/longest-harmonious-subsequence/submissions/1682051795/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

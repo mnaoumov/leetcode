@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2517_Maximum_Tastiness_of_Candy_Basket;
 
-/// <seealso href="https://leetcode.com/submissions/detail/865497413/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/865497413/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1480_Running_Sum_of_1d_Array;
 
-/// <seealso href="https://leetcode.com/problems/running-sum-of-1d-array/submissions/845556407/"/>
+/// <seealso href="https://leetcode.com/problems/running-sum-of-1d-array/submissions/845556407/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

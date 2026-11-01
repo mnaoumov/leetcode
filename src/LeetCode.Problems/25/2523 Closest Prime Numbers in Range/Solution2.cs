@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2523_Closest_Prime_Numbers_in_Range;
 
-/// <seealso href="https://leetcode.com/submissions/detail/869899513/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/869899513/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

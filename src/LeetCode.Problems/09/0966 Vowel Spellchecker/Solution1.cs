@@ -2,7 +2,7 @@ using System.Text.RegularExpressions;
 
 namespace LeetCode.Problems._0966_Vowel_Spellchecker;
 
-/// <seealso href="https://leetcode.com/problems/vowel-spellchecker/submissions/1770052490/"/>
+/// <seealso href="https://leetcode.com/problems/vowel-spellchecker/submissions/1770052490/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

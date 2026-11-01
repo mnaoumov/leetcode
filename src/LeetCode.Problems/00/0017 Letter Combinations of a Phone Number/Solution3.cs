@@ -6,7 +6,7 @@
 
 namespace LeetCode.Problems._0017_Letter_Combinations_of_a_Phone_Number;
 
-/// <seealso href="https://leetcode.com/submissions/detail/809521193/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/809521193/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

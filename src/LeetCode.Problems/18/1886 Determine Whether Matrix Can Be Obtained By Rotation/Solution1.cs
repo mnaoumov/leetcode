@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1886_Determine_Whether_Matrix_Can_Be_Obtained_By_Rotation;
 
-/// <seealso href="https://leetcode.com/submissions/detail/934394265/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/934394265/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

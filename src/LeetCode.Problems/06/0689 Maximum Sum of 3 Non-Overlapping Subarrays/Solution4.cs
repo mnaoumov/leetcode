@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0689_Maximum_Sum_of_3_Non_Overlapping_Subarrays;
 
-/// <seealso href="https://leetcode.com/submissions/detail/898713438/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/898713438/">Submission</seealso>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

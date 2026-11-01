@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3285_Find_Indices_of_Stable_Mountains;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-139/submissions/detail/1389892906/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-139/submissions/detail/1389892906/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

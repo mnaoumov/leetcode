@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1196_How_Many_Apples_Can_You_Put_into_the_Basket;
 
-/// <seealso href="https://leetcode.com/submissions/detail/914078563/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/914078563/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

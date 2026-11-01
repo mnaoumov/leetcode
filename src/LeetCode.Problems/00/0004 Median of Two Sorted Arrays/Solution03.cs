@@ -2,7 +2,7 @@
 #pragma warning disable
 namespace LeetCode.Problems._0004_Median_of_Two_Sorted_Arrays;
 
-/// <seealso href="https://leetcode.com/submissions/detail/147422345/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/147422345/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution03 : ISolution

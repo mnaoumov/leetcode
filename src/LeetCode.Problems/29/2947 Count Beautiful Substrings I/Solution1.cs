@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2947_Count_Beautiful_Substrings_I;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-373/submissions/detail/1106465945/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-373/submissions/detail/1106465945/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1579_Remove_Max_Number_of_Edges_to_Keep_Graph_Fully_Traversable;
 
-/// <seealso href="https://leetcode.com/submissions/detail/932264807/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/932264807/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

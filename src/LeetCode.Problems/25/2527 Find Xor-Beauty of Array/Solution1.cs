@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2527_Find_Xor_Beauty_of_Array;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-95/submissions/detail/873353815/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-95/submissions/detail/873353815/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

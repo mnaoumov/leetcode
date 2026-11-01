@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3142_Check_if_Grid_Satisfies_Conditions;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-130/submissions/detail/1255215210/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-130/submissions/detail/1255215210/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

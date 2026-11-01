@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0568_Maximum_Vacation_Days;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1073017177/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1073017177/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

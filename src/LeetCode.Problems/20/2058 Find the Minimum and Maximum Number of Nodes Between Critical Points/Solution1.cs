@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2058_Find_the_Minimum_and_Maximum_Number_of_Nodes_Between_Critical_Points;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1309980902/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1309980902/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

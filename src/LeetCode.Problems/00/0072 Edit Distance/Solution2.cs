@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0072_Edit_Distance;
 
-/// <seealso href="https://leetcode.com/submissions/detail/820456180/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/820456180/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

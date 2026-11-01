@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2512_Reward_Top_K_Students;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-94/submissions/detail/864788321/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-94/submissions/detail/864788321/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

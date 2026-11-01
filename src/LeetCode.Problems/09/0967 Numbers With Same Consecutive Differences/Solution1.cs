@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._0967_Numbers_With_Same_Consecutive_Differences;
 
-/// <seealso href="https://leetcode.com/submissions/detail/200391901/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/200391901/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution1 : ISolution

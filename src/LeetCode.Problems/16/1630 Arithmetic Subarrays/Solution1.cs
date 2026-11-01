@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1630_Arithmetic_Subarrays;
 
-/// <seealso href="https://leetcode.com/submissions/detail/935067138/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/935067138/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

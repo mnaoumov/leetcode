@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2099_Find_Subsequence_of_Length_K_With_the_Largest_Sum;
 
-/// <seealso href="https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/submissions/1678793945/"/>
+/// <seealso href="https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/submissions/1678793945/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

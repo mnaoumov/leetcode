@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3532_Path_Existence_Queries_in_a_Graph_I;
 
-/// <seealso href="https://leetcode.com/problems/path-existence-queries-in-a-graph-i/submissions/2062239308/"/>
+/// <seealso href="https://leetcode.com/problems/path-existence-queries-in-a-graph-i/submissions/2062239308/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

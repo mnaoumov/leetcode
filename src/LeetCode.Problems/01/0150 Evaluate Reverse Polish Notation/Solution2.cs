@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0150_Evaluate_Reverse_Polish_Notation;
 
-/// <seealso href="https://leetcode.com/submissions/detail/860899888/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/860899888/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

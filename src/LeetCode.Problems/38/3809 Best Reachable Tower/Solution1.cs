@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3809_Best_Reachable_Tower;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-174/problems/best-reachable-tower/submissions/1887839413/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-174/problems/best-reachable-tower/submissions/1887839413/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

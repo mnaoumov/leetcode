@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1356_Sort_Integers_by_The_Number_of_1_Bits;
 
-/// <seealso href="https://leetcode.com/submissions/detail/929323215/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/929323215/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

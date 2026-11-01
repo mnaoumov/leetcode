@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3600_Maximize_Spanning_Tree_Stability_with_Upgrades;
 
-/// <seealso href="TODO url"/>
+/// <seealso href="TODO url">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

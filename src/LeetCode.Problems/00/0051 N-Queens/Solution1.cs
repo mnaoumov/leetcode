@@ -4,7 +4,7 @@
 
 namespace LeetCode.Problems._0051_N_Queens;
 
-/// <seealso href="https://leetcode.com/submissions/detail/818983845/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/818983845/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

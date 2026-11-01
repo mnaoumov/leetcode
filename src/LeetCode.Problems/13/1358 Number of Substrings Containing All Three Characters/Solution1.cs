@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1358_Number_of_Substrings_Containing_All_Three_Characters;
 
-/// <seealso href="https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/submissions/1569797904/"/>
+/// <seealso href="https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/submissions/1569797904/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2510_Check_if_There_is_a_Path_With_Equal_Number_of_0_s_And_1_s;
 
-/// <seealso href="https://leetcode.com/submissions/detail/869932348/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/869932348/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

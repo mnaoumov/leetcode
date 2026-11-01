@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._0365_Water_and_Jug_Problem;
 
-/// <seealso href="https://leetcode.com/submissions/detail/928790877/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/928790877/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

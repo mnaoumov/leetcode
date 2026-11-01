@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2548_Maximum_Price_to_Fill_a_Bag;
 
-/// <seealso href="https://leetcode.com/submissions/detail/887112773/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/887112773/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

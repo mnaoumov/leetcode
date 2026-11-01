@@ -4,7 +4,7 @@
 
 namespace LeetCode.Problems._0003_Longest_Substring_Without_Repeating_Characters;
 
-/// <seealso href="https://leetcode.com/submissions/detail/198407882/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/198407882/">Submission</seealso>
 [UsedImplicitly]
 public class Solution7 : ISolution
 {

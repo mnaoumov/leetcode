@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0911_Online_Election;
 
-/// <seealso href="https://leetcode.com/submissions/detail/966465467/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/966465467/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

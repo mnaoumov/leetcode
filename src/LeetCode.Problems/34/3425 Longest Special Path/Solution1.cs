@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3425_Longest_Special_Path;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-148/problems/longest-special-path/submissions/1512664433/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-148/problems/longest-special-path/submissions/1512664433/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

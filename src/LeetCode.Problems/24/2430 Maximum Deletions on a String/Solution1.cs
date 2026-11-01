@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2430_Maximum_Deletions_on_a_String;
 
-/// <seealso href="https://leetcode.com/submissions/detail/898813927/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/898813927/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0664_Strange_Printer;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1012211570/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1012211570/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

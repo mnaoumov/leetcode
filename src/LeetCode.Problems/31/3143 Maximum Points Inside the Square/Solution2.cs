@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3143_Maximum_Points_Inside_the_Square;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-130/submissions/detail/1255248078/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-130/submissions/detail/1255248078/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1233_Remove_Sub_Folders_from_the_Filesystem;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1432940846/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1432940846/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

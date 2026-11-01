@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3573_Best_Time_to_Buy_and_Sell_Stock_V;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-158/problems/best-time-to-buy-and-sell-stock-v/submissions/1656717431/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-158/problems/best-time-to-buy-and-sell-stock-v/submissions/1656717431/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3653_XOR_After_Range_Multiplication_Queries_I;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-463/problems/xor-after-range-multiplication-queries-i/submissions/1737972366/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-463/problems/xor-after-range-multiplication-queries-i/submissions/1737972366/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

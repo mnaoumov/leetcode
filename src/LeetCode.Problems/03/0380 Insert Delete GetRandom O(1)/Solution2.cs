@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0380_Insert_Delete_GetRandom_O_1_;
 
-/// <seealso href="https://leetcode.com/submissions/detail/851802242/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/851802242/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

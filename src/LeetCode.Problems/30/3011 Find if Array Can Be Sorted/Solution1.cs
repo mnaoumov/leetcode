@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3011_Find_if_Array_Can_Be_Sorted;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-122/submissions/detail/1151645880/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-122/submissions/detail/1151645880/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

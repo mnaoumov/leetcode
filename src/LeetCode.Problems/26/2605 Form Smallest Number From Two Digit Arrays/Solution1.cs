@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2605_Form_Smallest_Number_From_Two_Digit_Arrays;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-101/submissions/detail/925951229/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-101/submissions/detail/925951229/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

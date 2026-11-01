@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2270_Number_of_Ways_to_Split_Array;
 
-/// <seealso href="https://leetcode.com/submissions/detail/855797797/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/855797797/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

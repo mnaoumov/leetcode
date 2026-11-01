@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1474_Delete_N_Nodes_After_M_Nodes_of_a_Linked_List;
 
-/// <seealso href="https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/submissions/1647605481/"/>
+/// <seealso href="https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/submissions/1647605481/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0179_Largest_Number;
 
-/// <seealso href="https://leetcode.com/submissions/detail/896853487/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/896853487/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

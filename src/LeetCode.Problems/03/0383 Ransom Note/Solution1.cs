@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0383_Ransom_Note;
 
-/// <seealso href="https://leetcode.com/problems/ransom-note/submissions/845906888/"/>
+/// <seealso href="https://leetcode.com/problems/ransom-note/submissions/845906888/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

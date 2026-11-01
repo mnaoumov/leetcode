@@ -4,7 +4,7 @@
 
 namespace LeetCode.Problems._0047_Permutations_II;
 
-/// <seealso href="https://leetcode.com/submissions/detail/815499264/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/815499264/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2831_Find_the_Longest_Equal_Subarray;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-359/submissions/detail/1026338981/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-359/submissions/detail/1026338981/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.MemoryLimitExceeded)]
 public class Solution1 : ISolution

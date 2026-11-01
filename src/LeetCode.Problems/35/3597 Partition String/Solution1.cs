@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3597_Partition_String;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-456/problems/partition-string/submissions/1679863707/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-456/problems/partition-string/submissions/1679863707/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -2,8 +2,8 @@
 #pragma warning disable
 namespace LeetCode.Problems._0005_Longest_Palindromic_Substring;
 
-/// <seealso href="https://leetcode.com/submissions/detail/147572623/"/>
-/// <seealso href="https://leetcode.com/submissions/detail/815930675/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/147572623/">Submission</seealso>
+/// <seealso href="https://leetcode.com/submissions/detail/815930675/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution5_10 : ISolution

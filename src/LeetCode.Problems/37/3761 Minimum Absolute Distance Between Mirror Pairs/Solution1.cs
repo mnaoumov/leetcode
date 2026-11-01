@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3761_Minimum_Absolute_Distance_Between_Mirror_Pairs;
 
-/// <seealso href="https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/submissions/1980504325/"/>
+/// <seealso href="https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/submissions/1980504325/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

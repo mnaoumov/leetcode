@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1125_Smallest_Sufficient_Team;
 
-/// <seealso href="https://leetcode.com/submissions/detail/996247112/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/996247112/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

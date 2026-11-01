@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3461_Check_If_Digits_Are_Equal_in_String_After_Operations_I;
 
-/// <seealso href="https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/submissions/1809889876/"/>
+/// <seealso href="https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/submissions/1809889876/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

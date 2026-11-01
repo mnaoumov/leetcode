@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3898_Find_the_Degree_of_Each_Vertex;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-497/problems/find-the-degree-of-each-vertex/submissions/1975901752/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-497/problems/find-the-degree-of-each-vertex/submissions/1975901752/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0520_Detect_Capital;
 
-/// <seealso href="https://leetcode.com/submissions/detail/869479295/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/869479295/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

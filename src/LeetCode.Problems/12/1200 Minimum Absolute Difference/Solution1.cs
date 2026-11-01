@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1200_Minimum_Absolute_Difference;
 
-/// <seealso href="https://leetcode.com/problems/minimum-absolute-difference/submissions/1897020586/"/>
+/// <seealso href="https://leetcode.com/problems/minimum-absolute-difference/submissions/1897020586/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

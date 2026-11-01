@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0158_Read_N_Characters_Given_read4_II___Call_Multiple_Times;
 
-/// <seealso href="https://leetcode.com/submissions/detail/864590421/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/864590421/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : Reader4
 {

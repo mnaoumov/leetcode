@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3691_Maximum_Total_Subarray_Value_II;
 
-/// <seealso href="https://leetcode.com/problems/maximum-total-subarray-value-ii/submissions/2029930848/"/>
+/// <seealso href="https://leetcode.com/problems/maximum-total-subarray-value-ii/submissions/2029930848/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

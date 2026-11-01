@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1396_Design_Underground_System;
 
-/// <seealso href="https://leetcode.com/submissions/detail/957979152/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/957979152/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2860_Happy_Students;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-363/submissions/detail/1051417987/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-363/submissions/detail/1051417987/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

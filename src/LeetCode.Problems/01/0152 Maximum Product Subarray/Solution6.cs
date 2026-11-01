@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0152_Maximum_Product_Subarray;
 
-/// <seealso href="https://leetcode.com/problems/maximum-product-subarray/submissions/848230500/"/>
+/// <seealso href="https://leetcode.com/problems/maximum-product-subarray/submissions/848230500/">Submission</seealso>
 [UsedImplicitly]
 public class Solution6 : ISolution
 {

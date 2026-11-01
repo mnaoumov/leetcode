@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2786_Visit_Array_Positions_to_Maximize_Score;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-109/submissions/detail/1001048966/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-109/submissions/detail/1001048966/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

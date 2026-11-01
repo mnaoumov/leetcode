@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1105_Filling_Bookcase_Shelves;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1339016459/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1339016459/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

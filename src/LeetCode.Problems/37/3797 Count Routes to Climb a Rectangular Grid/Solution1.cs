@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3797_Count_Routes_to_Climb_a_Rectangular_Grid;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-173/problems/count-routes-to-climb-a-rectangular-grid/submissions/1873309732/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-173/problems/count-routes-to-climb-a-rectangular-grid/submissions/1873309732/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

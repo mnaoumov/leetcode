@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1081_Smallest_Subsequence_of_Distinct_Characters;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1061019350/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1061019350/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

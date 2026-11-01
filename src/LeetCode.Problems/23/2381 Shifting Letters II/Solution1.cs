@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._2381_Shifting_Letters_II;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1500102849/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1500102849/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2566_Maximum_Difference_by_Remapping_a_Digit;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-98/submissions/detail/900356939/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-98/submissions/detail/900356939/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

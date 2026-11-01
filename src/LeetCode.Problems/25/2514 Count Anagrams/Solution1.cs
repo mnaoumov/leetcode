@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2514_Count_Anagrams;
 
-/// <seealso href="https://leetcode.com/submissions/detail/864953654/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/864953654/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

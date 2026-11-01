@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1750_Minimum_Length_of_String_After_Deleting_Similar_Ends;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1194132987/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1194132987/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

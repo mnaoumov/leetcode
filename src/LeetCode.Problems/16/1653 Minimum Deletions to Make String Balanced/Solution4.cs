@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1653_Minimum_Deletions_to_Make_String_Balanced;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1339008241/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1339008241/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution4 : ISolution

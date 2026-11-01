@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0901_Online_Stock_Span;
 
-/// <seealso href="https://leetcode.com/problems/online-stock-span/submissions/839784236/"/>
+/// <seealso href="https://leetcode.com/problems/online-stock-span/submissions/839784236/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

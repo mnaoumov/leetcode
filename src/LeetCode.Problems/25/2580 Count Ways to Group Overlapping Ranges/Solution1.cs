@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._2580_Count_Ways_to_Group_Overlapping_Ranges;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-99/submissions/detail/908926444/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-99/submissions/detail/908926444/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

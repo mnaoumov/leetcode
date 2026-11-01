@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2488_Count_Subarrays_With_Median_K;
 
-/// <seealso href="https://leetcode.com/submissions/detail/855914886/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/855914886/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

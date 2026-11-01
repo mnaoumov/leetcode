@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2416_Sum_of_Prefix_Scores_of_Strings;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1402412405/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1402412405/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

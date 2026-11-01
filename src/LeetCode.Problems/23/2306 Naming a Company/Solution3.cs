@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2306_Naming_a_Company;
 
-/// <seealso href="https://leetcode.com/submissions/detail/894400680/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/894400680/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution3 : ISolution

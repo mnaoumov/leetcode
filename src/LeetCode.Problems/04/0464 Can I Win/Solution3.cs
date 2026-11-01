@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0464_Can_I_Win;
 
-/// <seealso href="https://leetcode.com/submissions/detail/974176745/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/974176745/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

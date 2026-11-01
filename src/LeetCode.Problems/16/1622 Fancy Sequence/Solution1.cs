@@ -3,7 +3,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._1622_Fancy_Sequence;
 
-/// <seealso href="https://leetcode.com/problems/fancy-sequence/submissions/1948485414/"/>
+/// <seealso href="https://leetcode.com/problems/fancy-sequence/submissions/1948485414/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

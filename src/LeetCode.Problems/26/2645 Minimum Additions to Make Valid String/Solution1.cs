@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2645_Minimum_Additions_to_Make_Valid_String;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-341/submissions/detail/934473983/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-341/submissions/detail/934473983/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

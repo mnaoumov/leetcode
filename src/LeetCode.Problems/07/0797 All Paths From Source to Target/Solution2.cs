@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0797_All_Paths_From_Source_to_Target;
 
-/// <seealso href="https://leetcode.com/problems/all-paths-from-source-to-target/submissions/"/>
+/// <seealso href="https://leetcode.com/problems/all-paths-from-source-to-target/submissions/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

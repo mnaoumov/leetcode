@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3164_Find_the_Number_of_Good_Pairs_II;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1268035214/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1268035214/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

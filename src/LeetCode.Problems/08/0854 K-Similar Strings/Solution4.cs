@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0854_K_Similar_Strings;
 
-/// <seealso href="https://leetcode.com/submissions/detail/886392331/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/886392331/">Submission</seealso>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

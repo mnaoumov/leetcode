@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3895_Count_Digit_Appearances;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-180/problems/count-digit-appearances/submissions/1975422635/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-180/problems/count-digit-appearances/submissions/1975422635/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

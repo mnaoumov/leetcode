@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1246_Palindrome_Removal;
 
-/// <seealso href="https://leetcode.com/submissions/detail/956177934/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/956177934/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

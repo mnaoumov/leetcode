@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0564_Find_the_Closest_Palindrome;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1367221183/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1367221183/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution4 : ISolution

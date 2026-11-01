@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2855_Minimum_Right_Shifts_to_Sort_the_Array;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-113/submissions/detail/1050918218/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-113/submissions/detail/1050918218/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

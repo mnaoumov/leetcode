@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3408_Design_Task_Manager;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-147/submissions/detail/1497435909/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-147/submissions/detail/1497435909/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

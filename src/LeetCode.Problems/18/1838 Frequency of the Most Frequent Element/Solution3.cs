@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1838_Frequency_of_the_Most_Frequent_Element;
 
-/// <seealso href="https://leetcode.com/submissions/detail/935495032/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/935495032/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

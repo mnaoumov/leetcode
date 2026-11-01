@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1092_Shortest_Common_Supersequence;
 
-/// <seealso href="https://leetcode.com/submissions/detail/954069522/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/954069522/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

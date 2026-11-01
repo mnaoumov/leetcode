@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1119_Remove_Vowels_from_a_String;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1211242723/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1211242723/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

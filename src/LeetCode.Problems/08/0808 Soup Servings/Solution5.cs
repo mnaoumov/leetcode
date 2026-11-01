@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0808_Soup_Servings;
 
-/// <seealso href="https://leetcode.com/problems/soup-servings/submissions/1727438814/"/>
+/// <seealso href="https://leetcode.com/problems/soup-servings/submissions/1727438814/">Submission</seealso>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

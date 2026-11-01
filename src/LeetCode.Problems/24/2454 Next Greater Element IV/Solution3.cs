@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2454_Next_Greater_Element_IV;
 
-/// <seealso href="https://leetcode.com/submissions/detail/832793040/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/832793040/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution3 : ISolution

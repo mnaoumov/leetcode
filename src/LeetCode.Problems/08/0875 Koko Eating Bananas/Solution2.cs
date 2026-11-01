@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0875_Koko_Eating_Bananas;
 
-/// <seealso href="https://leetcode.com/submissions/detail/911178607/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/911178607/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

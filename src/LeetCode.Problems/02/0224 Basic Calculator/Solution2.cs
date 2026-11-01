@@ -4,7 +4,7 @@
 
 namespace LeetCode.Problems._0224_Basic_Calculator;
 
-/// <seealso href="https://leetcode.com/problems/basic-calculator/submissions/847146664/"/>
+/// <seealso href="https://leetcode.com/problems/basic-calculator/submissions/847146664/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

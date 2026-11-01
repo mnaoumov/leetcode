@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3160_Find_the_Number_of_Distinct_Colors_Among_the_Balls;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-131/submissions/detail/1267560819/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-131/submissions/detail/1267560819/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.MemoryLimitExceeded)]
 public class Solution1 : ISolution

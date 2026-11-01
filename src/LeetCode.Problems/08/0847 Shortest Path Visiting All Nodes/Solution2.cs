@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0847_Shortest_Path_Visiting_All_Nodes;
 
-/// <seealso href="https://leetcode.com/submissions/detail/928676497/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/928676497/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

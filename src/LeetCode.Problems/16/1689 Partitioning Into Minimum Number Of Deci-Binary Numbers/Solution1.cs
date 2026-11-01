@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1689_Partitioning_Into_Minimum_Number_Of_Deci_Binary_Numbers;
 
-/// <seealso href="https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/submissions/1934159849/"/>
+/// <seealso href="https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/submissions/1934159849/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

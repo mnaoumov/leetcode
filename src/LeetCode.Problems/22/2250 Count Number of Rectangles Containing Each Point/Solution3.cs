@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2250_Count_Number_of_Rectangles_Containing_Each_Point;
 
-/// <seealso href="https://leetcode.com/submissions/detail/915309888/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/915309888/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

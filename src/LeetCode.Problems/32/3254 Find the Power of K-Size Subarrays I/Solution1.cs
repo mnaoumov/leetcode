@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3254_Find_the_Power_of_K_Size_Subarrays_I;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-137/submissions/detail/1359048102/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-137/submissions/detail/1359048102/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

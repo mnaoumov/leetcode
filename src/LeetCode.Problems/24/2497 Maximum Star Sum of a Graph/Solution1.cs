@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2497_Maximum_Star_Sum_of_a_Graph;
 
-/// <seealso href="https://leetcode.com/submissions/detail/857738779/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/857738779/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

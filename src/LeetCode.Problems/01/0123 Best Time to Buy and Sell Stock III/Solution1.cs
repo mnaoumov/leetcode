@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._0123_Best_Time_to_Buy_and_Sell_Stock_III;
 
-/// <seealso href="https://leetcode.com/submissions/detail/836268641/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/836268641/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

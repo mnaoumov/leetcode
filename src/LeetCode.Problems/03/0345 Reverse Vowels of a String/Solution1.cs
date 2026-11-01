@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0345_Reverse_Vowels_of_a_String;
 
-/// <seealso href="https://leetcode.com/submissions/detail/836406176/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/836406176/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

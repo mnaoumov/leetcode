@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2348_Number_of_Zero_Filled_Subarrays;
 
-/// <seealso href="https://leetcode.com/submissions/detail/919158455/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/919158455/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

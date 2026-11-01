@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3783_Mirror_Distance_of_an_Integer;
 
-/// <seealso href="https://leetcode.com/problems/mirror-distance-of-an-integer/submissions/1982127482/"/>
+/// <seealso href="https://leetcode.com/problems/mirror-distance-of-an-integer/submissions/1982127482/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

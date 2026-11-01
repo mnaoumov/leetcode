@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2429_Minimize_XOR;
 
-/// <seealso href="https://leetcode.com/submissions/detail/898855351/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/898855351/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

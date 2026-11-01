@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2499_Minimum_Total_Cost_to_Make_Arrays_Unequal;
 
-/// <seealso href="https://leetcode.com/submissions/detail/858980314/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/858980314/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

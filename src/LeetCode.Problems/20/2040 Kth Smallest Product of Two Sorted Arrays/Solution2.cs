@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2040_Kth_Smallest_Product_of_Two_Sorted_Arrays;
 
-/// <seealso href="https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays/submissions/1675512605/"/>
+/// <seealso href="https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays/submissions/1675512605/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

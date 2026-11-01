@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2589_Minimum_Time_to_Complete_All_Tasks;
 
-/// <seealso href="https://leetcode.com/submissions/detail/914059620/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/914059620/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

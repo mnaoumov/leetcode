@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3186_Maximum_Total_Damage_With_Spell_Casting;
 
-/// <seealso href="https://leetcode.com/problems/maximum-total-damage-with-spell-casting/submissions/1797812934/"/>
+/// <seealso href="https://leetcode.com/problems/maximum-total-damage-with-spell-casting/submissions/1797812934/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2351_First_Letter_to_Appear_Twice;
 
-/// <seealso href="https://leetcode.com/submissions/detail/856282690/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/856282690/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0167_Two_Sum_II___Input_Array_Is_Sorted;
 
-/// <seealso href="https://leetcode.com/submissions/detail/875910433/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/875910433/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

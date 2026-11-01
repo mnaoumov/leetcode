@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0346_Moving_Average_from_Data_Stream;
 
-/// <seealso href="https://leetcode.com/submissions/detail/882824800/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/882824800/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

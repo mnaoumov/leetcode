@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2963_Count_the_Number_of_Good_Partitions;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-375/submissions/detail/1116174501/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-375/submissions/detail/1116174501/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.MemoryLimitExceeded)]
 public class Solution1 : ISolution

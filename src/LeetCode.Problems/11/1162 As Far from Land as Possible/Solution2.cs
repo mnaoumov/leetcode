@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1162_As_Far_from_Land_as_Possible;
 
-/// <seealso href="https://leetcode.com/submissions/detail/895382778/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/895382778/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

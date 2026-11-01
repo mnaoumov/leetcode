@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2597_The_Number_of_Beautiful_Subsets;
 
-/// <seealso href="https://leetcode.com/submissions/detail/918926972/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/918926972/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0812_Largest_Triangle_Area;
 
-/// <seealso href="https://leetcode.com/problems/largest-triangle-area/submissions/1783748874/"/>
+/// <seealso href="https://leetcode.com/problems/largest-triangle-area/submissions/1783748874/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

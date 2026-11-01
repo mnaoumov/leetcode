@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0955_Delete_Columns_to_Make_Sorted_II;
 
-/// <seealso href="https://leetcode.com/problems/delete-columns-to-make-sorted-ii/submissions/1861068789/"/>
+/// <seealso href="https://leetcode.com/problems/delete-columns-to-make-sorted-ii/submissions/1861068789/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

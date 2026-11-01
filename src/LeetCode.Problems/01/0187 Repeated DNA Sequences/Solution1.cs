@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0187_Repeated_DNA_Sequences;
 
-/// <seealso href="https://leetcode.com/submissions/detail/902682127/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/902682127/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

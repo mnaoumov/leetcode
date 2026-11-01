@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3169_Count_Days_Without_Meetings;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-400/submissions/detail/1274828677/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-400/submissions/detail/1274828677/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

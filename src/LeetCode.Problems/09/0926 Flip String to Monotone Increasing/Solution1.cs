@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0926_Flip_String_to_Monotone_Increasing;
 
-/// <seealso href="https://leetcode.com/submissions/detail/879564518/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/879564518/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

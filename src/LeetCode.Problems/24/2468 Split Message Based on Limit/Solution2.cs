@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._2468_Split_Message_Based_on_Limit;
 
-/// <seealso href="https://leetcode.com/problems/split-message-based-on-limit/submissions/844388231/"/>
+/// <seealso href="https://leetcode.com/problems/split-message-based-on-limit/submissions/844388231/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

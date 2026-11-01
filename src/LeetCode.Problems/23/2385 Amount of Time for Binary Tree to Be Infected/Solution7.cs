@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2385_Amount_of_Time_for_Binary_Tree_to_Be_Infected;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1143880877/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1143880877/">Submission</seealso>
 [UsedImplicitly]
 public class Solution7 : ISolution
 {

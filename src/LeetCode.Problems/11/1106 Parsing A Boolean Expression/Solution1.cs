@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1106_Parsing_A_Boolean_Expression;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1427787547/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1427787547/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

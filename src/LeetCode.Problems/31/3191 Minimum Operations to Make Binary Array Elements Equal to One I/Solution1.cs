@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3191_Minimum_Operations_to_Make_Binary_Array_Elements_Equal_to_One_I;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-133/submissions/detail/1296746229/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-133/submissions/detail/1296746229/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

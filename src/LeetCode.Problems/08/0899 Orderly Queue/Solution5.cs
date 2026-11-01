@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0899_Orderly_Queue;
 
-/// <seealso href="https://leetcode.com/problems/orderly-queue/submissions/838280119/"/>
+/// <seealso href="https://leetcode.com/problems/orderly-queue/submissions/838280119/">Submission</seealso>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

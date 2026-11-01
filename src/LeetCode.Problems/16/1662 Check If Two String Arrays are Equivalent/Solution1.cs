@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1662_Check_If_Two_String_Arrays_are_Equivalent;
 
-/// <seealso href="https://leetcode.com/submissions/detail/829651470/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/829651470/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

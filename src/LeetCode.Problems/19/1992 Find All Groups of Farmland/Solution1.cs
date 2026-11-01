@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1992_Find_All_Groups_of_Farmland;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1237707229/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1237707229/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

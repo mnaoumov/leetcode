@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2163_Minimum_Difference_in_Sums_After_Removal_of_Elements;
 
-/// <seealso href="https://leetcode.com/problems/minimum-difference-in-sums-after-removal-of-elements/submissions/1702948134/"/>
+/// <seealso href="https://leetcode.com/problems/minimum-difference-in-sums-after-removal-of-elements/submissions/1702948134/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

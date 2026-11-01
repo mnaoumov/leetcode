@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1674_Minimum_Moves_to_Make_Array_Complementary;
 
-/// <seealso href="https://leetcode.com/problems/minimum-moves-to-make-array-complementary/submissions/2002508259/"/>
+/// <seealso href="https://leetcode.com/problems/minimum-moves-to-make-array-complementary/submissions/2002508259/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

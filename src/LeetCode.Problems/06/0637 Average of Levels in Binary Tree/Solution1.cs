@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0637_Average_of_Levels_in_Binary_Tree;
 
-/// <seealso href="https://leetcode.com/submissions/detail/905680072/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/905680072/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

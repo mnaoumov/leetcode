@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1359_Count_All_Valid_Pickup_and_Delivery_Options;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1045144379/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1045144379/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

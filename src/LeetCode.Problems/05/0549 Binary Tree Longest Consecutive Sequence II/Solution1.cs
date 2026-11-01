@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0549_Binary_Tree_Longest_Consecutive_Sequence_II;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1072907826/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1072907826/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

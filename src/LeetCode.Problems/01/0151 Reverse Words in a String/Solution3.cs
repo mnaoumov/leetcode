@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0151_Reverse_Words_in_a_String;
 
-/// <seealso href="https://leetcode.com/problems/reverse-words-in-a-string/submissions/848191493/"/>
+/// <seealso href="https://leetcode.com/problems/reverse-words-in-a-string/submissions/848191493/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

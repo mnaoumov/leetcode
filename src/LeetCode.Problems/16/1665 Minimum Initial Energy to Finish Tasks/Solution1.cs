@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1665_Minimum_Initial_Energy_to_Finish_Tasks;
 
-/// <seealso href="https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/submissions/2000942163/"/>
+/// <seealso href="https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/submissions/2000942163/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

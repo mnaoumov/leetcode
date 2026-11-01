@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1376_Time_Needed_to_Inform_All_Employees;
 
-/// <seealso href="https://leetcode.com/submissions/detail/906656719/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/906656719/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

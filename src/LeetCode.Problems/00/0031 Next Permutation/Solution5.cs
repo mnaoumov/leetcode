@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0031_Next_Permutation;
 
-/// <seealso href="https://leetcode.com/submissions/detail/812403685/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/812403685/">Submission</seealso>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

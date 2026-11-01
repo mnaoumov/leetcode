@@ -4,7 +4,7 @@
 
 namespace LeetCode.Problems._0030_Substring_with_Concatenation_of_All_Words;
 
-/// <seealso href="https://leetcode.com/submissions/detail/812390566/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/812390566/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3075_Maximize_Happiness_of_Selected_Children;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-388/submissions/detail/1199070915/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-388/submissions/detail/1199070915/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

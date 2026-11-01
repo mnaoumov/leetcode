@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0362_Design_Hit_Counter;
 
-/// <seealso href="https://leetcode.com/problems/design-hit-counter/submissions/1904788935/"/>
+/// <seealso href="https://leetcode.com/problems/design-hit-counter/submissions/1904788935/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

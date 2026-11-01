@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2449_Minimum_Number_of_Operations_to_Make_Arrays_Similar;
 
-/// <seealso href="https://leetcode.com/submissions/detail/828407147/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/828407147/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

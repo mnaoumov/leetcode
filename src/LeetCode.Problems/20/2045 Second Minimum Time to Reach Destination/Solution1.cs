@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2045_Second_Minimum_Time_to_Reach_Destination;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1335632359/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1335632359/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.MemoryLimitExceeded)]
 public class Solution1 : ISolution

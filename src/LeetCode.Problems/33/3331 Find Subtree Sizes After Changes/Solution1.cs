@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3331_Find_Subtree_Sizes_After_Changes;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-142/submissions/detail/1434320720/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-142/submissions/detail/1434320720/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

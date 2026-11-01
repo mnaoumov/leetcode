@@ -2,8 +2,8 @@
 #pragma warning disable
 namespace LeetCode.Problems._0004_Median_of_Two_Sorted_Arrays;
 
-/// <seealso href="https://leetcode.com/submissions/detail/147552265/"/>
-/// <seealso href="https://leetcode.com/submissions/detail/815927580/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/147552265/">Submission</seealso>
+/// <seealso href="https://leetcode.com/submissions/detail/815927580/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution05_13 : ISolution

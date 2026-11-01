@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2999_Count_the_Number_of_Powerful_Integers;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-121/submissions/detail/1138603032/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-121/submissions/detail/1138603032/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

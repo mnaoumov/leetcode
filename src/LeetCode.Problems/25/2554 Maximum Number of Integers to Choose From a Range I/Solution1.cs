@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2554_Maximum_Number_of_Integers_to_Choose_From_a_Range_I;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-97/submissions/detail/891340712/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-97/submissions/detail/891340712/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

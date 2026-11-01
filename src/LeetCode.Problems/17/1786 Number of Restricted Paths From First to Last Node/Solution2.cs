@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1786_Number_of_Restricted_Paths_From_First_to_Last_Node;
 
-/// <seealso href="https://leetcode.com/submissions/detail/969772489/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/969772489/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

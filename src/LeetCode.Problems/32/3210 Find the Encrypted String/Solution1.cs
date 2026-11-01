@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3210_Find_the_Encrypted_String;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-405/submissions/detail/1312265275/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-405/submissions/detail/1312265275/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

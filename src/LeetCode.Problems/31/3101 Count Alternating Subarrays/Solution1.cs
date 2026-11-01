@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3101_Count_Alternating_Subarrays;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-391/submissions/detail/1218762852/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-391/submissions/detail/1218762852/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

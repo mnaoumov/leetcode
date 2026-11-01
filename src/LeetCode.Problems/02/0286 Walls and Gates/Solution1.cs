@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0286_Walls_and_Gates;
 
-/// <seealso href="https://leetcode.com/submissions/detail/946336899/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/946336899/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

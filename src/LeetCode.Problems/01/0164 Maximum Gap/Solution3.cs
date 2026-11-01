@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0164_Maximum_Gap;
 
-/// <seealso href="https://leetcode.com/submissions/detail/874467905/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/874467905/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

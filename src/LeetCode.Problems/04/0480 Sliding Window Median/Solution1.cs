@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0480_Sliding_Window_Median;
 
-/// <seealso href="https://leetcode.com/submissions/detail/907994712/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/907994712/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

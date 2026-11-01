@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1214_Two_Sum_BSTs;
 
-/// <seealso href="https://leetcode.com/submissions/detail/978564177/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/978564177/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1685_Sum_of_Absolute_Differences_in_a_Sorted_Array;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1105753416/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1105753416/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0968_Binary_Tree_Cameras;
 
-/// <seealso href="https://leetcode.com/submissions/detail/954993959/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/954993959/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

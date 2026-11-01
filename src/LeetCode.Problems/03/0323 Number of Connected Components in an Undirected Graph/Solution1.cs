@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0323_Number_of_Connected_Components_in_an_Undirected_Graph;
 
-/// <seealso href="https://leetcode.com/submissions/detail/897903675/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/897903675/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2841_Maximum_Sum_of_Almost_Unique_Subarray;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-112/submissions/detail/1038538797/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-112/submissions/detail/1038538797/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

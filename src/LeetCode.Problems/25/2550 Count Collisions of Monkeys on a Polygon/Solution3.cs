@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2550_Count_Collisions_of_Monkeys_on_a_Polygon;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-330/submissions/detail/887168649/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-330/submissions/detail/887168649/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2685_Count_the_Number_of_Complete_Components;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-345/submissions/detail/949948657/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-345/submissions/detail/949948657/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

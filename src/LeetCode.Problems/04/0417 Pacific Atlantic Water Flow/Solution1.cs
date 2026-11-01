@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0417_Pacific_Atlantic_Water_Flow;
 
-/// <seealso href="https://leetcode.com/submissions/detail/925218308/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/925218308/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

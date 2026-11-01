@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1002_Find_Common_Characters;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1277934076/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1277934076/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

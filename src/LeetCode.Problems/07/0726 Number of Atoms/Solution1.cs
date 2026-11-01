@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0726_Number_of_Atoms;
 
-/// <seealso href="TODO url"/>
+/// <seealso href="TODO url">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

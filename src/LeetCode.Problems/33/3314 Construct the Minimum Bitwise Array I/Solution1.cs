@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3314_Construct_the_Minimum_Bitwise_Array_I;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-141/submissions/detail/1420030528/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-141/submissions/detail/1420030528/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

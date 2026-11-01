@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2145_Count_the_Hidden_Sequences;
 
-/// <seealso href="https://leetcode.com/problems/count-the-hidden-sequences/submissions/1612992343/"/>
+/// <seealso href="https://leetcode.com/problems/count-the-hidden-sequences/submissions/1612992343/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

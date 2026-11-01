@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3001_Minimum_Moves_to_Capture_The_Queen;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-379/submissions/detail/1139101812/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-379/submissions/detail/1139101812/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

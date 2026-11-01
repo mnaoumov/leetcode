@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0997_Find_the_Town_Judge;
 
-/// <seealso href="https://leetcode.com/submissions/detail/883361177/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/883361177/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

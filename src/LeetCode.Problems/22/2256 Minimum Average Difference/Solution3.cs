@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2256_Minimum_Average_Difference;
 
-/// <seealso href="https://leetcode.com/submissions/detail/854275828/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/854275828/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

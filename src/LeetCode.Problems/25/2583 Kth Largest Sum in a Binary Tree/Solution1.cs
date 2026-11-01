@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2583_Kth_Largest_Sum_in_a_Binary_Tree;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-335/submissions/detail/909228257/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-335/submissions/detail/909228257/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2617_Minimum_Number_of_Visited_Cells_in_a_Grid;
 
-/// <seealso href="https://leetcode.com/submissions/detail/930942915/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/930942915/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

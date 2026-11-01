@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._0134_Gas_Station;
 
-/// <seealso href="https://leetcode.com/problems/gas-station/submissions/838931259/"/>
+/// <seealso href="https://leetcode.com/problems/gas-station/submissions/838931259/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

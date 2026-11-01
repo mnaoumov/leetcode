@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2894_Divisible_and_Non_divisible_Sums_Difference;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-366/submissions/detail/1069755298/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-366/submissions/detail/1069755298/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

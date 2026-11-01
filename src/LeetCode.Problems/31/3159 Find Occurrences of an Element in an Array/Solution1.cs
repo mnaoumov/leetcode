@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3159_Find_Occurrences_of_an_Element_in_an_Array;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-131/submissions/detail/1267537397/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-131/submissions/detail/1267537397/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

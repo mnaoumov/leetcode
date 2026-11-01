@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3107_Minimum_Operations_to_Make_Median_of_Array_Equal_to_K;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-392/submissions/detail/1225353815/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-392/submissions/detail/1225353815/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

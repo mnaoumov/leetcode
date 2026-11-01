@@ -4,7 +4,7 @@
 
 namespace LeetCode.Problems._2438_Range_Product_Queries_of_Powers;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-89/submissions/detail/823017036/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-89/submissions/detail/823017036/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

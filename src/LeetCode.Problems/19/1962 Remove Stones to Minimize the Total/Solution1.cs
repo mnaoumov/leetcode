@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1962_Remove_Stones_to_Minimize_the_Total;
 
-/// <seealso href="https://leetcode.com/submissions/detail/867119351/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/867119351/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

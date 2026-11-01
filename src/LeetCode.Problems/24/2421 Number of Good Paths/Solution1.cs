@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2421_Number_of_Good_Paths;
 
-/// <seealso href="https://leetcode.com/submissions/detail/878868405/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/878868405/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

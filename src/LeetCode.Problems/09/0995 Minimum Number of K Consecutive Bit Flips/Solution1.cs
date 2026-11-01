@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0995_Minimum_Number_of_K_Consecutive_Bit_Flips;
 
-/// <seealso href="https://leetcode.com/submissions/detail/957969916/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/957969916/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

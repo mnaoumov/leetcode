@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1259_Handshakes_That_Don_t_Cross;
 
-/// <seealso href="https://leetcode.com/submissions/detail/902649422/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/902649422/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

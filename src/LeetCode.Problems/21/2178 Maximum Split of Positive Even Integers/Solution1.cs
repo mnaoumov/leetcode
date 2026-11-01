@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2178_Maximum_Split_of_Positive_Even_Integers;
 
-/// <seealso href="https://leetcode.com/submissions/detail/914108382/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/914108382/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

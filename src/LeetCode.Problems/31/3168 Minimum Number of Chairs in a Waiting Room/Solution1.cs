@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3168_Minimum_Number_of_Chairs_in_a_Waiting_Room;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-400/submissions/detail/1274694991/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-400/submissions/detail/1274694991/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

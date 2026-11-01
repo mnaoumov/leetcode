@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1219_Path_with_Maximum_Gold;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1258213941/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1258213941/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution3 : ISolution

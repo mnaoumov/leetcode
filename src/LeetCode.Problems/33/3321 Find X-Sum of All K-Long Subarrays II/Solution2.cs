@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3321_Find_X_Sum_of_All_K_Long_Subarrays_II;
 
-/// <seealso href="https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-ii/submissions/1821039542/"/>
+/// <seealso href="https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-ii/submissions/1821039542/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

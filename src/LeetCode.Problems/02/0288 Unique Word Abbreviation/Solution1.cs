@@ -2,7 +2,7 @@ using System.Globalization;
 
 namespace LeetCode.Problems._0288_Unique_Word_Abbreviation;
 
-/// <seealso href="https://leetcode.com/problems/unique-word-abbreviation/submissions/2052887243/"/>
+/// <seealso href="https://leetcode.com/problems/unique-word-abbreviation/submissions/2052887243/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

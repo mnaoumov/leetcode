@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3515_Shortest_Path_in_a_Weighted_Tree;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-154/problems/shortest-path-in-a-weighted-tree/submissions/1604733230/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-154/problems/shortest-path-in-a-weighted-tree/submissions/1604733230/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

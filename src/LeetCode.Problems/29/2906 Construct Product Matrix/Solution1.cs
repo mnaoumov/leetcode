@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._2906_Construct_Product_Matrix;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-367/submissions/detail/1075519243/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-367/submissions/detail/1075519243/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

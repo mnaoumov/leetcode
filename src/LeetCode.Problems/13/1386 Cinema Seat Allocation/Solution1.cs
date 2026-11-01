@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1386_Cinema_Seat_Allocation;
 
-/// <seealso href="https://leetcode.com/problems/cinema-seat-allocation/submissions/2112072101/"/>
+/// <seealso href="https://leetcode.com/problems/cinema-seat-allocation/submissions/2112072101/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.MemoryLimitExceeded)]
 public class Solution1 : ISolution

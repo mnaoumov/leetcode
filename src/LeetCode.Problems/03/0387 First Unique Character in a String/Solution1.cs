@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0387_First_Unique_Character_in_a_String;
 
-/// <seealso href="https://leetcode.com/submissions/detail/923042050/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/923042050/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

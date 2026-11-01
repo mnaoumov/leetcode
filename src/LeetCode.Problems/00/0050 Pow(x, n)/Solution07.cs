@@ -4,7 +4,7 @@
 
 namespace LeetCode.Problems._0050_Pow_x__n_;
 
-/// <seealso href="https://leetcode.com/submissions/detail/205251719/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/205251719/">Submission</seealso>
 [UsedImplicitly]
 public class Solution07 : ISolution
 {

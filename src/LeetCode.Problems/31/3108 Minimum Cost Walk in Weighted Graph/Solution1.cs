@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3108_Minimum_Cost_Walk_in_Weighted_Graph;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-392/submissions/detail/1225398119/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-392/submissions/detail/1225398119/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

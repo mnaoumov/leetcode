@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1292_Maximum_Side_Length_of_a_Square_with_Sum_Less_than_or_Equal_to_Threshold;
 
-/// <seealso href="https://leetcode.com/submissions/detail/950588888/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/950588888/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

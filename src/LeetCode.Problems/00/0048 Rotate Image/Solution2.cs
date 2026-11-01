@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0048_Rotate_Image;
 
-/// <seealso href="https://leetcode.com/submissions/detail/815519381/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/815519381/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

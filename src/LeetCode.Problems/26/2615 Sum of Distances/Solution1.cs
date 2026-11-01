@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2615_Sum_of_Distances;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-340/submissions/detail/930448127/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-340/submissions/detail/930448127/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

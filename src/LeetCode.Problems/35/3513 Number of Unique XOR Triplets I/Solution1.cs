@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3513_Number_of_Unique_XOR_Triplets_I;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-154/problems/number-of-unique-xor-triplets-i/submissions/1604700081/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-154/problems/number-of-unique-xor-triplets-i/submissions/1604700081/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

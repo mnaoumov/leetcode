@@ -2,7 +2,7 @@ using System.Globalization;
 
 namespace LeetCode.Problems._3753_Total_Waviness_of_Numbers_in_Range_II;
 
-/// <seealso href="https://leetcode.com/problems/total-waviness-of-numbers-in-range-ii/submissions/2023711675/"/>
+/// <seealso href="https://leetcode.com/problems/total-waviness-of-numbers-in-range-ii/submissions/2023711675/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution3 : ISolution

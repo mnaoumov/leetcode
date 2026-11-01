@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1049_Last_Stone_Weight_II;
 
-/// <seealso href="https://leetcode.com/submissions/detail/957515372/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/957515372/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

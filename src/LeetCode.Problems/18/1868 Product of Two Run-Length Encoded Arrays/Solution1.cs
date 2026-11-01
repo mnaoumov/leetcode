@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1868_Product_of_Two_Run_Length_Encoded_Arrays;
 
-/// <seealso href="https://leetcode.com/submissions/detail/945205030/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/945205030/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

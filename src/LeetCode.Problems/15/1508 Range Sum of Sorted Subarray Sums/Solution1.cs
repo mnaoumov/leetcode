@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1508_Range_Sum_of_Sorted_Subarray_Sums;
 
-/// <seealso href="https://leetcode.com/submissions/detail/950468416/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/950468416/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

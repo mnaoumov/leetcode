@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3634_Minimum_Removals_to_Balance_Array;
 
-/// <seealso href="https://leetcode.com/problems/minimum-removals-to-balance-array/submissions/1910666548/"/>
+/// <seealso href="https://leetcode.com/problems/minimum-removals-to-balance-array/submissions/1910666548/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

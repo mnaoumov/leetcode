@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2599_Make_the_Prefix_Sum_Non_negative;
 
-/// <seealso href="https://leetcode.com/submissions/detail/920500879/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/920500879/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

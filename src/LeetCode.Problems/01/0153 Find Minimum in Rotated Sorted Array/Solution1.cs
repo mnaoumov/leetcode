@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0153_Find_Minimum_in_Rotated_Sorted_Array;
 
-/// <seealso href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/submissions/848241554/"/>
+/// <seealso href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/submissions/848241554/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

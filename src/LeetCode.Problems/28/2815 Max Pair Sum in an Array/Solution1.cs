@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2815_Max_Pair_Sum_in_an_Array;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-358/submissions/detail/1019730293/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-358/submissions/detail/1019730293/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

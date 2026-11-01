@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3584_Maximum_Product_of_First_and_Last_Elements_of_a_Subsequence;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-454/problems/maximum-product-of-first-and-last-elements-of-a-subsequence/submissions/1664460171/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-454/problems/maximum-product-of-first-and-last-elements-of-a-subsequence/submissions/1664460171/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

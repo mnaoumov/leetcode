@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._1190_Reverse_Substrings_Between_Each_Pair_of_Parentheses;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1322640092/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1322640092/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

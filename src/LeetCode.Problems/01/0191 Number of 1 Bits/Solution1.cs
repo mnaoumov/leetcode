@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0191_Number_of_1_Bits;
 
-/// <seealso href="https://leetcode.com/submissions/detail/923296123/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/923296123/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

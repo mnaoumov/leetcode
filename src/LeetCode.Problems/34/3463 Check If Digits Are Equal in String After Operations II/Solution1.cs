@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3463_Check_If_Digits_Are_Equal_in_String_After_Operations_II;
 
-/// <seealso href="TODO url"/>
+/// <seealso href="TODO url">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0308_Range_Sum_Query_2D___Mutable;
 
-/// <seealso href="https://leetcode.com/problems/range-sum-query-2d-mutable/submissions/2108520580/"/>
+/// <seealso href="https://leetcode.com/problems/range-sum-query-2d-mutable/submissions/2108520580/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

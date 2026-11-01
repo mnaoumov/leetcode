@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0657_Robot_Return_to_Origin;
 
-/// <seealso href="https://leetcode.com/problems/robot-return-to-origin/submissions/1970070400/"/>
+/// <seealso href="https://leetcode.com/problems/robot-return-to-origin/submissions/1970070400/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

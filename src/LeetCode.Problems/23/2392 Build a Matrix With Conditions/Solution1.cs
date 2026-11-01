@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2392_Build_a_Matrix_With_Conditions;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1328911633/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1328911633/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

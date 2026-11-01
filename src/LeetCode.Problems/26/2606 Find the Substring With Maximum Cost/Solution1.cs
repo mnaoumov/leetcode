@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2606_Find_the_Substring_With_Maximum_Cost;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-101/submissions/detail/925972750/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-101/submissions/detail/925972750/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

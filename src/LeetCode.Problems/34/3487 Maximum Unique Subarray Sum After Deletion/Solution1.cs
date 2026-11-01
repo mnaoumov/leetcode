@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3487_Maximum_Unique_Subarray_Sum_After_Deletion;
 
-/// <seealso href="https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/submissions/1710385004/"/>
+/// <seealso href="https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/submissions/1710385004/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

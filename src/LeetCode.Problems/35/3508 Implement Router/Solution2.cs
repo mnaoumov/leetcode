@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3508_Implement_Router;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-444/problems/implement-router/submissions/1598031207/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-444/problems/implement-router/submissions/1598031207/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

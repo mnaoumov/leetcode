@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._3913_Sort_Vowels_by_Frequency;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-499/problems/sort-vowels-by-frequency/submissions/1988233502/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-499/problems/sort-vowels-by-frequency/submissions/1988233502/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

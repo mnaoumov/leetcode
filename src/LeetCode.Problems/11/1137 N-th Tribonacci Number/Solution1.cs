@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1137_N_th_Tribonacci_Number;
 
-/// <seealso href="https://leetcode.com/submissions/detail/887781838/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/887781838/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

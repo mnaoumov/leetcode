@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3300_Minimum_Element_After_Replacement_With_Digit_Sum;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-140/submissions/detail/1404955845/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-140/submissions/detail/1404955845/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

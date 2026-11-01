@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1349_Maximum_Students_Taking_Exam;
 
-/// <seealso href="https://leetcode.com/submissions/detail/926914430/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/926914430/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

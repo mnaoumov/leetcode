@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3241_Time_Taken_to_Mark_All_Nodes;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-136/submissions/detail/1343223654/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-136/submissions/detail/1343223654/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

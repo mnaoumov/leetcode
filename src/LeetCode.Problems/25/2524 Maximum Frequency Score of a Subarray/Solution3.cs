@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2524_Maximum_Frequency_Score_of_a_Subarray;
 
-/// <seealso href="https://leetcode.com/submissions/detail/870797265/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/870797265/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution3 : ISolution

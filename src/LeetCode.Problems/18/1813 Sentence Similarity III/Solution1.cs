@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1813_Sentence_Similarity_III;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1413857323/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1413857323/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

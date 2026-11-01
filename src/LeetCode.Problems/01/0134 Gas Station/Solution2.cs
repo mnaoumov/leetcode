@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0134_Gas_Station;
 
-/// <seealso href="https://leetcode.com/problems/gas-station/submissions/838933524/"/>
+/// <seealso href="https://leetcode.com/problems/gas-station/submissions/838933524/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

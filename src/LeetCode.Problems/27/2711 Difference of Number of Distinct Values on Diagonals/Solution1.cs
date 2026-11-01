@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2711_Difference_of_Number_of_Distinct_Values_on_Diagonals;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-347/submissions/detail/958697658/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-347/submissions/detail/958697658/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

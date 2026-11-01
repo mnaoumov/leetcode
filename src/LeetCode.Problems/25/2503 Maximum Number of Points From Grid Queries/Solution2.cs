@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2503_Maximum_Number_of_Points_From_Grid_Queries;
 
-/// <seealso href="https://leetcode.com/submissions/detail/859265377/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/859265377/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

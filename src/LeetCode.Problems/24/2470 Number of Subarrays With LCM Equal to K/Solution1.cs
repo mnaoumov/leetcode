@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2470_Number_of_Subarrays_With_LCM_Equal_to_K;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-319/submissions/detail/842340777/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-319/submissions/detail/842340777/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

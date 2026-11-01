@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1791_Find_Center_of_Star_Graph;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1301411659/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1301411659/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

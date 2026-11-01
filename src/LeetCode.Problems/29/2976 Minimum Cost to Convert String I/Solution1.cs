@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2976_Minimum_Cost_to_Convert_String_I;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-377/submissions/detail/1127084648/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-377/submissions/detail/1127084648/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

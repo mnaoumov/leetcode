@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2832_Maximal_Range_That_Each_Element_Is_Maximum_in_It;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1479789937/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1479789937/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

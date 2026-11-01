@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2218_Maximum_Value_of_K_Coins_From_Piles;
 
-/// <seealso href="https://leetcode.com/submissions/detail/919882636/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/919882636/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

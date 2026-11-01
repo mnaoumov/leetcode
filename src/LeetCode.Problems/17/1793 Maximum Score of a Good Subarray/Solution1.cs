@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1793_Maximum_Score_of_a_Good_Subarray;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1080949719/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1080949719/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

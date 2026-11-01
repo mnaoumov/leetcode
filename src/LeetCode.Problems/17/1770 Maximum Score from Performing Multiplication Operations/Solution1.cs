@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1770_Maximum_Score_from_Performing_Multiplication_Operations;
 
-/// <seealso href="https://leetcode.com/submissions/detail/927249917/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/927249917/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2071_Maximum_Number_of_Tasks_You_Can_Assign;
 
-/// <seealso href="https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/submissions/1622408640/"/>
+/// <seealso href="https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/submissions/1622408640/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

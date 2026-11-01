@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3108_Minimum_Cost_Walk_in_Weighted_Graph;
 
-/// <seealso href="https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph/submissions/1579643551/"/>
+/// <seealso href="https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph/submissions/1579643551/">Submission</seealso>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

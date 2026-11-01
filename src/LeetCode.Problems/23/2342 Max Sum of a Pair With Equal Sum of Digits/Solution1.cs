@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2342_Max_Sum_of_a_Pair_With_Equal_Sum_of_Digits;
 
-/// <seealso href="https://leetcode.com/submissions/detail/856791449/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/856791449/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

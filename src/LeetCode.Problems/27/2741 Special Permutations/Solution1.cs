@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2741_Special_Permutations;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-350/submissions/detail/973703152/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-350/submissions/detail/973703152/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._1202_Smallest_String_With_Swaps;
 
-/// <seealso href="https://leetcode.com/submissions/detail/931570745/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/931570745/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

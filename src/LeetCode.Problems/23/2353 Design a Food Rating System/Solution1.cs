@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2353_Design_a_Food_Rating_System;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1121403827/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1121403827/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

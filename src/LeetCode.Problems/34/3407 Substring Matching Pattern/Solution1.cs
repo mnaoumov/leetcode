@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3407_Substring_Matching_Pattern;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-147/submissions/detail/1497401855/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-147/submissions/detail/1497401855/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

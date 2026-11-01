@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0662_Maximum_Width_of_Binary_Tree;
 
-/// <seealso href="https://leetcode.com/submissions/detail/936636554/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/936636554/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

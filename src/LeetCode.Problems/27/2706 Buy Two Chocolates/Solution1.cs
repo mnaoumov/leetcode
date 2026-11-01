@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2706_Buy_Two_Chocolates;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-105/submissions/detail/958301723/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-105/submissions/detail/958301723/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

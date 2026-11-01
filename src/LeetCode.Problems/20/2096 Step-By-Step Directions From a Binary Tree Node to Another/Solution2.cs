@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._2096_Step_By_Step_Directions_From_a_Binary_Tree_Node_to_Another;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1322460455/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1322460455/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

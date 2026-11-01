@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0704_Binary_Search;
 
-/// <seealso href="https://leetcode.com/submissions/detail/914692603/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/914692603/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

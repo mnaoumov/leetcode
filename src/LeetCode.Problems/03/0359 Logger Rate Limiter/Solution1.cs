@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0359_Logger_Rate_Limiter;
 
-/// <seealso href="https://leetcode.com/problems/logger-rate-limiter/submissions/1629685298/"/>
+/// <seealso href="https://leetcode.com/problems/logger-rate-limiter/submissions/1629685298/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

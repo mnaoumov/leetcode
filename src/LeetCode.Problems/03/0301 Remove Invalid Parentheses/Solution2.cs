@@ -5,7 +5,7 @@ using System.Text;
 
 namespace LeetCode.Problems._0301_Remove_Invalid_Parentheses;
 
-/// <seealso href="https://leetcode.com/submissions/detail/198518868/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/198518868/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0739_Daily_Temperatures;
 
-/// <seealso href="https://leetcode.com/submissions/detail/861350595/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/861350595/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

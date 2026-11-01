@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2931_Maximum_Spending_After_Buying_Items;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1096662953/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1096662953/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

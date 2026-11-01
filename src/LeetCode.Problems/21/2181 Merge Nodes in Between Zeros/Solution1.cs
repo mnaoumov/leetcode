@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2181_Merge_Nodes_in_Between_Zeros;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1308834461/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1308834461/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

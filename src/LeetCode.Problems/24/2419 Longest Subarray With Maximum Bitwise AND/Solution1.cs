@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2419_Longest_Subarray_With_Maximum_Bitwise_AND;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1389425263/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1389425263/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

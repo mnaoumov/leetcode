@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0056_Merge_Intervals;
 
-/// <seealso href="https://leetcode.com/submissions/detail/829028337/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/829028337/">Submission</seealso>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

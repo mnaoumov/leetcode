@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._3003_Maximize_the_Number_of_Partitions_After_Operations;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1139186192/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1139186192/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

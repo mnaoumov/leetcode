@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3593_Minimum_Increments_to_Equalize_Leaf_Paths;
 
-/// <seealso href="TODO url"/>
+/// <seealso href="TODO url">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

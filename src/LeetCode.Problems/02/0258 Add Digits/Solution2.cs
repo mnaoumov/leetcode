@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0258_Add_Digits;
 
-/// <seealso href="https://leetcode.com/submissions/detail/924648915/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/924648915/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

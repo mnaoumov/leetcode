@@ -4,7 +4,7 @@
 
 namespace LeetCode.Problems._0560_Subarray_Sum_Equals_K;
 
-/// <seealso href="https://leetcode.com/submissions/detail/196740143/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/196740143/">Submission</seealso>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

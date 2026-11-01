@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2871_Split_Array_Into_Maximum_Number_of_Subarrays;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-114/submissions/detail/1063164004/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-114/submissions/detail/1063164004/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

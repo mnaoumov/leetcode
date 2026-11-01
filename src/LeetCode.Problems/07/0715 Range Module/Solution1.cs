@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0715_Range_Module;
 
-/// <seealso href="https://leetcode.com/submissions/detail/959257990/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/959257990/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

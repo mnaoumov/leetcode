@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0305_Number_of_Islands_II;
 
-/// <seealso href="https://leetcode.com/submissions/detail/898633068/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/898633068/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

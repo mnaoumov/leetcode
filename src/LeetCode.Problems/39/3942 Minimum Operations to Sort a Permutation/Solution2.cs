@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3942_Minimum_Operations_to_Sort_a_Permutation;
 
-/// <seealso href="https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/submissions/2178445179/"/>
+/// <seealso href="https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/submissions/2178445179/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2718_Sum_of_Matrix_After_Queries;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-348/submissions/detail/963344722/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-348/submissions/detail/963344722/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

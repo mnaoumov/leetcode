@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0528_Random_Pick_with_Weight;
 
-/// <seealso href="https://leetcode.com/submissions/detail/950465958/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/950465958/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

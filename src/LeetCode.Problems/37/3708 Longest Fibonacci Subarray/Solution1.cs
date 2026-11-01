@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3708_Longest_Fibonacci_Subarray;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-167/problems/longest-fibonacci-subarray/submissions/1798383931/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-167/problems/longest-fibonacci-subarray/submissions/1798383931/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0983_Minimum_Cost_For_Tickets;
 
-/// <seealso href="https://leetcode.com/submissions/detail/923323583/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/923323583/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

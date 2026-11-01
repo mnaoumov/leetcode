@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1647_Minimum_Deletions_to_Make_Character_Frequencies_Unique;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1047092820/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1047092820/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

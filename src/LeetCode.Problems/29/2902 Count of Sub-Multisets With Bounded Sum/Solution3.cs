@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2902_Count_of_Sub_Multisets_With_Bounded_Sum;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-115/submissions/detail/1075083436/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-115/submissions/detail/1075083436/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution3 : ISolution

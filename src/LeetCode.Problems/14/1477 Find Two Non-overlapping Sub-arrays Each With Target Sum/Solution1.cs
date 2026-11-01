@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1477_Find_Two_Non_overlapping_Sub_arrays_Each_With_Target_Sum;
 
-/// <seealso href="https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/submissions/2144297707/"/>
+/// <seealso href="https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/submissions/2144297707/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

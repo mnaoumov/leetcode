@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._3081_Replace_Question_Marks_in_String_to_Minimize_Its_Value;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-126/submissions/detail/1205398793/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-126/submissions/detail/1205398793/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

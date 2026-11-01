@@ -3,7 +3,7 @@
 #pragma warning disable
 namespace LeetCode.Problems._0341_Flatten_Nested_List_Iterator;
 
-/// <seealso href="https://leetcode.com/submissions/detail/205283879/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/205283879/">Submission</seealso>
 public class NestedIterator2 : INestedIterator
 {
     private readonly IList<NestedInteger> _nestedList;

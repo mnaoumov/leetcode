@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3175_Find_The_First_Player_to_win_K_Games_in_a_Row;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1281717865/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1281717865/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution4 : ISolution

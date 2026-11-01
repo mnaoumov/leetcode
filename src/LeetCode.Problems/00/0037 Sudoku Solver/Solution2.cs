@@ -6,7 +6,7 @@ using System.Text.Json;
 
 namespace LeetCode.Problems._0037_Sudoku_Solver;
 
-/// <seealso href="https://leetcode.com/submissions/detail/813133781/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/813133781/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2869_Minimum_Operations_to_Collect_Elements;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-114/submissions/detail/1063102504/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-114/submissions/detail/1063102504/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

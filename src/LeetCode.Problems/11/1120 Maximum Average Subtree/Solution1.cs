@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1120_Maximum_Average_Subtree;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1115382811/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1115382811/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

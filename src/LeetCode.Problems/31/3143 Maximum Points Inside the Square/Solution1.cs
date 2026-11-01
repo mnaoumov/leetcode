@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3143_Maximum_Points_Inside_the_Square;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-130/submissions/detail/1255239362/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-130/submissions/detail/1255239362/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2064_Minimized_Maximum_of_Products_Distributed_to_Any_Store;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1452137409/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1452137409/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

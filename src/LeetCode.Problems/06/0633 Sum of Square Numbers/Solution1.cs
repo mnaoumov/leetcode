@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0633_Sum_of_Square_Numbers;
 
-/// <seealso href="https://leetcode.com/submissions/detail/928786665/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/928786665/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

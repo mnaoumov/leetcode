@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0298_Binary_Tree_Longest_Consecutive_Sequence;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1072271792/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1072271792/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

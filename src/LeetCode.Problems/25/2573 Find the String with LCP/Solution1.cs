@@ -2,7 +2,7 @@ using System.Text;
 
 namespace LeetCode.Problems._2573_Find_the_String_with_LCP;
 
-/// <seealso href="https://leetcode.com/submissions/detail/901659041/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/901659041/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

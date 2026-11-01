@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0145_Binary_Tree_Postorder_Traversal;
 
-/// <seealso href="https://leetcode.com/problems/binary-tree-postorder-traversal/submissions/845330020/"/>
+/// <seealso href="https://leetcode.com/problems/binary-tree-postorder-traversal/submissions/845330020/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

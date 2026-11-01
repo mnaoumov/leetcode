@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3769_Sort_Integers_by_Binary_Reflection;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-479/problems/sort-integers-by-binary-reflection/submissions/1848829921/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-479/problems/sort-integers-by-binary-reflection/submissions/1848829921/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

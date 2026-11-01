@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2169_Count_Operations_to_Obtain_Zero;
 
-/// <seealso href="https://leetcode.com/problems/count-operations-to-obtain-zero/submissions/1824605476/"/>
+/// <seealso href="https://leetcode.com/problems/count-operations-to-obtain-zero/submissions/1824605476/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

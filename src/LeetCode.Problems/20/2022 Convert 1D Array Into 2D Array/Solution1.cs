@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2022_Convert_1D_Array_Into_2D_Array;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1374735506/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1374735506/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

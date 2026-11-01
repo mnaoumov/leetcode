@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2393_Count_Strictly_Increasing_Subarrays;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1063082814/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1063082814/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1266_Minimum_Time_Visiting_All_Points;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1111139530/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1111139530/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

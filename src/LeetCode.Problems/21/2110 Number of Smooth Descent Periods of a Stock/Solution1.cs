@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2110_Number_of_Smooth_Descent_Periods_of_a_Stock;
 
-/// <seealso href="https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/submissions/1856708824/"/>
+/// <seealso href="https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/submissions/1856708824/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

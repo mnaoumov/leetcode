@@ -2,8 +2,8 @@ using System.Text;
 
 namespace LeetCode.Problems._0012_Integer_to_Roman;
 
-/// <seealso href="https://leetcode.com/submissions/detail/808441900/"/>
-/// <seealso href="https://leetcode.com/submissions/detail/826265697/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/808441900/">Submission</seealso>
+/// <seealso href="https://leetcode.com/submissions/detail/826265697/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

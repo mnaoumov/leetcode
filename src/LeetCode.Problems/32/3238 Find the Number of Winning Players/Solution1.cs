@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3238_Find_the_Number_of_Winning_Players;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-136/submissions/detail/1343077458/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-136/submissions/detail/1343077458/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2435_Paths_in_Matrix_Whose_Sum_Is_Divisible_by_K;
 
-/// <seealso href="https://leetcode.com/submissions/detail/882140678/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/882140678/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

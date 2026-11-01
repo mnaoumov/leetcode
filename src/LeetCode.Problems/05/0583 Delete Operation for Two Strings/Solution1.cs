@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0583_Delete_Operation_for_Two_Strings;
 
-/// <seealso href="https://leetcode.com/submissions/detail/941806800/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/941806800/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

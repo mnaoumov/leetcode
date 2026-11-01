@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2833_Furthest_Point_From_Origin;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-360/submissions/detail/1032727626/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-360/submissions/detail/1032727626/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

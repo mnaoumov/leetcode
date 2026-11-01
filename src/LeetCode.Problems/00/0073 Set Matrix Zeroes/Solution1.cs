@@ -4,7 +4,7 @@
 
 namespace LeetCode.Problems._0073_Set_Matrix_Zeroes;
 
-/// <seealso href="https://leetcode.com/submissions/detail/820583896/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/820583896/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

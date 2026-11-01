@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3864_Minimum_Cost_to_Partition_a_Binary_String;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-492/problems/minimum-cost-to-partition-a-binary-string/submissions/1941416891/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-492/problems/minimum-cost-to-partition-a-binary-string/submissions/1941416891/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

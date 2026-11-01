@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3852_Smallest_Pair_With_Different_Frequencies;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-177/problems/smallest-pair-with-different-frequencies/submissions/1933705055/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-177/problems/smallest-pair-with-different-frequencies/submissions/1933705055/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

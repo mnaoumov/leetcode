@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2508_Add_Edges_to_Make_Degrees_of_All_Nodes_Even;
 
-/// <seealso href="https://leetcode.com/submissions/detail/864962554/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/864962554/">Submission</seealso>
 [UsedImplicitly]
 public class Solution5 : ISolution
 {

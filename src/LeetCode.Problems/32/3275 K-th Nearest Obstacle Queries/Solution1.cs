@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3275_K_th_Nearest_Obstacle_Queries;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-413/submissions/detail/1374800313/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-413/submissions/detail/1374800313/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

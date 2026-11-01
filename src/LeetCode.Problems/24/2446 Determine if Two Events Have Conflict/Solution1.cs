@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2446_Determine_if_Two_Events_Have_Conflict;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-316/submissions/detail/828277017/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-316/submissions/detail/828277017/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

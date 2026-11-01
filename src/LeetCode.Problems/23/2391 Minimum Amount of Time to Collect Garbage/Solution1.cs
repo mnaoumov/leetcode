@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2391_Minimum_Amount_of_Time_to_Collect_Garbage;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1102508361/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1102508361/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

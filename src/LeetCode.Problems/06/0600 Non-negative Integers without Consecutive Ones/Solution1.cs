@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0600_Non_negative_Integers_without_Consecutive_Ones;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1073021674/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1073021674/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

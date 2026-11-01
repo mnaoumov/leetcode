@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0721_Accounts_Merge;
 
-/// <seealso href="https://leetcode.com/submissions/detail/934900160/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/934900160/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

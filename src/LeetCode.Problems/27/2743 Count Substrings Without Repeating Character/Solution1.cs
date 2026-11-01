@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2743_Count_Substrings_Without_Repeating_Character;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1297105776/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1297105776/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

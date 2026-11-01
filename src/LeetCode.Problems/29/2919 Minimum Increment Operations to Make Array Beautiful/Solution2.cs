@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2919_Minimum_Increment_Operations_to_Make_Array_Beautiful;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-369/submissions/detail/1086504403/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-369/submissions/detail/1086504403/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

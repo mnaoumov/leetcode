@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2539_Count_the_Number_of_Good_Subsequences;
 
-/// <seealso href="https://leetcode.com/submissions/detail/880961622/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/880961622/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

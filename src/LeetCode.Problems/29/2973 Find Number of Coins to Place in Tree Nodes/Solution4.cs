@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2973_Find_Number_of_Coins_to_Place_in_Tree_Nodes;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1126947459/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1126947459/">Submission</seealso>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

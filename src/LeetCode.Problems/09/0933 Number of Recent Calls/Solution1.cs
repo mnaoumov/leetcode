@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0933_Number_of_Recent_Calls;
 
-/// <seealso href="https://leetcode.com/submissions/detail/899443720/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/899443720/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

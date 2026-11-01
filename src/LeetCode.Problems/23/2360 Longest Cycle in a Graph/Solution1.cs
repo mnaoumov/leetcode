@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2360_Longest_Cycle_in_a_Graph;
 
-/// <seealso href="https://leetcode.com/submissions/detail/922267616/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/922267616/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

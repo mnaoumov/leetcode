@@ -5,7 +5,7 @@
 
 namespace LeetCode.Problems._0152_Maximum_Product_Subarray;
 
-/// <seealso href="https://leetcode.com/submissions/detail/198325831/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/198325831/">Submission</seealso>
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 [UsedImplicitly]
 public class Solution3 : ISolution

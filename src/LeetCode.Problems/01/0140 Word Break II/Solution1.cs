@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0140_Word_Break_II;
 
-/// <seealso href="https://leetcode.com/problems/word-break-ii/submissions/841550736/"/>
+/// <seealso href="https://leetcode.com/problems/word-break-ii/submissions/841550736/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

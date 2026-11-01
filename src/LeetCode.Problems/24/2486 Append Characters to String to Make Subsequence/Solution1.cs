@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2486_Append_Characters_to_String_to_Make_Subsequence;
 
-/// <seealso href="https://leetcode.com/submissions/detail/850794200/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/850794200/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2450_Number_of_Distinct_Binary_Strings_After_Applying_Operations;
 
-/// <seealso href="https://leetcode.com/submissions/detail/881602734/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/881602734/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

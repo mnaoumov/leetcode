@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1461_Check_If_a_String_Contains_All_Binary_Codes_of_Size_K;
 
-/// <seealso href="https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/submissions/1927926401/"/>
+/// <seealso href="https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/submissions/1927926401/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

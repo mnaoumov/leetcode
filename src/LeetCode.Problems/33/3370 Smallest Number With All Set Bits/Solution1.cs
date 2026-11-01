@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3370_Smallest_Number_With_All_Set_Bits;
 
-/// <seealso href="https://leetcode.com/problems/smallest-number-with-all-set-bits/submissions/1816405744/"/>
+/// <seealso href="https://leetcode.com/problems/smallest-number-with-all-set-bits/submissions/1816405744/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

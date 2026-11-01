@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3815_Design_Auction_System;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-485/problems/design-auction-system/submissions/1888496969/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-485/problems/design-auction-system/submissions/1888496969/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution3 : ISolution

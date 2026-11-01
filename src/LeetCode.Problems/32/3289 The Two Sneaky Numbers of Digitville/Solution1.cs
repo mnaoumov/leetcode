@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3289_The_Two_Sneaky_Numbers_of_Digitville;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-415/submissions/detail/1390480658/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-415/submissions/detail/1390480658/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

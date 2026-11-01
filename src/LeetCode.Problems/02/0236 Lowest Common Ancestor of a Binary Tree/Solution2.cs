@@ -3,7 +3,7 @@
 #pragma warning disable
 namespace LeetCode.Problems._0236_Lowest_Common_Ancestor_of_a_Binary_Tree;
 
-/// <seealso href="https://leetcode.com/submissions/detail/197168307/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/197168307/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

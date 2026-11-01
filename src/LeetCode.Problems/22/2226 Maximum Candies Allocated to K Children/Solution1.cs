@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2226_Maximum_Candies_Allocated_to_K_Children;
 
-/// <seealso href="https://leetcode.com/submissions/detail/915417490/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/915417490/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

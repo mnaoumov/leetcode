@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1746_Maximum_Subarray_Sum_After_One_Operation;
 
-/// <seealso href="https://leetcode.com/submissions/detail/938735622/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/938735622/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

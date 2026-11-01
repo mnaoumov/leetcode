@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0976_Largest_Perimeter_Triangle;
 
-/// <seealso href="https://leetcode.com/submissions/detail/820559586/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/820559586/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

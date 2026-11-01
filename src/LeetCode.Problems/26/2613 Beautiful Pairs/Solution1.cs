@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2613_Beautiful_Pairs;
 
-/// <seealso href="https://leetcode.com/submissions/detail/929767003/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/929767003/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

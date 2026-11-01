@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0515_Find_Largest_Value_in_Each_Tree_Row;
 
-/// <seealso href="https://leetcode.com/submissions/detail/904385261/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/904385261/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

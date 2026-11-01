@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2489_Number_of_Substrings_With_Fixed_Ratio;
 
-/// <seealso href="https://leetcode.com/submissions/detail/870855799/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/870855799/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

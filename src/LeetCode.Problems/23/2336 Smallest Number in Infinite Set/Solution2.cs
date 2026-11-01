@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2336_Smallest_Number_in_Infinite_Set;
 
-/// <seealso href="https://leetcode.com/submissions/detail/908120671/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/908120671/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1395_Count_Number_of_Teams;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1336925349/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1336925349/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

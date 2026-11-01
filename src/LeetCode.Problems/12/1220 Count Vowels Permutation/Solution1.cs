@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1220_Count_Vowels_Permutation;
 
-/// <seealso href="https://leetcode.com/submissions/detail/927286501/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/927286501/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

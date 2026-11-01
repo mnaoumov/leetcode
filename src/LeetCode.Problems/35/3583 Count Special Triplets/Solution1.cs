@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._3583_Count_Special_Triplets;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-454/problems/count-special-triplets/submissions/1664402063/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-454/problems/count-special-triplets/submissions/1664402063/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

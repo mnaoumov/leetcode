@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1424_Diagonal_Traverse_II;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1103817895/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1103817895/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

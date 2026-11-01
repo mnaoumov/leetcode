@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0454_4Sum_II;
 
-/// <seealso href="https://leetcode.com/submissions/detail/944082440/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/944082440/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

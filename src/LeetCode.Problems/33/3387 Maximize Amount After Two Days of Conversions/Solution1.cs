@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3387_Maximize_Amount_After_Two_Days_of_Conversions;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-428/submissions/detail/1479041360/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-428/submissions/detail/1479041360/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

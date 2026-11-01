@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2772_Apply_Operations_to_Make_All_Array_Elements_Equal_to_Zero;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-353/submissions/detail/989843518/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-353/submissions/detail/989843518/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

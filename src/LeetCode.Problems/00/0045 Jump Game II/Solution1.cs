@@ -2,7 +2,7 @@
 #pragma warning disable
 namespace LeetCode.Problems._0045_Jump_Game_II;
 
-/// <seealso href="https://leetcode.com/submissions/detail/815079985/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/815079985/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

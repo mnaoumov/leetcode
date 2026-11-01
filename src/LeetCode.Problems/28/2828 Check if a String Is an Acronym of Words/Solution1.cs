@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2828_Check_if_a_String_Is_an_Acronym_of_Words;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-359/submissions/detail/1026261048/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-359/submissions/detail/1026261048/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

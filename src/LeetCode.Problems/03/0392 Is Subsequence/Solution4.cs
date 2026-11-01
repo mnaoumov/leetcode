@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0392_Is_Subsequence;
 
-/// <seealso href="https://leetcode.com/submissions/detail/853962286/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/853962286/">Submission</seealso>
 [UsedImplicitly]
 public class Solution4 : ISolution
 {

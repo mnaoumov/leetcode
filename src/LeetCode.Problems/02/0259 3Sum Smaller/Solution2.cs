@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0259_3Sum_Smaller;
 
-/// <seealso href="https://leetcode.com/problems/3sum-smaller/submissions/1830008626/"/>
+/// <seealso href="https://leetcode.com/problems/3sum-smaller/submissions/1830008626/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution2 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1976_Number_of_Ways_to_Arrive_at_Destination;
 
-/// <seealso href="https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/submissions/1582792714/"/>
+/// <seealso href="https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/submissions/1582792714/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

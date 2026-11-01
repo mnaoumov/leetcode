@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0099_Recover_Binary_Search_Tree;
 
-/// <seealso href="https://leetcode.com/submissions/detail/829666312/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/829666312/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

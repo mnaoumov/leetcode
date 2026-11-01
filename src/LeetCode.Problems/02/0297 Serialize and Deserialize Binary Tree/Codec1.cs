@@ -4,7 +4,7 @@
 #pragma warning disable
 namespace LeetCode.Problems._0297_Serialize_and_Deserialize_Binary_Tree;
 
-/// <seealso href="https://leetcode.com/submissions/detail/199799092/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/199799092/">Submission</seealso>
 public class Codec1 : ICodec
 {
     private const string NullString = "null";

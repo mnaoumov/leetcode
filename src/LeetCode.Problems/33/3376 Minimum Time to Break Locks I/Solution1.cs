@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3376_Minimum_Time_to_Break_Locks_I;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-145/submissions/detail/1472698036/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-145/submissions/detail/1472698036/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

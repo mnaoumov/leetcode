@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1091_Shortest_Path_in_Binary_Matrix;
 
-/// <seealso href="https://leetcode.com/submissions/detail/904476731/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/904476731/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

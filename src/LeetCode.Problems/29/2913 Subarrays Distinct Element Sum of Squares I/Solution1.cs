@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2913_Subarrays_Distinct_Element_Sum_of_Squares_I;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-116/submissions/detail/1086072489/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-116/submissions/detail/1086072489/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

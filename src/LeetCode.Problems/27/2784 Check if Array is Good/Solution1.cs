@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2784_Check_if_Array_is_Good;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-109/submissions/detail/1000975196/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-109/submissions/detail/1000975196/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

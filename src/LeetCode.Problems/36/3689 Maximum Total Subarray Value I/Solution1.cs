@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3689_Maximum_Total_Subarray_Value_I;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-468/problems/maximum-total-subarray-value-i/submissions/1777624054/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-468/problems/maximum-total-subarray-value-i/submissions/1777624054/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

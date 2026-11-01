@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3719_Longest_Balanced_Subarray_I;
 
-/// <seealso href="https://leetcode.com/problems/longest-balanced-subarray-i/submissions/1915168689/"/>
+/// <seealso href="https://leetcode.com/problems/longest-balanced-subarray-i/submissions/1915168689/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

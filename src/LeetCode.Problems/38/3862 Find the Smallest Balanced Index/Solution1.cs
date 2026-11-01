@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3862_Find_the_Smallest_Balanced_Index;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-492/problems/find-the-smallest-balanced-index/submissions/1941352173/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-492/problems/find-the-smallest-balanced-index/submissions/1941352173/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

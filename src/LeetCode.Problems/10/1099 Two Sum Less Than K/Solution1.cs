@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1099_Two_Sum_Less_Than_K;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1109865607/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1109865607/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

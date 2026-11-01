@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2563_Count_the_Number_of_Fair_Pairs;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-332/submissions/detail/896293379/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-332/submissions/detail/896293379/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

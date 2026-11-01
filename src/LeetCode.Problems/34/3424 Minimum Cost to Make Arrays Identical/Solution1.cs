@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3424_Minimum_Cost_to_Make_Arrays_Identical;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-148/problems/minimum-cost-to-make-arrays-identical/submissions/1512594205/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-148/problems/minimum-cost-to-make-arrays-identical/submissions/1512594205/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0540_Single_Element_in_a_Sorted_Array;
 
-/// <seealso href="https://leetcode.com/submissions/detail/901906529/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/901906529/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

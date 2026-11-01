@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3678_Smallest_Absent_Positive_Greater_Than_Average;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-165/problems/smallest-absent-positive-greater-than-average/submissions/1769382600/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-165/problems/smallest-absent-positive-greater-than-average/submissions/1769382600/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution1 : ISolution

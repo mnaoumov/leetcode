@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._0254_Factor_Combinations;
 
-/// <seealso href="https://leetcode.com/submissions/detail/943589112/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/943589112/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

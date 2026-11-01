@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2709_Greatest_Common_Divisor_Traversal;
 
-/// <seealso href="https://leetcode.com/contest/biweekly-contest-105/submissions/detail/958419588/"/>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-105/submissions/detail/958419588/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution3 : ISolution

@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2322_Minimum_Score_After_Removals_on_a_Tree;
 
-/// <seealso href="https://leetcode.com/problems/minimum-score-after-removals-on-a-tree/submissions/1710371330/"/>
+/// <seealso href="https://leetcode.com/problems/minimum-score-after-removals-on-a-tree/submissions/1710371330/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

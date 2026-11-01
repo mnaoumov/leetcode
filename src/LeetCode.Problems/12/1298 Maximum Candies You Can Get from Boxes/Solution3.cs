@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1298_Maximum_Candies_You_Can_Get_from_Boxes;
 
-/// <seealso href="https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/submissions/1652240265/"/>
+/// <seealso href="https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/submissions/1652240265/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

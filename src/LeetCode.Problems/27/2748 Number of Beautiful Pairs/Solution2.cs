@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace LeetCode.Problems._2748_Number_of_Beautiful_Pairs;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-351/submissions/detail/978931555/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-351/submissions/detail/978931555/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

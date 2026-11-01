@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1497_Check_If_Array_Pairs_Are_Divisible_by_k;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1407687309/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1407687309/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

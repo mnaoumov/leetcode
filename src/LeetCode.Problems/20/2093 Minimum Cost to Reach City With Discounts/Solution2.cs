@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2093_Minimum_Cost_to_Reach_City_With_Discounts;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1329081357/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1329081357/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

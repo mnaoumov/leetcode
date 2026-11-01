@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._1436_Destination_City;
 
-/// <seealso href="https://leetcode.com/problems/destination-city/submissions/"/>
+/// <seealso href="https://leetcode.com/problems/destination-city/submissions/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

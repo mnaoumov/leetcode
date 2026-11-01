@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2948_Make_Lexicographically_Smallest_Array_by_Swapping_Elements;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-373/submissions/detail/1106479624/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-373/submissions/detail/1106479624/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

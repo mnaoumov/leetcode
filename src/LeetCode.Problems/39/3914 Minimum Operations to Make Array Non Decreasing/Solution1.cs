@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._3914_Minimum_Operations_to_Make_Array_Non_Decreasing;
 
-/// <seealso href="https://leetcode.com/contest/weekly-contest-499/problems/minimum-operations-to-make-array-non-decreasing/submissions/1988245334/"/>
+/// <seealso href="https://leetcode.com/contest/weekly-contest-499/problems/minimum-operations-to-make-array-non-decreasing/submissions/1988245334/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

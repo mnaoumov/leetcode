@@ -1,6 +1,6 @@
 namespace LeetCode.Problems._2220_Minimum_Bit_Flips_to_Convert_Number;
 
-/// <seealso href="https://leetcode.com/submissions/detail/1386223134/"/>
+/// <seealso href="https://leetcode.com/submissions/detail/1386223134/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

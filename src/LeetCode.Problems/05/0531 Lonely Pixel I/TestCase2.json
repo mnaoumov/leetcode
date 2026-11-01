@@ -1,0 +1,5 @@
+{
+  "$schema": "../../testcase.schema.json",
+  "picture": [["B", "B", "B"], ["B", "B", "W"], ["B", "B", "B"]],
+  "output": 0
+}

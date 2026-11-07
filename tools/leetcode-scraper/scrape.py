@@ -12,9 +12,9 @@ from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 
-PROBLEMS_DIR = Path(r"F:\Obsidian\Projects\LeetCode\Problems")
-WEEKLY_DIR = Path(r"F:\Obsidian\Projects\LeetCode\Contests\Weekly Contest")
-BIWEEKLY_DIR = Path(r"F:\Obsidian\Projects\LeetCode\Contests\Biweekly Contest")
+PROBLEMS_DIR = Path(r"F:\Obsidian\Learning\Misha\Programming\LeetCode\Problems")
+WEEKLY_DIR = Path(r"F:\Obsidian\Learning\Misha\Programming\LeetCode\Contests\Weekly Contest")
+BIWEEKLY_DIR = Path(r"F:\Obsidian\Learning\Misha\Programming\LeetCode\Contests\Biweekly Contest")
 COOKIE_FILE = Path(__file__).parent / "leetcode_cookie.txt"
 DAILY_WEEKLY_CACHE_FILE = Path(__file__).parent / "daily_weekly_cache.json"
 SLUG_CACHE_FILE = Path(__file__).parent / "slug_cache.json"

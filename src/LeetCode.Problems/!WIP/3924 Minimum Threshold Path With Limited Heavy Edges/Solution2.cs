@@ -2,9 +2,7 @@ using System.Collections.Immutable;
 
 namespace LeetCode.Problems._3924_Minimum_Threshold_Path_With_Limited_Heavy_Edges;
 
-/// <summary>
-/// https://leetcode.com/problems/minimum-threshold-path-with-limited-heavy-edges/submissions/1999056684/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/minimum-threshold-path-with-limited-heavy-edges/submissions/1999056684/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution2 : ISolution

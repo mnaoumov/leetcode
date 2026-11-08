@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3970_Shortest_Path_With_At_Most_K_Consecutive_Identical_Characters;
 
-/// <summary>
-/// https://leetcode.com/problems/shortest-path-with-at-most-k-consecutive-identical-characters/submissions/2185131377/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/shortest-path-with-at-most-k-consecutive-identical-characters/submissions/2185131377/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

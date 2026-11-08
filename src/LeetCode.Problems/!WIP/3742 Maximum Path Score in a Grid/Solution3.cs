@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3742_Maximum_Path_Score_in_a_Grid;
 
-/// <summary>
-/// https://leetcode.com/problems/maximum-path-score-in-a-grid/submissions/1993729458/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/maximum-path-score-in-a-grid/submissions/1993729458/">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

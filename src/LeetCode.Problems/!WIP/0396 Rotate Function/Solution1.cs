@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0396_Rotate_Function;
 
-/// <summary>
-/// https://leetcode.com/problems/rotate-function/submissions/1992870529/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/rotate-function/submissions/1992870529/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

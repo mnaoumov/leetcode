@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1391_Check_if_There_is_a_Valid_Path_in_a_Grid;
 
-/// <summary>
-/// https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/submissions/1989023276/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/submissions/1989023276/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3970_Shortest_Path_With_At_Most_K_Consecutive_Identical_Characters;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url">Submission</seealso>
 [UsedImplicitly]
 public class Solution3 : ISolution
 {

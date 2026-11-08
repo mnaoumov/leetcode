@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1722_Minimize_Hamming_Distance_After_Swap_Operations;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

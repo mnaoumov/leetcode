@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3534_Path_Existence_Queries_in_a_Graph_II;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

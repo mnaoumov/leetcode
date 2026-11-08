@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2213_Longest_Substring_of_One_Repeating_Character;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

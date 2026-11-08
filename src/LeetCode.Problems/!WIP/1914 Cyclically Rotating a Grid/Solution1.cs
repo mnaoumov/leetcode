@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1914_Cyclically_Rotating_a_Grid;
 
-/// <summary>
-/// https://leetcode.com/problems/cyclically-rotating-a-grid/submissions/1998549915/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/cyclically-rotating-a-grid/submissions/1998549915/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

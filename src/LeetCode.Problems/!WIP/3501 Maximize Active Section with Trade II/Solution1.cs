@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3501_Maximize_Active_Section_with_Trade_II;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.NotImplemented)]
 public class Solution1 : ISolution

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._0788_Rotated_Digits;
 
-/// <summary>
-/// https://leetcode.com/problems/rotated-digits/submissions/1993687646/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/rotated-digits/submissions/1993687646/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._2089_Find_Target_Indices_After_Sorting_Array;
 
-/// <summary>
-/// https://leetcode.com/problems/find-target-indices-after-sorting-array/submissions/2175827102/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/find-target-indices-after-sorting-array/submissions/2175827102/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

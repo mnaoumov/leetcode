@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1111_Maximum_Nesting_Depth_of_Two_Valid_Parentheses_Strings;
 
-/// <summary>
-/// https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/submissions/2157643059/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/submissions/2157643059/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

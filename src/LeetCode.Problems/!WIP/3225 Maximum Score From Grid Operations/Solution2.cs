@@ -1,9 +1,7 @@
 #pragma warning disable CA1814
 namespace LeetCode.Problems._3225_Maximum_Score_From_Grid_Operations;
 
-/// <summary>
-/// https://leetcode.com/problems/maximum-score-from-grid-operations/submissions/1990705031/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/maximum-score-from-grid-operations/submissions/1990705031/">Submission</seealso>
 [UsedImplicitly]
 public class Solution2 : ISolution
 {

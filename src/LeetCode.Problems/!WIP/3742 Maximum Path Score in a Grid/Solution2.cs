@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3742_Maximum_Path_Score_in_a_Grid;
 
-/// <summary>
-/// https://leetcode.com/problems/maximum-path-score-in-a-grid/submissions/1993717775/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/maximum-path-score-in-a-grid/submissions/1993717775/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

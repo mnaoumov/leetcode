@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3225_Maximum_Score_From_Grid_Operations;
 
-/// <summary>
-/// https://leetcode.com/problems/maximum-score-from-grid-operations/submissions/1990698090/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/maximum-score-from-grid-operations/submissions/1990698090/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution1 : ISolution

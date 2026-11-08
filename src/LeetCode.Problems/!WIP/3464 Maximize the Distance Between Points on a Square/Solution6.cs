@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3464_Maximize_the_Distance_Between_Points_on_a_Square;
 
-/// <summary>
-/// https://leetcode.com/problems/maximize-the-distance-between-points-on-a-square/submissions/1989010671/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/maximize-the-distance-between-points-on-a-square/submissions/1989010671/">Submission</seealso>
 [UsedImplicitly]
 public class Solution6 : ISolution
 {

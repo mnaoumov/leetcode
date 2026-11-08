@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3302_Find_the_Lexicographically_Smallest_Valid_Sequence;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-140/submissions/detail/1405022496/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-140/submissions/detail/1405022496/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

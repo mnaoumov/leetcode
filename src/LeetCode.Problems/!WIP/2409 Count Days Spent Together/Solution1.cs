@@ -2,9 +2,7 @@ using System.Globalization;
 
 namespace LeetCode.Problems._2409_Count_Days_Spent_Together;
 
-/// <summary>
-/// TODO url
-/// </summary>
+/// <seealso href="TODO url">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

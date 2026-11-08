@@ -2,9 +2,7 @@ using System.Globalization;
 
 namespace LeetCode.Problems._3841_Palindromic_Path_Queries_in_a_Tree;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-176/problems/palindromic-path-queries-in-a-tree/submissions/1919157316/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-176/problems/palindromic-path-queries-in-a-tree/submissions/1919157316/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

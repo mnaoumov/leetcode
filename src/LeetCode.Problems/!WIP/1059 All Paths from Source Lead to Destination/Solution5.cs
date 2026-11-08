@@ -2,9 +2,7 @@ using System.Collections.Immutable;
 
 namespace LeetCode.Problems._1059_All_Paths_from_Source_Lead_to_Destination;
 
-/// <summary>
-/// https://leetcode.com/problems/all-paths-from-source-lead-to-destination/submissions/1990641348/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/all-paths-from-source-lead-to-destination/submissions/1990641348/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.WrongAnswer)]
 public class Solution5 : ISolution

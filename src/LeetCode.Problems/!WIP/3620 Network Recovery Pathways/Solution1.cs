@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3620_Network_Recovery_Pathways;
 
-/// <summary>
-/// https://leetcode.com/contest/biweekly-contest-161/problems/network-recovery-pathways/submissions/1703662409/
-/// </summary>
+/// <seealso href="https://leetcode.com/contest/biweekly-contest-161/problems/network-recovery-pathways/submissions/1703662409/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.RuntimeError)]
 public class Solution1 : ISolution

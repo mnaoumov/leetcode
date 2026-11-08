@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._1559_Detect_Cycles_in_2D_Grid;
 
-/// <summary>
-/// https://leetcode.com/problems/detect-cycles-in-2d-grid/submissions/1988354975/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/detect-cycles-in-2d-grid/submissions/1988354975/">Submission</seealso>
 [UsedImplicitly]
 public class Solution1 : ISolution
 {

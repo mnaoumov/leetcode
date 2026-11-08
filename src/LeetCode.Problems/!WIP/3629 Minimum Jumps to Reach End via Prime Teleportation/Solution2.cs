@@ -1,8 +1,6 @@
 namespace LeetCode.Problems._3629_Minimum_Jumps_to_Reach_End_via_Prime_Teleportation;
 
-/// <summary>
-/// https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation/submissions/1997795819/
-/// </summary>
+/// <seealso href="https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation/submissions/1997795819/">Submission</seealso>
 [UsedImplicitly]
 [SkipSolution(SkipSolutionReason.TimeLimitExceeded)]
 public class Solution2 : ISolution

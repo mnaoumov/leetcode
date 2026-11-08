@@ -1,6 +1,5 @@
 using System.CommandLine;
 using System.Diagnostics;
-using System.Text.RegularExpressions;
 
 namespace TemplateGenerator;
 
@@ -8,11 +7,8 @@ namespace TemplateGenerator;
 /// Moves finished problems from !WIP/NNNN Title to their bucket, NN/NNNN Title. Namespaces do not include the
 /// bucket, so nothing else changes.
 /// </summary>
-internal static partial class FinishCommand
+internal static class FinishCommand
 {
-    [GeneratedRegex(@"^(\d{4}) ")]
-    private static partial Regex ProblemFolderRegex();
-
     public static Command Create()
     {
         var numbersArgument = new Argument<int[]>("numbers")
@@ -27,62 +23,19 @@ internal static partial class FinishCommand
 
     private static int Finish(int[] numbers)
     {
-        var wipFolders = Directory.GetDirectories(GeneratorBase.LeetCodeFolderPath)
-            .Select(Path.GetFileName)
-            .OfType<string>()
-            .Where(name => ProblemFolderRegex().IsMatch(name))
-            .Order()
-            .ToArray();
+        return new ProblemFinisher(GeneratorBase.ProblemsFolderPath, Move, ShowDiff, Console.In, Console.Out, Console.Error).Finish(numbers);
+    }
 
-        if (numbers.Length == 0)
+    /// <summary>
+    /// Prints what would change; <c>git diff --no-index</c> works on any two folders, tracked or not.
+    /// </summary>
+    private static void ShowDiff(string existing, string replacement)
+    {
+        var git = Process.Start(new ProcessStartInfo("git", ["--no-pager", "diff", "--no-index", "--", existing, replacement])
         {
-            if (wipFolders.Length == 0)
-            {
-                Console.WriteLine("!WIP holds no numbered problems.");
-                return 0;
-            }
-
-            foreach (var name in wipFolders)
-            {
-                Console.WriteLine(name);
-            }
-
-            numbers = ConsoleHelper.Read("problem numbers to finish, separated by spaces")
-                .Split(' ', StringSplitOptions.RemoveEmptyEntries)
-                .Select(int.Parse)
-                .ToArray();
-        }
-
-        var exitCode = 0;
-
-        foreach (var number in numbers)
-        {
-            var padded = number.ToString("D4");
-            var name = wipFolders.SingleOrDefault(folder => ProblemFolderRegex().Match(folder).Groups[1].Value == padded);
-
-            if (name == null)
-            {
-                Console.Error.WriteLine($"{padded}: no !WIP/{padded} folder");
-                exitCode = 1;
-                continue;
-            }
-
-            var source = Path.Combine(GeneratorBase.LeetCodeFolderPath, name);
-            var target = Path.Combine(GeneratorBase.ProblemsFolderPath, padded[..2], name);
-
-            if (Directory.Exists(target))
-            {
-                Console.Error.WriteLine($"{padded}: {padded[..2]}/{name} already exists");
-                exitCode = 1;
-                continue;
-            }
-
-            Directory.CreateDirectory(Path.GetDirectoryName(target)!);
-            Move(source, target);
-            Console.WriteLine($"{name} -> {padded[..2]}/{name}");
-        }
-
-        return exitCode;
+            WorkingDirectory = GeneratorBase.FindRepoRoot()
+        })!;
+        git.WaitForExit();
     }
 
     /// <summary>

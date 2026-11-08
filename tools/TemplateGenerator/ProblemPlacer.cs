@@ -86,8 +86,17 @@ internal sealed partial class ProblemPlacer
         }
 
         generator.Generate();
-        Merge(wipFolder, generator.Files);
+        Merge(wipFolder, generator.Files, true);
         return wipFolder;
+    }
+
+    /// <summary>
+    /// Merges a finished <c>!WIP</c> folder into its stored bucket folder. Its solutions are real work rather than
+    /// fresh stubs, so one that differs from the stored file is written beside it as <c>&lt;name&gt;.new</c>.
+    /// </summary>
+    internal void MergeFinished(string folder, IReadOnlyList<GeneratedFile> files)
+    {
+        Merge(folder, files, false);
     }
 
     /// <summary>
@@ -124,7 +133,7 @@ internal sealed partial class ProblemPlacer
         return null;
     }
 
-    private void Merge(string folder, IReadOnlyList<GeneratedFile> files)
+    private void Merge(string folder, IReadOnlyList<GeneratedFile> files, bool solutionsAreStubs)
     {
         var freshTestCases = new List<GeneratedFile>();
 
@@ -138,7 +147,7 @@ internal sealed partial class ProblemPlacer
 
             var path = Path.Combine(folder, file.Name);
 
-            if (file.Name.StartsWith(SolutionFilePrefix, StringComparison.Ordinal))
+            if (solutionsAreStubs && file.Name.StartsWith(SolutionFilePrefix, StringComparison.Ordinal))
             {
                 var hasStoredSolution = Directory.GetFiles(folder, $"{SolutionFilePrefix}*{Path.GetExtension(file.Name)}").Length > 0;
 

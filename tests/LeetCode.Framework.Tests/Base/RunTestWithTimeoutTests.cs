@@ -99,6 +99,20 @@ public class RunTestWithTimeoutTests : TestsBase
         Assert.That(exception.Message, Does.Contain("timed out after 100 milliseconds"));
     }
 
+    // What a killed Bash script looks like: its pipes reach their end, so the reads return instead of being cancelled.
+    [Test]
+    public void FailsAnAsyncActionThatReturnsNormallyAfterItsBudget()
+    {
+        var exception = Assert.Throws<AssertionException>(() =>
+            RunTestWithTimeout(WithTimeout(100), cancellationToken =>
+            {
+                cancellationToken.WaitHandle.WaitOne();
+                return Task.CompletedTask;
+            }));
+
+        Assert.That(exception.Message, Does.Contain("timed out after 100 milliseconds"));
+    }
+
     [Test]
     public void PassesAnAsyncActionThatFinishesInBudget()
     {

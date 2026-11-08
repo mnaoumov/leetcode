@@ -465,6 +465,12 @@ public abstract class TestsBase
         catch (Exception) when (cts.IsCancellationRequested)
 #pragma warning restore CA1031
         {
+            // Reported below, with the test that returned normally.
+        }
+
+        // A cancelled test need not throw: killing a Bash script ends its pipes, so the reads simply return.
+        if (cts.IsCancellationRequested)
+        {
             Assert.Fail($"Test timed out after {testCase.TimeoutInMilliseconds} milliseconds");
         }
     }

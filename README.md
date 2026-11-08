@@ -46,7 +46,7 @@ All [my LeetCode](https://leetcode.com/mnaoumov/) tasks solved
 
 The JavaScript problems run on Node.js, so `node` and `npm` must be on `PATH`: the first build runs `npm ci` in `src/LeetCode.Framework/JavaScript` to restore `node_modules`, which is not committed.
 
-A problem moves into `!WIP` to be worked on and back into its bucket when it is done: `TemplateGenerator finish <number>...` moves `!WIP/NNNN Title` to `NN/NNNN Title` (with no number it lists the `!WIP` problems to pick from). Within a problem folder, `Solution<n>` and `TestCase<n>` are padded to the width of the largest number, so they sort in order.
+A problem moves into `!WIP` to be worked on and back into its bucket when it is done: `TemplateGenerator finish <number>...` moves `!WIP/NNNN Title` to `NN/NNNN Title` (with no number it lists the `!WIP` problems to pick from). Generating a problem that is stored already reuses its folder instead: a solved one moves back from its bucket into `!WIP`, every stored solution is kept, only the test cases that are new are added, and any other generated file that differs from the stored one, such as `ISolution.cs` after a signature change, is written beside it as `<name>.new` for you to reconcile. Within a problem folder, `Solution<n>` and `TestCase<n>` are padded to the width of the largest number, so they sort in order.
 
 ## Filing an issue (for AI agents and humans)
 

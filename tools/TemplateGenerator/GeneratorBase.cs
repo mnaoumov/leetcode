@@ -20,8 +20,17 @@ internal abstract partial class GeneratorBase : IGenerator
 
     protected readonly Option<string> TitleOption = new("--title") { Description = "Problem title", Required = true };
 
-    private string Title { get; set; } = string.Empty;
-    private string TaskDir { get; set; } = string.Empty;
+    private readonly List<GeneratedFile> _files = [];
+
+    /// <summary>
+    /// The problem's folder name under <c>!WIP</c>, e.g. <c>0001 Two Sum</c>.
+    /// </summary>
+    public string FolderName { get; private set; } = string.Empty;
+
+    /// <summary>
+    /// The files <see cref="Generate" /> rendered, in order; nothing is written until <see cref="ProblemPlacer" /> places them.
+    /// </summary>
+    public IReadOnlyList<GeneratedFile> Files => _files;
 
     [UsedImplicitly]
     public string EscapedTitle { get; private set; } = string.Empty;
@@ -48,11 +57,19 @@ internal abstract partial class GeneratorBase : IGenerator
     {
         ArgumentException.ThrowIfNullOrWhiteSpace(title);
 
-        Title = title;
-        var titleWithUnifiedProblemNumber = ProblemNumberRegex().Replace(Title, match => match.Groups[1].Value.PadLeft(ProblemNumberLength, '0'));
-        var validFolderName = ReplaceChars(titleWithUnifiedProblemNumber, Path.GetInvalidFileNameChars().Append('.').ToArray());
-        TaskDir = Path.Combine(LeetCodeFolderPath, validFolderName);
-        EscapedTitle = $"_{ReplaceChars(validFolderName, InvalidNamespaceChars.ToCharArray())}";
+        var titleWithUnifiedProblemNumber = ProblemNumberRegex().Replace(title, match => match.Groups[1].Value.PadLeft(ProblemNumberLength, '0'));
+        UseFolderName(ReplaceChars(titleWithUnifiedProblemNumber, Path.GetInvalidFileNameChars().Append('.').ToArray()));
+    }
+
+    /// <summary>
+    /// Targets an existing folder, so the rendered namespace matches the files already stored there.
+    /// </summary>
+    public void UseFolderName(string folderName)
+    {
+        ArgumentException.ThrowIfNullOrWhiteSpace(folderName);
+
+        FolderName = folderName;
+        EscapedTitle = $"_{ReplaceChars(folderName, InvalidNamespaceChars.ToCharArray())}";
         Namespace = GenerateTemplate("namespace LeetCode.Problems.{{ EscapedTitle }};");
     }
 
@@ -67,7 +84,6 @@ internal abstract partial class GeneratorBase : IGenerator
             throw new ArgumentException($"Invalid file name: {fileName}", nameof(fileName));
         }
 
-        Directory.CreateDirectory(TaskDir);
         var content = GenerateTemplate(template);
 
         // Normalize line endings to CRLF for Windows/Visual Studio
@@ -78,7 +94,7 @@ internal abstract partial class GeneratorBase : IGenerator
             content += "\r\n";
         }
 
-        File.WriteAllText(Path.Combine(TaskDir, fileName), content);
+        _files.Add(new GeneratedFile(fileName, content));
     }
 
     protected string GenerateTemplate(string template)
@@ -110,5 +126,6 @@ internal abstract partial class GeneratorBase : IGenerator
         }
 
         throw new DirectoryNotFoundException($"No LeetCode.slnx above {AppContext.BaseDirectory}");
-    }}
+    }
+}
 

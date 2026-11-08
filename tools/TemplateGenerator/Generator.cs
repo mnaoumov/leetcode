@@ -26,7 +26,7 @@ internal static class Generator
             command.SetAction(result =>
             {
                 generator.SetOptions(result);
-                generator.Generate();
+                new ProblemPlacer(GeneratorBase.ProblemsFolderPath, FinishCommand.Move, Console.Out).Place(generator);
             });
             rootCommand.Add(command);
         }

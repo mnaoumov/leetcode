@@ -88,7 +88,7 @@ internal static partial class FinishCommand
     /// <summary>
     /// <c>git mv</c> keeps the move staged as a rename; a folder git does not track yet is moved on disk.
     /// </summary>
-    private static void Move(string source, string target)
+    internal static void Move(string source, string target)
     {
         var git = Process.Start(new ProcessStartInfo("git", ["mv", source, target])
         {

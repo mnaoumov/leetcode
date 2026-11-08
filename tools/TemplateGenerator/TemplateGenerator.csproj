@@ -13,4 +13,8 @@
     <PackageReference Include="System.CommandLine" />
   </ItemGroup>
 
+  <ItemGroup>
+    <InternalsVisibleTo Include="LeetCode.Framework.Tests" />
+  </ItemGroup>
+
 </Project>

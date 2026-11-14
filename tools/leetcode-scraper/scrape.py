@@ -8,7 +8,7 @@ import sys
 import time
 import urllib.error
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 
@@ -619,17 +619,17 @@ def generate_problem_markdown(detail, solved_date=None):
 
     lines = []
     lines.append("---")
-    lines.append(f"created: {timestamp}")
-    lines.append(f"updated: {timestamp}")
+    lines.append(f"ctime: {timestamp}")
+    lines.append(f"mtime: {timestamp}")
     lines.append(f"title: {full_title}")
     lines.append(f'difficulty: "[{difficulty}](<../../Difficulty/{difficulty}.md>)"')
     lines.append(f"source: https://leetcode.com/problems/{title_slug}/")
 
     if solved_date:
-        lines.append(f"solved: {solved_date}")
+        lines.append(f"solutionDate: {solved_date}")
 
     if is_paid:
-        lines.append("tagLinks:")
+        lines.append("keywords:")
         lines.append('  - "[Premium](<../../Tags/Premium.md>)"')
 
     lines.append("---")
@@ -1290,11 +1290,76 @@ def fetch_daily_and_weekly_challenges(year, month):
         return [], []
 
 
-def date_to_week_label(date_str):
-    """Convert a date like '2026-04-08' to '2026-04-W2' (week within month)."""
+# The first month whose weekly challenges LeetCode numbers by week of the year (Sunday-start weeks,
+# the first one 2026-08-30). Before it, LeetCode numbered weeks within a month (W1 starts on the 1st).
+FIRST_YEAR_WEEK_MONTH = (2026, 9)
+
+
+def leetcode_year_week(date_str):
+    """LeetCode's week of the year for a weekly challenge starting on `date_str`, as (year, week).
+
+    Weeks start on Sunday and week 1 holds 1 January, as LeetCode's calendar shows them: the week from
+    2026-11-01 is W45 and the week from 2026-11-15 is W47. These are not ISO weeks.
+    """
+    start = datetime.strptime(date_str, "%Y-%m-%d")
+    end = start + timedelta(days=6)
+    if end.year > start.year:
+        return end.year, 1
+    jan1 = datetime(start.year, 1, 1)
+    sunday_offset = (jan1.weekday() + 1) % 7
+    return start.year, (start.timetuple().tm_yday - 1 + sunday_offset) // 7 + 1
+
+
+def weekly_entry(date_str, response_month):
+    """The weekly premium entry for a challenge, holding only what LeetCode shows for it.
+
+    `response_month` is the (year, month) whose API answer listed the challenge. Returns
+    ("month", "YYYY-MM", week of month) or ("year", year, week of year).
+    """
+    if response_month >= FIRST_YEAR_WEEK_MONTH:
+        year, week = leetcode_year_week(date_str)
+        return ("year", year, week)
     dt = datetime.strptime(date_str, "%Y-%m-%d")
-    week_num = (dt.day - 1) // 7 + 1
-    return f"{dt.year}-{dt.month:02d}-W{week_num}"
+    return ("month", f"{dt.year}-{dt.month:02d}", (dt.day - 1) // 7 + 1)
+
+
+def weekly_entry_sort_key(entry):
+    """The start date of a weekly entry, for keeping the list in order."""
+    if entry[0] == "month":
+        return f"{entry[1]}-{(entry[2] - 1) * 7 + 1:02d}"
+    year, week = entry[1], entry[2]
+    jan1 = datetime(year, 1, 1)
+    first_sunday = jan1 - timedelta(days=(jan1.weekday() + 1) % 7)
+    return (first_sunday + timedelta(weeks=week - 1)).strftime("%Y-%m-%d")
+
+
+def weekly_entry_yaml(entry):
+    """The YAML list item for a weekly entry."""
+    if entry[0] == "month":
+        return f"  - utcMonth: {entry[1]}\n    weekOfMonth: {entry[2]}\n"
+    return f"  - utcYear: {entry[1]}\n    weekOfYear: {entry[2]}\n"
+
+
+WEEKLY_BLOCK_RE = re.compile(r"^weeklyPremiumProblems:\n((?:  [- ] .+\n)*)", re.MULTILINE)
+DAILY_BLOCK_RE = re.compile(r"^dailyProblemUtcDate:\n((?:  - .+\n)*)", re.MULTILINE)
+
+
+def parse_weekly_entries(block):
+    """Parse the list items of a weeklyPremiumProblems block into weekly entries."""
+    entries = set()
+    for m in re.finditer(r"  - utcMonth: (\d{4}-\d{2})\n    weekOfMonth: (\d+)\n", block):
+        entries.add(("month", m.group(1), int(m.group(2))))
+    for m in re.finditer(r"  - utcYear: (\d{4})\n    weekOfYear: (\d+)\n", block):
+        entries.add(("year", int(m.group(1)), int(m.group(2))))
+    return entries
+
+
+def bump_mtime(frontmatter):
+    """Set `mtime` to now: a tool that adds content to a note bumps it, a formatting pass does not."""
+    line = f"mtime: {format_timestamp()}"
+    if re.search(r"^mtime: .*$", frontmatter, re.MULTILINE):
+        return re.sub(r"^mtime: .*$", line, frontmatter, count=1, flags=re.MULTILINE)
+    return frontmatter + line + "\n"
 
 
 def backfill_daily_weekly():
@@ -1315,7 +1380,7 @@ def backfill_daily_weekly():
     # Fetch daily/weekly challenges, resuming from the last sync timestamp.
     now = datetime.now()
     daily_map = {}   # problem_number -> set of dates
-    weekly_map = {}  # problem_number -> set of week labels
+    weekly_map = {}  # problem_number -> set of weekly entries (see weekly_entry)
 
     cache = load_json_cache(DAILY_WEEKLY_CACHE_FILE)
 
@@ -1367,9 +1432,7 @@ def backfill_daily_weekly():
 
             for entry in weekly:
                 num = int(entry["question"]["questionFrontendId"])
-                date = entry["date"]
-                label = date_to_week_label(date)
-                weekly_map.setdefault(num, set()).add(label)
+                weekly_map.setdefault(num, set()).add(weekly_entry(entry["date"], (year, month)))
 
     # Record this sync so the next run resumes from here.
     cache[LAST_SYNC_KEY] = now.isoformat()
@@ -1389,24 +1452,6 @@ def backfill_daily_weekly():
         content = filepath.read_text(encoding="utf-8")
         original = content
 
-        # Parse existing daily entries
-        existing_daily = set()
-        for m in re.finditer(r'dailyProblems:\n((?:  - .+\n)*)', content):
-            for dm in re.finditer(r'(\d{4}-\d{2}-\d{2})', m.group(1)):
-                existing_daily.add(dm.group(1))
-
-        # Parse existing weekly entries
-        existing_weekly = set()
-        for m in re.finditer(r'weeklyPremiumProblems:\n((?:  - .+\n)*)', content):
-            for wm in re.finditer(r'(\d{4}-\d{2}-W\d+)', m.group(1)):
-                existing_weekly.add(wm.group(1))
-
-        new_daily = sorted(api_daily - existing_daily)
-        new_weekly = sorted(api_weekly - existing_weekly)
-
-        if not new_daily and not new_weekly:
-            continue
-
         # Find the end of frontmatter to insert before ---
         fm_match = re.match(r'(---\n)(.*?\n)(---\n)', content, re.DOTALL)
         if not fm_match:
@@ -1415,39 +1460,42 @@ def backfill_daily_weekly():
         frontmatter = fm_match.group(2)
         after_fm = content[fm_match.end():]
 
+        # Parse existing daily entries
+        existing_daily = set()
+        daily_match = DAILY_BLOCK_RE.search(frontmatter)
+        if daily_match:
+            existing_daily = set(re.findall(r'(\d{4}-\d{2}-\d{2})', daily_match.group(1)))
+
+        # Parse existing weekly entries
+        weekly_match = WEEKLY_BLOCK_RE.search(frontmatter)
+        existing_weekly = parse_weekly_entries(weekly_match.group(1)) if weekly_match else set()
+
+        new_daily = sorted(api_daily - existing_daily)
+        new_weekly = api_weekly - existing_weekly
+
+        if not new_daily and not new_weekly:
+            continue
+
         # Add new daily entries
         if new_daily:
-            if "dailyProblems:" in frontmatter:
-                # Find the dailyProblems block and append entries
-                daily_entries = "\n".join(f"  - {d}" for d in new_daily)
-                # Insert after existing dailyProblems entries
-                frontmatter = re.sub(
-                    r'(dailyProblems:\n(?:  - .+\n)*)',
-                    lambda m: m.group(1) + daily_entries + "\n",
-                    frontmatter,
-                )
+            if daily_match:
+                # Append after the existing entries
+                daily_entries = "".join(f"  - {d}\n" for d in new_daily)
+                frontmatter = DAILY_BLOCK_RE.sub(lambda m: m.group(0) + daily_entries, frontmatter, count=1)
             else:
-                # Add dailyProblems section before ---
-                daily_entries = "dailyProblems:\n" + "\n".join(
-                    f"  - {d}" for d in sorted(api_daily)
-                ) + "\n"
-                frontmatter += daily_entries
+                frontmatter += "dailyProblemUtcDate:\n" + "".join(f"  - {d}\n" for d in sorted(api_daily))
 
-        # Add new weekly entries
+        # Add new weekly entries: rewrite the whole list, in date order
         if new_weekly:
-            if "weeklyPremiumProblems:" in frontmatter:
-                weekly_entries = "\n".join(f"  - {w}" for w in new_weekly)
-                frontmatter = re.sub(
-                    r'(weeklyPremiumProblems:\n(?:  - .+\n)*)',
-                    lambda m: m.group(1) + weekly_entries + "\n",
-                    frontmatter,
-                )
+            weekly_block = "weeklyPremiumProblems:\n" + "".join(
+                weekly_entry_yaml(w) for w in sorted(existing_weekly | api_weekly, key=weekly_entry_sort_key)
+            )
+            if weekly_match:
+                frontmatter = WEEKLY_BLOCK_RE.sub(lambda m: weekly_block, frontmatter, count=1)
             else:
-                weekly_entries = "weeklyPremiumProblems:\n" + "\n".join(
-                    f"  - {w}" for w in sorted(api_weekly)
-                ) + "\n"
-                frontmatter += weekly_entries
+                frontmatter += weekly_block
 
+        frontmatter = bump_mtime(frontmatter)
         content = "---\n" + frontmatter + "---\n" + after_fm
 
         if content != original:
@@ -1494,7 +1542,7 @@ def fetch_solved_slugs():
 
 
 def sync_solved_dates():
-    """Set each solved problem's `solved:` to the date of its first accepted submission."""
+    """Set each solved problem's `solutionDate:` to the date of its first accepted submission."""
     print("\nSyncing solved dates...")
     solved = fetch_solved_slugs()
     print(f"  LeetCode reports {len(solved)} solved problems")
@@ -1524,16 +1572,17 @@ def sync_solved_dates():
         if not fm_match:
             continue
         frontmatter = fm_match.group(1)
-        current = re.search(r"^solved: (.+)$", frontmatter, re.MULTILINE)
+        current = re.search(r"^solutionDate: (.+)$", frontmatter, re.MULTILINE)
         if current:
             if current.group(1).strip('"') != date:
                 mismatched.append((f.name, current.group(1), date))
             continue
 
         if re.search(r"^source: .+\n", frontmatter, re.MULTILINE):
-            frontmatter = re.sub(r"^(source: .+\n)", rf"\g<1>solved: {date}\n", frontmatter, count=1, flags=re.MULTILINE)
+            frontmatter = re.sub(r"^(source: .+\n)", rf"\g<1>solutionDate: {date}\n", frontmatter, count=1, flags=re.MULTILINE)
         else:
-            frontmatter += f"solved: {date}\n"
+            frontmatter += f"solutionDate: {date}\n"
+        frontmatter = bump_mtime(frontmatter)
         f.write_text("---\n" + frontmatter + "---\n" + content[fm_match.end():], encoding="utf-8")
         added += 1
         print(f"  Solved: {f.name} ({date})")
